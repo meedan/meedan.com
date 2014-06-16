@@ -1,6 +1,115 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
+
+// @import "compass/css3";
+
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+// @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+$darkest-color: #311c4e;
+$warm-grey: #f1f2ed;
+$accent-orange: #f99157;
+$accent-blue: #6d9ed3;
+$light-blue: lighten($accent-blue, 30%);
+
+body {
+  font-family: "open sans", "Helvetica Neue";
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+em {
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-weight: 500;
+  font-family: "open sans", "helvetica neue", "helvetica";
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+a {
+  color: $accent-blue;
+  text-decoration: none;
+  border-bottom: 3px $light-blue solid;
+}
+
+div {
+  padding: 5em;
+  border-bottom: 4px solid darken($warm-grey, 2%);
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 2em 1em;
+}
+
+nav {
+  border-bottom: 4px solid darken($warm-grey, 2%);
+}
+
+//////////////////////// /// Sections
+
+.hed {
+  font-size: 2em;
+  background: {
+    color: $warm-grey;
+  };
+  color: $darkest-color;
+  // @include text-shadow(white 1px 1px 4px);
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.lede {}
+
+.programs {
+  background: {
+    color: $warm-grey;
+    // image: image-url("../images/gradient.png");
+    repeat: no-repeat;
+    position: top left;
+    size: cover;
+  };
+  a {
+    color: $darkest-color;
+    font-size: 1.5em;
+    background-color: white;
+    padding: 1em 0.5em;
+  }
+}
+
+.partners {
+  background-color: $accent-blue;
+  a {
+    color: white;
+  }
+}
+
+// .sponsors {
+//   background-color: pink;
+// }
+
+.media-coverage {
+  background-color: $accent-orange;
+  a {
+    color: $darkest-color;
+    border-bottom: none;
+  }
+}
+
+// .contact {
+//   background-color: white;
+// }
