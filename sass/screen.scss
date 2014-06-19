@@ -1,24 +1,32 @@
 @import "compass/reset";
+@import "compass/css3";
+@import "colors";
+@import "effects";
 
-// @import "compass/css3";
+$breakpoint: 699px;
 
-// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,900);
 
 // @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
-$darkest-color: #311c4e;
-$warm-grey: #f1f2ed;
-$accent-orange: #f99157;
-$accent-blue: #6d9ed3;
-$light-blue: lighten($accent-blue, 30%);
-
+///////////////////////////////////////////////////////
+/// Base styles
+/// Later in the cascade, these are overridden for different sites.
+///
 body {
-  font-family: "open sans", "Helvetica Neue";
-  line-height: 1.2;
+  padding-bottom: 1em;
+  line-height: 1.5;
   text-align: center;
   padding-bottom: 1em;
   font-size: 23px;
   font-weight: 400;
+}
+
+img {
+  width: auto;
+  max-width: 90%;
 }
 
 h1 {
@@ -58,6 +66,9 @@ li {
 
 nav {
   border-bottom: 4px solid darken($warm-grey, 2%);
+  #logo {
+    display: inline-block;
+  }
 }
 
 //////////////////////// /// Sections
@@ -68,8 +79,7 @@ nav {
     color: $warm-grey;
   };
   color: $darkest-color;
-  // @include text-shadow(white 1px 1px 4px);
-  padding: 2em 1em;
+  padding: 1em;
   text-align: center;
 }
 
@@ -110,6 +120,34 @@ nav {
   }
 }
 
-// .contact {
-//   background-color: white;
-// }
+body {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+}
+
+///////////////////////////////////////////////////////
+/// Meedan labs dot com 
+///
+body.meedan-labs {
+  font-family: "lato", "Helvetica Neue";
+  @media all and (max-width: $breakpoint) {
+    font-size: 18px;
+    .hed {
+      font-size: 18px;
+      font-weight: 400;
+      color: #333;
+    }
+    div {
+      padding: 1em;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////
+/// Meedan dot org
+///
+body.meedan-org {
+  font-family: "open sans", "Helvetica Neue";
+  font-size: 18px;
+}

@@ -1,0 +1,16 @@
+body {
+  animation: fadein 2s;
+}
+
+img {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

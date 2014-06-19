@@ -1,4 +1,6 @@
-/* line 5, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,900);
+/* line 17, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,70 +22,98 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+/* line 116, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 1, ../sass/_effects.scss */
 body {
-  font-family: "open sans", "Helvetica Neue";
-  line-height: 1.2;
+  animation: fadein 2s;
+}
+
+/* line 5, ../sass/_effects.scss */
+img {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  /* line 10, ../sass/_effects.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 13, ../sass/_effects.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 18, ../sass/screen.scss */
+body {
+  padding-bottom: 1em;
+  line-height: 1.5;
   text-align: center;
   padding-bottom: 1em;
   font-size: 23px;
   font-weight: 400;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
+img {
+  width: auto;
+  max-width: 90%;
+}
+
+/* line 32, ../sass/screen.scss */
 h1 {
   font-weight: 200;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 em {
   font-weight: bold;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 h2, h3 {
   font-weight: 500;
   font-family: "open sans", "helvetica neue", "helvetica";
@@ -91,52 +121,56 @@ h2, h3 {
   font-size: 1em;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 a {
   color: #6d9ed3;
   text-decoration: none;
   border-bottom: 3px #e3ecf6 solid;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 div {
   padding: 5em;
   border-bottom: 4px solid #eceee7;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 ul {
   text-align: center;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 li {
   display: inline-block;
   padding: 2em 1em;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 nav {
   border-bottom: 4px solid #eceee7;
 }
+/* line 69, ../sass/screen.scss */
+nav #logo {
+  display: inline-block;
+}
 
-/* line 65, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .hed {
   font-size: 2em;
   background-color: #f1f2ed;
   color: #311c4e;
-  padding: 2em 1em;
+  padding: 1em;
   text-align: center;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .programs {
   background-color: #f1f2ed;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
 }
-/* line 86, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .programs a {
   color: #311c4e;
   font-size: 1.5em;
@@ -144,21 +178,55 @@ nav {
   padding: 1em 0.5em;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .partners {
   background-color: #6d9ed3;
 }
-/* line 96, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .partners a {
   color: white;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .media-coverage {
   background-color: #f99157;
 }
-/* line 107, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .media-coverage a {
   color: #311c4e;
   border-bottom: none;
+}
+
+/* line 123, ../sass/screen.scss */
+body {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+}
+
+/* line 132, ../sass/screen.scss */
+body.meedan-labs {
+  font-family: "lato", "Helvetica Neue";
+}
+@media all and (max-width: 699px) {
+  /* line 132, ../sass/screen.scss */
+  body.meedan-labs {
+    font-size: 18px;
+  }
+  /* line 136, ../sass/screen.scss */
+  body.meedan-labs .hed {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+  }
+  /* line 141, ../sass/screen.scss */
+  body.meedan-labs div {
+    padding: 1em;
+  }
+}
+
+/* line 150, ../sass/screen.scss */
+body.meedan-org {
+  font-family: "open sans", "Helvetica Neue";
+  font-size: 18px;
 }
