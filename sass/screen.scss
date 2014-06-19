@@ -1,18 +1,21 @@
+/////////////////////////// Imports
 @import "compass/reset";
 @import "compass/css3";
 @import "colors";
-@import "effects";
+@import "animation";
+@import "transitions";
+@import "clearfix";
 
+/////////////////////////// Breakpoint
 $breakpoint: 699px;
 
+/////////////////////////// Fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,900);
 
-// @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
-
-///////////////////////////////////////////////////////
-/// Base styles
+/////////////////////////// Base styles
+///
 /// Later in the cascade, these are overridden for different sites.
 ///
 body {
@@ -22,10 +25,16 @@ body {
   padding-bottom: 1em;
   font-size: 23px;
   font-weight: 400;
+  background: {
+    color: $warm-grey;
+    image: image-url("meedan_logo_trans.png");
+    repeat: no-repeat;
+    position: top left;
+    size: cover;
+  };
 }
 
 img {
-  width: auto;
   max-width: 90%;
 }
 
@@ -61,7 +70,7 @@ ul {
 
 li {
   display: inline-block;
-  padding: 2em 1em;
+  padding: 1em 1em;
 }
 
 nav {
@@ -71,8 +80,21 @@ nav {
   }
 }
 
-//////////////////////// /// Sections
+/////////////////////////// Sections
+///
+nav {
+  background: {
+    color: white;
+    image: image-url("a.jpg");
+    repeat: no-repeat;
+    position: top left;
+    size: cover;
+  };
+  padding-top: 4em;
+}
 
+/////////////////////////// Hed
+///
 .hed {
   font-size: 2em;
   background: {
@@ -83,12 +105,12 @@ nav {
   text-align: center;
 }
 
-.lede {}
-
-.programs {
+/////////////////////////// Projects
+///
+.projects {
   background: {
     color: $warm-grey;
-    // image: image-url("../images/gradient.png");
+    image: image-url("gradient.png");
     repeat: no-repeat;
     position: top left;
     size: cover;
@@ -101,33 +123,42 @@ nav {
   }
 }
 
-.partners {
-  background-color: $accent-blue;
-  a {
-    color: white;
-  }
-}
+/////////////////////////// Funders
+///
+.funders {}
 
-// .sponsors {
-//   background-color: pink;
-// }
-
+/////////////////////////// Media Coverage
+///
 .media-coverage {
   background-color: $accent-orange;
+  // @include box-shadow(inset 0 0 50px desaturate($accent-orange, 40%));
   a {
     color: $darkest-color;
-    border-bottom: none;
+    border-bottom: 3px solid darken($accent-orange, 10%);
   }
 }
 
-body {
-  margin-top: 25px;
-  font-size: 21px;
-  text-align: center;
+/////////////////////////// Contact information
+///
+.vcard {
+  font-size: 18px;
+  font-weight: 200;
+  div {
+    @include reset-box-model;
+  }
+  color: darken($warm-grey, 20%);
+  a {
+    color: darken($warm-grey, 20%);
+    text-decoration: underline;
+    border-bottom-width: 0;
+  }
+  .org {
+    color: darken($warm-grey, 20%);
+  }
 }
 
 ///////////////////////////////////////////////////////
-/// Meedan labs dot com 
+/// Only for Meedan labs dot com 
 ///
 body.meedan-labs {
   font-family: "lato", "Helvetica Neue";
@@ -145,7 +176,7 @@ body.meedan-labs {
 }
 
 ///////////////////////////////////////////////////////
-/// Meedan dot org
+/// Only for Meedan dot org
 ///
 body.meedan-org {
   font-family: "open sans", "Helvetica Neue";
