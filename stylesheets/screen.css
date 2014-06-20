@@ -1,3 +1,4 @@
+@import url(font-awesome-4.1.0/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,900);
 /* line 17, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -65,7 +66,76 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 21, ../sass/screen.scss */
+@-webkit-keyframes fade-in {
+  /* line 54, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 57, ../sass/_animation.scss */
+  90% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade-in {
+  /* line 54, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 57, ../sass/_animation.scss */
+  90% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fade-in {
+  /* line 54, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 57, ../sass/_animation.scss */
+  90% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fade-in {
+  /* line 54, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 57, ../sass/_animation.scss */
+  90% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  /* line 54, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 57, ../sass/_animation.scss */
+  90% {
+    opacity: 1;
+  }
+}
+
+/* line 63, ../sass/_animation.scss */
+div {
+  -webkit-animation: fade-in 2s;
+  -moz-animation: fade-in 2s;
+  -ms-animation: fade-in 2s;
+  -o-animation: fade-in 2s;
+  animation: fade-in 2s;
+}
+
+/* line 22, ../sass/screen.scss */
 body {
   padding-bottom: 1em;
   line-height: 1.5;
@@ -73,29 +143,14 @@ body {
   padding-bottom: 1em;
   font-size: 23px;
   font-weight: 400;
-  background-color: #f1f2ed;
-  background-image: url('/images/meedan_logo_trans.png?1398225405');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: cover;
 }
 
-/* line 37, ../sass/screen.scss */
-img {
-  max-width: 90%;
-}
-
-/* line 41, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 h1 {
   font-weight: 200;
 }
 
-/* line 45, ../sass/screen.scss */
-em {
-  font-weight: bold;
-}
-
-/* line 49, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 h2, h3 {
   font-weight: 500;
   font-family: "open sans", "helvetica neue", "helvetica";
@@ -103,129 +158,115 @@ h2, h3 {
   font-size: 1em;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
+em {
+  font-weight: bold;
+}
+
+/* line 46, ../sass/screen.scss */
 a {
   color: #6d9ed3;
   text-decoration: none;
   border-bottom: 3px #e3ecf6 solid;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 div {
   padding: 5em;
   border-bottom: 4px solid #eceee7;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 ul {
   text-align: center;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
+p {
+  padding: 1em;
+}
+
+/* line 65, ../sass/screen.scss */
 li {
   display: inline-block;
-  padding: 1em 1em;
+  padding: 0 1em 1em;
 }
 
-/* line 76, ../sass/screen.scss */
-nav {
-  border-bottom: 4px solid #eceee7;
-}
-/* line 78, ../sass/screen.scss */
-nav #logo {
-  display: inline-block;
-}
-
-/* line 85, ../sass/screen.scss */
-nav {
-  background-color: white;
-  background-image: url('/images/a.jpg?1386128507');
+/* line 70, ../sass/screen.scss */
+.image-stripe {
+  padding: 2em;
+  border-width: 0;
+  background-color: #f1f2ed;
+  background-image: url('../images/b.jpg?1386128514');
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
-  padding-top: 4em;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
+nav {
+  padding: 2em;
+  font-size: 15px;
+}
+
+/* line 90, ../sass/screen.scss */
+#logo {
+  padding: 3em 0 0 0;
+  display: inline-block;
+}
+
+/* line 97, ../sass/screen.scss */
 .hed {
   font-size: 2em;
-  background-color: #f1f2ed;
-  color: #311c4e;
   padding: 1em;
   text-align: center;
 }
 
-/* line 110, ../sass/screen.scss */
-.projects {
-  background-color: #f1f2ed;
-  background-image: url('/images/gradient.png?1402952741');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: cover;
-}
-/* line 118, ../sass/screen.scss */
-.projects a {
-  color: #311c4e;
-  font-size: 1.5em;
-  background-color: white;
-  padding: 1em 0.5em;
-}
-
-/* line 132, ../sass/screen.scss */
-.media-coverage {
-  background-color: #f99157;
-}
-/* line 135, ../sass/screen.scss */
-.media-coverage a {
-  color: #311c4e;
-  border-bottom: 3px solid #f77126;
-}
-
-/* line 143, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .vcard {
   font-size: 18px;
   font-weight: 200;
   color: #c3c7b2;
 }
-/* line 146, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 .vcard div {
   margin: 0;
   padding: 0;
   border: 0;
 }
-/* line 150, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .vcard a {
   color: #c3c7b2;
   text-decoration: underline;
   border-bottom-width: 0;
 }
-/* line 155, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .vcard .org {
   color: #c3c7b2;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 body.meedan-labs {
   font-family: "lato", "Helvetica Neue";
 }
 @media all and (max-width: 699px) {
-  /* line 163, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   body.meedan-labs {
     font-size: 18px;
   }
-  /* line 167, ../sass/screen.scss */
+  /* line 149, ../sass/screen.scss */
   body.meedan-labs .hed {
     font-size: 18px;
     font-weight: 400;
     color: #333;
   }
-  /* line 172, ../sass/screen.scss */
+  /* line 154, ../sass/screen.scss */
   body.meedan-labs div {
     padding: 1em;
   }
 }
 
-/* line 181, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 body.meedan-org {
   font-family: "open sans", "Helvetica Neue";
   font-size: 18px;
