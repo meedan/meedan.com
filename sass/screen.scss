@@ -5,6 +5,7 @@
 @import "animation";
 @import "transitions";
 @import "clearfix";
+@import "font-awesome-4.1.0/css/font-awesome.min.css";
 
 /////////////////////////// Breakpoint
 $breakpoint: 699px;
@@ -25,25 +26,12 @@ body {
   padding-bottom: 1em;
   font-size: 23px;
   font-weight: 400;
-  background: {
-    color: $warm-grey;
-    image: image-url("meedan_logo_trans.png");
-    repeat: no-repeat;
-    position: top left;
-    size: cover;
-  };
-}
-
-img {
-  max-width: 90%;
+  background-color: $warm-grey;
+  color: #373737;
 }
 
 h1 {
   font-weight: 200;
-}
-
-em {
-  font-weight: bold;
 }
 
 h2, h3 {
@@ -51,6 +39,13 @@ h2, h3 {
   font-family: "open sans", "helvetica neue", "helvetica";
   text-transform: uppercase;
   font-size: 1em;
+  padding: 1em;
+  display: block;
+  // border-bottom: 1px solid lighten($darkest-color, 50%);
+}
+
+em {
+  font-weight: bold;
 }
 
 a {
@@ -59,47 +54,59 @@ a {
   border-bottom: 3px $light-blue solid;
 }
 
-div {
+main > div {
   padding: 5em;
   border-bottom: 4px solid darken($warm-grey, 2%);
+  &:last-of-type {
+    border-bottom-width: 0;
+  }
 }
 
 ul {
   text-align: center;
+  margin-top: 1em;
+}
+
+p {
+  padding: 1em;
 }
 
 li {
   display: inline-block;
-  padding: 1em 1em;
+  padding: 0 1em 1em;
 }
 
-nav {
-  border-bottom: 4px solid darken($warm-grey, 2%);
-  #logo {
-    display: inline-block;
-  }
-}
+// .image-stripe {
+//   display: none;
+//   padding: 2em;
+//   border-width: 0;
+//   background: {
+//     color: $warm-grey;
+//     image: image-url("b.jpg");
+//     repeat: no-repeat;
+//     position: top left;
+//     size: cover;
+//   };
+// }
 
-/////////////////////////// Sections
+/////////////////////////// Nav
 ///
 nav {
-  background: {
-    color: white;
-    image: image-url("a.jpg");
-    repeat: no-repeat;
-    position: top left;
-    size: cover;
-  };
-  padding-top: 4em;
+  border-bottom: 4px solid darken($warm-grey, 2%);
+  padding: 2em 0 1.5em;
+  font-size: 19px;
+  background-color: white;
+}
+
+#logo {
+  padding: 3em 0 0 0;
+  display: inline-block;
 }
 
 /////////////////////////// Hed
 ///
 .hed {
-  font-size: 2em;
-  background: {
-    color: $warm-grey;
-  };
+  font-size: 35px;
   color: $darkest-color;
   padding: 1em;
   text-align: center;
@@ -107,21 +114,7 @@ nav {
 
 /////////////////////////// Projects
 ///
-.projects {
-  background: {
-    color: $warm-grey;
-    image: image-url("gradient.png");
-    repeat: no-repeat;
-    position: top left;
-    size: cover;
-  };
-  a {
-    color: $darkest-color;
-    font-size: 1.5em;
-    background-color: white;
-    padding: 1em 0.5em;
-  }
-}
+.projects {}
 
 /////////////////////////// Funders
 ///
@@ -130,17 +123,21 @@ nav {
 /////////////////////////// Media Coverage
 ///
 .media-coverage {
-  background-color: $accent-orange;
-  // @include box-shadow(inset 0 0 50px desaturate($accent-orange, 40%));
+  // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), black), image-url("b.jpg"));
+  // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), $accent-orange), image-url("b.jpg"));
+  @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), hsla(170, 50%, 45%, 0.4)), linear-gradient(left top, hsla(0, 0, 0, 0.7), $darkest-color), image-url("b.jpg"));
+  color: desaturate(darken($warm-grey, 20%), 80%);
+  font-weight: 200;
   a {
-    color: $darkest-color;
-    border-bottom: 3px solid darken($accent-orange, 10%);
+    color: white;
+    border-bottom-color: rgba(white, 0.2);
   }
 }
 
 /////////////////////////// Contact information
 ///
 .vcard {
+  margin-top: 3em;
   font-size: 18px;
   font-weight: 200;
   div {

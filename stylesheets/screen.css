@@ -67,67 +67,67 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-webkit-keyframes fade-in {
-  /* line 54, ../sass/_animation.scss */
+  /* line 55, ../sass/_animation.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 57, ../sass/_animation.scss */
+  /* line 58, ../sass/_animation.scss */
   90% {
     opacity: 1;
   }
 }
 
 @-moz-keyframes fade-in {
-  /* line 54, ../sass/_animation.scss */
+  /* line 55, ../sass/_animation.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 57, ../sass/_animation.scss */
+  /* line 58, ../sass/_animation.scss */
   90% {
     opacity: 1;
   }
 }
 
 @-ms-keyframes fade-in {
-  /* line 54, ../sass/_animation.scss */
+  /* line 55, ../sass/_animation.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 57, ../sass/_animation.scss */
+  /* line 58, ../sass/_animation.scss */
   90% {
     opacity: 1;
   }
 }
 
 @-o-keyframes fade-in {
-  /* line 54, ../sass/_animation.scss */
+  /* line 55, ../sass/_animation.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 57, ../sass/_animation.scss */
+  /* line 58, ../sass/_animation.scss */
   90% {
     opacity: 1;
   }
 }
 
 @keyframes fade-in {
-  /* line 54, ../sass/_animation.scss */
+  /* line 55, ../sass/_animation.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 57, ../sass/_animation.scss */
+  /* line 58, ../sass/_animation.scss */
   90% {
     opacity: 1;
   }
 }
 
-/* line 63, ../sass/_animation.scss */
-div {
+/* line 64, ../sass/_animation.scss */
+body {
   -webkit-animation: fade-in 2s;
   -moz-animation: fade-in 2s;
   -ms-animation: fade-in 2s;
@@ -143,130 +143,148 @@ body {
   padding-bottom: 1em;
   font-size: 23px;
   font-weight: 400;
+  background-color: #f1f2ed;
+  color: #373737;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 h1 {
   font-weight: 200;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 h2, h3 {
   font-weight: 500;
   font-family: "open sans", "helvetica neue", "helvetica";
   text-transform: uppercase;
   font-size: 1em;
+  padding: 1em;
+  display: block;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 em {
   font-weight: bold;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 a {
   color: #6d9ed3;
   text-decoration: none;
   border-bottom: 3px #e3ecf6 solid;
 }
 
-/* line 52, ../sass/screen.scss */
-div {
+/* line 57, ../sass/screen.scss */
+main > div {
   padding: 5em;
   border-bottom: 4px solid #eceee7;
 }
-
-/* line 57, ../sass/screen.scss */
-ul {
-  text-align: center;
+/* line 60, ../sass/screen.scss */
+main > div:last-of-type {
+  border-bottom-width: 0;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
+ul {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* line 70, ../sass/screen.scss */
 p {
   padding: 1em;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 li {
   display: inline-block;
   padding: 0 1em 1em;
 }
 
-/* line 70, ../sass/screen.scss */
-.image-stripe {
-  padding: 2em;
-  border-width: 0;
-  background-color: #f1f2ed;
-  background-image: url('../images/b.jpg?1386128514');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: cover;
-}
-
-/* line 84, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 nav {
-  padding: 2em;
-  font-size: 15px;
+  border-bottom: 4px solid #eceee7;
+  padding: 2em 0 1.5em;
+  font-size: 19px;
+  background-color: white;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 #logo {
   padding: 3em 0 0 0;
   display: inline-block;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .hed {
-  font-size: 2em;
+  font-size: 35px;
+  color: #311c4e;
   padding: 1em;
   text-align: center;
 }
 
 /* line 125, ../sass/screen.scss */
+.media-coverage {
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(57, 172, 153, 0.4)), color-stop(100%, rgba(57, 172, 153, 0.4))), -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(0, 0, 0, 0.7)), color-stop(100%, #311c4e)), url('../images/b.jpg?1386128514');
+  background: -webkit-linear-gradient(left top, rgba(57, 172, 153, 0.4), rgba(57, 172, 153, 0.4)), -webkit-linear-gradient(left top, rgba(0, 0, 0, 0.7), #311c4e), url('../images/b.jpg?1386128514');
+  background: -moz-linear-gradient(left top, rgba(57, 172, 153, 0.4), rgba(57, 172, 153, 0.4)), -moz-linear-gradient(left top, rgba(0, 0, 0, 0.7), #311c4e), url('../images/b.jpg?1386128514');
+  background: -o-linear-gradient(left top, rgba(57, 172, 153, 0.4), rgba(57, 172, 153, 0.4)), -o-linear-gradient(left top, rgba(0, 0, 0, 0.7), #311c4e), url('../images/b.jpg?1386128514');
+  background: linear-gradient(left top, rgba(57, 172, 153, 0.4), rgba(57, 172, 153, 0.4)), linear-gradient(left top, rgba(0, 0, 0, 0.7), #311c4e), url('../images/b.jpg?1386128514');
+  color: #bdbdbd;
+  font-weight: 200;
+}
+/* line 131, ../sass/screen.scss */
+.media-coverage a {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 139, ../sass/screen.scss */
 .vcard {
+  margin-top: 3em;
   font-size: 18px;
   font-weight: 200;
   color: #c3c7b2;
 }
-/* line 128, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .vcard div {
   margin: 0;
   padding: 0;
   border: 0;
 }
-/* line 132, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .vcard a {
   color: #c3c7b2;
   text-decoration: underline;
   border-bottom-width: 0;
 }
-/* line 137, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .vcard .org {
   color: #c3c7b2;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 body.meedan-labs {
   font-family: "lato", "Helvetica Neue";
 }
 @media all and (max-width: 699px) {
-  /* line 145, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   body.meedan-labs {
     font-size: 18px;
   }
-  /* line 149, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   body.meedan-labs .hed {
     font-size: 18px;
     font-weight: 400;
     color: #333;
   }
-  /* line 154, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   body.meedan-labs div {
     padding: 1em;
   }
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 body.meedan-org {
   font-family: "open sans", "Helvetica Neue";
   font-size: 18px;
