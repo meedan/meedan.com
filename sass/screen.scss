@@ -76,6 +76,10 @@ li {
   padding: 0 1em 1em;
 }
 
+p, li {
+  max-width: 800px;
+}
+
 // .image-stripe {
 //   display: none;
 //   padding: 2em;
@@ -99,7 +103,7 @@ nav {
 }
 
 #logo {
-  padding: 3em 0 0 0;
+  padding: 1em 0;
   display: inline-block;
 }
 

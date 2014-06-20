@@ -201,7 +201,12 @@ li {
   padding: 0 1em 1em;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
+p, li {
+  max-width: 800px;
+}
+
+/* line 98, ../sass/screen.scss */
 nav {
   border-bottom: 4px solid #eceee7;
   padding: 2em 0 1.5em;
@@ -209,13 +214,13 @@ nav {
   background-color: white;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 #logo {
-  padding: 3em 0 0 0;
+  padding: 1em 0;
   display: inline-block;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .hed {
   font-size: 35px;
   color: #311c4e;
@@ -223,7 +228,7 @@ nav {
   text-align: center;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .media-coverage {
   background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(57, 172, 153, 0.4)), color-stop(100%, rgba(57, 172, 153, 0.4))), -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(0, 0, 0, 0.7)), color-stop(100%, #311c4e)), url('../images/b.jpg?1386128514');
   background: -webkit-linear-gradient(left top, rgba(57, 172, 153, 0.4), rgba(57, 172, 153, 0.4)), -webkit-linear-gradient(left top, rgba(0, 0, 0, 0.7), #311c4e), url('../images/b.jpg?1386128514');
@@ -233,58 +238,58 @@ nav {
   color: #bdbdbd;
   font-weight: 200;
 }
-/* line 131, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .media-coverage a {
   color: white;
   border-bottom-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .vcard {
   margin-top: 3em;
   font-size: 18px;
   font-weight: 200;
   color: #c3c7b2;
 }
-/* line 143, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .vcard div {
   margin: 0;
   padding: 0;
   border: 0;
 }
-/* line 147, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .vcard a {
   color: #c3c7b2;
   text-decoration: underline;
   border-bottom-width: 0;
 }
-/* line 152, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .vcard .org {
   color: #c3c7b2;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 body.meedan-labs {
   font-family: "lato", "Helvetica Neue";
 }
 @media all and (max-width: 699px) {
-  /* line 160, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   body.meedan-labs {
     font-size: 18px;
   }
-  /* line 164, ../sass/screen.scss */
+  /* line 168, ../sass/screen.scss */
   body.meedan-labs .hed {
     font-size: 18px;
     font-weight: 400;
     color: #333;
   }
-  /* line 169, ../sass/screen.scss */
+  /* line 173, ../sass/screen.scss */
   body.meedan-labs div {
     padding: 1em;
   }
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 body.meedan-org {
   font-family: "open sans", "Helvetica Neue";
   font-size: 18px;
