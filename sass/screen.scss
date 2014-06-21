@@ -6,6 +6,7 @@
 @import "transitions";
 @import "clearfix";
 @import "font-awesome-4.1.0/css/font-awesome.min.css";
+@import "data";
 
 /////////////////////////// Breakpoint
 $breakpoint: 699px;
@@ -26,7 +27,7 @@ body {
   padding-bottom: 1em;
   font-size: 23px;
   font-weight: 400;
-  background-color: $warm-grey;
+  background-color: lighten($warm-grey, 10%);
   color: #373737;
 }
 
@@ -56,7 +57,7 @@ a {
 
 main > div {
   padding: 5em;
-  border-bottom: 4px solid darken($warm-grey, 2%);
+  border-bottom: 4px solid lighten($warm-grey, 2%);
   &:last-of-type {
     border-bottom-width: 0;
   }
@@ -69,6 +70,7 @@ ul {
 
 p {
   padding: 1em;
+  display: inline-block;
 }
 
 li {
@@ -93,13 +95,14 @@ p, li {
 //   };
 // }
 
-/////////////////////////// Nav
-///
+// multilingual solutions for
+// classrooms and media organizations
 nav {
   border-bottom: 4px solid darken($warm-grey, 2%);
   padding: 2em 0 1.5em;
   font-size: 19px;
-  background-color: white;
+  // background-color: white;
+  // @include background(linear-gradient(left top, hsla(0, 0, 0, 0.9), rgba($warm-grey, 0.9)), image-url("a.jpg"));
 }
 
 #logo {
@@ -110,9 +113,11 @@ nav {
 /////////////////////////// Hed
 ///
 .hed {
-  font-size: 35px;
+  h1, h2, h3 {
+    font-size: 35px;
+  }
   color: $darkest-color;
-  padding: 1em;
+  padding: 1em 1em 2em;
   text-align: center;
 }
 
@@ -124,12 +129,20 @@ nav {
 ///
 .funders {}
 
+.latest {
+  h3 {
+    color: rgba(black, 0.6);
+  }
+  background-color: lighten(yellow, 45%);
+  color: rgba(black, 0.4);
+}
+
 /////////////////////////// Media Coverage
 ///
 .media-coverage {
   // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), black), image-url("b.jpg"));
   // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), $accent-orange), image-url("b.jpg"));
-  @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), hsla(170, 50%, 45%, 0.4)), linear-gradient(left top, hsla(0, 0, 0, 0.7), $darkest-color), image-url("b.jpg"));
+  @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), hsla(170, 50%, 45%, 0.4)), linear-gradient(left top, hsla(0, 0, 0, 0.7), $darkest-color), image-url("$data-background-image-b"));
   color: desaturate(darken($warm-grey, 20%), 80%);
   font-weight: 200;
   a {
