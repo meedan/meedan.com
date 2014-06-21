@@ -70,7 +70,8 @@ ul {
 
 p {
   padding: 1em;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 
 li {
@@ -142,7 +143,7 @@ nav {
 .media-coverage {
   // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), black), image-url("b.jpg"));
   // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), $accent-orange), image-url("b.jpg"));
-  @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), hsla(170, 50%, 45%, 0.4)), linear-gradient(left top, hsla(0, 0, 0, 0.7), $darkest-color), image-url("$data-background-image-b"));
+  @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), hsla(170, 50%, 45%, 0.4)), linear-gradient(left top, hsla(0, 0, 0, 0.7), $darkest-color), inline-image("b.jpg"));
   color: desaturate(darken($warm-grey, 20%), 80%);
   font-weight: 200;
   a {
