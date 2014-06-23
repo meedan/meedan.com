@@ -5,8 +5,6 @@
 @import "animation";
 @import "transitions";
 @import "clearfix";
-@import "font-awesome-4.1.0/css/font-awesome.min.css";
-@import "data";
 
 /////////////////////////// Breakpoint
 $breakpoint: 35em;
@@ -28,7 +26,6 @@ body {
   @media all and (max-width: $breakpoint) {
     padding-bottom: 0.5em;
     font-size: 1em;
-    line-height: 1.45;
   }
   text-align: center;
   font-weight: 300;
@@ -57,6 +54,28 @@ main > div {
   }
 }
 
+dl {
+  dfn {
+    font-weight: 700;
+  }
+  dd.part-of-speech,
+  dd.pronunciation {
+    display: inline-block;
+  }
+  dt {}
+  em {
+    font-weight: 100;
+    font-size: 0.8em;
+    font-style: italic;
+  }
+  i {
+    display: inline;
+  }
+  abbr {
+    font-family: monospace;
+  }
+}
+
 ul {
   text-align: center;
   margin-top: 1em;
@@ -68,7 +87,8 @@ ul {
 p {
   padding: 1em;
   @media all and (max-width: $breakpoint) {
-    padding: 0.7em;
+    padding: 1em 0.7em;
+    line-height: 1.65;
   }
   display: block;
   margin: 0 auto;
@@ -86,21 +106,6 @@ p, li {
   max-width: 30em;
 }
 
-// .image-stripe {
-//   display: none;
-//   padding: 2em;
-//   border-width: 0;
-//   background: {
-//     color: $warm-grey;
-//     image: image-url("b.jpg");
-//     repeat: no-repeat;
-//     position: top left;
-//     size: cover;
-//   };
-// }
-
-// multilingual solutions for
-// classrooms and media organizations
 nav {
   border-bottom: 4px solid darken($warm-grey, 2%);
   padding: 2em 0 1.5em;
