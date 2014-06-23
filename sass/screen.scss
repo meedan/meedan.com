@@ -206,3 +206,18 @@ h2, h3 {
     color: darken($warm-grey, 20%);
   }
 }
+
+/////////////////////////// Extrawide mode
+//
+@media all and (min-width: 1800px) {
+  body {
+    @include columns(2);
+    padding: 1em;
+  }
+  div.partners,
+  main > div,
+  main > nav {
+    border-bottom-width: 0;
+    column-break-inside: avoid;
+  }
+}
