@@ -12,8 +12,6 @@ $breakpoint: 35em;
 /////////////////////////// Fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,900);
-
 /////////////////////////// Base styles
 ///
 /// Later in the cascade, these are overridden for different sites.
@@ -43,20 +41,16 @@ a {
   border-bottom: 3px $light-blue solid;
   @media all and (max-width: $breakpoint) {
     border-bottom-width: 2px;
+    font-weight: 700;
   }
 }
 
-main > div {
-  padding: 1.4em;
-  border-bottom: 4px solid lighten($warm-grey, 2%);
-  &:last-of-type {
-    border-bottom-width: 0;
-  }
-}
-
+///////////////////////// Definitions
+///
 dl {
   dfn {
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 1.8em;
   }
   dd.part-of-speech,
   dd.pronunciation {
@@ -76,22 +70,22 @@ dl {
   }
 }
 
+///////////////////////// Lists
+///
 ul {
   text-align: center;
-  margin-top: 1em;
+  margin: 1em 0;
   @media all and (max-width: $breakpoint) {
-    margin-top: 0.5em;
+    margin-top: 0.5em 0 1em;
   }
 }
 
-p {
-  padding: 1em;
-  @media all and (max-width: $breakpoint) {
-    padding: 1em 0.7em;
-    line-height: 1.65;
-  }
-  display: block;
-  margin: 0 auto;
+.partners,
+.partners a {
+  font-size: 0.89em;
+  color: #c3c3c3;
+  border-bottom-width: 1px;
+  font-weight: 300;
 }
 
 li {
@@ -99,6 +93,15 @@ li {
   padding: 0 1em 1em;
   @media all and (max-width: $breakpoint) {
     padding: 0 0.5em 0.5em;
+    display: block;
+  }
+}
+
+li > a {
+  @media all and (max-width: $breakpoint) {
+    background: rgba($warm-grey, 0.4);
+    padding: 1em;
+    display: block;
   }
 }
 
@@ -106,20 +109,38 @@ p, li {
   max-width: 30em;
 }
 
+p {
+  padding: 1em;
+  display: block;
+  margin: 0 auto;
+  @media all and (max-width: $breakpoint) {
+    padding: 1em 0.7em;
+    line-height: 1.65;
+  }
+}
+
+main > div {
+  padding: 1.4em;
+  border-bottom: 4px solid lighten($warm-grey, 2%);
+  &:last-of-type {
+    border-bottom-width: 0;
+  }
+}
+
+/////////////////////////// Logo
+///
+#logo {
+  padding: 1em 0;
+  display: inline-block;
+}
+
+/////////////////////////// Navigations
+///
 nav {
-  border-bottom: 4px solid darken($warm-grey, 2%);
   padding: 2em 0 1.5em;
   @media all and (max-width: $breakpoint) {
     padding: 1em 0 0.75em;
   }
-  font-size: 1em;
-  // background-color: white;
-  // @include background(linear-gradient(left top, hsla(0, 0, 0, 0.9), rgba($warm-grey, 0.9)), image-url("a.jpg"));
-}
-
-#logo {
-  padding: 1em 0;
-  display: inline-block;
 }
 
 h1 {
@@ -157,28 +178,30 @@ h2, h3 {
   }
 }
 
-/////////////////////////// Projects
+/////////////////////////// Latest
+/// (Blog post section)
 ///
-.projects {}
-
-/////////////////////////// Funders
-///
-.funders {}
-
 .latest {
+  color: rgba(black, 0.4);
+  @include background(linear-gradient(left top, rgba(white, 0.9), rgba(white, 0.98), rgba(white, 0.9)), inline-image("tom_ed_an_checkdesk_knight_polaroid.png"));
+  background: {
+    size: cover;
+    position: 0 -100px;
+  };
   h3 {
     color: rgba(black, 0.6);
   }
-  background-color: lighten(yellow, 45%);
-  color: rgba(black, 0.4);
 }
 
 /////////////////////////// Media Coverage
+/// (With inverted color scheme)
 ///
+
+$color-stop-light: hsla(170, 50%, 45%, 0.4);
+$color-stop-dark: hsla(0, 0, 0, 0.7);
+
 .media-coverage {
-  // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), black), image-url("b.jpg"));
-  // @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), $accent-orange), image-url("b.jpg"));
-  @include background(linear-gradient(left top, hsla(170, 50%, 45%, 0.4), hsla(170, 50%, 45%, 0.4)), linear-gradient(left top, hsla(0, 0, 0, 0.7), $darkest-color), inline-image("b.jpg"));
+  @include background(linear-gradient(left top, $color-stop-light, $color-stop-light), linear-gradient(left top, $color-stop-dark, $darkest-color), inline-image("b.jpg"));
   color: desaturate(darken($warm-grey, 20%), 80%);
   font-weight: 200;
   a {
@@ -187,11 +210,18 @@ h2, h3 {
   }
 }
 
+/////////////////////////// Closure
+///
+div.closure {
+  padding: 5em;
+  font-size: 0.8em;
+}
+
 /////////////////////////// Contact information
 ///
 .vcard {
-  margin-top: 3em;
-  font-size: 1.2em;
+  margin-top: 1em;
+  font-size: 0.8em;
   font-weight: 200;
   div {
     @include reset-box-model;
@@ -208,7 +238,8 @@ h2, h3 {
 }
 
 /////////////////////////// Extrawide mode
-//
+/// Multiple columns
+///
 @media all and (min-width: 1800px) {
   body {
     @include columns(2);
