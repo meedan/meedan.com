@@ -82,8 +82,6 @@ ul {
 
 .partners,
 .partners a {
-  font-size: 0.89em;
-  color: #c3c3c3;
   border-bottom-width: 1px;
   font-weight: 300;
 }
@@ -164,7 +162,6 @@ h2, h3 {
     padding: 0.5em;
   }
   display: block;
-  // border-bottom: 1px solid lighten($darkest-color, 50%);
 }
 
 /////////////////////////// Hed
@@ -183,7 +180,7 @@ h2, h3 {
 ///
 .latest {
   color: rgba(black, 0.4);
-  @include background(linear-gradient(left top, rgba(white, 0.9), rgba(white, 0.98), rgba(white, 0.9)), inline-image("tom_ed_an_checkdesk_knight_polaroid.png"));
+  // @include background(linear-gradient(left top, rgba(white, 0.9), rgba(white, 0.98), rgba(white, 0.9)), inline-image("tom_ed_an_checkdesk_knight_polaroid.png"));
   background: {
     size: cover;
     position: 0 -100px;
