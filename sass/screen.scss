@@ -171,7 +171,7 @@ h2, h3 {
   font-weight: 500;
   font-family: "open sans", "helvetica neue", "helvetica";
   text-transform: uppercase;
-  padding: 1em;
+  padding: 3em 1em 1em 1em;
   line-height: 1.2;
   @media all and (max-width: $breakpoint) {
     padding: 0.5em;
@@ -197,15 +197,13 @@ h2, h3 {
   // color: rgba(black, 0.4);
   position: relative;
   color: white;
-  font-weight: 500;
+  font-weight: 300;
   height: 20em;
   padding-top: 10em;
-  @include background(linear-gradient(left top, rgba(black, 0.3), rgba(black, 0.5)), inline-image("tom_ed_an_checkdesk_knight_polaroid_c.png"));
-  // @include background(inline-image("tom_ed_an_checkdesk_knight_polaroid.png"));
+  @include background(linear-gradient(left bottom, rgba(darken($accent-blue, 70%), 0.7), rgba(black, 0.3)), inline-image("tom_ed_an_checkdesk_knight_polaroid_d.jpg"));
   @include filter(greyscale, 80%);
   background: {
     size: cover;
-    position: -40px;
   };
   h3, p {
     text-align: left;
@@ -219,13 +217,6 @@ h2, h3 {
   }
   a {
     color: white;
-  }
-  p:last-of-type a:last-of-type {
-    @include border-radius(4px);
-    padding: 0.2em;
-    background-color: darken($light-blue, 50%);
-    color: rgba(white, 0.8);
-    border-bottom-width: 0;
   }
 }
 
@@ -248,9 +239,10 @@ $color-stop-dark: hsla(0, 0, 0, 0.3);
 
 .media-coverage {
   position: relative;
-  @include background(linear-gradient(left top, $color-stop-light, $color-stop-light), linear-gradient(left top, $color-stop-dark, $darkest-color), inline-image("a.jpg"));
+  background-color: $warm-grey;
+  @include background(linear-gradient(left top, $color-stop-light, $color-stop-light), linear-gradient(left top, $color-stop-dark, $darkest-color), inline-image("a-b.jpg"));
   color: desaturate(darken($warm-grey, 20%), 80%);
-  font-weight: 400;
+  font-weight: 200;
   h3 {
     color: white;
   }
@@ -258,14 +250,6 @@ $color-stop-dark: hsla(0, 0, 0, 0.3);
     color: white;
     border-bottom-color: rgba(white, 0.2);
   }
-  @include filter(greyscale, 100%);
-}
-
-/////////////////////////// Closure
-///
-div.closure {
-  padding: 5em;
-  font-size: 0.8em;
 }
 
 /////////////////////////// Contact information
@@ -285,21 +269,5 @@ div.closure {
   }
   .org {
     color: darken($warm-grey, 20%);
-  }
-}
-
-/////////////////////////// Extrawide mode
-/// Multiple columns
-///
-@media all and (min-width: 1800px) {
-  body {
-    @include columns(2);
-    padding: 1em;
-  }
-  div.partners,
-  main > div,
-  main > nav {
-    border-bottom-width: 0;
-    column-break-inside: avoid;
   }
 }
