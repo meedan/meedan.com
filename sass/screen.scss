@@ -48,13 +48,24 @@ a {
 ///////////////////////// Definitions
 ///
 dl {
+  font-family: baskerville, palatino, georgia, serif;
   dfn {
     font-weight: 500;
     font-size: 1.8em;
+    display: none;
+  }
+  dd {
+    display: inline;
+  }
+  .definition {
+    font-size: 0.8em;
+    @media all and (max-width: $breakpoint) {
+      font-size: 1em;
+    }
   }
   dd.part-of-speech,
   dd.pronunciation {
-    display: inline-block;
+    display: inline;
   }
   dt {}
   em {
@@ -130,6 +141,10 @@ main > div {
 #logo {
   padding: 1em 0;
   display: inline-block;
+  width: 170px;
+  @media all and (max-width: $breakpoint) {
+    width: 80px;
+  }
 }
 
 /////////////////////////// Navigations
@@ -179,32 +194,71 @@ h2, h3 {
 /// (Blog post section)
 ///
 .latest {
-  color: rgba(black, 0.4);
-  // @include background(linear-gradient(left top, rgba(white, 0.9), rgba(white, 0.98), rgba(white, 0.9)), inline-image("tom_ed_an_checkdesk_knight_polaroid.png"));
+  // color: rgba(black, 0.4);
+  position: relative;
+  color: white;
+  font-weight: 500;
+  height: 20em;
+  padding-top: 10em;
+  @include background(linear-gradient(left top, rgba(black, 0.3), rgba(black, 0.5)), inline-image("tom_ed_an_checkdesk_knight_polaroid.png"));
+  // @include background(inline-image("tom_ed_an_checkdesk_knight_polaroid.png"));
+  @include filter(greyscale, 80%);
   background: {
     size: cover;
-    position: 0 -100px;
+    position: -40px;
   };
-  h3 {
-    color: rgba(black, 0.6);
+  h3, p {
+    text-align: left;
+    margin: 0;
   }
+  p {
+    font-size: 0.8em;
+  }
+  h3 {
+    color: rgba(white, 0.8);
+  }
+  a {
+    color: white;
+  }
+  p:last-of-type a:last-of-type {
+    @include border-radius(4px);
+    padding: 0.2em;
+    background-color: darken($light-blue, 50%);
+    color: rgba(white, 0.8);
+    border-bottom-width: 0;
+  }
+}
+
+.photo.attribution {
+  font-size: 0.75em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(white, 0.4);
+  width: 200px;
+  text-align: right;
 }
 
 /////////////////////////// Media Coverage
 /// (With inverted color scheme)
 ///
 
-$color-stop-light: hsla(170, 50%, 45%, 0.4);
-$color-stop-dark: hsla(0, 0, 0, 0.7);
+$color-stop-light: hsla(170, 50%, 45%, 0.1);
+$color-stop-dark: hsla(0, 0, 0, 0.3);
 
 .media-coverage {
-  @include background(linear-gradient(left top, $color-stop-light, $color-stop-light), linear-gradient(left top, $color-stop-dark, $darkest-color), inline-image("b.jpg"));
+  position: relative;
+  @include background(linear-gradient(left top, $color-stop-light, $color-stop-light), linear-gradient(left top, $color-stop-dark, $darkest-color), inline-image("a.jpg"));
   color: desaturate(darken($warm-grey, 20%), 80%);
-  font-weight: 200;
+  font-weight: 400;
+  h3 {
+    color: white;
+  }
   a {
     color: white;
     border-bottom-color: rgba(white, 0.2);
   }
+  @include filter(greyscale, 100%);
 }
 
 /////////////////////////// Closure
@@ -217,7 +271,7 @@ div.closure {
 /////////////////////////// Contact information
 ///
 .vcard {
-  margin-top: 1em;
+  margin-top: 4em;
   font-size: 0.8em;
   font-weight: 200;
   div {
