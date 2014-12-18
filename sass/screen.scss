@@ -200,7 +200,7 @@ h2, h3 {
   font-weight: 300;
   height: 20em;
   padding-top: 10em;
-  @include background(linear-gradient(left bottom, rgba(darken($accent-blue, 70%), 0.7), rgba(black, 0.3)), inline-image("tom_ed_an_checkdesk_knight_polaroid_d.jpg"));
+  @include background(linear-gradient(left bottom, rgba(darken($accent-blue, 70%), 0.7), rgba(black, 0.3)), inline-image("checkdesk-training.jpg"));
   @include filter(greyscale, 80%);
   background: {
     size: cover;
