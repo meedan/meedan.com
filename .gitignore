@@ -3,8 +3,9 @@
 *.swp
 .bundle
 tmp
-config/database.yml
-config/apis.yml
-log
+config
+node_modules
+bower_components
 vendor
-.sass-cache
+sass
+config.js
