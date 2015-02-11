@@ -33,7 +33,7 @@ gulp.task('dustindex', function(cb) {
         }))
         .on('error', cb)
         .pipe(rename('index.html'))
-        .pipe(gulp.dest('htdocs/'));
+        .pipe(gulp.dest('www/'));
 });
 
 // templates
@@ -62,7 +62,7 @@ gulp.task('nodemon', function() {
 var browserSyncConfig = {
     reloadDelay: 2000,
     server: {
-        baseDir: "./htdocs"
+        baseDir: "./www"
     }
 }
 
@@ -98,7 +98,7 @@ gulp.task('uglify',['dust','dustindex'], function() {
 //	.pipe(uglify())
 	.on('error', ehandler)
 	.pipe(rename(pkg.name + '.min.js'))
-	.pipe(gulp.dest('htdocs/js/'))
+	.pipe(gulp.dest('www/js/'))
 });
 
 // lint
@@ -110,9 +110,8 @@ gulp.task('lint', function() {
 
 // SASS
 //
-
 var scssFiles     = "src/sass/**/*.scss";
-var cssCompileDir = "htdocs/css";
+var cssCompileDir = "www/css";
 gulp.task('sass', function () {
   return gulp.src(scssFiles)
     .pipe(sass({
@@ -140,7 +139,7 @@ gulp.task('watch', ['browser-sync'], function () {
     });
 });
 
-// ONLY WATCH SASS
+// WATCH SASS
 gulp.task('watch-sass', ['sass', 'browser-sync'], function () {
     gulp.watch(scssFiles, ['sass']);
 });
