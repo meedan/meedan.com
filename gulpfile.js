@@ -5,7 +5,6 @@ var uglify        = require('gulp-uglify');
 var jshint        = require('gulp-jshint');
 var nodemon       = require('gulp-nodemon');
 var sass          = require('gulp-sass');
-var bowerDir      = "bower_components";
 
 var browserSync   = require('browser-sync');
 var reload        = browserSync.reload;
@@ -47,7 +46,6 @@ gulp.task('dust', function () {
 //
 // nodemon
 //
-
 gulp.task('nodemon', function() {
     nodemon({
 	script: 'server.js'
@@ -61,8 +59,9 @@ gulp.task('nodemon', function() {
 //
 var browserSyncConfig = {
     reloadDelay: 2000,
+    notify: false,
     server: {
-        baseDir: "./www"
+        baseDir: "./www",
     }
 }
 
@@ -112,14 +111,17 @@ gulp.task('lint', function() {
 //
 var scssFiles     = "src/sass/**/*.scss";
 var cssCompileDir = "www/css";
+var bowerPaths    = [ 
+    "bower_components"
+];
 gulp.task('sass', function () {
   return gulp.src(scssFiles)
     .pipe(sass({
-        includePaths: [bowerDir], 
+        includePaths: bowerPaths, 
         outputStyle: "compressed"
     }))
     .pipe(gulp.dest(cssCompileDir))
-//    .pipe(reload({stream:true}))
+    .pipe(reload({stream:true}))
     .on('error', ehandler);
 });
 
