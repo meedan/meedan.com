@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en">
 
-{>head /}
+{>_head /}
 
 <body>
-    <main>
-        {>hed /}
-        {>medium /}
-        {>navigation /}
-        {>media /}
-        {>_team /}
-        {>contact /}
-    </main>
+  <main>
+    {>_hed /}
+    {>_medium /}
+    {>_navigation /}
+    {>_media /}
+    {>_team /}
+    {>_contact /}
+  </main>
 </body>
 
 </html>

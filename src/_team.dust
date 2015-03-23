@@ -1,129 +1,129 @@
-<div class="team">
-    <div class="team-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Abdul Rehman Khawar</div>
-        <div class="title">Designer</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="images/an.jpg" />
-        <div class="name">An Xiao Mina</div>
-        <div class="title">Designer</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Anas Qtiesh</div>
-        <div class="title">Designer</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="images/ben.jpg" />
-        <div class="name">Benjamin Foote</div>
-        <div class="title">Operations</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="images/caio.jpg" />
-        <div class="name">Caio Almeida</div>
-        <div class="title">Developer</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="images/chris.jpg" />
-        <div class="name">Chris Blow</div>
-        <div class="title">Designer</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="images/clarissa.jpg" />
-        <div class="name">Clarissa Xavier</div>
-        <div class="title">Computational Linguist</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="images/dina.jpg" />
-        <div class="name">Dina elHawary</div>
-        <div class="title">Program Manager</div>
-    </div>
+<ul class="team">
+  <li>
+      <img class="avatar" src="images/an.jpg"/>
+      <div class="name">An Xiao Mina</div>
+      <div class="title">Designer</div>
+  </li>
 
-    <div class="team-member board-member">
-        <img class="avatar" src="images/ed.jpg" />
-        <div class="name">Ed Bice</div>
-        <div class="title">CEO &amp; Board Member</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/anas.jpg" />
+      <div class="name">Anas Qtiesh</div>
+      <div class="title">Designer</div>
+  </li>
+  
+  <li>
+      <img class="avatar" src="images/ben.jpg" />
+      <div class="name">Benjamin Foote</div>
+      <div class="title">Operations</div>
+  </li>
+  
+  <li>
+      <img class="avatar" src="images/caio.jpg" />
+      <div class="name">Caio Almeida</div>
+      <div class="title">Developer</div>
+  </li>
+  
+  <li>
+      <img class="avatar" src="images/chris.jpg" />
+      <div class="name">Chris Blow</div>
+      <div class="title">Designer</div>
+  </li>
+  
+  <li>
+      <img class="avatar" src="images/clarissa.jpg" />
+      <div class="name">Clarissa Xavier</div>
+      <div class="title">Computational Linguist</div>
+  </li>
 
-    <div class="team-member board-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Hanan Heikal</div>
-        <div class="title">Board Member</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/dina.jpg" />
+      <div class="name">Dina elHawary</div>
+      <div class="title">Program Manager</div>
+  </li>
 
-    <div class="team-member">
-        <img class="avatar" src="images/jibb.jpg" />
-        <div class="name">Jonathan Beall</div>
-        <div class="title">Mobile Developer</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/ed.jpg" />
+      <div class="name">Ed Bice</div>
+      <div class="title">CEO &amp; Board Member</div>
+  </li>
 
-    <div class="team-member board-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Jon Corshen</div>
-        <div class="title">Board Member</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/hanan.jpg" />
+      <div class="name">Hanan Heikal</div>
+      <div class="title">Board Member</div>
+  </li>
 
-    <div class="team-member">
-        <img class="avatar" src="images/karim.jpg" />
-        <div class="name">Karim Ratib</div>
-        <div class="title">Developer</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Mohammad Sawy</div>
-        <div class="title">Developer</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/jibb.jpg" />
+      <div class="name">Jonathan Beall</div>
+      <div class="title">Mobile Developer</div>
+  </li>
 
-    <div class="team-member board-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Muna AbuSulayman</div>
-        <div class="title">Board Member</div>
-    </div>
-    
-    <div class="team-member">
-        <img class="avatar" src="images/noha.jpg" />
-        <div class="name">Noha Daoud</div>
-        <div class="title">QA Engineer</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/jon.jpg" />
+      <div class="name">Jon Corshen</div>
+      <div class="title">Board Member</div>
+  </li>
 
-    <div class="team-member">
-        <img class="avatar" src="images/nora.jpg" />
-        <div class="name">Nora Younis</div>
-        <div class="title">Editor</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/karim.jpg" />
+      <div class="name">Karim Ratib</div>
+      <div class="title">Developer</div>
+  </li>
+  <li>
+      <img class="avatar" src="images/mohammad.jpg" />
+      <div class="name">Mohammad Sawy</div>
+      <div class="title">Developer</div>
+  </li>
 
-    <div class="team-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Pat Motte</div>
-        <div class="title">Operations</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Shady Samir</div>
-        <div class="title">Developer</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Steven Bird</div>
-        <div class="title">Computational Linguist</div>
-    </div>
-    <div class="team-member">
-        <img class="avatar" src="images/tom.jpg" />
-        <div class="name">Tom Trewinnard</div>
-        <div class="title">Business Development</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/muna.jpg" />
+      <div class="name">Muna AbuSulayman</div>
+      <div class="title">Board Member</div>
+  </li>
 
-    <div class="team-member board-member">
-        <img class="avatar" src="http://placehold.it/100x100" />
-        <div class="name">Wael Fakharany</div>
-        <div class="title">Board Member</div>
-    </div>
-    
-    <div class="team-member">
-        <img class="avatar" src="images/xiaowei.jpg" />
-        <div class="name">Xiaowei Wang</div>
-        <div class="title">Designer</div>
-    </div>
+  <li>
+      <img class="avatar" src="images/noha.jpg" />
+      <div class="name">Noha Daoud</div>
+      <div class="title">QA Engineer</div>
+  </li>
 
-</div>
+  <li>
+      <img class="avatar" src="images/nora.jpg" />
+      <div class="name">Nora Younis</div>
+      <div class="title">Editor</div>
+  </li>
+
+  <li>
+      <img class="avatar" src="images/pat.jpg" />
+      <div class="name">Pat Motte</div>
+      <div class="title">Operations</div>
+  </li>
+  <li>
+      <img class="avatar" src="images/shady.jpg" />
+      <div class="name">Shady Samir</div>
+      <div class="title">Developer</div>
+  </li>
+  <li>
+      <img class="avatar" src="images/steven.jpg" />
+      <div class="name">Steven Bird</div>
+      <div class="title">Computational Linguist</div>
+  </li>
+  <li>
+      <img class="avatar" src="images/tom.jpg" />
+      <div class="name">Tom Trewinnard</div>
+      <div class="title">Business Development</div>
+  </li>
+
+  <li>
+      <img class="avatar" src="images/wael.jpg" />
+      <div class="name">Wael Fakharany</div>
+      <div class="title">Board Member</div>
+  </li>
+
+  <li>
+      <img class="avatar" src="images/xiaowei.jpg" />
+      <div class="name">Xiaowei Wang</div>
+      <div class="title">Designer</div>
+  </li>
+</ul>

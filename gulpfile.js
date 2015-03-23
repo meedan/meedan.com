@@ -52,7 +52,7 @@ var sassConfig = {
 }
 
 gulp.task('dust', function (cb) {
-  return gulp.src('src/*.dust').pipe(
+  return gulp.src(['src/*.dust', '!src/_*.dust']).pipe(
       dusthtml(dustConfig))
     .on('error', cb)
     .pipe(gulp.dest('www/'));
@@ -70,6 +70,6 @@ gulp.task('sass', function () {
 // Default task
 gulp.task('default', function () {
   gulp.watch(scssFiles, ['sass']);
-  gulp.watch('src/*.dust', ['dust']).on('change', reload);;
+  gulp.watch('src/*.dust', ['dust']).on('change', reload);
   browserSync(browserSyncConfig);
 });
