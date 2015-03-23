@@ -1,0 +1,95 @@
+body {
+  font-size: 1.3em;
+  font-family: "open sans", "helvetica neue", "helvetica";
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 300;
+  color: #373737;
+}
+
+em {
+  font-weight: bold;
+}
+
+// Links use a color sampled from a photo
+a {
+  color: lighten($photo-feb10-blue, 10%);
+  text-decoration: none;
+  border-bottom: 3px lighten($photo-feb10-blue, 50%) solid;
+  @media all and (max-width: $breakpoint) {
+    border-bottom-width: 2px;
+  }
+}
+
+///////////////////////// Lists
+///
+ul {
+  text-align: center;
+  padding: 0;
+  margin: 0.5em 0;
+  @media all and (max-width: $breakpoint) {
+    margin-top: 0.5em 0 0em;
+  }
+}
+
+li {
+  display: inline-block;
+  padding: 0 1em 1em;
+  @media all and (max-width: $breakpoint) {
+    padding: 0 0.5em 0.5em;
+    display: block;
+  }
+}
+
+// At small sizes, make the links more like buttons
+li > a {
+  @media all and (max-width: $breakpoint) {
+    background: rgba($photo-feb10-blue, 0.1);
+    padding: 1em;
+    display: block;
+  }
+}
+
+p, li {
+  max-width: 30em;
+}
+
+p {
+  padding: 1em;
+  display: block;
+  margin: 0 auto;
+  @media all and (max-width: $breakpoint) {
+    padding: 1em 0.7em;
+    line-height: 1.65;
+  }
+}
+
+// Headers
+//
+h1 {
+  font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2em;
+  @media all and (max-width: $breakpoint) {
+    font-size: 1.4em !important;
+    font-weight: 400;
+  }
+}
+
+h2, h3 {
+  font-weight: 600;
+  font-family: "open sans", "Lucida Sans",Geneva,Verdana,sans-serif;
+  // font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
+  // text-transform: uppercase;
+  margin: 0;
+  padding: 1em 1em 1em 1em;
+  line-height: 1.2;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  @media all and (max-width: $breakpoint) {
+    padding: 0.5em;
+    font-size: 18px;
+  }
+  display: block;
+}

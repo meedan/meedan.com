@@ -1,0 +1,70 @@
+/////////////////////////// Imports
+@import "../../compass-mixins/lib/compass";
+@import "../../compass-mixins/lib/animation/core";
+@import "../../compass-mixins/lib/animation/animate/fading";
+@import "../../compass-mixins/lib/animation/animate/rotating";
+@import "../../compass-mixins/lib/animation/animate/bouncing";
+@import "../../compass-mixins/lib/animation/animate/specials";
+@import "../../compass-mixins/lib/animation/animate/lightspeed";
+@import "../../compass-mixins/lib/animation/animate/attention-seekers";
+@import "base";
+@import "colors";
+@import "definition-lists";
+@import "transitions";
+@import "typography";
+@import "vcard";
+@import "clearfix";
+@import "team";
+
+// Psst: Add a progress bar: https://github.com/usablica/progress.js.git
+
+/////////////////////////// Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+/////////////////////////// Base styles
+///
+body {
+  padding-bottom: 1em;
+  @media all and (max-width: $breakpoint) {
+    padding-bottom: 0.5em;
+    font-size: 1em;
+  }
+}
+
+main > div {
+  padding: 1.4em;
+  &:last-of-type {
+    border-bottom-width: 0;
+  }
+}
+
+/////////////////////////// Logo
+///
+.logo {
+  max-width: 200px;
+}
+
+/////////////////////////// Navigation elements
+/// Currently most of the site is inside one big nav element.
+/// (Because it is all navigation)
+/// Feb 10 2015 CGB
+///
+nav {
+  padding: 2em 0 1.5em;
+  display: block;
+  @media all and (max-width: $breakpoint) {
+    padding: 1em 0 0.75em;
+  }
+}
+
+.contact {
+  clear: both;
+}
+
+.medium-channels {
+  background-color: black;
+  .medium-channel {
+    // width is set as attribute on the iframe
+    display: inline-block;
+  }
+}

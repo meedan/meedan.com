@@ -1,0 +1,20 @@
+/////////////////////////// Contact information
+///
+.vcard {
+  margin-top: 4em;
+  font-size: 0.8em;
+  font-weight: 200;
+  div {
+    // @include reset-box-model;
+ 
+  }
+  color: darken($photo-feb10-blue, 20%);
+  a {
+    color: darken($photo-feb10-blue, 20%);
+    text-decoration: underline;
+    border-bottom-width: 0;
+  }
+  .org {
+    color: darken($photo-feb10-blue, 20%);
+  }
+}

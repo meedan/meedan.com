@@ -1,0 +1,29 @@
+@import "gradients";
+
+// Team section
+//
+.team {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-member {
+  font-size: 16px;
+  padding: 1em;
+  float: left;
+  height: 220px;
+  width: 120px;
+}
+
+img.avatar {
+  max-width: 100px;
+  @include border-radius(50%);
+  // background-color: #5ece7f;
+  // background-blend-mode: multiply;
+  @include gradient($accent-orange, $accent-blue);
+  // &:hover {
+  //   -webkit-filter: brightness(+100%);
+  //   -webkit-filter: color;
+  // }
+}
