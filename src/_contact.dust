@@ -1,4 +1,5 @@
 
+<div class="contactsection"> 
 <h3>Contact Us</h3>
 <p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies.  Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for crowdsourcing social media translation.</p>
 
@@ -6,25 +7,43 @@
 <p>[     enter email address       ]</p>
 
 
-<p>Visit</p>
-<p>972 Mission St., 5th Fl.</p>
-<p>San Francisco, USA</p>
-<p>94103</p>
+    <div class ="contactsection contactrow">
 
-<p>300-422 Richards Street,</p>
-<p>Vancouver, British Columbia</p>
-<p>Canada</p>
-<p>V6B 2Z4</p>
+        <div class="col third offices">
+            <p>Visit</p>
+            <p>972 Mission St., 5th Fl.
+            San Francisco, USA
+            94103</p>
 
-<p>304 The Greek Campus,</p>
-<p>28 Falaki St.</p>
-<p>Bab El Louk</p>
-<p>Cairo, Egypt</p>
-<p>11511 </p>
+            <p>300-422 Richards Street,
+            Vancouver, British Columbia
+            Canada, V6B 2Z4</p>
 
-<p>hello@meedan.com</p>
+           <p>304 The Greek Campus,
+            28 Falaki St.
+            Bab El Louk
+            Cairo, Egypt
+            11511</p>
+        </div>
+        </div>
 
-<p>+1-415-297-2900</p>
+
+        <div class ="col third">
+            <p>hello@meedan.com</p>
+        </div>
+
+
+        <div class ="col third">
+            <p>+1-415-297-2900</p>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
 
 <!-- 
 <div class="contact">
