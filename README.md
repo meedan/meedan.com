@@ -24,4 +24,4 @@ While the gulp compiler is running, edit the source files in `src/` and the web-
 
 The gh-pages branch is the website.
 
-To create a snapshot and deploy, run the script.
+To create a snapshot and deploy, run the "publish" script.

@@ -82,3 +82,11 @@ nav {
     display: inline-block;
   }
 }
+
+section.sponsors-and-partners {
+  img {
+    max-width: 100px;
+    max-height: 40px;
+    margin: 0.3em 0.8em;
+  }
+}
