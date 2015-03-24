@@ -4,6 +4,9 @@
 # checkout gh-pages branch
 git checkout gh-pages
 
+# make sure we're sync'd to origin to avoid the merge
+git pull
+
 # and get rid of everything
 git rm -rf .
 
