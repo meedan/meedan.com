@@ -27,9 +27,11 @@
 
 html, body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
+  // background-image: url("../images/20150319-mockup.png");
   padding-bottom: 1em;
   @media all and (max-width: $breakpoint) {
     padding-bottom: 0.5em;
@@ -38,7 +40,6 @@ body {
 }
 
 main > div {
-  padding: 1.4em;
   &:last-of-type {
     border-bottom-width: 0;
   }
@@ -46,8 +47,14 @@ main > div {
 
 /////////////////////////// Logo
 ///
+///
+.branding {
+  padding-top: 4em;
+}
+
 .logo {
-  width: 400px;
+  width: 300px;
+  transition: 1.3s;
   @media all and (max-width: $breakpoint) {
     max-width: 90%;
   }
@@ -83,10 +90,29 @@ nav {
   }
 }
 
-section.sponsors-and-partners {
+section.support {
   img {
     max-width: 100px;
     max-height: 40px;
     margin: 0.3em 0.8em;
   }
+}
+
+.photo-frame {
+  background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
+  padding-bottom: 50%;
+  width: 100%;
+  margin: 0 auto;
+  background-position: 0 0, 2px 2px;
+  background-size: 4px 4px, 4px 4px, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  -webkit-filter: grayscale(1);
+  filter: url(#greyscale);
+  filter: grayscale(1);
+  transition: 1.3s;
+}
+
+.photo-frame:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
 }
