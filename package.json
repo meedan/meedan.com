@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "the meedan homepage",
   "main": "index.js",
+  "repository": "https://github.com/meedan/meedan.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,23 +13,6 @@
   "author": "Chris Blow",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.3.12",
-    "browser-sync": "~2.0.1",
-    "dustjs-helpers": "^1.5.0",
-    "dustjs-linkedin": "^2.5.1",
-    "gulp": "^3.8.10",
-    "gulp-concat": "^2.4.3",
-    "gulp-cssmin": "^0.1.6",
-    "gulp-dust": "^1.0.2",
-    "gulp-dust-html": "0.0.4",
-    "gulp-jshint": "^1.9.0",
-    "gulp-nodemon": "^1.0.5",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^1.3.2",
-    "gulp-uglify": "^1.1.0",
-    "node-sass": "^2.0.0-beta"
-  },
-  "dependencies": {
     "async": "^0.9.0",
     "browser-sync": "^2.2.5",
     "crossroads": "^0.12.0",
@@ -36,16 +20,18 @@
     "dustjs-linkedin": "^2.6.1",
     "ecstatic": "^0.5.8",
     "express": "^4.11.1",
+    "hasher": "^1.2.0",
+    "lodash": "^3.0.0",
     "gulp-concat": "^2.5.2",
     "gulp-dust": "^1.0.2",
     "gulp-dust-html": "0.0.4",
-    "gulp-jshint": "^1.9.2",
+    "gulp-jshint": "~1.9.2",
     "gulp-nodemon": "^1.0.5",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^1.3.3",
     "gulp-uglify": "^1.1.0",
     "gulp-util": "~3.0.3",
-    "hasher": "^1.2.0",
-    "lodash": "^3.0.0"
+    "node-sass": "~1.2.3",
+    "gulp-imagemin": "~2.2.1"
   }
 }

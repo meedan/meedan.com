@@ -1,7 +1,8 @@
 ## Installing dependencies
 
 Most of the code we use is packaged with [NPM](https://www.npmjs.com/ "npm"). To install NPM dependencies you do this in the bridge-ui directory:
-
+                
+                npm install -g bower
                 npm install
 
 This installs the tools listed in the file `package.json`.
@@ -19,4 +20,8 @@ That will start the compiler for both the stylesheets ([Sass](sass-lang.com/)) a
 
 While the gulp compiler is running, edit the source files in `src/` and the web-ready files in `www` will be regenerated.
 
-the gh-pages branch IS the website
+## Deploying
+
+The gh-pages branch is the website.
+
+To create a snapshot and deploy, run the script.

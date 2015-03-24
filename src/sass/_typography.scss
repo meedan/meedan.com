@@ -1,5 +1,5 @@
 body {
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-family: "open sans", "helvetica neue", "helvetica";
   line-height: 1.5;
   text-align: center;
@@ -45,7 +45,7 @@ li {
 li > a {
   @media all and (max-width: $breakpoint) {
     background: rgba($photo-feb10-blue, 0.1);
-    padding: 1em;
+    padding: 1.4em;
     display: block;
   }
 }
@@ -70,7 +70,7 @@ h1 {
   font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
   font-weight: 200;
   line-height: 1.2;
-  font-size: 2em;
+  font-size: 3.5em;
   @media all and (max-width: $breakpoint) {
     font-size: 1.4em !important;
     font-weight: 400;
@@ -79,13 +79,13 @@ h1 {
 
 h2, h3 {
   font-weight: 600;
-  font-family: "open sans", "Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans",Geneva,Verdana,sans-serif;
   // font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
   // text-transform: uppercase;
   margin: 0;
-  padding: 1em 1em 1em 1em;
-  line-height: 1.2;
-  font-size: 22px;
+  padding: 2em 1em 1em 1em;
+  line-height: 1.4;
+  font-size: 1.8em;
   letter-spacing: 0.03em;
   @media all and (max-width: $breakpoint) {
     padding: 0.5em;

@@ -10,6 +10,8 @@ var dust = require('gulp-dust');
 dust.helpers = require('dustjs-helpers').helpers;
 var dusthtml = require('gulp-dust-html');
 
+var imagemin = require('gulp-imagemin');
+
 var pkg = require('./package.json');
 var config = require('./config/config.js');
 
@@ -42,6 +44,18 @@ var dustConfig = {
     banner: '/*! ' + pkg.name + ' - v' + pkg.version + ' - ' + (new Date()).toString()
   }
 }
+
+
+gulp.task('images', function () {
+  return gulp.src('src/images/*')
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{
+        removeViewBox: false
+      }]
+    }))
+    .pipe(gulp.dest('www/images'));
+});
 
 // Sass stylesheets
 // 
