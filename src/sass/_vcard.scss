@@ -22,47 +22,45 @@
 
 .contactsection {
     margin: 0px auto;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-bottom: 0px;
-        margin-left: auto;
 }
 
 .contactrow {
     width: 100%;
+    padding: 0;
 }
-
 
 
 .col {
     float: left;
-    padding: 0px 20px;
-        padding-top: 0px;
-        padding-right: 10px;
-        padding-bottom: 0px;
-        padding-left: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .third {
     width: 33.3333%;
-    max-width: 320px;
-    p{
+
+}
+
+.contact-col {
+
+  p {
       font-size:0.5em;
       font-weight:100;
       line-height:1em;
     }
-   .offices{
-    background-color: $meedanlabs-blue;
-  }
+}
+
+#offices-col {
+  background-color: $meedanlabs-blue;
 
 }
 
-  .email{
-    background-color: $meedanlabs-orange;
-  }
+#email-col {
+  background-color: $meedanlabs-orange;
+}
 
-  .phone{
-    background-color: $meedanlabs-green;
-  }
+#phone-col {
+  background-color: $meedanlabs-green;
+}
 
 

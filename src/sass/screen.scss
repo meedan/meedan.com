@@ -7,6 +7,7 @@
 @import "../../compass-mixins/lib/animation/animate/lightspeed";
 @import "../../compass-mixins/lib/animation/animate/attention-seekers";
 @import "../../compass-mixins/lib/compass/css3/box";
+@import "reset";
 @import "base";
 @import "colors";
 @import "definition-lists";
@@ -23,6 +24,11 @@
 
 /////////////////////////// Base styles
 ///
+
+html, body {
+  width: 100%;
+}
+
 body {
   padding-bottom: 1em;
   @media all and (max-width: $breakpoint) {
