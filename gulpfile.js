@@ -13,7 +13,6 @@ var dusthtml = require('gulp-dust-html');
 var imagemin = require('gulp-imagemin');
 
 var pkg = require('./package.json');
-var config = require('./config/config.js');
 
 var scssFiles = "src/sass/**/*.scss";
 var cssCompileDir = "www/css";
@@ -24,27 +23,17 @@ var ehandler = function (err) {
   console.log(err.message);
 }
 
-// Browser-sync
-//
-var browserSyncConfig = {
-  reloadDelay: 2000,
-  notify: false,
-  server: {
-    baseDir: "./www",
-  }
-}
-
 // Dust templates
 var dustConfig = {
   basePath: 'src',
   whitespace: true,
   data: {
     pkg: pkg,
-    config: config,
     banner: '/*! ' + pkg.name + ' - v' + pkg.version + ' - ' + (new Date()).toString()
   }
 }
 
+// Image minification
 gulp.task('images', function () {
   return gulp.src(['src/images/*', 'src/images/**/*'])
     .pipe(imagemin({
@@ -56,14 +45,6 @@ gulp.task('images', function () {
     .pipe(gulp.dest('www/images'));
 });
 
-// Sass stylesheets
-// 
-var sassConfig = {
-  errLogToConsole: true,
-  includePaths: ["bower_components"],
-  outputStyle: "compressed"
-}
-
 gulp.task('dust', function (cb) {
   return gulp.src(['src/*.dust', '!src/_*.dust']).pipe(
       dusthtml(dustConfig))
@@ -71,6 +52,12 @@ gulp.task('dust', function (cb) {
     .pipe(gulp.dest('www/'));
 });
 
+// Sass stylesheets
+var sassConfig = {
+  errLogToConsole: true,
+  includePaths: ["bower_components"],
+  outputStyle: "compressed"
+}
 gulp.task('sass', function () {
   return gulp.src(scssFiles)
     .pipe(sass(sassConfig))
@@ -79,6 +66,15 @@ gulp.task('sass', function () {
       stream: true
     }))
 });
+
+// Browser-sync
+var browserSyncConfig = {
+  reloadDelay: 2000,
+  notify: false,
+  server: {
+    baseDir: "./www",
+  }
+}
 
 // Default task
 gulp.task('default', function () {
