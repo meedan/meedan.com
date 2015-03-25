@@ -100,16 +100,19 @@ section.support {
 
 .photo-frame {
   background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
-  padding-bottom: 50%;
   width: 100%;
+  height: 250px;
   margin: 0 auto;
   background-position: 0 0, 2px 2px;
   background-size: 4px 4px, 4px 4px, cover;
   background-repeat: repeat, repeat, no-repeat;
+  background-attachment: fixed;
   -webkit-filter: grayscale(1);
   filter: url(#greyscale);
   filter: grayscale(1);
   transition: 1.3s;
+  position: absolute;
+  z-index: -1;
 }
 
 .photo-frame:hover {
