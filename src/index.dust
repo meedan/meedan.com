@@ -6,8 +6,6 @@
 <body>
   <main>
 
-    <div class="photo-frame"></div>   
-
     {>_branding /}
     {>_about /}
     {>_team /}
@@ -27,12 +25,19 @@
             Nurani, QFI, Kiva et al
 
     </pre>
+    
     {>_support /}
     {>_medium /}
     {>_navigation /}
     {>_media /}
     {>_contact /}
   </main>
+
+    <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
+
 </body>
 
 </html>
