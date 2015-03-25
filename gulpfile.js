@@ -17,13 +17,7 @@ var pkg = require('./package.json');
 var scssFiles = "src/sass/**/*.scss";
 var cssCompileDir = "www/css";
 
-// Error Handling
-var ehandler = function (err) {
-  console.log('ehandler');
-  console.log(err.message);
-}
-
-// Dust templates
+// Dust template config
 var dustConfig = {
   basePath: 'src',
   whitespace: true,
@@ -31,6 +25,12 @@ var dustConfig = {
     pkg: pkg,
     banner: '/*! ' + pkg.name + ' - v' + pkg.version + ' - ' + (new Date()).toString()
   }
+}
+
+// Error Handling
+var ehandler = function (err) {
+  console.log('ehandler');
+  console.log(err.message);
 }
 
 // Image minification
@@ -45,11 +45,16 @@ gulp.task('images', function () {
     .pipe(gulp.dest('www/images'));
 });
 
+// Dust template rendering
 gulp.task('dust', function (cb) {
   return gulp.src(['src/*.dust', '!src/_*.dust']).pipe(
       dusthtml(dustConfig))
     .on('error', cb)
     .pipe(gulp.dest('www/'));
+});
+// convenience task to call reload after the dust rendering
+gulp.task('dustreload',['dust'], function() {
+    reload();
 });
 
 // Sass stylesheets
@@ -79,6 +84,8 @@ var browserSyncConfig = {
 // Default task
 gulp.task('default', function () {
   gulp.watch(scssFiles, ['sass']);
-  gulp.watch('src/*.dust', ['dust']).on('change', reload);
+  gulp.watch('src/*.dust', ['dustreload']);
   browserSync(browserSyncConfig);
 });
+
+
