@@ -21,14 +21,26 @@
 
 
 .contactsection {
-    margin: 0px auto;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0px 0px 10px;
+    background-color: $meedanlabs-blue;
 }
 
-.contactrow {
-    width: 100%;
-    padding: 0;
+
+.cool-channels{
+    width:100%;
+    margin: 0 0 0 0;
+    padding: 20px 0px 0px 0px;
+    a {
+      text-decoration:none!important;
+      border-bottom: none!important;
+    }
+
     background-color: $meedanlabs-green;
 }
+
+
 
 
 .col {
@@ -37,23 +49,93 @@
     box-sizing: border-box;
 }
 
-.third {
+.third, {
     width: 33.3333%;
-
+    height: 200px;
 }
 
-.contact-col {
+.twothird{
+    width: 66%;
+    text-align:left;
+}
 
-  p {
+
+
+#left-col-third-section-title{
+    h3{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    color: #fff;
+    margin: .5em;
+    padding: 0;
+    }
+}
+
+
+
+
+#wrappersection { 
+  width: 100%; margin: 0px auto; box-sizing: border-box;
+  }
+
+#wrappersection > div { 
+  margin: 0 0 0px 0; min-width: 200px; width: 100%; 
+  }
+
+#contactrow 
+  { overflow: hidden; 
+
+  }
+
+#contactrow .column {
+  width: 27%;
+  padding: 0px 3.15% 0; 
+  float: left;
+  margin-bottom: -99999px;
+      padding-bottom: 99999px;
+}
+
+#contactrow .column:nth-child(1) { 
+  margin-left: 33.3333%; background: $meedanlabs-blue; 
+    p{
+    font-size:.7em;
+  }
+}
+#contactrow .column:nth-child(2) { 
+  margin-left: -66.6%; background: $meedanlabs-orange; 
+  p{
+    font-size:.7em;
+  }
+}
+#contactrow .column:nth-child(3) { 
+  left: 0; background: $meedanlabs-green; 
+    p{
+    font-size:.7em;
+  }
+}
+#contactrow p { 
+  margin-bottom: 30px; 
+} 
+
+
+
+
+    /* Bottom padding on the column doesn't work */
+
+
+/*.contact-col {
+   p {
       font-size:0.5em;
       font-weight:100;
       line-height:1em;
     }
+ 
 }
 
 #offices-col {
   background-color: $meedanlabs-blue;
-
 }
 
 #email-col {
@@ -62,6 +144,6 @@
 
 #phone-col {
   background-color: $meedanlabs-green;
-}
+}*/
 
 
