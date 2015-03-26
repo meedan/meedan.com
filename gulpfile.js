@@ -19,6 +19,8 @@ var cssCompileDir = "www/css";
 
 var autoprefixer = require('gulp-autoprefixer');
 
+var responsive = require('gulp-responsive');
+
 // Dust template config
 var dustConfig = {
   basePath: 'src',
@@ -35,8 +37,26 @@ var ehandler = function (err) {
   console.log(err.message);
 }
 
+var gulp = require('gulp');
+var responsive = require('gulp-responsive');
+
+gulp.task('image-resize', function () {
+  return gulp.src('src/images/*')
+    .pipe(responsive([{
+      'team/an.jpg': {
+        width: 100,
+        height: 100
+      },
+      'header-*.jpg': {
+        width: 1400,
+        withoutEnlargement: true
+      }
+    }]))
+    .pipe(gulp.dest('www/images/'));
+});
+
 // Image minification
-gulp.task('images', function () {
+gulp.task('image-compress', function () {
   return gulp.src(['src/images/*', 'src/images/**/*'])
     .pipe(imagemin({
       progressive: true,

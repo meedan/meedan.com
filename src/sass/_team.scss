@@ -13,22 +13,10 @@
     display: inline-block;
     width: 120px;
     vertical-align: top;
+    img {
+      max-width: 100px;
+      @include border-radius(50%);
+      @include gradient($accent-orange, $accent-blue);
+    }
   }
-}
-
-img.avatar {
-  max-width: 100px;
-  @include border-radius(50%);
-  // background-color: #5ece7f;
-  // background-blend-mode: multiply;
-  @include gradient($accent-orange, $accent-blue);
-  // &:hover {
-  //   -webkit-filter: brightness(+100%);
-  //   -webkit-filter: color;
-  // }
-}
-
-body {
-  border-radius: "4px";
-  filter: none;
 }
