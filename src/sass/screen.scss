@@ -85,12 +85,10 @@ nav {
   }
 }
 
-
-
 /*section: projects css*/
 .projects {
   padding-bottom: 20px;
-   h3{
+  h3 {
     border-bottom: 2px solid #373737;
     border-top: 2px solid #373737;
     border-right: 2px solid #373737;
@@ -101,65 +99,60 @@ nav {
   }
 }
 
-
 #container2 {
-  clear:left;
-  float:left;
-  width:100%;
-  overflow:hidden;
-  background:#ffa7a7; /* column 2 background colour */
+  clear: left;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  background: #ffa7a7;
+  /* column 2 background colour */
   text-align: center;
-  }
-  
+}
+
 #container1 {
-  float:left;
-  width:100%;
-  position:relative;
-  right:50%;
-  background:#fff689; /* column 1 background colour */
+  float: left;
+  width: 100%;
+  position: relative;
+  right: 50%;
+  background: #fff689;
+  /* column 1 background colour */
   text-align: center;
-  
 }
 
 #col1 {
-  float:left;
-  width:46%;
-  position:relative;
-  left:52%;
+  float: left;
+  width: 46%;
+  position: relative;
+  left: 52%;
   padding-top: 20px;
-  overflow:hidden;
+  overflow: hidden;
   margin-left: auto;
-margin-right: auto;
-
+  margin-right: auto;
 }
+
 #col2 {
-  float:left;
-  width:46%;
-  position:relative;
-  left:56%;
+  float: left;
+  width: 46%;
+  position: relative;
+  left: 56%;
   padding-top: 20px;
-  overflow:hidden;
-margin-left: auto;
-margin-right: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 /*end of projects section*/
-
-
-
-
 
 /*section: support css*/
 section.support {
   padding-bottom: 20px;
-  display: inline-block!important;
+  display: inline-block !important;
   img {
     max-width: 100px;
     max-height: 40px;
     margin: 0.3em 0.8em;
   }
-   h3{
+  h3 {
     border-bottom: 2px solid #373737;
     border-top: 2px solid #373737;
     border-right: 2px solid #373737;
@@ -170,20 +163,16 @@ section.support {
   }
 }
 
-
-.support-logos{
-width:80%;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-padding-bottom: 40px;
-padding-top:10px;
+.support-logos {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
-
 /*end of support section*/
-
-
 
 .photo-frame {
   background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
@@ -203,3 +192,5 @@ padding-top:10px;
   -webkit-filter: grayscale(0);
   filter: none;
 }
+
+@import "test";

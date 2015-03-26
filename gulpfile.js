@@ -17,6 +17,8 @@ var pkg = require('./package.json');
 var scssFiles = "src/sass/**/*.scss";
 var cssCompileDir = "www/css";
 
+var autoprefixer = require('gulp-autoprefixer');
+
 // Dust template config
 var dustConfig = {
   basePath: 'src',
@@ -53,8 +55,8 @@ gulp.task('dust', function (cb) {
     .pipe(gulp.dest('www/'));
 });
 // convenience task to call reload after the dust rendering
-gulp.task('dustreload',['dust'], function() {
-    reload();
+gulp.task('dustreload', ['dust'], function () {
+  reload();
 });
 
 // Sass stylesheets
@@ -66,6 +68,7 @@ var sassConfig = {
 gulp.task('sass', function () {
   return gulp.src(scssFiles)
     .pipe(sass(sassConfig))
+    .pipe(autoprefixer("last 4 versions", "> 1%", "ie 8", "ie 7"))
     .pipe(gulp.dest(cssCompileDir))
     .pipe(reload({
       stream: true
@@ -87,5 +90,3 @@ gulp.task('default', function () {
   gulp.watch('src/*.dust', ['dustreload']);
   browserSync(browserSyncConfig);
 });
-
-
