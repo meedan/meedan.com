@@ -48,7 +48,7 @@ main > div {
 ///
 ///
 .branding {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .logo {
@@ -60,6 +60,7 @@ main > div {
   }
 }
 
+
 nav {
   padding: 2em 0 1.5em;
   display: block;
@@ -68,12 +69,48 @@ nav {
   }
 }
 
+.about{
+  padding-bottom:30px;
+  margin-top:0px;
+  clear:left;
+  float:left;
+  width:100%;
+  overflow:hidden;
+}
+
+
+.team-preamble {
+  clear:left;
+  float:left;
+  width:100%;
+  overflow:hidden;
+  margin-bottom:30px;
+  width:100%;
+  h3{
+    margin: .5em;
+    padding: 0;
+  }
+    background-color:$warm-grey;
+}
+
 .contact {
   clear: both;
 }
 
+
+.latest{
+  background-color: rgba($warm-grey, 0.7);
+  width:100%;
+  overflow:hidden;
+  margin: 0 0 0 0;
+  padding:0 0 0 0;
+}
+
 .medium-channels {
-  background-color: rgba($warm-grey, 0.4);
+  background-color: rgba($warm-grey, 0.7);
+  padding: 20px 0px 60px 0px;
+  margin-bottom:0px;
+    overflow:hidden;
   .medium-channel {
     background-color: black !important;
     @include box-shadow($warm-grey 5px 0px 20px);
@@ -86,19 +123,20 @@ nav {
 }
 
 
+.slogan{
+  font-size:1.5em;
+}
+
 
 /*section: projects css*/
 .projects {
   padding-bottom: 20px;
    h3{
-    border-bottom: 2px solid #373737;
-    border-top: 2px solid #373737;
-    border-right: 2px solid #373737;
-    border-left: 2px solid #373737;
-    color: #373737;
     margin: .5em;
     padding: 0;
   }
+  background-color:$warm-grey;
+  width:100%;
 }
 
 
@@ -107,7 +145,7 @@ nav {
   float:left;
   width:100%;
   overflow:hidden;
-  background:#ffa7a7; /* column 2 background colour */
+  background: rgba($turkish-rose, 0.9); /* column 2 background colour */
   text-align: center;
   }
   
@@ -116,7 +154,7 @@ nav {
   width:100%;
   position:relative;
   right:50%;
-  background:#fff689; /* column 1 background colour */
+  background: rgba($faded-blue, 0.9); /* column 1 background colour */
   text-align: center;
   
 }
@@ -130,18 +168,43 @@ nav {
   overflow:hidden;
   margin-left: auto;
 margin-right: auto;
-
+  a{
+      text-decoration:none!important;
+      border-bottom: none!important;
+  }
+  p{
+    color:#fff;
+  }
 }
+
 #col2 {
   float:left;
   width:46%;
   position:relative;
   left:56%;
-  padding-top: 20px;
+  padding-top: 30px;
   overflow:hidden;
 margin-left: auto;
 margin-right: auto;
+  a{
+      text-decoration:none!important;
+      border-bottom: none!important;
+  }
+  p{
+    color:#fff;
+  }
 }
+
+
+.svg-container{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden; 
+}
+
 
 
 /*end of projects section*/
@@ -153,6 +216,7 @@ margin-right: auto;
 /*section: support css*/
 section.support {
   padding-bottom: 20px;
+  padding-top: 20px;
   display: inline-block!important;
   img {
     max-width: 100px;
@@ -160,11 +224,6 @@ section.support {
     margin: 0.3em 0.8em;
   }
    h3{
-    border-bottom: 2px solid #373737;
-    border-top: 2px solid #373737;
-    border-right: 2px solid #373737;
-    border-left: 2px solid #373737;
-    color: #373737;
     margin: .5em;
     padding: 0;
   }
@@ -183,12 +242,76 @@ padding-top:10px;
 
 /*end of support section*/
 
+/*section: contact css*/
+#concontainer3 {
+  clear:left;
+  float:left;
+  width:100%;
+  overflow:hidden;
+  background:rgba($faded-blue, 0.6); /* column 3 background colour */
+}
+
+#concontainer2 {
+  clear:left;
+  float:left;
+  width:100%;
+  position:relative;
+  right:33.333%;
+  background:rgba($turkish-rose,0.6); /* column 2 background colour */
+}
+
+#concontainer1 {
+  float:left;
+  width:100%;
+  position:relative;
+  right:33.33%;
+  background:rgba($faded-blue, 0.3); /* column 1 background colour */
+}
+
+
+
+#concol1 {
+  float:left;
+  width:29.33%;
+  position:relative;
+  left:68.67%;
+  overflow:hidden;
+  font-size:.7em;
+  color:#fff;
+  ul {
+    text-align:left;
+  }
+}
+
+#concol2 {
+  float:left;
+  width:29.33%;
+  position:relative;
+  left:72.67%;
+  overflow:hidden;
+    font-size:.7em;
+      color:#fff;
+
+
+}
+
+#concol3 {
+  float:left;
+  width:29.33%;
+  position:relative;
+  left:76.67%;
+  overflow:hidden;
+    color:#fff;
+    font-size:.7em;
+
+}
+//end contact section
 
 
 .photo-frame {
   background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
   width: 100%;
-  height: 350px;
+  height: 300px;
   margin: 0 auto;
   background-position: 0 0, 2px 2px, 100%;
   background-size: 4px 4px, 4px 4px, cover;

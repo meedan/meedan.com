@@ -62,6 +62,7 @@ p {
     padding: 1em 0.7em;
     line-height: 1.65;
   }
+  font-size:.75em;
 }
 
 // Headers
@@ -78,14 +79,14 @@ h1 {
 }
 
 h2, h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Open Sans",Geneva,Verdana,sans-serif;
   // font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
   // text-transform: uppercase;
   margin: 0;
   padding: 2em 1em 1em 1em;
-  line-height: 1.4;
-  font-size: 1.8em;
+  line-height: 1.2;
+  font-size: 1.5em;
   letter-spacing: 0.03em;
   @media all and (max-width: $breakpoint) {
     padding: 0.5em;

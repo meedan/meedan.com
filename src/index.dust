@@ -8,18 +8,37 @@
   </head>
   <body>
     <main>
-    <div class="photo-frame"></div>
+    
+    <div class="photo-frame">
+    </div>
+    
     <div class="branding">
       <img class="logo" src="images/ml-logo.svg" onerror="this.src='ml-logo-alt.png'">
       <h1>Meedan</h1>
-      
-    <p class="slogan">Make sense of the global web.</p>
-  </div>
-  <div class="about">
+      <p class="slogan">Make sense of the global web.</p>
+    </div>
+
+
+
+<div class="about">
     <p>We are designers, technologists and journalists building digital tools for collaboration on the global internet, with a focus on fact verification, open journalism, and social translation. With university and commercial partners we support research, curriculum development, and new forms of digital storytelling.</p>
-    <p>Meedan has offices in Cairo, Vancouver and San Francisco, with a distributed team across 13 time zones, 6 cities, and 3 continents. Collectively, we speak 8 languages and want to learn a lot more.</p>
+</div>
+
+
+<div class="team-preamble">
+
+  <div class="col third" id="left-col-third-section-title">
+  <h3>Our Team</h3>
   </div>
 
+    <div class="col two-third">
+    <p>Meedan has offices in Cairo, Vancouver and San Francisco, with a distributed team across 13 time zones, 6 cities, and 3 continents. Collectively, we speak 8 languages and want to learn a lot more.</p>
+    </div>
+</div>
+
+
+
+<div class="teamsection">
   <ul class="team">
     <li>
       <img class="avatar" src="images/an.jpg" />
@@ -155,30 +174,35 @@
       <div class="title">Designer</div>
   </li>
 </ul>
+</div>
+
 
 
 
 <div class="projects">
+
   <div class="col third">
-  <h3>Projects</h3>
+  <h3>Our Work</h3>
   </div>
+</div>
 
 
 <div id="container2">
   <div id="container1">
 
     <div id="col1">
-      <img src="images/checkdesk.svg" width="50%"/>
-      <p>Verification toolkit for digital media</p>
+      <a href="files/checkdesk.pdf" target="_blank"><img src="images/checkdesk.svg" width="300"/>
+      <p>Verification toolkit for digital media</p></a>
       </div>
 
       <div id="col2">
-      <img src="images/bridge.svg" width="50%"/>
-      <p>Social translation of social media</p>
+      <a href="files/checkdesk.pdf" target="_blank"><img src="images/bridge_logo.svg" width="200"/>
+      <p>Social translation of social media</p></a>
       </div>
 
     </div>
   </div>
+</div>
 
 
 
@@ -232,6 +256,14 @@
 
 <script async src="https://static.medium.com/embed.js"></script>
 
+
+
+<div class="latest">
+<div class="col third" >
+<h3>Latest</h3>
+</div>
+</div>
+
 <div class="medium-channels">
     <div class="medium-channel">
       <a class="m-collection" data-width="500px" data-border=
@@ -242,8 +274,7 @@
       "false" href="https://medium.com/meedan-labs">Meedan Labs</a>
     </div>
 </div>
-<nav>
-</nav>
+
 
 <!--<h3>Where to Find Us</h3>
     <ul>
@@ -325,7 +356,7 @@
     <p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies.  Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for crowdsourcing social media translation.</p>
     </div>
 
-
+</div>
     <div class="cool-channels">
         <ul>
             <li>
@@ -341,7 +372,7 @@
         </ul>
     </div>
 
-</div>
+
 
 <!--<p>Want to learn more? Join our mailing list.</p>
     <p>enter email address</p>-->
@@ -349,44 +380,46 @@
 
 
 
+<div id="concontainer3">
+  <div id="concontainer2">
+    <div id="concontainer1">
+      <div id="concol1">
+        <h3>Visit</h3>
+        <ul><li>972 Mission St., 5th Fl.
+        San Francisco, USA
+        
+        94103</li>
 
+        <li>300-422 Richards Street,
+        Vancouver, British Columbia
+        Canada, V6B 2Z4</li>
 
+       <li>304 The Greek Campus,
+        28 Falaki St.
+        Bab El Louk
+        Cairo, Egypt
+        11511</li>
+        </ul>
+    </div>
 
-<div id="wrapper-section">
-<div id="contact-row" class="group">
-   
-
-    <div class="column">
+      <div id="concol2">
     <h3>Write</h3>
         <p>hello@Meedan.com</p>
     </div>
 
-    <div class="column">
-        <h3>Visit</h3>
-        <p>972 Mission St., 5th Fl.
-        San Francisco, USA
-        
-        94103</p>
 
-        <p>300-422 Richards Street,
-        Vancouver, British Columbia
-        Canada, V6B 2Z4</p>
 
-       <p>304 The Greek Campus,
-        28 Falaki St.
-        Bab El Louk
-        Cairo, Egypt
-        11511</p>
+
+
+      <div id="concol3">
+       <h3>Call</h3>
+        <p>+1-415-885-9000</p>
     </div>
 
-    <div class="column">
-        <h3>Call</h3>
-        <p>+1-415-297-2900</p>
-    </div>
+
 
 </div>
-
-
+</div>
 </div>
 
 

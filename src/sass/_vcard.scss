@@ -21,23 +21,33 @@
 
 
 .contact-section {
-    width: 100%;
+  clear:left;
+  float:left;
+  width:100%;
+  overflow:hidden;
     margin: 0;
-    padding: 10px 0px 0px 10px;
-    background-color: $meedanlabs-green;
+    padding: 10px 0px 20px 0px;
+    background-color: $faded-blue;
+    p, h3{
+    color:#fff!important;
+  }
 }
 
 
 .cool-channels{
     width:100%;
-    margin: 0 0 0 0;
-    padding: 20px 0px 0px 0px;
+    margin-top:10px;
+    padding: 30px 0px 0px 0px;
     a {
       text-decoration:none!important;
       border-bottom: none!important;
     }
+    ul {
+      margin: 0;
+      padding:0;
+    }
 
-    background-color: $meedanlabs-green;
+    background-color: $faded-blue;
 }
 
 
@@ -55,31 +65,28 @@
 
 .half{
   width: 50%;
+  background-color: inherit;
 }
 
 .two-third{
     width: 66%;
     text-align:left;
+    background-color: inherit;
 }
 
 
 
 #left-col-third-section-title{
     h3{
-    border-bottom: 2px solid #fff;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
-    border-left: 2px solid #fff;
-    color: #fff;
-    margin: .5em;
-    padding: 0;
+    padding: 0 0 0 0;
     }
+    background-color: inherit;
 }
 
 
 
 
-#wrapper-section { 
+/*#wrapper-section { 
   width: 100%; margin: 0px auto; box-sizing: border-box;
   }
 
@@ -112,7 +119,7 @@
 
 
 #contact-row .column:nth-child(2) { 
-  margin-left: -66.6%; background: $meedanlabs-orange; 
+  margin-left: -66.66%; background: $meedanlabs-orange; 
   display:block;
   h3{
       font-size:1em;
@@ -138,22 +145,12 @@
   margin-bottom: 30px; 
 } 
 
+Bottom padding on the column doesn't work
+
+*/
 
 
-
-    /* Bottom padding on the column doesn't work */
-
-
-/*.contact-col {
-   p {
-      font-size:0.5em;
-      font-weight:100;
-      line-height:1em;
-    }
- 
-}
-
-#offices-col {
+/*#offices-col {
   background-color: $meedanlabs-blue;
 }
 
@@ -164,5 +161,4 @@
 #phone-col {
   background-color: $meedanlabs-green;
 }*/
-
 
