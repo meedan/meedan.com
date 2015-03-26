@@ -1,393 +1,298 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meedan</title>
     <link href="./css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-</head>
-<body>
-  <main>
-
-        <div class="branding">
-
-    <img data-50="transform:rotate(360deg);" class="logo" src="images/ml-logo.svg" onerror="this.src='ml-logo-alt.png'">
-
-    <h1>Meedan</h1>
-    <!-- <dl class="meedan-definition">
+  </head>
+  <body>
+    <main>
+    <div class="photo-frame"></div>
+    <div class="branding">
+      <img class="logo" src="images/ml-logo.svg" onerror="this.src='ml-logo-alt.png'">
+      <h1>Meedan</h1>
+      <!-- <dl class="meedan-definition">
         <dt>
-            <dfn>Meedan</dfn>
+        <dfn>Meedan</dfn>
         </dt>
-        <dd class="part-of-speech"><i><abbr>n.</abbr></i>
-        </dd>
-        <dd class="pronunciation">[mē&#712;dan]
-            <em>Arabic</em>
-        </dd>
-        <dd class="definition"><span class="number">1.</span> A town square</dd>
-        <dd class="definition"><span class="number">2.</span> A gathering place</dd>
+      <dd class="part-of-speech"><i><abbr>n.</abbr></i>
+      </dd>
+      <dd class="pronunciation">[mē&#712;dan]
+      <em>Arabic</em>
+      </dd>
+      <dd class="definition"><span class="number">1.</span> A town square</dd>
+      <dd class="definition"><span class="number">2.</span> A gathering place</dd>
     </dl> -->
-
     <p class="slogan">Make sense of the global web.</p>
-
-</div>
-<div class="about">
-  <p>We are designers, technologists and journalists building digital tools for collaboration on the global internet, with a focus on fact verification, open journalism, and social translation. With university and commercial partners we support research, curriculum development, and new forms of digital storytelling.</p>
-
-  <p>Meedan has offices in Cairo, Vancouver and San Francisco, with a distributed team across 13 time zones, 6 cities, and 3 continents. Collectively, we speak 8 languages and want to learn a lot more.</p>
-</div>  
-
-<ul class="team">
-  <li>
+  </div>
+  <div class="about">
+    <p>We are designers, technologists and journalists building digital tools for collaboration on the global internet, with a focus on fact verification, open journalism, and social translation. With university and commercial partners we support research, curriculum development, and new forms of digital storytelling.</p>
+    <p>Meedan has offices in Cairo, Vancouver and San Francisco, with a distributed team across 13 time zones, 6 cities, and 3 continents. Collectively, we speak 8 languages and want to learn a lot more.</p>
+  </div>
+  <ul class="team">
+    <li>
       <img class="avatar" src="images/an.jpg" />
       <div class="name">An Xiao Mina</div>
       <div class="title">Designer</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/anas.png" />
       <div class="name">Anas Qtiesh</div>
       <div class="title">Designer</div>
-  </li>
-  
-  <li>
+    </li>
+    
+    <li>
       <img class="avatar" src="images/ben.jpg" />
       <div class="name">Benjamin Foote</div>
       <div class="title">Operations</div>
-  </li>
-  
-  <li>
+    </li>
+    
+    <li>
       <img class="avatar" src="images/caio.jpg" />
       <div class="name">Caio Almeida</div>
       <div class="title">Developer</div>
-  </li>
-  
-  <li>
+    </li>
+    
+    <li>
       <img class="avatar" src="images/chris.jpg" />
       <div class="name">Chris Blow</div>
       <div class="title">Designer</div>
-  </li>
-  
-  <li>
+    </li>
+    
+    <li>
       <img class="avatar" src="images/clarissa.jpg" />
       <div class="name">Clarissa Xavier</div>
       <div class="title">Computational Linguist</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/dina.jpg" />
       <div class="name">Dina elHawary</div>
       <div class="title">Program Manager</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/ed.jpg" />
       <div class="name">Ed Bice</div>
       <div class="title">CEO &amp; Board Member</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/eddy.jpg" />
       <div class="name">Eduardo Hueso</div>
       <div class="title">Mobile Developer</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/hanan.jpg" />
       <div class="name">Hanan Heikal</div>
       <div class="title">Board Member</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/jibb.jpg" />
       <div class="name">Jonathan Beall</div>
       <div class="title">Mobile Developer</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/jon.jpg" />
       <div class="name">Jon Corshen</div>
       <div class="title">Board Member</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/karim.jpg" />
       <div class="name">Karim Ratib</div>
       <div class="title">Developer</div>
-  </li>
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/sawy.jpg" />
       <div class="name">Mohammad Sawy</div>
       <div class="title">Developer</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/muna.jpg" />
       <div class="name">Muna AbuSulayman</div>
       <div class="title">Board Member</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/noha.jpg" />
       <div class="name">Noha Daoud</div>
       <div class="title">QA Engineer</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/nora.jpg" />
       <div class="name">Nora Younis</div>
       <div class="title">Editor</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/pat.jpg" />
       <div class="name">Pat Motte</div>
       <div class="title">Operations</div>
-  </li>
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/shady.jpg" />
       <div class="name">Shady Samir</div>
       <div class="title">Developer</div>
-  </li>
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/steven.jpg" />
       <div class="name">Steven Bird</div>
       <div class="title">Computational Linguist</div>
-  </li>
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/tom.jpg" />
       <div class="name">Tom Trewinnard</div>
       <div class="title">Business Development</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/wael.jpg" />
       <div class="name">Wael Fakharany</div>
       <div class="title">Board Member</div>
-  </li>
-
-  <li>
+    </li>
+    <li>
       <img class="avatar" src="images/xiaowei.jpg" />
       <div class="name">Xiaowei Wang</div>
       <div class="title">Designer</div>
+    </li>
+  </ul>
+          <pre>
+                            Checkdesk [link to one pager PDF]
+                            Verification toolkit for digital media
+                            Bridge  [link to one pager PDF]
+                            Social translation of social media
+                            Nora Dot Com
+                            Pithy copy here
+                            Past Projects
+                            Nurani, QFI, Kiva et al
+  </pre>
+  
+  <section class="support">
+    <h3>Support</h3>
+    <p>Since 2006, Meedan has worked with a network of extraordinary sponsors, clients, and partners: <a href="http://www.sida.se/english/" title="Sida - Swedish International Development Cooperation Agency - Sida">Sida</a>, <a href="http://www.freemedia.at/" title="International Press Institute: freemedia.at">International Press Institute</a>, <a href="http://www.knightfoundation.org/" title="Knight Foundation">Knight Foundation</a>, <a href="http://www.nationalgeographic.com/" title="National Geographic: Images of Animals, Nature, and Cultures">National Geographic</a>, <a href="http://www.outofedenwalk.com/" title="Out of Eden Walk">Out of Eden Walk</a>, <a href="http://www.bcu.ac.uk/" title="Birmingham City University">Birmingham City University</a>, <a href="http://www.madamasr.com/" title="Mada Masr | Independent, progressive media">Mada Masr</a>, <a href="http://globalvoicesonline.org/" title="Global Voices &amp;middot; Citizen media stories from around the world">Global Voices</a>, <a href="https://www.bellingcat.com/" title="bellingcat - by and for citizen investigative journalists">Bellingcat</a>, <a href="http://www.weladelbalad.com/our-team/" title="iPage">Welad El Balad</a>, <a href="https://github.com/nonsequitur/smex" title="nonsequitur/smex · GitHub">SMEX</a>, <a href="http://www.economist.com/" title="The Economist - World News, Politics, Economics, Business &amp; Finance">The Economist</a>, <a href="http://www.macfound.org/" title="MacArthur Foundation">MacArthur Foundation</a>, <a href="http://www.kiva.org/" title="Kiva - Loans that change lives.">Kiva</a>, <a href="http://csr.cisco.com/pages/cisco-foundation" title="Cisco Foundation Grant Giving @ Cisco">Cisco Foundation</a>, <a href="https://www.coexist.org/" title="Coexist · Understanding Across Divides">Coexist Foundation</a>, <a href="http://www.vermontcf.org/" title="None">Vermont Community Foundation</a>, <a href="http://www.alwaleedfoundations.org/" title="Alwaleed Bin Talal Foundations  |  Saudi Arabia, Global, Lebanon">Alwaleed Foundation</a>, <a href="http://www.ibm.com/us/en/" title="IBM - United States">IBM</a>, <a href="http://www.fordfoundation.org/" title="Ford Foundation">Ford Foundation</a>, <a href="http://www.iie.org/" title="Institute of International Education">Institute for International Education</a>.</p>
+    <img src="images/logos-bw/af.png" alt="af logo" />
+    <img src="images/logos-bw/bc.jpg" alt="bc logo" />
+    <img src="images/logos-bw/bcu.png" alt="bcu logo" />
+    <img src="images/logos-bw/ce.png" alt="ce logo" />
+    <img src="images/logos-bw/cs.png" alt="cs logo" />
+    <img src="images/logos-bw/economist.svg" alt="economist logo" />
+    <img src="images/logos-bw/ff.png" alt="ff logo" />
+    <img src="images/logos-bw/gv.png" alt="gv logo" />
+    <img src="images/logos-bw/ibm.svg" alt="ibm logo" />
+    <img src="images/logos-bw/iie.JPG" alt="iie logo" />
+    <img src="images/logos-bw/ipi.png" alt="ipi logo" />
+    <img src="images/logos-bw/kf.svg" alt="kf logo" />
+    <img src="images/logos-bw/kiva.svg" alt="kiva logo" />
+    <img src="images/logos-bw/macarthur.png" alt="macarthur logo" />
+    <img src="images/logos-bw/mada.png" alt="mada logo" />
+    <img src="images/logos-bw/ng.svg" alt="ng logo" />
+    <img src="images/logos-bw/sida.svg" alt="sida logo" />
+    <img src="images/logos-bw/smex.png" alt="smex logo" />
+    <img src="images/logos-bw/vcf.png" alt="vcf logo" />
+  </section>
+  <script async src="https://static.medium.com/embed.js"></script>
+  <div class="medium-channels">
+    <div class="medium-channel">
+      <a class="m-collection" data-width="500px" data-border=
+      "false" href="https://medium.com/meedan-updates">Meedan Updates</a>
+    </div>
+    <div class="medium-channel">
+      <a class="m-collection" data-width="500px" data-border=
+      "false" href="https://medium.com/meedan-labs">Meedan Labs</a>
+    </div>
+  </div>
+  <h3>Our Recent Projects</h3>
+  <ul>
+    <li><a href="http://www.checkdesk.org">Checkdesk</a></li>
+    <li><a href="http://meedan.org/2013/12/classroom-to-classroom-trilingual/">Classroom to Classroom</a>
   </li>
-</ul>
-<pre>
+    <li><a href="http://meedan.org/2011/07/nurani-platform-released/">Nurani</a>
+</li>
+    <li><a href="http://www.outofedenwalk.com/blog/lab-talk/2014/05/bots-bieber-500-miles-social-media-translation">Translatedesk</a></li>
+    <li><a href="http://www.arabcitizenmedia.org/">Arab Citizen Media</a></li>
+  </ul>
 
-            Checkdesk [link to one pager PDF]
-            Verification toolkit for digital media
+  <h3 class="partners">Sponsors and Partners</h3>
 
-            Bridge  [link to one pager PDF]
-            Social translation of social media
+  <ul class="partners">
+    <li><a href="http://www.sida.se/english/">Sida</a>
+    </li>
+    <li><a href="http://www.knightfoundation.org/" title="Knight Foundation">Knight Foundation</a>
+    </li>
+    <li><a href="http://qfi.org/" title="Qatar Foundation International">Qatar Foundation International</a>
+    </li>
+    <li><a href="http://www.ibm.com/us/en/" title="IBM - United States">IBM</a>
+    </li>
+    <li><a href="http://www.bcu.ac.uk/" title="Birmingham City University">Birmingham City University</a>
+    </li>
+    <li><a href="http://www.outofedenwalk.com/" title="Out of Eden Walk">Out of Eden Walk</a>
+    </li>
+    <li><a href="http://www.cam.ac.uk/" title="University of Cambridge">University of Cambridge</a>
+    </li>
+    <li><a href="http://checkdesk.org">The Checkdesk Network</a>
+    </li>
+  </ul>
 
-            Nora Dot Com
-            Pithy copy here
-
-            Past Projects
-            Nurani, QFI, Kiva et al
-
-    </pre>
-    
-    <section class="support">
-      <h3>Support</h3>
-
-      <p>Since 2006, Meedan has worked with a network of extraordinary sponsors, clients, and partners: <a href="http://www.sida.se/english/" title="Sida - Swedish International Development Cooperation Agency - Sida">Sida</a>, <a href="http://www.freemedia.at/" title="International Press Institute: freemedia.at">International Press Institute</a>, <a href="http://www.knightfoundation.org/" title="Knight Foundation">Knight Foundation</a>, <a href="http://www.nationalgeographic.com/" title="National Geographic: Images of Animals, Nature, and Cultures">National Geographic</a>, <a href="http://www.outofedenwalk.com/" title="Out of Eden Walk">Out of Eden Walk</a>, <a href="http://www.bcu.ac.uk/" title="Birmingham City University">Birmingham City University</a>, <a href="http://www.madamasr.com/" title="Mada Masr | Independent, progressive media">Mada Masr</a>, <a href="http://globalvoicesonline.org/" title="Global Voices &amp;middot; Citizen media stories from around the world">Global Voices</a>, <a href="https://www.bellingcat.com/" title="bellingcat - by and for citizen investigative journalists">Bellingcat</a>, <a href="http://www.weladelbalad.com/our-team/" title="iPage">Welad El Balad</a>, <a href="https://github.com/nonsequitur/smex" title="nonsequitur/smex · GitHub">SMEX</a>, <a href="http://www.economist.com/" title="The Economist - World News, Politics, Economics, Business &amp; Finance">The Economist</a>, <a href="http://www.macfound.org/" title="MacArthur Foundation">MacArthur Foundation</a>, <a href="http://www.kiva.org/" title="Kiva - Loans that change lives.">Kiva</a>, <a href="http://csr.cisco.com/pages/cisco-foundation" title="Cisco Foundation Grant Giving @ Cisco">Cisco Foundation</a>, <a href="https://www.coexist.org/" title="Coexist · Understanding Across Divides">Coexist Foundation</a>, <a href="http://www.vermontcf.org/" title="None">Vermont Community Foundation</a>, <a href="http://www.alwaleedfoundations.org/" title="Alwaleed Bin Talal Foundations  |  Saudi Arabia, Global, Lebanon">Alwaleed Foundation</a>, <a href="http://www.ibm.com/us/en/" title="IBM - United States">IBM</a>, <a href="http://www.fordfoundation.org/" title="Ford Foundation">Ford Foundation</a>, <a href="http://www.iie.org/" title="Institute of International Education">Institute for International Education</a>.</p>
-
-      <img src="images/logos-bw/af.png" alt="af logo" />
-      <img src="images/logos-bw/bc.jpg" alt="bc logo" />
-      <img src="images/logos-bw/bcu.png" alt="bcu logo" />
-      <img src="images/logos-bw/ce.png" alt="ce logo" />
-      <img src="images/logos-bw/cs.png" alt="cs logo" />
-      <img src="images/logos-bw/economist.svg" alt="economist logo" />
-      <img src="images/logos-bw/ff.png" alt="ff logo" />
-      <img src="images/logos-bw/gv.png" alt="gv logo" />
-      <img src="images/logos-bw/ibm.svg" alt="ibm logo" />
-      <img src="images/logos-bw/iie.JPG" alt="iie logo" />
-      <img src="images/logos-bw/ipi.png" alt="ipi logo" />
-      <img src="images/logos-bw/kf.svg" alt="kf logo" />
-      <img src="images/logos-bw/kiva.svg" alt="kiva logo" />
-      <img src="images/logos-bw/macarthur.png" alt="macarthur logo" />
-      <img src="images/logos-bw/mada.png" alt="mada logo" />
-      <img src="images/logos-bw/ng.svg" alt="ng logo" />
-      <img src="images/logos-bw/sida.svg" alt="sida logo" />
-      <img src="images/logos-bw/smex.png" alt="smex logo" />
-      <img src="images/logos-bw/vcf.png" alt="vcf logo" />
-</section>
-<script async src="https://static.medium.com/embed.js"></script>
-
-<div class="medium-channels">
-    <div class="medium-channel">
-        <a class="m-collection" data-width="500px" data-border=
-        "false" href="https://medium.com/meedan-updates">Meedan Updates</a>
-    </div>
-
-    <div class="medium-channel">
-        <a class="m-collection" data-width="500px" data-border=
-        "false" href="https://medium.com/meedan-labs">Meedan Labs</a>
-    </div>
-</div>
-<nav>
-
-<!--<h3>Where to Find Us</h3>
-    <ul>
-        <li><a href="http://meedan.org/blog">Medium</a>
-        </li>
-        <li><a href="https://www.facebook.com/pages/Meedan/54421674438">Facebook</a>
-        </li>
-        <li><a href="http://twitter.com/#!/meedan">Twitter</a>
-        </li>
-        <li><a href="http://meedanlabs.com">Meedan Labs</a>
-        </li>
-    </ul>
-    -->
-
-    <h3>Our Recent Projects</h3>
-    <ul>
-        <li><a href="http://www.checkdesk.org">Checkdesk</a>
-        </li>
-        <li><a href="http://meedan.org/2013/12/classroom-to-classroom-trilingual/">Classroom to Classroom</a>
-        </li>
-        <li><a href="http://meedan.org/2011/07/nurani-platform-released/">Nurani</a>
-        </li>
-        <li><a href="http://www.outofedenwalk.com/blog/lab-talk/2014/05/bots-bieber-500-miles-social-media-translation">Translatedesk</a>
-        </li>
-        <li><a href="http://www.arabcitizenmedia.org/">Arab Citizen Media</a>
-        </li>
-    </ul>
-
-    <h3 class="partners">Sponsors and Partners</h3>
-
-    <ul class="partners">
-        <li><a href="http://www.sida.se/english/">Sida</a>
-        </li>
-        <li><a href="http://www.knightfoundation.org/" title="Knight Foundation">Knight Foundation</a>
-        </li>
-        <li><a href="http://qfi.org/" title="Qatar Foundation International">Qatar Foundation International</a>
-        </li>
-        <li><a href="http://www.ibm.com/us/en/" title="IBM - United States">IBM</a>
-        </li>
-        <li><a href="http://www.bcu.ac.uk/" title="Birmingham City University">Birmingham City University</a>
-        </li>
-        <li><a href="http://www.outofedenwalk.com/" title="Out of Eden Walk">Out of Eden Walk</a>
-        </li>
-        <li><a href="http://www.cam.ac.uk/" title="University of Cambridge">University of Cambridge</a>
-        </li>
-        <li><a href="http://checkdesk.org">The Checkdesk Network</a>
-        </li>
-    </ul>
-</nav>
 <div class="media-coverage">
-    <h3>Coverage of our past work</h3>
-    <ul>
-        <li>
-            <p class="quote">It&rsquo;s a lovely idea: a social-networking site with automatic translation bolted on. That&rsquo;s [news.meedan.net], a gathering place for English and Arabic speakers who want to exchange thoughts on Middle East issues.
-            </p>
-            <span class="attribution">&mdash; <a href="http://www.nytimes.com/2008/12/14/magazine/14wwln-idealab-t.html">New York Times Magazine</a>
-            </span>
-        </li>
-
-        <li>
-            <p class="quote">But even if a breadth and depth of opinion, analysis and comment is developing on the Arabic web, it's all lost on the English speaking world. Into this gap enters Meedan.</p>
-            <span class="attribution">&mdash; <a href="http://blogs.aljazeera.com/blog/middle-east/meedan-blurs-linguistic-lines">Al Jazeera</a>
-            </span>
-        </li>
-    </ul>
+<h3>Coverage of our past work</h3>
+<ul>
+<li>
+<p class="quote">It&rsquo;s a lovely idea: a social-networking site with automatic translation bolted on. That&rsquo;s [news.meedan.net], a gathering place for English and Arabic speakers who want to exchange thoughts on Middle East issues.
+</p>
+<span class="attribution">&mdash; <a href="http://www.nytimes.com/2008/12/14/magazine/14wwln-idealab-t.html">New York Times Magazine</a>
+</span>
+</li>
+<li>
+<p class="quote">But even if a breadth and depth of opinion, analysis and comment is developing on the Arabic web, it's all lost on the English speaking world. Into this gap enters Meedan.</p>
+<span class="attribution">&mdash; <a href="http://blogs.aljazeera.com/blog/middle-east/meedan-blurs-linguistic-lines">Al Jazeera</a>
+</span>
+</li>
+</ul>
 </div>
-
 <div class="contactsection">
-
-    <div class="col third" id="left-col-third-section-title">
-    <h3>Contact Us</h3>
-    </div>
-
-    <div class="col twothird">
-    <p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies.  Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for crowdsourcing social media translation.</p>
-    </div>
-
-
-    <div class="cool-channels">
-        <ul>
-            <li>
-            <a href="http://github.com/meedan" target="_blank"><img src="images/Githublogo.svg" width="50"></a>
-            </li>
-            <li><a href="https://www.facebook.com/pages/Meedan/54421674438" target="blank"><img src="images/Facebooklogo.svg" width="50"></a>
-            </li>
-            <li><a href="http://twitter.com/#!/meedan" target="_blank"><img src="images/Twitterlogo.svg" width="50"></a>
-            </li>
-            <li><a href="https://www.youtube.com/user/MeedanTube" target="_blank"><img src="images/Youtubelogo.svg" width="50"></a>
-            </li>
-        </ul>
+<div class="col third" id="left-col-third-section-title">
+<h3>Contact Us</h3>
 </div>
-
+<div class="col twothird">
+<p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies.  Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for crowdsourcing social media translation.</p>
 </div>
-
+<div class="cool-channels">
+<ul>
+<li>
+<a href="http://github.com/meedan" target="_blank"><img src="images/Githublogo.svg" width="50"></a>
+</li>
+<li><a href="https://www.facebook.com/pages/Meedan/54421674438" target="blank"><img src="images/Facebooklogo.svg" width="50"></a>
+</li>
+<li><a href="http://twitter.com/#!/meedan" target="_blank"><img src="images/Twitterlogo.svg" width="50"></a>
+</li>
+<li><a href="https://www.youtube.com/user/MeedanTube" target="_blank"><img src="images/Youtubelogo.svg" width="50"></a>
+</li>
+</ul>
+</div>
+</div>
 <!--<p>Want to learn more? Join our mailing list.</p>
-    <p>enter email address</p>-->
-
-
-
-
-
-
-
+<p>enter email address</p>-->
 <div id="wrappersection">
 <div id="contactrow" class="group">
-   
-
-    <div class="column">
-    <h3>Write</h3>
-        <p>hello@meedan.com</p>
-    </div>
-
-    <div class="column">
-        <h3>Visit</h3>
-        <p>972 Mission St., 5th Fl.
-        San Francisco, USA
-        
-        94103</p>
-
-        <p>300-422 Richards Street,
-        Vancouver, British Columbia
-        Canada, V6B 2Z4</p>
-
-       <p>304 The Greek Campus,
-        28 Falaki St.
-        Bab El Louk
-        Cairo, Egypt
-        11511</p>
-    </div>
-
-    <div class="column">
-        <h3>Call</h3>
-        <p>+1-415-297-2900</p>
-    </div>
-
+<div class="column">
+<h3>Write</h3>
+<p>hello@meedan.com</p>
+</div>
+<div class="column">
+<h3>Visit</h3>
+<p>972 Mission St., 5th Fl.
+San Francisco, USA
+94103</p>
+<p>300-422 Richards Street,
+Vancouver, British Columbia
+Canada, V6B 2Z4</p>
+<p>304 The Greek Campus,
+28 Falaki St.
+Bab El Louk
+Cairo, Egypt
+11511</p>
+</div>
+<div class="column">
+<h3>Call</h3>
+<p>+1-415-297-2900</p>
 </div>
 </div>
-
-<!-- 
-<div class="contact">
-    <div class="vcard">
-        <a class="url fn n" href="http://meedan.org">
-            <div class="org">Meedan</div>
-        </a>
-        <a class="email" href="mailto:feedback@meedan.com">feedback@meedan.com</a>
-        <div class="adr">
-            <div class="street-address">972 Mission St.</div>
-            <span class="locality">San Francisco</span>,
-            <span class="region">CA</span>,
-            <span class="postal-code">94103</span>
-            <span class="country-name">USA</span>
-        </div>
-    </div>
-</div> -->
+</div>
 </main>
-
-    <script type="text/javascript" src="skrollr.min.js"></script>
-    <script type="text/javascript">
-      var s = skrollr.init();
-    </script>
-
 </body>
-
 </html>
