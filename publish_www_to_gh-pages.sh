@@ -19,7 +19,7 @@ git rm -rf www
 rm -rf www  # just for good measure
 
 # commit the change
-git commit -m "website update $(date -I)";
+git commit -m "website update";
 
 # switch back to master
 git checkout master
