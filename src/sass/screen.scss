@@ -27,7 +27,6 @@
 
 html, body {
   width: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -86,13 +85,105 @@ nav {
   }
 }
 
+
+
+/*section: projects css*/
+.projects {
+  padding-bottom: 20px;
+   h3{
+    border-bottom: 2px solid #373737;
+    border-top: 2px solid #373737;
+    border-right: 2px solid #373737;
+    border-left: 2px solid #373737;
+    color: #373737;
+    margin: .5em;
+    padding: 0;
+  }
+}
+
+
+#container2 {
+  clear:left;
+  float:left;
+  width:100%;
+  overflow:hidden;
+  background:#ffa7a7; /* column 2 background colour */
+  text-align: center;
+  
+}
+#container1 {
+  float:left;
+  width:100%;
+  position:relative;
+  right:50%;
+  background:#fff689; /* column 1 background colour */
+  text-align: center;
+  
+}
+
+#col1 {
+  float:left;
+  width:46%;
+  position:relative;
+  left:52%;
+  padding-top: 20px;
+  overflow:hidden;
+  margin-left: auto;
+margin-right: auto;
+
+}
+#col2 {
+  float:left;
+  width:46%;
+  position:relative;
+  left:56%;
+  padding-top: 20px;
+  overflow:hidden;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/*end of projects section*/
+
+
+
+
+
+/*section: support css*/
 section.support {
+  padding-bottom: 20px;
+  display: inline-block!important;
   img {
     max-width: 100px;
     max-height: 40px;
     margin: 0.3em 0.8em;
   }
+   h3{
+    border-bottom: 2px solid #373737;
+    border-top: 2px solid #373737;
+    border-right: 2px solid #373737;
+    border-left: 2px solid #373737;
+    color: #373737;
+    margin: .5em;
+    padding: 0;
+  }
 }
+
+
+.support-logos{
+width:80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 40px;
+padding-top:10px;
+}
+
+
+/*end of support section*/
+
+
 
 .photo-frame {
   background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");

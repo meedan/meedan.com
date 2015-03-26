@@ -20,11 +20,11 @@
 }
 
 
-.contactsection {
+.contact-section {
     width: 100%;
     margin: 0;
     padding: 10px 0px 0px 10px;
-    background-color: $meedanlabs-blue;
+    background-color: $meedanlabs-green;
 }
 
 
@@ -49,12 +49,15 @@
     box-sizing: border-box;
 }
 
-.third, {
+.third {
     width: 33.3333%;
-    height: 200px;
 }
 
-.twothird{
+.half{
+  width: 50%;
+}
+
+.two-third{
     width: 66%;
     text-align:left;
 }
@@ -76,20 +79,20 @@
 
 
 
-#wrappersection { 
+#wrapper-section { 
   width: 100%; margin: 0px auto; box-sizing: border-box;
   }
 
-#wrappersection > div { 
+#wrapper-section > div { 
   margin: 0 0 0px 0; min-width: 200px; width: 100%; 
   }
 
-#contactrow 
+#contact-row 
   { overflow: hidden; 
 
   }
 
-#contactrow .column {
+#contact-row .column {
   width: 27%;
   padding: 0px 3.15% 0; 
   float: left;
@@ -97,25 +100,41 @@
       padding-bottom: 99999px;
 }
 
-#contactrow .column:nth-child(1) { 
+#contact-row .column:nth-child(1) { 
   margin-left: 33.3333%; background: $meedanlabs-blue; 
+    h3{
+      font-size:1em;
+    }
     p{
     font-size:.7em;
   }
 }
-#contactrow .column:nth-child(2) { 
+
+
+#contact-row .column:nth-child(2) { 
   margin-left: -66.6%; background: $meedanlabs-orange; 
+  display:block;
+  h3{
+      font-size:1em;
+    }
   p{
     font-size:.7em;
   }
 }
-#contactrow .column:nth-child(3) { 
+
+
+
+#contact-row .column:nth-child(3) { 
   left: 0; background: $meedanlabs-green; 
+    h3{
+      font-size:1em;
+    }
     p{
     font-size:.7em;
   }
 }
-#contactrow p { 
+
+#contact-row p { 
   margin-bottom: 30px; 
 } 
 
