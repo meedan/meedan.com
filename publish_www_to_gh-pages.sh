@@ -16,7 +16,6 @@ git checkout master -- www
 # and move it into place
 git mv www/* ./
 git rm -rf www
-rm -rf www  # just for good measure
 
 # commit the change
 git commit -m "website update";
