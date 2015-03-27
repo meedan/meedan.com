@@ -3,7 +3,7 @@ section.projects {
   width: 100%;
   & > div {
     img{
-      @media all and (max-width:400px){
+      @media all and (max-width:800px){
         width:100%;
       }
     }
@@ -16,6 +16,7 @@ section.projects {
       color:#fff;
     }
   }
+  
   .projects--checkdesk {
     background-color: $faded-blue;
     img {
