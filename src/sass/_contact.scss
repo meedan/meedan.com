@@ -1,5 +1,4 @@
 section.contact {
-  padding: 1em 0 0 0;
   @extend %clearfix;
   background: $turkish-rose;
   color: rgba(white, 0.8);
@@ -21,7 +20,7 @@ section.contact {
     .contact--visit,
     .contact--call {
       @include column(33%);
-      height: 20em;
+      height: 16em;
     }
   }
 }

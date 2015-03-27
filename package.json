@@ -34,6 +34,10 @@
     "gulp-util": "~3.0.3",
     "hasher": "^1.2.0",
     "lodash": "^3.0.0",
-    "node-sass": "~2.0.1"
+    "node-sass": "~2.0.1",
+    "gulp-w3cjs": "~0.3.0"
+  },
+  "dependencies": {
+    "gulp-html-validator": "0.0.5"
   }
 }
