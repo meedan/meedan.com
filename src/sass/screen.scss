@@ -6,6 +6,8 @@
 @import "base";
 @import "colors";
 @import "layout";
+@import "branding";
+@import "about";
 @import "gradients";
 @import "definition-lists";
 @import "typography";
@@ -16,50 +18,5 @@
 @import "photo-frame";
 @import "medium";
 
-.branding {
-  padding-top: 2em;
-  .slogan {
-    font-size: 36px;
-  }
-  h1 {
-    font-size: 36px;
-  }
-  .logo {
-    width: 200px;
-    margin-top: 2em;
-    transition: 0.6s;
-    @media all and (max-width: $breakpoint) {
-      width: 80%;
-    }
-  }
-}
 
-.about {
-  padding-bottom: 30px;
-  margin-top: 0px;
-  clear: left;
-  float: left;
-  width: 100%;
-  overflow: hidden;
-}
 
-.contact {
-  clear: both;
-}
-
-.latest {
-  background-color: rgba($warm-grey, 0.7);
-  width: 100%;
-  overflow: hidden;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-
-.svg-container {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%;
-  vertical-align: middle;
-  overflow: hidden;
-}

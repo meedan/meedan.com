@@ -1,0 +1,17 @@
+.branding {
+  padding-top: 2em;
+  .slogan {
+    font-size: 36px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .logo {
+    width: 200px;
+    margin-top: 2em;
+    transition: 0.6s;
+    @media all and (max-width: $breakpoint) {
+      width: 80%;
+    }
+  }
+}
