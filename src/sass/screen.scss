@@ -10,12 +10,18 @@
 @import "reset";
 @import "base";
 @import "colors";
+@import "layout";
+@import "gradients";
 @import "definition-lists";
 @import "transitions";
 @import "typography";
-@import "vcard";
 @import "clearfix";
 @import "team";
+@import "contact";
+
+* {
+  box-sizing: border-box;
+}
 
 // Psst: Add a progress bar: https://github.com/usablica/progress.js.git
 
@@ -75,20 +81,6 @@ nav {
   float: left;
   width: 100%;
   overflow: hidden;
-}
-
-.team-preamble {
-  clear: left;
-  float: left;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 30px;
-  width: 100%;
-  h3 {
-    margin: .5em;
-    padding: 0;
-  }
-  background-color: $warm-grey;
 }
 
 .contact {

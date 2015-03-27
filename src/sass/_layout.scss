@@ -1,0 +1,10 @@
+// Layout
+//
+@mixin column($width: "33%") {
+  float: left;
+  width: $width;
+  @media all and (max-width: $breakpoint) {
+    width: 100%;
+    height: auto;
+  }
+}

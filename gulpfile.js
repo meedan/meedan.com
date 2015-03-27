@@ -85,6 +85,7 @@ var sassConfig = {
   includePaths: ["bower_components"],
   outputStyle: "compressed"
 }
+
 gulp.task('sass', function () {
   return gulp.src(scssFiles)
     .pipe(sass(sassConfig))
@@ -108,5 +109,12 @@ var browserSyncConfig = {
 gulp.task('default', function () {
   gulp.watch(scssFiles, ['sass']);
   gulp.watch('src/*.dust', ['dustreload']);
+  browserSync(browserSyncConfig);
+});
+
+// Sass only
+gulp.task('watch-sass', function () {
+  gulp.watch(scssFiles, ['sass']);
+  // TODO: make this stream
   browserSync(browserSyncConfig);
 });
