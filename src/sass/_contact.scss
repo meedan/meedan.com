@@ -1,6 +1,8 @@
 section.contact {
   padding: 1em 0px 2em 0px;
   @extend %clearfix;
+  background: $turkish-rose;
+  color: rgba(white, 0.8);
   li {
     display: inline-block;
     p {

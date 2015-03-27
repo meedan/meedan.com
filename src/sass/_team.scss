@@ -7,11 +7,9 @@
   background-color: $warm-grey;
   @extend %clearfix;
   p {
-    text-align: left;
-    @include reset-box-model;
+    margin-bottom: 2em;
   }
   h3 {
-    float: left;
     margin: .5em;
     padding: 0;
   }

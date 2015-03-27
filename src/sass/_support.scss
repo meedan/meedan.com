@@ -1,7 +1,9 @@
 section.support {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 2em;
   display: inline-block !important;
+  p {
+    line-height: 1.85;
+  }
   h3 {
     margin: .5em;
     padding: 0;
