@@ -1,28 +1,42 @@
 section.contact {
-  padding: 1em 0px 2em 0px;
+  padding: 1em 0 0 0;
   @extend %clearfix;
   background: $turkish-rose;
   color: rgba(white, 0.8);
+  & > p {
+    padding: 0 4em 2em;
+  }
   li {
     display: inline-block;
     p {
       @include reset-box-model;
     }
   }
+  footer {
+    background-color: $turkish-rose;
+    & > div:nth-of-type(2) {
+      background-color: rgba($faded-blue, 0.5);
+    }
+    .contact--write,
+    .contact--visit,
+    .contact--call {
+      @include column(33%);
+      height: 20em;
+    }
+  }
 }
 
-.social-media {
+ul.social-media {
   width: 100%;
-  margin-top: 10px;
-  padding: 30px 0px 0px 0px;
+  margin: 0;
+  padding: 0px 0px 0px 0px;
   background-color: $faded-blue;
+  li {
+    padding: 1em;
+  }
   a {
     text-decoration: none !important;
     border-bottom: none !important;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
   }
 }
 
@@ -31,12 +45,6 @@ section.contact {
     clear: none;
     display: block;
     width: 100%;
+    font-size: 0.7em;
   }
-}
-
-.contact--write,
-.contact--visit,
-.contact--call {
-  @include column(33%);
-  height: 25em;
 }

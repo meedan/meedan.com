@@ -9,7 +9,6 @@
 .medium-channels {
   background-color: rgba($warm-grey, 0.7);
   padding: 20px 0px 60px 0px;
-  margin-bottom: 2em !important;
   overflow: hidden;
   .medium-channel {
     background-color: black !important;
@@ -17,7 +16,7 @@
     vertical-align: text-top;
     display: inline-block;
     iframe {
-      max-height: 540px !important;
+      max-height: 520px !important;
     }
   }
 }
