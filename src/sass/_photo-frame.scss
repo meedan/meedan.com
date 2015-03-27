@@ -6,13 +6,14 @@
   background-position: 0 0, 2px 2px, 100%;
   background-size: 4px 4px, 4px 4px, cover;
   background-repeat: repeat, repeat, no-repeat;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
   transition: 2s;
   z-index: -1;
+  @media all and (max-width: $breakpoint) {
+    height: 150px;
+  }
 }
 
 .photo-frame:hover {
-  -webkit-filter: grayscale(0);
-  filter: none;
+  // -webkit-filter: grayscale(0);
+  // filter: none;
 }
