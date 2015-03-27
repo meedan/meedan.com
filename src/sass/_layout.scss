@@ -1,5 +1,7 @@
 // Layout
 //
+//
+
 @mixin column($width: "33%") {
   float: left;
   width: $width;
@@ -7,4 +9,8 @@
     width: 100%;
     height: auto;
   }
+}
+
+* {
+  box-sizing: border-box;
 }

@@ -1,11 +1,6 @@
 @import "../../compass-mixins/lib/compass";
 @import "../../compass-mixins/lib/animation/core";
 @import "../../compass-mixins/lib/animation/animate/fading";
-@import "../../compass-mixins/lib/animation/animate/rotating";
-@import "../../compass-mixins/lib/animation/animate/bouncing";
-@import "../../compass-mixins/lib/animation/animate/specials";
-@import "../../compass-mixins/lib/animation/animate/lightspeed";
-@import "../../compass-mixins/lib/animation/animate/attention-seekers";
 @import "../../compass-mixins/lib/compass/css3/box";
 @import "reset";
 @import "base";
@@ -13,47 +8,14 @@
 @import "layout";
 @import "gradients";
 @import "definition-lists";
-@import "transitions";
 @import "typography";
 @import "clearfix";
 @import "team";
 @import "contact";
 @import "support";
+@import "photo-frame";
+@import "medium";
 
-* {
-  box-sizing: border-box;
-}
-
-// Psst: Add a progress bar: https://github.com/usablica/progress.js.git
-
-/////////////////////////// Fonts
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
-
-/////////////////////////// Base styles
-///
-
-html, body {
-  width: 100%;
-}
-
-body {
-  // background-image: url("../images/20150319-mockup.png");
-  padding-bottom: 1em;
-  @media all and (max-width: $breakpoint) {
-    padding-bottom: 0.5em;
-    font-size: 1.3em;
-  }
-}
-
-main > div {
-  &:last-of-type {
-    border-bottom-width: 0;
-  }
-}
-
-/////////////////////////// Logo
-///
-///
 .branding {
   padding-top: 2em;
 }
@@ -96,104 +58,9 @@ nav {
   padding: 0 0 0 0;
 }
 
-.medium-channels {
-  background-color: rgba($warm-grey, 0.7);
-  padding: 20px 0px 60px 0px;
-  margin-bottom: 2em !important;
-  overflow: hidden;
-  .medium-channel {
-    background-color: black !important;
-    @include box-shadow($warm-grey 5px 0px 20px);
-    vertical-align: text-top;
-    display: inline-block;
-    iframe {
-      max-height: 540px !important;
-    }
-  }
-}
-
 .slogan {
   font-size: 1.5em;
 }
-
-/*section: projects css*/
-section.projects {
-  padding-bottom: 2em;
-  width: 100%;
-  & > div {
-    @include column(50%);
-    padding: 5em 2em 2em;
-    height: 15em;
-    a {
-      border: none;
-    }
-  }
-  .projects--checkdesk {
-    background-color: $faded-blue;
-    img {
-      margin-top: 10px;
-    }
-  }
-  .projects--bridge {
-    background-color: $turkish-rose;
-  }
-}
-
-// .container2 {
-//   clear: left;
-//   float: left;
-//   width: 100%;
-//   overflow: hidden;
-//   background: rgba($turkish-rose, 0.9);
-//   /* column 2 background colour
-//   text-align: center;
-// }
-
-// .container1 {
-//   float: left;
-//   width: 100%;
-//   position: relative;
-//   right: 50%;
-//   background: rgba($faded-blue, 0.9);
-//   /* column 1 background colour
-//   text-align: center;
-// }
-
-// .col1 {
-//   float: left;
-//   width: 46%;
-//   position: relative;
-//   left: 52%;
-//   padding-top: 20px;
-//   overflow: hidden;
-//   margin-left: auto;
-//   margin-right: auto;
-//   a {
-//     text-decoration: none !important;
-//     border-bottom: none !important;
-//   }
-//   p {
-//     color: #fff;
-//   }
-// }
-
-// .col2 {
-//   float: left;
-//   width: 46%;
-//   position: relative;
-//   left: 56%;
-//   padding-top: 30px;
-//   overflow: hidden;
-//   margin-left: auto;
-//   margin-right: auto;
-//   a {
-//     text-decoration: none !important;
-//     border-bottom: none !important;
-//   }
-//   p {
-//     color: #fff;
-//   }
-// }
 
 .svg-container {
   display: inline-block;
@@ -202,87 +69,4 @@ section.projects {
   padding-bottom: 100%;
   vertical-align: middle;
   overflow: hidden;
-}
-
-// /*section: contact css
-// .concontainer3 {
-//   clear: left;
-//   float: left;
-//   width: 100%;
-//   overflow: hidden;
-//   background: rgba($faded-blue, 0.6);
-//   /* column 3 background colour
-// }
-
-// .concontainer2 {
-//   clear: left;
-//   float: left;
-//   width: 100%;
-//   position: relative;
-//   right: 33.333%;
-//   background: rgba($turkish-rose, 0.6);
-//   /* column 2 background colour
-// }
-
-// .concontainer1 {
-//   float: left;
-//   width: 100%;
-//   position: relative;
-//   right: 33.33%;
-//   background: rgba($faded-blue, 0.3);
-//   /* column 1 background colour
-// }
-
-// .concol1 {
-//   float: left;
-//   width: 29.33%;
-//   position: relative;
-//   left: 68.67%;
-//   overflow: hidden;
-//   font-size: .7em;
-//   color: #fff;
-//   ul {
-//     text-align: left;
-//   }
-// }
-
-// .concol2 {
-//   float: left;
-//   width: 29.33%;
-//   position: relative;
-//   left: 72.67%;
-//   overflow: hidden;
-//   font-size: .7em;
-//   color: #fff;
-// }
-
-// .concol3 {
-//   float: left;
-//   width: 29.33%;
-//   position: relative;
-//   left: 76.67%;
-//   overflow: hidden;
-//   color: #fff;
-//   font-size: .7em;
-// }
-
-//end contact section
-
-.photo-frame {
-  background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
-  width: 100%;
-  height: 300px;
-  margin: 0 auto;
-  background-position: 0 0, 2px 2px, 100%;
-  background-size: 4px 4px, 4px 4px, cover;
-  background-repeat: repeat, repeat, no-repeat;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  transition: 2s;
-  z-index: -1;
-}
-
-.photo-frame:hover {
-  -webkit-filter: grayscale(0);
-  filter: none;
 }

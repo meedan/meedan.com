@@ -1,0 +1,18 @@
+.photo-frame {
+  background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-position: 0 0, 2px 2px, 100%;
+  background-size: 4px 4px, 4px 4px, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: 2s;
+  z-index: -1;
+}
+
+.photo-frame:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}

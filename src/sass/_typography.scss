@@ -1,6 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
 body {
   font-size: 1.6em;
-  font-family: "open sans", "helvetica neue", "helvetica";
+  font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
   line-height: 1.5;
   text-align: center;
   font-weight: 300;
@@ -11,15 +13,12 @@ em {
   font-weight: bold;
 }
 
-// Links use a color sampled from a photo
 a {
   color: lighten($photo-feb10-blue, 10%);
   text-decoration: none;
   border-bottom: 3px lighten($photo-feb10-blue, 50%) solid;
 }
 
-///////////////////////// Lists
-///
 ul {
   text-align: center;
   padding: 0;
@@ -51,16 +50,15 @@ p {
   display: block;
   margin: 0 auto;
   font-size: .75em;
-  // @media all and (max-width: $breakpoint) {
-  //   padding: 1em 0.7em;
-  //   line-height: 1.65;
-  // }
+  @media all and (max-width: $breakpoint) {
+    padding: 1em 0.7em;
+    line-height: 1.65;
+  }
 }
 
 // Headers
 //
 h1 {
-  font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
   font-weight: 200;
   line-height: 1.2;
   font-size: 3.5em;
@@ -72,17 +70,14 @@ h1 {
 
 h2, h3 {
   font-weight: 500;
-  font-family: "Open Sans",Geneva,Verdana,sans-serif;
-  // font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
-  // text-transform: uppercase;
   margin: 0;
   padding: 2em 1em 1em 1em;
   line-height: 1.2;
   font-size: 1.5em;
   letter-spacing: 0.03em;
+  display: block;
   @media all and (max-width: $breakpoint) {
     padding: 0.5em;
     font-size: 18px;
   }
-  display: block;
 }

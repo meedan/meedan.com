@@ -1,0 +1,21 @@
+section.projects {
+  padding-bottom: 2em;
+  width: 100%;
+  & > div {
+    @include column(50%);
+    padding: 5em 2em 2em;
+    height: 15em;
+    a {
+      border: none;
+    }
+  }
+  .projects--checkdesk {
+    background-color: $faded-blue;
+    img {
+      margin-top: 10px;
+    }
+  }
+  .projects--bridge {
+    background-color: $turkish-rose;
+  }
+}

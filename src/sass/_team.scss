@@ -1,6 +1,4 @@
-// Team section
-//
-.team {
+section.team {
   margin: 0 auto;
   text-align: center;
   padding: 5em 0px 1em 0px;
@@ -20,12 +18,11 @@
     font-size: 16px;
     padding: 1em;
     display: inline-block;
-    width: 120px;
+    width: 100px;
     vertical-align: top;
     img {
-      max-width: 100px;
+      max-width: 50px;
       @include border-radius(50%);
-      @include gradient($accent-orange, $accent-blue);
     }
   }
 }
