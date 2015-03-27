@@ -2,11 +2,18 @@ section.projects {
   padding-bottom: 2em;
   width: 100%;
   & > div {
+    img{
+      @media all and (max-width:400px){
+        width:100%;
+      }
+    }
     @include column(50%);
     padding: 5em 2em 2em;
     height: 15em;
+    margin-bottom:1.5em;
     a {
-      border: none;
+      border: none!important;
+      color:#fff;
     }
   }
   .projects--checkdesk {
