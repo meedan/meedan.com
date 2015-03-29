@@ -1,5 +1,5 @@
 .photo-frame {
-  background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
+  background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg"), lighten(orange, 40%);
   width: 100%;
   height: 300px;
   margin: 0 auto;
@@ -8,12 +8,8 @@
   background-repeat: repeat, repeat, no-repeat;
   transition: 2s;
   z-index: -1;
+  background-blend-mode: multiply;
   @media all and (max-width: $breakpoint) {
     height: 150px;
   }
-}
-
-.photo-frame:hover {
-  // -webkit-filter: grayscale(0);
-  // filter: none;
 }

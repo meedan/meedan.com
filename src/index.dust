@@ -6,12 +6,12 @@
     <title>Meedan</title>
     <link href="./css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" >
   </head>
-  
+
   <body>
     <main>
       <div class="photo-frame">
       </div>
-      
+
       <section class="branding">
         <img alt="Meedan Labs" class="logo" width="100" src="images/logos/labs.svg" onerror="this.src='images/logos/ml-alt.png'">
         <h1>Meedan</h1>
@@ -22,7 +22,7 @@
         <p>We are designers, technologists and journalists building digital tools for collaboration on the global internet, with a focus on fact verification, open journalism, and social translation. With university and commercial partners we support research, curriculum development, and new forms of digital storytelling.</p>
       </section>
 
-      <section class="projects">      
+      <section class="projects">
         <h3>Our Work</h3>
         <div class="projects--checkdesk">
           <a href="files/checkdesk.pdf" target="_blank">
@@ -41,7 +41,7 @@
       <section class="team">
         <h3>Our Team</h3>
         <p>Meedan has offices in Cairo, Vancouver and San Francisco, with a distributed team across 13 time zones, 6 cities, and 3 continents. Collectively, we speak 8 languages and want to learn a lot more.</p>
-        
+
         <ul>
           <li>
               <img width="100" alt="ed" src="images/team/ed.jpg" />
@@ -60,25 +60,25 @@
               <div class="name">Anas Qtiesh</div>
               <div class="title">User Experience Designer</div>
           </li>
-          
+
           <li>
               <img width="100" alt="ben" src="images/team/ben.jpg" />
               <div class="name">Benjamin Foote</div>
               <div class="title">Systems Engineer</div>
           </li>
-          
+
           <li>
               <img width="100" alt="caio" src="images/team/caio.jpg" />
               <div class="name">Caio Almeida</div>
               <div class="title">Senior Engineer</div>
           </li>
-          
+
           <li>
               <img width="100" alt="chris" src="images/team/chris.jpg" />
               <div class="name">Chris Blow</div>
               <div class="title">Director of User Experience</div>
           </li>
-          
+
           <li>
               <img width="100" alt="clarissa" src="images/team/clarissa.jpg" />
               <div class="name">Clarissa Xavier</div>
@@ -192,7 +192,7 @@
           <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-labs">Meedan Labs</a>
         </div>
       </section>
-        
+
       <section class="support">
         <h3>Support</h3>
 
@@ -225,7 +225,7 @@
         <h3>Contact Us</h3>
 
         <p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies.  Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for crowdsourcing social media translation.</p>
-      
+
         <ul class="social-media">
           <li>
             <a href="http://github.com/Meedan" target="_blank">
@@ -249,9 +249,6 @@
           </li>
         </ul>
 
-      <!--<p>Want to learn more? Join our mailing list.</p>
-        <p>enter email address</p>-->
-
         <footer>
           <div class="contact--visit">
             <h3>Visit</h3>
@@ -261,13 +258,13 @@
                 <p>San Francisco, USA</p>
                 <p>94103</p>
               </li>
-  
+
               <li>
                 <p>300-422 Richards Street</p>
                 <p>Vancouver, British Columbia</p>
                 <p>Canada, V6B 2Z4</p>
               </li>
-  
+
               <li>
                 <p>304 The Greek Campus,</p>
                 <p>28 Falaki St.</p>
@@ -277,12 +274,12 @@
               </li>
             </ul>
           </div>
-  
+
           <div class="contact--write">
             <h3>Write</h3>
               <p><a href="mailto:hello@meedan.com">hello@meedan.com</a></p>
             </div>
-  
+
           <div class="contact--call">
             <h3>Call</h3>
             <p><a href="tel:14158859000">+1-415-885-9000</a></p>

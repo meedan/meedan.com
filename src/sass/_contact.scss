@@ -1,7 +1,7 @@
 section.contact {
   @extend %clearfix;
-  background: $turkish-rose;
-  color: rgba(white, 0.8);
+  // background: $turkish-rose;
+  // color: rgba(white, 0.8);
   & > p {
     padding: 0 4em 2em;
   }
@@ -12,10 +12,10 @@ section.contact {
     }
   }
   footer {
-    background-color: $turkish-rose;
-    & > div:nth-of-type(2) {
-      background-color: rgba($faded-blue, 0.5);
-    }
+    // background-color: $turkish-rose;
+    // & > div:nth-of-type(2) {
+    //   background-color: mix($faded-blue, $turkish-rose, 50%);
+    // }
     .contact--write,
     .contact--visit,
     .contact--call {

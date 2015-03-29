@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 
 body {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
   line-height: 1.5;
   text-align: center;
@@ -59,20 +59,10 @@ p {
 
 // Headers
 //
-h1 {
-  font-weight: 200;
-  line-height: 1.2;
-  font-size: 3.5em;
-  @media all and (max-width: $breakpoint) {
-    font-size: 1.4em !important;
-    font-weight: 400;
-  }
-}
-
-h2, h3 {
+h1, h2, h3 {
   font-weight: 500;
   margin: 0;
-  padding: 1em 1em 1em 1em;
+  padding: 2em 1em 1em 1em;
   line-height: 1.2;
   font-size: 1.5em;
   letter-spacing: 0.03em;
@@ -81,4 +71,12 @@ h2, h3 {
     padding: 0.5em;
     font-size: 18px;
   }
+}
+
+h2, h3 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 3em;
+  letter-spacing: 0.1em;
 }

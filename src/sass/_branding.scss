@@ -4,7 +4,18 @@
     font-size: 36px;
   }
   h1 {
-    font-size: 36px;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+    @media all and (max-width: $breakpoint) {
+      font-size: 1.4em !important;
+      font-weight: 400;
+    }
   }
   .logo {
     width: 200px;
