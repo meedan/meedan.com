@@ -16,22 +16,10 @@ section.support {
     img {
       max-width: 150px;
       margin: 1.3em 1em;
-      filter: invert;
       transition: 1s;
       vertical-align: middle;
       @media all and (max-width: $breakpoint) {
         max-width: 80%!important;
-      }
-      &:hover {
-        filter:blur(5px);
-        transition: 1s;
-        &:before {
-          content: "Hello";
-          color: white;
-          text-align: center;
-          padding: 1em;
-          border: 1px solid red;
-        }
       }
     }
     .mada {
