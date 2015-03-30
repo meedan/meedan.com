@@ -25,10 +25,9 @@ ul.social-media {
   width: 100%;
   margin: 3em 0;
   padding: 0px 0px 0px 0px;
-  background-color: rgba($faded-blue, 0.8);
+  background-color: rgba($faded-blue, 1);
   transition: 400ms;
   &:hover {
-    background-color: rgba($faded-blue, 1);
     transition: 400ms;
   }
   li {
