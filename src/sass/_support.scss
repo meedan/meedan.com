@@ -9,24 +9,42 @@ section.support {
   }
   .support--logos {
     padding: 2em;
+    a {
+      text-decoration: none;
+      border-bottom-width: 0;
+    }
     img {
       max-width: 150px;
-      margin: 1em;
+      margin: 1.3em 1em;
+      filter: invert;
+      transition: 1s;
+      vertical-align: middle;
       @media all and (max-width: $breakpoint) {
         max-width: 80%!important;
+      }
+      &:hover {
+        filter:blur(5px);
+        transition: 1s;
+        &:before {
+          content: "Hello";
+          color: white;
+          text-align: center;
+          padding: 1em;
+          border: 1px solid red;
+        }
       }
     }
     .mada {
       max-width:80px;
     }
     .kf {
-      max-width:260px
+      max-width:360px
     }
     .bc {
-      max-width:175px;
+      max-width:250px;
     }
     .gv {
-      max-width:200px;
+      max-width:300px;
     }
     .cs {
       max-width:125px
@@ -35,7 +53,10 @@ section.support {
       max-width:100px
     }
     .ff {
-      max-width:200px
+      max-width:400px
+    }
+    .ng, .smex, .vcf {
+      max-width:400px
     }
   }
 }
