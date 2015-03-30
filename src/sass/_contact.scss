@@ -12,10 +12,6 @@ section.contact {
     }
   }
   footer {
-    // background-color: $turkish-rose;
-    // & > div:nth-of-type(2) {
-    //   background-color: mix($faded-blue, $turkish-rose, 50%);
-    // }
     .contact--write,
     .contact--visit,
     .contact--call {
@@ -29,9 +25,19 @@ ul.social-media {
   width: 100%;
   margin: 3em 0;
   padding: 0px 0px 0px 0px;
-  background-color: $faded-blue;
+  background-color: rgba($faded-blue, 0.8);
+  transition: 400ms;
+  &:hover {
+    background-color: rgba($faded-blue, 1);
+    transition: 400ms;
+  }
   li {
     padding: 1em;
+    transition: 400ms;
+    &:hover {
+      transform: rotateZ(-10deg);
+      transition: 400ms;
+    }
   }
   a {
     text-decoration: none !important;
