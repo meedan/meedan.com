@@ -11,14 +11,6 @@ section.contact {
       @include reset-box-model;
     }
   }
-  footer {
-    .contact--write,
-    .contact--visit,
-    .contact--call {
-      @include column(33%);
-      height: 16em;
-    }
-  }
 }
 
 ul.social-media {
@@ -45,10 +37,25 @@ ul.social-media {
 }
 
 .contact--visit {
-  ul li {
+  .locations li {
     clear: none;
-    display: block;
-    width: 100%;
-    font-size: 0.7em;
+    @include column(33%);
+    font-size: 1.3em;
+    height: 14em;
+    h4 {
+      font-size: 0.8em;
+      margin: 1em;
+      font-weight: 100;
+    }
+    p {
+      margin: 0 auto;
+    }
+  }
+}
+
+.contact--call,
+.contact--write {
+  a {
+    font-size: 2em;
   }
 }

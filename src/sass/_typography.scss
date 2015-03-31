@@ -1,8 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700');
 
 body {
   font-size: 1.4em;
-  font-family: "open sans", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   line-height: 1.5;
   text-align: center;
   font-weight: 300;
@@ -67,6 +68,7 @@ h1, h2, h3 {
   font-size: 1.5em;
   letter-spacing: 0.03em;
   display: block;
+
   @media all and (max-width: $breakpoint) {
     padding: 0.5em;
     font-size: 18px;
@@ -74,7 +76,7 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-  font-size: 0.9em;
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   padding: 3em;
