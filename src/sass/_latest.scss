@@ -1,4 +1,13 @@
+%textured-background {
+  background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.01) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba($firefly, 0.01) 46%);
+  background-position: 0 0, 2px 2px;
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: repeat, repeat;
+}
+
+
 .latest {
+  @extend %textured-background;
   width: 100%;
   overflow: hidden;
   text-align: center;
@@ -10,9 +19,10 @@
       max-height: 520px !important;
     }
   }
-}
 
-
-.medium-links {
-  display: none;
+  .medium-links a {
+    &:after {
+      content: " ➜";
+    }
+  }
 }

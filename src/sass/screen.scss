@@ -4,16 +4,19 @@
 @import "../../compass-mixins/lib/animation/animate/flippers";
 @import "../../compass-mixins/lib/compass/css3/box";
 @import "reset";
-@import "base";
+
+// Configuration
+$breakpoint: 35em;
+
+// Global styles and utilities
 @import "colors";
 @import "layout";
-@import "branding";
-@import "gradients";
-@import "projects";
-@import "definition-lists";
 @import "typography";
-@import "clearfix";
+
+// Sections
+@import "branding";
+@import "projects";
 @import "team";
-@import "contact";
-@import "support";
 @import "latest";
+@import "partners";
+@import "contact";
