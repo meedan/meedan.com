@@ -1,13 +1,47 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600');
-@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700');
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400');
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+// @import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700');
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,200);
+// @import url(http://fonts.googleapis.com/css?family=Roboto:500,900italic,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400);
 
 body {
-  font-size: 1.4em;
+  font-size: 20px;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   line-height: 1.5;
   text-align: center;
   font-weight: 300;
   color: #373737;
+  background-color: $warm-grey;
+  @media all and (max-width: $breakpoint) {
+    & > div { text-align: left; }
+  }
+}
+
+// Headers
+//
+// The h1 is in branding
+h2, h3, h4 {
+  margin: 0;
+  padding: 4em 1em 2em 1em;
+  line-height: 1.2;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 200;
+  @media all and (max-width: $breakpoint) {
+    padding: 2em 1em ;
+  }
+}
+
+p {
+  line-height: 1.85;
+}
+
+section > p:nth-of-type(1) {
+  padding: 0 0 2em;
 }
 
 em {
@@ -50,35 +84,10 @@ p {
   padding: 1em;
   display: block;
   margin: 0 auto;
-  font-size: .75em;
+  font-size: 1em;
   max-width: 800px;
   @media all and (max-width: $breakpoint) {
     padding: 1em 0.7em;
     line-height: 1.65;
   }
-}
-
-// Headers
-//
-h1, h2, h3 {
-  font-weight: 500;
-  margin: 0;
-  padding: 2em 1em 1em 1em;
-  line-height: 1.2;
-  font-size: 1.5em;
-  letter-spacing: 0.03em;
-  display: block;
-
-  @media all and (max-width: $breakpoint) {
-    padding: 0.5em;
-    font-size: 18px;
-  }
-}
-
-h2, h3 {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 3em;
-  letter-spacing: 0.1em;
 }

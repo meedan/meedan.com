@@ -1,12 +1,5 @@
 section.support {
-  padding: 2em;
-  p {
-    line-height: 1.85;
-  }
-  h3 {
-    margin: .5em;
-    padding: 0;
-  }
+  background-color: white;
   .support--logos {
     padding: 2em;
     a {
@@ -26,13 +19,16 @@ section.support {
       max-width:80px;
     }
     .kf {
-      max-width:360px
+      max-width:260px
     }
     .bc {
       max-width:250px;
     }
     .gv {
       max-width:300px;
+    }
+    .ibm {
+      max-width: 100px;
     }
     .cs {
       max-width:125px
@@ -41,10 +37,16 @@ section.support {
       max-width:100px
     }
     .ff {
-      max-width:400px
+      max-width:300px;
     }
-    .ng, .smex, .vcf {
-      max-width:400px
+    .iie {
+      max-width: 200px;
+    }
+    .smex {
+      max-width: 150px;
+    }
+    .ng, .vcf {
+      max-width:250px
     }
   }
 }

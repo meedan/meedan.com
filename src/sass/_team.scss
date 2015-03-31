@@ -1,31 +1,24 @@
 section.team {
-  margin: 0 auto;
-  text-align: center;
-  padding: 3.5em 0 0.5em 0;
-  background-color: $warm-grey;
   @extend %clearfix;
 
-  p {
-    margin-bottom: 2em;
-  }
-  h3 {
-    margin: .5em;
-    padding: 0;
-  }
   ul {
     clear: both;
+    text-align: center;
   }
   .name {
     padding-top: .5em;
     font-weight: 500;
   }
   li {
-    padding: 1em 1em 1.5em 1em;
+    border: 1px soild red;
+    padding: 1em 3em 1.5em 1em;
     display: inline-block;
     width: 200px;
     line-height: 1.5;
-    font-size: 0.6em;
+    font-size: 0.7em;
     vertical-align: top;
+    @include animation(flipInX 1.0s);
+    font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
     img {
       max-width: 100px;
       @include border-radius(50%);

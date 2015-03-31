@@ -1,15 +1,23 @@
 section.projects {
   width: 100%;
   @extend %clearfix;
+
   & > div {
+
+    @include column(50%);
+    padding: 5em 2em;
+    height: 20em;
+
     img {
       @media all and (max-width: 800px) {
         width: 100%;
       }
     }
-    @include column(50%);
-    padding: 5em 2em 2em;
-    height: 15em;
+
+    p {
+      color: rgba(#ffffff,0.8);
+      bottom: 5em;
+    }
     a {
       border: none !important;
       color: #fff;
@@ -17,8 +25,8 @@ section.projects {
   }
   .projects--checkdesk {
     background-color: $faded-blue;
-    img {
-      margin-top: 10px;
+    p {
+      margin-top: 1.4em;
     }
   }
   .projects--bridge {

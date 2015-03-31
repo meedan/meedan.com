@@ -1,10 +1,7 @@
 section.contact {
   @extend %clearfix;
-  // background: $turkish-rose;
-  // color: rgba(white, 0.8);
-  & > p {
-    padding: 0 4em 2em;
-  }
+  background:rgba($faded-blue, 0.5);
+  color: white;
   li {
     display: inline-block;
     p {
@@ -13,42 +10,25 @@ section.contact {
   }
 }
 
-ul.social-media {
-  width: 100%;
-  margin: 3em 0;
-  padding: 0px 0px 0px 0px;
-  background-color: rgba($faded-blue, 1);
-  transition: 400ms;
-  &:hover {
-    transition: 400ms;
-  }
-  li {
-    padding: 1em;
-    transition: 400ms;
-    &:hover {
-      transform: rotateZ(-10deg);
-      transition: 400ms;
-    }
-  }
-  a {
-    text-decoration: none !important;
-    border-bottom: none !important;
-  }
-}
-
 .contact--visit {
   .locations li {
     clear: none;
     @include column(33%);
-    font-size: 1.3em;
-    height: 14em;
+    font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+
+    height: 20em;
     h4 {
       font-size: 0.8em;
       margin: 1em;
       font-weight: 100;
     }
     p {
+      filter: opacity(0.7);
+      font-size: 0.8em;
       margin: 0 auto;
+      font-weight: 100;
+      filter: opacity(0.7);
+
     }
   }
 }
@@ -56,6 +36,44 @@ ul.social-media {
 .contact--call,
 .contact--write {
   a {
-    font-size: 2em;
+    font-size: 1.8em;
+    border: 1px solid rgba(white, 0.5);
+    padding: 1em 0.8em;
+    color: rgba(white, 0.8);
+    display: block;
+    font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 100;
+    transition: 0.6s;
+    &:hover {
+      color: rgba(white, 1);
+      border-color: rgba(white, 1);
+      transition: 0s;
+    }
+  }
+}
+
+.contact--social-media {
+  width: 100%;
+  margin: 3em 0 0 0;
+  padding: 0px 0px 0px 0px;
+  transition: 200ms;
+  clear: both;
+
+  li {
+    padding: 1em;
+    transition: 200ms;
+    filter: opacity(0.5);
+    &:hover {
+      transform: rotateZ(-10deg);
+      filter: opacity(1);
+    }
+  }
+  a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    img {
+      width: 10em;
+      padding: 2em;
+    }
   }
 }
