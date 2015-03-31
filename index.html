@@ -9,32 +9,30 @@
 
   <body>
     <main>
-      <div class="photo-frame">
-      </div>
+      <div id="" class="photo-frame"></div>
+      <!-- <div id="particles"></div> -->
 
       <section class="branding">
         <img alt="Meedan Labs" class="logo" width="100" src="images/logos/labs.svg" onerror="this.src='images/logos/ml-alt.png'">
         <h1>Meedan</h1>
         <p class="slogan">Make sense of the global web.</p>
-      </section>
 
-      <section class="about">
-        <p>We are designers, technologists and journalists building digital tools for collaboration on the global internet, with a focus on <em>news verification</em> and <em>social translation</em>. With university and commercial partners we support research, curriculum development and new forms of digital storytelling.</p>
+        <p class="about">We are designers, technologists and journalists building digital tools for collaboration on the global internet, with a focus on <em>news verification</em> and <em>social translation</em>. With university and commercial partners we support research, curriculum development, and new forms of digital storytelling.</p>
       </section>
 
       <section class="projects">
         <h3>Our Work</h3>
         <div class="projects--checkdesk">
-          <a href="files/checkdesk.pdf">
+          <a href="20150324_checkdesk_one-pager_booklet.pdf">
             <img alt="checkdesk" src="images/logos/checkdesk.svg" width="300">
-            <p>Verification toolkit for digital media</p>
           </a>
+          <p>Verification toolkit for digital media</p>
         </div>
         <div class="projects--bridge">
-          <a href="files/checkdesk.pdf">
+          <a href="20150328_bridge_out-of-eden-walk_one-pager_booklet.pdf">
             <img alt="bridge logo" src="images/logos/bridge.svg" width="300">
-            <p>Social translation of social media</p>
           </a>
+          <p>Social translation of social media</p>
         </div>
       </section>
 
@@ -42,18 +40,7 @@
         <h3>Our Team</h3>
         <p>Meedan has offices in Cairo, Vancouver and San Francisco, with a distributed team across 13 time zones, 6 cities, and 3 continents.</p>
 
-        <ul>
-          <li>
-              <img width="100" alt="ed" src="images/team/ed.jpg" />
-              <div class="name">Ed Bice</div>
-              <div class="title">CEO &amp; Board Member</div>
-          </li>
-
-          <li>
-            <img width="100" alt="an" src="images/team/an.jpg" />
-            <div class="name">An Xiao Mina</div>
-            <div class="title">Director of Product</div>
-          </li>
+        <ul id="team">
 
           <li>
               <img width="100" alt="anas" src="images/team/anas.png" />
@@ -92,7 +79,7 @@
           </li>
 
           <li>
-              <img width="100" alt="eddy" src="images/team/eddy.jpg" />
+              <img width="100" alt="eddy" src="images/team/eddy.jpg">
               <div class="name">Eduardo Hueso</div>
               <div class="title">Mobile Engineering Lead</div>
           </li>
@@ -101,6 +88,12 @@
               <img width="100" alt="hanan" src="images/team/hanan.jpg" />
               <div class="name">Hanan Heikal</div>
               <div class="title">Board Member</div>
+          </li>
+
+          <li>
+            <img width="100" alt="an" src="images/team/an.jpg" />
+            <div class="name">An Xiao Mina</div>
+            <div class="title">Director of Product</div>
           </li>
 
           <li>
@@ -177,13 +170,12 @@
               <div class="title">Designer</div>
           </li>
         </ul>
+
       </section>
 
       <section class="latest">
-         <h3>Latest</h3>
-      </section>
+         <h3>Our Latest</h3>
 
-      <section class="medium-channels">
         <div class="medium-channel">
           <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates">Meedan Updates</a>
         </div>
@@ -194,9 +186,9 @@
       </section>
 
       <section class="support">
-        <h3>Support</h3>
+        <h3>Our Supporters</h3>
 
-        <p class="support--links">Since 2006, Meedan has worked with a network of extraordinary sponsors, clients, and partners:
+        <p class="support--links">Since 2006, Meedan has worked with a network of extraordinary sponsors, clients, and partners.
 
         <div class="support--logos">
           <a href="http://www.sida.se/english/" title="Sida - Swedish International Development Cooperation Agency - Sida">
@@ -226,7 +218,7 @@
             <img class="bcu" src="images/logos/bcu.png" alt="bcu logo" />
           </a>
 
-          <a href="http://www.alwaleedfoundations.org/" title="Alwaleed Bin Talal Foundations  |  Saudi Arabia, Global, Lebanon">
+          <a href="http://www.alwaleedfoundations.org/" title="Alwaleed Bin Talal Foundations">
             <img class="af" src="images/logos/af.png" alt="af logo" />
           </a>
 
@@ -234,13 +226,17 @@
             <img class="ce" src="images/logos/ce.png" alt="ce logo" />
           </a>
 
-          <a href="http://globalvoicesonline.org/" title="Global Voices &amp;middot; Citizen media stories from around the world">
+          <a href="http://globalvoicesonline.org/" title="Global Voices">
             <img class="gv" src="images/logos/gv.png" alt="gv logo" />
           </a>
 
-            <img class="cs" src="images/logos/cs.png" alt="cs logo" />
+            <a href="http://www.coexist.org/">
+              <img class="cs" src="images/logos/cs.png" alt="cs logo" />
+            </a>
 
-            <img class="economist" src="images/logos/economist.svg" alt="economist logo" />
+            <a href="http://economist.com">
+              <img class="economist" src="images/logos/economist.svg" alt="economist logo" />
+            </a>
 
           <a href="http://www.fordfoundation.org/" title="Ford Foundation">
             <img class="ff" src="images/logos/ff.png" alt="ff logo" />
@@ -284,67 +280,86 @@
 
         <p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies. Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for collaborative social media translation.</p>
 
-        <ul class="social-media">
-          <li>
-            <a href="http://github.com/Meedan">
-              <img alt="github" src="images/logos/github.svg" width="50">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/pages/Meedan/54421674438">
-              <img alt="fb" src="images/logos/fb.svg" width="50">
-            </a>
-          </li>
-          <li>
-            <a href="http://twitter.com/#!/Meedan">
-              <img alt="twitter" src="images/logos/twitter.svg" width="50">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/user/Meedan">
-              <img alt="youtube" src="images/logos/youtube.svg" width="50">
-            </a>
-          </li>
-        </ul>
-
         <footer>
+
+          <div class="contact--write">
+              <p><a href="mailto:hello@meedan.com">hello@meedan.com</a></p>
+            </div>
+
+          <div class="contact--call">
+            <p><a href="tel:14158859000">+1-415-885-9000</a></p>
+          </div>
+
+          <ul class="contact--social-media">
+            <li>
+              <a href="http://github.com/Meedan">
+                <img alt="github" src="images/logos/github.svg" width="50">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/pages/Meedan/54421674438">
+                <img alt="fb" src="images/logos/fb.svg" width="50">
+              </a>
+            </li>
+            <li>
+              <a href="http://twitter.com/#!/Meedan">
+                <img alt="twitter" src="images/logos/twitter.svg" width="50">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/user/Meedan">
+                <img alt="youtube" src="images/logos/youtube.svg" width="50">
+              </a>
+            </li>
+          </ul>
+
           <div class="contact--visit">
-            <h3>Visit</h3>
-            <ul>
+            <ul class="locations">
               <li>
+                <h4>San Francisco</h4>
                 <p>972 Mission St., 5th Fl.</p>
                 <p>San Francisco, USA</p>
                 <p>94103</p>
               </li>
 
               <li>
+                <h4>Vancouver</h4>
                 <p>300-422 Richards Street</p>
                 <p>Vancouver, British Columbia</p>
                 <p>Canada, V6B 2Z4</p>
               </li>
 
               <li>
+                <h4>Cairo</h4>
                 <p>304 The Greek Campus,</p>
-                <p>28 Falaki St.</p>
-                <p>Bab El Louk</p>
-                <p>Cairo, Egypt</p>
-                <p>11511</p>
+                <p>28 Falaki St., Bab El Louk</p>
+                <p>Cairo, Egypt, 11511</p>
               </li>
             </ul>
           </div>
 
-          <div class="contact--write">
-            <h3>Write</h3>
-              <p><a href="mailto:hello@meedan.com">hello@meedan.com</a></p>
-            </div>
-
-          <div class="contact--call">
-            <h3>Call</h3>
-            <p><a href="tel:14158859000">+1-415-885-9000</a></p>
-          </div>
         </footer>
       </section>
+
+    <div class="footer">
+      <div class="medium-links">
+        <h3>Meedan Labs ❤ ElasticSearch</h3>
+        <p>How we built an Interactive Dictionary using ElasticSearch on <a href="https://medium.com/meedan-labs/meedan-elasticsearch-32820c040b08">medium.com</a></p>
+
+        <h3>What Makes a Good Translator?</h3>
+        <p>Seven tips and tricks for aspiring translators from a passionate Arabic translator on <a href="https://medium.com/meedan-labs/meedan-elasticsearch-32820c040b08">medium.com</a></p>
+      </div>
+    </div>
   </main>
 <script async src="https://static.medium.com/embed.js"></script>
+<script src="meedan-team-shuffle.js"></script>
+<script src="jquery.particleground.min.js"></script>
+<!--
+ <script>
+   document.addEventListener("DOMContentLoaded", function(event) {
+     particleground(document.getElementById('particles'));
+   });
+</script>
+-->
 </body>
 </html>
