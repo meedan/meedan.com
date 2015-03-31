@@ -7,9 +7,7 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid rgba($faded-blue, 0.05);
-    position: absolute;
-    bottom: -2em;
-    left: 49%;
+    margin: 0 auto 0;
   }
 }
 
@@ -23,6 +21,7 @@
   background-repeat: repeat, repeat, no-repeat;
   transition: 2s;
   z-index: -1;
+  filter: grayscale(1);
   @media all and (max-width: $breakpoint) {
     height: 90px;
   }

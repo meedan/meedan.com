@@ -36,10 +36,6 @@ h2, h3, h4 {
   }
 }
 
-p {
-  line-height: 1.85;
-}
-
 section > p:nth-of-type(1) {
   padding: 0 0 2em;
 }
@@ -85,7 +81,8 @@ p {
   display: block;
   margin: 0 auto;
   font-size: 1em;
-  max-width: 800px;
+  max-width: 35em;
+  line-height: 1.85;
   @media all and (max-width: $breakpoint) {
     padding: 1em 0.7em;
     line-height: 1.65;

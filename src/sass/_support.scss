@@ -15,6 +15,9 @@ section.support {
         max-width: 80%!important;
       }
     }
+    .ce {
+      filter: invert(1) brightness(3.6);
+    }
     .mada {
       max-width:80px;
     }
@@ -34,7 +37,8 @@ section.support {
       max-width:125px
     }
     .bcu {
-      max-width:100px
+      max-width:100px;
+      filter: brightness(3.6);
     }
     .ff {
       max-width:300px;
@@ -47,6 +51,9 @@ section.support {
     }
     .ng, .vcf {
       max-width:250px
+    }
+    .macarthur {
+      
     }
   }
 }
