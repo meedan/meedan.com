@@ -45,6 +45,7 @@ document.onkeydown = function (e) {
     }
 };
 
-document.addEventListener("DOMContentLoaded", function(event) {
-  shuffleNodes();
-});
+// Shuffle on load 
+// document.addEventListener("DOMContentLoaded", function(event) {
+//   shuffleNodes();
+// });
