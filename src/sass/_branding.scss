@@ -20,8 +20,16 @@
   }
 }
 
-.branding {
+@media all and (max-width: $breakpoint) {
+  padding-top: 2em;
+  p.slogan {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+  }
+}
 
+.branding {
   h1 {
     font-size: 3.6em;
     text-transform: uppercase;
@@ -31,12 +39,19 @@
     font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
     font-weight: 200;
     letter-spacing: 0.2em;
+    @media all and (max-width: $breakpoint) {
+      font-size: 1.3em;
+    }
   }
 
   img.logo {
     width: 12em;
     margin-top: 2em;
     transition: 0.6s;
+    @media all and (max-width: $breakpoint) {
+      margin: 0;
+      width: 40%;
+    }
   }
 
   p.slogan {
@@ -50,21 +65,12 @@
     margin-top: 0;
     overflow: hidden;
   }
-}
 
-@media all and (max-width: $breakpoint) {
-  .branding {
+  @media all and (max-width: $breakpoint) {
     padding-top: 2em;
     p.slogan {
       margin: 0;
       padding: 0;
-      font-size: 1.3em;
-    }
-    .logo {
-      margin: 0;
-      width: 40%;
-    }
-    h1 {
       font-size: 1.3em;
     }
   }

@@ -68,6 +68,7 @@ $paris-daisy-yellow: hsl(53, 100%, 70%);
 $flamingo-orange: hsl(16, 85%, 57%);
 $hot-cinnamon-orange: hsl(16, 73%, 50%);
 $default-box-shadow-color: hsl(0, 0%, 76%);
+$outrageous-orange: #ff6e4a;
 
 // Social network colors
 $twitter-blue: hsl(203, 75%, 45%);  // exact Twitter brand color
@@ -87,14 +88,13 @@ $debug-six: hsl(37, 100%, 50%);
 $default_debug_color: $debug-six;
 
 // XRW's colors
-$outrageous-orange: #ff6e4a;
 $faded-blue: #3a546c;
 $bright-faded-blue: #0b2a46;
 $turkish-rose: #6a4452;
 $bright-turkish-rose: #801e4f;
 $snowflake: rgba(#ffffff,0.8);
 
-// ARK's colors
+// ARK's colors from Checkdesk
 $firefly: 			#10212F;
 $firefly90: 		#283743;
 $firefly80: 		#404D59;
@@ -110,17 +110,3 @@ $dodgerBlue: 		#2E77FC;
 $dodgerBlue80:	#3B8AFD;
 $dodgerBlue60: 	#7DB1FE;
 $dodgerStrong:	#2155B4;
-
-$thatch: 				#B89892;
-$thatch80:			#BFA29C;
-$thatch5: 			#FBFAF9;
-$thatch2:				#FEFDFD;
-
-$strongBlue:		#2155B4;
-$strongBlue80: 	#4A74C0;
-$strongBlue60: 	#7A99D2;
-
-$verified:			#399664;
-$undetermined:	#EC9131;
-$false:					#CC4F43;
-$in-progress:		#F5A623;

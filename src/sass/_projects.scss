@@ -31,20 +31,13 @@ section.projects {
   }
 
   .projects--checkdesk {
-    // background: $faded-blue;
-    // background: $firefly;
-    // background: $firefly80;
     background: linear-gradient(195deg, $faded-blue, $firefly80);
   }
 
   .projects--bridge {
-    // background: $turkish-rose;
-    // background: $bright-turkish-rose;
-    background: linear-gradient(145deg, rgba($bright-turkish-rose, 1), rgba($turkish-rose, 0.9));
-    // background: linear-gradient(145deg, darken(purple, 10%), $firefly80);
-    // background: linear-gradient(145deg, red, blue);
+    background: linear-gradient(145deg, rgba($bright-turkish-rose, 1), $turkish-rose);
     img {
-      width: 250px;
+      width: 10em;
     }
   }
 }
