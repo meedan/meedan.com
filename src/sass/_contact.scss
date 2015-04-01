@@ -47,6 +47,9 @@ section.contact {
       border-color: rgba(white, 1);
       transition: 0s;
     }
+    @media all and (max-width: $breakpoint) {
+      font-size: 1em;
+    }
   }
 }
 
