@@ -55,20 +55,20 @@ section.contact {
 
 .contact--social-media {
   width: 100%;
-  margin: 3em 0 0 0;
-  padding: 0px 0px 0px 0px;
+  margin: 2em 0 0 0;
+  padding: 0;
   transition: 200ms;
-  clear: both;
+  columns: 100% 4;
 
-  li {
-    padding: 1em;
-  }
   a {
     text-decoration: none;
     border-bottom: none;
+    transition: 0.5s;
+    &:hover {
+      filter: opacity(0.7);
+    }
     img {
-      width: 7em;
-      padding: 2em;
+      width: 45px;
     }
   }
 }
