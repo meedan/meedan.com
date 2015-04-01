@@ -1,19 +1,5 @@
-%down-arrow {
-  position: relative;
-  &:after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid rgba($faded-blue, 0.05);
-    margin: 0 auto 0;
-  }
-}
-
 %fancy-background {
   background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/header-2-small.jpg");
-  // background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 46%));
   filter: grayscale(0.8);
   background-position: 0 0, 2px 2px, 100%;
   background-size: 4px 4px, 4px 4px, cover;
@@ -35,7 +21,6 @@
 }
 
 .branding {
-  // @extend %down-arrow;
 
   h1 {
     font-size: 3.6em;
