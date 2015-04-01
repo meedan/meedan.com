@@ -10,14 +10,12 @@ section.team {
     font-weight: 500;
   }
   li {
-    border: 1px soild red;
     padding: 1em 3em 1.5em 1em;
     display: inline-block;
     width: 200px;
     line-height: 1.5;
     font-size: 0.7em;
     vertical-align: top;
-    @include animation(flipInX 1.0s);
     font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
     img {
       max-width: 100px;

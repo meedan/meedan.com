@@ -83,8 +83,10 @@ p {
   font-size: 1em;
   max-width: 35em;
   line-height: 1.85;
+
   @media all and (max-width: $breakpoint) {
     padding: 1em 0.7em;
     line-height: 1.65;
+    width: 80%;
   }
 }

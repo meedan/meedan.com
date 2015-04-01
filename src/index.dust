@@ -9,7 +9,6 @@
 
   <body>
     <main>
-      <div id="" class="photo-frame"></div>
       <!-- <div id="particles"></div> -->
 
       <section class="branding">
@@ -17,7 +16,7 @@
         <h1>Meedan</h1>
         <p class="slogan">Make sense of the global web.</p>
 
-        <p class="about">We are designers, technologists and journalists building digital tools for collaboration on the global internet, with a focus on <em>news verification</em> and <em>social translation</em>. With university and commercial partners we support research, curriculum development, and new forms of digital storytelling.</p>
+        <p class="about">We are designers, technologists and journalists building digital tools for collaboration on the global internet. We focus on <em>news verification</em> and <em>social translation</em>. With university and commercial partners we conduct research and explore new forms of digital storytelling.</p>
       </section>
 
       <section class="projects">
@@ -27,12 +26,14 @@
             <img alt="checkdesk" src="images/logos/checkdesk.svg" width="300">
           </a>
           <p>Verification toolkit for digital media</p>
+          <!-- <p>[This is more text here! Social translation of social media? Even more text. More text.] </p> -->
         </div>
         <div class="projects--bridge">
           <a href="20150328_bridge_out-of-eden-walk_one-pager_booklet.pdf">
             <img alt="bridge logo" src="images/logos/bridge.svg" width="300">
           </a>
-          <p>Social translation of social media</p>
+          <p>Social translation of social media </p>
+          <!-- <p>[This is more text here! Social translation of social media? Even more text. More text.] </p> -->
         </div>
       </section>
 
@@ -41,11 +42,50 @@
         <p>Meedan has offices in Cairo, Vancouver and San Francisco, with a distributed team across 13 time zones, 6 cities, and 3 continents.</p>
 
         <ul id="team">
-
           <li>
-              <img width="100" alt="anas" src="images/team/anas.png" />
-              <div class="name">Anas Qtiesh</div>
-              <div class="title">User Experience Designer</div>
+              <img width="100" alt="muna" src="images/team/muna.jpg" />
+              <div class="name">Muna AbuSulayman</div>
+              <div class="title">Board Member</div>
+          </li>
+          <li>
+              <img width="100" alt="caio" src="images/team/caio.jpg" />
+              <div class="name">Caio Almeida</div>
+              <div class="title">Senior Engineer</div>
+          </li>
+          <li>
+              <img width="100" alt="jibb" src="images/team/jibb.jpg" />
+              <div class="name">Jonathan Beall</div>
+              <div class="title">Mobile Engineer</div>
+          </li>
+          <li>
+              <img width="100" alt="steven" src="images/team/steven.jpg" />
+              <div class="name">Steven Bird</div>
+              <div class="title">Senior Advisor</div>
+          </li>
+          <li>
+              <img width="100" alt="chris" src="images/team/chris.jpg" />
+              <div class="name">Chris Blow</div>
+              <div class="title">Director of User Experience</div>
+          </li>
+          <li>
+              <img width="100" alt="jon" src="images/team/jon.jpg" />
+              <div class="name">Jon Corshen</div>
+              <div class="title">Board Member</div>
+          </li>
+          <li>
+              <img width="100" alt="noha" src="images/team/noha.jpg" />
+              <div class="name">Noha Daoud</div>
+              <div class="title">Quality Assurance Engineer</div>
+          </li>
+          <li>
+              <img width="100" alt="dina" src="images/team/dina.jpg" />
+              <div class="name">Dina elHawary</div>
+              <div class="title">Program Manager</div>
+          </li>
+          <li>
+              <img width="100" alt="wael" src="images/team/wael.jpg" />
+              <div class="name">Wael Fakharany</div>
+              <div class="title">Board Member</div>
           </li>
 
           <li>
@@ -55,27 +95,9 @@
           </li>
 
           <li>
-              <img width="100" alt="caio" src="images/team/caio.jpg" />
-              <div class="name">Caio Almeida</div>
-              <div class="title">Senior Engineer</div>
-          </li>
-
-          <li>
-              <img width="100" alt="chris" src="images/team/chris.jpg" />
-              <div class="name">Chris Blow</div>
-              <div class="title">Director of User Experience</div>
-          </li>
-
-          <li>
-              <img width="100" alt="clarissa" src="images/team/clarissa.jpg" />
-              <div class="name">Clarissa Xavier</div>
-              <div class="title">Computational Linguist</div>
-          </li>
-
-          <li>
-              <img width="100" alt="dina" src="images/team/dina.jpg" />
-              <div class="name">Dina elHawary</div>
-              <div class="title">Program Manager</div>
+              <img width="100" alt="hanan" src="images/team/hanan.jpg" />
+              <div class="name">Hanan Heikal</div>
+              <div class="title">Board Member</div>
           </li>
 
           <li>
@@ -85,29 +107,21 @@
           </li>
 
           <li>
-              <img width="100" alt="hanan" src="images/team/hanan.jpg" />
-              <div class="name">Hanan Heikal</div>
-              <div class="title">Board Member</div>
-          </li>
-
-          <li>
             <img width="100" alt="an" src="images/team/an.jpg" />
             <div class="name">An Xiao Mina</div>
             <div class="title">Director of Product</div>
           </li>
-
           <li>
-              <img width="100" alt="jibb" src="images/team/jibb.jpg" />
-              <div class="name">Jonathan Beall</div>
-              <div class="title">Mobile Engineer</div>
+              <img width="100" alt="pat" src="images/team/pat.jpg" />
+              <div class="name">Pat Motte</div>
+              <div class="title">Accountant</div>
           </li>
 
           <li>
-              <img width="100" alt="jon" src="images/team/jon.jpg" />
-              <div class="name">Jon Corshen</div>
-              <div class="title">Board Member</div>
+              <img width="100" alt="anas" src="images/team/anas.png" />
+              <div class="name">Anas Qtiesh</div>
+              <div class="title">User Experience Designer</div>
           </li>
-
           <li>
               <img width="100" alt="karim" src="images/team/karim.jpg" />
               <div class="name">Karim Ratib</div>
@@ -118,39 +132,10 @@
               <div class="name">Mohammad Sawy</div>
               <div class="title">Senior Engineer</div>
           </li>
-
-          <li>
-              <img width="100" alt="muna" src="images/team/muna.jpg" />
-              <div class="name">Muna AbuSulayman</div>
-              <div class="title">Board Member</div>
-          </li>
-
-          <li>
-              <img width="100" alt="noha" src="images/team/noha.jpg" />
-              <div class="name">Noha Daoud</div>
-              <div class="title">Quality Assurance Engineer</div>
-          </li>
-
-          <li>
-              <img width="100" alt="nora" src="images/team/nora.jpg" />
-              <div class="name">Nora Younis</div>
-              <div class="title">Editor-in-Chief</div>
-          </li>
-
-          <li>
-              <img width="100" alt="pat" src="images/team/pat.jpg" />
-              <div class="name">Pat Motte</div>
-              <div class="title">Accountant</div>
-          </li>
           <li>
               <img width="100" alt="shady" src="images/team/shady.jpg" />
               <div class="name">Shady Samir</div>
               <div class="title">Application Engineer</div>
-          </li>
-          <li>
-              <img width="100" alt="steven" src="images/team/steven.jpg" />
-              <div class="name">Steven Bird</div>
-              <div class="title">Senior Computational Linguist</div>
           </li>
           <li>
               <img width="100" alt="tom" src="images/team/tom.jpg" />
@@ -159,30 +144,35 @@
           </li>
 
           <li>
-              <img width="100" alt="wael" src="images/team/wael.jpg" />
-              <div class="name">Wael Fakharany</div>
-              <div class="title">Board Member</div>
-          </li>
-
-          <li>
               <img width="100" alt="xiaowei" src="images/team/xiaowei.jpg" />
               <div class="name">Xiaowei Wang</div>
               <div class="title">Designer</div>
           </li>
+          <li>
+              <img width="100" alt="clarissa" src="images/team/clarissa.jpg" />
+              <div class="name">Clarissa Xavier</div>
+              <div class="title">Computational Linguist</div>
+          </li>
+          <li>
+              <img width="100" alt="nora" src="images/team/nora.jpg" />
+              <div class="name">Nora Younis</div>
+              <div class="title">Editor-in-Chief</div>
+          </li>
         </ul>
 
       </section>
+<script async src="https://static.medium.com/embed.js"></script>
 
       <section class="latest">
          <h3>Our Latest</h3>
 
         <script async src="https://static.medium.com/embed.js"></script>
         <div class="medium-channel">
-          <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates">Meedan Updates</a>
+          <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates"></a>
         </div>
 
         <div class="medium-channel">
-          <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-labs">Meedan Labs</a>
+          <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-labs"></a>
         </div>
 
         <div class="medium-links">
@@ -284,10 +274,12 @@
         </div>
       </section>
 
+      <div class="photo-frame">
+        <p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies. Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for collaborative social media translation.</p>
+      </div>
+
       <section class="contact">
         <h3>Contact Us</h3>
-
-        <p>Meedan is a hybrid nonprofit/for-profit organization. We share code, people, offices, and values across two companies. Meedan.org is a registered 501(c) 3 established in 2006 that works on non-commercial projects to support global journalism. Meedan Labs is a for-profit spun off in 2014 to develop software for collaborative social media translation.</p>
 
         <footer>
 
@@ -295,9 +287,9 @@
               <p><a href="mailto:hello@meedan.com">hello@meedan.com</a></p>
             </div>
 
-          <div class="contact--call">
+          <!-- <div class="contact--call">
             <p><a href="tel:14158859000">+1-415-885-9000</a></p>
-          </div>
+          </div> -->
 
           <ul class="contact--social-media">
             <li>
@@ -351,13 +343,6 @@
       </section>
   </main>
 <script src="meedan-team-shuffle.js"></script>
-<script src="jquery.particleground.min.js"></script>
-<!--
- <script>
-   document.addEventListener("DOMContentLoaded", function(event) {
-     particleground(document.getElementById('particles'));
-   });
-</script>
--->
+
 </body>
 </html>

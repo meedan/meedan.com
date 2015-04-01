@@ -5,8 +5,8 @@ section.projects {
   & > div {
     position: relative;
     @include column(50%);
-    padding: 3em 0;
-    height: 12em;
+    padding: 8em 0;
+    height: 20em;
     img {
       @media all and (max-width: $breakpoint) {
         width: 90%;
@@ -33,15 +33,18 @@ section.projects {
   .projects--checkdesk {
     // background: $faded-blue;
     // background: $firefly;
-    background: $firefly80;
-    // background: linear-gradient(45deg, $firefly90, $firefly60);
-    // background: linear-gradient(145deg, darken(purple, 35%), $bright-turkish-rose);
+    // background: $firefly80;
+    background: linear-gradient(195deg, $faded-blue, $firefly80);
   }
 
   .projects--bridge {
-    background: $turkish-rose;
+    // background: $turkish-rose;
     // background: $bright-turkish-rose;
-    // background: linear-gradient(145deg, rgba($turkish-rose, 0.9), rgba($bright-turkish-rose, 1), rgba($bright-turkish-rose, 1));
+    background: linear-gradient(145deg, rgba($bright-turkish-rose, 1), rgba($turkish-rose, 0.9));
+    // background: linear-gradient(145deg, darken(purple, 10%), $firefly80);
     // background: linear-gradient(145deg, red, blue);
+    img {
+      width: 250px;
+    }
   }
 }
