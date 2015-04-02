@@ -1,8 +1,14 @@
+// A screen of dots
 %textured-background {
   background: radial-gradient(rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.01) 46%), radial-gradient(rgba(0, 0, 0, 0) 45%, rgba($firefly, 0.01) 46%);
   background-position: 0 0, 2px 2px;
   background-size: 6px 6px, 6px 6px;
   background-repeat: repeat, repeat;
+}
+
+// This is fragile and failure-prone. But we want equal height.  - CGB
+%height-hack {
+  max-height: 700px !important;
 }
 
 .latest {
@@ -12,12 +18,10 @@
   text-align: center;
   padding-bottom: 6em;
   .medium-channel {
-
     vertical-align: text-top;
     display: inline-block;
     iframe {
-      max-height: 700px !important;
-      background-color: black!important;
+      @extend %height-hack;
     }
   }
 

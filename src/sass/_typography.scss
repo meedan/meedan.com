@@ -1,7 +1,5 @@
-
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400');
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,200');
-
 body {
   font-size: 20px;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
@@ -10,52 +8,46 @@ body {
   font-weight: 300;
   color: $firefly80;
   background-color: $warm-grey;
-  @media all and (max-width: $breakpoint) {
-    & > div { text-align: left; }
-  }
 }
-
 // Headers
 //
 // (The h1 is in branding.scss)
-h2, h3, h4 {
-  margin: 0;
-  padding: 4em 1em 2em 1em;
-  line-height: 1.2;
+h2,
+h3,
+h4 {
   display: block;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   font-size: 1.5em;
   font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 200;
+  margin: 0;
+  padding: 4em 1em 2em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
   @media all and (max-width: $breakpoint) {
-    padding: 2em 1em ;
+    padding: 2em 1em;
   }
 }
-
 section > p:nth-of-type(1) {
   padding: 0 0 2em;
 }
-
 em {
   font-weight: bold;
 }
-
 a {
   color: lighten($photo-feb10-blue, 10%);
   text-decoration: none;
   border-bottom: 3px lighten($photo-feb10-blue, 50%) solid;
 }
-
 ul {
   text-align: center;
   padding: 0;
   margin: 0.5em 0;
   @media all and (max-width: $breakpoint) {
-    margin-top: 0.5em 0 0em;
+    margin-top: 0.5em 0 0;
   }
 }
-
 li {
   display: inline-block;
   padding: 0 1em 1em;
@@ -64,7 +56,6 @@ li {
     display: block;
   }
 }
-
 // At small sizes, make the links more like buttons
 li > a {
   @media all and (max-width: $breakpoint) {
@@ -72,7 +63,6 @@ li > a {
     display: block;
   }
 }
-
 p {
   padding: 1em;
   display: block;
@@ -80,7 +70,6 @@ p {
   font-size: 1em;
   max-width: 35em;
   line-height: 1.85;
-
   @media all and (max-width: $breakpoint) {
     padding: 1em 0.7em;
     line-height: 1.65;

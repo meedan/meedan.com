@@ -9,28 +9,25 @@ section.contact {
     }
   }
 }
-
 .contact--visit {
   .locations li {
-    clear: none;
     @include column(33%);
+    clear: none;
     font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
     height: 20em;
     h4 {
       font-size: 0.8em;
-      margin: 1em;
       font-weight: 100;
+      margin: 1em;
     }
     p {
-      filter: opacity(0.7);
+      filter:opacity(0.7);
       font-size: 0.8em;
-      margin: 0 auto;
       font-weight: 100;
-      filter: opacity(0.7);
+      margin: 0 auto;
     }
   }
 }
-
 .contact--call,
 .contact--write {
   a {
@@ -52,20 +49,18 @@ section.contact {
     }
   }
 }
-
 .contact--social-media {
-  width: 100%;
-  margin: 2em 0 0 0;
+  columns: 100% 4;
+  margin: 2em 0 0;
   padding: 0;
   transition: 200ms;
-  columns: 100% 4;
-
+  width: 100%;
   a {
     text-decoration: none;
     border-bottom: none;
     transition: 0.5s;
     &:hover {
-      filter: opacity(0.7);
+      filter:opacity(0.7);
     }
     img {
       width: 45px;

@@ -2,24 +2,34 @@ var gulp = require('gulp');
 var rename = require("gulp-rename");
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
-
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
-
 var dust = require('gulp-dust');
 dust.helpers = require('dustjs-helpers').helpers;
 var dusthtml = require('gulp-dust-html');
-
 var imagemin = require('gulp-imagemin');
-
 var pkg = require('./package.json');
-
 var scssFiles = "src/sass/**/*.scss";
 var cssCompileDir = "www/css";
-
 var autoprefixer = require('gulp-autoprefixer');
-
 var w3cjs = require('gulp-w3cjs');
+var imageResize = require('gulp-image-resize');
+var rename = require("gulp-rename");
+var parallel = require('concurrent-transform');
+var changed = require('gulp-changed');
+
+// Example of rename via string
+// gulp.src("./src/main/text/hello.txt")
+//   .pipe(rename("main/text/ciao/goodbye.md"))
+//   .pipe(gulp.dest("./dist")); // ./dist/main/text/ciao/goodbye.md
+
+// Carry over misc files,
+// but only if they changed.
+gulp.task('misc-files', function () {
+  gulp.src(['src/CNAME', 'src/*.js', 'src/*.pdf', 'src/robots.txt'])
+    .pipe(changed("./www"))
+    .pipe(gulp.dest("./www"));
+});
 
 // HTML Validator
 gulp.task('validate', function () {
@@ -54,6 +64,23 @@ gulp.task('image-compress', function () {
     }))
     .pipe(gulp.dest('www/images'));
 });
+
+gulp.task('image-resize', function () {
+  gulp.src(['src/images/logos/*{.png,.jpg}','src/images/team/*{.png,.jpg}'])
+  .pipe(imageResize({
+    width : 200,
+    upscale: false,
+    imageMagick: true
+    }))
+  .pipe(gulp.dest('www/images/2x'));
+});
+
+// gulp.task('image-resize', function () {
+//   gulp.src(['src/images/banners/*'])
+//   .pipe(imageResize({ width : 2000 }))
+//   .pipe(gulp.dest('www/images/2x'));
+// });
+
 
 // Dust template rendering
 gulp.task('dust', function (cb) {
