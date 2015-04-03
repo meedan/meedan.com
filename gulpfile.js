@@ -17,36 +17,6 @@ var imageResize = require('gulp-image-resize');
 var parallel = require('concurrent-transform');
 var changed = require('gulp-changed');
 
-
-// If resizing with gulp-image-resize doesn't work, I'll try this next, CGB
-//
-// var responsive = require('gulp-responsive');
-//
-// gulp.task('default', function () {
-//   return gulp.src('src/*.png')
-//     .pipe(responsive([{
-//       name: 'logo.png',
-//       width: 200
-//     },{
-//       name: 'logo.png',
-//       width: 200 * 2,
-//       rename: 'logo@2x.png'
-//     },{
-//       name: 'background-*.png',
-//       width: 700
-//     },{
-//       name: 'cover.png',
-//       width: '50%'
-//     }]))
-//     .pipe(gulp.dest('dist'));
-// });
-
-// Example of rename via string
-//
-// gulp.src("./src/main/text/hello.txt")
-//   .pipe(rename("main/text/ciao/goodbye.md"))
-//   .pipe(gulp.dest("./dist")); // ./dist/main/text/ciao/goodbye.md
-
 // Carry over misc files,
 // but only if they changed.
 gulp.task('misc-files', function () {
@@ -78,6 +48,11 @@ var ehandler = function (err) {
 }
 
 gulp.task('resize-logos', function () {
+  // SVG files get special handling
+  gulp.src('src/images/**/*.svg')
+  .pipe(gulp.dest("./www/images/vector/"))
+
+  // Then make the 2x
   gulp.src(['src/images/logos/*{.png,.jpg}'])
   .pipe(imageResize({
     width : 200,
@@ -85,6 +60,8 @@ gulp.task('resize-logos', function () {
     crop: false
   }))
   .pipe(gulp.dest('www/images/2x/logos/'))
+
+  // Then the 1x
   .pipe(imageResize({
     width : 100,
     upscale: false,
@@ -159,7 +136,7 @@ gulp.task('dustreload', ['dust'], function () {
 var sassConfig = {
   errLogToConsole: true,
   includePaths: ["bower_components"],
-  outputStyle: "compressed"
+  outputStyle: "expanded"
 }
 
 gulp.task('sass', function () {
@@ -182,7 +159,7 @@ var browserSyncConfig = {
 }
 
 // Default task
-gulp.task('default', function () {
+gulp.task('default', ['misc-files'], function () {
   gulp.watch(scssFiles, ['sass']);
   gulp.watch('src/*.dust', ['dustreload']);
   browserSync(browserSyncConfig);
