@@ -14,11 +14,35 @@ var cssCompileDir = "www/css";
 var autoprefixer = require('gulp-autoprefixer');
 var w3cjs = require('gulp-w3cjs');
 var imageResize = require('gulp-image-resize');
-var rename = require("gulp-rename");
 var parallel = require('concurrent-transform');
 var changed = require('gulp-changed');
 
+
+// If resizing with gulp-image-resize doesn't work, I'll try this next, CGB
+//
+// var responsive = require('gulp-responsive');
+//
+// gulp.task('default', function () {
+//   return gulp.src('src/*.png')
+//     .pipe(responsive([{
+//       name: 'logo.png',
+//       width: 200
+//     },{
+//       name: 'logo.png',
+//       width: 200 * 2,
+//       rename: 'logo@2x.png'
+//     },{
+//       name: 'background-*.png',
+//       width: 700
+//     },{
+//       name: 'cover.png',
+//       width: '50%'
+//     }]))
+//     .pipe(gulp.dest('dist'));
+// });
+
 // Example of rename via string
+//
 // gulp.src("./src/main/text/hello.txt")
 //   .pipe(rename("main/text/ciao/goodbye.md"))
 //   .pipe(gulp.dest("./dist")); // ./dist/main/text/ciao/goodbye.md
@@ -53,9 +77,61 @@ var ehandler = function (err) {
   console.log(err.message);
 }
 
-// Image minification
+gulp.task('resize-logos', function () {
+  gulp.src(['src/images/logos/*{.png,.jpg}'])
+  .pipe(imageResize({
+    width : 200,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/2x/logos/'))
+  .pipe(imageResize({
+    width : 100,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/1x/logos/'));
+});
+
+gulp.task('resize-team', function () {
+  gulp.src(['src/images/team/*{.png,.jpg}'])
+  .pipe(imageResize({
+    width : 200,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/2x/team/'))
+  .pipe(imageResize({
+    width : 100,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/1x/team/'));
+});
+
+gulp.task('resize-banners', function () {
+  gulp.src(['src/images/banners/*{.png,.jpg}'])
+  .pipe(imageResize({
+    width : 2000,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/2x/banners/'))
+  .pipe(imageResize({
+    width : 1000,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/1x/banners/'));
+});
+
+// Summary resize-images tasks
+gulp.task('resize-images', ['resize-team', 'resize-banners', 'resize-logos']);
+gulp.task('images', ['resize-images', 'image-compress']);
+
+// Image minification, after resizing
 gulp.task('image-compress', function () {
-  return gulp.src(['src/images/*', 'src/images/**/*'])
+  return gulp.src(['www/images/*', 'www/images/**/*'])
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{
@@ -65,27 +141,12 @@ gulp.task('image-compress', function () {
     .pipe(gulp.dest('www/images'));
 });
 
-gulp.task('image-resize', function () {
-  gulp.src(['src/images/logos/*{.png,.jpg}','src/images/team/*{.png,.jpg}'])
-  .pipe(imageResize({
-    width : 200,
-    upscale: false,
-    imageMagick: true
-    }))
-  .pipe(gulp.dest('www/images/2x'));
-});
-
-// gulp.task('image-resize', function () {
-//   gulp.src(['src/images/banners/*'])
-//   .pipe(imageResize({ width : 2000 }))
-//   .pipe(gulp.dest('www/images/2x'));
-// });
-
 
 // Dust template rendering
 gulp.task('dust', function (cb) {
-  return gulp.src(['src/*.dust', '!src/_*.dust']).pipe(
-      dusthtml(dustConfig))
+  return gulp.src(['src/*.dust', '!src/_*.dust'])
+    .pipe(changed('www/'))
+    .pipe(dusthtml(dustConfig))
     .on('error', cb)
     .pipe(gulp.dest('www/'));
 });
@@ -130,6 +191,5 @@ gulp.task('default', function () {
 // Sass only
 gulp.task('watch-sass', function () {
   gulp.watch(scssFiles, ['sass']);
-  // TODO: make this stream
   browserSync(browserSyncConfig);
 });

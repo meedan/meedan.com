@@ -9,8 +9,6 @@
 
   <body>
     <main>
-      <!-- <div id="particles"></div> -->
-
       <section class="branding">
         <img alt="Meedan Labs" class="logo" width="100" src="images/logos/labs.svg" onerror="this.src='images/logos/ml-alt.png'">
         <h1>Meedan</h1>
@@ -45,123 +43,123 @@
 
         <ul id="team">
           <li>
-              <img width="100" alt="muna" src="images/team/muna.jpg" />
+              <img src="images/team/muna.jpg" alt="muna" srcset="images/team/2x/muna.jpg 2x" >
               <div class="name">Muna AbuSulayman</div>
               <div class="title">Board Member</div>
           </li>
           <li>
-              <img width="100" alt="caio" src="images/team/caio.jpg" />
+              <img alt="caio" src="images/team/caio.jpg" />
               <div class="name">Caio Almeida</div>
               <div class="title">Senior Engineer</div>
           </li>
           <li>
-              <img width="100" alt="jibb" src="images/team/jibb.jpg" />
+              <img alt="jibb" src="images/team/jibb.jpg" />
               <div class="name">Jonathan Beall</div>
               <div class="title">Mobile Engineer</div>
           </li>
           <li>
-              <img width="100" alt="ed" src="images/team/ed.jpg" />
+              <img alt="ed" src="images/team/ed.jpg" />
               <div class="name">Ed Bice</div>
               <div class="title">CEO and Board Member</div>
           </li>
           <li>
-              <img width="100" alt="steven" src="images/team/steven.jpg" />
+              <img alt="steven" src="images/team/steven.jpg" />
               <div class="name">Steven Bird</div>
               <div class="title">Senior Advisor</div>
           </li>
           <li>
-              <img width="100" alt="chris" src="images/team/chris.jpg" />
+              <img alt="chris" src="images/team/chris.jpg" />
               <div class="name">Chris Blow</div>
               <div class="title">Director of User Experience</div>
           </li>
           <li>
-              <img width="100" alt="jon" src="images/team/jon.jpg" />
+              <img alt="jon" src="images/team/jon.jpg" />
               <div class="name">Jon Corshen</div>
               <div class="title">Board Member</div>
           </li>
           <li>
-              <img width="100" alt="noha" src="images/team/noha.jpg" />
+              <img alt="noha" src="images/team/noha.jpg" />
               <div class="name">Noha Daoud</div>
               <div class="title">Quality Assurance Engineer</div>
           </li>
           <li>
-              <img width="100" alt="dina" src="images/team/dina.jpg" />
+              <img alt="dina" src="images/team/dina.jpg" />
               <div class="name">Dina El Hawary</div>
               <div class="title">Program Manager</div>
           </li>
           <li>
-              <img width="100" alt="wael" src="images/team/wael.jpg" />
+              <img alt="wael" src="images/team/wael.jpg" />
               <div class="name">Wael Fakharany</div>
               <div class="title">Board Member</div>
           </li>
 
           <li>
-              <img width="100" alt="ben" src="images/team/ben.jpg" />
+              <img alt="ben" src="images/team/ben.jpg" />
               <div class="name">Benjamin Foote</div>
               <div class="title">Systems Engineer</div>
           </li>
 
           <li>
-              <img width="100" alt="hanan" src="images/team/hanan.jpg" />
+              <img alt="hanan" src="images/team/hanan.jpg" />
               <div class="name">Hanan Heikal</div>
               <div class="title">Board Member</div>
           </li>
 
           <li>
-              <img width="100" alt="eddy" src="images/team/eddy.jpg">
+              <img alt="eddy" src="images/team/eddy.jpg">
               <div class="name">Eduardo Hueso</div>
               <div class="title">Mobile Engineering Lead</div>
           </li>
 
           <li>
-            <img width="100" alt="an" src="images/team/an.jpg" />
+            <img alt="an" src="images/team/an.jpg" />
             <div class="name">An Xiao Mina</div>
             <div class="title">Director of Product</div>
           </li>
           <li>
-              <img width="100" alt="pat" src="images/team/pat.jpg" />
+              <img alt="pat" src="images/team/pat.jpg" />
               <div class="name">Pat Motte</div>
               <div class="title">Bookkeeper</div>
           </li>
 
           <li>
-              <img width="100" alt="anas" src="images/team/anas.png" />
+              <img alt="anas" src="images/team/anas.png" />
               <div class="name">Anas Qtiesh</div>
               <div class="title">User Experience Designer</div>
           </li>
           <li>
-              <img width="100" alt="karim" src="images/team/karim.jpg" />
+              <img alt="karim" src="images/team/karim.jpg" />
               <div class="name">Karim Ratib</div>
               <div class="title">Director of Engineering &amp; Board Member</div>
           </li>
           <li>
-              <img width="100" alt="sawy" src="images/team/sawy.jpg" />
+              <img alt="sawy" src="images/team/sawy.jpg" />
               <div class="name">Mohammad El-Sawy</div>
               <div class="title">Senior Engineer</div>
           </li>
           <li>
-              <img width="100" alt="shady" src="images/team/shady.jpg" />
+              <img alt="shady" src="images/team/shady.jpg" />
               <div class="name">Shady Samir</div>
               <div class="title">Application Engineer</div>
           </li>
           <li>
-              <img width="100" alt="tom" src="images/team/tom.jpg" />
+              <img alt="tom" src="images/team/tom.jpg" />
               <div class="name">Tom Trewinnard</div>
               <div class="title">Business Development Manager</div>
           </li>
 
           <li>
-              <img width="100" alt="xiaowei" src="images/team/xiaowei.jpg" />
+              <img alt="xiaowei" src="images/team/xiaowei.jpg" />
               <div class="name">Xiaowei Wang</div>
               <div class="title">Designer</div>
           </li>
           <li>
-              <img width="100" alt="clarissa" src="images/team/clarissa.jpg" />
+              <img alt="clarissa" src="images/team/clarissa.jpg" />
               <div class="name">Clarissa Xavier</div>
               <div class="title">Computational Linguist</div>
           </li>
           <li>
-              <img width="100" alt="nora" src="images/team/nora.jpg" />
+              <img alt="nora" src="images/team/nora.jpg" />
               <div class="name">Nora Younis</div>
               <div class="title">Editor-in-Chief</div>
           </li>
