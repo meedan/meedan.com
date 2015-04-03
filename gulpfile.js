@@ -16,6 +16,8 @@ var w3cjs = require('gulp-w3cjs');
 var imageResize = require('gulp-image-resize');
 var parallel = require('concurrent-transform');
 var changed = require('gulp-changed');
+var psi = require('psi');
+var site = 'http://meedan.com'
 
 // Carry over misc files,
 // but only if they changed.
@@ -157,6 +159,17 @@ var browserSyncConfig = {
     baseDir: "./www",
   }
 }
+
+gulp.task('pagespeed-mobile', function () {
+    return psi(site, {
+        // key: key
+        nokey: 'true',
+        strategy: 'mobile',
+    }, function (err, data) {
+        console.log(data.score);
+        console.log(data.pageStats);
+    });
+});
 
 // Default task
 gulp.task('default', ['misc-files'], function () {
