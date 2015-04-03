@@ -17,7 +17,7 @@ var imageResize = require('gulp-image-resize');
 var parallel = require('concurrent-transform');
 var changed = require('gulp-changed');
 var psi = require('psi');
-var site = 'http://meedan.com'
+var site = 'http://meedan.com';
 
 // Carry over misc files,
 // but only if they changed.
@@ -120,7 +120,6 @@ gulp.task('image-compress', function () {
     .pipe(gulp.dest('www/images'));
 });
 
-
 // Dust template rendering
 gulp.task('dust', function (cb) {
   return gulp.src(['src/*.dust', '!src/_*.dust'])
@@ -160,9 +159,8 @@ var browserSyncConfig = {
   }
 }
 
-gulp.task('pagespeed-mobile', function () {
+gulp.task('pagespeed', function () {
     return psi(site, {
-        // key: key
         nokey: 'true',
         strategy: 'mobile',
     }, function (err, data) {
