@@ -114,7 +114,8 @@ p {
       width: 80%; } }
 
 .photo-frame {
-  background-image: url("../images/1x/banners/banner-1.png");
+  background-color: #404D59;
+  background-image: url("../images/1x/banners/banner-2.jpg");
   background-position: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -198,7 +199,7 @@ section.projects > div {
   background: #404D59; }
 
 .projects--bridge {
-  background: #801e4f; }
+  background: #6a4452; }
   .projects--bridge img {
     width: 10em;
     margin-top: 5px; }
