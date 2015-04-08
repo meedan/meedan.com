@@ -1,18 +1,6 @@
 @charset "UTF-8";
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400');
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,200');
-/*
- * A partial implementation of the Ruby list functions from Compass:
- * https://github.com/Compass/compass/blob/stable/lib/compass/sass_extensions/functions/lists.rb
- */
-/*
- * A partial implementation of the Ruby constants functions from Compass:
- * https://github.com/Compass/compass/blob/stable/lib/compass/sass_extensions/functions/constants.rb
- */
-/*
- * A partial implementation of the Ruby display functions from Compass:
- * https://github.com/Compass/compass/blob/stable/core/lib/compass/core/sass_extensions/functions/display.rb
- */
 /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -49,12 +37,12 @@ table {
 body {
   min-width: 320px; }
 
-section.projects, section.team, section.contact {
+section.team, section.contact {
   *zoom: 1; }
-  section.projects:before, section.team:before, section.contact:before, section.projects:after, section.team:after, section.contact:after {
+  section.team:before, section.contact:before, section.team:after, section.contact:after {
     content: " ";
     display: table; }
-  section.projects:after, section.team:after, section.contact:after {
+  section.team:after, section.contact:after {
     clear: both; }
 
 body {
@@ -191,42 +179,36 @@ p {
       padding: 0;
       font-size: 1.3em; } }
 
-section.projects {
-  width: 100%; }
-  section.projects > div {
-    position: relative;
-    float: left;
-    width: 50%;
-    padding: 8em 0;
-    height: 20em; }
-    @media all and (max-width: 35em) {
-      section.projects > div {
-        width: 100%;
-        height: auto; } }
-    @media all and (max-width: 35em) {
-      section.projects > div img {
-        width: 90%; } }
-    section.projects > div p {
-      position: absolute;
-      bottom: 1em;
+section.projects > div {
+  float: left;
+  width: 50%;
+  padding: 8em 0;
+  height: 20em; }
+  @media all and (max-width: 35em) {
+    section.projects > div {
       width: 100%;
-      text-align: center;
-      color: rgba(255, 255, 255, 0.8); }
-      @media all and (max-width: 35em) {
-        section.projects > div p {
-          width: 100%;
-          max-width: 100%;
-          padding: 0; } }
-    section.projects > div a {
-      border: none; }
-  section.projects .projects--checkdesk {
-    background: -webkit-linear-gradient(255deg, #3a546c, #404D59);
-    background: linear-gradient(195deg, #3a546c, #404D59); }
-  section.projects .projects--bridge {
-    background: -webkit-linear-gradient(305deg, #801e4f, #6a4452);
-    background: linear-gradient(145deg, #801e4f, #6a4452); }
-    section.projects .projects--bridge img {
-      width: 10em; }
+      height: auto; } }
+  @media all and (max-width: 35em) {
+    section.projects > div img {
+      width: 90%; } }
+  section.projects > div p {
+    color: rgba(255, 255, 255, 0.8); }
+    @media all and (max-width: 35em) {
+      section.projects > div p {
+        width: 100%;
+        max-width: 100%;
+        padding: 0; } }
+  section.projects > div a {
+    border: none; }
+section.projects .projects--checkdesk {
+  background: -webkit-linear-gradient(255deg, #3a546c, #404D59);
+  background: linear-gradient(195deg, #3a546c, #404D59); }
+section.projects .projects--bridge {
+  background: -webkit-linear-gradient(305deg, #801e4f, #6a4452);
+  background: linear-gradient(145deg, #801e4f, #6a4452); }
+  section.projects .projects--bridge img {
+    width: 10em;
+    margin-top: 5px; }
 
 section.team ul {
   clear: both;
@@ -320,8 +302,7 @@ section.contact {
     display: inline-block; }
     section.contact li p {
       margin: 0;
-      padding: 0;
-      border: 0; }
+      padding: 0; }
 
 .contact--visit .locations li {
   float: left;

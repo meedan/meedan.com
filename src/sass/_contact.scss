@@ -5,7 +5,8 @@ section.contact {
   li {
     display: inline-block;
     p {
-      @include reset-box-model;
+      margin: 0;
+      padding: 0;
     }
   }
 }

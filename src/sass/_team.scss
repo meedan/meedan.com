@@ -19,7 +19,7 @@ section.team {
     font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
     img {
       max-width: 100px;
-      @include border-radius(50%);
+      border-radius: 50%;
     }
   }
 }
