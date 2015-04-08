@@ -37,12 +37,12 @@ table {
 body {
   min-width: 320px; }
 
-section.team, section.contact {
+section.projects, section.team, section.contact {
   *zoom: 1; }
-  section.team:before, section.contact:before, section.team:after, section.contact:after {
+  section.projects:before, section.team:before, section.contact:before, section.projects:after, section.team:after, section.contact:after {
     content: " ";
     display: table; }
-  section.team:after, section.contact:after {
+  section.projects:after, section.team:after, section.contact:after {
     clear: both; }
 
 body {
@@ -114,15 +114,10 @@ p {
       width: 80%; } }
 
 .photo-frame {
-  background: -webkit-radial-gradient(transparent 45%, rgba(0, 0, 0, 0.4) 46%), -webkit-radial-gradient(transparent 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/1x/banners/banner-1.png");
-  background: radial-gradient(transparent 45%, rgba(0, 0, 0, 0.4) 46%), radial-gradient(transparent 45%, rgba(0, 0, 0, 0.4) 46%), url("../images/1x/banners/banner-1.png");
-  -webkit-filter: grayscale(0.8);
-          filter: grayscale(0.8);
-  background-position: 0 0, 2px 2px, 100%;
-  background-size: 4px 4px, 4px 4px, cover;
-  background-repeat: repeat, repeat, no-repeat; }
-
-.photo-frame {
+  background-image: url("../images/1x/banners/banner-1.png");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 20em;
   margin: 0 auto;
@@ -183,30 +178,28 @@ section.projects > div {
   float: left;
   width: 50%;
   padding: 8em 0;
-  height: 20em; }
+  height: 20em;
+  color: rgba(255, 255, 255, 0.8); }
   @media all and (max-width: 35em) {
     section.projects > div {
       width: 100%;
       height: auto; } }
-  @media all and (max-width: 35em) {
-    section.projects > div img {
-      width: 90%; } }
-  section.projects > div p {
-    color: rgba(255, 255, 255, 0.8); }
-    @media all and (max-width: 35em) {
-      section.projects > div p {
-        width: 100%;
-        max-width: 100%;
-        padding: 0; } }
   section.projects > div a {
     border: none; }
-section.projects .projects--checkdesk {
-  background: -webkit-linear-gradient(255deg, #3a546c, #404D59);
-  background: linear-gradient(195deg, #3a546c, #404D59); }
-section.projects .projects--bridge {
-  background: -webkit-linear-gradient(305deg, #801e4f, #6a4452);
-  background: linear-gradient(145deg, #801e4f, #6a4452); }
-  section.projects .projects--bridge img {
+  @media all and (max-width: 35em) {
+    section.projects > div img {
+      width: 90%; }
+    section.projects > div p {
+      width: 100%;
+      max-width: 100%;
+      padding: 0; } }
+
+.projects--checkdesk {
+  background: #404D59; }
+
+.projects--bridge {
+  background: #801e4f; }
+  .projects--bridge img {
     width: 10em;
     margin-top: 5px; }
 
@@ -227,13 +220,6 @@ section.team li {
   section.team li img {
     max-width: 100px;
     border-radius: 50%; }
-
-.latest {
-  background: -webkit-radial-gradient(transparent 45%, rgba(0, 0, 0, 0.01) 46%), -webkit-radial-gradient(transparent 45%, rgba(16, 33, 47, 0.01) 46%);
-  background: radial-gradient(transparent 45%, rgba(0, 0, 0, 0.01) 46%), radial-gradient(transparent 45%, rgba(16, 33, 47, 0.01) 46%);
-  background-position: 0 0, 2px 2px;
-  background-size: 6px 6px, 6px 6px;
-  background-repeat: repeat, repeat; }
 
 .latest .medium-channel iframe {
   max-height: 700px !important; }
