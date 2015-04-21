@@ -75,13 +75,13 @@ gulp.task('resize-logos', function () {
 gulp.task('resize-team', function () {
   gulp.src(['src/images/team/*{.png,.jpg}'])
   .pipe(imageResize({
-    width : 200,
+    width : 400,
     upscale: false,
     crop: false
   }))
   .pipe(gulp.dest('www/images/2x/team/'))
   .pipe(imageResize({
-    width : 100,
+    width : 200,
     upscale: false,
     crop: false
   }))
