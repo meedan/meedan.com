@@ -3,6 +3,9 @@ section.projects {
 
   & > div {
     @include column(50%);
+    @media all and (max-width:900px) {
+      @include column(100%);
+    }
     padding: 3.5em 0;
     color:$snowflake;
     p {
@@ -15,16 +18,16 @@ section.projects {
       }
       &.tagline {
         font-weight: 600;
-        color: rgba(white, 0.5);
+        color: rgba(white, 0.8);
         padding: 0.5em 0 2em 0em;
       }
-      line-height: 1.2;
+      line-height: 1.3;
       .github, .pdf {
         background-color: rgba(white, 0.1);
         padding: 0 0.5em;
         border-radius: 4px;
         color: rgba(white, 1);
-        font-size: 1em;
+        font-size: 0.8em;
       }
     }
 
