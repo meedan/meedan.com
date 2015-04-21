@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600');
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,200,500');
 /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -178,21 +178,29 @@ p {
 section.projects > div {
   float: left;
   width: 50%;
-  padding: 3em 0;
-  height: 20em;
+  padding: 3.5em 0;
   color: rgba(255, 255, 255, 0.8); }
   @media all and (max-width: 35em) {
     section.projects > div {
       width: 100%;
       height: auto; } }
   section.projects > div p {
+    font-size: 1em;
     line-height: 1.2; }
-    section.projects > div p .pdf {
+    section.projects > div p.blurb, section.projects > div p.learn {
+      font-size: 0.9em; }
+    section.projects > div p + p {
+      padding-top: 0; }
+    section.projects > div p.tagline {
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.5);
+      padding: 0.5em 0 2em 0em; }
+    section.projects > div p .github, section.projects > div p .pdf {
       background-color: rgba(255, 255, 255, 0.1);
       padding: 0 0.5em;
       border-radius: 4px;
       color: white;
-      font-size: 12px; }
+      font-size: 1em; }
   section.projects > div a {
     border: none; }
   @media all and (max-width: 35em) {
