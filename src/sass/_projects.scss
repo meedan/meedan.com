@@ -1,43 +1,37 @@
 section.projects {
-  width: 100%;
   @extend %clearfix;
 
   & > div {
-    position: relative;
     @include column(50%);
     padding: 8em 0;
     height: 20em;
-    img {
-      @media all and (max-width: $breakpoint) {
-        width: 90%;
-      }
+    color:$snowflake;
+
+    a {
+      border: none;
     }
 
-    p {
-      position: absolute;
-      bottom: 1em;
-      width: 100%;
-      text-align: center;
-      color:$snowflake;
-      @media all and (max-width: $breakpoint) {
+    @media all and (max-width: $breakpoint) {
+      img {
+        width: 90%;
+      }
+      p {
         width: 100%;
         max-width: 100%;
         padding: 0;
       }
     }
-    a {
-      border: none;
-    }
   }
+}
 
-  .projects--checkdesk {
-    background: linear-gradient(195deg, $faded-blue, $firefly80);
-  }
+.projects--checkdesk {
+  background: $firefly80;
+}
 
-  .projects--bridge {
-    background: linear-gradient(145deg, rgba($bright-turkish-rose, 1), $turkish-rose);
-    img {
-      width: 10em;
-    }
+.projects--bridge {
+  background: $turkish-rose;
+  img {
+    width: 10em;
+    margin-top: 5px;
   }
 }
