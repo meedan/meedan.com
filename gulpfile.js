@@ -1,7 +1,6 @@
 var gulp = require('gulp');
-var rename = require('gulp-rename');
-var concat = require('gulp-concat');
-
+// var rename = require('gulp-rename');
+// var concat = require('gulp-concat');
 // var pkg = require('package.json');
 
 var requireDir = require('require-dir');
@@ -9,4 +8,3 @@ var requireDir = require('require-dir');
 requireDir('./gulp/tasks', { recurse: true });
 
 // var parallel = require('concurrent-transform');
-var site = 'http://meedan.com';

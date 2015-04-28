@@ -57,10 +57,6 @@ gulp.task('resize-banners', function () {
   .pipe(gulp.dest('www/images/1x/banners/'));
 });
 
-// Summary resize-images tasks
-gulp.task('resize-images', ['resize-team', 'resize-banners', 'resize-logos']);
-gulp.task('images', ['resize-images', 'image-compress']);
-
 // Image minification, after resizing
 gulp.task('image-compress', function () {
   return gulp.src(['www/images/*', 'www/images/**/*'])
@@ -72,3 +68,7 @@ gulp.task('image-compress', function () {
     }))
     .pipe(gulp.dest('www/images'));
 });
+
+// Summary resize-images tasks
+gulp.task('resize-images', ['resize-team', 'resize-banners', 'resize-logos']);
+gulp.task('images', ['resize-images', 'image-compress']);
