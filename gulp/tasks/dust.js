@@ -1,6 +1,8 @@
+var gulp = require('gulp');
 var dust = require('gulp-dust');
 dust.helpers = require('dustjs-helpers').helpers;
 var dusthtml = require('gulp-dust-html');
+var pkg = require('../../package.json');
 
 // Dust template config
 var dustConfig = {

@@ -1,13 +1,15 @@
 var gulp = require('gulp');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
 var concat = require('gulp-concat');
-var pkg = require('./package.json');
 var autoprefixer = require('gulp-autoprefixer');
-var w3cjs = require('gulp-w3cjs');
+
+var requireDir = require('require-dir');
+// Require all tasks in gulp/tasks, including subfolders
+requireDir('./gulp/tasks', { recurse: true });
 
 // var parallel = require('concurrent-transform');
 var changed = require('gulp-changed');
-var psi = require('psi');
+
 var site = 'http://meedan.com';
 
 // Carry over misc files,
@@ -20,13 +22,13 @@ gulp.task('misc-files', function () {
 
 // Default task
 gulp.task('default', ['misc-files'], function () {
-  gulp.watch(scssFiles, ['sass']);
+  gulp.watch("src/sass/**/*.scss", ['sass']);
   gulp.watch('src/*.dust', ['dustreload']);
   browserSync(browserSyncConfig);
 });
 
 // Sass only
 gulp.task('watch-sass', function () {
-  gulp.watch(scssFiles, ['sass']);
+  gulp.watch("src/sass/**/*.scss", ['sass']);
   browserSync(browserSyncConfig);
 });

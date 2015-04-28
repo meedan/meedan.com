@@ -1,3 +1,6 @@
+var gulp = require('gulp');
+var psi = require('psi');
+
 gulp.task('pagespeed', function () {
     return psi(site, {
         nokey: 'true',

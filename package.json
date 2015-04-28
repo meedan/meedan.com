@@ -35,15 +35,13 @@
     "hasher": "^1.2.0",
     "lodash": "^3.0.0",
     "node-sass": "~2.0.1",
-    "gulp-w3cjs": "~0.3.0",
+    "gulp-w3cjs": "^0.3.0",
     "gulp-image-resize": "~0.6.0",
     "concurrent-transform": "~1.0.0",
     "gulp-changed": "~1.2.1",
     "psi": "~1.0.6",
-    "requiredir": "~1.0.6"
-  },
-  "dependencies": {
+    "requiredir": "~1.0.6",
     "gulp-html-validator": "0.0.5",
-    "gulp-w3cjs": "^0.3.0"
+    "require-dir": "~0.3.0"
   }
 }
