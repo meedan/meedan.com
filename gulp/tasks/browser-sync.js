@@ -1,11 +1,8 @@
+var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
+var config = require('../config').browserSync;
 
-// Browser-sync
-var browserSyncConfig = {
-  reloadDelay: 2000,
-  notify: false,
-  server: {
-    baseDir: "./www",
-  }
-}
+gulp.task('browserSync', function() {
+  browserSync(config);
+});
