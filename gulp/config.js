@@ -19,13 +19,17 @@ module.exports = {
   },
   images: {
     src: src + "/images/**",
-    dest: dest + "/images"
+    dest: dest + "/images",
+    imagemin: {
+      optimizationLevel: 7,
+      progressive: true,
+      svgoPlugins: [{
+        removeViewBox: false
+      }]
+    }
   },
   markup: {
-    settings: {
-      basePath: src + "/markup"
-    },
     dest: dest,
-    src: src + ["/markup/{*.html,!_*.html}"]
+    src: src + ["/markup/{*.html,!_*.html,*.md}"]
   }
 };

@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
 var imageResize = require('gulp-image-resize');
+var config = require('../config');
 
 gulp.task('resize-logos', function () {
   // SVG files get special handling
@@ -60,12 +61,7 @@ gulp.task('resize-banners', function () {
 // Image minification, after resizing
 gulp.task('image-compress', function () {
   return gulp.src(['www/images/*', 'www/images/**/*'])
-    .pipe(imagemin({
-      progressive: true,
-      svgoPlugins: [{
-        removeViewBox: false
-      }]
-    }))
+    .pipe(imagemin(config.images.imagemin))
     .pipe(gulp.dest('www/images'));
 });
 
