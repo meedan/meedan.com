@@ -11,10 +11,8 @@ var fileinclude = require('gulp-file-include');
 gulp.task('markup', function () {
   return gulp.src(markupConfig.src)
     .pipe(changed(markupConfig.dest))
-    .pipe(debug({Sourced: '------:'}))
     .pipe(fileinclude({
-      prefix: '@@',
-      basepath: '@file'
+      prefix: '§'
     }))
     .on('error', handleErrors)
     .pipe(gulp.dest(markupConfig.dest))
