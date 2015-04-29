@@ -5,12 +5,16 @@ var dusthtml     = require('gulp-dust-html');
 var changed      = require('gulp-changed');
 var markupConfig = require('../config').markup;
 var browserSync  = require('browser-sync');
+var debug        = require('gulp-debug');
+var colors       = require('colors');
+var handleErrors = require('../util/handleErrors');
+var reload      = browserSync.reload;
 
 gulp.task('markup', function () {
-  console.log(markupConfig.settings);
-  console.log(markupConfig.dustFiles);
   return gulp.src(markupConfig.src)
+    .pipe(debug({title: '------:'}))
     .pipe(dusthtml(markupConfig.settings))
     .pipe(gulp.dest(markupConfig.dest))
-    .pipe(browserSync.reload({stream:true}));
+    .on('error', handleErrors)
+    .pipe(reload({stream:true}));
 });

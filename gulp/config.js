@@ -5,7 +5,6 @@ var src = './src';
 module.exports = {
   browserSync: {
     server: {
-      // Serve up our build folder
       baseDir: dest
     }
   },
@@ -24,11 +23,9 @@ module.exports = {
   },
   markup: {
     settings: {
-      basePath: src + "/markup",
-      whitespace: true
+      basePath: src + "/markup"
     },
-    dustFiles: [src + '/*.dust'],
     dest: dest,
-    src: src + "/markup"
+    src: src + "/markup/*.dust"
   }
 };
