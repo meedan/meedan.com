@@ -26,6 +26,6 @@ module.exports = {
       basePath: src + "/markup"
     },
     dest: dest,
-    src: src + "/markup/*.dust"
+    src: src + ["/markup/{*.html,!_*.html}"]
   }
 };
