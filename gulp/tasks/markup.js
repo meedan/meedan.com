@@ -1,8 +1,8 @@
 var gulp         = require('gulp');
 var notify       = require('gulp-notify');
 var changed      = require('gulp-changed');
-var config = require('../config');
-var browserSync  = require('browser-sync');
+var config       = require('../config');
+var browserSync  = require('browser-sync') ;
 var debug        = require('gulp-debug');
 var colors       = require('colors');
 var handleErrors = require('../util/handleErrors');
