@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 
-  {> _head /}
+  @@include('./_head.html')
 
   <body>
     <main>
-      {> _branding /}
 
-      {> _projects /}
+      @@include('./_branding.html')
+      @@include('./_projects.html')
 
       <section class="team">
         <h3>Our Team</h3>
