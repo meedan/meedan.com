@@ -58,6 +58,24 @@ gulp.task('resize-banners', function () {
   .pipe(gulp.dest('www/images/1x/banners/'));
 });
 
+
+gulp.task('resize-screenshots', function () {
+  gulp.src(['src/images/screenshots/*{.png,.jpg}'])
+  .pipe(imageResize({
+    width : 1500,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/2x/screenshots/'))
+  .pipe(imageResize({
+    width : 800,
+    upscale: false,
+    crop: false
+  }))
+  .pipe(gulp.dest('www/images/1x/screenshots/'));
+});
+
+
 // Image minification, after resizing
 gulp.task('image-compress', function () {
   return gulp.src(['www/images/*', 'www/images/**/*'])
@@ -66,5 +84,5 @@ gulp.task('image-compress', function () {
 });
 
 // Summary resize-images tasks
-gulp.task('resize-images', ['resize-team', 'resize-banners', 'resize-logos']);
+gulp.task('resize-images', ['resize-team', 'resize-banners', 'resize-logos','resize-screenshots']);
 gulp.task('images', ['resize-images', 'image-compress']);

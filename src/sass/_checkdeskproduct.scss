@@ -5,32 +5,47 @@ section.checkdesk-branding {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 20em;
   margin: 0 auto;
   color: white;
-  padding: 4em 0;
-  text-shadow: 0 0 10px black;
+  vertical-align: middle;
+  padding: 1em;
+  position: relative;
+  text-shadow: 0 0 5px black;
   h1 { font-size:1.5em;
       font-weight:600;
     }
   p {
      &.slogan {font-weight:300; font-size: 1.25em;}
    }
+  img{
+      @media all and (max-width: $breakpoint) {
+       margin: 0;
+       width: 40%;
+       }
+       &.checkdesklogo {
+       width: 10em;
+
+       }
+       &.checkdesksplash{
+       width:40em;
+       @media all and (max-width: $breakpoint) {
+       margin: 0;
+       width: 40%;
+        }
+       }
+      }
+
+
+
+
   @media all and (max-width: $breakpoint) {
     height: auto;
   }
+
 }
 
-img.checkdesklogo {
-  border: 2px solid white;
-  width: 12em;
-  margin-top: 2em;
-  transition: 0.6s;
-  @media all and (max-width: $breakpoint) {
-    margin: 0;
-    width: 40%;
-  }
-}
+
+
 
 section.checkdesk-quotes {
   border: 3px solid pink;
@@ -115,9 +130,10 @@ section.checkdesk-explanations{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-content: flex-center;
+  align-items: center;
+  width:100%
   p {
    &.tagline {
    font-weight: 600;
@@ -126,20 +142,26 @@ section.checkdesk-explanations{
 
 }
 
-.flex-items-default {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 0;
-}
 
 .flexcol-onethird {
-  flex: 1;
-  padding: 1em;
+      border: 2px solid red;
+flex: 1 1 0%;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0%;
+  padding: 0.5em;
+  img {max-width:75%;
+      }
 
 }
       
 .flexcol-twothird {
-  flex: 2;
+  border: 5px solid blue;
+  flex: 0 0 auto !important;
+  flex-grow: 0;
+flex-shrink: 0;
+flex-basis: auto;
+  width: 33.33%!important;
   padding: 1em;
 }
     
