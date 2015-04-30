@@ -1,10 +1,9 @@
-var gulp = require('gulp');
+var gulp    = require('gulp');
 var changed = require('gulp-changed');
+var config  = require('../config');
 
-// Carry over misc files,
-// but only if they changed.
-gulp.task('misc-files', function () {
-  gulp.src(['src/CNAME', 'src/*.js', 'src/*.pdf', 'src/robots.txt', 'src/images/favicons/*'])
-    .pipe(changed("./www"))
-    .pipe(gulp.dest("./www"));
+gulp.task('misc', function () {
+  gulp.src(config.misc.src)
+    .pipe(changed(config.misc.dest))
+    .pipe(gulp.dest(config.misc.dest));
 });

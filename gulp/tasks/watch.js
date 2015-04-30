@@ -1,9 +1,8 @@
-var gulp = require('gulp');
-var markupConfig = require('../config').markup;
-var sassConfig = require('../config').sass;
+var gulp   = require('gulp');
+var config = require('../config');
 
 gulp.task('watch', ['bs'], function() {
-  gulp.watch(sassConfig.src, ['sass']);
-  // gulp.watch(config.images.src, ['images']);
-  gulp.watch(markupConfig.src, ['markup'])
+  gulp.watch(config.misc.src,   ['misc']);
+  gulp.watch(config.sass.src,   ['sass']);
+  gulp.watch(config.markup.src, ['markup']);
 });
