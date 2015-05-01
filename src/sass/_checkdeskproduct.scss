@@ -125,15 +125,10 @@ section.checkdesk-support {
 
 
 section.checkdesk-explanations{
+  @extend %clearfix;
   border: 3px solid green;
-  background: white;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-center;
-  align-items: center;
-  width:100%
+  background: white!important;
+  width:100%;
   p {
    &.tagline {
    font-weight: 600;
@@ -142,28 +137,25 @@ section.checkdesk-explanations{
 
 }
 
-
 .flexcol-onethird {
-      border: 2px solid red;
-flex: 1 1 0%;
-flex-grow: 1;
-flex-shrink: 1;
-flex-basis: 0%;
+    border: 2px solid red;
+    @include column(66%);
+    clear:none;
+    background: white!important;
   padding: 0.5em;
   img {max-width:75%;
       }
 
-}
+  }
       
 .flexcol-twothird {
   border: 5px solid blue;
-  flex: 0 0 auto !important;
-  flex-grow: 0;
-flex-shrink: 0;
-flex-basis: auto;
-  width: 33.33%!important;
+  @include column(33%);
+  background: white!important;
+  clear: none;
   padding: 1em;
-}
+ }
+
     
 
 
