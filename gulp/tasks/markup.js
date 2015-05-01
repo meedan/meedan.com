@@ -10,6 +10,7 @@ var fileinclude  = require('gulp-file-include');
 
 gulp.task('markup', function () {
   return gulp.src(config.markup.src)
+    .pipe(debug(config.markup.src))
     .pipe(changed(config.markup.dest))
     .pipe(fileinclude({ prefix: '§'}))
     .on('error', handleErrors)
