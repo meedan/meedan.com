@@ -62,13 +62,13 @@ gulp.task('resize-banners', function () {
 gulp.task('resize-screenshots', function () {
   gulp.src(['src/images/screenshots/*{.png,.jpg}'])
   .pipe(imageResize({
-    width : 1500,
+    width : 1050,
     upscale: false,
     crop: false
   }))
   .pipe(gulp.dest('www/images/2x/screenshots/'))
   .pipe(imageResize({
-    width : 800,
+    width : 525,
     upscale: false,
     crop: false
   }))
