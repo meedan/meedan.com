@@ -1,5 +1,9 @@
 section.checkdesk-branding {
-  border: 3px solid blue;
+  // border: 3px solid blue;
+  @media all and (max-width: $breakpoint) 
+   {
+    height: auto;
+   }
   background-color: $logoyellow;
   background-position: 100%;
   background-size: cover;
@@ -8,7 +12,7 @@ section.checkdesk-branding {
   margin: 0 auto;
   color: white;
   vertical-align: middle;
-  padding: 1em;
+  padding: .5em;
   position: relative;
   text-shadow: 0 0 5px black;
   h1 { font-size:1.5em;
@@ -18,29 +22,22 @@ section.checkdesk-branding {
      &.slogan {font-weight:300; font-size: 1.25em;}
    }
   img{
-      @media all and (max-width: $breakpoint) {
+      @media all and (max-width: $breakpoint) 
+      {
        margin: 0;
        width: 40%;
        }
-       &.checkdesklogo {
-       width: 10em;
 
+       &.checkdesklogo 
+       {
+       width: 10em;
        }
-       &.checkdesksplash{
+       &.checkdesksplash
+       {
+       padding-top:0em;
        width:40em;
-       @media all and (max-width: $breakpoint) {
-       margin: 0;
-       width: 40%;
         }
        }
-      }
-
-
-
-
-  @media all and (max-width: $breakpoint) {
-    height: auto;
-  }
 
 }
 
@@ -48,7 +45,7 @@ section.checkdesk-branding {
 
 
 section.checkdesk-quotes {
-  border: 3px solid pink;
+  // border: 3px solid pink;
   background: rgba($firefly80, 1);
   color: $firefly10;
   padding:1em;
@@ -58,32 +55,62 @@ section.checkdesk-quotes {
 }
 
 section.checkdesk-github {
-  border: 3px solid green;
+  // border: 3px solid green;
   background: $firefly80;
   color: $firefly10;
-  padding:1.5em;
+  padding:1em;
   a {
-    &.tinyletter{font-size:.5em;
+    &.tinyletter
+    {
+      font-size:.5em;
       text-decoration: none;
       border-bottom-width: 0;
     }
   }
+  p 
+  {
+    padding: .75em;
+  }
 
 }
 
-section.checkdesk-partners {
-  border: 3px solid red;
+section.checkdesk-partners 
+{
+  // border: 3px solid red;
   background: rgba($firefly2, 1);
   color: $firefly80;
   padding:1em;
-  h1 { font-size:1.5em;
+  h1 
+  { font-size:1.5em;
       font-weight:600;
-     }
+  }
 
+.partners--logos 
+ {
+  // border: 1px solid red;
+    padding: 1em;
+    a 
+    {
+      text-decoration: none;
+      border-bottom-width: 0;
+    }
+    img 
+    {
+      max-width: 200px;
+      margin: .5em 1.5em;
+      vertical-align: middle;
+      @media all and (max-width: $breakpoint) 
+      {
+        max-width: 80%!important;
+      }
+    }
+ }
 }
 
+
+
 section.checkdesk-history {
-  border: 3px solid red;
+  // border: 3px solid red;
   background: rgba($firefly80, 1);
   color: $firefly2;
   padding:1em;
@@ -95,32 +122,38 @@ section.checkdesk-history {
   }
 }
 
-section.checkdesk-support {
-  border: 3px solid red;
+section.checkdesk-support 
+{
+  // border: 3px solid red;
   background: rgba($firefly2, 1);
   color: $firefly80;
   padding:1em;
-  h1 { font-size:1.5em;
+  h1 
+  { font-size:1.5em;
       font-weight:600;
-     }
-  p{
+  }
+  p
+  {
     padding: .5em;
   }
 .support--logos {
     padding: 1em;
-    a {
+    a 
+    {
       text-decoration: none;
       border-bottom-width: 0;
     }
-    img {
+    img 
+    {
       max-width: 200px;
       margin: .5em 1.5em;
       vertical-align: middle;
-      @media all and (max-width: $breakpoint) {
+      @media all and (max-width: $breakpoint) 
+      {
         max-width: 80%!important;
       }
     }
-}
+  }
 }
 
 
@@ -130,36 +163,40 @@ section.checkdesk-explanations{
 
   background: white!important;
   width:100%;
-  padding: 1em 2em;
+  padding: 2em 2em;
   p {
-   &.tagline {
+   &.tagline 
+   {
    font-weight: 600;
    }
   }
-
-
 }
+
+.flexcol-twothird {
+  clear: none;
+  background: white;
+  // border: 3px solid yellow;
+  text-align: left;
+  padding: .25em;
+  @include column(40%);
+ }
 
 .flexcol-onethird {
     clear:none;
       // border: 3px solid purple;
+    @include column(60%);
+    background: white;
+    padding: .5em;
 
-    @include column(66%);
-    background: white!important;
-  img {max-width:75%;
-    border: 1px solid $firefly80;
-      }
+  img {max-width:100%;
+    border: 1px solid $firefly30;
+    margin-left:1em;      
+     }
 
   }
-      
-.flexcol-twothird {
-  clear: none;
-  // border: 3px solid yellow;
 
-  @include column(33%);
-  background: white!important;
-  
- }
+      
+
 
     
 
