@@ -126,34 +126,39 @@ section.checkdesk-support {
 
 section.checkdesk-explanations{
   @extend %clearfix;
-  border: 3px solid green;
+    // border: 3px solid green;
+
   background: white!important;
   width:100%;
+  padding: 1em 2em;
   p {
    &.tagline {
    font-weight: 600;
    }
   }
 
+
 }
 
 .flexcol-onethird {
-    border: 2px solid red;
-    @include column(66%);
     clear:none;
+      // border: 3px solid purple;
+
+    @include column(66%);
     background: white!important;
-  padding: 0.5em;
   img {max-width:75%;
+    border: 1px solid $firefly80;
       }
 
   }
       
 .flexcol-twothird {
-  border: 5px solid blue;
+  clear: none;
+  // border: 3px solid yellow;
+
   @include column(33%);
   background: white!important;
-  clear: none;
-  padding: 1em;
+  
  }
 
     
