@@ -1,3 +1,8 @@
+// This is fragile and failure-prone. But we want equal height.  - CGB
+%height-hack {
+  max-height: 700px !important;
+}
+
 .latest {
   width: 100%;
   overflow: hidden;
@@ -6,6 +11,9 @@
   .medium-channel {
     vertical-align: text-top;
     display: inline-block;
+    iframe {
+      @extend %height-hack;
+    }
   }
 
   .medium-links {
