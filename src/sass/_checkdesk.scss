@@ -39,18 +39,28 @@ body.project--checkdesk {
   }
 }
 
-$form-width: 500px;
+$form-min-width: 450px;
+$form-max-width: 800px;
 
 section.newsletter {
+  border: 1px solid pink;
   form {
     z-index: 1;
     text-align: left;
-    width: $form-width;
+    min-width: $form-min-width;
+    width: 80%;
+    border: 1px solid red !important;
     margin: 0 auto;
     position: relative;
+    max-width: $form-max-width;
+    p {
+      padding: 0.4em;
+      margin: 0;
+      width: 100%;
+    }
     input[type='submit'] {
+      width: 100%;
       border: 1px solid rgba(0, 0, 0, 0.08);
-      width: $form-width;
       color: white;
       border-radius: 4px;
       border-width: 0;
@@ -62,6 +72,7 @@ section.newsletter {
     }
     input[type='email'],
     input[type='text'] {
+      width: 100%;
       position: relative;
       padding: 1em 0.3em 0.5em;
       font-size: 1.3em;
@@ -72,7 +83,6 @@ section.newsletter {
       box-shadow: none;
       z-index: 1;
       display: block;
-      width: $form-width;
     }
     label {
       z-index: 2;
