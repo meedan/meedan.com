@@ -61,6 +61,13 @@ section.checkdesk-github {
     text-decoration: none;
     border-bottom-width: 0;
   }
+  a{
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  a:hover{
+    background-color: $firefly10;
+  }
   p {
     padding: .75em;
   }
@@ -75,7 +82,7 @@ section.checkdesk-partners {
     font-weight: 600;
   }
   .partners--logos {
-    padding: 1em;
+    padding: 3em;
     a {
       text-decoration: none;
       border-bottom-width: 0;
@@ -86,8 +93,11 @@ section.checkdesk-partners {
       vertical-align: middle;
       @media all and (max-width: $breakpoint) {
         max-width: 80% !important;
-      }
     }
+        &.welad, &.mada{
+      max-width:70px;
+    }
+   }
   }
 }
 
@@ -95,6 +105,13 @@ section.checkdesk-history {
   background: rgba($firefly80, 1);
   color: $firefly2;
   padding: 1em;
+  a{
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  a:hover{
+    background-color: $firefly10;
+  }
   h1 {
     font-size: 1.5em;
     font-weight: 600;
@@ -159,5 +176,19 @@ section.checkdesk-explanations {
   img {
     max-width: 100%;
     min-width: 320px;
+  }
+}
+
+
+.footer {
+  background: rgba($firefly80, 1);
+  color: $firefly2;
+  margin-top:2em;
+  padding: 1em;
+  a{
+    border-bottom: none;
+  }
+  a:hover{
+    background-color: $firefly10;
   }
 }
