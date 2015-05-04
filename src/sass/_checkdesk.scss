@@ -3,6 +3,7 @@
 body.project--checkdesk {
   background: white;
 }
+
 .checkdesk-branding {
   background-color: $logoyellow;
   background-position: cover 100% no-repeat;
@@ -22,7 +23,7 @@ body.project--checkdesk {
     font-size: 1.25em;
   }
   img.checkdesk-splash {
-    width:80%;
+    width: 80%;
     max-width: 1050px;
     margin-top: -40px;
     transition: margin 1s;
@@ -33,11 +34,63 @@ body.project--checkdesk {
     }
     img.checkdesk-splash {
       padding-top: 0em;
-      width:80%;
+      width: 80%;
     }
   }
 }
 
+$form-width: 500px;
+
+section.newsletter {
+  form {
+    z-index: 1;
+    text-align: left;
+    width: $form-width;
+    margin: 0 auto;
+    position: relative;
+    input[type='submit'] {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      width: $form-width;
+      color: white;
+      border-radius: 4px;
+      border-width: 0;
+      padding: 1.3em;
+      font-size: 0.9em;
+      display: block;
+      margin: 1em 0;
+      background-color: $firefly80;
+    }
+    input[type='email'],
+    input[type='text'] {
+      position: relative;
+      padding: 1em 0.3em 0.5em;
+      font-size: 1.3em;
+      line-height: 1.5;
+      font-weight: 500;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      border-width: 1px;
+      box-shadow: none;
+      z-index: 1;
+      display: block;
+      width: $form-width;
+    }
+    label {
+      z-index: 2;
+      display: inline-block;
+      position: absolute;
+      line-height: 1.7;
+      top: 0px;
+      left: 0px;
+      font-size: 0.8em;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.4);
+      padding: 0.4em;
+      transition: all .1s ease;
+      filter: opacity(0.8);
+      color: $firefly80;
+    }
+  }
+}
 
 section.checkdesk-quotes {
   background: rgba($firefly80, 1);
@@ -61,11 +114,11 @@ section.checkdesk-github {
     text-decoration: none;
     border-bottom-width: 0;
   }
-  a{
+  a {
     color: white;
     border-bottom: 2px solid white;
   }
-  a:hover{
+  a:hover {
     background-color: $firefly10;
   }
   p {
@@ -93,11 +146,11 @@ section.checkdesk-partners {
       vertical-align: middle;
       @media all and (max-width: $breakpoint) {
         max-width: 80% !important;
+      }
+      &.welad, &.mada {
+        max-width: 70px;
+      }
     }
-        &.welad, &.mada{
-      max-width:70px;
-    }
-   }
   }
 }
 
@@ -105,11 +158,11 @@ section.checkdesk-history {
   background: rgba($firefly80, 1);
   color: $firefly2;
   padding: 1em;
-  a{
+  a {
     color: white;
     border-bottom: 2px solid white;
   }
-  a:hover{
+  a:hover {
     background-color: $firefly10;
   }
   h1 {
@@ -179,16 +232,15 @@ section.checkdesk-explanations {
   }
 }
 
-
 .footer {
   background: rgba($firefly80, 1);
   color: $firefly2;
-  margin-top:2em;
+  margin-top: 2em;
   padding: 1em;
-  a{
+  a {
     border-bottom: none;
   }
-  a:hover{
+  a:hover {
     background-color: $firefly10;
   }
 }
