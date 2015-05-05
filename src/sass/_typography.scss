@@ -1,5 +1,7 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600');
-@import url('http://fonts.googleapis.com/css?family=Roboto:100,200,500');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600");
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:100,200,500");
+
 body {
   font-size: 20px;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
@@ -9,6 +11,7 @@ body {
   color: $firefly80;
   background-color: $warm-grey;
 }
+
 // Headers
 //
 // (The h1 is in branding.scss)
@@ -24,22 +27,19 @@ h4 {
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-
   @media all and (max-width: $breakpoint) {
     padding: 2em 1em;
   }
 }
+
 section > p:nth-of-type(1) {
   padding: 0 0 2em;
 }
+
 em {
   font-weight: bold;
 }
-a {
-  color: lighten($photo-feb10-blue, 10%);
-  text-decoration: none;
-  border-bottom: 3px lighten($photo-feb10-blue, 50%) solid;
-}
+
 ul {
   text-align: center;
   padding: 0;
@@ -48,6 +48,7 @@ ul {
     margin-top: 0.5em 0 0;
   }
 }
+
 li {
   display: inline-block;
   padding: 0 1em 1em;
@@ -56,6 +57,7 @@ li {
     display: block;
   }
 }
+
 // At small sizes, make the links more like buttons
 li > a {
   @media all and (max-width: $breakpoint) {
@@ -63,6 +65,7 @@ li > a {
     display: block;
   }
 }
+
 p {
   padding: 1em;
   display: block;
@@ -75,4 +78,25 @@ p {
     line-height: 1.65;
     width: 80%;
   }
+}
+
+%link--default {
+  color: lighten($photo-feb10-blue, 10%);
+  text-decoration: none;
+  border-bottom: 3px lighten($photo-feb10-blue, 50%) solid;
+  &:hover {
+    background-color: rgba($firefly10, 0.08);
+  }
+}
+
+%link--inverted {
+  color: rgba(white, 0.7);
+  padding: 0.18em;
+  a:hover {
+    background-color: rgba($firefly10, 0.08);
+  }
+}
+
+a {
+  @extend %link--default;
 }

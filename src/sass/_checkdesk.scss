@@ -4,6 +4,11 @@ body.project--checkdesk {
   background: white;
 }
 
+section.newsletter {
+  padding: 1em 1em 4em;
+  background: rgba($firefly2, 1);
+}
+
 .checkdesk-branding {
   background-color: $logoyellow;
   background-position: cover 100% no-repeat;
@@ -25,8 +30,6 @@ body.project--checkdesk {
   img.checkdesk-splash {
     width: 80%;
     max-width: 1050px;
-    margin-top: -40px;
-    transition: margin 1s;
   }
   @media all and (max-width: $breakpoint) {
     img.checkdesklogo {
@@ -35,69 +38,6 @@ body.project--checkdesk {
     img.checkdesk-splash {
       padding-top: 0em;
       width: 80%;
-    }
-  }
-}
-
-$form-min-width: 450px;
-$form-max-width: 800px;
-
-section.newsletter {
-  border: 1px solid pink;
-  form {
-    z-index: 1;
-    text-align: left;
-    min-width: $form-min-width;
-    width: 80%;
-    border: 1px solid red !important;
-    margin: 0 auto;
-    position: relative;
-    max-width: $form-max-width;
-    p {
-      padding: 0.4em;
-      margin: 0;
-      width: 100%;
-    }
-    input[type='submit'] {
-      width: 100%;
-      border: 1px solid rgba(0, 0, 0, 0.08);
-      color: white;
-      border-radius: 4px;
-      border-width: 0;
-      padding: 1.3em;
-      font-size: 0.9em;
-      display: block;
-      margin: 1em 0;
-      background-color: $firefly80;
-    }
-    input[type='email'],
-    input[type='text'] {
-      width: 100%;
-      position: relative;
-      padding: 1em 0.3em 0.5em;
-      font-size: 1.3em;
-      line-height: 1.5;
-      font-weight: 500;
-      border: 1px solid rgba(0, 0, 0, 0.08);
-      border-width: 1px;
-      box-shadow: none;
-      z-index: 1;
-      display: block;
-    }
-    label {
-      z-index: 2;
-      display: inline-block;
-      position: absolute;
-      line-height: 1.7;
-      top: 0px;
-      left: 0px;
-      font-size: 0.8em;
-      font-weight: 300;
-      color: rgba(0, 0, 0, 0.4);
-      padding: 0.4em;
-      transition: all .1s ease;
-      filter: opacity(0.8);
-      color: $firefly80;
     }
   }
 }
@@ -118,15 +58,9 @@ section.checkdesk-quotes {
 section.checkdesk-github {
   background: $firefly80;
   color: $firefly10;
-  padding: 1em;
-  a.tinyletter {
-    font-size: .5em;
-    text-decoration: none;
-    border-bottom-width: 0;
-  }
+  padding: 1em 1em 4em;
   a {
-    color: white;
-    border-bottom: 2px solid white;
+    @extend %link--inverted;
   }
   a:hover {
     background-color: $firefly10;
@@ -137,7 +71,6 @@ section.checkdesk-github {
 }
 
 section.checkdesk-partners {
-  background: rgba($firefly2, 1);
   color: $firefly80;
   padding: 1em;
   h1 {
@@ -169,8 +102,7 @@ section.checkdesk-history {
   color: $firefly2;
   padding: 1em;
   a {
-    color: white;
-    border-bottom: 2px solid white;
+    @extend %link--inverted;
   }
   a:hover {
     background-color: $firefly10;
@@ -245,12 +177,8 @@ section.checkdesk-explanations {
 .footer {
   background: rgba($firefly80, 1);
   color: $firefly2;
-  margin-top: 2em;
   padding: 1em;
   a {
-    border-bottom: none;
-  }
-  a:hover {
-    background-color: $firefly10;
+    @extend %link--inverted;
   }
 }
