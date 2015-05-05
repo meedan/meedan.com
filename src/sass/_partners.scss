@@ -1,64 +1,39 @@
 section.partners {
-  background-color: white;
+  // background-color: red;
   .support--logos {
     padding: 2em;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     a {
+      flex: 0 1 auto;
       text-decoration: none;
       border-bottom-width: 0;
       width: 20%;
-      height: 200px;
+      padding: 1em;
       display: block;
-      flex: 1;
-      max-width: 250px;
-      min-width: 100px;
     }
     img {
-      transition: 1s;
+      min-width: 120px;
+      max-width: 170px;
+      max-height: 170px;
       @media all and (max-width: $breakpoint) {
         max-width: 80% !important;
       }
+      &.wide {}
     }
     // .ce {
     //   filter: invert(1) brightness(3.0);
     // }
     // .mada, .welad, .kiva, .af {
-    //   max-width:60px;
+    //   max-width: 60px;
     // }
-    .kf {
-      max-width: 250px;
-    }
-    // .bc {
-    //   max-width:300px;
-    // }
-    // .gv {
-    //   max-width:330px;
-    // }
-    .kiva, .ibm {
+    .mada, .kiva, .ibm, .ipi {
       max-width: 100px;
     }
-    // .cs {
-    //   max-width:125px
-    // }
-    // .bcu {
-    //   max-width:100px;
-    // }
-    // .ff {
-    //   max-width:350px;
-    // }
-    // .iie{
-    //   max-width: 200px;
-    // }
-    // .smex {
-    //   max-width: 180px;
-    // }
-    // .ng, .vcf {
-    //   max-width:250px
-    // }
-    // .macarthur {
+    // .macarthur, .cs {
+    //   max-width: 105px;
     // }
  
   }
