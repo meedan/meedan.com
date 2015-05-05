@@ -79,3 +79,35 @@ p {
     width: 80%;
   }
 }
+
+%link--default {
+  color: lighten($photo-feb10-blue, 10%);
+  text-decoration: none;
+  border-bottom: 3px lighten($photo-feb10-blue, 50%) solid;
+  &:hover {
+    background-color: rgba($firefly10, 0.08);
+  }
+}
+
+%link--inverted {
+  color: rgba(white, 0.7);
+  padding: 0.18em;
+  a:hover {
+    background-color: rgba($firefly10, 0.03);
+  }
+}
+
+%link--image {
+  text-decoration: none;
+  border-bottom-width: 0;
+}
+
+a {
+  @extend %link--default;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}

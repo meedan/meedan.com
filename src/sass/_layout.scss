@@ -31,3 +31,15 @@ body {
     clear: both;
   }
 }
+
+%flex-container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  flex-align: center;
+  align-items: center;
+}
+
+%flex-item {
+  flex: 0 1 auto;
+}

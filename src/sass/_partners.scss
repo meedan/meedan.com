@@ -1,13 +1,9 @@
 section.partners {
-  // background-color: red;
   .support--logos {
     padding: 2em;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-container;
     a {
-      flex: 0 1 auto;
+      @extend %flex-item;
       text-decoration: none;
       border-bottom-width: 0;
       width: 20%;
@@ -21,7 +17,11 @@ section.partners {
       @media all and (max-width: $breakpoint) {
         max-width: 80% !important;
       }
-      &.wide {}
+      &.wide {
+        min-width: 120px;
+        max-width: 170px;
+        max-height: 170px;
+      }
     }
     // .ce {
     //   filter: invert(1) brightness(3.0);

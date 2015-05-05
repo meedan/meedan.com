@@ -1,175 +1,134 @@
 // The Checkdesk product page
+//
 
 body.project--checkdesk {
   background: white;
-  section.newsletter {
-    padding-bottom: 4em;
-    background: rgba($firefly2, 1);
+}
+
+// Branding section 
+//
+.checkdesk-branding {
+  background-color: $logoyellow;
+  background-position: cover 100% no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  vertical-align: middle;
+  padding: .5em;
+  position: relative;
+  text-shadow: 0 0 5px $firefly30;
+  h1 {
+    font-size: 1.5em;
+    font-weight: 600;
   }
-  // Default section
-  %section--default {
-    a {
-      @extend %link--default;
-    }
-    p {
-      padding: .75em;
-    }
+  p.slogan {
+    font-weight: 300;
+    font-size: 1.25em;
   }
-  // Inverted section
-  %section--inverted {
-    background: $firefly80;
-    color: $firefly10;
-    padding: 1em 1em 4em;
+  img.checkdesk-splash {
+    width: 80%;
+    max-width: 1050px;
   }
-  %link--default {
-    color: lighten($photo-feb10-blue, 10%);
-    text-decoration: none;
-    border-bottom: 3px lighten($photo-feb10-blue, 10%) solid;
-    &:hover {
-      background-color: rgba($firefly10, 0.08);
-    }
-  }
-  %link--inverted {
-    color: rgba(white, 0.7);
-    padding: 0.18em;
-    a:hover {
-      background-color: rgba($firefly10, 0.03);
-    }
-  }
-  .checkdesk-branding {
-    background-color: $logoyellow;
-    background-position: cover 100% no-repeat;
-    width: 100%;
-    margin: 0 auto;
-    color: white;
-    vertical-align: middle;
-    padding: .5em;
-    position: relative;
-    text-shadow: 0 0 5px $firefly30;
-    h1 {
-      font-size: 1.5em;
-      font-weight: 600;
-    }
-    p.slogan {
-      font-weight: 300;
-      font-size: 1.25em;
+  @media all and (max-width: $breakpoint) {
+    img.checkdesklogo {
+      width: 8em;
     }
     img.checkdesk-splash {
+      padding-top: 0em;
       width: 80%;
-      max-width: 1050px;
-    }
-    @media all and (max-width: $breakpoint) {
-      img.checkdesklogo {
-        width: 8em;
-      }
-      img.checkdesk-splash {
-        padding-top: 0em;
-        width: 80%;
-      }
     }
   }
-  section {
-    @extend %section--default;
+}
+
+// Sections with Defaults 
+// 
+// (Note: any <section> element must have a header <h*> element)
+//
+section {
+  color: $firefly80;
+  padding: 1em 1em 4em;
+}
+
+// Inverted color <section>s
+//
+.checkdesk-history,
+.checkdesk-github,
+.footer {
+  background: $firefly80;
+  color: $firefly10;
+  a {
+    @extend %link--inverted;
   }
-  section.checkdesk-github,
-  .footer {
-    @extend %section--inverted;
+}
+
+.checkdesk-newsletter {
+  background: $firefly2;
+}
+
+// Partners
+//
+section.checkdesk-partners {
+  .partners--logos {
+    @extend %flex-container;
     a {
-      @extend %link--inverted;
+      @extend %flex-item;
+      @extend %link--image;
+    }
+    img.welad,
+    img.mada {
+      max-height: 70px;
     }
   }
-  section.checkdesk-partners {
-    color: $firefly80;
-    padding: 1em;
-    h1 {
-      font-size: 1.5em;
-      font-weight: 600;
-    }
-    .partners--logos {
-      padding: 3em;
-      display: flex;
-      flex-wrap: wrap;
-      flex-justify: center;
-      flex-align: center;
-      a {
-        text-decoration: none;
-        border-bottom-width: 0;
-        flex: 1;
-        max-width: 200px;
-        min-width: 200px;
-      }
-      img {
-        @media all and (max-width: $breakpoint) {
-          max-width: 80% !important;
-        }
-        &.welad, &.mada {
-          max-width: 70px;
-        }
-      }
-    }
-  }
-  section.checkdesk-history {
-    @extend %section--inverted;
-    h1 {
-      font-size: 1.5em;
-      font-weight: 600;
-    }
-    p {
-      padding: .5em;
-    }
-  }
-  section.checkdesk-support {
-    background: rgba($firefly2, 1);
-    color: $firefly80;
-    padding: 1em;
-    h1 {
-      font-size: 1.5em;
-      font-weight: 600;
-    }
-    p {
-      padding: .5em;
-    }
-    .support--logos {
+}
+
+// Support Logos
+//
+section.checkdesk-support {
+  .support--logos {
+    @extend %flex-container;
+    a {
+      @extend %flex-item;
+      @extend %link--image;
       padding: 1em;
-      a {
-        text-decoration: none;
-        border-bottom-width: 0;
-      }
-      img {
-        max-width: 200px;
-        margin: .5em 1.5em;
-        vertical-align: middle;
-        @media all and (max-width: $breakpoint) {
-          max-width: 80% !important;
-        }
-      }
     }
   }
-  section.checkdesk-explanations {
-    @extend %clearfix;
-    width: 100%;
-    padding: 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-    p.tagline {
-      font-weight: 600;
-    }
+}
+
+// Explanations
+//
+section.checkdesk-explanations {
+  @extend %clearfix;
+  width: 100%;
+  padding: 2em 0.5em;
+  max-width: 1000px;
+  margin: 0 auto;
+  p {
+    padding: 1em;
   }
-  .description {
-    clear: none;
-    background: white;
-    text-align: left;
-    padding: .25em;
-    @include column(40%);
+  p.tagline {
+    font-weight: 600;
   }
-  .screenshot {
-    @include column(60%);
-    background: white;
-    padding: .5em;
+}
+
+// Descriptions
+//
+.description {
+  clear: none;
+  background: white;
+  text-align: left;
+  padding: .25em;
+  @include column(40%);
+}
+
+// Screenshots
+//
+.screenshot {
+  @include column(60%);
+  background: white;
+  padding: .5em;
+  min-width: 320px;
+  img {
+    max-width: 100%;
     min-width: 320px;
-    img {
-      max-width: 100%;
-      min-width: 320px;
-    }
   }
 }
