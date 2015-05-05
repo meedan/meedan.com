@@ -2,183 +2,174 @@
 
 body.project--checkdesk {
   background: white;
-}
-
-section.newsletter {
-  padding: 1em 1em 4em;
-  background: rgba($firefly2, 1);
-}
-
-.checkdesk-branding {
-  background-color: $logoyellow;
-  background-position: cover 100% no-repeat;
-  width: 100%;
-  margin: 0 auto;
-  color: white;
-  vertical-align: middle;
-  padding: .5em;
-  position: relative;
-  text-shadow: 0 0 5px $firefly30;
-  h1 {
-    font-size: 1.5em;
-    font-weight: 600;
+  section.newsletter {
+    padding-bottom: 4em;
+    background: rgba($firefly2, 1);
   }
-  p.slogan {
-    font-weight: 300;
-    font-size: 1.25em;
+  // Default section
+  %section--default {
+    a {
+      @extend %link--default;
+    }
+    p {
+      padding: .75em;
+    }
   }
-  img.checkdesk-splash {
-    width: 80%;
-    max-width: 1050px;
+  // Inverted section
+  %section--inverted {
+    background: $firefly80;
+    color: $firefly10;
+    padding: 1em 1em 4em;
   }
-  @media all and (max-width: $breakpoint) {
-    img.checkdesklogo {
-      width: 8em;
+  %link--default {
+    color: lighten($photo-feb10-blue, 10%);
+    text-decoration: none;
+    border-bottom: 3px lighten($photo-feb10-blue, 10%) solid;
+    &:hover {
+      background-color: rgba($firefly10, 0.08);
+    }
+  }
+  %link--inverted {
+    color: rgba(white, 0.7);
+    padding: 0.18em;
+    a:hover {
+      background-color: rgba($firefly10, 0.03);
+    }
+  }
+  .checkdesk-branding {
+    background-color: $logoyellow;
+    background-position: cover 100% no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    vertical-align: middle;
+    padding: .5em;
+    position: relative;
+    text-shadow: 0 0 5px $firefly30;
+    h1 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    p.slogan {
+      font-weight: 300;
+      font-size: 1.25em;
     }
     img.checkdesk-splash {
-      padding-top: 0em;
       width: 80%;
+      max-width: 1050px;
+    }
+    @media all and (max-width: $breakpoint) {
+      img.checkdesklogo {
+        width: 8em;
+      }
+      img.checkdesk-splash {
+        padding-top: 0em;
+        width: 80%;
+      }
     }
   }
-}
-
-section.checkdesk-quotes {
-  background: rgba($firefly80, 1);
-  color: $firefly10;
-  padding: 1em;
-  a {
-    color: rgba(white, 0.6);
-    border-bottom: 2px solid rgba(white, 0.2);
+  section {
+    @extend %section--default;
   }
-  p {
-    padding: .5em;
-  }
-}
-
-section.checkdesk-github {
-  background: $firefly80;
-  color: $firefly10;
-  padding: 1em 1em 4em;
-  a {
-    @extend %link--inverted;
-  }
-  a:hover {
-    background-color: $firefly10;
-  }
-  p {
-    padding: .75em;
-  }
-}
-
-section.checkdesk-partners {
-  color: $firefly80;
-  padding: 1em;
-  h1 {
-    font-size: 1.5em;
-    font-weight: 600;
-  }
-  .partners--logos {
-    padding: 3em;
+  section.checkdesk-github,
+  .footer {
+    @extend %section--inverted;
     a {
-      text-decoration: none;
-      border-bottom-width: 0;
-    }
-    img {
-      max-width: 200px;
-      margin: .5em 1.5em;
-      vertical-align: middle;
-      @media all and (max-width: $breakpoint) {
-        max-width: 80% !important;
-      }
-      &.welad, &.mada {
-        max-width: 70px;
-      }
+      @extend %link--inverted;
     }
   }
-}
-
-section.checkdesk-history {
-  background: rgba($firefly80, 1);
-  color: $firefly2;
-  padding: 1em;
-  a {
-    @extend %link--inverted;
-  }
-  a:hover {
-    background-color: $firefly10;
-  }
-  h1 {
-    font-size: 1.5em;
-    font-weight: 600;
-  }
-  p {
-    padding: .5em;
-  }
-}
-
-section.checkdesk-support {
-  background: rgba($firefly2, 1);
-  color: $firefly80;
-  padding: 1em;
-  h1 {
-    font-size: 1.5em;
-    font-weight: 600;
-  }
-  p {
-    padding: .5em;
-  }
-  .support--logos {
+  section.checkdesk-partners {
+    color: $firefly80;
     padding: 1em;
-    a {
-      text-decoration: none;
-      border-bottom-width: 0;
+    h1 {
+      font-size: 1.5em;
+      font-weight: 600;
     }
-    img {
-      max-width: 200px;
-      margin: .5em 1.5em;
-      vertical-align: middle;
-      @media all and (max-width: $breakpoint) {
-        max-width: 80% !important;
+    .partners--logos {
+      padding: 3em;
+      display: flex;
+      flex-wrap: wrap;
+      flex-justify: center;
+      flex-align: center;
+      a {
+        text-decoration: none;
+        border-bottom-width: 0;
+        flex: 1;
+        max-width: 200px;
+        min-width: 200px;
+      }
+      img {
+        @media all and (max-width: $breakpoint) {
+          max-width: 80% !important;
+        }
+        &.welad, &.mada {
+          max-width: 70px;
+        }
       }
     }
   }
-}
-
-section.checkdesk-explanations {
-  @extend %clearfix;
-  width: 100%;
-  padding: 2em 2em;
-  max-width: 1000px;
-  margin: 0 auto;
-  p.tagline {
-    font-weight: 600;
+  section.checkdesk-history {
+    @extend %section--inverted;
+    h1 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    p {
+      padding: .5em;
+    }
   }
-}
-
-.description {
-  clear: none;
-  background: white;
-  text-align: left;
-  padding: .25em;
-  @include column(40%);
-}
-
-.screenshot {
-  @include column(60%);
-  background: white;
-  padding: .5em;
-  min-width: 320px;
-  img {
-    max-width: 100%;
+  section.checkdesk-support {
+    background: rgba($firefly2, 1);
+    color: $firefly80;
+    padding: 1em;
+    h1 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    p {
+      padding: .5em;
+    }
+    .support--logos {
+      padding: 1em;
+      a {
+        text-decoration: none;
+        border-bottom-width: 0;
+      }
+      img {
+        max-width: 200px;
+        margin: .5em 1.5em;
+        vertical-align: middle;
+        @media all and (max-width: $breakpoint) {
+          max-width: 80% !important;
+        }
+      }
+    }
+  }
+  section.checkdesk-explanations {
+    @extend %clearfix;
+    width: 100%;
+    padding: 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    p.tagline {
+      font-weight: 600;
+    }
+  }
+  .description {
+    clear: none;
+    background: white;
+    text-align: left;
+    padding: .25em;
+    @include column(40%);
+  }
+  .screenshot {
+    @include column(60%);
+    background: white;
+    padding: .5em;
     min-width: 320px;
-  }
-}
-
-.footer {
-  background: rgba($firefly80, 1);
-  color: $firefly2;
-  padding: 1em;
-  a {
-    @extend %link--inverted;
+    img {
+      max-width: 100%;
+      min-width: 320px;
+    }
   }
 }
