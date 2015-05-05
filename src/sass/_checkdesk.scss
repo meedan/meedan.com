@@ -47,6 +47,9 @@ body.project--checkdesk {
 section {
   color: $firefly80;
   padding: 1em 1em 4em;
+  p {
+    margin: 0 auto;
+  }
 }
 
 // Inverted color <section>s
