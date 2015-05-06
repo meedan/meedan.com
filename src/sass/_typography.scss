@@ -83,9 +83,9 @@ p {
 %link--default {
   color: lighten($photo-feb10-blue, 10%);
   text-decoration: none;
-  border-bottom: 3px lighten($photo-feb10-blue, 50%) solid;
+  border-bottom: 1px $firefly10 solid;
   &:hover {
-    background-color: rgba($firefly10, 0.08);
+    background-color: rgba($firefly10, 0.5);
   }
 }
 
@@ -93,7 +93,7 @@ p {
   color: rgba(white, 0.7);
   padding: 0.18em;
   a:hover {
-    background-color: rgba($firefly10, 0.03);
+    background-color: rgba($firefly10, 0.5);
   }
 }
 

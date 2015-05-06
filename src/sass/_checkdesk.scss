@@ -48,6 +48,10 @@ body.project--checkdesk {
       margin: 0 auto;
     }
   }
+  .footer {
+    @extend section;
+    padding-top: 3em;
+  }
   // Inverted color <section>s
   //
   .checkdesk-history,
