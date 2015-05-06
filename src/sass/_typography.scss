@@ -9,7 +9,6 @@ body {
   text-align: center;
   font-weight: 300;
   color: $firefly80;
-  background-color: $warm-grey;
 }
 
 // Headers
@@ -67,7 +66,8 @@ li > a {
 }
 
 p {
-  padding: 1em;
+  padding: 0;
+  width: 100%;
   display: block;
   margin: 0 auto;
   font-size: 1em;
@@ -104,10 +104,4 @@ p {
 
 a {
   @extend %link--default;
-}
-
-p {
-  padding: 0;
-  margin: 0;
-  width: 100%;
 }

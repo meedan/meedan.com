@@ -1,15 +1,27 @@
 section.team {
   @extend %clearfix;
-
   ul {
     clear: both;
     text-align: center;
+    @extend %flex-container;
+    flex-align: flex-start;
   }
   .name {
     padding-top: .5em;
     font-weight: 500;
   }
   li {
+    @extend %flex-item;
+    height: 15vh;
+    min-height: 200px;
+    @media all and (max-width: $breakpoint) {
+      padding: 0.5em;
+      width: 120px;
+      img {
+        width: 50px;
+      }
+    }
+    text-align: center;
     padding: 1em 3em 1.5em 1em;
     display: inline-block;
     width: 200px;

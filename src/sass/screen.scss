@@ -17,3 +17,7 @@ $breakpoint: 65em;
 @import "contact";
 @import "checkdesk";
 @import "forms";
+
+body {
+  background-color: $warm-grey;
+}

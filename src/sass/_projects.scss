@@ -1,12 +1,15 @@
 section.projects {
   @extend %clearfix;
+  @extend %flex-container;
+  align-items: stretch;
+  h3 {
+    width: 100%;
+  }
   & > div {
-    @include column(50%);
-    @media all and (max-width: 900px) {
-      @include column(100%);
-    }
-    padding: 3.5em 0;
+    @extend %flex-item;
+    padding: 3.5em 1em;
     color: $snowflake;
+    width: 50%;
     p {
       font-size: 1em;
       line-height: 1.3;
@@ -35,6 +38,7 @@ section.projects {
     @media all and (max-width: $breakpoint) {
       img {
         width: 70%;
+        max-width: 400px;
       }
       p {
         width: 95%;

@@ -40,7 +40,6 @@
       font-size: 1.3em;
     }
   }
-
   img.logo {
     width: 12em;
     margin-top: 2em;
@@ -50,19 +49,16 @@
       width: 40%;
     }
   }
-
   p.slogan {
     font-size: 1.6em;
     margin: 0 auto;
     width: 100%;
   }
-
   p.about {
     padding-bottom: 2em;
     margin-top: 0;
     overflow: hidden;
   }
-
   @media all and (max-width: $breakpoint) {
     padding-top: 2em;
     p.slogan {
