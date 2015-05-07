@@ -1,6 +1,6 @@
 // This is fragile and failure-prone. But we want equal height.  - CGB
 %height-hack {
-  max-height: 700px !important;
+  height: 680px !important;
 }
 
 .latest {
@@ -15,7 +15,6 @@
       @extend %height-hack;
     }
   }
-
   .medium-links {
     display: none;
     a {

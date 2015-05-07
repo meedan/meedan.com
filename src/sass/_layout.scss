@@ -32,7 +32,7 @@ body {
   }
 }
 
-%flex-container {
+%flex--container {
   display: flex;
   flex-flow: wrap row;
   justify-content: space-around;
@@ -40,6 +40,6 @@ body {
   align-items: center;
 }
 
-%flex-item {
+%flex--item {
   flex: 0 1 auto;
 }

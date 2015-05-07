@@ -2,9 +2,10 @@ section.partners {
   background-color: white;
   .support--logos {
     padding: 2em;
-    @extend %flex-container;
+    @extend %flex--container;
     a {
-      @extend %flex-item;
+      @extend %flex--item;
+      @extend %link--image;
       text-decoration: none;
       border-bottom-width: 0;
       width: 20%;
@@ -24,18 +25,10 @@ section.partners {
         max-height: 170px;
       }
     }
-    // .ce {
-    // filter: invert(1) brightness(3.0);
-    // }
-    // .mada, .welad, .kiva, .af {
-    //   max-width: 60px;
-    // }
     .mada, .kiva, .ibm, .ipi {
-      max-width: 100px;
+      max-height: 100px;
+      max-width: 90px;
+      border: 1px solid red;
     }
-    // .macarthur, .cs {
-    //   max-width: 105px;
-    // }
- 
   }
 }

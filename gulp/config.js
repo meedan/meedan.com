@@ -21,15 +21,8 @@ module.exports = {
     dest: dest + "/css"
   },
   images: {
-    src: src + "/images/**",
-    dest: dest + "/images",
-    imagemin: {
-      optimizationLevel: 6,
-      progressive: true,
-      svgoPlugins: [{
-        removeViewBox: false
-      }]
-    }
+    src: [src + "/images/**/*", src + "/images/*"],
+    dest: dest + "/images"
   },
   markup: {
     dest: dest,

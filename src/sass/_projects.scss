@@ -1,15 +1,18 @@
 section.projects {
   @extend %clearfix;
-  @extend %flex-container;
+  @extend %flex--container;
   align-items: stretch;
   h3 {
     width: 100%;
   }
   & > div {
-    @extend %flex-item;
+    @extend %flex--item;
     padding: 3.5em 1em;
     color: $snowflake;
     width: 50%;
+    @media all and (max-width: $breakpoint) {
+      width: 100%;
+    }
     p {
       font-size: 1em;
       line-height: 1.3;
@@ -20,7 +23,7 @@ section.projects {
         padding-top: 0;
       }
       &.tagline {
-        font-weight: 600;
+        font-weight: 500;
         color: rgba(white, 0.8);
         padding: 0.5em 0 2em 0em;
       }
@@ -38,7 +41,7 @@ section.projects {
     @media all and (max-width: $breakpoint) {
       img {
         width: 70%;
-        max-width: 400px;
+        max-width: 300px;
       }
       p {
         width: 95%;
