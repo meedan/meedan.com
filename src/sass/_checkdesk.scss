@@ -72,12 +72,13 @@ body.project--checkdesk {
     .partners--logos {
       @extend %flex-container;
       a {
-        @extend %flex-item;
+        @extend %flex--item;
         @extend %link--image;
       }
       img.welad,
-      img.mada {
+      img.mada, img.acm, img.bc, img.gv {
         max-height: 70px;
+        margin: .25em;
       }
     }
   }
