@@ -54,6 +54,9 @@ section.projects {
 
 .projects--checkdesk {
   background: $firefly80;
+  & > a {
+    background-color: transparent;
+  }
 }
 
 .projects--bridge {
