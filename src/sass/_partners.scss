@@ -1,34 +1,24 @@
 section.partners {
   background-color: white;
-  .support--logos {
+}
+
+.support--logos {
+  padding: 1em;
+  @extend %flex--container;
+  a {
+    @extend %link--image;
+    flex: 1 1 auto;
     padding: 2em;
-    @extend %flex--container;
-    a {
-      @extend %flex--item;
-      @extend %link--image;
-      text-decoration: none;
-      border-bottom-width: 0;
-      width: 20%;
-      padding: 1em;
-      display: block;
-    }
     img {
-      min-width: 120px;
-      max-width: 170px;
-      max-height: 170px;
-      @media all and (max-width: $breakpoint) {
-        max-width: 80% !important;
-      }
-      &.wide {
-        min-width: 120px;
-        max-width: 170px;
-        max-height: 170px;
-      }
+      max-width: 200px;
+      max-height: 60px;
     }
-    .mada, .kiva, .ibm, .ipi {
-      max-height: 100px;
-      max-width: 90px;
-      // border: 1px solid red;
+    &.af img, &.welad img, &.mada img, &.ff img, &.bc img {
+      max-width: 300px !important;
+      max-height: 100px !important;
+    }
+    &.ibm img {
+      max-width: 100px;
     }
   }
 }
