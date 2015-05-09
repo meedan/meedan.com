@@ -26,6 +26,6 @@ module.exports = {
   },
   markup: {
     dest: dest,
-    src: ["./src/markup/*.html"]
+    src: [src + "/markup/*.html", src + "/markup/**/*.html"]
   }
 };

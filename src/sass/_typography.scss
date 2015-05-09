@@ -84,9 +84,6 @@ p {
   color: lighten($photo-feb10-blue, 10%);
   text-decoration: none;
   border-bottom: 1px $firefly10 solid;
-  &:hover {
-    background-color: rgba($firefly10, 0.5);
-  }
 }
 
 %link--inverted {

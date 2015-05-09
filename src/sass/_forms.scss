@@ -1,57 +1,63 @@
-$form-min-width: 320px;
-$form-max-width: 600px;
+$form--min-width: 320px;
+$form--max-width: 600px;
+$form--color: $firefly30;
 
-form {
-  z-index: 1;
-  text-align: left;
-  min-width: $form-min-width;
-  width: 80%;
-  margin: 0 auto;
+%form--input-rounded-left {
+  border-radius: 4px;
+  border-right-width: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+%form--input-rounded-right {
+  border-radius: 4px;
+  border-left-width: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+%form--base {
+  margin: 2em auto;
   position: relative;
-  max-width: $form-max-width;
-  p {
+  min-width: $form--min-width;
+  max-width: $form--max-width;
+  input {
     padding: 0.4em;
-    margin: 0;
-    width: 100%;
+    border: 2px solid $form--color;
+    @extend %form--input-rounded-left;
   }
   input[type='submit'] {
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    @extend %form--input-rounded-right;
     color: white;
-    border-radius: 4px;
-    border-width: 0;
-    padding: 1.3em;
-    font-size: 0.9em;
-    display: block;
-    margin: 1em 0;
-    background-color: $firefly80;
+    background-color: $form--color;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-color: $form--color;
   }
+}
+
+%form--label {
   input[type='email'],
-  input[type='text'] {
-    width: 100%;
-    position: relative;
-    padding: 1em 0.3em 0.5em;
-    font-size: 1.3em;
-    line-height: 1.5;
-    font-weight: 500;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-width: 1px;
-    box-shadow: none;
+  input[type='text'],
+  input[type='submit'] {
     z-index: 1;
-    display: block;
   }
   label {
     z-index: 2;
-    display: inline-block;
     position: absolute;
-    line-height: 1.7;
-    top: 0px;
-    left: 0px;
+    top: -2em;
     font-size: 0.8em;
     font-weight: 300;
-    color: rgba(0, 0, 0, 0.4);
-    padding: 0.4em;
-    filter: opacity(0.8);
-    color: $firefly80;
+    color: rgba($firefly80, 0.4);
+  }
+}
+
+// Default form elements
+.form-group {
+  @extend %form--base;
+  @extend %flex--container;
+  @extend %form--label;
+  input[type="email"] {
+    flex: 1;
   }
 }
