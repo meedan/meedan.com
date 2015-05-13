@@ -1,5 +1,21 @@
 #!/bin/bash
 
+echo <<YMMV
+
+  This script does not always leave gh-pages branch suitable for deployment.
+
+  Here is an alternate way to deploy:
+  
+  1. git checkout master 
+  2. git branch -D gh-pages
+  3. git subtree split --prefix www -b gh-pages
+  4. git push -f origin gh-pages:gh-pages
+
+  Unfortunately because of 2 and 4, this leaves no record of the deployment.
+
+  CGB
+
+YMMV
 
 # checkout gh-pages branch
 git checkout gh-pages
