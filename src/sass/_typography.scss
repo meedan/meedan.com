@@ -2,15 +2,26 @@
 
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,200,500");
 
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
+
+$line-height--small: 1.2;
+$line-height--medium: 1.5;
+$line-height--large: 1.65;
+$line-height--xlarge: 1.85;
 
 body {
   font-size: 20px;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
-  line-height: 1.5;
+  line-height: $line-height--medium;
   text-align: center;
   font-weight: 300;
   color: $firefly80;
+  &.ar {
+    font-family: "Droid Arabic Naskh", serif;
+    .description {
+      text-align: right;
+    }
+  }
 }
 
 // Headers
@@ -25,7 +36,7 @@ h4 {
   font-weight: 200;
   margin: 0;
   padding: 3em 1em 2em;
-  line-height: 1.2;
+  line-height: $line-height--small;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   @media all and (max-width: $breakpoint) {
@@ -67,6 +78,7 @@ li > a {
   }
 }
 
+// Paragraphs
 p {
   padding: 0;
   width: 100%;
@@ -74,20 +86,22 @@ p {
   margin: 0 auto;
   font-size: 1em;
   max-width: 35em;
-  line-height: 1.85;
+  line-height: $line-height--xlarge;
   @media all and (max-width: $breakpoint) {
     padding: 1em 0.7em;
-    line-height: 1.65;
+    line-height: $line-height--xlarge;
     width: 80%;
   }
 }
 
+// Default links
 %link--default {
   color: lighten($photo-feb10-blue, 10%);
   text-decoration: none;
   border-bottom: 1px $firefly10 solid;
 }
 
+// Reverse color scheme
 %link--inverted {
   color: rgba(white, 0.7);
   padding: 0.18em;
@@ -96,6 +110,7 @@ p {
   }
 }
 
+// Links containing images
 %link--image {
   text-decoration: none;
   border-bottom-width: 0;
