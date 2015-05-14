@@ -18,7 +18,10 @@ body {
   color: $firefly80;
   &.ar {
     font-family: "Droid Arabic Naskh", serif;
-    .description {
+    p.tagline {
+      text-align: right;
+    }
+    .description p {
       text-align: right;
     }
   }
