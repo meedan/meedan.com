@@ -22,10 +22,15 @@ body.project--checkdesk {
     p.slogan {
       font-weight: 300;
       font-size: 1.25em;
+      margin: 0em auto 1em;
     }
     img.checkdesk-splash {
       width: 80%;
-      max-width: 1050px;
+      max-width: 800px;
+      margin: 2em 0 1.5em;
+    }
+    img.checkdesk-logo {
+      margin: 0 0 0.5em;
     }
     @media all and (max-width: $breakpoint) {
       img.checkdesklogo {
@@ -37,7 +42,6 @@ body.project--checkdesk {
       }
     }
   }
-
   // Sections with Defaults 
   // 
   // (Note: any <section> element must have a header <h*> element)
@@ -95,7 +99,6 @@ body.project--checkdesk {
       }
     }
   }
-
   // Explanations
   //
   section.checkdesk-explanations {
@@ -128,8 +131,10 @@ body.project--checkdesk {
     padding: .5em;
     min-width: 320px;
     img {
-      max-width: 100%;
+      width: 100%;
+      max-width: 525px;
       min-width: 320px;
+      height: auto;
     }
   }
 }
