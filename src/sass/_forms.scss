@@ -61,3 +61,14 @@ $form--color: $firefly30;
     flex: 1;
   }
 }
+
+body.ar {
+  form {
+    input {
+      @extend %form--input-rounded-right;
+    }
+    input[type='submit'] {
+      @extend %form--input-rounded-left;
+    }
+  }
+}

@@ -17,7 +17,7 @@ body {
   font-weight: 300;
   color: $firefly80;
   &.ar {
-    font-family: "Droid Arabic Naskh", serif;
+    font-family: "Droid Arabic Naskh", "Open Sans", serif;
     p.tagline {
       text-align: right;
     }
@@ -99,9 +99,11 @@ p {
 
 // Default links
 %link--default {
-  color: lighten($photo-feb10-blue, 10%);
-  text-decoration: none;
-  border-bottom: 1px $firefly10 solid;
+  color: $accent-blue;
+  &:hover {
+    color: $photo-feb10-blue;
+    transition: 0.4s;
+  }
 }
 
 // Reverse color scheme
@@ -124,4 +126,8 @@ p {
 
 a {
   @extend %link--default;
+}
+
+body.ar {
+  line-height: 1.3;
 }
