@@ -18,9 +18,9 @@ body.checkdesk-page {
       font-size: 1.25em;
       margin: 0em auto 1em;
     }
-    img.splash {
+    img.checkdesk-splash {
       width: 80%;
-      max-width: 800px;
+      max-width: 700px;
       margin: 2em 0 2.5em;
     }
     img.logo {
@@ -84,8 +84,9 @@ body.checkdesk-page {
   // Explanations
   //
   section.explanations {
-    @extend %clearfix;
-    width: 100%;
+    @media all and (min-width: $breakpoint) {
+      @extend %flex--container;
+    }
     padding: 2em 0.5em;
     max-width: 1000px;
     margin: 0 auto;
@@ -103,7 +104,9 @@ body.checkdesk-page {
     background: white;
     text-align: left;
     padding: .25em;
-    width: 40%;
+    @media all and (min-width: $breakpoint) {
+      width: 40%;
+    }
   }
   // Screenshots
   //
@@ -111,7 +114,7 @@ body.checkdesk-page {
     width: 60%;
     background: white;
     padding: .5em;
-    min-width: 320px;
+    min-width: 520px;
     img {
       width: 100%;
       max-width: 525px;
