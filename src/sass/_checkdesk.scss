@@ -1,14 +1,10 @@
 // The Checkdesk product page
 //
-//
-//
 
-body.project--checkdesk {
-  background: white;
-  // Branding section 
-  //
-  .checkdesk-branding {
-    background-color: $logoyellow;
+body.checkdesk-page {
+  background-color: white;
+  .branding {
+    background-color: $logo-yellow;
     background-position: cover 100% no-repeat;
     width: 100%;
     margin: 0 auto;
@@ -17,52 +13,33 @@ body.project--checkdesk {
     padding: .5em;
     position: relative;
     text-shadow: 0 0 5px $firefly30;
-    h1 {
-      font-size: 1.5em;
-      font-weight: 600;
-    }
     p.slogan {
       font-weight: 300;
       font-size: 1.25em;
       margin: 0em auto 1em;
     }
-    img.checkdesk-splash {
+    img.splash {
       width: 80%;
       max-width: 800px;
-      margin: 2em 0 1.5em;
+      margin: 2em 0 2.5em;
     }
-    img.checkdesk-logo {
+    img.logo {
       margin: 0 0 0.5em;
     }
     @media all and (max-width: $breakpoint) {
       img.checkdesklogo {
         width: 8em;
       }
-      img.checkdesk-splash {
+      img.splash {
         padding-top: 0em;
         width: 80%;
       }
     }
   }
-  // Sections with Defaults 
-  // 
-  // (Note: any <section> element must have a header <h*> element)
-  //
-  section {
-    color: $firefly80;
-    padding: 1em 0em 4em;
-    p {
-      margin: 0 auto;
-    }
-  }
-  .footer {
-    @extend section;
-    padding-top: 3em;
-  }
   // Inverted color <section>s
   //
-  .checkdesk-history,
-  .checkdesk-github,
+  .history,
+  .github,
   .footer {
     background: $firefly80;
     color: $firefly10;
@@ -70,20 +47,19 @@ body.project--checkdesk {
       @extend %link--inverted;
     }
   }
-  .checkdesk-newsletter {
+  .newsletter {
     background: $firefly2;
   }
   // Partners
   //
-  section.checkdesk-partners {
+  section.partners {
     .partners--logos {
-      @extend %flex-container;
+      @extend %flex--container;
       a {
         @extend %flex--item;
         @extend %link--image;
       }
-      img.welad,
-      img.mada, img.acm, img.bc, img.gv {
+      img.welad, img.mada, img.smex, img.acm, img.bc, img.gv {
         max-height: 70px;
         margin: .25em;
       }
@@ -91,19 +67,23 @@ body.project--checkdesk {
   }
   // Support Logos
   //
-  section.checkdesk-support {
+  section.support {
     .support--logos {
-      @extend %flex-container;
+      text-align: left;
       a {
-        @extend %flex-item;
-        @extend %link--image;
-        padding: 1em;
+        img.kf {
+          min-width: 350px;
+          padding-top: 10px;
+        }
+        img.sida {
+          border: 1px solid red;
+        }
       }
     }
   }
   // Explanations
   //
-  section.checkdesk-explanations {
+  section.explanations {
     @extend %clearfix;
     width: 100%;
     padding: 2em 0.5em;
@@ -123,12 +103,12 @@ body.project--checkdesk {
     background: white;
     text-align: left;
     padding: .25em;
-    @include column(40%);
+    width: 40%;
   }
   // Screenshots
   //
   .screenshot {
-    @include column(60%);
+    width: 60%;
     background: white;
     padding: .5em;
     min-width: 320px;

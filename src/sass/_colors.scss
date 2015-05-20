@@ -71,9 +71,15 @@ $default-box-shadow-color: hsl(0, 0%, 76%);
 $outrageous-orange: #ff6e4a;
 
 // Social network colors
-$twitter-blue: hsl(203, 75%, 45%);  // exact Twitter brand color
-$google-blue: hsl(217, 99%, 65%); // bright blue eg in google groups
-$twitter-blueish: $syntax-three; // same hue neighborhood, but not exact
+$twitter-blue: hsl(203, 75%, 45%);
+
+// exact Twitter brand color
+$google-blue: hsl(217, 99%, 65%);
+
+// bright blue eg in google groups
+$twitter-blueish: $syntax-three;
+
+// same hue neighborhood, but not exact
 $facebook-blue: hsl(219, 56%, 34%);
 $youtube-red: hsl(1, 90%, 55%);
 
@@ -85,30 +91,30 @@ $debug-three: hsl(208, 100%, 50%);
 $debug-four: hsl(151, 100%, 75%);
 $debug-five: hsl(52, 100%, 50%);
 $debug-six: hsl(37, 100%, 50%);
-$default_debug_color: $debug-six;
+$default-debug-color: $debug-six;
 
 // XRW's colors
 $faded-blue: #3a546c;
 $bright-faded-blue: #0b2a46;
 $turkish-rose: #6a4452;
 $bright-turkish-rose: #801e4f;
-$snowflake: rgba(#ffffff,0.8);
+$snowflake: rgba(#ffffff, 0.8);
 
 // ARK's colors from Checkdesk
-$firefly: 			#10212F;
-$firefly90: 		#283743;
-$firefly80: 		#404D59;
-$firefly60: 		#6F7A82;
-$firefly40: 		#9FA6AC;
-$firefly30: 		#B7BCC0;
-$firefly20: 		#CFD3D5;
-$firefly10:			#E7E8EA;
-$firefly5:			#F3F4F4;
-$firefly2:			#FAFBFB;
+$firefly: #10212F;
+$firefly90: #283743;
+$firefly80: #404D59;
+$firefly60: #6F7A82;
+$firefly40: #9FA6AC;
+$firefly30: #B7BCC0;
+$firefly20: #CFD3D5;
+$firefly10: #E7E8EA;
+$firefly5: #F3F4F4;
+$firefly2: #FAFBFB;
 
-$dodgerBlue: 		#2E77FC;
-$dodgerBlue80:	#3B8AFD;
-$dodgerBlue60: 	#7DB1FE;
-$dodgerStrong:	#2155B4;
+$dodgerBlue: #2E77FC;
+$dodgerBlue80: #3B8AFD;
+$dodgerBlue60: #7DB1FE;
+$dodgerStrong: #2155B4;
 
-$logoyellow: #E4BA2A;
+$logo-yellow: #E4BA2A;

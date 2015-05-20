@@ -3,7 +3,7 @@ section.team {
   ul {
     clear: both;
     text-align: center;
-    @extend %flex-container;
+    @extend %flex--container;
     flex-align: flex-start;
   }
   .name {
@@ -11,7 +11,7 @@ section.team {
     font-weight: 500;
   }
   li {
-    @extend %flex-item;
+    @extend %flex--item;
     height: 15vh;
     min-height: 200px;
     @media all and (max-width: $breakpoint) {
