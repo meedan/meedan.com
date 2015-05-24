@@ -10,12 +10,12 @@ $line-height--large: 1.65;
 $line-height--xlarge: 1.85;
 
 body {
-  font-size: 20px;
+  color: $firefly80;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
   line-height: $line-height--medium;
   text-align: center;
-  font-weight: 300;
-  color: $firefly80;
   &.ar {
     font-family: "Droid Arabic Naskh", "Open Sans", serif;
     p.tagline {
@@ -27,6 +27,10 @@ body {
   }
 }
 
+p:nth-of-type(1) {
+  padding-bottom: 2em;
+}
+
 // Headers
 //
 // (The h1 is in branding.scss)
@@ -34,14 +38,14 @@ h2,
 h3,
 h4 {
   display: block;
-  font-size: 1.5em;
   font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.5em;
   font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: $line-height--small;
   margin: 0;
   padding: 3em 1em 2em;
-  line-height: $line-height--small;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   @media all and (max-width: $breakpoint) {
     padding: 2em 1em;
   }
@@ -79,16 +83,16 @@ li > a {
 
 // Paragraphs
 p {
+  display: block;
+  font-size: 1em;
+  line-height: $line-height--xlarge;
+  margin: 0 auto;
+  max-width: 35em;
   padding: 0;
   width: 100%;
-  display: block;
-  margin: 0 auto;
-  font-size: 1em;
-  max-width: 35em;
-  line-height: $line-height--xlarge;
   @media all and (max-width: $breakpoint) {
-    padding: 1em 0.7em;
     line-height: $line-height--xlarge;
+    padding: 1em 0.7em;
     width: 80%;
   }
 }
@@ -113,8 +117,8 @@ p {
 
 // Links containing images
 %link--image {
-  text-decoration: none;
   border-bottom-width: 0;
+  text-decoration: none;
   &:hover {
     background-color: transparent;
   }

@@ -1,8 +1,5 @@
 section.partners {
   background-color: white;
-  &.kf {
-    border: 1px solid red;
-  }
 }
 
 .support--logos {
@@ -13,8 +10,8 @@ section.partners {
     flex: 1 1 auto;
     padding: 2em;
     &.af img, &.welad img, &.mada img, &.ff img, &.bc img {
-      max-width: 300px !important;
-      max-height: 100px !important;
+      max-width: 300px;
+      max-height: 100px;
     }
     &.ibm img {
       max-width: 80px;

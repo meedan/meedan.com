@@ -23,9 +23,6 @@ body.checkdesk-page {
       max-width: 700px;
       margin: 2em 0 2.5em;
     }
-    img.logo {
-      margin: 0 0 0.5em;
-    }
     @media all and (max-width: $breakpoint) {
       img.checkdesklogo {
         width: 8em;
@@ -55,11 +52,12 @@ body.checkdesk-page {
   section.partners {
     .partners--logos {
       @extend %flex--container;
+      padding-bottom: 3em;
       a {
         @extend %flex--item;
         @extend %link--image;
       }
-      img.welad, img.mada, img.smex, img.acm, img.bc, img.gv {
+      img.welad, img.mada, img.smex, img.acm, img.bc, img.bcu, img.gv {
         max-height: 70px;
         margin: .25em;
       }
@@ -71,12 +69,13 @@ body.checkdesk-page {
     .support--logos {
       text-align: left;
       a {
-        img.kf {
+        img.sida {
+          max-width: 100px;
+          border: 1px solid red;
+        }
+        img.kf, img.sida {
           min-width: 350px;
           padding-top: 10px;
-        }
-        img.sida {
-          border: 1px solid red;
         }
       }
     }
@@ -100,10 +99,10 @@ body.checkdesk-page {
   // Descriptions
   //
   .description {
-    clear: none;
     background: white;
-    text-align: left;
+    clear: none;
     padding: .25em;
+    text-align: left;
     @media all and (min-width: $breakpoint) {
       width: 40%;
     }
@@ -111,15 +110,15 @@ body.checkdesk-page {
   // Screenshots
   //
   .screenshot {
-    width: 60%;
     background: white;
-    padding: .5em;
     min-width: 520px;
+    padding: .5em;
+    width: 60%;
     img {
-      width: 100%;
+      height: auto;
       max-width: 525px;
       min-width: 320px;
-      height: auto;
+      width: 100%;
     }
   }
 }

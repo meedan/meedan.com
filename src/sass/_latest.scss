@@ -4,13 +4,13 @@
 }
 
 .latest {
-  width: 100%;
   overflow: hidden;
-  text-align: center;
   padding-bottom: 6em;
+  text-align: center;
+  width: 100%;
   .medium-channel {
-    vertical-align: text-top;
     display: inline-block;
+    vertical-align: text-top;
     iframe {
       @extend %height-hack;
     }
