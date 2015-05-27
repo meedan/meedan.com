@@ -1,0 +1,143 @@
+// The Bridge product page
+//
+//
+//
+body.project--bridge {
+  background: white;
+  // Branding section 
+  //
+  .bridge-branding {
+  	border: 1px solid red;
+    background-color: #404D59;
+    background-position: cover 100% no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    vertical-align: middle;
+    padding: .5em;
+    position: relative;
+    text-shadow: 0 0 5px $firefly30;
+    h1 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    p.slogan {
+      font-weight: 300;
+      font-size: 1.25em;
+      margin: 0em auto 1em;
+    }
+    img.bridge-splash {
+      border: 1px solid blue;
+      width: 80%;
+      max-width: 800px;
+      margin: 2em 0 1.5em;
+    }
+    img.bridge-logo {
+      margin: 0 0 0.5em;
+    }
+    @media all and (max-width: $breakpoint) {
+      img.bridge-logo {
+        width: 8em;
+      }
+      img.bridge-splash {
+        padding-top: 0em;
+        width: 80%;
+      }
+    }
+  }
+  // Sections with Defaults 
+  // 
+  // (Note: any <section> element must have a header <h*> element)
+  //
+  section {
+    color: $firefly80;
+    padding: 1em 0em 4em;
+    p {
+      margin: 0 auto;
+    }
+  }
+  .footer {
+    @extend section;
+    padding-top: 3em;
+  }
+  // Inverted color <section>s
+  //
+  .bridge-history,
+  .bridge-github,
+  .footer {
+    background: $firefly80;
+    color: $firefly10;
+    a {
+      @extend %link--inverted;
+    }
+  }
+  .bridge-newsletter {
+    background: $firefly2;
+  }
+  // Partners
+  //
+  section.bridge-partners {
+    .partners--logos {
+      @extend %flex-container;
+      a {
+        @extend %flex--item;
+        @extend %link--image;
+      }
+      img.welad,
+      img.mada, img.acm, img.bc, img.gv {
+        max-height: 70px;
+        margin: .25em;
+      }
+    }
+  }
+  // Support Logos
+  //
+  section.bridge-support {
+    .support--logos {
+      @extend %flex-container;
+      a {
+        @extend %flex-item;
+        @extend %link--image;
+        padding: 1em;
+      }
+    }
+  }
+  // Explanations
+  //
+  section.bridge-explanations {
+    @extend %clearfix;
+    width: 100%;
+    padding: 2em 0.5em;
+    max-width: 1000px;
+    margin: 0 auto;
+    p {
+      padding: 1em;
+    }
+    p.tagline {
+      font-weight: 600;
+    }
+  }
+  // Descriptions
+  //
+  .description {
+    clear: none;
+    background: white;
+    text-align: left;
+    padding: .25em;
+    @include column(40%);
+  }
+  // Screenshots
+  //
+  .screenshot {
+    @include column(60%);
+    background: white;
+    padding: .5em;
+    min-width: 320px;
+    img {
+      width: 100%;
+      max-width: 525px;
+      min-width: 320px;
+      height: auto;
+    }
+  }
+}
