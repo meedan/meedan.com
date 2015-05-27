@@ -4,20 +4,24 @@
 
 @import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 
+$font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+$font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+$font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
+
 $line-height--small: 1.2;
 $line-height--medium: 1.5;
 $line-height--large: 1.65;
 $line-height--xlarge: 1.85;
 
 body {
+  color: $firefly80;
+  font-family: $font-stack--open-sans;
   font-size: 20px;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 300;
   line-height: $line-height--medium;
   text-align: center;
-  font-weight: 300;
-  color: $firefly80;
   &.ar {
-    font-family: "Droid Arabic Naskh", "Open Sans", serif;
+    font-family: $font-stack--arabic;
     p.tagline {
       text-align: right;
     }
@@ -34,14 +38,14 @@ h2,
 h3,
 h4 {
   display: block;
+  font-family: $font-stack--roboto;
   font-size: 1.5em;
-  font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: $line-height--small;
   margin: 0;
   padding: 3em 1em 2em;
-  line-height: $line-height--small;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   @media all and (max-width: $breakpoint) {
     padding: 2em 1em;
   }
@@ -56,9 +60,9 @@ em {
 }
 
 ul {
-  text-align: center;
-  padding: 0;
   margin: 0.5em 0;
+  padding: 0;
+  text-align: center;
   @media all and (max-width: $breakpoint) {
     margin-top: 0.5em 0 0;
   }
@@ -76,20 +80,20 @@ li {
 // At small sizes, make the links more like buttons
 li > a {
   @media all and (max-width: $breakpoint) {
-    padding: 1.4em;
     display: block;
+    padding: 1.4em;
   }
 }
 
 // Paragraphs
 p {
+  display: block;
+  font-size: 1em;
+  line-height: $line-height--xlarge;
+  margin: 0 auto;
+  max-width: 35em;
   padding: 0;
   width: 100%;
-  display: block;
-  margin: 0 auto;
-  font-size: 1em;
-  max-width: 35em;
-  line-height: $line-height--xlarge;
   @media all and (max-width: $breakpoint) {
     padding: 1em 0.7em;
     line-height: $line-height--xlarge;
@@ -117,8 +121,8 @@ p {
 
 // Links containing images
 %link--image {
-  text-decoration: none;
   border-bottom-width: 0;
+  text-decoration: none;
   &:hover {
     background-color: transparent;
   }

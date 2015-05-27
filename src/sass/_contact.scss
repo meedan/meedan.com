@@ -10,11 +10,12 @@ section.contact {
     }
   }
 }
+
 .contact--visit {
   .locations li {
     @include column(33%);
     clear: none;
-    font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: $font-stack--roboto;
     height: 20em;
     h4 {
       font-size: 0.8em;
@@ -29,6 +30,7 @@ section.contact {
     }
   }
 }
+
 .contact--call,
 .contact--write {
   a {
@@ -37,7 +39,7 @@ section.contact {
     padding: 1em 0.8em;
     color: rgba(white, 0.8);
     display: block;
-    font-family: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: $font-stack--roboto;
     font-weight: 100;
     transition: 0.6s;
     &:hover {
@@ -50,6 +52,7 @@ section.contact {
     }
   }
 }
+
 .contact--social-media {
   columns: 100% 4;
   margin: 2em 0 0;
@@ -61,7 +64,7 @@ section.contact {
     border-bottom: none;
     transition: 0.5s;
     &:hover {
-      filter:opacity(0.7);
+      filter: opacity(0.7);
     }
     img {
       width: 45px;
