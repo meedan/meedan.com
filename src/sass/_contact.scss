@@ -1,5 +1,4 @@
 section.contact {
-  @extend %clearfix;
   background: rgba($firefly80, 1);
   color: $firefly10;
   li {
@@ -13,10 +12,12 @@ section.contact {
 
 .contact--visit {
   .locations li {
-    @include column(33%);
     clear: none;
     font-family: $font-stack--roboto;
     height: 20em;
+    @media all and (min-width: $breakpoint) {
+      width: 33%;
+    }
     h4 {
       font-size: 0.8em;
       font-weight: 100;
@@ -42,6 +43,7 @@ section.contact {
     font-family: $font-stack--roboto;
     font-weight: 100;
     transition: 0.6s;
+    text-decoration: none;
     &:hover {
       color: rgba(white, 1);
       border-color: rgba(white, 1);

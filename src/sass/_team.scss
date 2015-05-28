@@ -1,19 +1,25 @@
 section.team {
-  @extend %clearfix;
   ul {
-    clear: both;
-    text-align: center;
-    @extend %flex-container;
+    @extend %flex--container;
     flex-align: flex-start;
+    text-align: center;
   }
   .name {
     padding-top: .5em;
     font-weight: 500;
   }
   li {
-    @extend %flex-item;
+    @extend %flex--item;
+    display: inline-block;
+    font-family: $font--stack-roboto;
+    font-size: 0.7em;
     height: 15vh;
+    line-height: 1.5;
     min-height: 200px;
+    padding: 1em 3em 1.5em 1em;
+    text-align: center;
+    vertical-align: top;
+    width: 200px;
     @media all and (max-width: $breakpoint) {
       padding: 0.5em;
       width: 120px;
@@ -21,14 +27,6 @@ section.team {
         width: 50px;
       }
     }
-    text-align: center;
-    padding: 1em 3em 1.5em 1em;
-    display: inline-block;
-    width: 200px;
-    line-height: 1.5;
-    font-size: 0.7em;
-    vertical-align: top;
-    font-family: $font-stack--roboto;
     img {
       max-width: 100px;
       border-radius: 50%;

@@ -1,4 +1,4 @@
-@import "normalize";
+@import "normalize-scss/normalize";
 
 // Configuration
 $breakpoint: 65em;
@@ -7,6 +7,10 @@ $breakpoint: 65em;
 @import "colors";
 @import "layout";
 @import "typography";
+
+body {
+  background-color: $warm-grey;
+}
 
 // Sections
 @import "branding";
@@ -18,7 +22,3 @@ $breakpoint: 65em;
 @import "checkdesk";
 @import "bridge";
 @import "forms";
-
-body {
-  background-color: $warm-grey;
-}
