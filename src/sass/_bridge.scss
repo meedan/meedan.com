@@ -15,7 +15,6 @@ body.project--bridge {
     vertical-align: middle;
     padding: .5em;
     position: relative;
-    text-shadow: 0 0 5px $firefly30;
     h1 {
       font-size: 1.5em;
       font-weight: 600;
@@ -122,12 +121,14 @@ body.project--bridge {
     background: white;
     text-align: left;
     padding: .25em;
-    @include column(40%);
+    width: 40%;
+    float: left;
   }
   // Screenshots
   //
   .screenshot {
-    @include column(60%);
+    width: 60%;
+    float: left;
     background: white;
     padding: .5em;
     min-width: 320px;

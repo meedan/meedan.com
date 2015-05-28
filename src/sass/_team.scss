@@ -11,7 +11,7 @@ section.team {
   li {
     @extend %flex--item;
     display: inline-block;
-    font-family: $font--stack-roboto;
+    font-family: $font-stack--roboto;
     font-size: 0.7em;
     height: 15vh;
     line-height: 1.5;
