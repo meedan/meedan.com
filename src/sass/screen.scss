@@ -1,4 +1,9 @@
-@import "normalize-scss/normalize";
+// # meedan-style
+// 
+// Import foundational styles like colors and layout.
+//
+@import "meedan-style/layout";
+@import "meedan-style/colors";
 
 // Configuration
 $breakpoint: 800px;
@@ -29,8 +34,7 @@ body {
 
 // Checkdesk page
 body.checkdesk {
-  // background-color: $checkdesk-yellow;
-  background-image: $checkdesk-yellow;
+  background-color: $checkdesk-yellow;
 }
 
 // Home page

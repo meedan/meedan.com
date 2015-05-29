@@ -49,19 +49,23 @@ We use a different gulp task for this:
 
         gulp images
 
-You'll need to have imagemagick and graphicsmagick installed. 
+You'll need to have imagemagick or graphicsmagick installed. 
 
 On a Mac:
 
         brew install imagemagick
-        brew install graphicsmagick 
 
 On Ubuntu: 
 
         apt-get install imagemagick
-        apt-get install graphicsmagick
 
 (You can confirm that ImageMagick is properly set up by executing `convert -help` in a terminal.)
+
+## Note about SVG
+
+SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason.
+
+Unfortunately SVG referenced in this way can not be styled by CSS.
 
 ## Deploying
 
@@ -83,3 +87,23 @@ if it looks okay, push it live:
 ```
 
 Then take a look at the live site and make sure the contents have been updated!
+
+## Installing bower modules
+
+You can install private modules like this:
+
+`bower install https://github.com/meedan/meedan-style.git`
+
+By default it will be 
+
+## Note about developing the bower modules
+
+Say you want to be able to work into the bower modules from inside this project. Good news: there is functionality in bower for this: `bower link`: 
+
+1. First get a copy of the bower repos you want to update: `git clone https://github.com/meedan/bridge-style.git` — that gives you a copy of the `bridge-style` bower library on your machine. 
+2. Then you run `bower link` inside that directory. This has the affect of registering your local `bridge-style` as a bower repo that is available to be used.
+3. Then you change to the parent directory (like `meedan.com` where the bower.json file lives) and run `bower link bridge-style`.
+
+Result: you can edit into `bower_components/bridge-style`, then commit those changes and push them to the bridge-style repo. 
+
+NOTE: when you make changes this way, be sure to update the version number in `bridge-style` so that other projects will get the latest when they `bower update`.
