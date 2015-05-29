@@ -2,6 +2,18 @@
 
 // Configuration
 $breakpoint: 800px;
+$logo-width: 300px;
+
+// Animations
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 // Global styles and utilities
 @import "colors";
@@ -88,8 +100,8 @@ section {
   justify-content: space-between;
   align-items: center;
   a {
-    @extend %flex--item;
-    @extend %link--image;
+    @extend %flex-item;
+    @extend %link-image;
     display: inline-block;
     padding: 1em;
     vertical-align: middle;
@@ -116,14 +128,14 @@ section {
 //
 .team {
   ul {
-    @extend %flex--container;
+    @extend %flex-container;
   }
   .name {
     padding-top: .5em;
     font-weight: 500;
   }
   li {
-    @extend %flex--item;
+    @extend %flex-item;
     font-family: $font-stack--roboto;
     font-size: 0.7em;
     height: 15em;
@@ -141,12 +153,13 @@ section {
 // at the top of homepage and product pages
 //
 .branding {
-  @extend %flex--container;
+  @extend %flex-container;
   flex-flow: column nowrap;
   padding: 1em;
   .logo {
-    width: 25em;
+    width: $logo-width;
     padding: 2em;
+    animation: fadein 1s;
   }
   .splash {
     width: 80%;
@@ -155,12 +168,20 @@ section {
   .slogan {
     font-size: 1.25em;
   }
+  @media all and (max-width: $breakpoint) {
+    .logo {
+      width: 150%;
+      max-width: $logo-width;
+      border: 1px solid red;
+      padding: 1em;
+    }
+  }
 }
 
 // Explanations
 //
 .explanations .wrapper {
-  @extend %flex--container;
+  @extend %flex-container;
   align-items: center;
   align-content: center;
   margin: 0 auto;
@@ -173,14 +194,14 @@ section {
     }
   }
   .description {
-    @extend %flex--item;
+    @extend %flex-item;
     width: 40%;
     font-size: 1.4em;
     text-align: left;
     padding-top: 4em;
   }
   .screenshot {
-    @extend %flex--item;
+    @extend %flex-item;
     width: 40%;
     height: 100%;
   }

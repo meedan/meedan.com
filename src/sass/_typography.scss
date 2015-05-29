@@ -1,17 +1,24 @@
+/* # Web fonts from Google */ 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600");
 
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,200,500");
 
 @import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 
+
+/* # Define font stacks */ 
 $font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
 
+/* # Standardize line heights */ 
 $line-height--small: 1.2;
 $line-height--medium: 1.5;
 $line-height--large: 1.65;
 $line-height--xlarge: 1.85;
+
+/* # Default typography
+*/
 
 body {
   color: $firefly80;
@@ -20,17 +27,23 @@ body {
   font-weight: 300;
   line-height: $line-height--medium;
   text-align: center;
-  &.ar {
-    font-family: $font-stack--arabic;
-    p.tagline {
-      text-align: right;
-    }
-    .description p {
-      text-align: right;
-    }
-  }
 }
 
+/* # Paragraphs
+*/
+
+p:nth-of-type(1) {
+  padding-bottom: 2em;
+}
+
+// # Headers
+// 
+// <h1>This is an example of an h1</h1>
+// <h2>This is an example of an h2</h2>
+// <h3>This is an example of an h3</h3>
+// <h4>This is an example of an h4</h4>
+// 
+// 
 h1 {
   color: rgba(0, 0, 0, 0.5);
   font-family: $font-stack--roboto;
@@ -45,13 +58,6 @@ h1 {
   }
 }
 
-p:nth-of-type(1) {
-  padding-bottom: 2em;
-}
-
-// Headers
-//
-// (The h1 is in branding.scss)
 h2,
 h3,
 h4 {
@@ -69,10 +75,19 @@ h4 {
   }
 }
 
+// # Emphasis
+// <em>This text is emphasized.</em>
 em {
   font-style: italic;
 }
 
+
+// # Lists
+// <ul>
+// <li>One</li>
+// <li>Two</li>
+// <li>Three</li>
+// </ul>
 ul {
   margin: 0.5em 0;
   padding: 0;
@@ -91,7 +106,9 @@ li {
   }
 }
 
-// At small sizes, make the links more like buttons
+// At small sizes, make list links more like buttons
+// 
+// <ul><li><a href="#">Example list link</a></li></ul>
 li > a {
   @media all and (max-width: $breakpoint) {
     display: block;
@@ -99,7 +116,7 @@ li > a {
   }
 }
 
-// Paragraphs
+// # Paragraphs
 p {
   display: block;
   font-size: 1em;
@@ -114,6 +131,8 @@ p {
     width: 80%;
   }
 }
+
+// # Links
 
 // Default links
 %link--default {
@@ -146,6 +165,16 @@ a {
   @extend %link--default;
 }
 
+// # Arabic Typography
+/* <span class="arabic-typography">Checkdesk مشروع من قبل منظمة ميدان.</span> */
+
 body.ar {
   line-height: 1.3;
+  font-family: $font-stack--arabic;
+  p.tagline {
+    text-align: right;
+  }
+  .description p {
+    text-align: right;
+  }
 }
