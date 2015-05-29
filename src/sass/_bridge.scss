@@ -7,7 +7,6 @@ body.project--bridge {
   // Branding section 
   //
   .bridge-branding {
-  	border: 1px solid red;
     background-color: #404D59;
     background-position: cover 100% no-repeat;
     width: 100%;
@@ -27,7 +26,6 @@ body.project--bridge {
       margin: 0em auto 1em;
     }
     img.bridge-splash {
-      border: 1px solid blue;
       width: 80%;
       max-width: 800px;
       margin: 2em 0 1.5em;
@@ -134,7 +132,8 @@ body.project--bridge {
     padding: .5em;
     min-width: 320px;
     img {
-      width: 100%;
+      width: 40%;
+    box-shadow: 10px 10px 20px $firefly60;
       max-width: 525px;
       min-width: 320px;
       height: auto;
