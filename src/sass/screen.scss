@@ -28,17 +28,18 @@ body {
 }
 
 // Checkdesk page
-.checkdesk {
-  background-color: $checkdesk-yellow;
+body.checkdesk {
+  // background-color: $checkdesk-yellow;
+  background-image: $checkdesk-yellow;
 }
 
 // Home page
-.home {
+body.home {
   background-color: white;
 }
 
 // Bridge page
-.bridge {
+body.bridge {
   background: $firefly80;
   .branding {
     color: $firefly2;
@@ -73,6 +74,37 @@ section {
   background-color: white;
 }
 
+// The branding section 
+// at the top of homepage and product pages
+//
+.branding {
+  @extend %flex-container;
+  flex-flow: column nowrap;
+  padding: 1em;
+  .logo {
+    width: $logo-width;
+    padding: 2em;
+    // animation: lightSpeedIn 0.4s;
+    animation: jello 0.4s;
+    // animation: jello 2s, fadeIn 1s;
+ 
+  }
+  .splash {
+    width: 80%;
+    max-width: 800px;
+  }
+  .slogan {
+    font-size: 1.25em;
+  }
+  @media all and (max-width: $breakpoint) {
+    .logo {
+      width: 150%;
+      max-width: $logo-width;
+      padding: 1em;
+    }
+  }
+}
+
 // Homepage latest news
 //
 .latest {
@@ -100,11 +132,11 @@ section {
     padding: 1em;
     vertical-align: middle;
     &.bc, &.mada {
-      img {
+      img, svg {
         max-height: 90px;
       }
     }
-    img {
+    img, svg {
       max-width: 170px;
       max-height: 50px;
     }
@@ -140,36 +172,6 @@ section {
     max-height: 100px;
     width: 100%;
     border-radius: 50%;
-  }
-}
-
-// The branding section 
-// at the top of homepage and product pages
-//
-.branding {
-  @extend %flex-container;
-  flex-flow: column nowrap;
-  padding: 1em;
-  .logo {
-    width: $logo-width;
-    padding: 2em;
-    // animation: lightSpeedIn 0.4s;
-    // animation: jello 0.4s;
-    animation: jello 2s, fadeIn 1s;
-  }
-  .splash {
-    width: 80%;
-    max-width: 800px;
-  }
-  .slogan {
-    font-size: 1.25em;
-  }
-  @media all and (max-width: $breakpoint) {
-    .logo {
-      width: 150%;
-      max-width: $logo-width;
-      padding: 1em;
-    }
   }
 }
 

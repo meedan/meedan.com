@@ -4,10 +4,14 @@ var imageResize = require('gulp-image-resize');
 var config = require('../config');
 var parallel = require("concurrent-transform");
 var os = require("os");
+var svgstore = require('gulp-svgstore');
+var svgmin = require('gulp-svgmin');
 
 gulp.task('resize-logos', function () {
   // SVG files get special handling
   gulp.src('src/images/**/*.svg')
+    .pipe(svgmin())
+    .pipe(svgstore())
     .pipe(gulp.dest("./www/images/vector/"))
 
   // Then make the 2x

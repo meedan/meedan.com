@@ -51,7 +51,8 @@
     background: $firefly80;
     transition: 0.2s;
     &:hover {
-      background-color: $bridge-orange;
+      border-left: 10px solid $bridge-orange;
+      border-right: 10px solid $bridge-orange;
     }
     img {
       width: 13em;
@@ -65,13 +66,13 @@
   .checkdesk {
     border-right: 1px solid $firefly2;
     &:hover {
-      background-color: $checkdesk-yellow;
+      border-left: 10px solid $checkdesk-yellow;
+      border-right: 10px solid $checkdesk-yellow;
       transition: 0.4s;
     }
-    img {
+    .icon {
       margin-top: 0.2em;
       width: 15em;
-      fill: pink;
     }
   }
 }
