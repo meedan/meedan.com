@@ -8,7 +8,6 @@ var handleErrors = require('../util/handleErrors');
 
 gulp.task('sass', function () {
   return gulp.src(config.sass.src)
-    .pipe(debug(config.markup.src))
     .pipe(sass(config.sass.settings))
     .on('error', handleErrors)
     .pipe(autoprefixer("last 4 versions", "> 1%"))
