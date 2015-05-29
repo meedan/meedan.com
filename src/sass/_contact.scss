@@ -14,7 +14,7 @@ section.contact {
   .locations li {
     clear: none;
     font-family: $font-stack--roboto;
-    height: 20em;
+    height: 12em;
     @media all and (min-width: $breakpoint) {
       width: 33%;
     }
@@ -48,6 +48,8 @@ section.contact {
       color: rgba(white, 1);
       border-color: rgba(white, 1);
       transition: 0s;
+      background-color: rgba($firefly2, 0.1);
+      transition: 0.3s;
     }
     @media all and (max-width: $breakpoint) {
       font-size: 1em;
