@@ -1,6 +1,6 @@
 {
   "name": "meedan-home",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "private": true,
   "ignore": [
     "**/.*",
@@ -10,7 +10,6 @@
     "tests"
   ],
   "dependencies": {
-    "normalize-scss": "~3.0.2",
-    "normalize.css": "~3.0.3"
+    "normalize-scss": "~3.0.2"
   }
 }
