@@ -4,13 +4,11 @@
 //
 @import "meedan-style/layout";
 @import "meedan-style/colors";
+@import "meedan-style/animations";
 
 // Configuration
 $breakpoint: 800px;
 $logo-width: 300px;
-
-// This should be in bridge-style
-@import "animations";
 
 // Meedan.com
 // 
