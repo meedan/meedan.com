@@ -13,11 +13,8 @@ $logo-width: 300px;
 // Meedan.com
 // 
 // Global styles and utilities
-@import "colors";
-@import "layout";
 @import "typography";
 @import "contact";
-@import "forms";
 @import "projects";
 
 // Resets
@@ -27,7 +24,7 @@ ul {
 
 // Base colors
 body {
-  background-color: $warm-grey;
+  background-color: $warm-color;
 }
 
 // Checkdesk page
@@ -50,7 +47,7 @@ body.bridge {
 
 // Default section
 section {
-  background-color: $warm-grey;
+  background-color: $warm-color;
   width: 100%;
   padding-bottom: 4em;
 }
@@ -86,10 +83,6 @@ section {
   .logo {
     width: $logo-width;
     padding: 2em;
-    // animation: lightSpeedIn 0.4s;
-    animation: jello 0.4s;
-    // animation: jello 2s, fadeIn 1s;
- 
   }
   .splash {
     width: 80%;
