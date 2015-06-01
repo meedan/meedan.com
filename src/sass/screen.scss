@@ -4,15 +4,14 @@
 //
 @import "meedan-style/layout";
 @import "meedan-style/colors";
+@import "meedan-style/forms";
 @import "meedan-style/animations";
 
 // Configuration
 $breakpoint: 800px;
 $logo-width: 250px;
 
-// Meedan.com
-// 
-// Global styles and utilities
+// Meedan.com styles and utilities
 @import "typography";
 @import "contact";
 @import "projects";
@@ -30,6 +29,17 @@ body {
 // Checkdesk page
 body.checkdesk {
   background-color: $checkdesk-yellow;
+  // Inverted colors for some sections
+  .history,
+  .github,
+  .footer,
+  .branding {
+    background: $firefly80;
+    color: $firefly10;
+    a {
+      @extend %link--inverted;
+    }
+  }
 }
 
 // Home page
@@ -39,33 +49,37 @@ body.home {
 
 // Bridge page
 body.bridge {
-  background: $firefly80;
-  .branding {
-    color: $firefly2;
+  background: $portland-purple;
+  .api,
+  .branding,
+  .history,
+  .footer {
+    background: $portland-purple;
+    color: white;
   }
 }
 
 // Default section
 section {
   background-color: $warm-grey;
-  width: 100%;
   padding-bottom: 4em;
+  width: 100%;
 }
 
-// Inverted colors for some sections
-.history,
-.github,
-.footer {
-  background: $firefly80;
-  color: $firefly10;
-  a {
-    @extend %link--inverted;
-  }
-}
-
-// Newsletter: Special light color
-.newsletter {
+.checkdesk .newsletter {
   background: $firefly2;
+}
+
+.bridge .sign-up {
+  form {
+    width: 100%;
+    text-align: center;
+    @extend .form-group;
+    justify-content: center;
+    input {
+      font-size: 1.2em;
+    }
+  }
 }
 
 // Partners section: White because of the logos
@@ -87,19 +101,20 @@ section {
   }
   .logo {
     width: $logo-width;
+    padding-bottom: 2em;
   }
   .splash {
-    width: 80%;
     max-width: 800px;
+    padding-bottom: 2em;
+    width: 80%;
   }
   .slogan {
     font-size: 1.25em;
   }
   @media all and (max-width: $breakpoint) {
     .logo {
-      width: 70%;
       max-width: $logo-width;
-      padding: 1em;
+      width: 70%;
     }
   }
 }
@@ -156,8 +171,8 @@ section {
     @extend %flex-container;
   }
   .name {
-    padding-top: .5em;
     font-weight: 500;
+    padding-top: .5em;
   }
   li {
     @extend %flex-item;
@@ -167,49 +182,44 @@ section {
     width: 200px;
   }
   img {
-    max-width: 100px;
-    max-height: 100px;
-    width: 100%;
     border-radius: 50%;
+    max-height: 100px;
+    max-width: 100px;
+    width: 100%;
   }
 }
 
 // Explanations
 //
 .explanations {
-  @extend %flex-container;
-  align-items: center;
-  align-content: center;
+  background-color: rgba(white, 1);
+  color: $firefly80;
   margin: 0 auto;
-  width: 100%;
-  padding: 2em 0.5em;
-  p {
-    padding: 1em;
-    &.tagline {
-      font-weight: 600;
-    }
+  padding: 1em;
+  h4 {
+    font-size: 0.8em;
+    font-weight: 100;
+    padding: 2em 0em;
+    width: 100%;
   }
-  .description {
-    @extend %flex-item;
-    width: 40%;
-    font-size: 1.4em;
+  p {
+    display: inline-block;
+    font-size: 1.2em;
+    vertical-align: top;
     text-align: left;
-    padding-top: 4em;
+    width: 100%;
+    padding: 1em 2em;
+    @media (max-width: $breakpoint) {
+      width: 100%;
+      padding: 0;
+    }
   }
   .screenshot {
-    @extend %flex-item;
-    width: 10%;
-    height: 100%;
-  }
-  @media all and (max-width: $breakpoint) {
-    .description {
-      font-size: 1em;
-      width: 100%;
-    }
-    .screenshot {
-      max-width: 640px;
-      width: 100%;
-    }
+    display: inline-block;
+    margin: 10% 3%;
+    border: 1px solid $firefly2;
+    min-width: 400px;
+    box-shadow: 0px 0px 50px $firefly20;
   }
 }
 
@@ -219,4 +229,7 @@ section {
   @extend section;
   background-color: $firefly90;
   padding: 1em;
+  a {
+    color: white;
+  }
 }
