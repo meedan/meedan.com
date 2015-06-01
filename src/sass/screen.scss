@@ -28,12 +28,13 @@ body {
 
 // Checkdesk page
 body.checkdesk {
-  background-color: $checkdesk-yellow;
+  .branding {
+    background-color: $checkdesk-yellow;
+  }
   // Inverted colors for some sections
   .history,
   .github,
-  .footer,
-  .branding {
+  .footer {
     background: $firefly80;
     color: $firefly10;
     a {
@@ -105,6 +106,7 @@ section {
   }
   .splash {
     max-width: 800px;
+    padding-top: 2em;
     padding-bottom: 2em;
     width: 80%;
   }
