@@ -2,13 +2,41 @@
 //
 .projects {
   @extend %flex-container;
+  justify-content: center;
+  background: white;
+  background: linear-gradient(110deg, $checkdesk-yellow, $bridge-orange);
+  // background: linear-gradient(90deg, $firefly80, $firefly90, $portland-purple);
+  .bridge, .checkdesk {
+    // background: rgba(black, 0.2);
+    background: rgba(white, 0.1);
+    // background: linear-gradient(180deg, rgba(white, 0.1), rgba(black, 0.2));
+    border-radius: 10px;
+    border: 1px solid rgba($firefly2, 0.2);
+  }
+  .bridge {
+    // background: rgba($portland-purple, 1);
+    // background: linear-gradient(180deg, rgba(white, 0), rgba(black, 0.2));
+    // background: linear-gradient(180deg, rgba($portland-purple, 0.8), rgba($portland-purple, 1));
+    svg {
+      width: 13em;
+    }
+  }
+  .checkdesk {
+    // background: rgba($firefly80, 1);
+    // background: linear-gradient(180deg, rgba($firefly80, 0.8), rgba($firefly90, 1));
+    svg {
+      width: 15em;
+    }
+  }
   h3 {
     width: 100%;
+    color: white;
   }
   & > div {
     color: $firefly2;
     padding: 3.5em 2em;
-    width: 50%;
+    width: 40%;
+    margin: 1em;
     @media all and (max-width: $breakpoint) {
       width: 100%;
     }
@@ -37,28 +65,14 @@
       }
     }
     @media all and (max-width: $breakpoint) {
-      img {
+      svg {
         max-width: 300px;
-        width: 70%;
+        width: 100%;
       }
       p {
         padding: 0;
         width: 95%;
       }
-    }
-  }
-  .bridge {
-    background: $portland-purple;
-    transition: 0.2s;
-    svg {
-      width: 13em;
-    }
-  }
-  .checkdesk {
-    background: $firefly80;
-    border-right: 1px solid $firefly2;
-    svg {
-      width: 15em;
     }
   }
 }

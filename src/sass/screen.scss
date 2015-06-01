@@ -8,7 +8,7 @@
 
 // Configuration
 $breakpoint: 800px;
-$logo-width: 300px;
+$logo-width: 250px;
 
 // Meedan.com
 // 
@@ -18,13 +18,13 @@ $logo-width: 300px;
 @import "projects";
 
 // Resets
-ul {
+ul, body {
   margin: 0;
 }
 
 // Base colors
 body {
-  background-color: $warm-color;
+  background-color: $warm-grey;
 }
 
 // Checkdesk page
@@ -47,7 +47,7 @@ body.bridge {
 
 // Default section
 section {
-  background-color: $warm-color;
+  background-color: $warm-grey;
   width: 100%;
   padding-bottom: 4em;
 }
@@ -79,10 +79,14 @@ section {
 .branding {
   @extend %flex-container;
   flex-flow: column nowrap;
-  padding: 1em;
+  padding: 1em 1em 4em;
+  h1 {
+    // see defaults in typography.scss
+    margin: 0;
+    font-size: 3.5em;
+  }
   .logo {
     width: $logo-width;
-    padding: 2em;
   }
   .splash {
     width: 80%;
@@ -93,7 +97,7 @@ section {
   }
   @media all and (max-width: $breakpoint) {
     .logo {
-      width: 150%;
+      width: 70%;
       max-width: $logo-width;
       padding: 1em;
     }
