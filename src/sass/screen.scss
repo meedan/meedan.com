@@ -7,26 +7,37 @@
 @import "meedan-style/forms";
 @import "meedan-style/animations";
 
-// Configuration
-$breakpoint: 800px;
+// ## Configuration
+$breakpoint: 900px;
 $logo-width: 250px;
 
-// Meedan.com styles and utilities
+// ## Meedan.com styles and utilities
 @import "typography";
 @import "contact";
 @import "projects";
 
-// Resets
+// Used by the flex boxes in .projects and .latest
+//
+%centered-boxes {
+  padding: 2em 2em;
+  width: 40%;
+  margin: 1em;
+  @media all and (max-width: $breakpoint) {
+    width: 100%;
+  }
+}
+
+// ## Resets
 ul, body {
   margin: 0;
 }
 
-// Base colors
+// ## Base colors
 body {
   background-color: $warm-grey;
 }
 
-// Checkdesk page
+// ## Checkdesk page
 body.checkdesk {
   .branding {
     background-color: $checkdesk-yellow;
@@ -43,44 +54,37 @@ body.checkdesk {
   }
 }
 
-// Home page
+// ## Home page
 body.home {
   background-color: white;
 }
 
-// Bridge page
+// ## Bridge page
 body.bridge {
-  background: $portland-purple;
+  .branding {
+    background: darken($portland-purple, 10%);
+    // background: $bridge-orange;
+    color: rgba(white, 0.8);
+  }
   .api,
-  .branding,
   .history,
   .footer {
     background: $portland-purple;
-    color: white;
+    color: rgba(white, 0.8);
   }
 }
 
-// Default section
+// ## Default <section>s
 section {
   background-color: $warm-grey;
   padding-bottom: 4em;
   width: 100%;
 }
 
-.checkdesk .newsletter {
-  background: $firefly2;
-}
-
+// ## Checkdesk newsletter
+.checkdesk .newsletter,
 .bridge .sign-up {
-  form {
-    width: 100%;
-    text-align: center;
-    @extend .form-group;
-    justify-content: center;
-    input {
-      font-size: 1.2em;
-    }
-  }
+  background: $firefly2;
 }
 
 // Partners section: White because of the logos
@@ -94,7 +98,7 @@ section {
 .branding {
   @extend %flex-container;
   flex-flow: column nowrap;
-  padding: 1em 1em 4em;
+  padding: 2em 1em 4em;
   h1 {
     // see defaults in typography.scss
     margin: 0;
@@ -102,7 +106,6 @@ section {
   }
   .logo {
     width: $logo-width;
-    padding-bottom: 2em;
   }
   .splash {
     max-width: 800px;
@@ -125,11 +128,14 @@ section {
 //
 .latest {
   padding-bottom: 6em;
-  .medium-channel {
-    display: inline-block;
-    vertical-align: text-top;
-    iframe {
-      height: 620px !important;
+  .medium-channels {
+    @extend %flex-container;
+    padding: 0 5%;
+    .medium-channel {
+      @extend %centered-boxes;
+      iframe {
+        height: 620px !important;
+      }
     }
   }
 }
