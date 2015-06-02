@@ -48,7 +48,12 @@
 .projects .bridge,
 .projects .checkdesk {
   color: $firefly2;
-  @extend %centered-boxes;
+  padding: 2em 2em;
+  width: 40%;
+  margin: 1em;
+  @media all and (max-width: $breakpoint) {
+    width: 100%;
+  }
   p {
     font-size: 1em;
     line-height: 1.3;

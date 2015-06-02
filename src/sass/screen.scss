@@ -27,17 +27,6 @@ $logo-width: 250px;
 @import "contact";
 @import "projects";
 
-// Used by the flex boxes in .projects and .latest
-//
-%centered-boxes {
-  padding: 2em 2em;
-  width: 40%;
-  margin: 1em;
-  @media all and (max-width: $breakpoint) {
-    width: 100%;
-  }
-}
-
 // ## Resets
 ul, body {
   margin: 0;
@@ -57,11 +46,20 @@ section {
   width: 100%;
 }
 
+.checkdesk .form-group {
+  font-size: 1.3em;
+  input {
+    font-size: inherit;
+  }
+}
+
 // ## The branding section 
 // At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1.
 // At smaller sizes the logo has a percent-based width.
 //
-.branding {
+.home .branding,
+.bridge .branding,
+.checkdesk .branding {
   @extend %flex-container;
   flex-flow: column nowrap;
   padding: 2em 1em 4em;
@@ -73,10 +71,11 @@ section {
     width: $logo-width;
   }
   .splash {
-    max-width: 800px;
+    max-width: 600px;
     padding-top: 2em;
     padding-bottom: 2em;
     width: 80%;
+    animation: fadeInUp 0.6s;
   }
   .slogan {
     font-size: 1.25em;
@@ -106,9 +105,7 @@ section {
 }
 
 // ## "Logos" sections 
-// This flex-based layout handles two to 24 logos at a time.
-// Because some logos have very different dimensions, 
-// we have to do some custom handling.
+// This flex-based layout handles from two to 24 logos at a time.
 //
 .home .partners .logos,
 .bridge .support .logos,
@@ -118,9 +115,8 @@ section {
   justify-content: space-between;
   align-items: center;
   a {
-    @extend %flex-item;
+    flex: 0 1 auto;
     @extend %link-image;
-    display: inline-block;
     padding: 1em;
     vertical-align: middle;
     img, svg {
@@ -128,8 +124,12 @@ section {
       max-height: 50px;
     }
   }
+  .sida {
+    max-width: 135px;
+  }
   .kf {
-    max-width: 400px;
+    max-width: 300px;
+    margin-top: 10px;
   }
   a.bc, a.mada {
     img, svg {
@@ -139,7 +139,9 @@ section {
 }
 
 // ## The support logos are bigger
-.support .logos {
+.bridge .support .logos,
+.checkdesk .support .logos {
+  justify-content: center;
   img, svg {
     max-width: 400px;
   }
@@ -174,9 +176,8 @@ section {
 // 
 // These are screenshots with with paragraphs of text. The amount of text is usually just one paragraph. There is a header for each screenshot and paragraph.
 
-.explanations {
-  background-color: rgba(white, 1);
-  color: $firefly80;
+.bridge .explanations,
+.checkdesk .explanations {
   margin: 0 auto;
   padding: 1em;
   h4 {
@@ -202,7 +203,6 @@ section {
     margin: 10% 3%;
     border: 1px solid $firefly2;
     min-width: 400px;
-    box-shadow: 0px 0px 50px $firefly20;
   }
 }
 
@@ -226,24 +226,24 @@ section {
     background: $portland-purple;
     color: rgba(white, 0.8);
   }
-  .support {
+  .support, .explanations {
     background-color: white;
+    color: $firefly80;
   }
-}
-
-// ## Bridge orange page theme
-%theme-bridge-orange {
-  background: $bridge-orange;
-  color: rgba(white, 0.8);
 }
 
 // Checkdesk firefly page theme
 %theme-checkdesk-firefly {
+  .explanations {
+    background-color: white;
+    color: $firefly80;
+  }
   .team {
     background-color: $warm-grey;
   }
   .branding {
     background-color: $checkdesk-yellow;
+    color: white;
   }
   // Inverted colors for some sections
   .history,
