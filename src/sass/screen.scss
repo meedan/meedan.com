@@ -1,6 +1,11 @@
 // # meedan-style
 // 
 // Import foundational styles like colors and layout.
+// 
+// ## Bower components
+// - First you must `bower install meedan-style`.
+// - See `bower.json` to see which version is installed.
+// - See `bower_components` to see the Sass used.
 //
 @import "meedan-style/layout";
 @import "meedan-style/colors";
@@ -12,6 +17,8 @@ $breakpoint: 900px;
 $logo-width: 250px;
 
 // ## Meedan.com styles and utilities
+//
+// (Not bower components, just Sass.)
 @import "typography";
 @import "contact";
 @import "projects";
@@ -37,70 +44,25 @@ body {
   background-color: $warm-grey;
 }
 
-// ## Checkdesk page
-body.checkdesk {
-  .branding {
-    background-color: $checkdesk-yellow;
-  }
-  // Inverted colors for some sections
-  .history,
-  .github,
-  .footer {
-    background: $firefly80;
-    color: $firefly10;
-    a {
-      @extend %link--inverted;
-    }
-  }
-}
-
-// ## Home page
-body.home {
-  background-color: white;
-}
-
-// ## Bridge page
-body.bridge {
-  .branding {
-    background: darken($portland-purple, 10%);
-    // background: $bridge-orange;
-    color: rgba(white, 0.8);
-  }
-  .api,
-  .history,
-  .footer {
-    background: $portland-purple;
-    color: rgba(white, 0.8);
-  }
-}
-
 // ## Default <section>s
+// 
+// Section elements are the *primary building blocks*.
+// Each section should have a header.
 section {
   background-color: $warm-grey;
   padding-bottom: 4em;
   width: 100%;
 }
 
-// ## Checkdesk newsletter
-.checkdesk .newsletter,
-.bridge .sign-up {
-  background: $firefly2;
-}
-
-// Partners section: White because of the logos
-.partners {
-  background-color: white;
-}
-
-// The branding section 
-// at the top of homepage and product pages
+// ## The branding section 
+// At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1.
+// At smaller sizes the logo has a percent-based width.
 //
 .branding {
   @extend %flex-container;
   flex-flow: column nowrap;
   padding: 2em 1em 4em;
   h1 {
-    // see defaults in typography.scss
     margin: 0;
     font-size: 3.5em;
   }
@@ -124,9 +86,9 @@ section {
   }
 }
 
-// Homepage latest news
+// ## Homepage latest news
 //
-.latest {
+.home .latest {
   padding-bottom: 6em;
   .medium-channels {
     @extend %flex-container;
@@ -140,10 +102,16 @@ section {
   }
 }
 
-// Logos 
-// as used in .partners and .support sections
+// ## "Logos" sections 
+// This flex-based layout handles two to 24 logos at a time.
+// Because some logos have very different dimensions, 
+// we have to do some custom handling.
 //
-.logos {
+
+.home .support .logos,
+.bridge .support .logos,
+.checkdesk .support .logos,
+.checkdesk .partners .logos {
   @extend %flex-container;
   justify-content: space-between;
   align-items: center;
@@ -153,28 +121,31 @@ section {
     display: inline-block;
     padding: 1em;
     vertical-align: middle;
-    &.bc, &.mada {
-      img, svg {
-        max-height: 90px;
-      }
-    }
     img, svg {
       max-width: 170px;
       max-height: 50px;
     }
   }
+  .kf {
+    max-width: 400px;
+  }
+  a.bc, a.mada {
+    img, svg {
+      max-height: 90px;
+    }
+  }
 }
 
-// The support logos are bigger
+// ## The support logos are bigger
 .support .logos {
-  img {
+  img, svg {
     max-width: 400px;
   }
 }
 
-// Homepage team
+// ## Homepage team grid component
 //
-.team {
+.home .team {
   ul {
     @extend %flex-container;
   }
@@ -197,8 +168,10 @@ section {
   }
 }
 
-// Explanations
-//
+// ## Explanation component
+// 
+// These are screenshots with with paragraphs of text. The amount of text is usually just one paragraph. There is a header for each screenshot and paragraph.
+
 .explanations {
   background-color: rgba(white, 1);
   color: $firefly80;
@@ -231,7 +204,7 @@ section {
   }
 }
 
-// The footer
+// ## A page footer
 //
 .footer {
   @extend section;
@@ -240,4 +213,68 @@ section {
   a {
     color: white;
   }
+}
+
+// ## Bridge page themes
+%theme-portland-purple {
+  .branding,
+  .api,
+  .history,
+  .footer {
+    background: $portland-purple;
+    color: rgba(white, 0.8);
+  }
+  .support {
+    background-color: white;
+  }
+}
+
+// ## Bridge orange page theme
+%theme-bridge-orange {
+  background: $bridge-orange;
+  color: rgba(white, 0.8);
+}
+
+// Checkdesk firefly page theme
+%theme-checkdesk-firefly {
+  .branding {
+    background-color: $checkdesk-yellow;
+  }
+  // Inverted colors for some sections
+  .history,
+  .github,
+  .footer {
+    background-color: $firefly80;
+    color: $firefly10;
+    a {
+      color: rgba(white, 0.7);
+      padding: 0.18em;
+      a:hover {
+        background-color: rgba($firefly10, 0.5);
+      }
+    }
+  }
+  .newsletter {
+    background-color: $firefly2;
+  }
+  .partners {
+    background-color: white;
+  }
+}
+
+// # Page specific code: Apply the themes
+// 
+// ## Home page
+body.home {
+  background-color: white;
+}
+
+// ## Bridge page
+body.bridge {
+  @extend %theme-portland-purple;
+}
+
+// ## Checkdesk page
+body.checkdesk {
+  @extend %theme-checkdesk-firefly;
 }

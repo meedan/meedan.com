@@ -1,17 +1,16 @@
-/* # Web fonts from Google */ 
+/* # Web fonts from Google */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600");
 
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,200,500");
 
 @import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 
-
-/* # Define font stacks */ 
+/* # Define font stacks */
 $font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
 
-/* # Standardize line heights */ 
+/* # Standardize line heights */
 $line-height--small: 1.2;
 $line-height--medium: 1.5;
 $line-height--large: 1.65;
@@ -43,7 +42,7 @@ p:nth-of-type(1) {
 // <h3>Foo bar zap zing h3</h3>
 // <h4>Jackdaws sphinx of quartz h4</h4>
 // <h5>Lorem of salad best instance forest h5</h5>
-// 
+//
 h1 {
   color: rgba(0, 0, 0, 0.5);
   font-family: $font-stack--roboto;
@@ -53,7 +52,6 @@ h1 {
   letter-spacing: 0.2em;
   padding: 0.5em 0.5em 0.2em 0.5em;
   text-transform: uppercase;
-
 }
 
 h2,
@@ -79,7 +77,6 @@ h4 {
 em {
   font-style: italic;
 }
-
 
 // # Lists
 // 
