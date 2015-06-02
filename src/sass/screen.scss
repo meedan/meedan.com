@@ -147,15 +147,17 @@ section {
 .checkdesk .support {
   .logos {
     img, svg {
-      max-width: 400px;
+      max-width: 400px !important;
     }
   }
 }
 
+// ## Homepage team grid component
+// 
+// At some sizes, it leaves one person hanging, so we use breakpoints to control how many items wide it is.
+//
 $item-width: 160px;
 
-// ## Homepage team grid component
-//
 .home .team {
   ul {
     @extend %flex-container;
