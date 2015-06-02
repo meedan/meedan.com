@@ -32,14 +32,9 @@ ul, body {
   margin: 0;
 }
 
-// ## Base colors
-body {
-  background-color: $warm-grey;
-}
-
 // ## Default <section>s
 // 
-// Section elements are the *primary building blocks*.
+// Section elements are the primary building blocks.
 // Each section should have a header.
 section {
   padding-bottom: 4em;
@@ -62,23 +57,26 @@ section {
 .checkdesk .branding {
   @extend %flex-container;
   flex-flow: column nowrap;
-  padding: 2em 1em 4em;
+  padding: 2em 1em 1em;
   h1 {
     margin: 0;
     font-size: 3.5em;
   }
   .logo {
     width: $logo-width;
+    animation: fadeIn 0.8s;
   }
   .splash {
     max-width: 600px;
     padding-top: 2em;
     padding-bottom: 2em;
     width: 80%;
-    animation: fadeInUp 0.6s;
+    animation: fadeInUp 1.2s;
   }
   .slogan {
+    padding-top: 1em;
     font-size: 1.25em;
+    animation: fadeIn 1.2s;
   }
   @media all and (max-width: $breakpoint) {
     .logo {
@@ -107,43 +105,50 @@ section {
 // ## "Logos" sections 
 // This flex-based layout handles from two to 24 logos at a time.
 //
-.home .partners .logos,
-.bridge .support .logos,
-.checkdesk .support .logos,
-.checkdesk .partners .logos {
-  @extend %flex-container;
-  justify-content: space-between;
-  align-items: center;
-  a {
-    flex: 0 1 auto;
-    @extend %link-image;
-    padding: 1em;
-    vertical-align: middle;
-    img, svg {
-      max-width: 170px;
-      max-height: 50px;
+//
+.home .partners,
+.checkdesk .partners,
+.bridge .support,
+.checkdesk .support {
+  .logos {
+    @extend %flex-container;
+    a {
+      flex: 0 1 auto;
+      @extend %link-image;
+      padding: 1em;
+      vertical-align: middle;
+      img, svg {
+        max-width: 170px;
+        max-height: 50px;
+      }
     }
-  }
-  .sida {
-    max-width: 135px;
-  }
-  .kf {
-    max-width: 300px;
-    margin-top: 10px;
-  }
-  a.bc, a.mada {
-    img, svg {
-      max-height: 90px;
+    .sida {
+      max-width: 135px;
+    }
+    .kf {
+      max-width: 300px;
+      margin-top: 10px;
+    }
+    .ng {
+      margin-top: 10px;
+    }
+    a.bc, a.mada {
+      img, svg {
+        max-height: 90px;
+      }
     }
   }
 }
 
 // ## The support logos are bigger
-.bridge .support .logos,
-.checkdesk .support .logos {
-  justify-content: center;
-  img, svg {
-    max-width: 400px;
+// 
+// because there are only two in this case, center them
+.bridge .support,
+.checkdesk .support {
+  .logos {
+    img, svg {
+      max-width: 400px;
+    }
   }
 }
 
@@ -180,8 +185,10 @@ section {
 .checkdesk .explanations {
   margin: 0 auto;
   padding: 1em;
+  width: 100%;
+  max-width: 800px;
   h4 {
-    font-size: 0.8em;
+    font-size: 1;
     font-weight: 100;
     padding: 2em 0em;
     width: 100%;
@@ -203,6 +210,7 @@ section {
     margin: 10% 3%;
     border: 1px solid $firefly2;
     min-width: 400px;
+    width: 100%;
   }
 }
 
@@ -230,6 +238,27 @@ section {
     background-color: white;
     color: $firefly80;
   }
+}
+
+// Photo frame component
+// 
+// A large image with text on top.
+//
+.home .photo-frame {
+  background-color: $firefly90;
+  background-image: url("../images/1x/banners/banner-2.jpg");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 100%;
+  height: 20em;
+  margin: 0 auto;
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: white;
+  padding: 4em 0;
+  text-shadow: 0 0 5px black;
 }
 
 // Checkdesk firefly page theme
@@ -264,6 +293,32 @@ section {
   }
   .partners {
     background-color: white;
+  }
+}
+
+nav.language-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.8em;
+  padding: 0.3em 1em;
+  background-color: rgba(white, 0.1);
+  border-radius: 5em;
+  a {
+    color: rgba(black, 0.5);
+    text-decoration: none;
+    padding: 0.2em 0.3em 0;
+  }
+  :lang(ar) & a.arabic,
+  :lang(en) & a.english {
+    color: black;
+    font-weight: 700;
+  }
+  a.english {
+    float: left;
+  }
+  a.arabic {
+    float: right;
   }
 }
 
