@@ -12,6 +12,10 @@
 @import "meedan-style/forms";
 @import "meedan-style/animations";
 
+// Bower dependencies that we're using in JS
+//
+// @import "angular-toggle-switch/angular-toggle-switch";
+
 // ## Configuration
 $breakpoint: 900px;
 $logo-width: 250px;
@@ -49,7 +53,6 @@ body {
 // Section elements are the *primary building blocks*.
 // Each section should have a header.
 section {
-  background-color: $warm-grey;
   padding-bottom: 4em;
   width: 100%;
 }
@@ -107,8 +110,7 @@ section {
 // Because some logos have very different dimensions, 
 // we have to do some custom handling.
 //
-
-.home .support .logos,
+.home .partners .logos,
 .bridge .support .logos,
 .checkdesk .support .logos,
 .checkdesk .partners .logos {
@@ -237,6 +239,9 @@ section {
 
 // Checkdesk firefly page theme
 %theme-checkdesk-firefly {
+  .team {
+    background-color: $warm-grey;
+  }
   .branding {
     background-color: $checkdesk-yellow;
   }
