@@ -130,9 +130,9 @@ section {
   padding-bottom: 6em;
   .medium-channels {
     @extend %flex-container;
-    padding: 0 5%;
+    justify-content: center;
     .medium-channel {
-      @extend %centered-boxes;
+      margin: 1em 1em;
       iframe {
         height: 620px !important;
       }
