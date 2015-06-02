@@ -9,7 +9,8 @@ module.exports = {
   browserSync: {
     server: {
       baseDir: dest
-    }
+    },
+    notify: false
   },
   sass: {
     settings: {
@@ -27,5 +28,8 @@ module.exports = {
   markup: {
     dest: dest,
     src: [src + "/markup/*.html", src + "/markup/**/*.html"]
+  },
+  documentation: {
+    src: [src + "/**/*.scss"]
   }
 };

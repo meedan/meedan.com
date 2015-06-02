@@ -13,6 +13,7 @@ gulp.task('sass', function () {
     .pipe(autoprefixer("last 4 versions", "> 1%"))
     .pipe(gulp.dest(config.sass.dest))
     .pipe(browserSync.reload({
-      stream: true
+      stream: true,
+      notify: false
     }));
 })

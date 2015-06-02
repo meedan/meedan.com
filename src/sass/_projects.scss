@@ -27,6 +27,7 @@
   @extend %flex-container;
   justify-content: center;
   @extend %theme-wild;
+  @extend %theme-boring;
   @media (max-width: $breakpoint) {
     & > div, svg {
       width: 100%;

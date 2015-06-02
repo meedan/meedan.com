@@ -2,16 +2,14 @@
 
 Most of the code we use is packaged with [NPM](https://www.npmjs.com/ "npm"). To get the build environment in place...
 
-Run this in your terminal in the top level of this directory:
-
-     make setup
+Run this in your terminal in the top level of this directory: `make setup`
 
 OR you can run the following commands individually:
                 
-	npm install -g gulp
-	npm install -g bower
-	npm install
-	bower install
+  npm install -g gulp
+  npm install -g bower
+  npm install
+  bower install
 
 This will hopefully:
 

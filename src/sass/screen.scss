@@ -152,11 +152,32 @@ section {
   }
 }
 
+$item-width: 160px;
+
 // ## Homepage team grid component
 //
 .home .team {
   ul {
     @extend %flex-container;
+    margin: 0 auto;
+    @media (max-width: $item-width * 2) {
+      width: $item-width * 2;
+    }
+    @media (min-width: $item-width * 3) {
+      width: $item-width * 3;
+    }
+    @media (min-width: $item-width * 5) {
+      width: $item-width * 5;
+    }
+    @media (min-width: $item-width * 7) {
+      width: $item-width * 7;
+    }
+    @media (min-width: $item-width * 10) {
+      width: $item-width * 10;
+    }
+    @media (min-width: $item-width * 14) {
+      width: $item-width * 14;
+    }
   }
   .name {
     font-weight: 500;
@@ -167,13 +188,14 @@ section {
     font-family: $font-stack--roboto;
     font-size: 0.7em;
     height: 15em;
-    width: 200px;
+    width: $item-width;
   }
   img {
     border-radius: 50%;
     max-height: 100px;
     max-width: 100px;
     width: 100%;
+    filter: sepia(40%);
   }
 }
 
@@ -320,6 +342,33 @@ nav.language-toggle {
   a.arabic {
     float: right;
   }
+}
+
+// ## The bridge signup
+.bridge .signup {
+  color: rgba(white, 0.7);
+  font-size: 0.8em;
+  padding: 2em 0 0.5em;
+  background: 250% $portland-purple url("/images/2x/banners/topo.png");
+  font-weight: 200;
+  letter-spacing: 0.03em;
+  p {
+    margin-top: 0.5em;
+    line-height: 1.6;
+  }
+  h2 {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  a {
+    color: white;
+    @include linkUnderlines($portland-purple, white);
+  }
+}
+
+.bridge .history a {
+  color: white;
+  @include linkUnderlines($portland-purple, white);
 }
 
 // # Page specific code: Apply the themes

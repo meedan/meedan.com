@@ -17,6 +17,7 @@ gulp.task('markup', function () {
     .on('error', handleErrors)
     .pipe(gulp.dest(config.markup.dest))
     .pipe(browserSync.reload({
-      stream: true
+      stream: true,
+      notify: false
     }));
 });
