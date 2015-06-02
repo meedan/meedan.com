@@ -12,7 +12,7 @@ gulp.task('markup', function () {
   return gulp.src(config.markup.src)
     .pipe(changed(config.markup.dest))
     .pipe(fileinclude({
-      prefix: '§'
+      prefix: '@@'
     }))
     .on('error', handleErrors)
     .pipe(gulp.dest(config.markup.dest))
