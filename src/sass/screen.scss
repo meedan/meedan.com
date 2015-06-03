@@ -38,6 +38,7 @@ ul, body {
 section {
   padding-bottom: 4em;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .checkdesk .form-group {
@@ -136,13 +137,13 @@ $logo-width: 200px;
         max-height: 50px;
       }
     }
-    // .sida {
-    //   max-width: 135px;
-    // }
-    // .kf {
-    //   max-width: 300px;
-    //   margin-top: 10px;
-    // }
+    .sida {
+      max-width: 135px;
+    }
+    .kf {
+      max-width: 300px;
+      margin-top: 10px;
+    }
     .ng {
       margin-top: 10px;
     }
@@ -160,8 +161,9 @@ $logo-width: 200px;
 .bridge .support,
 .checkdesk .support {
   .logos {
-    img, svg {
-      max-width: 320px !important;
+    svg {
+      max-width: 320px;
+      min-width: 200px;
     }
   }
 }
