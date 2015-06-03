@@ -18,7 +18,6 @@
 
 // ## Configuration
 $breakpoint: 900px;
-$logo-width: 250px;
 
 // ## Meedan.com styles and utilities
 //
@@ -52,6 +51,8 @@ section {
 // At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1.
 // At smaller sizes the logo has a percent-based width.
 //
+$logo-width: 200px;
+
 .home .branding,
 .bridge .branding,
 .checkdesk .branding {
@@ -60,7 +61,7 @@ section {
   padding: 2em 1em 1em;
   h1 {
     margin: 0;
-    font-size: 3.5em;
+    font-size: 2.5em;
     font: $font-stack--roboto;
     animation: fadeIn 1.2s;
   }
@@ -92,6 +93,14 @@ section {
   }
 }
 
+.bridge .branding .logo {
+  max-width: 300px;
+}
+
+.checkdesk .branding .logo {
+  max-width: 300px;
+}
+
 // ## Homepage latest news
 //
 .home .latest {
@@ -119,7 +128,6 @@ section {
   .logos {
     @extend %flex-container;
     a {
-      flex: 0 1 auto;
       @extend %link-image;
       padding: 1em;
       vertical-align: middle;
@@ -128,13 +136,13 @@ section {
         max-height: 50px;
       }
     }
-    .sida {
-      max-width: 135px;
-    }
-    .kf {
-      max-width: 300px;
-      margin-top: 10px;
-    }
+    // .sida {
+    //   max-width: 135px;
+    // }
+    // .kf {
+    //   max-width: 300px;
+    //   margin-top: 10px;
+    // }
     .ng {
       margin-top: 10px;
     }
@@ -153,7 +161,7 @@ section {
 .checkdesk .support {
   .logos {
     img, svg {
-      max-width: 400px !important;
+      max-width: 320px !important;
     }
   }
 }
@@ -203,7 +211,7 @@ $item-width: 160px;
     max-height: 100px;
     max-width: 100px;
     width: 100%;
-    filter: sepia(35%);
+    filter: sepia(25%);
   }
 }
 
