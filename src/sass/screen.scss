@@ -61,6 +61,8 @@ section {
   h1 {
     margin: 0;
     font-size: 3.5em;
+    font: $font-stack--roboto;
+    animation: fadeIn 1.2s;
   }
   .logo {
     width: $logo-width;
@@ -74,9 +76,13 @@ section {
     animation: fadeInUp 1.2s;
   }
   .slogan {
-    padding-top: 1em;
+    padding: 1em 0;
     font-size: 1.25em;
     animation: fadeIn 1.2s;
+  }
+  .about {
+    animation: fadeIn 2.5s;
+    padding: 2em 0;
   }
   @media all and (max-width: $breakpoint) {
     .logo {
