@@ -30,6 +30,12 @@ gulp.task('resize-logos', function () {
     .pipe(gulp.dest('www/images/1x/logos/'));
 });
 
+gulp.task('resize-favicons', function () {
+  // Favicons get special destination, no resizing
+  gulp.src('src/images/favicons/**/*.png')
+    .pipe(gulp.dest('www/'));
+});
+
 gulp.task('resize-team', function () {
   gulp.src(['src/images/team/*{.png,.jpg}'])
     .pipe(parallel(
