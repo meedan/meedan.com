@@ -243,10 +243,12 @@ $item-width: 160px;
       padding: 0;
     }
   }
-  .screenshot {
+  img.screenshot {
     display: inline-block;
     margin: 10% 3%;
-    min-width: 400px;
+    @media (max-width: 640px) {
+      width: 100%;
+    }
   }
 }
 
@@ -352,6 +354,8 @@ nav.language-toggle {
   }
   a.english {
     float: left;
+    font-size: 0.8em;
+    margin-top: 0.2em;
   }
   a.arabic {
     float: right;
