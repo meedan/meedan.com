@@ -118,38 +118,57 @@ $logo-width: 200px;
   }
 }
 
-// ## "Logos" sections 
+// ## "Logos" sections
 // This flex-based layout handles from two to 24 logos at a time.
-//
-//
+
 .home .partners,
 .checkdesk .partners,
 .bridge .support,
 .checkdesk .support {
   .logos {
-    @extend %flex-container;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    flex-align: center;
+    align-items: center;
     a {
       @extend %link-image;
       padding: 1em;
-      vertical-align: middle;
       img, svg {
-        max-width: 170px;
-        max-height: 50px;
+        min-width: 150px;
+        max-width: 150px;
       }
     }
     .sida {
-      max-width: 135px;
+      svg, img {
+        min-width: 120px;
+        max-width: 100px;
+      }
+    }
+    .bcu {
+      img, svg {
+        min-width: 120px;
+        max-width: 200px;
+      }
     }
     .kf {
-      max-width: 300px;
-      margin-top: 10px;
+      svg, img {
+        max-width: 150px;
+        min-width: 250px;
+        margin-top: 10px;
+      }
     }
     .ng {
       margin-top: 10px;
     }
-    a.bc, a.mada {
+    .ibm svg, .kiva svg {
+      max-width: 90px;
+      min-width: 100px;
+    }
+    .bc, .mada, .welad, .af, .cs {
       img, svg {
         max-height: 90px;
+        min-width: 50px;
       }
     }
   }
@@ -158,15 +177,16 @@ $logo-width: 200px;
 // ## The support logos are bigger
 // 
 // because there are only two in this case, center them
-.bridge .support,
-.checkdesk .support {
-  .logos {
-    svg {
-      max-width: 320px;
-      min-width: 200px;
-    }
-  }
-}
+// .bridge .support,
+// .checkdesk .support {
+//   .logos {
+//     svg {
+//       max-width: 320px;
+//       min-width: 200px;
+//       border: 1px solid red;
+//     }
+//   }
+// }
 
 // ## Homepage team grid component
 // 
