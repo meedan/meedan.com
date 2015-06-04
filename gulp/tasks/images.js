@@ -26,6 +26,8 @@ var handleErrors = require('../util/handleErrors');
 //     .pipe(gulp.dest('./www/images/favicons'));
 // });
 //
+// For now I do it by hand with: `convert 16x16.png 32x32.png favicon.ico`
+//
 gulp.task('move-favicons', function () {
   gulp.src('src/images/favicons/*.ico')
     .pipe(gulp.dest('./www/'))
