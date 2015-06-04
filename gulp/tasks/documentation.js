@@ -8,11 +8,13 @@ gulp.task('documentation', function () {
   gulp.src(config.documentation.src)
     .on('error', handleErrors)
     .pipe(styledocco({
-      out: 'www/docs',
-      name: 'Meedan Style',
+      'out': config.documentation.dest,
+      'name': 'Meedan Style',
       'no-minify': true
     }))
+    .on('error', handleErrors)
     .pipe(browserSync.reload({
       stream: true
-    }));
+    }))
+    .on('error', handleErrors)
 });

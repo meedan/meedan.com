@@ -30,6 +30,7 @@ module.exports = {
     src: [src + "/markup/*.html", src + "/markup/**/*.html"]
   },
   documentation: {
-    src: [src + "/**/*.scss"]
+    src: [src + "/**/*.scss", "./README.md"],
+    dest: dest + "/docs"
   }
 };

@@ -9,9 +9,12 @@
     "test",
     "tests"
   ],
-  "dependencies": {
+  "devDependencies": {
+    "bridge-style": "https://github.com/meedan/bridge-style.git#~0.0.5",
     "normalize-scss": "~3.0.2",
     "angular": "~1.4.0",
-    "angular-toggle-switch": "~1.3.0"
+    "angular-toggle-switch": "~1.3.0",
+    "meedan-style": "https://github.com/meedan/meedan-style.git#~0.1.3",
+    "checkdesk-style": "https://github.com/meedan/checkdesk-style.git#~0.0.7"
   }
 }

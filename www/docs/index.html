@@ -546,59 +546,53 @@ small {
 </style></head><body><nav class="bar top cf"><div class="container"><a href="index.html" class="brand">Meedan Style</a><ul class="menu"><li><a href="#" data-toggle="dropdown-1" unselectable="on" class="dropdown-toggle">sass</a><ul id="dropdown-1" hidden class="dropdown"><li><a href="sass-contact.html">contact</a></li><li><a href="sass-projects.html">projects</a></li><li><a href="sass-typography.html">typography</a></li><li><a href="sass-screen.html">screen</a></li></ul></li></ul><div class="nav"><button title="Table of Contents" data-toggle="nav-toc"><svg viewBox="0 0 512 512" height="22" width="22" class="icon"><path d="M108.9,403.1V462H50v-58.9H108.9z M108.9,285.4H50v58.9h58.9V285.4zM108.9,50H50v58.9h58.9V50z M108.9,167.7H50v58.9h58.9V167.7z M167.7,344.3H462v-58.9H167.7V344.3zM167.7,50v58.9H462V50H167.7z M167.7,462H462v-58.9H167.7V462z M167.7,226.6H462v-58.9H167.7V226.6z"></path></svg></button><input type="search" placeholder="Search" class="search"></div></div></nav><section class="container"><article id="installing-dependencies" class="section"><div class="docs"><a href="#installing-dependencies" class="permalink"><svg viewBox="0 0 512 512" height="32" width="32" class="icon"><path d="M156.2,199.7c7.5-7.5,15.9-13.8,24.8-18.7c49.6-27.3,113.1-12.8,145,35.5l-38.5,38.5c-11.1-25.2-38.5-39.6-65.8-33.5c-10.3,2.3-20.1,7.4-28,15.4l-73.9,73.9c-22.4,22.4-22.4,58.9,0,81.4c22.4,22.4,58.9,22.4,81.4,0l22.8-22.8c20.7,8.2,42.9,11.5,64.9,9.9l-50.3,50.3c-43.1,43.1-113,43.1-156.1,0c-43.1-43.1-43.1-113-0-156.1L156.2,199.7z M273.6,82.3l-50.3,50.3c21.9-1.6,44.2,1.6,64.9,9.9l22.8-22.8c22.4-22.4,58.9-22.4,81.4,0c22.4,22.4,22.4,58.9,0,81.4l-73.9,73.9c-22.5,22.5-59.1,22.3-81.4,0c-5.2-5.2-9.7-11.7-12.5-18l-38.5,38.5c4,6.1,8.3,11.5,13.7,16.9c13.9,13.9,31.7,24.3,52.1,29.3c26.5,6.4,54.8,2.8,79.2-10.6c8.9-4.9,17.3-11.1,24.8-18.7l73.9-73.9c43.1-43.1,43.1-113,0-156.1C386.6,39.2,316.7,39.2,273.6,82.3z"></path></svg></a><h2 id="installing-dependencies">Installing dependencies</h2>
 <p>Most of the code we use is packaged with <a href="https://www.npmjs.com/" title="npm">NPM</a>. To get the build environment in place...</p>
 <p>Run this in your terminal in the top level of this directory: <code>make setup</code></p>
-<p>OR you can run the following commands individually:</p>
-<textarea class="preview-code" spellcheck="false">  npm install -g gulp
-  npm install -g bower
-  npm install
-  bower install</textarea><p>This will hopefully:</p>
+<p>This will hopefully:</p>
 <ul>
 <li>install the <code>gulp</code> build tool</li>
 <li>install the <code>bower</code> javascript library tool (bower is like npm, but focussed on the browser)</li>
 <li>install the js libs listed in <code>package.json</code> to support the local gulp build environment</li>
 <li>install the js libs listed in <code>bower.json</code> to provide libraries for the browser</li>
 </ul>
-<h2 id="working-locally">Working locally</h2>
-<h3 id="tldr-dont-edit-the-files-in-www">TL;DR: Don&#39;t edit the files in <code>./www</code></h3>
+<p>To see what&#39;s installed, read the makefile.</p>
+<h2 id="editing-locally">Editing locally</h2>
+<h3 id="dont-edit-the-files-in-www">Don&#39;t edit the files in <code>./www</code></h3>
 <p>To work on the HTML and Sass, edit the files in <code>./src</code>.  </p>
 <p>The files in <code>./src</code> are &quot;built&quot; using <code>gulp</code> and are &quot;rendered&quot; in <code>./www</code></p>
 <p><code>gulp</code>, a nodejs base task runner, watches files in <code>./src</code> and automatically updates <code>./www</code> when files in <code>./src</code> are saved. </p>
-<p>Once you&#39;ve done the <code>npm install</code> step, you should be able to run:</p>
-<textarea class="preview-code" spellcheck="false">  gulp</textarea><p>That will start the compiler for both the stylesheets (<a href="sass-lang.com/">Sass</a>) and the HTML (<a href="http://akdubya.github.io/dustjs/" title="dust">dust</a> templates).  It also starts a nifty tool called <a href="http://www.browsersync.io/">browser-sync</a> which should automatically update your browser when there are changes;</p>
+<p>Once you&#39;ve done the <code>npm install</code> step, you should be able to run: <code>gulp</code>.</p>
+<p>That will start the compiler for both the stylesheets (<a href="sass-lang.com/">Sass</a>) and the HTML (<a href="http://akdubya.github.io/dustjs/" title="dust">dust</a> templates).  It also starts a nifty tool called <a href="http://www.browsersync.io/">browser-sync</a> which should automatically update your browser when there are changes;</p>
 <p>While the gulp compiler is running, edit the source files in <code>src/</code> and the web-ready files in <code>www</code> will be regenerated.</p>
-<h2 id="processing-images">Processing images</h2>
-<p>Before deployment sometimes you need to add new images and process them to do two things: </p>
+<h2 id="installing-the-bower-modules">Installing the bower modules</h2>
+<p>We install own own internal modules with bower:</p>
+<textarea class="preview-code" spellcheck="false">`bower install --save-dev https://github.com/meedan/meedan-style.git`
+`bower install --save-dev https://github.com/meedan/bridge-style.git`
+`bower install --save-dev https://github.com/meedan/checkdesk-style.git`</textarea><p>These &quot;style&quot; modules are collections of CSS (as Sass) that are version controlled and used on multiple projects.(On other projects we have done this will ruby gems and git submodules, but the bower CLI seems easier for the design team to use.) With this style we can use secret internal-only repositories and open source public repositories.</p>
+<p>At this point none of the repos are public in the bower registry. If they seem useful to others, we might publish them in the future. For now we just have to use the full path the git repo containing a bower.json file. It seems like the simplest possible way to create a version-controlled dependency graph!</p>
+<h2 id="optional-processing-images">Optional: Processing images</h2>
+<p>Before deployment sometimes you need to add new images and process them to optimize their resolution.</p>
+<p>We use a different gulp task for this: <code>gulp images</code></p>
+<p>You&#39;ll need to have imagemagick or graphicsmagick installed. </p>
 <ul>
-<li>optimize their file size (in Kilobytes, eg, compression)</li>
-<li>change their image size (in pixels, eg, responsive images)</li>
+<li>On a Mac: <code>brew install imagemagick</code></li>
+<li>On Ubuntu: <code>apt-get install imagemagick</code></li>
 </ul>
-<p>We use a different gulp task for this: </p>
-<textarea class="preview-code" spellcheck="false">    gulp images</textarea><p>You&#39;ll need to have imagemagick or graphicsmagick installed. </p>
-<p>On a Mac:</p>
-<textarea class="preview-code" spellcheck="false">    brew install imagemagick</textarea><p>On Ubuntu: </p>
-<textarea class="preview-code" spellcheck="false">    apt-get install imagemagick</textarea><p>(You can confirm that ImageMagick is properly set up by executing <code>convert -help</code> in a terminal.)</p>
-<h2 id="note-about-svg">Note about SVG</h2>
+<p>(You can confirm that ImageMagick is properly set up by executing <code>convert -help</code> in a terminal.)</p>
+<h3 id="note-about-svg">Note about SVG</h3>
 <p>SVG files are joined by the <code>gulp-svgmin</code> task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: <code>&lt;svg&gt;&lt;use xlink:href=&quot;#kf&quot; /&gt;&lt;/svg&gt;</code>. The #kf corresponds to the file <code>images/logos/kf.svg</code>. Each file name needs to be unique for this reason.</p>
 <p>Unfortunately SVG referenced in this way can not be styled by CSS.</p>
-<h2 id="deploying">Deploying</h2>
-<p>In very real terms, the gh-pages branch <em>is</em> the website.  This is because we currently host this site using <a href="https://pages.github.com/">github pages</a>. </p>
-<p>To deploy the files from the www directory to the gh-pages branch, run:</p>
-<textarea class="preview-code" spellcheck="false">   ./publish_www_to_gh-pages.sh</textarea><p>(see the comments in that script for further explanation of the steps it takes)</p>
-<p>then see if everything looks okay in the gh-pages branch
-if it looks okay, push it live:</p>
-<textarea class="preview-code" spellcheck="false">   git push --all origin</textarea><p>Then take a look at the live site and make sure the contents have been updated!</p>
-<h2 id="installing-bower-modules">Installing bower modules</h2>
-<p>You can install private modules like this:</p>
-<p><code>bower install https://github.com/meedan/meedan-style.git</code></p>
-<p>By default it will be </p>
-<h2 id="note-about-developing-the-bower-modules">Note about developing the bower modules</h2>
-<p>Say you want to be able to work into the bower modules from inside this project. Good news: there is functionality in bower for this: <code>bower link</code>: </p>
+<h3 id="developing-bower-modules">Developing bower modules</h3>
+<p>This is an optional step, for those who want to be able to work into the bower modules from inside this project. Use the wonderful <code>bower link</code> command. </p>
+<p>With <code>bower link</code> you register a local name for a repository that lives locally. Then you can install it in another repository, and it uses the latest code. This is great for bower package maintainers. The alternative would be tedious, to publish new changes and pull them each time. This way lets you work on the child module in your parent project without changing contexts. </p>
 <ol>
-<li>First get a copy of the bower repos you want to update: <code>git clone https://github.com/meedan/bridge-style.git</code> — that gives you a copy of the <code>bridge-style</code> bower library on your machine. </li>
-<li>Then you run <code>bower link</code> inside that directory. This has the affect of registering your local <code>bridge-style</code> as a bower repo that is available to be used.</li>
+<li>First get a copy of the bower components you want to work on: <code>git clone https://github.com/meedan/bridge-style.git</code> — that gives you a copy of the <code>bridge-style</code> bower component on your machine. </li>
+<li>Then you run <code>bower link</code> inside that directory. This tells bower to remember your local <code>bridge-style</code> is a bower repo that is available to be used, as if it were registered in the bower registry.</li>
 <li>Then you change to the parent directory (like <code>meedan.com</code> where the bower.json file lives) and run <code>bower link bridge-style</code>.</li>
 </ol>
-<p>Result: you can edit into <code>bower_components/bridge-style</code>, then commit those changes and push them to the bridge-style repo. </p>
-<p>NOTE: when you make changes this way, be sure to update the version number in <code>bridge-style</code> so that other projects will get the latest when they <code>bower update</code>.</p>
+<p>Result: you can edit into <code>bower_components/bridge-style</code> and see the live updates in your parent project without pushing them to the bridge-style repo and updating the child components.</p>
+<p>When you make changes this way, be sure to update the version number in <code>bridge-style</code> so that other projects will get the latest when they <code>bower update</code>.</p>
+<h2 id="deploying">Deploying</h2>
+<p>We host this site using <a href="https://pages.github.com/">github pages</a>. </p>
+<p>To deploy the files from the www directory to the gh-pages branch first tag a release like <code>bower version 2.2.15</code> then do this awkward incantation: <code>git branch -D gh-pages &amp;&amp; git subtree split --prefix www -b gh-pages &amp;&amp; git push -f origin gh-pages:gh-pages --tags</code>. If that doesn&#39;t make sense, don&#39;t do it.</p>
 </div></article></section><div class="bar bottom"><div hidden class="settings container"><!-- Icons from http://iconmonstr.com--><button title="Desktop (1280)" data-width='1280'><svg viewBox="0 0 412 386" height="24" width="26" class="icon"><path d="m147.6,343.9c-4.5,15.9-26.2,37.6-42.1,42.1h201c-15.3,-4-38.1,-26.8-42.1,-42.1H147.6zM387,0.5H25c-13.8,0-25,11.2-25,25V294c0,13.8 11.2,25 25,25h362c13.8,0 25,-11.2 25,-25V25.5C412,11.7 400.8,0.5 387,0.5zM369.9,238.2H42.1L42.1,42.6 369.9,42.6V238.2z"></path></svg></button><button title="Laptop (1024)" data-width='1024'><svg viewBox="0 0 384 312" height="23" width="28" class="icon"><path d="m349.2,20.5c0,-11-9,-20-20,-20H53.6c-11,0-20,9-20,20v194H349.2v-194zm-27,167H60.6V27.5H322.2v160zm28,42H32.6L2.6,282.1c-3.5,6.2-3.5,13.8 0.1,19.9 3.6,6.2 10.2,9.9 17.3,9.9H363.1c7.1,0 13.7,-3.8 17.3,-10 3.6,-6.2 3.6,-13.8 0,-20l-30.2,-52.5zm-196.9,54 8,-23.5h60.5l8,23.5h-76.5z"></path></svg></button><button title="Tablet (768)" data-width='768'><svg viewBox="0 0 317 412" height="24" width="18" class="icon"><path d="M 316.5,380 V 32 c 0,-17.7 -14.3,-32 -32,-32 H 32 C 14.3,0 0,14.3 0,32 v 348 c 0,17.7 14.3,32 32,32 h 252.5 c 17.7,0 32,-14.3 32,-32 z M 40,367 V 45 H 276.5 V 367 H 40 z m 109.8,22.7 c 0,-4.7 3.8,-8.5 8.5,-8.5 4.7,0 8.5,3.8 8.5,8.5 0,4.7 -3.8,8.5 -8.5,8.5 -4.7,0 -8.5,-3.8 -8.5,-8.5 z"></path></svg></button><button title="Smart phone (320)" data-width='320'><svg viewBox="0 0 224 412" height="24" width="13" class="icon"><path d="M 190.7,0 H 33 C 14.8,0 0,14.8 0,33 v 346 c 0,18.2 14.8,33 33,33 h 157.7 c 18.2,0 33,-14.8 33,-33 V 33 c 0,-18.2 -14.8,-33 -33,-33 z M 94.3,30.2 h 37 c 2.2,0 4,1.8 4,4 0,2.2 -1.8,4 -4,4 h -37 c -2.2,0 -4,-1.8 -4,-4 0,-2.2 1.8,-4 4,-4 z m 18.5,362.8 c -8.8,0 -16,-7.2 -16,-16 0,-8.8 7.2,-16 16,-16 8.8,0 16,7.2 16,16 0,8.8 -7.2,16 -16,16 z M 198.6,343.8 H 25.1 V 68.2 h 173.5 v 275.5 z"></path></svg></button><button title="Feature phone (240)" data-width='240'><svg viewBox="0 0 201 412" height="24" width="12" class="icon"><path d="M 165.5,0.2 V 45 H 25 c -13.8,0 -25,11.2 -25,25 V 387 c 0,13.8 11.2,25 25,25 h 150.5 c 13.8,0 25,-11.2 25,-25 V 0.2 h -35 z M 65.2,366.5 H 34.2 v -24.5 h 31 v 24.5 z m 0,-44.3 H 34.2 v -24.5 h 31 v 24.5 z m 50.5,44.3 H 84.7 v -24.5 h 31 v 24.5 z m 0,-44.3 H 84.7 v -24.5 h 31 v 24.5 z m 50.5,44.3 h -31 v -24.5 h 31 v 24.5 z m 0,-44.3 h -31 v -24.5 h 31 v 24.5 z m 0,-59.3 h -132 V 95.4 h 132 V 262.9 z"></path></svg></button><button title="Auto (100%)" data-width="auto" class="auto is-active">Auto</button></div></div><script>(function(){var searchIndex=[{"title":"contact","filename":"sass/contact","url":"sass-contact.html"},{"title":"","filename":"sass/contact","url":"sass-contact.html#"},{"title":"projects","filename":"sass/projects","url":"sass-projects.html"},{"title":"Homepage: projects","filename":"sass/projects","url":"sass-projects.html#homepage-projects"},{"title":"Projects","filename":"sass/projects","url":"sass-projects.html#projects"},{"title":"typography","filename":"sass/typography","url":"sass-typography.html"},{"title":"Web fonts from Google","filename":"sass/typography","url":"sass-typography.html#web-fonts-from-google"},{"title":"Define font stacks","filename":"sass/typography","url":"sass-typography.html#define-font-stacks"},{"title":"Standardize line heights","filename":"sass/typography","url":"sass-typography.html#standardize-line-heights"},{"title":"Default typography","filename":"sass/typography","url":"sass-typography.html#default-typography"},{"title":"Paragraphs","filename":"sass/typography","url":"sass-typography.html#paragraphs"},{"title":"Headers","filename":"sass/typography","url":"sass-typography.html#headers"},{"title":"Emphasis","filename":"sass/typography","url":"sass-typography.html#emphasis"},{"title":"Lists","filename":"sass/typography","url":"sass-typography.html#lists"},{"title":"Paragraphs","filename":"sass/typography","url":"sass-typography.html#paragraphs"},{"title":"Links","filename":"sass/typography","url":"sass-typography.html#links"},{"title":"Arabic Typography","filename":"sass/typography","url":"sass-typography.html#arabic-typography"},{"title":"screen","filename":"sass/screen","url":"sass-screen.html"},{"title":"meedan-style","filename":"sass/screen","url":"sass-screen.html#meedanstyle"},{"title":"Page specific code: Apply the themes","filename":"sass/screen","url":"sass-screen.html#page-specific-code-apply-the-themes"}];// StyleDocco documentation user interface elements
 // ==================================================================
 // Dropdowns and search.
