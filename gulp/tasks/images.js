@@ -6,6 +6,30 @@ var parallel = require("concurrent-transform");
 var os = require("os");
 var svgstore = require('gulp-svgstore');
 var svgmin = require('gulp-svgmin');
+var favicons = require('gulp-favicons');
+var handleErrors = require('../util/handleErrors');
+
+// Favicon generation is not working yet: 
+//     400: could not publish request to the RealFaviconGenerator API.
+//
+// Which is described here:     
+// https://github.com/haydenbleasel/favicons/issues/36
+// 
+// gulp.task('resize-favicons', function () {
+//   gulp.src('./src/images/logos/meedan-logo.png')
+//     .pipe(favicons({
+//       settings: {
+//         vinylMode: true
+//       }
+//     }))
+//     .on('error', handleErrors)
+//     .pipe(gulp.dest('./www/images/favicons'));
+// });
+//
+gulp.task('move-favicons', function () {
+  gulp.src('src/images/favicons/*.ico')
+    .pipe(gulp.dest('./www/'))
+});
 
 gulp.task('resize-logos', function () {
   // SVG files get special handling
@@ -28,12 +52,6 @@ gulp.task('resize-logos', function () {
       width: 300
     })))
     .pipe(gulp.dest('www/images/1x/logos/'));
-});
-
-gulp.task('resize-favicons', function () {
-  // Favicons get special destination, no resizing
-  gulp.src('src/images/favicons/**/*.png')
-    .pipe(gulp.dest('www/'));
 });
 
 gulp.task('resize-team', function () {
@@ -80,5 +98,4 @@ gulp.task('resize-screenshots', function () {
 });
 
 // Summary resize-images tasks
-gulp.task('resize-images', ['resize-team', 'resize-banners', 'resize-logos', 'resize-screenshots']);
-gulp.task('images', ['resize-images']);
+gulp.task('images', ['resize-team', 'resize-banners', 'resize-logos', 'resize-screenshots', 'move-favicons']);
