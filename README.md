@@ -1,25 +1,47 @@
+# This is a build system for [meedan.com](http://meedan.com)
+
+This is an environment for fast, synchronized browser refreshing as you edit Sass, HTML and Javascript.
+
+## Overview
+
+0. Install the npm and node
+1. Install the build system (local and global npm modules)
+2. Run the default `gulp` task
+3. Edit .scss, .html and .js files, 
+
+## Our Tasks
+
+These are our gulp tasks (run `gulp -T` to see the latest).
+
+- documentation — builds the `./www/docs` from inline source comments in `./src/sass/`
+- images — resize several types of images in several ways from `./src/images/`
+- markup — render valid HTML markup from our templates from `./src/markup/`
+- misc — carry over some random files that don't fit elsewhere `./src/{misc}`
+- pagespeed — run a tough optimization test
+- sass — parse Sass into CSS, from `./src/sass` to `./www/css`
+- validate - check `./www/*.html` for validity
+- watch — do the things above _if the `src` files change_
+
+Each of these is a task in `./gulp/tasks`. Each uses a task syntax that assumes you are taking some files like .scss or .html files from a source directory and transforming them into something else. So for your files you have to define *where they are from* (`src`) and *where they go* (`dest`).
+
+It's a little different for images, sass, markup. Just defining paths for these things accounts for most of our build system. Most of our paths are defined in one place: `gulp/config.js`. Now is a good time to read it.
+
 ## Installing dependencies
 
-Most of the code we use is packaged with [NPM](https://www.npmjs.com/ "npm"). To get the build environment in place...
-
-Run this in your terminal in the top level of this directory: `make setup`
-
-This will hopefully:
+Most of the code we use is packaged with [NPM](https://www.npmjs.com/ "npm"). To get the build environment in place, run this in your terminal in the top level of this directory: `make setup`. This will hopefully:
 
   * install the `gulp` build tool
-  * install the `bower` javascript library tool (bower is like npm, but focussed on the browser)
-  * install the js libs listed in `package.json` to support the local gulp build environment
-  * install the js libs listed in `bower.json` to provide libraries for the browser
+  * install the `bower` package manager (bower is like npm or bundler)
+  * `npm install` the libs listed in `package.json` 
+  * `bower install` the libs listed in `bower.json`
 
-To see what's installed, read the makefile.
+To see what's installed, read the `./Makefile`.
 
-## Editing locally
+## Local development of meedan.com
 
-### Don't edit the files in `./www`
+*:warning: Don't edit the files in `./www`*
 
-To work on the HTML and Sass, edit the files in `./src`.  
-
-The files in `./src` are "built" using `gulp` and are "rendered" in `./www`
+To work on the HTML and Sass, edit the files in `./src` while `gulp` runs.
 
 `gulp`, a nodejs base task runner, watches files in `./src` and automatically updates `./www` when files in `./src` are saved. 
 
@@ -29,54 +51,49 @@ That will start the compiler for both the stylesheets ([Sass](sass-lang.com/)) a
 
 While the gulp compiler is running, edit the source files in `src/` and the web-ready files in `www` will be regenerated.
 
-## Installing the bower modules
+When you do `bower install` or ran the `make setup` script, some bower modules are installed directly from github:
 
-We install own own internal modules with bower:
+- `bower install --save-dev https://github.com/meedan/meedan-style.git`
+- `bower install --save-dev https://github.com/meedan/bridge-style.git`
+- `bower install --save-dev https://github.com/meedan/checkdesk-style.git`
 
-    `bower install --save-dev https://github.com/meedan/meedan-style.git`
-    `bower install --save-dev https://github.com/meedan/bridge-style.git`
-    `bower install --save-dev https://github.com/meedan/checkdesk-style.git`
+This takes advantage of the fact that bower modules can be installed without being registered in the bower repository.
 
-These "style" modules are collections of CSS (as Sass) that are version controlled and used on multiple projects.(On other projects we have done this will ruby gems and git submodules, but the bower CLI seems easier for the design team to use.) With this style we can use secret internal-only repositories and open source public repositories.
+These "style" modules are collections of CSS (as Sass) that are version controlled and used on multiple projects. 
 
-At this point none of the repos are public in the bower registry. If they seem useful to others, we might publish them in the future. For now we just have to use the full path the git repo containing a bower.json file. It seems like the simplest possible way to create a version-controlled dependency graph!
+On other projects we have done this will ruby gems and git submodules, but the bower CLI seems easier for the design team to use. With this style we can use both _top secret_ internal-only repositories *and* open source public repositories. Also, it's nice that bower works well with npm.
 
-## Optional: Processing images
+At this point none of the repos are public in the bower registry. If they seem useful to others, we might publish them in the future. For now we just have to use the full path the git repo containing a bower.json file.
 
-Before deployment sometimes you need to add new images and process them to optimize their resolution.
+## Running the images task
 
-We use a different gulp task for this: `gulp images`
-
-You'll need to have imagemagick or graphicsmagick installed. 
+Sometimes you need to add new images. For any images you add, you can process them to optimize their resolution, and automatically move them from `src` to `www`. We use a special gulp task for this: `gulp images`. You'll need to have imagemagick or graphicsmagick installed. 
 
 * On a Mac: `brew install imagemagick`
 * On Ubuntu: `apt-get install imagemagick`
 
 (You can confirm that ImageMagick is properly set up by executing `convert -help` in a terminal.)
 
-### Note about SVG
+## Working with SVG 
 
-SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason.
+SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. Unfortunately it seems SVG referenced in this way can not be styled by external CSS.
 
-Unfortunately SVG referenced in this way can not be styled by CSS.
-
-### Developing bower modules
+### Simultaneously developing the upstream bower modules
     
-This is an optional step, for those who want to be able to work into the bower modules from inside this project. Use the wonderful `bower link` command. 
+This is an optional step, for those who want to be able to work into the bower modules from inside this project: Use the wonderful `bower link` command. First you register a local name for a bower component in a repository locally. Then you can install it in another repository, and it uses the latest version of the code.
 
-With `bower link` you register a local name for a repository that lives locally. Then you can install it in another repository, and it uses the latest code. This is great for bower package maintainers. The alternative would be tedious, to publish new changes and pull them each time. This way lets you work on the child module in your parent project without changing contexts. 
+1. Type `bower link` in a "child module" that you have on your local machine. This tells bower to remember your local repo (like `bridge-style`) is a bower repo that is available to be used locally — as if it were registered in the bower registry under that name.
+2. Then you change directory to the "parent project" (like `./meedan.com`) and run `bower link bridge-style`. Now you can edit into `./meedan.com/bower_components/bridge-style` and see the live updates in your parent project without pushing them to the bridge-style repo and updating the child components.
+3. Release a new version of both the parent and child module: Change to the child repository and commit your changes. `bower version 0.x.x`, then push the latest tag to github: `git push --tags`. Similarly, release a new version of the parent project with the version number for the child repository updated in the bower.json.
 
-1. First get a copy of the bower components you want to work on: `git clone https://github.com/meedan/bridge-style.git` — that gives you a copy of the `bridge-style` bower component on your machine. 
-2. Then you run `bower link` inside that directory. This tells bower to remember your local `bridge-style` is a bower repo that is available to be used, as if it were registered in the bower registry.
-3. Then you change to the parent directory (like `meedan.com` where the bower.json file lives) and run `bower link bridge-style`.
+## Releasing new versions
 
-Result: you can edit into `bower_components/bridge-style` and see the live updates in your parent project without pushing them to the bridge-style repo and updating the child components.
+Use `git tag` and `git commit` in the [SemVer](http://semver.org/) style.
 
-When you make changes this way, be sure to update the version number in `bridge-style` so that other projects will get the latest when they `bower update`.
+When you push an update, try this bower command: `bower version 0.0.1`. (Use `git tag` to see previous tags.)
 
-## Deploying
+## Deploying meedan.com
 
 We host this site using [github pages](https://pages.github.com/). 
 
 To deploy the files from the www directory to the gh-pages branch first tag a release like `bower version 2.2.15` then do this awkward incantation: `git branch -D gh-pages && git subtree split --prefix www -b gh-pages && git push -f origin gh-pages:gh-pages --tags`. If that doesn't make sense, don't do it.
-

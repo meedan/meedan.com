@@ -30,7 +30,7 @@ module.exports = {
     src: [src + "/markup/*.html", src + "/markup/**/*.html"]
   },
   documentation: {
-    src: [src + "/**/*.scss", "./README.md"],
+    src: [src + "/**/*.scss", "./README.md", "./bower_components/**/*.scss"],
     dest: dest + "/docs"
   }
 };
