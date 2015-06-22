@@ -9,25 +9,6 @@ var svgmin = require('gulp-svgmin');
 var favicons = require('gulp-favicons');
 var handleErrors = require('../util/handleErrors');
 
-// Favicon generation is not working yet: 
-//     400: could not publish request to the RealFaviconGenerator API.
-//
-// Which is described here:     
-// https://github.com/haydenbleasel/favicons/issues/36
-// 
-// gulp.task('resize-favicons', function () {
-//   gulp.src('./src/images/logos/meedan-logo.png')
-//     .pipe(favicons({
-//       settings: {
-//         vinylMode: true
-//       }
-//     }))
-//     .on('error', handleErrors)
-//     .pipe(gulp.dest('./www/images/favicons'));
-// });
-//
-// For now I do it by hand with: `convert 16x16.png 32x32.png favicon.ico`
-//
 gulp.task('move-favicons', function () {
   gulp.src('src/images/favicons/*.ico')
     .pipe(gulp.dest('./www/'))
