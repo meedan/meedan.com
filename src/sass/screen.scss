@@ -44,10 +44,6 @@ section {
   @extend %section-defaults;
 }
 
-.logos {
-  @extend %logo-grid;
-}
-
 /// Component: Homepage latest news
 /// 
 /// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
