@@ -32,7 +32,7 @@ $logo-large-width: 250px;
   }
   .kf {
     svg, img {
-      width: 150px;
+      width: 200px;
     }
   }
   .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
@@ -46,4 +46,8 @@ $logo-large-width: 250px;
   .ng {
     margin-top: 10px;
   }
+}
+
+.logos {
+  @extend %logo-grid;
 }
