@@ -1,0 +1,49 @@
+/// Tile
+/// 
+/// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
+/// 
+/// Appears on several pages.
+///
+/// @example
+/// <div class="logos">
+///   <span><img src="http:///placehold.it/80x80" /></span>
+///   <span>2</span>
+///   <span>3</span>
+/// </div>
+
+$logo-small-width: 150px;
+$logo-large-width: 250px;
+
+%logo-grid {
+  @extend %flex-container;
+  @extend %flex-container-stacked-when-small;
+  a {
+    @extend %link-image;
+    padding: 1em;
+  }
+  img, svg {
+    max-width: $logo-small-width;
+    max-height: 50px;
+  }
+  .acm, .sida {
+    svg, img {
+      max-width: 100px;
+    }
+  }
+  .kf {
+    svg, img {
+      width: 150px;
+    }
+  }
+  .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
+    svg, img {
+      max-width: $logo-large-width;
+    }
+  }
+  .bc img {
+    max-height: 90px;
+  }
+  .ng {
+    margin-top: 10px;
+  }
+}

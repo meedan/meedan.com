@@ -1,94 +1,57 @@
-// # Reset and standardize
-// 
-// To get started we use [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css). This does a _reset_ on a few elements (eg. it adds `margin: 0` on the body element), but is mostly focused on _standardizing_ behavior across browsers.
-//
+/// Reset and standardize
+/// 
+/// To get started we use [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css). This does a _reset_ on a few elements (eg. it adds `margin: 0` on the body element), but is mostly focused on _standardizing_ behavior across browsers.
+///
 @import "normalize-scss/normalize";
 
-// # Foundational styles
-// 
-// These are the styles that we use on most Meedan projects. They live in their own version-controlled repository, meedan-style. Any style in meedan-style is available to all meedan projects. Only our best, most reusable work goes in this section. First you must `bower install meedan-style`. See `bower.json` to see which version is installed. See `bower_components` to see the Sass used.
-//
+/// Foundational styles
+/// 
+/// These are the styles that we use on most Meedan projects. They live in their own version-controlled repository, meedan-style. Any style in meedan-style is available to all meedan projects. Only our best, most reusable work goes in this section. First you must `bower install meedan-style`. See `bower.json` to see which version is installed. See `bower_components` to see the Sass used.
+///
 
 @import "meedan-style/layout";
 @import "meedan-style/colors";
 @import "meedan-style/forms";
 @import "meedan-style/animations";
 
-// # Responsive configuration
-// 
-// These are global styles that can be used to theme the app. Currently the setup is very simple. The breakpoint definitions are used in media queries. like `@media all and (max-width: $breakpoint) { .. styles for small screens  .. }`
-//
+/// Responsive configuration
+/// 
+/// These are global styles that can be used to theme the app. Currently the setup is very simple. The breakpoint definitions are used in media queries. like `@media all and (max-width: $breakpoint) { .. styles for small screens  .. }`
+///
 $breakpoint: 900px;
 
-// # Local styles
-//
-// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
-//
+/// Local styles
+///
+/// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
+///
 @import "typography";
 @import "contact";
 @import "projects";
+@import "branding";
+@import "logo-grid";
 
-// # Default sections
-// 
-// Section elements are the primary building blocks.
-// Each section should have a header.
-section {
+/// Section defaults
+/// 
+/// Section elements are the primary building blocks.
+/// Each section should have a header.
+%section-defaults {
   padding-bottom: 4em;
   width: 100%;
   overflow-x: hidden;
 }
 
-// # Component: branding
-// 
-// At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1. At smaller sizes the logo has a percent-based width. A vertical flex layout!
-//
-$logo-width: 200px;
-
-.branding {
-  @extend %flex-container;
-  flex-flow: column nowrap;
-  padding: 2em 1em 1em;
-  h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font: $font-stack--roboto;
-    animation: fadeIn 1.2s;
-  }
-  .splash {
-    max-width: 600px;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    width: 80%;
-    animation: fadeInUp 1.2s;
-  }
-  .slogan {
-    padding: 1em 0;
-    font-size: 1.25em;
-    animation: fadeIn 1.2s;
-  }
-  .about {
-    animation: fadeIn 2.5s;
-    padding: 2em 0;
-  }
-  .logo {
-    width: $logo-width;
-    animation: fadeIn 0.8s;
-    .bridge &, .checkdesk & {
-      width: 300px;
-    }
-  }
-  @media all and (max-width: $breakpoint) {
-    .logo {
-      max-width: $logo-width;
-      width: 70%;
-    }
-  }
+section {
+  @extend %section-defaults;
 }
 
-// # Component: Homepage latest news
-// 
-// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
-//
+.logos {
+  @extend %logo-grid;
+}
+
+/// Component: Homepage latest news
+/// 
+/// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
+///
 .home .latest {
   padding-bottom: 6em;
   .medium-channels {
@@ -103,61 +66,12 @@ $logo-width: 200px;
   }
 }
 
-// # Component: "Logos"
-// 
-// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
-// 
-// Appears on several pages.
-//
-//```
-// <div class=".logos">
-//   <span><img src="http://placehold.it/80x80" /></span>
-//   <span>2</span>
-//   <span>3</span>
-// </div>
-// ```
-// - Todo: needs a better name >_<
-// - Todo: fewer selectors for specific icons (preprocess the image to standardize dimensions some?)
-//
-
-$logo-small-width: 150px;
-$logo-large-width: 250px;
-
-.logos {
-  @extend %flex-container;
-  @extend %flex-container-stacked-when-small;
-  a {
-    @extend %link-image;
-    padding: 1em;
-  }
-  img, svg {
-    max-width: $logo-small-width;
-    max-height: 50px;
-  }
-  .acm {
-    svg, img {
-      max-width: 100px;
-    }
-  }
-  .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
-    svg, img {
-      max-width: $logo-large-width;
-    }
-  }
-  .bc img {
-    max-height: 90px;
-  }
-  .ng {
-    margin-top: 10px;
-  }
-}
-
-// # Homepage team grid component
-// 
-// We use breakpoints to control how many items wide it is.
-// 
-// This is another flex-based layout, similar to the logos component.
-//
+/// Homepage team grid component
+/// 
+/// We use breakpoints to control how many items wide it is.
+/// 
+/// This is another flex-based layout, similar to the logos component.
+///
 $item-width: 160px;
 
 .home .team ul {
@@ -201,9 +115,9 @@ $item-width: 160px;
   }
 }
 
-// # Explanation component
-// 
-// These are screenshots with with paragraphs of text. The amount of text is usually just one paragraph. There is a header for each screenshot and paragraph.
+/// Explanation component
+/// 
+/// These are screenshots with with paragraphs of text. The amount of text is usually just one paragraph. There is a header for each screenshot and paragraph.
 
 .bridge .explanations,
 .checkdesk .explanations {
@@ -238,8 +152,8 @@ $item-width: 160px;
   }
 }
 
-// # A page footer
-//
+/// A page footer
+///
 .footer {
   @extend section;
   background-color: $firefly90;
@@ -249,7 +163,7 @@ $item-width: 160px;
   }
 }
 
-// # Bridge page themes
+/// Bridge page themes
 %theme-portland-purple {
   .branding,
   .api,
@@ -264,10 +178,10 @@ $item-width: 160px;
   }
 }
 
-// # Photo frame component
-// 
-// A large image with text on top.
-//
+/// Photo frame component
+/// 
+/// A large image with text on top.
+///
 .home .photo-frame {
   background-color: $firefly90;
   background-image: url("../images/1x/banners/banner-2.jpg");
@@ -284,9 +198,9 @@ $item-width: 160px;
   text-shadow: 0 0 5px black;
 }
 
-// # Component: Language toggle
-// 
-// A navigational component. On some pages the content is available in more than one language.
+/// Component: Language toggle
+/// 
+/// A navigational component. On some pages the content is available in more than one language.
 nav.language-toggle {
   position: absolute;
   top: 0;
@@ -315,11 +229,11 @@ nav.language-toggle {
   }
 }
 
-// # Component: Sign up component
-// 
-// An important component on the bridge page, with a special design making it stand out more.
-// 
-// There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
+/// Component: Sign up component
+/// 
+/// An important component on the bridge page, with a special design making it stand out more.
+/// 
+/// There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
 .bridge .signup {
   color: rgba(white, 0.7);
   font-size: 0.8em;
@@ -358,7 +272,7 @@ nav.language-toggle {
     background-color: $checkdesk-yellow;
     color: white;
   }
-  // Inverted colors for some sections
+  /// Inverted colors for some sections
   .history,
   .github,
   .footer {
@@ -380,9 +294,9 @@ nav.language-toggle {
   }
 }
 
-// # Apply the themes
-// 
-// Each page has a class on the body element. We use that to apply the correct theme.
+/// Apply the themes
+/// 
+/// Each page has a class on the body element. We use that to apply the correct theme.
 body.home {
   background-color: white;
 }
@@ -395,10 +309,10 @@ body.checkdesk {
   @extend %theme-checkdesk-firefly;
 }
 
-// # Hax
-// ## Checkdesk form hack
-//
-//  For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
+/// Hax
+/// Checkdesk form hack
+///
+///  For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
 .checkdesk .form-group {
   font-size: 1.3em;
   input {
@@ -408,4 +322,8 @@ body.checkdesk {
 
 body.ar {
   direction: rtl;
+}
+
+.footer {
+  font-size: smaller;
 }

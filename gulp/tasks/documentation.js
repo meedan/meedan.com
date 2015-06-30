@@ -1,17 +1,22 @@
+var sassdoc = require('sassdoc');
 var gulp = require('gulp');
-var browserSync = require('browser-sync');
-var styledocco = require('gulp-styledocco');
 var config = require('../config');
-var handleErrors = require('../util/handleErrors');
+var pageres = require('pageres');
+
+var pageres = new pageres({
+    delay: 2
+  })
+  .src('meedan.com', ['480x320', '1024x768', 'iphone 5s'], {
+    crop: true
+  })
+  .src('meedan.com/checkdesk-en', ['1280x1024', '1920x1080'])
+  .dest('docs/screenshots');
 
 gulp.task('documentation', function () {
-  gulp.src(config.documentation.src)
-    .pipe(styledocco({
-      'out': config.documentation.dest,
-      'name': 'Meedan Style',
-      'no-minify': true
-    }))
-    .pipe(browserSync.reload({
-      stream: true
-    }))
+  pageres.run(function (err) {
+    console.log('Done screenshotting ...');
+  });
+
+  return gulp.src(config.sass.src)
+    .pipe(sassdoc(config.documentation.sassdocOptions));
 });

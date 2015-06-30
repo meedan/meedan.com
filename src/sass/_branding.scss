@@ -1,0 +1,54 @@
+/// Branding
+/// 
+/// At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1. At smaller sizes the logo has a percent-based width.
+$width--primary-logo: 200px;
+
+%section--branding {
+  @extend %flex-vertical;
+  padding: 2em 1em 1em;
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font: $font-stack--roboto;
+    animation: fadeIn 1.2s;
+  }
+  .screenshot {
+    max-width: 900px;
+    min-width: 500px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 80%;
+    margin: 0 auto;
+    animation: fadeInUp 1s;
+  }
+  .zoom {
+    top: 175px;
+    animation: fadeIn 2s;
+  }
+  .slogan {
+    padding: 1em 0;
+    font-size: 1.25em;
+    animation: fadeIn 1.2s;
+  }
+  .about {
+    animation: fadeIn 2.5s;
+    padding: 2em 0;
+  }
+  .logo {
+    width: $width--primary-logo;
+    animation: fadeIn 0.8s;
+    .bridge &, .checkdesk & {
+      width: 300px;
+    }
+  }
+  @media all and (max-width: $breakpoint) {
+    .logo {
+      max-width: $width--primary-logo;
+      width: 70%;
+    }
+  }
+}
+
+.branding {
+  @extend %section--branding;
+}
