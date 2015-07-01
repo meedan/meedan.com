@@ -11,11 +11,11 @@ var pageres = require('pageres');
 //   })
 //   .src('meedan.com/checkdesk-en', ['1280x1024', '1920x1080'])
 //   .dest('docs/screenshots');
-gulp.task('documentation', function () {
-  pageres.run(function (err) {
-    console.log('Done screenshotting ...');
-  });
 
+gulp.task('documentation', function () {
+  // pageres.run(function (err) {
+  //   console.log('Done screenshotting ...');
+  // });
   return gulp.src(config.sass.src)
     .pipe(sassdoc(config.documentation.sassdocOptions));
 });
