@@ -1,3 +1,8 @@
+////
+/// Meedan.com
+/// @author Chris Blow
+/// @group meedan-web
+
 /// Reset and standardize
 /// 
 /// To get started we use [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css). This does a _reset_ on a few elements (eg. it adds `margin: 0` on the body element), but is mostly focused on _standardizing_ behavior across browsers.
@@ -6,7 +11,8 @@
 
 /// Foundational styles
 /// 
-/// These are the styles that we use on most Meedan projects. They live in their own version-controlled repository, meedan-style. Any style in meedan-style is available to all meedan projects. Only our best, most reusable work goes in this section. First you must `bower install meedan-style`. See `bower.json` to see which version is installed. See `bower_components` to see the Sass used.
+/// These are the styles that we use on most Meedan projects. They live in their own version-controlled repository, meedan-style. Any style in meedan-style is available to all meedan projects. Only our best, most reusable work goes in this section. 
+/// First you must `bower install meedan-style`. See `bower.json` to see which version is installed. See `bower_components` to see the Sass used.
 ///
 
 @import "meedan-style/layout";
@@ -159,6 +165,7 @@ $item-width: 160px;
 }
 
 /// Bridge page themes
+/// @group meedan-web-themes
 %theme-portland-purple {
   .branding,
   .api,
@@ -176,7 +183,7 @@ $item-width: 160px;
 /// Photo frame component
 /// 
 /// A large image with text on top.
-///
+/// @group meedan-web-components
 .home .photo-frame {
   background-color: $firefly90;
   background-image: url("../images/1x/banners/banner-2.jpg");
@@ -224,11 +231,9 @@ nav.language-toggle {
   }
 }
 
-/// Component: Sign up component
+/// Component: Sign up
 /// 
-/// An important component on the bridge page, with a special design making it stand out more.
-/// 
-/// There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
+/// An important component on the bridge page, with a special design making it stand out more. There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
 .bridge .signup {
   color: rgba(white, 0.7);
   font-size: 0.8em;
@@ -255,6 +260,8 @@ nav.language-toggle {
   @include linkUnderlines($portland-purple, white);
 }
 
+/// Checkdesk Firefly Theme and ARK
+/// @group meedan-web-themes
 %theme-checkdesk-firefly {
   .explanations {
     background-color: white;
@@ -289,27 +296,10 @@ nav.language-toggle {
   }
 }
 
-/// Apply the themes
-/// 
-/// Each page has a class on the body element. We use that to apply the correct theme.
-body.home {
-  background-color: white;
-}
-
-body.bridge {
-  @extend %theme-portland-purple;
-}
-
-.branding .screenshot {}
-
-body.checkdesk {
-  @extend %theme-checkdesk-firefly;
-}
-
 /// Hax
 /// Checkdesk form hack
 ///
-///  For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
+///  @TODO For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
 .checkdesk .form-group {
   font-size: 1.3em;
   input {
@@ -323,4 +313,18 @@ body.ar {
 
 .footer {
   font-size: smaller;
+}
+
+body.home {
+  background-color: white;
+}
+
+body.bridge {
+  @extend %theme-portland-purple;
+}
+
+.branding .screenshot {}
+
+body.checkdesk {
+  @extend %theme-checkdesk-firefly;
 }
