@@ -1,22 +1,23 @@
-/// Tile
+/// Logo Grid Configuration
+/// @example 
+///     img { max-width: $logo-small-width; }
+$logo-small-width: 150px;
+
+/// Logo Grid Configuration
+/// @example 
+///     img { max-width: $logo-small-width; }
+$logo-large-width: 250px;
+
+/// Logo Grid
 /// 
-/// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
-/// 
+/// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. 
 /// Appears on several pages.
 ///
 /// @example - logo grid
-/// <div class="logos">
-///   <span><img src="http:///placehold.it/80x80" /></span>
-///   <span>2</span>
-///   <span>3</span>
-/// </div>
+///      @@include('../_team.html')
 /// 
 /// @author Chris Blow
 /// @group meedan-web
-
-$logo-small-width: 150px;
-$logo-large-width: 250px;
-
 %logo-grid {
   @extend %flex-container;
   @extend %flex-container-stacked-when-small;

@@ -1,13 +1,41 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>Meedan-home - v2.2.0</title><link rel="stylesheet" href="assets/css/main.css"><link href="http://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="Meedan-home - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="<p>the meedan homepage</p>
-"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">Meedan-home - 2.2.0</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="meedan-web"><a href="#meedan-web">meedan-web</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="meedan-web-variable"><a href="#meedan-web-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="width--primary-logo" data-type="variable"><a href="#variable-width--primary-logo">width--primary-logo</a></li><li class="sidebar__item sassdoc__item" data-name="logo-small-width" data-type="variable"><a href="#variable-logo-small-width">logo-small-width</a></li><li class="sidebar__item sassdoc__item" data-name="breakpoint" data-type="variable"><a href="#variable-breakpoint">breakpoint</a></li><li class="sidebar__item sassdoc__item" data-name="item-width" data-type="variable"><a href="#variable-item-width">item-width</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="meedan-web-placeholder"><a href="#meedan-web-placeholder">placeholders</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="section-defaults" data-type="placeholder"><a href="#placeholder-section-defaults">section-defaults</a></li></ul></div><p class="sidebar__item sidebar__item--heading" data-slug="meedan-web-themes"><a href="#meedan-web-themes">meedan-web-themes</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="meedan-web-themes-placeholder"><a href="#meedan-web-themes-placeholder">placeholders</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="theme-portland-purple" data-type="placeholder"><a href="#placeholder-theme-portland-purple">theme-portland-purple</a></li><li class="sidebar__item sassdoc__item" data-name="theme-checkdesk-firefly" data-type="placeholder"><a href="#placeholder-theme-checkdesk-firefly">theme-checkdesk-firefly</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="meedan-web"><div class="container">meedan-web</div></h1><section class="main__sub-section" id="meedan-web-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="variable-width--primary-logo"><h3 class="item__heading"><a class="item__name" href="#variable-width--primary-logo">width--primary-logo</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$width--primary-logo: 200px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Branding</p><p>At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1. At smaller sizes the logo has a percent-based width.</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section><section class="main__item container item" id="variable-logo-small-width"><h3 class="item__heading"><a class="item__name" href="#variable-logo-small-width">logo-small-width</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$logo-small-width: 150px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Tile</p><p>A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.</p><p>Appears on several pages.</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>grid</p></div><pre class="example__code language-logo"><code>&lt;div class=&quot;logos&quot;&gt;
-  &lt;span&gt;&lt;img src=&quot;http:placehold.it/80x80&quot; /&gt;&lt;/span&gt;
-  &lt;span&gt;2&lt;/span&gt;
-  &lt;span&gt;3&lt;/span&gt;
-&lt;/div&gt;</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section><section class="main__item container item" id="variable-breakpoint"><h3 class="item__heading"><a class="item__name" href="#variable-breakpoint">breakpoint</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$breakpoint: 900px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Responsive configuration</p><p>These are global styles that can be used to theme the app. Currently the setup is very simple. The breakpoint definitions are used in media queries. like <code>@media all and (max-width: $breakpoint) { .. styles for small screens .. }</code></p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section><section class="main__item container item" id="variable-item-width"><h3 class="item__heading"><a class="item__name" href="#variable-item-width">item-width</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$item-width: 160px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Homepage team grid component</p><p>We use breakpoints to control how many items wide it is.</p><p>This is another flex-based layout, similar to the logos component.</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section></section><section class="main__sub-section" id="meedan-web-placeholder"><h2 class="main__heading--secondary"><div class="container">placeholders</div></h2><section class="main__item container item" id="placeholder-section-defaults"><h3 class="item__heading"><a class="item__name" href="#placeholder-section-defaults">section-defaults</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="%section-defaults { 
+"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">Meedan-home - 2.2.0</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="meedan-style"><a href="#meedan-style">meedan-style</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="meedan-style-placeholder"><a href="#meedan-style-placeholder">placeholders</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="section-defaults" data-type="placeholder"><a href="#placeholder-section-defaults">section-defaults</a></li></ul></div><p class="sidebar__item sidebar__item--heading" data-slug="meedan-web"><a href="#meedan-web">meedan-web</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="meedan-web-placeholder"><a href="#meedan-web-placeholder">placeholders</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="logo-grid" data-type="placeholder"><a href="#placeholder-logo-grid">logo-grid</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="meedan-web-variable"><a href="#meedan-web-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="breakpoint" data-type="variable"><a href="#variable-breakpoint">breakpoint</a></li><li class="sidebar__item sassdoc__item" data-name="item-width" data-type="variable"><a href="#variable-item-width">item-width</a></li></ul></div><p class="sidebar__item sidebar__item--heading" data-slug="meedan-web-themes"><a href="#meedan-web-themes">meedan-web-themes</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="meedan-web-themes-placeholder"><a href="#meedan-web-themes-placeholder">placeholders</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="theme-portland-purple" data-type="placeholder"><a href="#placeholder-theme-portland-purple">theme-portland-purple</a></li><li class="sidebar__item sassdoc__item" data-name="theme-checkdesk-firefly" data-type="placeholder"><a href="#placeholder-theme-checkdesk-firefly">theme-checkdesk-firefly</a></li></ul></div><p class="sidebar__item sidebar__item--heading" data-slug="undefined"><a href="#undefined">General</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-variable"><a href="#undefined-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="width--primary-logo" data-type="variable"><a href="#variable-width--primary-logo">width--primary-logo</a></li><li class="sidebar__item sassdoc__item" data-name="logo-small-width" data-type="variable"><a href="#variable-logo-small-width">logo-small-width</a></li><li class="sidebar__item sassdoc__item" data-name="logo-large-width" data-type="variable"><a href="#variable-logo-large-width">logo-large-width</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-placeholder"><a href="#undefined-placeholder">placeholders</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="section-contact" data-type="placeholder"><a href="#placeholder-section-contact">section-contact</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="meedan-style"><div class="container">meedan-style</div></h1><section class="main__sub-section" id="meedan-style-placeholder"><h2 class="main__heading--secondary"><div class="container">placeholders</div></h2><section class="main__item container item" id="placeholder-section-defaults"><h3 class="item__heading"><a class="item__name" href="#placeholder-section-defaults">section-defaults</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="%section-defaults { 
   padding-bottom: 4em;
   width: 100%;
   overflow-x: hidden;
- }" data-collapsed="%section-defaults { ... }"><code>%section-defaults { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Section defaults</p><p>Section elements are the primary building blocks. Each section should have a header.</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section></section></section><section class="main__section"><h1 class="main__heading" id="meedan-web-themes"><div class="container">meedan-web-themes</div></h1><section class="main__sub-section" id="meedan-web-themes-placeholder"><h2 class="main__heading--secondary"><div class="container">placeholders</div></h2><section class="main__item container item" id="placeholder-theme-portland-purple"><h3 class="item__heading"><a class="item__name" href="#placeholder-theme-portland-purple">theme-portland-purple</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="%theme-portland-purple { 
+ }" data-collapsed="%section-defaults { ... }"><code>%section-defaults { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Section defaults</p><p>Section elements are the primary building blocks. Each section should have a header.</p></div></section></section></section><section class="main__section"><h1 class="main__heading" id="meedan-web"><div class="container">meedan-web</div></h1><section class="main__sub-section" id="meedan-web-placeholder"><h2 class="main__heading--secondary"><div class="container">placeholders</div></h2><section class="main__item container item" id="placeholder-logo-grid"><h3 class="item__heading"><a class="item__name" href="#placeholder-logo-grid">logo-grid</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="%logo-grid { 
+  @extend %flex-container;
+  @extend %flex-container-stacked-when-small;
+  a {
+    @extend %link-image;
+    padding: 1em;
+  }
+  img, svg {
+    max-width: $logo-small-width;
+    max-height: 50px;
+  }
+  .acm, .sida {
+    svg, img {
+      max-width: 100px;
+    }
+  }
+  .kf {
+    svg, img {
+      width: 250px;
+    }
+  }
+  .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
+    svg, img {
+      max-width: $logo-large-width;
+    }
+  }
+  .bc img {
+    max-height: 90px;
+  }
+  .ng {
+    margin-top: 10px;
+  }
+ }" data-collapsed="%logo-grid { ... }"><code>%logo-grid { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Logo Grid</p><p>A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>grid</p></div><pre class="example__code language-logo"><code>@@include(&#39;../_team.html&#39;)</code></pre></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#variable-logo-small-width"><code>logo-small-width</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#variable-logo-large-width"><code>logo-large-width</code></a></li></ul><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section></section><section class="main__sub-section" id="meedan-web-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="variable-breakpoint"><h3 class="item__heading"><a class="item__name" href="#variable-breakpoint">breakpoint</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$breakpoint: 900px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Responsive configuration</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>breakpoint using $breakpoint as a max-width</p></div><pre class="example__code language-responsive"><code>@media all and (max-width: $breakpoint) { .. styles for small screens  .. }</code></pre></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[placeholder]</span> <a href="#placeholder-section-contact"><code>section-contact</code></a></li></ul><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section><section class="main__item container item" id="variable-item-width"><h3 class="item__heading"><a class="item__name" href="#variable-item-width">item-width</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$item-width: 160px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Homepage team grid</p><p>We use breakpoints to control how many items wide it is.</p><p>This is another flex-based layout, similar to the logos component.</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section></section></section><section class="main__section"><h1 class="main__heading" id="meedan-web-themes"><div class="container">meedan-web-themes</div></h1><section class="main__sub-section" id="meedan-web-themes-placeholder"><h2 class="main__heading--secondary"><div class="container">placeholders</div></h2><section class="main__item container item" id="placeholder-theme-portland-purple"><h3 class="item__heading"><a class="item__name" href="#placeholder-theme-portland-purple">theme-portland-purple</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="%theme-portland-purple { 
   .branding,
   .api,
   .history,
@@ -51,4 +79,78 @@
   .partners {
     background-color: white;
   }
- }" data-collapsed="%theme-checkdesk-firefly { ... }"><code>%theme-checkdesk-firefly { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Checkdesk Firefly Theme and ARK</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --><span class="project-info__name">Meedan-home</span><!-- Version --> <span class="project-info__version">- v2.2.0</span><!-- License --> <span class="project-info__license">, under MIT</span></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>
+ }" data-collapsed="%theme-checkdesk-firefly { ... }"><code>%theme-checkdesk-firefly { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Checkdesk Firefly Theme and ARK</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Chris Blow</p></li></ul></section></section></section><section class="main__section"><h1 class="main__heading" id="undefined"><div class="container">General</div></h1><section class="main__sub-section" id="undefined-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="variable-width--primary-logo"><h3 class="item__heading"><a class="item__name" href="#variable-width--primary-logo">width--primary-logo</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$width--primary-logo: 200px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Primary logo width</p></div></section><section class="main__item container item" id="variable-logo-small-width"><h3 class="item__heading"><a class="item__name" href="#variable-logo-small-width">logo-small-width</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$logo-small-width: 150px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Logo Grid Configuration</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><pre class="example__code language-scss"><code>img { max-width: $logo-small-width; }</code></pre></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[placeholder]</span> <a href="#placeholder-logo-grid"><code>logo-grid</code></a></li></ul></section><section class="main__item container item" id="variable-logo-large-width"><h3 class="item__heading"><a class="item__name" href="#variable-logo-large-width">logo-large-width</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$logo-large-width: 250px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Logo Grid Configuration</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><pre class="example__code language-scss"><code>img { max-width: $logo-small-width; }</code></pre></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[placeholder]</span> <a href="#placeholder-logo-grid"><code>logo-grid</code></a></li></ul></section></section><section class="main__sub-section" id="undefined-placeholder"><h2 class="main__heading--secondary"><div class="container">placeholders</div></h2><section class="main__item container item" id="placeholder-section-contact"><h3 class="item__heading"><a class="item__name" href="#placeholder-section-contact">section-contact</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="%section-contact { 
+  background: rgba($firefly80, 1);
+  color: $firefly10;
+  li {
+    display: inline-block;
+    vertical-align: top;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .contact--visit {
+    .locations li {
+      clear: none;
+      font-family: $font-stack--roboto;
+      height: 12em;
+      @media all and (min-width: $breakpoint) {
+        width: 33%;
+      }
+      h4 {
+        font-size: 0.8em;
+        font-weight: 100;
+        margin: 1em;
+      }
+      p {
+        filter: opacity(0.7);
+        font-size: 0.8em;
+        font-weight: 100;
+        margin: 0 auto;
+      }
+    }
+  }
+  .contact--call,
+  .contact--write {
+    a {
+      font-size: 1.6em;
+      border: 1px solid rgba(white, 0.5);
+      padding: 1em 0.8em;
+      color: rgba(white, 0.8);
+      display: block;
+      font-family: $font-stack--roboto;
+      font-weight: 100;
+      transition: 0.6s;
+      text-decoration: none;
+      &amp;:hover {
+        color: rgba(white, 1);
+        border-color: rgba(white, 1);
+        transition: 0s;
+        background-color: rgba($firefly2, 0.1);
+        transition: 0.3s;
+      }
+      @media all and (max-width: $breakpoint) {
+        font-size: 1em;
+      }
+    }
+  }
+  .contact--social-media {
+    columns: 100% 4;
+    margin: 2em 0 0;
+    padding: 0;
+    transition: 200ms;
+    width: 100%;
+    a {
+      text-decoration: none;
+      border-bottom: none;
+      transition: 0.5s;
+      &amp;:hover {
+        filter: opacity(0.7);
+      }
+      svg {
+        width: 80px;
+      }
+    }
+  }
+ }" data-collapsed="%section-contact { ... }"><code>%section-contact { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Contact section</p><p>Containing --call, --visit, --write and --social-media</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#variable-breakpoint"><code>breakpoint</code></a></li></ul></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --><span class="project-info__name">Meedan-home</span><!-- Version --> <span class="project-info__version">- v2.2.0</span><!-- License --> <span class="project-info__license">, under MIT</span></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>

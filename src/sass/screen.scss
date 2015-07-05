@@ -2,19 +2,8 @@
 /// Meedan.com
 /// @author Chris Blow
 /// @group meedan-web
-
-/// Reset and standardize
-/// 
-/// To get started we use [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css). This does a _reset_ on a few elements (eg. it adds `margin: 0` on the body element), but is mostly focused on _standardizing_ behavior across browsers.
 ///
 @import "normalize-scss/normalize";
-
-/// Foundational styles
-/// 
-/// These are the styles that we use on most Meedan projects. They live in their own version-controlled repository, meedan-style. Any style in meedan-style is available to all meedan projects. Only our best, most reusable work goes in this section. 
-/// First you must `bower install meedan-style`. See `bower.json` to see which version is installed. See `bower_components` to see the Sass used.
-///
-
 @import "meedan-style/layout";
 @import "meedan-style/colors";
 @import "meedan-style/forms";
@@ -22,7 +11,8 @@
 
 /// Responsive configuration
 /// 
-/// These are global styles that can be used to theme the app. Currently the setup is very simple. The breakpoint definitions are used in media queries. like `@media all and (max-width: $breakpoint) { .. styles for small screens  .. }`
+/// @example - responsive breakpoint using $breakpoint as a max-width
+///     @media all and (max-width: $breakpoint) { .. styles for small screens  .. }
 ///
 $breakpoint: 900px;
 
@@ -35,16 +25,6 @@ $breakpoint: 900px;
 @import "projects";
 @import "branding";
 @import "logo-grid";
-
-/// Section defaults
-/// 
-/// Section elements are the primary building blocks.
-/// Each section should have a header.
-%section-defaults {
-  padding-bottom: 4em;
-  width: 100%;
-  overflow-x: hidden;
-}
 
 section {
   @extend %section-defaults;
@@ -68,15 +48,14 @@ section {
   }
 }
 
-/// Homepage team grid component
+/// Homepage team grid 
 /// 
 /// We use breakpoints to control how many items wide it is.
 /// 
 /// This is another flex-based layout, similar to the logos component.
-///
 $item-width: 160px;
 
-.home .team ul {
+%layout--home-team {
   @extend %flex-container;
   margin: 0 auto;
   @media (max-width: $item-width * 2) {
@@ -115,6 +94,10 @@ $item-width: 160px;
     width: 100%;
     filter: sepia(25%);
   }
+}
+
+.home .team ul {
+  @extend %layout--home-team;
 }
 
 /// Explanation component
