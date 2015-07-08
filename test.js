@@ -1,5 +1,7 @@
-var localhostURL = "localhost:3001";
+var localhostURL = "http://localhost:3000";
 var defaultCheckdeskPage = /checkdesk-en/;
+var arabicCheckdeskPage = /checkdesk-ar/;
+
 
 // Sanity
 // 
@@ -16,11 +18,15 @@ casper.test.begin('home page loads', 1, function suite(test) {
   });
 });
 
+
 // Test redirection
 // 
 casper.test.begin('/checkdesk redirects to a default language-specific page', 2, function suite(test) {
   casper.start(localhostURL + "/checkdesk", function () {
-    test.assertUrlMatch(defaultCheckdeskPage, "Redirected to the language-specific page (En).");
+    this.wait(2000,function(){
+       this.echo("waited for 2 seconds");
+       test.assertUrlMatch(defaultCheckdeskPage, "Redirected to the language-specific page (En).");
+    });
   });
   casper.then(function () {
     test.assertExists('body.checkdesk', "Main checkdesk body class exists.");
