@@ -32,17 +32,5 @@ module.exports = {
   tests: {
     dest: dest,
     src: ["test.js"]
-  },
-  documentation: {
-    src: [src + "/**/*.scss", "./README.md", "./bower_components/**/*.scss"],
-    dest: dest + "/docs",
-    sassdocOptions: {
-      dest: dest + "/docs",
-      verbose: true,
-      display: {
-        access: ['public', 'private'],
-        alias: true
-      }
-    }
   }
 };
