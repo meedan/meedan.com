@@ -114,7 +114,7 @@ There are integration tests operated by [casperjs](http://casperjs.org/ "CasperJ
 
 Note that we use slimerjs instead of phantomjs (for better redirection support as of July 2015).
 
-To run the tests make sure you have 
+To run the tests make sure you:
 
 - install standalone global casper and slimerjs executables, for example on a mac with homebrew: `brew install casperjs slimerjs`
 - run the tests with `gulp test`
