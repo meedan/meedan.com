@@ -2,6 +2,7 @@
 /// Meedan.com
 /// @author Chris Blow
 /// @group meedan-web
+/// @todo move more things to meedan-style
 ///
 @import "normalize-scss/normalize";
 @import "meedan-style/layout";
@@ -48,13 +49,13 @@ section {
   }
 }
 
+$item-width: 160px;
+
 /// Homepage team grid 
 /// 
 /// We use breakpoints to control how many items wide it is.
 /// 
 /// This is another flex-based layout, similar to the logos component.
-$item-width: 160px;
-
 %layout--home-team {
   @extend %flex-container;
   margin: 0 auto;
@@ -167,7 +168,8 @@ $item-width: 160px;
 /// 
 /// A large image with text on top.
 /// @group meedan-web-components
-.home .photo-frame {
+///
+%photo-frame {
   background-color: $firefly90;
   background-image: url("../images/1x/banners/banner-2.jpg");
   background-position: 50%;
@@ -181,6 +183,10 @@ $item-width: 160px;
   color: white;
   padding: 4em 0;
   text-shadow: 0 0 5px black;
+}
+
+.home .photo-frame {
+  @extend %photo-frame;
 }
 
 /// Component: Language toggle
@@ -279,10 +285,10 @@ nav.language-toggle {
   }
 }
 
-/// Hax
-/// Checkdesk form hack
-///
-///  @TODO For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
+// Hax
+// Checkdesk form hack
+//
+//  @TODO For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
 .checkdesk .form-group {
   font-size: 1.3em;
   input {

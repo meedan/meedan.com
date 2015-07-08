@@ -29,6 +29,10 @@ module.exports = {
     dest: dest,
     src: [src + "/markup/*.html", src + "/markup/**/*.html"]
   },
+  tests: {
+    dest: dest,
+    src: ["test.js"]
+  },
   documentation: {
     src: [src + "/**/*.scss", "./README.md", "./bower_components/**/*.scss"],
     dest: dest + "/docs",

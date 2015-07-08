@@ -10,15 +10,13 @@ $font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-se
 $font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
 
-/* # Standardize line heights */
+// Standardize line heights
 $line-height--small: 1.2;
 $line-height--medium: 1.5;
 $line-height--large: 1.65;
 $line-height--xlarge: 1.85;
 
-/* # Default typography
-*/
-
+// Default typography
 body {
   color: $firefly80;
   font-family: $font-stack--open-sans;

@@ -10,8 +10,7 @@ $logo-large-width: 250px;
 
 /// Logo Grid
 /// 
-/// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. 
-/// Appears on several pages.
+/// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
 ///
 /// @example - logo grid
 ///      @@include('../_team.html')
@@ -36,7 +35,7 @@ $logo-large-width: 250px;
   }
   .kf {
     svg, img {
-      width: 250px;
+      width: $logo-large-width;
     }
   }
   .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
