@@ -106,3 +106,15 @@ To deploy the files from the www directory to the gh-pages branch first tag a re
 - Then we import sass components from meedan-style — these are shared by various Meedan projects. They live in their own [public version-controlled repository](github.com/meedan/meedan-style). Any style in meedan-style is available to all Meedan projects. Only our best, most reusable work goes in this section. 
 - Each of the components is documented with [SassDoc](https://github.com/SassDoc/sassdoc). 
 - To render the docs, run the server with`gulp` and visit /docs.
+
+
+## Casper Tests
+
+There are integration tests operated by [casperjs](http://casperjs.org/ "CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS").  
+
+Note that we use slimerjs instead of phantomjs (for better redirection support as of July 2015).
+
+To run the tests make sure you have 
+
+- install standalone global casper and slimerjs executables, for example on a mac with homebrew: `brew install casperjs slimerjs`
+- run the tests with `gulp test`
