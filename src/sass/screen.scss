@@ -1,14 +1,10 @@
-/// Reset and standardize
-/// 
-/// To get started we use [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css). This does a _reset_ on a few elements (eg. it adds `margin: 0` on the body element), but is mostly focused on _standardizing_ behavior across browsers.
+////
+/// Meedan.com
+/// @author Chris Blow
+/// @group meedan-web
+/// @todo move more things to meedan-style
 ///
 @import "normalize-scss/normalize";
-
-/// Foundational styles
-/// 
-/// These are the styles that we use on most Meedan projects. They live in their own version-controlled repository, meedan-style. Any style in meedan-style is available to all meedan projects. Only our best, most reusable work goes in this section. First you must `bower install meedan-style`. See `bower.json` to see which version is installed. See `bower_components` to see the Sass used.
-///
-
 @import "meedan-style/layout";
 @import "meedan-style/colors";
 @import "meedan-style/forms";
@@ -16,7 +12,8 @@
 
 /// Responsive configuration
 /// 
-/// These are global styles that can be used to theme the app. Currently the setup is very simple. The breakpoint definitions are used in media queries. like `@media all and (max-width: $breakpoint) { .. styles for small screens  .. }`
+/// @example - responsive breakpoint using $breakpoint as a max-width
+///     @media all and (max-width: $breakpoint) { .. styles for small screens  .. }
 ///
 $breakpoint: 900px;
 
@@ -29,16 +26,6 @@ $breakpoint: 900px;
 @import "projects";
 @import "branding";
 @import "logo-grid";
-
-/// Section defaults
-/// 
-/// Section elements are the primary building blocks.
-/// Each section should have a header.
-%section-defaults {
-  padding-bottom: 4em;
-  width: 100%;
-  overflow-x: hidden;
-}
 
 section {
   @extend %section-defaults;
@@ -62,15 +49,14 @@ section {
   }
 }
 
-/// Homepage team grid component
+$item-width: 160px;
+
+/// Homepage team grid 
 /// 
 /// We use breakpoints to control how many items wide it is.
 /// 
 /// This is another flex-based layout, similar to the logos component.
-///
-$item-width: 160px;
-
-.home .team ul {
+%layout--home-team {
   @extend %flex-container;
   margin: 0 auto;
   @media (max-width: $item-width * 2) {
@@ -109,6 +95,10 @@ $item-width: 160px;
     width: 100%;
     filter: sepia(25%);
   }
+}
+
+.home .team ul {
+  @extend %layout--home-team;
 }
 
 /// Explanation component
@@ -159,6 +149,7 @@ $item-width: 160px;
 }
 
 /// Bridge page themes
+/// @group meedan-web-themes
 %theme-portland-purple {
   .branding,
   .api,
@@ -176,8 +167,9 @@ $item-width: 160px;
 /// Photo frame component
 /// 
 /// A large image with text on top.
+/// @group meedan-web-components
 ///
-.home .photo-frame {
+%photo-frame {
   background-color: $firefly90;
   background-image: url("../images/1x/banners/banner-2.jpg");
   background-position: 50%;
@@ -191,6 +183,10 @@ $item-width: 160px;
   color: white;
   padding: 4em 0;
   text-shadow: 0 0 5px black;
+}
+
+.home .photo-frame {
+  @extend %photo-frame;
 }
 
 /// Component: Language toggle
@@ -224,11 +220,9 @@ nav.language-toggle {
   }
 }
 
-/// Component: Sign up component
+/// Component: Sign up
 /// 
-/// An important component on the bridge page, with a special design making it stand out more.
-/// 
-/// There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
+/// An important component on the bridge page, with a special design making it stand out more. There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
 .bridge .signup {
   color: rgba(white, 0.7);
   font-size: 0.8em;
@@ -255,6 +249,8 @@ nav.language-toggle {
   @include linkUnderlines($portland-purple, white);
 }
 
+/// Checkdesk Firefly Theme and ARK
+/// @group meedan-web-themes
 %theme-checkdesk-firefly {
   .explanations {
     background-color: white;
@@ -289,27 +285,10 @@ nav.language-toggle {
   }
 }
 
-/// Apply the themes
-/// 
-/// Each page has a class on the body element. We use that to apply the correct theme.
-body.home {
-  background-color: white;
-}
-
-body.bridge {
-  @extend %theme-portland-purple;
-}
-
-.branding .screenshot {}
-
-body.checkdesk {
-  @extend %theme-checkdesk-firefly;
-}
-
-/// Hax
-/// Checkdesk form hack
-///
-///  For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
+// Hax
+// Checkdesk form hack
+//
+//  @TODO For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
 .checkdesk .form-group {
   font-size: 1.3em;
   input {
@@ -323,4 +302,18 @@ body.ar {
 
 .footer {
   font-size: smaller;
+}
+
+body.home {
+  background-color: white;
+}
+
+body.bridge {
+  @extend %theme-portland-purple;
+}
+
+.branding .screenshot {}
+
+body.checkdesk {
+  @extend %theme-checkdesk-firefly;
 }

@@ -1,6 +1,6 @@
-var gulp    = require('gulp');
+var gulp = require('gulp');
 var changed = require('gulp-changed');
-var config  = require('../config');
+var config = require('../config');
 
 gulp.task('misc', function () {
   gulp.src(config.misc.src)
