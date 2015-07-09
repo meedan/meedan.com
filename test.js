@@ -23,8 +23,8 @@ casper.test.begin('home page loads', 1, function suite(test) {
 casper.test.begin('/checkdesk redirects to a default language-specific page', 2, function suite(test) {
   casper.start(localhostURL + "/checkdesk", function () {
     this.wait(2000,function(){
-       this.echo("waited for 2 seconds");
-       test.assertUrlMatch(defaultCheckdeskPage, "Redirected to the language-specific page (En).");
+      this.echo("waited for 2 seconds");
+      test.assertUrlMatch(defaultCheckdeskPage, "Redirected to the language-specific page (En).");
     });
   });
   casper.then(function () {
@@ -38,11 +38,12 @@ casper.test.begin('/checkdesk redirects to a default language-specific page', 2,
 
 // Test RTL element
 // 
-casper.test.begin('/checkdesk arabic has rtl', 0, function suite(test) {
+casper.test.begin('/checkdesk arabic has rtl', 1, function suite(test) {
   casper.start(localhostURL+"/checkdesk-ar/", function () {
-    this.wait(2000,function(){
-       this.echo("waited for 2 seconds");
-       require('utils').dump(this.getElementAttribute('html[dir="rtl"]','dir'));
+    this.wait(1000,function(){
+      this.echo("waited for 1 seconds");
+      var dump = require('utils').dump;
+      test.assertMatch(this.getElementAttribute('html', 'dir'), /^rtl$/i);
     });
   });
 
