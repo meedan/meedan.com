@@ -118,3 +118,7 @@ To run the tests make sure you:
 
 - install standalone global casper and slimerjs executables, for example on a mac with homebrew: `brew install casperjs slimerjs`
 - run the tests with `gulp test`
+
+## Pushy Pushy
+
+when the repo gets updated on github, an automatic build and deployment of meedan-com.dev.meedan.com is triggered
