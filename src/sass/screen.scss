@@ -11,7 +11,7 @@
 @import "meedan-style/animations";
 
 /// Responsive configuration
-/// 
+///
 /// @example - responsive breakpoint using $breakpoint as a max-width
 ///     @media all and (max-width: $breakpoint) { .. styles for small screens  .. }
 ///
@@ -32,7 +32,7 @@ section {
 }
 
 /// Component: Homepage latest news
-/// 
+///
 /// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
 ///
 .home .latest {
@@ -51,10 +51,10 @@ section {
 
 $item-width: 160px;
 
-/// Homepage team grid 
-/// 
+/// Homepage team grid
+///
 /// We use breakpoints to control how many items wide it is.
-/// 
+///
 /// This is another flex-based layout, similar to the logos component.
 %layout--home-team {
   @extend %flex-container;
@@ -102,7 +102,7 @@ $item-width: 160px;
 }
 
 /// Explanation component
-/// 
+///
 /// These are screenshots with with paragraphs of text. The amount of text is usually just one paragraph. There is a header for each screenshot and paragraph.
 
 .explanations {
@@ -165,7 +165,7 @@ $item-width: 160px;
 }
 
 /// Photo frame component
-/// 
+///
 /// A large image with text on top.
 /// @group meedan-web-components
 ///
@@ -190,7 +190,7 @@ $item-width: 160px;
 }
 
 /// Component: Language toggle
-/// 
+///
 /// A navigational component. On some pages the content is available in more than one language.
 nav.language-toggle {
   position: absolute;
@@ -221,7 +221,7 @@ nav.language-toggle {
 }
 
 /// Component: Sign up
-/// 
+///
 /// An important component on the bridge page, with a special design making it stand out more. There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
 .bridge .signup {
   color: rgba(white, 0.7);
