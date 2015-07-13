@@ -1,6 +1,6 @@
 {
   "name": "meedan-home",
-  "version": "2.2.0",
+  "version": "2.2.24",
   "description": "the meedan homepage",
   "main": "src/app.js",
   "repository": "https://github.com/meedan/meedan.com",
@@ -43,5 +43,7 @@
     "through2": "~0.6.5",
     "sassdoc": "~2.1.15"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ecstatic": "^0.8.0"
+  }
 }

@@ -5,7 +5,7 @@ This is an environment for fast, synchronized browser refreshing as you edit Sas
 ## Overview
 
 0. Install the npm and node
-1. Install the build system (local and global npm modules)
+1. Run the make file to install the build system (local and global npm modules)
 2. Run the default `gulp` task
 3. Edit .scss, .html and .js files, 
 
@@ -118,3 +118,7 @@ To run the tests make sure you:
 
 - install standalone global casper and slimerjs executables, for example on a mac with homebrew: `brew install casperjs slimerjs`
 - run the tests with `gulp test`
+
+## Pushy Pushy
+
+when the repo gets updated on github, an automatic build and deployment of meedan-com.dev.meedan.com is triggered
