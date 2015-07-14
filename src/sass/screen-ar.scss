@@ -20,8 +20,8 @@ $breakpoint: 900px;
 /// Local styles
 ///
 /// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
-///sc
-@import "typography";
+///-ar
+@import "typography-ar";
 @import "contact";
 @import "projects";
 @import "branding";
@@ -229,7 +229,7 @@ nav.language-toggle {
   padding: 2em 0 0.5em;
   background: 250% $portland-purple url("/images/2x/banners/topo.png");
   font-weight: 200;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.0em;
   p {
     margin-top: 0.5em;
     line-height: 1.6;
