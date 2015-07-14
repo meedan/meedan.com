@@ -1,11 +1,11 @@
-/* # Web fonts from Google */
+/// Web fonts from Google
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600");
 
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,200,500");
 
 @import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 
-/* # Define font stacks */
+/// Define font stacks
 $font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
@@ -51,7 +51,7 @@ p:nth-of-type(1) {
 }
 
 // # Headers
-// 
+//
 // <h1>Lorem dolor h1</h1>
 // <h2>Ipsum sit h2</h2>
 // <h3>Foo bar zap zing h3</h3>
@@ -87,14 +87,14 @@ h4 {
 }
 
 // # Emphasis
-// 
+//
 // <em>This text is emphasized.</em>
 em {
   font-style: italic;
 }
 
 // # Lists
-// 
+//
 // <ul>
 // <li>One</li>
 // <li>Two</li>
@@ -119,7 +119,7 @@ li {
 }
 
 // At small sizes, make list links more like buttons
-// 
+//
 // <ul><li><a href="#">Example list link</a></li></ul>
 li > a {
   @media all and (max-width: $breakpoint) {
@@ -191,11 +191,11 @@ body.ar {
 }
 
 // Mixin: Pretty link underlines
-// 
+//
 // Create a special text shadow so underlines don't visually intersect descenders.
-// 
+//
 // Usage: `@include linkUnderlines($background, $text-color);`
-// 
+//
 // - See: https://eager.io/blog/smarter-link-underlines/
 // - And: https://medium.com/designing-medium/crafting-link-underlines-on-medium-7c03a9274f9
 //
@@ -207,6 +207,7 @@ $selectionColor: #b4d5fe;
 }
 
 // this puts it all together
+//
 @mixin linkUnderlines($background, $color) {
   color: $color;
   text-decoration: none;

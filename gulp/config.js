@@ -8,9 +8,12 @@ module.exports = {
   },
   browserSync: {
     server: {
-      baseDir: dest
+      baseDir: dest,
     },
-    notify: false
+    notify: false,
+    ghostMode: false,
+    browser: ["google chrome", "firefox"],
+    port: 3333
   },
   sass: {
     settings: {

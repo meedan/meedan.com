@@ -7,7 +7,7 @@ This is an environment for fast, synchronized browser refreshing as you edit Sas
 0. Install the npm and node
 1. Run the make file to install the build system (local and global npm modules)
 2. Run the default `gulp` task
-3. Edit .scss, .html and .js files, 
+3. Edit .scss, .html and .js files
 
 ## Our Tasks
 
@@ -20,7 +20,7 @@ These are our gulp tasks (run `gulp -T` to see the latest).
 - pagespeed — run a tough optimization test
 - sass — parse Sass into CSS, from `./src/sass` to `./www/css`
 - validate - check `./www/*.html` for validity
-- watch — do the things above _if the `src` files change_
+- watch — do the things above _if the `src` files change
 
 Each of these is a task in `./gulp/tasks`. Each uses a task syntax that assumes you are taking some files like .scss or .html files from a source directory and transforming them into something else. So for your files you have to define *where they are from* (`src`) and *where they go* (`dest`).
 
@@ -107,6 +107,11 @@ To deploy the files from the www directory to the gh-pages branch first tag a re
 - Each of the components is documented with [SassDoc](https://github.com/SassDoc/sassdoc). 
 - To render the docs, run the server with`gulp` and visit /docs.
 
+
+## Working with bower components 
+
+- install the component directly on your machine with git clone. So, it will be installed "next to" the "parent" repository.
+- use `bower link` as [described here]("http://sassdoc.com/getting-started/").
 
 ## Casper Tests
 
