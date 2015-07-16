@@ -12,7 +12,7 @@ module.exports = {
     },
     notify: false,
     ghostMode: false,
-    browser: ["google chrome", "firefox"],
+    browser: ["google chrome"],
     port: 3333
   },
   sass: {

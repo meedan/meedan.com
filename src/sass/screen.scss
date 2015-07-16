@@ -317,3 +317,26 @@ body.bridge {
 body.checkdesk {
   @extend %theme-checkdesk-firefly;
 }
+
+.testimonials {
+  // border: 3px solid blue;
+  @extend %flex-container;
+  justify-content: center;
+}
+
+.testimonials .quote{
+  // border: 3px solid red;
+  max-width: 40%;
+  padding: 1em 2em 2em;
+  p {
+      font-size: 1em;
+    }
+  @media all and (max-width: $breakpoint){
+    min-width: 100%;
+  }
+    
+}
+
+
+
+
