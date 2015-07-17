@@ -32,19 +32,20 @@ body {
 /// # Arabic Typography
 ///
 
-body.ar {
+:lang(ar) {
   line-height: 1.3;
   font-family: $font-stack--arabic;
   direction: rtl;
   letter-spacing: 0;
+
   p.tagline {
     text-align: right;
   }
+
   .description p {
     text-align: right;
   }
 }
-
 
 p:nth-of-type(1) {
   padding-bottom: 2em;
@@ -81,6 +82,7 @@ h4 {
   margin: 0;
   padding: 3em 1em 2em;
   text-transform: uppercase;
+
   @media all and (max-width: $breakpoint) {
     padding: 2em 1em;
   }
@@ -104,6 +106,7 @@ ul {
   margin: 0.5em 0;
   padding: 0;
   text-align: center;
+
   @media all and (max-width: $breakpoint) {
     margin-top: 0.5em 0 0;
   }
@@ -112,6 +115,7 @@ ul {
 li {
   display: inline-block;
   padding: 0 1em 1em;
+
   @media all and (max-width: $breakpoint) {
     padding: 0 0.5em 0.5em;
     display: block;
@@ -137,6 +141,7 @@ p {
   max-width: 35em;
   padding: 0;
   width: 100%;
+
   @media all and (max-width: $breakpoint) {
     line-height: $line-height--xlarge;
     padding: 1em 0.7em;
@@ -144,7 +149,7 @@ p {
   }
 }
 
-section.history > p, {
+section.history > p {
   padding: 0 0 2em 0;
 }
 
@@ -153,6 +158,7 @@ section.history > p, {
 // Default links
 %link--default {
   color: $accent-blue;
+
   &:hover {
     color: $photo-feb10-blue;
     transition: 0.4s;
@@ -163,6 +169,7 @@ section.history > p, {
 %link--inverted {
   color: rgba(white, 0.7);
   padding: 0.18em;
+
   a:hover {
     background-color: rgba($firefly10, 0.5);
   }
@@ -172,6 +179,7 @@ section.history > p, {
 %link--image {
   border-bottom-width: 0;
   text-decoration: none;
+
   &:hover {
     background-color: transparent;
   }
@@ -186,9 +194,11 @@ a {
 body.ar {
   line-height: 1.3;
   font-family: $font-stack--arabic;
+
   p.tagline {
     text-align: right;
   }
+
   .description p {
     text-align: right;
   }
@@ -215,19 +225,26 @@ $selectionColor: #b4d5fe;
 @mixin linkUnderlines($background, $color) {
   color: $color;
   text-decoration: none;
+
   @include textShadowToCropUnderline($background);
+
   background-image: linear-gradient($background, $background), linear-gradient($background, $background), linear-gradient($color, $color);
   background-size: .05em 1px, .05em 1px, 1px 1px;
   background-repeat: no-repeat, no-repeat, repeat-x;
   background-position: 0% 90%, 100% 90%, 0% 90%;
+
   &::selection {
     @include textShadowToCropUnderline($selectionColor);
+
     background-color: $selectionColor;
   }
+
   &::-moz-selection {
     @include textShadowToCropUnderline($selectionColor);
+
     background-color: $selectionColor;
   }
+
   &:before,
   &:after,
   *,
@@ -235,6 +252,7 @@ $selectionColor: #b4d5fe;
   *:after {
     text-shadow: none;
   }
+
   &:visited {
     color: $color;
   }
