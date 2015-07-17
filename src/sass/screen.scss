@@ -132,7 +132,7 @@ $item-width: 160px;
     display: inline-block;
     margin: 2% 5%;
     @media (max-width: 640px) {
-      height: 100%;
+      width: 90%;
     }
   }
 }
