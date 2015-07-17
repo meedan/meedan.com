@@ -117,7 +117,7 @@ p {
   line-height: $line-height--xlarge;
   margin: 0 auto;
   max-width: 35em;
-  padding: 0 0 2em 0em;
+  padding: 0;
   width: 100%;
   @media all and (max-width: $breakpoint) {
     line-height: $line-height--xlarge;
@@ -170,6 +170,10 @@ body.ar {
   .description p {
     text-align: right;
   }
+}
+
+section.history > p, {
+  padding: 0 0 2em 0;
 }
 
 // Mixin: Pretty link underlines

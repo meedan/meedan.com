@@ -46,10 +46,9 @@ body.ar {
 }
 
 
-
-// p:nth-of-type(1) {
-//   padding-bottom: 2em;
-// }
+p:nth-of-type(1) {
+  padding-bottom: 2em;
+}
 
 // # Headers
 //
@@ -136,13 +135,17 @@ p {
   line-height: $line-height--xlarge;
   margin: 0 auto;
   max-width: 35em;
-  padding: 0 0 2em 0em;
+  padding: 0;
   width: 100%;
   @media all and (max-width: $breakpoint) {
     line-height: $line-height--xlarge;
     padding: 1em 0.7em;
     width: 80%;
   }
+}
+
+section.history > p, {
+  padding: 0 0 2em 0;
 }
 
 // # Links
