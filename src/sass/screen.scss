@@ -325,13 +325,17 @@ body.checkdesk {
 }
 
  .quote{
-  max-width: 40%;
-  padding: 1em 2em 2em;
+  max-width: 45%;
+  padding: 1em 1.5em 2em 1em;
   p {
       font-size: 1em;
     }
   @media all and (max-width: $breakpoint){
     min-width: 100%;
+  }
+  p.bottomquote {
+    font-weight: 500;
+    padding: 0 0 0 0;
   }
     
 }
