@@ -107,13 +107,13 @@ $item-width: 160px;
 
 .explanations {
   margin: 0 auto;
-  padding: 1em;
+  padding: 1;
   width: 100%;
   max-width: 800px;
   h4 {
     font-size: 1;
     font-weight: 100;
-    padding: 2em 0em;
+    padding: 3em 0em .5em 0em;
     width: 100%;
   }
   p {
@@ -122,17 +122,17 @@ $item-width: 160px;
     vertical-align: top;
     text-align: left;
     width: 100%;
-    padding: 1em 2em;
+    padding: 1em 1em;
     @media (max-width: $breakpoint) {
       width: 100%;
-      padding: 0;
+      padding: 1em;
     }
   }
   img.screenshot {
     display: inline-block;
-    margin: 10% 3%;
+    margin: 2% 5%;
     @media (max-width: 640px) {
-      width: 100%;
+      height: 100%;
     }
   }
 }
@@ -318,14 +318,13 @@ body.checkdesk {
   @extend %theme-checkdesk-firefly;
 }
 
-.testimonials {
-  // border: 3px solid blue;
-  @extend %flex-container;
+
+.twocolumn {
   justify-content: center;
+  @extend %flex-container;
 }
 
-.testimonials .quote{
-  // border: 3px solid red;
+ .quote{
   max-width: 40%;
   padding: 1em 2em 2em;
   p {
