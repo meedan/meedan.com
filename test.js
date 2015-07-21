@@ -1,4 +1,4 @@
-var localhostURL = "localhost:3333";
+var localhostURL = "http://localhost:3333";
 var defaultCheckdeskPage = /checkdesk-en/;
 
 // Sanity
