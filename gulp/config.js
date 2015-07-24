@@ -35,5 +35,12 @@ module.exports = {
   tests: {
     dest: dest,
     src: ["test.js"]
-  }
+  },
+    dust: {
+	dest: dest,
+	src: src + "/templates/*.html",
+	config: {
+	    whitespace: true
+	}
+    }
 };
