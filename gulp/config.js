@@ -28,10 +28,17 @@ module.exports = {
     src: [src + "/images/**/*", src + "/images/*"],
     dest: dest + "/images"
   },
+
   markup: {
     dest: dest,
     src: [src + "/markup/*.html", src + "/markup/**/*.html"]
   },
+
+  fonts: {
+    src: [src + "/fonts/**/*", src + "/fonts/*"],
+    dest: dest + "/fonts"
+  },
+
   tests: {
     dest: dest,
     src: ["test.js"]

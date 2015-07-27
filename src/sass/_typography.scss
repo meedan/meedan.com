@@ -5,6 +5,11 @@
 
 @import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 
+@font-face{
+  font-family: A_Nefel_Botan;
+  src: local(A_Nefel_Botan), url(/fonts/A_Nefel_Botan.ttf);
+}
+
 /// Define font stacks
 $font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
@@ -45,6 +50,10 @@ nav.language-toggle{
   direction: rtl;
   letter-spacing: 0;
 
+h4{
+  font-family: A_Nefel_Botan;
+  font-size: 1.5em;
+}
 
   p.tagline {
     text-align: right;
