@@ -76,12 +76,12 @@ $item-width: 160px;
     width: $item-width * 5;
   }
 
-  @media (min-width: $item-width * 7) {
-    width: $item-width * 7;
+  @media (min-width: $item-width * 6) {
+    width: $item-width * 6;
   }
 
-  @media (min-width: $item-width * 10) {
-    width: $item-width * 10;
+  @media (min-width: $item-width * 9) {
+    width: $item-width * 9;
   }
 
   @media (min-width: $item-width * 14) {
