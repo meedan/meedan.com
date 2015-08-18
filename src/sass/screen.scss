@@ -31,7 +31,7 @@ $breakpoint: 900px;
 /// Section elements are the primary building blocks.
 /// Each section should have a header.
 %section-defaults {
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   width: 100%;
   overflow-x: hidden;
 }
@@ -257,7 +257,7 @@ nav.language-toggle {
 /// Component: Sign up
 ///
 /// An important component on the bridge page, with a special design making it stand out more. There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
-%bridge .signup {
+%bridge-sign-up {
   color: rgba(white, 0.7);
   font-size: 0.8em;
   padding: 2em 0 0.5em;
@@ -277,14 +277,16 @@ nav.language-toggle {
 
   a {
     color: white;
-
     @include linkUnderlines($portland-purple, white);
   }
 }
 
+.signup {
+	@extend %bridge-sign-up;
+}
+
 .bridge .history a {
   color: white;
-
   @include linkUnderlines($portland-purple, white);
 }
 
@@ -324,6 +326,7 @@ nav.language-toggle {
 
   .newsletter {
     background-color: $firefly2;
+    padding-bottom: 2em;
   }
 
   .partners {
@@ -372,19 +375,24 @@ body.checkdesk {
 }
 
 .quote {
-  max-width: 45%;
+  @extend %flex-container;
   padding: 1em 1.5em 2em 1em;
-
-  p {
-    font-size: 1em;
-  }
+  vertical-align: top;
+  display: block;
+  width: 50%;
 
   @media all and (max-width: $breakpoint) {
     min-width: 100%;
   }
 
   p.bottomquote {
-    font-weight: 500;
-    padding: 0 0 0 0;
+    font-weight: 700;
+    padding: 0;
+    a {
+    	text-decoration: none;
+    	&:hover {
+    		text-decoration: underline;
+    	}
+    }
   }
 }
