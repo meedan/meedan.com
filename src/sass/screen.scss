@@ -26,6 +26,16 @@ $breakpoint: 900px;
 @import "branding";
 @import "logo-grid";
 
+/// Section defaults
+///
+/// Section elements are the primary building blocks.
+/// Each section should have a header.
+%section-defaults {
+  padding-bottom: 2em;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 section {
   @extend %section-defaults;
 }
@@ -35,11 +45,10 @@ section {
 /// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
 ///
 .home .latest {
-  padding-bottom: 6em;
-
+  padding-bottom: 1em;
+  background-color: $firefly2;
   .medium-channels {
     @extend %flex-container;
-
     justify-content: center;
 
     .medium-channel {
