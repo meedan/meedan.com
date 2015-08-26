@@ -63,14 +63,14 @@ $width--primary-logo: 200px;
 
   .slogan {
     color: white;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     padding-top: 0;
     // border: 1px solid red;
     }
     svg {
       // border: 1px solid pink;
       padding: 0 0 0 0;
-      margin: 0 0 0 0;
+      margin: 1em 0 0 0;
     }
 
   .bridge-banner{
@@ -83,30 +83,40 @@ $width--primary-logo: 200px;
     .screenshot {
       flex-grow: 1;
       flex-shrink: 1;
-        // border: 2px aqua solid;
-      max-width: 650px;
+      // border: 2px aqua solid;
+      max-width: 750px;
       min-width: 320px;
       width: 100%;
-      margin: 3em 1.5em 2em 1.5em;
+      margin: 3em 1em 1em 2em;
       animation: fadeInUp 1s;
     }
 
+
     .bridge-form{
-      padding: 1em 2em 1em 2em;
+      // border: 4px solid red;
+      margin: 1em 1em 1em 2em;
       flex-grow: 1;
       flex-shrink: 1;
       width: 30%;
 
       #cta-text{
         color: white !important;
+        h2{
+          text-transform: none;
+          letter-spacing: 0;
+        }
       }
+
+
 
       label{
         color: white;
+        padding: 0 0 0 0;
       }
 
       form {
-        width:80%;
+        width:100%;
+        padding: 0 4em;
         // border: 4px solid red;
       }
     }
