@@ -56,3 +56,54 @@ $width--primary-logo: 200px;
 .branding {
   @extend %section--branding;
 }
+
+.bridge-branding{
+  background: $portland-purple;
+  padding-top: 3em;
+
+  .slogan{
+    color: white;
+    padding-bottom: 0em;
+  }
+
+  .bridge-banner{
+    // border: 10px pink solid;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: right;
+
+    .screenshot {
+      flex-grow: 1;
+      flex-shrink: 1;
+        // border: 2px aqua solid;
+      max-width: 650px;
+      min-width: 320px;
+      width: 100%;
+      margin: 3em 1.5em 2em 1.5em;
+      animation: fadeInUp 1s;
+    }
+
+    .bridge-form{
+      padding: 1em 2em 1em 2em;
+      flex-grow: 1;
+      flex-shrink: 1;
+      width: 30%;
+
+      #cta-text{
+        color: white !important;
+      }
+
+      label{
+        color: white;
+      }
+
+      form {
+        width:80%;
+        // border: 4px solid red;
+      }
+    }
+
+  }
+
+}
+
