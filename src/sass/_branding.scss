@@ -67,7 +67,13 @@ $width--primary-logo: 200px;
   @extend %section--branding;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .bridge-branding{
+
   background: $firefly80;
   padding-top: 2em;
 
@@ -80,7 +86,7 @@ $width--primary-logo: 200px;
   svg {
     // border: 1px solid pink;
     padding: 0 0 0 0;
-    margin: 1em 0 0 0;
+    margin: 0.5em 0 0 0;
   }
 
   .bridge-banner {
@@ -124,6 +130,7 @@ $width--primary-logo: 200px;
 
       #cta-text{
         color: white;
+        padding-bottom: 0.2em;
 
         h2{
           margin: 1em 0;
@@ -131,6 +138,14 @@ $width--primary-logo: 200px;
           text-transform: none;
           letter-spacing: 0;
         }
+        h3{
+          margin: 1em 0;
+          padding: 0;
+          font-size: 1em;
+          text-transform: none;
+          letter-spacing: 0;
+        }
+        
       }
 
       ul{
