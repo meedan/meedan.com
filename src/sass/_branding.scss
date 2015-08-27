@@ -18,8 +18,13 @@ $width--primary-logo: 200px;
 /// @author Chris Blow
 /// @group meedan-web
 %section--branding {
-  @extend %flex-vertical;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  flex-align: center;
+  align-items: center;
   padding: 2em 1em 1em;
+
   h1 {
     margin: 0;
     font-size: 2.5em;
@@ -28,7 +33,7 @@ $width--primary-logo: 200px;
   }
   .screenshot {
     max-width: 900px;
-    min-width: 320px;
+    min-width: 280px;
     padding-top: 2em;
     padding-bottom: 2em;
     width: 80%;
@@ -63,7 +68,7 @@ $width--primary-logo: 200px;
   }
 }
 
-.branding {
+.branding{
   @extend %section--branding;
 }
 
@@ -71,7 +76,7 @@ $width--primary-logo: 200px;
   color: white;
 }
 
-.bridge-branding{
+.branding--bridge{
 
   background: $firefly80;
   padding-top: 2em;
@@ -97,10 +102,11 @@ $width--primary-logo: 200px;
 
     .splash, .bridge-form {
       float: left;
-      padding: 30px;
-      @media all and (max-width: $breakpoint) {
+      padding: 20px;
+      @media all and (max-width: 1000px) {
         float: none;
         width: 100% !important;
+        padding-top: 0;
       }
     }
 
@@ -113,11 +119,17 @@ $width--primary-logo: 200px;
     }
 
     .container {
-      width: 1200px;
-      max-width: 100%;
+      @extend .clearfix;
+      width: 100%;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 30px;
-      @extend .clearfix;
+
+      @media all and (max-width: 400px) {
+        font-size: 0.8em;
+        padding: 0;
+      }
+
     }
 
     .i-would-like-to-apply-to-be-a-bridge-translator {
@@ -163,13 +175,13 @@ $width--primary-logo: 200px;
     }
 
   }
-  @media all and (max-width: $breakpoint) {
-    .logo {
-      max-width: $width--primary-logo;
-      width: 70%;
-    }
+  // @media all and (max-width: $breakpoint) {
+  //   .logo {
+  //     max-width: $width--primary-logo;
+  //     width: 70%;
+  //   }
 
-  }
+  // }
 
 }
 
