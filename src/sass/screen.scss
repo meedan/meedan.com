@@ -1,14 +1,4 @@
-////
-/// Meedan.com
-/// @author Chris Blow
-/// @group meedan-web
-/// @todo move more things to meedan-style
-///
 @import "normalize-scss/normalize";
-@import "meedan-style/layout";
-@import "meedan-style/colors";
-@import "meedan-style/forms";
-@import "meedan-style/animations";
 
 /// Responsive configuration
 ///
@@ -20,11 +10,30 @@ $breakpoint: 900px;
 /// Local styles
 ///
 /// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
+@import "colors";
 @import "typography";
 @import "contact";
 @import "projects";
 @import "branding";
 @import "logo-grid";
+@import "forms";
+
+* {
+  box-sizing: border-box;
+}
+
+/// Gallagher Clearfix
+///
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
 
 /// Section defaults
 ///
@@ -62,39 +71,26 @@ section {
 }
 
 $item-width: 160px;
-
 /// Homepage team grid
 ///
 /// We use breakpoints to control how many items wide it is.
 ///
 /// This is another flex-based layout, similar to the logos component.
-%layout--home-team {
+.home .team ul {
   @extend %flex-container;
-
   margin: 0 auto;
+  padding: 0;
 
-  @media (max-width: $item-width * 2) {
-    width: $item-width * 2;
+	@media (min-width: $item-width * 2) {
+		width: $item-width * 2 + 10px;
+	}
+
+  @media (min-width: $item-width * 4) {
+  	width: $item-width * 4 + 10px;
   }
 
-  @media (min-width: $item-width * 3) {
-    width: $item-width * 3;
-  }
-
-  @media (min-width: $item-width * 5) {
-    width: $item-width * 5;
-  }
-
-  @media (min-width: $item-width * 6) {
-    width: $item-width * 6;
-  }
-
-  @media (min-width: $item-width * 9) {
-    width: $item-width * 9;
-  }
-
-  @media (min-width: $item-width * 14) {
-    width: $item-width * 14;
+  @media (min-width: $item-width * 8) {
+  	width: $item-width * 8 + 10px;
   }
 
   .name {
@@ -119,14 +115,9 @@ $item-width: 160px;
   }
 }
 
-.home .team ul {
-  @extend %layout--home-team;
-}
-
 /// Explanation component
 ///
 /// These are screenshots with with paragraphs of text. The amount of text is usually just one paragraph. There is a header for each screenshot and paragraph.
-
 .explanations {
   margin: 0 auto;
   padding: 1;
@@ -177,29 +168,7 @@ $item-width: 160px;
   }
 }
 
-/// Bridge page themes
-/// @group meedan-web-themes
-%theme-portland-purple {
-  .branding,
-  .api,
-  .history,
-  .footer {
-    background: $firefly80;
-    color: rgba(white, 0.8);
-  }
-
-  .supporters, .explanations {
-    background-color: white;
-    color: $firefly80;
-  }
-}
-
-/// Photo frame component
-///
-/// A large image with text on top.
-/// @group meedan-web-components
-///
-%photo-frame {
+.home .photo-frame {
   background-color: $firefly90;
   background-image: url("../images/1x/banners/banner-2.jpg");
   background-position: 50%;
@@ -213,10 +182,6 @@ $item-width: 160px;
   color: white;
   padding: 4em 0;
   text-shadow: 0 0 5px black;
-}
-
-.home .photo-frame {
-  @extend %photo-frame;
 }
 
 /// Component: Language toggle
@@ -254,45 +219,34 @@ nav.language-toggle {
   }
 }
 
-/// Component: Sign up
-///
-/// An important component on the bridge page, with a special design making it stand out more. There is a special treatment on the link: ala medium.com the descenders overlap the underline elegantly.
-%bridge-sign-up {
-  color: rgba(white, 0.7);
-  font-size: 0.8em;
-  padding: 2em 0 0.5em;
-  background: 250% $portland-purple url("/images/2x/banners/topo.png");
-  font-weight: 200;
-  letter-spacing: 0.03em;
+body.ar {
+  direction: rtl;
+}
 
-  p {
-    margin-top: 0.5em;
-    line-height: 1.6;
+.footer {
+  font-size: smaller;
+}
+
+body.home {
+  background-color: white;
+}
+
+body.bridge {
+  .branding,
+  .api,
+  .history,
+  .footer {
+    background: $firefly80;
+    color: rgba(white, 0.8);
   }
 
-  h2 {
-    font-size: 1em;
-    padding: 0.5em;
-  }
-
-  a {
-    color: white;
-    @include linkUnderlines($portland-purple, white);
+  .supporters, .explanations {
+    background-color: white;
+    color: $firefly80;
   }
 }
 
-.signup {
-	@extend %bridge-sign-up;
-}
-
-.bridge .history a {
-  color: white;
-  @include linkUnderlines($portland-purple, white);
-}
-
-/// Checkdesk Firefly Theme and ARK
-/// @group meedan-web-themes
-%theme-checkdesk-firefly {
+body.checkdesk {
   .explanations {
     background-color: white;
     color: $firefly80;
@@ -334,40 +288,6 @@ nav.language-toggle {
   }
 }
 
-// Hax
-// Checkdesk form hack
-//
-//  @TODO For some reason the forms are coming out too small, seems like a fix is needed in `meedan-style/forms`. — CGB June 4 2015
-.checkdesk .form-group {
-  font-size: 1.3em;
-
-  input {
-    font-size: inherit;
-  }
-}
-
-body.ar {
-  direction: rtl;
-}
-
-.footer {
-  font-size: smaller;
-}
-
-body.home {
-  background-color: white;
-}
-
-body.bridge {
-  @extend %theme-portland-purple;
-}
-
-.branding .screenshot {}
-
-body.checkdesk {
-  @extend %theme-checkdesk-firefly;
-}
-
 .twocolumn {
   justify-content: center;
   @extend %flex-container;
@@ -387,7 +307,6 @@ body.checkdesk {
   	font-size: 1.2em;
   }
   p.bottomquote {
-
     font-weight: 700;
     padding: 0;
     display: inline;

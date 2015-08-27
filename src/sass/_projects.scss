@@ -1,39 +1,17 @@
 // # Homepage: projects
 //
 
-// ## Define themes
-%theme-wild {
-  background: linear-gradient(110deg, $checkdesk-yellow, $bridge-orange);
-
-  & > div {
-    background: rgba(white, 0.1);
-    border: 1px solid rgba($firefly2, 0.2);
-  }
-}
-
-%theme-boring {
+// # Projects
+.projects {
+  @extend %flex-container;
+  justify-content: center;
   background: $firefly80;
-}
-
-%theme-conservative {
-  background: linear-gradient(90deg, $firefly80, $portland-purple);
+  // background: linear-gradient(90deg, $firefly80, $portland-purple);
 
   & > div {
     background: rgba(black, 0.2);
     border-radius: 8px;
   }
-}
-
-// # Projects
-.projects {
-  @extend %flex-container;
-
-  justify-content: center;
-
-  @extend %theme-wild;
-
-  @extend %theme-boring;
-
   @media (max-width: $breakpoint) {
     & > div, svg {
       width: 100%;
