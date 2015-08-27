@@ -1,6 +1,16 @@
 /// Primary logo width
 $width--primary-logo: 200px;
 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
 ////
 /// Branding
 /// 
@@ -56,3 +66,111 @@ $width--primary-logo: 200px;
 .branding {
   @extend %section--branding;
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.bridge-branding{
+
+  background: $firefly80;
+  padding-top: 2em;
+
+  .slogan {
+    color: white;
+    padding-bottom: 3em;
+    padding-top: 0;
+    // border: 1px solid red;
+  }
+  svg {
+    // border: 1px solid pink;
+    padding: 0 0 0 0;
+    margin: 0.5em 0 0 0;
+  }
+
+  .bridge-banner {
+    padding-bottom: 0em;
+
+    .screenshot {
+      animation: fadeInUp 1s;
+    }
+
+    .splash, .bridge-form {
+      float: left;
+      padding: 30px;
+      @media all and (max-width: $breakpoint) {
+        float: none;
+        width: 100% !important;
+      }
+    }
+
+    .splash {
+      width: 61.8%;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .container {
+      width: 1200px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 30px;
+      @extend .clearfix;
+    }
+
+    .i-would-like-to-apply-to-be-a-bridge-translator {
+      font-size: 0.8em;
+    }
+
+    .bridge-form{
+      width: 38.2%;
+
+      #cta-text{
+        color: white;
+        padding-bottom: 0.2em;
+
+        h2{
+          margin: 1em 0;
+          padding: 0;
+          text-transform: none;
+          letter-spacing: 0;
+        }
+        h3{
+          margin: 1em 0;
+          padding: 0;
+          font-size: 1em;
+          text-transform: none;
+          letter-spacing: 0;
+        }
+        
+      }
+
+      ul{
+        margin: 0 0 0 0;
+        font-size: .7em;
+      }
+
+      label{
+        color: white;
+      }
+
+      .form-group {
+        margin-bottom: 10px;
+      }
+
+    }
+
+  }
+  @media all and (max-width: $breakpoint) {
+    .logo {
+      max-width: $width--primary-logo;
+      width: 70%;
+    }
+
+  }
+
+}
+

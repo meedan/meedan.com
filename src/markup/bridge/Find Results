@@ -1,0 +1,32 @@
+
+
+Searching 52623 files for "flex-item"
+
+/Users/xiaoweiwang1/Documents/meedan.org/bower_components/bridge-style/_project.scss:
+   42  
+   43    .embed-wrapper {
+   44:     @extend %flex-item;
+   45    }
+   46  
+
+/Users/xiaoweiwang1/Documents/meedan.org/bower_components/meedan-style/_layout.scss:
+   40  /// - Flex basis — This defines the default size of an element before the remaining space is distributed. The main-size value makes it match the width or height, depending on which is relevant based on the flex-direction.
+   41  ///  @see https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+   42: %flex-item {
+   43    flex-grow: 1;
+   44    flex-shrink: 1;
+
+/Users/xiaoweiwang1/Documents/meedan.org/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/lib/hacks/align-self.js:
+   15      }
+   16  
+   17:     AlignSelf.names = ['align-self', 'flex-item-align'];
+   18  
+   19      AlignSelf.oldValues = {
+   ..
+   26        ref = flexSpec(prefix), spec = ref[0], prefix = ref[1];
+   27        if (spec === 2012) {
+   28:         return prefix + 'flex-item-align';
+   29        } else {
+   30          return AlignSelf.__super__.prefixed.apply(this, arguments);
+
+4 matches across 3 files
