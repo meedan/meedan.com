@@ -18,6 +18,7 @@ $width--primary-logo: 200px;
 /// @author Chris Blow
 /// @group meedan-web
 %section--branding {
+	// border: 20px solid red;
   display: flex;
   justify-content: center;
   flex-align: center;
@@ -35,21 +36,21 @@ $width--primary-logo: 200px;
   .screenshot {
     max-width: 900px;
     min-width: 280px;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 0;
+    padding-bottom: 0em;
     width: 80%;
     margin: 0 auto;
     animation: fadeInUp 1s;
   }
-  .zoom {
-    top: 175px;
-    animation: fadeIn 2s;
-  }
+
   .slogan {
-    padding: 1em 0;
+  	margin: 0;
+    padding: 0;
     font-size: 1.25em;
     animation: fadeIn 1.2s;
   }
+
+	// This is only on the homepage
   .about {
     animation: fadeIn 2.5s;
     padding: 2em 0;
@@ -63,7 +64,6 @@ $width--primary-logo: 200px;
   }
   @media all and (max-width: $breakpoint) {
     .logo {
-
       max-width: $width--primary-logo;
       width: 70%;
     }

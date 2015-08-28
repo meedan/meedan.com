@@ -246,13 +246,12 @@ nav.language-toggle {
   border-radius: 5em;
 
   @media (max-width: $breakpoint) {
-  	// position: static;
-  	margin: 2%;
-  	right: auto;
-  	left: auto;
-  	width: 90%;
+  	position: static;
+  	margin: 0;
   	@extend %flex-container;
   	justify-content: space-around;
+  	background-color: $checkdesk-yellow;
+  	border-radius: 0;
   }
 
   a {
@@ -353,7 +352,6 @@ body.checkdesk {
 }
 
 .quote {
-  padding: 3em;
   vertical-align: top;
   display: inline;
   width: 100%;
