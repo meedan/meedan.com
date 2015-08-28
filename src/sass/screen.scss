@@ -249,7 +249,7 @@ nav.language-toggle {
   	position: static;
   	margin: 0;
   	@extend %flex-container;
-  	justify-content: space-around;
+  	justify-content: center;
   	background-color: $checkdesk-yellow;
   	border-radius: 0;
   }
@@ -260,20 +260,21 @@ nav.language-toggle {
     padding: 0.2em 0.3em 0;
   }
 
+  // Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
   :lang(ar) & a.arabic,
   :lang(en) & a.english {
     color: black;
     font-weight: 800;
+    order: 1;
   }
 
   a.english {
-    float: left;
     font-size: 0.8em;
     margin-top: 0.2em;
+    order: 1;
   }
 
   a.arabic {
-    float: right;
   }
 }
 
