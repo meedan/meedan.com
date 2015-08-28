@@ -13,17 +13,19 @@ $width--primary-logo: 200px;
 
 ////
 /// Branding
-/// 
+///
 /// At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1. At smaller sizes the logo has a percent-based width.
 /// @author Chris Blow
 /// @group meedan-web
 %section--branding {
+	// border: 20px solid red;
   display: flex;
   justify-content: center;
   flex-align: center;
   align-items: center;
   flex-flow: column nowrap;
   padding: 2em 1em 1em;
+  width: 100%;
 
   h1 {
     margin: 0;
@@ -34,21 +36,21 @@ $width--primary-logo: 200px;
   .screenshot {
     max-width: 900px;
     min-width: 280px;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 0;
+    padding-bottom: 0em;
     width: 80%;
     margin: 0 auto;
     animation: fadeInUp 1s;
   }
-  .zoom {
-    top: 175px;
-    animation: fadeIn 2s;
-  }
+
   .slogan {
-    padding: 1em 0;
+  	margin: 0;
+    padding: 0;
     font-size: 1.25em;
     animation: fadeIn 1.2s;
   }
+
+	// This is only on the homepage
   .about {
     animation: fadeIn 2.5s;
     padding: 2em 0;
@@ -62,7 +64,6 @@ $width--primary-logo: 200px;
   }
   @media all and (max-width: $breakpoint) {
     .logo {
-
       max-width: $width--primary-logo;
       width: 70%;
     }
@@ -157,7 +158,7 @@ $width--primary-logo: 200px;
           text-transform: none;
           letter-spacing: 0;
         }
-        
+
       }
 
       ul{
