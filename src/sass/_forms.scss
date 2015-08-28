@@ -2,53 +2,6 @@ $form--color: $firefly30;
 $form--max-width: 600px;
 $form--min-width: 220px;
 
-/// Flex container
-///
-%flex-container {
-	display: flex;
-	flex-flow: wrap row;
-	justify-content: center;
-	flex-align: center;
-	align-items: center;
-}
-
-/// Flex item
-///
-/// The flex item is the building block of the flex layout.
-///
-/// - Flex grow - This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up. If all items have flex-grow set to 1, every child will set to an equal size inside the container. If you were to give one of the children a value of 2, that child would take up twice as much space as the others.
-/// - Flex shrink — This defines the ability for a flex item to shrink if necessary.
-/// - Flex basis — This defines the default size of an element before the remaining space is distributed. The main-size value makes it match the width or height, depending on which is relevant based on the flex-direction.
-///  @see https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-%flex-item {
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: auto;
-}
-
-/// Flex container stacked when small
-%flex-container-stacked-when-small {
-	@media (max-width: 600px) {
-		flex-flow: wrap column;
-		& > * {
-			width: 100%;
-		}
-	}
-}
-
-/// Flex vertically
-///
-/// Using the `column` value to flow the content vertically.
-///
-/// @see %flex-container
-%flex-vertical {
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	flex-align: center;
-	align-items: center;
-}
-
 /// Form groups
 .form-group {
 	display: flex;
