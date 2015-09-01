@@ -9,7 +9,6 @@ $form--min-width: 220px;
 	max-width: $form--max-width;
 	position: relative;
 	@media all and (max-width: $form--max-width) {
-		padding: 1em;
 		max-width: 100%;
 		display: block;
 		input {
@@ -51,4 +50,3 @@ $form--min-width: 220px;
 		line-height: 2;
 	}
 }
-

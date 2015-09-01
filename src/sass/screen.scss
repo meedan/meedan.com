@@ -297,6 +297,9 @@ body.bridge {
   .footer {
     background: $firefly80;
     color: rgba(white, 0.8);
+		a {
+			color: white;
+		}
   }
 
   .supporters, .explanations {
