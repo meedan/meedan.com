@@ -141,49 +141,37 @@ $width--primary-logo: 200px;
     .bridge-form{
       width: 38.2%;
 
-      #cta-text{
+      #cta-text {
         color: white;
         padding-bottom: 0.2em;
 
-        h2{
+        h2 {
           margin: 1em 0;
           padding: 0;
           text-transform: none;
           letter-spacing: 0;
         }
-        h3{
+        h3 {
           margin: 1em 0;
           padding: 0;
           font-size: 1em;
           text-transform: none;
           letter-spacing: 0;
         }
-
       }
 
-      ul{
+      ul {
         margin: 0 0 0 0;
         font-size: .7em;
       }
 
-      label{
+      label {
         color: white;
       }
 
       .form-group {
         margin-bottom: 10px;
       }
-
     }
-
   }
-  // @media all and (max-width: $breakpoint) {
-  //   .logo {
-  //     max-width: $width--primary-logo;
-  //     width: 70%;
-  //   }
-
-  // }
-
 }
-
