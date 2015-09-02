@@ -69,24 +69,26 @@ $width--primary-logo: 200px;
 %branding--bridge {
   background-color: $firefly80;
   flex-flow: row nowrap;
+  justify-content: center;
   padding: 2em 2em 0 2em;
-
-  .screenshot {
-    min-width: 300px;
-    max-width: 90%;
-    width: 700px;
-  }
 
   @media all and (max-width: 800px) {
     flex-flow: column nowrap;
   }
+
+  .screenshot {
+    min-width: 300px;
+    width: 61.8%;
+    max-width: 700px;
+  }
+
 
   .i-would-like-to-apply-to-be-a-bridge-translator {
     font-size: 0.8em;
   }
 
   .bridge-form {
-    padding: 2em 1em 2em 2em;
+    padding: 1em 1em 1em 1em;
 
     h2 {
       margin: 0;
@@ -112,7 +114,6 @@ $width--primary-logo: 200px;
     padding-top: 0;
   }
 }
-
 
 .branding {
   @extend %branding--default;

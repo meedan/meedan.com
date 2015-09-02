@@ -30,13 +30,7 @@ $breakpoint: 900px;
 }
 
 /// Flex item
-///
-/// The flex item is the building block of the flex layout.
-///
-/// - Flex grow - This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up. If all items have flex-grow set to 1, every child will set to an equal size inside the container. If you were to give one of the children a value of 2, that child would take up twice as much space as the others.
-/// - Flex shrink — This defines the ability for a flex item to shrink if necessary.
-/// - Flex basis — This defines the default size of an element before the remaining space is distributed. The main-size value makes it match the width or height, depending on which is relevant based on the flex-direction.
-///  @see https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+/// This is the expanded form of "flex: 1 1 auto"
 %flex-item {
 	flex-grow: 1;
 	flex-shrink: 1;
@@ -44,6 +38,9 @@ $breakpoint: 900px;
 }
 
 /// Flex container stacked when small
+/// Changes the flow direction to "column"
+/// And makes things full width.
+/// This is an awesome timesaved for responsive layout!
 %flex-container-stacked-when-small {
 	@media (max-width: 600px) {
 		flex-flow: wrap column;
@@ -53,7 +50,7 @@ $breakpoint: 900px;
 	}
 }
 
-/// Flex vertically
+/// Flex vertically!
 ///
 /// Using the `column` value to flow the content vertically.
 ///
@@ -120,7 +117,7 @@ section {
   }
 }
 
-$item-width: 160px;
+$width--homepage-team-member: 160px;
 /// Homepage team grid
 ///
 /// We use breakpoints to control how many items wide it is.
@@ -131,16 +128,16 @@ $item-width: 160px;
   margin: 0 auto;
   padding: 0;
 
-	@media (min-width: $item-width * 2) {
-		width: $item-width * 2 + 10px;
+	@media (min-width: $width--homepage-team-member * 2) {
+		width: $width--homepage-team-member * 2 + 10px;
 	}
 
-  @media (min-width: $item-width * 4) {
-  	width: $item-width * 4 + 10px;
+  @media (min-width: $width--homepage-team-member * 4) {
+  	width: $width--homepage-team-member * 4 + 10px;
   }
 
-  @media (min-width: $item-width * 8) {
-  	width: $item-width * 8 + 10px;
+  @media (min-width: $width--homepage-team-member * 8) {
+  	width: $width--homepage-team-member * 8 + 10px;
   }
 
   .name {
@@ -153,7 +150,7 @@ $item-width: 160px;
     font-family: $font-stack--roboto;
     font-size: 0.7em;
     height: 15em;
-    width: $item-width;
+    width: $width--homepage-team-member;
   }
 
   img {
@@ -260,7 +257,7 @@ nav.language-toggle {
     padding: 0.2em 0.3em 0;
   }
 
-  // Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
+  // FIXME Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
   :lang(ar) & a.arabic,
   :lang(en) & a.english {
     color: black;
@@ -308,6 +305,7 @@ body.bridge {
   }
 }
 
+// Checkdesk
 body.checkdesk {
   .explanations {
     background-color: white;
@@ -350,11 +348,14 @@ body.checkdesk {
   }
 }
 
+// Two column
+// FIXME: non-semantic selector
 .twocolumn {
   justify-content: center;
   @extend %flex-container;
 }
 
+// Quotes
 .quote {
   vertical-align: top;
   display: inline;
