@@ -50,3 +50,27 @@ $form--min-width: 220px;
 		line-height: 2;
 	}
 }
+
+// The form in the bridge branding section
+.bridge-form {
+  padding: 1em 1em 1em 1em;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 22px;
+  }
+
+  h3 {
+    margin: 1em 0;
+    padding: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 18px;
+  }
+  input {
+    color: black;
+  }
+}

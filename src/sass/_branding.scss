@@ -12,7 +12,7 @@ $width--primary-logo: 200px;
 }
 
 ////
-/// Branding
+/// Checkdesk and Homepage Branding
 ///
 /// At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1. At smaller sizes the logo has a percent-based width.
 /// @group meedan-web
@@ -23,22 +23,21 @@ $width--primary-logo: 200px;
   padding: 2em 1em 1em;
   width: 100%;
 
-  h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font: $font-stack--roboto;
-    animation: fadeIn 1.2s;
-  }
+
+  // The main image in a "branding" section
   .screenshot {
     max-width: 900px;
     min-width: 280px;
     padding-top: 0;
     padding-bottom: 0em;
+    display: block;
+    height: auto;
     width: 80%;
     margin: 0 auto;
     animation: fadeInUp 1s;
   }
 
+  // The phrase under the logos
   .slogan {
   	margin: 0;
     padding: 0;
@@ -46,79 +45,56 @@ $width--primary-logo: 200px;
     animation: fadeIn 1.2s;
   }
 
-	// This is only on the homepage
-  .about {
-    animation: fadeIn 2.5s;
-    padding: 2em 0;
-  }
   .logo {
     width: $width--primary-logo;
     animation: fadeIn 0.8s;
     .bridge &, .checkdesk & {
       width: 300px;
     }
-  }
-  @media all and (max-width: $breakpoint) {
-    .logo {
-      max-width: $width--primary-logo;
+    @media all and (max-width: $breakpoint) {
+    	max-width: $width--primary-logo;
       width: 70%;
     }
   }
 }
 
-%branding--bridge {
-  background-color: $firefly80;
-  flex-flow: row nowrap;
+ // Homepage uses the default branding styles
+.home .branding {
+  @extend %branding--default;
+}
+
+// Checkdesk uses default branding styles
+.checkdesk .branding {
+  @extend %branding--default;
+  background-color: $checkdesk-yellow;
+  color: white;
+}
+
+// Bridge has special branding section
+// And does not use the branding section defaults
+.branding--bridge {
+	display: flex;
   justify-content: center;
+  align-items: center;
   padding: 2em 2em 0 2em;
 
-  @media all and (max-width: 800px) {
-    flex-flow: column nowrap;
+  @media all and (max-width: 900px) {
+    flex-flow: column;
   }
 
-  .screenshot {
+  img.screenshot {
     min-width: 300px;
     width: 61.8%;
+    height: auto;
     max-width: 700px;
+    display: block;
   }
-
 
   .i-would-like-to-apply-to-be-a-bridge-translator {
     font-size: 0.8em;
   }
 
-  .bridge-form {
-    padding: 1em 1em 1em 1em;
-
-    h2 {
-      margin: 0;
-      padding: 0;
-      text-transform: none;
-      letter-spacing: 0;
-      font-size: 22px;
-    }
-
-    h3 {
-      margin: 1em 0;
-      padding: 0;
-      text-transform: none;
-      letter-spacing: 0;
-      font-size: 18px;
-    }
-    input {
-      color: black;
-    }
-  }
-
   &+.branding {
     padding-top: 0;
   }
-}
-
-.branding {
-  @extend %branding--default;
-}
-
-.branding--bridge {
-  @extend %branding--bridge;
 }

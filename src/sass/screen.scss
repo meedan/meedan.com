@@ -96,6 +96,20 @@ section {
 }
 
 
+
+.home {
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font: $font-stack--roboto;
+    animation: fadeIn 1.2s;
+  }
+
+  .about {
+    animation: fadeIn 2.5s;
+    padding: 2em 0;
+  }
+}
 /// Component: Homepage latest news
 ///
 /// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
@@ -314,11 +328,6 @@ body.checkdesk {
 
   .team {
     background-color: $warm-grey;
-  }
-
-  .branding {
-    background-color: $checkdesk-yellow;
-    color: white;
   }
 
   /// Inverted colors for some sections
