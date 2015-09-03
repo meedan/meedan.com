@@ -3,7 +3,7 @@ var src = './src';
 
 module.exports = {
   misc: {
-    src: src + '/{CNAME, *.js, *.pdf, images/favicons/*, robots.txt}',
+    src: src + "/{/**/*.js,CNAME,images/favicons/*,robots.txt}",
     dest: dest
   },
   browserSync: {
@@ -28,17 +28,14 @@ module.exports = {
     src: [src + "/images/**/*", src + "/images/*"],
     dest: dest + "/images"
   },
-
   markup: {
     dest: dest,
     src: [src + "/markup/*.html", src + "/markup/**/*.html"]
   },
-
   fonts: {
     src: [src + "/fonts/**/*", src + "/fonts/*"],
     dest: dest + "/fonts"
   },
-
   tests: {
     dest: dest,
     src: ["test.js"]
