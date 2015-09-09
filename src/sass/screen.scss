@@ -11,13 +11,15 @@ $breakpoint: 900px;
 ///
 /// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
 @import "colors";
+@import "bootstrap/stylesheets/bootstrap";
 @import "typography";
 @import "contact";
 @import "projects";
 @import "branding";
 @import "logo-grid";
 @import "forms";
-@import "navbar";
+
+
 
 /// Flex container
 ///
@@ -62,12 +64,6 @@ $breakpoint: 900px;
 	flex-align: center;
 	align-items: center;
 }
-
-
-* {
-  box-sizing: border-box;
-}
-
 /// Gallagher Clearfix
 ///
 %clearfix {
@@ -80,6 +76,13 @@ $breakpoint: 900px;
     clear: both;
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
 
 /// Section defaults
 ///
@@ -308,6 +311,7 @@ body.bridge {
   .footer {
     background: $firefly80;
     color: rgba(white, 0.8);
+		padding-top: $navbar-height * 2;
 		a {
 			color: white;
 		}
