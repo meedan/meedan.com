@@ -368,6 +368,7 @@ body.checkdesk {
   vertical-align: top;
   display: inline;
   width: 100%;
+  margin-top: 2em;
 
   @media all and (max-width: $breakpoint) {
     min-width: 100%;
@@ -376,11 +377,17 @@ body.checkdesk {
   p {
   	font-size: 1.2em;
   }
+
   p.bottomquote {
     font-weight: 700;
     padding: 0;
     display: inline;
   }
+
+  &+.quote {
+  	margin-top: 4em;
+  }
+
 }
 
 @media all and (min-width: $breakpoint) {
