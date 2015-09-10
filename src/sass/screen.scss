@@ -213,6 +213,10 @@ $width--homepage-team-member: 160px;
       width: 90%;
     }
   }
+  img.screenshot-bridge{
+    // border: 1px solid red;
+    max-width: 300px;
+  }
 }
 
 /// A page footer
