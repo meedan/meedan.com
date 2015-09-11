@@ -84,11 +84,10 @@ $width--primary-logo: 200px;
 
   img.screenshot {
     min-width: 300px;
-    width: 61.8%;
+    width: 100%;
     height: auto;
     max-width: 700px;
     display: block;
-
   }
 
   .i-would-like-to-apply-to-be-a-bridge-translator {
@@ -99,20 +98,22 @@ $width--primary-logo: 200px;
     padding-top: 0;
   }
 
+  #bridge-small-hide{
+    width: 61.8%;
+  }
+
 }
 
 
 .bridge-reorder-container{
-  @media only screen and (max-width: 400px) {
+  @extend %clearfix;
+  @media only screen and (max-width: 450px) {
     display:flex;
     flex-flow: column;
-
     #bridge-element-swap{
       order: 1;
     }
-
     #bridge-small-hide{
-    border: 3px solid green;
       display: none;
     }
     .branding.branding--bridge{
