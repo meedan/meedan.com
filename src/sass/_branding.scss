@@ -88,6 +88,7 @@ $width--primary-logo: 200px;
     height: auto;
     max-width: 700px;
     display: block;
+
   }
 
   .i-would-like-to-apply-to-be-a-bridge-translator {
@@ -96,5 +97,26 @@ $width--primary-logo: 200px;
 
   &+.branding {
     padding-top: 0;
+  }
+
+}
+
+
+.bridge-reorder-container{
+  @media only screen and (max-width: 400px) {
+    display:flex;
+    flex-flow: column;
+
+    #bridge-element-swap{
+      order: 1;
+    }
+
+    #bridge-small-hide{
+    border: 3px solid green;
+      display: none;
+    }
+    .branding.branding--bridge{
+      order: 2;   
+    }
   }
 }
