@@ -1,42 +1,13 @@
 <section class="team">
   <h3>Our Team</h3>
   <p>Headquartered in San Francisco, Meedan has a distributed team of employees and contractors in Canada, the United States, Egypt and Brazil. We do our work across 13 cities, 11 time zones, and 4 continents.</p>
-
-  <ul>
-
-
-<h1>List</h1>
-<ol>
-  <% current_page.data.team_members.each do |f| %>
-  <li>
-  <img src="../build/images/team/<%=f[0] %>.jpg" alt="name">
-  <div class="name"><%=f[0]%></div>
-  <div class="title"><%=f[1]%></div>
-  </li>
-  <% end %>
-</ol> 
-
-<!--     @@include('./_team_member.html', {"name": "muna", "fullname": "Muna AbuSulayman", "title": "Board Member"})
-    @@include('./_team_member.html', {"name": "caio", "fullname": "Caio Almeida", "title": "Senior Engineer"})
-    @@include('./_team_member.html', {"name": "jibb", "fullname": "Jonathan Beall", "title": "Mobile Engineer"})
-    @@include('./_team_member.html', {"name": "ed", "fullname": "Ed Bice", "title": "Chief Executive Officer &amp; Board Member"})
-    @@include('./_team_member.html', {"name": "steven", "fullname": "Steven Bird", "title": "Senior Advisor"})
-    @@include('./_team_member.html', {"name": "chris", "fullname": "Chris Blow", "title": "Director of User Experience"})
-    @@include('./_team_member.html', {"name": "jon", "fullname": "Jon Corshen", "title": "Board Member"})
-    @@include('./_team_member.html', {"name": "wael", "fullname": "Wael Fakharany", "title": "Board Member"})
-    @@include('./_team_member.html', {"name": "ben", "fullname": "Benjamin Foote", "title": "Systems Engineer"})
-    @@include('./_team_member.html', {"name": "hanan", "fullname": "Hanan Heikal", "title": "Board Member"})
-    @@include('./_team_member.html', {"name": "eddy", "fullname": "Eduardo Hueso", "title": "Mobile Engineering Lead"})
-    @@include('./_team_member.html', {"name": "abdul", "fullname": "Abdul Rehman Khawar", "title": "Visual Design Lead"})
-    @@include('./_team_member.html', {"name": "an", "fullname": "An Xiao Mina", "title": "Director of Product"})
-    @@include('./_team_member.html', {"name": "pat", "fullname": "Pat Motte", "title": "Bookkeeper"})
-    @@include('./_team_member.html', {"name": "karim", "fullname": "Karim Ratib", "title": "Chief Technology Officer &amp; Board Member"})
-    @@include('./_team_member.html', {"name": "sawy", "fullname": "Mohammad El-Sawy", "title": "Senior Engineer"})
-    @@include('./_team_member.html', {"name": "dima", "fullname": "Dima Saber", "title": "Checkdesk Research and M&amp;E Lead"})
-    @@include('./_team_member.html', {"name": "shady", "fullname": "Shady Samir", "title": "Application Engineer"})
-    @@include('./_team_member.html', {"name": "tom", "fullname": "Tom Trewinnard", "title": "Business Development Manager"})
-    @@include('./_team_member.html', {"name": "xiaowei", "fullname": "Xiaowei Wang", "title": "Designer"})
-    @@include('./_team_member.html', {"name": "clarissa", "fullname": "Clarissa Xavier", "title": "Computational Linguist"})
-    @@include('./_team_member.html', {"name": "nora", "fullname": "Nora Younis", "title": "Editor-in-Chief"}) -->
-  </ul>
+	<ul>
+	  <% current_page.data.team_members.each do |f| %>
+	  <li>
+		  <img src="images/team/<%= f.name %>.jpg" alt="name">
+		  <div class="name"><%=f.fullname %></div>
+		  <div class="title"><%=f.title %></div>
+	  </li>
+	  <% end %>
+	</ul>
 </section>

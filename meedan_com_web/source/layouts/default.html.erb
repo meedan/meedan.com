@@ -5,7 +5,11 @@
 	<main>
 		<%= yield %>
 	</main>
-	<%= partial "partials/svg_bundle" %>
+
+	<!-- Basically is a big sprite file bundling all our svg -->
+	<div style="height: 0; width: 0; position: absolute; visibility: hidden">
+		<%= partial "images/vector/images.svg" %>
+	</div>
 	<%= partial "partials/ga" %>
 	<script src="/pace.js"></script>
 	</body>
