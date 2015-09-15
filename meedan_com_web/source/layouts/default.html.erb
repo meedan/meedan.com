@@ -1,14 +1,20 @@
 <!doctype html>
 <html lang="en">
-<!-- 	@@include('./_head.html')
- -->	<body class="home">
-		<main>
-			<%#= partial "svg_bundle"%>
-<%= yield %>
-<%= partial "partials/branding"%>
-</main>
-<!-- 		@@include('_ga.html')
- -->
-		<script src="/pace.js"></script>
+<%= partial "partials/head"%>
+<body class="home">
+	<main>
+		<%= partial "partials/svg_bundle"%>
+		<%= partial "partials/branding" %>
+		<%= partial "partials/projects" %>
+		<%= partial "partials/team" %>
+		<%= partial "partials/latest" %>
+		<%= partial "partials/supporters" %>
+		<%= partial "partials/photo_frame" %>
+		<%= partial "partials/contact" %>
+		<%= yield %>
+		<%= partial "partials/branding"%>
+	</main>
+	<%= partial "partials/ga"%>
+	<script src="/pace.js"></script>
 	</body>
 </html>
