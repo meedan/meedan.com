@@ -1,0 +1,274 @@
+/// Web fonts from Google
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600");
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:100,200,500");
+
+@import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
+
+/// Define font stacks
+$font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+$font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+$font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
+
+// Standardize line heights
+$line-height--small: 1.2;
+$line-height--medium: 1.5;
+$line-height--large: 1.65;
+$line-height--xlarge: 1.85;
+
+// Default typography
+body {
+  color: $firefly80;
+  font-family: $font-stack--open-sans;
+  font-weight: 300;
+  line-height: $line-height--medium;
+  text-align: center;
+  font-size: 20px;
+  @media (max-width: $breakpoint) {
+  	font-size: 16px;
+  }
+}
+
+/* # Paragraphs
+*/
+
+nav.language-toggle{
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+  letter-spacing: 0;
+  font-family: $font-stack--arabic;
+}
+
+/// # Arabic Typography
+///
+
+:lang(ar) {
+  line-height: 1.3;
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+  font-family: $font-stack--arabic;
+  direction: rtl;
+  letter-spacing: 0;
+
+
+h4, h3{
+  font-size: 1.6em;
+}
+
+  p.tagline {
+    text-align: right;
+  }
+
+  .description p {
+    text-align: right;
+  }
+}
+
+p:nth-of-type(1) {
+  padding-bottom: 2em;
+}
+
+// # Headers
+//
+// <h1>Lorem dolor h1</h1>
+// <h2>Ipsum sit h2</h2>
+// <h3>Foo bar zap zing h3</h3>
+// <h4>Jackdaws sphinx of quartz h4</h4>
+// <h5>Lorem of salad best instance forest h5</h5>
+//
+h1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: $font-stack--roboto;
+  font-size: 2.6em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
+  padding: 0.5em 0.5em 0.2em 0.5em;
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4 {
+  display: block;
+  font-family: $font-stack--roboto;
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: $line-height--small;
+  margin: 0;
+  padding: 2em 1em 2em;
+  text-transform: uppercase;
+
+  @media all and (max-width: $breakpoint) {
+    padding: 2em 1em;
+  }
+}
+
+// # Emphasis
+//
+// <em>This text is emphasized.</em>
+em {
+  font-style: italic;
+}
+
+// # Lists
+//
+// <ul>
+// <li>One</li>
+// <li>Two</li>
+// <li>Three</li>
+// </ul>
+ul {
+  margin: 0.5em 0;
+  padding: 0;
+  text-align: center;
+
+  @media all and (max-width: $breakpoint) {
+    margin-top: 0.5em 0 0;
+  }
+}
+
+li {
+  display: inline-block;
+  padding: 0 1em 1em;
+
+  @media all and (max-width: $breakpoint) {
+    padding: 0 0.5em 0.5em;
+    display: block;
+  }
+}
+
+// At small sizes, make list links more like buttons
+//
+// <ul><li><a href="#">Example list link</a></li></ul>
+li > a {
+  @media all and (max-width: $breakpoint) {
+    display: block;
+    padding: 1.4em;
+  }
+}
+
+// # Paragraphs
+p {
+  display: block;
+  font-size: 1em;
+  line-height: $line-height--xlarge;
+  margin: 0 auto;
+  max-width: 35em;
+  padding: 0;
+  width: 100%;
+
+  @media all and (max-width: $breakpoint) {
+    line-height: $line-height--xlarge;
+    padding: 1em 0.7em;
+    width: 80%;
+  }
+}
+
+section.history > p {
+  padding: 0 0 2em 0;
+}
+
+// # Links
+
+// Default links
+%link--default {
+  color: $accent-blue;
+
+  &:hover {
+    color: $photo-feb10-blue;
+    transition: 0.4s;
+  }
+}
+
+// Reverse color scheme
+%link--inverted {
+  color: rgba(white, 0.7);
+  padding: 0.18em;
+
+  a:hover {
+    background-color: rgba($firefly10, 0.5);
+  }
+}
+
+// Links containing images
+%link--image {
+  border-bottom-width: 0;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+a {
+  @extend %link--default;
+}
+
+// # Arabic Typography
+/* <span class="arabic-typography">Checkdesk مشروع من قبل منظمة ميدان.</span> */
+body.ar {
+  line-height: 1.3;
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+  font-family: $font-stack--arabic;
+  p.tagline {
+    text-align: right;
+  }
+
+  .description p {
+    text-align: right;
+  }
+}
+
+// Mixin: Pretty link underlines
+//
+// Create a special text shadow so underlines don't visually intersect descenders.
+//
+// Usage: `@include linkUnderlines($background, $text-color);`
+//
+// - See: https://eager.io/blog/smarter-link-underlines/
+// - And: https://medium.com/designing-medium/crafting-link-underlines-on-medium-7c03a9274f9
+//
+$selectionColor: #b4d5fe;
+
+// this mixin is used to add the outline to the text
+@mixin textShadowToCropUnderline($color) {
+  text-shadow: 0.03em 0 $color, -0.03em 0 $color, 0 0.03em $color, 0 -0.03em $color, 0.06em 0 $color, -0.06em 0 $color, 0.09em 0 $color, -0.09em 0 $color, 0.12em 0 $color, -0.12em 0 $color, 0.15em 0 $color, -0.15em 0 $color;
+}
+
+// this puts it all together
+//
+@mixin linkUnderlines($background, $color) {
+  color: $color;
+  text-decoration: none;
+
+  @include textShadowToCropUnderline($background);
+
+  background-image: linear-gradient($background, $background), linear-gradient($background, $background), linear-gradient($color, $color);
+  background-size: .05em 1px, .05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 0% 90%, 100% 90%, 0% 90%;
+
+  &::selection {
+    @include textShadowToCropUnderline($selectionColor);
+
+    background-color: $selectionColor;
+  }
+
+  &::-moz-selection {
+    @include textShadowToCropUnderline($selectionColor);
+
+    background-color: $selectionColor;
+  }
+
+  &:before,
+  &:after,
+  *,
+  *:before,
+  *:after {
+    text-shadow: none;
+  }
+
+  &:visited {
+    color: $color;
+  }
+}

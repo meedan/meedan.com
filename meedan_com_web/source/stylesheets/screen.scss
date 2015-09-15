@@ -1,0 +1,418 @@
+@import "normalize";
+
+/// Responsive configuration
+///
+/// @example - responsive breakpoint using $breakpoint as a max-width
+///     @media all and (max-width: $breakpoint) { .. styles for small screens  .. }
+///
+$breakpoint: 900px;
+
+/// Local styles
+///
+/// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
+@import "colors";
+@import "typography";
+@import "contact";
+@import "projects";
+@import "branding";
+@import "logo-grid";
+@import "forms";
+
+/// Flex container
+///
+%flex-container {
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: center;
+	flex-align: center;
+	align-items: center;
+}
+
+/// Flex item
+/// This is the expanded form of "flex: 1 1 auto"
+%flex-item {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+
+/// Flex container stacked when small
+/// Changes the flow direction to "column"
+/// And makes things full width.
+/// This is an awesome timesaved for responsive layout!
+%flex-container-stacked-when-small {
+	@media (max-width: 600px) {
+		flex-flow: wrap column;
+		& > * {
+			width: 100%;
+		}
+	}
+}
+
+/// Flex vertically!
+///
+/// Using the `column` value to flow the content vertically.
+///
+/// @see %flex-container
+%flex-vertical {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	flex-align: center;
+	align-items: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/// Gallagher Clearfix
+///
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/// Section defaults
+///
+/// Section elements are the primary building blocks.
+/// Each section should have a header.
+%section-defaults {
+  padding-bottom: 4em;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  @extend %section-defaults;
+}
+
+
+
+.home {
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font: $font-stack--roboto;
+    animation: fadeIn 1.2s;
+  }
+
+  .about {
+    animation: fadeIn 2.5s;
+    padding: 2em 0;
+  }
+}
+/// Component: Homepage latest news
+///
+/// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
+///
+.home .latest {
+  padding-bottom: 1em;
+  background-color: $firefly2;
+  .medium-channels {
+    @extend %flex-container;
+    justify-content: center;
+
+    .medium-channel {
+      margin: 1em 1em;
+
+      iframe {
+        height: 620px !important;
+      }
+    }
+  }
+}
+
+$width--homepage-team-member: 160px;
+/// Homepage team grid
+///
+/// We use breakpoints to control how many items wide it is.
+///
+/// This is another flex-based layout, similar to the logos component.
+.home .team ul {
+  @extend %flex-container;
+  margin: 0 auto;
+  padding: 0;
+
+	@media (min-width: $width--homepage-team-member * 2) {
+		width: $width--homepage-team-member * 2 + 10px;
+	}
+
+  @media (min-width: $width--homepage-team-member * 4) {
+  	width: $width--homepage-team-member * 4 + 10px;
+  }
+
+  @media (min-width: $width--homepage-team-member * 8) {
+  	width: $width--homepage-team-member * 8 + 10px;
+  }
+
+  .name {
+    font-weight: 500;
+    padding-top: .5em;
+  }
+
+  li {
+    flex: 0 1 auto;
+    font-family: $font-stack--roboto;
+    font-size: 0.7em;
+    height: 15em;
+    width: $width--homepage-team-member;
+  }
+
+  img {
+    border-radius: 50%;
+    max-height: 100px;
+    max-width: 100px;
+    width: 100%;
+    filter: sepia(25%);
+  }
+}
+
+/// Explanation component
+///
+/// These are screenshots with with paragraphs of text. The amount of text is usually just one paragraph. There is a header for each screenshot and paragraph.
+.explanations {
+  margin: 0 auto;
+  padding: 1;
+  width: 100%;
+  max-width: 800px;
+
+  h4 {
+    font-size: 1;
+    font-weight: 100;
+    padding: 3em 0em .5em 0em;
+    width: 100%;
+  }
+
+  p {
+    display: inline-block;
+    font-size: 1.2em;
+    vertical-align: top;
+    text-align: left;
+    width: 100%;
+    padding: 1em 1em;
+
+    @media (max-width: $breakpoint) {
+      width: 100%;
+      padding: 1em;
+    }
+  }
+
+  img.screenshot {
+    display: inline-block;
+    margin: 2% 5%;
+
+    @media (max-width: 640px) {
+      width: 90%;
+    }
+  }
+  img.screenshot-bridge{
+    max-width: 300px;
+     @media all and (max-width: $breakpoint){
+      width: 50%;
+    }
+  }
+}
+
+/// A page footer
+///
+.footer {
+  @extend section;
+
+  background-color: $firefly90;
+  padding: 1em;
+
+  a {
+    color: white;
+  }
+}
+
+.home .photo-frame {
+  background-color: $firefly90;
+  background-image: url("../images/1x/banners/banner-2.jpg");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  transition: 2s;
+  color: white;
+  padding: 4em 0;
+  text-shadow: 0 0 5px black;
+}
+
+/// Component: Language toggle
+///
+/// A navigational component. On some pages the content is available in more than one language.
+nav.language-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.8em;
+  padding: 0.3em 1em;
+  background-color: rgba(white, 0.1);
+  border-radius: 5em;
+
+  @media (max-width: $breakpoint) {
+  	position: static;
+  	margin: 0;
+  	@extend %flex-container;
+  	justify-content: center;
+  	background-color: $checkdesk-yellow;
+  	border-radius: 0;
+  }
+
+  a {
+    color: rgba(black, 0.5);
+    text-decoration: none;
+    padding: 0.2em 0.3em 0;
+  }
+
+  // FIXME Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
+  :lang(ar) & a.arabic,
+  :lang(en) & a.english {
+    color: black;
+    font-weight: 800;
+    order: 1;
+  }
+
+  a.english {
+    font-size: 0.8em;
+    margin-top: 0.2em;
+    order: 1;
+  }
+
+  a.arabic {
+  }
+}
+
+body.ar {
+  direction: rtl;
+}
+
+.footer {
+  font-size: smaller;
+}
+
+body.home {
+  background-color: white;
+}
+
+body.bridge {
+  .branding,
+  .api,
+  .history,
+  .footer {
+    background: $firefly80;
+    color: rgba(white, 0.8);
+		a {
+			color: white;
+		}
+  }
+
+  .supporters, .explanations {
+    background-color: white;
+    color: $firefly80;
+  }
+}
+
+// Checkdesk
+body.checkdesk {
+  .explanations {
+    background-color: white;
+    color: $firefly80;
+  }
+
+  .team {
+    background-color: $warm-grey;
+  }
+
+  /// Inverted colors for some sections
+  .history,
+  .github,
+  .footer {
+    background-color: $firefly80;
+    color: $firefly10;
+
+    a {
+      color: rgba(white, 0.7);
+      padding: 0.18em;
+
+      a:hover {
+        background-color: rgba($firefly10, 0.5);
+      }
+    }
+  }
+
+  .newsletter {
+    background-color: $firefly2;
+    padding-bottom: 2em;
+  }
+
+  .supporters {
+    background-color: $firefly2;
+  }
+}
+
+// Two column
+// FIXME: non-semantic selector
+.twocolumn {
+  justify-content: center;
+  @extend %flex-container;
+}
+
+// Quotes
+.quote {
+  vertical-align: top;
+  display: inline;
+  width: 100%;
+  margin-top: 2em;
+
+  @media all and (max-width: $breakpoint) {
+    min-width: 100%;
+  }
+
+  p {
+  	font-size: 1.2em;
+  }
+
+  p.bottomquote {
+    font-weight: 700;
+    padding: 0;
+    display: inline;
+  }
+
+  &+.quote {
+  	margin-top: 4em;
+  }
+
+}
+
+@media all and (min-width: $breakpoint) {
+	.pace {
+	  pointer-events: none;
+	  user-select: none;
+	}
+
+	.pace-inactive {
+	  display: none;
+	}
+
+	.pace .pace-progress {
+	  background: #29d;
+	  position: fixed;
+	  z-index: 2000;
+	  top: 0;
+	  right: 100%;
+	  width: 100%;
+	  height: 2px;
+	}
+}
