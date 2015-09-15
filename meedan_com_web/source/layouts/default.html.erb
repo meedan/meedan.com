@@ -2,13 +2,14 @@
 <html lang="en">
 <%= partial "partials/head" %>
 <body class="home">
+		<%= partial "images/vector/images.svg" %>
+
 	<main>
 		<%= yield %>
 	</main>
 
 	<!-- Basically is a big sprite file bundling all our svg -->
 	<div style="height: 0; width: 0; position: absolute; visibility: hidden">
-		<%= partial "images/vector/images.svg" %>
 	</div>
 	<%= partial "partials/ga" %>
 	<script src="/pace.js"></script>
