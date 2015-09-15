@@ -21,7 +21,7 @@ $logo-large-width: 250px;
   @extend %flex-container;
   @extend %flex-container-stacked-when-small;
   a {
-    @extend %link-image;
+    // @extend %link-image;
     padding: 1em;
   }
   img, svg {

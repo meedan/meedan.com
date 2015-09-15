@@ -264,7 +264,11 @@ nav.language-toggle {
   @media (max-width: $breakpoint) {
   	position: static;
   	margin: 0;
-  	@extend %flex-container;
+  	display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    flex-align: center;
+    align-items: center;
   	justify-content: center;
   	background-color: $checkdesk-yellow;
   	border-radius: 0;
