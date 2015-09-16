@@ -55,6 +55,8 @@ set :images_dir, 'images'
 
 activate :directory_indexes
 
+activate :i18n, :mount_at_root => "en"
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
