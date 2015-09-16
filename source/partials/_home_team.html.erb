@@ -4,7 +4,7 @@
 	<ul>
 	  <% data.team_members.each do |member| %>
 	  <li>
-		  <img src="images/team/<%= member.name %>.jpg" alt="<%= member.name %>">
+	  	<img src="/images/1x/team/<%= member.name %>.jpg" alt="<%= member.name %>" srcset="/images/2x/team/<%= member.name %>.jpg 2x">
 		  <div class="name"><%= member.fullname %></div>
 		  <div class="title"><%= member.title %></div>
 	  </li>
