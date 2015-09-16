@@ -101,9 +101,7 @@ $width--primary-logo: 200px;
   #bridge-small-hide{
     width: 61.8%;
   }
-
 }
-
 
 .bridge-reorder-container{
   @extend %clearfix;
@@ -117,7 +115,7 @@ $width--primary-logo: 200px;
       display: none;
     }
     .branding.branding--bridge{
-      order: 2;   
+      order: 2;
     }
   }
 }
