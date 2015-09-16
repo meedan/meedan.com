@@ -2,11 +2,11 @@
   <h3>Our Team</h3>
   <p>Headquartered in San Francisco, Meedan has a distributed team of employees and contractors in Canada, the United States, Egypt and Brazil. We do our work across 13 cities, 11 time zones, and 4 continents.</p>
 	<ul>
-	  <% current_page.data.team_members.each do |f| %>
+	  <% data.team_members.each do |member| %>
 	  <li>
-		  <img src="images/team/<%= f.name %>.jpg" alt="name">
-		  <div class="name"><%=f.fullname %></div>
-		  <div class="title"><%=f.title %></div>
+		  <img src="images/team/<%= member.name %>.jpg" alt="<%= member.name %>">
+		  <div class="name"><%= member.fullname %></div>
+		  <div class="title"><%= member.title %></div>
 	  </li>
 	  <% end %>
 	</ul>

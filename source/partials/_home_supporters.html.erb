@@ -1,22 +1,22 @@
-      <section class="supporters">
-        <h3>Our Supporters</h3>
+<section class="supporters">
+  <h3>Our Supporters</h3>
 
-        <p>Since 2006, Meedan has worked with a network of extraordinary sponsors, clients, and partners.</p>
+  <p>Since 2006, Meedan has worked with a network of extraordinary sponsors, clients, and partners.</p>
 
-        <div class="logos">
-	        	<ul>
-	        	<% current_page.data.supporter_logos.each do |l| %>
-			      	<li>
-			      		<a class="<%=l.name %>" href="<%=l.url %>">
-				        <% if l.type == "svg" %>
-				        		<svg width="200"><use xlink:href="#<%=l.name %>" /></svg>
-				        <% elsif l.type == "png" %>
-				        	  	<!-- <img src="/images/1x/logos/<% l.name %>.png" alt="<% l.name %>" srcset="/images/2x/logos/<% l.name %> 2x"> -->
-				        	  	<img src="/images/logos/<%=l.name %>.png" alt="<%=l.name %>">
-				        <% end %>
-			        	</a>
-			        </li>
-		        <% end %>
-	        </ul>
-        </div>
-      </section>
+  <div class="logos">
+    	<ul>
+    	<% data.supporter_logos.each do |l| %>
+      	<li>
+      		<a class="<%=l.name %>" href="<%=l.url %>">
+	        <% if l.type == "svg" %>
+	        		<svg width="200"><use xlink:href="#<%=l.name %>" /></svg>
+	        <% elsif l.type == "png" %>
+	        	  	<!-- <img src="/images/1x/logos/<% l.name %>.png" alt="<% l.name %>" srcset="/images/2x/logos/<% l.name %> 2x"> -->
+	        	  	<img src="/images/logos/<%=l.name %>.png" alt="<%=l.name %>">
+	        <% end %>
+        	</a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</section>
