@@ -280,25 +280,27 @@ nav.language-toggle {
     padding: 0.2em 0.3em 0;
   }
 
-  // FIXME Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
-  :lang(ar) & a.arabic,
-  :lang(en) & a.english {
-    color: black;
-    font-weight: 800;
-    order: 1;
-  }
-
-  a.english {
-    font-size: 0.8em;
-    margin-top: 0.2em;
-    order: 1;
-  }
-
-  a.arabic {
-  }
 }
 
-body.ar {
+// FIXME Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
+:lang(ar) .language-toggle a.arabic,
+:lang(en) .language-toggle a.english {
+  color: black;
+  font-weight: 800;
+  text-decoration: underline;
+  order: 1;
+}
+
+a.english {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+  order: 1;
+}
+
+a.arabic {
+}
+
+:lang(ar) {
   direction: rtl;
 }
 

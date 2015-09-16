@@ -38,6 +38,7 @@
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  redirect "index.html", :to => "en/index.html"
 end
 
 # Methods defined in the helpers block are available in templates
@@ -46,6 +47,8 @@ end
 #     "Helping"
 #   end
 # end
+
+
 
 set :css_dir, 'css'
 
