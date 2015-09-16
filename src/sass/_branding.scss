@@ -38,7 +38,7 @@ $width--primary-logo: 200px;
   }
 
   // The phrase under the logos
-  .slogan {
+    .slogan {
   	margin: 0;
     padding: 0;
     font-size: 1.25em;
@@ -80,11 +80,12 @@ $width--primary-logo: 200px;
 
   @media all and (max-width: 900px) {
     flex-flow: column;
+    padding-top: 0;
   }
 
   img.screenshot {
     min-width: 300px;
-    width: 61.8%;
+    width: 100%;
     height: auto;
     max-width: 700px;
     display: block;
@@ -96,5 +97,36 @@ $width--primary-logo: 200px;
 
   &+.branding {
     padding-top: 0;
+  }
+
+  #bridge-small-hide{
+    width: 61.8%;
+  }
+
+}
+
+
+.bridge-reorder-container{
+  @extend %clearfix;
+  @media only screen and (max-width: 450px) {
+    display:flex;
+    flex-flow: column;
+    #bridge-element-swap{
+      order: 1;
+      padding-bottom: 0;
+
+    }
+
+    .slogan {
+      padding-top: 0;
+      padding-bottom: 1em;
+    }
+    #bridge-small-hide{
+      display: none;
+    }
+    .branding.branding--bridge{
+      order: 2;   
+
+    }
   }
 }
