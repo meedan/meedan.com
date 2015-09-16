@@ -249,14 +249,12 @@ $width--homepage-team-member: 160px;
 
 /// Component: Language toggle
 ///
-/// A navigational component. On some pages the content is available in more than one language.
 nav.language-toggle {
   position: absolute;
   top: 0;
   right: 0;
   margin: 0.8em;
   padding: 0.3em 1em;
-  background-color: rgba(white, 0.1);
   border-radius: 5em;
 
   @media (max-width: $breakpoint) {
@@ -268,31 +266,30 @@ nav.language-toggle {
     flex-align: center;
     align-items: center;
   	justify-content: center;
-  	background-color: $checkdesk-yellow;
+  	// background-color: $checkdesk-yellow;
   	border-radius: 0;
   }
 
   a {
-    color: rgba(black, 0.5);
-    text-decoration: none;
-    padding: 0.2em 0.3em 0;
+		color: $keyboard-grey;
+	  text-decoration: none;
+	  padding: 0.2em 0.3em 0;
+	  &:first-of-type {
+  		float: left;
+  	}
   }
-
 }
 
-// FIXME Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
-:lang(ar) .language-toggle a.arabic,
-:lang(en) .language-toggle a.english {
-  color: black;
-  font-weight: 800;
-  text-decoration: underline;
-  order: 1;
+:lang(en) .language-toggle a.english,
+:lang(ar) .language-toggle a.arabic {
+	font-weight: bold;
+	color: $firefly90;
 }
 
 a.english {
   font-size: 0.8em;
   margin-top: 0.2em;
-  order: 1;
+  // order: 1;
 }
 
 a.arabic {
