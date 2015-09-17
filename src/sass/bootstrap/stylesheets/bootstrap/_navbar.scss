@@ -261,6 +261,7 @@
         line-height: $line-height-computed;
         &:hover,
         &:focus {
+
           background-image: none;
         }
       }
@@ -420,6 +421,9 @@
 
   .navbar-nav {
     > li > a {
+              // border: 1px solid red;
+              margin: 0 0 0 0!important;
+              padding: 1em 0 0 0!important;
       color: $navbar-default-link-color;
 
       &:hover,
