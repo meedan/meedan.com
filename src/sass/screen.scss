@@ -140,7 +140,8 @@ $width--homepage-team-member: 160px;
 /// We use breakpoints to control how many items wide it is.
 ///
 /// This is another flex-based layout, similar to the logos component.
-.home .team ul {
+.home .team ul,
+.about .team ul, {
   @extend %flex-container;
   margin: 0 auto;
   padding: 0;
@@ -406,5 +407,94 @@ body.checkdesk {
 	  right: 100%;
 	  width: 100%;
 	  height: 2px;
+	}
+}
+
+.center-grey {
+  background-color: $firefly10;
+}
+
+.center-dark {
+  background-color: $firefly80;
+	color: $firefly10;
+}
+
+.products-photo:before {
+	  content: "";
+	  left: 0;
+	  right: 0;
+	  z-index: -9999;
+	  display: block;
+		background-size: cover;
+	  background-image: url('../images/1x/banners/products-photo.png');
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	  width: 100%;
+		background-size: cover;
+	  margin: 0 auto;
+	  padding: 6em 0;
+	  -webkit-filter: blur(2px);
+	  -moz-filter: blur(2px);
+	  -o-filter: blur(2px);
+	  -ms-filter: blur(2px);
+
+	  filter: blur(2px);
+	}
+
+
+.products-photo {
+  left: 0;
+  right: 0;
+  z-index: 9999;
+	.content{
+		z-index: 1;
+		background-color: $firefly10;
+	}
+}
+
+
+// .public-engagement-photo {
+//   background-color: $firefly10;
+//   background-image: url("../images/1x/banners/public-engagement-photo.png");
+//   background-position: 50%;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   vertical-align: middle;
+//   width: 100%;
+//   margin: 0 auto;
+//   transition: 2s;
+//   padding: 4em 0;
+// }
+
+.public-engagement-photo:before {
+	  content: "";
+	  left: 0;
+	  right: 0;
+	  z-index: -1;
+	  display: block;
+		background-size: cover;
+	  background-image: url('../images/1x/banners/public-engagegment-photo.png');
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	  width: 100%;
+		background-size: cover;
+	  margin: 0 auto;
+	  padding: 15em 0;
+	  -webkit-filter: blur(1px);
+	  -moz-filter: blur(1px);
+	  -o-filter: blur(1px);
+	  -ms-filter: blur(1px);
+
+	  filter: blur(1px);
+	}
+
+
+.public-engagement-photo{
+  left: 0;
+  right: 0;
+  z-index: 9999;
+	.content{
+		background-color: $firefly80;
+		color: $firefly10;
 	}
 }
