@@ -80,7 +80,7 @@ $width--primary-logo: 200px;
 
   @media all and (max-width: 900px) {
     flex-flow: column;
-    padding-top: 0;
+    padding-top: 1em;
   }
 
   img.screenshot {
@@ -125,7 +125,7 @@ $width--primary-logo: 200px;
       display: none;
     }
     .branding.branding--bridge{
-      order: 2;   
+      order: 2;
 
     }
   }
