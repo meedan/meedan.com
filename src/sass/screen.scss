@@ -218,6 +218,12 @@ $width--homepage-team-member: 160px;
       width: 90%;
     }
   }
+  img.screenshot-bridge{
+    max-width: 300px;
+     @media all and (max-width: $breakpoint){
+      width: 50%;
+    }
+  }
 }
 
 /// A page footer
