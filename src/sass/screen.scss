@@ -318,7 +318,6 @@ body.bridge {
   .footer {
     background: $firefly80;
     color: rgba(white, 0.8);
-		padding-top: $navbar-height * 3;
 		a {
 			color: white;
 		}
@@ -332,6 +331,7 @@ body.bridge {
 
 // Checkdesk
 body.checkdesk {
+
   .explanations {
     background-color: white;
     color: $firefly80;

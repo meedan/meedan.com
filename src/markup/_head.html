@@ -28,5 +28,29 @@
   <meta name="twitter:description" content="We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media." />
   <meta name="twitter:image" content="http://meedan.com/images/2x/logos/meedan-logo-600.png" />
   <meta name="twitter:site" content="@meedan" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>(function ($) {
+  $(document).ready(function(){
+    
+  // hide .navbar first
+  $(".navbar").hide();
+  
+  // fade in .navbar
+  $(function () {
+    $(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+      if ($(this).scrollTop() > 300) {
+        $('.navbar').fadeIn();
+      } else {
+        $('.navbar').fadeOut();
+      }
+    });
+
+  
+  });
+
+});
+  }(jQuery));</script>
 
 </head>
