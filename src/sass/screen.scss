@@ -259,7 +259,7 @@ $width--homepage-team-member: 160px;
 /// A navigational component. On some pages the content is available in more than one language.
 nav.language-toggle {
   position: absolute;
-  top: 0;
+  top: 60px;
   right: 0;
   margin: 0.8em;
   padding: 0.3em 1em;
@@ -267,8 +267,11 @@ nav.language-toggle {
   border-radius: 5em;
 
   @media (max-width: $breakpoint) {
-  	position: static;
+  	// position: static;
+    position: absolute;
   	margin: 0;
+    top: 60px;
+    align-items: center;
   	@extend %flex-container;
   	justify-content: center;
   	background-color: $checkdesk-yellow;
