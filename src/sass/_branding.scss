@@ -194,21 +194,31 @@ $width--primary-logo: 200px;
 }
 
 .promo-bar{
-  // @extend %flex-container;
   @extend %clearfix;
-  // display: flex;
-  // flex-flow: wrap row;
-  // justify-content: center;
-  // flex-align: center;
-  // align-items: center;
   margin: 1em 0.5em;
-  // border: 5px solid pink;
   #we-love{
-  // border: 1px solid green;
+    @media all and (max-width:960px){
+    display: none;
+    }
   }
-  @media all and (max-width:900px){
+
+  .specialemail{
+  margin-right: 5px;
+  @media all and (max-width:960px){
   display: none;
+    }
   }
+
+  #we-love2{
+    @media all and (min-width: 959px){
+      display:none;
+      }
+    a{
+      font-weight: 300;
+      color: $firefly80;
+    }
+  }
+
 }
 
 
