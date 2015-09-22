@@ -168,30 +168,117 @@ $width--primary-logo: 200px;
     font-size: 2em;
   }
 
+  @media all and (max-width:450px){
+    max-height: 600px;
+  }
 
 }
+
+
 .heading{
   // border: 1px solid red;
-  padding: 6em 0em;
+  padding: 5em 0em;
+  @media all and (max-width:450px){
+  padding: 0em 0em;
+  }
+}
+
+.btn-scroll-down{
+  @extend %clearfix;
+  padding-top: 0em;
+  margin-top: 0em;
+  @media all and (max-width:450px){
+  padding: 1em 0em;
+  }
+  // border: 1px solid red;
 }
 
 .promo-bar{
-// border: 1px solid red;
-margin: 1em 2em;
-}
-
-.recent-press-section{
-}
-
-.recent-press-logo{
-  .nlb{
-    width: 70%;
-    max-width: 10px;
+  // @extend %flex-container;
+  @extend %clearfix;
+  // display: flex;
+  // flex-flow: wrap row;
+  // justify-content: center;
+  // flex-align: center;
+  // align-items: center;
+  margin: 1em 0.5em;
+  // border: 5px solid pink;
+  #we-love{
+  // border: 1px solid green;
+  }
+  @media all and (max-width:900px){
+  display: none;
   }
 }
+
 
 p.recent-press-quote{
   // border: 1px solid red;
   font-weight: 500;
   padding: 1em;
+  @media only screen and (max-width: 450px) {
+    padding: 0 0 0 0 !important;
+  }
+}
+
+
+
+
+.recent-press-section {
+  @extend %flex-container;
+  justify-content: center;
+  background: $firefly10;
+  // border: 3px solid pink;
+  padding: 0;
+  @media (max-width: $breakpoint) {
+  }
+
+  // ## Set the logo widths
+  .nieman-logo, .fortune-logo{
+    // border: 1px solid purple;
+    max-width: 80%;
+  }
+  h3 {
+    width: 100%;
+  }
+}
+
+.recent-press-section .nieman,
+.recent-press-section .fortune {
+  color: $firefly80;
+  width: 40%;
+  padding: 2em 2em;
+  margin: 1em;
+
+
+  @media all and (max-width: $breakpoint) {
+    width: 100%;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.25;
+
+    &.press-blurb {
+      font-weight: 500;
+      padding-top: 1.5em;
+      font-weight: 500;
+    }
+    a {
+      text-decoration: none;
+      color: $firefly80;
+    }
+  }
+
+  @media all and (max-width: $breakpoint) {
+    .nieman-logo, .fortune-logo {
+      // border:1px solid red;
+      max-width: 90%;
+    }
+
+    p {
+      padding: 0;
+      width: 95%;
+    }
+  }
 }
