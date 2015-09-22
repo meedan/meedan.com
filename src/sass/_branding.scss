@@ -66,6 +66,10 @@ $width--primary-logo: 200px;
 // Checkdesk uses default branding styles
 .checkdesk .branding {
   @extend %branding--default;
+  padding-top: $navbar-height * 3;
+  @media all and (max-width:$breakpoint){
+      padding-top: $navbar-height * 2;
+  }
   background-color: $checkdesk-yellow;
   color: white;
 }
@@ -77,7 +81,6 @@ $width--primary-logo: 200px;
   justify-content: center;
   align-items: center;
   padding: 2em 2em 0 2em;
-
   @media all and (max-width: 900px) {
     flex-flow: column;
     padding-top: 1em;
@@ -108,12 +111,16 @@ $width--primary-logo: 200px;
 
 .bridge-reorder-container{
   @extend %clearfix;
+  padding-top: $navbar-height * 2;
+  background: $firefly80;
+
   @media only screen and (max-width: 450px) {
     display:flex;
     flex-flow: column;
     #bridge-element-swap{
       order: 1;
       padding-bottom: 0;
+
 
     }
 
@@ -126,7 +133,162 @@ $width--primary-logo: 200px;
     }
     .branding.branding--bridge{
       order: 2;
+      padding-top: 1em;
 
+
+    }
+  }
+  #bridge-element-swap{
+  @extend %clearfix;
+  }
+}
+
+.container{
+  @extend %clearfix;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.about .branding {
+  // @extend %branding--default;
+  background-image: url('../images/2x/banners/about-branding-photo.png');
+  padding-top: 4em;
+  color: white;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 100% !important;
+  background-size: cover;
+  position: relative;
+  min-height: auto;
+  background-position: center;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  h3{
+    font-weight: 500;
+    font-size: 2em;
+  }
+
+  @media all and (max-width:450px){
+    max-height: 600px;
+  }
+
+}
+
+
+.heading{
+  // border: 1px solid red;
+  padding: 5em 0em;
+  @media all and (max-width:450px){
+  padding: 0em 0em;
+  }
+}
+
+.btn-scroll-down{
+  @extend %clearfix;
+  padding-top: 0em;
+  margin-top: 0em;
+  @media all and (max-width:450px){
+  padding: 1em 0em;
+  }
+  // border: 1px solid red;
+}
+
+.promo-bar{
+  @extend %clearfix;
+  margin: 1em 0.5em;
+  #we-love{
+    @media all and (max-width:960px){
+    display: none;
+    }
+  }
+
+  .specialemail{
+  margin-right: 5px;
+  @media all and (max-width:960px){
+  display: none;
+    }
+  }
+
+  #we-love2{
+    @media all and (min-width: 959px){
+      display:none;
+      }
+    a{
+      font-weight: 300;
+      color: $firefly80;
+    }
+  }
+
+}
+
+
+p.recent-press-quote{
+  // border: 1px solid red;
+  font-weight: 500;
+  padding: 1em;
+  @media only screen and (max-width: 450px) {
+    padding: 0 0 0 0 !important;
+  }
+}
+
+
+
+
+.recent-press-section {
+  @extend %flex-container;
+  justify-content: center;
+  background: $firefly10;
+  // border: 3px solid pink;
+  padding: 0;
+  @media (max-width: $breakpoint) {
+  }
+
+  // ## Set the logo widths
+  .nieman-logo, .fortune-logo{
+    // border: 1px solid purple;
+    max-width: 80%;
+  }
+  h3 {
+    width: 100%;
+  }
+}
+
+.recent-press-section .nieman,
+.recent-press-section .fortune {
+  color: $firefly80;
+  width: 40%;
+  padding: 2em 2em;
+  margin: 1em;
+
+
+  @media all and (max-width: $breakpoint) {
+    width: 100%;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.25;
+
+    &.press-blurb {
+      font-weight: 500;
+      padding-top: 1.5em;
+      font-weight: 500;
+    }
+    a {
+      text-decoration: none;
+      color: $firefly80;
+    }
+  }
+
+  @media all and (max-width: $breakpoint) {
+    .nieman-logo, .fortune-logo {
+      // border:1px solid red;
+      max-width: 90%;
+    }
+
+    p {
+      padding: 0;
+      width: 95%;
     }
   }
 }
