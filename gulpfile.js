@@ -10,7 +10,7 @@ gulp.task('bundle-svg', function () {
   gulp.src('source/images/vector/*.svg')
     .pipe(svgmin())
     .pipe(svgstore())
-    .pipe(gulp.dest('sources/images/vector/'))
+    .pipe(gulp.dest('source/images/vector/'))
 });
 
 gulp.task('pagespeed', function () {
@@ -25,7 +25,7 @@ gulp.task('pagespeed', function () {
 
 // HTML Validator
 gulp.task('validate', function () {
-  gulp.src(['www/*.html', '!www/_*.html'])
+  gulp.src(['build/*.html', '!build/_*.html'])
     .on('error', handleErrors)
     .pipe(w3cjs());
 });
