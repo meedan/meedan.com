@@ -37,8 +37,8 @@
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
-  redirect "index.html", :to => "en/index.html"
+	activate :livereload
+	redirect "index.html", :to => "en/index.html"
 end
 
 # Methods defined in the helpers block are available in templates
@@ -47,8 +47,6 @@ end
 #     "Helping"
 #   end
 # end
-
-
 
 set :css_dir, 'css'
 
@@ -62,18 +60,18 @@ activate :i18n, :mount_at_root => "en"
 
 # Build-specific configuration
 configure :build do
-  # For example, change the Compass output style for deployment
-  # activate :minify_css
+	# For example, change the Compass output style for deployment
+	# activate :minify_css
 
-  # Minify Javascript on build
-  # activate :minify_javascript
+	# Minify Javascript on build
+	# activate :minify_javascript
 
-  # Enable cache buster
-  # activate :asset_hash
+	# Enable cache buster
+	# activate :asset_hash
 
-  # Use relative URLs
-  # activate :relative_assets
+	# Use relative URLs
+	# activate :relative_assets
 
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
+	# Or use a different image path
+	# set :http_prefix, "/Content/images/"
 end
