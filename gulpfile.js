@@ -4,6 +4,20 @@ var svgmin = require('gulp-svgmin');
 var psi = require('psi');
 var site = "http://meedan.com";
 var w3cjs = require('gulp-w3cjs');
+var notify = require("gulp-notify");
+
+handleErrors = function () {
+
+  var args = Array.prototype.slice.call(arguments);
+
+  // Send error to notification center with gulp-notify
+  notify.onError({
+    title: "Compile Error",
+  }).apply(this, args);
+
+  // Keep gulp from hanging on this task
+  this.emit('end');
+};
 
 gulp.task('bundle-svg', function () {
   // SVG files get special handling
