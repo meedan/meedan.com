@@ -11,10 +11,8 @@ slug: "home"
     <use xlink:href="#labs" />
   </svg>
 
-  <h1><%= t("home.branding.title") %></h1>
-
+  <h1 class="title"><%= t("home.branding.title") %></h1>
   <p class="slogan"><%= t("home.branding.slogan") %></p>
-
   <p class="about"><%= t("home.branding.about") %></p>
 </section>
 
@@ -84,9 +82,8 @@ slug: "home"
 <script async src="https://static.medium.com/embed.js"></script>
 
 <section class="latest">
-  <h3>Our Latest</h3>
-
-  <p>We maintain two Medium channels, where we share the latest news about our verification and language initiatives.</p>
+  <h3><%= t("home.latest.header") %></h3>
+  <p><%= t("home.latest.text") %></p>
   <div class="medium-channels">
     <div class="medium-channel">
       <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates"></a>
