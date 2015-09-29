@@ -26,7 +26,19 @@ slug: "checkdesk"
   <% end %>
 </section>
 
-<%= partial "partials/checkdesk_testimonials.html" %>
+<section class="testimonials">
+  <% t("checkdesk.testimonials.quotes").each do |t| %>
+    <div class="twocolumn">
+        <div class="quote">
+          <p><span class="quote-glyph">&ldquo;</span><%= t[:quote] %></p>
+          <p class="bottomquote"><%= t[:attribution] %></p>
+          <p class="bottomquote"><a href="<%= t[:website_url] %>" target="_blank">
+          <%= t[:website_name] %></a></p>
+        </div>
+     </div>
+  <% end %>
+</section>
+
 <%= partial "partials/checkdesk_newsletter.html" %>
 <%= partial "partials/checkdesk_history.html" %>
 <%= partial "partials/checkdesk_supporters.html" %>
