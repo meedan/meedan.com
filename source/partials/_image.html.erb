@@ -1,0 +1,7 @@
+<a class="<%= image.name %>" href="<%= image.url %>">
+  <% if image.type == "svg" %>
+    <svg width="200"><use xlink:href="#<%=image.name %>" /></svg>
+  <% elsif image.type == "png" %>
+    <img src="/images/1x/logos/<%= image.name %>.png" alt="<% image.name %>" srcset="/images/2x/logos/<%= image.name %>.png 2x">
+  <% end %>
+</a>

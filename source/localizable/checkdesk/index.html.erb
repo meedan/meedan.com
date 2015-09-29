@@ -4,28 +4,39 @@ slug: "checkdesk"
 ---
 <%= partial "partials/language_toggle.html" %>
 
+<!-- Branding -->
 <div class="branding">
   <div class="splash">
-   <img width="500" class="screenshot" src="/images/2x/screenshots/<%= t("checkdesk.branding.splash") %>" alt="Checkdesk">
+   <img width="500"
+    class="screenshot"
+    src="/images/2x/screenshots/<%= t("checkdesk.branding.splash") %>"
+    alt="Checkdesk">
   </div>
 
-  <svg class="checkdesklogo" width="300"><use xlink:href="#checkdeskwhite" /></svg>
+  <svg class="checkdesklogo" width="300">
+    <use xlink:href="#checkdeskwhite" />
+  </svg>
 
   <p class="slogan">
     <%= t("checkdesk.branding.slogan") %>
   </p>
 </div>
 
+<!-- Explanations -->
 <section class="explanations">
   <% t("checkdesk.explanations").each do |e| %>
     <div class="description">
       <h4><%= e[:header] %></h4>
       <p><%= e[:text] %></p>
-      <img class="screenshot" src="/images/1x/screenshots/<%= e[:img] %>" srcset="/images/2x/screenshots/<%= e["img"] %> 2x" alt="<%= e["alt"] %>"/>
+      <img class="screenshot"
+      src="/images/1x/screenshots/<%= e[:img] %>"
+      srcset="/images/2x/screenshots/<%= e["img"] %> 2x"
+      alt="<%= e["alt"] %>"/>
     </div>
   <% end %>
 </section>
 
+<!-- Testimonials -->
 <section class="testimonials">
   <% t("checkdesk.testimonials.quotes").each do |t| %>
     <div class="twocolumn">
@@ -39,23 +50,79 @@ slug: "checkdesk"
   <% end %>
 </section>
 
+<!-- Newsletter -->
 <section class="newsletter">
-  <h3><%= t("checkdesk.newsletter.header") %></h3>
+  <h3></h3>
   <p><%= t("checkdesk.newsletter.summary") %></p>
 
-  <form class="tinyletter" action="https://tinyletter.com/Checkdesk_Checklist" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/Checkdesk_Checklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-
+  <form class="tinyletter"
+    action="https://tinyletter.com/Checkdesk_Checklist"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/Checkdesk_Checklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
     <div class="form-group">
       <label for="tlemail">Type your email:</label>
-      <input type="email" placeholder='<%= t("checkdesk.newsletter.placeholder_text") %>' name="email" id="tlemail" />
+      <input type="email"
+        placeholder='<%= t("checkdesk.newsletter.placeholder_text") %>'
+        name="email" id="tlemail" />
       <input type="hidden" value="1" name="embed"/>
       <input type="submit" value='<%= t("checkdesk.newsletter.button_text") %>' />
     </div>
   </form>
 </section>
 
-<%= partial "partials/checkdesk_history.html" %>
-<%= partial "partials/checkdesk_supporters.html" %>
-<%= partial "partials/checkdesk_partners.html" %>
-<%= partial "partials/checkdesk_github.html" %>
-<%= partial "partials/checkdesk_footer.html" %>
+<!-- History -->
+<section class="history">
+  <h3><%= t("checkdesk.history.header") %></h3>
+  <% t("checkdesk.history.paragraphs").each do |p| %>
+    <p><%= p[:text] %></p>
+  <% end %>
+</section>
+
+<!-- Supporters -->
+<section class="supporters">
+  <h3>
+    <%= t("checkdesk.supporters.header") %>
+  </h3>
+  <div class="logos">
+    <%= partial "partials/_image.html.erb",
+      :locals => {
+        :type => "svg",
+        :name => "sida",
+        :url => "http://www.sida.se/english/"} %>
+
+    <%= partial "partials/_image.html.erb",
+      :locals => {
+        :type => "svg",
+        :name => "kf",
+        :url => "http://www.knightfoundation.org"} %>
+    </a>
+  </div>
+</section>
+
+<!-- Partners -->
+<section class="partners">
+  <h3>
+  <ul class="logos">
+    <% data.checkdesk_partner_logos.each do |image| %>
+      <li>
+        <%= partial "partials/_image.html.erb",
+          :locals => {
+            :type => image[:type],
+            :name => image[:name],
+            :url => image[:url]} %>
+      </li>
+    <% end %>
+  </ul>
+</section>
+
+<!-- Github -->
+<section class="github">
+  <h3><%= t("checkdesk.github.header") %></h3>
+  <p><%= t("checkdesk.github.text") %></p>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+  <p><%= t("checkdesk.footer") %></p>
+</div>

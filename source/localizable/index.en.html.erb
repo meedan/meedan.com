@@ -3,10 +3,82 @@ layout: "default"
 slug: "home"
 ---
 <%= partial "partials/language_toggle.html" %>
-<%= partial "partials/home_branding" %>
-<%= partial "partials/home_projects" %>
-<%= partial "partials/home_team" %>
+
+<section class="branding">
+
+  <svg class="logo" width="100"><use xlink:href="#labs" /></svg>
+
+  <h1><%= t("home.branding.title") %></h1>
+
+  <p class="slogan">Make sense of the global web.</p>
+
+  <p class="about">Meedan builds digital tools for global journalism and translation. We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media. With commercial, media and university partners, we support research, curriculum development, and new forms of digital storytelling.</p>
+</section>
+
+<section class="projects">
+
+  <h3>Our Work</h3>
+
+  <div class="checkdesk">
+
+    <a href ="/checkdesk">
+      <svg><use xlink:href="#checkdeskwhite" /></svg>
+    </a>
+
+    <p class="tagline">Verify breaking news online</p>
+    <p class="blurb">Checkdesk is a flexible toolkit for collaboration around verifying user generated content. The Checkdesk project has worked to build tools, support independent journalists, and develop media literacy training resources that aim to improve the investigative quality of citizen journalism and help limit the rapid spread of rumors and misinformation.</p>
+
+    <p class="learn">
+      <a href="checkdesk-en">Learn more</a> <a class="github" href="http://github.com/meedan/checkdesk/">Github repository</a>
+    </p>
+  </div>
+
+  <div class="bridge">
+
+    <a href="/bridge">
+      <svg><use xlink:href="#bridge" /></svg>
+    </a>
+
+    <p class="tagline">Translate the global web</p>
+
+    <p class="blurb">Bridge helps communities translate, annotate, share, and source the most compelling global content on social media. Starting with a pilot with the National Geographic Society and Pulitzer Prize-winning journalist Paul Salopek’s Out of Eden Walk project, the product aims to support a team of translators with tools like glossaries and translation memories.</p>
+
+    <p class="learn">
+      <a href="/bridge">Learn more</a>
+    </p>
+  </div>
+</section>
+
+<section class="team">
+  <h3>Our Team</h3>
+  <p>Headquartered in San Francisco, Meedan has a distributed team of employees and contractors in Canada, the United States, Egypt and Brazil. We do our work across 13 cities, 11 time zones, and 4 continents.</p>
+  <ul>
+    <% data.team_members.each do |member| %>
+    <li>
+      <img src="/images/1x/team/<%= member.name %>.jpg" alt="<%= member.name %>" srcset="/images/2x/team/<%= member.name %>.jpg 2x">
+      <div class="name"><%= member.fullname %></div>
+      <div class="title"><%= member.title %></div>
+    </li>
+    <% end %>
+  </ul>
+</section>
+
 <%= partial "partials/home_latest" %>
-<%= partial "partials/home_supporters" %>
+
+<section class="supporters">
+  <h3>Our Supporters</h3>
+  <p>Since 2006, Meedan has worked with a network of extraordinary sponsors, clients, and partners.</p>
+  <div class="logos">
+    <ul>
+      <% data.supporter_logos.each do |logo| %>
+      <li>
+        <%= partial "partials/_image.html.erb",
+          :locals => { :type => logo[:type], :name => logo[:name], :url => logo[:url]} %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</section>
+
 <%= partial "partials/home_photo_frame" %>
 <%= partial "partials/contact" %>
