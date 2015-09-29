@@ -68,8 +68,9 @@ en:
     newsletter:
       header: "Subscribe to Our Newsletter"
       summary: "Get a roundup of fact-checking stories in the Checkdesk Checklist, our weekly newsletter. Read the most recent edition in our <a href='http://tinyletter.com/Checkdesk_Checklist/archive'>newsletter archive</a>."
-      placeholder_text: "factchecker@example.com"
-      button_text: "Subscribe"
+      label: "Type your email:"
+      placeholder: "factchecker@example.com"
+      button: "Subscribe"
     history:
       header: "Our History"
       paragraphs:

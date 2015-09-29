@@ -61,12 +61,12 @@ slug: "checkdesk"
     target="popupwindow"
     onsubmit="window.open('https://tinyletter.com/Checkdesk_Checklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
     <div class="form-group">
-      <label for="tlemail">Type your email:</label>
+      <label for="tlemail"><%= t("checkdesk.newsletter.label") %></label>
       <input type="email"
-        placeholder='<%= t("checkdesk.newsletter.placeholder_text") %>'
+        placeholder='<%= t("checkdesk.newsletter.placeholder") %>'
         name="email" id="tlemail" />
       <input type="hidden" value="1" name="embed"/>
-      <input type="submit" value='<%= t("checkdesk.newsletter.button_text") %>' />
+      <input type="submit" value='<%= t("checkdesk.newsletter.button") %>' />
     </div>
   </form>
 </section>
@@ -85,14 +85,12 @@ slug: "checkdesk"
     <%= t("checkdesk.supporters.header") %>
   </h3>
   <div class="logos">
-    <%= partial "partials/_image.html.erb",
-      :locals => {
+    <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
         :name => "sida",
         :url => "http://www.sida.se/english/"} %>
 
-    <%= partial "partials/_image.html.erb",
-      :locals => {
+    <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
         :name => "kf",
         :url => "http://www.knightfoundation.org"} %>
@@ -106,8 +104,7 @@ slug: "checkdesk"
   <ul class="logos">
     <% data.checkdesk_partner_logos.each do |image| %>
       <li>
-        <%= partial "partials/_image.html.erb",
-          :locals => {
+        <%= partial "partials/_image.html.erb", :locals => {
             :type => image[:type],
             :name => image[:name],
             :url => image[:url]} %>

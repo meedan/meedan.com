@@ -20,8 +20,7 @@ slug: "home"
 <section class="projects">
   <h3><%= t("home.projects.title") %></h3>
   <div class="checkdesk">
-    <%= partial "partials/image.html.erb",
-    :locals => {
+    <%= partial "partials/image.html.erb", :locals => {
         :url => "/checkdesk",
         :name => "checkdeskwhite",
         :type => "svg"} %>
@@ -45,8 +44,7 @@ slug: "home"
   </div>
 
   <div class="bridge">
-    <%= partial "partials/image.html.erb",
-    :locals => {
+    <%= partial "partials/image.html.erb", :locals => {
         :url => "/bridge",
         :name => "bridge",
         :type => "svg"} %>
@@ -80,7 +78,6 @@ slug: "home"
 
 <!-- Homepage Latest -->
 <script async src="https://static.medium.com/embed.js"></script>
-
 <section class="latest">
   <h3><%= t("home.latest.header") %></h3>
   <p><%= t("home.latest.text") %></p>
@@ -103,8 +100,10 @@ slug: "home"
     <ul>
       <% data.supporter_logos.each do |logo| %>
       <li>
-        <%= partial "partials/_image.html.erb",
-          :locals => { :type => logo[:type], :name => logo[:name], :url => logo[:url]} %>
+        <%= partial "partials/_image.html.erb", :locals => {
+          :type => logo[:type],
+          :name => logo[:name],
+          :url => logo[:url]} %>
       </li>
       <% end %>
     </ul>
