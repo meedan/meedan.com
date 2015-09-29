@@ -4,9 +4,13 @@ slug: "home"
 ---
 <%= partial "partials/language_toggle.html" %>
 
+
+<!-- Homepage Branding -->
 <section class="branding">
 
-  <svg class="logo" width="100"><use xlink:href="#labs" /></svg>
+  <svg class="logo" width="100">
+    <use xlink:href="#labs" />
+  </svg>
 
   <h1><%= t("home.branding.title") %></h1>
 
@@ -15,6 +19,7 @@ slug: "home"
   <p class="about"><%= t("home.branding.about") %></p>
 </section>
 
+<!-- Homepage Projects -->
 <section class="projects">
 
   <h3><%= t("home.projects.title") %></h3>
@@ -64,6 +69,7 @@ slug: "home"
   </div>
 </section>
 
+<!-- Homepage Team -->
 <section class="team">
   <h3><%= t("home.team.header") %></h3>
   <p><%= t("home.team.text") %></p>
@@ -78,8 +84,10 @@ slug: "home"
   </ul>
 </section>
 
+<!-- Homepage Latest -->
 <%= partial "partials/home_latest" %>
 
+<!-- Homepage Supporters -->
 <section class="supporters">
   <h3><%= t("home.supporters.header") %></h3>
   <p><%= t("home.supporters.text") %></p>
@@ -95,6 +103,8 @@ slug: "home"
   </div>
 </section>
 
+<!-- Homepage Photo Frame -->
 <%= partial "partials/home_photo_frame" %>
 
+<!-- Homepage Contact -->
 <%= partial "partials/contact" %>
