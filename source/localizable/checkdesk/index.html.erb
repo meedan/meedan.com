@@ -39,7 +39,21 @@ slug: "checkdesk"
   <% end %>
 </section>
 
-<%= partial "partials/checkdesk_newsletter.html" %>
+<section class="newsletter">
+  <h3><%= t("checkdesk.newsletter.header") %></h3>
+  <p><%= t("checkdesk.newsletter.summary") %></p>
+
+  <form class="tinyletter" action="https://tinyletter.com/Checkdesk_Checklist" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/Checkdesk_Checklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+    <div class="form-group">
+      <label for="tlemail">Type your email:</label>
+      <input type="email" placeholder='<%= t("checkdesk.newsletter.placeholder_text") %>' name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed"/>
+      <input type="submit" value='<%= t("checkdesk.newsletter.button_text") %>' />
+    </div>
+  </form>
+</section>
+
 <%= partial "partials/checkdesk_history.html" %>
 <%= partial "partials/checkdesk_supporters.html" %>
 <%= partial "partials/checkdesk_partners.html" %>
