@@ -1,5 +1,10 @@
 <nav class="language-toggle">
-  <% other_langs.each do |lang| %>
-    <li><%= translated_url(lang) %></li>
-  <% end %>
+  <%# other_langs.each do |lang| %>
+    <li><%#= translated_url(lang) %></li>
+  <%# end %>
+  <%page_name = @page_id.split("/", 1).last.sub(/\..*$/, '')%>
+	<%=page_name%>
+  <%=untranslated_path = t(:paths).index(page_name)%>
+  <%=langs - [I18n.locale]%>
+
 </nav>
