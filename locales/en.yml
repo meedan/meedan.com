@@ -9,7 +9,7 @@ en:
       slogan: "Make sense of the global web."
       about: "Meedan builds digital tools for global journalism and translation. We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media. With commercial, media and university partners, we support research, curriculum development, and new forms of digital storytelling."
     projects:
-      header: "Our Work"
+      title: "Our Work"
       checkdesk:
         tagline: "Verify breaking news online"
         blurb: "Checkdesk is a flexible toolkit for collaboration around verifying user generated content. The Checkdesk project has worked to build tools, support independent journalists, and develop media literacy training resources that aim to improve the investigative quality of citizen journalism and help limit the rapid spread of rumors and misinformation."
@@ -113,6 +113,20 @@ en:
         text: "The best translations involve a variety of skills — copy editing, grammar, spelling, a grasp of meaning and nuance. Bridge helps translators work collaboratively, with their individual contributions highlighted and recognized."
         img: "bridge-collaborate.png"
         alt: "Collaborate on Bridge"
+    history:
+      header: "our history"
+      paragraphs:
+      -
+        text: "Meedan has a vision of a more crosslingual internet, and we have worked with hundreds of people around the world to translate millions of words into a half dozen languages. We are committed to the potential of translation as a social good, both at home and globally, with a particular focus on enabling communities to support global journalism and civic engagement."
+      -
+        text: "Since 2006, Meedan has led a number of groundbreaking crowdsourced translation projects, including News.Meedan, a crowdsourced translation site for journalism across the Arabic- and English-speaking webs and Speak2Tweet, an effort to translate voice messages from the Egyptian revolution. Members of Meedan bring a rich array of professional experience in crowdsourced and digital translation, including Ai Weiwei English, a dedicated translation site for the Chinese artist-activist’s Twitter."
+      -
+        text: "Our current collaboration with Pulitzer Prize-winning journalist Paul Salopek's <a href='http://www.outofedenwalk.com'>Out of Eden Walk</a> project aims to translate tweets situated in the vicinity of his 7-year walk around the world. We are pleased to partner with the DOLLY Project and Translators Without Borders on this effort."
+    supporters:
+      header: "Partners and Support"
+      tagline: "Bridge is generously supported by the Knight Foundation through a grant administered by the National Geographic Society."
+      partner_paragraph: "Bridge currently partners with <a href='http://www.floatingsheep.org/p/dolly.html'>the DOLLY Project</a>, <a href='http://translatorswithoutborders.org/'>Translators Without Borders</a>, and <a href='http://en.wikipedia.org/wiki/Taghreedat'>Taghreedat</a> for translation, research, sourcing and testing. Please <a href='mailto:hello@speakbridge.io'>get in touch</a> for more information on opportunities for collaboration with your organization."
+    footer: "Bridge is a project of <a href='http://meedan.com'>Meedan</a>."
 
 
 
