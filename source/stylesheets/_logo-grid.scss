@@ -18,10 +18,14 @@ $logo-large-width: 250px;
 /// @author Chris Blow
 /// @group meedan-web
 %logo-grid {
-  @extend %flex-container;
+    display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  flex-align: center;
+  align-items: center;
   @extend %flex-container-stacked-when-small;
   a {
-    // @extend %link-image;
+    @extend %link-image !optional;
     padding: 1em;
   }
   img, svg {

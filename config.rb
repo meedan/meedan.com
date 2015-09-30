@@ -77,6 +77,9 @@ activate :i18n, :mount_at_root => "en"
 redirect "index.html", :to => "en/index.html"
 
 
+# Asset pipeline
+activate :sprockets
+
 # Build-specific configuration
 configure :build do
 	# For example, change the Compass output style for deployment

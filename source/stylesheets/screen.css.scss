@@ -11,12 +11,15 @@ $breakpoint: 900px;
 ///
 /// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
 @import "colors";
+@import "bootstrap/stylesheets/bootstrap";
 @import "typography";
 @import "contact";
 @import "projects";
 @import "branding";
 @import "logo-grid";
 @import "forms";
+
+
 
 /// Flex container
 ///
@@ -61,12 +64,6 @@ $breakpoint: 900px;
 	flex-align: center;
 	align-items: center;
 }
-
-
-* {
-  box-sizing: border-box;
-}
-
 /// Gallagher Clearfix
 ///
 %clearfix {
@@ -79,6 +76,13 @@ $breakpoint: 900px;
     clear: both;
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
 
 /// Section defaults
 ///
@@ -93,6 +97,8 @@ $breakpoint: 900px;
 section {
   @extend %section-defaults;
 }
+
+
 
 .home {
   h1 {
@@ -115,7 +121,11 @@ section {
   padding-bottom: 1em;
   background-color: $firefly2;
   .medium-channels {
-    @extend %flex-container;
+      display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  flex-align: center;
+  align-items: center;
     justify-content: center;
 
     .medium-channel {
@@ -134,7 +144,8 @@ $width--homepage-team-member: 160px;
 /// We use breakpoints to control how many items wide it is.
 ///
 /// This is another flex-based layout, similar to the logos component.
-.home .team ul {
+.home .team ul,
+.about .team ul, {
   @extend %flex-container;
   margin: 0 auto;
   padding: 0;
@@ -249,53 +260,57 @@ $width--homepage-team-member: 160px;
 
 /// Component: Language toggle
 ///
+/// A navigational component. On some pages the content is available in more than one language.
 nav.language-toggle {
   position: absolute;
-  top: 0;
+  top: 60px;
   right: 0;
   margin: 0.8em;
   padding: 0.3em 1em;
+  background-color: rgba(white, 0.1);
   border-radius: 5em;
 
   @media (max-width: $breakpoint) {
-  	position: static;
+  	// position: static;
+    position: absolute;
   	margin: 0;
-  	display: flex;
+    top: 60px;
+    align-items: center;
+  	 display: flex;
     flex-flow: wrap row;
     justify-content: center;
     flex-align: center;
     align-items: center;
   	justify-content: center;
-  	// background-color: $checkdesk-yellow;
+  	background-color: $checkdesk-yellow;
   	border-radius: 0;
   }
 
   a {
-		color: $keyboard-grey;
-	  text-decoration: none;
-	  padding: 0.2em 0.3em 0;
-	  &:first-of-type {
-  		float: left;
-  	}
+    color: rgba(black, 0.5);
+    text-decoration: none;
+    padding: 0.2em 0.3em 0;
+  }
+
+  // FIXME Something is wrong with order. It should not require any order property, as far as I know. Setting order like this keeps the labels from swapping (which I can't explain yet.) 2015 August 27 CGB
+  :lang(ar) & a.arabic,
+  :lang(en) & a.english {
+    color: black;
+    font-weight: 800;
+    order: 1;
+  }
+
+  a.english {
+    font-size: 0.8em;
+    margin-top: 0.2em;
+    order: 1;
+  }
+
+  a.arabic {
   }
 }
 
-:lang(en) .language-toggle a.english,
-:lang(ar) .language-toggle a.arabic {
-	font-weight: bold;
-	color: $firefly90;
-}
-
-a.english {
-  font-size: 0.8em;
-  margin-top: 0.2em;
-  // order: 1;
-}
-
-a.arabic {
-}
-
-:lang(ar) {
+body.ar {
   direction: rtl;
 }
 
@@ -327,6 +342,7 @@ body.bridge {
 
 // Checkdesk
 body.checkdesk {
+
   .explanations {
     background-color: white;
     color: $firefly80;
@@ -375,7 +391,6 @@ body.checkdesk {
   vertical-align: top;
   display: inline;
   width: 100%;
-  margin-top: 2em;
 
   @media all and (max-width: $breakpoint) {
     min-width: 100%;
@@ -384,17 +399,11 @@ body.checkdesk {
   p {
   	font-size: 1.2em;
   }
-
   p.bottomquote {
     font-weight: 700;
     padding: 0;
     display: inline;
   }
-
-  &+.quote {
-  	margin-top: 4em;
-  }
-
 }
 
 @media all and (min-width: $breakpoint) {
@@ -415,5 +424,89 @@ body.checkdesk {
 	  right: 100%;
 	  width: 100%;
 	  height: 2px;
+	}
+}
+
+.center-grey {
+  background-color: $firefly10;
+}
+
+.center-dark {
+  background-color: $firefly80;
+	color: $firefly10;
+}
+
+.products-photo:before {
+	  content: "";
+	  left: 0;
+	  right: 0;
+	  z-index: -9999;
+	  display: block;
+		background-size: cover;
+	  background-image: url('../images/2x/banners/products-photo.png');
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	  width: 100%;
+		background-size: cover;
+	  margin: 0 auto;
+	  padding: 6em 0;
+    @media only screen and (max-width: 500px) {
+      max-height: 150px;
+    }
+
+	}
+
+
+.products-photo {
+  left: 0;
+  right: 0;
+  z-index: 9999;
+	.content{
+		z-index: 1;
+		background-color: $firefly10;
+	}
+}
+
+
+// .public-engagement-photo {
+//   background-color: $firefly10;
+//   background-image: url("../images/1x/banners/public-engagement-photo.png");
+//   background-position: 50%;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   vertical-align: middle;
+//   width: 100%;
+//   margin: 0 auto;
+//   transition: 2s;
+//   padding: 4em 0;
+// }
+
+.public-engagement-photo:before {
+	  content: "";
+	  left: 0;
+	  right: 0;
+	  z-index: -1;
+	  display: block;
+		background-size: cover;
+	  background-image: url('../images/2x/banners/public-engagegment-photo.png');
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	  width: 100%;
+		background-size: cover;
+	  margin: 0 auto;
+	  padding: 15em 0;
+    @media only screen and (max-width: 500px) {
+        display:none;
+      }
+	}
+
+
+.public-engagement-photo{
+  left: 0;
+  right: 0;
+  z-index: 9999;
+	.content{
+		background-color: $firefly80;
+		color: $firefly10;
 	}
 }

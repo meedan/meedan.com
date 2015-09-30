@@ -48,6 +48,7 @@ nav.language-toggle{
   direction: rtl;
   letter-spacing: 0;
 
+
 h4, h3{
   font-size: 1.6em;
 }
@@ -205,7 +206,7 @@ a {
 
 // # Arabic Typography
 /* <span class="arabic-typography">Checkdesk مشروع من قبل منظمة ميدان.</span> */
-:lang(ar) {
+body.ar {
   line-height: 1.3;
   unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
   font-family: $font-stack--arabic;
