@@ -58,4 +58,4 @@ diff(lang_2_data[lang_2_name], lang_1_data[lang_1_name], [lang_1_name])
 
 # HTML Proofer
 require 'html/proofer'
-HTML::Proofer.new("./build").run
+HTML::Proofer.new("./build", { :url_ignore => ["/bridge", "/checkdesk", "/about"]}).run
