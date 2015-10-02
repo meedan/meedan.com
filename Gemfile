@@ -16,3 +16,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem "pry"
 
 gem 'middleman-autoprefixer'
+gem 'html-proofer'
+gem 'colorize'
