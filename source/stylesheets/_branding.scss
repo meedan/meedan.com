@@ -152,7 +152,7 @@ $width--primary-logo: 200px;
 .about .branding {
   // @extend %branding--default;
   background-image: url('../images/2x/banners/about-branding-photo.png');
-  padding-top: 4em;
+  padding-top: 5em;
   color: white;
   background-repeat: no-repeat;
   vertical-align: middle;
@@ -185,6 +185,9 @@ $width--primary-logo: 200px;
 
 .btn-scroll-down{
   @extend %clearfix;
+  svg{
+  max-width: 40px !important;
+  }
   padding-top: 0em;
   margin-top: 0em;
   @media all and (max-width:450px){

@@ -13,14 +13,15 @@ en:
       checkdesk:
         tagline: "Verify breaking news online"
         blurb: "Checkdesk is a flexible toolkit for collaboration around verifying user generated content. The Checkdesk project has worked to build tools, support independent journalists, and develop media literacy training resources that aim to improve the investigative quality of citizen journalism and help limit the rapid spread of rumors and misinformation."
-        learn_more_url: "checkdesk"
+        learn_more_url: "checkdesk.html"
         learn_more_text: "Learn more"
         github_url: "http://github.com/meedan/checkdesk/"
         github_text: "Github repository"
       bridge:
         tagline: "Translate the global web"
         blurb: "Bridge helps communities translate, annotate, share, and source the most compelling global content on social media. Starting with a pilot with the National Geographic Society and Pulitzer Prize-winning journalist Paul Salopek’s Out of Eden Walk project, the product aims to support a team of translators with tools like glossaries and translation memories."
-        learn_more: "Learn more"
+        learn_more_text: "Learn more"
+        learn_more_url: "bridge.html"
         github: "Github repository"
     team:
       header: "Our Team"
@@ -127,6 +128,36 @@ en:
       tagline: "Bridge is generously supported by the Knight Foundation through a grant administered by the National Geographic Society."
       partner_paragraph: "Bridge currently partners with <a href='http://www.floatingsheep.org/p/dolly.html'>the DOLLY Project</a>, <a href='http://translatorswithoutborders.org/'>Translators Without Borders</a>, and <a href='http://en.wikipedia.org/wiki/Taghreedat'>Taghreedat</a> for translation, research, sourcing and testing. Please <a href='mailto:hello@speakbridge.io'>get in touch</a> for more information on opportunities for collaboration with your organization."
     footer: "Bridge is a project of <a href='http://meedan.com'>Meedan</a>."
-
-
+  about:
+    branding:
+      heading: "WE MAKE SENSE OF THE GLOBAL WEB"
+    we_love2: "We love working with new people. Please get in touch."
+    emailus: "Email us!"
+    recent_press:
+      header: "RECENT PRESS"
+      niemanlab: "&#34;Tweeting across borders&#58; With a new mobile app, Meedan is working to improve social media translation&#34;"
+      fortune: "&#34;Google News Lab launches three new projects focused on crowd-sourced journalism&#34;"
+    our_vision:
+      header: "Our vision"
+      paragraphs:
+      -
+        text: "Meedan has a vision of a wider world web in which citizens can collaborate across languages. Today, the global web is increasingly diverse but living in silos defined by the oldest communications barrier: language. We look to a world where understanding  facilitated by global conversation is a bit wider, deeper, and more effective. Untapped language communities represent new trading markets for content, ideas, knowledge, and lolcats."
+      -
+        text: "To get there, we want to build the best tools and platforms in support of global journalism and translation. We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media. With commercial, media and university partners, we support research, curriculum development, and new forms of digital storytelling."
+    challenges:
+      header: "CHALLENGE"
+      text: "Global digital journalism needs better tools for real time news."
+      text2: "In our increasingly interconnected world, the most pressing real time news happens anywhere at any time, captured and shared by citizens, journalists, government officials and anyone with a social media account. Verifying and translating this media requires extensive networks, local knowledge and strong collaboration."
+    products:
+      header: "our products"
+      text: "Our product suite enables teams to work together quickly, collaboratively and with confidence—and then share those results with the world."
+      text2: "Checkdesk brings newsrooms and citizen journalists together to verify real time news anywhere in the world. Bridge enables collaborative teams of translators and cultural experts to translate and contextualize global social media quickly and accurately."
+    methods:
+      header: "methods"
+      text: "We focus on users first, and we’re informed by data."
+      text2: "With an extensive network and experience building multiple software products, Meedan prioritizes the needs of journalists and readers. We engage in rigorous user testing that directly informs our product strategy and design decisions. We regularly analyze user data to supplement the qualitative work and maximize our impact. We study, practice and iterate on leading design thinking methodologies to develop the highest quality products."
+    public_engage:
+      header: "public engagement"
+      text: "We value public engagement on matters of technology, journalism and translation."
+      text2: "We have led workshops, panels and lectures on topics of global journalism in a variety of settings, from the Personal Democracy Forum in New York to MIT’s Civic Media Center to the Internet Governance Forum. We are also founding members of the First Draft Coalition, a group of journalists, technologists and human rights workers convened by Google News Lab to provide thought leadership and cutting edge research around verification techniques, technology and case studies."
 
