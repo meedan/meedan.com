@@ -1,0 +1,155 @@
+---
+layout: "default"
+slug: "about"
+---
+<%= partial "partials/language_toggle.html" %>
+
+<!-- About Branding -->
+<section class="branding">
+  <div class="splash">
+   <div class="heading">
+     <h3>WE MAKE SENSE OF THE GLOBAL WEB</h3>
+   </div>
+   <!-- <img class="zoom" src="/images/2x/screenshots/meedan.checkdesk.org-en-zoom-alt.png" alt="Checkdesk"> -->
+ <!-- </div>-->
+ <div class="about scroller">
+   <%= partial "partials/image.html.erb", :locals => {
+       :url => "#recent-press-section",
+       :name => "btn-scroll-down",
+       :type => "svg"} %>
+ </div>
+</section>
+
+<!--About Promo-bar-->
+<div class="promo-bar">
+
+  <div id="we-love2">
+	  <a href="mailto:hello@meedan.com">
+	  We love working with new people. Please get in touch.</a>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+    	<div id="we-love">
+		  We love working with new people. Please get in touch.
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		 <span class="specialemail pull-right">
+		    <a href="mailto:hello@meedan.com" class="btn btn-primary">Email us!
+		    </a>
+		 </span>
+	</div>
+
+</div>
+
+
+<!--Recent press-->
+<section class="recent-press-section">
+  <h3 id="recent-press">RECENT PRESS</h3>
+  <div class="nieman">
+    <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
+    <img class="nieman-logo" src="/images/1x/logos/nlb.png" alt="nlb" srcset="/images/2x/logos/nlb.png 2x">
+    </a>
+    <p class="press-blurb">
+    <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">"Tweeting across borders: With a new mobile app, Meedan is working to improve social media translation"</a></p>
+  </div>
+
+
+  <div class="fortune">
+      <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
+      <img class="fortune-logo" src="/images/1x/logos/fmag.png" alt="fmag" srcset="/images/2x/logos/fmag.png 2x"></a>
+      <p class="press-blurb"><a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">“Google News Lab launches three new projects focused on crowd-sourced journalism”</a></p>
+
+
+  </div>
+</section>
+
+
+<!-- Our Vision -->
+
+<section class = "center-dark">
+  <h3>Our Vision</h3>
+  <p>Meedan has a vision of a wider world web in which citizens can collaborate across languages.
+    Today, the global web is increasingly diverse but living in silos defined by the oldest communications barrier: language.
+    We look to a world where understanding  facilitated by global conversation is a bit wider, deeper, and more effective.
+    Untapped language communities represent new trading markets for content, ideas, knowledge, and lolcats.</p>
+    <p>To get there, we want to build the best tools and platforms in support of global journalism and translation.
+      We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media.
+      With commercial, media and university partners, we support research, curriculum development, and new forms of digital storytelling.</p>
+</section>
+
+<!-- Challenges -->
+
+<section class = "center-grey">
+  <h3>Challenge</h3>
+  <p><em>Global digital journalism needs better tools for real time news.</em><br>
+In our increasingly interconnected world, the most pressing real time news happens anywhere at any time, captured and shared by citizens, journalists, government officials and anyone with a social media account.
+Verifying and translating this media requires extensive networks, local knowledge and strong collaboration.</p>
+</section>
+
+
+<!-- Products Photo -->
+<div class="products-photo">
+
+<div class="content">
+  <h3>Our Products</h3>
+  <p><em>Our product suite enables teams to work together quickly, collaboratively and with confidence—and then share those results with the world.</em><br>
+
+Checkdesk brings newsrooms and citizen journalists together to verify real time news anywhere in the world. Bridge enables collaborative teams of
+translators and cultural experts to translate and contextualize global social media quickly and accurately. </p>
+</div>
+</div>
+
+
+<!-- Methods -->
+<section>
+  <h3>Methods</h3>
+  <p><em>We focus on users first, and we’re informed by data.
+</em>
+<br>
+With an extensive network and experience building multiple software products,
+Meedan prioritizes the needs of journalists and readers. We engage in rigorous user testing that directly
+informs our product strategy and design decisions. We regularly analyze user data to supplement the qualitative work and maximize our impact.
+We study, practice and iterate on leading design thinking methodologies to develop the highest quality products.</p>
+</section>
+
+
+
+<!-- Public Engagement -->
+
+<div class="public-engagement-photo">
+
+<div class="content">
+  <h3>Public Engagement</h3>
+  <p><em>We value public engagement on matters of technology, journalism and translation.</em>
+  <br>
+
+We have led workshops, panels and lectures on topics of global journalism in a variety of settings, from the Personal
+Democracy Forum in New York to MIT’s Civic Media Center to the Internet Governance Forum. We are also founding members of the First Draft Coalition,
+a group of journalists, technologists and human rights
+workers convened by Google News Lab to provide thought leadership and cutting edge research around verification techniques, technology and case studies.</p>
+</div>
+</div>
+
+
+<!--Team filched from Homepage -->
+<section class="team">
+  <h3><%= t("home.team.header") %></h3>
+  <p><%= t("home.team.text") %></p>
+  <ul>
+    <% data.team_members.each do |member| %>
+    <li>
+      <img src="/images/1x/team/<%= member.name %>.jpg" alt="<%= member.name %>" srcset="/images/2x/team/<%= member.name %>.jpg 2x">
+      <div class="name"><%= member.fullname %></div>
+      <div class="title"><%= member.title %></div>
+    </li>
+    <% end %>
+  </ul>
+</section>
+
+
+
+<!-- Homepage Contact -->
+<%= partial "partials/contact" %>
