@@ -5,7 +5,7 @@ var ecstatic = require('ecstatic');
 
 http.createServer(
   ecstatic({
-    root: __dirname + '/www'
+    root: __dirname + '/build'
   })
 ).listen(8080);
 
