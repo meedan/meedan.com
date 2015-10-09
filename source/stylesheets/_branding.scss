@@ -1,0 +1,297 @@
+/// Primary logo width
+$width--primary-logo: 200px;
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+////
+/// Checkdesk and Homepage Branding
+///
+/// At the top of homepage and product pages, this usually has an inverted color scheme, a large .logo image and the h1. At smaller sizes the logo has a percent-based width.
+/// @group meedan-web
+%branding--default {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding: 2em 1em 1em;
+  width: 100%;
+
+
+  // The main image in a "branding" section
+  .screenshot {
+    max-width: 900px;
+    min-width: 280px;
+    padding-top: 0;
+    padding-bottom: 0em;
+    display: block;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    animation: fadeInUp 1s;
+  }
+
+  // The phrase under the logos
+    .slogan {
+  	margin: 0;
+    padding: 0;
+    font-size: 1.25em;
+    animation: fadeIn 1.2s;
+  }
+
+  .logo {
+    width: $width--primary-logo;
+    animation: fadeIn 0.8s;
+    .bridge &, .checkdesk & {
+      width: 300px;
+    }
+    @media all and (max-width: $breakpoint) {
+    	max-width: $width--primary-logo;
+      width: 70%;
+    }
+  }
+}
+
+ // Homepage uses the default branding styles
+.home .branding {
+  @extend %branding--default;
+}
+
+// Checkdesk uses default branding styles
+.checkdesk .branding {
+  @extend %branding--default;
+  padding-top: $navbar-height * 3;
+  @media all and (max-width:$breakpoint){
+      padding-top: $navbar-height * 2;
+  }
+  background-color: $checkdesk-yellow;
+  color: white;
+}
+
+// Bridge has special branding section
+// And does not use the branding section defaults
+.branding--bridge {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 2em 0 2em;
+  @media all and (max-width: 900px) {
+    flex-flow: column;
+    padding-top: 1em;
+  }
+
+  img.screenshot {
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    display: block;
+  }
+
+  .i-would-like-to-apply-to-be-a-bridge-translator {
+    font-size: 0.8em;
+  }
+
+  &+.branding {
+    padding-top: 0;
+  }
+
+  #bridge-small-hide{
+    width: 61.8%;
+  }
+
+}
+
+
+.bridge-reorder-container{
+  @extend %clearfix;
+  padding-top: $navbar-height * 2;
+  background: $firefly80;
+
+  @media only screen and (max-width: 450px) {
+    display:flex;
+    flex-flow: column;
+    #bridge-element-swap{
+      order: 1;
+      padding-bottom: 0;
+
+
+    }
+
+    .slogan {
+      padding-top: 0;
+      padding-bottom: 1em;
+    }
+    #bridge-small-hide{
+      display: none;
+    }
+    .branding.branding--bridge{
+      order: 2;
+      padding-top: 1em;
+
+
+    }
+  }
+  #bridge-element-swap{
+  @extend %clearfix;
+  }
+}
+
+.container{
+  @extend %clearfix;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.about .branding {
+  // @extend %branding--default;
+  background-image: url('../images/2x/banners/about-branding-photo.png');
+  padding-top: 5em;
+  color: white;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 100% !important;
+  background-size: cover;
+  position: relative;
+  min-height: auto;
+  background-position: center;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  h3{
+    font-weight: 500;
+    font-size: 2em;
+  }
+
+  @media all and (max-width:450px){
+    max-height: 600px;
+  }
+
+}
+
+
+.heading{
+  // border: 1px solid red;
+  padding: 5em 0em;
+  @media all and (max-width:450px){
+  padding: 0em 0em;
+  }
+}
+
+.btn-scroll-down{
+  @extend %clearfix;
+  svg{
+  max-width: 40px !important;
+  }
+  padding-top: 0em;
+  margin-top: 0em;
+  @media all and (max-width:450px){
+  padding: 1em 0em;
+  }
+  // border: 1px solid red;
+}
+
+.promo-bar{
+  @extend %clearfix;
+  margin: 1em 0.5em;
+  #we-love{
+    @media all and (max-width:960px){
+    display: none;
+    }
+  }
+
+  .specialemail{
+  margin-right: 5px;
+  @media all and (max-width:960px){
+  display: none;
+    }
+  }
+
+  #we-love2{
+    @media all and (min-width: 959px){
+      display:none;
+      }
+    a{
+      font-weight: 300;
+      color: $firefly80;
+    }
+  }
+
+}
+
+
+p.recent-press-quote{
+  // border: 1px solid red;
+  font-weight: 500;
+  padding: 1em;
+  @media only screen and (max-width: 450px) {
+    padding: 0 0 0 0 !important;
+  }
+}
+
+
+
+
+.recent-press-section {
+  @extend %flex-container;
+  justify-content: center;
+  background: $firefly10;
+  // border: 3px solid pink;
+  padding: 0;
+  @media (max-width: $breakpoint) {
+  }
+
+  // ## Set the logo widths
+  .nieman-logo, .fortune-logo{
+    // border: 1px solid purple;
+    max-width: 80%;
+  }
+  h3 {
+    width: 100%;
+  }
+}
+
+.recent-press-section .nieman,
+.recent-press-section .fortune {
+  color: $firefly80;
+  width: 40%;
+  padding: 2em 2em;
+  margin: 1em;
+
+
+  @media all and (max-width: $breakpoint) {
+    width: 100%;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.25;
+
+    &.press-blurb {
+      font-weight: 500;
+      padding-top: 1.5em;
+      font-weight: 500;
+    }
+    a {
+      text-decoration: none;
+      color: $firefly80;
+    }
+  }
+
+  @media all and (max-width: $breakpoint) {
+    .nieman-logo, .fortune-logo {
+      // border:1px solid red;
+      max-width: 90%;
+    }
+
+    p {
+      padding: 0;
+      width: 95%;
+    }
+  }
+}

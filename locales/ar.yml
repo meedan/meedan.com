@@ -1,0 +1,61 @@
+---
+ar:
+  locale: "ar"
+  english: "English"
+  arabic: "العربية"
+  checkdesk:
+    branding:
+      splash: "checkdesk-laptop-ar.png"
+      slogan: "تحقق من الأخبار العاجلة على الإنترنت"
+    explanations:
+      -
+        header: "أظهر عملك"
+        text: "تحقق من الإعلام الرقمي بشكل متسق وشفاف لفريق عملك وللقراء. بإمكانك جمع وتنظيم نتائج تحقيقاتك الصحفية في سجل التحقق على Checkdesk حتى يمكن للآخرين تكرار الخطوات. شارك النتائج بثقة وابحث من مصادر متعددة."
+        img: "lens_showyourwork_ar.png"
+        alt: "Bellingcat screenshot"
+      -
+        header: "حققوا معاً"
+        text: " اعملوا سوياً كفريق موزع على Checkdesk بالاستفادة من ميزات إدارة حسابات المستخدمين والمجموعات بسهولة. وافتحوا باب المساهمات من فريق العمل وشبكة الباحثين والخبراء والصحفيين المواطنين الخاصة بكم."
+        img: "lens_investigate_ar.png"
+        alt: "Bellingcat screenshot"
+      -
+        header: " انشر في أي مكان"
+        text: " شارك وضَمّن نتائج تحقيقاتك على موقعك الإخباري الرئيسي. يتم تحديث التحقيقات المضمنة وإظهار حالة التحقق من الروابط المختلفة، مما يسمح لك بمشاركة المواد المشكوك بصحتها بشكل آمن."
+        img: "lens_embed_ar.png"
+        alt: "Bellingcat screenshot"
+    testimonials:
+      header: "What people are saying"
+      quotes:
+        -
+          quote: "When we&rsquo;re verifying user generated content, it&rsquo;s very important to be clear and transparent. What&rsquo;s great about Checkdesk is that it lets us show every step we&rsquo;ve taken along the way.&rdquo;"
+          attribution: "Elliot Higgins"
+          website_url: "https://www.bellingcat.com/"
+          website_name: "Bellingcat"
+        -
+          quote: "While the training workshops equip participants with media monitoring skills, the Checkdesk tool provides them with a platform to express their opinions and to exchange views on how they are represented in media.&rdquo;"
+          attribution: "Sawsan Zaideh"
+          website_url: "http://www.7iber.com/"
+          website_name: "7iber"
+    newsletter:
+      header: "اشترك بالنشرة البريدية"
+      summary: "احصل على نشرة أسبوعية بالإنجليزية تحوي أخبار الصحافة الاستقصائية والتحقق من صحة المعلومات. كما يمكنك الإطلاع على <a href='http://tinyletter.com/Checkdesk_Checklist/archive'>أرشيف النشرة</a>."
+      placeholder_text: "factchecker@example.com"
+      button_text: "Subscribe"
+    history:
+      header: " تاريخنا"
+      paragraphs:
+        -
+          text: "عمل مشروع Checkdesk منذ 2011 على بناء أدوات رقمية وعلى دعم الصحفيين المستقلين وتطوير الموارد لبناء المهارات الإعلامية والتي تهدف لتعزيز مستوى الصحافة الشعبية الاستقصائية، والحد من انتشار الشائعات والمعلومات المضللة على الإنترنت."
+        -
+          text: " بالإضافة إلى تطوير البرمجيات، نقوم بإجراء ورش عمل ومنتديات، وقد قمنا بترجمة دليل التحقق من مركز الصحافة الأوروبي إلى العربية، وساهمنا بإضافة دراسة حالة إليه."
+    supporters:
+      header: "الداعمون"
+      text: "نشكر الدعم الكريم من المؤسسات التالية"
+    partners:
+      header: "شركاؤنا"
+      text: "يعمل Checkdesk مع المؤسسات الإعلامية التالية. يرجى الاتصال بنا إذا كانت مؤسستك ترغب في أن تصبح شريكاً إعلامياً."
+    github:
+      header: "تثبيت Checkdesk"
+      text: "إن Checkdesk أداة مخصصة لإدارة المحتوى CMS مبنية باستخدام منصة إدارة المحتوى باستخدام PHP على Drupal 7. إنها مفتوحة المصدر ويمكن الحصول عليها من <a href='http://github.com/meedan/checkdesk'>Github</a>."
+    footer: "Checkdesk هو أحد مشروعات <a href='http://meedan.com'>ميدان</a><br />
+    راسلنا على البريد الإكتروني :<a href='mailto:hello@meedan.com'>hello@meedan.com</a>"

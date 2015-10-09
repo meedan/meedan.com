@@ -1,0 +1,50 @@
+{
+  "name": "meedan-home",
+  "version": "2.2.24",
+  "description": "the meedan homepage",
+  "main": "src/app.js",
+  "repository": "https://github.com/meedan/meedan.com",
+  "scripts": {
+    "test": "casperjs test --log-level=error test.js --engine=slimerjs"
+  },
+  "keywords": [
+    "meedan"
+  ],
+  "author": "Meedan",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "browser-sync": "^2.2.5",
+    "colors": "~1.0.3",
+    "concurrent-transform": "~1.0.0",
+    "gulp": "~3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-changed": "~1.2.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-debug": "~2.0.1",
+    "gulp-dust": "^2.0.0",
+    "gulp-favicons": "~1.0.9",
+    "gulp-file-include": "~0.9.0",
+    "gulp-html-validator": "0.0.5",
+    "gulp-image-resize": "~0.6.0",
+    "gulp-imagemin": "~2.2.1",
+    "gulp-jshint": "~1.9.2",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-notify": "~2.2.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-sourcemaps": "~1.5.2",
+    "gulp-svgmin": "~1.1.2",
+    "gulp-svgstore": "~5.0.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "~3.0.3",
+    "gulp-w3cjs": "^0.3.0",
+    "node-sass": "~2.0.1",
+    "psi": "~1.0.6",
+    "require-dir": "~0.3.0",
+    "sassdoc": "~2.1.15",
+    "through2": "~0.6.5"
+  },
+  "dependencies": {
+    "ecstatic": "^0.8.0"
+  }
+}
