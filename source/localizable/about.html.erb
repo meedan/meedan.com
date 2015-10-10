@@ -12,6 +12,7 @@ slug: "about"
    </div>
    <!-- <img class="zoom" src="/images/2x/screenshots/meedan.checkdesk.org-en-zoom-alt.png" alt="Checkdesk"> -->
  <!-- </div>-->
+
  <div class="about scroller">
    <%= partial "partials/image.html.erb", :locals => {
        :url => "#recent-press-section",
@@ -22,106 +23,108 @@ slug: "about"
 
 <!--About Promo-bar-->
 <div class="promo-bar">
-
   <div id="we-love2">
 	  <a href="mailto:hello@meedan.com">
-	  <%= t("about.we_love2") %></a>
+	   <%= t("about.we_love2") %>
+    </a>
   </div>
 
   <div class="row">
     <div class="col-md-6">
     	<div id="we-love">
-		  <%= t("about.we_love2") %>
-		</div>
-	</div>
+  		  <%= t("about.we_love2") %>
+  		</div>
+  	</div>
 
-	<div class="col-md-6">
-		 <span class="specialemail pull-right">
-		    <a href="mailto:hello@meedan.com" class="btn btn-primary">
-          <%= t("about.emailus") %>
-		    </a>
-		 </span>
-	</div>
-
+  	<div class="col-md-6">
+  		 <span class="specialemail pull-right">
+  		    <a href="mailto:hello@meedan.com" class="btn btn-primary">
+            <%= t("about.emailus") %>
+  		    </a>
+  		 </span>
+  	</div>
   </div>
 </div>
 
-
 <!--Recent press-->
-<a name="recent-press-section">
-<section class="recent-press-section">
-</a>
-  <h3 id="recent-press">  <%= t("about.recent_press.header") %></h3>
+<section class="recent-press-section" name="recent-press-section">
+  <h3 id="recent-press">
+    <%= t("about.recent_press.header") %>
+  </h3>
   <div class="nieman">
     <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
-    <img class="nieman-logo" src="/images/1x/logos/nlb.png" alt="nlb" srcset="/images/2x/logos/nlb.png 2x">
+      <img class="nieman-logo" src="/images/1x/logos/nlb.png" alt="nlb" srcset="/images/2x/logos/nlb.png 2x">
     </a>
     <p class="press-blurb">
-    <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
-    <%= t("about.recent_press.niemanlab") %></a></p>
+      <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
+        <%= t("about.recent_press.niemanlab") %>
+      </a>
+    </p>
   </div>
 
-
   <div class="fortune">
+    <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
+      <img class="fortune-logo" src="/images/1x/logos/fmag.png" alt="fmag" srcset="/images/2x/logos/fmag.png 2x">
+    </a>
+    <p class="press-blurb">
       <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-      <img class="fortune-logo" src="/images/1x/logos/fmag.png" alt="fmag" srcset="/images/2x/logos/fmag.png 2x"></a>
-      <p class="press-blurb"><a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/"><%= t("about.recent_press.fortune") %></a></p>
+        <%= t("about.recent_press.fortune") %>
+      </a>
+    </p>
   </div>
 </section>
 
-
 <!-- Our Vision -->
-
 <section class = "center-dark">
   <h3><%= t("about.our_vision.header") %></h3>
   <% t("about.our_vision.paragraphs").each do |e| %>
-      <p><%= e[:text] %></p>
-        <% end %>
+    <p><%= e[:text] %></p>
+  <% end %>
 </section>
 
 <!-- Challenges -->
-
 <section class = "center-grey">
   <h3><%= t("about.challenges.header") %></h3>
-  <p><em><%= t("about.challenges.text") %></em><br>
-<%= t("about.challenges.text2") %></p>
+  <p><em><%= t("about.challenges.text") %></em>
+  <br>
+  <%= t("about.challenges.text2") %></p>
 </section>
-
 
 <!-- Products Photo -->
 <div class="products-photo">
-
-<div class="content">
-  <h3><%= t("about.products.header") %></h3>
-  <p><em><%= t("about.challenges.text") %></em><br>
-
-<%= t("about.challenges.text2") %></p>
+  <div class="content">
+    <h3><%= t("about.products.header") %></h3>
+    <p>
+      <em><%= t("about.challenges.text") %></em>
+      <br>
+      <%= t("about.challenges.text2") %>
+    </p>
+  </div>
 </div>
-</div>
-
 
 <!-- Methods -->
 <section>
   <h3><%= t("about.methods.header") %></h3>
-  <p><em><%= t("about.methods.text") %>
-</em>
-<br>
-<%= t("about.methods.text2") %></p>
+  <p>
+    <em>
+      <%= t("about.methods.text") %>
+    </em>
+    <br>
+    <%= t("about.methods.text2") %>
+  </p>
 </section>
 
-
-
 <!-- Public Engagement -->
-
 <div class="public-engagement-photo">
-
-<div class="content">
-  <h3><%= t("about.public_engage.header") %></h3>
-  <p><em><%= t("about.public_engage.text") %></em>
-  <br><%= t("about.public_engage.text2") %></p>
+  <div class="content">
+    <h3><%= t("about.public_engage.header") %></h3>
+    <p>
+      <em><%= t("about.public_engage.text") %></em>
+      <br>
+      <%= t("about.public_engage.text2") %>
+    </p>
+  </div>
 </div>
-</div>
-
 
 <!--Team filched from Homepage -->
 <section class="team">
@@ -137,8 +140,6 @@ slug: "about"
     <% end %>
   </ul>
 </section>
-
-
 
 <!-- Homepage Contact -->
 <%= partial "partials/contact" %>
