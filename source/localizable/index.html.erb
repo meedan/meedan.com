@@ -63,11 +63,11 @@ slug: "home"
 
 <!-- Recent press -->
 <section class="recent-press-section" name="recent-press-section">
-    
-  <h3 id="recent-press"> 
+
+  <h3 id="recent-press">
     <%= t("about.recent_press.header") %>
   </h3>
-  
+
   <div class="nieman">
     <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
       <img class="nieman-logo" src="/images/1x/logos/nlb.png" alt="nlb" srcset="/images/2x/logos/nlb.png 2x">
@@ -80,14 +80,14 @@ slug: "home"
   </div>
 
   <div class="fortune">
+    <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
+      <img class="fortune-logo" src="/images/1x/logos/fmag.png" alt="fmag" srcset="/images/2x/logos/fmag.png 2x">
+    </a>
+    <p class="press-blurb">
       <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-        <img class="fortune-logo" src="/images/1x/logos/fmag.png" alt="fmag" srcset="/images/2x/logos/fmag.png 2x">
+        <%= t("about.recent_press.fortune") %>
       </a>
-      <p class="press-blurb">
-        <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-          <%= t("about.recent_press.fortune") %>
-        </a>
-      </p>
+    </p>
   </div>
 </section>
 
@@ -115,7 +115,7 @@ slug: "home"
     <ul>
       <% data.supporter_logos.each do |logo| %>
       <li>
-        <%= partial "partials/_image.html.erb", 
+        <%= partial "partials/_image.html.erb",
             :locals => {
               :type => logo[:type],
               :name => logo[:name],
@@ -134,30 +134,5 @@ slug: "home"
 
 <!-- Homepage Contact -->
 <%= partial "partials/contact" %>
-
-<!-- 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-<script>(function ($) {
-  $(document).ready(function(){
-      
-    // hide .navbar first
-    $(".navbar").hide();
-    
-    // fade in .navbar
-    $(function () {
-      $(window).scroll(function () {
-        // set distance user needs to scroll before we fadeIn navbar
-        if ($(this).scrollTop() > 300) {
-          $('.navbar').fadeIn();
-        } else {
-          $('.navbar').fadeOut();
-        } 
-      });
-    });
-  });
-}(jQuery));
---> 
 
 </script>

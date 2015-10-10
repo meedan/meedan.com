@@ -10,8 +10,6 @@ slug: "about"
    <div class="heading">
      <h3><%= t("about.branding.heading") %></h3>
    </div>
-   <!-- <img class="zoom" src="/images/2x/screenshots/meedan.checkdesk.org-en-zoom-alt.png" alt="Checkdesk"> -->
- <!-- </div>-->
 
  <div class="about scroller">
    <%= partial "partials/image.html.erb", :locals => {
@@ -85,9 +83,11 @@ slug: "about"
 <!-- Challenges -->
 <section class = "center-grey">
   <h3><%= t("about.challenges.header") %></h3>
-  <p><em><%= t("about.challenges.text") %></em>
-  <br>
-  <%= t("about.challenges.text2") %></p>
+  <p>
+    <em><%= t("about.challenges.text") %></em>
+    <br>
+    <%= t("about.challenges.text2") %>
+  </p>
 </section>
 
 <!-- Products Photo -->
@@ -106,9 +106,7 @@ slug: "about"
 <section>
   <h3><%= t("about.methods.header") %></h3>
   <p>
-    <em>
-      <%= t("about.methods.text") %>
-    </em>
+    <em> <%= t("about.methods.text") %> </em>
     <br>
     <%= t("about.methods.text2") %>
   </p>
