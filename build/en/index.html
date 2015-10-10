@@ -9,7 +9,6 @@
   <title>Meedan</title>
 
   <link href="/stylesheets/screen.css" rel="stylesheet" />
-<!--   <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" > -->
 
   <!-- Facebook -->
   <meta property="og:title" content="Meedan" />
@@ -32,8 +31,6 @@
   <meta name="twitter:description" content="We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media." />
   <meta name="twitter:image" content="http://meedan.com/images/2x/logos/meedan-logo-600.png" />
   <meta name="twitter:site" content="@meedan" />
-
-
 </head>
 
 
@@ -70,9 +67,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/en/checkdesk.html">CHECKDESK</a></li>
-        <li><a href="/en/bridge.html">BRIDGE</a></li>
-        <li><a href="/en/about.html">ABOUT</a></li>
+        <li><a href="/en/checkdesk.html">Checkdesk</a></li>
+        <li><a href="/en/bridge.html">Bridge</a></li>
+        <li><a href="/en/about.html">About Meedan</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -81,10 +78,17 @@
 
 	<main>
 		<nav class="language-toggle">
-	<a href="/en/">en</a>
-  <a href="/ar/">ar</a>
-  <ul>
+  <!-- Figure out the page basename -->
+  <!-- Infer inactive and active languages -->
+
+	<a class="en" href="/en/">en</a>
+
+  inactive languages: [:ar, :jp]
+  <!-- Link to active language -->
+    <a class="ar" href="/ar/">ar</a>
+    <a class="jp" href="/jp/">jp</a>
 </nav>
+
 
 <!-- Homepage Branding -->
 <section class="branding">

@@ -1,9 +1,15 @@
 <nav class="language-toggle">
-  <%page_name = @page_id.split("/", 1).last.sub(/\..*$/, '')%>
-	<%=link_to "#{page_name[0,2]}", "/#{page_name}.html"%>
-  <%other_langs = langs - [I18n.locale]%>
-  <%other_other = "#{other_langs.to_s[2..3]}"%>
-  <%base = File.basename("#{page_name}")%>
-  <%=link_to "#{other_other}", "/#{other_other}/#{base}.html"%>
-  <ul>
+  <!-- Figure out the page basename -->
+  <!-- Infer inactive and active languages -->
+  <% page_name = @page_id.split("/", 1).last.sub(/\..*$/, '') %>
+  <% page_basename = File.basename("#{page_name}") %>
+
+	<%= link_to I18n.locale, "/#{page_name}.html", :class => I18n.locale %>
+
+  <% inactive_languages = langs - [I18n.locale] %>
+  <%= "inactive languages: #{langs - [I18n.locale]}" %>
+  <!-- Link to active language -->
+  <% inactive_languages.each do |lang_name| %>
+    <%= link_to lang_name, "/#{lang_name}/#{page_basename}.html", :class => lang_name %>
+  <% end %>
 </nav>
