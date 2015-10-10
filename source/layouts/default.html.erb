@@ -36,37 +36,38 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-
 	<main>
 		<%= yield %>
 	</main>
 
 	<%= partial "partials/ga" %>
-	<script src="/javascripts/pace.js"></script>
+  <%= javascript_include_tag "pace" %>
+  <%= javascript_include_tag "jquery.min" %>
+  <%= javascript_include_tag "bootstrap.min" %>
 
-  <!--
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<!-- <script src="/javascripts/pace.js"></script> -->
+  <!-- <script src="/javascripts/bootstrap.js"></script> -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
 
   <script>(function ($) {
     $(document).ready(function(){
-
-      // hide .navbar first
-      $(".navbar").hide();
-
-      // fade in .navbar
-      $(function () {
-        $(window).scroll(function () {
-          // set distance user needs to scroll before we fadeIn navbar
-          if ($(this).scrollTop() > 300) {
-            $('.navbar').fadeIn();
-          } else {
-            $('.navbar').fadeOut();
-          }
-        });
-      });
+      // // hide .navbar first
+      // $(".navbar").hide();
+      // // fade in .navbar
+      // $(function () {
+      //   $(window).scroll(function () {
+      //     // set distance user needs to scroll before we fadeIn navbar
+      //     if ($(this).scrollTop() > 300) {
+      //       $('.navbar').fadeIn();
+      //     } else {
+      //       $('.navbar').fadeOut();
+      //     }
+      //   });
+      // });
     });
   }(jQuery));
-  -->
+  </script>
+
 	</body>
 </html>

@@ -8,7 +8,7 @@
 
   <title>Meedan</title>
 
-  <link href="/css/stylesheets/screen.css" rel="stylesheet" />
+  <link href="/stylesheets/screen.css" rel="stylesheet" />
 
   <!-- Facebook -->
   <meta property="og:title" content="Meedan" />
@@ -42,7 +42,7 @@
 
     <div class="container-fluid" >
       <div class="navbar-header">
-        
+
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -51,7 +51,7 @@
         </button>
 
         <a class="meedan-home" href="/" title="Meedan">
-          <img src="/images/2x/logos/meedan-logo-nav-19617dad.png" alt="home" width="50">
+          <img src="/images/2x/logos/meedan-logo-nav.png" alt="home" width="50">
         </a>
       </div>
 
@@ -85,7 +85,7 @@
 <div class="bridge-reorder-container">
 	<div class="branding branding--bridge">
 		<div id="bridge-small-hide">
-		<img class="screenshot" alt="Bridge screenshot" src="/images/2x/screenshots/bridge4colidevice-ce885993.png" />
+		<img class="screenshot" alt="Bridge screenshot" src="/images/2x/screenshots/bridge4colidevice.png" />
 		</div>
 
 		<div class="bridge-form">
@@ -140,24 +140,24 @@
       <h4>Translate quickly and accurately</h4>
       <p>Bridge enables rapid translation of social media and the addition of important cultural, social and political notes to facilitate understanding.  With intelligent tools like dictionaries and glossaries, Bridge helps you translate efficiently and with confidence.</p>
       <img class="screenshot"
-      src="/images/1x/screenshots/bridge-translatequickly-a2a92507.png"
-      srcset="/images/2x/screenshots/bridge-translatequickly-4a9e6c6e.png 2x"
+      src="/images/1x/screenshots/bridge-translatequickly.png"
+      srcset="/images/2x/screenshots/bridge-translatequickly.png 2x"
       alt="Bridge Translate Quickly"/>
     </div>
     <div class="description">
       <h4>Activate your language community</h4>
       <p>All content is portable and shareable, designed to be as seamless as sharing native social media. Open up new connections across linguistic, cultural and network divides.</p>
       <img class="screenshot"
-      src="/images/1x/screenshots/bridge-share-653bba1f.png"
-      srcset="/images/2x/screenshots/bridge-share-9ebcad36.png 2x"
+      src="/images/1x/screenshots/bridge-share.png"
+      srcset="/images/2x/screenshots/bridge-share.png 2x"
       alt="Share translations on Bridge"/>
     </div>
     <div class="description">
       <h4>Collaborate and build your skills.</h4>
       <p>The best translations involve a variety of skills — copy editing, grammar, spelling, a grasp of meaning and nuance. Bridge helps translators work collaboratively, with their individual contributions highlighted and recognized.</p>
       <img class="screenshot"
-      src="/images/1x/screenshots/bridge-collaborate-1edd8981.png"
-      srcset="/images/2x/screenshots/bridge-collaborate-5e3b7aa9.png 2x"
+      src="/images/1x/screenshots/bridge-collaborate.png"
+      srcset="/images/2x/screenshots/bridge-collaborate.png 2x"
       alt="Collaborate on Bridge"/>
     </div>
 </section>
@@ -206,6 +206,37 @@
   ga('create', 'UA-64616807-1', 'auto');
   ga('send', 'pageview');
 </script>
-	<script src="/javascripts/pace-2729ceee.js"></script>
+  <script src="/javascripts/pace.js"></script>
+  <script src="/javascripts/jquery.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+
+	<!-- <script src="/javascripts/pace.js"></script> -->
+
+  <!-- <script src="/javascripts/bootstrap.js"></script> -->
+
+  <!--
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script>(function ($) {
+    $(document).ready(function(){
+
+      // hide .navbar first
+      $(".navbar").hide();
+
+      // fade in .navbar
+      $(function () {
+        $(window).scroll(function () {
+          // set distance user needs to scroll before we fadeIn navbar
+          if ($(this).scrollTop() > 300) {
+            $('.navbar').fadeIn();
+          } else {
+            $('.navbar').fadeOut();
+          }
+        });
+      });
+    });
+  }(jQuery));
+  -->
 	</body>
 </html>

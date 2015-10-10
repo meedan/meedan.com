@@ -63,6 +63,7 @@ $breakpoint: 900px;
 	flex-align: center;
 	align-items: center;
 }
+
 /// Gallagher Clearfix
 ///
 %clearfix {
@@ -76,12 +77,9 @@ $breakpoint: 900px;
   }
 }
 
-
 * {
   box-sizing: border-box;
 }
-
-
 
 /// Section defaults
 ///
@@ -96,8 +94,6 @@ $breakpoint: 900px;
 section {
   @extend %section-defaults;
 }
-
-
 
 .home {
   h1 {
