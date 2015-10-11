@@ -9,15 +9,14 @@ slug: "bridge"
 		<img class="screenshot" alt="Bridge screenshot" src="/images/2x/screenshots/bridge4colidevice.png" />
 		</div>
 
+    <!-- Sign up form -->
 		<div class="bridge-form">
 			<div class="cta-text">
-				<h2>
-				  <%= t("bridge.branding.cta") %>
-        </h2>
+				<h2><%= t("bridge.branding.cta") %></h2>
 			</div>
 
 			<div id="mc_embed_signup">
-				<form class = "mailchimp" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<form class="mailchimp" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
 					<div class="form-group">
 						<label for="mce-EMAIL">
@@ -52,8 +51,6 @@ slug: "bridge"
 	</div>
 </div>
 
-
-
 <!-- Explanations -->
 <section class="explanations">
   <div class="description">
@@ -69,24 +66,19 @@ slug: "bridge"
   <% end %>
 </section>
 
-
 <!-- History-->
-
 <section class="history">
 <h3><%= t("bridge.history.header") %></h3>
- <% t("bridge.history.paragraphs").each do |e| %>
-      <p><%= e[:text] %></p>
-        <% end %>
+  <% t("bridge.history.paragraphs").each do |e| %>
+    <p><%= e[:text] %></p>
+  <% end %>
 </section>
-
 
 <!-- Supporters -->
  <section class="supporters">
   <h3><%= t("bridge.supporters.header")%></h3>
   <p><%= t("bridge.supporters.tagline")%></p>
-
   <div class="logos">
-
     <a class="kf logo" href="http://www.knightfoundation.org">
       <svg width="200"><use xlink:href="#kf" /></svg>
     </a>
@@ -97,8 +89,7 @@ slug: "bridge"
   <p><%= t("bridge.supporters.partner_paragraph")%></p>
 </section>
 
-<!-- footer
- -->
+<!-- Footer -->
  <div class="footer">
   <p><%= t("bridge.footer") %></p>
 </div>
