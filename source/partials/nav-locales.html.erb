@@ -2,7 +2,7 @@
 <% page_basename = File.basename("#{page_name}") %>
 <% inactive_languages = langs - [I18n.locale] %>
 
-<ul class="navbar nav-locales navbar-nav navbar-right">
+<ul class="nav navbar-nav navbar-right">
 	<li>
     <%= link_to I18n.locale, "/#{page_name}.html", :class => I18n.locale %>
   </li>
