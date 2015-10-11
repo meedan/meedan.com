@@ -6,7 +6,9 @@ slug: "bridge"
 <div class="bridge-reorder-container">
 	<div class="branding branding--bridge">
 		<div id="bridge-small-hide">
-		<img class="screenshot" alt="Bridge screenshot" src="/images/2x/screenshots/bridge4colidevice.png" />
+		<img class="screenshot" alt="Bridge screenshot"
+      src="/images/screenshots/bridge4colidevice.png"
+      srcset="/images/screenshots/bridge4colidevice@2x.png 2x">
 		</div>
 
     <!-- Sign up form -->
@@ -59,8 +61,8 @@ slug: "bridge"
       <h4><%= e[:header] %></h4>
       <p><%= e[:text] %></p>
       <img class="screenshot"
-      src="/images/1x/screenshots/<%= e[:img] %>"
-      srcset="/images/2x/screenshots/<%= e[:img] %> 2x"
+      src="/images/screenshots/<%= e[:img] %>@1x.png"
+      srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
       alt="<%= e[:alt] %>"/>
     </div>
   <% end %>

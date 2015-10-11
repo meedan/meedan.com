@@ -242,7 +242,7 @@ $width--homepage-team-member: 160px;
 
 .home .photo-frame {
   background-color: $firefly90;
-  background-image: url("../images/1x/banners/banner-2.jpg");
+  background-image: url("../images/banners/banner-2@1x.jpg");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -390,7 +390,7 @@ body.checkdesk {
   z-index: -9999;
   display: block;
 	background-size: cover;
-  background-image: url('../images/2x/banners/products-photo.png');
+  background-image: url('../images/banners/products-photo@2x.png');
 	background-repeat: no-repeat;
 	vertical-align: middle;
   width: 100%;
@@ -420,7 +420,7 @@ body.checkdesk {
 	  z-index: -1;
 	  display: block;
 		background-size: cover;
-	  background-image: url('../images/2x/banners/public-engagegment-photo.png');
+	  background-image: url('../images/banners/public-engagegment-photo@2x.png');
 		background-repeat: no-repeat;
 		vertical-align: middle;
 	  width: 100%;
