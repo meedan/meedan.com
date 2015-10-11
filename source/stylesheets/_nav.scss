@@ -13,10 +13,11 @@
 // Logo in the nvigation
 .navbar-header img.meedan-logo {
   max-width: 130px;
-  // note that this has a width set in the markup.
-  padding: 0.7em;
-  vertical-align: middle;
-  border: 1px solid green;
+}
+
+.navbar-nav > li > a {
+  border: 1px solid red;
+
 }
 
 /// Locale Navigation
@@ -25,8 +26,8 @@
 /// See: _language_toggle.erb
 .nav.locales {
   border-left: 1px solid $light-keyboard-grey;
-  padding: 0.7em;
   font-size: 0.6em;
+  padding-top: 1.2em;
 
   @media (max-width: $breakpoint) {
     // Override bootstrap, which attempts to put them one per row.

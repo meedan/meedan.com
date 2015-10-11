@@ -6,7 +6,9 @@ set :css_dir, 'css'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 activate :sprockets
-activate :automatic_image_sizes
+
+# This would be nice but doesn't seem to work with our 2x strategy. 2015 Oct 11 CGB
+# activate :automatic_image_sizes
 
 # Routing
 activate :directory_indexes

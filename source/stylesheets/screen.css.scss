@@ -414,23 +414,23 @@ body.checkdesk {
 }
 
 .public-engagement-photo:before {
-	  content: "";
-	  left: 0;
-	  right: 0;
-	  z-index: -1;
-	  display: block;
-		background-size: cover;
-	  background-image: url('../images/banners/public-engagegment-photo@2x.png');
-		background-repeat: no-repeat;
-		vertical-align: middle;
-	  width: 100%;
-		background-size: cover;
-	  margin: 0 auto;
-	  padding: 15em 0;
-    @media only screen and (max-width: 500px) {
-      display:none;
-    }
-	}
+  content: "";
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+	background-size: cover;
+  background-image: url('../images/banners/public-engagegment-photo@2x.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+  width: 100%;
+	background-size: cover;
+  margin: 0 auto;
+  padding: 15em 0;
+  @media only screen and (max-width: 500px) {
+    display:none;
+  }
+}
 
 .public-engagement-photo {
   left: 0;

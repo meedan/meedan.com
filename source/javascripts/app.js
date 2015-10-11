@@ -1,7 +1,7 @@
-//= require bootstrap
-//= require jquery
-//= require pace
-//
+//= require "jquery"
+//= require "bootstrap"
+//= require "pace"
+
 (function ($) {
   $(document).ready(function () {
 
