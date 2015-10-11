@@ -23,7 +23,7 @@
 
         <!-- Meedan logo -->
         <a class="meedan-home" href="/" title="Meedan">
-          <img class="meedan-logo" src="/images/2x/logos/meedan-logo-nav.png" alt="home" width="160">
+          <img class="meedan-logo" src="/images/2x/logos/meedan-logo-nav.png" alt="home" width="260">
         </a>
       </div>
 
@@ -47,15 +47,13 @@
 		<%= yield %>
 	</main>
 
-	<%= partial "partials/ga" %>
-  <%= javascript_include_tag "pace" %>
-  <%= javascript_include_tag "jquery.min" %>
-  <%= javascript_include_tag "bootstrap.min" %>
-
-	<!-- <script src="/javascripts/pace.js"></script> -->
+  <!-- <script src="/javascripts/pace.js"></script> -->
   <!-- <script src="/javascripts/bootstrap.js"></script> -->
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <%= javascript_include_tag "app" %>
+  <%= partial "partials/ga" %>
 
 	</body>
 </html>

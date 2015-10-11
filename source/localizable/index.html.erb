@@ -16,12 +16,13 @@ slug: "home"
 
 <!-- Homepage Projects -->
 <section class="projects">
+
   <h3><%= t("home.projects.title") %></h3>
   <div class="checkdesk">
     <%= partial "partials/image.html.erb", :locals => {
         :url => "/checkdesk",
         :name => "checkdeskwhite",
-        :type => "svg"} %>
+        :type => "svg" } %>
 
     <p class="tagline">
       <%= t("home.projects.checkdesk.tagline") %>
@@ -45,7 +46,7 @@ slug: "home"
     <%= partial "partials/image.html.erb", :locals => {
         :url => "/bridge",
         :name => "bridge",
-        :type => "svg"} %>
+        :type => "svg" } %>
 
     <p class="tagline"><%= t("home.projects.bridge.tagline") %></p>
 
@@ -115,10 +116,9 @@ slug: "home"
       <li>
         <%= partial "partials/_image.html.erb",
             :locals => {
-              :type => logo[:type],
-              :name => logo[:name],
-              :url => logo[:url]
-            } %>
+            :type => logo[:type],
+            :name => logo[:name],
+            :url => logo[:url] } %>
       </li>
       <% end %>
     </ul>
@@ -132,24 +132,3 @@ slug: "home"
 
 <!-- Homepage Contact -->
 <%= partial "partials/contact" %>
-
-<script>(function ($) {
-
-  // On the homepage only, hide the logo and fade it in.
-  $(document).ready(function(){
-
-    $(".navbar-header .meedan-logo").hide();
-
-    $(function () {
-      $(window).scroll(function () {
-        // set distance user needs to scroll before we fadeIn navbar
-        if ($(this).scrollTop() > 300) {
-          $('.navbar-header .meedan-logo').fadeIn();
-        } else {
-          $('.meedan-logo').fadeOut();
-        }
-      });
-    });
-  });
-}(jQuery));
-</script>
