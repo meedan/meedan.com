@@ -44,7 +44,7 @@ $width--primary-logo: 200px;
     animation: fadeIn 1.2s;
   }
 
-  .logo {
+  .logo--meedan-primary {
     width: $width--primary-logo;
     animation: fadeIn 0.8s;
     .bridge &, .checkdesk & {
@@ -93,7 +93,7 @@ $width--primary-logo: 200px;
     display: block;
   }
 
-  .i-would-like-to-apply-to-be-a-bridge-translator {
+  .apply-to-translate {
     font-size: 0.8em;
   }
 
