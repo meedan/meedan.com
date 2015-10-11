@@ -3,9 +3,11 @@ en:
   locale: "en"
   en: "English"
   ar: "العربية"
-  checkdesk: "Checkdesk"
-  bridge: "Bridge"
-  about: "About"
+  nav:
+    checkdesk: "Checkdesk"
+    bridge: "Bridge"
+    about: "About"
+    toggle: "Toggle navigation"
   home:
     branding:
       title: "Meedan"

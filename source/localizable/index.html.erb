@@ -133,4 +133,23 @@ slug: "home"
 <!-- Homepage Contact -->
 <%= partial "partials/contact" %>
 
+<script>(function ($) {
+
+  // On the homepage only, hide the logo and fade it in.
+  $(document).ready(function(){
+
+    $(".navbar-header .meedan-logo").hide();
+
+    $(function () {
+      $(window).scroll(function () {
+        // set distance user needs to scroll before we fadeIn navbar
+        if ($(this).scrollTop() > 300) {
+          $('.navbar-header .meedan-logo').fadeIn();
+        } else {
+          $('.meedan-logo').fadeOut();
+        }
+      });
+    });
+  });
+}(jQuery));
 </script>
