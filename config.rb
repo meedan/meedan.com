@@ -6,6 +6,7 @@ set :css_dir, 'css'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 activate :sprockets
+activate :automatic_image_sizes
 
 # Routing
 activate :directory_indexes

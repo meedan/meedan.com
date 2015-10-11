@@ -1,3 +1,24 @@
+/// Primary Navigation
+///
+/// This is mostly handled by the bootstrap navigation libraries.
+///
+/// Bootstrap 3.3.5
+///
+/// See:
+///
+/// - "bootstrap/stylesheets/bootstrap/mixins/nav-divider";
+/// - "bootstrap/stylesheets/bootstrap/mixins/nav-vertical-align";
+/// - "bootstrap/stylesheets/bootstrap/navs";
+
+// Logo in the nvigation
+.navbar-header img.meedan-logo {
+  max-width: 130px;
+  // note that this has a width set in the markup.
+  padding: 0.7em;
+  vertical-align: middle;
+  border: 1px solid red;
+}
+
 /// Locale Navigation
 ///
 /// A list of links to active and inactive languages (locales).
@@ -24,13 +45,4 @@
     color: $keyboard-grey;
     text-decoration: none;
   }
-}
-
-.navbar-header img {
-  max-width: 160px;
-  padding: 0.8em;
-}
-
-.navbar {
-  // margin-bottom: 0;
 }
