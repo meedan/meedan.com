@@ -23,7 +23,6 @@ $width--primary-logo: 200px;
   padding: 2em 1em 1em;
   width: 100%;
 
-
   // The main image in a "branding" section
   .screenshot {
     max-width: 900px;
@@ -105,9 +104,7 @@ $width--primary-logo: 200px;
   #bridge-small-hide{
     width: 61.8%;
   }
-
 }
-
 
 .bridge-reorder-container{
   @extend %clearfix;
@@ -120,8 +117,6 @@ $width--primary-logo: 200px;
     #bridge-element-swap{
       order: 1;
       padding-bottom: 0;
-
-
     }
 
     .slogan {
@@ -134,12 +129,10 @@ $width--primary-logo: 200px;
     .branding.branding--bridge{
       order: 2;
       padding-top: 1em;
-
-
     }
   }
   #bridge-element-swap{
-  @extend %clearfix;
+    @extend %clearfix;
   }
 }
 
@@ -163,37 +156,34 @@ $width--primary-logo: 200px;
   background-position: center;
   background-position-x: 50%;
   background-position-y: 50%;
-  h3{
+  h3 {
     font-weight: 500;
     font-size: 2em;
   }
 
-  @media all and (max-width:450px){
+  @media all and (max-width:450px) {
     max-height: 600px;
   }
-
 }
 
-
-.heading{
+.heading {
   // border: 1px solid red;
   padding: 5em 0em;
-  @media all and (max-width:450px){
-  padding: 0em 0em;
+  @media all and (max-width:450px) {
+    padding: 0em 0em;
   }
 }
 
-.btn-scroll-down{
+.btn-scroll-down {
   @extend %clearfix;
-  svg{
-  max-width: 40px !important;
-  }
   padding-top: 0em;
   margin-top: 0em;
-  @media all and (max-width:450px){
-  padding: 1em 0em;
+  @media all and (max-width:450px) {
+    padding: 1em 0em;
   }
-  // border: 1px solid red;
+  svg {
+    max-width: 40px !important;
+  }
 }
 
 .promo-bar{
@@ -201,27 +191,26 @@ $width--primary-logo: 200px;
   margin: 1em 0.5em;
   #we-love{
     @media all and (max-width:960px){
-    display: none;
+      display: none;
     }
   }
 
-  .specialemail{
-  margin-right: 5px;
-  @media all and (max-width:960px){
-  display: none;
+  .specialemail {
+    margin-right: 5px;
+    @media all and (max-width:960px) {
+      display: none;
     }
   }
 
-  #we-love2{
-    @media all and (min-width: 959px){
+  #we-love2 {
+    @media all and (min-width: 959px) {
       display:none;
-      }
-    a{
+    }
+    a {
       font-weight: 300;
       color: $firefly80;
     }
   }
-
 }
 
 
