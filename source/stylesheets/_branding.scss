@@ -118,7 +118,6 @@ $width--primary-logo: 200px;
       order: 1;
       padding-bottom: 0;
     }
-
     .slogan {
       padding-top: 0;
       padding-bottom: 1em;
@@ -230,14 +229,8 @@ p.recent-press-quote{
   @extend %flex-container;
   justify-content: center;
   background: $firefly10;
-  // border: 3px solid pink;
   padding: 0;
-  @media (max-width: $breakpoint) {
-  }
-
-  // ## Set the logo widths
   .nieman-logo, .fortune-logo{
-    // border: 1px solid purple;
     max-width: 80%;
   }
   h3 {
@@ -251,7 +244,6 @@ p.recent-press-quote{
   width: 40%;
   padding: 2em 2em;
   margin: 1em;
-
 
   @media all and (max-width: $breakpoint) {
     width: 100%;
