@@ -3,45 +3,25 @@
 /// A list of links to active and inactive languages (locales).
 /// See: _language_toggle.erb
 .nav.locales {
-  // position: fixed;
-  // z-index: 10;
-  // top: 160px;
-  // right: 0;
-  font-size: 0.8em;
-  // margin: 0.2em 5em;
-  // padding: 0em 0.25em;
-  background-color: rgba(white, 1);
-  border-radius: 2em;
-
+  border-left: 1px solid $light-keyboard-grey;
+  padding: 0.7em;
+  font-size: 0.6em;
 
   @media (max-width: $breakpoint) {
+    // Override bootstrap, which attempts to put them one per row.
     display: flex;
   }
-  //   // position: static;
-  //   position: absolute;
-  //   margin: 0;
-  //   top: 60px;
-  //   align-items: center;
-  //   display: flex;
-  //   flex-flow: wrap row;
-  //   justify-content: center;
-  //   flex-align: center;
-  //   align-items: center;
-  //   justify-content: center;
-  //   border-radius: 0;
-  // }
 
   .active a {
     font-weight: bold;
-    background-color: white;
-  }
-  a {
-    color: rgba(black, 0.5);
-    text-decoration: none;
-    padding: 0.1em 0.3em 0em 0.3em;
+    color: $keyboard-grey;
+    border-bottom: 1px solid $light-keyboard-grey;
+    // Override bootstrap, which attempts to put a grey background
+    background-color: transparent;
   }
 
-  .other_other {
-    border: 1px soild red;
+  li > a {
+    color: $keyboard-grey;
+    text-decoration: none;
   }
 }
