@@ -1,0 +1,15 @@
+<% current_page_name = @page_id.split("/", 1).last.sub(/\..*$/, '') %>
+<% current_page_basename = File.basename(current_page_name) %>
+<% inactive_languages = langs - [I18n.locale] %>
+
+<ul class="nav locales navbar-nav navbar-right">
+	<li class="active">
+    <%= link_to t(I18n.locale), "/#{current_page_name}.html", :class => I18n.locale %>
+  </li>
+
+  <% inactive_languages.each do |lang_name| %>
+    <li>
+      <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page_basename}.html", :class => lang_name %>
+    </li>
+  <% end %>
+</ul>

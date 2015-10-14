@@ -1,9 +1,0 @@
-<nav class="language-toggle">
-  <%page_name = @page_id.split("/", 1).last.sub(/\..*$/, '')%>
-	<%=link_to "#{page_name[0,2]}", "/#{page_name}.html"%>
-  <%other_langs = langs - [I18n.locale]%>
-  <%other_other = "#{other_langs.to_s[2..3]}"%>
-  <%base = File.basename("#{page_name}")%>
-  <%=link_to "#{other_other}", "/#{other_other}/#{base}.html"%>
-  <ul>
-</nav>

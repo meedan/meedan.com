@@ -1,0 +1,47 @@
+/// Primary Navigation
+///
+/// This is mostly handled by the bootstrap navigation libraries.
+///
+/// Bootstrap 3.3.5
+///
+/// See:
+///
+/// - "bootstrap/stylesheets/bootstrap/mixins/nav-divider";
+/// - "bootstrap/stylesheets/bootstrap/mixins/nav-vertical-align";
+/// - "bootstrap/stylesheets/bootstrap/navs";
+
+// Logo in the nvigation
+.navbar-header img.meedan-logo {
+  max-width: 130px;
+}
+
+.navbar-nav > li > a {
+}
+
+/// Locale Navigation
+///
+/// A list of links to active and inactive languages (locales).
+/// See: _language_toggle.erb
+.nav.locales {
+  border-left: 1px solid $light-keyboard-grey;
+  font-size: 0.6em;
+  padding-top: 1.2em;
+
+  @media (max-width: $breakpoint) {
+    // Override bootstrap, which attempts to put them one per row.
+    display: flex;
+  }
+
+  .active a {
+    font-weight: bold;
+    color: $keyboard-grey;
+    border-bottom: 1px solid $light-keyboard-grey;
+    // Override bootstrap, which attempts to put a grey background
+    background-color: transparent;
+  }
+
+  li > a {
+    color: $keyboard-grey;
+    text-decoration: none;
+  }
+}
