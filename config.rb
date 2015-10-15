@@ -7,7 +7,13 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 activate :sprockets
 
-# This would be nice but doesn't seem to work with our 2x strategy. 2015 Oct 11 CGB
+# Make sprockets aware of bower
+# note that this does not seem to add them to the sass Load_path,
+# so for now we have to use "../../" syntax in our @imports — 2015 Oct 14 CGB
+bower_path = File.join root, 'bower_components'
+sprockets.append_path bower_path
+
+# This would be nice but doesn't seem to work with our 2x strategy. — 2015 Oct 11 CGB
 # activate :automatic_image_sizes
 
 # Routing
