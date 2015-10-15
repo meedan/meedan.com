@@ -10,48 +10,45 @@
 /// - "bootstrap/stylesheets/bootstrap/mixins/nav-vertical-align";
 /// - "bootstrap/stylesheets/bootstrap/navs";
 
-
-// $navbar-height: 90px;
-// $nav-item-height: 40px;
-// $logo-height: 70px;
+$navbar-height: 80px;
+$nav-item-height: 30px;
+$logo-height: 30px;
 
 // Logo in the navigation
-.navbar-header img.meedan-logo {
-  // max-width: 130px;
-  // height: $logo-height;
+.navbar-header a.meedan-home {
+  @include navbar-vertical-align($logo-height);
+  display: block;
+  height: $logo-height;
+  img {
+    max-width: 130px;
+  }
 }
 
 // The primary navigation
 //
 // Override bootstrap
 .navbar {
-  // width: 100%;
-  // padding: 10px;
-  & > .container-fluid {
-    // display: flex;
-    // align-items: center;
-    // border: 1px solid green;
-    // align-items: stretch;
-  }
-
+  padding: 0 10px;
   .navbar-nav {
-    // display: flex;
-    // border: 1px solid red;
-    // padding: 0px;
-    // margin: 0px;
-
     & > li {
-      // @include navbar-vertical-align($logo-height);
-      // border: 1px solid $light-keyboard-grey;
-      // border: 1px solid aqua;
-      // float: none;
-      // flex: 1;
+      border-left: 1px solid $light-keyboard-grey;
+      padding: 0;
       & > a {
-        // height: $logo-height;
-        // padding: 16px!important;
-        // margin: 0!important;
-        // display: inline;
-        // vertical-align: middle;
+        padding-top: $navbar-height - $logo-height*2;
+        padding-left: 2em;
+        padding-right: 2em;
+        height: $navbar-height;
+        display: inline-block;
+        vertical-align: middle;
+        text-decoration: none;
+        line-height: 2;
+        &:hover {
+          border-bottom: 3px solid $accent-blue;
+          transition: border 0.1s;
+        }
+      }
+      &.active a {
+        border-bottom: 3px solid black;
       }
     }
   }
@@ -62,12 +59,9 @@
 /// A list of links to active and inactive languages (locales).
 /// See: _language_toggle.erb
 .nav.locales {
-  // border-left: 1px solid $light-keyboard-grey;
-  // font-size: 14px;
-  // @include navbar-vertical-align($nav-item-height);
-  // border: 1px solid $light-keyboard-grey;
-  // margin: 1em;
-  // float: none!important;
+  // background-color: $light-keyboard-grey;
+  // padding: 0 2em;
+  border-radius: 4px;
 
   // At smaller sizes
   @media (max-width: $breakpoint) {
@@ -76,20 +70,22 @@
   }
 
   .active a {
-    // font-weight: bold;
-    // color: $keyboard-grey;
-    // color: black;
-    // border-bottom: 1px solid $light-keyboard-grey;
+    font-weight: bold;
+    color: $keyboard-grey;
+    color: black;
+
     // Override bootstrap, which attempts to put a grey background
-    // background-color: transparent;
+    background-color: transparent;
     &:hover {
-      // background-color: transparent;
+      background-color: transparent;
     }
   }
 
   li > a {
     // color: $keyboard-grey;
     // text-decoration: none;
-    // height: 70px;
+    font-size: 14px;
+    line-height: 3em;
+    // @include navbar-vertical-align($nav-item-height);
   }
 }
