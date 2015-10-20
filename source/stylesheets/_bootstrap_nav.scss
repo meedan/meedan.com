@@ -118,3 +118,12 @@ $logo-height: 30px;
     margin-right: 0.8em;
   }
 }
+
+// "You are here" active navigation
+// Relies on body class
+$pages: bridge, checkdesk, about;
+@each $page in ($pages)  {
+  .#{$page} .navbar-nav .#{$page} a {
+    border-bottom: 3px solid $firefly40;
+  }
+}

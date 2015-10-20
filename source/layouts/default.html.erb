@@ -34,10 +34,16 @@
         <%= partial "partials/nav-locales.html" %>
 
         <!-- 2. The page navigation -->
+        <!-- Loop through each page -->
+        <% nav_pages = ["checkdesk", "bridge", "about"] %>
         <ul class="nav navbar-nav navbar-right pages">
-          <li><a href="/en/checkdesk.html"><%= t("nav.checkdesk") %></a></li>
-          <li><a href="/en/bridge.html"><%= t("nav.bridge") %></a></li>
-          <li><a href="/en/about.html"><%= t("nav.about") %></a></li>
+          <% nav_pages.each do |page| %>
+            <li class="#{page}">
+              <a href="/#{I18n.locale}/#{page}.html">
+                <%= t("nav.#{page}") %>
+              </a>
+            </li>
+          <% end %>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
