@@ -36,10 +36,8 @@
       <% nav_pages = ["checkdesk", "bridge", "about"] %>
       <ul class="nav navbar-nav navbar-right pages">
         <% nav_pages.each do |page| %>
-        <li class="#{page}">
-          <a href="/#{I18n.locale}/#{page}.html">
-            <%= t("nav.#{page}") %>
-          </a>
+        <%= "<li class='#{page}'>" %>
+          <%= link_to t("nav.#{page}"), "/#{t("locale")}/#{page}.html" %>
         </li>
         <% end %>
       </ul>
