@@ -37,12 +37,22 @@ slug: "checkdesk"
 <!-- Testimonials -->
 <section class="testimonials">
   <% t("checkdesk.testimonials.quotes").each do |t| %>
-    <div class="twocolumn">
+    <div class="quotes">
         <div class="quote">
-          <p><span class="quote-glyph">&ldquo;</span><%= t[:quote] %></p>
-          <p class="bottomquote"><%= t[:attribution] %></p>
-          <p class="bottomquote"><a href="<%= t[:website_url] %>" target="_blank">
-          <%= t[:website_name] %></a></p>
+          <p>
+            <span class="quote--glyph">
+              &ldquo;
+            </span>
+            <%= t[:quote] %>
+            </p>
+          <p class="attribution--name">
+            <%= "— #{t[:attribution]}," %>
+          </p>
+          <p class="attribution--website">
+            <a href="<%= t[:website_url] %>" target="_blank">
+              <%= t[:website_name] %>
+            </a>
+          </p>
         </div>
      </div>
   <% end %>

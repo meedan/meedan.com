@@ -325,31 +325,30 @@ body.checkdesk {
 }
 
 // Two column
-// FIXME: non-semantic selector
-.twocolumn {
+.quotes {
   justify-content: center;
   @extend %flex-container;
-  border: 1px solid grey;
-}
-
-// Quotes
-.quote {
-  vertical-align: top;
-  display: inline;
-  width: 100%;
-
-  @media all and (max-width: $breakpoint) {
-    min-width: 100%;
-  }
-
-  p {
-  	font-size: 1.2em;
-  }
-
-  p.bottomquote {
-    font-weight: 700;
-    padding: 0;
+  // Quotes
+  .quote {
+    vertical-align: top;
     display: inline;
+    width: 100%;
+    margin-top: 2em;
+
+    @media all and (max-width: $breakpoint) {
+      min-width: 100%;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    .attribution--name,
+    .attribution--website {
+      font-weight: 700;
+      padding: 0;
+      display: inline;
+    }
   }
 }
 

@@ -24,31 +24,53 @@ $logo-height: 30px;
   }
 }
 
-@mixin nav-links--base {
+// Shared
+//
+// Base styles for all links in the navigation
+@mixin nav-links--large {
   padding-top: $navbar-height - $logo-height*2;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   height: $navbar-height;
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
-  line-height: 2;
+  font-size: 19px;
+  line-height: 2.2;
 }
 
-// The primary navigation
+// Locale only
 //
-// Override bootstrap
+// Overrides to make the locale links distinctive
+// Smaller but still vertically centered
+@mixin nav-links--small {
+  height: $navbar-height;
+  color: $keyboard-grey;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 3.5;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
+
+// The primary pages navigation
+//
 .navbar {
   padding: 0 10px;
   .navbar-nav.pages {
     & > li {
-      // border-left: 1px solid $light-keyboard-grey;
       padding: 0;
       & > a {
-        @include nav-links--base;
+        @include nav-links--large;
         &:hover {
           border-bottom: 3px solid $accent-blue;
           transition: border 0.1s;
+        }
+        &:active {
+          color: $accent-blue;
         }
       }
       &.active a {
@@ -58,13 +80,13 @@ $logo-height: 30px;
   }
 }
 
-// Do not understand this rule yet.
-// — 2015 Oct 14 CGB
-//
 .navbar-collapse {
   overflow-x: hidden;
 }
 
+// Hamburger menu
+//
+// At smaller sizes, this toggle appears
 .navbar-toggle {
   @include navbar-vertical-align(36px);
 }
@@ -72,11 +94,8 @@ $logo-height: 30px;
 /// Locale Navigation
 ///
 /// A list of links to active and inactive languages (locales).
-/// See: _language_toggle.erb
 .nav.locales {
   padding: 0 2em;
-  // background-color: $light-keyboard-grey;
-  // padding: 0 2em;
 
   // At smaller sizes
   // Override bootstrap, which attempts to put them one per row.
@@ -107,15 +126,7 @@ $logo-height: 30px;
   }
 
   li > a {
-    @include nav-links--base;
-    color: $keyboard-grey;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 3em;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    @include nav-links--small;
   }
 }
 
