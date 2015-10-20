@@ -1,0 +1,48 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <!-- Navigation hamburger button -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toggle-target" aria-expanded="false">
+      <span class="sr-only"><%= t("nav.toggle") %></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <!-- Meedan logo -->
+      <a class="meedan-home" href="/" title="Meedan">
+        <%= image_tag "logos/meedan-logo-horizontal-3@1x.png", :class => "meedan-logo", :alt => "meedan logo", srcset: 'logos/meedan-logo-horizontal-3@2x.png 2x' %>
+      </a>
+    </div>
+    <!-- Two navigation ul elements -->
+    <div class="collapse navbar-collapse" id="toggle-target">
+      <!-- 1. The locale navigation -->
+      <!-- This comes before the page list navigation -->
+      <!--  -->
+      <% current_page_name = @page_id.split("/", 1).last.sub(/\..*$/, '') %>
+      <% current_page_basename = File.basename(current_page_name) %>
+      <% inactive_languages = langs - [I18n.locale] %>
+      <ul class="nav locales navbar-nav navbar-right">
+        <li class="active">
+          <%= link_to t(I18n.locale), "/#{current_page_name}.html", :class => I18n.locale %>
+        </li>
+        <% inactive_languages.each do |lang_name| %>
+        <li>
+          <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page_basename}.html", :class => lang_name %>
+        </li>
+        <% end %>
+      </ul>
+      <!-- 2. The page navigation -->
+      <!-- Loop through each page -->
+      <% nav_pages = ["checkdesk", "bridge", "about"] %>
+      <ul class="nav navbar-nav navbar-right pages">
+        <% nav_pages.each do |page| %>
+        <li class="#{page}">
+          <a href="/#{I18n.locale}/#{page}.html">
+            <%= t("nav.#{page}") %>
+          </a>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
