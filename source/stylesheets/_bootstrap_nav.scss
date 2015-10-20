@@ -4,25 +4,17 @@
 ///
 /// Bootstrap 3.3.5
 ///
-/// See:
-///
-/// - "bootstrap/stylesheets/bootstrap/mixins/nav-divider";
-/// - "bootstrap/stylesheets/bootstrap/mixins/nav-vertical-align";
-/// - "bootstrap/stylesheets/bootstrap/navs";
-
-// Navigation Configuration
-$pages: bridge, checkdesk, about;
-$navbar-height: 80px;
-$nav-item-height: 30px;
-$logo-height: 30px;
+/// README: bootstrap imports and variables in: "bootstrap_integration.scss"
 
 // Logo in the navigation
-.navbar-header a.meedan-home {
-  @include navbar-vertical-align($logo-height);
+.navbar-header a.navbar-brand {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
   display: block;
-  height: $logo-height;
+  height: $nav-item-height;
   img {
     max-width: 130px;
+    @include navbar-vertical-align(30px);
   }
 }
 
@@ -30,12 +22,7 @@ $logo-height: 30px;
 //
 // For primary page links
 @mixin nav-links--large {
-  padding-top: $navbar-height - $logo-height*2;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  height: $navbar-height;
-  display: inline-block;
-  vertical-align: middle;
+  // padding-top: $navbar-height - $nav-item-height*2;
   text-decoration: none;
   font-size: 19px;
   line-height: 2.2;
@@ -59,45 +46,33 @@ $logo-height: 30px;
 // Overrides to make the locale links distinctive
 // Smaller but still vertically aligned with pages links on desktop
 @mixin nav-links--small {
-  height: $navbar-height;
+  // height: $navbar-height;
   color: $keyboard-grey;
-  display: inline-block;
-  vertical-align: middle;
+  // display: inline-block;
+  // vertical-align: middle;
   padding-left: 0;
   padding-right: 0;
   margin-left: 0.8em;
   margin-right: 0.8em;
   font-size: 14px;
-  line-height: 3.5;
+  line-height: 3.0;
+}
+
+
+.navbar {
+  padding: 0 10px;
+  background-color: white;
+  li {
+    padding: 0!important;
+  }
 }
 
 // The primary pages navigation
 //
-.navbar {
-  padding: 0 10px;
-  background-color: white;
-  .navbar-nav.pages {
-    & > li {
-      padding: 0;
-      & > a {
-        @include nav-links--large;
-      }
-    }
+.navbar-nav.pages {
+  li > a {
+    @include nav-links--large;
   }
-}
-
-// Why doesn't bootstrap set this? It seems necessary. CGB 2015 Oct 19
-.navbar-fixed-top .navbar-collapse {
-  overflow-x: hidden;
-  max-height: 400px;
-}
-
-// Hamburger menu
-//
-// At smaller sizes, this toggle appears.
-// We tweak it slightly.
-.navbar-toggle {
-  @include navbar-vertical-align(36px);
 }
 
 /// Locale Nav
@@ -108,7 +83,7 @@ $logo-height: 30px;
 
   li {
     border-left-width: 0;
-    padding: 0;
+
     // All locale links
     & > a {
       @include nav-links--small;
@@ -141,7 +116,7 @@ $logo-height: 30px;
 }
 
 // Page navigation: current page indicator
-@each $page in ($pages)  {
+@each $page in (bridge, checkdesk, about)  {
   // At smaller sizes
   @media all and (max-width: $breakpoint) {
     // The list class matches the body class

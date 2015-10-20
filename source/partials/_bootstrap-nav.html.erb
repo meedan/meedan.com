@@ -2,14 +2,14 @@
   <div class="container-fluid" >
     <div class="navbar-header">
       <!-- Navigation hamburger button -->
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle-target" aria-expanded="false">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-toggle-target" aria-expanded="false">
       <span class="sr-only"><%= t("nav.toggle") %></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
       <!-- Meedan logo -->
-      <a class="meedan-home" href="/" title="Meedan">
+      <a class="navbar-brand meedan-home" href="/" title="Meedan">
         <%= image_tag "logos/meedan-logo-horizontal-3@1x.png", :class => "meedan-logo", :alt => "meedan logo", srcset: 'logos/meedan-logo-horizontal-3@2x.png 2x' %>
       </a>
     </div>
@@ -26,9 +26,9 @@
           <%= link_to t(I18n.locale), "/#{current_page_name}.html", :class => I18n.locale %>
         </li>
         <% inactive_languages.each do |lang_name| %>
-        <li>
-          <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page_basename}.html", :class => lang_name %>
-        </li>
+          <li>
+            <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page_basename}.html", :class => lang_name %>
+          </li>
         <% end %>
       </ul>
       <!-- 2. The page navigation -->

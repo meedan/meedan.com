@@ -1,14 +1,11 @@
+// 1. Preliminary configuration
+$breakpoint: 900px;
+
+// 2. Core libs
 @import "normalize";
 @import "bootstrap_integration";
 
-/// Responsive configuration
-///
-/// @example - responsive breakpoint using $breakpoint as a max-width
-///     @media all and (max-width: $breakpoint) { .. styles for small screens  .. }
-///
-$breakpoint: 900px;
-
-/// Local styles
+/// Custom styles
 ///
 /// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
 @import "colors";
@@ -19,6 +16,7 @@ $breakpoint: 900px;
 @import "logo-grid";
 @import "forms";
 @import "bootstrap_nav";
+
 
 /// Flex container
 ///
@@ -103,7 +101,7 @@ section {
     animation: fadeIn 1.2s;
   }
 
-  .about {
+  section.about {
     animation: fadeIn 2.5s;
     padding: 2em 0;
   }
@@ -112,7 +110,7 @@ section {
 ///
 /// This is the medium channels. For now we have a fixed height (ew) because medium doesn't give us a lot of control. Probably we will migrate this to a custom RSS feed that gives us more control over the design.
 ///
-.home .latest {
+.home section.latest {
   padding-bottom: 1em;
   background-color: $firefly2;
   .medium-channels {
@@ -268,10 +266,9 @@ body.home {
 }
 
 body.bridge {
-  .branding,
-  .api,
-  .history,
-  .footer {
+  .branding--bridge,
+  section.history,
+  & > .footer {
     background: $firefly80;
     color: rgba(white, 0.8);
 		a {
@@ -279,7 +276,8 @@ body.bridge {
 		}
   }
 
-  .supporters, .explanations {
+  section.supporters,
+  section.explanations {
     background-color: white;
     color: $firefly80;
   }
@@ -288,18 +286,18 @@ body.bridge {
 // Checkdesk
 body.checkdesk {
 
-  .explanations {
+  section.explanations {
     background-color: white;
     color: $firefly80;
   }
 
-  .team {
+  section.team {
     background-color: $warm-grey;
   }
 
   /// Inverted colors for some sections
-  .history,
-  .github,
+  section.history,
+  section.github,
   .footer {
     background-color: $firefly80;
     color: $firefly10;

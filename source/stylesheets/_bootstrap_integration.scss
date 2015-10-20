@@ -4,15 +4,23 @@
 //
 //  README
 //
-//  All the bootstrap files are in `bower_components`.
+//  Hi. All the bootstrap files are in `bower_components`.
 //
-//  Don't edit the files in that directory;
-//  instead, override bootstrap CSS in this file only, if possible.
+//  Don't edit the files in that directory; instead,
+//  override bootstrap CSS in this file only, if possible.
 //
 //  We @import components selectively to avoid CSS bloat.
 
 // First load the core bootstrap variables and mixins
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+
+// Now, before importing bootstrap files,
+// override bootstrap variables with our settings
+$navbar-height: 80px;
+$nav-item-height: 30px;
+$grid-float-breakpoint: $breakpoint;
+$navbar-collapse-max-height: 400px;
 
 // Mixins
 // --------------------------------------------------
@@ -22,7 +30,7 @@
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/opacity";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/image";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/labels";
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/reset-filter";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/reset-filter";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/resize";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/responsive-visibility";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/size";
@@ -52,7 +60,7 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/center-block";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/nav-vertical-align";
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid-framework";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid-framework";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid";
 
 
@@ -65,14 +73,14 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
 
 // // Components
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
