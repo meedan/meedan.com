@@ -3,11 +3,15 @@
 //  */
 //
 //  README
-//  We installed bootstrap with bower in the bower_components directory.
-//  Don't edit the files in the bower component.
+//
+//  All the bootstrap files are in `bower_components`.
+//
+//  Don't edit the files in that directory;
+//  instead, override bootstrap CSS in this file only, if possible.
+//
 //  We @import components selectively to avoid CSS bloat.
 
-// // Core variables and mixins
+// First load the core bootstrap variables and mixins
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 
 // Mixins
@@ -16,11 +20,11 @@
 // // Utilities
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/hide-text";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/opacity";
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/image";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/image";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/labels";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/reset-filter";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/resize";
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/responsive-visibility";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/responsive-visibility";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/size";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/tab-focus";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/reset-text";
@@ -58,7 +62,7 @@
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
 
 // // Core CSS
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
@@ -97,4 +101,4 @@
 
 // // Utility classes
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";

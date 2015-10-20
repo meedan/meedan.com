@@ -1,7 +1,10 @@
+// 1. include all js dependencies
+//
 //= require "jquery"
-//= require "bootstrap"
+//= require "bootstrap-sass/assets/javascripts/bootstrap"
 //= require "pace"
 
+// 2. Navbar js customizations
 (function ($) {
   $(document).ready(function () {
 
