@@ -4,49 +4,18 @@ slug: "bridge"
 ---
 <!-- Bridge branding Section -->
 <section class="bridge--branding">
-  <svg class="logo" width="300"><use xlink:href="#bridge" /></svg>
-
-  <p class="slogan"><%= t('bridge.branding.slogan')%></p>
+  <div class="logo-and-slogan">
+    <svg class="logo" width="300"><use xlink:href="#bridge" /></svg>
+    <p class="slogan"><%= t('bridge.branding.slogan')%></p>
+  </div>
 
   <img class="screenshot" alt="Bridge screenshot"
   src="/images/screenshots/bridge4colidevice@1x.png"
   srcset="/images/screenshots/bridge4colidevice@2x.png 2x">
-
-  <div class="call-to-action">
-    <h2 class="call-to-action--text">
-      <%= t("bridge.branding.call_to_action") %>
-    </h2>
-
-    <div class="call-to-action--form" id="mc_embed_signup">
-      <form class="mailchimp" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-        <div class="form-group">
-          <label for="mce-EMAIL">
-            <%= t("bridge.form.label_1") %>
-          </label>
-          <input type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com" id="mce-EMAIL">
-          <input type="submit" value="<%= t('bridge.branding.form.submit')%>" name="subscribe" id="mc-embedded-subscribe" class="button">
-        </div>
-
-         <!-- Anti-spam honeypot technique -->
-        <div style="position: absolute; left: -5000px;">
-          <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" tabindex="-1" value="">
-        </div>
-
-        <!-- Checkbox -->
-        <div class="apply-to-translate">
-          <input type="checkbox" value="1" name="group[7069][1]" id="mce-group[7069]-7069-0">
-          <label for="mce-group[7069]-7069-0">
-            <%= t('bridge.branding.form.label_2')%>
-          </label>
-        </div>
-      </form>
-    </div>
-  </div>
 </section>
 
 <!-- Explanations -->
-<section class="explanations">
+<section class="bridge--explanations">
   <div class="description">
   <% t("bridge.explanations").each do |e| %>
     <div class="description">
@@ -61,7 +30,7 @@ slug: "bridge"
 </section>
 
 <!-- History-->
-<section class="history">
+<section class="bridge--history">
 <h3><%= t("bridge.history.header") %></h3>
   <% t("bridge.history.paragraphs").each do |e| %>
     <p><%= e[:text] %></p>
@@ -69,7 +38,7 @@ slug: "bridge"
 </section>
 
 <!-- Supporters -->
- <section class="supporters">
+ <section class="bridge--supporters">
   <h3><%= t("bridge.supporters.header")%></h3>
   <p><%= t("bridge.supporters.tagline")%></p>
   <div class="logos">
@@ -83,7 +52,42 @@ slug: "bridge"
   <p><%= t("bridge.supporters.partner_paragraph")%></p>
 </section>
 
+<section class="bridge--call-to-action">
+  <div class="call-to-action">
+    <h2 class="call-to-action--text">
+      <%= t("bridge.branding.call_to_action") %>
+    </h2>
+    <p><%= t("bridge.branding.follow") %></p>
+
+    <div class="call-to-action--form" id="mc_embed_signup">
+      <form class="mailchimp" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+        <div class="form-group">
+          <label for="mce-EMAIL">
+            <%= t("bridge.form.label_1") %>
+          </label>
+          <input type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com" id="mce-EMAIL">
+          <input type="submit" value="<%= t('bridge.form.submit')%>" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </div>
+
+         <!-- Anti-spam honeypot technique -->
+        <div style="position: absolute; left: -5000px;">
+          <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" tabindex="-1" value="">
+        </div>
+
+        <!-- Checkbox -->
+        <div class="apply-to-translate">
+          <input type="checkbox" value="1" name="group[7069][1]" id="mce-group[7069]-7069-0">
+          <label for="mce-group[7069]-7069-0">
+            <%= t('bridge.form.label_2')%>
+          </label>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
 <!-- Footer -->
- <div class="footer">
+ <div class="brige--footer">
   <p><%= t("bridge.footer") %></p>
 </div>

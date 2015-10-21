@@ -49,11 +49,14 @@
 // The outer "navbar" (which contains multiple uls)
 // Navbar is a bootstrap component: http://getbootstrap.com/components/#navbar
 .navbar {
-  padding: 0 10px;
   background-color: white;
-  border-bottom-width: 0;
+  border-bottom: 1px solid $alto-grey;
   li {
     padding: 0!important;
+  }
+  .navbar-brand {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 

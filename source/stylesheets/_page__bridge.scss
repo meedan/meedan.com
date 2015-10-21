@@ -2,49 +2,16 @@
 //
 //
 
-// Some sections have dark background.
-section.bridge--branding {
-  @extend %colors--inverted;
-}
-
-section.bridge--history {
-  @extend %colors--inverted;
-}
-
-body.bridge .footer {
-  @extend %colors--inverted;
-}
-
-// Some sections have white background.
-section.bridge--supporters {
-  @extend %colors--default;
-}
-
-section.bridge--explanations {
-  @extend %colors--default;
-}
-
 // Bridge branding section
 //
 // A different style than checkdesk and homepage.
-.bridge--branding {
+section.bridge--branding {
+  @extend %colors--inverted;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2em 2em 0 2em;
-
-  // The bridge logo
-  .logo {
-    width: 61.8%;
-    border: 1px solid green;
-  }
-
-  // Slogan
-  // eg "Translate the global web"
-  p.slogan {
-    border: 1px solid red;
-    width: 100%;
-  }
+  margin-top: 50px;
+  padding: 4em 2em;
 
   // At smaller sizes flow vertically
   @media all and (max-width: 900px) {
@@ -52,19 +19,20 @@ section.bridge--explanations {
     padding-top: 1em;
   }
 
+  .slogan {
+    padding: 0 0 2em;
+  }
+
   // Bridge Screenshot
   img.screenshot {
-    min-width: 300px;
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-    display: block;
-    border: 1px solid grey;
+    margin: 0 2em;
+    max-width: 100%;
   }
 
   // Checkbox
   .apply-to-translate {
-    font-size: 0.8em;
+    font-size: 0.7em;
+    font-weight: 200;
   }
 
   .call-to-action {
@@ -76,10 +44,32 @@ section.bridge--explanations {
     width: 100%;
     display: block;
     flex: 0;
+    text-transform: none;
+    font-size: 18px;
   }
 
   .call-to-action--form {
     border: 1px solid orange;
     width: 100%;
   }
+}
+
+section.bridge--history {
+  @extend %colors--inverted;
+}
+
+
+// Some sections have white background.
+section.bridge--supporters {
+  @extend %colors--default;
+}
+
+section.bridge--explanations {
+  @extend %colors--default;
+}
+
+// Bridge footer
+.bridge--footer {
+  @extend %colors--inverted;
+  @extend %component--footer;
 }

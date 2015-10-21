@@ -23,8 +23,7 @@ body.home {
 
     li {
       color: $firefly80;
-      padding: 2em 2em;
-      margin: 1em;
+      padding: 0 2em;
       width: 40%;
       // At smaller sizes take the whole row
       @media all and (max-width: $breakpoint) {
@@ -44,6 +43,7 @@ body.home {
         line-height: 1.25;
         font-weight: 500;
         padding-top: 1.5em;
+        padding-bottom: 0;
         font-weight: 500;
         // At smaller sizes take up the whole row
         @media all and (max-width: $breakpoint) {

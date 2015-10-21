@@ -1,7 +1,7 @@
 
 /// A page footer
 ///
-.footer {
+%component--footer {
   @extend section;
   background-color: $firefly90;
   padding: 1em;
@@ -11,4 +11,8 @@
   a {
     color: white;
   }
+}
+
+.footer {
+  @extend %component--footer;
 }

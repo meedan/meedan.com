@@ -11,7 +11,7 @@
     // Hide the navbar on the homepage
     $(".home .navbar").hide();
 
-    // fade in .navbar
+    // fade in .navbar on homepage
     $(function () {
       $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
