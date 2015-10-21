@@ -46,6 +46,9 @@ $logo-large-width: 250px;
     }
     .ng {
       margin-top: 10px;
+      a {
+        max-width: 100px;
+      }
     }
     .firstdraft svg {
       width: 75px;

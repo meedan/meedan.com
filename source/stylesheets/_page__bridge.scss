@@ -2,21 +2,33 @@
 //
 //
 
+$breakpoint--explainer: 900px;
+
 // Bridge branding section
 //
 // A different style than checkdesk and homepage.
 section.bridge--branding {
   @extend %colors--inverted;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
   margin-top: 50px;
   padding: 4em 2em;
 
   // At smaller sizes flow vertically
-  @media all and (max-width: 900px) {
+  @media all and (max-width: $breakpoint--explainer) {
     flex-flow: column;
     padding-top: 1em;
+    justify-content: center;
+  }
+
+  .logo-and-slogan {
+    padding: 1em;
+
+    // At smaller sizes, center
+    @media all and (max-width: $breakpoint--explainer) {
+      margin: 0 auto;
+    }
   }
 
   .slogan {
@@ -25,8 +37,14 @@ section.bridge--branding {
 
   // Bridge Screenshot
   img.screenshot {
-    margin: 0 2em;
-    max-width: 100%;
+    width: 51.8%;
+    margin: 0 3%;
+    padding: 1%;
+    max-width: 525px;
+    @media all and (max-width: $breakpoint--explainer) {
+      margin: 0 auto;
+      width: 100%;
+    }
   }
 
   // Checkbox
@@ -43,6 +61,7 @@ section.bridge--history {
 // Some sections have white background.
 section.bridge--supporters {
   @extend %colors--default;
+  @extend %component--logos;
 }
 
 section.bridge--explanations {
