@@ -1,12 +1,15 @@
 /// Primary Navigation
 ///
 /// This is mostly handled by the bootstrap navigation libraries.
+/// As much as possible we rely on bootstrap — most of our customization
+/// is just the height and padding of the navigation. 2015 Oct 20 CGB
 ///
 /// Bootstrap 3.3.5
 ///
-/// README: bootstrap imports and variables in: "bootstrap_integration.scss"
+/// @see bootstrap_integration.scss
 
 // Logo in the navigation
+// !important is required to override bootstrap settings.
 .navbar-header a.navbar-brand {
   padding-top: 0!important;
   padding-bottom: 0!important;

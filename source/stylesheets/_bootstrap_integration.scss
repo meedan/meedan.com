@@ -1,31 +1,36 @@
-// /*!
-//  * Bootstrap v3.3.5 (http://getbootstrap.com)
-//  */
-//
-//  README
-//
-//  Hi. All the bootstrap files are in `bower_components`.
-//
-//  Don't edit the files in that directory; instead,
-//  override bootstrap CSS in this file only, if possible.
-//
-//  We @import components selectively to avoid CSS bloat.
+///
+/// Bootstrap v3.3.5 (http://getbootstrap.com)
+///
+///  README
+///
+///  Hi. All the bootstrap files are in `bower_components`.
+///  Don't edit the files in that directory; instead,
+///  override bootstrap CSS in this file only, if possible.
+///  We @import components selectively to avoid CSS bloat.
 
-// First load the core bootstrap variables and mixins
+///
+/// 1. LOAD BOOTSTRAP DEFAULT CONFIGURATION
+///
+/// First load the core bootstrap variables and mixins
+///
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 
-
-// Now, before importing bootstrap files,
-// override bootstrap variables with our settings
+///
+/// 2. OVERRIDE BOOTSTRAP VARIABLES
+/// Override bootstrap variables with our settings.
+///
 $navbar-height: 80px;
 $nav-item-height: 30px;
 $grid-float-breakpoint: $breakpoint;
 $navbar-collapse-max-height: 400px;
 
-// Mixins
-// --------------------------------------------------
-
-// // Utilities
+///
+/// 3. IMPORT BOOTSTRAP FILES
+///
+/// All bootstrap mixins
+///
+/// Utilities
+///
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/hide-text";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/opacity";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/image";
@@ -40,7 +45,7 @@ $navbar-collapse-max-height: 400px;
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/text-overflow";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/vendor-prefixes";
 
-// // Components
+/// Components
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/alerts";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/buttons";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/panels";
@@ -51,25 +56,24 @@ $navbar-collapse-max-height: 400px;
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/progress-bar";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/table-row";
 
-// // Skins
+/// Skins
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/background-variant";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/border-radius";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/gradients";
 
-// // Layout
+/// Layout
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/center-block";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/nav-vertical-align";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid-framework";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid";
 
-
-// // Reset and dependencies
+/// Reset and dependencies
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/print";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
 
-// // Core CSS
+/// Core CSS
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
@@ -78,7 +82,7 @@ $navbar-collapse-max-height: 400px;
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
 
-// // Components
+/// Components
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
@@ -101,12 +105,12 @@ $navbar-collapse-max-height: 400px;
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/wells";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
 
-// // Components w/ JavaScript
+/// Components w/ JavaScript
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
 
-// // Utility classes
+/// Utility classes
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
