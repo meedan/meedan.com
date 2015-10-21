@@ -43,64 +43,23 @@ section.about--our-vision {
 
 // About: Products photo
 //
-.about--products-photo {
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  &:before {
-    content: "";
-    left: 0;
-    right: 0;
-    z-index: -1;
-    display: block;
-    background-size: cover;
-    background-image: url('../images/banners/products-photo@1x.jpg');
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    width: 100%;
-    background-size: cover;
-    margin: 0 auto;
-    padding: 6em 0;
-    @media only screen and (max-width: 500px) {
-      max-height: 150px;
-    }
-  }
-  .content {
-    z-index: 1;
-    background-color: $firefly10;
-  }
+div.about--products-photo {
+  @include component--background-photo("../images/banners/products-photo@1x.jpg");
 }
 
+// About: Products text
 //
-// About page: public engagement photo
-.about--public-engagement-photo {
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  &:before {
-    content: "";
-    left: 0;
-    right: 0;
-    z-index: -1;
-    display: block;
-    background-size: cover;
-    background-image: url('../images/banners/public-engagegment-photo@1x.jpg');
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    width: 100%;
-    background-size: cover;
-    margin: 0 auto;
-    padding: 15em 0;
-    @media only screen and (max-width: 500px) {
-      display:none;
-    }
-  }
-  .content{
-    background-color: $firefly80;
-    color: $firefly10;
-  }
+section.about--products-text {
+  background-color: $firefly10;
 }
 
+// About page: public engagement photo
+//
+div.about--public-engagement-photo {
+  @include component--background-photo("../images/banners/public-engagegment-photo@1x.jpg");
+}
+
+section.about--public-engagement
 //
 // About: Promo bar div
 .about--promo-bar {
