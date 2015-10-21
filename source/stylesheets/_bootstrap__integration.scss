@@ -23,12 +23,15 @@
 ///
 /// Override bootstrap variables with our settings.
 ///
-$navbar-height: 30px;
+///
+/// This is used as a min-height by bootstrap
+$navbar-height: 50px;
 $navbar-padding-horizontal: 16px;
 $navbar-padding-vertical: 10px;
+$breakpoint--nav: 650px;
 
 // use our breakpoint instead of bootstrap default
-$grid-float-breakpoint: $breakpoint;
+$grid-float-breakpoint: $breakpoint--nav;
 
 // Ensure the mobile view has enough height to contain our links
 $navbar-collapse-max-height: 400px;

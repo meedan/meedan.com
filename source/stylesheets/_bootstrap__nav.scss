@@ -26,7 +26,7 @@
     color: $accent-blue;
   }
   // At smaller sizes
-  @media all and (max-width: $breakpoint) {
+  @media all and (max-width: $breakpoint--nav) {
     width: 100%;
   }
 }
@@ -82,7 +82,7 @@
 
   // At smaller sizes
   // Put all the languages on one row.
-  @media (max-width: $breakpoint) {
+  @media (max-width: $breakpoint--nav) {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid $firefly10;
@@ -108,7 +108,7 @@
 // Page navigation: current page indicator
 @each $page in (bridge, checkdesk, about)  {
   // At smaller sizes
-  @media all and (max-width: $breakpoint) {
+  @media all and (max-width: $breakpoint--nav) {
     // The list class matches the body class
     .#{$page} .navbar-nav .#{$page} a {
       font-weight: bold;
@@ -116,7 +116,7 @@
   }
 
   // At larger sizes
-  @media all and (min-width: $breakpoint) {
+  @media all and (min-width: $breakpoint--nav) {
     .#{$page} .navbar-nav .#{$page} a {
       border-bottom: 3px solid $firefly40;
     }
@@ -124,7 +124,7 @@
 }
 
 // At smaller
-@media all and (max-width: $breakpoint) {
+@media all and (max-width: $breakpoint--nav) {
   li a:hover {
     border-bottom-width: 0!important;
   }
