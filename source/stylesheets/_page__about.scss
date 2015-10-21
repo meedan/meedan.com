@@ -5,7 +5,7 @@
 //
 section.about--branding {
   @extend %component--branding;
-  background-image: url('../images/banners/about-branding-photo@1x.png');
+  background-image: url('../images/banners/about-branding-photo@1x.jpg');
   background-size: cover;
   background-position: center;
 
@@ -24,8 +24,6 @@ section.about--branding {
 // About: Recent press section
 //
 section.about--recent-press {
-  @extend %flex-container;
-  justify-content: center;
   background: $firefly10;
   padding: 0;
 
@@ -33,10 +31,16 @@ section.about--recent-press {
     width: 100%;
   }
 
+  ul.blurbs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
   li {
     color: $firefly80;
     width: 40%;
-    padding: 2em 2em;
+    padding: 2em 2em 0;
     margin: 1em;
 
     @media all and (max-width: $breakpoint) {
@@ -44,14 +48,14 @@ section.about--recent-press {
     }
 
     .logo {
-      max-width: 80%;
+      max-width: 70%;
       @media all and (max-width: $breakpoint) {
         max-width: 90%;
       }
     }
 
     p {
-      font-size: 1em;
+      font-size: 0.8em;
       line-height: 1.25;
       font-weight: 500;
       padding-top: 1.5em;
@@ -103,7 +107,7 @@ section.about--our-vision {
     z-index: -1;
     display: block;
     background-size: cover;
-    background-image: url('../images/banners/products-photo@2x.png');
+    background-image: url('../images/banners/products-photo@1x.jpg');
     background-repeat: no-repeat;
     vertical-align: middle;
     width: 100%;
@@ -133,7 +137,7 @@ section.about--our-vision {
     z-index: -1;
     display: block;
     background-size: cover;
-    background-image: url('../images/banners/public-engagegment-photo@2x.png');
+    background-image: url('../images/banners/public-engagegment-photo@1x.jpg');
     background-repeat: no-repeat;
     vertical-align: middle;
     width: 100%;
