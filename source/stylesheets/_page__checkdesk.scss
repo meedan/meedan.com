@@ -14,8 +14,8 @@ section.checkdesk--branding {
 
 // Checkdesk explanations
 section.checkdesk--explanations {
-  @extend %component--explanations;
   @extend %colors--default;
+  @extend %component--explanations;
 }
 
 // Checkdesk Quotes

@@ -9,44 +9,46 @@
   width: 100%;
   max-width: 800px;
 
-  h4 {
-    font-size: 1;
-    font-weight: 100;
-    padding: 3em 0em .5em 0em;
-    width: 100%;
-  }
+  .description {
+    @extend %flex-container;
+    align-items: flex-start;
+    margin-top: 1em;
 
-  p {
-    display: inline-block;
-    font-size: 1.2em;
-    vertical-align: top;
-    text-align: left;
-    width: 100%;
-    padding: 1em 1em;
+    .header-and-description {
+      width: 50%;
 
-    @media (max-width: $breakpoint) {
-      width: 100%;
-      padding: 1em;
+      h4 {
+        font-size: 1em;
+        font-weight: 500;
+        padding: 1em;
+        text-align: left;
+        width: 100%;
+        margin-top: 2em;
+      }
+
+      p {
+        display: inline-block;
+        font-size: 1em;
+        vertical-align: top;
+        text-align: left;
+        width: 100%;
+        padding: 1em 1em;
+
+        @media (max-width: $breakpoint) {
+          width: 100%;
+          padding: 1em;
+        }
+      }
     }
   }
 
-  img.screenshot {
-    display: inline-block;
-    margin: 2% 5%;
+  .screenshot {
+    width: 50%;
+    // display: inline-block;
+    // margin: 2% 5%;
 
     @media (max-width: 640px) {
       width: 90%;
     }
   }
-  img.screenshot-bridge {
-    max-width: 300px;
-     @media all and (max-width: $breakpoint){
-      width: 50%;
-    }
-  }
-}
-
-.checkdesk--explanations,
-.bridge--explanations {
-  @extend %component--explanations;
 }

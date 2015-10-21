@@ -66,6 +66,7 @@ section.bridge--supporters {
 
 section.bridge--explanations {
   @extend %colors--default;
+  @extend %component--explanations;
 }
 
 // Bridge footer

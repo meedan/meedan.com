@@ -16,11 +16,12 @@ slug: "bridge"
 
 <!-- Explanations -->
 <section class="bridge--explanations">
-  <div class="description">
   <% t("bridge.explanations").each do |e| %>
     <div class="description">
-      <h4><%= e[:header] %></h4>
-      <p><%= e[:text] %></p>
+      <div class="header-and-description">
+        <h4><%= e[:header] %></h4>
+        <p><%= e[:text] %></p>
+      </div>
       <img class="screenshot"
            src="/images/screenshots/<%= e[:img] %>@1x.png"
            srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
