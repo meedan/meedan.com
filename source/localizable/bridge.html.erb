@@ -3,54 +3,44 @@ layout: "default"
 slug: "bridge"
 ---
 <!-- Branding Section -->
-<div class="bridge-reorder-container">
-	<div class="branding branding--bridge">
-		<div id="bridge-small-hide">
-		<img class="screenshot" alt="Bridge screenshot"
-      src="/images/screenshots/bridge4colidevice@1x.png"
-      srcset="/images/screenshots/bridge4colidevice@2x.png 2x">
-		</div>
 
-    <!-- Sign up form -->
-		<div class="bridge-form">
-			<div class="cta-text">
-				<h2><%= t("bridge.branding.cta") %></h2>
+<div class="bridge--branding">
+  <img class="screenshot" alt="Bridge screenshot"
+  src="/images/screenshots/bridge4colidevice@1x.png"
+  srcset="/images/screenshots/bridge4colidevice@2x.png 2x">
+
+	<h2 class="cta-text">
+    <%= t("bridge.branding.cta") %>
+  </h2>
+
+	<div id="mc_embed_signup">
+		<form class="mailchimp" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+			<div class="form-group">
+				<label for="mce-EMAIL">
+          <%= t("bridge.form.label_1") %>
+        </label>
+				<input type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com" id="mce-EMAIL">
+				<input type="submit" value="<%= t('bridge.branding.form.submit')%>" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div>
+
+       <!-- Anti-spam honeypot technique -->
+      <div style="position: absolute; left: -5000px;">
+        <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" tabindex="-1" value="">
+      </div>
+
+      <!-- Checkbox -->
+      <div class="apply-to-translate">
+				<input type="checkbox" value="1" name="group[7069][1]" id="mce-group[7069]-7069-0">
+        <label for="mce-group[7069]-7069-0">
+          <%= t('bridge.branding.form.label_2')%>
+        </label>
 			</div>
+		</form>
 
-			<div id="mc_embed_signup">
-				<form class="mailchimp" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-					<div class="form-group">
-						<label for="mce-EMAIL">
-              <%= t("bridge.form.label_1") %>
-            </label>
-						<input type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com" id="mce-EMAIL">
-						<input type="submit" value="<%= t('bridge.branding.form.submit')%>" name="subscribe" id="mc-embedded-subscribe" class="button">
-		      </div>
-
-		       <!-- Anti-spam honeypot technique -->
-		      <div style="position: absolute; left: -5000px;">
-            <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" tabindex="-1" value="">
-          </div>
-
-          <!-- Checkbox -->
-		      <div class="apply-to-translate">
-						<input type="checkbox" value="1" name="group[7069][1]" id="mce-group[7069]-7069-0">
-		        <label for="mce-group[7069]-7069-0">
-              <%= t('bridge.branding.form.label_2')%>
-            </label>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-
-	<div class="branding">
-		<div id="bridge-element-swap">
-			<svg width="300"><use xlink:href="#bridge" /></svg>
-		</div>
-			<p class="slogan"><%= t('bridge.branding.slogan')%></p>
-	</div>
+		<svg width="300"><use xlink:href="#bridge" /></svg>
+		<p class="slogan"><%= t('bridge.branding.slogan')%></p>
+  </div>
 </div>
 
 <!-- Explanations -->
@@ -61,8 +51,8 @@ slug: "bridge"
       <h4><%= e[:header] %></h4>
       <p><%= e[:text] %></p>
       <img class="screenshot"
-      src="/images/screenshots/<%= e[:img] %>@1x.png"
-      srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
+           src="/images/screenshots/<%= e[:img] %>@1x.png"
+           srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
       alt="<%= e[:alt] %>"/>
     </div>
   <% end %>

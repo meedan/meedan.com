@@ -1,0 +1,65 @@
+
+// Bridge
+//
+// does not use the branding section defaults
+.branding--bridge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 2em 0 2em;
+
+  // At smaller sizes flow vertically
+  @media all and (max-width: 900px) {
+    flex-flow: column;
+    padding-top: 1em;
+  }
+
+  img.screenshot {
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    display: block;
+  }
+
+  .apply-to-translate {
+    font-size: 0.8em;
+  }
+
+  &+.branding {
+    padding-top: 0;
+  }
+
+  #bridge-small-hide {
+    width: 61.8%;
+  }
+}
+
+// BRIDGE HEADER REORDERING
+//
+// Reorder elements on the bridge page at smaller sizes.
+//
+.bridge--reorder-container {
+  padding-top: $navbar-height * 2;
+  background: $firefly80;
+
+  @media only screen and (max-width: 450px) {
+    display: flex;
+    flex-flow: column;
+    #bridge-element-swap {
+      order: 1;
+      padding-bottom: 0;
+    }
+    .slogan {
+      padding-top: 0;
+      padding-bottom: 1em;
+    }
+    #bridge-small-hide {
+      display: none;
+    }
+    .branding--bridge {
+      order: 2;
+      padding-top: 1em;
+    }
+  }
+}

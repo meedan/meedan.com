@@ -1,0 +1,13 @@
+
+// Checkdesk page
+//
+// uses default branding styles
+.checkdesk--branding {
+  @extend %branding--default;
+  padding-top: $navbar-height * 3;
+  @media all and (max-width:$breakpoint){
+      padding-top: $navbar-height * 2;
+  }
+  background-color: $checkdesk-yellow;
+  color: white;
+}

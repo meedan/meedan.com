@@ -3,20 +3,20 @@ layout: "default"
 slug: "about"
 ---
 <!-- About Branding -->
-<section class="branding">
+<section class="about--branding">
 
   <h3><%= t("about.branding.heading") %></h3>
 
-  <div class="about scroller">
+  <div class="scroller">
   <%= partial "partials/image.html.erb", :locals => {
-      :url => "#recent-press-section",
+      :url => "#recent-press",
       :name => "btn-scroll-down",
-      :type => "svg"} %>
+      :type => "svg" } %>
   </div>
 </section>
 
 <!--About Promo-bar-->
-<div class="promo-bar">
+<div class="about--promo-bar">
   <%= t("about.we_love") %>
   <a href="mailto:hello@meedan.com" class="btn btn-primary">
     <%= t("about.email_us") %>
@@ -24,8 +24,8 @@ slug: "about"
 </div>
 
 <!--Recent press-->
-<section class="recent-press-section" name="recent-press-section">
-  <h3 id="recent-press">
+<section class="about--recent-press" name="recent-press">
+  <h3 class="recent-press">
     <%= t("about.recent_press.header") %>
   </h3>
   <div class="nieman">
@@ -52,7 +52,7 @@ slug: "about"
 </section>
 
 <!-- Our Vision -->
-<section class = "center-dark">
+<section class="about--our-vision">
   <h3><%= t("about.our_vision.header") %></h3>
   <% t("about.our_vision.paragraphs").each do |e| %>
     <p><%= e[:text] %></p>
@@ -60,51 +60,51 @@ slug: "about"
 </section>
 
 <!-- Challenges -->
-<section class = "center-grey">
+<section class="about--challenges">
   <h3><%= t("about.challenges.header") %></h3>
   <p>
     <em><%= t("about.challenges.text") %></em>
     <br>
-    <%= t("about.challenges.text2") %>
+    <%= t("about.challenges.text_2") %>
   </p>
 </section>
 
 <!-- Products Photo -->
-<div class="products-photo">
+<div class="about--products-photo">
   <div class="content">
     <h3><%= t("about.products.header") %></h3>
     <p>
       <em><%= t("about.challenges.text") %></em>
       <br>
-      <%= t("about.challenges.text2") %>
+      <%= t("about.challenges.text_2") %>
     </p>
   </div>
 </div>
 
 <!-- Methods -->
-<section>
+<section class="about--methods">
   <h3><%= t("about.methods.header") %></h3>
   <p>
     <em> <%= t("about.methods.text") %> </em>
     <br>
-    <%= t("about.methods.text2") %>
+    <%= t("about.methods.text_2") %>
   </p>
 </section>
 
 <!-- Public Engagement -->
-<div class="public-engagement-photo">
+<div class="about--public-engagement-photo">
   <div class="content">
     <h3><%= t("about.public_engage.header") %></h3>
     <p>
       <em><%= t("about.public_engage.text") %></em>
       <br>
-      <%= t("about.public_engage.text2") %>
+      <%= t("about.public_engage.text_2") %>
     </p>
   </div>
 </div>
 
 <!-- Team  -->
-<section class="team">
+<section class="about--team">
   <h3><%= t("home.team.header") %></h3>
   <p><%= t("home.team.text") %></p>
   <ul>

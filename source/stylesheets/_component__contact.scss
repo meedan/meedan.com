@@ -2,7 +2,7 @@
 ///
 /// Containing --call, --visit, --write and --social-media
 ///
-%section-contact {
+%contact {
   background: rgba($firefly80, 1);
   color: $firefly10;
 
@@ -91,6 +91,6 @@
   }
 }
 
-section.contact {
-  @extend %section-contact;
+.contact {
+  @extend %contact;
 }

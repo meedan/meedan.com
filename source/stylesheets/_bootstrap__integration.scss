@@ -1,22 +1,25 @@
 ///
-/// Bootstrap v3.3.5 (http://getbootstrap.com)
+/// This is Bootstrap v3.3.5
+/// See: https://bootstrapdocs.com/v3.3.5/docs/getting-started/
 ///
 ///  README
 ///
 ///  Hi. All the bootstrap files are in `bower_components`.
 ///  Don't edit the files in that directory; instead,
 ///  override bootstrap CSS in this file only, if possible.
-///  We @import components selectively to avoid CSS bloat.
+///
+///  We @import components very selectively to avoid CSS bloat.
 
 ///
 /// 1. LOAD BOOTSTRAP DEFAULT CONFIGURATION
 ///
-/// First load the core bootstrap variables and mixins
+/// First load the core bootstrap variables.
 ///
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 
 ///
 /// 2. OVERRIDE BOOTSTRAP VARIABLES
+///
 /// Override bootstrap variables with our settings.
 ///
 $navbar-height: 80px;
@@ -27,7 +30,10 @@ $navbar-collapse-max-height: 400px;
 ///
 /// 3. IMPORT BOOTSTRAP FILES
 ///
-/// All bootstrap mixins
+/// Now we can load any bootstrap mixins and components we need.
+///
+/// • Sometimes the dependencies of a component are not totally clear to me, I would like to find a reliable way to calculate which files we actually need, to avoid accidentally including too many boostrap rules. — 2015 Oct 20 CGB
+
 ///
 /// Utilities
 ///

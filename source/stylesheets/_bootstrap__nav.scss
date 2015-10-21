@@ -8,8 +8,7 @@
 ///
 /// @see bootstrap_integration.scss
 
-// Logo in the navigation
-// !important is required to override bootstrap settings.
+// The logo in the navigation
 .navbar-header a.navbar-brand {
   padding-top: 0!important;
   padding-bottom: 0!important;
@@ -21,9 +20,9 @@
   }
 }
 
-// Large navigation links
+// The "Large" style navigation links
 //
-// For primary page links
+// For the primary page links
 @mixin nav-links--large {
   // padding-top: $navbar-height - $nav-item-height*2;
   text-decoration: none;
@@ -44,15 +43,13 @@
   }
 }
 
-// Small navigation links (locale)
+// The "small" navigation links (locale)
 //
-// Overrides to make the locale links distinctive
-// Smaller but still vertically aligned with pages links on desktop
+// These overrides make the locale links distinctive.
+// We want to keep the navbar text vertically aligned.
+// So, as the font-size increases, the line-height increases also.
 @mixin nav-links--small {
-  // height: $navbar-height;
   color: $keyboard-grey;
-  // display: inline-block;
-  // vertical-align: middle;
   padding-left: 0;
   padding-right: 0;
   margin-left: 0.8em;
@@ -61,7 +58,8 @@
   line-height: 3.0;
 }
 
-
+// The outer "navbar" (which contains multiple uls)
+// Navbar is a bootstrap component: http://getbootstrap.com/components/#navbar
 .navbar {
   padding: 0 10px;
   background-color: white;

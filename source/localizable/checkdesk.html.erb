@@ -3,15 +3,15 @@ layout: "default"
 slug: "checkdesk"
 ---
 <!-- Branding -->
-<div class="branding">
+<div class="checkdesk--branding">
   <div class="splash">
-   <img width="500" class="screenshot"
-   src="/images/screenshots/<%= t('checkdesk.branding.splash') %>@1x.png"
-   srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>@2x.png 2x"
-   alt="Checkdesk">
+    <img width="500" class="screenshot"
+        src="/images/screenshots/<%= t('checkdesk.branding.splash') %>@1x.png"
+        srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>@2x.png 2x"
+        alt="Checkdesk">
   </div>
 
-  <svg class="checkdesklogo" width="300">
+  <svg class="logo" width="300">
     <use xlink:href="#checkdeskwhite" />
   </svg>
 
@@ -21,7 +21,7 @@ slug: "checkdesk"
 </div>
 
 <!-- Explanations -->
-<section class="explanations">
+<section class="checkdesk--explanations">
   <% t("checkdesk.explanations").each do |e| %>
     <div class="description">
       <h4><%= e[:header] %></h4>
@@ -35,31 +35,29 @@ slug: "checkdesk"
 </section>
 
 <!-- Testimonials -->
-<section class="testimonials">
+<section class="checkdesk--quotes">
   <% t("checkdesk.testimonials.quotes").each do |t| %>
-    <div class="quotes">
-        <div class="quote">
-          <p>
-            <span class="quote--glyph">
-              &ldquo;
-            </span>
-            <%= t[:quote] %>
-            </p>
-          <p class="attribution--name">
-            <%= "— #{t[:attribution]}," %>
+      <div class="quote">
+        <p>
+          <span class="quote--glyph">
+            &ldquo;
+          </span>
+          <%= t[:quote] %>
           </p>
-          <p class="attribution--website">
-            <a href="<%= t[:website_url] %>" target="_blank">
-              <%= t[:website_name] %>
-            </a>
-          </p>
-        </div>
-     </div>
+        <p class="attribution--name">
+          <%= "— #{t[:attribution]}," %>
+        </p>
+        <p class="attribution--website">
+          <a href="<%= t[:website_url] %>" target="_blank">
+            <%= t[:website_name] %>
+          </a>
+        </p>
+      </div>
   <% end %>
 </section>
 
 <!-- Newsletter -->
-<section class="newsletter">
+<section class="checkdesk--newsletter">
   <h3><%= t("checkdesk.newsletter.header") %></h3>
   <p><%= t("checkdesk.newsletter.summary") %></p>
 
@@ -80,7 +78,7 @@ slug: "checkdesk"
 </section>
 
 <!-- History -->
-<section class="history">
+<section class="checkdesk--history">
   <h3><%= t("checkdesk.history.header") %></h3>
   <% t("checkdesk.history.paragraphs").each do |p| %>
     <p><%= p[:text] %></p>
@@ -88,24 +86,28 @@ slug: "checkdesk"
 </section>
 
 <!-- Supporters -->
-<section class="supporters">
+<section class="checkdesk--supporters">
   <h3> <%= t("checkdesk.supporters.header") %> </h3>
-  <div class="logos">
-    <%= partial "partials/_image.html.erb", :locals => {
+  <ul class="logos">
+    <li>
+      <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
         :name => "sida",
         :url => "http://www.sida.se/english/"} %>
+    </li>
 
+    <li>
     <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
         :name => "kf",
         :url => "http://www.knightfoundation.org"} %>
     </a>
-  </div>
+    </li>
+  </ul>
 </section>
 
 <!-- Partners -->
-<section class="partners">
+<section class="checkdesk--partners">
   <h3>
   <ul class="logos">
     <% data.checkdesk_partner_logos.each do |image| %>
@@ -120,12 +122,12 @@ slug: "checkdesk"
 </section>
 
 <!-- Github -->
-<section class="github">
+<section class="checkdesk--github">
   <h3><%= t("checkdesk.github.header") %></h3>
   <p><%= t("checkdesk.github.text") %></p>
 </section>
 
 <!-- Footer -->
-<div class="footer">
+<div class="checkdesk--footer">
   <p><%= t("checkdesk.footer") %></p>
 </div>

@@ -1,31 +1,24 @@
-/// Logo Grid Configuration
-/// @example
-///     img { max-width: $logo-small-width; }
+/// Layout: Logos
+///
+/// Similar to the team layout.
+///
 $logo-small-width: 150px;
-
-/// Logo Grid Configuration
-/// @example
-///     img { max-width: $logo-small-width; }
 $logo-large-width: 250px;
 
-/// Logo Grid
+/// Logo Layout
 ///
 /// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
 ///
-/// @example - logo grid
-///      @@include('../_team.html')
-///
 /// @author Chris Blow
 /// @group meedan-web
-%logo-grid {
-    display: flex;
+%layout--logos {
+  display: flex;
   flex-flow: wrap row;
   justify-content: center;
   flex-align: center;
   align-items: center;
   @extend %flex-container-stacked-when-small;
   a {
-    @extend %link-image !optional;
     padding: 1em;
   }
   img, svg {
@@ -59,6 +52,6 @@ $logo-large-width: 250px;
   }
 }
 
-.logos {
-  @extend %logo-grid;
+ul.logos {
+  @extend %layout--logos;
 }
