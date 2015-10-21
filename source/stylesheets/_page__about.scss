@@ -25,60 +25,7 @@ section.about--branding {
 //
 section.about--recent-press {
   background: $firefly10;
-  padding: 0;
-
-  h3 {
-    width: 100%;
-  }
-
-  ul.blurbs {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-  }
-
-  li {
-    color: $firefly80;
-    width: 40%;
-    padding: 2em 2em 0;
-    margin: 1em;
-
-    @media all and (max-width: $breakpoint) {
-      width: 100%;
-    }
-
-    .logo {
-      max-width: 70%;
-      @media all and (max-width: $breakpoint) {
-        max-width: 90%;
-      }
-    }
-
-    p {
-      font-size: 0.8em;
-      line-height: 1.25;
-      font-weight: 500;
-      padding-top: 1.5em;
-      font-weight: 500;
-
-      // At smaller sizes
-      @media all and (max-width: $breakpoint) {
-        padding: 0;
-        width: 95%;
-      }
-
-      a {
-        text-decoration: none;
-        color: $firefly80;
-      }
-    }
-
-    @media all and (max-width: $breakpoint) {
-      .logo {
-        max-width: 90%;
-      }
-    }
-  }
+  @extend %component--recent-press;
 }
 
 // About: Challenges section
