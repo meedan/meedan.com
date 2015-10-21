@@ -8,41 +8,14 @@
 ///
 /// @see bootstrap_integration.scss
 
-// The logo in the navigation
-.navbar-header a.navbar-brand {
-  padding-top: 0!important;
-  padding-bottom: 0!important;
-  display: block;
-  height: $nav-item-height;
-  img {
-    max-width: 130px;
-    @include navbar-vertical-align(30px);
-  }
-}
-
-// Only display content to screen readers
-//
-// See: http://a11yproject.com/posts/how-to-hide-content/
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-}
-
 // The "Large" style navigation links
 //
 // For the primary page links
 @mixin nav-links--large {
   // padding-top: $navbar-height - $nav-item-height*2;
   text-decoration: none;
-  font-size: 19px;
-  line-height: 2.2;
+  font-size: 18px;
+  line-height: 30px;
   // When you hover — with a mouse
   &:hover {
     border-bottom: 3px solid $accent-blue;
@@ -70,7 +43,7 @@
   margin-left: 0.8em;
   margin-right: 0.8em;
   font-size: 14px;
-  line-height: 3.0;
+  line-height: 30px;
 }
 
 // The outer "navbar" (which contains multiple uls)
@@ -78,6 +51,7 @@
 .navbar {
   padding: 0 10px;
   background-color: white;
+  border-bottom-width: 0;
   li {
     padding: 0!important;
   }

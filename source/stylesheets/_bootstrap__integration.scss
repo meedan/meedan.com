@@ -23,9 +23,14 @@
 ///
 /// Override bootstrap variables with our settings.
 ///
-$navbar-height: 80px;
-$nav-item-height: 30px;
+$navbar-height: 30px;
+$navbar-padding-horizontal: 16px;
+$navbar-padding-vertical: 10px;
+
+// use our breakpoint instead of bootstrap default
 $grid-float-breakpoint: $breakpoint;
+
+// Ensure the mobile view has enough height to contain our links
 $navbar-collapse-max-height: 400px;
 
 ///
@@ -89,7 +94,7 @@ $navbar-collapse-max-height: 400px;
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
 
 /// Core CSS stylesheets
-// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";

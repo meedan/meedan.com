@@ -10,14 +10,13 @@
       </button>
       <!-- Meedan logo -->
       <a class="navbar-brand meedan-home" href="/" title="Meedan">
-        <%= image_tag "logos/meedan-logo-horizontal-3@1x.png", :class => "meedan-logo", :alt => "meedan logo", srcset: 'logos/meedan-logo-horizontal-3@2x.png 2x' %>
+        <%= image_tag "logos/meedan-logo-horizontal-1@1x.png", :class => "meedan-logo", :alt => "meedan logo", srcset: 'logos/meedan-logo-horizontal-11@2x.png 2x' %>
       </a>
     </div>
     <!-- Two navigation ul elements -->
     <div class="collapse navbar-collapse" id="nav-toggle-target">
       <!-- 1. The locale navigation -->
       <!-- This comes before the page list navigation -->
-      <!--  -->
       <% current_page_name = @page_id.split("/", 1).last.sub(/\..*$/, '') %>
       <% current_page_basename = File.basename(current_page_name) %>
       <% inactive_languages = langs - [I18n.locale] %>
