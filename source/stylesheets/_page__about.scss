@@ -5,19 +5,13 @@
 //
 section.about--branding {
   @extend %component--branding;
-  background-image: url('../images/banners/about-branding-photo@1x.jpg');
-  background-size: cover;
-  background-position: center;
+  @include component--background-photo('../images/banners/about-branding-photo@1x.jpg');
 
   h3 {
     font-weight: 500;
     font-size: 2em;
     padding: 5em 0em;
     color: white;
-  }
-
-  @media all and (max-width:450px) {
-    // max-height: 600px;
   }
 }
 
@@ -59,16 +53,21 @@ div.about--public-engagement-photo {
   @include component--background-photo("../images/banners/public-engagegment-photo@1x.jpg");
 }
 
-section.about--public-engagement
+// About: public engagement
 //
+section.about--public-engagement-text {
+
+}
+
 // About: Promo bar div
+//
 .about--promo-bar {
   margin: 1em 0.5em;
 }
 
 
-//
 // About: Team (same as homepage)
+//
 .about--team ul {
   @extend %component--team;
 }
