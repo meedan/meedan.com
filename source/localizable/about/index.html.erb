@@ -5,13 +5,6 @@ slug: "about"
 <!-- About Branding -->
 <section class="about--branding">
   <h3><%= t("about.branding.heading") %></h3>
-
-  <div class="scroller">
-  <%= partial "partials/image.html.erb", :locals => {
-      :url => "#recent-press",
-      :name => "btn-scroll-down",
-      :type => "svg" } %>
-  </div>
 </section>
 
 <!--About Promo-bar-->
@@ -22,7 +15,10 @@ slug: "about"
   </a>
 </div>
 
-<%= partial "partials/press_blurbs" %>
+<section class="about--recent-press">
+  <!-- Recent press -->
+  <%= partial "partials/press_blurbs" %>
+</section>
 
 <!-- Our Vision -->
 <section class="about--our-vision">

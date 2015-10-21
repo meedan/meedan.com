@@ -19,7 +19,7 @@ slug: "home"
   <h3><%= t("home.projects.title") %></h3>
   <div class="checkdesk">
     <%= partial "partials/image.html.erb", :locals => {
-        :url => "/checkdesk",
+        :url => "/" + I18n.locale.to_s + "/checkdesk",
         :name => "checkdeskwhite",
         :type => "svg" } %>
 
@@ -43,7 +43,7 @@ slug: "home"
 
   <div class="bridge">
     <%= partial "partials/image.html.erb", :locals => {
-        :url => "/bridge",
+        :url => "/" + I18n.locale.to_s + "/checkdesk",
         :name => "bridge",
         :type => "svg" } %>
 
