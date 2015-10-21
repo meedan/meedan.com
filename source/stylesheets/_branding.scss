@@ -216,7 +216,8 @@ $width--primary-logo: 200px;
   }
 }
 
-
+// ABOUT
+//
 p.recent-press-quote{
   // border: 1px solid red;
   font-weight: 500;
@@ -225,9 +226,6 @@ p.recent-press-quote{
     padding: 0 0 0 0 !important;
   }
 }
-
-
-
 
 .recent-press-section {
   @extend %flex-container;
