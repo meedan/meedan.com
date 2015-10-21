@@ -1,173 +1,48 @@
 // 1. Preliminary configuration
 $breakpoint: 900px;
 
-// 2. Core libs
-@import "normalize";
+// 2. Load bootstrap
+//
+// We use bootstrap _only_ for:
+//
+// • Normalize
+// • Core bootstrap mixins
+// • Forms
+// • Animations
+// • Navbar
 @import "bootstrap__integration";
 
-/// Custom styles
-///
-/// These are not bower components, just some local Sass on the filesystem. Each file often corresponds to a section.classname in the HTML.
+// 3. Shared styles
+//
+@import "shared";
 @import "colors";
 @import "typography";
-@import "component__logos";
-@import "component__team";
-@import "component__contact";
-@import "component__projects";
-@import "component__branding";
-@import "component__progress_bar";
-@import "component__quotes";
-
 @import "forms";
+@import "flex";
+
+// 4. Bootstrap component customization
+//
 @import "bootstrap__nav";
 
+// 5. Our components
+//
+@import "component__branding";
+@import "component__contact";
+@import "component__explanations";
+@import "component__footer";
+@import "component__logos";
+@import "component__progress_bar";
+@import "component__projects";
+@import "component__quotes";
+@import "component__team";
+
+// 6. Language support
+//
+@import "lang__ar";
+
+// 7. Pages
+//
 @import "page__about";
 @import "page__checkdesk";
 @import "page__home";
-
-/// Flex container
-///
-%flex-container {
-	display: flex;
-	flex-flow: wrap row;
-	justify-content: center;
-	flex-align: center;
-	align-items: center;
-}
-
-/// Flex item
-/// This is the expanded form of "flex: 1 1 auto"
-%flex-item {
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: auto;
-}
-
-/// Flex container stacked when small
-/// Changes the flow direction to "column"
-/// And makes things full width.
-/// This is an awesome timesaved for responsive layout!
-%flex-container-stacked-when-small {
-	@media (max-width: 600px) {
-		flex-flow: wrap column;
-		& > * {
-			width: 100%;
-		}
-	}
-}
-
-/// Flex vertically
-///
-/// Using the `column` value to flow the content vertically.
-///
-/// @see %flex-container
-%flex-vertical {
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	flex-align: center;
-	align-items: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/// Section defaults
-///
-/// Section elements are the primary building blocks.
-/// Each section should have a header.
-%section-defaults {
-  padding-bottom: 4em;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-section {
-  @extend %section-defaults;
-}
-
-/// A page footer
-///
-.footer {
-  @extend section;
-
-  background-color: $firefly90;
-  padding: 1em;
-
-  a {
-    color: white;
-  }
-}
-
-
-
-body.ar {
-  direction: rtl;
-}
-
-.footer {
-  font-size: smaller;
-}
-
-body.home {
-  background-color: white;
-}
-
-body.bridge {
-  .bridge--branding,
-  section.bridge--history,
-  & > .footer {
-    background: $firefly80;
-    color: rgba(white, 0.8);
-		a {
-			color: white;
-		}
-  }
-
-  section.bridge--supporters,
-  section.bridge--explanations {
-    background-color: white;
-    color: $firefly80;
-  }
-}
-
-// Checkdesk
-
-section.checkdesk--explanations {
-  background-color: white;
-  color: $firefly80;
-}
-
-/// Inverted colors for some sections
-section.checkdesk--history,
-section.checkdesk--github,
-.checkdesk--footer {
-  background-color: $firefly80;
-  color: $firefly10;
-
-  a {
-    color: rgba(white, 0.7);
-    padding: 0.18em;
-
-    a:hover {
-      background-color: rgba($firefly10, 0.5);
-    }
-  }
-}
-
-section.checkdesk--newsletter {
-  background-color: $firefly2;
-  padding-bottom: 2em;
-}
-
-section.checkdesk--supporters {
-  background-color: $firefly2;
-}
-
-
-/// Checkdesk Quotes
-section.checkdesk--quotes {
-  @extend %quotes;
-}
-
+@import "page__bridge";

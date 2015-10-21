@@ -1,12 +1,50 @@
-
-// Bridge
+// Page: Bridge
 //
-// does not use the branding section defaults
-.branding--bridge {
+//
+
+// Some sections have dark background.
+section.bridge--branding {
+  @extend %colors--inverted;
+}
+
+section.bridge--history {
+  @extend %colors--inverted;
+}
+
+body.bridge .footer {
+  @extend %colors--inverted;
+}
+
+// Some sections have white background.
+section.bridge--supporters {
+  @extend %colors--default;
+}
+
+section.bridge--explanations {
+  @extend %colors--default;
+}
+
+// Bridge branding section
+//
+// A different style than checkdesk and homepage.
+.bridge--branding {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2em 2em 0 2em;
+
+  // The bridge logo
+  .logo {
+    width: 61.8%;
+    border: 1px solid green;
+  }
+
+  // Slogan
+  // eg "Translate the global web"
+  p.slogan {
+    border: 1px solid red;
+    width: 100%;
+  }
 
   // At smaller sizes flow vertically
   @media all and (max-width: 900px) {
@@ -14,52 +52,34 @@
     padding-top: 1em;
   }
 
+  // Bridge Screenshot
   img.screenshot {
     min-width: 300px;
     width: 100%;
     height: auto;
     max-width: 700px;
     display: block;
+    border: 1px solid grey;
   }
 
+  // Checkbox
   .apply-to-translate {
     font-size: 0.8em;
   }
 
-  &+.branding {
-    padding-top: 0;
+  .call-to-action {
+    border: 1px solid aqua;
   }
 
-  #bridge-small-hide {
-    width: 61.8%;
+  .call-to-action--text {
+    border: 1px solid pink;
+    width: 100%;
+    display: block;
+    flex: 0;
   }
-}
 
-// BRIDGE HEADER REORDERING
-//
-// Reorder elements on the bridge page at smaller sizes.
-//
-.bridge--reorder-container {
-  padding-top: $navbar-height * 2;
-  background: $firefly80;
-
-  @media only screen and (max-width: 450px) {
-    display: flex;
-    flex-flow: column;
-    #bridge-element-swap {
-      order: 1;
-      padding-bottom: 0;
-    }
-    .slogan {
-      padding-top: 0;
-      padding-bottom: 1em;
-    }
-    #bridge-small-hide {
-      display: none;
-    }
-    .branding--bridge {
-      order: 2;
-      padding-top: 1em;
-    }
+  .call-to-action--form {
+    border: 1px solid orange;
+    width: 100%;
   }
 }

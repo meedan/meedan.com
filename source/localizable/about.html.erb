@@ -4,7 +4,6 @@ slug: "about"
 ---
 <!-- About Branding -->
 <section class="about--branding">
-
   <h3><%= t("about.branding.heading") %></h3>
 
   <div class="scroller">
@@ -23,33 +22,7 @@ slug: "about"
   </a>
 </div>
 
-<!--Recent press-->
-<section class="about--recent-press" name="recent-press">
-  <h3 class="recent-press">
-    <%= t("about.recent_press.header") %>
-  </h3>
-  <div class="nieman">
-    <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
-      <img class="nieman-logo" src="/images/logos/nlb@1x.png" alt="nlb" srcset="/images/logos/nlb@2x.png 2x">
-    </a>
-    <p class="press-blurb">
-      <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
-        <%= t("about.recent_press.niemanlab") %>
-      </a>
-    </p>
-  </div>
-
-  <div class="fortune">
-    <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-      <img class="fortune-logo" src="/images/logos/fmag@1x.png" alt="fmag" srcset="/images/logos/fmag@2x.png 2x">
-    </a>
-    <p class="press-blurb">
-      <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-        <%= t("about.recent_press.fortune") %>
-      </a>
-    </p>
-  </div>
-</section>
+<%= partial "partials/press_blurbs" %>
 
 <!-- Our Vision -->
 <section class="about--our-vision">
@@ -118,5 +91,5 @@ slug: "about"
   </ul>
 </section>
 
-<!-- Homepage Contact -->
+<!-- Contact -->
 <%= partial "partials/contact" %>

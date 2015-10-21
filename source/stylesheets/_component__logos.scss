@@ -11,47 +11,45 @@ $logo-large-width: 250px;
 ///
 /// @author Chris Blow
 /// @group meedan-web
-%layout--logos {
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: center;
-  flex-align: center;
-  align-items: center;
-  @extend %flex-container-stacked-when-small;
-  a {
-    padding: 1em;
-  }
-  img, svg {
-    max-width: $logo-small-width;
-    max-height: 50px;
-  }
-  .acm, .sida {
-    svg, img {
-      max-width: 100px;
+%component--logos {
+  ul.logos {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    flex-align: center;
+    align-items: center;
+    @extend %flex-container-stacked-when-small;
+    a {
+      padding: 1em;
+    }
+    img, svg {
+      max-width: $logo-small-width;
+      max-height: 50px;
+    }
+    .acm, .sida {
+      svg, img {
+        max-width: 100px;
+      }
+    }
+    .kf {
+      svg, img {
+        width: $logo-large-width;
+      }
+    }
+    .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
+      svg, img {
+        max-width: $logo-large-width;
+      }
+    }
+    .bc img {
+      max-height: 90px;
+    }
+    .ng {
+      margin-top: 10px;
+    }
+    .firstdraft svg {
+      width: 75px;
+      margin-top: 10px;
     }
   }
-  .kf {
-    svg, img {
-      width: $logo-large-width;
-    }
-  }
-  .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
-    svg, img {
-      max-width: $logo-large-width;
-    }
-  }
-  .bc img {
-    max-height: 90px;
-  }
-  .ng {
-    margin-top: 10px;
-  }
-  .firstdraft svg {
-  	width: 75px;
-  	margin-top: 10px;
-  }
-}
-
-ul.logos {
-  @extend %layout--logos;
 }

@@ -3,13 +3,11 @@ layout: "default"
 slug: "checkdesk"
 ---
 <!-- Branding -->
-<div class="checkdesk--branding">
-  <div class="splash">
-    <img width="500" class="screenshot"
-        src="/images/screenshots/<%= t('checkdesk.branding.splash') %>@1x.png"
-        srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>@2x.png 2x"
-        alt="Checkdesk">
-  </div>
+<section class="checkdesk--branding">
+  <img width="500" class="screenshot"
+      src="/images/screenshots/<%= t('checkdesk.branding.splash') %>@1x.png"
+      srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>@2x.png 2x"
+      alt="Checkdesk">
 
   <svg class="logo" width="300">
     <use xlink:href="#checkdeskwhite" />
@@ -18,7 +16,7 @@ slug: "checkdesk"
   <p class="slogan">
     <%= t("checkdesk.branding.slogan") %>
   </p>
-</div>
+</section>
 
 <!-- Explanations -->
 <section class="checkdesk--explanations">
@@ -34,7 +32,7 @@ slug: "checkdesk"
   <% end %>
 </section>
 
-<!-- Testimonials -->
+<!-- Quotes -->
 <section class="checkdesk--quotes">
   <% t("checkdesk.testimonials.quotes").each do |t| %>
       <div class="quote">
@@ -128,6 +126,6 @@ slug: "checkdesk"
 </section>
 
 <!-- Footer -->
-<div class="checkdesk--footer">
+<div class="footer">
   <p><%= t("checkdesk.footer") %></p>
 </div>

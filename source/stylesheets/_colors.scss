@@ -88,3 +88,24 @@ $translation-border-color: #c3c3c3;
 $translation-comment-blue: rgba($photo-feb10-blue, 0.5);
 $translation-comment-link-blue: rgba($another-blue, 0.6);
 $warm-color: #d2c6b7;
+
+// Color scheme: Inverted
+%colors--inverted {
+  background-color: $firefly80;
+  color: $firefly10;
+
+  a {
+    color: rgba(white, 0.7);
+    padding: 0.18em;
+
+    a:hover {
+      background-color: rgba($firefly10, 0.5);
+    }
+  }
+}
+
+// Color scheme: Default
+%colors--default {
+  background-color: white;
+  color: $firefly80;
+}

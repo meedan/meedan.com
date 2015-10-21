@@ -1,107 +1,106 @@
 // About page
 //
 
-// Branding
-.about--branding {
-  // @extend %branding--default;
+// About: Branding section
+//
+section.about--branding {
+  @extend %component--branding;
   background-image: url('../images/banners/about-branding-photo@1x.png');
-  padding-top: 5em;
-  color: white;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  width: 100% !important;
   background-size: cover;
-  position: relative;
-  min-height: auto;
   background-position: center;
-  background-position-x: 50%;
-  background-position-y: 50%;
+
   h3 {
     font-weight: 500;
     font-size: 2em;
     padding: 5em 0em;
+    color: white;
   }
 
   @media all and (max-width:450px) {
-    max-height: 600px;
+    // max-height: 600px;
   }
 }
 
-// Recent press
-.about--recent-press {
+// About: Recent press section
+//
+section.about--recent-press {
   @extend %flex-container;
   justify-content: center;
   background: $firefly10;
   padding: 0;
-  .nieman-logo, .fortune-logo{
-    max-width: 80%;
-  }
+
   h3 {
     width: 100%;
   }
-}
 
-.about--recent-press .nieman,
-.about--recent-press .fortune {
-  color: $firefly80;
-  width: 40%;
-  padding: 2em 2em;
-  margin: 1em;
+  li {
+    color: $firefly80;
+    width: 40%;
+    padding: 2em 2em;
+    margin: 1em;
 
-  @media all and (max-width: $breakpoint) {
-    width: 100%;
-  }
-
-  p {
-    font-size: 1em;
-    line-height: 1.25;
-
-    &.press-blurb {
-      font-weight: 500;
-      padding-top: 1.5em;
-      font-weight: 500;
+    @media all and (max-width: $breakpoint) {
+      width: 100%;
     }
-    a {
-      text-decoration: none;
-      color: $firefly80;
-    }
-  }
 
-  @media all and (max-width: $breakpoint) {
-    .nieman-logo,
-    .fortune-logo {
-      max-width: 90%;
+    .logo {
+      max-width: 80%;
+      @media all and (max-width: $breakpoint) {
+        max-width: 90%;
+      }
     }
 
     p {
-      padding: 0;
-      width: 95%;
+      font-size: 1em;
+      line-height: 1.25;
+      font-weight: 500;
+      padding-top: 1.5em;
+      font-weight: 500;
+
+      // At smaller sizes
+      @media all and (max-width: $breakpoint) {
+        padding: 0;
+        width: 95%;
+      }
+
+      a {
+        text-decoration: none;
+        color: $firefly80;
+      }
+    }
+
+    @media all and (max-width: $breakpoint) {
+      .logo {
+        max-width: 90%;
+      }
     }
   }
 }
 
-// Challenges
+// About: Challenges section
+//
 section.about--challenges {
   background-color: $firefly10;
 }
 
-// Our vision
+// About: Our vision section
+//
 section.about--our-vision {
   background-color: $firefly80;
   color: $firefly10;
 }
 
-// Products photo
+// About: Products photo
+//
 .about--products-photo {
   left: 0;
   right: 0;
   z-index: 9999;
-  box-shadow: inset 0px 0px 9px rgba(black, 0.45);
   &:before {
     content: "";
     left: 0;
     right: 0;
-    z-index: -9999;
+    z-index: -1;
     display: block;
     background-size: cover;
     background-image: url('../images/banners/products-photo@2x.png');
@@ -121,6 +120,8 @@ section.about--our-vision {
   }
 }
 
+//
+// About page: public engagement photo
 .about--public-engagement-photo {
   left: 0;
   right: 0;
@@ -149,13 +150,15 @@ section.about--our-vision {
   }
 }
 
-// Promo bar
+//
+// About: Promo bar div
 .about--promo-bar {
   margin: 1em 0.5em;
 }
 
 
-// Team (same as homepage)
+//
+// About: Team (same as homepage)
 .about--team ul {
-  @extend %layout--team;
+  @extend %component--team;
 }

@@ -1,7 +1,7 @@
 // Component: Quotes
 //
 // Use flex to put two quotes side by side.
-%quotes {
+%component--quotes {
   justify-content: center;
   @extend %flex-container;
 

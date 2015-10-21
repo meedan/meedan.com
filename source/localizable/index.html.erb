@@ -15,8 +15,7 @@ slug: "home"
 </section>
 
 <!-- Homepage Projects -->
-<section class="projects">
-
+<section class="home--projects">
   <h3><%= t("home.projects.title") %></h3>
   <div class="checkdesk">
     <%= partial "partials/image.html.erb", :locals => {
@@ -61,38 +60,18 @@ slug: "home"
 </section>
 
 <!-- Recent press -->
-<section class="recent-press-section" name="recent-press-section">
+<section class="home--recent-press" name="recent-press">
 
   <h3 id="recent-press">
     <%= t("about.recent_press.header") %>
   </h3>
 
-  <div class="nieman">
-    <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
-      <img class="nieman-logo" src="/images/logos/nlb@1x.png" alt="nlb" srcset="/images/logos/nlb@2x.png 2x">
-    </a>
-    <p class="press-blurb">
-      <a href="http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/">
-        <%= t("about.recent_press.niemanlab") %>
-      </a>
-    </p>
-  </div>
-
-  <div class="fortune">
-    <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-      <img class="fortune-logo" src="/images/logos/fmag@1x.png" alt="fmag" srcset="/images/logos/fmag@2x.png 2x">
-    </a>
-    <p class="press-blurb">
-      <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-        <%= t("about.recent_press.fortune") %>
-      </a>
-    </p>
-  </div>
+  <%= partial "partials/press_blurbs" %>
 </section>
 
 <!-- Homepage Latest -->
 <script async src="https://static.medium.com/embed.js"></script>
-<section class="latest">
+<section class="home--latest">
   <h3><%= t("home.latest.header") %></h3>
   <p><%= t("home.latest.text") %></p>
   <div class="medium-channels">
@@ -107,7 +86,7 @@ slug: "home"
 </section>
 
 <!-- Homepage Supporters -->
-<section class="supporters">
+<section class="home--supporters">
   <h3><%= t("home.supporters.header") %></h3>
   <p><%= t("home.supporters.text") %></p>
   <ul class="logos">
@@ -125,7 +104,7 @@ slug: "home"
 </section>
 
 <!-- Homepage Photo Frame -->
-<div class="photo-frame">
+<div class="home--photo-frame">
   <p><%= t("home.photo_frame") %></p>
 </div>
 
