@@ -34,30 +34,11 @@ section.bridge--branding {
     font-size: 0.7em;
     font-weight: 200;
   }
-
-  .call-to-action {
-    border: 1px solid aqua;
-  }
-
-  .call-to-action--text {
-    border: 1px solid pink;
-    width: 100%;
-    display: block;
-    flex: 0;
-    text-transform: none;
-    font-size: 18px;
-  }
-
-  .call-to-action--form {
-    border: 1px solid orange;
-    width: 100%;
-  }
 }
 
 section.bridge--history {
   @extend %colors--inverted;
 }
-
 
 // Some sections have white background.
 section.bridge--supporters {
@@ -73,4 +54,21 @@ section.bridge--explanations {
 .bridge--footer {
   @extend %colors--inverted;
   @extend %component--footer;
+}
+
+.bridge--call-to-action {
+  @extend %colors--inverted;
+
+  .call-to-action--text {
+    width: 100%;
+    display: block;
+    flex: 0;
+    text-transform: none;
+    font-size: 18px;
+  }
+
+  .call-to-action--form {
+    width: 100%;
+    padding: 1em;
+  }
 }
