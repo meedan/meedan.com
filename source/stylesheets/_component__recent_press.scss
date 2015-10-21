@@ -10,6 +10,9 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    @media all and (max-width: $breakpoint) {
+      flex-flow: column;
+    }
   }
 
   li {
@@ -24,6 +27,7 @@
 
     .logo {
       max-width: 70%;
+      min-width: 200px;
       @media all and (max-width: $breakpoint) {
         max-width: 90%;
       }
@@ -45,12 +49,6 @@
       a {
         text-decoration: none;
         color: $firefly80;
-      }
-    }
-
-    @media all and (max-width: $breakpoint) {
-      .logo {
-        max-width: 90%;
       }
     }
   }
