@@ -22,7 +22,7 @@ slug: "checkdesk"
 <section class="checkdesk--explanations">
   <% t("checkdesk.explanations").each do |e| %>
     <div class="description">
-      <h4><%= e[:header] %></h4>
+      <h3><%= e[:header] %></h3>
       <p><%= e[:text] %></p>
       <img class="screenshot"
       src="/images/screenshots/<%= e[:img] %>@1x.png"
@@ -106,7 +106,7 @@ slug: "checkdesk"
 
 <!-- Partners -->
 <section class="checkdesk--partners">
-  <h3>
+  <h3><%= t("checkdesk.supporters.header") %></h3>
   <ul class="logos">
     <% data.checkdesk_partner_logos.each do |image| %>
       <li>

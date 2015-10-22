@@ -58,6 +58,14 @@ h3 {
   }
 }
 
+h4 {
+  margin: 0.4em;
+  @media all and (max-width: $breakpoint) {
+    max-width: 61.8%;
+    margin: 0 auto;
+  }
+}
+
 // # Emphasis
 //
 // <em>This text is emphasized.</em>
@@ -68,9 +76,9 @@ em {
 // # Lists
 //
 // <ul>
-// <li>One</li>
-// <li>Two</li>
-// <li>Three</li>
+//   <li>One</li>
+//   <li>Two</li>
+//   <li>Three</li>
 // </ul>
 ul {
   margin: 0.5em 0;

@@ -15,7 +15,21 @@ $breakpoint: 900px;
 
 // 3. Shared styles
 //
-@import "shared";
+// Border box model: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+* {
+  box-sizing: border-box;
+}
+
+// Section defaults
+//
+// Section elements are the primary building blocks.
+// Each section should have a header.
+section {
+  padding-bottom: 4em;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 @import "colors";
 @import "typography";
 @import "forms";
