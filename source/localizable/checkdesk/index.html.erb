@@ -21,13 +21,15 @@ slug: "checkdesk"
 <!-- Explanations -->
 <section class="checkdesk--explanations">
   <% t("checkdesk.explanations").each do |e| %>
-    <div class="description">
-      <h3><%= e[:header] %></h3>
-      <p><%= e[:text] %></p>
+    <div class="explanation">
+      <div class="header-and-description">
+        <h3><%= e[:header] %></h3>
+        <p><%= e[:text] %></p>
+      </div>
       <img class="screenshot"
-      src="/images/screenshots/<%= e[:img] %>@1x.png"
-      srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
-      alt="<%= e[:alt] %>"/>
+           src="/images/screenshots/<%= e[:img] %>@1x.png"
+           srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
+           alt="<%= e[:alt] %>"/>
     </div>
   <% end %>
 </section>
