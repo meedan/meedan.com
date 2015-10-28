@@ -13,13 +13,11 @@ activate :sprockets
 bower_path = File.join root, 'bower_components'
 sprockets.append_path bower_path
 
-# This would be nice but doesn't seem to work with our 2x strategy. — 2015 Oct 11 CGB
-# activate :automatic_image_sizes
-
 # Routing
 activate :directory_indexes
 activate :i18n, :mount_at_root => "en"
 redirect "index.html", :to => "en/index.html"
+# redirect "/checkdesk/", :to => "en/checkdesk/index.html"
 
 # Dev config only (while editing templates)
 configure :development do
@@ -36,3 +34,5 @@ end
 after_build do
   `chmod -R 775 build`
 end
+
+activate :alias
