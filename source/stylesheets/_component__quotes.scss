@@ -12,6 +12,10 @@
     margin-top: 2em;
     padding: 2em;
 
+    &:lang(en) {
+      text-align: left;
+    }
+
     @media all and (max-width: $breakpoint) {
       min-width: 100%;
     }
