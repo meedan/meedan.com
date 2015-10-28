@@ -19,21 +19,24 @@
     <!-- Two navigation ul elements -->
     <div class="collapse navbar-collapse" id="nav-toggle-target">
 
+
       <!-- 1. The locale navigation -->
       <!-- This comes before the page list navigation -->
 
+      <% if current_page.data.slug == "checkdesk"%>
       <% inactive_languages = langs - [I18n.locale] %>
 
       <ul class="nav locales navbar-nav navbar-right">
         <li class="active">
-          <%= link_to t(I18n.locale), "/#{File.basename(current_path)}", :class => I18n.locale %>
+          <%= link_to t(I18n.locale), "/#{File.dirname(current_path)}", :class => I18n.locale %>
         </li>
         <% inactive_languages.each do |lang_name| %>
           <li>
-            <%= link_to t("#{lang_name}"), "/#{lang_name}/#{File.basename(current_path)}", :class => lang_name %>
+            <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page.data.slug}", :class => lang_name %>
           </li>
         <% end %>
       </ul>
+      <%end%>
 
       <!-- 2. The page navigation -->
       <!-- Loop through each page -->
@@ -48,4 +51,3 @@
     </div>
   </div>
 </nav>
-
