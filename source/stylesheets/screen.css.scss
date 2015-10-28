@@ -1,0 +1,64 @@
+// 1. Preliminary configuration
+//
+$breakpoint: 900px;
+
+// 2. Load bootstrap
+//
+// We use bootstrap _only_ for:
+//
+// • Normalize
+// • Core bootstrap mixins
+// • Forms
+// • Animations
+// • Navbar
+@import "bootstrap__integration";
+
+// 3. Shared styles
+//
+// Border box model: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+* {
+  box-sizing: border-box;
+}
+
+// Section defaults
+//
+// Section elements are the primary building blocks. Each section should have a header.
+section {
+  padding-bottom: 4em;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@import "colors";
+@import "typography";
+@import "forms";
+@import "flex";
+
+// 4. Bootstrap component customization
+//
+@import "bootstrap__nav";
+
+// 5. Our components
+//
+@import "component__branding";
+@import "component__contact";
+@import "component__explanations";
+@import "component__footer";
+@import "component__logos";
+@import "component__progress_bar";
+@import "component__projects";
+@import "component__quotes";
+@import "component__team";
+@import "component__background_photo";
+@import "component__recent_press";
+
+// 6. Language support
+//
+@import "lang__ar";
+
+// 7. Pages
+//
+@import "page__about";
+@import "page__checkdesk";
+@import "page__home";
+@import "page__bridge";

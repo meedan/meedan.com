@@ -1,0 +1,133 @@
+---
+layout: "default"
+slug: "checkdesk"
+---
+<!-- Branding -->
+<section class="checkdesk--branding">
+  <img width="500" class="screenshot"
+      src="/images/screenshots/<%= t('checkdesk.branding.splash') %>@1x.png"
+      srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>@2x.png 2x"
+      alt="Checkdesk">
+
+  <svg class="logo" width="300">
+    <use xlink:href="#checkdeskwhite" />
+  </svg>
+
+  <p class="slogan">
+    <%= t("checkdesk.branding.slogan") %>
+  </p>
+</section>
+
+<!-- Explanations -->
+<section class="checkdesk--explanations">
+  <% t("checkdesk.explanations").each do |e| %>
+    <div class="explanation">
+      <div class="header-and-description">
+        <h3><%= e[:header] %></h3>
+        <p><%= e[:text] %></p>
+      </div>
+      <img class="screenshot"
+           src="/images/screenshots/<%= e[:img] %>@1x.png"
+           srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
+           alt="<%= e[:alt] %>"/>
+    </div>
+  <% end %>
+</section>
+
+<!-- Quotes -->
+<section class="checkdesk--quotes">
+  <% t("checkdesk.testimonials.quotes").each do |t| %>
+      <div class="quote">
+        <p>
+          <span class="quote--glyph">
+            &ldquo;
+          </span>
+          <%= t[:quote] %>
+          </p>
+        <p class="attribution--name">
+          <%= "— #{t[:attribution]}," %>
+        </p>
+        <p class="attribution--website">
+          <a href="<%= t[:website_url] %>" target="_blank">
+            <%= t[:website_name] %>
+          </a>
+        </p>
+      </div>
+  <% end %>
+</section>
+
+<!-- Newsletter -->
+<section class="checkdesk--newsletter">
+  <h3><%= t("checkdesk.newsletter.header") %></h3>
+  <p><%= t("checkdesk.newsletter.summary") %></p>
+
+  <form class="tinyletter"
+    action="https://tinyletter.com/Checkdesk_Checklist"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/Checkdesk_Checklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <div class="form-group">
+      <label for="tlemail"><%= t("checkdesk.newsletter.label") %></label>
+      <input type="email"
+        placeholder='<%= t("checkdesk.newsletter.placeholder") %>'
+        name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed"/>
+      <input type="submit" value='<%= t("checkdesk.newsletter.button") %>' />
+    </div>
+  </form>
+</section>
+
+<!-- History -->
+<section class="checkdesk--history">
+  <h3><%= t("checkdesk.history.header") %></h3>
+  <% t("checkdesk.history.paragraphs").each do |p| %>
+    <p><%= p[:text] %></p>
+  <% end %>
+</section>
+
+<!-- Supporters -->
+<section class="checkdesk--supporters">
+  <h3> <%= t("checkdesk.supporters.header") %> </h3>
+  <ul class="logos">
+    <li>
+      <%= partial "partials/_image.html.erb", :locals => {
+        :type => "svg",
+        :name => "sida",
+        :url => "http://www.sida.se/english/"} %>
+    </li>
+
+    <li>
+    <%= partial "partials/_image.html.erb", :locals => {
+        :type => "svg",
+        :name => "kf",
+        :url => "http://www.knightfoundation.org"} %>
+    </a>
+    </li>
+  </ul>
+</section>
+
+<!-- Partners -->
+<section class="checkdesk--partners">
+  <h3><%= t("checkdesk.partners.header") %></h3>
+  <ul class="logos">
+    <% data.checkdesk_partner_logos.each do |image| %>
+      <li>
+        <%= partial "partials/_image.html.erb", :locals => {
+            :type => image[:type],
+            :name => image[:name],
+            :url => image[:url]} %>
+      </li>
+    <% end %>
+  </ul>
+</section>
+
+<!-- Github -->
+<section class="checkdesk--github">
+  <h3><%= t("checkdesk.github.header") %></h3>
+  <p><%= t("checkdesk.github.text") %></p>
+</section>
+
+<!-- Footer -->
+<div class="checkdesk--footer">
+  <p><%= t("checkdesk.footer") %></p>
+</div>

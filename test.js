@@ -1,15 +1,16 @@
-var localhostURL = "http://localhost:3333";
+var localhostURL = "http://localhost:";
 var defaultCheckdeskPage = /checkdesk-en/;
 
-// Sanity
+// Sanity check / Example test
 //
 casper.test.begin('home page loads', 1, function suite(test) {
   casper.start(localhostURL, function () {
-    // Not sure why this one doesn't work yet.
     // test.assertUrlMatch(defaultCheckdeskPage, "URL looks like the default language-specific page.");
+    // ^ Not sure why this one doesn't work yet.
+    // — CB 2015 Summer 2015
   });
   casper.then(function () {
-      test.assertExists('h1', "Homepage h1 exists.");
+    test.assertExists('h1', "Homepage h1 exists.");
   });
   casper.run(function () {
     test.done();

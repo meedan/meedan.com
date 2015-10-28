@@ -1,0 +1,134 @@
+/// Primary Navigation
+///
+/// This is mostly handled by the bootstrap navigation libraries.
+/// As much as possible we rely on bootstrap — most of our customization
+/// is just the height and padding of the navigation. 2015 Oct 20 CGB
+///
+/// Bootstrap 3.3.5
+///
+/// @see bootstrap_integration.scss
+
+// The "Large" style navigation links
+//
+// For the primary page links
+@mixin nav-links--large {
+  // padding-top: $navbar-height - $nav-item-height*2;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  // When you hover — with a mouse
+  &:hover {
+    border-bottom: 3px solid $accent-blue;
+    transition: border 0.1s;
+  }
+  // When you actually tap it
+  &:active {
+    color: $accent-blue;
+  }
+  // At smaller sizes
+  @media all and (max-width: $breakpoint--nav) {
+    width: 100%;
+  }
+}
+
+// The "small" navigation links (locale)
+//
+// These overrides make the locale links distinctive.
+// We want to keep the navbar text vertically aligned.
+// So, as the font-size increases, the line-height increases also.
+@mixin nav-links--small {
+  color: $keyboard-grey;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+// The outer "navbar" (which contains multiple uls)
+// Navbar is a bootstrap component: http://getbootstrap.com/components/#navbar
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid $alto-grey;
+  li {
+    padding: 0!important;
+  }
+  .navbar-brand {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+// The primary pages navigation
+//
+.navbar-nav.pages {
+  li > a {
+    @include nav-links--large;
+  }
+}
+
+/// Locale Nav
+///
+/// A list of links to active and inactive languages (locales).
+.nav.locales {
+  padding: 0 2em;
+
+  li {
+    border-left-width: 0;
+
+    // All locale links
+    & > a {
+      @include nav-links--small;
+    }
+  }
+
+  // At smaller sizes
+  // Put all the languages on one row.
+  @media (max-width: $breakpoint--nav) {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $firefly10;
+    a {
+      padding: 10px;
+      height: auto;
+    }
+  }
+}
+
+// Locale navigation: current page indicator
+.active a {
+  font-weight: bold;
+  color: darken($keyboard-grey, 30%);
+
+  // Override bootstrap grey background
+  background-color: transparent!important;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+// Page navigation: current page indicator
+@each $page in (bridge, checkdesk, about)  {
+  // At smaller sizes
+  @media all and (max-width: $breakpoint--nav) {
+    // The list class matches the body class
+    .#{$page} .navbar-nav .#{$page} a {
+      font-weight: bold;
+    }
+  }
+
+  // At larger sizes
+  @media all and (min-width: $breakpoint--nav) {
+    .#{$page} .navbar-nav .#{$page} a {
+      border-bottom: 3px solid $firefly40;
+    }
+  }
+}
+
+// At smaller
+@media all and (max-width: $breakpoint--nav) {
+  li a:hover {
+    border-bottom-width: 0!important;
+  }
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="<%= t(:locale) %>">
+
+<%= partial "partials/head" %>
+
+<body class="<%= page_classes %> <%= current_page.data.slug %>">
+	<div style="height: 0; width: 0; position: absolute; visibility: hidden">
+		<%= partial "images/vector/vector.svg" %>
+	</div>
+
+  <%= partial "partials/bootstrap-nav.html" %>
+
+	<main>
+		<%= yield %>
+	</main>
+
+  <%= javascript_include_tag "app" %>
+  <%= partial "partials/ga" %>
+
+	</body>
+</html>

@@ -1,0 +1,54 @@
+/// Explanation component
+///
+/// These are screenshots with with paragraphs of text.
+/// The amount of text is usually just one paragraph.
+/// There is a header for each screenshot and paragraph.
+%component--explanations {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+  .explanation {
+    @extend %flex-container;
+    align-items: flex-start;
+    margin-top: 1em;
+
+    .header-and-description {
+      width: 50%;
+      padding: 20px;
+      @media (max-width: $breakpoint) {
+        width: 90%;
+      }
+
+      h3 {
+        font-size: 0.8em;
+        font-weight: 600;
+        text-align: start;
+        width: 100%;
+        margin-top: 2em;
+        padding: 1em 0;
+      }
+
+      p {
+        font-size: 1em;
+        vertical-align: top;
+        text-align: start;
+        width: 100%;
+        margin: 0;
+        @media (max-width: $breakpoint) {
+          padding: 0;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .screenshot {
+    width: 50%;
+    max-width: 525px;
+    @media (max-width: $breakpoint) {
+      width: 90%;
+      margin-top: 2em;
+    }
+  }
+}

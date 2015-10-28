@@ -1,0 +1,56 @@
+
+// Checkdesk page
+//
+// Uses default branding component styles
+section.checkdesk--branding {
+  @extend %component--branding;
+  padding-top: $navbar-height * 3;
+  background-color: $checkdesk-yellow;
+  color: white;
+  @media all and (max-width:$breakpoint){
+      padding-top: $navbar-height * 2;
+  }
+}
+
+// Checkdesk explanations
+section.checkdesk--explanations {
+  @extend %colors--default;
+  @extend %component--explanations;
+}
+
+// Checkdesk Quotes
+section.checkdesk--quotes {
+  @extend %component--quotes;
+}
+
+// Checkdesk newsletter
+section.checkdesk--newsletter {
+  background-color: $firefly2;
+  padding-bottom: 2em;
+}
+
+// Checkdesk history
+section.checkdesk--history {
+  @extend %colors--inverted;
+}
+
+// Checkdesk supporters
+section.checkdesk--supporters {
+  background-color: $firefly2;
+  @extend %component--logos;
+}
+
+// Checkdesk partners
+section.checkdesk--partners {
+  @extend %component--logos;
+}
+
+// Checkdesk github
+section.checkdesk--github {
+  @extend %colors--inverted;
+}
+
+// Checkdesk footer
+div.checkdesk--footer {
+  @extend %colors--inverted;
+}
