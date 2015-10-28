@@ -126,10 +126,3 @@
     }
   }
 }
-
-// At smaller
-@media all and (max-width: $breakpoint--nav) {
-  li a:hover {
-    border-bottom-width: 0!important;
-  }
-}
