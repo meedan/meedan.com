@@ -16,6 +16,8 @@
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
+  //temp padding for pages without localization
+
   // When you hover — with a mouse
   border-bottom: 3px solid transparent;
   &:hover {
@@ -54,10 +56,16 @@
   border-bottom: 1px solid $alto-grey;
   li {
     padding: 0!important;
+
   }
   .navbar-brand {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .nav {
+    float: right;
+    padding: 0 1em;
   }
 }
 
@@ -73,7 +81,6 @@
 ///
 /// A list of links to active and inactive languages (locales).
 .nav.locales {
-  padding: 0 2em;
 
   li {
     border-left-width: 0;
