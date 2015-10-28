@@ -32,3 +32,7 @@ configure :build do
 	activate :minify_javascript
 	# activate :asset_hash
 end
+
+after_build do
+  `chmod -R 775 build`
+end
