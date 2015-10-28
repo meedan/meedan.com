@@ -87,9 +87,6 @@ $navbar-collapse-max-height: 400px;
 //
 // Whole stylesheets
 //
-// Be careful importing these!
-// They will pollute the global selectorspace.
-//
 
 /// Reset and dependencies stylesheets
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";

@@ -8,7 +8,9 @@
 		<%= partial "images/vector/vector.svg" %>
 	</div>
 
-  <%= partial "partials/bootstrap-nav.html" %>
+  <% unless current_page.data.slug == "bridge-privacy" %>
+    <%= partial "partials/bootstrap-nav.html" %>
+  <% end %>
 
 	<main>
 		<%= yield %>

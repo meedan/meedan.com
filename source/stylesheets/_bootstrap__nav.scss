@@ -17,6 +17,7 @@
   font-size: 18px;
   line-height: 30px;
   // When you hover — with a mouse
+  border-bottom: 3px solid transparent;
   &:hover {
     border-bottom: 3px solid $accent-blue;
     transition: border 0.1s;
@@ -123,12 +124,5 @@
     .#{$page} .navbar-nav .#{$page} a {
       border-bottom: 3px solid $firefly40;
     }
-  }
-}
-
-// At smaller
-@media all and (max-width: $breakpoint--nav) {
-  li a:hover {
-    border-bottom-width: 0!important;
   }
 }
