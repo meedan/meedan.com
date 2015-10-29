@@ -17,7 +17,9 @@ slug: "home"
 <!-- Homepage Projects -->
 <section class="home--projects">
   <h3><%= t("home.projects.title") %></h3>
-  <div class="checkdesk">
+
+  <!-- Checkdesk project -->
+  <div class="project--checkdesk">
     <%= partial "partials/image.html.erb", :locals => {
         :url => "/" + I18n.locale.to_s + "/checkdesk",
         :name => "checkdeskwhite",
@@ -41,7 +43,8 @@ slug: "home"
     </p>
   </div>
 
-  <div class="bridge">
+  <!-- Bridge project -->
+  <div class="project--bridge">
     <%= partial "partials/image.html.erb", :locals => {
         :url => "/" + I18n.locale.to_s + "/bridge",
         :name => "bridge",

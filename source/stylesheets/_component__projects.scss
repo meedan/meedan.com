@@ -1,4 +1,3 @@
-// # Homepage: project
 // # Homepage: projects
 //
 
@@ -13,18 +12,21 @@
     background: rgba(black, 0.2);
     border-radius: 8px;
   }
+
+  // At smaller sizes, the images are fluid
   @media (max-width: $breakpoint) {
     & > div, svg {
       width: 100%;
+      max-width: 100%;
     }
   }
 
   // ## Set the logo widths
-  .bridge svg {
+  .project--bridge svg {
     width: 11em;
   }
 
-  .checkdesk svg {
+  .project--checkdesk svg {
     width: 15em;
   }
 
@@ -33,13 +35,14 @@
     color: white;
   }
 
-  & .bridge,
-  & .checkdesk {
+  & .project--bridge,
+  & .project--checkdesk {
     color: $firefly2;
     padding: 2em 2em;
     width: 40%;
     margin: 1em;
 
+    // At smaller sizes
     @media all and (max-width: $breakpoint) {
       width: 100%;
     }
@@ -53,7 +56,8 @@
         min-height: 11em;
       }
 
-      &.blurb, &.learn {
+      &.blurb,
+      &.learn {
         font-size: 0.8em;
       }
 
@@ -73,10 +77,11 @@
       }
     }
 
+    // At smaller sizes
     @media all and (max-width: $breakpoint) {
       svg {
-        max-width: 300px;
-        width: 100%;
+        // max-width: 300px;
+        // width: 100%;
       }
 
       p {
