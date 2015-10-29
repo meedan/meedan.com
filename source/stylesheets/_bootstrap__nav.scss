@@ -50,18 +50,15 @@
   line-height: 30px;
 }
 
-// The outer "navbar" (which contains multiple uls)
+// The outer "navbar" (which contains multiple ul's)
 // Navbar is a bootstrap component: http://getbootstrap.com/components/#navbar
 .navbar {
   background-color: white;
   border-bottom: 1px solid $alto-grey;
+  padding: 0 1em;
   li {
     padding: 0!important;
 
-  }
-  .navbar-brand {
-    padding-left: 40px;
-    padding-right: 40px;
   }
 
   .nav {
@@ -162,3 +159,4 @@ ul.locales {
     }
   }
 }
+
