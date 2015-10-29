@@ -10,6 +10,9 @@ section.checkdesk--branding {
   @media all and (max-width:$breakpoint){
       padding-top: $navbar-height * 2;
   }
+  .screenshot {
+    width: auto;
+  }
 }
 
 // Checkdesk explanations

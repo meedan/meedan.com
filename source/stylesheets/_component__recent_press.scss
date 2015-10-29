@@ -2,6 +2,8 @@
 // Recent press component
 //
 %component--recent-press {
+  padding-bottom: 1em;
+
   h3 {
     width: 100%;
   }
@@ -10,8 +12,10 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    // at smaller sizes
     @media all and (max-width: $breakpoint) {
       flex-flow: column;
+      padding-bottom: 2em;
     }
   }
 
@@ -21,6 +25,7 @@
     padding: 2em 2em 0em;
     margin: 1em;
 
+    // at smaller sizes
     @media all and (max-width: $breakpoint) {
       width: 100%;
     }

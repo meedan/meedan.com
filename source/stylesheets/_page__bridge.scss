@@ -10,7 +10,7 @@ $breakpoint--explainer: 900px;
 section.bridge--branding {
   @extend %colors--inverted;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   margin-top: 50px;
   padding: 4em 2em;
