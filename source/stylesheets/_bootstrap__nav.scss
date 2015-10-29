@@ -60,10 +60,11 @@
     padding: 0!important;
 
   }
-
-  .nav {
-    float: right;
-    padding: 0 1em;
+  @media all and (min-width: $breakpoint--nav) {
+    .nav {
+      float: right;
+      padding: 0 1em;
+    }
   }
 }
 
