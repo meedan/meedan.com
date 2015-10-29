@@ -57,21 +57,3 @@ section.checkdesk--github {
 div.checkdesk--footer {
   @extend %colors--inverted;
 }
-
-// IMPORTANT
-// This is temporary styling for the ul nav until we have translations for all the other pages
-
-ul.locales {
-  @media all and (min-width: $breakpoint--nav) {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    margin: 0.8em;
-    padding: 0.3em 1em;
-    background-color: rgba(255,255,255,0.2);
-    border-radius: 5em;
-      a {
-        color: $firefly80 !important;
-      }
-    }
-  }

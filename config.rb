@@ -5,7 +5,6 @@ helpers LocalizationHelpers
 set :css_dir, 'css'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
-activate :sprockets
 
 # Make sprockets aware of bower
 # note that this does not seem to add them to the sass Load_path,
@@ -30,9 +29,3 @@ configure :build do
 	activate :minify_javascript
 	# activate :asset_hash
 end
-
-after_build do
-  `chmod -R 775 build`
-end
-
-activate :alias

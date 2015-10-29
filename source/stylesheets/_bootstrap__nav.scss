@@ -15,7 +15,8 @@
   // padding-top: $navbar-height - $nav-item-height*2;
   text-decoration: none;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 27px;
+
   //temp padding for pages without localization
 
   // When you hover — with a mouse
@@ -130,6 +131,34 @@
   @media all and (min-width: $breakpoint--nav) {
     .#{$page} .navbar-nav .#{$page} a {
       border-bottom: 3px solid $firefly40;
+    }
+  }
+}
+
+// Temporary locale navigation styles
+//
+// This is temporary styling for the ul nav until we have translations for all the other pages
+// This only appears on checkdesk page
+//
+ul.locales {
+  @media all and (min-width: $breakpoint--nav) {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    margin: 0.8em;
+    padding: 0.1em 0.6em;
+    line-height: 20px;
+    font-size: smaller;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 5em;
+    overflow: hidden;
+    a {
+      color: $firefly80 !important;
+    }
+
+    // make sure they don't switch sides when changing langs
+    li.ar {
+      float: right;
     }
   }
 }

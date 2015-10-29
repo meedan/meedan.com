@@ -1,4 +1,4 @@
-var localhostURL = "http://localhost:8000";
+var localhostURL = "http://localhost:4567";
 var defaultCheckdeskPage = "/en/checkdesk/";
 
 // Sanity check / Example test

@@ -27,12 +27,12 @@
         <% inactive_languages = langs - [I18n.locale] %>
 
         <ul class="nav locales navbar-nav">
-          <li class="active">
+          <li class="active <%= I18n.locale %>">
             <%= link_to t(I18n.locale), "/#{File.dirname(current_path)}", :class => I18n.locale %>
           </li>
           <% inactive_languages.each do |lang_name| %>
-            <li>
-              <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page.data.slug}", :class => lang_name %>
+            <li class="<%= lang_name %>">
+              <%= link_to t(lang_name), "/#{lang_name}/#{current_page.data.slug}", :class => lang_name %>
             </li>
           <% end %>
         </ul>
