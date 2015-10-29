@@ -3,7 +3,7 @@
 
 <%= partial "partials/head" %>
 
-<body class="<%= page_classes %> <%= current_page.data.slug %>">
+<body <% if I18n.locale == :ar %> dir="rtl" <% end %> class="<%= page_classes %> <%= current_page.data.slug %>">
 	<div style="height: 0; width: 0; position: absolute; visibility: hidden">
 		<%= partial "images/vector/vector.svg" %>
 	</div>

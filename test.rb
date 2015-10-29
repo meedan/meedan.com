@@ -1,3 +1,7 @@
+# To start the test server do this in another console window:
+#
+# `ruby -run -ehttpd build -p8000`
+
 require 'rubygems'
 require 'yaml'
 require 'colorize'

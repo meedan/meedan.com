@@ -1,5 +1,5 @@
-var localhostURL = "http://localhost:";
-var defaultCheckdeskPage = /checkdesk-en/;
+var localhostURL = "http://localhost:8000";
+var defaultCheckdeskPage = "/en/checkdesk/";
 
 // Sanity check / Example test
 //
@@ -37,11 +37,11 @@ casper.test.begin('/checkdesk redirects to a default language-specific page', 2,
 // Test RTL element
 //
 casper.test.begin('/checkdesk arabic has rtl', 1, function suite(test) {
-  casper.start(localhostURL + "/checkdesk-ar/", function () {
+  casper.start(localhostURL + "/ar/checkdesk/", function () {
     this.wait(1000, function () {
       this.echo("waited for 1 seconds");
       var dump = require('utils').dump;
-      test.assertMatch(this.getElementAttribute('html', 'dir'), /^rtl$/i);
+      test.assertMatch(this.getElementAttribute('body', 'dir'), /^rtl$/i);
     });
   });
 
