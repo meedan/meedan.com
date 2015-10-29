@@ -18,3 +18,4 @@ gem "pry"
 gem 'middleman-autoprefixer'
 gem 'html-proofer'
 gem 'colorize'
+gem 'middleman-alias'

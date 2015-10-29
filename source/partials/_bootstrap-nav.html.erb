@@ -24,18 +24,18 @@
       <!-- This comes before the page list navigation -->
 
       <% if current_page.data.slug == "checkdesk"%>
-      <% inactive_languages = langs - [I18n.locale] %>
+        <% inactive_languages = langs - [I18n.locale] %>
 
-      <ul class="nav locales navbar-nav">
-        <li class="active">
-          <%= link_to t(I18n.locale), "/#{File.dirname(current_path)}", :class => I18n.locale %>
-        </li>
-        <% inactive_languages.each do |lang_name| %>
-          <li>
-            <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page.data.slug}", :class => lang_name %>
+        <ul class="nav locales navbar-nav">
+          <li class="active">
+            <%= link_to t(I18n.locale), "/#{File.dirname(current_path)}", :class => I18n.locale %>
           </li>
-        <% end %>
-      </ul>
+          <% inactive_languages.each do |lang_name| %>
+            <li>
+              <%= link_to t("#{lang_name}"), "/#{lang_name}/#{current_page.data.slug}", :class => lang_name %>
+            </li>
+          <% end %>
+        </ul>
       <%end%>
 
       <!-- 2. The page navigation -->
@@ -44,7 +44,13 @@
       <ul class="nav navbar-nav pages">
         <% nav_pages.each do |page| %>
         <%= "<li class='#{page}'>" %>
-          <%= link_to t("nav.#{page}"), "/#{t("locale")}/#{page}" %>
+
+          <!-- Temporary logic 2015 Oct 29 CGB  -->
+          <!-- Remove this once site is localized -->
+          <%= link_to t("nav.#{page}"), "/en/#{page}" %>
+
+          <!-- Once all the translations are in -->
+          <%#= link_to t("nav.#{page}"), "/#{t("locale")}/#{page}" %>
         </li>
         <% end %>
       </ul>
