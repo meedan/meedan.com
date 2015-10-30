@@ -4,17 +4,8 @@
 // Uses default branding component styles
 section.checkdesk--branding {
   @extend %component--branding;
-  padding-top: $navbar-height * 3;
   background-color: $checkdesk-yellow;
   color: white;
-
-  // At smaller sizes
-  @media all and (max-width:$breakpoint){
-    padding-top: $navbar-height * 2;
-  }
-  .screenshot {
-    width: auto;
-  }
 }
 
 // Checkdesk explanations
@@ -30,29 +21,7 @@ section.checkdesk--quotes {
 
 // Checkdesk newsletter
 section.checkdesk--newsletter {
-  background-color: $firefly2;
-  form {
-    margin: 0 auto;
-    width: 90%;
-
-    input {
-      margin: 5px;
-    }
-
-    input[type="submit"] {
-      width: 150px;
-      background-color: $firefly2;
-      border-radius: 50px;
-    }
-
-    @media all and (min-width: $breakpoint) {
-      input[type="submit"] {
-        margin-top: 0!important;
-        margin-left: 1em!important;
-        margin-right: 1em!important;
-      }
-    }
-  }
+  @extend %colors--inverted;
 }
 
 // Checkdesk history
@@ -79,4 +48,5 @@ section.checkdesk--github {
 // Checkdesk footer
 div.checkdesk--footer {
   @extend %colors--inverted;
+  @extend %component--footer;
 }

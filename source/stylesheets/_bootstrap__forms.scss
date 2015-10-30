@@ -1,0 +1,79 @@
+// This is intended to work with the bootstrap form system.
+//
+// This is all applied on top of the bootstrap base form styles.
+//
+// README to see how we integrate bootstrap:
+//    @import "bootstrap__integration";
+//
+$form--color: white;
+$form--max-width: 600px;
+$form--min-width: 220px;
+$form--button-width: 30%;
+
+%fancy-label {
+  position: relative;
+  label {
+    position: absolute;
+    top: -2em;
+    z-index: 2;
+  }
+}
+
+/// Form groups
+///
+/// Bootstrap relies heavily on this form-group selector.
+.form-group {
+  @extend %fancy-label;
+  display: flex;
+  max-width: $form--max-width;
+  margin: auto;
+  padding: 1em;
+  label {
+    font-size: 0.8em;
+    font-weight: 300;
+  }
+
+  // All types of inputs
+  input {
+    padding: 0.4em;
+    border-color: transparent;
+  }
+
+  input[type='email'] {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    width: 70%;
+  }
+
+  // Submit buttons
+  input[type='submit'] {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 !important;
+    border-color: transparent;
+    width: $form--button-width;
+    color: white;
+    font-weight: 500;
+    border-width: 0;
+    border-radius: 50px;
+    background-color: rgba(white, 0.1);
+    &:hover {
+      background-color: rgba(white, 0.2);
+      transition: background-color 0.2s;
+    }
+  }
+}
+
+.apply-to-translate {
+  padding-top: 1em;
+  margin: 0 auto;
+  max-width: $form--max-width;
+  label {
+    color: rgba(white, 0.5);  
+    font-weight: 400;
+  }
+  
+  &:lang(en) {
+    text-align: left;
+  }
+}

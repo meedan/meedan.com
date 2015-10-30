@@ -34,6 +34,27 @@ slug: "checkdesk"
   <% end %>
 </section>
 
+<!-- Newsletter -->
+<section class="checkdesk--newsletter">
+  <h3><%= t("checkdesk.newsletter.header") %></h3>
+  <p><%= t("checkdesk.newsletter.summary") %></p>
+
+  <form class="form-inline tinyletter"
+    action="https://tinyletter.com/Checkdesk_Checklist"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/Checkdesk_Checklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <div class="form-group">
+      <label for="tlemail"><%= t("checkdesk.newsletter.label") %></label>
+      <input type="email"
+        placeholder='<%= t("checkdesk.newsletter.placeholder") %>'
+        name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed"/>
+      <input type="submit" value='<%= t("checkdesk.newsletter.button") %>' />
+    </div>
+  </form>
+</section>
+
 <!-- Quotes -->
 <section class="checkdesk--quotes">
   <% t("checkdesk.testimonials.quotes").each do |t| %>
@@ -54,27 +75,6 @@ slug: "checkdesk"
         </p>
       </div>
   <% end %>
-</section>
-
-<!-- Newsletter -->
-<section class="checkdesk--newsletter">
-  <h3><%= t("checkdesk.newsletter.header") %></h3>
-  <p><%= t("checkdesk.newsletter.summary") %></p>
-
-  <form class="tinyletter"
-    action="https://tinyletter.com/Checkdesk_Checklist"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://tinyletter.com/Checkdesk_Checklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-    <div class="form-group">
-      <label for="tlemail"><%= t("checkdesk.newsletter.label") %></label>
-      <input type="email"
-        placeholder='<%= t("checkdesk.newsletter.placeholder") %>'
-        name="email" id="tlemail" />
-      <input type="hidden" value="1" name="embed"/>
-      <input type="submit" value='<%= t("checkdesk.newsletter.button") %>' />
-    </div>
-  </form>
 </section>
 
 <!-- History -->

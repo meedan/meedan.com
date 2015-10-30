@@ -31,6 +31,7 @@ section.about--challenges {
 // About: Our vision section
 //
 section.about--our-vision {
+  @extend %typography--section-dense;
   background-color: $firefly80;
   color: $firefly10;
 }
@@ -45,6 +46,7 @@ div.about--products-photo {
 //
 section.about--products-text {
   background-color: $firefly10;
+  @extend %typography--section-dense;
 }
 
 // About page: public engagement photo
@@ -56,16 +58,18 @@ div.about--public-engagement-photo {
 // About: public engagement
 //
 section.about--public-engagement-text {
-
 }
 
 // About: Promo bar div
 //
 .about--promo-bar {
-  margin: 1em 0.5em;
+  margin: 1.6em 0.5em;
   .btn {
     margin-left: 1em;
     margin-right: 1em;
+    // background: linear-gradient(170deg, darken($accent-blue, 15%), $portland-purple);
+    font-weight: 400;
+    font-family: $font-stack--roboto;
   }
 }
 

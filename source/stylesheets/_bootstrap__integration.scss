@@ -68,7 +68,7 @@ $navbar-collapse-max-height: 400px;
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/pagination";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/list-group";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/nav-divider";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/forms";
+// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/forms";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/progress-bar";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/table-row";
 
@@ -99,7 +99,12 @@ $navbar-collapse-max-height: 400px;
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+//@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+
+@mixin form-inline {
+  display: flex;
+}
+
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
 
 /// Component stylesheets

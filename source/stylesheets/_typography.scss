@@ -13,6 +13,10 @@ $line-height--large: 1.65;
 $line-height--xlarge: 1.85;
 
 // Default typography
+//
+// This is a language independent base theme.
+// Language specific typography is in files like `_lang__en.scss`
+//
 body {
   color: $firefly80;
   font-family: $font-stack--open-sans;
@@ -25,8 +29,17 @@ body {
   }
 }
 
-p:nth-of-type(1) {
-  padding-bottom: 2em;
+// Section defaults
+//
+// The primary building blocks of the typographic rhythm.
+// Each section must have a header.
+section {
+  padding-bottom: 4em;
+  width: 100%;
+  overflow-x: hidden;
+  p {
+    padding-bottom: 2em;
+  }
 }
 
 // Headers
@@ -59,27 +72,18 @@ h3 {
 }
 
 h4 {
-  margin: 0.4em;
+  margin: 0.4em auto;
+  max-width: 650px;
   @media all and (max-width: $breakpoint) {
     max-width: 61.8%;
     margin: 0 auto;
   }
 }
 
-// # Emphasis
-//
-// <em>This text is emphasized.</em>
 em {
   font-style: italic;
 }
 
-// # Lists
-//
-// <ul>
-//   <li>One</li>
-//   <li>Two</li>
-//   <li>Three</li>
-// </ul>
 ul {
   margin: 0.5em 0;
   padding: 0;
@@ -91,9 +95,8 @@ ul {
 }
 
 li {
-  display: inline-block;
   padding: 0 1em 1em;
-
+  list-style-type: none;
   @media all and (max-width: $breakpoint) {
     padding: 0 0.5em 0.5em;
     display: block;
@@ -131,10 +134,7 @@ section.history > p {
   padding: 0 0 2em 0;
 }
 
-// # Links
-
-// Default links
-%link--default {
+a {
   color: $accent-blue;
 
   &:hover {
@@ -143,26 +143,12 @@ section.history > p {
   }
 }
 
-// Reverse color scheme
-%link--inverted {
-  color: rgba(white, 0.7);
-  padding: 0.18em;
-
-  a:hover {
-    background-color: rgba($firefly10, 0.5);
+%typography--section-dense {
+  &:lang(en) {
+    h4
+    p {
+      font-size: 0.8em;
+      text-align: left;
+    }
   }
-}
-
-// Links containing images
-%link--image {
-  border-bottom-width: 0;
-  text-decoration: none;
-
-  &:hover {
-    background-color: transparent;
-  }
-}
-
-a {
-  @extend %link--default;
 }

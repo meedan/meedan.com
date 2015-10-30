@@ -18,7 +18,7 @@ $logo-large-width: 250px;
     justify-content: center;
     flex-align: center;
     align-items: center;
-    @extend %flex-container-stacked-when-small;
+
     a {
       padding: 1em;
     }

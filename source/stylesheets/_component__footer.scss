@@ -3,12 +3,6 @@
 ///
 %component--footer {
   @extend section;
-  background-color: $firefly90;
   padding: 1em;
-  font-size: smaller;
-  color: white;
-
-  a {
-    color: white;
-  }
+  font-size: 0.7em;
 }

@@ -11,23 +11,15 @@ $width--primary-logo: 200px;
 ///
 /// @group meedan-web
 %component--branding {
-  display: flex;
-  align-items: center;
-  flex-flow: column nowrap;
-  padding: 4em 1em 1em;
+  padding: $navbar-height * 3 1em 1em;
   width: 100%;
 
   // The main image in a "branding" section
   .screenshot {
-    max-width: 100%;
-    min-width: 280px;
-    padding-top: 0;
-    padding-bottom: 0em;
+    max-width: 525px;
+    width: 100%;
     display: block;
-    height: auto;
-    width: 80%;
     margin: 0 auto;
-    animation: fadeInUp 1s;
   }
 
   // The phrase under the logos
@@ -35,17 +27,9 @@ $width--primary-logo: 200px;
   	margin: 0;
     padding: 0;
     font-size: 1.25em;
-    animation: fadeIn 1.2s;
+    margin: 0 auto;
   }
-}
-
-.btn-scroll-down {
-  padding-top: 0em;
-  margin-top: 0em;
-  @media all and (max-width:450px) {
-    padding: 1em 0em;
-  }
-  svg {
-    max-width: 40px !important;
+  // At smaller sizes
+  @media all and (max-width:$breakpoint) {
   }
 }

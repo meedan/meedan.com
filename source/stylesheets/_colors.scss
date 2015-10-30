@@ -1,9 +1,4 @@
-
-// Out of Eden Walk Red
-// @type color
-$ooew-red: #960808;
-
-/// Checkdesk colors
+/// Checkdesk 2015 colors
 /// @group meedan-checkdesk
 
 /// Firefly 2
@@ -65,31 +60,12 @@ $light-bridge-orange: #fff6f1;
 /// Bridge International Orange
 /// @type Color
 $bridge-orange: #ff4f00;
-
-$warm-grey: #f1f2ed;
 $accent-blue: #6d9ed3;
-$alto-grey: #e0e0e0;
-$another-blue: desaturate(#005bbe, 30%);
-$byline-background-color: rgba(yellow, 0.3);
-$byline-color: rgba(black, 0.85);
-$cerise-pink: #db107c;
-
-$firetruck-red: hsl(3, 100%, 36%);
-$light-blue: lighten($accent-blue, 80%);
-$light-warm-color: #f2f0eb;
-$mercury-grey: #e8e8e8;
 $photo-feb10-blue: #596d74;
-$portland-purple: #42476f;
-$dark-portland-purple: #42476f;
-$shadow-grey: #c3c3c3;
-$tanzanite-blue: #4910db;
-$translation-background-color: #888888;
-$translation-border-color: #c3c3c3;
-$translation-comment-blue: rgba($photo-feb10-blue, 0.5);
-$translation-comment-link-blue: rgba($another-blue, 0.6);
-$warm-color: #d2c6b7;
+$alto-grey: #e0e0e0;
 
 // Color scheme: Inverted
+//
 %colors--inverted {
   background-color: $firefly80;
   color: $firefly10;
@@ -104,8 +80,28 @@ $warm-color: #d2c6b7;
   }
 }
 
+%colors--inverted-form {
+  label {
+    color: #ffffff;
+  }
+  input {
+    color: $firefly80;
+  }
+}
+
 // Color scheme: Default
 %colors--default {
   background-color: white;
   color: $firefly80;
 }
+
+// 2015 Meedan.com Theme colors CGB XRW
+$warm-grey: #f1f2ed;
+$alto-grey: #e0e0e0;
+$cerise-pink: #db107c;
+$portland-purple: #42476f;
+$tanzanite-blue: #4910db;
+
+// Out of Eden Walk Red
+// @type color
+$ooew-red: #960808;

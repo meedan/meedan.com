@@ -13,30 +13,26 @@ $breakpoint: 900px;
 // • Navbar
 @import "bootstrap__integration";
 
-// 3. Shared styles
-//
-// Border box model: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 * {
   box-sizing: border-box;
 }
 
-// Section defaults
-//
-// Section elements are the primary building blocks. Each section should have a header.
-section {
-  padding-bottom: 4em;
-  width: 100%;
-  overflow-x: hidden;
-}
+// img {
+//   display: block;
+//   width: auto;
+//   height: auto;
+//   max-width: 100%;
+// }
 
+// 3. Meedan.com global styles
 @import "colors";
 @import "typography";
-@import "forms";
 @import "flex";
 
 // 4. Bootstrap component customization
 //
 @import "bootstrap__nav";
+@import "bootstrap__forms";
 
 // 5. Our components
 //
@@ -59,7 +55,10 @@ section {
 
 // 7. Pages
 //
+//  START HERE when developing
+//  Each page is composed of components.
 @import "page__about";
 @import "page__checkdesk";
 @import "page__home";
 @import "page__bridge";
+@import "page__policy";
