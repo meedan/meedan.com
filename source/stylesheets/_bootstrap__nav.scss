@@ -50,6 +50,11 @@
   line-height: 30px;
 }
 
+// This is hidden on the homepage until revealed by js.
+.home .navbar {
+  display: none;
+}
+
 // The outer "navbar" (which contains multiple ul's)
 // Navbar is a bootstrap component: http://getbootstrap.com/components/#navbar
 .navbar {
