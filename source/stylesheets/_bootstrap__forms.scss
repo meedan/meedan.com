@@ -63,17 +63,3 @@ $form--button-width: 30%;
     }
   }
 }
-
-.apply-to-translate {
-  padding-top: 1em;
-  margin: 0 auto;
-  max-width: $form--max-width;
-  label {
-    color: rgba(white, 0.5);  
-    font-weight: 400;
-  }
-  
-  &:lang(en) {
-    text-align: left;
-  }
-}

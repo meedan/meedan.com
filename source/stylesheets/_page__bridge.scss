@@ -48,10 +48,20 @@ section.bridge--explanations {
     padding: 1em;
   }
 
-  // Checkbox
   .apply-to-translate {
-    font-size: 0.7em;
-    font-weight: 200;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: $form--max-width;
+    label {
+      color: rgba(white, 0.5);  
+      font-weight: 400;
+      padding: 0 0.5em;
+      font-size: 0.8em;
+    }
+    
+    &:lang(en) {
+      text-align: left;
+    }
   }
 }
 

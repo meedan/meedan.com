@@ -5,7 +5,7 @@
 //
 section.about--branding {
   @extend %component--branding;
-  @include component--background-photo('../images/banners/about-branding-photo@1x.jpg');
+  @include component--background-photo('../images/banners/banner-2@1x.jpg');
 
   h3 {
     font-weight: 500;
