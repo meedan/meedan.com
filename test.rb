@@ -1,6 +1,13 @@
 # To start the test server do this in another console window:
 #
-# `ruby -run -ehttpd build -p8000`
+# `ruby -run -ehttpd build -p4567`
+#
+# This will start a webrick server that loads only the static files.
+# (This extra server is needed because
+# Sometimes middleman is too slow to run the tests before timeouts.)
+#
+# 2015 Nov 2 CGB
+#
 require 'rubygems'
 require 'yaml'
 require 'colorize'
