@@ -17,6 +17,7 @@ body.home {
 }
 
 // Component: recent press
+//
 .home--recent-press {
   ul {
     @extend %flex-container;
@@ -74,22 +75,23 @@ body.home {
   @extend %component--branding;
 
   .logo--meedan-primary {
-    width: $width--primary-logo;
+    width: 200px;
     animation: fadeIn 0.8s;
     .bridge &, .checkdesk & {
       width: 300px;
     }
     @media all and (max-width: $breakpoint) {
-      max-width: $width--primary-logo;
+      max-width: 200px;
       width: 70%;
     }
   }
 }
 
+// Home: background-photo section
+//
 .home--background-photo {
   @include component--background-photo("../images/banners/banner-2@1x.jpg");
 }
-
 
 // Component: Homepage latest news
 //

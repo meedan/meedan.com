@@ -42,7 +42,6 @@ section {
   }
 }
 
-// Headers
 h1 {
   color: rgba(0, 0, 0, 0.5);
   font-family: $font-stack--roboto;
@@ -105,7 +104,6 @@ li {
 
 // At small sizes, make list links more like buttons
 //
-// <ul><li><a href="#">Example list link</a></li></ul>
 li > a {
   @media all and (max-width: $breakpoint) {
     display: block;

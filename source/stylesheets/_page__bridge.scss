@@ -13,18 +13,16 @@ section.bridge--branding {
 // Bridge history
 section.bridge--history {
   @extend %colors--inverted;
-  font-size: 0.8em;
-  p {
-    text-align: left;
-  }
+  @extend %typography--section-dense;
 }
 
-// Some sections have white background.
+// Bridge supporters
 section.bridge--supporters {
   @extend %colors--default;
   @extend %component--logos;
 }
 
+// Bridge explanations
 section.bridge--explanations {
   @extend %colors--default;
   @extend %component--explanations;
@@ -44,9 +42,10 @@ section.bridge--explanations {
     font-weight: 400;
   }
 
+  // The form itself
   .call-to-action--form {
     width: 100%;
-    padding: 1em;
+    padding: 0.8em;
   }
 
   .apply-to-translate {

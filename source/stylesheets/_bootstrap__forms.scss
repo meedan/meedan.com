@@ -5,13 +5,17 @@
 // README to see how we integrate bootstrap:
 //    @import "bootstrap__integration";
 //
+// @group meedan-web
 $form--max-width: 600px;
 $form--min-width: 220px;
 $form--button-width: 30%;
 $form--button-padding: 0.5em 0.8em;
 $form--button-radius: 50px;
 
-%fancy-label {
+/// Form: fancy label
+///
+/// Uses absolute positioning.
+%form--fancy-label {
   position: relative;
   label {
     position: absolute;
@@ -20,18 +24,19 @@ $form--button-radius: 50px;
   }
 }
 
-/// Form groups
-///
-/// Bootstrap relies heavily on this form-group selector.
-///
+// Form groups
+//
+// Bootstrap relies heavily on this form-group selector.
+//
 .form-group {
-  @extend %fancy-label;
+  @extend %form--fancy-label;
   @extend %colors--form-default;
   display: flex;
   max-width: $form--max-width;
   margin: auto;
   padding: 1em;
 
+  // All labels
   label {
     font-size: 0.8em;
     font-weight: 300;
@@ -44,14 +49,15 @@ $form--button-radius: 50px;
     border-color: transparent;
   }
 
+  // Email input
   input[type='email'] {
     width: 68%;
   }
 
   // Submit buttons
   input[type='submit'] {
-    padding: 0.3em 0.4em;
-    margin: 0 !important;
+    // padding: 0.15em 0.2em;
+    margin: 0 0.1em;
     width: $form--button-width;
     font-weight: 500;
     border-width: 0;

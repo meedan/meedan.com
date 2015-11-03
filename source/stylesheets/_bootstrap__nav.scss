@@ -11,7 +11,7 @@
 // The "Large" style navigation links
 //
 // For the primary page links
-@mixin nav-links--large {
+@mixin nav-links--primary {
   // padding-top: $navbar-height - $nav-item-height*2;
   text-decoration: none;
   font-size: 18px;
@@ -40,7 +40,7 @@
 // These overrides make the locale links distinctive.
 // We want to keep the navbar text vertically aligned.
 // So, as the font-size increases, the line-height increases also.
-@mixin nav-links--small {
+@mixin nav-links--secondary {
   color: $keyboard-grey;
   padding-left: 0;
   padding-right: 0;
@@ -77,7 +77,7 @@
 //
 .navbar-nav.pages {
   li > a {
-    @include nav-links--large;
+    @include nav-links--primary;
   }
 }
 
@@ -90,7 +90,7 @@
 
     // All locale links
     & > a {
-      @include nav-links--small;
+      @include nav-links--secondary;
     }
   }
 
@@ -120,10 +120,9 @@
 }
 
 // Page navigation: current page indicator
+//
 @each $page in (bridge, checkdesk, about)  {
-  // At smaller sizes
   @media all and (max-width: $breakpoint--nav) {
-    // The list class matches the body class
     .#{$page} .navbar-nav .#{$page} a {
       font-weight: bold;
     }
