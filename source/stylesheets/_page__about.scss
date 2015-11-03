@@ -41,6 +41,7 @@ section.about--our-vision {
 //
 div.about--products-photo {
   @include component--background-photo("../images/banners/products-photo@1x.jpg");
+  min-height: 250px;
 }
 
 // About: Products text
@@ -54,6 +55,7 @@ section.about--products-text {
 //
 div.about--public-engagement-photo {
   @include component--background-photo("../images/banners/public-engagegment-photo@1x.jpg");
+  background-position: 40% left;
 }
 
 // About: public engagement
