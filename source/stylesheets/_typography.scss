@@ -135,17 +135,17 @@ section.history > p {
 }
 
 a {
-  color: $accent-blue;
+  color: $dodger-blue;
 
   &:hover {
-    color: $photo-feb10-blue;
+    color: $accent-blue;
     transition: 0.4s;
   }
 }
 
 %typography--section-dense {
   &:lang(en) {
-    h4
+    h4,
     p {
       font-size: 0.8em;
       text-align: left;

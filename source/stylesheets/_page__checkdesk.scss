@@ -22,6 +22,7 @@ section.checkdesk--quotes {
 // Checkdesk newsletter
 section.checkdesk--newsletter {
   @extend %colors--inverted;
+  @extend %colors--form-inverted;
 }
 
 // Checkdesk history

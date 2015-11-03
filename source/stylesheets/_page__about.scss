@@ -8,6 +8,7 @@ section.about--branding {
   @include component--background-photo('../images/banners/banner-2@1x.jpg');
 
   h3 {
+    position: relative;
     font-weight: 500;
     font-size: 2em;
     padding: 5em 0em;
@@ -18,14 +19,14 @@ section.about--branding {
 // About: Recent press section
 //
 section.about--recent-press {
-  background: $firefly10;
+  background: $firefly5;
   @extend %component--recent-press;
 }
 
 // About: Challenges section
 //
 section.about--challenges {
-  background-color: $firefly10;
+  background-color: $firefly5;
 }
 
 // About: Our vision section
@@ -33,7 +34,7 @@ section.about--challenges {
 section.about--our-vision {
   @extend %typography--section-dense;
   background-color: $firefly80;
-  color: $firefly10;
+  color: $firefly5;
 }
 
 // About: Products photo
@@ -45,8 +46,8 @@ div.about--products-photo {
 // About: Products text
 //
 section.about--products-text {
-  background-color: $firefly10;
-  @extend %typography--section-dense;
+  background-color: $firefly5;
+  // @extend %typography--section-dense;
 }
 
 // About page: public engagement photo
@@ -64,15 +65,21 @@ section.about--public-engagement-text {
 //
 .about--promo-bar {
   margin: 1.6em 0.5em;
-  .btn {
+  a {
     margin-left: 1em;
     margin-right: 1em;
-    // background: linear-gradient(170deg, darken($accent-blue, 15%), $portland-purple);
     font-weight: 400;
     font-family: $font-stack--roboto;
+    background-color: $dodger-blue;
+    color: white;
+    border-radius: $form--button-radius;
+    padding: $form--button-padding;
+    &:hover {
+      text-decoration: none;
+      background-color: $firefly80;
+    }
   }
 }
-
 
 // About: Team (same as homepage)
 //

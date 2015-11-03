@@ -9,6 +9,10 @@ $firefly2: #fafbfb;
 ///@type color
 $firefly10: #e7e8ea;
 
+/// Firefly 5
+///@type color
+$firefly5: lighten($firefly10, 5%);
+
 /// Firefly 20
 ///@type color
 $firefly20: #cfd3d5;
@@ -21,9 +25,9 @@ $firefly30: #b7bcc0;
 ///@type color
 $firefly40: #9fa6ac;
 
-/// Firefly 5
+/// Firefly 50
 ///@type color
-$firefly5: #f3f4f4;
+$firefly50: #f3f4f4;
 
 /// Firefly 60
 ///@type color
@@ -44,6 +48,7 @@ $firefly: #10212f;
 /// Checkdesk Yellow
 ///@type color
 $checkdesk-yellow: #e4ba2a;
+$dodger-blue: #3073FD;
 
 /// Keyboard Grey
 /// @type Color
@@ -80,12 +85,77 @@ $alto-grey: #e0e0e0;
   }
 }
 
-%colors--inverted-form {
-  label {
-    color: #ffffff;
+/// Colors: Default form theme
+///
+%colors--form-default {
+
+  // Email input
+  input[type='email'] {
+   background-color: transparent;
+   border-bottom: 1px solid $firefly40;
+   color: $firefly;
+   &:focus {
+   // The outline is hidden (for mouse users only!) w/ js
+   // See: http://a11yproject.com/posts/never-remove-css-outlines/
+   // See: app.js
+   border-bottom: 1px solid $dodger-blue;
   }
+
+   // When clicking in this element, light up the button
+   &:focus ~ input[type='submit'] {
+     transition: background-color 0.3s;
+     background-color: $dodger-blue;
+     color: white;
+   }
+  }
+
+  // Submit button
+  input[type='submit'] {
+    background-color: $light-keyboard-grey;
+    color: $firefly60;
+    &:hover {
+      background-color: $dodger-blue;
+      color: white;
+      transition: background-color 0.2s;
+    }
+  }
+
+  // The label on the checkbox
+  input[type='checkbox'] ~ label {
+    color: $firefly40;
+  }
+}
+
+/// Colors: Inverted form theme
+///
+%colors--form-inverted {
+
+  // All labels
+  label {
+    color: rgba(white, 0.5);
+  }
+
+  // All inputs
   input {
-    color: $firefly80;
+    color: white;
+  }
+
+  input[type='email'] {
+    color: white;
+    &:focus {
+      border-bottom: 1px solid white;
+    }
+
+    // When clicking in this element, light up the button
+    &:focus ~ input[type='submit'] {
+      background-color: white;
+      color: $dodger-blue;
+    }
+  }
+
+  // Submit button
+  input[type='submit'] {
+    color: $firefly60;
   }
 }
 
