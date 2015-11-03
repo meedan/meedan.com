@@ -11,7 +11,7 @@
     // Hide the navbar on the homepage
     $(".home .navbar").hide();
 
-    // fade in .navbar on homepage
+    // fade in .navbar on homepage when scrolling down
     $(function () {
       $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -19,8 +19,22 @@
         }
       });
     });
+
+    // fade out localization on checkdesk page when scrolling down
+    //
+    $(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+          $(".checkdesk .locales").fadeOut();
+        } else {
+          $(".checkdesk .locales").fadeIn();
+        }
+      });
+    });
   });
 }(jQuery));
+
+
 
 
 // 3. Outline.js
