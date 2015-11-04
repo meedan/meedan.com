@@ -8,6 +8,7 @@
     width: 100%;
   }
 
+  // A list of "blurbs"
   ul.blurbs {
     display: flex;
     align-items: flex-start;
@@ -19,6 +20,7 @@
     }
   }
 
+  // Single blurb with text and logo
   li {
     color: $firefly80;
     width: 40%;

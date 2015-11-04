@@ -28,6 +28,7 @@ section.bridge--explanations {
   @extend %component--explanations;
 }
 
+// Bridge call to action
 .bridge--call-to-action {
   @extend %colors--form-default;
   background-color: $firefly5;

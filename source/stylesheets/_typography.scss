@@ -1,12 +1,15 @@
 /// Web fonts from Google
+///
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,500");
 
 /// Define font stacks
+///
 $font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 $font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 
 // Standardize line heights
+//
 $line-height--small: 1.2;
 $line-height--medium: 1.5;
 $line-height--large: 1.65;
@@ -111,7 +114,7 @@ li > a {
   }
 }
 
-// # Paragraphs
+// Paragraphs
 p {
   display: block;
   font-size: 1em;
@@ -128,10 +131,7 @@ p {
   }
 }
 
-section.history > p {
-  padding: 0 0 2em 0;
-}
-
+// Links
 a {
   color: $dodger-blue;
 
@@ -141,6 +141,8 @@ a {
   }
 }
 
+/// Typography: dense sections
+///
 %typography--section-dense {
   &:lang(en) {
     h4,

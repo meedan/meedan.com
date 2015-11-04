@@ -9,7 +9,7 @@
   $(document).ready(function () {
 
     // Hide the navbar on the homepage
-    $(".home .navbar").hide();
+    // $(".home .navbar").hide();
 
     // fade in .navbar on homepage when scrolling down
     $(function () {
@@ -20,6 +20,8 @@
       });
     });
 
+    // Checkdesk
+    //
     // fade out localization on checkdesk page when scrolling down
     //
     $(function () {
@@ -33,9 +35,6 @@
     });
   });
 }(jQuery));
-
-
-
 
 // 3. Outline.js
 // See: http://www.paciellogroup.com/blog/2012/04/how-to-remove-css-outlines-in-an-accessible-manner/

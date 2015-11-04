@@ -50,12 +50,21 @@
   line-height: 30px;
 }
 
-// This is hidden on the homepage until revealed by js.
+// Hide nav sometimes
+//
+// On the homepage, the nav's hidden until revealed by js.
+// Except on mobile: then it always shows.
+//
 .home .navbar {
   display: none;
+  // @media all and (max-width: $breakpoint--nav) {
+  //   display: block;
+  // }
 }
 
-// The outer "navbar" (which contains multiple ul's)
+// The outer "navbar"
+//
+// (which contains multiple ul's)
 // Navbar is a bootstrap component: http://getbootstrap.com/components/#navbar
 .navbar {
   background-color: white;
@@ -81,9 +90,9 @@
   }
 }
 
-/// Locale Nav
-///
-/// A list of links to active and inactive languages (locales).
+// Locale Nav
+//
+// A list of links to active and inactive languages (locales).
 .nav.locales {
   li {
     border-left-width: 0;
@@ -121,6 +130,7 @@
 
 // Page navigation: current page indicator
 //
+// Loop through the main pages.
 @each $page in (bridge, checkdesk, about)  {
   @media all and (max-width: $breakpoint--nav) {
     .#{$page} .navbar-nav .#{$page} a {
@@ -136,10 +146,7 @@
   }
 }
 
-// Temporary locale navigation styles
-//
-// This is temporary styling for the ul nav until we have translations for all the other pages
-// This only appears on checkdesk page
+// Locale navigation styles
 //
 ul.locales {
   @media all and (min-width: $breakpoint--nav) {
@@ -157,7 +164,7 @@ ul.locales {
       color: $firefly80 !important;
     }
 
-    // make sure they don't switch sides when changing langs
+    // Make sure they don't switch sides when changing langs
     li.ar {
       float: right;
     }

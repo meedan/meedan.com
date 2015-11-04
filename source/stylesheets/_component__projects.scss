@@ -1,7 +1,8 @@
-// # Homepage: projects
+// Homepage: projects
 //
 
-// # Projects
+// Projects
+//
 %component--projects {
   @extend %flex-container;
   justify-content: center;
@@ -21,7 +22,7 @@
     }
   }
 
-  // ## Set the logo widths
+  // Set the logo widths
   .project--bridge svg {
     width: 11em;
   }
