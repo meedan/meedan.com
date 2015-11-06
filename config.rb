@@ -39,6 +39,12 @@ configure :build do
 end
 
 helpers do
+
+  # Infer image name from header
+  #
+  # Input: a section name header
+  # Output: an image name
+  #
   def infer_image_from_header(text= "Section Name")
     "checkdesk--#{text.downcase.gsub(' ','-')}-#{I18n.locale}"
   end
