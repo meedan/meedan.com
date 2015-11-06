@@ -20,13 +20,14 @@ slug: "checkdesk"
 
 <!-- Explanations -->
 <section class="checkdesk--explanations">
-  <% t("checkdesk.explanations").each do |e| %>
+  <% t("checkdesk.explanations", :fallback => :en ).each do |e| %>
     <div class="explanation">
       <div class="header-and-description">
         <h3><%= e[:header] %></h3>
         <p><%= e[:text] %></p>
       </div>
-      <% image = "#{e[:header].downcase.gsub(' ','-')}-#{I18n.locale}" %>
+
+      <% image = infer_image_from_header e[:header] %>
       <img class="screenshot"
            src="/images/screenshots/<%= image %>@1x.png"
            srcset="/images/screenshots/<%= image %>@2x.png 2x"

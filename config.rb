@@ -37,3 +37,9 @@ configure :build do
 	activate :minify_css
 	activate :minify_javascript
 end
+
+helpers do
+  def infer_image_from_header(text= "Section Name")
+    "checkdesk--#{text.downcase.gsub(' ','-')}-#{I18n.locale}"
+  end
+end
