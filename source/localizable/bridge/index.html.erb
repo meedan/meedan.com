@@ -6,8 +6,8 @@ slug: "bridge"
 <!-- Bridge branding Section -->
 <section class="bridge--branding">
   <img class="screenshot" alt="Bridge screenshot"
-  src="/images/screenshots/bridge4colidevice@1x.png"
-  srcset="/images/screenshots/bridge4colidevice@2x.png 2x">
+  src="/images/screenshots/bridge--4-col-with-phone-en@1x.png"
+  srcset="/images/screenshots/bridge--4-col-with-phone-en@2x.png 2x">
 
   <div class="logo-and-slogan">
     <svg class="logo" width="300"><use xlink:href="#bridge" /></svg>
@@ -56,8 +56,8 @@ slug: "bridge"
         <p><%= e[:text] %></p>
       </div>
       <img class="screenshot"
-           src="/images/screenshots/<%= e[:img] %>@1x.png"
-           srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
+           src="/images/screenshots/<%= e[:img] %>-<%= I18n.locale %>@1x.png"
+           srcset="/images/screenshots/<%= e[:img] %>-<%= I18n.locale %>@2x.png 2x"
       alt="<%= e[:alt] %>"/>
     </div>
   <% end %>
@@ -92,5 +92,6 @@ slug: "bridge"
 
 <!-- Footer -->
 <div class="bridge--footer">
-  <p><%= t("bridge.footer.primary") %> <%= t("bridge.footer.policies") %> <%= t("bridge.branding.follow") %></p>
+  <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
+  <p><a href="/en/bridge/bridge_privacy.html"><%= t("bridge.footer.privacy") %> | <a href="/en/bridge/bridge_tos.html"><%= t("bridge.footer.tos") %></a></p>
 </div>

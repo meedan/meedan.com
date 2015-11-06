@@ -46,21 +46,20 @@ div.about--products-photo {
 
 // About: Products text
 //
-section.about--products-text {
+section.about--products {
   background-color: $firefly5;
-  // @extend %typography--section-dense;
 }
 
 // About page: public engagement photo
 //
-div.about--public-engagement-photo {
-  @include component--background-photo("../images/banners/public-engagegment-photo@1x.jpg");
+div.about--public-engage {
+  @include component--background-photo("../images/banners/public-engagement-photo@1x.jpg");
   background-position: 40% left;
 }
 
 // About: public engagement
 //
-section.about--public-engagement-text {
+section.about--public-engage {
 }
 
 // About: Promo bar div

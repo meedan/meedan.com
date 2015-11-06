@@ -5,8 +5,8 @@ slug: "checkdesk"
 <!-- Branding -->
 <section class="checkdesk--branding">
   <img class="screenshot"
-      src="/images/screenshots/<%= t('checkdesk.branding.splash') %>@1x.png"
-      srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>@2x.png 2x"
+      src="/images/screenshots/<%= t('checkdesk.branding.splash') %>-<%= I18n.locale %>@1x.png"
+      srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>-<%= I18n.locale %>@2x.png 2x"
       alt="Checkdesk">
 
   <svg class="logo" width="300">
@@ -26,9 +26,10 @@ slug: "checkdesk"
         <h3><%= e[:header] %></h3>
         <p><%= e[:text] %></p>
       </div>
+      <% image = "#{e[:header].downcase.gsub(' ','-')}-#{I18n.locale}" %>
       <img class="screenshot"
-           src="/images/screenshots/<%= e[:img] %>@1x.png"
-           srcset="/images/screenshots/<%= e[:img] %>@2x.png 2x"
+           src="/images/screenshots/<%= image %>@1x.png"
+           srcset="/images/screenshots/<%= image %>@2x.png 2x"
            alt="<%= e[:alt] %>"/>
     </div>
   <% end %>
