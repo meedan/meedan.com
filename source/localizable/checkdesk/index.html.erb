@@ -3,7 +3,6 @@ layout: "default"
 slug: "checkdesk"
 ---
 
-
 <!-- Branding -->
 <section class="checkdesk--branding">
 
@@ -11,6 +10,11 @@ slug: "checkdesk"
       :image => "screenshots/checkdesk--branding",
       :locale => I18n.locale.to_s,
       :alt => "Checkdesk"} %>
+
+  <%= partial "partials/_image.html.erb", :locals => {
+    :type => "svg",
+    :name => "checkdesk-white",
+    :url => "#"} %>
 
   <svg class="logo" width="300">
     <use xlink:href="#checkdesk-white" />
