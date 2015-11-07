@@ -66,3 +66,22 @@ require 'html/proofer'
 # We ignore some URLs because they are just aliases
 #
 HTML::Proofer.new("./build", { :url_ignore => ["/bridge", "/checkdesk", "/about"]}).run
+
+puts "==========================================".red
+puts " Starting response size tests".red
+puts "==========================================".red
+require 'net/http'
+
+MEGABYTE = 1024.0 * 1024.0
+def bytes_to_meg bytes
+  bytes /  MEGABYTE
+end
+
+response = nil
+["/en/", "/ar/", "/en/checkdesk", "/ar/checkdesk", "/en/bridge", "/ar/bridge", "/en/about", "/ar/about"].each do |link|
+  Net::HTTP.start('localhost', 4567) do |http|
+   response = http.get(link)
+   size = bytes_to_meg(response.body.size).to_s.slice(0,6)
+   puts "#{link} is #{size}" + " MB"
+  end
+end

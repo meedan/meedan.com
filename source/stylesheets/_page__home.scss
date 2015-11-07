@@ -73,7 +73,6 @@ body.home {
 //
 .home--branding {
   @extend %component--branding;
-
   .logo--meedan-primary {
     width: 200px;
     animation: fadeIn 0.8s;
