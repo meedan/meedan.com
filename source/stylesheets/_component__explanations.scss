@@ -49,9 +49,8 @@
 
   img.screenshot {
     max-width: 100%;
-    width: 350px;
+    width: 50%;
     @media (max-width: $breakpoint) {
-      width: 300px;
       margin-top: 2em;
     }
   }

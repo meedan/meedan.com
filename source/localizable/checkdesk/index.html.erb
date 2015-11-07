@@ -2,12 +2,15 @@
 layout: "default"
 slug: "checkdesk"
 ---
+
+
 <!-- Branding -->
 <section class="checkdesk--branding">
-  <img class="screenshot"
-      src="/images/screenshots/checkdesk--laptop-<%= I18n.locale %>@1x.png"
-      srcset="/images/screenshots/checkdesk--laptop-<%= I18n.locale %>@2x.png 2x"
-      alt="Checkdesk">
+
+  <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+      :image => "screenshots/checkdesk--branding",
+      :locale => I18n.locale.to_s,
+      :alt => "Checkdesk"} %>
 
   <svg class="logo" width="300">
     <use xlink:href="#checkdesk-white" />
@@ -27,10 +30,12 @@ slug: "checkdesk"
         <h3><%= explanations[i][:header] %></h3>
         <p><%= explanations[i][:text] %></p>
       </div>
-      <img class="screenshot"
-           src="/images/screenshots/checkdesk--explanation-<%= i + 1 %>-<%= I18n.locale %>@1x.png"
-           srcset="/images/screenshots/checkdesk--explanation-<%= i + 1 %>-<%= I18n.locale %>@2x.png 2x"
-           alt="<%= explanations[i][:alt] %>"/>
+
+      <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+          :image => "screenshots/checkdesk--explanation-#{i+1}",
+          :locale => I18n.locale.to_s,
+          :alt => explanations[i][:alt]
+          } %>
     </div>
   <% end %>
 </section>
