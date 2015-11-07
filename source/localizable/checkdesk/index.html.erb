@@ -5,12 +5,12 @@ slug: "checkdesk"
 <!-- Branding -->
 <section class="checkdesk--branding">
   <img class="screenshot"
-      src="/images/screenshots/<%= t('checkdesk.branding.splash') %>-<%= I18n.locale %>@1x.png"
-      srcset="/images/screenshots/<%= t('checkdesk.branding.splash') %>-<%= I18n.locale %>@2x.png 2x"
+      src="/images/screenshots/checkdesk--laptop-<%= I18n.locale %>@1x.png"
+      srcset="/images/screenshots/checkdesk--laptop-<%= I18n.locale %>@2x.png 2x"
       alt="Checkdesk">
 
   <svg class="logo" width="300">
-    <use xlink:href="#checkdeskwhite" />
+    <use xlink:href="#checkdesk-white" />
   </svg>
 
   <p class="slogan">
@@ -20,17 +20,17 @@ slug: "checkdesk"
 
 <!-- Explanations 1, 2, 3 -->
 <section class="checkdesk--explanations">
-  <% explainers = t("checkdesk.explanations") %>
-  <% for i in 0...explainers.length %>
+  <% explanations = t("checkdesk.explanations") %>
+  <% for i in 0...explanations.length %>
     <div class="explanation">
       <div class="header-and-description">
-        <h3><%= explainers[i][:header] %></h3>
-        <p><%= explainers[i][:text] %></p>
+        <h3><%= explanations[i][:header] %></h3>
+        <p><%= explanations[i][:text] %></p>
       </div>
       <img class="screenshot"
            src="/images/screenshots/checkdesk--explanation-<%= i + 1 %>-<%= I18n.locale %>@1x.png"
            srcset="/images/screenshots/checkdesk--explanation-<%= i + 1 %>-<%= I18n.locale %>@2x.png 2x"
-           alt="<%= explainers[i][:alt] %>"/>
+           alt="<%= explanations[i][:alt] %>"/>
     </div>
   <% end %>
 </section>
@@ -65,7 +65,7 @@ slug: "checkdesk"
             &ldquo;
           </span>
           <%= t[:quote] %>
-          </p>
+        </p>
         <p class="attribution--name">
           <%= "— #{t[:attribution]}," %>
         </p>

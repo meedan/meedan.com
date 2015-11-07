@@ -13,8 +13,8 @@ $logo-large-width: 250px;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    flex-align: center;
     align-items: center;
+    list-style-type: none;
 
     a {
       padding: 1em;
@@ -47,7 +47,7 @@ $logo-large-width: 250px;
         max-width: 100px;
       }
     }
-    .firstdraft svg {
+    .first-draft svg {
       width: 75px;
       margin-top: 10px;
     }

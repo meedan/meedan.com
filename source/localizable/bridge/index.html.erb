@@ -49,16 +49,18 @@ slug: "bridge"
 
 <!-- Explanations -->
 <section class="bridge--explanations">
-  <% t("bridge.explanations").each do |e| %>
+
+  <% explanations = t("bridge.explanations") %>
+  <% for i in 0...explanations.length %>
     <div class="explanation">
       <div class="header-and-description">
-        <h3><%= e[:header] %></h3>
-        <p><%= e[:text] %></p>
+        <h3><%= explanations[i][:header] %></h3>
+        <p><%= explanations[i][:text] %></p>
       </div>
       <img class="screenshot"
-           src="/images/screenshots/<%= e[:img] %>-<%= I18n.locale %>@1x.png"
-           srcset="/images/screenshots/<%= e[:img] %>-<%= I18n.locale %>@2x.png 2x"
-      alt="<%= e[:alt] %>"/>
+           src="/images/screenshots/bridge--explanation-<%= i + 1 %>-<%= I18n.locale %>@1x.png"
+           srcset="/images/screenshots/bridge--explanation-<%= i + 1 %>-<%= I18n.locale %>@2x.png 2x"
+           alt="<%= explanations[i][:alt] %>"/>
     </div>
   <% end %>
 </section>
@@ -93,5 +95,5 @@ slug: "bridge"
 <!-- Footer -->
 <div class="bridge--footer">
   <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
-  <p><a href="/en/bridge/bridge_privacy.html"><%= t("bridge.footer.privacy") %> | <a href="/en/bridge/bridge_tos.html"><%= t("bridge.footer.tos") %></a></p>
+  <p><a href="/en/bridge/bridge_privacy.html"><%= t("bridge.footer.privacy") %></a> | <a href="/en/bridge/bridge_tos.html"><%= t("bridge.footer.tos") %></a></p>
 </div>
