@@ -65,7 +65,6 @@ puts "==========================================".red
 puts " Starting casper tests".red
 puts "==========================================".red
 
-binding.pry
 if test_server_running?
   system("casperjs test --log-level=error test.js --engine=slimerjs")
 else
