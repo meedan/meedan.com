@@ -5,9 +5,10 @@ slug: "home"
 <!-- Homepage Branding -->
 <section class="home--branding">
 
-  <svg class="logo--meedan-primary" width="100">
-    <use xlink:href="#meedan-logo-text" />
-  </svg>
+  <%= partial "partials/image.html.erb", :locals => {
+        :url => "#/",
+        :name => "meedan-logo-text",
+        :type => "svg" } %>
 
   <p class="slogan"><%= t("home.branding.slogan") %></p>
   <p class="about"><%= t("home.branding.about") %></p>

@@ -77,7 +77,6 @@ HTML::Proofer.new("./build", {
 puts "==========================================".red
 puts " Starting response size tests".red
 puts "==========================================".red
-require 'net/http'
 
 MEGABYTE = 1024.0 * 1024.0
 def bytes_to_megabytes bytes

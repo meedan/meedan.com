@@ -27,7 +27,7 @@ gulp.task('bundle-svg', function () {
     .pipe(svgstore({
       inlineSvg: true
     }))
-    .pipe(gulp.dest('source/images/vector/'))
+    .pipe(gulp.dest('source/images/'))
 });
 
 // Check our pagespeed score (in production)
