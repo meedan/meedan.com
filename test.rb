@@ -77,8 +77,9 @@ def bytes_to_meg bytes
   bytes /  MEGABYTE
 end
 
+pages = ["/en/", "/ar/", "/en/checkdesk", "/ar/checkdesk", "/en/bridge", "/ar/bridge", "/en/about", "/ar/about"]
 response = nil
-["/en/", "/ar/", "/en/checkdesk", "/ar/checkdesk", "/en/bridge", "/ar/bridge", "/en/about", "/ar/about"].each do |link|
+pages.each do |link|
   Net::HTTP.start('localhost', 4567) do |http|
    response = http.get(link)
    size = bytes_to_meg(response.body.size).to_s.slice(0,6)
