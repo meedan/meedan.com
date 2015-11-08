@@ -12,6 +12,8 @@ require 'rubygems'
 require 'yaml'
 require 'colorize'
 LOCALES_PATH = 'locales'
+PAGES = ["/en/", "/ar/", "/en/checkdesk", "/ar/checkdesk", "/en/bridge", "/ar/bridge", "/en/about", "/ar/about"]
+LEGACY_PATHS = ["/bridge", "/checkdesk", "/about"]
 
 # Languages
 #
@@ -65,7 +67,12 @@ require 'html/proofer'
 
 # We ignore some URLs because they are just aliases
 #
-HTML::Proofer.new("./build", { :url_ignore => ["/bridge", "/checkdesk", "/about"]}).run
+HTML::Proofer.new("./build", {
+  :verbose => true,
+  :check_html => true,
+  :check_favicon => true,
+  :url_ignore => LEGACY_PATHS
+  }).run
 
 puts "==========================================".red
 puts " Starting response size tests".red
@@ -73,16 +80,15 @@ puts "==========================================".red
 require 'net/http'
 
 MEGABYTE = 1024.0 * 1024.0
-def bytes_to_meg bytes
+def bytes_to_megabytes bytes
   bytes /  MEGABYTE
 end
 
-pages = ["/en/", "/ar/", "/en/checkdesk", "/ar/checkdesk", "/en/bridge", "/ar/bridge", "/en/about", "/ar/about"]
 response = nil
-pages.each do |link|
+PAGES.each do |link|
   Net::HTTP.start('localhost', 4567) do |http|
    response = http.get(link)
-   size = bytes_to_meg(response.body.size).to_s.slice(0,6)
+   size = bytes_to_megabytes(response.body.size).to_s.slice(0,6)
    puts "#{link} is #{size}" + " MB"
   end
 end

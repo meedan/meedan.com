@@ -17,8 +17,16 @@ handleErrors = function () {
 // SVG files get special handling
 gulp.task('bundle-svg', function () {
   gulp.src('source/images/vector/*.svg')
-    .pipe(svgmin())
-    .pipe(svgstore())
+    .pipe(svgmin({
+      plugins: [{
+        removeDoctype: true
+      }, {
+        removeComments: true
+      }]
+    }))
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
     .pipe(gulp.dest('source/images/vector/'))
 });
 
