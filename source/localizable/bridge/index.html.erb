@@ -57,10 +57,12 @@ slug: "bridge"
         <h3><%= explanations[i][:header] %></h3>
         <p><%= explanations[i][:text] %></p>
       </div>
-      <img class="screenshot"
-           src="/images/screenshots/bridge--explanation-<%= i + 1 %>-<%= I18n.locale %>@1x.jpg"
-           srcset="/images/screenshots/bridge--explanation-<%= i + 1 %>-<%= I18n.locale %>@2x.jpg 2x"
-           alt="<%= explanations[i][:alt] %>"/>
+      <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+          :type => "jpg",
+          :image => "screenshots/bridge--explanation-#{i+1}",
+          :locale => I18n.locale.to_s,
+          :alt => explanations[i][:alt]
+          } %>
     </div>
   <% end %>
 </section>
