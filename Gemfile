@@ -17,5 +17,5 @@ gem "pry"
 
 gem 'middleman-autoprefixer'
 gem 'html-proofer'
-gem 'colorize'
+gem 'rainbow'
 gem 'middleman-alias'

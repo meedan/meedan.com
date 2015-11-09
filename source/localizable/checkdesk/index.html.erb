@@ -15,7 +15,7 @@ slug: "checkdesk"
   <%= partial "partials/_image.html.erb", :locals => {
       :type => "svg",
       :name => "checkdesk-white",
-      :url => "#" } %>
+      :url => "/#{I18n.locale}/checkdesk" } %>
 
   <p class="slogan">
     <%= t("checkdesk.branding.slogan") %>
@@ -101,7 +101,7 @@ slug: "checkdesk"
       <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
         :name => "sida",
-        :url => "http://www.sida.se/english/"} %>
+        :url => "http://www.sida.se/english"} %>
     </li>
 
     <li>
@@ -109,7 +109,6 @@ slug: "checkdesk"
         :type => "svg",
         :name => "kf",
         :url => "http://www.knightfoundation.org"} %>
-    </a>
     </li>
   </ul>
 </section>

@@ -10,16 +10,15 @@
 #
 require 'rubygems'
 require 'yaml'
-require 'colorize'
 require 'net/http'
 require 'pry'
+require 'rainbow'
+require 'html/proofer'
 
 LOCALES_PATH = 'locales'
 PAGES = ["/en/", "/ar/", "/en/checkdesk", "/ar/checkdesk", "/en/bridge", "/ar/bridge", "/en/about", "/ar/about"]
-LEGACY_PATHS = ["/bridge", "/checkdesk", "/about"]
+LEGACY_PATHS = ["/bridge", "/checkdesk", "/about", "/"]
 
-# Languages
-#
 lang_1_name = "en"
 lang_2_name = "ar"
 
@@ -28,7 +27,7 @@ lang_2_name = "ar"
 lang_1_data = YAML.load_file(File.join(LOCALES_PATH,lang_1_name + ".yml"))
 lang_2_data = YAML.load_file(File.join(LOCALES_PATH,lang_2_name + ".yml"))
 
-# Recursive diff
+# Recursive diff for YAML comparison
 #
 def diff(root, compared, structure = [])
   root.each_key do |key|
@@ -40,6 +39,9 @@ def diff(root, compared, structure = [])
   end
 end
 
+# Helper to avoid hanging when server is not ready
+#
+# Ideally this should just boot the server — CGB 2015 Nov 6
 def url_exists?(url_string)
   url = URI.parse(url_string)
   req = Net::HTTP.new(url.host, url.port)
@@ -61,6 +63,14 @@ def test_server_running?
   url_exists?("http://127.0.0.1:4567/")
 end
 
+# Helper to measure page sizes
+#
+MEGABYTE = 1024.0 * 1024.0
+def bytes_to_megabytes bytes
+  bytes /  MEGABYTE
+end
+
+
 puts "==========================================".red
 puts " Starting casper tests".red
 puts "==========================================".red
@@ -75,25 +85,17 @@ end
 puts "==========================================".red
 puts " Starting HTML-Proofer tests".red
 puts "==========================================".red
-require 'html/proofer'
 
-# We ignore some URLs because they are just aliases
-#
+# We should probably rebuild the site to avoid testing stale output. — CGB 2015 Nov 6
 HTML::Proofer.new("./build", {
   :verbose => true,
   :check_html => true,
-  :check_favicon => true,
   :url_ignore => LEGACY_PATHS
   }).run
 
 puts "==========================================".red
 puts " Starting response size tests".red
 puts "==========================================".red
-
-MEGABYTE = 1024.0 * 1024.0
-def bytes_to_megabytes bytes
-  bytes /  MEGABYTE
-end
 
 if test_server_running?
   response = nil

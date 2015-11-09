@@ -24,7 +24,6 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     colored (1.2)
-    colorize (0.7.7)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -128,6 +127,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rainbow (2.0.0)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -162,13 +162,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  colorize
   html-proofer
   middleman (~> 3.4.0)
   middleman-alias
   middleman-autoprefixer
   middleman-livereload (~> 3.1.0)
   pry
+  rainbow
   tzinfo-data
   wdm (~> 0.1.0)
 
