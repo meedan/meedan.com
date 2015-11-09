@@ -10,7 +10,7 @@ casper.test.begin('home page loads', 2, function suite(test) {
     test.assertUrlMatch(defaultHomePage, "URL looks like the default language-specific homepage.");
   });
   casper.then(function () {
-    test.assertExists('h1', "Homepage h1 exists.");
+    test.assertExists('.slogan', "Homepage h1 exists.");
   });
   casper.run(function () {
     test.done();
