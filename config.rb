@@ -27,13 +27,13 @@ I18n.fallbacks.map(:ar => :en)
 #
 # (while editing templates)
 configure :development do
-  # activate :livereload
+  activate :livereload
 end
 
 # Build config
 #
 # (when generating the static files)
 configure :build do
-	# activate :minify_css
-	# activate :minify_javascript
+	activate :minify_css
+	activate :minify_javascript
 end

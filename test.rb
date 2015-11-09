@@ -27,6 +27,14 @@ lang_2_name = "ar"
 lang_1_data = YAML.load_file(File.join(LOCALES_PATH,lang_1_name + ".yml"))
 lang_2_data = YAML.load_file(File.join(LOCALES_PATH,lang_2_name + ".yml"))
 
+# Banner helper
+#
+def banner(text = "")
+  puts "==========================================".red
+  puts text.red
+  puts "==========================================".red
+end
+
 # Recursive diff for YAML comparison
 #
 def diff(root, compared, structure = [])
@@ -67,36 +75,28 @@ end
 #
 MEGABYTE = 1024.0 * 1024.0
 def bytes_to_megabytes bytes
-  bytes /  MEGABYTE
+  bytes / MEGABYTE
 end
 
-
-puts "==========================================".red
-puts " Starting casper tests".red
-puts "==========================================".red
-
+# Casper tests use casper.js
+banner(" Starting casper tests")
 if test_server_running?
-  system("casperjs test --log-level=error test.js --engine=slimerjs")
+  system("casperjs test --log-level=error test-casper.js --engine=slimerjs")
 else
   puts "Sry, you need to start the test server like this:"
   puts "ruby -run -ehttpd build -p4567"
 end
 
-puts "==========================================".red
-puts " Starting HTML-Proofer tests".red
-puts "==========================================".red
-
-# We should probably rebuild the site to avoid testing stale output. — CGB 2015 Nov 6
+banner(" Starting HTML-Proofer tests".red)
+# TODO We should probably rebuild the site to avoid testing stale output. — CGB 2015 Nov 6
+# For now, make sure you `be middleman build` before running this.
 HTML::Proofer.new("./build", {
   :verbose => true,
   :check_html => true,
   :url_ignore => LEGACY_PATHS
   }).run
 
-puts "==========================================".red
-puts " Starting response size tests".red
-puts "==========================================".red
-
+banner("Starting response size tests")
 if test_server_running?
   response = nil
   PAGES.each do |link|
@@ -108,17 +108,11 @@ if test_server_running?
   end
 end
 
-puts "==========================================".blue
-puts " MISSING FROM #{lang_2_name}.yml".blue
-puts "==========================================".blue
+banner("MISSING FROM #{lang_2_name}.yml")
 diff(lang_1_data[lang_1_name], lang_2_data[lang_2_name], [lang_2_name])
 
-puts "==========================================".green
-puts " MISSING FROM #{lang_1_name}.yml".green
-puts "==========================================".green
+banner(" MISSING FROM #{lang_1_name}.yml")
 diff(lang_2_data[lang_2_name], lang_1_data[lang_1_name], [lang_1_name])
 
-puts "==========================================".green
-puts " Starting".green
-puts "==========================================".green
+banner("Starting pagespeed")
 system("gulp pagespeed")

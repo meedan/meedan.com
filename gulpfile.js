@@ -40,3 +40,19 @@ gulp.task('pagespeed', function () {
     console.log(data.pageStats);
   });
 });
+
+
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
+
+gulp.task('imagemin', function () {
+  return gulp.src(['source/images/**/*', '!source/images/vector.svg'])
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{
+        removeViewBox: false
+      }],
+      use: [pngquant()]
+    }))
+    .pipe(gulp.dest('source/images/'));
+});

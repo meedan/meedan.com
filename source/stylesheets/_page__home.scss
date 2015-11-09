@@ -73,12 +73,11 @@ body.home {
 //
 .home--branding {
   @extend %component--branding;
-  .logo--meedan-primary {
-    width: 200px;
+  .meedan-logo-text {
+    width: 100%;
     animation: fadeIn 0.8s;
-    .bridge &, .checkdesk & {
-      width: 300px;
-    }
+    margin-bottom: 1em;
+    display: block;
     @media all and (max-width: $breakpoint) {
       max-width: 200px;
       width: 70%;
