@@ -73,15 +73,13 @@ body.home {
 //
 .home--branding {
   @extend %component--branding;
-  .meedan-logo-text {
-    width: 100%;
+  padding-top: 80px;
+  .meedan-logo-text svg {
+    height: 200px;
     animation: fadeIn 0.8s;
-    margin-bottom: 1em;
     display: block;
-    @media all and (max-width: $breakpoint) {
-      max-width: 200px;
-      width: 70%;
-    }
+    margin: 0 auto;
+    margin-bottom: 1em;
   }
 }
 
