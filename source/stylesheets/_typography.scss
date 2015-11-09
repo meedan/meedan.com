@@ -146,8 +146,11 @@ a {
   &:lang(en) {
     h4,
     p {
-      font-size: 0.8em;
       text-align: left;
+    }
+
+    p {
+      padding: 2em;
     }
   }
 }

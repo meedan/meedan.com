@@ -65,7 +65,9 @@ section.about--public-engage {
 // About: Promo bar div
 //
 .about--promo-bar {
-  margin: 1.6em 0.5em;
+  margin: 1.4em 0.5em;
+  line-height: 1.8;
+  font-size: 1.2em;
   a {
     margin-left: 1em;
     margin-right: 1em;
@@ -75,9 +77,11 @@ section.about--public-engage {
     color: white;
     border-radius: $form--button-radius;
     padding: $form--button-padding;
+    display: inline-block;
+    min-width: 150px;
     &:hover {
       text-decoration: none;
-      background-color: $firefly80;
+      background-color: $firefly;
     }
   }
 }
