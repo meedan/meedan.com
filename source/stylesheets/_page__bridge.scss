@@ -29,6 +29,9 @@ section.bridge--supporters {
 section.bridge--explanations {
   @extend %colors--default;
   @extend %component--explanations;
+  img.screenshot {
+    max-width: 300px;
+  }
 }
 
 // Bridge call to action
