@@ -7,15 +7,16 @@ slug: "checkdesk"
 <section class="checkdesk--branding">
 
   <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
-      :type => "png",
-      :image => "screenshots/checkdesk--branding",
+      :type   => "png",
+      :image  => "screenshots/checkdesk--branding",
       :locale => I18n.locale.to_s,
-      :alt => "Checkdesk"} %>
+      :alt    => "Checkdesk",
+      :classname  => "screenshot" } %>
 
   <%= partial "partials/_image.html.erb", :locals => {
       :type => "svg",
       :name => "checkdesk-white",
-      :url => "/#{I18n.locale}/checkdesk" } %>
+      :url  => "/#{I18n.locale}/checkdesk" } %>
 
   <p class="slogan">
     <%= t("checkdesk.branding.slogan") %>
@@ -34,10 +35,11 @@ slug: "checkdesk"
 
       <div class="screenshot">
         <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
-          :type => "jpg",
-          :image => "screenshots/checkdesk--explanation-#{i+1}",
+          :type   => "jpg",
+          :image  => "screenshots/checkdesk--explanation-#{i+1}",
           :locale => I18n.locale.to_s,
-          :alt => explanations[i][:alt]
+          :alt    => explanations[i][:alt],
+          :classname  => "screenshot"
           } %>
       </div>
     </div>
@@ -103,14 +105,14 @@ slug: "checkdesk"
       <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
         :name => "sida",
-        :url => "http://www.sida.se/english"} %>
+        :url => "http://www.sida.se/english" } %>
     </li>
 
     <li>
     <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
         :name => "kf",
-        :url => "http://www.knightfoundation.org"} %>
+        :url => "http://www.knightfoundation.org" } %>
     </li>
   </ul>
 </section>
