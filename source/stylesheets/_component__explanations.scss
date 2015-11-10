@@ -47,13 +47,15 @@
     }
   }
 
-  img.screenshot {
-    max-width: 100%;
+  div.screenshot {
     width: 50%;
+    img {
+      max-width: 100%;
+    }
     @media (max-width: $breakpoint) {
       margin-top: 2em;
       width: 90%;
-      max-width: 525px;
+      max-width: 425px;
     }
   }
 }

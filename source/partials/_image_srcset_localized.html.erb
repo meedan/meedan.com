@@ -1,4 +1,4 @@
 <%# render two images for a given locale using srcset %>
 <%# srcset is awesome! See: https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/ %>
-<%= "<img class='screenshot' src='/images/#{image}-#{locale}@1x.#{type}'
+<%= "<img src='/images/#{image}-#{locale}@1x.#{type}'
   srcset='/images/#{image}-#{locale}@2x.#{type} 2x' alt='#{alt}'>" %>

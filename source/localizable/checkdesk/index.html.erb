@@ -32,12 +32,14 @@ slug: "checkdesk"
         <p><%= explanations[i][:text] %></p>
       </div>
 
-      <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+      <div class="screenshot">
+        <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
           :type => "jpg",
           :image => "screenshots/checkdesk--explanation-#{i+1}",
           :locale => I18n.locale.to_s,
           :alt => explanations[i][:alt]
           } %>
+      </div>
     </div>
   <% end %>
 </section>
