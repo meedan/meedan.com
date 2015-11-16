@@ -22,14 +22,6 @@ activate :i18n, :mount_at_root => "en"
 #
 # Image names are only kept in the en.yml
 I18n.fallbacks.map(:ar => :en)
-
-# Dev config only
-#
-# (while editing templates)
-configure :development do
-  activate :livereload
-end
-
 # Build config
 #
 # (when generating the static files)
