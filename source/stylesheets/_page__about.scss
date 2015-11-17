@@ -52,7 +52,7 @@ section.about--products {
 
 // About page: public engagement photo
 //
-div.about--public-engage {
+div.about--public-engage-photo {
   @include component--background-photo("../images/banners/public-engagement-photo@1x.jpg");
   background-position: 40% left;
 }
