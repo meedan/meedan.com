@@ -97,29 +97,10 @@ slug: "checkdesk"
   <% end %>
 </section>
 
-<!-- Supporters -->
-<section class="checkdesk--supporters">
-  <h3> <%= t("checkdesk.supporters.header") %> </h3>
-  <ul class="logos">
-    <!-- <li>
-      <%= partial "partials/_image.html.erb", :locals => {
-        :type => "svg",
-        :name => "sida",
-        :url => "http://www.sida.se/english" } %>
-    </li> -->
-
-    <li>
-    <%= partial "partials/_image.html.erb", :locals => {
-        :type => "svg",
-        :name => "kf",
-        :url => "http://www.knightfoundation.org" } %>
-    </li>
-  </ul>
-</section>
-
 <!-- Partners -->
 <section class="checkdesk--partners">
   <h3><%= t("checkdesk.partners.header") %></h3>
+  <p><%= t("checkdesk.partners.text") %></p>
   <ul class="logos">
     <% data.checkdesk_partner_logos.each do |image| %>
       <li>
