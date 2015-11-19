@@ -45,10 +45,10 @@ section.bridge--branding{
   }
 }
 
-section.bridge--call-to-action{
-  .appstore-bottom-footer{
-    margin-top: 2em;
-  }
+section.bridge--appstore-footer{
+    background-color: $firefly5;
+    padding-top: 2em;
+    padding-bottom: 0;
 }
 
 // Bridge call to action

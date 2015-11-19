@@ -20,37 +20,13 @@ slug: "bridge"
 </section>
 
 
-<section class="bridge--call-to-action">
-  <h2 class="call-to-action--text">
-    <%= t("bridge.branding.call_to_action") %>
-  </h2>
 
-  <div class="call-to-action--form" id="mc_embed_signup">
-    <form class="mailchimp validate" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&amp;id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 
-      <div class="form-group">
-        <label for="mce-EMAIL">
-          <%= t("bridge.form.label_1") %>
-        </label>
-        <input type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com" id="mce-EMAIL">
-        <input type="submit" value="<%= t('bridge.form.submit')%>" name="subscribe" id="mc-embedded-subscribe" class="button">
-      </div>
+<!-- Sign up section -->
 
-       <!-- Anti-spam honeypot technique -->
-      <div style="position: absolute; left: -5000px;">
-        <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" tabindex="-1" value="">
-      </div>
 
-      <!-- Checkbox -->
-      <div class="apply-to-translate">
-        <input type="checkbox" value="1" name="group[7069][1]" id="mce-group[7069]-7069-0">
-        <label for="mce-group[7069]-7069-0">
-          <%= t('bridge.form.label_2')%>
-        </label>
-      </div>
-    </form>
-  </div>
-</section>
+<%= partial "partials/bridge_call_to_action" %>
+
 
 <!-- Explanations -->
 <section class="bridge--explanations">
@@ -101,42 +77,21 @@ slug: "bridge"
   </ul>
   <p><%= t("bridge.supporters.partner_paragraph")%></p>
 </section>
-<!--signup again-->
-<section class="bridge--call-to-action">
 
-  <div class="appstore-bottom-footer">
-  <a href="https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8"><svg class="appstore" width="135" height="40"><use xlink:href="#app-store-badge-135x40" /></svg></a>
-  </div>
-  <h2 class="call-to-action--text">
-    <%= t("bridge.branding.call_to_action") %>
-  </h2>
-
-  <div class="call-to-action--form" id="mc_embed_signup">
-    <form class="mailchimp validate" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&amp;id=16c3bf2018" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-
-      <div class="form-group">
-        <label for="mce-EMAIL">
-          <%= t("bridge.form.label_1") %>
-        </label>
-        <input type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com" id="mce-EMAIL">
-        <input type="submit" value="<%= t('bridge.form.submit')%>" name="subscribe" id="mc-embedded-subscribe" class="button">
-      </div>
-
-       <!-- Anti-spam honeypot technique -->
-      <div style="position: absolute; left: -5000px;">
-        <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" tabindex="-1" value="">
-      </div>
-
-      <!-- Checkbox -->
-      <div class="apply-to-translate">
-        <input type="checkbox" value="1" name="group[7069][1]" id="mce-group[7069]-7069-0">
-        <label for="mce-group[7069]-7069-0">
-          <%= t('bridge.form.label_2')%>
-        </label>
-      </div>
-    </form>
-  </div>
+<!-- App store at the footer, looks like background of cta section -->
+<section class="bridge--appstore-footer">
+<a href="https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8"><svg class="appstore" width="135" height="40"><use xlink:href="#app-store-badge-135x40" /></svg></a>
 </section>
+
+
+
+<!-- Sign up section -->
+
+
+<%= partial "partials/bridge_call_to_action" %>
+
+
+
 <!-- Footer -->
 <div class="bridge--footer">
   <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
