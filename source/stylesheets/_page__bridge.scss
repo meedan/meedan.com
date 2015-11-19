@@ -34,6 +34,17 @@ section.bridge--explanations {
   }
 }
 
+
+section.bridge--branding{
+  .logo-and-slogan{
+    margin: 1.25em auto;
+  }
+  svg.appstore{
+    margin: 0 auto;
+    padding: 0 0 0 0;
+  }
+}
+
 // Bridge call to action
 //
 .bridge--call-to-action {
