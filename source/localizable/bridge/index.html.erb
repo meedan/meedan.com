@@ -32,23 +32,87 @@ slug: "bridge"
 <section class="bridge--explanations">
 
   <% explanations = t("bridge.explanations") %>
-  <% for i in 0...explanations.length %>
     <div class="explanation">
       <div class="header-and-description">
-        <h3><%= explanations[i][:header] %></h3>
-        <p><%= explanations[i][:text] %></p>
+        <h3><%= explanations[0][:header] %></h3>
+        <p><%= explanations[0][:text] %></p>
+      </div>
+
+      <div class="screenshot">
+        <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+            :type => "gif",
+            :image => "screenshots/bridge--explanation-#{1}",
+            :locale => I18n.locale.to_s,
+            :alt => explanations[0][:alt],
+            :classname => "screenshot"
+            } %>
+      </div>
+    </div>
+
+    <div class="explanation">
+      <div class="header-and-description">
+        <h3><%= explanations[1][:header] %></h3>
+        <p><%= explanations[1][:text] %></p>
       </div>
       <div class="screenshot">
         <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
             :type => "jpg",
+            :image => "screenshots/bridge--explanation-#{2}",
+            :locale => I18n.locale.to_s,
+            :alt => explanations[1][:alt],
+            :classname => "screenshot"
+            } %>
+      </div>
+    </div>
+
+    <div class="explanation">
+      <div class="header-and-description">
+        <h3><%= explanations[2][:header] %></h3>
+        <p><%= explanations[2][:text] %></p>
+      </div>
+      <div class="screenshot">
+        <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+            :type => "jpg",
+            :image => "screenshots/bridge--explanation-#{3}",
+            :locale => I18n.locale.to_s,
+            :alt => explanations[2][:alt],
+            :classname => "screenshot"
+            } %>
+      </div>
+    </div>
+
+
+
+  <%# for i in 0...explanations.length %>
+    <!-- <div class="explanation">
+      <div class="header-and-description">
+        <h3><%#= explanations[i][:header] %></h3>
+        <p><%#= explanations[i][:text] %></p>
+      </div> -->
+
+
+      <!-- <div class="screenshot">
+        <%#= partial "partials/_image_srcset_localized.html.erb", :locals => {
+            :type => "gif",
             :image => "screenshots/bridge--explanation-#{i+1}",
             :locale => I18n.locale.to_s,
             :alt => explanations[i][:alt],
             :classname => "screenshot"
             } %>
-      </div>
+      </div> -->
+
     </div>
-  <% end %>
+
+  <%# end %>
+
+
+
+
+
+
+
+
+
 </section>
 
 <!-- History-->
