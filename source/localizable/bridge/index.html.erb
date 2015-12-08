@@ -14,105 +14,38 @@ slug: "bridge"
     <p class="slogan"><%= t('bridge.branding.slogan')%></p>
   </div>
   <div class="appstore">
-  <a href="https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8"><svg class="appstore" width="135" height="40"><use xlink:href="#app-store-badge-135x40" /></svg></a>
+    <a href="https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8"><svg class="appstore" width="135" height="40"><use xlink:href="#app-store-badge-135x40" /></svg></a>
   </div>
-
 </section>
 
-
-
-
 <!-- Sign up section -->
-
-
 <%= partial "partials/bridge_call_to_action" %>
 
-
 <!-- Explanations -->
+<%#= Store the localized explanations (in locales dir) as an array %>
+<% explanations = t("bridge.explanations") %>
+
+<%#= Then loop over the array using the index %>
 <section class="bridge--explanations">
-
-  <% explanations = t("bridge.explanations") %>
+  <% for i in 0...explanations.length %>
     <div class="explanation">
       <div class="header-and-description">
-        <h3><%= explanations[0][:header] %></h3>
-        <p><%= explanations[0][:text] %></p>
+        <h3><%= explanations[i][:header] %></h3>
+        <p><%= explanations[i][:text] %></p>
       </div>
-
-      <div class="screenshot">
-        <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
-            :type => "gif",
-            :image => "screenshots/bridge--explanation-#{1}",
-            :locale => I18n.locale.to_s,
-            :alt => explanations[0][:alt],
-            :classname => "screenshot"
-            } %>
-      </div>
-    </div>
-
-    <div class="explanation">
-      <div class="header-and-description">
-        <h3><%= explanations[1][:header] %></h3>
-        <p><%= explanations[1][:text] %></p>
-      </div>
+      <%#= Render the image using a partial %>
+      <%#= This assumes the images have numbered filenames %>
       <div class="screenshot">
         <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
             :type => "jpg",
-            :image => "screenshots/bridge--explanation-#{2}",
-            :locale => I18n.locale.to_s,
-            :alt => explanations[1][:alt],
-            :classname => "screenshot"
-            } %>
-      </div>
-    </div>
-
-    <div class="explanation">
-      <div class="header-and-description">
-        <h3><%= explanations[2][:header] %></h3>
-        <p><%= explanations[2][:text] %></p>
-      </div>
-      <div class="screenshot">
-        <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
-            :type => "jpg",
-            :image => "screenshots/bridge--explanation-#{3}",
-            :locale => I18n.locale.to_s,
-            :alt => explanations[2][:alt],
-            :classname => "screenshot"
-            } %>
-      </div>
-    </div>
-
-
-
-  <%# for i in 0...explanations.length %>
-    <!-- <div class="explanation">
-      <div class="header-and-description">
-        <h3><%#= explanations[i][:header] %></h3>
-        <p><%#= explanations[i][:text] %></p>
-      </div> -->
-
-
-      <!-- <div class="screenshot">
-        <%#= partial "partials/_image_srcset_localized.html.erb", :locals => {
-            :type => "gif",
             :image => "screenshots/bridge--explanation-#{i+1}",
             :locale => I18n.locale.to_s,
             :alt => explanations[i][:alt],
             :classname => "screenshot"
             } %>
-      </div> -->
-
+      </div>
     </div>
-
-  <%# end %>
-
-
-
-
-
-
-
-
-
+  <% end %>
 </section>
 
 <!-- History-->
@@ -147,14 +80,8 @@ slug: "bridge"
 <a href="https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8"><svg class="appstore" width="135" height="40"><use xlink:href="#app-store-badge-135x40" /></svg></a>
 </section>
 
-
-
 <!-- Sign up section -->
-
-
 <%= partial "partials/bridge_call_to_action" %>
-
-
 
 <!-- Footer -->
 <div class="bridge--footer">
