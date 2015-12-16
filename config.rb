@@ -12,6 +12,9 @@ set :partials_dir, 'partials'
 bower_path = File.join root, 'bower_components'
 sprockets.append_path bower_path
 
+activate :livereload
+
+
 # Routing
 #
 activate :directory_indexes
