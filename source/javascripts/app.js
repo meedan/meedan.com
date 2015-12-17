@@ -68,9 +68,3 @@
   });
 
 })(document);
-
-// panamora feature
-$(function () {
-    // Paver
-    $('div[data-paver]').paver();
-});

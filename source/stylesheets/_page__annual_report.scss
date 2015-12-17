@@ -27,19 +27,13 @@
     font-weight: 400;
   }
 
-  // Caption on the photo
-  //
-  figcaption {
-    padding-top: 1em;
-    font-size: 12px;
-    color: $firefly40;
-  }
 
   .fleuron {
     padding: 3em 0 2em;
     font-size: 30px;
   }
-  // About this Report section
+
+  // Lead text
   //
   .lead-text {
     font-weight: 300;
@@ -64,6 +58,8 @@
     }
   }
 
+  // CEO note
+  //
   .ceo-note {
     font-weight: 400;
     .inner {
@@ -78,14 +74,6 @@
       }
     }
   }
-
-  // Signature
-  //
-  .signature {
-    // padding: 4em;
-    display: none;
-  }
-
 
   // Programs list
   //
@@ -115,23 +103,31 @@
   // Image banner sections
   //
   .image-banner {
-    height: 100vh;
     background-size: cover;
-    background-position: 25%;
-    padding: 0;
-
-    &.lead-photo {
-      background-image: url("/images/annual_report/office-panorama-yellow-screen.jpg");
-      @media all and (min-width:600px) {
-        background-position: left;
-      }
-    }
+    height: 70vh;
 
     &.team-2 {
       background-image: url("/images/annual_report/team-1-blue-screen.jpg");
     }
+
     &.team-3 {
       background-image: url("/images/annual_report/team-3-aqua-screen.jpg");
+    }
+  }
+
+  // Caption on the photo
+  //
+  .caption {
+    // padding-top: 1em;
+    font-size: 13px;
+    padding: 0.3em;
+    color: $firefly40;
+  }
+
+  .lead-photo .image-banner {
+    background-image: url("/images/annual_report/team-6-peach-screen.jpg");
+    @media all and (min-width:600px) {
+      background-position: 20% 50%;
     }
   }
 
@@ -142,8 +138,9 @@
   .contact-us {
     background-color: white;
     color: black;
+    font-size: 0.8em;
     span {
-      font-size: 0.8em;
+
       display: block;
       width: 320px;
       margin: 0 auto;
@@ -161,11 +158,16 @@
     }
   }
 
+  // Bylines
+  //
+  // (names with email addresses)
+  //
   .byline {
     @extend .contact-us;
   }
 
   // Financial data
+  //
   .financials table {
     border: 1px solid $firefly20;
     width: 80%;
@@ -188,30 +190,35 @@
       }
     }
   }
-}
 
-.donate {
-  padding-bottom: 10em;
-  background-color: $firefly80;
-  background-image: url("/images/annual_report/screen-blue.png");
-  color: white;
-  margin-top: 4em;
-  text-align: center;
-  h2 {
+  // Donate
+  //
+  .donate {
+    padding-bottom: 10em;
+    background-image: linear-gradient(to right, rgba($firefly, 0.9),  rgba($firefly, 0.7)), url("/images/annual_report/screen-2.png");
     color: white;
-  }
-  .button {
-    width: 350px;
-    display: block;
-    margin: 4em auto;
-    border-radius: 4px;
-    background-color: $dodgerBlue;
-    padding: 1.2em 2em;
-    color: white;
-    text-decoration: none;
-    &:hover {
-      background-color: darken($dodgerBlue, 10%);
-      transition: background-color 0.4s;
+    margin-top: 4em;
+    p {
+    text-align: center;
+    }
+    h2 {
+      color: white;
+    }
+    .button {
+      width: 320px;
+      font-size: 0.8em;
+      display: block;
+      margin: 4em auto;
+      border-radius: 4px;
+      background-color: $dodgerBlue;
+      padding: 1.2em 2em;
+      color: white;
+      text-decoration: none;
+      &:hover {
+        background-color: darken($dodgerBlue, 10%);
+        transition: background-color 0.4s;
+      }
     }
   }
 }
+

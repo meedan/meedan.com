@@ -9,54 +9,45 @@ This is an environment for fast, synchronized browser refreshing as you edit Sas
 2. `npm start` — this will run middleman with bundler.
 3. Edit .scss, .html and .js files. The browser should live-reload.
 
-## [Middleman](http://middlemanapp.com/) setup
+## This is a [Middleman](http://middlemanapp.com/) site
 
 [Middleman](http://middlemanapp.com/) compiles our static site `build` from files in `source`.
 
-To start compiling Sass and HTML, install the site dependencies, then execute middleman in the top level: `bundle exec middleman`.
+Middleman is a rubyish (sinatraish) and markdownish templating & routing system. When you work with middleman you are generating a static site that is generated in a `build` directory, but you only see the `source` files while you are working. When you are ready to make the static build of all your pages with all your templating logic re-run, you do `middleman build`. You have to do that before you deploy. Commit and push the latest `build` directory to deploy it. Middleman is designed for people who do this routine all day. 
 
-Middleman is a rubyish (sinatraish) and markdownish templating & routing system. It's a little sluggish.
+## Quick start
 
-To run middleman directly without the `npm start` shortcut, do `bundle exec middleman --verbose`.
-
-## Gulp Tasks
-
-We use gulp for a few utilities.
-
-Eventually we'll proably port these into simpler `npm` scripts defined in `package.json` but for now they're still gulp.
-
-These are our gulp tasks (run `gulp -T` to see the latest).
-- bundle-svg — bundle all of the svg files into a single file we can inline into the template.
-- pagespeed — run an optimization test based on google pagespeed insights API. Note: This operates on the live site, not the local site. (To test the local site you can use ngrok and reconfigure the URL in gulpfile.js.)
-- validate - check `./build/*.html` for validity
+* `make` (install dependencies)
+* `npm start` (start middleman with bundler)
 
 ## Installing dependencies
 
-The code we use is packaged with [Rubygems](http://rubygems.com/) and [NPM](https://www.npmjs.com/ "npm"). To get the build environment in place, run this in your terminal in the top level of this directory: `make setup`. This will hopefully:
+The code we use here is packaged with [Rubygems](http://rubygems.com/) and [NPM](https://www.npmjs.com/ "npm"). To get the build environment in place, run this in your terminal in the top level of this directory: 
 
-  * install the `gulp` build tool
-  * install `bundler` and use bundler to install ruby gems listed in the `Gemfile`.
-  * install the `bower` package manager (bower is like npm or bundler)
-  * `npm install` the libs listed in `package.json` 
-  * `bower install` the libs listed in `bower.json`
+  * `make setup`
 
-To see what's installed, read the `./Makefile`.
+Theoretically, that's it. The makefile installs bundler, bower, and npm then does bundle install and bower install. After everything installs, you can hopefully run `npm start`.
 
 ## Local development of meedan.com
 
-*:warning: Don't edit the files in `./build`*
+*:warning: Don't edit the files in `./build` :) * 
 
 To work on the HTML and Sass, edit the files in `./source` while `gulp` runs.
 
-`gulp`, a nodejs base task runner, watches files in `./source` and automatically updates `./build` when files in `./source` are saved. 
+`npm start` will start the middleman compiler for both the stylesheets ([Sass](sass-lang.com/)) and the HTML. Middleman runs with livereload and should refresh the page automatically when you make changes.
 
-Once you've done the `npm install` step, you should be able to run: `gulp`.
+## Getting extra logs from middleman
 
-That will start the compiler for both the stylesheets ([Sass](sass-lang.com/)) and the HTML ([dust](http://akdubya.github.io/dustjs/ "dust") templates). It also starts a nifty tool called [browser-sync](http://www.browsersync.io/) which should automatically update your browser when there are changes.
+To run middleman directly without the `npm start` shortcut, to see more loggin details: do `bundle exec middleman --verbose`.
 
-While the gulp compiler is running, edit the source files in `source/` and the web-ready files in `www` will be regenerated.
+## Performance testing with gulp 
 
-## Working with SVG 
+- *gulp pagespeed* — run an optimization test based on google pagespeed insights API. Note: This operates on the live site, not the local site. (To test the local site you can use ngrok and reconfigure the URL in gulpfile.js.)
+- *gulp validate* - check `./build/*.html` for validity
+
+## Bundling and minifying SVG with gulp 
+
+- *gulp bundle-svg* — bundle all of the svg files into a single file we can inline into the template.
 
 SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. (Note — Unfortunately it seems SVG referenced in this way can not be styled by external CSS. The main purpose of combining the files is just to reduce the number of HTTP requests.)
 
@@ -66,18 +57,17 @@ Use `git tag` and `git commit` in the [SemVer](http://semver.org/) style.
 
 When you push an update, try this bower command: `bower version 0.0.1`. (Use `git tag` to see previous tags.)
 
-## Deploying meedan.com
+## Deploying
 
-To deploy the files from the www directory to the gh-pages branch first tag a release like `bower version 2.2.15`. Then use jenkins to deploy.
+To deploy the files from the www directory to the gh-pages branch first tag a release like `git tag v2.3.4 && git push && git push --tags`.
+When the repo gets updated on github, an automatic build and deployment of the development site is triggered.
+Then `git checkout master && git merge develop`, `git push`, and use jenkins to trigger the deploy.
 
-When the repo gets updated on github, an automatic build and deployment of meedan-com.dev.meedan.com is triggered
-
-## Sass
+## Sass structure
 
 - The starting points is screen.scss. That `@imports` everything else.
 - We first apply [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css).
-- Then we import sass components from meedan-style — these are shared by various Meedan projects. They live in their own [public version-controlled repository](github.com/meedan/meedan-style). Any style in meedan-style is available to all Meedan projects. Only our best, most reusable work goes in this section. 
-- Each of the components is documented with [SassDoc](https://github.com/SassDoc/sassdoc). 
+- Then we import our sass components, pages, and utility files from `source/stylesheets`.
 
 ## Running tests
 
