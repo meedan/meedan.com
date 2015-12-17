@@ -1,6 +1,48 @@
+// Load an extra webfont not used in the rest of the site (Roboto italic)
+//
+@import url(https://fonts.googleapis.com/css?family=Roboto:300italic);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
 .annual-report-2014 {
   overflow-x: hidden;
 
+  // Typography
+  //
+  h1 {
+    margin: 0;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+    color: black;
+    padding: 4em 0;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  h2 {
+    color: black;
+    font-size: 2em;
+    padding: 2em 0 1em;
+  }
+
+  p {
+    min-width: 300px;
+    padding: 2em;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+
+  ul, ul li {
+    font-weight: 400;
+  }
+
+  .lead-photo img {
+    height: 100vh;
+  }
+  // Caption on the photo
+  //
   figcaption {
     padding-top: 1em;
     font-size: 12px;
@@ -9,27 +51,55 @@
 
   // Default sections
   //
-  .section {
+  .annual-report--section {
     padding: 1em 0;
 
-    h1 {
-      text-transform: capitalize;
-      font-weight: 400;
-      font-size: 1.3em;
-      letter-spacing: 0.1em;
+    // Body of the note
+    //
+    .inner {
+      padding: 1em;
+      margin: 2em auto;
+      width: 65%;
+      min-width: 320px;
     }
+  }
 
-    p {
-      min-width: 300px;
-      padding: 2em;
-      text-align: left;
-      margin: 0 auto;
+  // About this Report section
+  //
+  .annual-report--section.about-this-report {
+    font-size: 0.6em;
+    font-weight: 300;
+    font-style: italic;
+    h2 {
+      font-family: roboto, helvetica, sans-serif;
+    }
+  }
+
+  // Programs list
+  //
+  .annual-report--section.programs ul {
+    margin: 0 auto;
+    width: 90%;
+    @media all and (min-width:800px) {
+    display: flex;
+      p {
+        padding: 1em 0;
+        min-width: 150px;
+      }
+      li {
+        width: 33.33333%;
+        h3 {
+          font-size: 16px;
+          font-family: 'Roboto Slab', serif;
+          border-bottom: 4px double $firefly40;
+        }
+      }
     }
   }
 
   // Image banner sections
   //
-  .image-banner {
+  .annual-report--section.image-banner {
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -49,44 +119,53 @@
     padding: 4em;
   }
 
-  // Minor point
-  //
-  .minor-point {
-    font-size: 0.8em;
-    width: 80%;
-    max-width: 500px;
-  }
-
-  // Body of the note
-  //
-  .note-body {
-    border: 1px solid $firefly20;
-    padding: 1em;
-    margin: 0 auto;
-    width: 75%;
-    min-width: 320px;
-    margin-bottom: 4em;
-  }
-
   // Fleuron symbol
   //
-  .fleuron {
-    font-size: 26px;
+  .annual-report--section.fleuron {
+    font-size: 36px;
     color: $firefly40;
     margin-bottom: 4em;
+    color: black;
   }
 
   // Contact information
   //
   // Override default contact section
   //
-  .contact {
+  .annual-report--section.contact {
     background-color: white;
     color: black;
     // background-image: linear-gradient(45deg, black, $hyperlink-blue, black);
     a {
       color: black;
       border-bottom: 4px solid rgba(black, 0.2);
+      @media (max-width: 900px) {
+        display: inline-block;
+        padding: 0.4em;
+      }
+    }
+  }
+
+  // Financial data
+  .financials table {
+    border: 1px solid $firefly20;
+    width: 100%;
+    td {
+      padding: 1em;
+      text-align: left;
+      border-bottom: 1px solid $firefly20;
+      & + td {
+        border-left: 1px solid $firefly20;
+      }
+      h3 {
+        font-weight: normal;
+        font-size: 1em;
+        padding: 0;
+        &.total {
+          font-style: italic;
+
+        }
+      }
     }
   }
 }
