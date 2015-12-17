@@ -1,29 +1,80 @@
-section {
-  border: 20px solid $firefly20;
-  display: flex;
-  align-items: center;
-  padding: 4em 2em;
+@import "jquery.paver";
 
-  p {
-    min-width: 300px;
-    padding: 2em;
-    text-align: left;
+.annual-report-2014 {
+  overflow-x: hidden;
+
+  [data-paver] {
+    width: 100vw;
+    // overflow-x: scroll;
+    background-color: #edd000;
+    .image-banner {
+      width: 200vw;
+    }
   }
-}
 
-.image-banner {
-  height: 300px;
-  background-image: url("/images/annual_report/office-panorama-yellow.jpg");
-  background-size: cover;
-}
+  .section {
+    padding: 1em 0;
 
-.areas-served .image {
-  background-image: url("/images/annual_report/team-2-green.jpg");
-  background-size: cover;
-  width: 40%;
-  height: 300px;
-}
+    h1 {
+      text-transform: capitalize;
+      font-weight: 400;
+      font-size: 1.3em;
+      letter-spacing: 0.1em;
+    }
 
-.signature {
-  padding: 4em;
+    p {
+      min-width: 300px;
+      padding: 2em;
+      text-align: left;
+      margin: 0 auto;
+    }
+  }
+
+  .image-banner {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+
+    &.team-2 {
+      background-image: url("/images/annual_report/team-2-green.jpg");
+    }
+    &.team-3 {
+      background-image: url("/images/annual_report/team-3-blue.jpg");
+    }
+  }
+
+  .signature {
+    padding: 4em;
+  }
+
+  .minor-point {
+    font-size: 0.8em;
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .note-body {
+    border: 1px solid $firefly20;
+    padding: 1em;
+    margin: 0 auto;
+    width: 75%;
+    min-width: 320px;
+    margin-bottom: 4em;
+  }
+
+  .fleuron {
+    font-size: 26px;
+    color: $firefly40;
+    margin-bottom: 4em;
+  }
+
+  .contact {
+    background-color: $hyperlink-blue;
+    background-image: linear-gradient(45deg, $hyperlink-blue, black);
+    a {
+      color: white;
+      border-bottom: 4px solid rgba(white, 0.2);
+    }
+  }
 }
