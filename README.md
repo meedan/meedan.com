@@ -5,9 +5,9 @@ This is an environment for fast, synchronized browser refreshing as you edit Sas
 ## Overview
 
 0. Install the npm and node and ruby 2.x
-1. Run the make file to install the build system (local and global npm modules, and ruby gems)
-2. Use `gulp` task
-3. Edit .scss, .html and .js files
+1. `make` — This will run the make file to install the build system (local and global npm modules, and ruby gems).
+2. `npm start` — this will run middleman with bundler.
+3. Edit .scss, .html and .js files. The browser should live-reload.
 
 ## [Middleman](http://middlemanapp.com/) setup
 
@@ -15,8 +15,15 @@ This is an environment for fast, synchronized browser refreshing as you edit Sas
 
 To start compiling Sass and HTML, install the site dependencies, then execute middleman in the top level: `bundle exec middleman`.
 
+Middleman is a rubyish (sinatraish) and markdownish templating & routing system. It's a little sluggish.
+
+To run middleman directly without the `npm start` shortcut, do `bundle exec middleman --verbose`.
+
 ## Gulp Tasks
+
 We use gulp for a few utilities.
+
+Eventually we'll proably port these into simpler `npm` scripts defined in `package.json` but for now they're still gulp.
 
 These are our gulp tasks (run `gulp -T` to see the latest).
 - bundle-svg — bundle all of the svg files into a single file we can inline into the template.
@@ -45,13 +52,13 @@ To work on the HTML and Sass, edit the files in `./source` while `gulp` runs.
 
 Once you've done the `npm install` step, you should be able to run: `gulp`.
 
-That will start the compiler for both the stylesheets ([Sass](sass-lang.com/)) and the HTML ([dust](http://akdubya.github.io/dustjs/ "dust") templates).  It also starts a nifty tool called [browser-sync](http://www.browsersync.io/) which should automatically update your browser when there are changes;
+That will start the compiler for both the stylesheets ([Sass](sass-lang.com/)) and the HTML ([dust](http://akdubya.github.io/dustjs/ "dust") templates). It also starts a nifty tool called [browser-sync](http://www.browsersync.io/) which should automatically update your browser when there are changes.
 
 While the gulp compiler is running, edit the source files in `source/` and the web-ready files in `www` will be regenerated.
 
 ## Working with SVG 
 
-SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. Unfortunately it seems SVG referenced in this way can not be styled by external CSS.
+SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. (Note — Unfortunately it seems SVG referenced in this way can not be styled by external CSS. The main purpose of combining the files is just to reduce the number of HTTP requests.)
 
 ## Releasing new versions
 

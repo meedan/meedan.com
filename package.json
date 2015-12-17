@@ -1,11 +1,12 @@
 {
   "name": "meedan-home",
-  "version": "2.2.24",
-  "description": "the meedan homepage",
+  "version": "2.5.0",
+  "description": "The meedan homepage and some static files",
   "main": "src/app.js",
   "repository": "https://github.com/meedan/meedan.com",
   "scripts": {
-    "test": "casperjs test --log-level=error test.js --engine=slimerjs"
+    "test": "casperjs test --log-level=error test.js --engine=slimerjs",
+    "start": "bundle exec middleman"
   },
   "keywords": [
     "meedan"

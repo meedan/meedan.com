@@ -41,7 +41,6 @@ gulp.task('pagespeed', function () {
   });
 });
 
-
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 

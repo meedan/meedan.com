@@ -3,8 +3,6 @@
 //= require "jquery"
 //= require "bootstrap-sass/assets/javascripts/bootstrap"
 //= require "pace"
-//= require "jquery.paver"
-//= require "jquery.throttle"
 
 // 2. Navbar js customizations
 (function ($) {

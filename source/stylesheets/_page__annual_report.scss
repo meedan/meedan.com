@@ -1,22 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
 
 .annual-report-2014 {
-  overflow-x: hidden;
 
   // Typography
   //
   h2 {
     color: black;
-    font-size: 1.6em;
+    font-size: 20px;
+    font-weight: bold;
     padding: 4em 0 1em;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 
   p {
     min-width: 300px;
-    padding: 2em;
+    padding: 2em 1em;
     text-align: left;
     margin: 0 auto;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   ul, ul li {
@@ -31,10 +35,13 @@
     color: $firefly40;
   }
 
+  .fleuron {
+    padding: 3em 0 2em;
+    font-size: 30px;
+  }
   // About this Report section
   //
   .lead-text {
-    // font-size: 1.3em;
     font-weight: 300;
     h1 {
       margin: 0;
@@ -47,22 +54,44 @@
       font-family: 'Roboto Slab', serif;
     }
     p.intro {
+      padding-top: 3em;
       font-weight: 200;
-      max-width: 68%;
       font-style: italic;
       line-height: 1.6;
+      em {
+        font-weight: 700;
+      }
     }
   }
 
   .ceo-note {
     font-weight: 400;
+    .inner {
+      margin: 3em auto;
+      padding: 1em;
+      font-size: 1em;
+    }
+    .byline {
+      padding-bottom: 1em;
+      a {
+        font-weight: 700;
+      }
+    }
   }
+
+  // Signature
+  //
+  .signature {
+    // padding: 4em;
+    display: none;
+  }
+
 
   // Programs list
   //
   .annual-report--section.programs ul,
   .areas-served ul {
-    margin: 0 auto;
+    margin: 1em auto;
     width: 90%;
     @media all and (min-width:800px) {
     display: flex;
@@ -72,10 +101,12 @@
       }
       li {
         width: 33.33333%;
+        font-size: 0.8em;
         h3 {
-          font-size: 16px;
+          font-size: 14px;
           font-family: 'Roboto Slab', serif;
           border-bottom: 4px double $firefly40;
+          text-shadow: 10px yellow;
         }
       }
     }
@@ -84,9 +115,9 @@
   // Image banner sections
   //
   .image-banner {
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-position: 25%;
     padding: 0;
 
     &.lead-photo {
@@ -102,21 +133,6 @@
     &.team-3 {
       background-image: url("/images/annual_report/team-3-aqua-screen.jpg");
     }
-  }
-
-  // Signature
-  //
-  .signature {
-    padding: 4em;
-  }
-
-  // Fleuron symbol
-  //
-  .fleuron {
-    font-size: 36px;
-    color: $firefly40;
-    margin-bottom: 4em;
-    color: black;
   }
 
   // Contact information
@@ -174,11 +190,13 @@
   }
 }
 
-.annual-report--section.donate {
+.donate {
   padding-bottom: 10em;
   background-color: $firefly80;
+  background-image: url("/images/annual_report/screen-blue.png");
   color: white;
   margin-top: 4em;
+  text-align: center;
   h2 {
     color: white;
   }
