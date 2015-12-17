@@ -1,17 +1,14 @@
-@import "jquery.paver";
-
 .annual-report-2014 {
   overflow-x: hidden;
 
-  [data-paver] {
-    width: 100vw;
-    // overflow-x: scroll;
-    background-color: #edd000;
-    .image-banner {
-      width: 200vw;
-    }
+  figcaption {
+    padding-top: 1em;
+    font-size: 12px;
+    color: $firefly40;
   }
 
+  // Default sections
+  //
   .section {
     padding: 1em 0;
 
@@ -30,6 +27,8 @@
     }
   }
 
+  // Image banner sections
+  //
   .image-banner {
     height: 80vh;
     background-size: cover;
@@ -44,16 +43,22 @@
     }
   }
 
+  // Signature
+  //
   .signature {
     padding: 4em;
   }
 
+  // Minor point
+  //
   .minor-point {
     font-size: 0.8em;
     width: 80%;
     max-width: 500px;
   }
 
+  // Body of the note
+  //
   .note-body {
     border: 1px solid $firefly20;
     padding: 1em;
@@ -63,18 +68,25 @@
     margin-bottom: 4em;
   }
 
+  // Fleuron symbol
+  //
   .fleuron {
     font-size: 26px;
     color: $firefly40;
     margin-bottom: 4em;
   }
 
+  // Contact information
+  //
+  // Override default contact section
+  //
   .contact {
-    background-color: $hyperlink-blue;
-    background-image: linear-gradient(45deg, $hyperlink-blue, black);
+    background-color: white;
+    color: black;
+    // background-image: linear-gradient(45deg, black, $hyperlink-blue, black);
     a {
-      color: white;
-      border-bottom: 4px solid rgba(white, 0.2);
+      color: black;
+      border-bottom: 4px solid rgba(black, 0.2);
     }
   }
 }
