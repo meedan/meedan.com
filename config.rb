@@ -14,6 +14,15 @@ sprockets.append_path bower_path
 
 activate :livereload
 
+activate :ogp do |ogp|
+  #
+  # register namespace with default options
+  #
+  ogp.namespaces = {
+    og: data.ogp.fb
+  }
+  ogp.base_url = 'http://meedan.com/'
+end
 
 # Routing
 #
@@ -32,3 +41,4 @@ configure :build do
 	activate :minify_css
 	activate :minify_javascript
 end
+
