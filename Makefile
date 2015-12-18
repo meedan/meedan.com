@@ -11,6 +11,6 @@ setup:
 .PHONY: setup
 
 watch:
-	gulp default
+	bundle exec middleman --verbose
 
 .PHONY: watch

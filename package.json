@@ -6,7 +6,9 @@
   "repository": "https://github.com/meedan/meedan.com",
   "scripts": {
     "test": "casperjs test --log-level=error test.js --engine=slimerjs",
-    "start": "bundle exec middleman"
+    "start": "bundle exec middleman",
+    "build": "bundle exec middleman build",
+    "spellcheck": "bundle exec middleman spellcheck source"
   },
   "keywords": [
     "meedan"
@@ -48,6 +50,7 @@
     "through2": "~0.6.5"
   },
   "dependencies": {
+    "aspell": "^0.1.0",
     "ecstatic": "^0.8.0"
   }
 }
