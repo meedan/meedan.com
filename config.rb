@@ -19,7 +19,7 @@ activate :ogp do |ogp|
   # register namespace with default options
   #
   ogp.namespaces = {
-    og: data.ogp.fb
+    og: data.ogp.og
   }
   ogp.base_url = 'http://meedan.com/'
 end
