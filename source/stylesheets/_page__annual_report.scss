@@ -2,6 +2,12 @@
 
 .annual-report-2014 {
 
+  .inner {
+    margin: 3em auto;
+    padding: 1em;
+    font-size: 1em;
+  }
+
   // Typography
   //
   h2 {
@@ -26,7 +32,6 @@
   ul, ul li {
     font-weight: 400;
   }
-
 
   .fleuron {
     padding: 3em 0 2em;
@@ -62,16 +67,13 @@
   //
   .ceo-note {
     font-weight: 400;
-    .inner {
-      margin: 3em auto;
-      padding: 1em;
-      font-size: 1em;
+    font-size: 0.8em;
+    p {
+      padding: 0.5em 1em;
     }
-    .byline {
-      padding-bottom: 1em;
-      a {
-        font-weight: 700;
-      }
+    .full-name,
+    .title {
+      display: block;
     }
   }
 
@@ -138,9 +140,7 @@
   .contact-us {
     background-color: white;
     color: black;
-    font-size: 0.8em;
     span {
-
       display: block;
       width: 320px;
       margin: 0 auto;
@@ -158,12 +158,29 @@
     }
   }
 
-  // Bylines
+  // Buttons
   //
-  // (names with email addresses)
-  //
-  .byline {
-    @extend .contact-us;
+  .button {
+    width: 320px;
+    font-size: 0.8em;
+    display: block;
+    margin: 4em auto;
+    border-radius: 4px;
+    background-color: $dodgerBlue;
+    padding: 1.2em 2em;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      background-color: darken($dodgerBlue, 10%);
+      transition: background-color 0.4s;
+    }
+  }
+
+  a.hello {
+    @extend.button;
+    width: 275px;
+    border-bottom-width: 0;
+    background-color: $firefly40;
   }
 
   // Financial data
@@ -203,21 +220,6 @@
     }
     h2 {
       color: white;
-    }
-    .button {
-      width: 320px;
-      font-size: 0.8em;
-      display: block;
-      margin: 4em auto;
-      border-radius: 4px;
-      background-color: $dodgerBlue;
-      padding: 1.2em 2em;
-      color: white;
-      text-decoration: none;
-      &:hover {
-        background-color: darken($dodgerBlue, 10%);
-        transition: background-color 0.4s;
-      }
     }
   }
 }
