@@ -1,4 +1,4 @@
-var localhostURL = "http://localhost:4567";
+var localhostURL = "http://localhost:8080";
 var defaultHomePage = "/en/";
 var defaultCheckdeskPage = "/en/checkdesk/";
 var defaultBridgePage = "/en/bridge/";
