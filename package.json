@@ -5,10 +5,10 @@
   "main": "src/app.js",
   "repository": "https://github.com/meedan/meedan.com",
   "scripts": {
-    "test": "casperjs test --log-level=error test.js --engine=slimerjs",
+    "test-server": "ruby -run -ehttpd build -p4567",
+    "test": "casperjs test --log-level=error test-casper.js --engine=slimerjs",
     "start": "bundle exec middleman",
-    "build": "bundle exec middleman build",
-    "spellcheck": "bundle exec middleman spellcheck source"
+    "build": "bundle exec middleman build"
   },
   "keywords": [
     "meedan"
