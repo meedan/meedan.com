@@ -1,4 +1,4 @@
-require './test_helpers'
+require './test-helpers'
 
 lang_1_name = "en"
 lang_2_name = "ar"

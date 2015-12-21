@@ -1,4 +1,4 @@
-require './test_helpers'
+require './test-helpers'
 
 banner(" Starting HTML-Proofer tests".red)
 

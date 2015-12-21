@@ -1,4 +1,4 @@
-TEST_PORT = "4567"
+TEST_PORT = "8080"
 require 'rubygems'
 require 'yaml'
 require 'net/http'
