@@ -109,11 +109,11 @@
     height: 70vh;
 
     &.team-2 {
-      background-image: url("/images/annual_report/team-1-blue-screen.jpg");
+      background-image: url("/images/annual-report/team-1-blue-screen.jpg");
     }
 
     &.team-3 {
-      background-image: url("/images/annual_report/team-3-aqua-screen.jpg");
+      background-image: url("/images/annual-report/team-3-aqua-screen.jpg");
     }
   }
 
@@ -127,7 +127,7 @@
   }
 
   .lead-photo .image-banner {
-    background-image: url("/images/annual_report/team-6-peach-screen.jpg");
+    background-image: url("/images/annual-report/team-6-peach-screen.jpg");
     @media all and (min-width:600px) {
       background-position: 20% 50%;
     }
@@ -212,7 +212,7 @@
   //
   .donate {
     padding-bottom: 10em;
-    background-image: linear-gradient(to right, rgba($firefly, 0.9),  rgba($firefly, 0.7)), url("/images/annual_report/screen-2.png");
+    background-image: linear-gradient(to right, rgba($firefly, 0.9),  rgba($firefly, 0.7)), url("/images/annual-report/screen-2.png");
     color: white;
     margin-top: 4em;
     p {
