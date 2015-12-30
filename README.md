@@ -20,6 +20,22 @@ Middleman is a rubyish (sinatraish) and markdownish templating & routing system.
 * `make` (install dependencies)
 * `npm start` (start middleman with bundler)
 
+## Even quicker start: copy editing via github.com
+
+If you want to just change some copywriting, you really don't even need to set up the app locally.
+
+Copy edits can go in a yaml file like `en.yml`, for English.— https://github.com/meedan/meedan.com/blob/develop/locales/en.yml.
+
+You can edit the copy using github.com by clicking 'edit' on that file. ^^
+
+Make sure you are on the `develop` branch. 
+
+How this works: With middleman, templates in `source` are rendered with the values from `locales` and `data` directories (and potentially other dynamic content sources), then all the output static HTML goes to `build`. So, files in `build` are often erased and rewritten when you run `middleman build`, and your edit will not appear in the deployment.
+
+Bonus: If you make a commit on the `develop` branch, the Jenkins server will pull your change to the server and run `middleman build` for you, deploying automatically to staging! And a bot will tell you about it in Slack. :zap:
+
+Note: All copy writing needs to be localized. Consider editing directly into a translation manager instead of editing those files directly. 
+
 ## Installing dependencies
 
 The code we use here is packaged with [Rubygems](http://rubygems.com/) and [NPM](https://www.npmjs.com/ "npm"). To get the build environment in place, run this in your terminal in the top level of this directory: 
@@ -61,10 +77,12 @@ When you push an update, try this bower command: `bower version 0.0.1`. (Use `gi
 
 To deploy the files from the www directory to the gh-pages branch first tag a release like `git tag v2.3.4 && git push && git push --tags`.
 When the repo gets updated on github, an automatic build and deployment of the development site is triggered.
-Then `git checkout master && git merge develop`, `git push`, and use jenkins to trigger the deploy.
+Then `git checkout master`, `git merge develop`, `git push`, and use jenkins to trigger the deploy.
+
 
 ## Sass structure
 
+- middleman compiles and live-reloads the sass for you (although sadly, proper stylesheet injection does not work well in Middleman 3x — 2015-12-30 CGB).
 - The starting points is screen.scss. That `@imports` everything else.
 - We first apply [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css).
 - Then we import our sass components, pages, and utility files from `source/stylesheets`.
