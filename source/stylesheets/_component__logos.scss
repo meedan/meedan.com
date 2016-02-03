@@ -21,9 +21,9 @@ $logo-large-width: 250px;
     }
     img, svg {
       max-width: $logo-small-width;
-      max-height: 50px;
+      max-height: 80px;
     }
-    .acm {
+    .acm, .witness {
       svg, img {
         max-width: 100px;
       }
