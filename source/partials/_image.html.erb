@@ -1,8 +1,10 @@
-<%# (linked) image helper — handles png and svg (for performance, vectors are compiled into vectors.svg then linked) %>
+<%# (linked) image helper — handles jpg, png and svg (for performance, vectors are compiled into vectors.svg then linked) %>
 <a class="<%=name %>" href="<%=url %>">
 <% if type == "svg" %>
   <svg width="300"><use xlink:href="#<%=name %>" /></svg>
 <% elsif type == "png" %>
   <img src="/images/logos/<%= name %>@1x.png" alt="<%= name %>" srcset="/images/logos/<%= name %>@2x.png 2x">
+<% elsif type == "jpg" %>
+  <img src="/images/logos/<%= name %>@1x.jpg" alt="<%= name %>" srcset="/images/logos/<%= name %>@2x.jpg 2x">
 <% end %>
 </a>
