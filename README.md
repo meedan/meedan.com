@@ -67,6 +67,22 @@ To run middleman directly without the `npm start` shortcut, to see more logging 
 
 SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. (Note — Unfortunately it seems SVG referenced in this way can not be styled by external CSS. The main purpose of combining the files is just to reduce the number of HTTP requests.)
 
+## Adding a new logo 
+
+If you want to add a new partner or supporter logo, you need to create two versions, `@1x` (at least 100px) and `@2x` (at least 200px).
+
+Render both sizes (eg with sketch) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings (Acorn, Photoshop) or at least use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: In the web export, try setting quality very low, near zero.)
+
+Once you have the new images, update the data files `supporter_logos.json` and `checkdesk_partners.json` to include data about the new file, for example:
+
+        {
+          "name": "witness",
+          "url": "https://witness.org/",
+          "type": "png"
+        }
+
+The template loops through these values to create the logo-list sections. So, this will add the images to the page.
+
 ## Releasing new versions
 
 Use `git tag` and `git commit` in the [SemVer](http://semver.org/) style.
