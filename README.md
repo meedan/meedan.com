@@ -38,7 +38,7 @@ To work on the HTML and Sass, edit the files in `./source` while `gulp` runs.
 
 ## Getting extra logs from middleman
 
-To run middleman directly without the `npm start` shortcut, to see more loggin details: do `bundle exec middleman --verbose`.
+To run middleman directly without the `npm start` shortcut, to see more logging details: do `bundle exec middleman --verbose`.
 
 ## Performance testing with gulp 
 
