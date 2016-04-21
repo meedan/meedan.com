@@ -56,11 +56,6 @@ To work on the HTML and Sass, edit the files in `./source` while `gulp` runs.
 
 To run middleman directly without the `npm start` shortcut, to see more logging details: do `bundle exec middleman --verbose`.
 
-## Performance testing with gulp 
-
-- *gulp pagespeed* — run an optimization test based on google pagespeed insights API. Note: This operates on the live site, not the local site. (To test the local site you can use ngrok and reconfigure the URL in gulpfile.js.)
-- *gulp validate* - check `./build/*.html` for validity
-
 ## Bundling and minifying SVG with gulp 
 
 - *gulp bundle-svg* — bundle all of the svg files into a single file we can inline into the template.
@@ -94,7 +89,6 @@ When you push an update, try this bower command: `bower version 0.0.1`. (Use `gi
 To deploy the files from the www directory to the gh-pages branch first tag a release like `git tag v2.3.4 && git push && git push --tags`.
 When the repo gets updated on github, an automatic build and deployment of the development site is triggered.
 Then `git checkout master`, `git merge develop`, `git push`, and use jenkins to trigger the deploy.
-
 
 ## Sass structure
 
