@@ -3,8 +3,10 @@
 // A simple text treatment
 // The navigation is hidden on this page (in the template)
 .policy {
-  text-align: left;
   margin: 0 auto;
+  text-align: left;
+  max-width: 600px;
+  padding-top: 4em;
 
   p,
   h2,
@@ -13,17 +15,18 @@
     padding: 30px;
   }
 
-  ul {
+  ol, ul {
     display: block;
-    text-align: left;
+    list-style-position: inside;
     margin: 0;
     padding: 30px;
-    list-style-type: disc;
-    list-style-position: inside;
+    text-align: left;
+
     li {
-      text-align: left;
+      display: list-item;
+      list-style-type: disc;
       margin: 0;
-      display: list-item!important;
+      text-align: left;
     }
   }
 }
