@@ -12,7 +12,7 @@ $breakpoint: 900px;
 // • Animations
 // • Navbar
 //
-@import "bootstrap__integration";
+@import 'bootstrap__integration';
 
 * {
   box-sizing: border-box;
@@ -21,42 +21,42 @@ $breakpoint: 900px;
 // 3. Meedan.com global styles
 //
 //
-@import "colors";
-@import "typography";
-@import "flex";
-@import "keyframes";
+@import 'colors';
+@import 'typography';
+@import 'flex';
+@import 'keyframes';
 
 // 4. Bootstrap component customization
 //
-@import "bootstrap__nav";
-@import "bootstrap__forms";
+@import 'bootstrap__nav';
+@import 'bootstrap__forms';
 
 // 5. Our components
 //
-@import "component__branding";
-@import "component__contact";
-@import "component__explanations";
-@import "component__footer";
-@import "component__logos";
-@import "component__progress_bar";
-@import "component__projects";
-@import "component__quotes";
-@import "component__team";
-@import "component__background_photo";
-@import "component__recent_press";
+@import 'component__branding';
+@import 'component__contact';
+@import 'component__explanations';
+@import 'component__footer';
+@import 'component__logos';
+@import 'component__progress_bar';
+@import 'component__projects';
+@import 'component__quotes';
+@import 'component__team';
+@import 'component__background_photo';
+@import 'component__recent_press';
 
 // 6. Language support
 //
-@import "lang__ar";
-@import "lang__en";
+@import 'lang__ar';
+@import 'lang__en';
 
 // 7. Pages
 //
 //  START HERE when developing
 //  Each page is composed of components.
-@import "page__about";
-@import "page__checkdesk";
-@import "page__home";
-@import "page__bridge";
-@import "page__policy";
-@import "page__annual_report";
+@import 'page__about';
+@import 'page__checkdesk';
+@import 'page__home';
+@import 'page__bridge';
+@import 'page__policy';
+@import 'page__annual_report';

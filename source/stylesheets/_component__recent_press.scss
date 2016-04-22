@@ -1,4 +1,3 @@
-
 // Recent press component
 //
 %component--recent-press {
@@ -9,9 +8,9 @@
   }
 
   // A list of "blurbs"
-  ul.blurbs {
-    display: flex;
+  .blurbs {
     align-items: flex-start;
+    display: flex;
     justify-content: center;
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
@@ -23,9 +22,9 @@
   // Single blurb with text and logo
   li {
     color: $firefly80;
-    width: 40%;
-    padding: 2em 2em 0em;
     margin: 1em;
+    padding: 2em 2em 0;
+    width: 30%;
 
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
@@ -41,11 +40,10 @@
     }
 
     p {
-      font-size: 0.8em;
+      font-size: .8em;
+      font-weight: 500;
       line-height: 1.25;
-      font-weight: 500;
       padding-top: 1.5em;
-      font-weight: 500;
 
       // At smaller sizes
       @media all and (max-width: $breakpoint) {
@@ -54,9 +52,10 @@
       }
 
       a {
-        text-decoration: none;
         color: $firefly80;
+        text-decoration: none;
       }
     }
   }
+
 }

@@ -19,48 +19,7 @@ body.home {
 // Component: recent press
 //
 .home--recent-press {
-  ul {
-    @extend %flex-container;
-
-    li {
-      color: $firefly80;
-      padding: 0 2em;
-      width: 40%;
-      // At smaller sizes take the whole row
-      @media all and (max-width: $breakpoint) {
-        width: 100%;
-      }
-
-      .logo {
-        max-width: 80%;
-        // At smaller sizes make the logo a little bigger
-        @media all and (max-width: $breakpoint) {
-          max-width: 90%;
-        }
-      }
-
-      p {
-        font-size: 1em;
-        line-height: 1.25;
-        font-weight: 500;
-        padding-top: 1.5em;
-        padding-bottom: 0;
-        font-weight: 500;
-        // At smaller sizes take up the whole row
-        @media all and (max-width: $breakpoint) {
-          p {
-            padding: 0;
-            width: 95%;
-          }
-        }
-
-        a {
-          text-decoration: none;
-          color: $firefly80;
-        }
-      }
-    }
-  }
+  @extend %component--recent-press;
 }
 
 // Component: (supporter) logos
@@ -75,13 +34,13 @@ body.home {
   @extend %component--branding;
   padding-top: 80px;
   .meedan-logo-text svg {
-    height: 200px;
     animation: fadeIn 0.8s;
     display: block;
+    height: 200px;
     margin: 0 auto;
     margin-bottom: 1em;
   }
-  p.slogan {
+  .slogan {
     padding: 1em 0;
   }
 }
