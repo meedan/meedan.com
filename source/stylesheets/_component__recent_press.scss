@@ -22,40 +22,33 @@
   // Single blurb with text and logo
   li {
     color: $firefly80;
-    margin: 1em;
-    padding: 2em 2em 0;
-    width: 30%;
+    padding: 0;
+    width: 33%;
 
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
       width: 100%;
-    }
-
-    .logo {
-      max-width: 70%;
-      min-width: 200px;
-      @media all and (max-width: $breakpoint) {
-        max-width: 90%;
-      }
+      font-size: 1.2em;
     }
 
     p {
       font-size: .8em;
       font-weight: 500;
       line-height: 1.25;
-      padding-top: 1.5em;
 
       // At smaller sizes
       @media all and (max-width: $breakpoint) {
-        padding: 0;
         width: 95%;
       }
 
       a {
         color: $firefly80;
         text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          transition: .4s;
+        }
       }
     }
   }
-
 }
