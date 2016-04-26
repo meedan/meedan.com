@@ -60,7 +60,7 @@ To run middleman directly without the `npm start` shortcut, to see more logging 
 
 - *gulp bundle-svg* — bundle all of the svg files into a single file we can inline into the template.
 
-SVG files are joined by the `gulp-svgmin` task into one big SVG file. See [gulp/tasks/images.js]. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>`. The #kf corresponds to the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. (Note — Unfortunately it seems SVG referenced in this way can not be styled by external CSS. The main purpose of combining the files is just to reduce the number of HTTP requests.)
+SVG files are joined by the `bundle-svg` gulp task, combined into one big SVG file. Put your vectors in `images/vector` then run `gulp bundle-svg`. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>` — that will render the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. (Note — Unfortunately it seems SVG referenced in this way can not be styled by external CSS. The main purpose of combining the files is just to reduce the number of HTTP requests.)
 
 ## Adding a new logo 
 

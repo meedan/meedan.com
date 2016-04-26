@@ -41,6 +41,18 @@ section.checkdesk--partners {
   @extend %component--logos;
 }
 
+// Checkdesk awards
+section.checkdesk--awards {
+  background-color: $firefly2;
+  padding-top: 4em;
+  h3 {
+    padding-top: 0;
+  }
+  svg {
+    width: 100px;
+  }
+}
+
 // Checkdesk github
 section.checkdesk--github {
   @extend %colors--inverted;
