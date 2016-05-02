@@ -6,6 +6,7 @@ section.checkdesk--branding {
   @extend %component--branding;
   background-color: $checkdesk-yellow;
   color: white;
+  animation: fadeIn 1.2s;
 }
 
 // Checkdesk explanations
@@ -49,7 +50,7 @@ section.checkdesk--awards {
     padding-top: 0;
   }
   svg {
-    width: 100px;
+    width: 90px;
   }
 }
 
