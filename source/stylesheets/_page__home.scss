@@ -1,0 +1,78 @@
+// Meedan.com home page
+//
+body.home {
+  background-color: white;
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font: $font-stack--roboto;
+    animation: fadeIn 1.2s;
+  }
+}
+
+// Component: Projects
+//
+.home--projects {
+  @extend %component--projects;
+}
+
+// Component: recent press
+//
+.home--recent-press {
+  @extend %component--recent-press;
+}
+
+// Component: (supporter) logos
+//
+.home--supporters {
+  @extend %component--logos;
+}
+
+// Component: branding + special logo
+//
+.home--branding {
+  @extend %component--branding;
+  padding-top: 80px;
+  .meedan-logo-text svg {
+    animation: fadeIn 0.8s;
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  .slogan {
+    padding: 1em 0;
+  }
+}
+
+// Home: background-photo section
+//
+.home--background-photo {
+  @include component--background-photo("../images/banners/banner-2@1x.jpg");
+}
+
+// Component: Homepage latest news
+//
+// This is the medium channels.
+// • For now we have a fixed height (ew) because medium doesn't give us a lot of control.
+// • TODO: migrate this to a custom RSS feed that gives us more control over the design.
+//
+.home--latest {
+  padding-bottom: 1em;
+  background-color: $firefly2;
+  .medium-channels {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    flex-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .medium-channel {
+      margin: 1em 1em;
+      iframe {
+        height: 620px !important;
+      }
+    }
+  }
+}

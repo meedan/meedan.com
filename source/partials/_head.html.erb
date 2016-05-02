@@ -1,0 +1,21 @@
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title><%= current_page.data.slug.capitalize.gsub("-", " ") %> | Meedan</title>
+
+  <%= stylesheet_link_tag "stylesheets/screen" %>
+  <link rel="icon" href="/images/favicons/favicon.ico?v=1">
+
+  <%- ogp_tags do |name, value| %>
+    <%= "<meta property='#{name}' content='#{value}'>" %>
+  <% end %>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Meedan" />
+  <meta name="twitter:description" content="We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media." />
+  <meta name="twitter:image" content="http://meedan.com/images/logos/meedan-logo-600@2x.png" />
+  <meta name="twitter:site" content="@meedan" />
+</head>

@@ -1,0 +1,99 @@
+// Page: Bridge
+//
+$breakpoint--explainer: 900px;
+
+// Bridge branding section
+//
+// A different style than checkdesk and homepage.
+section.bridge--branding {
+  @extend %colors--inverted;
+  @extend %component--branding;
+}
+
+// Bridge history
+//
+section.bridge--history {
+  @extend %colors--inverted;
+  @extend %typography--section-dense;
+}
+
+// Bridge supporters
+//
+section.bridge--supporters {
+  @extend %colors--default;
+  @extend %component--logos;
+}
+
+// Bridge explanations
+//
+section.bridge--explanations {
+  @extend %colors--default;
+  @extend %component--explanations;
+  img.screenshot {
+    max-width: 300px;
+  }
+}
+
+
+section.bridge--branding{
+  .logo-and-slogan{
+    margin: 1.25em auto;
+  }
+  svg.appstore{
+    margin: 0 auto;
+    padding: 0 0 0 0;
+  }
+}
+
+section.bridge--appstore-footer{
+    background-color: $firefly5;
+    padding-top: 2em;
+    padding-bottom: 0;
+}
+
+// Bridge call to action
+//
+.bridge--call-to-action {
+  @extend %colors--form-default;
+  background-color: $firefly5;
+  padding-bottom: 0;
+
+  .call-to-action--text {
+    display: block;
+    text-transform: none;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+
+  // The form itself
+  .call-to-action--form {
+    width: 100%;
+    padding: 0.8em;
+  }
+
+  .apply-to-translate {
+    padding: 1em;
+    margin: 0 auto;
+    text-indent: 0.4em;
+    max-width: $form--max-width;
+
+    label {
+      font-weight: 400;
+      padding: 0 0.4em;
+      font-size: 0.8em;
+    }
+
+    &:lang(en) {
+      text-align: left;
+    }
+  }
+}
+
+// Bridge footer
+//
+.bridge--footer {
+  @extend %colors--inverted;
+  @extend %component--footer;
+}

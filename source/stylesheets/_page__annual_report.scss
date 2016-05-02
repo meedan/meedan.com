@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
+.annual-report-2014 {
+
+  .inner {
+    margin: 3em auto;
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  // Typography
+  //
+  h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4em 0 1em;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    min-width: 300px;
+    padding: 2em 1em;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+
+  ul, ul li {
+    font-weight: 400;
+  }
+
+  .fleuron {
+    padding: 3em 0 2em;
+    font-size: 30px;
+  }
+
+  // Lead text
+  //
+  .lead-text {
+    font-weight: 300;
+    h1 {
+      margin: 0;
+      text-transform: none;
+      font-weight: 400;
+      font-size: 2.3em;
+      letter-spacing: 1px;
+      color: black;
+      padding: 2em 0.2em 0;
+      font-family: 'Roboto Slab', serif;
+    }
+    p.intro {
+      padding-top: 3em;
+      font-weight: 200;
+      font-style: italic;
+      line-height: 1.6;
+      em {
+        font-weight: 700;
+      }
+    }
+  }
+
+  // CEO note
+  //
+  .ceo-note {
+    font-weight: 400;
+    font-size: 0.8em;
+    p {
+      padding: 0.5em 1em;
+    }
+    .full-name,
+    .title {
+      display: block;
+    }
+  }
+
+  // Programs list
+  //
+  .annual-report--section.programs ul,
+  .areas-served ul {
+    margin: 1em auto;
+    width: 90%;
+    @media all and (min-width:800px) {
+    display: flex;
+      p {
+        padding: 1em 0;
+        min-width: 150px;
+      }
+      li {
+        width: 33.33333%;
+        font-size: 0.8em;
+        h3 {
+          font-size: 14px;
+          font-family: 'Roboto Slab', serif;
+          border-bottom: 4px double $firefly40;
+          text-shadow: 10px yellow;
+        }
+      }
+    }
+  }
+
+  // Image banner sections
+  //
+  .image-banner {
+    background-size: cover;
+    height: 70vh;
+
+    &.team-2 {
+      background-image: url("/images/annual-report/team-1-blue-screen.jpg");
+    }
+
+    &.team-3 {
+      background-image: url("/images/annual-report/team-3-aqua-screen.jpg");
+    }
+  }
+
+  // Caption on the photo
+  //
+  .caption {
+    // padding-top: 1em;
+    font-size: 13px;
+    padding: 0.3em;
+    color: $firefly40;
+  }
+
+  .lead-photo .image-banner {
+    background-image: url("/images/annual-report/team-6-peach-screen.jpg");
+    @media all and (min-width:600px) {
+      background-position: 20% 50%;
+    }
+  }
+
+  // Contact information
+  //
+  // Override default contact section
+  //
+  .contact-us {
+    background-color: white;
+    color: black;
+    span {
+      display: block;
+      width: 320px;
+      margin: 0 auto;
+    }
+    li {
+      padding-top: 1em;
+    }
+    a {
+      color: $dodgerBlue;
+      border-bottom: 3px solid $dodgerBlue;
+      @media (max-width: 900px) {
+        display: inline-block;
+        padding: 0.1em;
+      }
+    }
+  }
+
+  // Buttons
+  //
+  .button {
+    width: 320px;
+    font-size: 0.8em;
+    display: block;
+    margin: 4em auto;
+    border-radius: 4px;
+    background-color: $dodgerBlue;
+    padding: 1.2em 2em;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      background-color: darken($dodgerBlue, 10%);
+      transition: background-color 0.4s;
+    }
+  }
+
+  a.hello {
+    @extend.button;
+    width: 275px;
+    border-bottom-width: 0;
+    background-color: $firefly40;
+  }
+
+  // Financial data
+  //
+  .financials table {
+    border: 1px solid $firefly20;
+    width: 80%;
+    margin: 0 auto;
+    td {
+      padding: 1em;
+      text-align: left;
+      border-bottom: 1px solid $firefly20;
+      & + td {
+        border-left: 1px solid $firefly20;
+      }
+      h3 {
+        font-weight: normal;
+        font-size: 1em;
+        padding: 0;
+        &.total {
+          font-style: italic;
+
+        }
+      }
+    }
+  }
+
+  // Donate
+  //
+  .donate {
+    padding-bottom: 10em;
+    background-image: linear-gradient(to right, rgba($firefly, 0.9),  rgba($firefly, 0.7)), url("/images/annual-report/screen-2.png");
+    color: white;
+    margin-top: 4em;
+    p {
+    text-align: center;
+    }
+    h2 {
+      color: white;
+    }
+  }
+}
+

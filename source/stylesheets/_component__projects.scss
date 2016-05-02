@@ -1,0 +1,95 @@
+// Homepage: projects
+//
+
+// Projects
+//
+%component--projects {
+  @extend %flex-container;
+  justify-content: center;
+  background: $firefly80;
+  // background: linear-gradient(90deg, $firefly80, $portland-purple);
+
+  & > div {
+    background: rgba(black, 0.2);
+    border-radius: 8px;
+  }
+
+  // At smaller sizes, the images are fluid
+  @media (max-width: $breakpoint) {
+    & > div, svg {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  // Set the logo widths
+  .project--bridge svg {
+    width: 11em;
+  }
+
+  .project--checkdesk svg {
+    width: 15em;
+  }
+
+  h3 {
+    width: 100%;
+    color: white;
+  }
+
+  & .project--bridge,
+  & .project--checkdesk {
+    color: $firefly2;
+    padding: 2em 2em;
+    width: 40%;
+    margin: 1em;
+
+    // At smaller sizes
+    @media all and (max-width: $breakpoint) {
+      width: 100%;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.4;
+      padding-bottom: 1em;
+
+      &.blurb {
+        min-height: 11em;
+      }
+
+      &.blurb,
+      &.learn {
+        font-size: 0.8em;
+      }
+
+      &.tagline {
+        font-weight: 500;
+        color: rgba(white, 0.8);
+        padding: 0.5em 0 2em 0em;
+      }
+
+      a {
+        background-color: rgba(white, 0.1);
+        border-radius: 14px;
+        color: rgba(white, 1);
+        font-size: 0.9em;
+        padding: 0 0.5em;
+        text-decoration: none;
+        margin: 0 0.5em;
+      }
+    }
+
+    // At smaller sizes
+    @media all and (max-width: $breakpoint) {
+      svg {
+        // max-width: 300px;
+        // width: 100%;
+      }
+
+      p {
+        padding: 0;
+        width: 95%;
+      }
+    }
+  }
+}

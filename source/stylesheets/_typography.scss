@@ -1,0 +1,156 @@
+/// Web fonts from Google
+///
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,500");
+
+/// Define font stacks
+///
+$font-stack--roboto: Roboto, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+$font-stack--open-sans: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+
+// Standardize line heights
+//
+$line-height--small: 1.2;
+$line-height--medium: 1.5;
+$line-height--large: 1.65;
+$line-height--xlarge: 1.85;
+
+// Default typography
+//
+// This is a language independent base theme.
+// Language specific typography is in files like `_lang__en.scss`
+//
+body {
+  color: $firefly80;
+  font-family: $font-stack--open-sans;
+  font-weight: 300;
+  line-height: $line-height--medium;
+  text-align: center;
+  font-size: 20px;
+  @media (max-width: $breakpoint) {
+  	font-size: 16px;
+  }
+}
+
+// Section defaults
+//
+// The primary building blocks of the typographic rhythm.
+// Each section must have a header.
+section {
+  padding-bottom: 4em;
+  width: 100%;
+  overflow-x: hidden;
+  p {
+    padding-bottom: 2em;
+  }
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: $font-stack--roboto;
+  font-size: 2.6em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
+  padding: 0.5em 0.5em 0.2em 0.5em;
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  display: block;
+  font-family: $font-stack--roboto;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: $line-height--small;
+  margin: 0;
+  padding: 4em 2em 2em;
+  text-transform: uppercase;
+
+  @media all and (max-width: $breakpoint) {
+    padding: 4em 2em 2em;
+  }
+}
+
+h4 {
+  margin: 0.4em auto;
+  max-width: 650px;
+  @media all and (max-width: $breakpoint) {
+    max-width: 61.8%;
+    margin: 0 auto;
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+ul {
+  margin: 0.5em 0;
+  padding: 0;
+  text-align: center;
+
+  @media all and (max-width: $breakpoint) {
+    margin-top: 0.5em 0 0;
+  }
+}
+
+li {
+  padding: 0 1em 1em;
+  list-style-type: none;
+  @media all and (max-width: $breakpoint) {
+    padding: 0 0.5em 0.5em;
+    display: block;
+  }
+}
+
+// At small sizes, make list links more like buttons
+//
+li > a {
+  @media all and (max-width: $breakpoint) {
+    display: block;
+    padding: 1.4em;
+  }
+}
+
+// Paragraphs
+p {
+  display: block;
+  font-size: 1em;
+  line-height: $line-height--xlarge;
+  margin: 0 auto;
+  max-width: 35em;
+  padding: 0;
+  width: 100%;
+
+  @media all and (max-width: $breakpoint) {
+    line-height: $line-height--xlarge;
+    padding: 1em 0.7em;
+  }
+}
+
+// Links
+a {
+  color: $dodger-blue;
+
+  &:hover {
+    color: $accent-blue;
+    transition: 0.4s;
+  }
+}
+
+/// Typography: dense sections
+///
+%typography--section-dense {
+  &:lang(en) {
+    h4,
+    p {
+      text-align: left;
+    }
+
+    p {
+      padding: 2em;
+    }
+  }
+}

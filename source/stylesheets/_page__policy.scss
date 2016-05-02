@@ -1,0 +1,32 @@
+// Privacy policy and TOS
+//
+// A simple text treatment
+// The navigation is hidden on this page (in the template)
+.policy {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 600px;
+  padding-top: 4em;
+
+  p,
+  h2,
+  h3 {
+    margin: 0;
+    padding: 30px;
+  }
+
+  ol, ul {
+    display: block;
+    list-style-position: inside;
+    margin: 0;
+    padding: 30px;
+    text-align: left;
+
+    li {
+      display: list-item;
+      list-style-type: disc;
+      margin: 0;
+      text-align: left;
+    }
+  }
+}

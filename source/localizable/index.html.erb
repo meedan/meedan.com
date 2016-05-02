@@ -1,0 +1,111 @@
+---
+layout: "default"
+slug: "home"
+---
+<!-- Homepage Branding -->
+<section class="home--branding">
+
+  <%= partial "partials/image.html.erb", :locals => {
+        :url => "/",
+        :name => "meedan-logo-text",
+        :type => "svg"
+        } %>
+
+  <p class="slogan"><%= t("home.branding.slogan") %></p>
+  <p class="about"><%= t("home.branding.about") %></p>
+</section>
+
+<!-- Homepage Projects -->
+<section class="home--projects">
+  <h3><%= t("home.projects.title") %></h3>
+
+  <!-- Checkdesk project -->
+  <div class="project--checkdesk">
+    <%= partial "partials/image.html.erb", :locals => {
+        :url => "/" + I18n.locale.to_s + "/checkdesk",
+        :name => "checkdesk-white",
+        :type => "svg" } %>
+
+    <p class="tagline">
+      <%= t("home.projects.checkdesk.tagline") %>
+    </p>
+
+    <p class="blurb">
+      <%= t("home.projects.checkdesk.blurb") %>
+    </p>
+
+    <p class="learn">
+      <a href="<%= t("home.projects.checkdesk.learn_more_url") %>">
+        <%= t("home.projects.checkdesk.learn_more_text") %>
+      </a>
+      <a class="github" href="<%= t("home.projects.checkdesk.github_url") %>">
+        <%= t("home.projects.checkdesk.github_text") %>
+      </a>
+    </p>
+  </div>
+
+  <!-- Bridge project -->
+  <div class="project--bridge">
+    <%= partial "partials/image.html.erb", :locals => {
+        :url => "/" + I18n.locale.to_s + "/bridge",
+        :name => "bridge",
+        :type => "svg" } %>
+
+    <p class="tagline"><%= t("home.projects.bridge.tagline") %></p>
+
+    <p class="blurb"><%= t("home.projects.bridge.blurb") %></p>
+
+    <p class="learn">
+      <a href='<%= t("home.projects.bridge.learn_more_url") %>'>
+        <%= t("home.projects.bridge.learn_more_text") %>
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- Recent press -->
+<section class="home--recent-press" name="recent-press">
+  <h3><%= t("about.recent_press.header") %></h3>
+  <%= partial "partials/press_blurbs" %>
+</section>
+
+<!-- Homepage Latest -->
+<script async src="https://static.medium.com/embed.js"></script>
+<section class="home--latest">
+  <h3><%= t("home.latest.header") %></h3>
+  <p><%= t("home.latest.text") %></p>
+  <div class="medium-channels">
+    <div class="medium-channel">
+      <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates"></a>
+    </div>
+
+    <div class="medium-channel">
+      <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-labs"></a>
+    </div>
+  </div>
+</section>
+
+<!-- Homepage Supporters -->
+<section class="home--supporters">
+  <h3><%= t("home.supporters.header") %></h3>
+  <p><%= t("home.supporters.text") %></p>
+  <ul class="logos">
+    <% data.supporter_logos.each do |logo| %>
+    <li>
+      <%= partial "partials/_image.html.erb",
+          :locals => {
+          :type => logo[:type],
+          :name => logo[:name],
+          :url => logo[:url] } %>
+    </li>
+    <% end %>
+  </ul>
+</section>
+
+<!-- Homepage Photo Frame -->
+<div class="home--background-photo">
+  <p><%= t("home.photo_frame") %></p>
+</div>
+
+<!-- Homepage Contact -->
+<%= partial "partials/contact" %>

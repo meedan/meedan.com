@@ -1,0 +1,66 @@
+---
+layout: "default"
+slug: "about"
+---
+<!-- About Branding -->
+<section class="about--branding">
+  <h3><%= t("about.branding.heading") %></h3>
+</section>
+
+<!--About Promo-bar-->
+<div class="about--promo-bar">
+  <%= t("about.we_love") %>
+  <a href="mailto:hello@meedan.com">
+    <%= t("about.email_us") %>
+  </a>
+</div>
+
+<section class="about--recent-press">
+  <!-- Recent press -->
+  <%= partial "partials/press_blurbs" %>
+</section>
+
+<!-- Our Vision -->
+<section class="about--our-vision">
+  <h3><%= t("about.our_vision.header") %></h3>
+  <% t("about.our_vision.paragraphs").each do |e| %>
+    <p><%= e[:text] %></p>
+  <% end %>
+</section>
+
+<!-- Challenges -->
+<%= partial(:section__default, :locals => { :name => "about--challenges" }) %>
+
+<!-- Product photo -->
+<div class="about--products-photo"></div>
+
+<!-- Products -->
+<%= partial(:section__default, :locals => { :name => "about--products" }) %>
+
+<!-- Methods -->
+<%= partial(:section__default, :locals => { :name => "about--methods" }) %>
+
+<!-- Public Engagement Photo -->
+<div class="about--public-engage-photo">
+</div>
+
+<!-- Public Engagement Text -->
+<%= partial(:section__default, :locals => { :name => "about--public-engage" }) %>
+
+<!-- Team  -->
+<section class="about--team">
+  <h3><%= t("home.team.header") %></h3>
+  <p><%= t("home.team.text") %></p>
+  <ul>
+    <% data.team_members.each do |member| %>
+    <li>
+      <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
+      <div class="name"><%= member.fullname %></div>
+      <div class="title"><%= member.title %></div>
+    </li>
+    <% end %>
+  </ul>
+</section>
+
+<!-- Contact -->
+<%= partial "partials/contact" %>

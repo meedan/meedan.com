@@ -1,0 +1,54 @@
+// Recent press component
+//
+%component--recent-press {
+  padding-bottom: 1em;
+
+  h3 {
+    width: 100%;
+  }
+
+  // A list of "blurbs"
+  .blurbs {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    // at smaller sizes
+    @media all and (max-width: $breakpoint) {
+      flex-flow: column;
+      padding-bottom: 2em;
+    }
+  }
+
+  // Single blurb with text and logo
+  li {
+    color: $firefly80;
+    padding: 0;
+    width: 33%;
+
+    // at smaller sizes
+    @media all and (max-width: $breakpoint) {
+      width: 100%;
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: .8em;
+      font-weight: 500;
+      line-height: 1.25;
+
+      // At smaller sizes
+      @media all and (max-width: $breakpoint) {
+        width: 95%;
+      }
+
+      a {
+        color: $firefly80;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          transition: .4s;
+        }
+      }
+    }
+  }
+}
