@@ -4,7 +4,7 @@ require 'yaml'
 require 'net/http'
 require 'pry'
 require 'rainbow'
-require 'html/proofer'
+require 'html-proofer'
 
 LOCALES_PATH = 'locales'
 PAGES = ["/en/", "/ar/", "/en/checkdesk/", "/ar/checkdesk/", "/en/bridge/", "/ar/bridge/", "/en/about/", "/ar/about/"]
