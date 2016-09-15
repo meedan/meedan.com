@@ -36,7 +36,7 @@ casper.test.begin('/check redirects to a default language-specific page', 2, fun
 
 // Test redirection of legacy checkdesk path
 //
-casper.test.begin('/checkdesk redirects to a default language-specific page', 2, function suite(test) {
+casper.test.begin('/checkdesk redirects to a default language-specific page', 1, function suite(test) {
   casper.start(localhostURL + "/checkdesk", function () {
     this.wait(2000, function () {
       this.echo("waited for 2 seconds");
@@ -68,8 +68,8 @@ casper.test.begin('/bridge redirects to a default language-specific page', 2, fu
 
 // Test RTL element
 //
-casper.test.begin('/checkdesk arabic has rtl', 1, function suite(test) {
-  casper.start(localhostURL + "/ar/checkdesk/", function () {
+casper.test.begin('/check arabic has rtl', 1, function suite(test) {
+  casper.start(localhostURL + "/ar/check/", function () {
     this.wait(1000, function () {
       this.echo("waited for 1 seconds");
       var dump = require('utils').dump;
