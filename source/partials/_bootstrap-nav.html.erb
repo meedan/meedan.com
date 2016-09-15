@@ -23,7 +23,7 @@
       <!-- 1. The locale navigation -->
       <!-- This comes before the page list navigation -->
 
-      <% if current_page.data.slug == "checkdesk"%>
+      <% if current_page.data.slug == "check"%>
         <% inactive_languages = langs - [I18n.locale] %>
 
         <ul class="nav locales navbar-nav">
@@ -40,7 +40,7 @@
 
       <!-- 2. The page navigation -->
       <!-- Loop through each page -->
-      <% nav_pages = ["checkdesk", "bridge", "about"] %>
+      <% nav_pages = ["check", "bridge", "about"] %>
       <ul class="nav navbar-nav pages">
         <% nav_pages.each do |page| %>
         <%= "<li class='#{page}'>" %>

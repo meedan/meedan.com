@@ -19,27 +19,27 @@ slug: "home"
 <section class="home--projects">
   <h3><%= t("home.projects.title") %></h3>
 
-  <!-- Checkdesk project -->
-  <div class="project--checkdesk">
+  <!-- Check project -->
+  <div class="project--check">
     <%= partial "partials/image.html.erb", :locals => {
-        :url => "/" + I18n.locale.to_s + "/checkdesk",
-        :name => "checkdesk-white",
+        :url => "/" + I18n.locale.to_s + "/check",
+        :name => "check-white",
         :type => "svg" } %>
 
     <p class="tagline">
-      <%= t("home.projects.checkdesk.tagline") %>
+      <%= t("home.projects.check.tagline") %>
     </p>
 
     <p class="blurb">
-      <%= t("home.projects.checkdesk.blurb") %>
+      <%= t("home.projects.check.blurb") %>
     </p>
 
     <p class="learn">
-      <a href="<%= t("home.projects.checkdesk.learn_more_url") %>">
-        <%= t("home.projects.checkdesk.learn_more_text") %>
+      <a href="<%= t("home.projects.check.learn_more_url") %>">
+        <%= t("home.projects.check.learn_more_text") %>
       </a>
-      <a class="github" href="<%= t("home.projects.checkdesk.github_url") %>">
-        <%= t("home.projects.checkdesk.github_text") %>
+      <a class="github" href="<%= t("home.projects.check.github_url") %>">
+        <%= t("home.projects.check.github_text") %>
       </a>
     </p>
   </div>
@@ -48,7 +48,7 @@ slug: "home"
   <div class="project--bridge">
     <%= partial "partials/image.html.erb", :locals => {
         :url => "/" + I18n.locale.to_s + "/bridge",
-        :name => "bridge",
+        :name => "bridge-white",
         :type => "svg" } %>
 
     <p class="tagline"><%= t("home.projects.bridge.tagline") %></p>

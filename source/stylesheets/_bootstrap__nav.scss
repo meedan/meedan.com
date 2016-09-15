@@ -131,7 +131,7 @@
 // Page navigation: current page indicator
 //
 // Loop through the main pages.
-@each $page in (bridge, checkdesk, about)  {
+@each $page in (bridge, check, about)  {
   @media all and (max-width: $breakpoint--nav) {
     .#{$page} .navbar-nav .#{$page} a {
       font-weight: bold;

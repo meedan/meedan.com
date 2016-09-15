@@ -20,16 +20,16 @@
       });
     });
 
-    // Checkdesk
+    // check
     //
-    // fade out localization on checkdesk page when scrolling down
+    // fade out localization on check page when scrolling down
     //
     $(function () {
       $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
-          $(".checkdesk .locales").fadeOut();
+          $(".check .locales").fadeOut();
         } else {
-          $(".checkdesk .locales").fadeIn();
+          $(".check .locales").fadeIn();
         }
       });
     });
