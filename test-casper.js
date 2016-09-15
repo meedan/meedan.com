@@ -1,6 +1,6 @@
 var localhostURL = "http://localhost:8080";
 var defaultHomePage = "/en/";
-var defaultCheckdeskPage = "/en/checkdesk/";
+var defaultCheckPage = "/en/check/";
 var defaultBridgePage = "/en/bridge/";
 
 // Sanity check
@@ -19,15 +19,29 @@ casper.test.begin('home page loads', 2, function suite(test) {
 
 // Test redirection
 //
+casper.test.begin('/check redirects to a default language-specific page', 2, function suite(test) {
+  casper.start(localhostURL + "/check", function () {
+    this.wait(2000, function () {
+      this.echo("waited for 2 seconds");
+      test.assertUrlMatch(defaultCheckPage, "Redirected to the language-specific page (En).");
+    });
+  });
+  casper.then(function () {
+    test.assertExists('body.check', "Main check body class exists.");
+  });
+  casper.run(function () {
+    test.done();
+  });
+});
+
+// Test redirection of legacy checkdesk path
+//
 casper.test.begin('/checkdesk redirects to a default language-specific page', 2, function suite(test) {
   casper.start(localhostURL + "/checkdesk", function () {
     this.wait(2000, function () {
       this.echo("waited for 2 seconds");
-      test.assertUrlMatch(defaultCheckdeskPage, "Redirected to the language-specific page (En).");
+      test.assertUrlMatch(defaultCheckPage, "Redirected to default Check (En).");
     });
-  });
-  casper.then(function () {
-    test.assertExists('body.checkdesk', "Main checkdesk body class exists.");
   });
   casper.run(function () {
     test.done();

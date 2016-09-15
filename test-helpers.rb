@@ -7,8 +7,8 @@ require 'rainbow'
 require 'html-proofer'
 
 LOCALES_PATH = 'locales'
-PAGES = ["/en/", "/ar/", "/en/checkdesk/", "/ar/checkdesk/", "/en/bridge/", "/ar/bridge/", "/en/about/", "/ar/about/"]
-LEGACY_PATHS = ["/bridge", "/checkdesk", "/about", "/"]
+PAGES = ["/en/", "/ar/", "/en/check/", "/ar/check/", "/en/bridge/", "/ar/bridge/", "/en/about/", "/ar/about/"]
+LEGACY_PATHS = ["/bridge", "/en/checkdesk/", "/ar/checkdesk/", "/checkdesk", "/about", "/"]
 
 # Banner helper
 #

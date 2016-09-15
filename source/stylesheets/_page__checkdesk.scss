@@ -1,49 +1,49 @@
 
-// Checkdesk page
+// check page
 //
 // Uses default branding component styles
-section.checkdesk--branding {
+section.check--branding {
   @extend %component--branding;
-  background-color: $checkdesk-yellow;
+  background-color: $check-yellow;
   color: white;
   animation: fadeIn 1.2s;
 }
 
-// Checkdesk explanations
-section.checkdesk--explanations {
+// check explanations
+section.check--explanations {
   @extend %colors--default;
   @extend %component--explanations;
 }
 
-// Checkdesk Quotes
-section.checkdesk--quotes {
+// check Quotes
+section.check--quotes {
   @extend %component--quotes;
 }
 
-// Checkdesk newsletter
-section.checkdesk--newsletter {
+// check newsletter
+section.check--newsletter {
   @extend %colors--inverted;
   @extend %colors--form-inverted;
 }
 
-// Checkdesk history
-section.checkdesk--history {
+// check history
+section.check--history {
   @extend %colors--inverted;
 }
 
-// Checkdesk supporters
-section.checkdesk--supporters {
+// check supporters
+section.check--supporters {
   background-color: $firefly2;
   @extend %component--logos;
 }
 
-// Checkdesk partners
-section.checkdesk--partners {
+// check partners
+section.check--partners {
   @extend %component--logos;
 }
 
-// Checkdesk awards
-section.checkdesk--awards {
+// check awards
+section.check--awards {
   background-color: $firefly2;
   padding-top: 4em;
   h3 {
@@ -54,13 +54,13 @@ section.checkdesk--awards {
   }
 }
 
-// Checkdesk github
-section.checkdesk--github {
+// check github
+section.check--github {
   @extend %colors--inverted;
 }
 
-// Checkdesk footer
-div.checkdesk--footer {
+// check footer
+div.check--footer {
   @extend %colors--inverted;
   @extend %component--footer;
 }
