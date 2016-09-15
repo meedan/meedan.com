@@ -24,11 +24,12 @@
 
   // Set the logo widths
   .project--bridge svg {
+    padding-top: 10px;
     width: 11em;
   }
 
   .project--check svg {
-    width: 15em;
+    width: 10.5em;
   }
 
   h3 {
@@ -81,10 +82,6 @@
 
     // At smaller sizes
     @media all and (max-width: $breakpoint) {
-      svg {
-        // max-width: 300px;
-        // width: 100%;
-      }
 
       p {
         padding: 0;
