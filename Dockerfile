@@ -44,4 +44,5 @@ USER ${DEPLOYUSER}
 RUN bundle exec middleman build
 
 ONBUILD EXPOSE 8080
-CMD ["pm2","start","server.js"]
+RUN chmod 755 start.sh;
+CMD ["./start.sh"]
