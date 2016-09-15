@@ -1,12 +1,23 @@
 // just quick webserver to serve www (in production)
 
-var http = require('http');
-var ecstatic = require('ecstatic');
+var express = require('express'),
+    serveStatic = require('serve-static'),
+    app = express();
 
-http.createServer(
-  ecstatic({
-    root: __dirname + '/build'
-  })
-).listen(8080);
+// static assets first
+app.use(serveStatic('build', { 'index': ['index.html'] }))
 
+// 302 redirects check --> checkdesk
+app.get('/checkdesk', function(req, res) {
+	res.redirect(302, '/check')
+});
+app.get('/en/checkdesk', function(req, res) {
+	res.redirect(302, '/en/check')
+});
+app.get('/ar/checkdesk', function(req, res) {
+	res.redirect(302, '/ar/check')
+});
+
+
+app.listen(process.env.SERVER_PORT || 8080)
 console.log('Listening on :8080');
