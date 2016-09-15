@@ -107,3 +107,7 @@ To run the tests make sure you:
 
 - install standalone global casper and slimerjs executables, for example on a mac with homebrew: `brew install casperjs slimerjs`
 - run the tests with `npm test`
+
+If you get "Error: listen EADDRINUSE" try `ps aux | grep node` to find the hanging server.js and `kill` the process id.
+
+If you get an error about the pid file, `mkdir tmp`
