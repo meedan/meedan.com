@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
 
-.annual-report-2014 {
+.annual-report-2014, 
+.annual-report-2015 {
 
   .inner {
     margin: 3em auto;
@@ -107,14 +108,6 @@
   .image-banner {
     background-size: cover;
     height: 70vh;
-
-    &.team-2 {
-      background-image: url("/images/annual-report/team-1-blue-screen.jpg");
-    }
-
-    &.team-3 {
-      background-image: url("/images/annual-report/team-3-aqua-screen.jpg");
-    }
   }
 
   // Caption on the photo
@@ -126,12 +119,6 @@
     color: $firefly40;
   }
 
-  .lead-photo .image-banner {
-    background-image: url("/images/annual-report/team-6-peach-screen.jpg");
-    @media all and (min-width:600px) {
-      background-position: 20% 50%;
-    }
-  }
 
   // Contact information
   //
@@ -224,3 +211,37 @@
   }
 }
 
+
+.annual-report-2014 {
+  .image-banner.team-2 {
+    background-image: url("/images/annual-report/team-1-blue-screen.jpg");
+  }
+
+  .image-banner.team-3 {
+    background-image: url("/images/annual-report/team-3-aqua-screen.jpg");
+  }
+
+  .lead-photo .image-banner {
+    background-image: url("/images/annual-report/team-6-peach-screen.jpg");
+    @media all and (min-width:600px) {
+      background-position: 20% 50%;
+    }
+  }
+}
+
+.annual-report-2015 {
+  .image-banner.team-2 {
+    background-image: url("/images/annual-report/screen-blue.png");
+  }
+
+  .image-banner.team-3 {
+    background-image: url("/images/annual-report/screen-blue.png");
+  }
+
+  .lead-photo .image-banner {
+    background-image: url("/images/annual-report/screen-blue.png");
+    @media all and (min-width:600px) {
+      background-position: 20% 50%;
+    }
+  }
+}
