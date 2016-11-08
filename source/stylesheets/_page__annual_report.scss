@@ -68,7 +68,6 @@
   //
   .ceo-note {
     font-weight: 400;
-    font-size: 0.8em;
     p {
       padding: 0.5em 1em;
     }
@@ -98,7 +97,59 @@
           font-family: 'Roboto Slab', serif;
           border-bottom: 4px double $firefly40;
           text-shadow: 10px yellow;
+          min-height: 180px;
+          vertical-align: middle;
         }
+      }
+    }
+  }
+
+  .mission-statement ul {
+    li {
+      padding: 1em;
+      text-align: left;
+      &:nth-of-type(1) span {
+        background-color: #5856D6;
+      }
+      &:nth-of-type(2) span {
+        background-color: #FF2D55;
+      }
+      &:nth-of-type(3) span {
+        background-color: #FF9500;
+      }
+      &:nth-of-type(4) span {
+        background-color: #1AD6FD;
+      }
+      &:nth-of-type(5) span {
+        background-color: #1AD6FD;
+      }
+      &:nth-of-type(6) span {
+        background-color: #0BD318;
+      }
+      &:nth-of-type(7) span {
+        background-color: #34AADC;
+      }
+      &:nth-of-type(8) span {
+        background-color: #EF4DB6;
+      }
+      span {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: $firefly80;
+        color: white;
+        border-radius: 2px;
+        padding: 2px 6px;
+        text-shadow: 1px 1px rgba(#000000, 0.2);
+      }
+      em {
+        font-style: normal;
+      }
+
+      @media all and (max-width: $breakpoint) {
+        padding: 1em;
+        list-style-type: disc;
+        list-style-position: inside;
       }
     }
   }
@@ -110,13 +161,17 @@
     height: 70vh;
   }
 
+  .image-banner-wrap {
+    position: relative;
+  }
+
   // Caption on the photo
   //
   .caption {
     // padding-top: 1em;
-    font-size: 13px;
-    padding: 0.3em;
-    color: $firefly40;
+    font-size: 16px;
+    padding: 0.8em 0.3em;
+    color: $firefly60;
   }
 
 
@@ -230,18 +285,50 @@
 }
 
 .annual-report-2015 {
-  .image-banner.team-2 {
-    background-image: url("/images/annual-report/screen-blue.png");
-  }
-
-  .image-banner.team-3 {
-    background-image: url("/images/annual-report/screen-blue.png");
-  }
-
   .lead-photo .image-banner {
-    background-image: url("/images/annual-report/screen-blue.png");
+    background: 
+    linear-gradient(
+      rgba(#C86EDF, 0.2),
+      rgba(darken(#E4B7F0, 20%), 0.4)
+    ),
+    url("/images/annual-report/belad.jpg");
+    background-size: cover;
+    @media all and (max-width:600px) {
+      background-position: 50% 50%;
+      height: 50vh;
+    }
     @media all and (min-width:600px) {
       background-position: 20% 50%;
     }
   }
+
+  .image-banner.team-2 {
+    background: 
+    linear-gradient(
+      rgba(orange, 0.2),
+      rgba(orange, 0.4)
+    ),
+    url("/images/annual-report/caioandkarim.jpg");
+    background-size: cover;
+    @media all and (max-width:600px) {
+      background-position: 0% 0%;
+      height: 50vh;
+    }
+  }
+  
+  .image-banner.team-3 {
+    background: 
+    linear-gradient(
+      rgba(#55EFCB, 0.2),
+      rgba(darken(#5BCAFF, 20%), 0.4)
+    ),
+    url("/images/annual-report/group.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    height: 60vh;
+    @media all and (max-width:600px) {
+      height: 30vh;
+    }
+  }
+
 }

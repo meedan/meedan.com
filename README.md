@@ -4,16 +4,17 @@ This is an environment for fast, synchronized browser refreshing as you edit Sas
 
 ## Overview
 
-0. Install the npm and node and ruby 2.x
-1. `make` — This will run the make file to install the build system (local and global npm modules, and ruby gems).
-2. `npm start` — this will run middleman with bundler.
-3. Edit .scss, .html and .js files. The browser should live-reload.
+0. Install the npm  and node (eg. or the Node installer or on a mac using Brew using `brew install node`) 
+0. Install ruby 2.x (eg with [rvm](https://rvm.io))
+0. `make` — This will run the make file to install the build system (local and global npm modules, and ruby gems).
+0. `npm start` — this will run middleman with bundler.
+0. Edit .scss, .html and .js files. The browser should live-reload.
 
 ## This is a [Middleman](http://middlemanapp.com/) site
 
 [Middleman](http://middlemanapp.com/) compiles our static site `build` from files in `source`.
 
-Middleman is a rubyish (sinatraish) and markdownish templating & routing system. When you work with middleman you are generating a static site that is generated in a `build` directory, but you only see the `source` files while you are working. When you are ready to make the static build of all your pages with all your templating logic re-run, you do `middleman build`. You have to do that before you deploy. Commit and push the latest `build` directory to deploy it. Middleman is designed for people who do this routine all day. 
+Middleman is a ruby and markdown templating & routing system. When you work with middleman you are generating a static site that is generated in a `build` directory, but you only see the `source` files while you are working. When you are ready to make the static build of all your pages with all your templating logic re-run, you do `middleman build` (or in Meedan’s case, the build system does it for you). You have to do that before you deploy. Commit and push the latest `build` directory to deploy it. Middleman is designed for people who do this routine all day. 
 
 ## Quick start
 
@@ -22,11 +23,11 @@ Middleman is a rubyish (sinatraish) and markdownish templating & routing system.
 
 ## Even quicker start: copy editing via github.com
 
-If you want to just change some copywriting, you really don't even need to set up the app locally.
+If you want to just change some copywriting, you really don’t even need to set up the app locally.
 
 Copy edits can go in a yaml file like `en.yml`, for English.— https://github.com/meedan/meedan.com/blob/develop/locales/en.yml.
 
-You can edit the copy using github.com by clicking 'edit' on that file. ^^
+You can edit the copy using github.com by clicking ‘edit’ on that file. ^^
 
 Make sure you are on the `develop` branch. 
 
@@ -42,7 +43,7 @@ The code we use here is packaged with [Rubygems](http://rubygems.com/) and [NPM]
 
   * `make setup`
 
-Theoretically, that's it. The makefile installs bundler, bower, and npm then does bundle install and bower install. After everything installs, you can hopefully run `npm start`.
+Theoretically, that’s it. The makefile installs bundler, bower, and npm then does bundle install and bower install. After everything installs, you can hopefully run `npm start`.
 
 ## Local development of meedan.com
 
