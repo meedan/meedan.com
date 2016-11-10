@@ -159,8 +159,6 @@
   .image-banner {
     background-size: cover;
     height: 70vh;
-    // Ensure that the images don't disappear when printing
-    -webkit-print-color-adjust: exact;
   }
 
   .image-banner-wrap {
