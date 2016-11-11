@@ -69,7 +69,7 @@ If you want to add a new partner or supporter logo, you need to create two versi
 
 Render both sizes (eg with sketch) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings (Acorn, Photoshop) or at least use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: In the web export, try setting quality very low, near zero.)
 
-Once you have the new images, update the data files `supporter_logos.json` and `check_partners.json` to include data about the new file, for example:
+Once you have the new images, update the data files `supporter_logos.json` or `check_partners.json` to include data about the new file, for example:
 
         {
           "name": "witness",
