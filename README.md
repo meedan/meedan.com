@@ -83,11 +83,11 @@ The template loops through these values to create the logo-list sections. So, th
 
 Use `git tag` and `git commit` in the [SemVer](http://semver.org/) style.
 
-When you push an update, try this bower command: `bower version 0.0.1`. (Use `git tag` to see previous tags.)
+Use `npm version (major|minor|patch)` to tag a new version.
 
 ## Deploying
 
-To deploy the files from the www directory to the gh-pages branch first tag a release like `git tag v2.3.4 && git push && git push --tags`.
+To deploy the files from the www directory to the gh-pages branch first tag a release like `npm version minor && git push && git push --tags`.
 When the repo gets updated on github, an automatic build and deployment of the development site is triggered.
 Then `git checkout master`, `git merge develop`, `git push`, and use jenkins to trigger the deploy.
 
