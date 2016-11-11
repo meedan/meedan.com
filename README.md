@@ -79,6 +79,18 @@ Once you have the new images, update the data files `supporter_logos.json` and `
 
 The template loops through these values to create the logo-list sections. So, this will add the images to the page.
 
+## Adding a new team member
+
+Hooray a new Meedani! Like the logos, team member information is stored as json data. Take a peek in `data/team_members.json` and add a member (in alphabetical order) like so:
+
+        {
+          "name": "steven",
+          "fullname": "Steven Bird",
+          "title": "Senior Advisor"
+        }
+
+Add a @1x version (200px, under 10kb) and a @2x version (400px, under 20kb) to `images/team/`.
+
 ## Releasing new versions
 
 Use `git tag` and `git commit` in the [SemVer](http://semver.org/) style.
