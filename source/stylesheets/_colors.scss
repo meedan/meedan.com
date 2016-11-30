@@ -1,74 +1,31 @@
-/// check 2015 colors
-/// @group meedan-check
-
-/// Firefly 2
-///@type color
+// Colors
+//
 $firefly2: #fafbfb;
-
-/// Firefly 10
-///@type color
 $firefly10: #e7e8ea;
-
-/// Firefly 5
-///@type color
 $firefly5: lighten($firefly10, 5%);
-
-/// Firefly 20
-///@type color
 $firefly20: #cfd3d5;
-
-/// Firefly 30
-///@type color
 $firefly30: #b7bcc0;
-
-/// Firefly 40
-///@type color
 $firefly40: #9fa6ac;
-
-/// Firefly 50
-///@type color
 $firefly50: #f3f4f4;
-
-/// Firefly 60
-///@type color
 $firefly60: #6f7a82;
-
-/// Firefly 80
-///@type color
 $firefly80: #404d59;
-
-/// Firefly 90
-///@type color
 $firefly90: #283743;
-
-/// Firefly
-///@type color
 $firefly: #10212f;
 
-/// check Yellow
-///@type color
+$firefly-100-90: rgba($firefly, 90%);
+$firefly-100-70: rgba($firefly, 70%);
+
 $check-yellow: #e4ba2a;
-$dodger-blue: #3073FD;
-
-/// Keyboard Grey
-/// @type Color
+$check-blue: #3073fd;
 $keyboard-grey: #abb5bd;
-
-/// Keyboard Light Grey
-/// @type Color
 $light-keyboard-grey: #d1d6db;
-
-/// Light Bridge International Orange
-/// @type Color
 $light-bridge-orange: #fff6f1;
-
-/// Bridge International Orange
-/// @type Color
 $bridge-orange: #ff4f00;
 $accent-blue: #6d9ed3;
 $photo-feb10-blue: #596d74;
 $alto-grey: #e0e0e0;
-$dodgerBlue: #2E77FC;
+$canvas-background: #fff;
+$white: #fff;
 
 // Color scheme: Inverted
 //
@@ -85,9 +42,6 @@ $dodgerBlue: #2E77FC;
     }
   }
 }
-
-/// Colors: Default form theme
-///
 %colors--form-default {
 
   // Email input
@@ -99,13 +53,13 @@ $dodgerBlue: #2E77FC;
    // The outline is hidden (for mouse users only!) w/ js
    // See: http://a11yproject.com/posts/never-remove-css-outlines/
    // See: app.js
-   border-bottom: 1px solid $dodger-blue;
+   border-bottom: 1px solid $check-blue;
   }
 
    // When clicking in this element, light up the button
    &:focus ~ input[type='submit'] {
      transition: background-color 0.3s;
-     background-color: $dodger-blue;
+     background-color: $check-blue;
      color: white;
    }
   }
@@ -115,7 +69,7 @@ $dodgerBlue: #2E77FC;
     background-color: $light-keyboard-grey;
     color: $firefly60;
     &:hover {
-      background-color: $dodger-blue;
+      background-color: $check-blue;
       color: white;
       transition: background-color 0.2s;
     }
@@ -126,9 +80,6 @@ $dodgerBlue: #2E77FC;
     color: $firefly40;
   }
 }
-
-/// Colors: Inverted form theme
-///
 %colors--form-inverted {
 
   // All labels
@@ -150,7 +101,7 @@ $dodgerBlue: #2E77FC;
     // When clicking in this element, light up the button
     &:focus ~ input[type='submit'] {
       background-color: white;
-      color: $dodger-blue;
+      color: $check-blue;
     }
   }
 

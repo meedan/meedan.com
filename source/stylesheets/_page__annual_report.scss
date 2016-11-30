@@ -191,8 +191,7 @@
       padding-top: 1em;
     }
     a {
-      color: $dodgerBlue;
-      border-bottom: 3px solid $dodgerBlue;
+      border-bottom: 3px solid $check-blue;
       @media (max-width: 900px) {
         display: inline-block;
         padding: 0.1em;
@@ -200,26 +199,8 @@
     }
   }
 
-  // Buttons
-  //
-  .button {
-    width: 320px;
-    font-size: 0.8em;
-    display: block;
-    margin: 4em auto;
-    border-radius: 4px;
-    background-color: $dodgerBlue;
-    padding: 1.2em 2em;
-    color: white;
-    text-decoration: none;
-    &:hover {
-      background-color: darken($dodgerBlue, 10%);
-      transition: background-color 0.4s;
-    }
-  }
-
   a.hello {
-    @extend.button;
+    @extend .button;
     width: 275px;
     border-bottom-width: 0;
     background-color: $firefly40;
@@ -249,23 +230,7 @@
       }
     }
   }
-
-  // Donate
-  //
-  .donate {
-    padding-bottom: 10em;
-    background-image: linear-gradient(to right, rgba($firefly, 0.9),  rgba($firefly, 0.7)), url("/images/annual-report/screen-2.png");
-    color: white;
-    margin-top: 4em;
-    p {
-    text-align: center;
-    }
-    h2 {
-      color: white;
-    }
-  }
 }
-
 
 .annual-report-2014 {
   .image-banner.team-2 {

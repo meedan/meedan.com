@@ -22,8 +22,8 @@
   // Single blurb with text and logo
   li {
     color: $firefly80;
-    padding: 0;
-    width: 33%;
+    padding: 1%;
+    width: 30%;
 
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
