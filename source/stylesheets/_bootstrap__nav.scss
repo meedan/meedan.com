@@ -22,12 +22,12 @@
   // When you hover — with a mouse
   border-bottom: 3px solid transparent;
   &:hover {
-    border-bottom: 3px solid $dodger-blue;
+    border-bottom: 3px solid $check-blue;
     transition: border 0.1s;
   }
   // When you actually tap it
   &:active {
-    color: $dodger-blue;
+    color: $check-blue;
   }
   // At smaller sizes
   @media all and (max-width: $breakpoint--nav) {

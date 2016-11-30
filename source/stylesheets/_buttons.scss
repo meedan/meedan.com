@@ -1,0 +1,19 @@
+.button {
+  background-color: $check-blue;
+  border-radius: 4px;
+  color: $white;
+  display: block;
+  font-size: .8em;
+  margin: 4em auto;
+  padding: 1.2em 2em;
+  text-decoration: none;
+  transition: background-color .4s;
+  width: 320px;
+
+  &:hover {
+    background-color: darken($check-blue, 10%);
+    color: $white;
+    text-decoration: none;
+    transition: background-color .4s;
+  }
+}
