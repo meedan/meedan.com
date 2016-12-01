@@ -1,7 +1,7 @@
 // Meedan.com home page
 //
 .home {
-  background-color: $canvas-background;
+  background-color: $white;
 
   h1 {
     animation: fadeIn 1.2s;
@@ -40,13 +40,14 @@
       animation: fadeIn .8s;
       display: block;
       height: 200px;
-      margin: 0 auto;
+      margin: 1em auto;
       margin-bottom: 1em;
     }
   }
 
   .slogan {
-    padding: 1em 0;
+    padding: 2em 0;
+    font-weight: 500;
   }
 }
 

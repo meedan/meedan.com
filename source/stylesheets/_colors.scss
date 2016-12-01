@@ -11,10 +11,6 @@ $firefly60: #6f7a82;
 $firefly80: #404d59;
 $firefly90: #283743;
 $firefly: #10212f;
-
-$firefly-100-90: rgba($firefly, 90%);
-$firefly-100-70: rgba($firefly, 70%);
-
 $check-yellow: #e4ba2a;
 $check-blue: #3073fd;
 $keyboard-grey: #abb5bd;
@@ -24,8 +20,19 @@ $bridge-orange: #ff4f00;
 $accent-blue: #6d9ed3;
 $photo-feb10-blue: #596d74;
 $alto-grey: #e0e0e0;
-$canvas-background: #fff;
 $white: #fff;
+$black: #000;
+
+// Colors with alpha channel
+//
+$firefly-100-90: rgba($firefly, 90%);
+$firefly-100-70: rgba($firefly, 70%);
+$firefly-100-50: rgba($firefly, 50%);
+$firefly-50-50: rgba($firefly10, .5);
+$black-100-20: rgba($black, .2);
+$white-100-10: rgba($white, .1);
+$white-100-50: rgba($white, .5);
+$white-100-70: rgba($white, .7);
 
 // Color scheme: Inverted
 //
@@ -34,14 +41,15 @@ $white: #fff;
   color: $firefly10;
 
   a {
-    color: rgba(white, 0.7);
-    padding: 0.18em;
+    color: $white-100-70;
+    padding: .18em;
 
-    a:hover {
-      background-color: rgba($firefly10, 0.5);
+    &:hover {
+      background-color: $firefly-50-50;
     }
   }
 }
+
 %colors--form-default {
 
   // Email input
@@ -49,6 +57,7 @@ $white: #fff;
    background-color: transparent;
    border-bottom: 1px solid $firefly40;
    color: $firefly;
+
    &:focus {
    // The outline is hidden (for mouse users only!) w/ js
    // See: http://a11yproject.com/posts/never-remove-css-outlines/
@@ -58,7 +67,7 @@ $white: #fff;
 
    // When clicking in this element, light up the button
    &:focus ~ input[type='submit'] {
-     transition: background-color 0.3s;
+     transition: background-color .3s;
      background-color: $check-blue;
      color: white;
    }
@@ -68,10 +77,11 @@ $white: #fff;
   input[type='submit'] {
     background-color: $light-keyboard-grey;
     color: $firefly60;
+
     &:hover {
       background-color: $check-blue;
       color: white;
-      transition: background-color 0.2s;
+      transition: background-color .2s;
     }
   }
 
@@ -80,27 +90,29 @@ $white: #fff;
     color: $firefly40;
   }
 }
+
 %colors--form-inverted {
 
   // All labels
   label {
-    color: rgba(white, 0.5);
+    color: $white-100-50;
   }
 
   // All inputs
   input {
-    color: white;
+    color: $white;
   }
 
   input[type='email'] {
-    color: white;
+    color: $white;
+
     &:focus {
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid $white;
     }
 
     // When clicking in this element, light up the button
     &:focus ~ input[type='submit'] {
-      background-color: white;
+      background-color: $white;
       color: $check-blue;
     }
   }
@@ -113,18 +125,6 @@ $white: #fff;
 
 // Color scheme: Default
 %colors--default {
-  background-color: white;
+  background-color: $white;
   color: $firefly80;
 }
-
-// 2015 Meedan.com Theme colors CGB XRW
-$warm-grey: #f1f2ed;
-$alto-grey: #e0e0e0;
-$cerise-pink: #db107c;
-$portland-purple: #42476f;
-$tanzanite-blue: #4910db;
-
-// Out of Eden Walk Red
-// @type color
-$ooew-red: #960808;
-$hyperlink-blue: #1400FF;

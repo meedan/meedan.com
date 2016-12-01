@@ -1,48 +1,52 @@
-// Homepage: projects
-//
-
-// Projects
+// Homepage Projects
 //
 %component--projects {
-  @extend %flex-container;
-  justify-content: center;
   background: $firefly-100-70;
-  // background: linear-gradient(90deg, $firefly80, $portland-purple);
 
-  & > div {
-    background: rgba(black, 0.2);
+  .projects {
+    @extend %flex-container;
+    align-items: stretch;
+  }
+
+  .project {
+    background: $black-100-20;
     border-radius: 8px;
   }
 
   // At smaller sizes, the images are fluid
   @media (max-width: $breakpoint) {
-    & > div, svg {
-      width: 100%;
+    .project,
+    svg {
       max-width: 100%;
+      width: 100%;
     }
   }
 
-  // Set the logo widths
-  .project--bridge svg {
-    padding-top: 10px;
-    width: 11em;
-  }
+  .project {
+    svg {
+      height: 160px;
+      width: 260px;
+    }
 
-  .project--check svg {
-    width: 10.5em;
+    &--bridge {
+      svg {
+        padding-top: 10px;
+        width: 280px;
+      }
+    }
   }
 
   h3 {
+    color: $white;
     width: 100%;
-    color: white;
   }
 
-  & .project--bridge,
-  & .project--check {
+  .project--bridge,
+  .project--check {
     color: $firefly2;
-    padding: 2em 2em;
-    width: 40%;
     margin: 1em;
+    padding: 2em;
+    width: 40%;
 
     // At smaller sizes
     @media all and (max-width: $breakpoint) {
@@ -51,7 +55,7 @@
 
     p {
       font-size: 1em;
-      line-height: 1.4;
+      line-height: $line-height--medium;
       padding-bottom: 1em;
 
       &.blurb {
@@ -60,24 +64,24 @@
 
       &.blurb,
       &.learn {
-        font-size: 0.8em;
+        font-size: .8em;
       }
 
       &.tagline {
+        color: $white-100-70;
         font-weight: 500;
-        color: rgba(white, 0.8);
-        padding: 0.5em 0 2em 0em;
+        padding: .5em 0 2em 0;
       }
 
       a {
-        background-color: rgba(white, 0.1);
+        background-color: $white-100-10;
         border-radius: 4px;
-        color: rgba(white, 1);
+        color: $white;
         font-size: 16px;
-        padding: 0 0.7em;
-        text-decoration: none;
-        margin: 0 0.5em;
         font-weight: bold;
+        margin: 0 .5em;
+        padding: 0 .7em;
+        text-decoration: none;
       }
     }
 
