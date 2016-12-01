@@ -8,7 +8,7 @@
 ///
 /// @group meedan-web
 %component--branding {
-  padding: $grid-unit-10 $grid-unit-2 $grid-unit-4;
+  padding: $grid-unit-18 $grid-unit-2 $grid-unit-4;
   width: 100%;
 
   // The main image in a "branding" section
@@ -21,7 +21,7 @@
 
   // The phrase under the logos
   .slogan {
-    font: 200 $font-size--body-2;
+    font: $font-size--body-2;
     margin: 0 auto;
     padding: 0;
   }

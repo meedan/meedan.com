@@ -1,0 +1,50 @@
+$form--max-width: $grid-unit-70;
+$form--min-width: $grid-unit-30;
+$form--button-width: 30%;
+
+// Form: fancy label
+//
+// Uses absolute positioning.
+%form--fancy-label {
+  position: relative;
+
+  label {
+    position: absolute;
+    top: -$grid-unit-2;
+    z-index: 2;
+  }
+}
+
+// Form groups
+//
+// Bootstrap relies heavily on this form-group selector.
+//
+.form-group {
+  @extend %form--fancy-label;
+  @extend %colors--form-default;
+  display: flex;
+  margin: auto;
+  max-width: $form--max-width;
+  padding: $grid-unit-2;
+
+  label {
+    font: $font-size--body-2;
+    padding: $grid-unit $grid-unit-2;
+  }
+
+  input {
+    border-color: transparent;
+    padding: $grid-unit;
+
+    &[type='email'] {
+      width: 68%;
+    }
+
+    &[type='submit'] {
+      border-radius: $form--button-radius;
+      border-width: 0;
+      margin: 0 .1em;
+      width: $form--button-width;
+    }
+  }
+}

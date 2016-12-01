@@ -45,9 +45,9 @@ $breakpoint--explainer: 900px;
 }
 
 .bridge--appstore-footer {
-    background-color: $firefly5;
-    padding-bottom: 0;
-    padding-top: $grid-unit-2;
+  background-color: $firefly5;
+  padding-bottom: 0;
+  padding-top: $grid-unit-2;
 }
 
 // Bridge call to action
@@ -59,9 +59,9 @@ $breakpoint--explainer: 900px;
 
   .call-to-action--text {
     display: block;
-    font: 400 $font-size--body-2;
+    font: $font-size--body-2;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: $grid-unit-70;
     text-transform: none;
   }
 
