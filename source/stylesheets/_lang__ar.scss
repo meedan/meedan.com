@@ -1,16 +1,12 @@
-@import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
-$font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
+@import url('//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css');
+$font-stack--arabic: 'Droid Arabic Naskh', serif;
 
-body.ar {
-  direction: rtl;
-  font-size: 22px;
-}
-
-/// # Arabic Typography
-///
+// # Arabic Typography
+//
 :lang(ar) {
   direction: rtl;
   font-family: $font-stack--arabic;
+  font-size: 22px;
   letter-spacing: 0;
   line-height: 1.3;
 
