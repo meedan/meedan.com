@@ -1,7 +1,7 @@
 // Recent press component
 //
 %component--recent-press {
-  padding-bottom: 1em;
+  padding-bottom: $grid-unit-2;
 
   h3 {
     width: 100%;
@@ -9,45 +9,45 @@
 
   // A list of "blurbs"
   .blurbs {
-    align-items: flex-start;
+    align-items: stretch;
     display: flex;
     justify-content: center;
+
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
       flex-flow: column;
-      padding-bottom: 2em;
+      padding-bottom: $grid-unit-4;
     }
   }
 
   // Single blurb with text and logo
   li {
     color: $firefly80;
+    font: 200 $font-size--body-2 $font-stack--roboto;
     padding: 1%;
     width: 30%;
 
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
       width: 100%;
-      font-size: 1.2em;
+
+      p {
+        width: 95%;
+      }
     }
 
     p {
-      font-size: .8em;
-      font-weight: 500;
-      line-height: 1.25;
+      padding: $grid-unit;
 
-      // At smaller sizes
-      @media all and (max-width: $breakpoint) {
-        width: 95%;
+      &:hover {
+        background-color: $firefly5;
+        border-radius: $grid-unit;
+        transition: .4s;
       }
 
       a {
         color: $firefly80;
         text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-          transition: .4s;
-        }
       }
     }
   }
