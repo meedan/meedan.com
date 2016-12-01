@@ -6,10 +6,10 @@
 ///
 $font-stack--roboto: Roboto, 'Helvetica Neue', 'Helvetica', sans-serif;
 
-// Material design font size and line height recommendations
+// Material design font size and line height
 //
 // unquote() is used because: https://github.com/sass/sass/issues/667
-//
+//  
 $font-size--display-2: 45px unquote('/') 48px;
 $font-size--display-1: 34px unquote('/') 40px;
 $font-size--headline: 24px unquote('/') 32px;
@@ -25,11 +25,12 @@ $font-size--body-1: 14px unquote('/') 20px;
 //
 body {
   color: $firefly80;
-  font: 200 $font-size--subheading-1 $font-stack--roboto;
+  font: 200 $font-size--subheading-2;
+  font-family: $font-stack--roboto;
   text-align: center;
 
   @media (max-width: $breakpoint) {
-    font: 200 $font-size--subheading-1 $font-stack--roboto;
+    font: 200 $font-size--subheading-2;
   }
 }
 
@@ -121,6 +122,10 @@ a {
   }
 }
 
+p a {
+  border-bottom: 1px solid $check-blue;
+}
+
 /// Typography: dense sections
 ///
 %typography--section-dense {
@@ -131,6 +136,7 @@ a {
     }
 
     p {
+      font: 200 $font-size--body-1;
       padding: $grid-unit-4;
     }
   }

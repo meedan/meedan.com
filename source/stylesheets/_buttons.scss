@@ -1,4 +1,4 @@
-.button {
+%button {
   background-color: $check-blue;
   border-radius: 4px;
   color: $white;
@@ -16,4 +16,8 @@
     text-decoration: none;
     transition: background-color .4s;
   }
+}
+
+.button {
+  @extend %button;
 }
