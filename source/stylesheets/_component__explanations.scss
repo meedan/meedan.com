@@ -4,9 +4,9 @@
 /// The amount of text is usually just one paragraph.
 /// There is a header for each screenshot and paragraph.
 %component--explanations {
-  width: 100%;
-  max-width: 800px;
   margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
 
   .explanation {
     @extend %flex-container;
@@ -14,48 +14,50 @@
     margin-top: 2em;
 
     .header-and-description {
+      padding: $grid-unit-3;
       width: 50%;
-      padding: 20px;
 
       // At smaller sizes
       @media (max-width: $breakpoint) {
         width: 90%;
       }
+    }
 
-      h3 {
-        font-size: 0.8em;
-        font-weight: 600;
-        text-align: start;
-        width: 100%;
-        margin-top: 2em;
-        padding: 1em 0;
-      }
+    h3 {
+      font-size: .8em;
+      font-weight: 600;
+      margin-top: 2em;
+      padding: 1em 0;
+      text-align: start;
+      width: 100%;
+    }
 
-      p {
-        font-size: 1em;
-        vertical-align: top;
-        text-align: start;
-        width: 100%;
-        margin: 0;
+    p {
+      font-size: 1em;
+      margin: 0;
+      text-align: start;
+      vertical-align: top;
+      width: 100%;
 
-        // At smaller sizes
-        @media (max-width: $breakpoint) {
-          padding: 0;
-          max-width: 100%;
-        }
+      // At smaller sizes
+      @media (max-width: $breakpoint) {
+        max-width: 100%;
+        padding: 0;
       }
     }
   }
 
-  div.screenshot {
+  .screenshot {
     width: 50%;
+
     img {
       max-width: 100%;
     }
+
     @media (max-width: $breakpoint) {
       margin-top: 2em;
-      width: 90%;
       max-width: 425px;
+      width: 90%;
     }
   }
 }

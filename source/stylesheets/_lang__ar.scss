@@ -18,7 +18,9 @@ $font-stack--arabic: 'Droid Arabic Naskh', serif;
     text-align: right;
   }
 
-  .description p {
-    text-align: right;
+  .description {
+    p {
+      text-align: right;
+    }
   }
 }

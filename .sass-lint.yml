@@ -2,6 +2,8 @@
 rules:
   extends-before-mixins: 2
   extends-before-declarations: 2
+  force-attribute-nesting: 0
+  no-qualifying-elements: 0
   placeholder-in-extend: 2
   mixins-before-declarations:
     - 2
