@@ -2,23 +2,11 @@
 //
 $breakpoint: 900px;
 
-// 2. Load bootstrap
-//
-// We use bootstrap _only_ for:
-//
-// • Normalize
-// • Core bootstrap mixins
-// • Forms
-// • Animations
-// • Navbar
-//
-@import 'bootstrap__integration';
-
 * {
   box-sizing: border-box;
 }
 
-// 3. Meedan.com global styles
+// 2. Meedan.com global styles
 //
 @import 'layout';
 @import 'colors';
@@ -27,12 +15,7 @@ $breakpoint: 900px;
 @import 'keyframes';
 @import 'buttons';
 
-// 4. Bootstrap component customization
-//
-@import 'bootstrap__nav';
-@import 'bootstrap__forms';
-
-// 5. Our components
+// 3. Our components
 //
 @import 'component__branding';
 @import 'component__contact';
@@ -46,12 +29,12 @@ $breakpoint: 900px;
 @import 'component__background_photo';
 @import 'component__recent_press';
 
-// 6. Language support
+// 4. Language support
 //
 @import 'lang__ar';
 @import 'lang__en';
 
-// 7. Pages
+// 5. Pages
 //
 //  START HERE when developing
 //  Each page is composed of components.
