@@ -1,9 +1,9 @@
-/// Web fonts from Google
-///
+// Web fonts from Google
+//
 @import url('//fonts.googleapis.com/css?family=Roboto:200,500');
 
-/// Define font stacks
-///
+// Define font stacks
+//
 $font-stack--roboto: Roboto, 'Helvetica Neue', 'Helvetica', sans-serif;
 
 // Material design font size and line height
@@ -113,8 +113,8 @@ a {
   }
 }
 
-/// Typography: dense sections
-///
+// Typography: dense sections
+//
 %typography--section-dense {
   &:lang(en) {
     h4,

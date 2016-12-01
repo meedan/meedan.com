@@ -1,13 +1,13 @@
-/// Layout: Logos
-///
-/// Similar to the team layout.
-///
+// Layout: Logos
+//
+// Similar to the team layout.
+//
 $logo-small-width: $grid-unit-18;
 $logo-large-width: $grid-unit-30;
 
-/// Logo Layout
-///
-/// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
+// Logo Layout
+//
+// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
 %component--logos {
 
   .logos {

@@ -4,22 +4,23 @@
 // The navigation is hidden on this page (in the template)
 .policy {
   margin: 0 auto;
+  max-width: $grid-unit-70;
+  padding-top: $grid-unit-8;
   text-align: left;
-  max-width: 600px;
-  padding-top: 4em;
 
   p,
   h2,
   h3 {
     margin: 0;
-    padding: 30px;
+    padding: $grid-unit-4;
   }
 
-  ol, ul {
+  ol,
+  ul {
     display: block;
     list-style-position: inside;
     margin: 0;
-    padding: 30px;
+    padding: $grid-unit-4;
     text-align: left;
 
     li {

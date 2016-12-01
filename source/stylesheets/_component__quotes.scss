@@ -2,34 +2,38 @@
 //
 // Use flex to put two quotes side by side.
 %component--quotes {
-  justify-content: center;
   @extend %flex-container;
+  justify-content: center;
+
+  p {
+    font-size: 1em;
+    text-align: start;
+
+    &:first-of-type {
+
+      &:lang(en) {
+        text-align: left;
+      }
+    }
+  }
 
   .quote {
-    vertical-align: top;
     display: inline;
-    width: 40%;
     margin-top: 2em;
     padding: 2em;
-
-    p:first-of-type:lang(en) {
-      text-align: left;
-    }
+    vertical-align: top;
+    width: 40%;
 
     @media all and (max-width: $breakpoint) {
       min-width: 100%;
     }
 
-    p {
-      font-size: 1em;
-      text-align: start;
-    }
 
     .attribution--name,
     .attribution--website {
+      display: inline;
       font-weight: 700;
       padding: 0;
-      display: inline;
     }
   }
 }
