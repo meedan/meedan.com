@@ -3,12 +3,12 @@
   border-radius: 4px;
   color: $white;
   display: block;
-  font-size: .8em;
-  margin: 4em auto;
-  padding: 1.2em 2em;
+  font: 400 $font-size--body-2 $font-stack--roboto;
+  margin: $grid-unit-4 auto;
+  padding: $grid-unit $grid-unit-2;
   text-decoration: none;
   transition: background-color .4s;
-  width: 320px;
+  width: $grid-unit-40;
 
   &:hover {
     background-color: darken($check-blue, 10%);
