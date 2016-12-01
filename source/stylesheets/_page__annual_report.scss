@@ -200,7 +200,7 @@
   }
 
   a.hello {
-    @extend .button;
+    @extend %button;
     width: 275px;
     border-bottom-width: 0;
     background-color: $firefly40;
