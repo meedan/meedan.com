@@ -8,11 +8,6 @@
     align-items: stretch;
   }
 
-  .project {
-    background: $black-100-20;
-    border-radius: 8px;
-  }
-
   // At smaller sizes, the images are fluid
   @media (max-width: $breakpoint) {
     .project,
@@ -23,15 +18,18 @@
   }
 
   .project {
+    background: $black-100-20;
+    border-radius: $grid-unit;
+
     svg {
-      height: 160px;
+      height: $grid-unit-24;
       width: 260px;
     }
 
     &--bridge {
       svg {
-        padding-top: 10px;
-        width: 280px;
+        padding-top: $grid-unit-2;
+        width: $grid-unit-35;
       }
     }
   }
@@ -44,8 +42,8 @@
   .project--bridge,
   .project--check {
     color: $firefly2;
-    margin: 1em;
-    padding: 2em;
+    margin: $grid-unit-2;
+    padding: $grid-unit-4;
     width: 40%;
 
     // At smaller sizes
@@ -54,33 +52,23 @@
     }
 
     p {
-      font-size: 1em;
-      line-height: $line-height--medium;
-      padding-bottom: 1em;
 
       &.blurb {
-        min-height: 11em;
-      }
-
-      &.blurb,
-      &.learn {
-        font-size: .8em;
+        min-height: $grid-unit-24;
       }
 
       &.tagline {
         color: $white-100-70;
-        font-weight: 500;
-        padding: .5em 0 2em 0;
+        padding: $grid-unit 0 $grid-unit-4 0;
       }
 
       a {
         background-color: $white-100-10;
-        border-radius: 4px;
+        border-radius: $grid-unit / 2;
         color: $white;
-        font-size: 16px;
         font-weight: bold;
-        margin: 0 .5em;
-        padding: 0 .7em;
+        margin: 0 $grid-unit;
+        padding: $grid-unit $grid-unit-2;
         text-decoration: none;
       }
     }
