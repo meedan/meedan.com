@@ -47,7 +47,7 @@
 // Home: background-photo section
 //
 .home--background-photo {
-  @include component--background-photo("../images/banners/banner-2@1x.jpg");
+  @include component--background-photo('../images/banners/banner-2@1x.jpg');
 }
 
 // Component: Homepage latest news
