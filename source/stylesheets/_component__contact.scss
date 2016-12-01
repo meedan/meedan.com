@@ -19,23 +19,11 @@
   .contact--visit {
     .locations {
       display: flex;
+
       li {
         clear: none;
-        font-family: $font-stack--roboto;
-        width: 50%;
         text-align: center;
-
-        h4 {
-          font-size: 0.8em;
-          font-weight: 100;
-          margin: 1em;
-        }
-
-        p {
-          font-size: 0.8em;
-          font-weight: 100;
-          margin: 0 auto;
-        }
+        width: 50%;
       }
     }
   }
@@ -43,15 +31,18 @@
   .contact--social-media {
     columns: 100% 4;
     display: flex;
+
     li {
       width: 25%;
     }
+
     a {
-      text-decoration: none;
       border-bottom: none;
+      text-decoration: none;
+
       svg {
+        max-width: $grid-unit-8;
         width: 100%;
-        max-width: 80px;
       }
     }
   }

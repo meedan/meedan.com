@@ -1,9 +1,11 @@
 // 1. Preliminary configuration
 //
-$breakpoint: 900px;
-
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 // 2. Meedan.com global styles
@@ -17,8 +19,10 @@ $breakpoint: 900px;
 
 // 3. Our components
 //
+@import 'component__nav';
 @import 'component__branding';
 @import 'component__contact';
+@import 'component__donate';
 @import 'component__explanations';
 @import 'component__footer';
 @import 'component__logos';

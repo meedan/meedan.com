@@ -2,65 +2,67 @@
 // check page
 //
 // Uses default branding component styles
-section.check--branding {
+.check--branding {
   @extend %component--branding;
+  // animation: fadeIn 1.2s;
   background-color: $check-yellow;
-  color: white;
-  animation: fadeIn 1.2s;
+  color: $white;
 }
 
 // check explanations
-section.check--explanations {
+.check--explanations {
   @extend %colors--default;
   @extend %component--explanations;
 }
 
 // check Quotes
-section.check--quotes {
+.check--quotes {
   @extend %component--quotes;
 }
 
 // check newsletter
-section.check--newsletter {
+.check--newsletter {
   @extend %colors--inverted;
   @extend %colors--form-inverted;
 }
 
 // check history
-section.check--history {
+.check--history {
   @extend %colors--inverted;
 }
 
 // check supporters
-section.check--supporters {
-  background-color: $firefly2;
+.check--supporters {
   @extend %component--logos;
+  background-color: $firefly2;
 }
 
 // check partners
-section.check--partners {
+.check--partners {
   @extend %component--logos;
 }
 
 // check awards
-section.check--awards {
+.check--awards {
   background-color: $firefly2;
-  padding-top: 4em;
+  padding-top: $grid-unit-8;
+
   h3 {
     padding-top: 0;
   }
+
   svg {
-    width: 90px;
+    width: $grid-unit-10;
   }
 }
 
 // check github
-section.check--github {
+.check--github {
   @extend %colors--inverted;
 }
 
 // check footer
-div.check--footer {
+.check--footer {
   @extend %colors--inverted;
   @extend %component--footer;
 }

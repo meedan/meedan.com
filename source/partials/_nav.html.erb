@@ -9,7 +9,7 @@
   <% if current_page.data.slug == "check"%>
     <% inactive_languages = langs - [I18n.locale] %>
 
-    <ul class="nav locales navbar-nav">
+    <ul class="locales">
       <li class="active <%= I18n.locale %>">
         <%= link_to t(I18n.locale), "/#{File.dirname(current_path)}", :class => I18n.locale %>
       </li>
@@ -24,7 +24,7 @@
   <!-- 2. The page navigation -->
   <!-- Loop through each page -->
   <% nav_pages = ["check", "bridge", "about"] %>
-  <ul class="nav navbar-nav pages">
+  <ul class="pages">
     <% nav_pages.each do |page| %>
     <li class=<%= page %>>
 
