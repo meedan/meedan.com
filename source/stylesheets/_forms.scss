@@ -17,8 +17,6 @@ $form--button-width: 30%;
 
 // Form groups
 //
-// Bootstrap relies heavily on this form-group selector.
-//
 .form-group {
   @extend %form--fancy-label;
   @extend %colors--form-default;
@@ -28,8 +26,8 @@ $form--button-width: 30%;
   padding: $grid-unit-2;
 
   label {
-    font: $font-size--body-2;
-    padding: $grid-unit $grid-unit-2;
+    font: $font--body-2;
+    padding: $grid-unit;
   }
 
   input {
@@ -41,9 +39,9 @@ $form--button-width: 30%;
     }
 
     &[type='submit'] {
-      border-radius: $form--button-radius;
+      border-radius: 4px;
       border-width: 0;
-      margin: 0 .1em;
+      margin: 0 $grid-unit;
       width: $form--button-width;
     }
   }

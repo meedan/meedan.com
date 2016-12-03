@@ -59,7 +59,7 @@ $breakpoint--explainer: $grid-unit-112;
 
   .call-to-action--text {
     display: block;
-    font: $font-size--body-2;
+    font: $font--body-2;
     margin: 0 auto;
     max-width: $grid-unit-70;
     text-transform: none;
@@ -78,7 +78,7 @@ $breakpoint--explainer: $grid-unit-112;
     text-indent: $grid-unit;
 
     label {
-      font: 200 $font-size--body-1;
+      font: 200 $font--body-1;
       font-weight: 400;
       padding: 0 $grid-unit;
     }
