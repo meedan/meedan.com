@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  min-width: 310px;
 }
 
 // 2. Meedan.com global styles
@@ -16,6 +17,7 @@ body {
 @import 'flex';
 @import 'keyframes';
 @import 'buttons';
+@import 'forms';
 
 // 3. Our components
 //

@@ -10,13 +10,13 @@ $font-stack--roboto: Roboto, 'Helvetica Neue', 'Helvetica', sans-serif;
 //
 // • unquote() is used because: https://github.com/sass/sass/issues/667
 // • The font name must be repeated to use the font shorthand 
-$font-size--display-2: 500 45px unquote('/') 48px $font-stack--roboto;
-$font-size--display-1: 500 34px unquote('/') 40px $font-stack--roboto;
-$font-size--headline: 500 24px unquote('/') 32px $font-stack--roboto;
-$font-size--subheading-2: 200 16px unquote('/') 28px $font-stack--roboto;
-$font-size--subheading-1: 200 16px unquote('/') 24px $font-stack--roboto;
-$font-size--body-2: 200 14px unquote('/') 24px $font-stack--roboto;
-$font-size--body-1: 200 14px unquote('/') 20px $font-stack--roboto;
+$font--display-2: 500 45px unquote('/') 48px $font-stack--roboto;
+$font--display-1: 500 34px unquote('/') 40px $font-stack--roboto;
+$font--headline: 500 24px unquote('/') 32px $font-stack--roboto;
+$font--subheading-2: 200 16px unquote('/') 28px $font-stack--roboto;
+$font--subheading-1: 200 16px unquote('/') 24px $font-stack--roboto;
+$font--body-2: 200 14px unquote('/') 24px $font-stack--roboto;
+$font--body-1: 200 14px unquote('/') 20px $font-stack--roboto;
 
 // Default typography
 //
@@ -25,7 +25,7 @@ $font-size--body-1: 200 14px unquote('/') 20px $font-stack--roboto;
 //
 body {
   color: $firefly80;
-  font: $font-size--subheading-2;
+  font: $font--subheading-2;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ section {
 h2,
 h3 {
   display: block;
-  font: $font-size--headline;
+  font: $font--headline;
   letter-spacing: .1em;
   margin: 0;
   padding: $grid-unit-8 $grid-unit-4;
@@ -81,15 +81,6 @@ li {
   }
 }
 
-// At small sizes, make list links more like buttons
-//
-li > a {
-  @media all and (max-width: $breakpoint) {
-    display: block;
-    padding: $grid-unit-3;
-  }
-}
-
 // Paragraphs
 p {
   display: block;
@@ -123,7 +114,7 @@ a {
     }
 
     p {
-      font: $font-size--body-1;
+      font: $font--body-1;
       padding: $grid-unit-4;
     }
   }
