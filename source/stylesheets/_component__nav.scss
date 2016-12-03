@@ -1,7 +1,8 @@
 // The primary pages navigation
 //
+
 .primary-nav {
-  align-items: center;
+  align-items: stretch;
   background-color: $white;
   border-bottom: 1px solid $firefly10;
   display: flex;
@@ -30,9 +31,11 @@
     a {
       display: block;
       font: $font-size--subheading-2;
+      line-height: $grid-unit-4;
       padding: $grid-unit-2;
       text-decoration: none;
       transition: border .2s;
+      color: $firefly80;
 
       &:hover {
         box-shadow: inset 0 -3px 0 $check-blue;
@@ -113,12 +116,13 @@
     .#{$page} {
       @media all and (max-width: $breakpoint) {
         a {
-          font-weight: bold;
+          color: $check-blue;
         }
       }
 
       @media all and (min-width: $breakpoint) {
         a {
+          color: $check-blue;
           box-shadow: inset 0 -3px 0 $check-blue;
         }
       }
