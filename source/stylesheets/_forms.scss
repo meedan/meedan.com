@@ -15,6 +15,10 @@ $form--button-width: 30%;
   }
 }
 
+form {
+  padding: $grid-unit-4 $grid-unit-2;
+}
+
 // Form groups
 //
 .form-group {
@@ -27,12 +31,13 @@ $form--button-width: 30%;
 
   label {
     font: $font--body-2;
-    padding: $grid-unit;
+    padding: $grid-unit 0;
   }
 
   input {
     border-color: transparent;
-    padding: $grid-unit;
+    font: $font--subheading-2;
+    padding: $grid-unit 0;
 
     &[type='email'] {
       width: 68%;

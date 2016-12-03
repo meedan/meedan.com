@@ -65,16 +65,10 @@ $breakpoint--explainer: $grid-unit-112;
     text-transform: none;
   }
 
-  // The form itself
-  .call-to-action--form {
-    padding: $grid-unit-2;
-    width: 100%;
-  }
-
   .apply-to-translate {
     margin: 0 auto;
     max-width: $grid-unit-70;
-    padding: $grid-unit-2;
+    padding: $grid-unit-2 $grid-unit;
     text-indent: $grid-unit;
 
     label {
