@@ -1,7 +1,6 @@
 // Homepage Projects
 //
 %component--projects {
-  background: $firefly-100-70;
 
   .projects {
     @extend %flex-container;
@@ -18,7 +17,7 @@
   }
 
   .project {
-    background: $black-100-20;
+    background: $firefly-100-30;
     border-radius: $grid-unit;
 
     svg {
@@ -32,11 +31,6 @@
         width: $grid-unit-35;
       }
     }
-  }
-
-  h3 {
-    color: $white;
-    width: 100%;
   }
 
   .project--bridge,
