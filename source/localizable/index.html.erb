@@ -16,50 +16,50 @@ slug: "home"
   <p class="about"><%= t("home.branding.about") %></p>
 </section>
 
-<!-- Homepage Projects -->
-<section class="home--projects">
-  <h3><%= t("home.projects.title") %></h3>
+<!-- Homepage apps -->
+<section class="home--apps">
+  <h3><%= t("home.apps.title") %></h3>
   
-  <div class="projects">
-    <!-- Check project -->
-    <div class="project project--check">
+  <div class="apps">
+    <!-- Check app -->
+    <div class="app app--check">
       <%= partial "partials/image.html.erb", :locals => {
           :url => "/" + I18n.locale.to_s + "/check",
           :name => "check-white",
           :type => "svg" } %>
 
       <p class="tagline">
-        <%= t("home.projects.check.tagline") %>
+        <%= t("home.apps.check.tagline") %>
       </p>
 
       <p class="blurb">
-        <%= t("home.projects.check.blurb") %>
+        <%= t("home.apps.check.blurb") %>
       </p>
 
       <p class="learn">
-        <a href="<%= t("home.projects.check.learn_more_url") %>">
-          <%= t("home.projects.check.learn_more_text") %>
+        <a href="<%= t("home.apps.check.learn_more_url") %>">
+          <%= t("home.apps.check.learn_more_text") %>
         </a>
-        <a class="github" href="<%= t("home.projects.check.github_url") %>">
-          <%= t("home.projects.check.github_text") %>
+        <a class="github" href="<%= t("home.apps.check.github_url") %>">
+          <%= t("home.apps.check.github_text") %>
         </a>
       </p>
     </div>
 
-    <!-- Bridge project -->
-    <div class="project project--bridge">
+    <!-- Bridge app -->
+    <div class="app app--bridge">
       <%= partial "partials/image.html.erb", :locals => {
           :url => "/" + I18n.locale.to_s + "/bridge",
           :name => "bridge-white",
           :type => "svg" } %>
 
-      <p class="tagline"><%= t("home.projects.bridge.tagline") %></p>
+      <p class="tagline"><%= t("home.apps.bridge.tagline") %></p>
 
-      <p class="blurb"><%= t("home.projects.bridge.blurb") %></p>
+      <p class="blurb"><%= t("home.apps.bridge.blurb") %></p>
 
       <p class="learn">
-        <a href='<%= t("home.projects.bridge.learn_more_url") %>'>
-          <%= t("home.projects.bridge.learn_more_text") %>
+        <a href='<%= t("home.apps.bridge.learn_more_url") %>'>
+          <%= t("home.apps.bridge.learn_more_text") %>
         </a>
       </p>
     </div>

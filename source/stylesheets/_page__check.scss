@@ -4,8 +4,7 @@
 // Uses default branding component styles
 .check--branding {
   @extend %component--branding;
-  // animation: fadeIn 1.2s;
-  background-color: $check-yellow;
+  background: $check-blue;
   color: $white;
 }
 
@@ -52,7 +51,7 @@
   }
 
   svg {
-    width: $grid-unit-10;
+    width: $grid-unit-18;
   }
 }
 

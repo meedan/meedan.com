@@ -8,6 +8,7 @@ $breakpoint--explainer: $grid-unit-112;
 .bridge--branding {
   @extend %colors--inverted;
   @extend %component--branding;
+  // background: linear-gradient(180deg, $bridge-orange, lighten($bridge-orange, 20%));
 
   .logo-and-slogan {
     margin: $grid-unit-3 auto;

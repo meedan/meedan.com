@@ -17,6 +17,7 @@
     margin: 0 auto;
     max-width: 525px;
     width: 100%;
+    animation: fadeIn 1.2s;
   }
 
   // The phrase under the logos
@@ -24,5 +25,6 @@
     font: $font--headline;
     margin: 0 auto;
     padding: 0;
+    color: $white-100-70;
   }
 }

@@ -52,6 +52,7 @@
 //
 .about--promo-bar {
   margin: $grid-unit-2 $grid-unit;
+  font: $font--headline;
 
   a {
     @extend %button;
