@@ -1,3 +1,5 @@
+$button-width: $grid-unit * 50;
+
 %button {
   background-color: $check-blue;
   border-radius: 4px;
@@ -8,7 +10,10 @@
   padding: $grid-unit-2 $grid-unit-2;
   text-decoration: none;
   transition: background-color .4s;
-  width: $grid-unit * 50;
+  width: $button-width;
+  @media all and (max-width: $button-width) {
+    width: 90%;
+  }
 
   &:hover {
     background-color: darken($check-blue, 10%);
