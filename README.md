@@ -43,7 +43,7 @@ The code we use here is packaged with [Rubygems](http://rubygems.com/) and [NPM]
 
   * `make setup`
 
-Theoretically, that’s it. The makefile installs bundler, bower, and npm then does bundle install and bower install. After everything installs, you can hopefully run `npm start`.
+Theoretically, that’s it. The makefile installs bundler and npm then does bundle install. After everything installs, you can hopefully run `npm start`.
 
 ## Local development of meedan.com
 
