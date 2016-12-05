@@ -17,20 +17,17 @@ WORKDIR $DEPLOYDIR
 COPY Gemfile ${DEPLOYDIR}/Gemfile
 COPY Gemfile.lock ${DEPLOYDIR}/Gemfile.lock
 COPY package.json ${DEPLOYDIR}/package.json
-COPY bower.json ${DEPLOYDIR}/bower.json
-COPY .bowerrc ${DEPLOYDIR}/.bowerrc
 
 RUN chown www-data:www-data /var/www
 RUN chmod 775 /var/www
 RUN chmod g+s /var/www
 RUN chown ${DEPLOYUSER}:www-data ${DEPLOYDIR}
 
-# do an initial install to populate vendor_bundle, node_modules, bower_components
+# do an initial install to populate vendor_bundle, node_modules
 USER ${DEPLOYUSER}
 RUN echo "gem: --no-rdoc --no-ri" > ~/.gemrc \
 	&& bundle install --deployment --without development test 
 RUN npm install --production
-RUN bower install
 
 # copy in the whole tree
 USER root
