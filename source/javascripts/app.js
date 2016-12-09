@@ -1,41 +1,6 @@
-// 1. include all js dependencies
-//
-//= require "jquery"
 //= require "pace"
 
-// 2. Navbar js customizations
-(function ($) {
-  $(document).ready(function () {
-
-    // Hide the navbar on the homepage
-    $(".home .primary-nav").hide();
-
-    // fade in .navbar on homepage when scrolling down
-    $(function () {
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-          $(".home .primary-nav").fadeIn();
-        }
-      });
-    });
-
-    // check
-    //
-    // fade out localization on check page when scrolling down
-    //
-    $(function () {
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-          $(".check .locales").fadeOut();
-        } else {
-          $(".check .locales").fadeIn();
-        }
-      });
-    });
-  });
-}(jQuery));
-
-// 3. Outline.js
+// Outline.js
 // See: http://www.paciellogroup.com/blog/2012/04/how-to-remove-css-outlines-in-an-accessible-manner/
 // See: http://a11yproject.com/posts/never-remove-css-outlines/
 (function (d) {
