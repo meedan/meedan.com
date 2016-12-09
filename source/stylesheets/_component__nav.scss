@@ -1,10 +1,6 @@
 // The primary pages navigation
 //
 
-.home .primary-nav {
-  position: fixed;
-}
-
 .primary-nav {
   background-color: $white;
   display: flex;
@@ -17,10 +13,10 @@
     padding: 0 $grid-unit-4;
 
     @media all and (max-width: $nav-breakpoint) {
-      width: 60px;
       min-width: 60px;
       overflow: hidden;
-      padding: 0 $grid-unit * 2;
+      padding: 0 ($grid-unit * 2);
+      width: 60px;
     }
   }
 
@@ -29,6 +25,7 @@
     flex: 3;
     justify-content: flex-end;
     margin: 0 $grid-unit-2;
+
     @media all and (max-width: $nav-breakpoint) {
       justify-content: center;
     }
@@ -46,6 +43,7 @@
       padding: $grid-unit-2;
       text-decoration: none;
       transition: border .2s;
+
       @media all and (max-width: $nav-breakpoint) {
         padding: $grid-unit-2 $grid-unit;
       }
@@ -81,8 +79,8 @@
     font: $font--body-1;
     margin-left: $grid-unit;
     margin-right: $grid-unit;
+    padding: $grid-unit;
     text-decoration: none;
-    padding: 0.4em;
   }
 
   li {
@@ -111,8 +109,9 @@
 //
 // Loop through the main pages.
 // When the outer (body class) matches the inner (nav class), it's active.
-@each $page in (bridge, check, about)  {
+@each $page in bridge, check, about {
   .#{$page} {
+
     .#{$page} {
       a {
         box-shadow: inset 0 -3px 0 $check-blue;

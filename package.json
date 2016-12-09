@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "repository": "https://github.com/meedan/meedan.com",
   "scripts": {
-    "pretest": "node server.js & echo $! > tmp/server.pid",
+    "pretest": "bundle exec middleman build && kill $(cat tmp/server.pid) & node server.js & echo $! > tmp/server.pid",
     "test": "casperjs test --log-level=error test-casper.js --engine=slimerjs && bundle exec ruby ./test-html.rb",
     "posttest": "kill $(cat tmp/server.pid)",
     "start": "bundle exec middleman",
