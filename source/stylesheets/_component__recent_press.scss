@@ -7,7 +7,7 @@
     width: 100%;
   }
 
-  // A list of "blurbs"
+  // A list of 'blurbs'
   .blurbs {
     align-items: stretch;
     display: flex;
@@ -23,9 +23,25 @@
   // Single blurb with text and logo
   li {
     color: $firefly80;
-    font: $font--body-2;
-    padding: 1%;
+    font: $font--subheading-2;
+    padding: $grid-unit-2;
     width: 30%;
+
+    p {
+      padding: $grid-unit;
+      transition: background-color .4s;
+
+      &:hover {
+        background-color: $firefly5;
+        border-radius: $grid-unit;
+        transition: background-color .4s;
+      }
+
+      a {
+        color: $firefly80;
+        text-decoration: none;
+      }
+    }
 
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
@@ -33,21 +49,6 @@
 
       p {
         width: 95%;
-      }
-    }
-
-    p {
-      padding: $grid-unit;
-
-      &:hover {
-        background-color: $firefly5;
-        border-radius: $grid-unit;
-        transition: .4s;
-      }
-
-      a {
-        color: $firefly80;
-        text-decoration: none;
       }
     }
   }

@@ -1,8 +1,8 @@
 // Component: Quotes
 //
-// Use flex to put two quotes side by side.
 %component--quotes {
   @extend %flex-container;
+
   justify-content: center;
 
   p {
@@ -10,7 +10,6 @@
     text-align: start;
 
     &:first-of-type {
-
       &:lang(en) {
         text-align: left;
       }
@@ -27,7 +26,6 @@
     @media all and (max-width: $breakpoint) {
       min-width: 100%;
     }
-
 
     .attribution--name,
     .attribution--website {
