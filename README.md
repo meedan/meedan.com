@@ -31,7 +31,7 @@ You can edit the copy using github.com by clicking ‘edit’ on that file. ^^
 
 Make sure you are on the `develop` branch. 
 
-How this works: With middleman, templates in `source` are rendered with the values from `locales` and `data` directories (and potentially other dynamic content sources), then all the output static HTML goes to `build`. So, files in `build` are often erased and rewritten when you run `middleman build`, and your edit will not appear in the deployment.
+How this works: With Middleman, templates in `source` are rendered with the values from `locales` and `data` directories (and potentially other dynamic content sources), then all the output static HTML goes to `build`. So, files in `build` are often erased and rewritten when you run `middleman build`, and your edit will not appear in the deployment.
 
 Bonus: If you make a commit on the `develop` branch, the Jenkins server will pull your change to the server and run `middleman build` for you, deploying automatically to staging! And a bot will tell you about it in Slack. :zap:
 
@@ -101,11 +101,11 @@ Use `npm version (major|minor|patch)` to tag a new version.
 
 To deploy the files from the www directory to the gh-pages branch first tag a release like `npm version minor && git push && git push --tags`.
 When the repo gets updated on github, an automatic build and deployment of the development site is triggered.
-Then `git checkout master`, `git merge develop`, `git push`, and use jenkins to trigger the deploy.
+Then `git checkout master`, `git merge develop`, `git push`, and we use [jenkins](https://jenkins.io/ "Jenkins") to trigger the deploy.
 
 ## Sass structure
 
-- middleman compiles and live-reloads the sass for you (although sadly, proper stylesheet injection does not work well in Middleman 3x — 2015-12-30 CGB).
+- middleman compiles and live-reloads the sass for you (although sadly, proper stylesheet injection does not work well in Middleman 3x; it reloads the whole page — 2015-12-30 CGB).
 - The starting points is screen.scss. That `@imports` everything else.
 - We first apply [John Albin's Sass port](https://github.com/JohnAlbin/normalize-scss) of [Necolas Gallagher's normalize](https://github.com/necolas/normalize.css).
 - Then we import our sass components, pages, and utility files from `source/stylesheets`.
@@ -114,7 +114,7 @@ Then `git checkout master`, `git merge develop`, `git push`, and use jenkins to 
 
 There are integration tests operated by [casperjs](http://casperjs.org/ "CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS").  
 
-Note that we use slimerjs instead of phantomjs (for better redirection support as of July 2015).
+Note that we use [slimerjs](https://slimerjs.org/ "SlimerJS") instead of [phantomjs](http://phantomjs.org/ "PhantomJS | PhantomJS") (for better redirection support as of July 2015).
 
 To run the tests make sure you:
 
@@ -124,3 +124,34 @@ To run the tests make sure you:
 If you get "Error: listen EADDRINUSE" try `ps aux | grep node` to find the hanging server.js and `kill` the process id.
 
 If you get an error about the pid file, `mkdir tmp`
+
+
+## Sass linting
+
+If you're editing the Sass, probably you want to use a linter in your editor. For [Sublime Text 3](https://www.sublimetext.com/3): 
+
+* Install [Sublime linter](http://www.sublimelinter.com/en/latest/ "Welcome to SublimeLinter 3 &mdash; SublimeLinter 3.4.24 documentation")
+* npm install -g sass-lint
+* Install [sass-lint](https://github.com/sasstools/sass-lint "GitHub - sasstools/sass-lint: Pure Node.js Sass linting")
+
+## Sass Beautify
+
+You can also use a [Sass beautify](https://github.com/badsyntax/SassBeautify) to make some changes automatically for you. 
+
+To ensure the changes that the beautifier makes are compatible with the linter, the linter will read [sass-lint.yml] automatically. You'll need to set the Sass-beautify configuration options yourself by copying these entries into `Preferences > Package Settings > Sass Beautify > User Settings`: 
+
+      {
+        "indent": 2,
+        "dasherize": false,
+        "old": false,
+        "path": false,
+        "gemPath": false,
+        "beautifyOnSave": true,
+        "inlineComments": false,
+        "newlineBetweenSelectors": true,
+        "useSingleQuotes": true
+      }
+
+## Editorconfig
+
+Similar to Sass beautify, we use [Editorconfig](http://editorconfig.org/ "EditorConfig") to keep track of our settings for our editor. To use it with ST3, install the ST3 editorconfig plugin using `cmd`+`option`+`p`, then type "install", then search for "editorconfig".
