@@ -9,7 +9,7 @@ $font-stack--roboto: Roboto, 'Helvetica Neue', 'Helvetica', sans-serif;
 // Material design font size and line height
 //
 // • unquote() is used because: https://github.com/sass/sass/issues/667
-// • The font name must be repeated to use the font shorthand 
+// • The font name must be repeated to use the font shorthand
 $font--display-2: 500 45px unquote('/') 48px $font-stack--roboto;
 $font--display-1: 500 34px unquote('/') 40px $font-stack--roboto;
 $font--headline: 500 24px unquote('/') 32px $font-stack--roboto;
@@ -97,10 +97,11 @@ p {
 // Links
 a {
   color: $check-blue;
+  transition: .2s color;
 
   &:hover {
-    color: $accent-blue;
-    transition: .4s;
+    color: darken($check-blue, 20%);
+    transition: .2s color;
   }
 }
 
