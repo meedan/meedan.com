@@ -16,21 +16,15 @@
 .check--electionland {
   border-bottom: 1px solid $firefly20;
   padding-bottom: 0;
-  margin: 0 auto;
-  display: flex;
-
-  h3 {
-    width: 100%;
-    text-align: center;
-  }
 
   .electionland-small {
     display: inline;
+    text-decoration: none;
 
     svg {
-      vertical-align: middle;
-      width: $grid-unit-4;
       height: $grid-unit-4;
+      vertical-align: top;
+      width: $grid-unit-4;
     }
   }
 }
