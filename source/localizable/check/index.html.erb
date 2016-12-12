@@ -24,13 +24,12 @@ slug: "check"
 </section>
 
 <section class="check--electionland">
-  <h3>As used during <a href="https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo">Electionland 2016</a>
+  <h3><%= t("check.electionland") %></a>
   <%= partial "partials/_image.html.erb", :locals => {
       :type => "svg",
       :name => "electionland-small",
       :url  => "https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo" } %>
   </h3>
-
 </section>
 
 <!-- Explanations 1, 2, 3 -->
@@ -56,10 +55,12 @@ slug: "check"
   <% end %>
 </section>
 
+<!-- Request an invite -->
 <section class="check--request-access">
-  <h3>Request an Invitation</h3>
-  <p>Are you working on fake news too? </p>
-  <p>Check is opening to a limited number of early partners for the next stage of our product. Request <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4DmM1ZfQ-rHx5BcnPJ-KO3-pKJ9-iXAQUIe78TjuLu2HpuA/viewform?c=0&w=1">early access</a> for your own verification project.</p>
+  <h3><%= t("check.request.header") %></h3>
+  <% t("check.request.paragraphs").each do |e| %>
+    <p><%= e[:text] %></p>
+  <% end %>
 </section>
 
 <!-- Newsletter -->
