@@ -1,4 +1,4 @@
-require './test-helpers'
+require_relative './helpers'
 
 lang_1_name = "en"
 lang_2_name = "ar"
@@ -20,8 +20,8 @@ def diff(root, compared, structure = [])
   end
 end
 
-banner("MISSING FROM #{lang_2_name}.yml")
+text_banner("MISSING FROM #{lang_2_name}.yml")
 diff(lang_1_data[lang_1_name], lang_2_data[lang_2_name], [lang_2_name])
 
-banner(" MISSING FROM #{lang_1_name}.yml")
+text_banner(" MISSING FROM #{lang_1_name}.yml")
 diff(lang_2_data[lang_2_name], lang_1_data[lang_1_name], [lang_1_name])
