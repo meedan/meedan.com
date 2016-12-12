@@ -1,9 +1,11 @@
 # Wraith configuration
+# verbose: true
 
 # Add as many domains as necessary. Key will act as a label
 domains:
-  meedan: 'http://localhost:8080'
+  meedan: "http://127.0.0.1:8080"
 
+# TODO: DRY this by reading the PAGES variable defined in test-helpers.rb CGB
 paths:
   home: /en
   check-en: /en/check
@@ -13,6 +15,8 @@ paths:
 
 # amount of fuzz ImageMagick will use when comparing images. A higher fuzz makes the comparison less strict.
 fuzz: '20%'
+
+# before_capture: "test/wraith-helpers.js"
 
 # the maximum acceptable level of difference (in %) between two images.
 # Wraith considers it a failure if an image diff goes above this threshold.
@@ -27,8 +31,8 @@ screen_widths:
 browser: "casperjs"
 
 # the directory that your latest screenshots will be stored in
-directory: 'screenshots'
-history_dir: 'screenshot_history'
+directory: "test/screenshots"
+history_dir: "test/screenshot_history"
 
 # choose how results are displayed in the gallery (default is `alphanumeric` if omitted)
 # Different screen widths are always grouped together.
