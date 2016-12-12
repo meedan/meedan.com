@@ -12,6 +12,18 @@
   }
 }
 
+// Check electionland blurb
+.check--electionland {
+  border-bottom: 1px solid $firefly20;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+
+  svg {
+    width: 60px;
+  }
+}
+
 // check explanations
 .check--explanations {
   @extend %colors--default;
