@@ -70,7 +70,15 @@
     justify-content: center;
 
     .medium-channel {
+
+      // Equal heights (sadly, this crops them)
       height: $grid-unit-80;
+
+      // On mobile, no need to equalize the heights.
+      @media all and (max-width: $breakpoint) {
+        height: auto;
+      }
+
       margin: $grid-unit-2;
       overflow: hidden;
     }

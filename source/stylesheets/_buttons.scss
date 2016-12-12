@@ -1,14 +1,15 @@
-$button-width: $grid-unit * 50;
+$button-width: $grid-unit * 45;
 
 %button {
   background-color: $check-blue;
   border-radius: 4px;
   color: $white;
   display: block;
-  font: $font--headline;
+  font: $font--subheading-2;
   margin: $grid-unit-4 auto;
   padding: $grid-unit-2 $grid-unit-2;
   text-decoration: none;
+  text-transform: uppercase;
   transition: background-color .4s;
   width: $button-width;
   @media all and (max-width: $button-width) {
