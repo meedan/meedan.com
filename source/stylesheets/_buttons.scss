@@ -27,3 +27,16 @@ $button-width: $grid-unit * 45;
 .button {
   @extend %button;
 }
+
+
+%button-small {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 $grid-unit-2;
+  font: $font--body-2;
+  background-color: $firefly60;
+  color: white;
+  border-radius: 2px;
+  text-decoration: none;
+  width: $grid-unit-24;
+}

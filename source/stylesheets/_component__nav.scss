@@ -1,6 +1,5 @@
 // The primary pages navigation
 //
-
 .primary-nav {
   background-color: $white;
   display: flex;
@@ -10,14 +9,14 @@
   .meedan-home {
     align-items: center;
     display: flex;
-    padding: 0 $grid-unit-4;
+    padding: 0 $grid-unit-2;
 
     // Crop the logo when small
     @media all and (max-width: $nav-breakpoint) {
-      min-width: 60px;
+      min-width: 55px;
       overflow: hidden;
-      padding: 0 ($grid-unit * 2);
-      width: 60px;
+      padding: 0 $grid-unit-2;
+      width: 55px;
 
       // For Firefox, to avoid squishing the logo
       img {
@@ -30,7 +29,7 @@
     display: flex;
     flex: 3;
     justify-content: flex-end;
-    margin: 0;
+    margin: 0 $grid-unit;
 
     li {
       height: $grid-unit-8;
@@ -43,6 +42,11 @@
       font: $font--subheading-2;
       line-height: $grid-unit-4;
       padding: $grid-unit-2;
+
+      @media all and (max-width:$nav-breakpoint) {
+        padding: $grid-unit-2 $grid-unit;
+      }
+
       text-decoration: none;
       transition: border .2s;
 

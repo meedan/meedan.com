@@ -11,6 +11,7 @@ $grid-unit-24: $grid-unit * 24;   // 192px or 12em
 $grid-unit-30: $grid-unit * 30;   // 240px or 15em
 $grid-unit-35: $grid-unit * 35;   // 280px or 17.5em
 $grid-unit-40: $grid-unit * 40;   // 320px or 20em
+$grid-unit-70: $grid-unit * 50;   // 800px or 25em
 $grid-unit-70: $grid-unit * 70;   // 560px or 35em
 $grid-unit-80: $grid-unit * 80;   // 640px or 40em
 $grid-unit-90: $grid-unit * 90;   // 720px or 45em
@@ -18,4 +19,4 @@ $grid-unit-100: $grid-unit * 100; // 800px or 50em
 $grid-unit-112: $grid-unit * 112; // 896px or 56em
 
 $breakpoint: $grid-unit-112;
-$nav-breakpoint: $grid-unit-70;
+$nav-breakpoint: $grid-unit * 50;
