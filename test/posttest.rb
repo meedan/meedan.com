@@ -1,3 +1,5 @@
+require_relative "./helpers"
+
 text_banner 'Stopping test server...'
 
 # Shut down the server, but swallow errors if something goes wrong
