@@ -52,13 +52,10 @@
 //
 .about--promo-bar {
   margin: $grid-unit-2 $grid-unit;
-  font: $font--headline;
+  font: $font--subheading-2;
 
   a {
-    @extend %button;
-    display: inline-block;
-    margin: 0 $grid-unit-2;
-    width: $grid-unit-24;
+    @extend %button-small;
     @media all and (max-width: $breakpoint) {
       margin: $grid-unit $grid-unit-2;
     }
