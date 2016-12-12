@@ -30,6 +30,10 @@
   @extend %component--explanations;
 }
 
+.check--request-access {
+  border-top: 1px solid $firefly20;
+}
+
 // check Quotes
 .check--quotes {
   @extend %component--quotes;
