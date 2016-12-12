@@ -15,12 +15,23 @@
 // Check electionland blurb
 .check--electionland {
   border-bottom: 1px solid $firefly20;
-  display: flex;
-  justify-content: center;
   padding-bottom: 0;
+  margin: 0 auto;
+  display: flex;
 
-  svg {
-    width: 60px;
+  h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .electionland-small {
+    display: inline;
+
+    svg {
+      vertical-align: middle;
+      width: $grid-unit-4;
+      height: $grid-unit-4;
+    }
   }
 }
 
@@ -28,10 +39,6 @@
 .check--explanations {
   @extend %colors--default;
   @extend %component--explanations;
-}
-
-.check--request-access {
-  border-top: 1px solid $firefly20;
 }
 
 // check Quotes
