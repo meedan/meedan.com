@@ -23,6 +23,7 @@ slug: "check"
   </p>
 </section>
 
+<% unless I18n.locale.to_s == "ar" %>
 <section class="check--electionland">
   <h3><%= t("check.electionland") %></a>
   <%= partial "partials/_image.html.erb", :locals => {
@@ -31,6 +32,7 @@ slug: "check"
       :url  => "https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo" } %>
   </h3>
 </section>
+<% end %>
 
 <!-- Explanations 1, 2, 3 -->
 <section class="check--explanations">
@@ -55,6 +57,7 @@ slug: "check"
   <% end %>
 </section>
 
+<% unless I18n.locale.to_s == "ar" %>
 <!-- Request an invite -->
 <section class="check--request-access">
   <h3><%= t("check.request.header") %></h3>
@@ -63,7 +66,6 @@ slug: "check"
   <% end %>
 </section>
 
-<% unless I18n.locale.to_s == "ar" %>
 <!-- Newsletter -->
 <section class="check--newsletter">
   <h3><%= t("check.newsletter.header") %></h3>
