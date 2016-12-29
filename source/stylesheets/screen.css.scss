@@ -1,16 +1,4 @@
-// 1. Preliminary configuration
-//
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  min-width: 280px;
-  overflow-x: hidden;
-}
-
-// 2. Meedan.com global styles
+// 1. Meedan.com global styles
 //
 @import 'layout';
 @import 'colors';
@@ -20,7 +8,7 @@ body {
 @import 'buttons';
 @import 'forms';
 
-// 3. Our components
+// 2. Our components
 //
 @import 'component__nav';
 @import 'component__branding';
@@ -36,12 +24,12 @@ body {
 @import 'component__background_photo';
 @import 'component__recent_press';
 
-// 4. Language support
+// 3. Language support
 //
 @import 'lang__ar';
 @import 'lang__en';
 
-// 5. Pages
+// 4. Pages
 //
 //  START HERE when developing
 //  Each page is composed of components.

@@ -7,10 +7,10 @@ $button-width: $grid-unit * 45;
   display: block;
   font: $font--subheading-2;
   margin: $grid-unit-4 auto;
-  padding: $grid-unit-2 $grid-unit-2;
+  padding: $grid-unit-2;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background-color .4s;
+  transition: background-color .4s, color .4s;
   width: $button-width;
   @media all and (max-width: $button-width) {
     width: 90%;
@@ -19,8 +19,9 @@ $button-width: $grid-unit * 45;
   &:hover {
     background-color: darken($check-blue, 10%);
     color: $white;
+    cursor: pointer;
     text-decoration: none;
-    transition: background-color .4s;
+    transition: background-color .4s, color .4s;
   }
 }
 
@@ -30,13 +31,12 @@ $button-width: $grid-unit * 45;
 
 
 %button-small {
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 0 $grid-unit-2;
-  font: $font--body-2;
   background-color: $firefly60;
-  color: white;
   border-radius: 2px;
+  color: $white;
+  display: inline-block;
+  font: $font--body-2;
+  margin: 0 $grid-unit-2;
   text-decoration: none;
-  width: $grid-unit-24;
+  text-transform: uppercase;
 }
