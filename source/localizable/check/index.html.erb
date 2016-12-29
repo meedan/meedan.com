@@ -63,6 +63,7 @@ slug: "check"
   <% end %>
 </section>
 
+<% unless I18n.locale.to_s == "ar" %>
 <!-- Newsletter -->
 <section class="check--newsletter">
   <h3><%= t("check.newsletter.header") %></h3>
@@ -83,6 +84,7 @@ slug: "check"
     </div>
   </form>
 </section>
+<% end %>
 
 <!-- Awards -->
 <section class="check--awards">
@@ -95,6 +97,8 @@ slug: "check"
     <p><%= t("check.awards.summary") %></p>
 </section>
 
+
+<% unless I18n.locale.to_s == "ar" %>
 <!-- Quotes -->
 <section class="check--quotes">
   <% t("check.testimonials.quotes").each do |t| %>
@@ -116,6 +120,7 @@ slug: "check"
       </div>
   <% end %>
 </section>
+<% end %>
 
 <!-- History -->
 <section class="check--history">
