@@ -44,7 +44,7 @@ h3 {
   display: block;
   font: $font--headline;
   letter-spacing: .1em;
-  margin: 0;
+  margin: 0 auto;
   padding: $grid-unit-8 $grid-unit-4;
   text-transform: uppercase;
 
@@ -56,6 +56,7 @@ h3 {
 h4 {
   margin: $grid-unit auto;
   max-width: $grid-unit-70;
+
   @media all and (max-width: $breakpoint) {
     margin: 0 auto;
     max-width: 61.8%;
@@ -67,7 +68,7 @@ em {
 }
 
 ul {
-  margin: $grid-unit 0;
+  margin: $grid-unit auto;
   padding: 0;
   text-align: center;
 }
@@ -75,8 +76,10 @@ ul {
 li {
   list-style-type: none;
   padding: 0 $grid-unit-2 $grid-unit-2;
+
   @media all and (max-width: $breakpoint) {
     display: block;
+
     // padding: 0 $grid-unit;
   }
 }
@@ -113,7 +116,7 @@ a {
     }
 
     p {
-      font: $font--body-1;
+      font: $font--subheading-1;
       padding: $grid-unit-4;
     }
   }
