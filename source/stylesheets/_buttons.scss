@@ -12,6 +12,7 @@ $button-width: $grid-unit * 45;
   text-transform: uppercase;
   transition: background-color .4s, color .4s;
   width: $button-width;
+
   @media all and (max-width: $button-width) {
     width: 90%;
   }
@@ -29,7 +30,6 @@ $button-width: $grid-unit * 45;
   @extend %button;
 }
 
-
 %button-small {
   background-color: $firefly60;
   border-radius: 2px;
@@ -37,6 +37,7 @@ $button-width: $grid-unit * 45;
   display: inline-block;
   font: $font--body-2;
   margin: 0 $grid-unit-2;
+  padding: 0 $grid-unit;
   text-decoration: none;
   text-transform: uppercase;
 }
