@@ -1,0 +1,122 @@
+// The primary pages navigation
+//
+.primary-nav {
+  background-color: $white;
+  display: flex;
+  width: 100%;
+  z-index: 3;
+
+  .meedan-home {
+    align-items: center;
+    display: flex;
+    padding: 0 $grid-unit-2;
+
+    // Crop the logo when small
+    @media all and (max-width: $nav-breakpoint) {
+      min-width: 55px;
+      overflow: hidden;
+      padding: 0 $grid-unit-2;
+      width: 55px;
+
+      // For Firefox, to avoid squishing the logo
+      img {
+        min-width: 130px;
+      }
+    }
+  }
+
+  .pages {
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
+    margin: 0 $grid-unit;
+
+    li {
+      height: $grid-unit-8;
+      padding: 0;
+    }
+
+    a {
+      color: $firefly80;
+      display: block;
+      font: $font--subheading-2;
+      line-height: $grid-unit-4;
+      padding: $grid-unit-2;
+
+      @media all and (max-width:$nav-breakpoint) {
+        padding: $grid-unit-2 $grid-unit;
+      }
+
+      text-decoration: none;
+      transition: border .2s;
+
+      &:hover {
+        box-shadow: inset 0 -3px 0 $check-blue;
+        transition: border .2s;
+      }
+
+      &:active {
+        color: $check-blue;
+      }
+    }
+  }
+}
+
+// Page navigation: current page indicator
+@each $page in bridge, check, about {
+  .#{$page} {
+
+    .#{$page} {
+      a {
+        box-shadow: inset 0 -3px 0 $check-blue;
+        color: $check-blue;
+      }
+    }
+  }
+}
+
+
+// Locale Nav
+//
+// A list of links to active and inactive languages (locales).
+.locales {
+  background-color: transparent;
+  border-radius: $grid-unit / 2;
+  display: flex;
+  margin: $grid-unit;
+  overflow: hidden;
+  padding: ($grid-unit / 2) $grid-unit;
+  position: absolute;
+  right: 0;
+  top: $grid-unit-8;
+
+  a {
+    color: $white;
+    font: $font--body-1;
+    margin-left: $grid-unit;
+    margin-right: $grid-unit;
+    padding: $grid-unit;
+    text-decoration: none;
+  }
+
+  li {
+    border-left-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  // Make sure they don't switch sides when changing langs
+  .ar {
+    float: right;
+  }
+}
+
+// Locale navigation: current page indicator
+.active {
+  a {
+    background-color: $white-100-10;
+    border-radius: 4px;
+    color: $white;
+    font-weight: bold;
+  }
+}

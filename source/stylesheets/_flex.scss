@@ -2,20 +2,19 @@
 /// Flex container
 ///
 %flex-container {
+  align-items: center;
   display: flex;
   flex-flow: wrap row;
   justify-content: center;
-  flex-align: center;
-  align-items: center;
 }
 
 /// Flex item
 /// 
 /// This is the expanded form of "flex: 1 1 auto"
 %flex-item {
+  flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: auto;
 }
 
 /// Flex container stacked when small
@@ -26,6 +25,7 @@
 %flex-container-stacked-when-small {
   @media (max-width: 600px) {
     flex-flow: wrap column;
+
     & > * {
       width: 100%;
     }
@@ -38,9 +38,8 @@
 ///
 /// @see %flex-container
 %flex-vertical {
+  align-items: center;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  flex-align: center;
-  align-items: center;
 }

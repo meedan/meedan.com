@@ -1,0 +1,160 @@
+---
+layout: "default"
+slug: "check"
+---
+
+<!-- Branding -->
+<section class="check--branding">
+
+  <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+      :type   => "png",
+      :image  => "screenshots/check--branding",
+      :locale => I18n.locale.to_s,
+      :alt    => "check",
+      :classname  => "screenshot" } %>
+
+  <%= partial "partials/_image.html.erb", :locals => {
+      :type => "svg",
+      :name => "check-white",
+      :url  => "/#{I18n.locale}/check" } %>
+
+  <p class="slogan">
+    <%= t("check.branding.slogan") %>
+  </p>
+</section>
+
+<% unless I18n.locale.to_s == "ar" %>
+<section class="check--electionland">
+  <h3><%= t("check.electionland") %></a>
+  <%= partial "partials/_image.html.erb", :locals => {
+      :type => "svg",
+      :name => "electionland-small",
+      :url  => "https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo" } %>
+  </h3>
+</section>
+<% end %>
+
+<!-- Explanations 1, 2, 3 -->
+<section class="check--explanations">
+  <% explanations = t("check.explanations") %>
+  <% for i in 0...explanations.length %>
+    <div class="explanation">
+      <div class="header-and-description">
+        <h3><%= explanations[i][:header] %></h3>
+        <p><%= explanations[i][:text] %></p>
+      </div>
+
+      <div class="screenshot">
+        <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+          :type   => "jpg",
+          :image  => "screenshots/check--explanation-#{i+1}",
+          :locale => I18n.locale.to_s,
+          :alt    => explanations[i][:alt],
+          :classname  => "screenshot"
+          } %>
+      </div>
+    </div>
+  <% end %>
+</section>
+
+<% unless I18n.locale.to_s == "ar" %>
+<!-- Request an invite -->
+<section class="check--request-access">
+  <h3><%= t("check.request.header") %></h3>
+  <% t("check.request.paragraphs").each do |e| %>
+    <p><%= e[:text] %></p>
+  <% end %>
+</section>
+
+<!-- Newsletter -->
+<section class="check--newsletter">
+  <h3><%= t("check.newsletter.header") %></h3>
+  <p><%= t("check.newsletter.summary") %></p>
+
+  <form class="form-inline tinyletter"
+    action="https://tinyletter.com/TheChecklist"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/TheChecklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <div class="form-group">
+      <label for="tlemail"><%= t("check.newsletter.label") %></label>
+      <input type="email"
+        placeholder='<%= t("check.newsletter.placeholder") %>'
+        name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed"/>
+      <input type="submit" value='<%= t("check.newsletter.button") %>' />
+    </div>
+  </form>
+</section>
+<% end %>
+
+<!-- Awards -->
+<section class="check--awards">
+    <%= partial "partials/_image.html.erb", :locals => {
+        :type => "svg",
+        :name => "awards",
+        :url  => false } %>
+
+    <h3><%= t("check.awards.header") %></h3>
+    <p><%= t("check.awards.summary") %></p>
+</section>
+
+
+<% unless I18n.locale.to_s == "ar" %>
+<!-- Quotes -->
+<section class="check--quotes">
+  <% t("check.testimonials.quotes").each do |t| %>
+      <div class="quote" lang="en">
+        <p>
+          <span class="quote--glyph">
+            &ldquo;
+          </span>
+          <%= t[:quote] %>
+        </p>
+        <p class="attribution--name">
+          <%= "— #{t[:attribution]}," %>
+        </p>
+        <p class="attribution--website">
+          <a href="<%= t[:website_url] %>" target="_blank">
+            <%= t[:website_name] %>
+          </a>
+        </p>
+      </div>
+  <% end %>
+</section>
+<% end %>
+
+<!-- History -->
+<section class="check--history">
+  <h3><%= t("check.history.header") %></h3>
+  <% t("check.history.paragraphs").each do |p| %>
+    <p><%= p[:text] %></p>
+  <% end %>
+</section>
+
+<!-- Partners -->
+<section class="check--partners">
+  <h3><%= t("check.partners.header") %></h3>
+  <p><%= t("check.partners.text") %></p>
+  <ul class="logos">
+    <% data.check_partner_logos.each do |image| %>
+      <li>
+        <%= partial "partials/_image.html.erb", :locals => {
+            :type => image[:type],
+            :name => image[:name],
+            :url => image[:url]} %>
+      </li>
+    <% end %>
+  </ul>
+</section>
+
+<!-- Github -->
+<section class="check--github">
+  <h3><%= t("check.github.header") %></h3>
+  <p><%= t("check.github.text") %></p>
+</section>
+
+<!-- Footer -->
+<div class="check--footer">
+  <p><%= t("check.footer") %></p>
+</div>

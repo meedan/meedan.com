@@ -1,17 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
 
-.annual-report-2014 {
+.annual-report-2014,
+.annual-report-2015 {
 
   .inner {
+    font-size: 1em;
     margin: 3em auto;
     padding: 1em;
-    font-size: 1em;
   }
 
   // Typography
   //
   h2 {
-    color: black;
+    color: $black;
     font-size: 20px;
     font-weight: bold;
     padding: 4em 0 1em;
@@ -22,41 +23,45 @@
   }
 
   p {
+    font-weight: 400;
+    margin: 0 auto;
     min-width: 300px;
     padding: 2em 1em;
     text-align: left;
-    margin: 0 auto;
-    font-weight: 400;
   }
 
-  ul, ul li {
+  ul,
+  ul li {
     font-weight: 400;
   }
 
   .fleuron {
-    padding: 3em 0 2em;
-    font-size: 30px;
+    font-size: $grid-unit-4;
+    padding: $grid-unit-6 0 $grid-unit-4;
   }
 
   // Lead text
   //
   .lead-text {
     font-weight: 300;
+
     h1 {
-      margin: 0;
-      text-transform: none;
-      font-weight: 400;
-      font-size: 2.3em;
-      letter-spacing: 1px;
-      color: black;
-      padding: 2em 0.2em 0;
+      color: $black;
       font-family: 'Roboto Slab', serif;
+      font-size: 2.3em;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin: 0;
+      padding: $grid-unit-4 .2em 0;
+      text-transform: none;
     }
-    p.intro {
-      padding-top: 3em;
-      font-weight: 200;
+
+    .intro {
       font-style: italic;
+      font-weight: 200;
       line-height: 1.6;
+      padding-top: 3em;
+
       em {
         font-weight: 700;
       }
@@ -67,10 +72,11 @@
   //
   .ceo-note {
     font-weight: 400;
-    font-size: 0.8em;
+
     p {
-      padding: 0.5em 1em;
+      padding: ($grid-unit / 2) $grid-unit;
     }
+
     .full-name,
     .title {
       display: block;
@@ -79,25 +85,90 @@
 
   // Programs list
   //
-  .annual-report--section.programs ul,
+  .programs ul,
   .areas-served ul {
     margin: 1em auto;
     width: 90%;
+
     @media all and (min-width:800px) {
-    display: flex;
+      display: flex;
+
       p {
-        padding: 1em 0;
         min-width: 150px;
+        padding: 1em 0;
       }
+
       li {
+        font-size: .8em;
         width: 33.33333%;
-        font-size: 0.8em;
+
         h3 {
-          font-size: 14px;
-          font-family: 'Roboto Slab', serif;
           border-bottom: 4px double $firefly40;
-          text-shadow: 10px yellow;
+          font-family: 'Roboto Slab', serif;
+          font-size: 14px;
+          min-height: 180px;
+          vertical-align: middle;
         }
+      }
+    }
+  }
+
+  .mission-statement ul {
+    li {
+      padding: 1em;
+      text-align: left;
+
+      &:nth-of-type(1) span {
+        background-color: #5856D6;
+      }
+
+      &:nth-of-type(2) span {
+        background-color: #FF2D55;
+      }
+
+      &:nth-of-type(3) span {
+        background-color: #FF9500;
+      }
+
+      &:nth-of-type(4) span {
+        background-color: #1AD6FD;
+      }
+
+      &:nth-of-type(5) span {
+        background-color: #1AD6FD;
+      }
+
+      &:nth-of-type(6) span {
+        background-color: #0BD318;
+      }
+
+      &:nth-of-type(7) span {
+        background-color: #34AADC;
+      }
+
+      &:nth-of-type(8) span {
+        background-color: #EF4DB6;
+      }
+
+      span {
+        background-color: $firefly80;
+        border-radius: 2px;
+        color: $white;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        text-shadow: 1px 1px $black-100-20;
+        text-transform: uppercase;
+      }
+
+      em {
+        font-style: normal;
+      }
+
+      @media all and (max-width: $breakpoint) {
+        list-style-position: inside;
+        list-style-type: disc;
+        padding: $grid-unit-2;
       }
     }
   }
@@ -107,120 +178,142 @@
   .image-banner {
     background-size: cover;
     height: 70vh;
+  }
 
-    &.team-2 {
-      background-image: url("/images/annual-report/team-1-blue-screen.jpg");
-    }
-
-    &.team-3 {
-      background-image: url("/images/annual-report/team-3-aqua-screen.jpg");
-    }
+  .image-banner-wrap {
+    position: relative;
   }
 
   // Caption on the photo
   //
   .caption {
     // padding-top: 1em;
-    font-size: 13px;
-    padding: 0.3em;
-    color: $firefly40;
+    color: $firefly60;
+    font-size: $grid-unit-2;
+    padding: $grid-unit-2 $grid-unit;
   }
 
-  .lead-photo .image-banner {
-    background-image: url("/images/annual-report/team-6-peach-screen.jpg");
-    @media all and (min-width:600px) {
-      background-position: 20% 50%;
-    }
-  }
 
   // Contact information
   //
   // Override default contact section
   //
   .contact-us {
-    background-color: white;
-    color: black;
+    background-color: $white;
+    color: $black;
+
     span {
       display: block;
-      width: 320px;
       margin: 0 auto;
+      width: 320px;
     }
+
     li {
-      padding-top: 1em;
+      padding-top: $grid-unit;
     }
+
     a {
-      color: $dodgerBlue;
-      border-bottom: 3px solid $dodgerBlue;
+      border-bottom: 3px solid $check-blue;
       @media (max-width: 900px) {
         display: inline-block;
-        padding: 0.1em;
+        padding: .1em;
       }
     }
   }
 
-  // Buttons
-  //
-  .button {
-    width: 320px;
-    font-size: 0.8em;
-    display: block;
-    margin: 4em auto;
-    border-radius: 4px;
-    background-color: $dodgerBlue;
-    padding: 1.2em 2em;
-    color: white;
-    text-decoration: none;
-    &:hover {
-      background-color: darken($dodgerBlue, 10%);
-      transition: background-color 0.4s;
-    }
-  }
-
-  a.hello {
-    @extend.button;
-    width: 275px;
-    border-bottom-width: 0;
+  .hello {
+    @extend %button;
     background-color: $firefly40;
+    border-bottom-width: 0;
+    width: 275px;
   }
 
   // Financial data
   //
   .financials table {
     border: 1px solid $firefly20;
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
+
     td {
+      border-bottom: 1px solid $firefly20;
       padding: 1em;
       text-align: left;
-      border-bottom: 1px solid $firefly20;
+
       & + td {
         border-left: 1px solid $firefly20;
       }
+
       h3 {
-        font-weight: normal;
         font-size: 1em;
+        font-weight: normal;
         padding: 0;
+
         &.total {
           font-style: italic;
-
         }
       }
     }
   }
+}
 
-  // Donate
-  //
-  .donate {
-    padding-bottom: 10em;
-    background-image: linear-gradient(to right, rgba($firefly, 0.9),  rgba($firefly, 0.7)), url("/images/annual-report/screen-2.png");
-    color: white;
-    margin-top: 4em;
-    p {
-    text-align: center;
-    }
-    h2 {
-      color: white;
+.annual-report-2014 {
+  .image-banner.team-2 {
+    background-image: url('/images/annual-report/team-1-blue-screen.jpg');
+  }
+
+  .image-banner.team-3 {
+    background-image: url('/images/annual-report/team-3-aqua-screen.jpg');
+  }
+
+  .lead-photo .image-banner {
+    background-image: url('/images/annual-report/team-6-peach-screen.jpg');
+    @media all and (min-width:$grid-unit-70) {
+      background-position: 20% 50%;
     }
   }
 }
 
+.annual-report-2015 {
+  .lead-photo .image-banner {
+
+    background: linear-gradient( rgba(#C86EDF, .2), rgba(darken(#E4B7F0, 20%), .4)), url('/images/annual-report/belad.jpg');
+    background-size: cover;
+    @media all and (max-width: $grid-unit-70) {
+      background-position: 50% 50%;
+      height: 50vh;
+    }
+    @media all and (min-width: $grid-unit-70) {
+      background-position: 20% 50%;
+    }
+  }
+
+  .image-banner.team-2 {
+    background: 
+    linear-gradient(
+      rgba(orange, .2),
+      rgba(orange, .4)
+    ),
+    url('/images/annual-report/caioandkarim.jpg');
+    background-position: 0% 30%;
+    background-size: cover;
+    @media all and (max-width: $grid-unit-70) {
+      height: 50vh;
+    }
+  }
+
+  .image-banner.team-3 {
+    background:
+    linear-gradient(
+      rgba(#55EFCB, .2),
+      rgba(darken(#5BCAFF, 20%), .4)
+    ),
+    url('/images/annual-report/group.jpg');
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 60vh;
+    @media all and (max-width: $grid-unit-70) {
+      height: 30vh;
+    }
+  }
+}

@@ -4,14 +4,14 @@ ar:
     branding:
       title: "ميدان"
       about: "تنشيء \"ميدان\" أدوات رقمية للصحافة والترجمة في أنحاء العالم. نحن فريق من المصممين والمبرمجين والصحفيين الذي يهتمون بالبحث في التحقيقات مفتوحة المصدر في الإعلام الرقمي والترجمة متعددة المصادر للإعلام الاجتماعي. إلى جانب الشركاء التجاريين والإعلاميين، ندعم البحث، والتنمية المنهجية، والأشكال الجديدة من الحكي الرقمي. "
-    projects:
+    apps:
       title: "عملنا"
-      checkdesk:
+      check:
         tagline: "تحقق من الأخبار العاجلة على الإنترنت"
-        blurb: "Checkdesk هو أداة مرنة للتعاون في المحتوى الذي يضيفه المستخدم المُحَقِّق. مشروع Checkdesk يعمل على إنشاء الأدوات ودعم الصحفيين المستقلين، وتنمية موارد تدريبية عن المعرفة الإعلامية تستهدف تطوير الحس الاستقصائي في صحافة المواطن، وتساعد على الحد من الانتشار السريع للشائعات والمعلومات الخاطئة. "
-        learn_more_url: "checkdesk"
+        blurb: "Check هو أداة مرنة للتعاون في المحتوى الذي يضيفه المستخدم المُحَقِّق. مشروع Check يعمل على إنشاء الأدوات ودعم الصحفيين المستقلين، وتنمية موارد تدريبية عن المعرفة الإعلامية تستهدف تطوير الحس الاستقصائي في صحافة المواطن، وتساعد على الحد من الانتشار السريع للشائعات والمعلومات الخاطئة. "
+        learn_more_url: "Check"
         learn_more_text: "اعرف أكثر"
-        github_url: "http://github.com/meedan/checkdesk/"
+        github_url: "http://github.com/meedan/check-app/"
       bridge:
         tagline: "ترجم الشبكة العالمية "
         blurb: "\"بريدج\" Bridge يساعد المجتمعات على ترجمة وشرح ومشاركة المحتوى العالمي الأكثر إلحاحا على المواقع الاجتماعية والمساهمة فيه. بدأ كنموذج تجريبي مع الجمعية الجغرافية الوطنية، ومشروع \"خارج طريق عدن\" للصحفي بول سالوبيك الحاصل على جائزة بوليتسر، يهدف المنتج إلى تزويد فريق من المترجمين بأدوات مثل المعاجم وذاكرات الترجمة."
@@ -25,17 +25,17 @@ ar:
       header: "آخر أخبارنا"
       text: "لدينا قناتان وسيطتان، نضيف إليهما آخر أخبارنا عن مبادراتنا عن التحقيق واللغة. "
     photo_frame: "ميدان منظمة غير ربحية/ربحية متشعبة. نحن نشارك الأكواد والناس والمكاتب والقيم في شركتين. Meedan.org سُجّلَت برقم 501 (c) 3 تأسست عام 2006 وتقوم على مشاريع غير تجارية تدعم الصحافة العالمية. معامل \"ميدان\" تقدم منتج رباحي وتأسست عام 2014 لتطوير برنامج للترجمة التشاركية للإعلام الاجتماعي. "
-  checkdesk:
+  check:
     branding:
       slogan: "تحقق من الأخبار العاجلة على الإنترنت"
     explanations:
     -
       header: "أظهر عملك"
-      text: "تحقق من الإعلام الرقمي بشكل متسق وشفاف لفريق عملك وللقراء. بإمكانك جمع وتنظيم نتائج تحقيقاتك الصحفية في سجل التحقق على Checkdesk حتى يمكن للآخرين تكرار الخطوات. شارك النتائج بثقة وابحث من مصادر متعددة."
+      text: "تحقق من الإعلام الرقمي بشكل متسق وشفاف لفريق عملك وللقراء. بإمكانك جمع وتنظيم نتائج تحقيقاتك الصحفية في سجل التحقق على Check حتى يمكن للآخرين تكرار الخطوات. شارك النتائج بثقة وابحث من مصادر متعددة."
       alt: "Bellingcat screenshot"
     -
       header: "حققوا معاً"
-      text: " اعملوا سوياً كفريق موزع على Checkdesk بالاستفادة من ميزات إدارة حسابات المستخدمين والمجموعات بسهولة. وافتحوا باب المساهمات من فريق العمل وشبكة الباحثين والخبراء والصحفيين المواطنين الخاصة بكم."
+      text: " اعملوا سوياً كفريق موزع على Check بالاستفادة من ميزات إدارة حسابات المستخدمين والمجموعات بسهولة. وافتحوا باب المساهمات من فريق العمل وشبكة الباحثين والخبراء والصحفيين المواطنين الخاصة بكم."
       alt: "Bellingcat screenshot"
     -
       header: " انشر في أي مكان"
@@ -45,39 +45,43 @@ ar:
       header: "What people are saying"
       quotes:
       -
-        quote: "When we&rsquo;re verifying user generated content, it&rsquo;s very important to be clear and transparent. What&rsquo;s great about Checkdesk is that it lets us show every step we&rsquo;ve taken along the way."
+        quote: "When we&rsquo;re verifying user generated content, it&rsquo;s very important to be clear and transparent. What&rsquo;s great about Check is that it lets us show every step we&rsquo;ve taken along the way."
         attribution: "Eliot Higgins"
         website_url: "https://www.bellingcat.com/"
         website_name: "Bellingcat"
       -
-        quote: "While the training workshops equip participants with media monitoring skills, the Checkdesk tool provides them with a platform to express their opinions and to exchange views on how they are represented in media."
+        quote: "While the training workshops equip participants with media monitoring skills, the Check tool provides them with a platform to express their opinions and to exchange views on how they are represented in media."
         attribution: "Sawsan Zaideh"
         website_url: "http://www.7iber.com/"
         website_name: "حبر "
+    request:
+      header: "Request an Invitation"
+      paragraphs:
+        -
+          text: "Are you working on fake news too?"
+        -
+          text: "Check is opening to a limited number of early partners for the next stage of our product. Request <a href='https://docs.google.com/forms/d/e/1FAIpQLSc4DmM1ZfQ-rHx5BcnPJ-KO3-pKJ9-iXAQUIe78TjuLu2HpuA/viewform?c=0&w=1'>early access</a> for your own verification project."
     newsletter:
       header: "اشترك بالنشرة البريدية"
       label: "أضف بريدك الإلكتروني"
       button: "اشترك"
     awards:
       header: "جوائز تْشِك دِسْك"
-      summary: "يكافيء برنامج جوائز تْشِك دِسْك الاستخدمات المتميزة على منصة تْشِك دِسْك في العالم العربي. كل شهر، ستمنح حتى 12 جائزة قيمة كل منها 250$، لأفضل التحقيقات الصحفية، قصص أو التدوين المباشر، أو أعمال التدقيق والتحقق من المعلومات، وستقوم بتقيمها لجنة تحكيم جائزة تْشِك دِسْك. سترشح لجنة التحكيم المشاركين وفقاً للمعاير والقواعد الخاصة بالجائزة. لمعرفة المزيد عن برنامج جوائز تْشِك دِسْك، يمكنكم التواصل معنا على البريد الإلكتروني <a href='mailto:awards@checkdesk.org'>awards@checkdesk.org</a> أو مطالعة الشرح المختصر في الملف المرفق <a href='/pdfs/2016-4-21-Checkdesk-Awards-Arabic.pdf'>PDF</a>."
+      summary: "يكافيء برنامج جوائز تْشِك دِسْك الاستخدمات المتميزة على منصة تْشِك دِسْك في العالم العربي. كل شهر، ستمنح حتى 12 جائزة قيمة كل منها 250$، لأفضل التحقيقات الصحفية، قصص أو التدوين المباشر، أو أعمال التدقيق والتحقق من المعلومات، وستقوم بتقيمها لجنة تحكيم جائزة تْشِك دِسْك. سترشح لجنة التحكيم المشاركين وفقاً للمعاير والقواعد الخاصة بالجائزة. لمعرفة المزيد عن برنامج جوائز تْشِك دِسْك، يمكنكم التواصل معنا على البريد الإلكتروني <a href='mailto:awards@checkmedia.org'>awards@checkmedia.org</a> أو مطالعة الشرح المختصر في الملف المرفق <a href='/pdfs/2016-4-21-checkdesk-Awards-Arabic.pdf'>PDF</a>."
     history:
       header: " تاريخنا"
       paragraphs:
       -
-        text: "عمل مشروع Checkdesk منذ 2011 على بناء أدوات رقمية وعلى دعم الصحفيين المستقلين وتطوير الموارد لبناء المهارات الإعلامية والتي تهدف لتعزيز مستوى الصحافة الشعبية الاستقصائية، والحد من انتشار الشائعات والمعلومات المضللة على الإنترنت."
+        text: "عمل مشروع Check منذ 2011 على بناء أدوات رقمية وعلى دعم الصحفيين المستقلين وتطوير الموارد لبناء المهارات الإعلامية والتي تهدف لتعزيز مستوى الصحافة الشعبية الاستقصائية، والحد من انتشار الشائعات والمعلومات المضللة على الإنترنت."
       -
         text: " بالإضافة إلى تطوير البرمجيات، نقوم بإجراء ورش عمل ومنتديات، وقد قمنا بترجمة دليل التحقق من مركز الصحافة الأوروبي إلى العربية، وساهمنا بإضافة دراسة حالة إليه."
-    supporters:
-      header: "الداعمون"
-      text: "نشكر الدعم الكريم من المؤسسات التالية"
     partners:
       header: "شركاؤنا"
-      text: "يعمل Checkdesk مع المؤسسات الإعلامية التالية. يرجى الاتصال بنا إذا كانت مؤسستك ترغب في أن تصبح شريكاً إعلامياً."
+      text: "يعمل Check مع المؤسسات الإعلامية التالية. يرجى الاتصال بنا إذا كانت مؤسستك ترغب في أن تصبح شريكاً إعلامياً."
     github:
-      header: "تثبيت Checkdesk"
-      text: "إن Checkdesk أداة مخصصة لإدارة المحتوى CMS مبنية باستخدام منصة إدارة المحتوى باستخدام PHP على Drupal 7. إنها مفتوحة المصدر ويمكن الحصول عليها من <a href='http://github.com/meedan/checkdesk'>Github</a>."
-    footer: "Checkdesk هو أحد مشروعات <a href='http://meedan.com'>ميدان</a><br /> راسلنا على البريد الإكتروني :<a href='mailto:hello@meedan.com'>hello@meedan.com</a>"
+      header: "تثبيت Check"
+      text: "إن Check أداة مخصصة لإدارة المحتوى CMS مبنية باستخدام منصة إدارة المحتوى باستخدام PHP على Drupal 7. إنها مفتوحة المصدر ويمكن الحصول عليها من <a href='http://github.com/meedan/check-app'>Github</a>."
+    footer: "Check هو أحد مشروعات <a href='http://meedan.com'>ميدان</a><br /> راسلنا على البريد الإكتروني :<a href='mailto:hello@meedan.com'>hello@meedan.com</a>"
   bridge:
     branding:
       slogan: "ترجم الشبكة العالمية "

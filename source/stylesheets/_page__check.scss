@@ -1,0 +1,88 @@
+
+// check page
+//
+// Uses default branding component styles
+.check--branding {
+  @extend %component--branding;
+  background: $check-blue;
+  color: $white;
+  // Todo: there are inconsistencies with the check header — CGB Dec 4 2016
+  svg {
+    width: 250px;
+  }
+}
+
+// Check electionland blurb
+.check--electionland {
+  border-bottom: 1px solid $firefly20;
+  padding-bottom: 0;
+
+  .electionland-small {
+    display: inline;
+    text-decoration: none;
+
+    svg {
+      height: $grid-unit-4;
+      vertical-align: top;
+      width: $grid-unit-4;
+    }
+  }
+}
+
+// check explanations
+.check--explanations {
+  @extend %colors--default;
+  @extend %component--explanations;
+}
+
+// check Quotes
+.check--quotes {
+  @extend %component--quotes;
+}
+
+// check newsletter
+.check--newsletter {
+  @extend %colors--inverted;
+  @extend %colors--form-inverted;
+}
+
+// check history
+.check--history {
+  @extend %colors--inverted;
+}
+
+// check supporters
+.check--supporters {
+  @extend %component--logos;
+  background-color: $firefly2;
+}
+
+// check partners
+.check--partners {
+  @extend %component--logos;
+}
+
+// check awards
+.check--awards {
+  background-color: $firefly2;
+  padding-top: $grid-unit-8;
+
+  h3 {
+    padding-top: 0;
+  }
+
+  svg {
+    width: $grid-unit-18;
+  }
+}
+
+// check github
+.check--github {
+  @extend %colors--inverted;
+}
+
+// check footer
+.check--footer {
+  @extend %colors--inverted;
+  @extend %component--footer;
+}

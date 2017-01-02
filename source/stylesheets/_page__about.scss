@@ -3,34 +3,26 @@
 
 // About: Branding section
 //
-section.about--branding {
+.about--branding {
   @extend %component--branding;
   @include component--background-photo('../images/banners/banner-2@1x.jpg');
-
-  h3 {
-    position: relative;
-    font-weight: 500;
-    font-size: 2em;
-    padding: 5em 0em;
-    color: white;
-  }
 }
 
 // About: Recent press section
 //
-section.about--recent-press {
+.about--recent-press {
   @extend %component--recent-press;
 }
 
 // About: Challenges section
 //
-section.about--challenges {
+.about--challenges {
   background-color: $firefly5;
 }
 
 // About: Our vision section
 //
-section.about--our-vision {
+.about--our-vision {
   @extend %typography--section-dense;
   background-color: $firefly80;
   color: $firefly5;
@@ -38,56 +30,42 @@ section.about--our-vision {
 
 // About: Products photo
 //
-div.about--products-photo {
-  @include component--background-photo("../images/banners/products-photo@1x.jpg");
-  min-height: 250px;
+.about--products-photo {
+  @include component--background-photo('../images/banners/products-photo@1x.jpg');
+  min-height: $grid-unit-30;
 }
 
 // About: Products text
 //
-section.about--products {
+.about--products {
   background-color: $firefly5;
 }
 
 // About page: public engagement photo
 //
-div.about--public-engage-photo {
-  @include component--background-photo("../images/banners/public-engagement-photo@1x.jpg");
+.about--public-engage-photo {
+  @include component--background-photo('../images/banners/public-engagement-photo@1x.jpg');
   background-position: 40% left;
-}
-
-// About: public engagement
-//
-section.about--public-engage {
 }
 
 // About: Promo bar div
 //
 .about--promo-bar {
-  margin: 0.8em 0.5em;
-  line-height: 1.8;
-  font-size: 1.2em;
+  margin: $grid-unit-2 $grid-unit;
+  font: $font--subheading-2;
+
   a {
-    margin-left: 1em;
-    margin-right: 1em;
-    font-weight: 400;
-    font-family: $font-stack--roboto;
-    background-color: $dodger-blue;
-    color: white;
-    border-radius: $form--button-radius;
-    padding: $form--button-padding;
-    display: inline-block;
-    min-width: 150px;
-    font-size: 0.8em;
-    &:hover {
-      text-decoration: none;
-      background-color: $firefly;
+    @extend %button-small;
+    @media all and (max-width: $breakpoint) {
+      margin: $grid-unit $grid-unit-2;
     }
   }
 }
 
 // About: Team (same as homepage)
 //
-.about--team ul {
-  @extend %component--team;
+.about--team {
+  ul {
+    @extend %component--team;
+  }
 }

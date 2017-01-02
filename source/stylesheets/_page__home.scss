@@ -1,19 +1,13 @@
 // Meedan.com home page
 //
-body.home {
-  background-color: white;
-  h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font: $font-stack--roboto;
-    animation: fadeIn 1.2s;
-  }
+.home {
+  background-color: $white;
 }
 
-// Component: Projects
+// Component: Apps
 //
-.home--projects {
-  @extend %component--projects;
+.home--apps {
+  @extend %component--apps;
 }
 
 // Component: recent press
@@ -32,23 +26,31 @@ body.home {
 //
 .home--branding {
   @extend %component--branding;
-  padding-top: 80px;
-  .meedan-logo-text svg {
-    animation: fadeIn 0.8s;
-    display: block;
-    height: 200px;
-    margin: 0 auto;
-    margin-bottom: 1em;
+  padding-top: $grid-unit-12;
+
+  .meedan-logo-text {
+    svg {
+      animation: fadeIn .8s;
+      display: block;
+      height: $grid-unit-24;
+      margin: $grid-unit-2 auto;
+      margin-bottom: $grid-unit-2;
+      @media all and (max-width: 400px) {
+        width: 90%;
+      }
+    }
   }
+
   .slogan {
-    padding: 1em 0;
+    font: $font--headline;
+    padding: $grid-unit-4 0;
   }
 }
 
 // Home: background-photo section
 //
 .home--background-photo {
-  @include component--background-photo("../images/banners/banner-2@1x.jpg");
+  @include component--background-photo('../images/banners/banner-2@1x.jpg');
 }
 
 // Component: Homepage latest news
@@ -58,21 +60,27 @@ body.home {
 // • TODO: migrate this to a custom RSS feed that gives us more control over the design.
 //
 .home--latest {
-  padding-bottom: 1em;
   background-color: $firefly2;
+  padding-bottom: $grid-unit-2;
+
   .medium-channels {
+    align-items: center;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    flex-align: center;
-    align-items: center;
-    justify-content: center;
 
     .medium-channel {
-      margin: 1em 1em;
-      iframe {
-        height: 620px !important;
+
+      // Equal heights (sadly, this crops them)
+      height: $grid-unit-80;
+
+      // On mobile, no need to equalize the heights.
+      @media all and (max-width: $breakpoint) {
+        height: auto;
       }
+
+      margin: $grid-unit-2;
+      overflow: hidden;
     }
   }
 }

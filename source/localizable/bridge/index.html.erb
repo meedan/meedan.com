@@ -9,8 +9,10 @@ slug: "bridge"
   src="/images/screenshots/bridge--branding-<%= I18n.locale %>@1x.png"
   srcset="/images/screenshots/bridge--branding-<%= I18n.locale %>@2x.png 2x">
 
+  <!-- Todo: there are inconsistencies with the check header, 
+  this should use the image partial — CGB Dec 4 2016 -->
   <div class="logo-and-slogan">
-    <svg class="logo" width="300" height="78"><use xlink:href="#bridge" /></svg>
+    <svg class="logo" width="300" height="78"><use xlink:href="#bridge-white" /></svg>
     <p class="slogan"><%= t('bridge.branding.slogan')%></p>
   </div>
   <div class="appstore">
@@ -73,11 +75,6 @@ slug: "bridge"
     </li>
   </ul>
   <p><%= t("bridge.supporters.partner_paragraph")%></p>
-</section>
-
-<!-- App store at the footer, looks like background of cta section -->
-<section class="bridge--appstore-footer">
-<a href="https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8"><svg class="appstore" width="135" height="40"><use xlink:href="#app-store-badge-135x40" /></svg></a>
 </section>
 
 <!-- Sign up section -->

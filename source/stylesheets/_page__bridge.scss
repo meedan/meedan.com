@@ -1,88 +1,87 @@
 // Page: Bridge
 //
-$breakpoint--explainer: 900px;
+$breakpoint--explainer: $grid-unit-112;
 
 // Bridge branding section
 //
-// A different style than checkdesk and homepage.
-section.bridge--branding {
+// A different style than check and homepage.
+.bridge--branding {
   @extend %colors--inverted;
+
   @extend %component--branding;
+
+  background: $firefly40;
+
+  .logo-and-slogan {
+    margin: $grid-unit-3 auto;
+  }
+
+  .appstore {
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 
 // Bridge history
 //
-section.bridge--history {
+.bridge--history {
   @extend %colors--inverted;
+
   @extend %typography--section-dense;
 }
 
 // Bridge supporters
 //
-section.bridge--supporters {
+.bridge--supporters {
   @extend %colors--default;
+
   @extend %component--logos;
 }
 
 // Bridge explanations
 //
-section.bridge--explanations {
+.bridge--explanations {
   @extend %colors--default;
+
   @extend %component--explanations;
-  img.screenshot {
+
+  .screenshot {
     max-width: 300px;
   }
 }
 
-
-section.bridge--branding{
-  .logo-and-slogan{
-    margin: 1.25em auto;
-  }
-  svg.appstore{
-    margin: 0 auto;
-    padding: 0 0 0 0;
-  }
-}
-
-section.bridge--appstore-footer{
-    background-color: $firefly5;
-    padding-top: 2em;
-    padding-bottom: 0;
+.bridge--appstore-footer {
+  background-color: $firefly5;
+  padding-bottom: 0;
+  padding-top: $grid-unit-2;
 }
 
 // Bridge call to action
 //
 .bridge--call-to-action {
   @extend %colors--form-default;
+
   background-color: $firefly5;
   padding-bottom: 0;
 
   .call-to-action--text {
     display: block;
-    text-transform: none;
-    font-size: 18px;
-    max-width: 600px;
+    font: $font--subheading-2;
     margin: 0 auto;
-    font-weight: 400;
-  }
-
-  // The form itself
-  .call-to-action--form {
-    width: 100%;
-    padding: 0.8em;
+    max-width: $grid-unit-70;
+    text-transform: none;
   }
 
   .apply-to-translate {
-    padding: 1em;
     margin: 0 auto;
-    text-indent: 0.4em;
-    max-width: $form--max-width;
+    max-width: $grid-unit-70;
+    padding: $grid-unit-2 $grid-unit;
+    text-indent: $grid-unit;
 
     label {
+      font: 200 $font--body-1;
       font-weight: 400;
-      padding: 0 0.4em;
-      font-size: 0.8em;
+      padding: 0 $grid-unit;
     }
 
     &:lang(en) {
@@ -95,5 +94,6 @@ section.bridge--appstore-footer{
 //
 .bridge--footer {
   @extend %colors--inverted;
+
   @extend %component--footer;
 }
