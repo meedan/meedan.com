@@ -2,6 +2,7 @@
 layout: "default"
 slug: "home"
 ---
+
 <!-- Homepage Branding -->
 <section class="home--branding">
 
@@ -15,51 +16,50 @@ slug: "home"
   <p class="about"><%= t("home.branding.about") %></p>
 </section>
 
-<!-- Homepage Projects -->
-<section class="home--projects">
-  <h3><%= t("home.projects.title") %></h3>
+<!-- Homepage apps -->
+<section class="home--apps">
+  <h3><%= t("home.apps.title") %></h3>
+  
+  <div class="apps">
+    <!-- Check app -->
+    <div class="app app--check">
+      <%= partial "partials/image.html.erb", :locals => {
+          :url => "/" + I18n.locale.to_s + "/check",
+          :name => "check-white",
+          :type => "svg" } %>
 
-  <!-- Checkdesk project -->
-  <div class="project--checkdesk">
-    <%= partial "partials/image.html.erb", :locals => {
-        :url => "/" + I18n.locale.to_s + "/checkdesk",
-        :name => "checkdesk-white",
-        :type => "svg" } %>
+      <p class="tagline">
+        <%= t("home.apps.check.tagline") %>
+      </p>
 
-    <p class="tagline">
-      <%= t("home.projects.checkdesk.tagline") %>
-    </p>
+      <p class="blurb">
+        <%= t("home.apps.check.blurb") %>
+      </p>
 
-    <p class="blurb">
-      <%= t("home.projects.checkdesk.blurb") %>
-    </p>
+      <p class="learn">
+        <a href="<%= t("home.apps.check.learn_more_url") %>">
+          <%= t("home.apps.check.learn_more_text") %>
+        </a>
+      </p>
+    </div>
 
-    <p class="learn">
-      <a href="<%= t("home.projects.checkdesk.learn_more_url") %>">
-        <%= t("home.projects.checkdesk.learn_more_text") %>
-      </a>
-      <a class="github" href="<%= t("home.projects.checkdesk.github_url") %>">
-        <%= t("home.projects.checkdesk.github_text") %>
-      </a>
-    </p>
-  </div>
+    <!-- Bridge app -->
+    <div class="app app--bridge">
+      <%= partial "partials/image.html.erb", :locals => {
+          :url => "/" + I18n.locale.to_s + "/bridge",
+          :name => "bridge-white",
+          :type => "svg" } %>
 
-  <!-- Bridge project -->
-  <div class="project--bridge">
-    <%= partial "partials/image.html.erb", :locals => {
-        :url => "/" + I18n.locale.to_s + "/bridge",
-        :name => "bridge",
-        :type => "svg" } %>
+      <p class="tagline"><%= t("home.apps.bridge.tagline") %></p>
 
-    <p class="tagline"><%= t("home.projects.bridge.tagline") %></p>
+      <p class="blurb"><%= t("home.apps.bridge.blurb") %></p>
 
-    <p class="blurb"><%= t("home.projects.bridge.blurb") %></p>
-
-    <p class="learn">
-      <a href='<%= t("home.projects.bridge.learn_more_url") %>'>
-        <%= t("home.projects.bridge.learn_more_text") %>
-      </a>
-    </p>
+      <p class="learn">
+        <a href='<%= t("home.apps.bridge.learn_more_url") %>'>
+          <%= t("home.apps.bridge.learn_more_text") %>
+        </a>
+      </p>
+    </div>
   </div>
 </section>
 
@@ -107,5 +107,9 @@ slug: "home"
   <p><%= t("home.photo_frame") %></p>
 </div>
 
+
 <!-- Homepage Contact -->
 <%= partial "partials/contact" %>
+
+<!-- Homepage Donate -->
+<%= partial "partials/donate" %>

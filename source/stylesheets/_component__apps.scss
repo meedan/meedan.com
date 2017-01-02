@@ -1,0 +1,79 @@
+// Homepage apps
+//
+%component--apps {
+
+  .apps {
+    @extend %flex-container;
+    align-items: stretch;
+  }
+
+  // At smaller sizes, the images are fluid
+  @media (max-width: $breakpoint) {
+    .app,
+    svg {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .app {
+    background: $firefly80;
+    border-radius: $grid-unit;
+
+    svg {
+      height: $grid-unit-24;
+      width: 260px;
+    }
+
+    &--bridge {
+      svg {
+        padding-top: $grid-unit-2;
+        width: $grid-unit-35;
+      }
+    }
+  }
+
+  .app--bridge,
+  .app--check {
+    color: $firefly2;
+    margin: $grid-unit-2;
+    padding: $grid-unit-4;
+    width: 40%;
+
+    // At smaller sizes
+    @media all and (max-width: $breakpoint) {
+      width: 100%;
+    }
+
+    p {
+
+      &.blurb {
+        min-height: $grid-unit-24;
+      }
+
+      &.tagline {
+        color: $white-100-70;
+        padding: $grid-unit 0 $grid-unit-4;
+      }
+
+      a {
+        background-color: $white-100-10;
+        border-radius: $grid-unit / 2;
+        color: $white;
+        font-weight: bold;
+        margin: 0 $grid-unit;
+        padding: $grid-unit $grid-unit-2;
+        text-decoration: none;
+      }
+    }
+
+    // At smaller sizes
+    @media all and (max-width: $breakpoint) {
+
+      p {
+        padding: 0;
+        width: 95%;
+      }
+    }
+  }
+}

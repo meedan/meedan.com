@@ -1,60 +1,40 @@
-// 1. Preliminary configuration
+// 1. Meedan.com global styles
 //
-$breakpoint: 900px;
-
-// 2. Load bootstrap
-//
-// We use bootstrap _only_ for:
-//
-// • Normalize
-// • Core bootstrap mixins
-// • Forms
-// • Animations
-// • Navbar
-//
-@import 'bootstrap__integration';
-
-* {
-  box-sizing: border-box;
-}
-
-// 3. Meedan.com global styles
-//
+@import 'layout';
 @import 'colors';
 @import 'typography';
 @import 'flex';
 @import 'keyframes';
+@import 'buttons';
+@import 'forms';
 
-// 4. Bootstrap component customization
+// 2. Our components
 //
-@import 'bootstrap__nav';
-@import 'bootstrap__forms';
-
-// 5. Our components
-//
+@import 'component__nav';
 @import 'component__branding';
 @import 'component__contact';
+@import 'component__donate';
 @import 'component__explanations';
 @import 'component__footer';
 @import 'component__logos';
 @import 'component__progress_bar';
-@import 'component__projects';
+@import 'component__apps';
 @import 'component__quotes';
 @import 'component__team';
 @import 'component__background_photo';
 @import 'component__recent_press';
 
-// 6. Language support
+// 3. Language support
 //
 @import 'lang__ar';
 @import 'lang__en';
 
-// 7. Pages
+// 4. Pages
 //
 //  START HERE when developing
 //  Each page is composed of components.
 @import 'page__about';
-@import 'page__checkdesk';
+@import 'page__check';
 @import 'page__home';
 @import 'page__bridge';
 @import 'page__policy';

@@ -3,7 +3,7 @@
 /// Containing --call, --visit, --write and --social-media
 ///
 %component--contact {
-  background: rgba($firefly80, 1);
+  background: $firefly-100-70;
   color: $firefly10;
 
   li {
@@ -19,47 +19,11 @@
   .contact--visit {
     .locations {
       display: flex;
+
       li {
         clear: none;
-        font-family: $font-stack--roboto;
-        width: 50%;
         text-align: center;
-
-        h4 {
-          font-size: 0.8em;
-          font-weight: 100;
-          margin: 1em;
-        }
-
-        p {
-          font-size: 0.8em;
-          font-weight: 100;
-          margin: 0 auto;
-        }
-      }
-    }
-  }
-
-  .contact--call,
-  .contact--write {
-    a {
-      font-size: 1.6em;
-      border: 1px solid rgba(white, 0.5);
-      padding: 1em 0.8em;
-      color: rgba(white, 0.8);
-      display: block;
-      font-family: $font-stack--roboto;
-      font-weight: 100;
-      text-decoration: none;
-
-      &:hover {
-        color: rgba(white, 1);
-        border-color: rgba(white, 1);
-        background-color: rgba($firefly2, 0.1);
-      }
-
-      @media all and (max-width: $breakpoint) {
-        font-size: 1em;
+        width: 50%;
       }
     }
   }
@@ -67,15 +31,18 @@
   .contact--social-media {
     columns: 100% 4;
     display: flex;
+
     li {
       width: 25%;
     }
+
     a {
-      text-decoration: none;
-      border-bottom: none;
+      border-bottom: 0;
+      text-decoration: 0;
+
       svg {
+        max-width: $grid-unit-8;
         width: 100%;
-        max-width: 80px;
       }
     }
   }

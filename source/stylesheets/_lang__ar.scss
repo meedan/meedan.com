@@ -1,27 +1,22 @@
-@import url("https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
-$font-stack--arabic: "Droid Arabic Naskh", "Open Sans", serif;
+@import url('//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css');
+$font-stack--arabic: 'Droid Arabic Naskh', Roboto, 'Helvetica Neue', 'Helvetica', sans-serif;
 
-body.ar {
-  direction: rtl;
-}
-
-/// # Arabic Typography
-///
+// # Arabic Typography
+//
 :lang(ar) {
-  line-height: 1.3;
-  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
-  font-family: $font-stack--arabic;
   direction: rtl;
+  font-family: $font-stack--arabic;
+  font-size: 22px;
   letter-spacing: 0;
-  h3 {
-    font-size: 1.6em;
-  }
+  line-height: 1.3;
 
-  p.tagline {
+  .tagline {
     text-align: right;
   }
 
-  .description p {
-    text-align: right;
+  .description {
+    p {
+      text-align: right;
+    }
   }
 }

@@ -1,74 +1,43 @@
-/// Checkdesk 2015 colors
-/// @group meedan-checkdesk
-
-/// Firefly 2
-///@type color
+// Colors
+//
 $firefly2: #fafbfb;
-
-/// Firefly 10
-///@type color
 $firefly10: #e7e8ea;
-
-/// Firefly 5
-///@type color
 $firefly5: lighten($firefly10, 5%);
-
-/// Firefly 20
-///@type color
 $firefly20: #cfd3d5;
-
-/// Firefly 30
-///@type color
 $firefly30: #b7bcc0;
-
-/// Firefly 40
-///@type color
 $firefly40: #9fa6ac;
-
-/// Firefly 50
-///@type color
 $firefly50: #f3f4f4;
-
-/// Firefly 60
-///@type color
 $firefly60: #6f7a82;
-
-/// Firefly 80
-///@type color
 $firefly80: #404d59;
-
-/// Firefly 90
-///@type color
 $firefly90: #283743;
-
-/// Firefly
-///@type color
 $firefly: #10212f;
-
-/// Checkdesk Yellow
-///@type color
-$checkdesk-yellow: #e4ba2a;
-$dodger-blue: #3073FD;
-
-/// Keyboard Grey
-/// @type Color
+$check-yellow: #e4ba2a;
+$check-blue: #3073fd;
 $keyboard-grey: #abb5bd;
-
-/// Keyboard Light Grey
-/// @type Color
 $light-keyboard-grey: #d1d6db;
-
-/// Light Bridge International Orange
-/// @type Color
 $light-bridge-orange: #fff6f1;
-
-/// Bridge International Orange
-/// @type Color
 $bridge-orange: #ff4f00;
 $accent-blue: #6d9ed3;
 $photo-feb10-blue: #596d74;
 $alto-grey: #e0e0e0;
-$dodgerBlue: #2E77FC;
+$white: #fff;
+$black: #000;
+
+// Colors with alpha channel
+//
+$firefly-100-90: rgba($firefly, 90);
+$firefly-100-70: rgba($firefly, 70);
+$firefly-100-50: rgba($firefly, 50);
+$firefly-100-30: rgba($firefly, 30);
+$firefly-50-50: rgba($firefly10, .5);
+$black-100-10: rgba($black, .1);
+$black-100-20: rgba($black, .2);
+$black-100-50: rgba($black, .5);
+$black-100-70: rgba($black, .7);
+$white-100-10: rgba($white, .1);
+$white-100-20: rgba($white, .2);
+$white-100-50: rgba($white, .5);
+$white-100-70: rgba($white, .7);
 
 // Color scheme: Inverted
 //
@@ -77,47 +46,47 @@ $dodgerBlue: #2E77FC;
   color: $firefly10;
 
   a {
-    color: rgba(white, 0.7);
-    padding: 0.18em;
+    color: $white-100-70;
+    padding: .18em;
 
-    a:hover {
-      background-color: rgba($firefly10, 0.5);
+    &:hover {
+      color: $white;
     }
   }
 }
 
-/// Colors: Default form theme
-///
 %colors--form-default {
 
   // Email input
   input[type='email'] {
-   background-color: transparent;
-   border-bottom: 1px solid $firefly40;
-   color: $firefly;
-   &:focus {
-   // The outline is hidden (for mouse users only!) w/ js
-   // See: http://a11yproject.com/posts/never-remove-css-outlines/
-   // See: app.js
-   border-bottom: 1px solid $dodger-blue;
-  }
+    background-color: transparent;
+    border-bottom: 1px solid $firefly40;
+    color: $firefly;
 
-   // When clicking in this element, light up the button
-   &:focus ~ input[type='submit'] {
-     transition: background-color 0.3s;
-     background-color: $dodger-blue;
-     color: white;
-   }
+    &:focus {
+      // The outline is hidden (for mouse users only!) w/ js
+      // See: http://a11yproject.com/posts/never-remove-css-outlines/
+      // See: app.js
+      border-bottom: 1px solid $check-blue;
+    }
+
+    // When clicking in this element, light up the button
+    &:focus ~ input[type='submit'] {
+      background-color: $check-blue;
+      color: $white;
+      transition: background-color .3s;
+    }
   }
 
   // Submit button
   input[type='submit'] {
     background-color: $light-keyboard-grey;
     color: $firefly60;
+
     &:hover {
-      background-color: $dodger-blue;
-      color: white;
-      transition: background-color 0.2s;
+      background-color: $check-blue;
+      color: $white;
+      transition: background-color .2s;
     }
   }
 
@@ -127,30 +96,29 @@ $dodgerBlue: #2E77FC;
   }
 }
 
-/// Colors: Inverted form theme
-///
 %colors--form-inverted {
 
   // All labels
   label {
-    color: rgba(white, 0.5);
+    color: $white-100-50;
   }
 
   // All inputs
   input {
-    color: white;
+    color: $white;
   }
 
   input[type='email'] {
-    color: white;
+    color: $white;
+
     &:focus {
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid $white;
     }
 
     // When clicking in this element, light up the button
     &:focus ~ input[type='submit'] {
-      background-color: white;
-      color: $dodger-blue;
+      background-color: $white;
+      color: $check-blue;
     }
   }
 
@@ -162,18 +130,6 @@ $dodgerBlue: #2E77FC;
 
 // Color scheme: Default
 %colors--default {
-  background-color: white;
+  background-color: $white;
   color: $firefly80;
 }
-
-// 2015 Meedan.com Theme colors CGB XRW
-$warm-grey: #f1f2ed;
-$alto-grey: #e0e0e0;
-$cerise-pink: #db107c;
-$portland-purple: #42476f;
-$tanzanite-blue: #4910db;
-
-// Out of Eden Walk Red
-// @type color
-$ooew-red: #960808;
-$hyperlink-blue: #1400FF;

@@ -1,5 +1,5 @@
 ////
-/// Checkdesk and Homepage Branding
+/// Check and Homepage Branding
 ///
 /// The branding section has a large .logo image and the h1.
 /// At smaller sizes the logo has a percent-based width.
@@ -8,22 +8,23 @@
 ///
 /// @group meedan-web
 %component--branding {
-  padding: $navbar-height * 2.5 1em 2em;
+  padding: $grid-unit-12 $grid-unit-2 $grid-unit-4;
   width: 100%;
 
   // The main image in a "branding" section
   .screenshot {
-    max-width: 525px;
-    width: 100%;
     display: block;
     margin: 0 auto;
+    max-width: 525px;
+    width: 100%;
+    animation: fadeIn 1.2s;
   }
 
   // The phrase under the logos
   .slogan {
-  	margin: 0;
-    padding: 0;
-    font-size: 1.25em;
+    font: $font--headline;
     margin: 0 auto;
+    padding: 0;
+    color: $white-100-70;
   }
 }

@@ -10,35 +10,34 @@ $width--team-member: 160px;
   padding: 0;
 
   @media (min-width: $width--team-member * 2) {
-    width: $width--team-member * 2 + 10px;
+    width: $width--team-member * 2 + $grid-unit-2;
   }
 
   @media (min-width: $width--team-member * 4) {
-    width: $width--team-member * 4 + 10px;
+    width: $width--team-member * 4 + $grid-unit-2;
   }
 
   @media (min-width: $width--team-member * 8) {
-    width: $width--team-member * 8 + 10px;
+    width: $width--team-member * 8 + $grid-unit-2;
   }
 
   .name {
     font-weight: 500;
-    padding-top: .5em;
+    padding-top: $grid-unit;
   }
 
   li {
     flex: 0 1 auto;
-    font-family: $font-stack--roboto;
-    font-size: 0.8em;
-    height: 15em;
+    font: $font--body-1;
+    height: $grid-unit-30;
     width: $width--team-member;
   }
 
   img {
     border-radius: 50%;
-    max-height: 100px;
-    max-width: 100px;
-    width: 100%;
     filter: sepia(25%);
+    max-height: $grid-unit-12;
+    max-width: $grid-unit-12;
+    width: 100%;
   }
 }

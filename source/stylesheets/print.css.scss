@@ -1,0 +1,52 @@
+
+// Note that only the Annual reports are really intended for print — CGB 2016-11-10
+@media print {
+
+  .navbar-fixed-top {
+    position: static;
+  }
+
+  p {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .nav,
+  .navbar-toggle {
+    display: none;
+  }
+
+  .image-banner {
+    max-height: 350px;
+  }
+
+  .image-banner,
+  .mission-statement ul li span {
+    // Ensure some images and bg colors don't disappear
+    -webkit-print-color-adjust: exact;
+  }
+
+  * {
+    color: #000!important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  img,
+  .image-banner {
+    page-break-before: avoid;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  .annual-report-2014,
+  .annual-report-2015 {
+    main a:after {
+      content: " ("attr(href)") "
+    }
+  }
+}

@@ -1,55 +1,84 @@
-/// Layout: Logos
-///
-/// Similar to the team layout.
-///
-$logo-small-width: 150px;
-$logo-large-width: 250px;
+// Layout: Logos
+//
+// Similar to the team layout.
+//
+$logo-small-width: $grid-unit-18;
+$logo-large-width: $grid-unit-30;
 
-/// Logo Layout
-///
-/// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
+// Logo Layout
+//
+// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
 %component--logos {
-  ul.logos {
+
+  .logos {
+    align-items: center;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    align-items: center;
     list-style-type: none;
 
     a {
-      padding: 1em;
+      padding: $grid-unit;
     }
-    img, svg {
+
+    img,
+    svg {
+      max-height: $grid-unit-8;
       max-width: $logo-small-width;
-      max-height: 80px;
     }
-    .acm, .witness {
-      svg, img {
-        max-width: 100px;
+
+    .witness {
+      svg,
+      img {
+        max-width: $grid-unit-10;
       }
     }
+
     .kf {
-      svg, img {
+      svg,
+      img {
         width: $logo-large-width;
       }
     }
-    .kf, .gv, .ff, .bcu, .smex, .bc, .vc, .cambridge {
-      svg, img {
+
+    .bc,
+    .bcu,
+    .ff,
+    .gv,
+    .kf,
+    .smex,
+    .vc,
+    .cambridge {
+      svg,
+      img {
         max-width: $logo-large-width;
       }
     }
-    .bc img {
-      max-height: 90px;
-    }
-    .ng {
-      margin-top: 10px;
-      a {
-        max-width: 100px;
+
+    .bc {
+      img {
+        max-height: $grid-unit-10;
       }
     }
-    .first-draft svg {
-      width: 75px;
-      margin-top: 10px;
+
+    .ng {
+      margin-top: $grid-unit;
+
+      a {
+        max-width: $grid-unit-12;
+      }
+    }
+
+    .ipi,
+    .dataguild,
+    .kiva,
+    .ibm,
+    .first-draft {
+      img,
+      svg {
+        margin-top: $grid-unit;
+        width: $grid-unit-10;
+      }
     }
   }
 }
