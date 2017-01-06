@@ -10,7 +10,7 @@ text_banner(" Starting Wraith CSS regression tests")
 
 # Check for screenshot history first, if it's missing, create it so this test will work next time
 # See http://bbc-news.github.io/wraith
-if Dir.exists?('./screenshot_history')
+if Dir.exists?('./test/screenshot_history')
 	text_banner("Creating latest screenshots and comparing to history...")
 	system 'wraith latest test/wraith.yml'
 else
