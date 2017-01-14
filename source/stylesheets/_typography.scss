@@ -1,22 +1,22 @@
 // Web fonts from Google
 //
-@import url('//fonts.googleapis.com/css?family=Roboto:200,500');
+@import url('//fonts.googleapis.com/css?family=Roboto:300,500');
 
 // Define font stacks
 //
-$font-stack--roboto: Roboto, 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-stack--primary: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
 
 // Material design font size and line height
 //
 // • unquote() is used because: https://github.com/sass/sass/issues/667
 // • The font name must be repeated to use the font shorthand
-$font--display-2: 500 45px unquote('/') 48px $font-stack--roboto;
-$font--display-1: 500 34px unquote('/') 40px $font-stack--roboto;
-$font--headline: 500 24px unquote('/') 32px $font-stack--roboto;
-$font--subheading-2: 200 16px unquote('/') 28px $font-stack--roboto;
-$font--subheading-1: 200 16px unquote('/') 24px $font-stack--roboto;
-$font--body-2: 200 14px unquote('/') 24px $font-stack--roboto;
-$font--body-1: 200 14px unquote('/') 20px $font-stack--roboto;
+$font--display-2: 500 45px unquote('/') 48px $font-stack--primary;
+$font--display-1: 500 34px unquote('/') 40px $font-stack--primary;
+$font--headline: 500 24px unquote('/') 32px $font-stack--primary;
+$font--subheading-2: 200 20px unquote('/') 32px $font-stack--primary;
+$font--subheading-1: 200 20px unquote('/') 28px $font-stack--primary;
+$font--body-2: 200 16px unquote('/') 24px $font-stack--primary;
+$font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
 
 // Default typography
 //
@@ -116,7 +116,7 @@ a {
     }
 
     p {
-      font: $font--subheading-1;
+      font: $font--subheading-2;
       padding: $grid-unit-4;
     }
   }

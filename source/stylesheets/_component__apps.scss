@@ -1,9 +1,9 @@
 // Homepage apps
 //
 %component--apps {
-
   .apps {
     @extend %flex-container;
+
     align-items: stretch;
   }
 
@@ -46,6 +46,7 @@
     }
 
     p {
+      font: $font--body-2;
 
       &.blurb {
         min-height: $grid-unit-24;
@@ -69,7 +70,6 @@
 
     // At smaller sizes
     @media all and (max-width: $breakpoint) {
-
       p {
         padding: 0;
         width: 95%;

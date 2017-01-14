@@ -26,6 +26,7 @@
 //
 .home--branding {
   @extend %component--branding;
+
   padding-top: $grid-unit-12;
 
   .meedan-logo-text {
@@ -35,6 +36,7 @@
       height: $grid-unit-24;
       margin: $grid-unit-2 auto;
       margin-bottom: $grid-unit-2;
+
       @media all and (max-width: 400px) {
         width: 90%;
       }
@@ -44,6 +46,7 @@
   .slogan {
     font: $font--headline;
     padding: $grid-unit-4 0;
+    color: $firefly80;
   }
 }
 
@@ -70,7 +73,6 @@
     justify-content: center;
 
     .medium-channel {
-
       // Equal heights (sadly, this crops them)
       height: $grid-unit-80;
 
