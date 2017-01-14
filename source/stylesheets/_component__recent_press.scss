@@ -9,7 +9,7 @@
 
   // A list of 'blurbs'
   .blurbs {
-    align-items: stretch;
+    align-items: center;
     display: flex;
     justify-content: center;
 
@@ -30,6 +30,7 @@
     p {
       padding: $grid-unit;
       transition: background-color .4s;
+      font: $font--body-2;
 
       &:hover {
         background-color: $firefly5;
