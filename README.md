@@ -57,17 +57,22 @@ To work on the HTML and Sass, edit the files in `./source` while `gulp` runs.
 
 To run middleman directly without the `npm start` shortcut, to see more logging details: do `bundle exec middleman --verbose`.
 
-## Bundling and minifying SVG with gulp 
-
-- *gulp bundle-svg* — bundle all of the svg files into a single file we can inline into the template.
-
-SVG files are joined by the `bundle-svg` gulp task, combined into one big SVG file. Put your vectors in `images/vector` then run `gulp bundle-svg`. Then we access those with markup like this: `<svg><use xlink:href="#kf" /></svg>` — that will render the file `images/logos/kf.svg`. Each file name needs to be unique for this reason. (Note — Unfortunately it seems SVG referenced in this way can not be styled by external CSS. The main purpose of combining the files is just to reduce the number of HTTP requests.)
 
 ## Adding a new partner logo 
 
-If you want to add a new "partner" (or "supporter") logo, you need to create two versions, `@1x` (at least 100px) and `@2x` (at least 200px).
+### Adding a svg logo: 
 
-Render both sizes (eg with [Sketch.app](https://www.sketchapp.com/ "Sketch - Professional Digital Design for Mac")) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings ([Acorn](https://www.acorns.com/ "Acorns - Home")) or use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: If you're using Acorn or Photoshop, during the web export, try setting quality below 15%.)
+      - Put your vectors in `images/vector`.
+      - Run *gulp bundle-svg* — bundle all of the svg files into a single file we can inline into the template. SVG files are joined by the `bundle-svg` gulp task, combined into one big SVG file. We would manually access those with markup like this: `<svg><use xlink:href="#kf" /></svg>` — that will render the file `images/logos/kf.svg`. The purpose of combining the files with xlink style is to reduce the number of HTTP requests. 
+      - Add the name of the file to the partner json file as described below.
+
+### Adding a png or jpg logo:
+
+      - Create two versions, `@1x` (at least 100px) and `@2x` (at least 200px).
+      - Render both sizes (eg with [Sketch.app](https://www.sketchapp.com/ "Sketch - Professional Digital Design for Mac")) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings ([Acorn](https://www.acorns.com/ "Acorns - Home")) or use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: If you're using Acorn or Photoshop, during the web export, try setting quality below 15%.)
+      - Add the name of the file to the partner json file as described below.
+
+### Updating the partner logo json
 
 Once you have the new images, update the data files `supporter_logos.json` or `check_partners.json` to include data about the new file, for example:
 
