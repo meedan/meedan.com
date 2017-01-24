@@ -5,10 +5,35 @@
 $logo-small-width: $grid-unit-18;
 $logo-large-width: $grid-unit-30;
 
+
+// Prevent the last logo from being on it's own on a line
+// WARN: This uses magic numbers and must be reviewed after the logos change CGB 2017-1-24
+//
+%ensure-no-widows {
+  @media all and (min-width: 1000px) {
+    width: 1000px;
+  }
+
+  @media all and (max-width: 999px) {
+    width: 700px;
+  }
+
+  @media all and (max-width: 699px) {
+    width: 420px;
+  }
+
+  @media all and (max-width: 419px) {
+    width: 300px;
+  }
+
+  margin: 0 auto;
+}
+
 // Logo Layout
 //
 // A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
 %component--logos {
+  @extend %ensure-no-widows;
 
   .logos {
     align-items: center;
