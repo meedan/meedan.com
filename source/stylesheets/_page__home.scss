@@ -74,7 +74,7 @@
 
     .medium-channel {
       // Equal heights (sadly, this crops them)
-      height: $grid-unit-80;
+      height: $grid-unit-90;
 
       // On mobile, no need to equalize the heights.
       @media all and (max-width: $breakpoint) {
