@@ -12,6 +12,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    align-items: stretch;
 
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
