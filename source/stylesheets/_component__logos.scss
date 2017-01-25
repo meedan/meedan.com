@@ -11,14 +11,14 @@ $logo-large-width: $grid-unit-30;
 //
 %ensure-no-widows {
   @media all and (min-width: 1000px) {
-    width: 990px;
+    width: 942px;
   }
 
-  @media all and (max-width: 989px) {
-    width: 700px;
+  @media all and (max-width: 941px) {
+    width: 665px;
   }
 
-  @media all and (max-width: 699px) {
+  @media all and (max-width: 664px) {
     width: 465px;
   }
 
