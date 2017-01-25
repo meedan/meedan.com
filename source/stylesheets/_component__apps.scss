@@ -71,7 +71,7 @@
     // At smaller sizes
     @media all and (max-width: $breakpoint) {
       p {
-        padding: 0;
+        padding: 0 0 $grid-unit-4;
         width: 95%;
       }
     }
