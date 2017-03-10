@@ -6,7 +6,7 @@ $width--team-member: 160px;
 
 %component--team {
   @extend %flex-container;
-  margin: 0 auto;
+  margin: 24px auto;
   padding: 0;
 
   @media (min-width: $width--team-member * 2) {
@@ -15,6 +15,10 @@ $width--team-member: 160px;
 
   @media (min-width: $width--team-member * 4) {
     width: $width--team-member * 4 + $grid-unit-2;
+  }
+
+  @media (min-width: $width--team-member * 6) {
+    width: $width--team-member * 6 + $grid-unit-2;
   }
 
   @media (min-width: $width--team-member * 8) {

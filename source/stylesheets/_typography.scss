@@ -100,6 +100,7 @@ p {
 // Links
 a {
   color: $check-blue;
+  text-decoration: none;
 
   &:hover {
     color: darken($check-blue, 20%);

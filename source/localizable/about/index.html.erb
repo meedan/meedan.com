@@ -3,8 +3,24 @@ layout: "default"
 slug: "about"
 ---
 <!-- About Branding -->
-<section class="about--branding">
+<!-- <section class="about--branding">
   <h3><%= t("about.branding.heading") %></h3>
+</section> -->
+
+
+<!-- Team  -->
+<section class="about--team">
+  <h3><%= t("home.team.header") %></h3>
+  <p><%= t("home.team.text") %></p>
+  <ul>
+    <% data.team_members.each do |member| %>
+    <li>
+      <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
+      <div class="name"><%= member.fullname %></div>
+      <div class="title"><%= member.title %></div>
+    </li>
+    <% end %>
+  </ul>
 </section>
 
 <!--About Promo-bar-->
@@ -47,24 +63,8 @@ slug: "about"
 <!-- Public Engagement Text -->
 <%= partial(:section__default, :locals => { :name => "about--public-engage" }) %>
 
-<!-- Team  -->
-<section class="about--team">
-  <h3><%= t("home.team.header") %></h3>
-  <p><%= t("home.team.text") %></p>
-  <ul>
-    <% data.team_members.each do |member| %>
-    <li>
-      <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
-      <div class="name"><%= member.fullname %></div>
-      <div class="title"><%= member.title %></div>
-    </li>
-    <% end %>
-  </ul>
-</section>
+<!-- Homepage Donate -->
+<%= partial "partials/donate" %>
 
 <!-- Contact -->
 <%= partial "partials/contact" %>
-
-
-<!-- Homepage Donate -->
-<%= partial "partials/donate" %>

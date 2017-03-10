@@ -5,7 +5,18 @@
 //
 .about--branding {
   @extend %component--branding;
-  @include component--background-photo('../images/banners/banner-2@1x.jpg');
+  background-image: url('/images/annual-report/group.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+
+  h3 {
+    color: black;
+    font-weight: 700;
+    margin-top: -80px;
+    width: 400px;
+  }
 }
 
 // About: Recent press section
@@ -24,15 +35,17 @@
 //
 .about--our-vision {
   @extend %typography--section-dense;
-  background-color: $firefly80;
-  color: $firefly5;
+  @extend %colors--inverted;
 }
 
 // About: Products photo
 //
 .about--products-photo {
-  @include component--background-photo('../images/banners/products-photo@1x.jpg');
-  min-height: $grid-unit-30;
+  background-image: url('/images/annual-report/team-3-aqua-screen.jpg');
+  height: 500px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 // About: Products text
@@ -44,7 +57,7 @@
 // About page: public engagement photo
 //
 .about--public-engage-photo {
-  @include component--background-photo('../images/banners/public-engagement-photo@1x.jpg');
+  @include component--background-photo('/images/annual-report/team-6-peach-screen.jpg');
   background-position: 40% left;
 }
 

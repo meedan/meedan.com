@@ -3,8 +3,7 @@
 /// Containing --call, --visit, --write and --social-media
 ///
 %component--contact {
-  background: $firefly-100-70;
-  color: $firefly10;
+  @extend %colors--inverted;
 
   li {
     display: inline-block;

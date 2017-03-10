@@ -19,7 +19,7 @@ slug: "home"
 <!-- Homepage apps -->
 <section class="home--apps">
   <h3><%= t("home.apps.title") %></h3>
-  
+
   <div class="apps">
     <!-- Check app -->
     <div class="app app--check">
@@ -102,6 +102,9 @@ slug: "home"
   </ul>
 </section>
 
+<!-- Homepage Donate -->
+<%= partial "partials/donate" %>
+
 <!-- Homepage Photo Frame -->
 <div class="home--background-photo">
   <p><%= t("home.photo_frame") %></p>
@@ -110,6 +113,3 @@ slug: "home"
 
 <!-- Homepage Contact -->
 <%= partial "partials/contact" %>
-
-<!-- Homepage Donate -->
-<%= partial "partials/donate" %>

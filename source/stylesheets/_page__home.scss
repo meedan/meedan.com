@@ -54,7 +54,7 @@
 // Home: background-photo section
 //
 .home--background-photo {
-  @include component--background-photo('../images/banners/banner-2@1x.jpg');
+  padding-bottom: 100px;
 }
 
 // Component: Homepage latest news
@@ -72,10 +72,22 @@
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
+    position: relative;
 
     .medium-channel {
       // Equal heights (sadly, this crops them)
-      height: $grid-unit-90;
+      height: $grid-unit-80;
+
+      &::after {
+        content: " ";
+        background-image: linear-gradient(rgba(black, 0), rgba(black, .5), rgba(black, .7), black);
+        width: 500px;
+        height: 100px;
+        display: block;
+        position: absolute;
+        z-index: 100;
+        bottom: 10px;
+      }
 
       // On mobile, no need to equalize the heights.
       @media all and (max-width: $breakpoint) {
