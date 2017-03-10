@@ -22,6 +22,9 @@ $photo-feb10-blue: #596d74;
 $alto-grey: #e0e0e0;
 $white: #fff;
 $black: #000;
+$dark-purple: #0D1154;
+$dark-soft-purple: desaturate($dark-purple, 50%);
+$accent-purple: #29328B;
 
 // Colors with alpha channel
 //
@@ -42,12 +45,11 @@ $white-100-70: rgba($white, .7);
 // Color scheme: Inverted
 //
 %colors--inverted {
-  background-color: $firefly80;
+  background-color: $dark-soft-purple;
   color: $firefly10;
 
   a {
     color: $white-100-70;
-    padding: .18em;
 
     &:hover {
       color: $white;
@@ -71,6 +73,7 @@ $white-100-70: rgba($white, .7);
     }
 
     // When clicking in this element, light up the button
+    // TODO refactor this into buttons.scss
     &:focus ~ input[type='submit'] {
       background-color: $check-blue;
       color: $white;

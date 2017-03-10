@@ -7,10 +7,8 @@ $breakpoint--explainer: $grid-unit-112;
 // A different style than check and homepage.
 .bridge--branding {
   @extend %colors--inverted;
-
   @extend %component--branding;
-
-  background: $firefly40;
+  background: desaturate($bridge-orange, 10%);
 
   .logo-and-slogan {
     margin: $grid-unit-3 auto;
@@ -26,7 +24,6 @@ $breakpoint--explainer: $grid-unit-112;
 //
 .bridge--history {
   @extend %colors--inverted;
-
   @extend %typography--section-dense;
 }
 
@@ -34,7 +31,6 @@ $breakpoint--explainer: $grid-unit-112;
 //
 .bridge--supporters {
   @extend %colors--default;
-
   @extend %component--logos;
 }
 
@@ -42,7 +38,6 @@ $breakpoint--explainer: $grid-unit-112;
 //
 .bridge--explanations {
   @extend %colors--default;
-
   @extend %component--explanations;
 
   .screenshot {
@@ -60,7 +55,6 @@ $breakpoint--explainer: $grid-unit-112;
 //
 .bridge--call-to-action {
   @extend %colors--form-default;
-
   background-color: $firefly5;
   padding-bottom: 0;
 
@@ -94,6 +88,5 @@ $breakpoint--explainer: $grid-unit-112;
 //
 .bridge--footer {
   @extend %colors--inverted;
-
   @extend %component--footer;
 }

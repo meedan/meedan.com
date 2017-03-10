@@ -1,3 +1,7 @@
 .donate {
   margin-bottom: $grid-unit-12;
+
+  a {
+    @extend %button-flat;
+  }
 }
