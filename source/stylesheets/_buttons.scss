@@ -7,12 +7,12 @@ $button-width: $grid-unit * 45;
   display: block;
   font: $font--body-2;
   margin: $grid-unit-4 auto;
+  min-width: 112px;
   padding: $grid-unit-2;
   text-decoration: none;
   text-transform: uppercase;
   transition: background-color .4s, color .4s;
   width: $button-width;
-  min-width: 112px;
 
   @media all and (max-width: $button-width) {
     width: 90%;

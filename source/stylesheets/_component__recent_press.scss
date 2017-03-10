@@ -9,10 +9,9 @@
 
   // A list of 'blurbs'
   .blurbs {
-    align-items: center;
+    align-items: stretch;
     display: flex;
     justify-content: center;
-    align-items: stretch;
 
     // at smaller sizes
     @media all and (max-width: $breakpoint) {
@@ -29,9 +28,9 @@
     width: 30%;
 
     p {
+      font: $font--body-2;
       padding: $grid-unit;
       transition: background-color .4s;
-      font: $font--body-2;
 
       &:hover {
         background-color: $firefly5;

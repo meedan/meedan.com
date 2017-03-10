@@ -51,8 +51,8 @@
 // About: Promo bar div
 //
 .about--promo-bar {
-  margin: $grid-unit-2 $grid-unit;
   font: $font--subheading-2;
+  margin: $grid-unit-2 $grid-unit;
 
   a {
     @extend %button-small;

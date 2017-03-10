@@ -1,4 +1,12 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import 'layout';
+@import 'colors';
+@import 'typography';
+@import 'flex';
+@import 'keyframes';
+@import 'buttons';
+@import 'forms';
+
 
 .annual-report-2014,
 .annual-report-2015 {
@@ -31,7 +39,7 @@
   }
 
   ul,
-  ul li {
+  li {
     font-weight: 400;
   }
 
@@ -113,7 +121,8 @@
     }
   }
 
-  .mission-statement ul {
+  .mission-statement {
+    // sass-lint:disable hex-notation, force-element-nesting, no-color-literals
     li {
       padding: 1em;
       text-align: left;
@@ -213,7 +222,6 @@
     }
 
     a {
-      border-bottom: 3px solid $check-blue;
       @media (max-width: 900px) {
         display: inline-block;
         padding: .1em;
@@ -268,7 +276,8 @@
 
   .lead-photo .image-banner {
     background-image: url('/images/annual-report/team-6-peach-screen.jpg');
-    @media all and (min-width:$grid-unit-70) {
+
+    @media all and (min-width: $grid-unit-70) {
       background-position: 20% 50%;
     }
   }
@@ -277,7 +286,7 @@
 .annual-report-2015 {
   .lead-photo .image-banner {
 
-    background: linear-gradient( rgba(#C86EDF, .2), rgba(darken(#E4B7F0, 20%), .4)), url('/images/annual-report/belad.jpg');
+    background: linear-gradient(rgba(#C86EDF, .2), rgba(darken(#E4B7F0, 20%), .4)), url('/images/annual-report/belad.jpg');
     background-size: cover;
     @media all and (max-width: $grid-unit-70) {
       background-position: 50% 50%;
@@ -289,10 +298,10 @@
   }
 
   .image-banner.team-2 {
-    background: 
+    background:
     linear-gradient(
-      rgba(orange, .2),
-      rgba(orange, .4)
+      rgba(#ffa500, .2),
+      rgba(#ffa500, .4)
     ),
     url('/images/annual-report/caioandkarim.jpg');
     background-position: 0% 30%;
