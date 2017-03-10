@@ -6,6 +6,7 @@
   @extend %component--branding;
   background: $check-blue;
   color: $white;
+
   // Todo: there are inconsistencies with the check header — CGB Dec 4 2016
   svg {
     width: 250px;

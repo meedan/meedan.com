@@ -13,18 +13,18 @@
 
   // The main image in a "branding" section
   .screenshot {
+    animation: fadeIn 1.2s;
     display: block;
     margin: 0 auto;
     max-width: 525px;
     width: 100%;
-    animation: fadeIn 1.2s;
   }
 
   // The phrase under the logos
   .slogan {
+    color: $white-100-70;
     font: $font--headline;
     margin: 0 auto;
     padding: 0;
-    color: $white-100-70;
   }
 }

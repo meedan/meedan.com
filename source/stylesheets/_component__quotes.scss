@@ -9,10 +9,8 @@
     font-size: 1em;
     text-align: start;
 
-    &:first-of-type {
-      &:lang(en) {
-        text-align: left;
-      }
+    &:lang(en) {
+      text-align: left;
     }
   }
 

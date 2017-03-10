@@ -7,16 +7,20 @@
   width: 100%;
   z-index: 3;
 
-  .meedan-logo svg {
-    height: 45px;
-    margin: $grid-unit $grid-unit 0;
-    width: 45px;
+  .meedan-logo {
+    svg {
+      height: 45px;
+      margin: $grid-unit $grid-unit 0;
+      width: 45px;
+    }
   }
 
-  .meedan-wordmark svg {
-    height: 45px;
-    margin-top: $grid-unit;
-    width: 70px;
+  .meedan-wordmark {
+    svg {
+      height: 45px;
+      margin-top: $grid-unit;
+      width: 70px;
+    }
   }
 
   // Small logo on small screens
@@ -44,7 +48,7 @@
       line-height: $grid-unit-4;
       padding: $grid-unit-2;
 
-      @media all and (max-width:$nav-breakpoint) {
+      @media all and (max-width: $nav-breakpoint) {
         padding: $grid-unit-2 $grid-unit;
       }
 

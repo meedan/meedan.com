@@ -42,9 +42,9 @@ $logo-large-width: $grid-unit-30;
     list-style-type: none;
 
     li {
-      height: $grid-unit-12;
       align-items: center;
       display: flex;
+      height: $grid-unit-12;
       justify-content: center;
       padding: $grid-unit-2;
     }

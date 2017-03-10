@@ -6,7 +6,13 @@
   <title><%= current_page.data.slug.capitalize.gsub("-", " ") %> | Meedan</title>
 
   <%= stylesheet_link_tag "stylesheets/screen" %>
-  <%= stylesheet_link_tag "stylesheets/print" %>
+
+  <% if current_page.data.slug.include? "annual-report" %>
+    <%= stylesheet_link_tag "stylesheets/screen" %>
+    <%= stylesheet_link_tag "stylesheets/annual_report" %>
+    <%= stylesheet_link_tag "stylesheets/print" %>
+  <% end %>
+
   <link rel="icon" href="/images/favicons/favicon.ico?v=1">
 
   <%- ogp_tags do |name, value| %>
