@@ -45,7 +45,7 @@ h3 {
   font: $font--headline;
   letter-spacing: .1em;
   margin: 0 auto;
-  padding: $grid-unit-8 $grid-unit-4;
+  padding: $grid-unit-8 $grid-unit-4 $grid-unit-4;
   text-transform: uppercase;
 
   @media all and (max-width: $breakpoint) {

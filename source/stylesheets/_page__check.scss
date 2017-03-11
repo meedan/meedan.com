@@ -13,14 +13,47 @@
   }
 }
 
+$check-gradient: linear-gradient(rgba($check-blue, 1), rgba($check-blue, .2));
+
 // Check electionland blurb
 .check--electionland {
-  border-bottom: 1px solid $firefly20;
+  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
+  height: 620px;
+  background-position: calc(50% - 400px) 50%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: $black-100-50;
   padding-bottom: 0;
+  position: relative;
+
+  img.check-collection {
+    bottom: 0;
+    position: absolute;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+  }
+  @media all and (max-width: 730px) {
+    height: 500px;
+    background-position: 40%;
+
+    img.check-collection {
+      width: 90%;
+    }
+  }
+
+  a {
+    color: white;
+    border-bottom: 2px solid white;
+  }
 
   .electionland-small {
     display: inline;
     text-decoration: none;
+    border-bottom: 0;
 
     svg {
       height: $grid-unit-4;
@@ -33,7 +66,17 @@
 // check explanations
 .check--explanations {
   @extend %colors--default;
-  @extend %component--explanations;
+
+  .screenshot {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  @media all and (max-width: 730px) {
+    .screenshot {
+      width: 98%;
+    }
+  }
 }
 
 // check Quotes
@@ -43,8 +86,8 @@
 
 // check newsletter
 .check--newsletter {
-  @extend %colors--inverted;
-  @extend %colors--form-inverted;
+  // @extend %colors--inverted;
+  // @extend %colors--form-inverted;
 }
 
 // check history
