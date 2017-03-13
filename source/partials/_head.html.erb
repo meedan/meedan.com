@@ -13,6 +13,10 @@
     <%= stylesheet_link_tag "stylesheets/print" %>
   <% end %>
 
+  <% if I18n.locale == :ar %>
+    <%= stylesheet_link_tag "stylesheets/locale__ar" %>
+  <% end %>
+
   <link rel="icon" href="/images/favicons/favicon.ico?v=1">
 
   <%- ogp_tags do |name, value| %>

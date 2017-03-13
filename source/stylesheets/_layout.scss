@@ -72,3 +72,9 @@ section > * {
   margin: 0 auto;
   max-width: 1440px;
 }
+
+// English default
+// Other stylesheets (and fonts) are loaded conditionally in the html head
+:lang(en) {
+  direction: ltr;
+}
