@@ -46,7 +46,7 @@ $breakpoint--explainer: $grid-unit-112;
 }
 
 .bridge--appstore-footer {
-  background-color: $firefly5;
+  background-color: $black-05;
   padding-bottom: 0;
   padding-top: $grid-unit-2;
 }
@@ -55,7 +55,7 @@ $breakpoint--explainer: $grid-unit-112;
 //
 .bridge--call-to-action {
   @extend %colors--form-default;
-  background-color: $firefly5;
+  background-color: $black-05;
   padding-bottom: 0;
 
   .call-to-action--text {

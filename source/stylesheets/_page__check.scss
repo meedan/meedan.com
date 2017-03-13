@@ -13,7 +13,7 @@
   }
 }
 
-$check-gradient: linear-gradient($check-blue, $check-blue-100-20);
+$check-gradient: linear-gradient($check-blue, $check-blue-20);
 
 // Check electionland blurb
 .check--electionland {
@@ -21,7 +21,7 @@ $check-gradient: linear-gradient($check-blue, $check-blue-100-20);
   background-position: calc(50% - 400px) 50%;
   background-repeat: repeat-x;
   background-size: cover;
-  color: $black-100-50;
+  color: $black-54;
   height: 620px;
   padding-bottom: 0;
   position: relative;
@@ -84,12 +84,6 @@ $check-gradient: linear-gradient($check-blue, $check-blue-100-20);
   @extend %component--quotes;
 }
 
-// check newsletter
-.check--newsletter {
-  // @extend %colors--inverted;
-  // @extend %colors--form-inverted;
-}
-
 // check history
 .check--history {
   @extend %colors--inverted;
@@ -98,7 +92,7 @@ $check-gradient: linear-gradient($check-blue, $check-blue-100-20);
 // check supporters
 .check--supporters {
   @extend %component--logos;
-  background-color: $firefly2;
+  background-color: $black-02;
 }
 
 // check partners
@@ -108,7 +102,7 @@ $check-gradient: linear-gradient($check-blue, $check-blue-100-20);
 
 // check awards
 .check--awards {
-  background-color: $firefly2;
+  background-color: $black-02;
   padding-top: $grid-unit-8;
 
   h3 {

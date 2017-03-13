@@ -45,7 +45,7 @@
   }
 
   .slogan {
-    color: $firefly80;
+    color: $black-87;
     font: $font--headline;
     padding: $grid-unit-4 0;
   }
@@ -64,7 +64,7 @@
 // • TODO: migrate this to a custom RSS feed that gives us more control over the design.
 //
 .home--latest {
-  background-color: $firefly2;
+  background-color: $black-02;
   padding-bottom: $grid-unit-2;
 
   .medium-channels {

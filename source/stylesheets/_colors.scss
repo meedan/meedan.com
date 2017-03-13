@@ -1,56 +1,35 @@
 // Colors
 //
-$firefly2: #fafbfb;
-$firefly10: #e7e8ea;
-$firefly5: lighten($firefly10, 5%);
-$firefly20: #cfd3d5;
-$firefly30: #b7bcc0;
-$firefly40: #9fa6ac;
-$firefly50: #f3f4f4;
-$firefly60: #6f7a82;
-$firefly80: #404d59;
-$firefly90: #283743;
-$firefly: #10212f;
-$check-yellow: #e4ba2a;
 $check-blue: #3073fd;
-$check-blue-100-20: rgba($check-blue, .2);
+$check-blue-20: rgba($check-blue, .2);
 $keyboard-grey: #abb5bd;
 $light-keyboard-grey: #d1d6db;
-$light-bridge-orange: #fff6f1;
 $bridge-orange: #FF674A;
-$accent-blue: #6d9ed3;
-$photo-feb10-blue: #596d74;
-$alto-grey: #e0e0e0;
 $white: #fff;
 $black: #000;
 $dark-purple: #0c1c3e;
 $dark-soft-purple: desaturate($dark-purple, 20%);
-$accent-purple: #29328B;
 
 // Colors with alpha channel
 //
-$firefly-100-90: rgba($firefly, 90);
-$firefly-100-70: rgba($firefly, 70);
-$firefly-100-50: rgba($firefly, 50);
-$firefly-100-30: rgba($firefly, 30);
-$firefly-50-50: rgba($firefly10, .5);
-$black-100-10: rgba($black, .1);
-$black-100-20: rgba($black, .2);
-$black-100-50: rgba($black, .5);
-$black-100-70: rgba($black, .7);
-$white-100-10: rgba($white, .1);
-$white-100-20: rgba($white, .2);
-$white-100-50: rgba($white, .5);
-$white-100-70: rgba($white, .7);
+$black-02: rgba($black, .02);
+$black-05: rgba($black, .05);
+$black-16: rgba($black, .16);
+$black-54: rgba($black, .54);
+$black-87: rgba($black, .87);
+$white-10: rgba($white, .1);
+$white-20: rgba($white, .2);
+$white-50: rgba($white, .5);
+$white-70: rgba($white, .7);
 
 // Color scheme: Inverted
 //
 %colors--inverted {
   background-color: $dark-soft-purple;
-  color: $firefly10;
+  color: $white;
 
   a {
-    color: $white-100-70;
+    color: $white-70;
 
     &:hover {
       color: $white;
@@ -63,8 +42,8 @@ $white-100-70: rgba($white, .7);
   // Email input
   input[type='email'] {
     background-color: transparent;
-    border-bottom: 1px solid $firefly40;
-    color: $firefly;
+    border-bottom: 1px solid $black-54;
+    color: $black-87;
 
     &:focus {
       // The outline is hidden (for mouse users only!) w/ js
@@ -85,7 +64,7 @@ $white-100-70: rgba($white, .7);
   // Submit button
   input[type='submit'] {
     background-color: $light-keyboard-grey;
-    color: $firefly60;
+    color: $black-87;
 
     &:hover {
       background-color: $check-blue;
@@ -96,7 +75,7 @@ $white-100-70: rgba($white, .7);
 
   // The label on the checkbox
   input[type='checkbox'] ~ label {
-    color: $firefly40;
+    color: $black-54;
   }
 }
 
@@ -104,7 +83,7 @@ $white-100-70: rgba($white, .7);
 
   // All labels
   label {
-    color: $white-100-50;
+    color: $white-50;
   }
 
   // All inputs
@@ -128,12 +107,12 @@ $white-100-70: rgba($white, .7);
 
   // Submit button
   input[type='submit'] {
-    color: $firefly60;
+    color: $black-54;
   }
 }
 
 // Color scheme: Default
 %colors--default {
   background-color: $white;
-  color: $firefly80;
+  color: $black-87;
 }
