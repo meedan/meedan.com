@@ -13,47 +13,47 @@
   }
 }
 
-$check-gradient: linear-gradient(rgba($check-blue, 1), rgba($check-blue, .2));
+$check-gradient: linear-gradient($check-blue, $check-blue-100-20);
 
 // Check electionland blurb
 .check--electionland {
   background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
-  height: 620px;
   background-position: calc(50% - 400px) 50%;
   background-repeat: repeat-x;
   background-size: cover;
   color: $black-100-50;
+  height: 620px;
   padding-bottom: 0;
   position: relative;
 
-  img.check-collection {
+  .check-collection {
     bottom: 0;
-    position: absolute;
-    width: 700px;
+    left: 0;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
+    position: absolute;
     right: 0;
-
+    width: 700px;
   }
-  @media all and (max-width: 730px) {
-    height: 500px;
-    background-position: 40%;
 
-    img.check-collection {
+  @media all and (max-width: 730px) {
+    background-position: 40%;
+    height: 500px;
+
+    .check-collection {
       width: 90%;
     }
   }
 
   a {
-    color: white;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid $white;
+    color: $white;
   }
 
   .electionland-small {
+    border-bottom: 0;
     display: inline;
     text-decoration: none;
-    border-bottom: 0;
 
     svg {
       height: $grid-unit-4;
@@ -68,8 +68,8 @@ $check-gradient: linear-gradient(rgba($check-blue, 1), rgba($check-blue, .2));
   @extend %colors--default;
 
   .screenshot {
-    max-width: 700px;
     margin: 0 auto;
+    max-width: 700px;
   }
 
   @media all and (max-width: 730px) {
