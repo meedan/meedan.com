@@ -12,7 +12,7 @@
   height: 700px;
 
   h3 {
-    color: black;
+    color: $black-87;
     font-weight: 700;
     margin-top: -80px;
     width: 400px;
@@ -28,7 +28,7 @@
 // About: Challenges section
 //
 .about--challenges {
-  background-color: $firefly5;
+  background-color: $black-05;
 }
 
 // About: Our vision section
@@ -42,16 +42,16 @@
 //
 .about--products-photo {
   background-image: url('/images/annual-report/team-3-aqua-screen.jpg');
-  height: 500px;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
 }
 
 // About: Products text
 //
 .about--products {
-  background-color: $firefly5;
+  background-color: $black-05;
 }
 
 // About page: public engagement photo
@@ -68,7 +68,7 @@
   margin: $grid-unit-2 $grid-unit;
 
   a {
-    @extend %button-small;
+    @extend %button-flat;
     @media all and (max-width: $breakpoint) {
       margin: $grid-unit $grid-unit-2;
     }

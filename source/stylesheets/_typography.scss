@@ -24,7 +24,7 @@ $font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
 // Language specific typography is in files like `_lang__en.scss`
 //
 body {
-  color: $firefly80;
+  color: $black-87;
   font: $font--subheading-2;
   text-align: center;
 }
@@ -79,8 +79,6 @@ li {
 
   @media all and (max-width: $breakpoint) {
     display: block;
-
-    // padding: 0 $grid-unit;
   }
 }
 

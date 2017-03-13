@@ -1,6 +1,6 @@
 // Component: background-photo
 @mixin component--background-photo($image: '../images/banners/banner-2@1x.jpg') {
-  background-color: $firefly90;
+  background-color: $black-87;
   background-image: url($image);
   background-position: 50%;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
   margin: 0 auto;
   min-height: 350px;
   padding: 4em 0;
-  text-shadow: 0 0 5px $black;
+  text-shadow: 0 0 5px $black-54;
   vertical-align: middle;
   width: 100%;
 }

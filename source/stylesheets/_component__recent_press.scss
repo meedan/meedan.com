@@ -22,7 +22,7 @@
 
   // Single blurb with text and logo
   li {
-    color: $firefly80;
+    color: $black-87;
     font: $font--subheading-2;
     padding: $grid-unit-2;
     width: 30%;
@@ -33,15 +33,14 @@
       transition: background-color .4s;
 
       &:hover {
-        background-color: $firefly5;
+        background-color: $black-05;
         border-radius: $grid-unit;
         transition: background-color .4s;
       }
+    }
 
-      a {
-        color: $firefly80;
-        text-decoration: none;
-      }
+    a {
+      color: $black-87;
     }
 
     // at smaller sizes
