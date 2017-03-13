@@ -2,11 +2,6 @@
 layout: "default"
 slug: "about"
 ---
-<!-- About Branding -->
-<!-- <section class="about--branding">
-  <h3><%= t("about.branding.heading") %></h3>
-</section> -->
-
 
 <!-- Team  -->
 <section class="about--team">
@@ -23,6 +18,11 @@ slug: "about"
   </ul>
 </section>
 
+<section class="about--recent-press">
+  <!-- Recent press -->
+  <%= partial "partials/press_blurbs" %>
+</section>
+
 <!--About Promo-bar-->
 <div class="about--promo-bar">
   <%= t("about.we_love") %>
@@ -31,10 +31,6 @@ slug: "about"
   </a>
 </div>
 
-<section class="about--recent-press">
-  <!-- Recent press -->
-  <%= partial "partials/press_blurbs" %>
-</section>
 
 <!-- Our Vision -->
 <section class="about--our-vision">
