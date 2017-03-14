@@ -5,7 +5,6 @@
     left: 0;
     margin: 0 auto;
     min-height: 360px;
-    overflow: hidden;
     position: absolute;
     right: 0;
 
@@ -21,32 +20,68 @@
       height: 300px;
       margin: 0 auto;
       max-width: 500px;
-      padding: 20px 10px;
+      padding: 20px;
       position: absolute;
       width: 80%;
 
       &.true {
-        animation: slideInLeft 1s;
         background-color: $media-status-green;
-        left: 10%;
-        right: 10%;
-        top: 0;
+        left: 15%;
+        right: 5%;
+        top: 130px;
+
+        .icon {
+
+          &.twitter {
+            path {
+              fill: $media-status-green;
+            }
+          }
+
+          &.fb {
+            display: none;
+          }
+        }
       }
 
       &.false {
-        animation: slideInLeft 1s;
         background-color: $media-status-red;
         left: 0;
         right: 16%;
         top: 80px;
+
+        .icon {
+
+          &.twitter {
+            display: none;
+          }
+
+          &.fb {
+            path {
+              fill: $media-status-red;
+            }
+          }
+        }
       }
 
       &.in-progress {
-        animation: slideInLeft 1.3s;
         background-color: $media-status-orange;
-        left: 15%;
-        right: 5%;
-        top: 130px;
+        left: 10%;
+        right: 10%;
+        top: 0;
+
+        .icon {
+
+          &.twitter {
+            display: none;
+          }
+
+          &.fb {
+            path {
+              fill: $media-status-orange;
+            }
+          }
+        }
       }
 
       span {
@@ -55,7 +90,6 @@
       }
 
       .body,
-      .avatar,
       .text-row {
         background-color: $white-50;
         margin-bottom: 10px;
@@ -63,7 +97,7 @@
 
       .body {
         min-height: 150px;
-        width: 95%;
+        width: 100%;
       }
 
       .header {
@@ -76,23 +110,31 @@
         padding: 10px;
 
         .avatar {
-          background-color: $black-05;
-          height: 30px;
+          align-items: center;
+          border-radius: 50px;
+          display: flex;
+          height: 35px;
+          justify-content: center;
           margin-right: 10px;
+          width: 35px;
+        }
+
+        .icon {
           width: 30px;
+          height: 30px;
         }
 
         .username-and-source {
           width: 100px;
 
           .username {
-            background-color: $black-05;
+            background-color: $white-50;
             height: 10px;
             margin: 0 10px 10px;
           }
 
           .source {
-            background-color: $black-05;
+            background-color: $white-50;
             height: 10px;
             margin: 0 10px 10px;
             width: 80%;
@@ -101,14 +143,19 @@
       }
 
       .text {
+        width: 80%;
+
+        @media all and (max-width: 700px) {
+          width: 60%;
+        }
         .text-row {
-          background-color: $black-05;
+          // background-color: $black-05;
           height: 10px;
           margin: 10px 60px;
-          width: 70%;
+          width: 100%;
 
           &:last-of-type {
-            width: 65%;
+            width: 90%;
           }
         }
       }

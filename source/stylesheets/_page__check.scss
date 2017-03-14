@@ -1,29 +1,28 @@
 // check page
 //
-// Uses default branding component styles
 .check--branding {
-  @extend %component--branding;
   @extend %component--check-drawing-1;
   background: $check-blue;
   background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
-  background-position: calc(50% - 400px) 50%;
+  background-position: 50%;
   background-repeat: repeat-x;
   background-size: cover;
   color: $white;
-  height: 60vh;
-  max-height: 800px;
-  min-height: 600px;
+  height: 590px;
   padding-bottom: 0;
   position: relative;
 
-  @media all and (max-width: 730px) {
-    background-position: 40%;
-    height: 400px;
+  .slogan {
+    padding: 0;
   }
 
-  // Todo: there are inconsistencies with the check header — CGB Dec 4 2016
-  svg {
-    width: 250px;
+  a.check-white {
+    display: block;
+    margin-top: 10px;
+
+    svg {
+      width: 250px;
+    }
   }
 }
 
