@@ -4,8 +4,6 @@
 /// The branding section has a large .logo image and the h1.
 /// At smaller sizes the logo has a percent-based width.
 ///
-/// We create a %placeholder then @extend it below.
-///
 /// @group meedan-web
 %component--branding {
   padding: $grid-unit-12 $grid-unit-2 $grid-unit-4;

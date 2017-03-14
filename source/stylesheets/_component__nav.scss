@@ -105,7 +105,10 @@
   }
 
   li {
+    align-items: center;
     border-left-width: 0;
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
   }
@@ -114,14 +117,14 @@
   .ar {
     float: right;
   }
-}
 
-// Locale navigation: current page indicator
-.active {
-  a {
-    background-color: $white-10;
-    border-radius: 4px;
-    color: $white;
-    font-weight: bold;
+  // Locale navigation: current page indicator
+  .active {
+    a {
+      background-color: $white-10;
+      border-radius: 4px;
+      color: $white;
+      font-weight: bold;
+    }
   }
 }
