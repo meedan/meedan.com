@@ -88,12 +88,13 @@
           .username {
             background-color: $black-05;
             height: 10px;
-            margin-bottom: 10px;
+            margin: 0 10px 10px;
           }
 
           .source {
             background-color: $black-05;
             height: 10px;
+            margin: 0 10px 10px;
             width: 80%;
           }
         }
@@ -103,7 +104,7 @@
         .text-row {
           background-color: $black-05;
           height: 10px;
-          margin-left: 50px;
+          margin: 10px 60px;
           width: 70%;
 
           &:last-of-type {
