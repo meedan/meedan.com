@@ -1,7 +1,5 @@
 /// Contact section
 ///
-/// Containing --call, --visit, --write and --social-media
-///
 %component--contact {
   @extend %colors--inverted;
 
@@ -37,6 +35,7 @@
 
     a {
       border-bottom: 0;
+      display: block;
       text-decoration: 0;
 
       svg {

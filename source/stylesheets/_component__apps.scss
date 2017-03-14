@@ -23,11 +23,6 @@
     padding: $grid-unit-4;
     width: 40%;
 
-    // At smaller sizes
-    @media all and (max-width: $breakpoint) {
-      width: 100%;
-    }
-
     p {
       font: $font--body-2;
     }
@@ -43,7 +38,7 @@
 
       &::before {
         border-bottom: 5px solid $bridge-orange;
-        content: " ";
+        content: "";
         display: block;
         height: 3px;
         margin: 20px auto;
@@ -51,18 +46,33 @@
       }
     }
 
-    &--check .tagline::before {
-      border-bottom-color: $check-blue;
+    // Only in the Check side
+    &--check {
+      .tagline {
+        &::before {
+          border-bottom-color: $check-blue;
+        }
+      }
     }
 
-    p.learn a {
-      background-color: $white-10;
-      border-radius: $grid-unit / 2;
-      color: $white;
-      font-weight: bold;
-      margin: 0 $grid-unit;
-      padding: $grid-unit $grid-unit-2;
-      text-decoration: none;
+    // Only on the bridge side
+    &--bridge {
+      svg {
+        padding-top: $grid-unit-2;
+        width: $grid-unit-35;
+      }
+    }
+
+    .learn {
+      a {
+        background-color: $white-10;
+        border-radius: $grid-unit / 2;
+        color: $white;
+        font-weight: bold;
+        margin: 0 $grid-unit;
+        padding: $grid-unit $grid-unit-2;
+        text-decoration: none;
+      }
     }
 
     svg {
@@ -70,11 +80,9 @@
       width: 260px;
     }
 
-    &--bridge {
-      svg {
-        padding-top: $grid-unit-2;
-        width: $grid-unit-35;
-      }
+    // At smaller sizes
+    @media all and (max-width: $breakpoint) {
+      width: 100%;
     }
   }
 
