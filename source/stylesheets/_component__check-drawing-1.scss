@@ -1,0 +1,120 @@
+%component--check-drawing-1 {
+
+  .drawing-1 {
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    min-height: 360px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+
+    h5 {
+      margin: 0;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    // Each card
+    & > div {
+      box-shadow: $black-38 -10px 10px 0 0;
+      height: 300px;
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 20px 10px;
+      position: absolute;
+      width: 80%;
+
+      &.true {
+        animation: slideInLeft 1s;
+        background-color: $media-status-green;
+        left: 10%;
+        right: 10%;
+        top: 0;
+      }
+
+      &.false {
+        animation: slideInLeft 1s;
+        background-color: $media-status-red;
+        left: 0;
+        right: 16%;
+        top: 80px;
+      }
+
+      &.in-progress {
+        animation: slideInLeft 1.3s;
+        background-color: $media-status-orange;
+        left: 15%;
+        right: 5%;
+        top: 130px;
+      }
+
+      span {
+        border-radius: 6px;
+        display: block;
+      }
+
+      .body,
+      .avatar,
+      .text-row {
+        background-color: $white-50;
+        margin-bottom: 10px;
+      }
+
+      .body {
+        min-height: 150px;
+        width: 95%;
+      }
+
+      .header {
+        height: 10px;
+      }
+
+      .byline {
+        display: flex;
+        margin-top: 10px;
+        padding: 10px;
+
+        .avatar {
+          background-color: $black-05;
+          height: 30px;
+          margin-right: 10px;
+          width: 30px;
+        }
+
+        .username-and-source {
+          width: 100px;
+
+          .username {
+            background-color: $black-05;
+            height: 10px;
+            margin-bottom: 10px;
+          }
+
+          .source {
+            background-color: $black-05;
+            height: 10px;
+            width: 80%;
+          }
+        }
+      }
+
+      .text {
+        .text-row {
+          background-color: $black-05;
+          height: 10px;
+          margin-left: 50px;
+          width: 70%;
+
+          &:last-of-type {
+            width: 65%;
+          }
+        }
+      }
+    }
+
+    @media all and (max-width: 730px) {
+      width: 70%;
+    }
+  }
+}

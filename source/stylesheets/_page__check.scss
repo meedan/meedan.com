@@ -1,11 +1,25 @@
-
 // check page
 //
 // Uses default branding component styles
 .check--branding {
   @extend %component--branding;
+  @extend %component--check-drawing-1;
   background: $check-blue;
+  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
+  background-position: calc(50% - 400px) 50%;
+  background-repeat: repeat-x;
+  background-size: cover;
   color: $white;
+  height: 60vh;
+  max-height: 800px;
+  min-height: 600px;
+  padding-bottom: 0;
+  position: relative;
+
+  @media all and (max-width: 730px) {
+    background-position: 40%;
+    height: 400px;
+  }
 
   // Todo: there are inconsistencies with the check header — CGB Dec 4 2016
   svg {
@@ -13,41 +27,14 @@
   }
 }
 
-$check-gradient: linear-gradient($check-blue, $check-blue-20);
-
 // Check electionland blurb
 .check--electionland {
-  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
-  background-position: calc(50% - 400px) 50%;
-  background-repeat: repeat-x;
-  background-size: cover;
   color: $black-54;
-  height: 620px;
   padding-bottom: 0;
   position: relative;
 
-  .check-collection {
-    bottom: 0;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    right: 0;
-    width: 700px;
-  }
-
-  @media all and (max-width: 730px) {
-    background-position: 40%;
-    height: 500px;
-
-    .check-collection {
-      width: 90%;
-    }
-  }
-
   a {
     border-bottom: 2px solid $white;
-    color: $white;
   }
 
   .electionland-small {
