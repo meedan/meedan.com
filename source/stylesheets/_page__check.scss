@@ -51,7 +51,6 @@
 
 // check explanations
 .check--explanations {
-  @extend %colors--default;
 
   .screenshot {
     margin: 0 auto;
@@ -68,11 +67,6 @@
 // check Quotes
 .check--quotes {
   @extend %component--quotes;
-}
-
-// check history
-.check--history {
-  @extend %colors--inverted;
 }
 
 // check supporters
@@ -98,15 +92,4 @@
   svg {
     width: $grid-unit-18;
   }
-}
-
-// check github
-.check--github {
-  @extend %colors--inverted;
-}
-
-// check footer
-.check--footer {
-  @extend %colors--inverted;
-  @extend %component--footer;
 }

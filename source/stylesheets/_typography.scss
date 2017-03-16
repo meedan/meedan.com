@@ -104,9 +104,9 @@ a {
   }
 }
 
-// Typography: dense sections
+// Typography helper: dense sections
 //
-%typography--section-dense {
+.typography--dense {
   &:lang(en) {
     h4,
     p {

@@ -1,7 +1,6 @@
 /// Contact section
 ///
 %component--contact {
-  @extend %colors--inverted;
 
   li {
     display: inline-block;
@@ -46,6 +45,7 @@
   }
 }
 
+// Contact section helper
 .contact {
   @extend %component--contact;
 }
