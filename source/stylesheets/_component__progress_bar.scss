@@ -4,7 +4,7 @@
 // • Only appears on larger screens
 // • See: github.hubspot.com/pace/docs/welcome/
 //
-@media all and (min-width: $breakpoint) {
+@include when-smaller-than(large) {
   .pace {
     pointer-events: none;
     user-select: none;

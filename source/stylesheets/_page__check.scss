@@ -58,7 +58,7 @@
     max-width: 700px;
   }
 
-  @media all and (max-width: 730px) {
+  @include when-smaller-than(medium) {
     .screenshot {
       width: 98%;
     }

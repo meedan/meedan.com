@@ -14,7 +14,7 @@
     justify-content: center;
 
     // at smaller sizes
-    @media all and (max-width: $breakpoint) {
+    @include when-smaller-than(large) {
       flex-flow: column;
       padding-bottom: $grid-unit-4;
     }
@@ -45,7 +45,7 @@
     }
 
     // at smaller sizes
-    @media all and (max-width: $breakpoint) {
+    @include when-smaller-than(large) {
       width: 100%;
 
       p {

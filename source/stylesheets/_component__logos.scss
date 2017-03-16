@@ -44,66 +44,32 @@ $logo-large-width: $grid-unit-30;
     li {
       align-items: center;
       display: flex;
-      height: $grid-unit-12;
+      height: 80px;
       justify-content: center;
       padding: $grid-unit-2;
+      width: 200px;
     }
 
     img,
     svg {
-      max-height: $grid-unit-8;
-      max-width: $logo-small-width;
+      max-height: 50px;
+      max-width: 130px;
     }
 
-    .witness {
-      svg,
-      img {
-        max-width: $grid-unit-10;
-      }
-    }
-
-    .kf {
-      svg,
-      img {
-        width: $logo-large-width;
-      }
-    }
-
-    .bc,
-    .bcu,
-    .ff,
-    .gv,
-    .kf,
-    .smex,
-    .vc,
-    .cambridge {
-      svg,
-      img {
-        max-width: $logo-large-width;
-      }
-    }
-
-    .bc {
-      img {
-        max-height: $grid-unit-10;
-      }
-    }
-
-    .ng {
-      a {
-        max-width: $grid-unit-12;
-      }
-    }
-
-    .ipi,
-    .dataguild,
-    .kiva,
+    .first-draft,
     .ibm,
-    .first-draft {
-      img,
-      svg {
-        width: $grid-unit-10;
-      }
+    .kiva,
+    .dataguild {
+      width: 80px;
+    }
+
+    .kf,
+    .ff,
+    .bcu,
+    .bc {
+      max-height: 80px;
+      max-width: 200px;
+      width: 170px;
     }
   }
 }

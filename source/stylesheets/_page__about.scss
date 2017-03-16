@@ -54,7 +54,7 @@
   background-color: $black-05;
 }
 
-// About page: public engagement photo
+// About: public engagement photo
 //
 .about--public-engage-photo {
   @include component--background-photo('/images/annual-report/team-6-peach-screen.jpg');
@@ -69,7 +69,7 @@
 
   a {
     @extend %button-flat;
-    @media all and (max-width: $breakpoint) {
+    @include when-smaller-than(medium) {
       margin: $grid-unit $grid-unit-2;
     }
   }
@@ -78,7 +78,6 @@
 // About: Team (same as homepage)
 //
 .about--team {
-
   ul {
     @extend %component--team;
   }

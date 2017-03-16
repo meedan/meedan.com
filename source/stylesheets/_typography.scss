@@ -48,7 +48,7 @@ h3 {
   padding: $grid-unit-8 $grid-unit-4 $grid-unit-4;
   text-transform: uppercase;
 
-  @media all and (max-width: $breakpoint) {
+  @include when-smaller-than(large) {
     padding: $grid-unit-8 $grid-unit-4;
   }
 }
@@ -57,7 +57,7 @@ h4 {
   margin: $grid-unit auto;
   max-width: $grid-unit-70;
 
-  @media all and (max-width: $breakpoint) {
+  @include when-smaller-than(large) {
     margin: 0 auto;
     max-width: 61.8%;
   }
@@ -77,7 +77,7 @@ li {
   list-style-type: none;
   padding: 0 $grid-unit-2 $grid-unit-2;
 
-  @media all and (max-width: $breakpoint) {
+  @include when-smaller-than(large) {
     display: block;
   }
 }
@@ -89,7 +89,7 @@ p {
   max-width: $grid-unit-70;
   padding: 0 0 $grid-unit-4;
 
-  @media all and (max-width: $breakpoint) {
+  @include when-smaller-than(large) {
     padding: $grid-unit-2 $grid-unit-3;
   }
 }
