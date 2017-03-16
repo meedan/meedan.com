@@ -36,8 +36,8 @@ $grid-unit-35: $grid-unit * 35;
 // 320px or 20em
 $grid-unit-40: $grid-unit * 40;
 
-// 800px or 25em
-$grid-unit-70: $grid-unit * 50;
+// 400px or 25em
+$grid-unit-50: $grid-unit * 50;
 
 // 560px or 35em
 $grid-unit-70: $grid-unit * 70;
@@ -54,9 +54,6 @@ $grid-unit-100: $grid-unit * 100;
 // 896px or 56em
 $grid-unit-112: $grid-unit * 112;
 
-$breakpoint: $grid-unit-112;
-$nav-breakpoint: $grid-unit * 50;
-
 body {
   margin: 0;
   min-width: 280px;
@@ -72,4 +69,25 @@ section > * {
 // Other stylesheets (and fonts) are loaded conditionally in the html head
 :lang(en) {
   direction: ltr;
+}
+
+$breakpoints: (
+  'xsmall': 320px,
+  'small': 400px,
+  'medium': 730px,
+  'large': 896px
+);
+
+// Responsive mixin helper
+//
+@mixin when-smaller-than($breakpoint) {
+  $value: map-get($breakpoints, $breakpoint);
+
+  @if $value != null {
+    @media (max-width: $value) {
+      @content;
+    }
+  } @else {
+    @warn "Bad`#{$breakpoint}` value";
+  }
 }

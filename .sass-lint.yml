@@ -7,8 +7,7 @@ rules:
   no-url-domains: 0
   no-url-protocols: 0
   placeholder-in-extend: 2
-  mixins-before-declarations:
-    - 2
+  mixins-before-declarations: 0
   no-warn: 1
   no-debug: 1
   no-ids: 2
@@ -17,8 +16,4 @@ rules:
     - 2
     -
       size: 2
-  variable-for-property:
-    - 2
-    -
-      properties:
-        - content
+  variable-for-property: 0

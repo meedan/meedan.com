@@ -9,8 +9,8 @@
   width: 100%;
 
   .explanation {
-    @extend %flex-container;
     align-items: flex-start;
+    display: flex;
     margin-top: 2em;
 
     .header-and-description {
@@ -18,7 +18,7 @@
       width: 50%;
 
       // At smaller sizes
-      @media (max-width: $breakpoint) {
+      @include when-smaller-than(large) {
         width: 90%;
       }
     }
@@ -35,8 +35,7 @@
       vertical-align: top;
       width: 100%;
 
-      // At smaller sizes
-      @media (max-width: $breakpoint) {
+      @include when-smaller-than(large) {
         max-width: 100%;
         padding: 0;
       }
@@ -49,7 +48,7 @@
       max-width: 100%;
     }
 
-    @media (max-width: $breakpoint) {
+    @include when-smaller-than(large) {
       margin-top: 2em;
       max-width: 425px;
       width: 90%;

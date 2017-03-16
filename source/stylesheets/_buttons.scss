@@ -1,44 +1,5 @@
 $button-width: $grid-unit * 45;
 
-// %button {
-//   background-color: $check-blue;
-//   border-radius: 4px;
-//   color: $white;
-//   display: block;
-//   font: $font--body-2;
-//   margin: $grid-unit-4 auto;
-//   min-width: 112px;
-//   padding: $grid-unit-2;
-//   text-decoration: none;
-//   text-transform: uppercase;
-//   transition: background-color .4s, color .4s;
-//   width: $button-width;
-
-//   @media all and (max-width: $button-width) {
-//     width: 90%;
-//   }
-
-//   &:hover {
-//     background-color: darken($check-blue, 10%);
-//     color: $white;
-//     cursor: pointer;
-//     text-decoration: none;
-//     transition: background-color .4s, color .4s;
-//   }
-// }
-
-// %button-small {
-//   background-color: $firefly60;
-//   border-radius: 2px;
-//   color: $white;
-//   display: inline-block;
-//   font: $font--body-2;
-//   margin: 0 $grid-unit-2;
-//   padding: 0 $grid-unit;
-//   text-decoration: none;
-//   text-transform: uppercase;
-// }
-
 %button-flat {
   background: transparent;
   border-bottom: 2px solid $check-blue;

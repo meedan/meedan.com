@@ -24,7 +24,7 @@
   }
 
   // Small logo on small screens
-  @media all and (max-width: $nav-breakpoint) {
+  @include when-smaller-than(small) {
     .meedan-wordmark {
       display: none;
     }
@@ -48,7 +48,7 @@
       line-height: $grid-unit-4;
       padding: $grid-unit-2;
 
-      @media all and (max-width: $nav-breakpoint) {
+      @include when-smaller-than(small) {
         padding: $grid-unit-2 $grid-unit;
       }
 

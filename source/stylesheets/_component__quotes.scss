@@ -1,8 +1,9 @@
 // Component: Quotes
 //
 %component--quotes {
-  @extend %flex-container;
-
+  align-items: center;
+  display: flex;
+  flex-flow: wrap row;
   justify-content: center;
 
   p {
@@ -21,7 +22,7 @@
     vertical-align: top;
     width: 40%;
 
-    @media all and (max-width: $breakpoint) {
+    @include when-smaller-than(large) {
       min-width: 100%;
     }
 

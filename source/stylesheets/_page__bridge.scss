@@ -8,7 +8,7 @@ $breakpoint--explainer: $grid-unit-112;
 .bridge--branding {
   @extend %colors--inverted;
   @extend %component--branding;
-  background: desaturate($bridge-orange, 10%);
+  background: $bridge-orange;
 
   .logo-and-slogan {
     margin: $grid-unit-3 auto;
