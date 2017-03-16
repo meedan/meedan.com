@@ -14,7 +14,6 @@
 @import 'component__contact';
 @import 'component__donate';
 @import 'component__explanations';
-@import 'component__footer';
 @import 'component__logos';
 @import 'component__progress_bar';
 @import 'component__apps';
@@ -33,3 +32,8 @@
 @import 'page__home';
 @import 'page__bridge';
 @import 'page__policy';
+
+// WIP
+[class*="--footer"] {
+  padding-top: $grid-unit-10;
+}

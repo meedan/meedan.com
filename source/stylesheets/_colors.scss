@@ -40,9 +40,9 @@ $media-status-black: $black-54;
 // Gradients
 $check-gradient: linear-gradient($check-blue, $check-blue-20);
 
-// Color scheme: Inverted
+// Color scheme helper: Inverted
 //
-%colors--inverted {
+.colors--inverted {
   background-color: $dark-soft-purple;
   color: $white;
 
@@ -53,10 +53,4 @@ $check-gradient: linear-gradient($check-blue, $check-blue-20);
       color: $white;
     }
   }
-}
-
-// Color scheme: Default
-%colors--default {
-  background-color: $white;
-  color: $black-87;
 }

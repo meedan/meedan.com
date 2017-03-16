@@ -31,13 +31,6 @@
   background-color: $black-05;
 }
 
-// About: Our vision section
-//
-.about--our-vision {
-  @extend %typography--section-dense;
-  @extend %colors--inverted;
-}
-
 // About: Products photo
 //
 .about--products-photo {

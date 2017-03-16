@@ -6,7 +6,6 @@ $breakpoint--explainer: $grid-unit-112;
 //
 // A different style than check and homepage.
 .bridge--branding {
-  @extend %colors--inverted;
   @extend %component--branding;
   background: $bridge-orange;
 
@@ -20,24 +19,15 @@ $breakpoint--explainer: $grid-unit-112;
   }
 }
 
-// Bridge history
-//
-.bridge--history {
-  @extend %colors--inverted;
-  @extend %typography--section-dense;
-}
-
 // Bridge supporters
 //
 .bridge--supporters {
-  @extend %colors--default;
   @extend %component--logos;
 }
 
 // Bridge explanations
 //
 .bridge--explanations {
-  @extend %colors--default;
   @extend %component--explanations;
 
   .screenshot {
@@ -82,11 +72,4 @@ $breakpoint--explainer: $grid-unit-112;
       text-align: left;
     }
   }
-}
-
-// Bridge footer
-//
-.bridge--footer {
-  @extend %colors--inverted;
-  @extend %component--footer;
 }
