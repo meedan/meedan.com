@@ -1,5 +1,5 @@
 <nav class="primary-nav">
-  <!-- Meedan logo -->
+  <%# Meedan Logo %>
   <%= partial "partials/_image.html.erb", :locals => {
       :type => "svg",
       :name => "meedan-logo",
@@ -14,26 +14,24 @@
     }
   %>
 
-  <!-- The page navigation -->
-  <!-- Loop through each page -->
-  <% nav_pages = ["check", "bridge", "about"] %>
+  <%# Pages navigation %>
   <ul class="pages">
-    <% nav_pages.each do |page| %>
+    <% ["check", "bridge", "about"].each do |page| %>
     <li class=<%= page %>>
 
-      <!-- Temporary logic 2015 Oct 29 CGB  -->
-      <!-- Remove this once site is localized ...-->
+      <%# Temporary logic 2015 Oct 29 CGB %>
+      <%#  Remove this once site is localized ...%>
       <%= link_to t("nav.#{page}"), "/en/#{page}" %>
 
-      <!-- ... and instead do  -->
+      <%# ... and instead do: %>
       <%#= link_to t("nav.#{page}"), "/#{t("locale")}/#{page}" %>
     </li>
     <% end %>
   </ul>
 </nav>
 
-<!-- The locale navigation -->
-<!-- This comes before the page list navigation -->
+<%# The locale navigation %>
+<%# This comes before the page list navigation %>
 <% if current_page.data.slug == "check"%>
   <% inactive_languages = langs - [I18n.locale] %>
 

@@ -3,7 +3,7 @@ layout: "default"
 slug: "about"
 ---
 
-<!-- Team  -->
+<%# Team %>
 <section>
   <h3><%= t("home.team.header") %></h3>
   <p><%= t("home.team.text") %></p>
@@ -19,11 +19,11 @@ slug: "about"
 </section>
 
 <section class="about--recent-press">
-  <!-- Recent press -->
+  <%# Recent press %>
   <%= partial "partials/press_blurbs" %>
 </section>
 
-<!--About Promo-bar-->
+<%#About Promo-bar %>
 <div class="about--promo-bar">
   <%= t("about.we_love") %>
   <a href="mailto:hello@meedan.com">
@@ -31,7 +31,7 @@ slug: "about"
   </a>
 </div>
 
-<!-- Our Vision -->
+<%# Our Vision %>
 <section class="about--our-vision colors--inverted">
   <h3><%= t("about.our_vision.header") %></h3>
   <% t("about.our_vision.paragraphs").each do |e| %>
@@ -39,27 +39,27 @@ slug: "about"
   <% end %>
 </section>
 
-<!-- Challenges -->
+<%# Challenges %>
 <%= partial(:section__default, :locals => { :name => "about--challenges" }) %>
 
-<!-- Product photo -->
+<%# Product photo %>
 <div class="about--products-photo"></div>
 
-<!-- Products -->
+<%# Products %>
 <%= partial(:section__default, :locals => { :name => "about--products" }) %>
 
-<!-- Methods -->
+<%# Methods %>
 <%= partial(:section__default, :locals => { :name => "about--methods" }) %>
 
-<!-- Public Engagement Photo -->
+<%# Public Engagement Photo %>
 <div class="about--background-photo">
 </div>
 
-<!-- Public Engagement Text -->
+<%# Public Engagement Text %>
 <%= partial(:section__default, :locals => { :name => "about--public-engage" }) %>
 
-<!-- Homepage Donate -->
+<%# Homepage Donate %>
 <%= partial "partials/donate" %>
 
-<!-- Contact -->
+<%# Contact %>
 <%= partial "partials/contact" %>

@@ -25,14 +25,14 @@ ogp:
     description: "Bridge enables rapid translation of social media and the addition of important cultural, social and political notes to facilitate understanding."
 ---
 
-<!-- Bridge branding Section -->
+<%# Bridge branding Section %>
 <section class="bridge--branding">
   <img class="screenshot" alt="Bridge screenshot"
   src="/images/screenshots/bridge--branding-<%= I18n.locale %>@1x.png"
   srcset="/images/screenshots/bridge--branding-<%= I18n.locale %>@2x.png 2x">
 
-  <!-- Todo: there are inconsistencies with the check header,
-  this should use the image partial — CGB Dec 4 2016 -->
+  <%# Todo: there are inconsistencies with the check header,
+  this should use the image partial — CGB Dec 4 2016 %>
   <div class="logo-and-slogan">
     <svg class="logo" width="300" height="78"><use xlink:href="#bridge-white" /></svg>
     <p class="slogan"><%= t('bridge.branding.slogan')%></p>
@@ -42,10 +42,10 @@ ogp:
   </div>
 </section>
 
-<!-- Sign up section -->
+<%# Sign up section %>
 <%= partial "partials/bridge_call_to_action" %>
 
-<!-- Explanations -->
+<%# Explanations %>
 <%#= Store the localized explanations (in locales dir) as an array %>
 <% explanations = t("bridge.explanations") %>
 
@@ -72,7 +72,7 @@ ogp:
   <% end %>
 </section>
 
-<!-- History-->
+<%# History%>
 <section class="bridge--history typography--dense colors--inverted">
 <h3><%= t("bridge.history.header") %></h3>
   <% t("bridge.history.paragraphs").each do |e| %>
@@ -80,7 +80,7 @@ ogp:
   <% end %>
 </section>
 
-<!-- Logos -->
+<%# Logos %>
  <section class="bridge--logos">
   <h3><%= t("bridge.supporters.header")%></h3>
   <p><%= t("bridge.supporters.tagline")%></p>
@@ -99,10 +99,10 @@ ogp:
   <p><%= t("bridge.supporters.partner_paragraph")%></p>
 </section>
 
-<!-- Sign up section -->
+<%# Sign up section %>
 <%= partial "partials/bridge_call_to_action" %>
 
-<!-- Footer -->
+<%# Footer %>
 <div class="bridge--footer colors--inverted">
   <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
   <p><a href="/en/bridge/bridge_privacy.html"><%= t("bridge.footer.privacy") %></a> | <a href="/en/bridge/bridge_tos.html"><%= t("bridge.footer.tos") %></a></p>
