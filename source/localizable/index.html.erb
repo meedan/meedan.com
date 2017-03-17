@@ -3,7 +3,7 @@ layout: "default"
 slug: "home"
 ---
 
-<!-- Homepage Branding -->
+<%# Homepage Branding %>
 <section class="home--branding">
 
   <%= partial "partials/image.html.erb", :locals => {
@@ -16,12 +16,12 @@ slug: "home"
   <p class="about"><%= t("home.branding.about") %></p>
 </section>
 
-<!-- Homepage apps -->
+<%# Homepage apps %>
 <section class="home--apps">
   <h3><%= t("home.apps.title") %></h3>
 
   <div class="apps">
-    <!-- Check app -->
+    <%# Check app %>
     <div class="app app--check">
       <%= partial "partials/image.html.erb", :locals => {
           :url => "/" + I18n.locale.to_s + "/check",
@@ -43,7 +43,7 @@ slug: "home"
       </p>
     </div>
 
-    <!-- Bridge app -->
+    <%# Bridge app %>
     <div class="app app--bridge">
       <%= partial "partials/image.html.erb", :locals => {
           :url => "/" + I18n.locale.to_s + "/bridge",
@@ -63,13 +63,13 @@ slug: "home"
   </div>
 </section>
 
-<!-- Recent press -->
+<%# Recent press %>
 <section class="home--recent-press" name="recent-press">
   <h3><%= t("about.recent_press.header") %></h3>
   <%= partial "partials/press_blurbs" %>
 </section>
 
-<!-- Homepage Latest -->
+<%# Homepage Latest %>
 <script async src="https://static.medium.com/embed.js"></script>
 <section class="home--latest">
   <h3><%= t("home.latest.header") %></h3>
@@ -85,7 +85,7 @@ slug: "home"
   </div>
 </section>
 
-<!-- Homepage Supporters -->
+<%# Homepage Supporters %>
 <section class="home--logos">
   <h3><%= t("home.supporters.header") %></h3>
   <p><%= t("home.supporters.text") %></p>
@@ -102,13 +102,13 @@ slug: "home"
   </ul>
 </section>
 
-<!-- Homepage Donate -->
+<%# Homepage Donate %>
 <%= partial "partials/donate" %>
 
-<!-- Homepage Photo Frame -->
+<%# Homepage Photo Frame %>
 <div class="home--background-photo">
   <p><%= t("home.photo_frame") %></p>
 </div>
 
-<!-- Homepage Contact -->
+<%# Homepage Contact %>
 <%= partial "partials/contact" %>
