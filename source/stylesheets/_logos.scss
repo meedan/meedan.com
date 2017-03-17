@@ -1,11 +1,3 @@
-// Layout: Logos
-//
-// Similar to the team layout.
-//
-$logo-small-width: $grid-unit-18;
-$logo-large-width: $grid-unit-30;
-
-
 // Prevent the last logo from being on it's own on a line
 // WARN: This uses magic numbers and must be reviewed after the logos change CGB 2017-1-24
 //
@@ -31,8 +23,10 @@ $logo-large-width: $grid-unit-30;
 
 // Logo Layout
 //
-// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed. Appears on several pages.
-%component--logos {
+// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
+//
+//
+[class$='--logos'] {
   @extend %ensure-no-widows;
 
   .logos {
@@ -65,7 +59,7 @@ $logo-large-width: $grid-unit-30;
     }
 
     // Very oblong
-    .kf,
+    .kf svg,
     .ff,
     .bcu,
     .bc {

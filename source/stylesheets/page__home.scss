@@ -1,53 +1,44 @@
+@import 'layout';
+@import 'colors';
+@import 'typography';
+@import 'buttons';
+@import 'recent_press';
+@import 'nav';
+@import 'apps';
+@import 'logos';
+@import 'branding';
+@import 'background_photo';
+@import 'donate';
+@import 'contact';
+
 // Meedan.com home page
 //
 .home {
   background-color: $white;
 }
 
-// Component: Apps
-//
-.home--apps {
-  @extend %component--apps;
-}
-
-// Component: recent press
-//
-.home--recent-press {
-  @extend %component--recent-press;
-}
-
-// Component: (supporter) logos
-//
-.home--supporters {
-  @extend %component--logos;
-}
-
-// Component: branding + special logo
-//
 .home--branding {
-  @extend %component--branding;
-
   padding-top: $grid-unit-12;
-
-  .meedan-logo-text {
-    svg {
-      animation: fadeIn .8s;
-      display: block;
-      height: $grid-unit-24;
-      margin: $grid-unit-2 auto;
-      margin-bottom: $grid-unit-2;
-      width: 300px;
-
-      @media all and (max-width: 400px) {
-        width: 90%;
-      }
-    }
-  }
 
   .slogan {
     color: $black-87;
     font: $font--headline;
     padding: $grid-unit-4 0;
+  }
+}
+
+.meedan-logo-text {
+  svg {
+    animation: fadeIn .8s;
+    display: block;
+    height: $grid-unit-24;
+    margin: $grid-unit-2 auto;
+    margin-bottom: $grid-unit-2;
+    width: 300px;
+
+    @media all and (max-width: 400px) {
+      width: 90%;
+    }
   }
 }
 

@@ -1,6 +1,6 @@
 $button-width: $grid-unit * 45;
 
-%button-flat {
+.button {
   background: transparent;
   border-bottom: 2px solid $check-blue;
   color: $check-blue;
@@ -17,12 +17,4 @@ $button-width: $grid-unit * 45;
       background-color: $black-16;
     }
   }
-}
-
-.button {
-  @extend %button-flat;
-}
-
-.button-flat {
-  @extend %button-flat;
 }

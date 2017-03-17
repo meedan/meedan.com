@@ -4,7 +4,7 @@
 
 $width--team-member: 160px;
 
-%component--team {
+[class$='--team'] {
   align-items: center;
   display: flex;
   flex-flow: wrap row;

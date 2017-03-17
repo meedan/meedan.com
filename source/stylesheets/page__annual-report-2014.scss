@@ -2,11 +2,12 @@
 @import 'layout';
 @import 'colors';
 @import 'typography';
-@import 'flex';
 @import 'keyframes';
 @import 'buttons';
 @import 'forms';
-
+@import 'nav';
+@import 'contact';
+@import 'donate';
 
 .annual-report-2014,
 .annual-report-2015 {
@@ -98,7 +99,7 @@
     margin: 1em auto;
     width: 90%;
 
-    @media all and (min-width:800px) {
+    @media all and (min-width: 800px) {
       display: flex;
 
       p {
@@ -111,7 +112,7 @@
         width: 33.33333%;
 
         h3 {
-          border-bottom: 4px double $firefly40;
+          border-bottom: 4px double $black-54;
           font-family: 'Roboto Slab', serif;
           font-size: 14px;
           min-height: 180px;
@@ -160,13 +161,13 @@
       }
 
       span {
-        background-color: $firefly80;
+        background-color: $black-87;
         border-radius: 2px;
         color: $white;
         font-size: 12px;
         font-weight: bold;
         padding: 2px 6px;
-        text-shadow: 1px 1px $black-100-20;
+        text-shadow: 1px 1px $black-16;
         text-transform: uppercase;
       }
 
@@ -174,7 +175,7 @@
         font-style: normal;
       }
 
-      @media all and (max-width: $breakpoint) {
+      @include when-smaller-than(large) {
         list-style-position: inside;
         list-style-type: disc;
         padding: $grid-unit-2;
@@ -197,7 +198,7 @@
   //
   .caption {
     // padding-top: 1em;
-    color: $firefly60;
+    color: $black-54;
     font-size: $grid-unit-2;
     padding: $grid-unit-2 $grid-unit;
   }
@@ -229,27 +230,20 @@
     }
   }
 
-  .hello {
-    @extend %button;
-    background-color: $firefly40;
-    border-bottom-width: 0;
-    width: 275px;
-  }
-
   // Financial data
   //
   .financials table {
-    border: 1px solid $firefly20;
+    color: $black-54;
     margin: 0 auto;
     width: 80%;
 
     td {
-      border-bottom: 1px solid $firefly20;
+      border-bottom: 1px solid $black-16;
       padding: 1em;
       text-align: left;
 
       & + td {
-        border-left: 1px solid $firefly20;
+        border-left: 1px solid $black-16;
       }
 
       h3 {
