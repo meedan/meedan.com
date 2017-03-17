@@ -13,28 +13,11 @@ handleErrors = function () {
   this.emit('end');
 };
 
-// SVG files get special handling
-gulp.task('bundle-svg', function () {
-  gulp.src('source/images/vector/*.svg')
-    .pipe(svgmin({
-      plugins: [{
-        removeDoctype: true
-      }, {
-        removeComments: true
-      }]
-    }))
-    .pipe(svgstore({
-      inlineSvg: true
-    }))
-    .pipe(gulp.dest('source/images/'))
-});
-
-
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
 gulp.task('imagemin', function () {
-  return gulp.src(['source/images/**/*', '!source/images/vector.svg'])
+  return gulp.src(['source/images/**/*'])
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{

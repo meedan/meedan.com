@@ -9,34 +9,6 @@
 @import 'logos';
 @import 'footer';
 
-// Bridge branding section
-.bridge--branding {
-  background: $bridge-orange;
-
-  .logo-and-slogan {
-    margin: $grid-unit-3 auto;
-  }
-
-  .appstore {
-    margin: 0 auto;
-    padding: 0;
-  }
-}
-
-// Bridge explanations
-//
-.bridge--explanations {
-  .screenshot {
-    max-width: 300px;
-  }
-}
-
-.bridge--appstore-footer {
-  background-color: $black-05;
-  padding-bottom: 0;
-  padding-top: $grid-unit-2;
-}
-
 // Bridge call to action
 //
 .bridge--call-to-action {

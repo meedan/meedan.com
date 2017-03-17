@@ -25,19 +25,22 @@
   }
 
   .contact--social-media {
-    columns: 100% 4;
     display: flex;
+    vertical-align: center;
 
     li {
       width: 25%;
     }
 
     a {
+      align-items: center;
       border-bottom: 0;
-      display: block;
+      display: flex;
+      height: 90px;
+      justify-content: center;
       text-decoration: 0;
 
-      svg {
+      img {
         max-width: $grid-unit-8;
         width: 100%;
       }

@@ -1,0 +1,7 @@
+<%# This template assumes a standard format in en.yml — name must be like "about--methods" %>
+<section class='<%= name %>'>
+  <%# convert css dash-case to underscores %>
+  <h3><%= t("#{name.split("--").join(".").gsub("-","_")}.header") %></h3>
+  <h4><%= t("#{name.split("--").join(".").gsub("-","_")}.text") %></h4>
+  <p><%= t("#{name.split("--").join(".").gsub("-","_")}.text_2") %></p>
+</section>
