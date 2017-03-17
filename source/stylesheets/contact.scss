@@ -1,6 +1,6 @@
 /// Contact section
 ///
-%component--contact {
+.contact {
 
   li {
     display: inline-block;
@@ -43,9 +43,4 @@
       }
     }
   }
-}
-
-// Contact section helper
-.contact {
-  @extend %component--contact;
 }

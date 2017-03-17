@@ -1,7 +1,7 @@
 // Component: background-photo
-@mixin component--background-photo($image: '../images/banners/banner-2@1x.jpg') {
+[class$='--background-photo'] {
   background-color: $black-87;
-  background-image: url($image);
+  background-image: url('/images/banners/banner-2@1x.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

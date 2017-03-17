@@ -78,16 +78,18 @@ $breakpoints: (
   'large': 896px
 );
 
-// Responsive mixin helper
+// Responsive mixin helpers
 //
 @mixin when-smaller-than($breakpoint) {
   $value: map-get($breakpoints, $breakpoint);
+  @media (max-width: $value) {
+    @content;
+  }
+}
 
-  @if $value != null {
-    @media (max-width: $value) {
-      @content;
-    }
-  } @else {
-    @warn "Bad`#{$breakpoint}` value";
+@mixin when-larger-than($breakpoint) {
+  $value: map-get($breakpoints, $breakpoint);
+  @media (min-width: $value) {
+    @content;
   }
 }

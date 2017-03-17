@@ -4,10 +4,10 @@ slug: "about"
 ---
 
 <!-- Team  -->
-<section class="about--team">
+<section>
   <h3><%= t("home.team.header") %></h3>
   <p><%= t("home.team.text") %></p>
-  <ul>
+  <ul class="about--team">
     <% data.team_members.each do |member| %>
     <li>
       <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
@@ -52,7 +52,7 @@ slug: "about"
 <%= partial(:section__default, :locals => { :name => "about--methods" }) %>
 
 <!-- Public Engagement Photo -->
-<div class="about--public-engage-photo">
+<div class="about--background-photo">
 </div>
 
 <!-- Public Engagement Text -->

@@ -4,7 +4,7 @@ $form--button-width: 30%;
 
 // Default form colors
 //
-%colors--form-default {
+form {
 
   // Email input
   input[type='email'] {
@@ -48,7 +48,7 @@ $form--button-width: 30%;
 
 // Inverted form colors
 //
-%colors--form-inverted {
+[class$='--form-inverted'] {
 
   // All labels
   label {
@@ -101,7 +101,6 @@ form {
 //
 .form-group {
   @extend %form--fancy-label;
-  @extend %colors--form-default;
   display: flex;
   margin: auto;
   max-width: $form--max-width;
@@ -122,7 +121,7 @@ form {
     }
 
     &[type='submit'] {
-      @extend %button-flat;
+      @extend .button;
 
       border-radius: 4px;
       border-width: 0;

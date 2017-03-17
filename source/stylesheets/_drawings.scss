@@ -1,0 +1,165 @@
+.drawing-1 {
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  min-height: 360px;
+  position: absolute;
+  right: 0;
+
+  h5 {
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  // Each card
+  & > div {
+    box-shadow: $black-38 -10px 10px 0 0;
+    height: 300px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    position: absolute;
+    width: 80%;
+
+    &.true {
+      background-color: $media-status-green;
+      left: 15%;
+      right: 5%;
+      top: 130px;
+
+      .icon {
+
+        &.twitter {
+          path {
+            fill: $media-status-green;
+          }
+        }
+
+        &.fb {
+          display: none;
+        }
+      }
+    }
+
+    &.false {
+      background-color: $media-status-red;
+      left: 0;
+      right: 16%;
+      top: 80px;
+
+      .icon {
+
+        &.twitter {
+          display: none;
+        }
+
+        &.fb {
+          path {
+            fill: $media-status-red;
+          }
+        }
+      }
+    }
+
+    &.in-progress {
+      background-color: $media-status-orange;
+      left: 10%;
+      right: 10%;
+      top: 0;
+
+      .icon {
+
+        &.twitter {
+          display: none;
+        }
+
+        &.fb {
+          path {
+            fill: $media-status-orange;
+          }
+        }
+      }
+    }
+
+    span {
+      border-radius: 6px;
+      display: block;
+    }
+
+    .body,
+    .text-row {
+      background-color: $white-50;
+      margin-bottom: 10px;
+    }
+
+    .body {
+      min-height: 150px;
+      width: 100%;
+    }
+
+    .header {
+      height: 10px;
+    }
+
+    .byline {
+      display: flex;
+      margin-top: 10px;
+      padding: 10px;
+
+      .avatar {
+        align-items: center;
+        border-radius: 50px;
+        display: flex;
+        height: 35px;
+        justify-content: center;
+        margin-right: 10px;
+        width: 35px;
+      }
+
+      .icon {
+        height: 30px;
+        width: 30px;
+      }
+
+      .username-and-source {
+        width: 100px;
+
+        .username {
+          background-color: $white-50;
+          height: 10px;
+          margin: 0 10px 10px;
+        }
+
+        .source {
+          background-color: $white-50;
+          height: 10px;
+          margin: 0 10px 10px;
+          width: 80%;
+        }
+      }
+    }
+
+    .text {
+      width: 80%;
+
+      @media all and (max-width: 700px) {
+        width: 60%;
+      }
+
+      .text-row {
+        height: 10px;
+        margin: 10px 60px;
+        width: 100%;
+
+        &:last-of-type {
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 730px) {
+    width: 70%;
+  }
+}

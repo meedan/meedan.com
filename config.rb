@@ -21,7 +21,8 @@ activate :i18n, :mount_at_root => "en"
 #
 activate :ogp do |ogp|
   ogp.namespaces = {
-    og: data.ogp.og
+    og: data.ogp.og,
+    og: data.ogp.twitter
   }
   ogp.base_url = 'http://meedan.com/'
 end

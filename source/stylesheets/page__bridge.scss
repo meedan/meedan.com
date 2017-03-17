@@ -1,12 +1,16 @@
-// Page: Bridge
-//
-$breakpoint--explainer: $grid-unit-112;
+@import 'layout';
+@import 'colors';
+@import 'typography';
+@import 'buttons';
+@import 'nav';
+@import 'forms';
+@import 'branding';
+@import 'explanations';
+@import 'logos';
+@import 'footer';
 
 // Bridge branding section
-//
-// A different style than check and homepage.
 .bridge--branding {
-  @extend %component--branding;
   background: $bridge-orange;
 
   .logo-and-slogan {
@@ -19,17 +23,9 @@ $breakpoint--explainer: $grid-unit-112;
   }
 }
 
-// Bridge supporters
-//
-.bridge--supporters {
-  @extend %component--logos;
-}
-
 // Bridge explanations
 //
 .bridge--explanations {
-  @extend %component--explanations;
-
   .screenshot {
     max-width: 300px;
   }
@@ -44,7 +40,6 @@ $breakpoint--explainer: $grid-unit-112;
 // Bridge call to action
 //
 .bridge--call-to-action {
-  @extend %colors--form-default;
   background-color: $black-05;
   padding-bottom: 0;
 

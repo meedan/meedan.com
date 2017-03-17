@@ -3,7 +3,7 @@
 /// These are screenshots with with paragraphs of text.
 /// The amount of text is usually just one paragraph.
 /// There is a header for each screenshot and paragraph.
-%component--explanations {
+[class$='--explanations'] {
   margin: 0 auto;
   max-width: 800px;
   width: 100%;
