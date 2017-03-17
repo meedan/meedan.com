@@ -1,20 +1,46 @@
-<%# (linked) image helper — handles jpg, png and svg. The link is optional.
+<%# (linked) image helper for jpg, png and svg.
 
 USAGE:
 
 partial "partials/_image.html.erb", :locals => {
-        :type => "svg",
-        :name => "awards",
-        :url  => "false" }
+          :type => "svg",
+          :path => "vectors",  # defaults to `/images/logos/`
+          :name => "cool-image",
+          :url => "foobar.com",  # optional
+          :locale => "ar"
+        }
 %>
 
-<% if url %>
-  <a class="<%= name %>" href="<%= url %>">
+<%# Make a cleaner alt tag %>
+<% alt = name.gsub("-", " ") %>
+
+<%# If there's a link, define anchor tags %>
+<% if defined?(url) %>
+  <% start_tag = "<a class='#{name}' href='#{url}'>" %>
+  <% end_tag = "</a>" %>
 <% end %>
-<% if type == "svg" %>
-  <img class="<%= name %>" src="/images/logos/<%= name %>.svg" alt="<%= name %>">
-<% elsif type == "png" || type == "jpg" %>
-  <img class="<%= name %>" src="/images/logos/<%= name %>@1x.<%= type %>" alt="<%= name %>" srcset="/images/logos/<%= name %>@2x.<%= type %> 2x">
-<% if url %>
-  </a>
+
+<%# Define a path. Default to `logos` %>
+<% if defined?(path) %>
+  <% full_path = "/images/#{path}" %>
+<% else %>
+  <% full_path = "/images/logos" %>
 <% end %>
+
+<%# Format the locale %>
+<% if defined?(locale)
+    image_basename = name + "-" + locale
+  else
+    image_basename = name
+  end %>
+
+<%= start_tag %>
+  <% if type == "svg" %>
+    <img width="100" class="<%= name %>" <%= "src='#{full_path}/#{image_basename}.#{type}'" %> alt="<%= alt %>">
+  <% else %>
+    <img class="<%= name %>"
+      alt="<%= alt %>"
+      <%= "src='#{full_path}/#{image_basename}@1x.#{type}'" %>
+      <%= "srcset='#{full_path}/#{image_basename}@2x.#{type} 2x'" %> >
+  <% end %>
+<%= end_tag %>

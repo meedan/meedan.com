@@ -10,7 +10,7 @@
   // At smaller sizes, the images are fluid
   @include when-smaller-than(medium) {
     .app,
-    svg {
+    img {
       max-width: 100%;
       width: 100%;
     }
@@ -51,7 +51,7 @@
     &--check {
 
       // Refinements to account for different logo sizes
-      svg {
+      img {
         margin-bottom: 9px;
         margin-top: 6px;
       }
@@ -65,7 +65,7 @@
 
     // Only on the bridge side
     &--bridge {
-      svg {
+      img {
         padding-top: $grid-unit-2;
         width: $grid-unit-35;
       }
@@ -83,7 +83,7 @@
       }
     }
 
-    svg {
+    img {
       height: $grid-unit-24;
       width: 260px;
     }

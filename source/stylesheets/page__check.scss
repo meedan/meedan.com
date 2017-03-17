@@ -33,7 +33,7 @@
     display: block;
     margin-top: 10px;
 
-    svg {
+    img {
       width: 250px;
     }
   }
@@ -54,7 +54,7 @@
     display: inline;
     text-decoration: none;
 
-    svg {
+    img {
       height: $grid-unit-4;
       vertical-align: top;
       width: $grid-unit-4;
@@ -86,7 +86,7 @@
     padding-top: 0;
   }
 
-  svg {
+  img {
     width: $grid-unit-18;
   }
 }

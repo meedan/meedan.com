@@ -25,7 +25,7 @@ ogp:
     description: "Verify digital media consistently and openly for your team and your readers."
 ---
 
-<!-- Branding -->
+<%# Branding %>
 <section class="check--branding">
 
   <%= partial "partials/_image.html.erb", :locals => {
@@ -62,7 +62,7 @@ ogp:
   </h3>
 </section>
 
-<!-- Explanations 1, 2, 3 -->
+<%# Explanations 1, 2, 3 %>
 <section class="check--explanations">
   <% explanations = t("check.explanations") %>
   <% for i in 0...explanations.length %>
@@ -73,9 +73,10 @@ ogp:
       </div>
 
       <div class="screenshot">
-        <%= partial "partials/_image_srcset_localized.html.erb", :locals => {
+        <%= partial "partials/image.html.erb", :locals => {
           :type   => "jpg",
-          :image  => "screenshots/check--explanation-#{i+1}",
+          :path   => "screenshots",
+          :name  => "check--explanation-#{i+1}",
           :locale => I18n.locale.to_s,
           :alt    => explanations[i][:alt],
           :classname  => "screenshot"
@@ -85,7 +86,7 @@ ogp:
   <% end %>
 </section>
 
-<!-- Request an invite -->
+<%# Request an invite %>
 <section class="check--request-access">
   <h3><%= t("check.request.header") %></h3>
   <% t("check.request.paragraphs").each do |e| %>
@@ -93,7 +94,7 @@ ogp:
   <% end %>
 </section>
 
-<!-- Newsletter -->
+<%# Newsletter %>
 <section class="check--newsletter">
   <h3><%= t("check.newsletter.header") %></h3>
   <p><%= t("check.newsletter.summary") %></p>
@@ -114,18 +115,17 @@ ogp:
   </form>
 </section>
 
-<!-- Awards -->
+<%# Awards %>
 <section class="check--awards">
     <%= partial "partials/_image.html.erb", :locals => {
         :type => "svg",
-        :name => "awards",
-        :url  => false } %>
+        :name => "awards" } %>
 
     <h3><%= t("check.awards.header") %></h3>
     <p><%= t("check.awards.summary") %></p>
 </section>
 
-<!-- Quotes -->
+<%# Quotes %>
 <section class="check--quotes">
   <% t("check.testimonials.quotes").each do |t| %>
       <div class="quote" lang="en">
@@ -147,7 +147,7 @@ ogp:
   <% end %>
 </section>
 
-<!-- History -->
+<%# History %>
 <section class="typography--dense colors--inverted">
   <h3><%= t("check.history.header") %></h3>
   <% t("check.history.paragraphs").each do |p| %>
@@ -155,7 +155,7 @@ ogp:
   <% end %>
 </section>
 
-<!-- Partners -->
+<%# Partners %>
 <section class="check--logos">
   <h3><%= t("check.partners.header") %></h3>
   <p><%= t("check.partners.text") %></p>
@@ -171,13 +171,13 @@ ogp:
   </ul>
 </section>
 
-<!-- Github -->
+<%# Github %>
 <section class="colors--inverted">
   <h3><%= t("check.github.header") %></h3>
   <p><%= t("check.github.text") %></p>
 </section>
 
-<!-- Footer -->
+<%# Footer %>
 <div class="colors--inverted">
   <p><%= t("check.footer") %></p>
 </div>
