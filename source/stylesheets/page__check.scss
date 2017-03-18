@@ -44,6 +44,9 @@
   .screenshot {
     margin: 0 auto;
     max-width: 700px;
+    img {
+      width: 100%;
+    }
   }
 
   @include when-smaller-than(medium) {

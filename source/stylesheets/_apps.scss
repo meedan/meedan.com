@@ -5,14 +5,8 @@
     align-items: stretch;
     display: flex;
     justify-content: center;
-  }
-
-  // At smaller sizes, the images are fluid
-  @include when-smaller-than(medium) {
-    .app,
-    img {
-      max-width: 100%;
-      width: 100%;
+    @include when-smaller-than(large) {
+      flex-flow: column nowrap;
     }
   }
 
@@ -20,9 +14,12 @@
     background: $dark-purple;
     border-radius: $grid-unit;
     color: $white-70;
-    margin: $grid-unit-2;
+    margin: $grid-unit-2 $grid-unit;
     padding: $grid-unit-4;
-    width: 38%;
+    max-width: 90%;
+    @include when-smaller-than(large) {
+      margin: $grid-unit auto;
+    }
 
     p {
       font: $font--body-2;
@@ -67,7 +64,6 @@
     &--bridge {
       img {
         padding-top: $grid-unit-2;
-        width: $grid-unit-35;
       }
     }
 
