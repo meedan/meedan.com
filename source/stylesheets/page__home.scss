@@ -63,31 +63,29 @@
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    position: relative;
   }
 
   .medium-channel {
-    height: $grid-unit-80;
     margin: $grid-unit-2;
-    overflow: hidden;
 
-    // Crop them to the same height,
-    // with a bottom shadow to hide the cut off text
-    // sass-lint:disable no-color-literals
-    &::after {
-      background-image: linear-gradient(rgba($black, 0), rgba($black, .5), rgba($black, .7), $black);
-      bottom: 10px;
-      content: '';
-      display: block;
-      height: 100px;
-      position: absolute;
-      width: 500px;
-      z-index: 100;
-    }
+    @include when-larger-than(medium) {
+      // Crop them to the same height
+      height: $grid-unit-80;
+      overflow: hidden;
+      position: relative;
 
-    // On mobile, no need to equalize the heights.
-    @include when-smaller-than(large) {
-      height: auto;
+      // with a bottom shadow to hide the cut off text
+      // sass-lint:disable no-color-literals
+      &::after {
+        background-image: linear-gradient(rgba($black, 0), rgba($black, .5), rgba($black, .7), $black);
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 100px;
+        position: absolute;
+        width: 500px;
+        z-index: 100;
+      }
     }
   }
 }

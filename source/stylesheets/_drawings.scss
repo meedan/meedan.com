@@ -2,9 +2,10 @@
   bottom: 0;
   left: 0;
   margin: 0 auto;
-  min-height: 360px;
+  height: 360px;
   position: absolute;
   right: 0;
+  overflow: hidden;
 
   h5 {
     margin: 0;
@@ -20,7 +21,10 @@
     max-width: 500px;
     padding: 20px;
     position: absolute;
-    width: 80%;
+    // width: 80%;
+    @include when-smaller-than(medium) {
+      max-width: 90%;
+    }
 
     &.true {
       background-color: $media-status-green;
@@ -94,6 +98,7 @@
     }
 
     .body {
+      padding-top: 2px;
       min-height: 150px;
       width: 100%;
     }
@@ -123,7 +128,8 @@
       }
 
       .username-and-source {
-        width: 100px;
+        max-width: 100px;
+        width: 60%;
 
         .username {
           background-color: $white-50;
