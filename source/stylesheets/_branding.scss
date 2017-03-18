@@ -4,7 +4,7 @@
 /// The branding section has a large .logo image and the h1.
 /// At smaller sizes the logo has a percent-based width.
 [class$='--branding'] {
-  padding: $grid-unit-6 $grid-unit-2 $grid-unit-4;
+  padding: $grid-unit-6 0 $grid-unit-4;
   width: 100%;
 
   > img {
