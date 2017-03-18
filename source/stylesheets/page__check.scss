@@ -9,35 +9,11 @@
 @import 'contact';
 @import 'recent_press';
 @import 'apps';
+@import 'forms';
 @import 'logos';
 @import 'branding';
 @import 'drawings';
-
-// check page
-//
-.check--branding {
-  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
-  background-position: 50%;
-  background-repeat: repeat-x;
-  background-size: cover;
-  color: $white;
-  height: 590px;
-  padding-bottom: 0;
-  position: relative;
-
-  .slogan {
-    padding: 0;
-  }
-
-  a.check-white {
-    display: block;
-    margin-top: 10px;
-
-    img {
-      width: 250px;
-    }
-  }
-}
+@import 'quotes';
 
 // Check electionland blurb
 [class$='--electionland'] {
