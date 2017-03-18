@@ -7,7 +7,6 @@
   padding: $grid-unit-6 $grid-unit-2 $grid-unit-4;
   width: 100%;
 
-  // The main image in a "branding" section
   > img {
     animation: fadeIn 1.2s;
     display: block;
@@ -26,7 +25,6 @@
     }
   }
 
-  // The phrase under the logos
   .slogan {
     color: $white-70;
     font: $font--headline;
@@ -42,5 +40,32 @@
   .appstore {
     margin: 0 auto;
     padding: 0;
+  }
+}
+
+
+// Check branding section
+//
+.check--branding {
+  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
+  background-position: 50%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: $white;
+  height: 590px;
+  padding-bottom: 0;
+  position: relative;
+
+  .slogan {
+    padding: 0;
+  }
+
+  a.check-white {
+    display: block;
+    margin-top: 10px;
+
+    img {
+      width: 250px;
+    }
   }
 }
