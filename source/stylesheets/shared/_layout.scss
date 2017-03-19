@@ -1,0 +1,22 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 280px;
+  overflow-x: hidden;
+}
+
+section > * {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+// English default
+// Other stylesheets (and fonts) are loaded conditionally in the html head
+:lang(en) {
+  direction: ltr;
+}

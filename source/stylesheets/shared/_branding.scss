@@ -1,0 +1,98 @@
+// Check and Homepage Branding
+//
+// The branding section has a large .logo image and the h1.
+// At smaller sizes the logo has a percent-based width.
+[class$='--branding'] {
+  padding: $grid-unit-6 0 $grid-unit-4;
+  width: 100%;
+
+  > img {
+    animation: fadeIn 1.2s;
+    display: block;
+    margin: 0 auto;
+    max-width: 525px;
+    width: 100%;
+  }
+
+  .logo-and-slogan {
+    margin: $grid-unit-3 auto;
+
+    a {
+      > img {
+        width: 300px;
+      }
+    }
+  }
+
+  .slogan {
+    color: $white-70;
+    font: $font--headline;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+// Home page branding
+.home--branding {
+  padding-top: $grid-unit-12;
+
+  .slogan {
+    color: $black-87;
+    font: $font--headline;
+    padding: $grid-unit-4 0;
+  }
+}
+
+.meedan-logo-text {
+  img {
+    animation: fadeIn .8s;
+    display: block;
+    height: $grid-unit-24;
+    margin: $grid-unit-2 auto;
+    margin-bottom: $grid-unit-2;
+    width: 300px;
+
+    @media all and (max-width: 400px) {
+      width: 90%;
+    }
+  }
+}
+
+// Bridge branding section
+.bridge--branding {
+  background: $bridge-orange;
+
+  .app-store {
+    margin: 0 auto;
+
+    > img {
+      width: 154px;
+    }
+  }
+}
+
+// Check branding section
+//
+.check--branding {
+  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
+  background-position: 50%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: $white;
+  height: 590px;
+  padding-bottom: 0;
+  position: relative;
+
+  .slogan {
+    padding: 0;
+  }
+
+  > .check-white {
+    display: block;
+    margin-top: 10px;
+
+    > img {
+      width: 250px;
+    }
+  }
+}

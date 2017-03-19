@@ -1,3 +1,6 @@
+# The first two are twitter only. I can't get the ogp twitter namespace to work properly, but I think twitter will fall back to use the 'og' namespace if it can't find the 'twitter' namespace. Needs more testing using the twitter and FB card testing tools. Note that these default values are overidden in the yaml frontmatter of each page template.  2017-3-19 CGB
+site: "@meedan"
+card: "summary"
 title: "Meedan"
 url: "http://meedan.com"
 type: "business.business"

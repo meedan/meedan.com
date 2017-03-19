@@ -4,7 +4,7 @@
 // • For now we have a fixed height (ew) because medium doesn't give us a lot of control.
 // • TODO: migrate this to a custom RSS feed that gives us more control over the design.
 //
-.home--medium-channels {
+[class$='--medium-channels'] {
   background-color: $black-02;
   padding-bottom: $grid-unit-2;
 

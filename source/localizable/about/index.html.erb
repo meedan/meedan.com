@@ -18,12 +18,12 @@ slug: "about"
   </ul>
 </section>
 
+<%# Recent press %>
 <section class="about--recent-press">
-  <%# Recent press %>
   <%= partial "partials/press_blurbs" %>
 </section>
 
-<%#About Promo-bar %>
+<%# About Promo-bar %>
 <div class="about--promo-bar">
   <%= t("about.we_love") %>
   <a href="mailto:hello@meedan.com">
@@ -52,8 +52,7 @@ slug: "about"
 <%= partial(:section__default, :locals => { :name => "about--methods" }) %>
 
 <%# Public Engagement Photo %>
-<div class="about--background-photo">
-</div>
+<div class="about--background-photo"> </div>
 
 <%# Public Engagement Text %>
 <%= partial(:section__default, :locals => { :name => "about--public-engage" }) %>
