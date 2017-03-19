@@ -1,0 +1,13 @@
+// check awards
+[class$='--awards'] {
+  background-color: $black-02;
+  padding-top: $grid-unit-8;
+
+  h3 {
+    padding-top: 0;
+  }
+
+  img {
+    width: $grid-unit-18;
+  }
+}

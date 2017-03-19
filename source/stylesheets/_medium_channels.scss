@@ -1,0 +1,41 @@
+// Component: Homepage medium channels
+//
+// This is the medium channels.
+// • For now we have a fixed height (ew) because medium doesn't give us a lot of control.
+// • TODO: migrate this to a custom RSS feed that gives us more control over the design.
+//
+.home--medium-channels {
+  background-color: $black-02;
+  padding-bottom: $grid-unit-2;
+
+  .medium-channels {
+    align-items: center;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+
+  .medium-channel {
+    margin: $grid-unit-2;
+
+    @include when-larger-than(medium) {
+      // Crop them to the same height
+      height: $grid-unit-80;
+      overflow: hidden;
+      position: relative;
+
+      // with a bottom shadow to hide the cut off text
+      // sass-lint:disable no-color-literals
+      &::after {
+        background-image: linear-gradient(rgba($black, 0), rgba($black, .5), rgba($black, .7), $black);
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 100px;
+        position: absolute;
+        width: 500px;
+        z-index: 100;
+      }
+    }
+  }
+}

@@ -4,39 +4,8 @@
 @import 'buttons';
 @import 'nav';
 @import 'forms';
+@import 'subscribe';
 @import 'branding';
 @import 'explanations';
 @import 'logos';
 @import 'footer';
-
-// Bridge call to action
-//
-.bridge--call-to-action {
-  background-color: $black-05;
-  padding-bottom: 0;
-
-  .call-to-action--text {
-    display: block;
-    font: $font--subheading-2;
-    margin: 0 auto;
-    max-width: $grid-unit-70;
-    text-transform: none;
-  }
-
-  .apply-to-translate {
-    margin: 0 auto;
-    max-width: $grid-unit-70;
-    padding: $grid-unit-2 $grid-unit;
-    text-indent: $grid-unit;
-
-    label {
-      font: 200 $font--body-1;
-      font-weight: 400;
-      padding: 0 $grid-unit;
-    }
-
-    &:lang(en) {
-      text-align: left;
-    }
-  }
-}

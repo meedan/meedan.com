@@ -32,8 +32,7 @@ ogp:
       :type => "png",
       :name => "bridge--branding",
       :path => "screenshots",
-      :locale => I18n.locale.to_s
-      } %>
+      :locale => I18n.locale.to_s } %>
 
   <div class="logo-and-slogan">
     <%= partial "image", :locals => {
@@ -42,7 +41,7 @@ ogp:
         :url  => "false" } %>
     <p class="slogan"><%= t('bridge.branding.slogan')%></p>
   </div>
-  <div class="appstore">
+  <div class="app-store">
     <%= partial "image", :locals => {
         :type => "svg",
         :name => "app-store",
@@ -51,13 +50,12 @@ ogp:
 </section>
 
 <%# Sign up section %>
-<%= partial "partials/bridge_call_to_action" %>
+<%= partial "partials/_bridge_subscribe.html.erb" %>
 
 <%# Explanations %>
 <%#= Store the localized explanations (in locales dir) as an array %>
 <% explanations = t("bridge.explanations") %>
 
-<%#= Then loop over the array using the index %>
 <section class="bridge--explanations">
   <% for i in 0...explanations.length %>
     <div class="explanation">
@@ -73,8 +71,7 @@ ogp:
             :path => "screenshots",
             :name => "bridge--explanation-#{i+1}",
             :locale => I18n.locale.to_s,
-            :alt => explanations[i][:alt],
-            } %>
+            :alt => explanations[i][:alt] } %>
       </div>
     </div>
   <% end %>
@@ -82,7 +79,7 @@ ogp:
 
 <%# History%>
 <section class="bridge--history typography--dense colors--inverted">
-<h3><%= t("bridge.history.header") %></h3>
+  <h3><%= t("bridge.history.header") %></h3>
   <% t("bridge.history.paragraphs").each do |e| %>
     <p><%= e[:text] %></p>
   <% end %>
@@ -94,13 +91,13 @@ ogp:
   <p><%= t("bridge.supporters.tagline")%></p>
   <ul class="logos">
     <li>
-      <%= partial "image", :locals => {
+      <%= partial "partials/_image.html.erb", :locals => {
           :type => "svg",
           :name => "kf",
           :url  => "http://www.knightfoundation.org" } %>
     </li>
     <li>
-      <%= partial "image", :locals => {
+      <%= partial "partials/_image.html.erb", :locals => {
           :type => "svg",
           :name => "ng",
           :url  => "http://www.nationalgeographic.com" } %>
@@ -110,10 +107,17 @@ ogp:
 </section>
 
 <%# Sign up section %>
-<%= partial "partials/bridge_call_to_action" %>
+<%= partial "partials/bridge_subscribe.html.erb" %>
 
 <%# Footer %>
 <div class="bridge--footer colors--inverted">
   <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
-  <p><a href="/en/bridge/bridge_privacy.html"><%= t("bridge.footer.privacy") %></a> | <a href="/en/bridge/bridge_tos.html"><%= t("bridge.footer.tos") %></a></p>
+  <p>
+    <a href="/en/bridge/bridge_privacy.html">
+      <%= t("bridge.footer.privacy") %>
+    </a> |
+    <a href="/en/bridge/bridge_tos.html">
+      <%= t("bridge.footer.tos") %>
+    </a>
+  </p>
 </div>

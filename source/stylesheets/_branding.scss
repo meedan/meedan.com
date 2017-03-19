@@ -1,8 +1,7 @@
-////
-/// Check and Homepage Branding
-///
-/// The branding section has a large .logo image and the h1.
-/// At smaller sizes the logo has a percent-based width.
+// Check and Homepage Branding
+//
+// The branding section has a large .logo image and the h1.
+// At smaller sizes the logo has a percent-based width.
 [class$='--branding'] {
   padding: $grid-unit-6 0 $grid-unit-4;
   width: 100%;
@@ -33,16 +32,44 @@
   }
 }
 
+// Home page branding
+.home--branding {
+  padding-top: $grid-unit-12;
+
+  .slogan {
+    color: $black-87;
+    font: $font--headline;
+    padding: $grid-unit-4 0;
+  }
+}
+
+.meedan-logo-text {
+  img {
+    animation: fadeIn .8s;
+    display: block;
+    height: $grid-unit-24;
+    margin: $grid-unit-2 auto;
+    margin-bottom: $grid-unit-2;
+    width: 300px;
+
+    @media all and (max-width: 400px) {
+      width: 90%;
+    }
+  }
+}
+
 // Bridge branding section
 .bridge--branding {
   background: $bridge-orange;
 
-  .appstore {
+  .app-store {
     margin: 0 auto;
-    padding: 0;
+
+    > img {
+      width: 154px;
+    }
   }
 }
-
 
 // Check branding section
 //
@@ -60,11 +87,11 @@
     padding: 0;
   }
 
-  a.check-white {
+  > .check-white {
     display: block;
     margin-top: 10px;
 
-    img {
+    > img {
       width: 250px;
     }
   }
