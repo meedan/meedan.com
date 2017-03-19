@@ -1,0 +1,22 @@
+// Check featured client (electionland) blurb
+[class$='--featured-client'] {
+  color: $black-54;
+  padding-bottom: 0;
+  position: relative;
+
+  a {
+    border-bottom: 2px solid $white;
+  }
+
+  .electionland-small {
+    border-bottom: 0;
+    display: inline;
+    text-decoration: none;
+
+    img {
+      height: $grid-unit-4;
+      vertical-align: top;
+      width: $grid-unit-4;
+    }
+  }
+}
