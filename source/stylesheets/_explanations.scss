@@ -1,8 +1,8 @@
-/// Explanation component
-///
-/// These are screenshots with with paragraphs of text.
-/// The amount of text is usually just one paragraph.
-/// There is a header for each screenshot and paragraph.
+// Explanation component
+//
+// These are screenshots with with paragraphs of text.
+// The amount of text is usually just one paragraph.
+// There is a header for each screenshot and paragraph.
 [class$='--explanations'] {
   margin: 0 auto;
   max-width: 800px;
@@ -24,12 +24,11 @@
     }
 
     h3 {
-      padding: 0 0 1em;
+      padding: 0 0 $grid-unit-2;
       text-align: left;
     }
 
     p {
-      font-size: 1em;
       margin: 0;
       text-align: start;
       vertical-align: top;

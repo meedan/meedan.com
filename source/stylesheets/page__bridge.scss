@@ -1,11 +1,20 @@
-@import 'layout';
-@import 'colors';
-@import 'typography';
-@import 'buttons';
-@import 'nav';
-@import 'forms';
+@import 'shared/variables';
+@import 'shared/mixins';
 @import 'subscribe';
 @import 'branding';
 @import 'explanations';
 @import 'logos';
 @import 'footer';
+
+// Bridge branding section
+.bridge--branding {
+  background: $bridge-orange;
+
+  .app-store {
+    margin: 0 auto;
+
+    > img {
+      width: 154px;
+    }
+  }
+}

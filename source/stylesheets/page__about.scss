@@ -1,13 +1,9 @@
-@import 'layout';
-@import 'colors';
-@import 'typography';
-@import 'background_photo';
-@import 'buttons';
-@import 'nav';
+// shared.css is also included
+@import 'shared/variables';
+@import 'shared/mixins';
 @import 'team';
-@import 'contact';
-@import 'donate';
 @import 'recent_press';
+
 
 // About: Branding section
 //

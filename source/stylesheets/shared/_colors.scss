@@ -1,0 +1,19 @@
+// Global colors
+body {
+  background-color: $white;
+}
+
+// Color scheme helper: Inverted
+//
+.colors--inverted {
+  background-color: $dark-soft-purple;
+  color: $white;
+
+  a {
+    color: $white-70;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

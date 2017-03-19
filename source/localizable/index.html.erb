@@ -5,12 +5,10 @@ slug: "home"
 
 <%# Homepage Branding %>
 <section class="home--branding">
-
   <%= partial "partials/image.html.erb", :locals => {
         :url => "/",
         :name => "meedan-logo-text",
-        :type => "svg"
-        } %>
+        :type => "svg" } %>
 
   <p class="slogan"><%= t("home.branding.slogan") %></p>
   <p class="about"><%= t("home.branding.about") %></p>
@@ -64,14 +62,14 @@ slug: "home"
 </section>
 
 <%# Recent press %>
-<section class="home--recent-press" name="recent-press">
+<section class="home--recent-press">
   <h3><%= t("about.recent_press.header") %></h3>
   <%= partial "partials/press_blurbs" %>
 </section>
 
 <%# Homepage Latest %>
 <script async src="https://static.medium.com/embed.js"></script>
-<section class="home--latest">
+<section class="home--medium-channels">
   <h3><%= t("home.latest.header") %></h3>
   <p><%= t("home.latest.text") %></p>
   <div class="medium-channels">

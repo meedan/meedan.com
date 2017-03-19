@@ -1,13 +1,32 @@
-@import 'layout';
-@import 'colors';
-@import 'typography';
-@import 'buttons';
-@import 'recent_press';
-@import 'nav';
+@import 'shared/variables';
+@import 'shared/mixins';
 @import 'apps';
-@import 'logos';
-@import 'branding';
-@import 'background_photo';
-@import 'donate';
-@import 'contact';
+@import 'recent_press';
 @import 'medium_channels';
+@import 'logos';
+
+// Home page branding
+.home--branding {
+  padding-top: $grid-unit-12;
+
+  .slogan {
+    color: $black-87;
+    font: $font--headline;
+    padding: $grid-unit-4 0;
+  }
+}
+
+.meedan-logo-text {
+  img {
+    animation: fadeIn .8s;
+    display: block;
+    height: $grid-unit-24;
+    margin: $grid-unit-2 auto;
+    margin-bottom: $grid-unit-2;
+    width: 300px;
+
+    @media all and (max-width: 400px) {
+      width: 90%;
+    }
+  }
+}

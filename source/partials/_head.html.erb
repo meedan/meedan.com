@@ -19,6 +19,9 @@
     <%= "<meta property='#{name}' content='#{value}'>" %>
   <% end %>
 
+  <%# Shared styles %>
+  <%= stylesheet_link_tag "stylesheets/shared/shared.css" %>
+
   <%# Current page stylesheet %>
   <%= stylesheet_link_tag "stylesheets/page__#{current_page.data.slug}" %>
 </head>

@@ -1,18 +1,46 @@
-@import 'layout';
-@import 'colors';
-@import 'typography';
-@import 'buttons';
-@import 'recent_press';
-@import 'nav';
+// shared.css is also included
+@import 'shared/variables';
+@import 'shared/mixins';
+@import 'drawings';
+@import 'featured_client';
 @import 'logos';
-@import 'branding';
-@import 'contact';
 @import 'recent_press';
 @import 'apps';
-@import 'forms';
 @import 'logos';
-@import 'branding';
-@import 'drawings';
 @import 'quotes';
-@import 'featured_client';
 @import 'awards';
+
+// Check branding section
+//
+.check--branding {
+  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
+  background-position: 50%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: $white;
+  height: 590px;
+  padding-bottom: 0;
+  position: relative;
+
+  .slogan {
+    padding: 0;
+  }
+
+  > .check-white {
+    display: block;
+    margin-top: 10px;
+
+    > img {
+      width: 250px;
+    }
+  }
+}
+
+// Explanations
+.screenshot {
+  @include when-smaller-than(medium) {
+    > img {
+      width: 98%;
+    }
+  }
+}
