@@ -15,8 +15,9 @@
     border-radius: $grid-unit;
     color: $white-70;
     margin: $grid-unit-2 $grid-unit;
-    padding: $grid-unit-4;
     max-width: 90%;
+    padding: $grid-unit-4;
+
     @include when-smaller-than(large) {
       margin: $grid-unit auto;
     }
@@ -81,7 +82,12 @@
 
     img {
       height: $grid-unit-24;
+      max-width: 260px;
       width: 260px;
+
+      @include when-smaller-than(medium) {
+        width: 98%;
+      }
     }
 
     @include when-smaller-than(medium) {
