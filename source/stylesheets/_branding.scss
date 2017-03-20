@@ -12,6 +12,7 @@
     margin: 0 auto;
     max-width: 525px;
     width: 100%;
+
     @include when-smaller-than(medium) {
       width: 98%;
     }
@@ -20,10 +21,8 @@
   .logo-and-slogan {
     margin: $grid-unit-3 auto;
 
-    a {
-      > img {
-        width: 300px;
-      }
+    > img {
+      width: 300px;
     }
   }
 
