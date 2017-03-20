@@ -1,6 +1,5 @@
 @import 'shared/variables';
 @import 'shared/mixins';
-@import 'subscribe';
 @import 'branding';
 @import 'explanations';
 @import 'logos';
@@ -15,6 +14,37 @@
 
     > img {
       width: 154px;
+    }
+  }
+}
+
+// The bridge subcribe section
+.subscribe {
+  background-color: $black-05;
+  padding-bottom: 0;
+
+  > h2 {
+    font: $font--subheading-2;
+    text-transform: none;
+  }
+
+  .checkbox {
+    margin: 0 auto;
+    max-width: $grid-unit-70;
+    padding: $grid-unit-2 0;
+
+    @include when-smaller-than(medium) {
+      font-size: 14px;
+    }
+
+    label {
+      font: 200 $font--body-1;
+      font-weight: 400;
+      padding: 0 $grid-unit;
+    }
+
+    &:lang(en) {
+      text-align: left;
     }
   }
 }

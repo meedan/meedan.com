@@ -1,3 +1,5 @@
+
+// The bridge subscribe section
 .subscribe {
   background-color: $black-05;
   padding-bottom: 0;
@@ -13,8 +15,10 @@
   .checkbox {
     margin: 0 auto;
     max-width: $grid-unit-70;
-    padding: $grid-unit-2 $grid-unit;
-    text-indent: $grid-unit;
+    padding: $grid-unit-2 0;
+    @include when-smaller-than(medium) {
+      font-size: 14px;
+    }
 
     label {
       font: 200 $font--body-1;

@@ -45,6 +45,20 @@
       }
     }
 
+    img {
+      height: $grid-unit-24;
+      max-width: 260px;
+      width: 260px;
+
+      @include when-smaller-than(medium) {
+        width: 98%;
+      }
+    }
+
+    @include when-smaller-than(medium) {
+      width: 100%;
+    }
+
     // Only in the Check side
     &--check {
 
@@ -78,20 +92,6 @@
         padding: $grid-unit $grid-unit-2;
         text-decoration: none;
       }
-    }
-
-    img {
-      height: $grid-unit-24;
-      max-width: 260px;
-      width: 260px;
-
-      @include when-smaller-than(medium) {
-        width: 98%;
-      }
-    }
-
-    @include when-smaller-than(medium) {
-      width: 100%;
     }
   }
 
