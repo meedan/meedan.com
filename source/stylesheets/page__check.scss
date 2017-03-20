@@ -38,7 +38,11 @@
 
 // Explanations
 .screenshot {
+  margin: 0 auto;
+
   @include when-smaller-than(medium) {
+    max-width: 550px;
+
     > img {
       width: 98%;
     }
