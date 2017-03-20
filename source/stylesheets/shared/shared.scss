@@ -1,3 +1,7 @@
+// As a performance optimization,
+// these files are cached as shared.css,
+// which is served separately from page-specific CSS. 2017-3-20 CGB
+//
 @import 'variables';
 @import 'mixins';
 @import 'layout';

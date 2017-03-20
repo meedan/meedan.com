@@ -75,7 +75,7 @@ form {
       width: 100%;
 
       &[type='submit'] {
-        @extend .button;
+        @extend %button;
         border-radius: 4px;
         border-width: 0;
         flex: 1;
@@ -88,15 +88,13 @@ form {
   input[type='email'] {
     background-color: transparent;
     border: 0;
-    border-bottom: 1px solid $black-54;
+    border-bottom: 2px solid $black-16;
     color: $black-87;
     flex: 4;
 
     &:focus {
-      // The outline is hidden (for mouse users only!) w/ js
-      // See: http://a11yproject.com/posts/never-remove-css-outlines/
-      // See: app.js
-      border-bottom: 1px solid $check-blue;
+      border-bottom: 2px solid $check-blue;
+      outline: none;
     }
   }
 
