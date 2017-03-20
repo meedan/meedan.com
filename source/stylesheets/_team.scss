@@ -34,6 +34,7 @@ $width--team-member: 160px;
   }
 
   li {
+    animation: fadeIn 1.2s;
     flex: 0 1 auto;
     font: $font--body-1;
     height: $grid-unit-30;
