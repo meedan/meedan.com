@@ -13,6 +13,11 @@
     display: flex;
     margin-top: 2em;
 
+    // At smaller sizes
+    @include when-smaller-than(medium) {
+      display: block;
+    }
+
     .header-and-description {
       padding: $grid-unit-3;
       width: 50%;
@@ -44,21 +49,17 @@
   .screenshot {
 
     img {
-      max-width: 100%;
+      max-width: 300px;
+
+      @include when-smaller-than(medium) {
+        margin: 0 auto;
+      }
     }
 
-    @include when-smaller-than(large) {
-      margin-top: 2em;
+    @include when-smaller-than(medium) {
+      margin: 2em auto;
       max-width: 425px;
       width: 90%;
     }
-  }
-}
-
-// Bridge explanations
-//
-.bridge--explanations {
-  .screenshot {
-    max-width: 300px;
   }
 }

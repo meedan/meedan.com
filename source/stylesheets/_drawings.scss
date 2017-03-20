@@ -98,8 +98,8 @@
     }
 
     .body {
-      padding-top: 2px;
       min-height: 150px;
+      padding-top: 2px;
       width: 100%;
     }
 
@@ -165,7 +165,8 @@
     }
   }
 
-  @media all and (max-width: 730px) {
-    width: 70%;
+  @include when-smaller-than(medium) {
+    margin-left: 10px;
+    width: 98%;
   }
 }
