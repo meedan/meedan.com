@@ -1,13 +1,10 @@
+<% slug = current_page.data.slug %>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/images/favicons/favicon.ico?v=1">
-  <title><%= current_page.data.slug.capitalize.gsub("-", " ") %> | Meedan</title>
+  <title><%= slug.capitalize.gsub("-", " ") %> | Meedan</title>
 
-  <%# Annual report has a print stylesheet %>
-  <% if current_page.data.slug.include? "annual-report" %>
-    <%= stylesheet_link_tag "stylesheets/print" %>
-  <% end %>
 
   <%# Render Arabic stylesheet %>
   <% if I18n.locale == :ar %>
@@ -22,6 +19,14 @@
   <%# Shared styles %>
   <%= stylesheet_link_tag "stylesheets/shared/shared.css" %>
 
-  <%# Current page stylesheet %>
-  <%= stylesheet_link_tag "stylesheets/page__#{current_page.data.slug}" %>
+
+  <%# Print styles only for some pages %>
+  <% if current_page.data.slug.include?("annual-report") %>
+    <%= stylesheet_link_tag "stylesheets/print" %>
+  <% end %>
+
+  <%# Page-specific styles %>
+  <% unless slug.include?("TOS") || slug.include?("privacy") || slug.include?("annual-report") %>
+    <%= stylesheet_link_tag "stylesheets/page__#{current_page.data.slug}" %>
+  <% end %>
 </head>
