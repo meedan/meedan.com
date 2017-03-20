@@ -12,6 +12,9 @@
     margin: 0 auto;
     max-width: 525px;
     width: 100%;
+    @include when-smaller-than(medium) {
+      width: 98%;
+    }
   }
 
   .logo-and-slogan {

@@ -1,50 +1,5 @@
 $form--max-width: $grid-unit-70;
 $form--min-width: $grid-unit-30;
-$form--button-width: 30%;
-
-// Default form colors
-//
-form {
-
-  // Email input
-  input[type='email'] {
-    background-color: transparent;
-    border-bottom: 1px solid $black-54;
-    color: $black-87;
-
-    &:focus {
-      // The outline is hidden (for mouse users only!) w/ js
-      // See: http://a11yproject.com/posts/never-remove-css-outlines/
-      // See: app.js
-      border-bottom: 1px solid $check-blue;
-    }
-
-    // When clicking in this element, light up the button
-    // TODO refactor this into buttons.scss
-    &:focus ~ input[type='submit'] {
-      background-color: $check-blue;
-      color: $white;
-      transition: background-color .3s;
-    }
-  }
-
-  // Submit button
-  input[type='submit'] {
-    background-color: $light-keyboard-grey;
-    color: $black-87;
-
-    &:hover {
-      background-color: $check-blue;
-      color: $white;
-      transition: background-color .2s;
-    }
-  }
-
-  // The label on the checkbox
-  input[type='checkbox'] ~ label {
-    color: $black-54;
-  }
-}
 
 // Inverted form colors
 //
@@ -95,38 +50,58 @@ form {
 
 form {
   padding: $grid-unit-4 $grid-unit-2;
-}
 
-// Form groups
-//
-.form-group {
-  @extend %form--fancy-label;
-  display: flex;
-  margin: auto;
-  max-width: $form--max-width;
-  padding: $grid-unit-2;
 
-  label {
-    font: $font--body-2;
-    padding: $grid-unit 0;
+  // Form groups
+  //
+  .form-group {
+    @extend %form--fancy-label;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: $form--max-width;
+    padding: $grid-unit-2 0;
+
+    label {
+      font: $font--body-2;
+      padding: $grid-unit 0;
+    }
+
+    input {
+      border-color: transparent;
+      border-radius: 0;
+      font: $font--subheading-2;
+      padding: $grid-unit 0;
+      width: 100%;
+
+      &[type='submit'] {
+        @extend .button;
+        border-radius: 4px;
+        border-width: 0;
+        flex: 1;
+        margin: 0 $grid-unit;
+      }
+    }
   }
 
-  input {
-    border-color: transparent;
-    font: $font--subheading-2;
-    padding: $grid-unit 0;
+  // Email input
+  input[type='email'] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid $black-54;
+    color: $black-87;
+    flex: 4;
 
-    &[type='email'] {
-      width: 68%;
+    &:focus {
+      // The outline is hidden (for mouse users only!) w/ js
+      // See: http://a11yproject.com/posts/never-remove-css-outlines/
+      // See: app.js
+      border-bottom: 1px solid $check-blue;
     }
+  }
 
-    &[type='submit'] {
-      @extend .button;
-
-      border-radius: 4px;
-      border-width: 0;
-      margin: 0 $grid-unit;
-      width: $form--button-width;
-    }
+  // The label on the checkbox
+  input[type='checkbox'] ~ label {
+    color: $black-54;
   }
 }

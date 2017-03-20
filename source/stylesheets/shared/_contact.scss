@@ -2,6 +2,10 @@
 ///
 .contact {
 
+  .button {
+    border-bottom: 0;
+  }
+
   li {
     display: inline-block;
     vertical-align: top;
@@ -20,6 +24,10 @@
         clear: none;
         text-align: center;
         width: 50%;
+
+        @include when-smaller-than(medium) {
+          font: $font--body-1;
+        }
       }
     }
   }
