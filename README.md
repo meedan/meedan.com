@@ -116,14 +116,15 @@ Then `git checkout master`, `git merge develop`, `git push`, and we use [jenkins
 
 ## Running tests
 
-There are integration tests operated by [casperjs](http://casperjs.org/ "CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS").  
+There are integration tests operated by [casperjs](http://casperjs.org/ "CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS"). Note that we use [slimerjs](https://slimerjs.org/ "SlimerJS") instead of [phantomjs](http://phantomjs.org/ "PhantomJS | PhantomJS") (for better redirection support as of July 2015).
 
-Note that we use [slimerjs](https://slimerjs.org/ "SlimerJS") instead of [phantomjs](http://phantomjs.org/ "PhantomJS | PhantomJS") (for better redirection support as of July 2015).
+We also do some accessibility tests with [a11y](https://github.com/addyosmani/a11y).
 
-To run the tests make sure you:
+To run these integration tests:
 
 - `mkdir tmp` so we have a place to store the server process id.
-- `npm install -g slimerjs casperjs`
+- Install Slimer and Casper: `npm install -g slimerjs casperjs`
+- Install the node a11y library `npm install --global a11y`
 - Install [firefox](https://www.mozilla.org/en-US/firefox/products/)
 - Tell Slimer where Firefox is: by setting this variable `export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox` before you run the test. You probably want to add this to your shell profile so you don't have to do it each time you run the tests.
 - Then you should be able to run the tests with `npm run test`
