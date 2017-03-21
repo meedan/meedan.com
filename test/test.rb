@@ -17,3 +17,7 @@ HTMLProofer.check_directory("./build", {
 #
 text_banner("Starting localization check")
 require_relative "./localization.rb"
+
+# 4. Check for accessibility issues
+#
+system 'a11y ./build/**/*.html'
