@@ -1,13 +1,6 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
-@import 'layout';
-@import 'colors';
-@import 'typography';
-@import 'keyframes';
-@import 'buttons';
-@import 'forms';
-@import 'nav';
-@import 'contact';
-@import 'donate';
+@import 'shared/variables';
+@import 'shared/mixins';
 
 .annual-report-2014,
 .annual-report-2015 {
@@ -83,7 +76,7 @@
     font-weight: 400;
 
     p {
-      padding: ($grid-unit / 2) $grid-unit;
+      padding: $grid-unit * 2 $grid-unit;
     }
 
     .full-name,

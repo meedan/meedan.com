@@ -5,7 +5,6 @@
   <link rel="icon" href="/images/favicons/favicon.ico?v=1">
   <title><%= slug.capitalize.gsub("-", " ") %> | Meedan</title>
 
-
   <%# Render Arabic stylesheet %>
   <% if I18n.locale == :ar %>
     <%= stylesheet_link_tag "stylesheets/locale__ar" %>
@@ -19,14 +18,11 @@
   <%# Shared styles %>
   <%= stylesheet_link_tag "stylesheets/shared/shared.css" %>
 
-
-  <%# Print styles only for some pages %>
-  <% if current_page.data.slug.include?("annual-report") %>
+  <%# Print styles, only for annual reports %>
+  <% if slug.include?("annual-report") %>
     <%= stylesheet_link_tag "stylesheets/print" %>
   <% end %>
 
-  <%# Page-specific styles %>
-  <% unless slug.include?("TOS") || slug.include?("privacy") || slug.include?("annual-report") %>
-    <%= stylesheet_link_tag "stylesheets/page__#{current_page.data.slug}" %>
-  <% end %>
+  <%# Page-specific styles (Every page has it's own stylsheet.) %>
+  <%= stylesheet_link_tag "stylesheets/page__#{current_page.data.slug.downcase}" %>
 </head>
