@@ -9,8 +9,7 @@
     "test": "bundle exec ruby ./test/test.rb",
     "posttest": "bundle exec ruby ./test/posttest.rb",
     "start": "bundle exec middleman",
-    "build": "bundle exec middleman build",
-    "imagemin": "imagemin source/images/**/* --out-dir source/images/"
+    "build": "bundle exec middleman build"
   },
   "keywords": [
     "meedan"
@@ -18,8 +17,5 @@
   "author": "Meedan",
   "license": "MIT",
   "devDependencies": {
-    "imagemin-cli": "^3.0.0",
-    "imagemin-guetzli": "^0.1.5",
-    "imagemin-pngquant": "^4.2.0"
   }
 }
