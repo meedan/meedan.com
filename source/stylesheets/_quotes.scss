@@ -22,15 +22,19 @@
     vertical-align: top;
     width: 28%;
 
-    @include when-smaller-than(large) {
-      min-width: 100%;
-    }
-
     .attribution--name,
     .attribution--website {
       display: inline;
       font-weight: 700;
       padding: 0;
+    }
+  }
+
+  @include when-smaller-than(large) {
+    flex-flow: column nowrap;
+
+    .quote {
+      width: 100%;
     }
   }
 }
