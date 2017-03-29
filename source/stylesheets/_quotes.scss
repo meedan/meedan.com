@@ -18,9 +18,9 @@
   .quote {
     display: inline;
     margin-top: 2em;
-    padding: 2em;
+    padding: 2em .5em;
     vertical-align: top;
-    width: 40%;
+    width: 28%;
 
     @include when-smaller-than(large) {
       min-width: 100%;
