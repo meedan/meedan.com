@@ -26,7 +26,7 @@ RUN chown ${DEPLOYUSER}:www-data ${DEPLOYDIR}
 # do an initial install to populate vendor_bundle, node_modules
 USER ${DEPLOYUSER}
 RUN echo "gem: --no-rdoc --no-ri" > ~/.gemrc \
-	&& bundle install --deployment --without development test 
+	&& bundle install --deployment --without development test
 RUN npm install --production
 
 # copy in the whole tree
