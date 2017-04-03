@@ -40,6 +40,6 @@ RUN cp -avp /tmp${DEPLOYDIR} ${DEPLOYDIR}/.. \
 USER ${DEPLOYUSER}
 RUN bundle exec middleman build
 
-ONBUILD EXPOSE 8080
+EXPOSE 8080
 RUN chmod 755 start.sh;
 CMD ["./start.sh"]
