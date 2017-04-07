@@ -21,10 +21,12 @@ slug: "home"
   <div class="apps">
     <%# Check app %>
     <div class="app app--check">
-      <%= partial "partials/image.html.erb", :locals => {
-          :url => "/" + I18n.locale.to_s + "/check",
-          :name => "check-white",
-          :type => "svg" } %>
+      <div class="logo-container">
+        <%= partial "partials/image.html.erb", :locals => {
+            :url => "/" + I18n.locale.to_s + "/check",
+            :name => "check-white",
+            :type => "svg" } %>
+      </div>
 
       <p class="tagline">
         <%= t("home.apps.check.tagline") %>
@@ -43,10 +45,12 @@ slug: "home"
 
     <%# Bridge app %>
     <div class="app app--bridge">
-      <%= partial "partials/image.html.erb", :locals => {
-          :url => "/" + I18n.locale.to_s + "/bridge",
-          :name => "bridge-white",
-          :type => "svg" } %>
+      <div class="logo-container">
+        <%= partial "partials/image.html.erb", :locals => {
+            :url => "/" + I18n.locale.to_s + "/bridge",
+            :name => "bridge-white",
+            :type => "svg" } %>
+      </div>
 
       <p class="tagline"><%= t("home.apps.bridge.tagline") %></p>
 
