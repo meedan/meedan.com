@@ -1,11 +1,11 @@
-// Check and Homepage Branding
+// Check, Bridge and Homepage Branding
 //
 // The branding section has a large .logo image and the h1.
 // At smaller sizes the logo has a percent-based width.
 [class$='--branding'] {
+  animation: fadeIn 1.2s;
   padding: $grid-unit-6 0 $grid-unit-4;
   width: 100%;
-  animation: fadeIn 1.2s;
 
   > img {
     animation: fadeIn 1.2s;
@@ -15,7 +15,7 @@
     width: 100%;
 
     @include when-smaller-than(medium) {
-      width: 98%;
+      width: 90%;
     }
   }
 
@@ -24,6 +24,9 @@
 
     > img {
       width: 300px;
+      @include when-smaller-than(small) {
+        width: 90%;
+      }
     }
   }
 
