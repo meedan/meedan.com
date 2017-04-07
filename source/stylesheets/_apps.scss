@@ -32,15 +32,18 @@
 
     .tagline {
       color: $white-70;
-      margin-top: -40px;
       padding: 0 0 $grid-unit-4;
+    }
 
-      &::before {
+    .logo-container {
+      height: 200px;
+
+      &::after {
         border-bottom: 5px solid $bridge-orange;
         content: '';
         display: block;
         height: 3px;
-        margin: 20px auto;
+        margin: -40px auto 0;
         width: 100px;
       }
     }
@@ -59,26 +62,24 @@
       width: 100%;
     }
 
-    // Only in the Check side
-    &--check {
+    // Only on the Bridge side
+    // Refinements to make them line up properly
+    &--bridge {
+      .logo-container {
+        padding-top: 10px;
 
-      // Refinements to account for different logo sizes
-      img {
-        margin-bottom: 9px;
-        margin-top: 6px;
-      }
-
-      .tagline {
-        &::before {
-          border-bottom-color: $check-blue;
+        &::after {
+          margin-top: -50px;
         }
       }
     }
 
-    // Only on the bridge side
-    &--bridge {
-      img {
-        padding-top: $grid-unit-2;
+    // Only in the Check side
+    &--check {
+      .logo-container {
+        &::after {
+          border-bottom-color: $check-blue;
+        }
       }
     }
 
