@@ -24,6 +24,10 @@
 
     p {
       font: $font--body-2;
+
+      a {
+        border-bottom: 0;
+      }
     }
 
     .blurb {

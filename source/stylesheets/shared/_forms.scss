@@ -71,7 +71,7 @@ form {
       border-color: transparent;
       border-radius: 0;
       font: $font--subheading-2;
-      padding: $grid-unit 0;
+      padding: $grid-unit;
       width: 100%;
 
       &[type='submit'] {

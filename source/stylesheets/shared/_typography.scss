@@ -81,6 +81,15 @@ p {
   }
 }
 
+h1,
+h2,
+h3,
+p {
+  a {
+    border-bottom: 4px solid rgba(blue, 0.1);
+  }
+}
+
 // Links
 a {
   color: $check-blue;

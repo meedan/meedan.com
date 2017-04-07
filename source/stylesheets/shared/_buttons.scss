@@ -2,7 +2,7 @@ $button-width: $grid-unit * 45;
 
 %button {
   background: transparent;
-  border-bottom: 2px solid $check-blue;
+  border-bottom: 5px solid rgba(blue, 0.1);
   color: $check-blue;
   cursor: pointer;
   font-size: 18px;
