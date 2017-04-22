@@ -1,6 +1,4 @@
 TEST_PORT = "8080"
-require 'rubygems'
-require 'net/http'
 require 'rainbow'
 LOCALES_PATH = 'locales'
 
@@ -12,7 +10,7 @@ end
 # Banner helper
 #
 def text_banner(text = "")
-  puts "==========================================================".yellow
-  puts text.yellow
-  puts "==========================================================".yellow
+  puts Rainbow("==========================================================").yellow
+  puts Rainbow(text).yellow
+  puts Rainbow("==========================================================").yellow
 end
