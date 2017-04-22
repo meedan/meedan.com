@@ -65,7 +65,6 @@ casper.test.begin('/bridge redirects to a default language-specific page', 2, fu
   });
 });
 
-
 // Test RTL element
 //
 casper.test.begin('/check arabic has rtl', 1, function suite(test) {
@@ -77,6 +76,23 @@ casper.test.begin('/check arabic has rtl', 1, function suite(test) {
     });
   });
 
+  casper.run(function () {
+    test.done();
+  });
+});
+
+// Test (temporary) redirection of /ar check page to /en check page.
+//
+casper.test.begin('/ar/check redirects to /en/check', 2, function suite(test) {
+  casper.start(localhostURL + "/ar/check", function () {
+    this.wait(2000, function () {
+      this.echo("waited for 2 seconds");
+      test.assertUrlMatch(defaultCheckPage, "Redirected to the (En) Check.");
+    });
+  });
+  casper.then(function () {
+    test.assertExists('body.en_check_index', "Main check en body class exists.");
+  });
   casper.run(function () {
     test.done();
   });

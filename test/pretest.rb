@@ -8,4 +8,4 @@ system `rm -rf build`
 system 'npm run build'
 
 # Start the server, and note the server PID so we can stop it post test
-system 'node server.js & echo $! > test/server.pid'
+system 'node server.js && echo $! > test/server.pid'

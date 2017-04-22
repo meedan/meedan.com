@@ -2,6 +2,7 @@ require_relative './helpers'
 
 # 1. Run casper tests to ensure redirection and RTL
 #
+text_banner("Starting Casper route tests")
 system 'casperjs test --log-level=error test/casper.js --engine=slimerjs'
 
 # 2. Run HTML Proofer to check for broken links
