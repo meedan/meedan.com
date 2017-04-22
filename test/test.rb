@@ -1,4 +1,5 @@
 require_relative './helpers'
+require 'html-proofer'
 
 # 1. Run casper tests to ensure redirection and RTL
 #

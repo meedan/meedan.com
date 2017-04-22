@@ -1,4 +1,5 @@
 require_relative './helpers'
+require 'yaml'
 
 lang_1_name = "en"
 lang_2_name = "ar"
