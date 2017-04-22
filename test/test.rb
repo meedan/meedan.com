@@ -1,3 +1,5 @@
+text_banner 'Starting test...'
+
 require_relative './helpers'
 require 'html-proofer'
 

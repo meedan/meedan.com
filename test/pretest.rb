@@ -11,3 +11,5 @@ text_banner 'Starting server...'
 # Start the server, and note the server PID so we can stop it post test
 # system 'node server.js && echo $! > tmp/server.pid'
 system 'node server.js'
+
+text_banner 'Pretest complete...'

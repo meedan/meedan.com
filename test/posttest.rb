@@ -1,3 +1,5 @@
+text_banner 'Post test cleanup...'
+
 # require_relative "./helpers"
 
 # text_banner 'Stopping test server...'
