@@ -5,9 +5,7 @@
   "main": "src/app.js",
   "repository": "https://github.com/meedan/meedan.com",
   "scripts": {
-    "pretest": "bundle exec ruby ./test/pretest.rb",
     "test": "bundle exec ruby ./test/test.rb",
-    "posttest": "bundle exec ruby ./test/posttest.rb",
     "start": "bundle exec middleman",
     "build": "bundle exec middleman build"
   },
