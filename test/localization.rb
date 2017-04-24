@@ -5,8 +5,8 @@ lang_2_name = "ar"
 
 # Data from YAML files
 #
-lang_1_data = YAML.load_file(File.join(LOCALES_PATH,lang_1_name + ".yml"))
-lang_2_data = YAML.load_file(File.join(LOCALES_PATH,lang_2_name + ".yml"))
+lang_1_data = YAML.load_file(File.join("locales",lang_1_name + ".yml"))
+lang_2_data = YAML.load_file(File.join("locales",lang_2_name + ".yml"))
 
 # Recursive diff for YAML comparison
 #

@@ -40,8 +40,7 @@ system 'casperjs test --log-level=error test/casper.js --engine=slimerjs'
 text_banner("Starting HTML-Proofer tests...")
 HTMLProofer.check_directory("./build", {
   :verbose => true,
-  :check_html => true,
-  :url_ignore => LEGACY_PATHS
+  :check_html => true
   }).run
 
 # 3. Check localization of the site
