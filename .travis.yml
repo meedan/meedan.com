@@ -4,7 +4,7 @@ rvm:
 env:
   - SLIMERJSLAUNCHER=$(which firefox) DISPLAY=:99.0 PATH=$TRAVIS_BUILD_DIR/slimerjs:$PATH
 addons:
-  firefox: "50.0"
+  firefox: "45.0"
 cache: bundler
 before_script:
   - npm install
