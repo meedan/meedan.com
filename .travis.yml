@@ -11,7 +11,7 @@ before_script:
   - nvm install stable # Install it
   - nvm use stable # Use it
   - npm install # Install project dependencies
-  - npm install -g casperjs slimerjs a11y # Install dependencies which prefer to be global
+  - npm install -g casperjs slimerjs@0.10.3 a11y # Install dependencies which prefer to be global
 script: npm run test
 notifications:
   slack:
