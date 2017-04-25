@@ -8,7 +8,7 @@ addons:
 cache: bundler
 before_script:
   - npm install
-  - npm install -g casperjs slimerjs
+  - npm install -g casperjs slimerjs a11y
 script: npm run test
 notifications:
   slack:
