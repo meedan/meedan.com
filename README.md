@@ -23,9 +23,7 @@ Middleman is a ruby and markdown templating & routing system. When you work with
 
 ## Even quicker start: copy editing via github.com
 
-If you want to just change some copywriting, you really don’t even need to set up the app locally.
-
-Copy edits can go in a yaml file like `en.yml`, for English.— https://github.com/meedan/meedan.com/blob/develop/locales/en.yml.
+If you want to just change some copywriting, you really don’t even need to set up the app locally. Copy edits can go in a yaml file like `en.yml`, for English.— https://github.com/meedan/meedan.com/blob/develop/locales/en.yml.
 
 You can edit the copy using github.com by clicking ‘edit’ on that file. ^^
 
@@ -49,30 +47,19 @@ Theoretically, that’s it. The makefile installs bundler and npm then does bund
 
 *:warning: Don't edit the files in `./build` :) * 
 
-To work on the HTML and Sass, edit the files in `./source` while `gulp` runs.
-
-`npm start` will start the middleman compiler for both the stylesheets ([Sass](sass-lang.com/)) and the HTML. Middleman runs with livereload and should refresh the page automatically when you make changes.
+To work on the HTML and Sass, edit the files in `./source`. `npm start` will start the middleman compiler for both the stylesheets ([Sass](sass-lang.com/)) and the HTML. Middleman runs with livereload and should refresh the page automatically when you make changes.
 
 ## Getting extra logs from middleman
 
-To run middleman directly without the `npm start` shortcut, to see more logging details: do `bundle exec middleman --verbose`.
+If you have issues you might want to see extra logging in. To run middleman directly without the `npm start` shortcut, to see more logging details: do `bundle exec middleman --verbose`.
 
+## Adding a new partner logo
+      
+    - Use an svg file if possible, and optimize it with svgo.
+    - For jpg or png files, create two versions, `@1x` (at least 100px) and `@2x` (at least 200px). Render both sizes (eg with [Sketch.app](https://www.sketchapp.com/ "Sketch - Professional Digital Design for Mac")) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings ([Acorn](https://www.acorns.com/ "Acorns - Home")) or use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: If you're using Acorn or Photoshop, during the web export, try setting quality below 15%.)
+    - Add the name of the file to the partner json file as described below.
 
-## Adding a new partner logo 
-
-### Adding a svg logo: 
-
-      - Put your vectors in `images/vector`.
-      - Run *gulp bundle-svg* — bundle all of the svg files into a single file we can inline into the template. SVG files are joined by the `bundle-svg` gulp task, combined into one big SVG file. We would manually access those with markup like this: `<svg><use xlink:href="#kf" /></svg>` — that will render the file `images/logos/kf.svg`. The purpose of combining the files with xlink style is to reduce the number of HTTP requests. 
-      - Add the name of the file to the partner json file as described below.
-
-### Adding a png or jpg logo:
-
-      - Create two versions, `@1x` (at least 100px) and `@2x` (at least 200px).
-      - Render both sizes (eg with [Sketch.app](https://www.sketchapp.com/ "Sketch - Professional Digital Design for Mac")) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings ([Acorn](https://www.acorns.com/ "Acorns - Home")) or use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: If you're using Acorn or Photoshop, during the web export, try setting quality below 15%.)
-      - Add the name of the file to the partner json file as described below.
-
-### Updating the partner logo json
+### Updating the partner logo JSON
 
 Once you have the new images, update the data files `supporter_logos.json` or `check_partners.json` to include data about the new file, for example:
 
@@ -86,7 +73,7 @@ The template loops through these values to create the logo-list sections. So, th
 
 ## Adding a new team member
 
-Hooray, a new Meedani! Like the logos, team member information is stored as json data. Take a peek in `data/team_members.json` and add a member (in alphabetical order) like so:
+Hooray, a new Meedani! Like the logos, team member information is stored as JSON data. Take a peek in `data/team_members.json` and add a member (in alphabetical order) like so:
 
         {
           "name": "steven",
@@ -98,21 +85,22 @@ Add a @1x version (200px, under 10kb) and a @2x version (400px, under 20kb) to `
 
 ## Releasing new versions
 
-Use `git tag` and `git commit` in the [SemVer](http://semver.org/) style.
-
-Use `npm version (major|minor|patch)` to tag a new version.
+Use `npm version (major|minor|patch)` to tag a new version in the [SemVer](http://semver.org/) style.
 
 ## Deploying
 
 To deploy the files from the www directory to the gh-pages branch first tag a release like `npm version minor && git push && git push --tags`.
 When the repo gets updated on github, an automatic build and deployment of the development site is triggered.
+
 Then `git checkout master`, `git merge develop`, `git push`, and we use [jenkins](https://jenkins.io/ "Jenkins") to trigger the deploy.
 
 ## Sass structure
 
-- Middleman compiles and Live-reloads the Sass for you (although sadly, proper stylesheet injection does not work well in Middleman 3x; it reloads the whole page — 2015-12-30 CGB).
-- The starting points is screen.scss. That `@imports` everything else.
+- Middleman compiles and Live-reloads the Sass for you.
+- There are two files for each page: `shared.scss` and `page__[pagename].scss`. That `@imports` everything else. (We do it this way to ensure that we send the fewest possible lines of CSS to each page.)
 - Then we import our Sass components, pages, and utility files from `source/stylesheets`.
+
+Note: we are serving the site with [HTTP/2](https://http2.github.io/ "HTTP/2") so we no longer use image sprites, and we don't bundle all our CSS into a single file.
 
 ## Running tests
 
@@ -122,12 +110,14 @@ We also do some accessibility tests with [a11y](https://github.com/addyosmani/a1
 
 To run these integration tests:
 
-- `mkdir tmp` so we have a place to store the server process id.
-- Install Slimer and Casper: `npm install -g slimerjs casperjs`
-- Install the node a11y library `npm install --global a11y`
+- Install Slimer, Casper and a11y: `npm install -g slimerjs casperjs a11y`
 - Install [firefox](https://www.mozilla.org/en-US/firefox/products/)
-- Tell Slimer where Firefox is: by setting this variable `export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox` before you run the test. You probably want to add this to your shell profile so you don't have to do it each time you run the tests.
+- If you're not on MacOS, tell Slimer where Firefox is by setting this variable `export SLIMERJSLAUNCHER=/path/to/firefox` before you run the test. If you are on MacOS it is done automatically.
 - Then you should be able to run the tests with `npm run test`
+
+## Travis 
+
+Tests are run automatically when you push to github, using [Travis](https://travis-ci.org/ "Travis CI - Test and Deploy Your Code with Confidence").
 
 ## Sass linting
 

@@ -1,17 +1,17 @@
 language: ruby
 rvm:
-- 2.3.3
+- 2.3.3 #reasonably recent
 env:
-  - SLIMERJSLAUNCHER=$(which firefox) DISPLAY=:99.0 PATH=$TRAVIS_BUILD_DIR/slimerjs:$PATH
+  - SLIMERJSLAUNCHER=$(which firefox) DISPLAY=:99.0 PATH=$TRAVIS_BUILD_DIR/slimerjs:$PATH #required settings for travis
 addons:
-  firefox: "45.0"
-cache: bundler
+  firefox: "45.0" # Had to downgrade to something compatible with slimer
+cache: bundler # speed up the build
 before_script:
-  - . $HOME/.nvm/nvm.sh
-  - nvm install stable
-  - nvm use stable
-  - npm install
-  - npm install -g casperjs slimerjs a11y
+  - . $HOME/.nvm/nvm.sh # Allows us to install a more recent node
+  - nvm install stable # Install it
+  - nvm use stable # Use it
+  - npm install # Install project dependencies
+  - npm install -g casperjs slimerjs a11y # Install dependencies which prefer to be global
 script: npm run test
 notifications:
   slack:

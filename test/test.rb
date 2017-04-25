@@ -16,22 +16,20 @@ else
   puts "WARNING: Make sure you set SLIMERJSLAUNCHER to your Firefox path..."
 end
 
-text_banner 'Rebuilding the site and starting test server...'
-
-system `rm -rf build`
-
 # Rebuild the site to ensure we test the latest static output
+text_banner 'Rebuilding the site and starting test server...'
+system `rm -rf build`
 system 'npm run build'
 
-text_banner 'Starting server...'
 # Start the server, and note the server PID so we can stop it post test
 # system 'node server.js && echo $! > tmp/server.pid'
+text_banner 'Starting server...'
 system 'node server.js &'
 
-text_banner 'Starting test...'
 
 # 1. Run casper tests to ensure redirection and RTL
 #
+text_banner 'Starting test...'
 text_banner("Starting Casper route tests...")
 system 'casperjs test --log-level=error test/casper.js --engine=slimerjs'
 
@@ -55,12 +53,3 @@ require_relative "./localization.rb"
 system 'a11y ./build/**/*.html'
 
 text_banner 'Post test cleanup...'
-
-# require_relative "./helpers"
-
-# text_banner 'Stopping test server...'
-
-# Shut down the server, but swallow errors if something goes wrong
-# system 'kill $(cat test/server.pid) || true'
-# system 'rm test/server.pid || true'
-
