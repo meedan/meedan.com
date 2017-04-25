@@ -41,7 +41,7 @@ text_banner("Starting HTML-Proofer tests...")
 HTMLProofer.check_directory("./build", {
   :verbose => true,
   :check_html => true,
-  :check_opengraph => true,
+  # :check_opengraph => true,
   :only_4xx => true
   }).run
 
