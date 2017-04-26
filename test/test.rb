@@ -31,7 +31,7 @@ system 'node server.js &'
 #
 text_banner 'Starting test...'
 text_banner("Starting Casper route tests...")
-system 'casperjs test --debug=true --log-level=error test/casper.js --engine=slimerjs'
+system 'casperjs test --log-level=error test/casper.js --engine=slimerjs'
 
 # 2. Run HTML Proofer to check for broken links
 #

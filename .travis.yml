@@ -12,6 +12,7 @@ before_script:
   - nvm use stable # Use it
   - npm install # Install project dependencies
   - npm install -g casperjs slimerjs@0.10.3 a11y # Install dependencies which prefer to be global
+  - sh -e /etc/init.d/xvfb start # start xvfb for slimer
 script: npm run test
 notifications:
   slack:
