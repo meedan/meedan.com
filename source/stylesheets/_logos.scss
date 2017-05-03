@@ -53,18 +53,25 @@
     .first-draft,
     .ibm,
     .kiva,
-    .dataguild {
-      width: 80px;
+    .dataguild,
+    .hku {
+      img {
+        max-height: 80px;
+        width: 80px;
+      }
     }
 
     // Very oblong
-    .kf img,
+    .kf,
     .ff,
     .bcu,
-    .bc {
-      max-height: 80px;
-      max-width: 200px;
-      width: 170px;
+    .bc,
+    .amnesty {
+      img {
+        max-height: 80px;
+        max-width: 200px;
+        width: 170px;
+      }
     }
   }
 }
