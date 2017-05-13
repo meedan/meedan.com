@@ -1,6 +1,7 @@
 // shared.scss is also loaded as a separate stylesheet
 @import 'shared/variables';
 @import 'shared/mixins';
+@import 'shared/units';
 @import 'team';
 @import 'recent_press';
 
@@ -55,11 +56,11 @@
 //
 .about--promo-bar {
   font: $font--subheading-2;
-  margin: $grid-unit-2 $grid-unit;
+  margin: units(2) units(1);
 
   a {
     @include when-smaller-than(medium) {
-      margin: $grid-unit $grid-unit-2;
+      margin: units(1) units(2);
     }
   }
 }

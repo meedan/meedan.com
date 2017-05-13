@@ -1,0 +1,186 @@
+<<<<<<< HEAD
+$form--max-width: $grid-unit-70;
+$form--min-width: $grid-unit-30;
+=======
+$form--max-width: units(70);
+$form--min-width: units(30);
+$form--button-width: 30%;
+
+// Default form colors
+//
+form {
+
+  // Email input
+  input[type='email'] {
+    background-color: transparent;
+    border-bottom: 1px solid $black-54;
+    color: $black-87;
+
+    &:focus {
+      // The outline is hidden (for mouse users only!) w/ js
+      // See: http://a11yproject.com/posts/never-remove-css-outlines/
+      // See: app.js
+      border-bottom: 1px solid $check-blue;
+    }
+
+    // When clicking in this element, light up the button
+    // TODO refactor this into buttons.scss
+    &:focus ~ input[type='submit'] {
+      background-color: $check-blue;
+      color: $white;
+      transition: background-color .3s;
+    }
+  }
+
+  // Submit button
+  input[type='submit'] {
+    background-color: $light-keyboard-grey;
+    color: $black-87;
+
+    &:hover {
+      background-color: $check-blue;
+      color: $white;
+      transition: background-color .2s;
+    }
+  }
+
+  // The label on the checkbox
+  input[type='checkbox'] ~ label {
+    color: $black-54;
+  }
+}
+>>>>>>> ce32139... Use helper function for style tokens
+
+// Inverted form colors
+//
+[class$='--form-inverted'] {
+
+  // All labels
+  label {
+    color: $white-50;
+  }
+
+  // All inputs
+  input {
+    color: $white;
+  }
+
+  input[type='email'] {
+    color: $white;
+
+    &:focus {
+      border-bottom: 1px solid $white;
+    }
+
+    // When clicking in this element, light up the button
+    &:focus ~ input[type='submit'] {
+      background-color: $white;
+      color: $check-blue;
+    }
+  }
+
+  // Submit button
+  input[type='submit'] {
+    color: $black-54;
+  }
+}
+
+// Form: fancy label
+//
+// Uses absolute positioning.
+%form--fancy-label {
+  position: relative;
+
+  label {
+    position: absolute;
+    top: -units(2);
+    z-index: 2;
+  }
+}
+
+form {
+<<<<<<< HEAD
+  padding: $grid-unit-4 $grid-unit-2;
+
+
+  // Form groups
+  //
+  .form-group {
+    @extend %form--fancy-label;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: $form--max-width;
+    padding: $grid-unit-2 0;
+
+    label {
+      font: $font--body-2;
+      padding: $grid-unit 0;
+    }
+=======
+  padding: units(4) units(2);
+}
+
+// Form groups
+//
+.form-group {
+  @extend %form--fancy-label;
+  display: flex;
+  margin: auto;
+  max-width: $form--max-width;
+  padding: units(2);
+
+  label {
+    font: $font--body-2;
+    padding: units(1) 0;
+  }
+
+  input {
+    border-color: transparent;
+    font: $font--subheading-2;
+    padding: units(1) 0;
+>>>>>>> ce32139... Use helper function for style tokens
+
+    input {
+      border-color: transparent;
+      border-radius: 0;
+      font: $font--subheading-2;
+      padding: $grid-unit;
+      width: 100%;
+
+      &[type='submit'] {
+        @extend %button;
+        border-radius: 4px;
+        border-width: 0;
+        flex: 1;
+        margin: 0 $grid-unit;
+      }
+    }
+  }
+
+  // Email input
+  input[type='email'] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid $black-16;
+    color: $black-87;
+    flex: 4;
+
+<<<<<<< HEAD
+    &:focus {
+      border-bottom: 2px solid $check-blue;
+      outline: none;
+=======
+      border-radius: 4px;
+      border-width: 0;
+      margin: 0 units(1);
+      width: $form--button-width;
+>>>>>>> ce32139... Use helper function for style tokens
+    }
+  }
+
+  // The label on the checkbox
+  input[type='checkbox'] ~ label {
+    color: $black-54;
+  }
+}

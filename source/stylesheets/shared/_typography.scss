@@ -22,7 +22,7 @@ body {
 // Each section must have a header.
 section {
   overflow-x: hidden;
-  padding-bottom: $grid-unit-8;
+  padding-bottom: units(8);
   width: 100%;
 }
 
@@ -32,17 +32,17 @@ h3 {
   font: $font--headline;
   letter-spacing: .1em;
   margin: 0 auto;
-  padding: $grid-unit-8 $grid-unit-4 $grid-unit-4;
+  padding: units(8) units(4) units(4);
   text-transform: uppercase;
 
   @include when-smaller-than(large) {
-    padding: $grid-unit-8 $grid-unit-4;
+    padding: units(8) units(4);
   }
 }
 
 h4 {
-  margin: $grid-unit auto;
-  max-width: $grid-unit-70;
+  margin: units(1) auto;
+  max-width: units(70);
 
   @include when-smaller-than(large) {
     margin: 0 auto;
@@ -55,14 +55,14 @@ em {
 }
 
 ul {
-  margin: $grid-unit auto;
+  margin: units(1) auto;
   padding: 0;
   text-align: center;
 }
 
 li {
   list-style-type: none;
-  padding: 0 $grid-unit-2 $grid-unit-2;
+  padding: 0 units(2) units(2);
 
   @include when-smaller-than(large) {
     display: block;
@@ -73,11 +73,11 @@ li {
 p {
   display: block;
   margin: 0 auto;
-  max-width: $grid-unit-70;
-  padding: 0 0 $grid-unit-4;
+  max-width: units(70);
+  padding: 0 0 units(4);
 
   @include when-smaller-than(large) {
-    padding: $grid-unit-2 $grid-unit-3;
+    padding: units(2) units(3);
   }
 }
 
@@ -111,7 +111,7 @@ a {
 
     p {
       font: $font--subheading-2;
-      padding: $grid-unit-4;
+      padding: units(4);
     }
   }
 }

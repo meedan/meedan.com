@@ -19,7 +19,7 @@
     }
 
     .header-and-description {
-      padding: $grid-unit-3;
+      padding: units(3);
       width: 50%;
 
       // At smaller sizes
@@ -29,7 +29,7 @@
     }
 
     h3 {
-      padding: 0 0 $grid-unit-2;
+      padding: 0 0 units(2);
       text-align: left;
     }
 

@@ -1,5 +1,5 @@
-$form--max-width: $grid-unit-70;
-$form--min-width: $grid-unit-30;
+$form--max-width: units(70);
+$form--min-width: units(30);
 
 // Inverted form colors
 //
@@ -43,14 +43,13 @@ $form--min-width: $grid-unit-30;
 
   label {
     position: absolute;
-    top: -$grid-unit-2;
+    top: -1 * units(2);
     z-index: 2;
   }
 }
 
 form {
-  padding: $grid-unit-4 $grid-unit-2;
-
+  padding: units(4) units(2);
 
   // Form groups
   //
@@ -60,18 +59,18 @@ form {
     justify-content: space-between;
     margin: auto;
     max-width: $form--max-width;
-    padding: $grid-unit-2 0;
+    padding: units(2) 0;
 
     label {
       font: $font--body-2;
-      padding: $grid-unit 0;
+      padding: units(1) 0;
     }
 
     input {
       border-color: transparent;
       border-radius: 0;
       font: $font--subheading-2;
-      padding: $grid-unit;
+      padding: units(1);
       width: 100%;
 
       &[type='submit'] {
@@ -79,7 +78,7 @@ form {
         border-radius: 4px;
         border-width: 0;
         flex: 1;
-        margin: 0 $grid-unit;
+        margin: 0 units(1);
       }
     }
   }

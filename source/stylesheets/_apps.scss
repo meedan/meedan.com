@@ -12,14 +12,14 @@
 
   .app {
     background: $dark-purple;
-    border-radius: $grid-unit;
+    border-radius: units(1);
     color: $white-70;
-    margin: $grid-unit-2 $grid-unit;
+    margin: units(2) units(1);
     max-width: 90%;
-    padding: $grid-unit-4;
+    padding: units(4);
 
     @include when-smaller-than(large) {
-      margin: $grid-unit auto;
+      margin: units(1) auto;
     }
 
     p {
@@ -31,12 +31,12 @@
     }
 
     .blurb {
-      min-height: $grid-unit-24;
+      min-height: units(24);
     }
 
     .tagline {
       color: $white-70;
-      padding: 0 0 $grid-unit-4;
+      padding: 0 0 units(4);
     }
 
     .logo-container {
@@ -53,7 +53,7 @@
     }
 
     img {
-      height: $grid-unit-24;
+      height: units(24);
       max-width: 260px;
       width: 260px;
 
@@ -90,11 +90,11 @@
     .learn {
       a {
         background-color: $white-10;
-        border-radius: $grid-unit / 2;
+        border-radius: units(half);
         color: $white;
         font-weight: bold;
-        margin: 0 $grid-unit;
-        padding: $grid-unit $grid-unit-2;
+        margin: 0 units(1);
+        padding: units(1) units(2);
         text-decoration: none;
       }
     }
@@ -102,7 +102,7 @@
 
   @include when-smaller-than(medium) {
     p {
-      padding: 0 0 $grid-unit-4;
+      padding: 0 0 units(4);
       width: 95%;
     }
   }

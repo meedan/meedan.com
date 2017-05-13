@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+$button-width: $grid-unit * 45;
+
 %button {
+=======
+.button {
+>>>>>>> ce32139... Use helper function for style tokens
   background: transparent;
   border-bottom: 5px solid rgba(blue, 0.1);
   color: $check-blue;

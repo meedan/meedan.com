@@ -9,43 +9,43 @@ $width--team-member: 160px;
   display: flex;
   flex-flow: wrap row;
   justify-content: center;
-  margin: 24px auto;
+  margin: units(3) auto;
   padding: 0;
 
   @media (min-width: $width--team-member * 2) {
-    width: $width--team-member * 2 + $grid-unit-2;
+    width: $width--team-member * 2 + units(2);
   }
 
   @media (min-width: $width--team-member * 4) {
-    width: $width--team-member * 4 + $grid-unit-2;
+    width: $width--team-member * 4 + units(2);
   }
 
   @media (min-width: $width--team-member * 6) {
-    width: $width--team-member * 6 + $grid-unit-2;
+    width: $width--team-member * 6 + units(2);
   }
 
   @media (min-width: $width--team-member * 8) {
-    width: $width--team-member * 8 + $grid-unit-2;
+    width: $width--team-member * 8 + units(2);
   }
 
   .name {
     font-weight: 500;
-    padding-top: $grid-unit;
+    padding-top: units(1);
   }
 
   li {
     animation: fadeIn 1.2s;
     flex: 0 1 auto;
     font: $font--body-1;
-    height: $grid-unit-30;
+    height: units(30);
     width: $width--team-member;
   }
 
   img {
     border-radius: 50%;
     filter: sepia(25%);
-    max-height: $grid-unit-12;
-    max-width: $grid-unit-12;
+    max-height: units(12);
+    max-width: units(12);
     width: 100%;
   }
 }
