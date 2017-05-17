@@ -11,9 +11,9 @@
     text-decoration: none;
 
     img {
-      height: $grid-unit-4;
+      height: units(4);
       vertical-align: top;
-      width: $grid-unit-4;
+      width: units(4);
     }
   }
 }

@@ -1,6 +1,7 @@
 // shared.scss is also loaded as a separate stylesheet
 @import 'shared/variables';
 @import 'shared/mixins';
+@import 'shared/units';
 @import 'explanations-2-col';
 @import 'logos';
 @import 'footer';
@@ -30,8 +31,8 @@
 
   .checkbox {
     margin: 0 auto;
-    max-width: $grid-unit-70;
-    padding: $grid-unit-2 0;
+    max-width: units(70);
+    padding: units(2) 0;
 
     @include when-smaller-than(medium) {
       font-size: 14px;
@@ -40,7 +41,7 @@
     label {
       font: 200 $font--body-1;
       font-weight: 400;
-      padding: 0 $grid-unit;
+      padding: 0 units(1);
     }
 
     &:lang(en) {

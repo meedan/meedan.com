@@ -6,7 +6,7 @@
 //
 [class$='--medium-channels'] {
   background-color: $black-02;
-  padding-bottom: $grid-unit-2;
+  padding-bottom: units(2);
 
   .medium-channels {
     align-items: center;
@@ -16,11 +16,11 @@
   }
 
   .medium-channel {
-    margin: $grid-unit-2;
+    margin: units(2);
 
     @include when-larger-than(medium) {
       // Crop them to the same height
-      height: $grid-unit-80;
+      height: units(80);
       overflow: hidden;
       position: relative;
 

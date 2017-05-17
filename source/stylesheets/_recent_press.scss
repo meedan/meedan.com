@@ -1,7 +1,7 @@
 // Recent press component
 //
 [class$='--recent-press'] {
-  padding-bottom: $grid-unit-2;
+  padding-bottom: units(2);
 
   h3 {
     width: 100%;
@@ -16,7 +16,7 @@
     // at smaller sizes
     @include when-smaller-than(large) {
       flex-flow: column;
-      padding-bottom: $grid-unit-4;
+      padding-bottom: units(4);
     }
   }
 
@@ -24,17 +24,17 @@
   li {
     color: $black-87;
     font: $font--subheading-2;
-    padding: $grid-unit-2;
+    padding: units(2);
     width: 30%;
 
     p {
       font: $font--body-2;
-      padding: $grid-unit;
+      padding: units(1);
       transition: background-color .4s;
 
       &:hover {
         background-color: $black-05;
-        border-radius: $grid-unit;
+        border-radius: units(1);
         transition: background-color .4s;
       }
     }

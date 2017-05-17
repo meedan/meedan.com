@@ -3,18 +3,14 @@
 //
 %ensure-no-widows {
   @media all and (min-width: 1000px) {
-    width: 942px;
+    width: 1000px;
   }
 
-  @media all and (max-width: 941px) {
-    width: 665px;
+  @media all and (max-width: 1000px) {
+    width: 605px;
   }
 
-  @media all and (max-width: 664px) {
-    width: 465px;
-  }
-
-  @media all and (max-width: 464px) {
+  @media all and (max-width: 605px) {
     width: 300px;
   }
 
@@ -38,9 +34,9 @@
     li {
       align-items: center;
       display: flex;
-      height: 80px;
+      height: units(10);
       justify-content: center;
-      padding: $grid-unit-2;
+      padding: units(2);
       width: 200px;
     }
 
@@ -53,18 +49,26 @@
     .first-draft,
     .ibm,
     .kiva,
-    .dataguild {
-      width: 80px;
+    .dataguild,
+    .hku,
+    .hrc {
+      img {
+        max-height: units(10);
+        width: units(10);
+      }
     }
 
     // Very oblong
-    .kf img,
+    .kf,
     .ff,
     .bcu,
-    .bc {
-      max-height: 80px;
-      max-width: 200px;
-      width: 170px;
+    .bc,
+    .amnesty {
+      img {
+        max-height: units(10);
+        max-width: 200px;
+        width: 170px;
+      }
     }
   }
 }

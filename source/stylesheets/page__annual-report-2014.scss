@@ -1,6 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
 @import 'shared/variables';
 @import 'shared/mixins';
+@import 'shared/units';
 
 .annual-report-2014,
 .annual-report-2015 {
@@ -38,8 +39,8 @@
   }
 
   .fleuron {
-    font-size: $grid-unit-4;
-    padding: $grid-unit-6 0 $grid-unit-4;
+    font-size: units(4);
+    padding: units(6) 0 units(4);
   }
 
   // Lead text
@@ -54,7 +55,7 @@
       font-weight: 400;
       letter-spacing: 1px;
       margin: 0;
-      padding: $grid-unit-4 .2em 0;
+      padding: units(4) .2em 0;
       text-transform: none;
     }
 
@@ -76,7 +77,7 @@
     font-weight: 400;
 
     p {
-      padding: $grid-unit * 2 $grid-unit;
+      padding: units(half) units(1);
     }
 
     .full-name,
@@ -171,7 +172,7 @@
       @include when-smaller-than(large) {
         list-style-position: inside;
         list-style-type: disc;
-        padding: $grid-unit-2;
+        padding: units(2);
       }
     }
   }
@@ -192,8 +193,8 @@
   .caption {
     // padding-top: 1em;
     color: $black-54;
-    font-size: $grid-unit-2;
-    padding: $grid-unit-2 $grid-unit;
+    font-size: units(2);
+    padding: units(2) units(1);
   }
 
 
@@ -212,7 +213,7 @@
     }
 
     li {
-      padding-top: $grid-unit;
+      padding-top: units(1);
     }
 
     a {
@@ -264,7 +265,7 @@
   .lead-photo .image-banner {
     background-image: url('/images/annual-report/team-6-peach-screen.jpg');
 
-    @media all and (min-width: $grid-unit-70) {
+    @media all and (min-width: units(70)) {
       background-position: 20% 50%;
     }
   }
@@ -275,11 +276,11 @@
 
     background: linear-gradient(rgba(#C86EDF, .2), rgba(darken(#E4B7F0, 20%), .4)), url('/images/annual-report/belad.jpg');
     background-size: cover;
-    @media all and (max-width: $grid-unit-70) {
+    @media all and (max-width: units(70)) {
       background-position: 50% 50%;
       height: 50vh;
     }
-    @media all and (min-width: $grid-unit-70) {
+    @media all and (min-width: units(70)) {
       background-position: 20% 50%;
     }
   }
@@ -293,7 +294,7 @@
     url('/images/annual-report/caioandkarim.jpg');
     background-position: 0% 30%;
     background-size: cover;
-    @media all and (max-width: $grid-unit-70) {
+    @media all and (max-width: units(70)) {
       height: 50vh;
     }
   }
@@ -308,7 +309,7 @@
     background-position: 50% 0%;
     background-size: cover;
     height: 60vh;
-    @media all and (max-width: $grid-unit-70) {
+    @media all and (max-width: units(70)) {
       height: 30vh;
     }
   }

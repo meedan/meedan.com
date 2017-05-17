@@ -4,7 +4,7 @@
 // At smaller sizes the logo has a percent-based width.
 [class$='--branding'] {
   animation: fadeIn 1.2s;
-  padding: $grid-unit-6 0 $grid-unit-4;
+  padding: units(6) 0 units(4);
   width: 100%;
 
   > img {
@@ -20,7 +20,7 @@
   }
 
   .logo-and-slogan {
-    margin: $grid-unit-3 auto;
+    margin: units(3) auto;
 
     > img {
       width: 300px;

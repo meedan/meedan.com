@@ -10,7 +10,7 @@
   .meedan-logo {
     img {
       height: 45px;
-      margin: $grid-unit $grid-unit-2 0;
+      margin: units(1) units(2) 0;
       width: 45px;
     }
   }
@@ -18,7 +18,7 @@
   .meedan-wordmark {
     img {
       height: 45px;
-      margin-top: $grid-unit;
+      margin-top: units(1);
       width: 70px;
     }
   }
@@ -34,10 +34,10 @@
     display: flex;
     flex: 3;
     justify-content: flex-end;
-    margin: 0 $grid-unit;
+    margin: 0 units(1);
 
     li {
-      height: $grid-unit-8;
+      height: units(8);
       padding: 0;
     }
 
@@ -45,11 +45,11 @@
       color: $black-87;
       display: block;
       font: $font--subheading-2;
-      line-height: $grid-unit-4;
-      padding: $grid-unit-2;
+      line-height: units(4);
+      padding: units(2);
 
       @include when-smaller-than(small) {
-        padding: $grid-unit-2 $grid-unit;
+        padding: units(2) units(1);
       }
 
       text-decoration: none;
@@ -86,23 +86,23 @@
 // A list of links to active and inactive languages (locales).
 .locales {
   background-color: transparent;
-  border-radius: $grid-unit / 2;
+  border-radius: units(half);
   display: flex;
   display: none; // hidden until we can localize better 2017-3-14
-  margin: $grid-unit;
+  margin: units(1);
   overflow: hidden;
-  padding: ($grid-unit / 2) $grid-unit;
+  padding: units(half) units(1);
   position: absolute;
   right: 0;
-  top: $grid-unit-8;
+  top: units(8);
   z-index: 2;
 
   a {
     color: $white;
     font: $font--body-1;
-    margin-left: $grid-unit;
-    margin-right: $grid-unit;
-    padding: $grid-unit;
+    margin-left: units(1);
+    margin-right: units(1);
+    padding: units(1);
     text-decoration: none;
   }
 
@@ -124,7 +124,7 @@
   .active {
     a {
       background-color: $white-10;
-      border-radius: 4px;
+      border-radius: units(half);
       color: $white;
       font-weight: bold;
     }
