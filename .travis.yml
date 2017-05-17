@@ -2,10 +2,10 @@ language: ruby
 rvm:
 - 2.3.3 #reasonably recent
 env:
-  - SLIMERJSLAUNCHER=$(which firefox) DISPLAY=:99.0 PATH=$TRAVIS_BUILD_DIR/slimerjs:$PATH #required settings for travis
+  - SLIMERJSLAUNCHER=$(which firefox) DISPLAY=:99.0 PATH=$TRAVIS_BUILD_DIR/slimerjs:$PATH #for slimer
 addons:
-  firefox: "44.0" # Had to downgrade to something compatible with slimer
-cache: bundler # speed up the build
+  firefox: "50.0" # for slimer
+cache: bundler # Cache rubygems to speed up the build
 before_script:
   - . $HOME/.nvm/nvm.sh # Allows us to install a more recent node
   - nvm install stable # Install it
