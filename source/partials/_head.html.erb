@@ -23,7 +23,7 @@
     <%= stylesheet_link_tag "stylesheets/print" %>
   <% end %>
 
-  <% if slug.match(/TOS/).present? || slug.match(/policy/).present? %>
+  <% if slug.match(/TOS/).present? || slug.match(/privacy/).present? %>
     <%# Bridge and Check TOS and Privacy pages%>
     <%= stylesheet_link_tag "stylesheets/page__policy" %>
   <% else %>
