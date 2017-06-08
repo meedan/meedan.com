@@ -26,12 +26,6 @@ activate :ogp do |ogp|
   ogp.base_url = 'http://meedan.com/'
 end
 
-# I18n Fallbacks
-#
-# Fallback if a translation is not available.
-#
-I18n.fallbacks.map(:ar => :en)
-
 # Build config
 #
 configure :build do

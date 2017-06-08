@@ -27,20 +27,19 @@ ogp:
 <%# Bridge branding Section %>
 <section class="bridge--branding">
 
-  <%= partial "partials/_image.html.erb", :locals => {
+  <%= partial "partials/image", :locals => {
       :type => "png",
-      :name => "bridge--branding",
-      :path => "screenshots",
-      :locale => I18n.locale.to_s } %>
+      :name => "bridge--branding-#{I18n.locale.to_s}",
+      :path => "screenshots" } %>
 
   <div class="logo-and-slogan">
-    <%= partial "image", :locals => {
+    <%= partial "partials/image", :locals => {
         :type => "svg",
         :name => "bridge-white" } %>
     <p class="slogan"><%= t('bridge.branding.slogan')%></p>
   </div>
   <div class="app-store">
-    <%= partial "image", :locals => {
+    <%= partial "partials/image", :locals => {
         :type => "svg",
         :name => "app-store",
         :url  => "https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8" } %>
@@ -48,7 +47,7 @@ ogp:
 </section>
 
 <%# Sign up section %>
-<%= partial "partials/_bridge_subscribe.html.erb" %>
+<%= partial "partials/bridge_subscribe" %>
 
 <%# Explanations %>
 <%#= Store the localized explanations (in locales dir) as an array %>
@@ -64,11 +63,10 @@ ogp:
       <%#= Render the image using a partial %>
       <%#= This assumes the images have numbered filenames %>
       <div class="screenshot">
-        <%= partial "partials/_image.html.erb", :locals => {
+        <%= partial "partials/image", :locals => {
             :type => "jpg",
             :path => "screenshots",
-            :name => "bridge--explanation-#{i+1}",
-            :locale => I18n.locale.to_s,
+            :name => "bridge--explanation-#{i+1}-#{I18n.locale.to_s}",
             :alt => explanations[i][:alt] } %>
       </div>
     </div>
@@ -89,23 +87,23 @@ ogp:
   <p><%= t("bridge.supporters.tagline")%></p>
   <ul class="logos">
     <li>
-      <%= partial "partials/_image.html.erb", :locals => {
-          :type => "svg",
-          :name => "kf",
-          :url  => "http://www.knightfoundation.org" } %>
+      <%= partial "partials/image", :locals => {
+        :type => "svg",
+        :name => "kf",
+        :url  => "http://www.knightfoundation.org" } %>
     </li>
     <li>
-      <%= partial "partials/_image.html.erb", :locals => {
-          :type => "svg",
-          :name => "ng",
-          :url  => "http://www.nationalgeographic.com" } %>
+      <%= partial "partials/image", :locals => {
+        :type => "svg",
+        :name => "ng",
+        :url  => "http://www.nationalgeographic.com" } %>
     </li>
   </ul>
   <p><%= t("bridge.supporters.partner_paragraph")%></p>
 </section>
 
 <%# Sign up section %>
-<%= partial "partials/bridge_subscribe.html.erb" %>
+<%= partial "partials/bridge_subscribe" %>
 
 <%# Footer %>
 <div class="bridge--footer colors--inverted">

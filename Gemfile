@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-gem "middleman", "~>3.4"
-gem "middleman-livereload", "~>3.4" # Live-reloading plugin
+gem "middleman"
+gem "middleman-livereload"
 gem 'middleman-autoprefixer'
 gem 'html-proofer'
 gem 'rainbow'

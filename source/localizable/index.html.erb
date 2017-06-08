@@ -5,7 +5,7 @@ slug: "home"
 
 <%# Homepage Branding %>
 <section class="home--branding">
-  <%= partial "partials/image.html.erb", :locals => {
+  <%= partial "partials/image", :locals => {
         :url => "/",
         :name => "meedan-logo-text",
         :type => "svg" } %>
@@ -22,7 +22,7 @@ slug: "home"
     <%# Check app %>
     <div class="app app--check">
       <div class="logo-container">
-        <%= partial "partials/image.html.erb", :locals => {
+        <%= partial "partials/image", :locals => {
             :url => "/" + I18n.locale.to_s + "/check",
             :name => "check-white",
             :type => "svg" } %>
@@ -46,7 +46,7 @@ slug: "home"
     <%# Bridge app %>
     <div class="app app--bridge">
       <div class="logo-container">
-        <%= partial "partials/image.html.erb", :locals => {
+        <%= partial "partials/image", :locals => {
             :url => "/" + I18n.locale.to_s + "/bridge",
             :name => "bridge-white",
             :type => "svg" } %>
@@ -94,7 +94,7 @@ slug: "home"
   <ul class="logos">
     <% data.supporter_logos.each do |logo| %>
     <li>
-      <%= partial "partials/_image.html.erb",
+      <%= partial "partials/image",
           :locals => {
           :type => logo[:type],
           :name => logo[:name],

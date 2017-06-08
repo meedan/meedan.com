@@ -2,12 +2,11 @@
 
 USAGE:
 
-partial "partials/_image.html.erb", :locals => {
+partial "partials/image", :locals => {
           :type => "svg",
           :path => "vectors",  # defaults to `/images/logos/`
           :name => "cool-image",
           :url => "foobar.com",  # optional
-          :locale => "ar"
         }
 %>
 
@@ -27,20 +26,14 @@ partial "partials/_image.html.erb", :locals => {
   <% full_path = "/images/logos" %>
 <% end %>
 
-<%# Format the locale %>
-<% if defined?(locale)
-    image_basename = name + "-" + locale
-  else
-    image_basename = name
-  end %>
-
+<%# Render the linked image %>
 <%= start_tag %>
   <% if type == "svg" %>
-    <img width="100" class="<%= name %>" <%= "src='#{full_path}/#{image_basename}.#{type}'" %> alt="<%= alt %>">
+    <img width="100" class="<%= name %>" <%= "src='#{full_path}/#{name}.#{type}'" %> alt="<%= alt %>">
   <% else %>
     <img class="<%= name %>"
       alt="<%= alt %>"
-      <%= "src='#{full_path}/#{image_basename}@1x.#{type}'" %>
-      <%= "srcset='#{full_path}/#{image_basename}@2x.#{type} 2x'" %> >
+      <%= "src='#{full_path}/#{name}@1x.#{type}'" %>
+      <%= "srcset='#{full_path}/#{name}@2x.#{type} 2x'" %> >
   <% end %>
 <%= end_tag %>

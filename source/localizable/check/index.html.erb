@@ -27,7 +27,7 @@ ogp:
 <%# Branding %>
 <section class="check--branding">
 
-  <%= partial "partials/_image.html.erb", :locals => {
+  <%= partial "partials/image", :locals => {
       :type => "svg",
       :name => "check-white",
       :url  => "/#{I18n.locale}/check" } %>
@@ -39,22 +39,22 @@ ogp:
   <div class="drawing-1">
     <div class="in-progress">
       <h5>In progress</h5>
-      <%= partial "partials/_drawing_social_media_card.html.erb" %>
+      <%= partial "partials/drawing_social_media_card" %>
     </div>
     <div class="false">
       <h5>False</h5>
-      <%= partial "partials/_drawing_social_media_card.html.erb" %>
+      <%= partial "partials/drawing_social_media_card" %>
     </div>
     <div class="true">
       <h5>True</h5>
-      <%= partial "partials/_drawing_social_media_card.html.erb" %>
+      <%= partial "partials/drawing_social_media_card" %>
     </div>
   </div>
 </section>
 
 <section class="check--featured-client">
   <h3><%= t("check.electionland") %></a>
-  <%= partial "partials/_image.html.erb", :locals => {
+  <%= partial "partials/image", :locals => {
       :type => "svg",
       :name => "electionland-small",
       :url  => "https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo" } %>
@@ -72,11 +72,10 @@ ogp:
       </div>
 
       <div class="screenshot">
-        <%= partial "partials/image.html.erb", :locals => {
+        <%= partial "partials/image", :locals => {
           :type   => "jpg",
           :path   => "screenshots",
-          :name  => "check--explanation-#{i+1}",
-          :locale => I18n.locale.to_s,
+          :name  => "check--explanation-#{i+1}-#{I18n.locale.to_s}",
           :alt    => explanations[i][:alt],
           :classname  => "screenshot"
           } %>
@@ -116,7 +115,7 @@ ogp:
 
 <%# Awards %>
 <section class="check--awards">
-    <%= partial "partials/_image.html.erb", :locals => {
+    <%= partial "partials/image", :locals => {
         :type => "svg",
         :name => "awards" } %>
 
@@ -161,7 +160,7 @@ ogp:
   <ul class="logos">
     <% data.check_partner_logos.each do |image| %>
       <li>
-        <%= partial "partials/_image.html.erb", :locals => {
+        <%= partial "partials/image", :locals => {
             :type => image[:type],
             :name => image[:name],
             :url => image[:url]} %>
