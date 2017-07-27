@@ -1,0 +1,313 @@
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import 'variables';
+@import 'mixins';
+@import 'units';
+
+.annual-report-2014,
+.annual-report-2015,
+.annual-report-2016 {
+  .inner {
+    font-size: 1em;
+    margin: 3em auto;
+    padding: 1em;
+  }
+
+  // Typography
+  //
+  h2 {
+    color: $black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4em 0 1em;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-weight: 400;
+    margin: 0 auto;
+    min-width: 300px;
+    padding: 2em 1em;
+    text-align: left;
+  }
+
+  ul,
+  li {
+    font-weight: 400;
+  }
+
+  .fleuron {
+    font-size: units(4);
+    padding: units(6) 0 units(4);
+  }
+
+  // Lead text
+  //
+  .lead-text {
+    font-weight: 300;
+
+    h1 {
+      color: $black;
+      font-family: 'Roboto Slab', serif;
+      font-size: 2.3em;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin: 0;
+      padding: units(4) .2em 0;
+      text-transform: none;
+    }
+
+    .intro {
+      font-style: italic;
+      font-weight: 200;
+      line-height: 1.6;
+      padding-top: 3em;
+
+      em {
+        font-weight: 700;
+      }
+    }
+  }
+
+  // CEO note
+  //
+  .ceo-note {
+    font-weight: 400;
+
+    p {
+      padding: units(half) units(1);
+    }
+
+    .full-name,
+    .title {
+      display: block;
+    }
+  }
+
+  // Programs list
+  //
+  .programs ul,
+  .areas-served ul {
+    margin: 1em auto;
+    width: 90%;
+
+    @media all and (min-width: 800px) {
+      display: flex;
+
+      p {
+        min-width: 150px;
+        padding: 1em 0;
+      }
+
+      li {
+        font-size: .8em;
+        width: 33.33333%;
+
+        h3 {
+          border-bottom: 4px double $black-54;
+          font-family: 'Roboto Slab', serif;
+          font-size: 14px;
+          min-height: 180px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .mission-statement {
+    // sass-lint:disable hex-notation, force-element-nesting, no-color-literals
+    li {
+      padding: 1em;
+      text-align: left;
+
+      &:nth-of-type(1) span {
+        background-color: #5856d6;
+      }
+
+      &:nth-of-type(2) span {
+        background-color: #ff2d55;
+      }
+
+      &:nth-of-type(3) span {
+        background-color: #ff9500;
+      }
+
+      &:nth-of-type(4) span {
+        background-color: #1ad6fd;
+      }
+
+      &:nth-of-type(5) span {
+        background-color: #1ad6fd;
+      }
+
+      &:nth-of-type(6) span {
+        background-color: #0bd318;
+      }
+
+      &:nth-of-type(7) span {
+        background-color: #34aadc;
+      }
+
+      &:nth-of-type(8) span {
+        background-color: #ef4db6;
+      }
+
+      span {
+        background-color: $black-87;
+        border-radius: 2px;
+        color: $white;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        text-shadow: 1px 1px $black-16;
+        text-transform: uppercase;
+      }
+
+      em {
+        font-style: normal;
+      }
+
+      @include when-smaller-than(large) {
+        list-style-position: inside;
+        list-style-type: disc;
+        padding: units(2);
+      }
+    }
+  }
+
+  // Image banner sections
+  //
+  .image-banner {
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .image-banner-wrap {
+    position: relative;
+  }
+
+  // Caption on the photo
+  //
+  .caption {
+    // padding-top: 1em;
+    color: $black-54;
+    font-size: units(2);
+    padding: units(2) units(1);
+  }
+
+
+  // Contact information
+  //
+  // Override default contact section
+  //
+  .contact-us {
+    background-color: $white;
+    color: $black;
+
+    span {
+      display: block;
+      margin: 0 auto;
+      width: 320px;
+    }
+
+    li {
+      padding-top: units(1);
+    }
+
+    a {
+      @media (max-width: 900px) {
+        display: inline-block;
+        padding: .1em;
+      }
+    }
+  }
+
+  // Financial data
+  //
+  .financials table {
+    color: $black-54;
+    margin: 0 auto;
+    width: 80%;
+
+    td {
+      border-bottom: 1px solid $black-16;
+      padding: 1em;
+      text-align: left;
+
+      & + td {
+        border-left: 1px solid $black-16;
+      }
+
+      h3 {
+        font-size: 1em;
+        font-weight: normal;
+        padding: 0;
+
+        &.total {
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+.annual-report-2014 {
+  .image-banner.team-2 {
+    background-image: url('/images/annual-report/team-1-blue-screen.jpg');
+  }
+
+  .image-banner.team-3 {
+    background-image: url('/images/annual-report/team-3-aqua-screen.jpg');
+  }
+
+  .lead-photo .image-banner {
+    background-image: url('/images/annual-report/team-6-peach-screen.jpg');
+
+    @media all and (min-width: units(70)) {
+      background-position: 20% 50%;
+    }
+  }
+}
+
+.annual-report-2015 {
+  .lead-photo .image-banner {
+    background: linear-gradient(rgba(#c86edf, .2), rgba(darken(#e4b7f0, 20%), .4)), url('/images/annual-report/belad.jpg');
+    background-size: cover;
+
+    @media all and (max-width: units(70)) {
+      background-position: 50% 50%;
+      height: 50vh;
+    }
+
+    @media all and (min-width: units(70)) {
+      background-position: 20% 50%;
+    }
+  }
+
+  .image-banner.team-2 {
+    background: linear-gradient(rgba(#ffa500, .2), rgba(#ffa500, .4)), url('/images/annual-report/caioandkarim.jpg');
+    background-position: 0% 30%;
+    background-size: cover;
+
+    @media all and (max-width: units(70)) {
+      height: 50vh;
+    }
+  }
+
+  .image-banner.team-3 {
+    background: linear-gradient(rgba(#55efcb, .2), rgba(darken(#5bcaff, 20%), .4)), url('/images/annual-report/group.jpg');
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 60vh;
+
+    @media all and (max-width: units(70)) {
+      height: 30vh;
+    }
+  }
+}
+
+.image-banner.placeholder {
+  background-color: #f8f8f8;
+}
