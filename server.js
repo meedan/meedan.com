@@ -10,6 +10,7 @@ bridgePages = [
 checkEnglishPages = [
   '/checkdesk',
   '/checkdesk/index.html',
+  '/checkdesk-en', // A bad URL on some press coverage http://www.niemanlab.org/2015/08/tweeting-across-borders-with-a-new-mobile-app-meedan-is-working-to-improve-social-media-translation/
   '/check',
   '/check/index.html',
   '/en/checkdesk',
