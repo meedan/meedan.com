@@ -2,7 +2,7 @@
 @import 'shared/variables';
 @import 'shared/mixins';
 @import 'shared/units';
-@import 'explanations-2-col';
+@import 'explanations-bridge';
 @import 'logos';
 @import 'footer';
 
@@ -21,7 +21,6 @@
 
 // The bridge subcribe section
 .subscribe {
-  background-color: $black-05;
   padding-bottom: 0;
 
   > h2 {

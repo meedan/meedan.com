@@ -1,6 +1,7 @@
 /// Contact section
 ///
 .contact {
+  padding-top: units(4);
 
   .button {
     border-bottom: 0;
@@ -9,25 +10,24 @@
   li {
     display: inline-block;
     vertical-align: top;
+    padding-bottom: units(6);
 
     p {
       margin: 0;
       padding: 0;
+      font: $font--caption;
     }
   }
 
   .contact--visit {
     .locations {
       display: flex;
+      align-items: center;
 
       li {
         clear: none;
         text-align: center;
         width: 50%;
-
-        @include when-smaller-than(medium) {
-          font: $font--body-1;
-        }
       }
     }
   }

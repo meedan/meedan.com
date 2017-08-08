@@ -1,6 +1,8 @@
 // Homepage apps component
 //
 [class$='--apps'] {
+  background-color: $black-02;
+
   .apps {
     align-items: stretch;
     display: flex;
@@ -19,7 +21,7 @@
     padding: units(4);
 
     @include when-smaller-than(large) {
-      margin: units(1) auto;
+      margin: units(2) auto;
     }
 
     p {

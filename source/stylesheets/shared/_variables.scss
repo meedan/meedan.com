@@ -1,9 +1,6 @@
 // Breakpoints
 $breakpoints: (
-  'xsmall': 320px,
-  'small': 400px,
-  'medium': 730px,
-  'large': 896px
+  'xsmall': 320px, 'small': 400px, 'medium': 730px, 'large': 896px
 );
 
 // Font stacks
@@ -21,14 +18,15 @@ $font--subheading-2: 200 20px unquote('/') 32px $font-stack--primary;
 $font--subheading-1: 200 20px unquote('/') 28px $font-stack--primary;
 $font--body-2: 200 16px unquote('/') 24px $font-stack--primary;
 $font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
-
+$font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
+$font--caption: 400 12px unquote('/') 16px $font-stack--primary;
 // Colors
 //
 $check-blue: #3073fd;
 $check-blue-20: rgba($check-blue, .2);
 $keyboard-grey: #abb5bd;
 $light-keyboard-grey: #d1d6db;
-$bridge-orange: #FF674A;
+$bridge-orange: #ff674a;
 $white: #fff;
 $black: #000;
 $dark-purple: #0c1c3e;
@@ -44,6 +42,7 @@ $slack-green: #2ab27b;
 //
 $black-02: rgba($black, .02);
 $black-05: rgba($black, .05);
+$black-08: rgba($black, .08);
 $black-16: rgba($black, .16);
 $black-38: rgba($black, .38);
 $black-54: rgba($black, .54);
@@ -64,3 +63,34 @@ $media-status-black: $black-54;
 // Gradients
 $check-gradient: linear-gradient($check-blue, $check-blue-20);
 
+@function box-shadow($level) {
+  @if $level == 1 {
+    @return unquote("0 1px 3px #{rgba($black, 0.12)}, 0 1px 2px #{rgba($black, 0.24)}");
+  } @else if $level == 2 {
+    @return unquote("0 3px 6px #{rgba($black, 0.16)}, 0 3px 6px #{rgba($black, 0.23)}");
+  }
+}
+
+%card {
+  background-color: $white;
+  box-shadow: box-shadow(1);
+  border: 1px solid $black-05;
+  transition: box-shadow .2s;
+
+  &:hover {
+    box-shadow: box-shadow(2);
+    transition: box-shadow .2s;
+  }
+}
+
+%card-flat {
+  background-color: $white;
+  border: 1px solid $black-08;
+  transition: border .2s;
+  border-radius: 4px;
+
+  &:hover {
+    border: 1px solid $black-16;
+    transition: border .2s;
+  }
+}

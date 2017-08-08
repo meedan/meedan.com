@@ -10,6 +10,8 @@
 // Home page branding
 .home--branding {
   padding-top: units(12);
+  padding-bottom: units(10);
+  border-bottom: 1px solid $black-05;
 
   .slogan {
     color: $black-87;

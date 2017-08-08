@@ -1,6 +1,7 @@
 // Recent press component
 //
 [class$='--recent-press'] {
+  background-color: $black-02;
   padding-bottom: units(2);
 
   h3 {
@@ -24,30 +25,28 @@
   li {
     color: $black-87;
     font: $font--subheading-2;
-    padding: units(2);
+    margin: units(1);
+    border-radius: 4px;
     width: 30%;
+    padding: 0;
 
-    p {
-      font: $font--body-2;
-      padding: units(1);
-      transition: background-color .4s;
+    a {
+      display: block;
+      padding: units(2) units(2) units(4);
+      color: $black-87;
+      @extend %card-flat;
 
-      &:hover {
-        background-color: $black-05;
-        border-radius: units(1);
+      p {
+        font: $font--body-2;
         transition: background-color .4s;
       }
     }
 
-    a {
-      color: $black-87;
-      display: block;
-      border-bottom: 0;
-    }
-
     // at smaller sizes
     @include when-smaller-than(large) {
-      width: 100%;
+      width: 80%;
+      margin: units(2) auto;
+      max-width: units(62);
 
       p {
         width: 95%;

@@ -34,11 +34,9 @@
     li {
       height: units(12);
       width: units(25);
-      border: 1px solid $black-05;
       margin: units(1);
-      border-radius: 4px;
       padding: 0;
-      background-color: $white;
+      @extend %card-flat;
     }
 
     a {

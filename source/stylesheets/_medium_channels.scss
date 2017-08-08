@@ -17,6 +17,7 @@
 
   .medium-channel {
     margin: units(2);
+    border-radius: 4px;
 
     @include when-larger-than(medium) {
       // Crop them to the same height
