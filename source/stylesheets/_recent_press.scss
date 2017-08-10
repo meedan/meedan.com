@@ -2,7 +2,7 @@
 //
 [class$='--recent-press'] {
   background-color: $black-02;
-  padding-bottom: units(2);
+  padding-bottom: $width--small-gutter;
 
   h3 {
     width: 100%;
@@ -12,41 +12,58 @@
   .blurbs {
     align-items: stretch;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    // Align to grid, which is defined by the medium cards plus their margins
+    max-width: (($width--primary-card * 2) + ($width--large-gutter * 2));
+    padding: $width--small-gutter;
 
     // at smaller sizes
     @include when-smaller-than(large) {
+      padding: 0;
       flex-flow: column;
-      padding-bottom: units(4);
+      padding-bottom: $width--large-gutter;
     }
   }
 
   // Single blurb with text and logo
   li {
+    @extend %card-flat;
     color: $black-87;
     font: $font--subheading-2;
-    margin: units(1);
-    border-radius: 4px;
-    width: 30%;
+    border-radius: $radius--default;
     padding: 0;
+    margin: 0;
+    max-width: $width--primary-card;
 
-    a {
-      display: block;
-      padding: units(2) units(2) units(4);
-      color: $black-87;
-      @extend %card-flat;
-
-      p {
-        font: $font--body-2;
-        transition: background-color .4s;
+    img {
+      width: 160px;
+      @include when-smaller-than(large) {
+        width: 100px;
       }
     }
 
-    // at smaller sizes
+    &:nth-of-type(2) {
+      margin: 0 $width--large-gutter;
+      @include when-smaller-than(large) {
+        margin: 0 auto;
+      }
+    }
+
+    a {
+      display: block;
+      padding: $width--small-gutter $width--small-gutter $width--large-gutter;
+      color: $black-87;
+
+      p {
+        padding-top: $width--small-gutter;
+        transition: background-color $duration--default;
+        font: $font--body-2;
+      }
+    }
+
     @include when-smaller-than(large) {
-      width: 80%;
-      margin: units(2) auto;
-      max-width: units(62);
+      width: 90%;
+      margin: $width--small-gutter auto;
 
       p {
         width: 95%;

@@ -6,7 +6,7 @@
 //
 [class$='--medium-channels'] {
   background-color: $black-02;
-  padding-bottom: units(2);
+  padding-bottom: $width--small-gutter;
 
   .medium-channels {
     align-items: center;
@@ -16,8 +16,9 @@
   }
 
   .medium-channel {
-    margin: units(2);
-    border-radius: 4px;
+    margin: $width--small-gutter;
+    border-radius: $radius--default;
+    width: $width--primary-card;
 
     @include when-larger-than(medium) {
       // Crop them to the same height

@@ -3,6 +3,15 @@ $breakpoints: (
   'xsmall': 320px, 'small': 400px, 'medium': 730px, 'large': 896px
 );
 
+// Layout
+//
+// The medium channel embeds are the one element on the homepage we don't control. 
+// The width of these embeds therefore defines our grid. :| CGB
+$width--primary-card: 500px;
+$width--large-gutter: units(4);
+$width--small-gutter: units(2);
+$radius--default: 4px;
+
 // Font stacks
 //
 $font-stack--primary: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -18,8 +27,8 @@ $font--subheading-2: 200 20px unquote('/') 32px $font-stack--primary;
 $font--subheading-1: 200 20px unquote('/') 28px $font-stack--primary;
 $font--body-2: 200 16px unquote('/') 24px $font-stack--primary;
 $font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
-$font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
 $font--caption: 400 12px unquote('/') 16px $font-stack--primary;
+
 // Colors
 //
 $check-blue: #3073fd;
@@ -33,6 +42,7 @@ $dark-purple: #0c1c3e;
 $dark-soft-purple: desaturate($dark-purple, 20%);
 
 // Social networks
+//
 $facebook-blue: #3b5999;
 $twitter-blue: #0095ff;
 $google-orange: #db4437;
@@ -53,6 +63,7 @@ $white-50: rgba($white, .5);
 $white-70: rgba($white, .7);
 
 // Check media status colors
+//
 $media-status-blue: $check-blue;
 $media-status-orange: #efac51;
 $media-status-green: #5cae73;
@@ -61,7 +72,14 @@ $media-status-gray: $black-38;
 $media-status-black: $black-54;
 
 // Gradients
+//
 $check-gradient: linear-gradient($check-blue, $check-blue-20);
+
+// Transitions
+$duration--default: .3s;
+
+// Functions
+//
 
 @function box-shadow($level) {
   @if $level == 1 {
@@ -71,6 +89,8 @@ $check-gradient: linear-gradient($check-blue, $check-blue-20);
   }
 }
 
+// Placeholders
+//
 %card {
   background-color: $white;
   box-shadow: box-shadow(1);

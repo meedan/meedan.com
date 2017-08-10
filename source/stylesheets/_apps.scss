@@ -7,6 +7,7 @@
     align-items: stretch;
     display: flex;
     justify-content: center;
+    padding: 0 $width--small-gutter;
     @include when-smaller-than(large) {
       flex-flow: column nowrap;
     }
@@ -14,14 +15,15 @@
 
   .app {
     background: $dark-purple;
-    border-radius: units(1);
+    border-radius: 4px;
     color: $white-70;
-    margin: units(2) units(1);
-    max-width: 90%;
-    padding: units(4);
+    margin: $width--small-gutter;
+    max-width: $width--primary-card;
+    padding: $width--large-gutter;
 
     @include when-smaller-than(large) {
-      margin: units(2) auto;
+      margin: $width--small-gutter auto;
+      max-width: 90%;
     }
 
     p {
@@ -38,7 +40,7 @@
 
     .tagline {
       color: $white-70;
-      padding: 0 0 units(4);
+      padding: 0 0 $width--large-gutter;
     }
 
     .logo-container {
@@ -96,7 +98,7 @@
         color: $white;
         font-weight: bold;
         margin: 0 units(1);
-        padding: units(1) units(2);
+        padding: units(1) $width--small-gutter;
         text-decoration: none;
       }
     }
@@ -104,7 +106,7 @@
 
   @include when-smaller-than(medium) {
     p {
-      padding: 0 0 units(4);
+      padding: 0 0 $width--large-gutter;
       width: 95%;
     }
   }
