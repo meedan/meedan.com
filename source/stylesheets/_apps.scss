@@ -20,6 +20,8 @@
     margin: $width--small-gutter;
     max-width: $width--primary-card;
     padding: $width--large-gutter;
+    display: flex;
+    flex-direction: column;
 
     @include when-smaller-than(large) {
       margin: $width--small-gutter auto;
@@ -92,6 +94,8 @@
     }
 
     .learn {
+      margin-top: auto;
+
       a {
         background-color: $white-10;
         border-radius: units(.5);

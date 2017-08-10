@@ -14,8 +14,8 @@
     display: flex;
     justify-content: space-between;
     // Align to grid, which is defined by the medium cards plus their margins
-    max-width: (($width--primary-card * 2) + ($width--large-gutter * 2));
-    padding: $width--small-gutter;
+    max-width: ($width--primary-card * 2) + ($width--large-gutter * 2) + ($width--small-gutter * 2);
+    padding: $width--large-gutter;
 
     // at smaller sizes
     @include when-smaller-than(large) {
