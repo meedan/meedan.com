@@ -2,32 +2,34 @@
 <% uniqueish_id=rand(300) %>
 
 <section class="subscribe">
-  <h2>
-    <%= t("bridge.branding.call_to_action") %>
-  </h2>
+  <div class="section-inner">
+    <h2>
+      <%= t("bridge.branding.call_to_action") %>
+    </h2>
 
-  <form class="mailchimp validate" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&amp;id=16c3bf2018" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+    <form class="mailchimp validate" action="//meedan.us11.list-manage.com/subscribe/post?u=539fbe59ddc773c6592797bf2&amp;id=16c3bf2018" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 
-    <div class="form-group">
-      <label for="mce-email-<%= uniqueish_id %>">
-        <%= t("bridge.form.label_1") %>
-      </label>
-      <input id="mce-email-<%= uniqueish_id %>" type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com">
-      <input type="submit" value="<%= t('bridge.form.submit')%>" name="subscribe" class="button-flat">
-    </div>
+      <div class="form-group">
+        <label for="mce-email-<%= uniqueish_id %>">
+          <%= t("bridge.form.label_1") %>
+        </label>
+        <input id="mce-email-<%= uniqueish_id %>" type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com">
+        <input type="submit" value="<%= t('bridge.form.submit')%>" name="subscribe" class="button-flat">
+      </div>
 
-     <%# Anti-spam honeypot technique %>
-    <div style="height: 0px; text-indent: 100%; white-space: nowrap; overflow: hidden;">
-      <label for="honeypot-<%= uniqueish_id %>"></label>
-      <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" id="honeypot-<%= uniqueish_id %>" tabindex="-1" value="">
-    </div>
+       <%# Anti-spam honeypot technique %>
+      <div style="height: 0px; text-indent: 100%; white-space: nowrap; overflow: hidden;">
+        <label for="honeypot-<%= uniqueish_id %>"></label>
+        <input type="text" name="b_539fbe59ddc773c6592797bf2_16c3bf2018" id="honeypot-<%= uniqueish_id %>" tabindex="-1" value="">
+      </div>
 
-    <%# Checkbox %>
-    <div class="checkbox">
-      <input type="checkbox" value="1" id="group-7069-<%= uniqueish_id %>" name="group[7069][1]">
-      <label for="group-7069-<%= uniqueish_id %>">
-        <%= t('bridge.form.label_2')%>
-      </label>
-    </div>
-  </form>
+      <%# Checkbox %>
+      <div class="checkbox">
+        <input type="checkbox" value="1" id="group-7069-<%= uniqueish_id %>" name="group[7069][1]">
+        <label for="group-7069-<%= uniqueish_id %>">
+          <%= t('bridge.form.label_2')%>
+        </label>
+      </div>
+    </form>
+  </div>
 </section>

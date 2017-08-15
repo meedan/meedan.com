@@ -13,7 +13,6 @@
 body {
   color: $black-87;
   font: $font--subheading-2;
-  text-align: center;
 }
 
 // Section defaults
@@ -31,21 +30,21 @@ h3 {
   display: block;
   font: $font--headline;
   letter-spacing: .1em;
-  margin: 0 auto;
-  padding: units(8) units(4) units(4);
+  margin: 0;
+  padding: units(8) 0 units(4);
   text-transform: uppercase;
 
   @include when-smaller-than(large) {
-    padding: units(8) units(4);
+    padding: units(8) 0 units(4);
   }
 }
 
 h4 {
-  margin: units(1) auto;
+  margin: units(1) 0;
   max-width: units(70);
 
   @include when-smaller-than(large) {
-    margin: 0 auto;
+    margin: units(1) 0;
     max-width: 61.8%;
   }
 }
@@ -55,14 +54,13 @@ em {
 }
 
 ul {
-  margin: units(1) auto;
+  margin: units(1) 0;
   padding: 0;
-  text-align: center;
 }
 
 li {
   list-style-type: none;
-  padding: 0 units(2) units(2);
+  padding: 0 0 units(2);
 
   @include when-smaller-than(large) {
     display: block;
@@ -72,12 +70,12 @@ li {
 // Paragraphs
 p {
   display: block;
-  margin: 0 auto;
-  max-width: units(70);
+  margin: 0;
+  max-width: units(70) !important;
   padding: 0 0 units(4);
 
   @include when-smaller-than(large) {
-    padding: units(2) units(3);
+    padding: units(2) 0;
   }
 }
 

@@ -26,23 +26,24 @@ ogp:
 
 <%# Bridge branding Section %>
 <section class="bridge--branding">
-
-  <%= partial "partials/image", :locals => {
-      :type => "png",
-      :name => "bridge--branding-#{I18n.locale.to_s}",
-      :path => "screenshots" } %>
-
-  <div class="logo-and-slogan">
+  <div class="section-inner">
     <%= partial "partials/image", :locals => {
-        :type => "svg",
-        :name => "bridge-white" } %>
-    <p class="slogan"><%= t('bridge.branding.slogan')%></p>
-  </div>
-  <div class="app-store">
-    <%= partial "partials/image", :locals => {
-        :type => "svg",
-        :name => "app-store",
-        :url  => "https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8" } %>
+        :type => "png",
+        :name => "bridge--branding-#{I18n.locale.to_s}",
+        :path => "screenshots" } %>
+
+    <div class="logo-and-slogan">
+      <%= partial "partials/image", :locals => {
+          :type => "svg",
+          :name => "bridge-white" } %>
+      <p class="slogan"><%= t('bridge.branding.slogan')%></p>
+    </div>
+    <div class="app-store">
+      <%= partial "partials/image", :locals => {
+          :type => "svg",
+          :name => "app-store",
+          :url  => "https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8" } %>
+    </div>
   </div>
 </section>
 
@@ -54,52 +55,58 @@ ogp:
 <% explanations = t("bridge.explanations") %>
 
 <section class="bridge--explanations">
-  <% for i in 0...explanations.length %>
-    <div class="explanation">
-      <div class="header-and-description">
-        <h3><%= explanations[i][:header] %></h3>
-        <p><%= explanations[i][:text] %></p>
+  <div class="section-inner">
+    <% for i in 0...explanations.length %>
+      <div class="explanation">
+        <div class="header-and-description">
+          <h3><%= explanations[i][:header] %></h3>
+          <p><%= explanations[i][:text] %></p>
+        </div>
+        <%#= Render the image using a partial %>
+        <%#= This assumes the images have numbered filenames %>
+        <div class="screenshot">
+          <%= partial "partials/image", :locals => {
+              :type => "jpg",
+              :path => "screenshots",
+              :name => "bridge--explanation-#{i+1}-#{I18n.locale.to_s}",
+              :alt => explanations[i][:alt] } %>
+        </div>
       </div>
-      <%#= Render the image using a partial %>
-      <%#= This assumes the images have numbered filenames %>
-      <div class="screenshot">
-        <%= partial "partials/image", :locals => {
-            :type => "jpg",
-            :path => "screenshots",
-            :name => "bridge--explanation-#{i+1}-#{I18n.locale.to_s}",
-            :alt => explanations[i][:alt] } %>
-      </div>
-    </div>
-  <% end %>
+    <% end %>
+  </div>
 </section>
 
 <%# History%>
 <section class="bridge--history typography--dense colors--inverted">
-  <h3><%= t("bridge.history.header") %></h3>
-  <% t("bridge.history.paragraphs").each do |e| %>
-    <p><%= e[:text] %></p>
-  <% end %>
+  <div class="section-inner">
+    <h3><%= t("bridge.history.header") %></h3>
+    <% t("bridge.history.paragraphs").each do |e| %>
+      <p><%= e[:text] %></p>
+    <% end %>
+  </div>
 </section>
 
 <%# Logos %>
  <section class="bridge--logos">
-  <h3><%= t("bridge.supporters.header")%></h3>
-  <p><%= t("bridge.supporters.tagline")%></p>
-  <ul class="logos">
-    <li>
-      <%= partial "partials/image", :locals => {
-        :type => "svg",
-        :name => "kf",
-        :url  => "http://www.knightfoundation.org" } %>
-    </li>
-    <li>
-      <%= partial "partials/image", :locals => {
-        :type => "svg",
-        :name => "ng",
-        :url  => "http://www.nationalgeographic.com" } %>
-    </li>
-  </ul>
-  <p><%= t("bridge.supporters.partner_paragraph")%></p>
+  <div class="section-inner">
+    <h3><%= t("bridge.supporters.header")%></h3>
+    <p><%= t("bridge.supporters.tagline")%></p>
+    <ul class="logos">
+      <li>
+        <%= partial "partials/image", :locals => {
+          :type => "svg",
+          :name => "kf",
+          :url  => "http://www.knightfoundation.org" } %>
+      </li>
+      <li>
+        <%= partial "partials/image", :locals => {
+          :type => "svg",
+          :name => "ng",
+          :url  => "http://www.nationalgeographic.com" } %>
+      </li>
+    </ul>
+    <p><%= t("bridge.supporters.partner_paragraph")%></p>
+  </div>
 </section>
 
 <%# Sign up section %>
@@ -107,13 +114,15 @@ ogp:
 
 <%# Footer %>
 <div class="bridge--footer colors--inverted">
-  <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
-  <p>
-    <a href="/en/bridge/bridge_privacy.html">
-      <%= t("footer.privacy") %>
-    </a> |
-    <a href="/en/bridge/bridge_tos.html">
-      <%= t("footer.tos") %>
-    </a>
-  </p>
+  <div class="section-inner">
+    <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
+    <p>
+      <a href="/en/bridge/bridge_privacy.html">
+        <%= t("footer.privacy") %>
+      </a> |
+      <a href="/en/bridge/bridge_tos.html">
+        <%= t("footer.tos") %>
+      </a>
+    </p>
+  </div>
 </div>

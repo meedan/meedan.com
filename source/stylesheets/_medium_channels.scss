@@ -12,19 +12,28 @@
     align-items: center;
     display: flex;
     flex-flow: wrap row;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: -#{$width--small-gutter};
+    @include when-smaller-than(medium) {
+      // margin-left: 0;
+    }
   }
 
   .medium-channel {
     margin: $width--small-gutter;
     border-radius: $radius--default;
-    width: $width--primary-card;
+    width: 45%;
+
+    @include when-smaller-than(medium) {
+      width: 100%;
+    }
 
     @include when-larger-than(medium) {
       // Crop them to the same height
       height: units(80);
       overflow: hidden;
       position: relative;
+      background-color: $black-02;
 
       // with a bottom shadow to hide the cut off text
       // sass-lint:disable no-color-literals

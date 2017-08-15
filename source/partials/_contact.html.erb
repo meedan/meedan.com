@@ -1,62 +1,64 @@
 <section class="contact colors--inverted">
-  <h3>Contact Us</h3>
-  <div class="contact--write">
-    <p><a class="button" href="mailto:hello@meedan.com">hello@meedan.com </a></p>
-  </div>
+  <div class="section-inner">
+    <h3>Contact Us</h3>
+    <div class="contact--write">
+      <p><a class="button" href="mailto:hello@meedan.com">hello@meedan.com </a></p>
+    </div>
 
-  <div class="contact--visit">
-    <ul class="locations">
+    <div class="contact--visit">
+      <ul class="locations">
+        <li>
+          <p>San Francisco</p>
+          <p>1355 Market, Suite 488</p>
+          <p>San Francisco, CA 94103</p>
+          <p>USA</p>
+        </li>
+
+        <li>
+          <p>Vancouver</p>
+          <p>300-422 Richards Street</p>
+          <p>Vancouver, British Columbia</p>
+          <p>Canada, V6B 2Z4</p>
+        </li>
+
+            <li>
+          <p>Salvador</p>
+          <p>Rua Marechal Floriano, 28 - Sala 302</p>
+          <p>CEP 41.110-010</p>
+          <p>Salvador - Bahia - Brazil</p>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="contact--social-media">
       <li>
-        <p>San Francisco</p>
-        <p>1355 Market, Suite 488</p>
-        <p>San Francisco, CA 94103</p>
-        <p>USA</p>
+        <%= partial "partials/image", :locals => {
+            :type => "svg",
+            :name => "github",
+            :url => "http://github.com/Meedan"
+            } %>
       </li>
-
       <li>
-        <p>Vancouver</p>
-        <p>300-422 Richards Street</p>
-        <p>Vancouver, British Columbia</p>
-        <p>Canada, V6B 2Z4</p>
+        <%= partial "partials/image", :locals => {
+            :type => "svg",
+            :name => "fb",
+            :url => "https://www.facebook.com/pages/Meedan/54421674438"
+            } %>
       </li>
-
-          <li>
-        <p>Salvador</p>
-        <p>Rua Marechal Floriano, 28 - Sala 302</p>
-        <p>CEP 41.110-010</p>
-        <p>Salvador - Bahia - Brazil</p>
+      <li>
+        <%= partial "partials/image", :locals => {
+            :type => "svg",
+            :name => "twitter",
+            :url => "http://twitter.com/meedan"
+            } %>
+      </li>
+      <li>
+        <%= partial "partials/image", :locals => {
+            :type => "svg",
+            :name => "youtube",
+            :url => "https://www.youtube.com/user/MeedanTube"
+            } %>
       </li>
     </ul>
   </div>
-
-  <ul class="contact--social-media">
-    <li>
-      <%= partial "partials/image", :locals => {
-          :type => "svg",
-          :name => "github",
-          :url => "http://github.com/Meedan"
-          } %>
-    </li>
-    <li>
-      <%= partial "partials/image", :locals => {
-          :type => "svg",
-          :name => "fb",
-          :url => "https://www.facebook.com/pages/Meedan/54421674438"
-          } %>
-    </li>
-    <li>
-      <%= partial "partials/image", :locals => {
-          :type => "svg",
-          :name => "twitter",
-          :url => "http://twitter.com/meedan"
-          } %>
-    </li>
-    <li>
-      <%= partial "partials/image", :locals => {
-          :type => "svg",
-          :name => "youtube",
-          :url => "https://www.youtube.com/user/MeedanTube"
-          } %>
-    </li>
-  </ul>
 </section>

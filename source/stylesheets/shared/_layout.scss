@@ -10,9 +10,16 @@ body {
   overflow-x: hidden;
 }
 
-section > * {
-  margin: 0 auto;
-  max-width: 1440px;
+.section-inner {
+  margin: 0 units(4);
+  @include when-smaller-than(small) {
+    margin: 0 units(1);
+  }
+
+  > * {
+    margin: 0;
+    max-width: 1440px;
+  }
 }
 
 // English default

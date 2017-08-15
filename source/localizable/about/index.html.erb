@@ -5,35 +5,43 @@ slug: "about"
 
 <%# Team %>
 <section>
-  <h3><%= t("home.team.header") %></h3>
-  <p><%= t("home.team.text") %></p>
-  <ul class="about--team">
-    <% data.team_members.each do |member| %>
-    <li>
-      <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
-      <div class="name"><%= member.fullname %></div>
-      <div class="title"><%= member.title %></div>
-    </li>
-    <% end %>
-  </ul>
+  <div class="section-inner">
+    <h3><%= t("home.team.header") %></h3>
+    <p><%= t("home.team.text") %></p>
+    <ul class="about--team">
+      <% data.team_members.each do |member| %>
+      <li>
+        <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
+        <div class="name"><%= member.fullname %></div>
+        <div class="title"><%= member.title %></div>
+      </li>
+      <% end %>
+    </ul>
+  </div>
 </section>
 
 <%# Recent press %>
 <section class="about--recent-press">
-  <%= partial "partials/press_blurbs" %>
+  <div class="section-inner">
+    <%= partial "partials/press_blurbs" %>
+  </div>
 </section>
 
 <%# About Promo-bar %>
 <div class="about--promo-bar">
-  <p> <%= t("about.we_love") %> <a class="button" href="mailto:hello@meedan.com"> <%= t("about.email_us") %></a></p>
+  <div class="section-inner">
+    <p> <%= t("about.we_love") %> <a class="button" href="mailto:hello@meedan.com"> <%= t("about.email_us") %></a></p>
+  </div>
 </div>
 
 <%# Our Vision %>
 <section class="about--our-vision colors--inverted">
-  <h3><%= t("about.our_vision.header") %></h3>
-  <% t("about.our_vision.paragraphs").each do |e| %>
-    <p><%= e[:text] %></p>
-  <% end %>
+  <div class="section-inner">
+    <h3><%= t("about.our_vision.header") %></h3>
+    <% t("about.our_vision.paragraphs").each do |e| %>
+      <p><%= e[:text] %></p>
+    <% end %>
+  </div>
 </section>
 
 <%# Challenges %>

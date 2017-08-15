@@ -10,7 +10,6 @@
   > img {
     animation: fadeIn 1.2s;
     display: block;
-    margin: 0 auto;
     max-width: 525px;
     width: 100%;
 
@@ -20,7 +19,7 @@
   }
 
   .logo-and-slogan {
-    margin: units(3) auto;
+    margin: units(3) 0;
 
     > img {
       width: 300px;
@@ -33,7 +32,7 @@
   .slogan {
     color: $white-70;
     font: $font--headline;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
 }
