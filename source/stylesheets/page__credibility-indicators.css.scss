@@ -1,11 +1,13 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
 @import 'shared/variables';
 @import 'shared/mixins';
-@import 'shared/units';
-@import "logos";
 
 .credibility-indicators {
   text-align: left;
+
+  .center {
+    text-align: center;
+  }
 
   .inner {
     font-size: 1em;
@@ -30,6 +32,7 @@
 
   h4 {
     margin-left: 0;
+    margin-bottom: units(4);
   }
 
   p {
@@ -41,9 +44,19 @@
 
   ul,
   li {
-    font-weight: 400;
     padding-left: 0;
     margin-left: 0 !important;
+  }
+
+  .goals {
+    em {
+      font-style: normal;
+      font-weight: 800;
+    }
+
+    li {
+      list-style-type: circle;
+    }
   }
 
   ul {
@@ -70,27 +83,59 @@
     position: relative;
   }
 
+  .image-banner.image-1 {
+    background: linear-gradient(rgba(#c86edf, .2), rgba(darken(#e4b7f0, 20%), .4)), url('/images/ciwg/photo-1.jpg');
+    background-size: cover;
+    filter: grayscale(60%);
+
+    @media all and (max-width: units(70)) {
+      background-position: 50% 50%;
+      height: 50vh;
+    }
+
+    @media all and (min-width: units(70)) {
+      background-position: 20% 50%;
+    }
+  }
+
+  .image-banner.image-2 {
+    background: linear-gradient(rgba(#c86edf, .2), rgba(darken(#e4b7f0, 20%), .4)), url('/images/ciwg/photo-2.jpg');
+    background-size: cover;
+    filter: grayscale(60%);
+
+    @media all and (max-width: units(70)) {
+      background-position: 50% 50%;
+      height: 50vh;
+    }
+
+    @media all and (min-width: units(70)) {
+      background-position: 20% 50%;
+    }
+  }
+
   // Caption on the photo
   //
   .caption {
-    // padding-top: 1em;
     color: $black-54;
     font-size: units(2);
     padding: units(2) units(1);
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   .credibility-indicators--logos {
     background-color: $black-02;
     padding: units(4) 0;
     margin: units(4) 0;
+    text-align: center;
 
     .logos {
-      @extend %ensure-no-widows;
-      display: flex;
+      display: inline-flex;
       flex-flow: wrap row;
       justify-content: center;
-      list-style-type: none;
+      margin: 0 auto units(4);
+      max-width: 700px;
 
       li {
         height: units(12);
@@ -98,6 +143,7 @@
         margin: units(1);
         padding: 0;
         @extend %card-flat;
+        list-style-type: none;
       }
 
       a {
@@ -107,6 +153,10 @@
         justify-content: center;
         width: 100%;
         height: 100%;
+        color: $black-87;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
       }
 
       img {
