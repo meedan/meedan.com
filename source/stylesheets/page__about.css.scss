@@ -1,7 +1,6 @@
 // shared.scss is also loaded as a separate stylesheet
 @import 'shared/variables';
 @import 'shared/mixins';
-@import 'shared/units';
 @import 'team';
 @import 'recent_press';
 
@@ -59,6 +58,7 @@
   margin: units(2) units(1);
 
   a {
+    display: inline-block;
     @include when-smaller-than(medium) {
       margin: units(1) units(2);
     }

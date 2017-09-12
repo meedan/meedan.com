@@ -3,9 +3,20 @@ $breakpoints: (
   'xsmall': 320px, 'small': 400px, 'medium': 730px, 'large': 896px
 );
 
+// Basic grid unit
+//
+$unit-size: 8px;
+
+// Helper for accessing the grid unit map
+//
+
+@function units($unit-count) {
+  @return $unit-count * $unit-size;
+}
+
 // Layout
 //
-// The medium channel embeds are the one element on the homepage we don't control. 
+// The medium channel embeds are the one element on the homepage we don't control.
 // The width of these embeds therefore defines our grid. :| CGB
 $width--primary-card: 500px;
 $width--large-gutter: units(4);

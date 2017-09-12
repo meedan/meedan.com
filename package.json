@@ -1,6 +1,6 @@
 {
   "name": "meedan-home",
-  "version": "2.9.4",
+  "version": "2.9.6",
   "description": "The meedan homepage and some static files",
   "main": "src/app.js",
   "repository": "https://github.com/meedan/meedan.com",
@@ -15,7 +15,12 @@
   "author": "Meedan",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.2",
-    "serve-static": "^1.12.1"
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "serve-static": "^1.12.4",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.6.0"
   }
 }
