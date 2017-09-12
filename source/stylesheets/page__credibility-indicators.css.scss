@@ -30,6 +30,11 @@
     padding-left: 0;
   }
 
+  .inner > h3,
+  h2 {
+    padding-top: 0;
+  }
+
   h4 {
     margin-left: 0;
     margin-bottom: units(4);
