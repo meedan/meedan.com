@@ -1,32 +1,15 @@
 // Layout: Team
 //
 // Team headshots in a simple grid
-
 $width--team-member: 160px;
 
 [class$='--team'] {
   align-items: center;
   display: flex;
   flex-flow: wrap row;
-  justify-content: center;
-  margin: units(3) auto;
+  justify-content: flex-start;
+  margin: units(3) 0;
   padding: 0;
-
-  @media (min-width: $width--team-member * 2) {
-    width: $width--team-member * 2 + units(2);
-  }
-
-  @media (min-width: $width--team-member * 4) {
-    width: $width--team-member * 4 + units(2);
-  }
-
-  @media (min-width: $width--team-member * 6) {
-    width: $width--team-member * 6 + units(2);
-  }
-
-  @media (min-width: $width--team-member * 8) {
-    width: $width--team-member * 8 + units(2);
-  }
 
   .name {
     font-weight: 500;

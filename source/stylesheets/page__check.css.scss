@@ -22,8 +22,36 @@
   height: 590px;
   padding-bottom: 0;
   position: relative;
+  animation: fadeIn 1.2s;
+  padding: units(6) 0 units(4);
+  width: 100%;
+
+  > img {
+    animation: fadeIn 1.2s;
+    display: block;
+    max-width: 525px;
+    width: 100%;
+
+    @include when-smaller-than(medium) {
+      width: 90%;
+    }
+  }
+
+  .logo-and-slogan {
+    margin: units(3) auto;
+
+    > img {
+      width: 300px;
+      @include when-smaller-than(small) {
+        width: 90%;
+      }
+    }
+  }
 
   .slogan {
+    color: $white-70;
+    font: $font--headline;
+    margin: 0;
     padding: 0;
   }
 
@@ -55,4 +83,12 @@
       width: 98%;
     }
   }
+}
+
+section {
+  text-align: center;
+}
+
+p {
+  margin: 0 auto !important;
 }

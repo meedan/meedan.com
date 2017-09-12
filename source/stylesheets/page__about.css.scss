@@ -59,8 +59,5 @@
 
   a {
     display: inline-block;
-    @include when-smaller-than(medium) {
-      margin: units(1) units(2);
-    }
   }
 }

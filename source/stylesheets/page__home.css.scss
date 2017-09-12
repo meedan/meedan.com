@@ -6,8 +6,7 @@
 @import 'medium_channels';
 @import 'logos';
 
-// Home page branding
-.home--branding {
+.home--lead {
   padding-top: units(12);
   padding-bottom: units(10);
   border-bottom: 1px solid $black-05;
@@ -16,19 +15,5 @@
     color: $black-87;
     font: $font--headline;
     padding: units(4) 0;
-  }
-}
-
-.meedan-logo-text {
-  img {
-    animation: fadeIn .8s;
-    display: block;
-    height: units(24);
-    margin: units(2);
-    width: 300px;
-
-    @media all and (max-width: 400px) {
-      width: 90%;
-    }
   }
 }
