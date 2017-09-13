@@ -18,21 +18,23 @@
 
   // Typography
   //
+
+  h1 {
+    line-height: 1.2;
+  }
+
   h2 {
     color: $black;
     font-size: 20px;
     font-weight: bold;
-    padding: 4em 0 1em;
-  }
+    padding: 0;
 
-  h3 {
-    font-size: 20px;
-    padding-left: 0;
-  }
-
-  .inner > h3,
-  h2 {
-    padding-top: 0;
+    &.subtitle {
+      font-weight: 200;
+      font-style: italic;
+      text-transform: none;
+      color: $black-54;
+    }
   }
 
   h4 {
@@ -53,7 +55,9 @@
     margin-left: 0 !important;
   }
 
-  .goals {
+  .goals ul {
+    padding: 2em 0;
+
     em {
       font-style: normal;
       font-weight: 800;
@@ -65,7 +69,6 @@
   }
 
   ul {
-    margin: units(1);
     text-align: left;
   }
 
