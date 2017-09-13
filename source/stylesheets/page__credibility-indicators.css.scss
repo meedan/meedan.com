@@ -43,8 +43,9 @@
   }
 
   p {
+    padding: 0;
     min-width: 300px;
-    padding: 2em 0;
+    margin: 2em 0;
     text-align: left;
     max-width: 100%;
   }
@@ -64,6 +65,7 @@
     }
 
     li {
+      margin-bottom: units(2);
       list-style-type: circle;
     }
   }
