@@ -30,7 +30,7 @@ app.get(checkEnglishPages, function(req, res) {
 });
 
 // Redirect to canonical credibility indicators page
-app.get('/ciwg', '/credibility-indicators'], function(req, res) {
+app.get(['/ciwg', '/credibility-indicators'], function(req, res) {
   res.redirect(302, '/en/credibility-indicators');
 });
 // Uncomment once localized 2017-4-20 CGB
