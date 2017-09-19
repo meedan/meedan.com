@@ -44,7 +44,6 @@
 
   p {
     padding: 0;
-    min-width: 300px;
     margin: 2em 0;
     text-align: left;
     max-width: 100%;
@@ -148,8 +147,8 @@
       max-width: 700px;
 
       li {
-        height: units(10);
-        width: units(25);
+        height: units(12);
+        width: units(30);
         margin: units(1);
         padding: 0;
         @extend %card-flat;
@@ -165,7 +164,7 @@
         height: 100%;
         color: $black-87;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 700;
         text-align: center;
       }
