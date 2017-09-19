@@ -44,7 +44,6 @@
 
   p {
     padding: 0;
-    min-width: 300px;
     margin: 2em 0;
     text-align: left;
     max-width: 100%;
@@ -149,7 +148,7 @@
 
       li {
         height: units(12);
-        width: units(25);
+        width: units(30);
         margin: units(1);
         padding: 0;
         @extend %card-flat;
@@ -157,7 +156,7 @@
       }
 
       a {
-        padding: units(1);
+        padding: units(2);
         align-items: center;
         display: flex;
         justify-content: center;
@@ -167,12 +166,13 @@
         text-transform: uppercase;
         font-size: 14px;
         font-weight: 700;
+        text-align: center;
       }
 
-      img {
-        max-height: units(6);
-        max-width: units(16);
-      }
+      // img {
+      //   max-height: units(6);
+      //   max-width: units(16);
+      // }
     }
   }
 }
