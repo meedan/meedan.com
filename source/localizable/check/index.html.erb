@@ -54,12 +54,26 @@ ogp:
 
 <section class="check--featured-client">
 
-  <h3><%= t("check.electionland") %></a>
-  <%= partial "partials/image", :locals => {
+  <h3>
+    As used during
+    <span class="link__electionland">
+      <a href='https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo'>Electionland</a>
+      <%= partial "partials/image", :locals => {
       :type => "svg",
       :name => "electionland-small",
       :url  => "https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo" } %>
+    </span>  
+    <span class="link__crosscheck">
+      and&nbsp;
+      <a href='https://firstdraftnews.com/crosscheck-launches/'>CrossCheck</a>
+      <%= partial "partials/image", :locals => {
+      :type => "png",
+      :name => "crosscheck-small",
+      :url  => "https://firstdraftnews.com/crosscheck-launches/" } %>
+    </span>
   </h3>
+
+  <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
   
   <p><%= partial "partials/typeform__check" %></p>
 </section>
