@@ -53,12 +53,15 @@ ogp:
 </section>
 
 <section class="check--featured-client">
+
   <h3><%= t("check.electionland") %></a>
   <%= partial "partials/image", :locals => {
       :type => "svg",
       :name => "electionland-small",
       :url  => "https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo" } %>
   </h3>
+  
+  <p><%= partial "partials/typeform__check" %></p>
 </section>
 
 <%# Explanations 1, 2, 3 %>
@@ -81,19 +84,15 @@ ogp:
           } %>
       </div>
     </div>
-  <% end %>
-</section>
-
-<%# Request an invite %>
-<section class="check--request-access">
-  <h3><%= t("check.request.header") %></h3>
-  <% t("check.request.paragraphs").each do |e| %>
-    <p><%= e[:text] %></p>
-  <% end %>
+  <% end %>  
 </section>
 
 <%# Newsletter %>
 <section class="check--newsletter">
+  <p>
+    <%= partial "partials/typeform__check" %>
+  </p>
+  
   <h3><%= t("check.newsletter.header") %></h3>
   <p><%= t("check.newsletter.summary") %></p>
 
@@ -111,16 +110,6 @@ ogp:
       <input type="submit" value='<%= t("check.newsletter.button") %>' />
     </div>
   </form>
-</section>
-
-<%# Awards %>
-<section class="check--awards">
-    <%= partial "partials/image", :locals => {
-        :type => "svg",
-        :name => "awards" } %>
-
-    <h3><%= t("check.awards.header") %></h3>
-    <p><%= t("check.awards.summary") %></p>
 </section>
 
 <%# Quotes %>
