@@ -4,16 +4,37 @@
   padding-bottom: 0;
   position: relative;
   background-color: $black-02;
+  $line-height: units(4.5);
+  padding-bottom: units(3);
 
-  .electionland-small {
+  h3 {
+    line-height: $line-height;
+    padding-bottom: units(3);
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $line-height;
+
+    a {
+      text-decoration: none;
+      border-bottom: none;
+    }
+  }
+
+  img {
+    height: units(4);
+    width: units(4);
+    margin: 7px units(1) 0;
+    flex-shrink: 0;
+  }
+
+  .electionland-small,
+  .crosscheck-small {
     border-bottom: 0;
     display: inline;
     text-decoration: none;
-
-    img {
-      height: units(4);
-      vertical-align: top;
-      width: units(4);
-    }
   }
 }

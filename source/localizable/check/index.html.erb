@@ -86,54 +86,14 @@ ogp:
             } %>
         </div>
       </div>
-    <% end %>
-  </div>
+    </div>
+  <% end %>  
 </section>
-
-<%# Request an invite %>
-<section class="check--request-access">
-  <div class="section-inner">
-    <h3><%= t("check.request.header") %></h3>
-    <% t("check.request.paragraphs").each do |e| %>
-      <p><%= e[:text] %></p>
-    <% end %>
-  </div>
-</section>
-
-<%# Newsletter %>
-<section class="check--newsletter">
-  <div class="section-inner">
-    <h3><%= t("check.newsletter.header") %></h3>
-    <p><%= t("check.newsletter.summary") %></p>
-
-    <form class="form-inline tinyletter"
-      action="https://tinyletter.com/TheChecklist"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://tinyletter.com/TheChecklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <div class="form-group">
-        <label for="tlemail"><%= t("check.newsletter.label") %></label>
-        <input type="email"
-          placeholder='<%= t("check.newsletter.placeholder") %>'
-          name="email" id="tlemail" />
-        <input type="hidden" value="1" name="embed"/>
-        <input type="submit" value='<%= t("check.newsletter.button") %>' />
-      </div>
-    </form>
-  </div>
-</section>
-
-<%# Awards %>
-<section class="check--awards">
-  <div class="section-inner">
-    <%= partial "partials/image", :locals => {
-        :type => "svg",
-        :name => "awards" } %>
-
-    <h3><%= t("check.awards.header") %></h3>
-    <p><%= t("check.awards.summary") %></p>
-  </div>
-</section>
+  
+  <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
+  <p>
+    <%= partial "partials/typeform__check" %>
+  </p>
 
 <%# Quotes %>
 <section class="check--quotes">
@@ -169,6 +129,27 @@ ogp:
   </div>
 </section>
 
+<%# Newsletter %>
+<section class="check--newsletter">
+  
+  <h3><%= t("check.newsletter.header") %></h3>
+  <p><%= t("check.newsletter.summary") %></p>
+
+  <form class="form-inline tinyletter"
+    action="https://tinyletter.com/TheChecklist"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/TheChecklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <div class="form-group">
+      <label for="tlemail"><%= t("check.newsletter.label") %></label>
+      <input type="email"
+        placeholder='<%= t("check.newsletter.placeholder") %>'
+        name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed"/>
+      <input type="submit" value='<%= t("check.newsletter.button") %>' />
+    </div>
+  </form>
+</section>
 <%# Partners %>
 <section class="check--logos">
   <div class="section-inner">
