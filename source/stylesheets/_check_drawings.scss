@@ -1,3 +1,4 @@
+// Drawings on the check page.
 .drawing-1 {
   bottom: 0;
   height: 360px;
@@ -33,7 +34,6 @@
       top: 130px;
 
       .icon {
-
         &.twitter {
           path {
             fill: $media-status-green;
@@ -53,7 +53,6 @@
       top: 80px;
 
       .icon {
-
         &.twitter {
           display: none;
         }
@@ -73,7 +72,6 @@
       top: 0;
 
       .icon {
-
         &.twitter {
           display: none;
         }

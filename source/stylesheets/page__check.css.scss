@@ -1,7 +1,7 @@
 // shared.scss is also loaded as a separate stylesheet
 @import 'shared/variables';
 @import 'shared/mixins';
-@import 'drawings';
+@import 'check_drawings';
 @import 'featured_client';
 @import 'logos';
 @import 'recent_press';
@@ -13,6 +13,7 @@
 // Check branding section
 //
 .check--branding {
+  animation: fadeIn 1.2s;
   background: $check-blue;
   background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
   background-position: 50%;
@@ -20,31 +21,29 @@
   background-size: cover;
   color: $white;
   height: 590px;
+  padding: units(6) 0 units(4);
   padding-bottom: 0;
   position: relative;
-  animation: fadeIn 1.2s;
-  padding: units(6) 0 units(4);
   width: 100%;
 
   > img {
+    @include when-smaller-than(medium) {
+      width: 90%;
+    }
     animation: fadeIn 1.2s;
     display: block;
     max-width: 525px;
     width: 100%;
-
-    @include when-smaller-than(medium) {
-      width: 90%;
-    }
   }
 
   .logo-and-slogan {
     margin: units(3) auto;
 
     > img {
-      width: 300px;
       @include when-smaller-than(small) {
         width: 90%;
       }
+      width: 300px;
     }
   }
 
@@ -74,8 +73,6 @@
 }
 
 .screenshot {
-  margin: 0 auto;
-
   @include when-smaller-than(medium) {
     max-width: 550px;
 
@@ -83,6 +80,7 @@
       width: 98%;
     }
   }
+  margin: 0 auto;
 }
 
 section {

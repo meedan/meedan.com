@@ -1,15 +1,16 @@
 // shared.scss is also loaded as a separate stylesheet
 @import 'shared/variables';
 @import 'shared/mixins';
+@import 'drawings__home';
 @import 'apps';
 @import 'recent_press';
 @import 'medium_channels';
 @import 'logos';
 
 .home--lead {
-  padding-top: units(12);
-  padding-bottom: units(10);
   border-bottom: 1px solid $black-05;
+  padding-bottom: units(10);
+  padding-top: units(12);
 
   .slogan {
     color: $black-87;
