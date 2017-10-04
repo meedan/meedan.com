@@ -1,0 +1,196 @@
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import 'shared/variables';
+@import 'shared/mixins';
+
+.credibility-indicators {
+  text-align: left;
+
+  .center {
+    text-align: center;
+  }
+
+  .inner {
+    font-size: 1em;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em 1em 0;
+  }
+
+  // Typography
+  //
+
+  h1 {
+    line-height: 1.2;
+  }
+
+  h2 {
+    color: $black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+
+    &.subtitle {
+      color: $black-54;
+      font-style: italic;
+      font-weight: 200;
+      text-transform: none;
+    }
+  }
+
+  h4 {
+    margin-bottom: units(4);
+    margin-left: 0;
+  }
+
+  p {
+    margin: 2em 0;
+    max-width: 100%;
+    padding: 0;
+    text-align: left;
+  }
+
+  ul,
+  li {
+    margin-left: 0 !important;
+    padding-left: 0;
+  }
+
+  ul.goals {
+    em {
+      font-style: normal;
+      font-weight: 800;
+    }
+
+    li {
+      list-style-type: circle;
+      margin-bottom: units(2);
+    }
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  // Image banner sections
+  //
+  .image-banner {
+    background-size: cover;
+    height: 70vh;
+
+    &.placeholder {
+      background-color: #f8f8f8;
+    }
+  }
+
+  .image-banner-wrap {
+    position: relative;
+  }
+
+  .image-banner.image-1 {
+
+    @media all and (max-width: units(70)) {
+      background-position: 50% 50%;
+      height: 50vh;
+    }
+
+    @media all and (min-width: units(70)) {
+      background-position: 20% 50%;
+    }
+    background: linear-gradient(rgba(#c86edf, .2), rgba(darken(#e4b7f0, 20%), .4)), url('/images/ciwg/photo-1.jpg');
+    background-size: cover;
+    filter: grayscale(60%);
+  }
+
+  .image-banner.image-2 {
+
+    @media all and (max-width: units(70)) {
+      background-position: 50% 50%;
+      height: 50vh;
+    }
+
+    @media all and (min-width: units(70)) {
+      background-position: 20% 50%;
+    }
+    background: linear-gradient(rgba(#c86edf, .2), rgba(darken(#e4b7f0, 20%), .4)), url('/images/ciwg/photo-2.jpg');
+    background-size: cover;
+    filter: grayscale(60%);
+  }
+
+  // Caption on the photo
+  //
+  .caption {
+    color: $black-54;
+    font-size: units(2);
+    margin: 0 auto;
+    max-width: 800px;
+    padding: units(2) units(1);
+    text-align: center;
+  }
+
+  .credibility-indicators--logos {
+    background-color: $black-02;
+    margin: units(4) 0;
+    padding: units(4) 0;
+    text-align: center;
+
+    .logos {
+      display: inline-flex;
+      flex-flow: wrap row;
+      justify-content: center;
+      margin: 0 auto units(4);
+      max-width: 700px;
+
+      li {
+        @extend %card-flat;
+        height: units(12);
+        list-style-type: none;
+        margin: units(1);
+        padding: 0;
+        width: units(30);
+      }
+
+      a {
+        align-items: center;
+        color: $black-87;
+        display: flex;
+        font-size: 14px;
+        font-weight: 700;
+        height: 100%;
+        justify-content: center;
+        padding: units(2);
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+      }
+
+      img {
+        max-height: units(6);
+        max-width: units(16);
+      }
+
+      .kf {
+        img {
+          max-height: units(16);
+          max-width: units(20);
+          width: units(20);
+        }
+      }
+    }
+  }
+}
+
+ul.contributors {
+  font-size: 16px;
+
+  li {
+    font-weight: 400;
+  }
+
+  a {
+    font-weight: 400;
+  }
+}
