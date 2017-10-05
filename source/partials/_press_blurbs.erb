@@ -17,11 +17,15 @@
     </a>
   </li>
 
-  <li class="blurb--fortune">
-    <a href="http://fortune.com/2015/06/18/google-crowdsourcing-news/">
-      <img class="logo" src="/images/logos/fortune@1x.jpg" alt="Fortune Magazine logo" srcset="/images/logos/fortune@2x.jpg 2x">
+  <li class="blurb--googlenewslab">
+    <a href="https://medium.com/google-news-lab/teamwork-training-trends-google-news-lab-and-the-uk-election-b9888749f504">
+      <%= partial "partials/image",
+          :locals => {
+            :type => 'png',
+            :name => 'gnl'
+          } %>
       <p>
-          <%= t("about.recent_press.fortune") %>
+          <%= t("about.recent_press.googlenewslab") %>
       </p>
     </a>
   </li>
