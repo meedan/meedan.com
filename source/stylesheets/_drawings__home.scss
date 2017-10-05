@@ -1,24 +1,22 @@
 // Drawings on the homepage
 .drawings__home {
-  border: 1px solid red;
   position: absolute;
   width: 100%;
 
   .lines {
-    border: 1px solid pink;
     height: 500px;
     position: absolute;
-    right: -25%;
-    top: -15%;
+    right: 0px;
+    top: -100px;
     transform: rotate(-45deg);
-    width: 400px;
+    width: 700px;
 
     div {
-      background-color: $black-05;
+      background-color: $black-02;
       border-radius: 20px;
       height: 40px;
       position: absolute;
-      width: 256px;
+      width: 456px;
 
       &:nth-of-type(1) {
         left: 100px;
@@ -43,16 +41,14 @@
   }
 
   .circles {
-    border: 1px solid red;
     height: 500px;
     position: absolute;
-    right: -25%;
-    top: -15%;
+    right: 493px;
+    top: -100px;
     transform: rotate(-45deg);
-    width: 400px;
 
     div {
-      background-color: $black-05;
+      background-color: $black-02;
       border-radius: 20px;
       height: 40px;
       position: absolute;
@@ -79,27 +75,44 @@
   }
 
   .triangles {
-    border: 1px solid blue;
     height: 500px;
-    width: 100%;
+    position: absoulte;
+    bottom: 0;
+    border: 1px solid aqua;
 
     div {
+      position: absolute;
+
       &:nth-of-type(1) {
         background-color: $bridge-orange;
-        border-radius: 5px;
-        right: 0;
-        // top: 138px;
-        width: 152px;
-        width: 152px;
+        border-radius: 10%;
+        width: units(20);
+        height: units(20);
+        transform: rotate(45deg);
+        right: -1 * units(11);
+        top: units(8);
+        @include when-smaller-than(medium) {
+          width: units(5);
+          height: units(5);
+          right: -1 * units(3);
+        }
       }
 
       &:nth-of-type(2) {
         background-color: $check-blue;
-        border-radius: 5px;
+        border-radius: 10%;
         left: 0;
-        // top: 450px;
-        width: 80px;
-        width: 80px;
+        width: units(12);
+        height: units(12);
+        transform: rotate(45deg);
+        left: -1 * units(7);
+        top: units(52);
+        @include when-smaller-than(medium) {
+          width: units(7);
+          height: units(7);
+          left: -1 * units(4);
+          top: units(72);
+        }
       }
     }
   }
