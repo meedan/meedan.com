@@ -3,7 +3,6 @@
   bottom: 0;
   height: 360px;
   left: 0;
-  margin: 0 auto;
   overflow: hidden;
   position: absolute;
   right: 0;
@@ -18,7 +17,7 @@
   & > div {
     box-shadow: $black-38 -10px 10px 0 0;
     height: 300px;
-    margin: 0 auto;
+    margin: 0 0 0 units(3);
     max-width: 500px;
     padding: 20px;
     position: absolute;

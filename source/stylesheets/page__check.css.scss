@@ -37,7 +37,7 @@
   }
 
   .logo-and-slogan {
-    margin: units(3) auto;
+    margin: units(3) 0;
 
     > img {
       @include when-smaller-than(small) {
@@ -80,15 +80,6 @@
       width: 98%;
     }
   }
-  margin: 0 auto;
-}
-
-section {
-  text-align: center;
-}
-
-p {
-  margin: 0 auto !important;
 }
 
 .check--newsletter {

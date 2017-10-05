@@ -8,7 +8,6 @@
 // Bridge branding section
 .bridge--branding {
   background: $bridge-orange;
-  text-align: center;
   animation: fadeIn 1.2s;
   padding: units(6) 0 units(4);
   width: 100%;
@@ -25,7 +24,7 @@
   }
 
   .logo-and-slogan {
-    margin: units(3) auto;
+    margin: units(3) 0;
 
     > img {
       width: 300px;
@@ -38,7 +37,7 @@
   .slogan {
     color: $white-70;
     font: $font--headline;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
 
@@ -59,7 +58,7 @@
   }
 
   .checkbox {
-    margin: 0 auto;
+    margin: 0;
     max-width: units(70);
     padding: units(2) 0;
 

@@ -4,7 +4,6 @@
 // The amount of text is usually just one paragraph.
 // There is a header for each screenshot and paragraph.
 [class$='--explanations'] {
-  margin: 0 auto;
   max-width: 800px;
   width: 100%;
 
@@ -19,7 +18,7 @@
     }
 
     .header-and-description {
-      padding: units(3);
+      padding: units(3) units(3) units(3) 0;
       width: 50%;
 
       // At smaller sizes
