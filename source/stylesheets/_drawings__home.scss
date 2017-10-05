@@ -1,7 +1,8 @@
 // Drawings on the homepage
-.drawings__home {
+.drawings__home-1 {
   position: absolute;
   width: 100%;
+  z-index: -1;
 
   .lines {
     height: 500px;
@@ -9,14 +10,14 @@
     right: 0px;
     top: -100px;
     transform: rotate(-45deg);
-    width: 700px;
+    width: 500px;
 
     div {
       background-color: $black-02;
-      border-radius: 20px;
-      height: 40px;
+      border-radius: units(3);
+      height: units(4);
       position: absolute;
-      width: 456px;
+      width: units(50);
 
       &:nth-of-type(1) {
         left: 100px;
@@ -24,8 +25,8 @@
       }
 
       &:nth-of-type(2) {
-        left: 390px;
-        top: 220px;
+        left: 280px;
+        top: 120px;
       }
 
       &:nth-of-type(3) {
@@ -34,8 +35,8 @@
       }
 
       &:nth-of-type(4) {
-        left: 340px;
-        top: 530px;
+        left: 240px;
+        top: 420px;
       }
     }
   }
@@ -74,46 +75,47 @@
     }
   }
 
-  .triangles {
+  .triangle-1 {
     height: 500px;
     position: absoulte;
     bottom: 0;
-    border: 1px solid aqua;
 
     div {
       position: absolute;
-
-      &:nth-of-type(1) {
-        background-color: $bridge-orange;
-        border-radius: 10%;
-        width: units(20);
-        height: units(20);
-        transform: rotate(45deg);
-        right: -1 * units(11);
-        top: units(8);
-        @include when-smaller-than(medium) {
-          width: units(5);
-          height: units(5);
-          right: -1 * units(3);
-        }
+      background-color: $bridge-orange;
+      border-radius: 7%;
+      width: units(20);
+      height: units(20);
+      transform: rotate(45deg);
+      right: -1 * units(11);
+      top: units(8);
+      @include when-smaller-than(medium) {
+        width: units(8);
+        height: units(8);
+        right: -1 * units(5);
       }
+    }
+  }
+}
 
-      &:nth-of-type(2) {
-        background-color: $check-blue;
-        border-radius: 10%;
-        left: 0;
-        width: units(12);
-        height: units(12);
-        transform: rotate(45deg);
-        left: -1 * units(7);
-        top: units(52);
-        @include when-smaller-than(medium) {
-          width: units(7);
-          height: units(7);
-          left: -1 * units(4);
-          top: units(72);
-        }
-      }
+.drawings__home-2 {
+  position: relative;
+
+  .triangle-2 {
+    position: absolute;
+    background-color: $check-blue;
+    border-radius: 7%;
+    left: 0;
+    width: units(12);
+    height: units(12);
+    transform: rotate(45deg);
+    left: -1 * units(8);
+    top: -1 * units(10);
+    @include when-smaller-than(medium) {
+      width: units(7);
+      height: units(7);
+      left: -1 * units(4);
+      top: -1 * units(6);
     }
   }
 }

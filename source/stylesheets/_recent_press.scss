@@ -40,8 +40,16 @@
 
     img {
       width: 160px;
+
+      &.gnl {
+        width: 200px;
+      }
       @include when-smaller-than(large) {
-        width: 140px;
+        width: 100px;
+
+        &.gnl {
+          width: 140px;
+        }
       }
     }
 
