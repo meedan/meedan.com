@@ -62,7 +62,7 @@ ogp:
       :type => "svg",
       :name => "electionland-small",
       :url  => "https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b#.eaxlz5rvo" } %>
-    </span>  
+    </span>
     <span class="link__crosscheck">
       and&nbsp;
       <a href='https://firstdraftnews.com/crosscheck-launches/'>CrossCheck</a>
@@ -74,7 +74,7 @@ ogp:
   </h3>
 
   <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
-  
+
   <p><%= partial "partials/typeform__check" %></p>
 </section>
 
@@ -98,9 +98,9 @@ ogp:
           } %>
       </div>
     </div>
-  <% end %>  
+  <% end %>
 </section>
-  
+
   <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
   <p>
     <%= partial "partials/typeform__check" %>
@@ -138,7 +138,7 @@ ogp:
 
 <%# Newsletter %>
 <section class="check--newsletter">
-  
+
   <h3><%= t("check.newsletter.header") %></h3>
   <p><%= t("check.newsletter.summary") %></p>
 
@@ -162,7 +162,7 @@ ogp:
   <h3><%= t("check.partners.header") %></h3>
   <p><%= t("check.partners.text") %></p>
   <ul class="logos">
-    <% data.check_partner_logos.each do |image| %>
+    <% data.check_supporter_logos.each do |image| %>
       <li>
         <%= partial "partials/image", :locals => {
             :type => image[:type],

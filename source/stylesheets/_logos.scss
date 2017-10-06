@@ -32,20 +32,20 @@
     list-style-type: none;
 
     li {
+      @extend %card-flat;
       height: units(12);
-      width: units(25);
       margin: units(1);
       padding: 0;
-      @extend %card-flat;
+      width: units(25);
     }
 
     a {
-      padding: units(1);
       align-items: center;
       display: flex;
-      justify-content: center;
-      width: 100%;
       height: 100%;
+      justify-content: center;
+      padding: units(1);
+      width: 100%;
     }
 
     img {
@@ -71,7 +71,8 @@
     .ff,
     .bcu,
     .bc,
-    .amnesty {
+    .amnesty,
+    .gnl {
       img {
         max-height: units(16);
         max-width: units(20);
