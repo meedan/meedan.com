@@ -55,7 +55,14 @@ ogp:
 </section>
 
 <section class="check--featured-client">
-  <div class="section-inner">
+  <div class="section-inner row">
+
+    <div class="sign-up">
+      <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
+
+      <p><%= partial "partials/typeform__check" %></p>
+    </div>
+
     <h3>
       As used during
       <span class="link__electionland">
@@ -74,10 +81,6 @@ ogp:
         :url  => "https://firstdraftnews.com/crosscheck-launches/" } %>
       </span>
     </h3>
-
-    <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
-
-    <p><%= partial "partials/typeform__check" %></p>
   </div>
 </section>
 
@@ -86,7 +89,7 @@ ogp:
   <div class="section-inner">
     <% explanations = t("check.explanations") %>
     <% for i in 0...explanations.length %>
-      <div class="explanation">
+      <div class="explanation row">
         <div class="header-and-description">
           <h3><%= explanations[i][:header] %></h3>
           <p><%= explanations[i][:text] %></p>
@@ -106,8 +109,8 @@ ogp:
   </div>
 </section>
 
-<section>
-  <div class="section-inner">
+<section class="alternate-colors">
+  <div class="section-inner row">
     <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
     <p>
       <%= partial "partials/typeform__check" %>
@@ -117,7 +120,7 @@ ogp:
 
 <%# Quotes %>
 <section class="check--quotes">
-  <div class="section-inner">
+  <div class="section-inner row">
     <% t("check.testimonials.quotes").each do |t| %>
         <div class="quote" lang="en">
           <p>

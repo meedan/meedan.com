@@ -71,7 +71,7 @@ li {
 p {
   display: block;
   margin: 0;
-  max-width: units(70) !important;
+  max-width: units(70);
   padding: 0 0 units(4);
 
   @include when-smaller-than(large) {

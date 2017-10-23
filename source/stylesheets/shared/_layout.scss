@@ -11,14 +11,27 @@ body {
 }
 
 .section-inner {
-  margin: 0 units(4);
   @include when-smaller-than(small) {
     margin: 0 units(1);
+  }
+
+  @include when-larger-than(small) {
+    margin: 0 auto;
+    padding: 0 units(4);
+    max-width: 960px;
   }
 
   > * {
     margin: 0;
     max-width: 1440px;
+  }
+}
+
+.row {
+  @include when-larger-than(medium) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
 

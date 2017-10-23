@@ -1,10 +1,6 @@
 // Component: Quotes
 //
 [class$='--quotes'] {
-  align-items: center;
-  display: flex;
-  flex-flow: wrap row;
-
   p {
     font-size: 1em;
     text-align: start;
@@ -15,15 +11,10 @@
   }
 
   .quote {
-    display: inline;
-    margin-top: 2em;
-    padding: 2em .5em;
-    vertical-align: top;
-    width: 28%;
+    padding: units(3) units(3) 0 0;
 
     .attribution--name,
     .attribution--website {
-      display: inline;
       font-weight: 700;
       padding: 0;
     }
