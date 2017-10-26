@@ -1,36 +1,34 @@
 // shared.scss is also loaded as a separate stylesheet
-@import 'shared/variables';
-@import 'shared/mixins';
+@import 'shared/shared';
 @import 'explanations-bridge';
 @import 'logos';
 @import 'footer';
 
 // Bridge branding section
-.bridge--branding {
-  background: $bridge-orange;
+.bridge__branding {
   animation: fadeIn 1.2s;
+  background: $bridge-orange;
   padding: units(6) 0 units(4);
   width: 100%;
 
   > img {
+    @include when-smaller-than(medium) {
+      width: 90%;
+    }
     animation: fadeIn 1.2s;
     display: block;
     max-width: 525px;
     width: 100%;
-
-    @include when-smaller-than(medium) {
-      width: 90%;
-    }
   }
 
   .logo-and-slogan {
     margin: units(3) 0;
 
     > img {
-      width: 300px;
       @include when-smaller-than(small) {
         width: 90%;
       }
+      width: 300px;
     }
   }
 
@@ -58,13 +56,12 @@
   }
 
   .checkbox {
-    margin: 0;
-    max-width: units(70);
-    padding: units(2) 0;
-
     @include when-smaller-than(medium) {
       font-size: 14px;
     }
+    margin: 0;
+    max-width: units(70);
+    padding: units(2) 0;
 
     label {
       font: 200 $font--body-1;

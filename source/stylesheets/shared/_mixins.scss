@@ -2,15 +2,13 @@
 // Responsive mixin helpers
 //
 @mixin when-smaller-than($breakpoint) {
-  $value: map-get($breakpoints, $breakpoint);
-  @media (max-width: $value) {
+  @media (max-width: map-get($breakpoints, $breakpoint)) {
     @content;
   }
 }
 
 @mixin when-larger-than($breakpoint) {
-  $value: map-get($breakpoints, $breakpoint);
-  @media (min-width: $value) {
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
     @content;
   }
 }

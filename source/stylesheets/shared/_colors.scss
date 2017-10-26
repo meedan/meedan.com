@@ -17,3 +17,14 @@ body {
     }
   }
 }
+
+.colors--alternate {
+  background-color: $black-02;
+  margin-bottom: units(4);
+  padding: units(10) 0;
+
+  p {
+    padding-bottom: 0;
+  }
+}
+

@@ -3,28 +3,28 @@
 // These are screenshots with with paragraphs of text.
 // The amount of text is usually just one paragraph.
 // There is a header for each screenshot and paragraph.
-[class$='--explanations'] {
+[class$='__explanations'] {
   max-width: 800px;
   width: 100%;
 
   .explanation {
-    align-items: flex-start;
-    display: flex;
-    margin-top: 2em;
 
     // At smaller sizes
     @include when-smaller-than(medium) {
       display: block;
     }
+    align-items: flex-start;
+    display: flex;
+    margin-top: 2em;
 
     .header-and-description {
-      padding: units(3) units(3) units(3) 0;
-      width: 50%;
 
       // At smaller sizes
       @include when-smaller-than(large) {
         width: 90%;
       }
+      padding: units(3) units(3) units(3) 0;
+      width: 50%;
     }
 
     h3 {
@@ -33,31 +33,29 @@
     }
 
     p {
-      margin: 0;
-      text-align: start;
-      vertical-align: top;
-      width: 100%;
-
       @include when-smaller-than(large) {
         max-width: 100%;
         padding: 0;
       }
+      margin: 0;
+      text-align: start;
+      vertical-align: top;
+      width: 100%;
     }
   }
 
   .screenshot {
-    img {
-      max-width: 300px;
-
-      @include when-smaller-than(medium) {
-        margin: 0 auto;
-      }
-    }
-
     @include when-smaller-than(medium) {
       margin: 2em auto;
       max-width: 425px;
       width: 90%;
+    }
+
+    img {
+      @include when-smaller-than(medium) {
+        margin: 0 auto;
+      }
+      max-width: 300px;
     }
   }
 }

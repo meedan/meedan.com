@@ -104,8 +104,8 @@ $duration--default: .3s;
 //
 %card {
   background-color: $white;
-  box-shadow: box-shadow(1);
   border: 1px solid $black-05;
+  box-shadow: box-shadow(1);
   transition: box-shadow .2s;
 
   &:hover {
@@ -117,8 +117,8 @@ $duration--default: .3s;
 %card-flat {
   background-color: $white;
   border: 1px solid $black-08;
-  transition: border .2s;
   border-radius: 4px;
+  transition: border .2s;
 
   &:hover {
     border: 1px solid $black-16;

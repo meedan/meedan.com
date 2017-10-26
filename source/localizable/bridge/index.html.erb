@@ -8,12 +8,6 @@ ogp:
     title: "Bridge"
     url: "http://meedan.com/bridge"
     type: "business.business"
-    business:
-      contact_data:
-        street_address: "972 Mission St."
-        locality: "San Francisco"
-        postal_code: "94103"
-        country_name: "USA"
     image:
       '': "http://meedan.com/images/logos/bridge-open-graph-logo.png"
       type: "image/png"
@@ -25,11 +19,11 @@ ogp:
 ---
 
 <%# Bridge branding Section %>
-<section class="bridge--branding">
+<section class="bridge__branding">
   <div class="section-inner">
     <%= partial "partials/image", :locals => {
         :type => "png",
-        :name => "bridge--branding-#{I18n.locale.to_s}",
+        :name => "bridge__branding-#{I18n.locale.to_s}",
         :path => "screenshots" } %>
 
     <div class="logo-and-slogan">
@@ -37,12 +31,6 @@ ogp:
           :type => "svg",
           :name => "bridge-white" } %>
       <p class="slogan"><%= t('bridge.branding.slogan')%></p>
-    </div>
-    <div class="app-store">
-      <%= partial "partials/image", :locals => {
-          :type => "svg",
-          :name => "app-store",
-          :url  => "https://itunes.apple.com/us/app/bridge-translate-social-media/id1050310015?mt=8" } %>
     </div>
   </div>
 </section>
@@ -54,7 +42,7 @@ ogp:
 <%#= Store the localized explanations (in locales dir) as an array %>
 <% explanations = t("bridge.explanations") %>
 
-<section class="bridge--explanations">
+<section class="bridge__explanations">
   <div class="section-inner">
     <% for i in 0...explanations.length %>
       <div class="explanation">
@@ -68,7 +56,7 @@ ogp:
           <%= partial "partials/image", :locals => {
               :type => "jpg",
               :path => "screenshots",
-              :name => "bridge--explanation-#{i+1}-#{I18n.locale.to_s}",
+              :name => "bridge__explanation-#{i+1}-#{I18n.locale.to_s}",
               :alt => explanations[i][:alt] } %>
         </div>
       </div>
@@ -77,7 +65,7 @@ ogp:
 </section>
 
 <%# History%>
-<section class="bridge--history typography--dense colors--inverted">
+<section class="bridge__history typography--dense colors--inverted">
   <div class="section-inner">
     <h3><%= t("bridge.history.header") %></h3>
     <% t("bridge.history.paragraphs").each do |e| %>
@@ -87,7 +75,7 @@ ogp:
 </section>
 
 <%# Logos %>
- <section class="bridge--logos">
+ <section class="bridge__logos">
   <div class="section-inner">
     <h3><%= t("bridge.supporters.header")%></h3>
     <p><%= t("bridge.supporters.tagline")%></p>
@@ -113,7 +101,7 @@ ogp:
 <%= partial "partials/bridge_subscribe" %>
 
 <%# Footer %>
-<div class="bridge--footer colors--inverted">
+<div class="bridge__footer colors--inverted">
   <div class="section-inner">
     <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
     <p>

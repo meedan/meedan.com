@@ -1,13 +1,10 @@
-// shared.scss is also loaded as a separate stylesheet
-@import 'shared/variables';
-@import 'shared/mixins';
+@import 'shared/shared';
 @import 'team';
 @import 'recent_press';
 
-
 // About: Branding section
 //
-.about--branding {
+.about__branding {
   background-image: url('/images/annual-report/group.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -24,13 +21,13 @@
 
 // About: Challenges section
 //
-.about--challenges {
+.about__challenges {
   background-color: $black-05;
 }
 
 // About: Products photo
 //
-.about--products-photo {
+.about__products-photo {
   background-image: url('/images/annual-report/team-3-aqua-screen.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -40,22 +37,37 @@
 
 // About: Products text
 //
-.about--products {
+.about__products {
   background-color: $black-05;
+
+  p {
+    padding-bottom: 0;
+  }
+}
+
+.about__public-engage {
+  p {
+    padding-bottom: 0;
+  }
 }
 
 // About: public engagement photo
 //
-.about--background-photo {
+.about__background-photo {
   background-image: url('/images/annual-report/team-6-peach-screen.jpg');
   background-position: 40% left;
 }
 
 // About: Promo bar div
 //
-.about--promo-bar {
+.about__promo-bar {
   font: $font--subheading-2;
   margin: units(2) units(1);
+  padding: units(4);
+
+  p {
+    padding: 0;
+  }
 
   a {
     display: inline-block;

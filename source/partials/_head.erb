@@ -15,9 +15,6 @@
     <%= "<meta property='#{name}' content='#{value}'>" %>
   <% end %>
 
-  <%# Shared styles %>
-  <%= stylesheet_link_tag "stylesheets/shared/shared.css" %>
-
   <%# Print styles, only for annual reports %>
   <% if slug.include?("annual-report") %>
     <%= stylesheet_link_tag "stylesheets/print" %>

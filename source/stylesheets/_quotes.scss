@@ -1,30 +1,36 @@
 // Component: Quotes
 //
-[class$='--quotes'] {
-  p {
-    font-size: 1em;
-    text-align: start;
+[class*='__quotes'] {
+  margin-bottom: 0;
 
-    &:lang(en) {
-      text-align: left;
-    }
+  .row {
+    align-items: center;
+  }
+
+  .quotes {
+    margin-top: units(4);
   }
 
   .quote {
-    padding: units(3) units(3) 0 0;
+    @extend %card-flat;
 
-    .attribution--name,
-    .attribution--website {
-      font-weight: 700;
-      padding: 0;
+    @include when-larger-than(medium) {
+      &__text {
+        min-height: 200px;
+      }
     }
-  }
+    font: $font--body-2;
+    margin: units(3) units(3) units(3) 0;
+    padding: units(3);
 
-  @include when-smaller-than(large) {
-    flex-flow: column nowrap;
+    &__attribution-name,
+    &__attribution-website {
+      font-weight: 500;
+      padding: 0;
 
-    .quote {
-      width: 100%;
+      a {
+        border: none;
+      }
     }
   }
 }

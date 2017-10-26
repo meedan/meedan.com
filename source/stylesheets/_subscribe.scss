@@ -13,12 +13,12 @@
   }
 
   .checkbox {
-    margin: 0 auto;
-    max-width: units(70);
-    padding: units(2) 0;
     @include when-smaller-than(medium) {
       font-size: 14px;
     }
+    margin: 0 auto;
+    max-width: units(70);
+    padding: units(2) 0;
 
     label {
       font: 200 $font--body-1;

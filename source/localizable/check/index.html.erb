@@ -8,12 +8,6 @@ ogp:
     title: "Check"
     url: "http://meedan.com/check"
     type: "business.business"
-    business:
-      contact_data:
-        street_address: "972 Mission St."
-        locality: "San Francisco"
-        postal_code: "94103"
-        country_name: "USA"
     image:
       '': "http://meedan.com/images/logos/check-open-graph-logo.png"
       type: "image/png"
@@ -25,7 +19,7 @@ ogp:
 ---
 
 <%# Branding %>
-<section class="check--branding">
+<section class="check__branding">
   <div class="section-inner">
 
     <%= partial "partials/image", :locals => {
@@ -54,7 +48,7 @@ ogp:
   </div>
 </section>
 
-<section class="check--featured-client">
+<section class="check__featured-client">
   <div class="section-inner row">
 
     <div class="sign-up">
@@ -85,7 +79,7 @@ ogp:
 </section>
 
 <%# Explanations 1, 2, 3 %>
-<section class="check--explanations">
+<section class="check__explanations">
   <div class="section-inner">
     <% explanations = t("check.explanations") %>
     <% for i in 0...explanations.length %>
@@ -99,7 +93,7 @@ ogp:
           <%= partial "partials/image", :locals => {
             :type   => "jpg",
             :path   => "screenshots",
-            :name  => "check--explanation-#{i+1}-#{I18n.locale.to_s}",
+            :name  => "check__explanation-#{i+1}-#{I18n.locale.to_s}",
             :alt    => explanations[i][:alt],
             :classname  => "screenshot"
             } %>
@@ -109,36 +103,32 @@ ogp:
   </div>
 </section>
 
-<section class="alternate-colors">
-  <div class="section-inner row">
-    <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
-    <p>
-      <%= partial "partials/typeform__check" %>
-    </p>
-  </div>
-</section>
-
 <%# Quotes %>
-<section class="check--quotes">
-  <div class="section-inner row">
-    <% t("check.testimonials.quotes").each do |t| %>
-        <div class="quote" lang="en">
-          <p>
-            <span class="quote--glyph">
-              &ldquo;
-            </span>
-            <%= t[:quote] %>
-          </p>
-          <p class="attribution--name">
-            <%= "— #{t[:attribution]}," %>
-          </p>
-          <p class="attribution--website">
-            <a href="<%= t[:website_url] %>" target="_blank">
-              <%= t[:website_name] %>
-            </a>
-          </p>
-        </div>
-    <% end %>
+<section class="check__quotes colors--alternate">
+  <div class="section-inner">
+
+    <div class="row">
+      <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
+      <%= partial "partials/typeform__check" %>
+    </div>
+
+    <div class="quotes row">
+      <% t("check.testimonials.quotes").each do |t| %>
+          <div class="quote" lang="en">
+            <p class="quote__text">
+              &ldquo;<%= t[:quote] %>&rdquo;
+            </p>
+            <p class="quote__attribution-name">
+              <%= "— #{t[:attribution]}," %>
+            </p>
+            <p class="quote__attribution-website">
+              <a href="<%= t[:website_url] %>" target="_blank">
+                <%= t[:website_name] %>
+              </a>
+            </p>
+          </div>
+      <% end %>
+    </div>
   </div>
 </section>
 
@@ -153,30 +143,33 @@ ogp:
 </section>
 
 <%# Newsletter %>
-<section class="check--newsletter">
+<section class="check__newsletter">
   <div class="section-inner">
     <h3><%= t("check.newsletter.header") %></h3>
-    <p><%= t("check.newsletter.summary") %></p>
 
-    <form class="form-inline tinyletter"
-      action="https://tinyletter.com/TheChecklist"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://tinyletter.com/TheChecklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <div class="form-group">
-        <label for="tlemail"><%= t("check.newsletter.label") %></label>
-        <input type="email"
-          placeholder='<%= t("check.newsletter.placeholder") %>'
-          name="email" id="tlemail" />
-        <input type="hidden" value="1" name="embed"/>
-        <input type="submit" value='<%= t("check.newsletter.button") %>' />
-      </div>
-    </form>
+    
+      <p><%= t("check.newsletter.summary") %></p>
+
+      <form class="form-inline tinyletter"
+        action="https://tinyletter.com/TheChecklist"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://tinyletter.com/TheChecklist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <div class="form-group">
+          <label for="tlemail"><%= t("check.newsletter.label") %></label>
+          <input type="email"
+            placeholder='<%= t("check.newsletter.placeholder") %>'
+            name="email" id="tlemail" />
+          <input type="hidden" value="1" name="embed"/>
+          <input type="submit" value='<%= t("check.newsletter.button") %>' />
+        </div>
+      </form>
+    
   </div>
 </section>
 
 <%# Partners %>
-<section class="check--logos">
+<section class="check__logos">
   <div class="section-inner">
     <h3><%= t("check.partners.header") %></h3>
     <p><%= t("check.partners.text") %></p>

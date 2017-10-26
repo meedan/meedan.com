@@ -17,8 +17,8 @@ body {
 
   @include when-larger-than(small) {
     margin: 0 auto;
-    padding: 0 units(4);
     max-width: 960px;
+    padding: 0 units(4);
   }
 
   > * {
@@ -29,9 +29,9 @@ body {
 
 .row {
   @include when-larger-than(medium) {
+    align-items: flex-start;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
   }
 }
 

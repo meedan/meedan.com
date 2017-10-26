@@ -7,7 +7,7 @@
   .lines {
     height: 500px;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: -100px;
     transform: rotate(-45deg);
     width: 500px;
@@ -76,24 +76,24 @@
   }
 
   .triangle-1 {
+    bottom: 0;
     height: 500px;
     position: absoulte;
-    bottom: 0;
 
     div {
-      position: absolute;
-      background-color: $bridge-orange;
-      border-radius: 7%;
-      width: units(20);
-      height: units(20);
-      transform: rotate(45deg);
-      right: -1 * units(11);
-      top: units(8);
       @include when-smaller-than(medium) {
-        width: units(8);
         height: units(8);
         right: -1 * units(5);
+        width: units(8);
       }
+      background-color: $bridge-orange;
+      border-radius: 7%;
+      height: units(20);
+      position: absolute;
+      right: -1 * units(11);
+      top: units(8);
+      transform: rotate(45deg);
+      width: units(20);
     }
   }
 }
@@ -102,20 +102,20 @@
   position: relative;
 
   .triangle-2 {
-    position: absolute;
-    background-color: $check-blue;
-    border-radius: 7%;
-    left: 0;
-    width: units(12);
-    height: units(12);
-    transform: rotate(45deg);
-    left: -1 * units(8);
-    top: -1 * units(10);
     @include when-smaller-than(medium) {
-      width: units(7);
       height: units(7);
       left: -1 * units(4);
       top: -1 * units(6);
+      width: units(7);
     }
+    background-color: $check-blue;
+    border-radius: 7%;
+    height: units(12);
+    left: 0;
+    left: -1 * units(8);
+    position: absolute;
+    top: -1 * units(10);
+    transform: rotate(45deg);
+    width: units(12);
   }
 }

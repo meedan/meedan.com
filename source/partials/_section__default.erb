@@ -2,8 +2,8 @@
 <section class='<%= name %>'>
   <div class="section-inner">
     <%# convert css dash-case to underscores %>
-    <h3><%= t("#{name.split("--").join(".").gsub("-","_")}.header") %></h3>
-    <h4><%= t("#{name.split("--").join(".").gsub("-","_")}.text") %></h4>
-    <p><%= t("#{name.split("--").join(".").gsub("-","_")}.text_2") %></p>
+    <h3><%= t("#{name.split("__").join(".").gsub("-","_")}.header") %></h3>
+    <h4><%= t("#{name.split("__").join(".").gsub("-","_")}.text") %></h4>
+    <p><%= t("#{name.split("__").join(".").gsub("-","_")}.text_2") %></p>
   </div>
 </section>

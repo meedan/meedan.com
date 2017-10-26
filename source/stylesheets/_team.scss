@@ -3,7 +3,7 @@
 // Team headshots in a simple grid
 $width--team-member: 160px;
 
-[class$='--team'] {
+[class$='__team'] {
   align-items: center;
   display: flex;
   flex-flow: wrap row;

@@ -1,6 +1,5 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
-@import 'shared/variables';
-@import 'shared/mixins';
+@import 'shared/shared';
 
 .credibility-indicators {
   text-align: left;
@@ -91,7 +90,6 @@
   }
 
   .image-banner.image-1 {
-
     @media all and (max-width: units(70)) {
       background-position: 50% 50%;
       height: 50vh;
@@ -106,7 +104,6 @@
   }
 
   .image-banner.image-2 {
-
     @media all and (max-width: units(70)) {
       background-position: 50% 50%;
       height: 50vh;

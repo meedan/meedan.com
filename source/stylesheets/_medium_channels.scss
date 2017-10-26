@@ -4,36 +4,32 @@
 // • For now we have a fixed height (ew) because medium doesn't give us a lot of control.
 // • TODO: migrate this to a custom RSS feed that gives us more control over the design.
 //
-[class$='--medium-channels'] {
+[class$='__medium-channels'] {
   background-color: $black-02;
   padding-bottom: $width--small-gutter;
 
   .medium-channels {
+    @include when-smaller-than(medium) {
+      // margin-left: 0;
+    }
     align-items: center;
     display: flex;
     flex-flow: wrap row;
     justify-content: flex-start;
     margin-left: -#{$width--small-gutter};
-    @include when-smaller-than(medium) {
-      // margin-left: 0;
-    }
   }
 
   .medium-channel {
-    margin: $width--small-gutter;
-    border-radius: $radius--default;
-    width: 45%;
-
     @include when-smaller-than(medium) {
       width: 100%;
     }
 
     @include when-larger-than(medium) {
+      background-color: $black-02;
       // Crop them to the same height
       height: units(80);
       overflow: hidden;
       position: relative;
-      background-color: $black-02;
 
       // with a bottom shadow to hide the cut off text
       // sass-lint:disable no-color-literals
@@ -48,5 +44,8 @@
         z-index: 100;
       }
     }
+    border-radius: $radius--default;
+    margin: $width--small-gutter;
+    width: 45%;
   }
 }

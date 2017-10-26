@@ -1,16 +1,20 @@
 // Drawings on the check page.
 .drawing-1 {
-  bottom: 0;
-  height: 360px;
-  overflow: hidden;
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-  bottom: -1 * units(9);
-
   @include when-larger-than(medium) {
     max-width: 600px;
   }
+
+  @include when-smaller-than(medium) {
+    margin-left: 10px;
+    width: 98%;
+  }
+  bottom: 0;
+  bottom: -1 * units(9);
+  height: 360px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
 
   h5 {
     margin: 0;
@@ -20,15 +24,15 @@
 
   // Each card
   & > div {
+    @include when-smaller-than(medium) {
+      padding: 10px;
+    }
+    border-radius: 4px;
     box-shadow: $black-38 -10px 10px 0 0;
     height: 300px;
     max-width: 500px;
     padding: 20px;
     position: absolute;
-    border-radius: 4px;
-    @include when-smaller-than(medium) {
-      padding: 10px;
-    }
 
     &.true {
       background-color: $media-status-green;
@@ -148,11 +152,10 @@
     }
 
     .text {
-      width: 80%;
-
       @media all and (max-width: 700px) {
         width: 60%;
       }
+      width: 80%;
 
       .text-row {
         height: 10px;
@@ -164,10 +167,5 @@
         }
       }
     }
-  }
-
-  @include when-smaller-than(medium) {
-    margin-left: 10px;
-    width: 98%;
   }
 }

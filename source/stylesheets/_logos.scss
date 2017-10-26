@@ -3,7 +3,7 @@
 // A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
 //
 //
-[class$='--logos'] {
+[class$='__logos'] {
   background-color: $black-02;
 
   .logos {
@@ -11,29 +11,22 @@
     flex-flow: wrap row;
     justify-content: flex-start;
     list-style-type: none;
-    margin-left: -#{units(1)};
-    @include when-smaller-than(medium) {
-      margin-left: 0;
-    }
 
     li {
-      height: units(12);
-      width: units(25);
-      margin: units(1);
-      padding: 0;
       @extend %card-flat;
-      @include when-smaller-than(medium) {
-        margin: units(1) 0;
-      }
+      height: units(12);
+      margin: units(1) units(2) units(1) 0;
+      padding: 0;
+      width: units(25);
     }
 
     a {
-      padding: units(1);
       align-items: center;
       display: flex;
-      justify-content: center;
-      width: 100%;
       height: 100%;
+      justify-content: center;
+      padding: units(1);
+      width: 100%;
     }
 
     img {
