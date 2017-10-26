@@ -1,5 +1,4 @@
-// Drawings on the homepage
-.drawings__home-1 {
+.drawing__lines-and-circles {
   position: absolute;
   width: 100%;
   z-index: -1;
@@ -74,34 +73,34 @@
       }
     }
   }
+}
 
-  .triangle-1 {
-    bottom: 0;
-    height: 500px;
-    position: absoulte;
+.drawing__home-1 {
+  position: relative;
 
+  .triangle {
     div {
       @include when-smaller-than(medium) {
-        height: units(8);
-        right: -1 * units(5);
-        width: units(8);
+        height: units(5);
+        right: -1 * units(3);
+        width: units(5);
       }
       background-color: $bridge-orange;
       border-radius: 7%;
-      height: units(20);
+      height: units(14);
       position: absolute;
       right: -1 * units(11);
       top: units(8);
-      transform: rotate(45deg);
-      width: units(20);
+      transform: rotate(-45deg);
+      width: units(14);
     }
   }
 }
 
-.drawings__home-2 {
+.drawing__home-2 {
   position: relative;
 
-  .triangle-2 {
+  .triangle {
     @include when-smaller-than(medium) {
       height: units(7);
       left: -1 * units(4);

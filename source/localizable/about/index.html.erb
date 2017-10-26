@@ -35,7 +35,7 @@ slug: "about"
 </div>
 
 <%# Our Vision %>
-<section class="about__our-vision colors--inverted">
+<section class="about__our-vision colors--inverted layout--bottom-padding">
   <div class="section-inner">
     <h3><%= t("about.our_vision.header") %></h3>
     <% t("about.our_vision.paragraphs").each do |e| %>
@@ -45,7 +45,7 @@ slug: "about"
 </section>
 
 <%# Challenges %>
-<%= partial("partials/section__default", :locals => { :name => "about__challenges" }) %>
+<%= partial("partials/section__default", :locals => { :name => "about__challenges", :classname => "layout--bottom-padding" }) %>
 
 <%# Product photo %>
 <div class="about__products-photo"></div>
@@ -54,13 +54,13 @@ slug: "about"
 <%= partial("partials/section__default", :locals => { :name => "about__products" }) %>
 
 <%# Methods %>
-<%= partial("partials/section__default", :locals => { :name => "about__methods" }) %>
+<%= partial("partials/section__default", :locals => { :name => "about__methods", :classname => "layout--bottom-padding"}) %>
 
 <%# Public Engagement Photo %>
 <div class="about__background-photo"> </div>
 
 <%# Public Engagement Text %>
-<%= partial("partials/section__default", :locals => { :name => "about__public-engage" }) %>
+<%= partial("partials/section__default", :locals => { :name => "about__public-engage", :classname => "layout--bottom-padding" }) %>
 
 <%# Homepage Donate %>
 <%= partial "partials/donate" %>

@@ -1,8 +1,7 @@
 // Recent press component
 //
-[class$='__recent-press'] {
+[class*='__recent-press'] {
   background-color: $black-02;
-  padding-bottom: 0;
 
   h3 {
     width: 100%;
@@ -52,7 +51,7 @@
         width: 100px;
 
         &.gnl {
-          width: 140px;
+          width: 140px !important;
         }
       }
       width: 160px;

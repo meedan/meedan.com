@@ -19,8 +19,10 @@ $unit-size: 8px;
 // The medium channel embeds are the one element on the homepage we don't control.
 // The width of these embeds therefore defines our grid. :| CGB
 $width--primary-card: 500px;
+$width--xlarge-gutter: units(6);
 $width--large-gutter: units(4);
 $width--small-gutter: units(2);
+$width--xsmall-gutter: units(1);
 $radius--default: 4px;
 
 // Font stacks

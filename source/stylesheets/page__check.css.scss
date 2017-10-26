@@ -1,6 +1,7 @@
 // shared.scss is also loaded as a separate stylesheet
 @import 'shared/shared';
 @import 'check_drawings';
+@import 'drawing__lines-and-circles';
 @import 'featured_client';
 @import 'logos';
 @import 'recent_press';
@@ -21,8 +22,7 @@
   color: $white;
   height: 590px;
   overflow: hidden;
-  padding: units(6) 0 units(4);
-  padding-bottom: 0;
+  padding: units(6) 0 units(1);
   position: relative;
   text-align: center;
   width: 100%;
@@ -76,25 +76,15 @@
 }
 
 .screenshot {
+  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
+  background-position: bottom center;
   max-width: 500px;
+  padding: units(2);
 
   > img {
     @include when-smaller-than(medium) {
       width: 98%;
     }
     width: 100%;
-  }
-}
-
-.check__newsletter {
-  padding-top: units(3);
-
-  input[type="email"] {
-    min-width: 350px;
-  }
-
-  p {
-    margin-right: units(2);
-    max-width: 350px;
   }
 }

@@ -21,14 +21,16 @@ $width--team-member: 160px;
     flex: 0 1 auto;
     font: $font--body-1;
     height: units(30);
+    justify-content: center;
+    text-align: center;
     width: $width--team-member;
   }
 
   img {
     border-radius: 50%;
     filter: sepia(25%);
+    margin: 0 auto;
     max-height: units(12);
     max-width: units(12);
-    width: 100%;
   }
 }

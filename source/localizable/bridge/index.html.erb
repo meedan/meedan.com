@@ -20,17 +20,21 @@ ogp:
 
 <%# Bridge branding Section %>
 <section class="bridge__branding">
-  <div class="section-inner">
-    <%= partial "partials/image", :locals => {
-        :type => "png",
-        :name => "bridge__branding-#{I18n.locale.to_s}",
-        :path => "screenshots" } %>
+  <div class="section-inner layout--bottom-padding">
+    <div class="row layout--bottom-padding">
+      <div class="logo-and-slogan">
+        <%= partial "partials/image", :locals => {
+            :type => "svg",
+            :name => "bridge-white" } %>
+        <p class="slogan"><%= t('bridge.branding.slogan')%></p>
+      </div>
+      <div class="lead-image">
+        <%= partial "partials/image", :locals => {
+            :type => "png",
+            :name => "bridge__branding-#{I18n.locale.to_s}",
+            :path => "screenshots" } %>
+      </div>
 
-    <div class="logo-and-slogan">
-      <%= partial "partials/image", :locals => {
-          :type => "svg",
-          :name => "bridge-white" } %>
-      <p class="slogan"><%= t('bridge.branding.slogan')%></p>
     </div>
   </div>
 </section>
@@ -65,7 +69,7 @@ ogp:
 </section>
 
 <%# History%>
-<section class="bridge__history typography--dense colors--inverted">
+<section class="bridge__history colors--inverted layout--bottom-padding">
   <div class="section-inner">
     <h3><%= t("bridge.history.header") %></h3>
     <% t("bridge.history.paragraphs").each do |e| %>
@@ -79,7 +83,7 @@ ogp:
   <div class="section-inner">
     <h3><%= t("bridge.supporters.header")%></h3>
     <p><%= t("bridge.supporters.tagline")%></p>
-    <ul class="logos">
+    <ul class="logos layout--bottom-padding">
       <li>
         <%= partial "partials/image", :locals => {
           :type => "svg",
@@ -101,7 +105,7 @@ ogp:
 <%= partial "partials/bridge_subscribe" %>
 
 <%# Footer %>
-<div class="bridge__footer colors--inverted">
+<div class="bridge__footer colors--inverted layout--bottom-padding">
   <div class="section-inner">
     <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
     <p>

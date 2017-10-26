@@ -1,5 +1,8 @@
 <%# This template assumes a standard format in en.yml — name must be like "about--methods" %>
-<section class='<%= name %>'>
+
+<% classname ||= "" %>
+
+<section class='<%= name %> <%= classname %>'>
   <div class="section-inner">
     <%# convert css dash-case to underscores %>
     <h3><%= t("#{name.split("__").join(".").gsub("-","_")}.header") %></h3>

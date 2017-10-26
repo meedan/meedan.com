@@ -104,11 +104,11 @@ ogp:
 </section>
 
 <%# Quotes %>
-<section class="check__quotes colors--alternate">
+<section class="check__quotes colors--alternate layout--bottom-padding">
   <div class="section-inner">
 
     <div class="row">
-      <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
+      <p class="layout--no-padding">Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
       <%= partial "partials/typeform__check" %>
     </div>
 
@@ -133,7 +133,7 @@ ogp:
 </section>
 
 <%# History %>
-<section class="typography--dense colors--inverted">
+<section class="colors--inverted layout--bottom-padding">
   <div class="section-inner">
     <h3><%= t("check.history.header") %></h3>
     <% t("check.history.paragraphs").each do |p| %>
@@ -146,7 +146,6 @@ ogp:
 <section class="check__newsletter">
   <div class="section-inner">
     <h3><%= t("check.newsletter.header") %></h3>
-
     
       <p><%= t("check.newsletter.summary") %></p>
 
@@ -169,7 +168,8 @@ ogp:
 </section>
 
 <%# Partners %>
-<section class="check__logos">
+<section class="check__logos layout--bottom-padding">
+
   <div class="section-inner">
     <h3><%= t("check.partners.header") %></h3>
     <p><%= t("check.partners.text") %></p>
@@ -187,25 +187,21 @@ ogp:
 </section>
 
 <%# Github %>
-<section class="colors--inverted">
+<section class="colors--inverted layout--bottom-padding">
   <div class="section-inner">
     <h3><%= t("check.github.header") %></h3>
     <p><%= t("check.github.text") %></p>
-  </div>
-</section>
 
-<%# Footer %>
-<div class="colors--inverted">
-  <div class="section-inner">
     <p><%= t("check.footer") %></p>
 
     <p>
       <a href="/en/check/check_privacy.html">
         <%= t("footer.privacy") %>
-      </a> |
+      </a>
+      &nbsp;
       <a href="/en/check/check_tos.html">
         <%= t("footer.tos") %>
       </a>
     </p>
   </div>
-</div>
+</section>

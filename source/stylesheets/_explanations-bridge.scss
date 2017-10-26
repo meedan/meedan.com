@@ -4,18 +4,15 @@
 // The amount of text is usually just one paragraph.
 // There is a header for each screenshot and paragraph.
 [class$='__explanations'] {
-  max-width: 800px;
-  width: 100%;
-
   .explanation {
-
     // At smaller sizes
     @include when-smaller-than(medium) {
       display: block;
     }
     align-items: flex-start;
     display: flex;
-    margin-top: 2em;
+    justify-content: flex-start;
+    margin-bottom: units(2);
 
     .header-and-description {
 

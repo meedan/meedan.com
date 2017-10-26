@@ -2,7 +2,13 @@
 layout: "default"
 slug: "home"
 ---
-<%= partial "partials/drawings__home" %>
+<%= partial "partials/drawing__lines-and-circles" %>
+
+<div class="drawing__home-1">
+  <div class="triangle">
+    <div></div>
+  </div>
+</div>
 
 <%# Homepage Branding %>
 <section class="home__lead">
@@ -12,12 +18,12 @@ slug: "home"
   </div>
 </section>
 
-<div class="drawings__home-2">
-  <div class="triangle-2"></div>
+<div class="drawing__home-2">
+  <div class="triangle"></div>
 </div>
 
 <%# Homepage apps %>
-<section class="home__apps">
+<section class="home__apps layout--bottom-padding">
   <div class="section-inner">
     <h3><%= t("home.apps.title") %></h3>
 
@@ -49,6 +55,7 @@ slug: "home"
       <%# Bridge app %>
       <div class="app app__bridge">
         <div class="logo-container">
+
           <%= partial "partials/image", :locals => {
               :url => "/" + I18n.locale.to_s + "/bridge",
               :name => "bridge-white",
@@ -96,7 +103,8 @@ slug: "home"
 </section>
 
 <%# Homepage Supporters %>
-<section class="home__logos">
+<section class="home__logos layout--bottom-padding">
+  <%= partial "partials/drawing__lines-and-circles" %>
   <div class="section-inner">
     <h3><%= t("home.supporters.header") %></h3>
     <p><%= t("home.supporters.text") %></p>

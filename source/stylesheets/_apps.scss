@@ -1,6 +1,6 @@
 // Homepage apps component
 //
-[class$='__apps'] {
+[class*='__apps'] {
   @include when-smaller-than(medium) {
     p {
       padding: 0 0 $width--large-gutter;

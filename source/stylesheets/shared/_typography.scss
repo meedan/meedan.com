@@ -21,29 +21,28 @@ body {
 // Each section must have a header.
 section {
   overflow-x: hidden;
-  padding-bottom: units(8);
   width: 100%;
 }
 
 h2,
 h3 {
   @include when-smaller-than(large) {
-    padding: units(8) 0 units(4);
+    padding: $width--large-gutter 0;
   }
   display: block;
   font: $font--headline;
   letter-spacing: .1em;
   margin: 0;
-  padding: units(8) 0 units(4);
+  padding: $width--large-gutter 0;
   text-transform: uppercase;
 }
 
 h4 {
   @include when-smaller-than(large) {
-    margin: units(1) 0;
+    margin: $width--xsmall-gutter 0;
     max-width: 61.8%;
   }
-  margin: units(1) 0;
+  margin: $width--xsmall-gutter 0;
   max-width: units(70);
 }
 
@@ -52,7 +51,7 @@ em {
 }
 
 ul {
-  margin: units(1) 0;
+  margin: $width--xsmall-gutter 0;
   padding: 0;
 }
 
@@ -61,18 +60,18 @@ li {
     display: block;
   }
   list-style-type: none;
-  padding: 0 0 units(2);
+  padding: 0 0 $width--small-gutter;
 }
 
 // Paragraphs
 p {
-  @include when-smaller-than(large) {
-    padding: units(2) 0;
-  }
+  // @include when-smaller-than(large) {
+//   padding: $width--small-gutter 0;
+// }
   display: block;
   margin: 0;
   max-width: units(70);
-  padding: 0 0 units(4);
+  padding: 0 0 $width--large-gutter;
 }
 
 h1,
@@ -91,16 +90,5 @@ a {
 
   &:hover {
     color: darken($check-blue, 20%);
-  }
-}
-
-// Typography helper: dense sections
-//
-.typography--dense {
-  &:lang(en) {
-    p {
-      font: $font--subheading-2;
-      padding: units(4) 0;
-    }
   }
 }

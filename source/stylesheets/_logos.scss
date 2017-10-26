@@ -3,7 +3,7 @@
 // A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
 //
 //
-[class$='__logos'] {
+[class*='__logos'] {
   background-color: $black-02;
 
   .logos {

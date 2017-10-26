@@ -35,41 +35,9 @@
   height: 500px;
 }
 
-// About: Products text
-//
-.about__products {
-  background-color: $black-05;
-
-  p {
-    padding-bottom: 0;
-  }
-}
-
-.about__public-engage {
-  p {
-    padding-bottom: 0;
-  }
-}
-
 // About: public engagement photo
 //
 .about__background-photo {
   background-image: url('/images/annual-report/team-6-peach-screen.jpg');
   background-position: 40% left;
-}
-
-// About: Promo bar div
-//
-.about__promo-bar {
-  font: $font--subheading-2;
-  margin: units(2) units(1);
-  padding: units(4);
-
-  p {
-    padding: 0;
-  }
-
-  a {
-    display: inline-block;
-  }
 }
