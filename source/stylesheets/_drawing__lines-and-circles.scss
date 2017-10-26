@@ -122,6 +122,12 @@
   position: relative;
 
   .triangle {
+    @include when-smaller-than(medium) {
+      height: units(7);
+      right: -1 * units(4);
+      top: -1 * units(1);
+      width: units(7);
+    }
     background-color: $slack-green;
     border-radius: 7%;
     height: units(14);
