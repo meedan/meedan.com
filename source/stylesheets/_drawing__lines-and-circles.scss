@@ -81,9 +81,9 @@
   .triangle {
     div {
       @include when-smaller-than(medium) {
-        height: units(5);
-        right: -1 * units(3);
-        width: units(5);
+        height: units(7);
+        right: -1 * units(4);
+        width: units(7);
       }
       background-color: $bridge-orange;
       border-radius: 7%;
@@ -116,5 +116,23 @@
     top: -1 * units(10);
     transform: rotate(45deg);
     width: units(12);
+  }
+}
+
+.drawing__home-3 {
+  margin-right: units(20);
+  position: relative;
+
+  .triangle {
+    $small: units(2);
+    $medium: units(4);
+    $large: units(10);
+    background-color: $slack-green;
+    border-radius: 7%;
+    height: $medium;
+    position: absolute;
+    right: -1 * $large;
+    transform: rotate(45deg);
+    width: $medium;
   }
 }
