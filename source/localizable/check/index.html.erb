@@ -174,7 +174,7 @@ ogp:
     <h3><%= t("check.partners.header") %></h3>
     <p><%= t("check.partners.text") %></p>
     <ul class="logos">
-      <% data.check_partner_logos.each do |image| %>
+      <% data.check_supporter_logos.each do |image| %>
         <li>
           <%= partial "partials/image", :locals => {
               :type => image[:type],

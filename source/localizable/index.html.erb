@@ -109,7 +109,7 @@ slug: "home"
     <h3><%= t("home.supporters.header") %></h3>
     <p><%= t("home.supporters.text") %></p>
     <ul class="logos">
-      <% data.supporter_logos.each do |logo| %>
+      <% (data.check_supporter_logos.concat data.other_supporter_logos).each do |logo| %>
       <li>
         <%= partial "partials/image",
             :locals => {

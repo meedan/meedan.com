@@ -24,7 +24,6 @@
     //
     // Hmm doing multiplication instead of addition causes a compiler error. TODO sort out how to do `$width--primary-card * 2` — CGB 2017-08-14
     max-width: $width--primary-card + $width--primary-card + $width--large-gutter + $width--large-gutter + $width--small-gutter + $width--small-gutter;
-    padding: $width--large-gutter 0;
   }
 
   // Single blurb with text and logo
