@@ -1,3 +1,4 @@
+@import 'shared/shared';
 // Privacy policy and TOS
 //
 // A simple text treatment
@@ -6,7 +7,6 @@
   margin: 0 auto;
   max-width: units(70);
   padding-top: units(8);
-  text-align: left;
 
   p,
   h2,
@@ -15,7 +15,6 @@
     margin: 0;
     max-width: 80%;
     padding: units(4);
-    text-align: left;
   }
 
   h1,
@@ -23,8 +22,7 @@
   h3,
   h4 {
     margin: 0;
-    padding: 16px;
-    text-align: left;
+    padding: units(2);
   }
 
   h1 {
@@ -41,13 +39,11 @@
     list-style-position: inside;
     margin: 0;
     padding: units(4);
-    text-align: left;
 
     li {
       display: list-item;
       list-style-type: disc;
       margin: 0;
-      text-align: left;
     }
   }
 }

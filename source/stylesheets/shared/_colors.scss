@@ -10,6 +10,7 @@ body {
   color: $white;
 
   a {
+    border-bottom: 3px solid $white-20;
     color: $white-70;
 
     &:hover {
@@ -17,3 +18,8 @@ body {
     }
   }
 }
+
+.colors--alternate {
+  background-color: $black-02;
+}
+

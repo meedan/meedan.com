@@ -1,40 +1,21 @@
-// Prevent the last logo from being on it's own on a line
-// WARN: This uses magic numbers and must be reviewed after the logos change CGB 2017-1-24
-//
-%ensure-no-widows {
-  @media all and (min-width: 1000px) {
-    width: 1000px;
-  }
-
-  @media all and (max-width: 1000px) {
-    width: 605px;
-  }
-
-  @media all and (max-width: 605px) {
-    width: 300px;
-  }
-  margin: 0 auto;
-}
-
 // Logo Layout
 //
 // A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
 //
 //
-[class$='--logos'] {
+[class*='__logos'] {
   background-color: $black-02;
 
   .logos {
-    @extend %ensure-no-widows;
     display: flex;
     flex-flow: wrap row;
-    justify-content: center;
+    justify-content: flex-start;
     list-style-type: none;
 
     li {
       @extend %card-flat;
       height: units(12);
-      margin: units(1);
+      margin: units(1) units(2) units(1) 0;
       padding: 0;
       width: units(25);
     }

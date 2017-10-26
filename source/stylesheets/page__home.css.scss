@@ -1,35 +1,19 @@
 // shared.scss is also loaded as a separate stylesheet
-@import 'shared/variables';
-@import 'shared/mixins';
+@import 'shared/shared';
+@import 'drawing__lines-and-circles';
 @import 'apps';
 @import 'recent_press';
 @import 'medium_channels';
 @import 'logos';
 
-// Home page branding
-.home--branding {
-  padding-top: units(12);
-  padding-bottom: units(10);
+.home__lead {
   border-bottom: 1px solid $black-05;
+  padding-bottom: units(10);
+  padding-top: units(12);
 
   .slogan {
     color: $black-87;
     font: $font--headline;
     padding: units(4) 0;
-  }
-}
-
-.meedan-logo-text {
-  img {
-    animation: fadeIn .8s;
-    display: block;
-    height: units(24);
-    margin: units(2) auto;
-    margin-bottom: units(2);
-    width: 300px;
-
-    @media all and (max-width: 400px) {
-      width: 90%;
-    }
   }
 }

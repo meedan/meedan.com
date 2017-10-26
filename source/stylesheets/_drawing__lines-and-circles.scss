@@ -1,0 +1,140 @@
+.drawing__lines-and-circles {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+
+  .lines {
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: -100px;
+    transform: rotate(-45deg);
+    width: 500px;
+
+    div {
+      background-color: $black-02;
+      border-radius: units(3);
+      height: units(4);
+      position: absolute;
+      width: units(50);
+
+      &:nth-of-type(1) {
+        left: 100px;
+        top: 0;
+      }
+
+      &:nth-of-type(2) {
+        left: 280px;
+        top: 120px;
+      }
+
+      &:nth-of-type(3) {
+        left: 0;
+        top: 300px;
+      }
+
+      &:nth-of-type(4) {
+        left: 240px;
+        top: 420px;
+      }
+    }
+  }
+
+  .circles {
+    height: 500px;
+    position: absolute;
+    right: 493px;
+    top: -100px;
+    transform: rotate(-45deg);
+
+    div {
+      background-color: $black-02;
+      border-radius: 20px;
+      height: 40px;
+      position: absolute;
+      width: 256px;
+
+      &:nth-of-type(1) {
+        left: 294px;
+        top: 400px;
+        width: 40px;
+      }
+
+      &:nth-of-type(2) {
+        left: 685px;
+        top: 474px;
+        width: 40px;
+      }
+
+      &:nth-of-type(3) {
+        left: 254px;
+        top: 533px;
+        width: 40px;
+      }
+    }
+  }
+}
+
+.drawing__home-1 {
+  position: relative;
+
+  .triangle {
+    div {
+      @include when-smaller-than(medium) {
+        height: units(7);
+        right: -1 * units(4);
+        width: units(7);
+      }
+      background-color: $bridge-orange;
+      border-radius: 7%;
+      height: units(14);
+      position: absolute;
+      right: -1 * units(9);
+      top: units(8);
+      transform: rotate(-45deg);
+      width: units(14);
+    }
+  }
+}
+
+.drawing__home-2 {
+  position: relative;
+
+  .triangle {
+    @include when-smaller-than(medium) {
+      height: units(7);
+      left: -1 * units(4);
+      top: -1 * units(6);
+      width: units(7);
+    }
+    background-color: $check-blue;
+    border-radius: 7%;
+    height: units(12);
+    left: -1 * units(8);
+    position: absolute;
+    top: -1 * units(10);
+    transform: rotate(45deg);
+    width: units(12);
+  }
+}
+
+.drawing__home-3 {
+  position: relative;
+
+  .triangle {
+    @include when-smaller-than(medium) {
+      height: units(7);
+      right: -1 * units(4);
+      top: -1 * units(1);
+      width: units(7);
+    }
+    background-color: $slack-green;
+    border-radius: 7%;
+    height: units(14);
+    position: absolute;
+    right: -1 * units(9);
+    top: -1 * units(5);
+    transform: rotate(-45deg);
+    width: units(14);
+  }
+}

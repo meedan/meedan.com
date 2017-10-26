@@ -5,54 +5,62 @@ slug: "about"
 
 <%# Team %>
 <section>
-  <h3><%= t("home.team.header") %></h3>
-  <p><%= t("home.team.text") %></p>
-  <ul class="about--team">
-    <% data.team_members.each do |member| %>
-    <li>
-      <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
-      <div class="name"><%= member.fullname %></div>
-      <div class="title"><%= member.title %></div>
-    </li>
-    <% end %>
-  </ul>
+  <div class="section-inner">
+    <h3><%= t("home.team.header") %></h3>
+    <p><%= t("home.team.text") %></p>
+    <ul class="about__team">
+      <% data.team_members.each do |member| %>
+      <li>
+        <img src="/images/team/<%= member.name %>@1x.jpg" alt="<%= member.name %>" srcset="/images/team/<%= member.name %>@2x.jpg 2x">
+        <div class="name"><%= member.fullname %></div>
+        <div class="title"><%= member.title %></div>
+      </li>
+      <% end %>
+    </ul>
+  </div>
 </section>
 
 <%# Recent press %>
-<section class="about--recent-press">
-  <%= partial "partials/press_blurbs" %>
+<section class="about__recent-press">
+  <div class="section-inner">
+    <%= partial "partials/press_blurbs" %>
+  </div>
 </section>
 
 <%# About Promo-bar %>
-<div class="about--promo-bar">
-  <p> <%= t("about.we_love") %> <a class="button" href="mailto:hello@meedan.com"> <%= t("about.email_us") %></a></p>
+<div class="about__promo-bar">
+  <div class="section-inner">
+    <p> <%= t("about.we_love") %> <a class="button" href="mailto:hello@meedan.com"> <%= t("about.email_us") %></a></p>
+  </div>
 </div>
 
 <%# Our Vision %>
-<section class="about--our-vision colors--inverted">
-  <h3><%= t("about.our_vision.header") %></h3>
-  <% t("about.our_vision.paragraphs").each do |e| %>
-    <p><%= e[:text] %></p>
-  <% end %>
+<section class="about__our-vision colors--inverted layout--bottom-padding">
+  <div class="section-inner">
+    <h3><%= t("about.our_vision.header") %></h3>
+    <% t("about.our_vision.paragraphs").each do |e| %>
+      <p><%= e[:text] %></p>
+    <% end %>
+  </div>
 </section>
 
 <%# Challenges %>
-<%= partial("partials/section__default", :locals => { :name => "about--challenges" }) %>
+<%= partial("partials/section__default", :locals => { :name => "about__challenges", :classname => "layout--bottom-padding" }) %>
 
 <%# Product photo %>
-<div class="about--products-photo"></div>
+<div class="about__products-photo"></div>
 
 <%# Products %>
-<%= partial("partials/section__default", :locals => { :name => "about--products" }) %>
+<%= partial("partials/section__default", :locals => { :name => "about__products" }) %>
 
 <%# Methods %>
-<%= partial("partials/section__default", :locals => { :name => "about--methods" }) %>
+<%= partial("partials/section__default", :locals => { :name => "about__methods", :classname => "layout--bottom-padding"}) %>
 
 <%# Public Engagement Photo %>
-<div class="about--background-photo"> </div>
+<div class="about__background-photo"> </div>
 
 <%# Public Engagement Text %>
-<%= partial("partials/section__default", :locals => { :name => "about--public-engage" }) %>
+<%= partial("partials/section__default", :locals => { :name => "about__public-engage", :classname => "layout--bottom-padding" }) %>
 
 <%# Homepage Donate %>
 <%= partial "partials/donate" %>

@@ -1,7 +1,6 @@
 
 // Note that only the Annual reports are really intended for print — CGB 2016-11-10
 @media print {
-
   .navbar-fixed-top {
     position: static;
   }
@@ -27,7 +26,7 @@
   }
 
   * {
-    color: #000!important;
+    color: #000 !important;
   }
 
   h1,
@@ -38,15 +37,15 @@
   h6,
   img,
   .image-banner {
-    page-break-before: avoid;
     page-break-after: avoid;
+    page-break-before: avoid;
     page-break-inside: avoid;
   }
 
   .annual-report-2014,
   .annual-report-2015 {
     main a:after {
-      content: " ("attr(href)") "
+      content: " ("attr(href)") ";
     }
   }
 }

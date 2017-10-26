@@ -1,7 +1,9 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
-@import 'variables';
-@import 'mixins';
-@import 'units';
+@import 'shared';
+
+* {
+  text-align: center;
+}
 
 .annual-report-2014,
 .annual-report-2015,
@@ -310,4 +312,8 @@
 
 .image-banner.placeholder {
   background-color: #f8f8f8;
+}
+
+.donate {
+  margin-top: units(5);
 }

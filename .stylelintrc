@@ -1,19 +1,24 @@
 {
   "plugins": [
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-scss"
   ],
   "formatOnSave": true,
   "syntaxes": ["SCSS"],
   "extensions": [".scss"],
   "extends": ["stylelint-config-standard"],
   "rules": {
-    "selector-max-specificity": "0,3,0",
+    "selector-max-specificity": "0,5,0",
     "declaration-no-important": true,
     "color-no-hex": true,
     "declaration-empty-line-before": "never",
     "at-rule-empty-line-before": null,
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["extend", "at-root", "debug", "warn", "error", "if", "else", "for", "each", "while", "mixin", "include", "content", "return", "function"]
+
+    }],
     "block-closing-brace-newline-after": ["always", {
-      ignoreAtRules: ["if", "else"]
+      "ignoreAtRules": ["if", "else"]
     } ],
     "number-leading-zero": null,
     "property-no-vendor-prefix": true,
