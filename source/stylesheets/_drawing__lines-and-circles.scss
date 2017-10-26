@@ -89,7 +89,7 @@
       border-radius: 7%;
       height: units(14);
       position: absolute;
-      right: -1 * units(11);
+      right: -1 * units(9);
       top: units(8);
       transform: rotate(-45deg);
       width: units(14);
@@ -110,7 +110,6 @@
     background-color: $check-blue;
     border-radius: 7%;
     height: units(12);
-    left: 0;
     left: -1 * units(8);
     position: absolute;
     top: -1 * units(10);
@@ -120,19 +119,16 @@
 }
 
 .drawing__home-3 {
-  margin-right: units(20);
   position: relative;
 
   .triangle {
-    $small: units(2);
-    $medium: units(4);
-    $large: units(10);
     background-color: $slack-green;
     border-radius: 7%;
-    height: $medium;
+    height: units(14);
     position: absolute;
-    right: -1 * $large;
-    transform: rotate(45deg);
-    width: $medium;
+    right: -1 * units(9);
+    top: -1 * units(5);
+    transform: rotate(-45deg);
+    width: units(14);
   }
 }
