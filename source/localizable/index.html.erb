@@ -2,13 +2,6 @@
 layout: "default"
 slug: "home"
 ---
-<%= partial "partials/drawing__lines-and-circles" %>
-
-<div class="drawing__home-1">
-  <div class="triangle">
-    <div></div>
-  </div>
-</div>
 
 <%# Homepage Branding %>
 <section class="home__lead">
@@ -17,10 +10,6 @@ slug: "home"
     <p class="about"><%= t("home.branding.about") %></p>
   </div>
 </section>
-
-<div class="drawing__home-2">
-  <div class="triangle"></div>
-</div>
 
 <%# Homepage apps %>
 <section class="home__apps layout--bottom-padding">
@@ -104,7 +93,6 @@ slug: "home"
 
 <%# Homepage Supporters %>
 <section class="home__logos layout--bottom-padding">
-  <%= partial "partials/drawing__lines-and-circles" %>
   <div class="section-inner">
     <h3><%= t("home.supporters.header") %></h3>
     <p><%= t("home.supporters.text") %></p>
@@ -132,13 +120,6 @@ slug: "home"
     <p><%= t("home.photo_frame") %></p>
   </div>
 </section>
-
-<div class="drawing__home-3">
-  <div class="triangle">
-    <div></div>
-  </div>
-  
-</div>
 
 <%# Homepage Contact %>
 <%= partial "partials/contact" %>

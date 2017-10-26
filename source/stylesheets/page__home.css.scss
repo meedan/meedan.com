@@ -1,6 +1,5 @@
 // shared.scss is also loaded as a separate stylesheet
 @import 'shared/shared';
-@import 'drawing__lines-and-circles';
 @import 'apps';
 @import 'recent_press';
 @import 'medium_channels';
@@ -13,7 +12,7 @@
 
   .slogan {
     color: $black-87;
-    font: $font--headline;
+    font: $font--display-2;
     padding: units(4) 0;
   }
 }
