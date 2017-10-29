@@ -14,6 +14,11 @@
 
     li {
       @extend %card-flat;
+
+      @include when-smaller-than(small) {
+        margin-right: 0;
+        width: 100%;
+      }
       height: units(12);
       margin: units(1) units(2) units(1) 0;
       padding: 0;

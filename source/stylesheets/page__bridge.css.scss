@@ -10,18 +10,26 @@
   padding: $width--xlarge-gutter 0 0 0;
   width: 100%;
 
+  .row {
+    align-items: center;
+  }
+
   .lead-image img {
     @include when-smaller-than(medium) {
+      margin: 0 auto;
       width: 90%;
     }
     animation: fadeIn 1.2s;
     display: block;
     margin: 0 $width--large-gutter;
-    max-width: 525px;
-    width: 100%;
+    max-width: 500px;
+    width: 80%;
   }
 
   .logo-and-slogan {
+    @include when-smaller-than(medium) {
+      text-align: center;
+    }
     margin: $width--large-gutter 0 0 0;
 
     img {

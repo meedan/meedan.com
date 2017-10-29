@@ -1,7 +1,7 @@
 // Layout: Team
 //
 // Team headshots in a simple grid
-$width--team-member: 160px;
+$width--team-member: units(18);
 
 [class$='__team'] {
   align-items: center;
@@ -16,12 +16,22 @@ $width--team-member: 160px;
     padding-top: units(1);
   }
 
+  .title {
+    font: $font--caption;
+    font-weight: 200;
+  }
+
   li {
+    @include when-smaller-than(small) {
+      margin: 0 auto;
+      width: $width--team-member - units(2);
+    }
     animation: fadeIn 1.2s;
     flex: 0 1 auto;
     font: $font--body-1;
-    height: units(30);
+    height: units(27);
     justify-content: center;
+    margin-right: units(4);
     text-align: center;
     width: $width--team-member;
   }

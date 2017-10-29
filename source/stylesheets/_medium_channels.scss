@@ -10,7 +10,7 @@
 
   .medium-channels {
     @include when-smaller-than(medium) {
-      // margin-left: 0;
+      margin-left: 0;
     }
     align-items: center;
     display: flex;
@@ -21,6 +21,7 @@
 
   .medium-channel {
     @include when-smaller-than(medium) {
+      margin: 0;
       width: 100%;
     }
 
