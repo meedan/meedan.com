@@ -3,7 +3,6 @@
   $line-height: units(4.5);
   background-color: $black-02;
   color: $black-54;
-  padding-bottom: 0;
   padding-bottom: units(3);
   position: relative;
 
@@ -36,10 +35,6 @@
     height: units(4);
     margin: 7px units(1) 0;
     width: units(4);
-  }
-
-  .sign-up {
-    padding: units(8) units(8) 0 0;
   }
 
   .electionland-small,

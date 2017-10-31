@@ -20,20 +20,21 @@ ogp:
 
 <%# Bridge branding Section %>
 <section class="bridge__branding">
-  <div class="section-inner layout--bottom-padding">
-    <div class="row layout--bottom-padding">
+  <div class="section-inner layout--padding-bottom">
+    <div class="row layout--padding-bottom layout--padding-top">
       <div class="logo-and-slogan">
         <%= partial "partials/image", :locals => {
             :type => "svg",
             :name => "bridge-white" } %>
         <p class="slogan"><%= t('bridge.branding.slogan')%></p>
       </div>
-      <div class="lead-image">
+      
         <%= partial "partials/image", :locals => {
             :type => "png",
             :name => "bridge__branding-#{I18n.locale.to_s}",
-            :path => "screenshots" } %>
-      </div>
+            :path => "screenshots" 
+          } %>
+      
 
     </div>
   </div>
@@ -69,7 +70,7 @@ ogp:
 </section>
 
 <%# History%>
-<section class="bridge__history colors--inverted layout--bottom-padding">
+<section class="bridge__history colors--inverted layout--padding-bottom">
   <div class="section-inner">
     <h3><%= t("bridge.history.header") %></h3>
     <% t("bridge.history.paragraphs").each do |e| %>
@@ -83,7 +84,7 @@ ogp:
   <div class="section-inner">
     <h3><%= t("bridge.supporters.header")%></h3>
     <p><%= t("bridge.supporters.tagline")%></p>
-    <ul class="logos layout--bottom-padding">
+    <ul class="logos layout--padding-bottom">
       <li>
         <%= partial "partials/image", :locals => {
           :type => "svg",
@@ -105,7 +106,7 @@ ogp:
 <%= partial "partials/bridge_subscribe" %>
 
 <%# Footer %>
-<div class="bridge__footer colors--inverted layout--bottom-padding">
+<div class="bridge__footer colors--inverted layout--padding-bottom layout--padding-top">
   <div class="section-inner">
     <p><%= t("bridge.footer.primary") %> <%= t("bridge.branding.follow") %> </p>
     <p>

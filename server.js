@@ -19,6 +19,15 @@ checkEnglishPages = [
   '/ar/check/index.html',
 ];
 
+credcoPages = [
+  '/ciwg',
+  '/en/ciwg',
+  '/en/credibility-indicators',
+  '/credibility-indicators',
+  '/credco',
+  '/en/credco',
+];
+
 // Redirect to canonical Bridge page
 app.get(bridgePages, function(req, res) {
   res.redirect(302, '/en/bridge');
@@ -30,8 +39,8 @@ app.get(checkEnglishPages, function(req, res) {
 });
 
 // Redirect to canonical credibility indicators page
-app.get(['/ciwg', '/en/credibility-indicators'], function(req, res) {
-  res.redirect(302, '/credibility-indicators');
+app.get(credcoPages, function(req, res) {
+  res.redirect(302, '/credibility-coalition');
 });
 // Uncomment once localized 2017-4-20 CGB
 //

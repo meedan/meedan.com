@@ -7,30 +7,28 @@
 .bridge__branding {
   animation: fadeIn 1.2s;
   background: $bridge-orange;
-  padding: $width--xlarge-gutter 0 0 0;
   width: 100%;
 
   .row {
     align-items: center;
+    justify-content: space-between;
   }
 
-  .lead-image img {
+  img[class*="bridge__branding"] {
     @include when-smaller-than(medium) {
       margin: 0 auto;
       width: 90%;
     }
     animation: fadeIn 1.2s;
     display: block;
-    margin: 0 $width--large-gutter;
-    max-width: 500px;
-    width: 80%;
+    max-width: 390px;
+    width: 50%;
   }
 
   .logo-and-slogan {
     @include when-smaller-than(medium) {
       text-align: center;
     }
-    margin: $width--large-gutter 0 0 0;
 
     img {
       @include when-smaller-than(small) {

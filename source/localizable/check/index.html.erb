@@ -51,7 +51,7 @@ ogp:
 <section class="check__featured-client">
   <div class="section-inner row">
 
-    <div class="sign-up">
+    <div class="sign-up layout--padding-top layout--padding-right">
       <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
 
       <p><%= partial "partials/typeform__check" %></p>
@@ -104,36 +104,48 @@ ogp:
 </section>
 
 <%# Quotes %>
-<section class="check__quotes colors--alternate layout--bottom-padding">
+<section class="
+  check__quotes
+  colors--alternate
+  layout--padding-bottom
+  layout--padding-top
+">
   <div class="section-inner">
 
     <div class="row">
-      <p class="layout--no-padding">Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
+      <p class="
+        layout--padding-none
+        layout--padding-right
+      ">
+        Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.
+      </p>
       <%= partial "partials/typeform__check" %>
     </div>
 
-    <div class="quotes row">
+    <div class="quotes row layout--padding-top">
       <% t("check.testimonials.quotes").each do |t| %>
-          <div class="quote" lang="en">
-            <p class="quote__text">
-              &ldquo;<%= t[:quote] %>&rdquo;
-            </p>
-            <p class="quote__attribution-name">
-              <%= "— #{t[:attribution]}," %>
-            </p>
-            <p class="quote__attribution-website">
-              <a href="<%= t[:website_url] %>" target="_blank">
-                <%= t[:website_name] %>
-              </a>
-            </p>
-          </div>
+        <div
+        lang="en"
+        class="quote layout--padding-all">
+          <p class="quote__text">
+            &ldquo;<%= t[:quote] %>&rdquo;
+          </p>
+          <p class="quote__attribution-name">
+            <%= "— #{t[:attribution]}," %>
+          </p>
+          <p class="quote__attribution-website">
+            <a href="<%= t[:website_url] %>" target="_blank">
+              <%= t[:website_name] %>
+            </a>
+          </p>
+        </div>
       <% end %>
     </div>
   </div>
 </section>
 
 <%# History %>
-<section class="colors--inverted layout--bottom-padding">
+<section class="colors--inverted layout--padding-bottom">
   <div class="section-inner">
     <h3><%= t("check.history.header") %></h3>
     <% t("check.history.paragraphs").each do |p| %>
@@ -168,7 +180,7 @@ ogp:
 </section>
 
 <%# Partners %>
-<section class="check__logos layout--bottom-padding">
+<section class="check__logos layout--padding-bottom">
 
   <div class="section-inner">
     <h3><%= t("check.partners.header") %></h3>
@@ -187,7 +199,7 @@ ogp:
 </section>
 
 <%# Github %>
-<section class="colors--inverted layout--bottom-padding">
+<section class="colors--inverted layout--padding-bottom">
   <div class="section-inner">
     <h3><%= t("check.github.header") %></h3>
     <p><%= t("check.github.text") %></p>

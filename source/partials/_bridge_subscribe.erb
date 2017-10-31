@@ -1,7 +1,7 @@
 <%# prevent IDs from colliding %>
 <% uniqueish_id=rand(300) %>
 
-<section class="subscribe colors--alternate">
+<section class="subscribe colors--alternate layout--padding-bottom">
   <div class="section-inner">
     <h2>
       <%= t("bridge.branding.call_to_action") %>
@@ -13,7 +13,7 @@
         <label for="mce-email-<%= uniqueish_id %>">
           <%= t("bridge.form.label_1") %>
         </label>
-        <input id="mce-email-<%= uniqueish_id %>" type="email" value="" name="EMAIL" class="required email" placeholder="example@example.com">
+        <input id="mce-email-<%= uniqueish_id %>" type="email" value="" name="EMAIL" class="required email  layout--padding-right" placeholder="example@example.com">
         <input type="submit" value="<%= t('bridge.form.submit')%>" name="subscribe" class="button-flat">
       </div>
 

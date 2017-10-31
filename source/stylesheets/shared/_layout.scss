@@ -17,7 +17,7 @@ body {
 
   @include when-larger-than(small) {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 800px;
     padding: $width--large-gutter $width--large-gutter 0;
   }
 
@@ -41,11 +41,26 @@ body {
   direction: ltr;
 }
 
-// For sections with colored background
-.layout--bottom-padding {
+.layout--padding-bottom {
   padding-bottom: $width--large-gutter;
 }
 
-.layout--no-padding {
+.layout--padding-top {
+  padding-top: $width--large-gutter;
+}
+
+.layout--padding-none {
   padding: 0;
+}
+
+.layout--padding-right {
+  padding-right: $width--large-gutter;
+}
+
+.layout--padding-left {
+  padding-left: $width--large-gutter;
+}
+
+.layout--padding-all {
+  padding: $width--large-gutter;
 }

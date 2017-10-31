@@ -4,11 +4,7 @@
   margin-bottom: 0;
 
   .row {
-    align-items: center;
-  }
-
-  .quotes {
-    margin-top: units(4);
+    align-items: stretch;
   }
 
   .quote {
@@ -16,12 +12,11 @@
 
     @include when-larger-than(medium) {
       &__text {
-        min-height: 200px;
+        min-height: 270px;
       }
     }
     font: $font--body-2;
     margin: units(3) units(3) units(3) 0;
-    padding: units(3);
 
     &__attribution-name,
     &__attribution-website {
