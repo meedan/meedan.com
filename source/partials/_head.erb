@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/images/favicons/favicon.ico?v=1">
-  <title><%= slug.capitalize.gsub("-", " ") %> | Meedan</title>
+  <title><%= slug.gsub("-", " ").split.map(&:capitalize).join(' ') %> | Meedan</title>
 
   <%# Render Arabic stylesheet %>
   <% if I18n.locale == :ar %>
