@@ -91,7 +91,6 @@
   }
 
   .image-banner.image-1 {
-
     @media all and (max-width: units(70)) {
       background-position: 50% 50%;
       height: 50vh;
@@ -106,7 +105,6 @@
   }
 
   .image-banner.image-2 {
-
     @media all and (max-width: units(70)) {
       background-position: 50% 50%;
       height: 50vh;
@@ -172,7 +170,9 @@
         max-width: units(16);
       }
 
-      .kf {
+      // Oblong logos
+      .kf,
+      .shuttleworth {
         img {
           max-height: units(16);
           max-width: units(20);

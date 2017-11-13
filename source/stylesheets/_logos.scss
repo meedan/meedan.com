@@ -30,14 +30,13 @@
     flex-flow: wrap row;
     justify-content: center;
     list-style-type: none;
-
-    li {
-      @extend %card-flat;
-      height: units(12);
-      margin: units(1);
-      padding: 0;
-      width: units(25);
-    }
+li {
+  @extend %card-flat;
+  height: units(12);
+  margin: units(1);
+  padding: 0;
+  width: units(25);
+}
 
     a {
       align-items: center;
@@ -72,6 +71,7 @@
     .bcu,
     .bc,
     .amnesty,
+    .shuttleworth,
     .gnl {
       img {
         max-height: units(16);
