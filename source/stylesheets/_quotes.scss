@@ -1,40 +1,31 @@
 // Component: Quotes
 //
-[class$='--quotes'] {
-  align-items: center;
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: center;
+[class*='__quotes'] {
+  margin-bottom: 0;
 
-  p {
-    font-size: 1em;
-    text-align: start;
-
-    &:lang(en) {
-      text-align: left;
-    }
+  .row {
+    align-items: stretch;
   }
 
   .quote {
-    display: inline;
-    margin-top: 2em;
-    padding: 2em .5em;
-    vertical-align: top;
-    width: 28%;
+    @extend %card-flat;
 
-    .attribution--name,
-    .attribution--website {
-      display: inline;
-      font-weight: 700;
-      padding: 0;
+    @include when-larger-than(medium) {
+      &__text {
+        min-height: 270px;
+      }
     }
-  }
+    font: $font--body-2;
+    margin: units(3) units(3) units(3) 0;
 
-  @include when-smaller-than(large) {
-    flex-flow: column nowrap;
+    &__attribution-name,
+    &__attribution-website {
+      font-weight: 500;
+      padding: 0;
 
-    .quote {
-      width: 100%;
+      a {
+        border: none;
+      }
     }
   }
 }

@@ -1,32 +1,49 @@
 // Homepage apps component
 //
-[class$='--apps'] {
+[class*='__apps'] {
+  @include when-smaller-than(medium) {
+    p {
+      padding: 0 0 $width--large-gutter;
+      width: 95%;
+    }
+  }
   background-color: $black-02;
 
   .apps {
-    align-items: stretch;
-    display: flex;
-    justify-content: center;
-    padding: 0 $width--small-gutter;
-    @include when-smaller-than(large) {
+    @include when-smaller-than(medium) {
       flex-flow: column nowrap;
     }
+    align-items: stretch;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: 0;
   }
 
   .app {
+    @include when-larger-than(medium) {
+      &:nth-of-type(2) {
+        margin-left: $width--large-gutter;
+      }
+    }
+
+    @include when-smaller-than(large) {
+      margin: $width--large-gutter 0 0;
+      max-width: 100%;
+      padding: $width--large-gutter;
+    }
+
+    @include when-smaller-than(medium) {
+      width: 100%;
+    }
     background: $dark-purple;
     border-radius: 4px;
     color: $white-70;
-    margin: $width--small-gutter;
-    max-width: $width--primary-card;
-    padding: $width--large-gutter;
     display: flex;
     flex-direction: column;
-
-    @include when-smaller-than(large) {
-      margin: $width--small-gutter auto;
-      max-width: 90%;
-    }
+    margin: 0;
+    max-width: $width--primary-card;
+    padding: $width--large-gutter;
 
     p {
       font: $font--body-2;
@@ -53,28 +70,23 @@
         content: '';
         display: block;
         height: 3px;
-        margin: -40px auto 0;
-        width: 100px;
+        margin-top: -40px;
+        width: 80px;
       }
     }
 
     img {
-      height: units(24);
-      max-width: 260px;
-      width: 260px;
-
       @include when-smaller-than(medium) {
         width: 98%;
       }
-    }
-
-    @include when-smaller-than(medium) {
-      width: 100%;
+      height: units(24);
+      max-width: 200px;
+      width: 200px;
     }
 
     // Only on the Bridge side
     // Refinements to make them line up properly
-    &--bridge {
+    &__bridge {
       .logo-container {
         padding-top: 10px;
 
@@ -85,7 +97,7 @@
     }
 
     // Only in the Check side
-    &--check {
+    &__check {
       .logo-container {
         &::after {
           border-bottom-color: $check-blue;
@@ -101,17 +113,10 @@
         border-radius: units(.5);
         color: $white;
         font-weight: bold;
-        margin: 0 units(1);
+        margin: 0;
         padding: units(1) $width--small-gutter;
         text-decoration: none;
       }
-    }
-  }
-
-  @include when-smaller-than(medium) {
-    p {
-      padding: 0 0 $width--large-gutter;
-      width: 95%;
     }
   }
 }

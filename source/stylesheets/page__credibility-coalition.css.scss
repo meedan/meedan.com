@@ -1,24 +1,11 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
-@import 'shared/variables';
-@import 'shared/mixins';
+@import 'shared/shared';
+@import 'logos';
 
-.credibility-indicators {
-  text-align: left;
-
-  .center {
-    text-align: center;
-  }
-
-  .inner {
-    font-size: 1em;
-    margin: 2em auto;
-    max-width: 800px;
-    padding: 1em 1em 0;
-  }
+.credibility-coalition {
 
   // Typography
   //
-
   h1 {
     line-height: 1.2;
   }
@@ -122,14 +109,10 @@
   //
   .caption {
     color: $black-54;
-    font-size: units(2);
-    margin: 0 auto;
-    max-width: 800px;
-    padding: units(2) units(1);
-    text-align: center;
+    font: $font--caption;
   }
 
-  .credibility-indicators--logos {
+  .credibility-coalition--logos {
     background-color: $black-02;
     margin: units(4) 0;
     padding: units(4) 0;

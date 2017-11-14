@@ -1,40 +1,67 @@
 // shared.scss is also loaded as a separate stylesheet
-@import 'shared/variables';
-@import 'shared/mixins';
+@import 'shared/shared';
 @import 'explanations-bridge';
 @import 'logos';
-@import 'footer';
 
 // Bridge branding section
-.bridge--branding {
+.bridge__branding {
+  animation: fadeIn 1.2s;
   background: $bridge-orange;
+  width: 100%;
 
-  .app-store {
-    margin: 0 auto;
+  .row {
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    > img {
-      width: 154px;
+  img[class*="bridge__branding"] {
+    @include when-smaller-than(medium) {
+      margin: 0 auto;
+      width: 90%;
     }
+    animation: fadeIn 1.2s;
+    display: block;
+    max-width: 390px;
+    width: 50%;
+  }
+
+  .logo-and-slogan {
+    @include when-smaller-than(medium) {
+      text-align: center;
+    }
+
+    img {
+      @include when-smaller-than(small) {
+        width: 90%;
+      }
+      width: 300px;
+    }
+  }
+
+  .slogan {
+    color: $white-70;
+    font: $font--headline;
+    margin: 0 auto;
   }
 }
 
 // The bridge subcribe section
 .subscribe {
-  padding-bottom: 0;
-
   > h2 {
     font: $font--subheading-2;
     text-transform: none;
   }
 
   .checkbox {
-    margin: 0 auto;
-    max-width: units(70);
-    padding: units(2) 0;
-
     @include when-smaller-than(medium) {
       font-size: 14px;
     }
+    align-items: center;
+    display: flex;
+    font: $font--body-1;
+    margin: 0;
+    max-width: units(70);
+    padding: $width--small-gutter 0;
 
     label {
       font: 200 $font--body-1;

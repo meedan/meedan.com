@@ -1,8 +1,7 @@
 // Recent press component
 //
-[class$='--recent-press'] {
+[class*='__recent-press'] {
   background-color: $black-02;
-  padding-bottom: $width--small-gutter;
 
   h3 {
     width: 100%;
@@ -10,71 +9,73 @@
 
   // A list of 'blurbs'
   .blurbs {
-    align-items: stretch;
-    display: flex;
-    justify-content: space-between;
-    // Align to grid, which is defined by the medium cards plus their margins
-    max-width: $width--primary-card + $width--primary-card + $width--large-gutter + $width--large-gutter + $width--small-gutter + $width--small-gutter;
-    padding: $width--large-gutter;
 
     // at smaller sizes
     @include when-smaller-than(large) {
-      padding: 0;
+      align-items: flex-start;
       flex-flow: column;
+      padding: 0;
       padding-bottom: $width--large-gutter;
     }
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-start;
+    // Align to grid, which is defined by the medium cards plus their margins
+    //
+    // Hmm doing multiplication instead of addition causes a compiler error. TODO sort out how to do `$width--primary-card * 2` — CGB 2017-08-14
+    max-width: $width--primary-card + $width--primary-card + $width--large-gutter + $width--large-gutter + $width--small-gutter + $width--small-gutter;
   }
 
   // Single blurb with text and logo
   li {
     @extend %card-flat;
+
+    @include when-smaller-than(large) {
+      margin: $width--small-gutter 0;
+      width: 90%;
+
+      p {
+        width: 95%;
+      }
+    }
+    border-radius: $radius--default;
     color: $black-87;
     font: $font--subheading-2;
-    border-radius: $radius--default;
-    padding: 0;
     margin: 0;
     max-width: $width--primary-card;
+    padding: 0;
 
     img {
+      @include when-smaller-than(large) {
+        width: 100px;
+
+        &.gnl {
+          width: 140px !important;
+        }
+      }
       width: 160px;
 
       &.gnl {
         width: 200px;
       }
-      @include when-smaller-than(large) {
-        width: 100px;
-
-        &.gnl {
-          width: 140px;
-        }
-      }
     }
 
     &:nth-of-type(2) {
-      margin: 0 $width--large-gutter;
       @include when-smaller-than(large) {
-        margin: 0 auto;
+        margin: 0;
       }
+      margin: 0 $width--large-gutter;
     }
 
     a {
+      color: $black-87;
       display: block;
       padding: $width--small-gutter $width--small-gutter $width--large-gutter;
-      color: $black-87;
 
       p {
+        font: $font--body-2;
         padding-top: $width--small-gutter;
         transition: background-color $duration--default;
-        font: $font--body-2;
-      }
-    }
-
-    @include when-smaller-than(large) {
-      width: 90%;
-      margin: $width--small-gutter auto;
-
-      p {
-        width: 95%;
       }
     }
   }

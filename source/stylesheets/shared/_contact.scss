@@ -1,55 +1,45 @@
-/// Contact section
-///
 .contact {
-  padding-top: units(4);
-
   .button {
     border-bottom: 0;
   }
 
   li {
     display: inline-block;
-    vertical-align: top;
-    padding-bottom: units(6);
+    margin-right: units(4);
+    max-width: 300px;
 
     p {
+      @include when-smaller-than(medium) {
+        font: $font--caption;
+      }
+      color: rgba($white, 0.7);
+      font: $font--body-2;
       margin: 0;
       padding: 0;
-      font: $font--caption;
-      font-weight: 300;
     }
   }
 
-  .contact--visit {
+  .contact__visit {
     .locations {
-      display: flex;
       align-items: center;
-
-      li {
-        clear: none;
-        width: 50%;
-      }
+      display: flex;
+      margin-right: units(2);
     }
   }
 
-  .contact--social-media {
+  .contact__social-media {
+    align-items: center;
     display: flex;
-    vertical-align: center;
-
-    li {
-      width: 25%;
-    }
 
     a {
       align-items: center;
       border-bottom: 0;
       display: flex;
-      height: 90px;
-      justify-content: center;
+      justify-content: flex-start;
       text-decoration: 0;
 
       img {
-        max-width: units(6);
+        max-width: units(4);
         width: 100%;
       }
     }

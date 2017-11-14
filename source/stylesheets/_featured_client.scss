@@ -1,11 +1,18 @@
 // Check featured client (electionland) blurb
-[class$='--featured-client'] {
-  color: $black-54;
-  padding-bottom: 0;
-  position: relative;
-  background-color: $black-02;
+[class$='__featured-client'] {
   $line-height: units(4.5);
+  background-color: $black-02;
+  color: $black-54;
   padding-bottom: units(3);
+  position: relative;
+
+  > .row {
+    align-items: center;
+  }
+
+  p {
+    padding: 0 0 units(3);
+  }
 
   h3 {
     line-height: $line-height;
@@ -13,22 +20,21 @@
   }
 
   span {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     height: $line-height;
 
     a {
-      text-decoration: none;
       border-bottom: none;
+      text-decoration: none;
     }
   }
 
   img {
-    height: units(4);
-    width: units(4);
-    margin: 7px units(1) 0;
     flex-shrink: 0;
+    height: units(4);
+    margin: 7px units(1) 0;
+    width: units(4);
   }
 
   .electionland-small,

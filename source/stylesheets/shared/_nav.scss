@@ -1,8 +1,14 @@
 // The primary pages navigation
 //
 .primary-nav {
+
+  // Small logo on small screens
+  @include when-smaller-than(small) {
+    .meedan-wordmark {
+      display: none;
+    }
+  }
   align-content: center;
-  background-color: $white;
   display: flex;
   width: 100%;
   z-index: 3;
@@ -23,13 +29,6 @@
     }
   }
 
-  // Small logo on small screens
-  @include when-smaller-than(small) {
-    .meedan-wordmark {
-      display: none;
-    }
-  }
-
   .pages {
     display: flex;
     flex: 3;
@@ -42,15 +41,14 @@
     }
 
     a {
-      color: $black-87;
-      display: block;
-      font: $font--subheading-2;
-      line-height: units(4);
-      padding: units(2);
-
       @include when-smaller-than(small) {
         padding: units(2) units(1);
       }
+      color: $black-87;
+      display: block;
+      font: $font--body-2;
+      line-height: units(4);
+      padding: units(2);
       text-decoration: none;
       transition: border .2s;
 

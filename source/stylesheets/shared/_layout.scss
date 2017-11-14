@@ -10,13 +10,57 @@ body {
   overflow-x: hidden;
 }
 
-section > * {
-  margin: 0 auto;
-  max-width: 1440px;
+.section-inner {
+  @include when-smaller-than(small) {
+    padding: 0 $width--small-gutter;
+  }
+
+  @include when-larger-than(small) {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: $width--large-gutter $width--large-gutter 0;
+  }
+
+  > * {
+    margin: 0;
+    max-width: 1440px;
+  }
+}
+
+.row {
+  @include when-larger-than(medium) {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 // English default
 // Other stylesheets (and fonts) are loaded conditionally in the html head
 :lang(en) {
   direction: ltr;
+}
+
+.layout--padding-bottom {
+  padding-bottom: $width--large-gutter;
+}
+
+.layout--padding-top {
+  padding-top: $width--large-gutter;
+}
+
+.layout--padding-none {
+  padding: 0;
+}
+
+.layout--padding-right {
+  padding-right: $width--large-gutter;
+}
+
+.layout--padding-left {
+  padding-left: $width--large-gutter;
+}
+
+.layout--padding-all {
+  padding: $width--large-gutter;
 }

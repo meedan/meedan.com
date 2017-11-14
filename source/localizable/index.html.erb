@@ -4,113 +4,125 @@ slug: "home"
 ---
 
 <%# Homepage Branding %>
-<section class="home--branding">
-  <%= partial "partials/image", :locals => {
-        :url => "/",
-        :name => "meedan-logo-text",
-        :type => "svg" } %>
-
-  <p class="slogan"><%= t("home.branding.slogan") %></p>
-  <p class="about"><%= t("home.branding.about") %></p>
+<section class="home__lead">
+  <div class="section-inner">
+    <p class="slogan"><%= t("home.branding.slogan") %></p>
+    <p class="about"><%= t("home.branding.about") %></p>
+  </div>
 </section>
 
 <%# Homepage apps %>
-<section class="home--apps">
-  <h3><%= t("home.apps.title") %></h3>
+<section class="home__apps layout--padding-bottom">
+  <div class="section-inner">
+    <h3><%= t("home.apps.title") %></h3>
 
-  <div class="apps">
-    <%# Check app %>
-    <div class="app app--check">
-      <div class="logo-container">
-        <%= partial "partials/image", :locals => {
-            :url => "/" + I18n.locale.to_s + "/check",
-            :name => "check-white",
-            :type => "svg" } %>
+    <div class="apps">
+      <%# Check app %>
+      <div class="app app__check">
+        <div class="logo-container">
+          <%= partial "partials/image", :locals => {
+              :url => "/" + I18n.locale.to_s + "/check",
+              :name => "check-white",
+              :type => "svg" } %>
+        </div>
+
+        <p class="tagline">
+          <%= t("home.apps.check.tagline") %>
+        </p>
+
+        <p class="blurb">
+          <%= t("home.apps.check.blurb") %>
+        </p>
+
+        <p class="learn">
+          <a href="<%= t("home.apps.check.learn_more_url") %>">
+            <%= t("home.apps.check.learn_more_text") %>
+          </a>
+        </p>
       </div>
 
-      <p class="tagline">
-        <%= t("home.apps.check.tagline") %>
-      </p>
+      <%# Bridge app %>
+      <div class="app app__bridge">
+        <div class="logo-container">
 
-      <p class="blurb">
-        <%= t("home.apps.check.blurb") %>
-      </p>
+          <%= partial "partials/image", :locals => {
+              :url => "/" + I18n.locale.to_s + "/bridge",
+              :name => "bridge-white",
+              :type => "svg" } %>
+        </div>
 
-      <p class="learn">
-        <a href="<%= t("home.apps.check.learn_more_url") %>">
-          <%= t("home.apps.check.learn_more_text") %>
-        </a>
-      </p>
-    </div>
+        <p class="tagline"><%= t("home.apps.bridge.tagline") %></p>
 
-    <%# Bridge app %>
-    <div class="app app--bridge">
-      <div class="logo-container">
-        <%= partial "partials/image", :locals => {
-            :url => "/" + I18n.locale.to_s + "/bridge",
-            :name => "bridge-white",
-            :type => "svg" } %>
+        <p class="blurb"><%= t("home.apps.bridge.blurb") %></p>
+
+        <p class="learn">
+          <a href='<%= t("home.apps.bridge.learn_more_url") %>'>
+            <%= t("home.apps.bridge.learn_more_text") %>
+          </a>
+        </p>
       </div>
-
-      <p class="tagline"><%= t("home.apps.bridge.tagline") %></p>
-
-      <p class="blurb"><%= t("home.apps.bridge.blurb") %></p>
-
-      <p class="learn">
-        <a href='<%= t("home.apps.bridge.learn_more_url") %>'>
-          <%= t("home.apps.bridge.learn_more_text") %>
-        </a>
-      </p>
     </div>
   </div>
 </section>
 
 <%# Recent press %>
-<section class="home--recent-press">
-  <h3><%= t("about.recent_press.header") %></h3>
-  <%= partial "partials/press_blurbs" %>
+<section class="home__recent-press">
+  <div class="section-inner">
+    <h3><%= t("about.recent_press.header") %></h3>
+    <%= partial "partials/press_blurbs" %>
+  </div>
 </section>
 
 <%# Homepage Latest %>
 <script async src="https://static.medium.com/embed.js"></script>
-<section class="home--medium-channels">
-  <h3><%= t("home.latest.header") %></h3>
-  <p><%= t("home.latest.text") %></p>
-  <div class="medium-channels">
-    <div class="medium-channel">
-      <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates"></a>
-    </div>
+<section class="home__medium-channels">
+  <div class="section-inner">
+    <h3><%= t("home.latest.header") %></h3>
+    <p><%= t("home.latest.text") %></p>
+    <div class="medium-channels">
+      <div class="medium-channel">
+        <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates"></a>
+      </div>
 
-    <div class="medium-channel">
-      <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-labs"></a>
+      <div class="medium-channel">
+        <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-labs"></a>
+      </div>
     </div>
   </div>
 </section>
 
 <%# Homepage Supporters %>
-<section class="home--logos">
-  <h3><%= t("home.supporters.header") %></h3>
-  <p><%= t("home.supporters.text") %></p>
-  <ul class="logos">
-    <% (data.check_supporter_logos.concat data.other_supporter_logos).each do |logo| %>
-    <li>
-      <%= partial "partials/image",
-          :locals => {
-          :type => logo[:type],
-          :name => logo[:name],
-          :url => logo[:url] } %>
-    </li>
-    <% end %>
-  </ul>
+<section class="home__logos layout--padding-bottom">
+  <div class="section-inner">
+    <h3><%= t("home.supporters.header") %></h3>
+    <p><%= t("home.supporters.text") %></p>
+    <ul class="logos">
+      <% (data.check_supporter_logos +  data.other_supporter_logos).uniq.each do |logo| %>
+
+
+      <li>
+        <%= 
+        partial "partials/image",
+            :locals => {
+            :type => logo[:type],
+            :name => logo[:name],
+            :url => logo[:url] } %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
 </section>
 
 <%# Homepage Donate %>
 <%= partial "partials/donate" %>
 
+
 <%# Homepage Photo Frame %>
-<div class="home--background-photo">
-  <p><%= t("home.photo_frame") %></p>
-</div>
+<section class="home__background-photo">
+  <div class="section-inner">
+    <p><%= t("home.photo_frame") %></p>
+  </div>
+</section>
 
 <%# Homepage Contact %>
 <%= partial "partials/contact" %>

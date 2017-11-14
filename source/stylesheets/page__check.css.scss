@@ -1,7 +1,7 @@
 // shared.scss is also loaded as a separate stylesheet
-@import 'shared/variables';
-@import 'shared/mixins';
-@import 'drawings';
+@import 'shared/shared';
+@import 'check_drawings';
+@import 'drawing__lines-and-circles';
 @import 'featured_client';
 @import 'logos';
 @import 'recent_press';
@@ -12,7 +12,8 @@
 
 // Check branding section
 //
-.check--branding {
+.check__branding {
+  animation: fadeIn 1.2s;
   background: $check-blue;
   background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
   background-position: 50%;
@@ -20,43 +21,70 @@
   background-size: cover;
   color: $white;
   height: 590px;
-  padding-bottom: 0;
+  overflow: hidden;
+  padding: units(6) 0 units(1);
   position: relative;
+  text-align: center;
+  width: 100%;
 
-  .slogan {
-    padding: 0;
+  .logo-and-slogan {
+    margin: units(3) auto;
   }
 
-  > .check-white {
-    display: block;
-    margin-top: 10px;
+  .slogan {
+    color: $white-70;
+    font: $font--headline;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
 
-    > img {
-      width: 250px;
+  .check-white {
+    display: block;
+    margin: 10px auto 0;
+
+    img {
+      animation: fadeIn 1.2s;
+      display: block;
+      margin-bottom: units(1);
+      max-width: 250px;
+      width: 100%;
     }
   }
 }
 
+.check__explanations {
+  padding-bottom: 0;
+}
+
 // Explanations
 .explanation {
+  margin: units(15) units(2) units(7);
+
+  .header-and-description {
+    padding-right: units(2);
+  }
+
+  h3 {
+    padding-top: 0;
+  }
+
   p {
-    margin-bottom: 1em;
+    margin: units(2) units(4) 0 0;
     max-width: 460px;
   }
 }
 
 .screenshot {
-  margin: 0 auto;
+  background-image: $check-gradient, url('/images/banners/electionland-newsroom@2x.jpg');
+  background-position: bottom center;
+  max-width: 500px;
+  padding: units(2);
 
-  @include when-smaller-than(medium) {
-    max-width: 550px;
-
-    > img {
+  > img {
+    @include when-smaller-than(medium) {
       width: 98%;
     }
+    width: 100%;
   }
-}
-
-.check--newsletter {
-  padding-top: units(3);
 }

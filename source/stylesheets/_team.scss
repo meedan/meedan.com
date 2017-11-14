@@ -1,51 +1,46 @@
 // Layout: Team
 //
 // Team headshots in a simple grid
+$width--team-member: units(18);
 
-$width--team-member: 160px;
-
-[class$='--team'] {
+[class$='__team'] {
   align-items: center;
   display: flex;
   flex-flow: wrap row;
-  justify-content: center;
-  margin: units(3) auto;
+  justify-content: flex-start;
+  margin: units(3) 0;
   padding: 0;
-
-  @media (min-width: $width--team-member * 2) {
-    width: $width--team-member * 2 + units(2);
-  }
-
-  @media (min-width: $width--team-member * 4) {
-    width: $width--team-member * 4 + units(2);
-  }
-
-  @media (min-width: $width--team-member * 6) {
-    width: $width--team-member * 6 + units(2);
-  }
-
-  @media (min-width: $width--team-member * 8) {
-    width: $width--team-member * 8 + units(2);
-  }
 
   .name {
     font-weight: 500;
     padding-top: units(1);
   }
 
+  .title {
+    font: $font--caption;
+    font-weight: 200;
+  }
+
   li {
+    @include when-smaller-than(small) {
+      margin: 0 auto;
+      width: $width--team-member - units(2);
+    }
     animation: fadeIn 1.2s;
     flex: 0 1 auto;
     font: $font--body-1;
-    height: units(30);
+    height: units(27);
+    justify-content: center;
+    margin-right: units(4);
+    text-align: center;
     width: $width--team-member;
   }
 
   img {
     border-radius: 50%;
     filter: sepia(25%);
+    margin: 0 auto;
     max-height: units(12);
     max-width: units(12);
-    width: 100%;
   }
 }
