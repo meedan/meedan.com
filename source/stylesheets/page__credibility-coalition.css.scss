@@ -153,7 +153,9 @@
         max-width: units(16);
       }
 
-      .kf {
+      // Oblong logos
+      .kf,
+      .shuttleworth {
         img {
           max-height: units(16);
           max-width: units(20);
