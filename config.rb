@@ -36,3 +36,8 @@ configure :build do
 	activate :minify_javascript
   activate :autoprefixer
 end
+
+
+# RSS parsing on home page
+require 'feedjira'
+require 'date'
