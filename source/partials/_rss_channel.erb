@@ -1,5 +1,6 @@
 <div class="medium-channel">
-  <h4 class="layout--padding-bottom"><%= title %></h4>
+  <h4><%= title %></h4>
+  <span class="tagline"><%= tagline %></span>
   <% feed = Feedjira::Feed.fetch_and_parse url %>
   <% feed.entries[0...7].each do |entry| %>
     <div class="entry">

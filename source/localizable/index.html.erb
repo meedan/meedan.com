@@ -83,14 +83,16 @@ slug: "home"
     <div class="medium-channels">
       <%= partial "partials/_rss_channel.erb", :locals => {
         :title => "Meedan Updates",
-        :url => "https://medium.com/feed/meedan-updates"
+        :url => "https://medium.com/feed/meedan-updates",
+        :tagline => "Verification, global journalism and Meedan activities",
         } 
       %>
 
       <%= partial "partials/_rss_channel.erb", :locals => {
         :title => "Words About Words",
-        :url => "https://medium.com/feed/meedan-labs"
-        } 
+        :url => "https://medium.com/feed/meedan-labs",
+        :tagline => "Thoughts on language and the global internet",
+        }
       %>
     </div>
   </div>
@@ -106,7 +108,7 @@ slug: "home"
 
 
       <li>
-        <%= 
+        <%=
         partial "partials/image",
             :locals => {
             :type => logo[:type],
