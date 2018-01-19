@@ -1,6 +1,13 @@
 @import "shared/annual_reports";
 
 .annual-report-2016 {
+  .lead-photo .image-banner {
+    @media all and (min-width: units(70)) {
+      background-position: 0% 50%;
+    }
+    background-image: linear-gradient(rgba(#1ca900, .2), rgba(darken(#4ed932, 20%), .4)), url('/images/annual-report/2016-electionland.jpg');
+  }
+
   .image-banner.team-2 {
     background-position: 0% 20%;
     background-image: linear-gradient(rgba(#3942ff, .2), rgba(darken(#000ad5, 20%), .4)), url('/images/annual-report/2016-tom.jpg');
@@ -11,14 +18,8 @@
     background-image: linear-gradient(rgba(#ff1919, .2), rgba(darken(#ff1919, 20%), .4)), url('/images/annual-report/2016-caio.jpg');
   }
 
-  .lead-photo .image-banner {
-    @media all and (min-width: units(70)) {
-      background-position: 0% 50%;
-    }
-    background-image: linear-gradient(rgba(#1ca900, .2), rgba(darken(#4ed932, 20%), .4)), url('/images/annual-report/2016-axm.jpg');
-  }
-
-  .check-feature {
-    color: #2e77fc;
+  .image-banner.team-4 {
+    background-position: 0% 40%;
+    background-image: linear-gradient(rgba(#fcc919, .2), rgba(darken(#fcd919, 20%), .4)), url('/images/annual-report/2016-axm-abir.jpg');
   }
 }
