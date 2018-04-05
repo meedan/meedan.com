@@ -9,6 +9,10 @@
 
   // A list of 'blurbs'
   .blurbs {
+    .gni {
+      padding-top: units(2);
+      padding-bottom: units(1);
+    }
 
     // at smaller sizes
     @include when-smaller-than(large) {
