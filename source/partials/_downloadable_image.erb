@@ -19,7 +19,7 @@ partial "partials/downloadable_image", :locals => {
 <% image = "#{full_path}/#{name}.#{type}" %>
 
 <div class="card <%= defined?(classes) ? classes : '' %>">
-    <a class="logo-container" href="<%= image %>" class="image-link"><img src="<%= image %>" /></a>
+    <a class="logo-container" href="<%= image %>"><img alt="<%= name %>" src="<%= image %>" /></a>
   <div class="labels">
     <span class="label">Name:</span>
     <a href="<%= image %>"><%= name %></a>
