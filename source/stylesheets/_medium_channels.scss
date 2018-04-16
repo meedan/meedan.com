@@ -6,16 +6,15 @@
 //
 [class$='__medium-channels'] {
   background-color: $black-02;
-  padding-bottom: $width--small-gutter;
 
   .medium-channels {
     @include when-smaller-than(medium) {
       margin-left: 0;
     }
-    align-items: center;
+    align-items: stretch;
     display: flex;
     flex-flow: wrap row;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-left: -#{$width--small-gutter};
   }
 
@@ -24,29 +23,56 @@
       margin: 0;
       width: 100%;
     }
-
-    @include when-larger-than(medium) {
-      background-color: $black-02;
-      // Crop them to the same height
-      height: units(80);
-      overflow: hidden;
-      position: relative;
-
-      // with a bottom shadow to hide the cut off text
-      // sass-lint:disable no-color-literals
-      &::after {
-        background-image: linear-gradient(rgba($black, 0), rgba($black, .5), rgba($black, .7), $black);
-        bottom: 0;
-        content: '';
-        display: block;
-        height: 100px;
-        position: absolute;
-        width: 500px;
-        z-index: 100;
-      }
-    }
+    @extend %card-flat;
     border-radius: $radius--default;
     margin: $width--small-gutter;
+    padding: units(2);
     width: 45%;
+
+    a {
+      font: $font--body-2;
+    }
+
+    .entry {
+      margin-top: units(3);
+      overflow: hidden;
+    }
+
+    .title {
+      display: block;
+    }
+
+    .tagline {
+      font-size: 13px;
+    }
+
+    .categories,
+    .published {
+      color: $black-54;
+      font: $font--caption;
+      font-weight: 300;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+
+    .published {
+      display: block;
+    }
+
+    .categories {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .categories span {
+      display: inline-block;
+      font-size: 10px;
+      height: units(3);
+      hyphens: auto;
+      line-height: 1.7;
+      margin-right: units(1);
+      text-overflow: ellipsis;
+    }
   }
 }

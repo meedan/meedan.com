@@ -40,7 +40,7 @@ h3 {
 h4 {
   @include when-smaller-than(large) {
     margin: $width--xsmall-gutter 0;
-    max-width: 61.8%;
+    max-width: 75%;
   }
   margin: $width--xsmall-gutter 0;
   max-width: units(70);

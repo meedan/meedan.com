@@ -26,6 +26,7 @@ credcoPages = [
   '/credibility-indicators',
   '/credco',
   '/en/credco',
+  '/credibility-coalition'
 ];
 
 // Redirect to canonical Bridge page
@@ -40,8 +41,9 @@ app.get(checkEnglishPages, function(req, res) {
 
 // Redirect to canonical credibility indicators page
 app.get(credcoPages, function(req, res) {
-  res.redirect(302, '/credibility-coalition');
+  res.redirect(302, 'https://credibilitycoalition.org');
 });
+
 // Uncomment once localized 2017-4-20 CGB
 //
 // Redirect to the canonical Arabic Check page

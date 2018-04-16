@@ -6,3 +6,4 @@ gem 'html-proofer'
 gem 'rainbow'
 gem 'middleman-alias'
 gem 'middleman-ogp'
+gem "feedjira"

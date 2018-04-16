@@ -79,14 +79,21 @@ slug: "home"
   <div class="section-inner">
     <h3><%= t("home.latest.header") %></h3>
     <p><%= t("home.latest.text") %></p>
-    <div class="medium-channels">
-      <div class="medium-channel">
-        <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-updates"></a>
-      </div>
 
-      <div class="medium-channel">
-        <a class="m-collection" data-width="500px" data-border="false" href="https://medium.com/meedan-labs"></a>
-      </div>
+    <div class="medium-channels">
+      <%= partial "partials/_rss_channel.erb", :locals => {
+        :title => "Meedan Updates",
+        :url => "https://medium.com/feed/meedan-updates",
+        :tagline => "Verification, global journalism and Meedan activities",
+        } 
+      %>
+
+      <%= partial "partials/_rss_channel.erb", :locals => {
+        :title => "Words About Words",
+        :url => "https://medium.com/feed/meedan-labs",
+        :tagline => "Thoughts on language and the global internet",
+        }
+      %>
     </div>
   </div>
 </section>
@@ -101,7 +108,7 @@ slug: "home"
 
 
       <li>
-        <%= 
+        <%=
         partial "partials/image",
             :locals => {
             :type => logo[:type],

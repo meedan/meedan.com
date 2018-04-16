@@ -1,0 +1,16 @@
+<div class="medium-channel">
+  <h4><%= title %></h4>
+  <span class="tagline"><%= tagline %></span>
+  <% feed = Feedjira::Feed.fetch_and_parse url %>
+  <% feed.entries[0...7].each do |entry| %>
+    <div class="entry">
+      <a class="title" href="<%= entry.url %>"><%= entry.title %></a>
+      <span class="published"><%= Date.strptime entry.published.to_s %></span>
+      <span class="categories">
+        <% entry.categories[0...3].each do |category| %>
+          <span><%= category %></span>
+        <% end %>
+      </span>
+    </div>
+  <% end %>
+</div>
