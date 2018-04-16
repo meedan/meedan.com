@@ -1,0 +1,39 @@
+@import 'shared/shared';
+
+.logos {
+  .card {
+    $padding: #{units(2)};
+    margin-bottom: units(2);
+    max-width: 600px + $padding + $padding;
+    @extend %card-flat;
+    padding: $padding;
+    font: $font--mono;
+    color: $black-54;
+
+    a.logo-container {
+      display: inline-block;
+      &:hover {
+
+        background: repeating-linear-gradient(
+          45deg,
+          $white,
+          $white 10px,
+          $black-16 10px,
+          $black-16 11px
+        );
+      }
+    }
+    .labels {
+      margin-top: units(4);
+      padding-top: units(1);
+    }
+
+    &.inverted {
+      background-color: $black-16;
+    }
+
+    img {
+      max-width: 600px;
+    }
+  }
+}
