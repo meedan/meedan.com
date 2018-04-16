@@ -1,0 +1,34 @@
+<%# (linked) image helper for images that you can click to download.
+
+USAGE:
+
+partial "partials/downloadable_image", :locals => {
+          :path => "vectors",  # defaults to `/images/logos/`
+          :name => "meedan_logo",
+          :type => "svg"
+        }
+%>
+
+<%# Define a path. Default to `logos` %>
+<% if defined?(path) %>
+  <% full_path = "/images/#{path}" %>
+<% else %>
+  <% full_path = "/images/logos" %>
+<% end %>
+
+<% image = "#{full_path}/#{name}.#{type}" %>
+
+<div class="card <%= defined?(classes) ? classes : '' %>">
+  <div class="marks horizontal">
+    <div class="marks vertical">
+      <a href="<%= image %>"><img src="<%= image %>" /></a>
+    </div>
+  </div>
+  <div class="labels">
+    <span class="label">Name:</span>
+    <a href="<%= image %>"><%= name %></a>
+  </div>
+  <div class="type"><span class="label">Type: </span><%=type %></div>
+  <div class="description"><span class="label">Size: </span><%= description %></div>
+</div>
+

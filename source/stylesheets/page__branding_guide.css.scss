@@ -1,0 +1,90 @@
+@import 'shared/shared';
+
+.logos {
+  .card {
+    $padding: #{units(2)};
+    margin-bottom: units(2);
+    max-width: 600px + $padding + $padding;
+    @extend %card-flat;
+    padding: $padding;
+    font: $font--mono;
+    color: $black-54;
+
+    // Display "registration marks" on hover
+    .marks {
+      position: relative;
+      display: inline-block;
+      line-height: 0;
+
+      a {
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+      }
+
+
+      &::before, &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: aqua;
+      }
+
+      &.vertical {
+        &::before, &::after {
+          width: 1px;
+          height: 16px;
+        }
+        &::before {
+          top: -8px;
+          left: -1px;
+        }
+
+        &::after {
+          bottom: -8px;
+          right: -1px;
+        }
+      }
+
+      &.horizontal {
+        &::before, &::after {
+          width: 16px;
+          height: 1px;
+        }
+        &::before {
+          top: -1px;
+          left: -8px;
+        }
+
+        &::after {
+          bottom: -1px;
+          right: -8px;
+        }
+      }
+
+      &:hover {
+
+        background: repeating-linear-gradient(
+          45deg,
+          $white,
+          $white 10px,
+          $black-16 10px,
+          $black-16 11px
+        );
+      }
+    }
+
+    .labels {
+      margin-top: units(4);
+      padding-top: units(1);
+    }
+
+    &.inverted {
+      background-color: $black-16;
+    }
+
+    img {
+      max-width: 600px;
+    }
+  }
+}

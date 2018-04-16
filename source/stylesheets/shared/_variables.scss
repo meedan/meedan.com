@@ -29,6 +29,8 @@ $radius--default: 4px;
 //
 $font-stack--primary: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
 
+$font-stack--mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+
 // Material design font size and line height
 //
 // • unquote() is used because: https://github.com/sass/sass/issues/667
@@ -41,6 +43,7 @@ $font--subheading-1: 200 20px unquote('/') 28px $font-stack--primary;
 $font--body-2: 200 16px unquote('/') 24px $font-stack--primary;
 $font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
 $font--caption: 400 12px unquote('/') 16px $font-stack--primary;
+$font--mono: 400 12px unquote('/') 16px $font-stack--mono;
 
 // Colors
 //
