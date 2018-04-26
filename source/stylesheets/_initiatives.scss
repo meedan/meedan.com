@@ -1,0 +1,12 @@
+
+.home__initiatives {
+  .initiative {
+    @extend %card-flat;
+    margin-bottom: units(2);
+    padding: units(2);
+
+    p {
+      font: $font--body-2;
+    }
+  }
+}
