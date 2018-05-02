@@ -22,6 +22,7 @@
     @include when-smaller-than(medium) {
       margin: 0;
       width: 100%;
+      margin-top: units(1);
     }
     @extend %card-flat;
     border-radius: $radius--default;
