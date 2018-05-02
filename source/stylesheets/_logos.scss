@@ -4,7 +4,7 @@
 //
 //
 [class*='__logos'] {
-  $width--card: units(25);
+  $width--card: units(22);
   background-color: $black-02;
 
   .logos {
@@ -15,25 +15,28 @@
       display: flex;
       flex-flow: wrap row;
       justify-content: flex-start;
+      margin: units(1) units(2) units(1) 0;
     }
     
     @supports (display: grid) {
       display: grid;
-      grid-gap: units(1);
+      grid-gap: units(2);
       grid-template-columns: repeat(auto-fill, minmax($width--card, 1fr));
+
+      @include when-smaller-than(medium) {
+        grid-gap: units(1);
+        grid-template-columns: repeat(auto-fill, minmax($width--card - units(3), 1fr));
+      }
     }
 
     li {
       @extend %card-flat;
-
-      @include when-smaller-than(medium) {
+      @include when-smaller-than(small) {
         margin-right: 0;
         width: 100%;
       }
       height: units(12);
-      margin: units(1) units(2) units(1) 0;
       padding: 0;
-      width: $width--card;
     }
 
     a {
@@ -45,6 +48,7 @@
       width: 100%;
     }
 
+    // Default dimensions on the images
     img {
       max-height: units(6);
       max-width: units(16);
@@ -78,7 +82,7 @@
     }
 
     // Oblong svg
-    // (because by default svgs have `width: 100` inline)
+    // (needed because by default svgs have `width: 100` inline)
     .kf img {
       width: units(16);
     }
