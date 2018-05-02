@@ -5,7 +5,8 @@ $width--team-member: units(18);
 
 [class$='__team'] {
   align-items: center;
-  margin: units(3) 0;
+  // Negative margin is for visual grid alignment
+  margin: units(3) -#{units(2)};
   padding: 0;
 
   // Fallback to Flex layout
