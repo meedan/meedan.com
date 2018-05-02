@@ -5,11 +5,24 @@ $width--team-member: units(18);
 
 [class$='__team'] {
   align-items: center;
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: flex-start;
   margin: units(3) 0;
   padding: 0;
+
+  // Fallback to Flex layout
+  @supports not((display: grid)) {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+
+    li {
+      flex: 0 1 auto;
+    }
+  }
+  
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($width--team-member, 1fr));
+  }
 
   .name {
     font-weight: 500;
@@ -27,7 +40,6 @@ $width--team-member: units(18);
       width: $width--team-member - units(2);
     }
     animation: fadeIn 1.2s;
-    flex: 0 1 auto;
     font: $font--body-1;
     height: units(27);
     justify-content: center;

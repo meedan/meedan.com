@@ -4,25 +4,36 @@
 //
 //
 [class*='__logos'] {
+  $width--card: units(25);
   background-color: $black-02;
 
   .logos {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: flex-start;
     list-style-type: none;
+
+    // Fallback to Flex layout
+    @supports not((display: grid)) {
+      display: flex;
+      flex-flow: wrap row;
+      justify-content: flex-start;
+    }
+    
+    @supports (display: grid) {
+      display: grid;
+      grid-gap: units(1);
+      grid-template-columns: repeat(auto-fill, minmax($width--card, 1fr));
+    }
 
     li {
       @extend %card-flat;
 
-      @include when-smaller-than(small) {
+      @include when-smaller-than(medium) {
         margin-right: 0;
         width: 100%;
       }
       height: units(12);
       margin: units(1) units(2) units(1) 0;
       padding: 0;
-      width: units(25);
+      width: $width--card;
     }
 
     a {
