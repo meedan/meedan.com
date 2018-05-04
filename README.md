@@ -35,7 +35,7 @@ How this works: With Middleman, templates in `source` are rendered with the valu
 
 Bonus: If you make a commit on the `develop` branch, the Jenkins server will pull your change to the server and run `middleman build` for you, deploying automatically to staging! And a bot will tell you about it in Slack. :zap:
 
-Note: If they copy needs to be localized consider editing into a translation manager instead of editing those files directly to the yml files.
+Note: If the copy needs to be localized consider editing into a translation manager instead of editing those files directly to the yml files.
 
 ## Installing dependencies
 
