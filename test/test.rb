@@ -16,21 +16,20 @@ else
   puts "WARNING: Make sure you set SLIMERJSLAUNCHER to your Firefox path..."
 end
 
-# Start the server, and note the server PID so we can stop it post test
-# system 'node server.js && echo $! > tmp/server.pid'
-text_banner 'Starting server...'
+# Start the server
+#
+text_banner("Starting server...")
 system 'node server.js &'
 
-
-# 1. Run casper tests to ensure redirection and RTL
+# Run casper tests to ensure redirection and RTL
 #
-text_banner 'Starting test...'
+text_banner("Starting tests...")
 text_banner("Starting Casper route tests...")
-system 'casperjs test --log-level=error test/casper.js --engine=slimerjs'
+system 'casperjs test --log-level=error test/casper.js --engine=slimerjs' or raise "Casper route tests failed!"
 
-# 2. Run HTML Proofer to check for broken links
+# Run HTML Proofer to check for broken links
 #
-text_banner("Starting HTML-Proofer tests...")
+text_banner("Starting HTML Proofer tests...")
 HTMLProofer.check_directory("./build", {
   :verbose => true,
   :check_html => true,
@@ -38,13 +37,12 @@ HTMLProofer.check_directory("./build", {
   :only_4xx => true
   }).run
 
-# 3. Check localization of the site
+# Check for accessibility issues
+#
+text_banner("Starting accessibility tests...")
+system 'a11y ./build/**/*.html' or raise "Accessibility tests failed!"
+
+# Check localization of the site
 #
 text_banner("Starting localization check...")
 require_relative "./localization.rb"
-
-# 4. Check for accessibility issues
-#
-system 'a11y ./build/**/*.html'
-
-text_banner 'Post test cleanup...'
