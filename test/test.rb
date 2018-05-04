@@ -16,11 +16,6 @@ else
   puts "WARNING: Make sure you set SLIMERJSLAUNCHER to your Firefox path..."
 end
 
-# Rebuild the site to ensure we test the latest static output
-text_banner 'Rebuilding the site and starting test server...'
-system `rm -rf build`
-system 'npm run build'
-
 # Start the server, and note the server PID so we can stop it post test
 # system 'node server.js && echo $! > tmp/server.pid'
 text_banner 'Starting server...'

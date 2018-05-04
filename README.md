@@ -45,17 +45,19 @@ Note: It does not do a full `build` on every save. It only live-updates files th
 
 ## Adding a new partner logo
 
-    - Use an svg file if possible, and optimize it with svgo.
-    - For jpg or png files, create two versions, `@1x` (at least 100px) and `@2x` (at least 200px). Render both sizes (eg with [Sketch.app](https://www.sketchapp.com/ "Sketch - Professional Digital Design for Mac")) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings ([Acorn](https://www.acorns.com/ "Acorns - Home")) or use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: If you're using Acorn or Photoshop, during the web export, try setting quality below 15%.)
-    - Add the name of the file to the partner json file as described below.
+- Use an svg file if possible, and optimize it with [svgo](https://github.com/svg/svgo).
+- For jpg or png files, create two versions, `@1x` (at least 100px) and `@2x` (at least 200px). Render both sizes (eg with [Sketch.app](https://www.sketchapp.com/ "Sketch - Professional Digital Design for Mac")) then do another pass on optimizing them. To optimize them you can do the best work with a bitmap program with good optimization settings ([Acorn](https://www.acorns.com/ "Acorns - Home")) or use the gulp task `gulp imagemin`. Check to make sure the file size is in the range of the other logos before committing a logo that is too big. The smaller size should be about 10k, the larger no more than 30k. Probably use a jpg for smallest file size. (Tip: If you're using Acorn or Photoshop, during the web export, try setting quality below 15%.)
+- Add the name of the file to the partner json file as described below.
 
 Once you have the new images, update the data files `supporter_logos.json` or `check_partners.json` to include data about the new file, for example:
 
-        {
-          "name": "witness",
-          "url": "https://witness.org/",
-          "type": "png"
-        }
+```
+{
+  "name": "witness",
+  "url": "https://witness.org/",
+  "type": "png"
+}
+```
 
 The template loops through these values to create the logo-list sections. So, this will add the images to the page.
 
@@ -63,11 +65,13 @@ The template loops through these values to create the logo-list sections. So, th
 
 Hooray, a new Meedani! Like the logos, team member information is stored as JSON data. Take a peek in `data/team_members.json` and add a member (in alphabetical order) like so:
 
-        {
-          "name": "meedani",
-          "fullname": "Me Meedani",
-          "title": "Senior Advisor"
-        }
+```
+{
+  "name": "meedani",
+  "fullname": "Me Meedani",
+  "title": "Senior Advisor"
+}
+```
 
 Add a @1x version (200px, under 10kb) and a @2x version (400px, under 20kb) to `images/team/`.
 
@@ -89,25 +93,10 @@ Then push your new commits and the new release with: `git push && git push --tag
 - Middleman compiles and Live-reloads the Sass for you.
 - There are two files for each page: `shared.scss` and `page__[pagename].scss`. That `@imports` everything else. (We have separate sass files for each page to ensure that we send the fewest possible lines of CSS to each page.)
 - Then we import our Sass components, pages, and utility files from `source/stylesheets`.
+- We use Sass formatting guideliness that are captured in a `.stylelintrc` file — you can use a stylelint linter in your editor of choice by following instructions on the [Stylelint website](https://stylelint.io/)
 
 Note: we are serving the site with [HTTP/2](https://http2.github.io/ "HTTP/2") so we no longer use image sprites, and we don't bundle all our CSS into a single file.
 
-## Sass linting
-
-We use Sass formatting guideliness that are captured in a `.stylelintrc` file — you can use a stylelint linter in your editor of choice by following instructions on the [Stylelint website](https://stylelint.io/)
-
-## Running tests
-
-There are integration tests operated by [casperjs](http://casperjs.org/ "CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS"). Note that we use [slimerjs](https://slimerjs.org/ "SlimerJS") instead of [phantomjs](http://phantomjs.org/ "PhantomJS | PhantomJS") (for better redirection support as of July 2015).
-
-We also do some accessibility tests with [a11y](https://github.com/addyosmani/a11y).
-
-To run these integration tests:
-
-- Install Slimer, Casper and a11y: `npm install -g slimerjs casperjs a11y`
-- Install [firefox](https://www.mozilla.org/en-US/firefox/products/)
-- If you're not on MacOS, tell Slimer where Firefox is by setting this variable `export SLIMERJSLAUNCHER=/path/to/firefox` before you run the test. If you are on MacOS it is done automatically.
-- Then you should be able to run the tests with `npm run test`
 
 ## Travis
 
