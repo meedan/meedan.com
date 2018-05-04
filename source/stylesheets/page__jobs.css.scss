@@ -1,7 +1,32 @@
 @import 'shared/shared';
 
 section.jobs {
+  background-color: $black-05;
+
   ul, li {
     list-style-type: disc;
+    list-style-position: inside;
+  }
+
+
+  .job {
+    @extend %card-flat;
+    padding: units(4);
+    margin: units(4) 0;
+
+    .meta {
+      font: $font--mono;
+    }
+
+    a {
+      border-bottom-width: 0;
+    }
+
+    h3 {
+      text-transform: capitalize;
+    }
+    p, ul, li {
+      font: $font--body-2;
+    }
   }
 }

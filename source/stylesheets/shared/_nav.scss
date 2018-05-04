@@ -3,7 +3,7 @@
 .primary-nav {
 
   // Small logo on small screens
-  @include when-smaller-than(small) {
+  @include when-smaller-than(medium) {
     .meedan-wordmark {
       display: none;
     }
@@ -65,7 +65,7 @@
 }
 
 // Page navigation: current page indicator
-@each $page in bridge, check, about {
+@each $page in bridge, check, about, jobs {
   .#{$page} {
     .#{$page} {
       a {
