@@ -1,9 +1,10 @@
 <% slug = current_page.data.slug.downcase %>
+<% title = current_page.data.title %>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/images/favicons/favicon.ico?v=1">
-  <title><%= slug.gsub("-", " ").split.map(&:capitalize).join(' ') %> | Meedan</title>
+  <title><%= title or slug.gsub("-", " ").split.map(&:capitalize).join(' ') %> | Meedan</title>
 
   <%# Render Arabic stylesheet %>
   <% if I18n.locale == :ar %>
