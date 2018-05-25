@@ -1,6 +1,6 @@
-# This is a build system for [meedan.com](http://meedan.com)
+# This is a build system for [Meedan.com](https://meedan.com)
 
-This is an environment for fast, synchronized browser refreshing as you edit Sass, HTML and Javascript.
+This is an environment for fast, synchronized browser refreshing as you edit Sass, HTML and JavaScript.
 
 ## Quick start
 
@@ -33,7 +33,7 @@ Middleman is a Ruby and Markdown templating & routing system. When you work with
 
 The build directory is ignored and rebuilt by the deployment process.
 
-## Local development of meedan.com
+## Local development
 
 *:warning: Don't edit the files in `./build` :) *
 
