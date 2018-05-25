@@ -18,7 +18,7 @@
   h3,
   h4 {
     margin: 0;
-    padding: units(4) 0;
+    padding: units(2) 0;
   }
 
   h1,
@@ -33,12 +33,16 @@
     margin-top: units(4);
   }
 
+  h3 {
+    margin-top: units(4);
+  }
+
   ol,
   ul {
     display: block;
     list-style-position: inside;
     margin: 0;
-    padding: units(4) 0;
+    padding: units(2) 0;
 
     li {
       display: list-item;

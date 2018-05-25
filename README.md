@@ -78,9 +78,9 @@ Add a @1x version (200px, under 10kb) and a @2x version (400px, under 20kb) to `
 ## Adding a new page
 
 - Create a `page__[pagename].scss` which imports the `shared` sass. That will ensure the basic CSS is in place for the page.
-- Add markup to `source/localizable`
+- Add markup to `source/localizable` and make sure the markdown frontmatter `slug` field matches the `[pagename]` you used in the scss file.
 - Add copy to `locales/en.yml` (and other locales as appropriate)
-- If you are adding it to the top level navigation: Add the page name to pages array in the `partials/_nav.erb` template and add the page name to the pages array in `source/stylesheets/nav.scss`. That will ensure it appears and is styled correctly when active.
+- If you are adding it to the top level navigation: 1. Add the page name to pages array in the `partials/_nav.erb` template and 2. add the page name to the pages array in `source/stylesheets/nav.scss`. That will ensure it appears and is styled correctly when active.
 
 ## Releasing new versions
 
@@ -94,9 +94,6 @@ Then push your new commits and the new release with: `git push && git push --tag
 - There are two files for each page: `shared.scss` and `page__[pagename].scss`. That `@imports` everything else. (We have separate sass files for each page to ensure that we send the fewest possible lines of CSS to each page.)
 - Then we import our Sass components, pages, and utility files from `source/stylesheets`.
 - We use Sass formatting guideliness that are captured in a `.stylelintrc` file — you can use a stylelint linter in your editor of choice by following instructions on the [Stylelint website](https://stylelint.io/)
-
-Note: we are serving the site with [HTTP/2](https://http2.github.io/ "HTTP/2") so we no longer use image sprites, and we don't bundle all our CSS into a single file.
-
 
 ## Travis
 
