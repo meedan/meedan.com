@@ -80,7 +80,9 @@ Add a @1x version (200px, under 10kb) and a @2x version (400px, under 20kb) to `
 - Create a `page__[pagename].scss` which imports the `shared` sass. That will ensure the basic CSS is in place for the page.
 - Add markup to `source/localizable` and make sure the markdown frontmatter `slug` field matches the `[pagename]` you used in the scss file.
 - Add copy to `locales/en.yml` (and other locales as appropriate)
+- Run `middleman build` to make sure it appears on localhost while developing (Middlman will not automatically recognize new files until you do this.)
 - If you are adding it to the top level navigation: 1. Add the page name to pages array in the `partials/_nav.erb` template and 2. add the page name to the pages array in `source/stylesheets/nav.scss`. That will ensure it appears and is styled correctly when active.
+
 
 ## Releasing new versions
 
