@@ -7,15 +7,23 @@ partial "partials/image", :locals => {
           :path => "vectors",  # defaults to `/images/logos/`
           :name => "cool-image",
           :url => "foobar.com",  # optional
+          :title => "Cool Image!", #optional
         }
 %>
 
 <%# Make a cleaner alt tag %>
 <% alt = name.gsub("-", " ") %>
 
+<%# Title attribute %>
+<% if defined?(title) && !title.nil? %>
+  <% title_attr = "title='#{title}'" %>
+<% else %>
+  <% title_attr = "" %>
+<% end %>
+
 <%# If there's a link, define anchor tags %>
 <% if defined?(url) %>
-  <% start_tag = "<a class='#{name}' href='#{url}'>" %>
+  <% start_tag = "<a class='#{name}' href='#{url}' target='_blank' rel='noopener noreferrer' #{title_attr}>" %>
   <% end_tag = "</a>" %>
 <% end %>
 
@@ -29,12 +37,18 @@ partial "partials/image", :locals => {
 <%# Render the linked image %>
 <%= start_tag %>
   <% if type == "svg" %>
-    <img width="100" class="<%= name %>" <%= "src='#{full_path}/#{name}.#{type}'" %> alt="<%= alt %>">
+    <img
+      width="100"
+      class="<%= name %>"
+      <%= "src='#{full_path}/#{name}.#{type}'" %>
+      alt="<%= alt %>"
+    >
   <% else %>
     <img
       class="<%= name %>"
       alt="<%= alt %>"
       <%= "src='#{full_path}/#{name}@1x.#{type}'" %>
-      <%= "srcset='#{full_path}/#{name}@2x.#{type} 2x'" %> >
+      <%= "srcset='#{full_path}/#{name}@2x.#{type} 2x'" %>
+    >
   <% end %>
 <%= end_tag %>

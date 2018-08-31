@@ -28,13 +28,13 @@ ogp:
             :name => "bridge-white" } %>
         <p class="slogan"><%= t('bridge.branding.slogan')%></p>
       </div>
-      
+
         <%= partial "partials/image", :locals => {
             :type => "png",
             :name => "bridge__branding-#{I18n.locale.to_s}",
-            :path => "screenshots" 
+            :path => "screenshots"
           } %>
-      
+
 
     </div>
   </div>
@@ -89,13 +89,17 @@ ogp:
         <%= partial "partials/image", :locals => {
           :type => "svg",
           :name => "kf",
-          :url  => "http://www.knightfoundation.org" } %>
+          :url => "http://www.knightfoundation.org",
+          :title => "Knight Foundation"
+        } %>
       </li>
       <li>
         <%= partial "partials/image", :locals => {
           :type => "svg",
           :name => "ng",
-          :url  => "http://www.nationalgeographic.com" } %>
+          :url => "http://www.nationalgeographic.com",
+          :title => "National Geographic"
+        } %>
       </li>
     </ul>
     <p><%= t("bridge.supporters.partner_paragraph")%></p>

@@ -174,7 +174,7 @@ ogp:
 <section class="check__newsletter">
   <div class="section-inner">
     <h3><%= t("check.newsletter.header") %></h3>
-    
+
       <p><%= t("check.newsletter.summary") %></p>
 
       <form class="form-inline tinyletter"
@@ -191,7 +191,7 @@ ogp:
           <input type="submit" value='<%= t("check.newsletter.button") %>' />
         </div>
       </form>
-    
+
   </div>
 </section>
 
@@ -205,9 +205,11 @@ ogp:
       <% data.check_supporter_logos.each do |image| %>
         <li>
           <%= partial "partials/image", :locals => {
-              :type => image[:type],
-              :name => image[:name],
-              :url => image[:url]} %>
+            :type => image[:type],
+            :name => image[:name],
+            :url => image[:url],
+            :title => image[:title]
+          } %>
         </li>
       <% end %>
     </ul>
