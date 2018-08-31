@@ -15,7 +15,7 @@ partial "partials/image", :locals => {
 
 <%# If there's a link, define anchor tags %>
 <% if defined?(url) %>
-  <% start_tag = "<a class='#{name}' href='#{url}'>" %>
+  <% start_tag = "<a class='#{name}' href='#{url}' target='_blank' rel='noopener noreferrer'>" %>
   <% end_tag = "</a>" %>
 <% end %>
 
