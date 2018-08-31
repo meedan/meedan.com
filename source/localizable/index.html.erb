@@ -129,15 +129,12 @@ slug: "home"
     <ul class="logos">
       <% (data.check_supporter_logos +  data.other_supporter_logos).uniq.each do |logo| %>
       <li>
-        <%=
-          partial "partials/image",
-            :locals => {
-            :type => logo[:type],
-            :name => logo[:name],
-            :url => logo[:url],
-            :title => logo[:title]
-          }
-        %>
+        <%= partial "partials/image", :locals => {
+          :type => logo[:type],
+          :name => logo[:name],
+          :url => logo[:url],
+          :title => logo[:title]
+        } %>
       </li>
       <% end %>
     </ul>
