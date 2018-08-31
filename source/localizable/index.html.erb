@@ -128,15 +128,16 @@ slug: "home"
     <p><%= t("home.supporters.text") %></p>
     <ul class="logos">
       <% (data.check_supporter_logos +  data.other_supporter_logos).uniq.each do |logo| %>
-
-
       <li>
         <%=
-        partial "partials/image",
+          partial "partials/image",
             :locals => {
             :type => logo[:type],
             :name => logo[:name],
-            :url => logo[:url] } %>
+            :url => logo[:url],
+            :title => logo[:title]
+          }
+        %>
       </li>
       <% end %>
     </ul>
@@ -145,7 +146,6 @@ slug: "home"
 
 <%# Homepage Donate %>
 <%= partial "partials/donate" %>
-
 
 <%# Homepage Photo Frame %>
 <section class="home__background-photo">

@@ -7,6 +7,7 @@ partial "partials/image", :locals => {
           :path => "vectors",  # defaults to `/images/logos/`
           :name => "cool-image",
           :url => "foobar.com",  # optional
+          :title => "Cool Image!", #optional
         }
 %>
 
@@ -26,15 +27,29 @@ partial "partials/image", :locals => {
   <% full_path = "/images/logos" %>
 <% end %>
 
+<% if defined?(title) && !title.nil? %>
+  <% title_attr = "title='#{title}'" %>
+<% else %>
+  <% title_attr = "" %>
+<% end %>
+
 <%# Render the linked image %>
 <%= start_tag %>
   <% if type == "svg" %>
-    <img width="100" class="<%= name %>" <%= "src='#{full_path}/#{name}.#{type}'" %> alt="<%= alt %>">
+    <img
+      width="100"
+      class="<%= name %>"
+      <%= "src='#{full_path}/#{name}.#{type}'" %>
+      alt="<%= alt %>"
+      <%= title_attr %>
+    >
   <% else %>
     <img
       class="<%= name %>"
       alt="<%= alt %>"
       <%= "src='#{full_path}/#{name}@1x.#{type}'" %>
-      <%= "srcset='#{full_path}/#{name}@2x.#{type} 2x'" %> >
+      <%= "srcset='#{full_path}/#{name}@2x.#{type} 2x'" %>
+      <%= title_attr %>
+    >
   <% end %>
 <%= end_tag %>
