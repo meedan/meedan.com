@@ -116,3 +116,25 @@ casper.test.begin('/ar/check redirects to /en/check', 2, function suite(test) {
     test.done();
   });
 });
+
+// Test date format on ToS and Privacy Policy pages
+//
+casper.test.begin('date format on Check Privacy Policy page', 2, function suite(test) {
+  casper.start(localhostURL + "/en/check/check_privacy.html", function () {
+    this.wait(2000, function () {
+      this.echo("waited for 2 seconds");
+    });
+  });
+  casper.then(function () {
+    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{2}, [0-9]{4})/;
+    var content = this.getPageContent();
+    test.assertMatch(content, regexp, 'Invalid date format for the "Last modified" header');
+    var dateStr = content.match(regexp);
+    var date = new Date(dateStr);
+    var dateIsValid = (date != 'Invalid Date');
+    test.assert(dateIsValid, '"Last modified" date format');
+  });
+  casper.run(function () {
+    test.done();
+  });
+});
