@@ -129,7 +129,7 @@ casper.test.begin('date format on Check Privacy Policy page', 2, function suite(
     var regexp = /Last modified: ([a-zA-Z]+ [0-9]{2}, [0-9]{4})/;
     var content = this.getPageContent();
     test.assertMatch(content, regexp, 'Invalid date format for the "Last modified" header');
-    var dateStr = content.match(regexp);
+    var dateStr = content.match(regexp)[1];
     var date = new Date(dateStr);
     var dateIsValid = (date != 'Invalid Date');
     test.assert(dateIsValid, '"Last modified" date format');
