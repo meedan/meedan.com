@@ -38,7 +38,6 @@ partial "partials/image", :locals => {
 <%= start_tag %>
   <% if type == "svg" %>
     <img
-      width="100"
       class="<%= name %>"
       <%= "src='#{full_path}/#{name}.#{type}'" %>
       alt="<%= alt %>"
