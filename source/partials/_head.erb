@@ -19,8 +19,9 @@
   <%# Print styles, only for annual reports %>
   <% if slug.include?("annual-report") %>
     <%= stylesheet_link_tag "stylesheets/print" %>
+    <link rel="stylesheet" type="text/css" href="/2017-annual-report/js/libs/slick/slick.css">
   <% end %>
-
+  
   <%# Page-specific styles %>
   <%# Each page should have its own stylesheet like 'stylesheets/page__pagename.css.scss' %>
   <%= stylesheet_link_tag "stylesheets/page__#{slug}" %>
