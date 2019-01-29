@@ -13,3 +13,6 @@
 # repository branch will inherit these settings.
 [context.develop]
   command = "CONTENTFUL_ENVIRONMENT=develop jekyll contentful --rebuild"
+
+[context.jekyll]
+  command = "CONTENTFUL_ENVIRONMENT=develop jekyll contentful --rebuild"
