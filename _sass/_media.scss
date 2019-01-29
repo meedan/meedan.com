@@ -1,0 +1,43 @@
+// ======================================================================
+// Media
+.media {
+	margin-top: $space-small;
+	margin-bottom: $space-small;
+}
+
+.media-image {
+	position: relative;
+	z-index: 0;
+	background-color: #fff;
+}
+
+.media-image img {
+	display: block;
+	// opacity: .8;
+}
+
+// Grayscale effect
+// .media-image:before {
+// 	position: absolute;
+// 	content: '';
+// 	top: 0;
+// 	left: 0;
+// 	bottom: 0;
+// 	width: 100%;
+// 	height: 100%;
+// 	background-color: rgba($black, 0.2);
+// 	z-index: 1;
+// }
+
+.media-caption {
+	margin-top: $space-small/3;
+	font-family: $font-stack-b;
+	font-weight: 400;
+	font-size: $small-text;
+	.media-caption-title {
+		font-weight: 500;
+		padding-bottom: $space-small/3;
+		border-bottom: 1px solid rgba($g1, 0.6);
+		margin-bottom: $space-small/3;
+	}
+}

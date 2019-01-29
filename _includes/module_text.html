@@ -1,0 +1,6 @@
+{% if inner %}
+	{% assign text = inner.content %}
+{% else %}
+	{% assign text = module.content %}
+{% endif %}
+{{ text | markdownify }}

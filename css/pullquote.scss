@@ -1,0 +1,37 @@
+---
+# Pullquote SASS file
+---
+// import sass files
+@import "colors.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+// English fonts
+@import url('//fonts.googleapis.com/css?family=IBM+Plex+Mono:400');
+
+.pullquote {
+	margin-top: $space-medium;
+	margin-bottom: $space-medium;
+	font-family: $font-stack-b;
+}
+
+// lined paper effect using linear gradient
+.pullquote p {
+	line-height: 2;
+	background-color: transparent; 
+	background-image: linear-gradient($g2 1px, transparent 1px);
+	background-size: 100% 2em;
+	background-position: 0 3.89em; // start from line 2
+	margin-bottom: $space-small;
+}
+
+.pullquote .by {
+	color: $g1;
+}
+
+.pullquote .source {
+	display: block;
+	font-size: $small-text;
+	margin-top: 4px;
+	color: $g1;
+}

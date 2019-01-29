@@ -1,0 +1,12 @@
+{% assign pullquote_content = module.pullquote %}
+<div class="grouped-column">
+  <div class="grouped-column-content pullquote">
+  	<svg xmlns="http://www.w3.org/2000/svg" width="48" height="33" viewBox="0 0 48 33">
+		  <path fill="#A7A7A7" d="M347.190476,1337 L357.190476,1337 L363.857143,1323.8 L363.857143,1304 L343.857143,1304 L343.857143,1323.8 L353.857143,1323.8 L347.190476,1337 Z M374.190476,1337 L384.190476,1337 L390.857143,1323.8 L390.857143,1304 L370.857143,1304 L370.857143,1323.8 L380.857143,1323.8 L374.190476,1337 Z" transform="rotate(180 195.5 668.5)"/>
+		</svg>
+  	{{ pullquote_content | markdownify }}
+    <span class="by">{{ module.pullquote_by }}</span>
+    <span class="source">{{ module.source }}</span>
+  </div>
+</div>
+<link rel="preload" href="/css/pullquote.css" as="style" onload="this.onload=null;this.rel='stylesheet'">

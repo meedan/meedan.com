@@ -1,0 +1,19 @@
+{% if inner %}
+	{% assign stats = inner.stats %}
+{% else %}
+	{% assign stats = module.stats %}
+{% endif %}
+<div class="stats">		
+	{% assign all_stats = site.data.contentful.spaces.stats.stat %}
+    {% for s in stats %}
+      {% for stat in all_stats %}
+        {% if stat.sys.id == s.sys.id %}
+        {%
+              include stat.html
+              number=stat.number
+              label=stat.label
+        %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+</div>

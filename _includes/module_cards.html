@@ -1,0 +1,21 @@
+{% assign cards = site.data.contentful.spaces.moduleCards.moduleCard %}
+<div class="cards">
+{% for c in module.cards %}
+	{% for card in cards %}
+		{% if c.sys.id == card.sys.id %}
+			<div class="card-wrapper">
+			{% 
+          include module_card.html 
+          image=card.image.url
+          title=card.title
+          description=card.description
+          filter=card.filter_image
+          logo=card.logo
+          link=card.link
+      %}
+    	</div>
+		{% endif %}
+	{% endfor %}
+
+{% endfor %}
+</div>

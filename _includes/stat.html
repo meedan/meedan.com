@@ -1,0 +1,10 @@
+{% assign number = include.number %}
+{% assign label = include.label %}
+{% assign note = include.note %}
+<div class="stat{% if note %} with-note{% endif %}">
+    <div class="label">{{ label }}</div>
+    <div class="number">{{ number }}</div>
+</div>
+{% if note %}
+  <div class="note">{{ note }}</div>
+{% endif %}

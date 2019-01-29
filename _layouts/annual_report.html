@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="page-section">
+    <div class="site-wrapper">
+        {% include header.html %}
+        <div class="p-header">
+            <div class="p-header-container">
+                <h1>{{ page.title }}</h1>
+                <h2>{{ page.summary | markdownify }}</h2>
+            </div>
+        </div>
+        <section class="precontent">
+            {% if page.sections %}
+        	<div class="nav-wrapper">
+	        	<div class="nav">
+                    <ul>
+                        {% for section in page.sections %}
+	                       <li><a href="#{{ section.section_class | slugify }}">{{ section.title }}</a></li>
+                        {% endfor %}
+	                </ul>
+	            </div>
+	        </div>
+            {% endif %}
+            <div class="columns about-report">
+                <div class="column-a">
+                    {{ page.about | markdownify }}
+                </div>
+                <div class="column-b">
+                    {%
+                    include module_graphic.html
+                    url=page.graphic.url
+                    title=page.graphic.title
+                    %}
+                </div>
+            </div>
+        </section>
+        {% include render_sections.html %}
+        {% include footer.html %}
+    </div>
+    {% include js.html %}
+</body>
+
+</html>

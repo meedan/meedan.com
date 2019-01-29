@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="" />
+
+  <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.location.title %}{{ page.location.title | prepend: ', ' }}{% endif %}{{ site.title | escape | prepend: ' | ' }}</title>
+  {% seo %}
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"> 
+  <link rel="stylesheet" type="text/css" href="/css/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/js/libs/slick/slick.css">
+
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+  {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+    {% endfor %}
+  {% endif %}
+
+</head>

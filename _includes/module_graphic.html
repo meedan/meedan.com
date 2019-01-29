@@ -1,0 +1,18 @@
+<!-- clear previous notes -->
+{% assign note = '' %}
+{% if inner.graphic %}
+	{% assign graphic = inner.graphic.url %}
+	{% assign note = inner.note %}
+{% elsif include.url && include.title %}
+	{% assign graphic = include.url %}
+	{% assign title = include.title %}
+{% else %}
+	{% assign graphic = module.graphic.url %}
+	{% assign note = module.note %}
+{% endif %}
+<div class="illustration">
+	<img src="{{ graphic }}" alt="{{ title }}"/>
+</div>
+{% if note %}
+	<div class="note">{{ note }}</div>
+{% endif %}

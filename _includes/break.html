@@ -1,0 +1,10 @@
+{% assign break_class = include.class | default: 'false' %}
+<div class="break{% if break_class %}{{ break_class | prepend: ' ' }}{% endif %}" aria-hidden="true">
+	<div class="break-wrapper">
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+		<div class="four"></div>
+		<div class="five"></div>
+	</div>
+</div>

@@ -1,0 +1,72 @@
+// ======================================================================
+// Footer
+
+.footer {
+	background-color: rgba($g0, 0.6);
+	color: $black;
+	padding-top: $space-large;
+}
+
+.footer .content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: $space-small/2 $space-small;
+}
+
+.footer .content-wrapper:last-child {
+	padding-bottom: $space-medium;	
+}
+
+.footer span {
+	color: $black;
+}
+
+.footer .about {
+	width: 70%;
+	flex: 1 0 70%;
+}
+
+.footer .donate a,
+.footer .about a {
+	color: $green;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.footer .social,
+	.footer .past-years {
+		width: 15%;
+		flex: 1 0 15%;
+	}
+}
+
+.footer {
+	ul {
+		list-style: none;
+		margin-top: 0;
+		padding: 0;
+	}
+	li {
+		margin-bottom: 4px;
+		color: $g1;
+	}
+	ul:last-child a {
+		padding-bottom: $space-small/20;
+		border-bottom: 1px solid rgba($g1, 0.2);
+	}
+	ul:last-child a:hover {
+		border-color: rgba($g1, 0.5);
+	}
+	a {
+		color: $g1;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.footer .content-wrapper {
+		flex-direction: column;
+		& > div:not(:first-child) {
+			margin-top: $space-small;
+		}
+	}
+}

@@ -1,0 +1,93 @@
+.list {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid $g2;
+	margin-top: $space-small;
+	padding-top: $space-small/2;
+	padding-bottom: $space-small/2;
+}
+
+.list-only {
+	border-top: 1px solid $g2;
+	margin-top: $space-small;
+	padding-top: $space-small/2;
+	padding-bottom: $space-small/2;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.list-only {
+		margin-left: 40%;
+	}
+
+	.listing .list-only .list-wrapper {
+		max-width: none;
+		flex-basis: auto;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.list {
+		flex-direction: column;
+	}
+}
+
+.list .date {
+	font-size: $number;
+	font-weight: normal;
+	line-height: 1;
+	color: $g1;
+}
+
+.list-wrapper .title {
+	font-size: $medium-text;
+	margin-bottom: $space-small/6;
+}
+
+.list-wrapper .description {
+	color: $g1;
+}
+
+
+.sub-list {
+	display: flex;
+	border-top: 1px solid $g2;
+	padding-top: $space-small/2;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.sub-list {
+		margin-left: 40%;
+	}
+}
+
+
+@include responsive('min-width: #{$width-tablet}') {
+	.list-wrapper .date {
+		max-width: 15%;
+		flex-basis: 15%;
+	}
+	.listing .list-wrapper {
+		max-width: 60%;
+		flex-basis: 60%;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.list .date {
+		font-size: $x-large-text;
+	}
+}
+
+.list.with-note {
+	padding-bottom: $space-small/2;
+}
+
+.list .note {
+	margin-bottom: $space-small/6;
+	color: darken($g0, 50%);
+}
+
+.list .illustration {
+	margin-top: $space-medium;
+	margin-bottom: $space-small;
+}

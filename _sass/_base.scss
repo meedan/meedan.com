@@ -1,0 +1,72 @@
+body {
+	font: 18px/28px $font-stack;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word; /* force long words to break */
+  overflow-wrap: break-word; /* newer syntax standard that replaces word-wrap */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  outline: 0;
+  &:hover {
+    color: inherit;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+.site-wrapper {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  color: $black;
+  font-size: 1em;
+  line-height: 1.4;
+  overflow: hidden;
+}
+
+.header,
+.content,
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  flex: 1 auto;
+  box-sizing: border-box;
+}
+
+// ====================================================================
+// Logo
+
+.header {
+  margin-top: $space-small;
+  max-width: $page-width;
+}
+
+.logo {
+  line-height: 1;
+}
+
+.logo svg {
+  display: inline-block;
+}
+
+.logo-text {
+  position: relative;
+}
+
+.logo-text-original {
+  color: transparent;
+}

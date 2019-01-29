@@ -1,0 +1,34 @@
+{% assign title = include.title %}
+{% assign count = include.count | default: '' %}
+{% assign graphic = include.image %}
+{% assign description = include.description | default: '' %}
+{% assign block_tag = include.block_tag | default: 'p' %}
+{% assign date = include.date | default: '' %}
+{% assign link = include.link | default: '' %}
+{% assign filter = include.filter | default: 'false' %}
+{% assign filter_class = 'tinted' %}
+{% assign logo = include.logo | default: 'false' %}
+{% assign logo_class = 'logo' %}
+
+{% if link != '' %}
+<a href="{{ link }}" title="{{ description }}">
+{% endif %}
+<div class="card {{ title | downcase }}">
+    <div class="card-text">
+        <h3 class="title">
+            {{ title }}
+            <!-- Show date only when needed -->
+            {% if date != '' %}
+                <span>{{ date }}</span>
+            {% endif %}
+        </h3>
+        {% if count != '' %}
+        	<span class="count">{{ count }}</span>
+        {% endif %}
+        <{{ block_tag }} class="description">{{ description }}</{{ block_tag }}>
+    </div>
+    <div class="card-graphic{% if filter == true %}{{ filter_class | prepend: ' ' }}{% endif %}{% if logo == true %}{{ logo_class | prepend: ' ' }}{% endif %}" style="background-image:url({{ graphic }})"></div>
+</div>
+{% if link != '' %}
+</a>
+{% endif %}

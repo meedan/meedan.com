@@ -1,0 +1,67 @@
+// The primary pages navigation
+// Styles copied from meedan.com
+.primary-nav {
+
+  // Small logo on small screens
+  @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .meedan-wordmark {
+      display: none;
+    }
+  }
+  align-content: center;
+  display: flex;
+  width: 100%;
+  z-index: 3;
+
+
+  .meedan-logo {
+    img {
+      height: 45px;
+      margin: 8px 16px 0;
+      width: 45px;
+    }
+  }
+
+  .meedan-wordmark {
+    img {
+      height: 45px;
+      margin-top: 8px;
+      width: 70px;
+    }
+  }
+
+  .pages {
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
+    margin: 0 8px;
+
+    li {
+      height: 64px;
+      padding: 0;
+      list-style: none;
+    }
+
+    a {
+      @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+        padding: 16px 8px;
+      }
+      color: $black-87;
+      display: block;
+      // font: $font--body-2;
+      line-height: 32px;
+      padding: 16px;
+      text-decoration: none;
+      transition: border .2s;
+
+      &:hover {
+        box-shadow: inset 0 -3px 0 $check-blue;
+        transition: border .2s;
+      }
+
+      &:active {
+        color: $check-blue;
+      }
+    }
+  }
+}

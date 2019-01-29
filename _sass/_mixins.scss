@@ -1,0 +1,22 @@
+// Responsive Mixin
+// This is a simple mixin for media queries as described
+// in Sass for Web Designers by Dan Cederholm
+// see _variables.scss for variables defining the breakpoints
+
+@mixin responsive($query) {
+  @if $query == wide-screens {
+    @media only screen and (max-width: $width-wide) { @content; }
+  }
+  @else if $query == desktop-screens {
+    @media only screen and (max-width: $width-desktop) { @content; }
+  }
+  @else if $query == tablet-screens {
+    @media only screen and (max-width: $width-tablet) { @content; }
+  }
+  @else if $query == mobile-screens {
+    @media only screen and (max-width: $width-mobile) { @content; }
+  }
+  @else {
+    @media only screen and ($query) { @content; }
+  }
+}

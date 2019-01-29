@@ -1,0 +1,19 @@
+{% if module.top_border == true %}
+	<hr />
+{% endif %}
+<div class="columns">
+	<div class="column column-a">
+	    <h3>{{ module.title }}</h3>
+	    {% if module.logo %}
+	    	<img src="{{ module.logo.url }}" alt="{{ module.title }}" width="100px" />
+	    {% endif %}
+	</div>
+	<div class="column column-b">
+		{% for m in module.content %}
+			{% 
+				include render_inner_modules.html 
+				id = m.sys.id
+			%}
+		{% endfor %}
+	</div>
+</div>

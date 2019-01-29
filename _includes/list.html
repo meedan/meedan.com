@@ -1,0 +1,32 @@
+{% assign date = include.date | default: 'false' %}
+{% assign title = include.title %}
+{% assign description = include.description %}
+{% assign note = include.note %}
+{% assign list_only = include.list_only | default: 'false' %}
+{% assign link = include.link | default: '' %}
+{% if link != '' %}
+<a href="{{ link }}" title="{{ description }}">
+{% endif %}
+{% if list_only == 'false' %}
+<div class="{% if date != 'false' %}list{% endif %}{% if note %} with-note{% endif %}{% if date == 'false' %}sub-list{% endif %}">
+	{% if date != 'false' %}
+	<div class="date">{{ date }}</div>
+	{% endif %}
+{% else %}
+	<div class="list-only">
+{% endif %}
+	<div class="list-wrapper">
+		<div class="title">{{ title }}</div>
+		{% if note %}
+		  <div class="note">{{ note }}</div>
+		{% endif %}
+    	<div class="description">{{ description }}</div>
+    </div>
+{% if list_only == 'false' %}
+</div>
+{% else %}
+</div>
+{% endif %}
+{% if link != '' %}
+</a>
+{% endif %}

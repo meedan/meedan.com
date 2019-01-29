@@ -1,0 +1,94 @@
+.break {
+	width: 100%;
+	border-top: 1px solid $black;
+	border-bottom: 1px solid $black;
+	background-color: rgba($g0, 0.6);
+}
+
+.break-wrapper {
+	height: $space-small;
+	max-width: $page-width;
+	margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 0;	
+	display: flex;
+	justify-content: space-between;
+  position: relative;
+	div {
+		// flex: 1 1 auto;
+		border-left: 1px solid;
+	}
+	.five {
+		border-right: 1px solid;
+	}
+}
+
+.start-introduction.break {
+	background-color: $black;
+	border-bottom-color: #fff;
+	div {
+		border-left-color: #fff;
+	}
+	.five {
+		border-right-color: #fff;
+	}
+}
+
+.start-introduction .break-wrapper,
+.end-introduction .break-wrapper {
+	.one {
+		width: 30%;
+	}
+	.two {
+		width: 49.9999%;
+	}
+	.three, .four, .five {
+		width: 10.002%;
+	}
+}
+
+.end-in-numbers .break-wrapper {
+	.one {
+		width: 15.002%;
+	}
+	.two {
+		width: 4.9999%;
+	}
+	.three {
+		width: 50%;
+	}
+	.four, .five {
+		width: 30%;
+	}
+}
+
+.end-reviews .break-wrapper {
+	.one {
+		width: 30.002%;
+	}
+	.two, .five {
+		width: 9.9999%;
+	}
+	.three, .four {
+		width: 30.9999%;
+	}
+}
+
+.end-financials .break-wrapper {
+	background-color: #fff;
+	.one {
+		width: 20%;
+	}
+	.two {
+		width: 20%;
+	}
+	.three {
+		width: 10.002%;
+	}
+	.four {
+		width: 49.9999%;
+	}
+	.five {
+		width: 39.9999%;
+	}
+}

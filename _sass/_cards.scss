@@ -1,0 +1,95 @@
+// ======================================================================
+// Cards
+.cards {
+	margin-top: $space-small/2;
+	margin-bottom: $space-small/2;
+}
+
+.card {
+	display: flex;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card {
+		flex-direction: column;
+	}
+}
+
+.card-text,
+.card-graphic {
+	max-width: 50%;
+	flex-basis: 50%;
+  flex: 1 1 auto;
+  margin: 0;
+  height: 540px;
+}
+
+.card-graphic {
+	background-size: cover;
+  background-position: center center;
+  display: block;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
+.card-graphic.logo {
+	background-size: 45%;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card-graphic {
+		order: -1;
+		height: 250px;
+	}
+	.card-text,
+	.card-graphic {
+		max-width: 100%;
+		flex-basis: 100%;
+	}
+}
+
+.card-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	background-color: $black;
+	color: #fff;
+	padding: $space-small;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card-text {
+		height: 290px;
+	}
+}
+
+.card-text .title,
+.card-text .count,
+.card-text .description {
+	margin: 0;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card-text .description {
+		display: none;
+	}
+}
+
+.card-text .title span {
+	display: block;
+	margin-top: $space-small/3;
+	font-size: $small-text;
+	color: $g0;
+}
+
+.card-text .count {
+	font-size: $number;
+	line-height: 1;
+	color: $green;
+}
+
+.card-single {
+	margin-top: $space-small;
+	margin-bottom: $space-small;
+}

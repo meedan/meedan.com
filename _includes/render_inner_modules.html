@@ -1,0 +1,19 @@
+{% assign id = include.id %}
+{% assign all_2_column_modules = site.data.contentful.spaces.module2ColumnContents.module2ColumnContent %}
+{% for a in all_2_column_modules %}
+	{% for content in a.content %}
+		{% if content.sys.id == id %}
+			{% assign inner = content %}
+			{% case content.sys.content_type_id %}
+				{% when 'moduleTex' %}
+					{% include module_text.html %}	
+				{% when 'moduleImage' %}
+					{% include module_image.html %}
+				{% when 'moduleGraphic' %}
+					{% include module_graphic.html %}
+				{% when 'moduleStats' %}
+					{% include module_stats.html %}
+			{% endcase %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}

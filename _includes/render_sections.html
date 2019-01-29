@@ -1,0 +1,45 @@
+{% for section in page.sections %}
+	<!-- Break for first section -->
+	{% if forloop.index == 1 %}
+	{% capture start_break_class %}
+        {{ section.section_class | slugify | prepend: "start-" }}
+    {% endcapture %}
+	{% 
+		include break.html 
+		class=start_break_class 
+	%}
+	{% endif %}
+	
+	<section class="content {{ section.section_class | slugify }}" id="{{ section.section_class | slugify }}">
+		<div class="graphic-wrapper bordered">
+			<h2><span>{{ forloop.index }}.</span> {{ section.title }}</h2>
+			{%
+				include module_graphic.html
+				url=section.cover_graphic.url
+				title=section.section_class
+			%}
+		</div>
+		<div class="content-wrapper bordered">
+			{% assign sections = site.data.contentful.spaces.sections.section %}
+	        {% for s in section.modules %}
+	        	{% for sm in sections %}
+	        		{% for module in sm.modules %}
+	        			{% if s.sys.id == module.sys.id %}
+	        				{% 
+	    						include cases_modules.html 
+	    						module=module
+	    					%}
+	        			{% endif %}
+	        		{% endfor %}		
+	        	{% endfor %}
+	        {% endfor %}
+	</section>
+	<!-- Break sections -->
+	{% capture end_break_class %}
+        {{ section.section_class | slugify | prepend: "end-" }}
+    {% endcapture %}
+	{% 
+		include break.html 
+		class=end_break_class 
+	%}
+{% endfor %}

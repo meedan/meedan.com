@@ -1,0 +1,27 @@
+//== Breakpoints
+//
+//## Three breakpoints for use in media queries
+$width-mobile: 							375px;
+$width-tablet: 							740px;
+$width-desktop: 						980px;
+$width-wide: 								1300px;
+$width-mobile-landscape: 		480px;
+
+// Page width
+$page-width: 1024px;
+
+// Type
+$font-stack: 'IBM Plex Sans', -apple-system, Helvetica, Helvetica Neue, Arial, sans-serif;
+$number: 4em;
+$font-stack-b: 'IBM Plex Mono', -apple-system, sans-serif;
+$x-large-text: 2.667em;
+$large-text: 2.222em;
+$large-line-height: 1.4;
+$medium-text: 1.444em;
+$medium-line-height: 1.15;
+$small-text: 0.778em;
+
+// Space
+$space-small: 2.2em;
+$space-medium: 5.556em;
+$space-large: 8.333em;

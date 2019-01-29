@@ -1,0 +1,13 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/libs/slick/slick.min.js"></script>
+{% if page.custom_js_lib %}
+  {% if page.custom_js_lib == 'loadCSS' %}
+  	{% include loadCSS.html %}
+	{% endif %}  
+{% endif %}
+{% if page.custom_js %}
+  {% for jsfile in page.custom_js %}
+    <script src="/js/{{ jsfile }}.js" async></script>
+  {% endfor %}
+{% endif %}
