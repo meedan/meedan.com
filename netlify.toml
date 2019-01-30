@@ -14,5 +14,8 @@
 [context.develop]
   command = "CONTENTFUL_ENVIRONMENT=develop jekyll contentful --rebuild"
 
-[context.jekyll]
+[context.next-master]
+  command = "CONTENTFUL_ENVIRONMENT=master jekyll contentful --rebuild"
+
+[context.next-develop]
   command = "CONTENTFUL_ENVIRONMENT=develop jekyll contentful --rebuild"
