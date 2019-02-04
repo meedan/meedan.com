@@ -3,9 +3,9 @@ annualReport:
 - sys:
     id: 1WcdU4LZoH1Ju1N8uzJJvE
     created_at: !ruby/object:DateTime 2019-01-21 20:27:25.632000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-23 22:20:25.802000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-04 20:31:07.097000000 Z
     content_type_id: annualReport
-    revision: 9
+    revision: 10
   title: 2017 Annual Report Develop
   summary: Meedan designs/develops open source software, leads monitoring projects,
     produces assessment standards, and conducts trainings in support of global digital
@@ -184,3 +184,97 @@ annualReport:
     - [hello@meedan.com](mailto:hello@meedan.com)
   donate: "- Support Meedan in building world class tools for journalists, citizen
     journalists and translators. \n- [Become a Meedan Supporter](https://donorbox.org/support-meedan)"
+  other_years: |-
+    - [2016](https://meedan.com/2016-annual-report/)
+    - [2015](https://meedan.com/2015-annual-report/)
+    - [2014](https://meedan.com/2014-annual-report/)
+- sys:
+    id: 3t5p5YMcylqfiuK2lyi8H0
+    created_at: !ruby/object:DateTime 2019-01-29 22:33:06.715000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-04 20:31:33.781000000 Z
+    content_type_id: annualReport
+    revision: 7
+  title: 2018 Annual Report Develop
+  summary: Meedan designs/develops open source software, leads monitoring projects,
+    produces assessment standards, and conducts trainings in support of global digital
+    journalism, human rights media investigations, and digital media verification.
+  year: 2018
+  slug: 2018-annual-report
+  sections:
+  - sys:
+      id: nxrbURSOa6XDDOoB45edS
+      created_at: !ruby/object:DateTime 2019-02-04 11:27:12.033000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-04 11:29:18.931000000 Z
+      content_type_id: section
+      revision: 2
+    title: CEO's Note
+    background_color: "#262626"
+    section_class: introduction
+    modules:
+    - sys:
+        id: qi7ClJUws2XoAs8fHagW2
+    - sys:
+        id: 5xEqe3OZlJnh9lwF6OImqr
+    - sys:
+        id: kug6i1KGpPhRw5kzNC4zt
+  - sys:
+      id: mIOTFQdW2dIbe7b1AlVHf
+      created_at: !ruby/object:DateTime 2019-02-04 11:56:36.909000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-04 11:56:36.909000000 Z
+      content_type_id: section
+      revision: 1
+    title: In Numbers
+    section_class: in-numbers
+  - sys:
+      id: 2iWU4eiaQQiLsQhfGXdrko
+      created_at: !ruby/object:DateTime 2019-02-04 11:58:30.520000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-04 11:58:30.520000000 Z
+      content_type_id: section
+      revision: 1
+    title: What are people saying
+    background_color: "#D4D4D4"
+    section_class: reviews
+    modules:
+    - sys:
+        id: xalBrlYhsyAMNY7qS1Z4r
+  - sys:
+      id: 4OQ2RoEfUYcGSgC8GASZKd
+      created_at: !ruby/object:DateTime 2019-02-04 12:00:11.841000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-04 12:00:11.841000000 Z
+      content_type_id: section
+      revision: 1
+    title: Financials
+    section_class: financials
+    modules:
+    - sys:
+        id: 62Ua6cU2yaYb7C2UEarBV2
+  about: This Annual Report reflects the state of Meedan.org and its financial health.
+    Meedan.org is a US registered, San Francisco based, 501(c) 3 non-profit organization
+    established in 2006 that works on projects to support global journalism and cross-cultural
+    education.
+  graphic:
+    sys:
+      id: 6WyFUg4Ms8G2cEcQescK8Y
+      created_at: !ruby/object:DateTime 2018-12-07 19:57:57.085000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 19:45:18.755000000 Z
+    title: Graphic for verticals
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6WyFUg4Ms8G2cEcQescK8Y/0d27f795fc6ce7c47ded094e75ed3b4c/graphic_verticals.png"
+  board_of_directors: |-
+    - Ed Bice (Board Chair)
+    - Jon Corshen
+    - Hanan Heikal
+    - Tim Hwang
+    - Zeynep Tufecki
+  address: |-
+    - 1355 Market, Suite 488
+    - San Francisco, CA 94103
+    - United States
+    - [hello@meedan.com](mailto:hello@meedan.com)
+  donate: "- Support Meedan in building world class tools for journalists, citizen
+    journalists and translators. \n- [Become a Meedan Supporter](https://donorbox.org/support-meedan)"
+  other_years: |-
+    - [2017](https://meedan.com/2017-annual-report/)
+    - [2016](https://meedan.com/2016-annual-report/)
+    - [2015](https://meedan.com/2015-annual-report/)
+    - [2014](https://meedan.com/2014-annual-report/)
