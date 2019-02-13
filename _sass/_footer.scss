@@ -34,7 +34,7 @@
 
 @include responsive('min-width: #{$width-tablet}') {
 	.footer .social,
-	.footer .past-years {
+	.footer .other-years {
 		width: 15%;
 		flex: 1 0 15%;
 	}
