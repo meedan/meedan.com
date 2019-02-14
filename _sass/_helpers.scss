@@ -1,0 +1,25 @@
+/**
+ * Responsive media (images, videos…)
+ *
+ * 1. Give the block an initial ratio of 5/3 to avoid FOUC
+ * 2. Stretch the contained media to the dimensions of its container
+ * To display media in 16:9 ratio use clasess: u-responsive-ratio media-16by9
+ * To display media in 4:3 ratio use clasess: u-responsive-ratio media-4by3
+ */
+
+.u-responsive-ratio {
+    @include fix-aspect-ratio(5, 3);
+
+    iframe,
+    embed,
+    object,
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        // height: 100%;
+        width: 100%;
+        border: 0;
+    }    
+}

@@ -13,11 +13,15 @@
 	<hr />
 {% endif %}
 <div class="media">
-	<div class="media-image">
-      	<img src="{{ i.url | append: '?fl=progressive' }}" alt="{{ caption }}" />
-    </div>
-    <div class="media-caption">
-        <div class="media-caption-title">{{ caption_title }}</div>
-        <div class="media-caption-body">{{ caption }}</div>
-    </div>
+	<a class="media-link" href="{{ i.url | append: '?fl=progressive' }}">
+		<div class="media-image">
+	      	<img src="{{ i.url | append: '?fl=progressive' }}" alt="{{ caption }}" />
+	    </div>
+	    {% if caption || caption_title %}
+	    <div class="media-caption">
+	        <div class="media-caption-title">{{ caption_title }}</div>
+	        <div class="media-caption-body">{{ caption }}</div>
+	    </div>
+	    {% endif %}
+	</a>
 </div>

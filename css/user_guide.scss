@@ -1,0 +1,12 @@
+---
+# User Guide SASS file
+---
+// import sass files
+@import "colors.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+.page-user-guide .content {
+	margin: 0 auto;
+	max-width: 760px;
+}

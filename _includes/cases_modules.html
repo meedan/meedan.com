@@ -1,6 +1,6 @@
 {% assign module = include.module %}
 {% case module.sys.content_type_id %}
-	{% when 'moduleText' %}
+	{% when 'moduleTex' %}
 		{% include module_text.html %}	
 	{% when 'moduleLeadText' %}
 		{% include module_lead_text.html %}
@@ -16,4 +16,6 @@
 		{% include module_pull_quote.html %}
 	{% when 'moduleCards' %}
 		{% include module_cards.html %}
+	{% when 'moduleVideo' %}
+		{% include module_video.html %}
 {% endcase %}

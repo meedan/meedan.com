@@ -191,9 +191,9 @@ annualReport:
 - sys:
     id: 3t5p5YMcylqfiuK2lyi8H0
     created_at: !ruby/object:DateTime 2019-01-29 22:33:06.715000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-04 20:31:33.781000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-11 21:00:03.413000000 Z
     content_type_id: annualReport
-    revision: 7
+    revision: 8
   title: 2018 Annual Report Develop
   summary: Meedan designs/develops open source software, leads monitoring projects,
     produces assessment standards, and conducts trainings in support of global digital
@@ -204,10 +204,18 @@ annualReport:
   - sys:
       id: nxrbURSOa6XDDOoB45edS
       created_at: !ruby/object:DateTime 2019-02-04 11:27:12.033000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-04 11:29:18.931000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 20:41:29.400000000 Z
       content_type_id: section
-      revision: 2
+      revision: 3
     title: CEO's Note
+    cover_graphic:
+      sys:
+        id: 3MtthKnRr7Pbr8IwdiKpT1
+        created_at: !ruby/object:DateTime 2019-02-11 20:41:09.702000000 Z
+        updated_at: !ruby/object:DateTime 2019-02-11 20:41:09.702000000 Z
+      title: graphic introduction
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3MtthKnRr7Pbr8IwdiKpT1/f1f4f7d5937c94ff66bd309a9579ed5f/graphic_introduction.png"
     background_color: "#262626"
     section_class: introduction
     modules:
@@ -220,18 +228,34 @@ annualReport:
   - sys:
       id: mIOTFQdW2dIbe7b1AlVHf
       created_at: !ruby/object:DateTime 2019-02-04 11:56:36.909000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-04 11:56:36.909000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 21:01:37.555000000 Z
       content_type_id: section
-      revision: 1
+      revision: 2
     title: In Numbers
+    cover_graphic:
+      sys:
+        id: OWvNBLaXLbdbwAxM0Zqt7
+        created_at: !ruby/object:DateTime 2019-02-11 20:46:14.258000000 Z
+        updated_at: !ruby/object:DateTime 2019-02-11 20:46:14.258000000 Z
+      title: graphic in-numbers
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/OWvNBLaXLbdbwAxM0Zqt7/3f23b170c9c9b20724ef99d6ec59d175/graphic_in-numbers.png"
     section_class: in-numbers
   - sys:
       id: 2iWU4eiaQQiLsQhfGXdrko
       created_at: !ruby/object:DateTime 2019-02-04 11:58:30.520000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-04 11:58:30.520000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 21:01:18.768000000 Z
       content_type_id: section
-      revision: 1
+      revision: 2
     title: What are people saying
+    cover_graphic:
+      sys:
+        id: 4tXCcaLC6NfkOqCWTHzgV7
+        created_at: !ruby/object:DateTime 2019-02-11 20:49:44.916000000 Z
+        updated_at: !ruby/object:DateTime 2019-02-11 20:49:44.916000000 Z
+      title: graphic reviews
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4tXCcaLC6NfkOqCWTHzgV7/ed6b6ee52dd8ed34c6dd5d987544164f/graphic_reviews.png"
     background_color: "#D4D4D4"
     section_class: reviews
     modules:
@@ -240,10 +264,18 @@ annualReport:
   - sys:
       id: 4OQ2RoEfUYcGSgC8GASZKd
       created_at: !ruby/object:DateTime 2019-02-04 12:00:11.841000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-04 12:00:11.841000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 20:59:49.027000000 Z
       content_type_id: section
-      revision: 1
+      revision: 2
     title: Financials
+    cover_graphic:
+      sys:
+        id: 31KYe4UrxKp2r7Hi9gCwp7
+        created_at: !ruby/object:DateTime 2019-02-11 20:53:11.365000000 Z
+        updated_at: !ruby/object:DateTime 2019-02-11 20:53:11.365000000 Z
+      title: graphic financials
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/31KYe4UrxKp2r7Hi9gCwp7/b87faa1c6ebbd8c44e4a43e218608ccf/graphic_financials.png"
     section_class: financials
     modules:
     - sys:

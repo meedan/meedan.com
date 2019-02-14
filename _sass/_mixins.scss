@@ -20,3 +20,18 @@
     @media only screen and ($query) { @content; }
   }
 }
+
+
+// Ref: Guardian's Frontend
+@function aspect-ratio-height($x, $y, $startingWidth: 100%) {
+    @return ($y / $x) * $startingWidth;
+}
+
+@mixin fix-aspect-ratio($x, $y, $startingWidth: 100%) {
+    // To get this working, position the child element
+    // to 'absolute' in the top left corner
+    width: $startingWidth;
+    padding-bottom: aspect-ratio-height($x, $y, $startingWidth);
+    position: relative;
+    overflow: hidden;
+}

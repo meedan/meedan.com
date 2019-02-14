@@ -1,0 +1,59 @@
+---
+userGuide:
+- sys:
+    id: 7KxvXM9lrPxO9nAB0te0Pa
+    created_at: !ruby/object:DateTime 2019-02-13 23:13:47.242000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-14 00:39:16.609000000 Z
+    content_type_id: userGuide
+    revision: 5
+  title: Check Related Items
+  slug: check-related-items
+  modules:
+  - sys:
+      id: 1B0tgs6eo5qhIwo3yhBwWH
+      created_at: !ruby/object:DateTime 2019-02-13 23:50:12.417000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-13 23:50:12.417000000 Z
+      content_type_id: moduleImage
+      revision: 1
+    image:
+      sys:
+        id: 6iJR1KEuZIP6bmMUn4vaNV
+        created_at: !ruby/object:DateTime 2019-02-13 23:12:21.472000000 Z
+        updated_at: !ruby/object:DateTime 2019-02-13 23:12:21.472000000 Z
+      title: Check Related Items 1
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6iJR1KEuZIP6bmMUn4vaNV/55ea96385fb6e44b59a838e4fa00d3a8/0_Mm4VtDwtB0buJLmR"
+  - sys:
+      id: V4Srj9TA9Zw5CmLRFsaSL
+      created_at: !ruby/object:DateTime 2019-02-13 23:51:03.073000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 00:27:34.818000000 Z
+      content_type_id: moduleTex
+      revision: 3
+    content: |-
+      Item Relationships allow the user to join more than one item together to show under the related column on the item’s page.
+
+      From an item’s page, click the link to “Add Related Item” showing on the right:
+
+      Clicking this link will open a menu where you can choose to add a link, type in a claim or upload a photo. You can even add a link to an existing Check item.
+
+      After relating items, they show under the related columns on the item’s page. Users can navigate through related items by clicking their titles and this will redirect them to this item’s page.
+
+      On project view, upon expanding an item that has related items it shows below it as the screen below:
+  - sys:
+      id: 7y4OYiM4lI6sxPqgfmUoxv
+      created_at: !ruby/object:DateTime 2019-02-14 00:38:59.112000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 00:38:59.112000000 Z
+      content_type_id: moduleVideo
+      revision: 1
+    title: Video Test
+    youtube_video_id: W2h-bERwmI4
+  - sys:
+      id: BdBtpAqJUPkDlPhTBQECn
+      created_at: !ruby/object:DateTime 2019-02-14 00:39:12.607000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 00:39:12.607000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: |-
+      After relating items, they show under the related columns on the item’s page. Users can navigate through related items by clicking their titles and this will redirect them to this item’s page.
+
+      On project view, upon expanding an item that has related items it shows below it as the screen below:

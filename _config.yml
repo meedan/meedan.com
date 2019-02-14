@@ -73,6 +73,14 @@ contentful:
           content_type: 'moduleCard'
         all_entries: true
         destination: 'contentful/spaces/'
+    - userGuides: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
+        cda_query:
+          content_type: 'userGuide'
+        # all_entries: true
+        destination: 'contentful/spaces/'
 
 
 # Generate pages from Contentful data files
@@ -82,3 +90,7 @@ page_gen:
     template: 'annual_report'
     name: 'slug'
     dir: '/'
+  - data: 'contentful.spaces.userGuides.userGuide'
+    template: 'user_guide'
+    name: 'slug'
+    dir: '/guides/'
