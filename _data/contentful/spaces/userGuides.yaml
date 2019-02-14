@@ -3,11 +3,19 @@ userGuide:
 - sys:
     id: 7KxvXM9lrPxO9nAB0te0Pa
     created_at: !ruby/object:DateTime 2019-02-13 23:13:47.242000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-14 00:39:16.609000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-14 21:32:17.471000000 Z
     content_type_id: userGuide
-    revision: 5
+    revision: 6
   title: Check Related Items
   slug: check-related-items
+  product:
+  - sys:
+      id: 20jVuIZApMgfGsn11EghJo
+      created_at: !ruby/object:DateTime 2019-02-14 21:31:37.960000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 21:31:37.960000000 Z
+      content_type_id: product
+      revision: 1
+    title: Check
   modules:
   - sys:
       id: 1B0tgs6eo5qhIwo3yhBwWH

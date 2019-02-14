@@ -12,6 +12,9 @@ custom_css: user_guide
             <div class="content-wrapper">
                 
                 <div class="content">
+                    <div class="breadcrumb">
+                        {% include icon_back_arrow.html %}<a href="/user-guides">Back to User Guides</a>
+                    </div>
                     <h1>{{ page.title }}</h1>
                     <div class="content-body-text">
                     {% for module in page.modules %}

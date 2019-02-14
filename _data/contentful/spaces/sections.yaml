@@ -557,9 +557,9 @@ section:
 - sys:
     id: nxrbURSOa6XDDOoB45edS
     created_at: !ruby/object:DateTime 2019-02-04 11:27:12.033000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-11 20:41:29.400000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-14 13:02:38.390000000 Z
     content_type_id: section
-    revision: 3
+    revision: 8
   title: CEO's Note
   cover_graphic:
     sys:
@@ -579,6 +579,87 @@ section:
       content_type_id: moduleLeadText
       revision: 1
     content: Ed's Note here
+  - sys:
+      id: 3SJqQKWOYGNPtaDGcZFy3b
+      created_at: !ruby/object:DateTime 2019-02-14 12:07:21.481000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 12:07:21.481000000 Z
+      content_type_id: moduleSectionDivider
+      revision: 1
+    title: Program Names
+    top_border: true
+  - sys:
+      id: 7m7y7emkSF5dxrcNYfDu0Q
+      created_at: !ruby/object:DateTime 2019-02-14 12:09:30.984000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 12:09:30.984000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Check
+    content:
+    - sys:
+        id: 7MfnabHNWXeHKwSyFrIHS4
+    top_border: false
+  - sys:
+      id: 7tXxYFBH1fjY22bOGf4EN6
+      created_at: !ruby/object:DateTime 2019-02-14 12:11:43.560000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 12:11:43.560000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Pop-Up Newsroom
+    content:
+    - sys:
+        id: 6pO51pT4VUArrPHMnZWbJp
+    top_border: false
+  - sys:
+      id: tZdjEgyuFtjDxCiunvqd9
+      created_at: !ruby/object:DateTime 2019-02-14 12:16:05.204000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 12:16:05.204000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Credibility Coalition
+    content:
+    - sys:
+        id: 5VoZMvnUKoF8Vzt88rmQe7
+    top_border: false
+  - sys:
+      id: 49a6daptyLVvhPq7IjPsjr
+      created_at: !ruby/object:DateTime 2019-02-14 12:18:30.731000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 12:20:38.927000000 Z
+      content_type_id: module2ColumnContent
+      revision: 2
+    title: The Translation Project /Bridge
+    content:
+    - sys:
+        id: SxFvyOI2gTIMlyrqhGs0F
+    top_border: false
+  - sys:
+      id: 6oxNyIa47OMJav2iTlt8uW
+      created_at: !ruby/object:DateTime 2019-02-14 12:22:14.431000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 12:22:14.431000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Geographic areas served
+    content:
+    - sys:
+        id: JSqft5E3g9zSuTJW7sLIG
+    top_border: true
+  - sys:
+      id: 6UpVEtCeaKMjrB3AOk8aGn
+      created_at: !ruby/object:DateTime 2019-02-14 12:57:33.503000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 13:01:37.952000000 Z
+      content_type_id: moduleImage
+      revision: 2
+    caption: 'CredCon '
+    image:
+      sys:
+        id: 6Z9K61Duo5zCFN8lxxVpNI
+        created_at: !ruby/object:DateTime 2019-02-14 13:01:26.153000000 Z
+        updated_at: !ruby/object:DateTime 2019-02-14 13:01:26.153000000 Z
+      title: CREDCON-SUNDAY-STEVENSNOW-73
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6Z9K61Duo5zCFN8lxxVpNI/fd9b091de781e7654600713906183d65/CREDCON-SUNDAY-STEVENSNOW-73.jpg"
+    caption_title: Austin - November 2018
+    lead_image: true
+    top_border: true
   - sys:
       id: 5xEqe3OZlJnh9lwF6OImqr
       created_at: !ruby/object:DateTime 2019-02-04 11:26:09.868000000 Z

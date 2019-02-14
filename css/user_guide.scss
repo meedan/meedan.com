@@ -10,3 +10,15 @@
 	margin: 0 auto;
 	max-width: 760px;
 }
+
+.page-user-guide .breadcrumb a  {
+	color: $green;
+}
+
+.page-user-guide .content-body-text a  {
+	color: $green;
+}
+
+.page-user-guide .user-guides-list a {
+	border-bottom: 1px solid $black;
+}

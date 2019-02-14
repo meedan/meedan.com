@@ -1,0 +1,31 @@
+---
+title: Check User Guides
+custom_css: user_guide
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="page-section page-user-guide">
+    <div class="site-wrapper">
+        {% include header.html %}
+        
+            <div class="content-wrapper">
+                
+                <div class="content">
+                    <h1>Check User Guides</h1>
+                    <div class="content-body-text user-guides-list">
+                        <ul>
+                        {% for user_guide in site.data.contentful.spaces.userGuides.userGuide %}
+                            <li><a href="/user-guides/{{ user_guide.slug}}">{{ user_guide.title }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    {% include js.html %}
+</body>
+
+</html>
