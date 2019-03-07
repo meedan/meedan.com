@@ -3,7 +3,7 @@
 
 <%= partial "partials/head" %>
 
-<body <% if I18n.locale == :ar %> dir="rtl" <% end %> class="<%= page_classes %> <%= current_page.data.slug %>">
+<body id="#" <% if I18n.locale == :ar %> dir="rtl" <% end %> class="<%= page_classes %> <%= current_page.data.slug %>">
 
   <% unless current_page.data.slug.match(/TOS/).present? || current_page.data.slug.match(/privacy/).present? %>
     <%= partial "partials/nav" %>
