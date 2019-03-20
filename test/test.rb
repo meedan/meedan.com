@@ -34,9 +34,7 @@ HTMLProofer.check_directory("./build", {
   :verbose => true,
   :check_html => true,
   :only_4xx => true,
-  :href_ignore => [
-    "#"
-  ]
+  :allow_hash_href => true
 }).run
 
 # Check for accessibility issues

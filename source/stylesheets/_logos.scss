@@ -17,7 +17,7 @@
       justify-content: flex-start;
       margin: units(1) units(2) units(1) 0;
     }
-    
+
     @supports (display: grid) {
       display: grid;
       grid-gap: units(2);
@@ -50,7 +50,7 @@
 
     // Default dimensions on the images
     img {
-      max-height: units(6);
+      max-height: units(9);
       max-width: units(16);
     }
 
