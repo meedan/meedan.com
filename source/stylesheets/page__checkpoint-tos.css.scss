@@ -1,0 +1,66 @@
+@import 'shared/shared';
+// Privacy policy and TOS
+//
+// A simple text treatment
+// The navigation is hidden on this page (in the template)
+.policy {
+  $width: units(100);
+  margin: 0 auto;
+  max-width: $width;
+  padding: units(8) 0;
+
+  p {
+    max-width: $width;
+  }
+
+  p,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+    padding: units(2) 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+    padding: units(2) 0;
+  }
+
+  h1 {
+    margin-top: units(4);
+  }
+
+  h3 {
+    margin-top: units(4);
+  }
+
+  ol {
+    display: block;
+    list-style-position: inside;
+    margin: 0;
+    padding: units(2) 0;
+
+    li {
+      display: list-item;
+      list-style-type: decimal;
+      margin: 0;
+    }
+  }
+
+  ol.second {
+    display: block;
+    list-style-position: inside;
+    margin: 0;
+    padding: units(2) 0;
+
+    li {
+      display: list-item;
+      list-style-type: lower-alpha;
+      margin: units(4);
+    }
+  }
+
+}
