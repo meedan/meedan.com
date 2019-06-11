@@ -126,7 +126,7 @@ casper.test.begin('date format on Check Privacy Policy page', 2, function suite(
     });
   });
   casper.then(function () {
-    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{2}, [0-9]{4})/;
+    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{1,2}, [0-9]{4})/;
     var content = this.getPageContent();
     test.assertMatch(content, regexp, 'Invalid date format for the "Last modified" header');
     var dateStr = content.match(regexp)[1];
@@ -145,7 +145,7 @@ casper.test.begin('date format on Check ToS page', 2, function suite(test) {
     });
   });
   casper.then(function () {
-    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{2}, [0-9]{4})/;
+    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{1,2}, [0-9]{4})/;
     var content = this.getPageContent();
     test.assertMatch(content, regexp, 'Invalid date format for the "Last modified" header');
     var dateStr = content.match(regexp)[1];
@@ -164,7 +164,7 @@ casper.test.begin('date format on Bridge Privacy Policy page', 2, function suite
     });
   });
   casper.then(function () {
-    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{2}, [0-9]{4})/;
+    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{1,2}, [0-9]{4})/;
     var content = this.getPageContent();
     test.assertMatch(content, regexp, 'Invalid date format for the "Last modified" header');
     var dateStr = content.match(regexp)[1];
@@ -183,7 +183,7 @@ casper.test.begin('date format on Bridge ToS page', 2, function suite(test) {
     });
   });
   casper.then(function () {
-    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{2}, [0-9]{4})/;
+    var regexp = /Last modified: ([a-zA-Z]+ [0-9]{1,2}, [0-9]{4})/;
     var content = this.getPageContent();
     test.assertMatch(content, regexp, 'Invalid date format for the "Last modified" header');
     var dateStr = content.match(regexp)[1];
