@@ -14,7 +14,7 @@ gem 'contentful_bootstrap'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-contentful-data-import"
+  gem "jekyll-contentful-data-import", git: "https://github.com/meedan/jekyll-contentful-data-import"
   gem 'jekyll-seo-tag'
   gem 'jekyll-livereload'
 end
