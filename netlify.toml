@@ -19,3 +19,4 @@
 
 [context.next-develop]
   command = "CONTENTFUL_ENVIRONMENT=develop bundle exec jekyll contentful --rebuild"
+  CONTENTFUL_API_URL="preview.contentful.com"
