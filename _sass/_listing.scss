@@ -57,6 +57,7 @@
 @include responsive('min-width: #{$width-tablet}') {
 	.sub-list {
 		margin-left: 40%;
+		width: 100%;
 	}
 }
 
