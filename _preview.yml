@@ -35,7 +35,7 @@ contentful:
   spaces:
     - annualReports: 
         space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        access_token: ENV_CONTENTFUL_M_PREVIEW_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'annualReport'
@@ -45,7 +45,7 @@ contentful:
         destination: 'contentful/spaces/'
     - sections: 
         space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        access_token: ENV_CONTENTFUL_M_PREVIEW_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'section'
@@ -55,7 +55,7 @@ contentful:
         destination: 'contentful/spaces/'
     - module2ColumnContents: 
         space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        access_token: ENV_CONTENTFUL_M_PREVIEW_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'module2ColumnContent'
@@ -65,7 +65,7 @@ contentful:
         destination: 'contentful/spaces/'
     - stats: 
         space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        access_token: ENV_CONTENTFUL_M_PREVIEW_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'stat'
@@ -75,7 +75,7 @@ contentful:
         destination: 'contentful/spaces/'
     - moduleCards: 
         space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        access_token: ENV_CONTENTFUL_M_PREVIEW_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'moduleCard'
@@ -85,7 +85,7 @@ contentful:
         destination: 'contentful/spaces/'
     - userGuides: 
         space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        access_token: ENV_CONTENTFUL_M_PREVIEW_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'userGuide'
