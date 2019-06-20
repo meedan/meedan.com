@@ -18,9 +18,9 @@
 	<div class="list-wrapper">
 		<div class="title">{{ title }}</div>
 		{% if note %}
-		  <div class="note">{{ note }}</div>
+		  <div class="note">{{ note | markdownify }}</div>
 		{% endif %}
-    	<div class="description">{{ description }}</div>
+    	<div class="description">{{ description | markdownify }}</div>
     </div>
 {% if list_only == 'false' %}
 </div>

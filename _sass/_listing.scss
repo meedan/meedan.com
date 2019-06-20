@@ -7,6 +7,10 @@
 	padding-bottom: $space-small/2;
 }
 
+.list a {
+	border-bottom: 1px solid $green;
+}
+
 .list-only {
 	border-top: 1px solid $g2;
 	margin-top: $space-small;
@@ -52,12 +56,12 @@
 	display: flex;
 	border-top: 1px solid $g2;
 	padding-top: $space-small/2;
+	padding-bottom: $space-small/2;
 }
 
 @include responsive('min-width: #{$width-tablet}') {
 	.sub-list {
 		margin-left: 40%;
-		width: 100%;
 	}
 }
 
@@ -70,6 +74,10 @@
 	.listing .list-wrapper {
 		max-width: 60%;
 		flex-basis: 60%;
+	}
+	.sub-list .list-wrapper {
+		max-width: 100%;
+		flex-basis: 100%;
 	}
 }
 
