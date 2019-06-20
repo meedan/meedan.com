@@ -39,6 +39,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'annualReport'
+        client_options:
+          api_url: ENV_CONTENTFUL_M_HOST
         all_entries: true
         destination: 'contentful/spaces/'
     - sections: 
@@ -47,6 +49,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'section'
+        client_options:
+          api_url: ENV_CONTENTFUL_M_HOST
         all_entries: true
         destination: 'contentful/spaces/'
     - module2ColumnContents: 
@@ -55,6 +59,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'module2ColumnContent'
+        client_options:
+          api_url: ENV_CONTENTFUL_M_HOST
         all_entries: true
         destination: 'contentful/spaces/'
     - stats: 
@@ -63,6 +69,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'stat'
+        client_options:
+          api_url: ENV_CONTENTFUL_M_HOST
         all_entries: true
         destination: 'contentful/spaces/'
     - moduleCards: 
@@ -71,6 +79,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'moduleCard'
+        client_options:
+          api_url: ENV_CONTENTFUL_M_HOST
         all_entries: true
         destination: 'contentful/spaces/'
     - userGuides: 
@@ -79,6 +89,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'userGuide'
+        client_options:
+          api_url: ENV_CONTENTFUL_M_HOST
         # all_entries: true
         destination: 'contentful/spaces/'
 

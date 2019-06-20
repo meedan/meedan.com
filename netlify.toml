@@ -16,8 +16,7 @@
 
 [context.next-master]
   command = "CONTENTFUL_ENVIRONMENT=master bundle exec jekyll contentful --rebuild"
-  CONTENTFUL_USE_PREVIEW = "true"
 
 [context.next-develop]
   command = "CONTENTFUL_ENVIRONMENT=develop bundle exec jekyll contentful --rebuild"
-  CONTENTFUL_USE_PREVIEW = "true"
+  CONTENTFUL_HOST = "preview.contentful.com"
