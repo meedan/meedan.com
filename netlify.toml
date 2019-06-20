@@ -18,4 +18,5 @@
   command = "CONTENTFUL_ENVIRONMENT=master bundle exec jekyll contentful --rebuild"
 
 [context.next-develop]
-  command = "CONTENTFUL_ENVIRONMENT=develop bundle exec jekyll contentful --rebuild"
+  # command = "CONTENTFUL_ENVIRONMENT=develop bundle exec jekyll contentful --rebuild"
+  CONTENTFUL_USE_PREVIEW = "true"
