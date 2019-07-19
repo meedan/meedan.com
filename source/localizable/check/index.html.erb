@@ -184,27 +184,6 @@ ogp:
   </div>
 </section>
 
-<%# Partners %>
-<section class="check__logos layout--padding-bottom">
-
-  <div class="section-inner">
-    <h3><%= t("check.partners.header") %></h3>
-    <p><%= t("check.partners.text") %></p>
-    <ul class="logos">
-      <% data.check_supporter_logos.each do |image| %>
-        <li>
-          <%= partial "partials/image", :locals => {
-            :type => image[:type],
-            :name => image[:name],
-            :url => image[:url],
-            :title => image[:title]
-          } %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-</section>
-
 <%# Github %>
 <section class="colors--inverted layout--padding-bottom">
   <div class="section-inner">
