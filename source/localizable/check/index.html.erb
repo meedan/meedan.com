@@ -184,6 +184,40 @@ ogp:
   </div>
 </section>
 
+<%# Plans %>
+<section class="check__plans layout--padding-bottom">
+  <div class="section-inner">
+    <h3><%= t("check.plans.header") %></h3>
+    
+    <h4><%= t("check.plans.free.header") %></h4>
+    <ul>
+    <% t("check.plans.free.features").each do |p| %>
+      <li><%= p[:text] %></li>
+    <% end %>
+    </ul>
+
+    <h4><%= t("check.plans.public.header") %></h4>
+    <ul>
+    <% t("check.plans.public.features").each do |p| %>
+      <li><%= p[:text] %></li>
+    <% end %>
+    </ul>
+
+    <% t("check.plans.paragraphs").each do |p| %>
+      <p><%= p[:text] %></p>
+    <% end %>
+
+    <h4><%= t("check.plans.enterprise.header") %></h4>
+    <ul>
+    <% t("check.plans.enterprise.features").each do |p| %>
+      <li><%= p[:text] %></li>
+    <% end %>
+    </ul>
+
+    <p><%= t("check.plans.footer") %></p>
+  </div>
+</section>
+
 <%# Github %>
 <section class="colors--inverted layout--padding-bottom">
   <div class="section-inner">
