@@ -189,32 +189,14 @@ ogp:
   <div class="section-inner">
     <h3><%= t("check.plans.header") %></h3>
     
-    <h4><%= t("check.plans.free.header") %></h4>
-    <ul>
-    <% t("check.plans.free.features").each do |p| %>
-      <li><%= p[:text] %></li>
-    <% end %>
-    </ul>
+    <h4><%= t("check.plans.lite.header") %></h4>
+    <p><%= t("check.plans.lite.text") %></p>
 
     <h4><%= t("check.plans.public.header") %></h4>
-    <ul>
-    <% t("check.plans.public.features").each do |p| %>
-      <li><%= p[:text] %></li>
-    <% end %>
-    </ul>
-
-    <% t("check.plans.paragraphs").each do |p| %>
-      <p><%= p[:text] %></p>
-    <% end %>
+    <p><%= t("check.plans.public.text") %></p>
 
     <h4><%= t("check.plans.enterprise.header") %></h4>
-    <ul>
-    <% t("check.plans.enterprise.features").each do |p| %>
-      <li><%= p[:text] %></li>
-    <% end %>
-    </ul>
-
-    <p><%= t("check.plans.footer") %></p>
+    <p><%= t("check.plans.enterprise.text") %></p>
   </div>
 </section>
 
