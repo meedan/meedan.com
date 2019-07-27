@@ -65,7 +65,7 @@
 }
 
 // Page navigation: current page indicator
-@each $page in bridge, check, about, updates, jobs {
+@each $page in bridge, check, about, jobs {
   .#{$page} {
     .#{$page} {
       a {
