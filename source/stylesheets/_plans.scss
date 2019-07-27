@@ -1,0 +1,16 @@
+// Logo Layout
+//
+// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
+//
+//
+[class*='__plans'] {
+  background-color: $black-02;
+
+  ul {
+    padding-left: units(5);
+
+    li {
+      list-style-type: square;
+    }
+  }
+}

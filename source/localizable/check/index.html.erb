@@ -52,13 +52,18 @@ ogp:
   <div class="section-inner row">
 
     <div class="sign-up layout--padding-top layout--padding-right">
-      <p>Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.</p>
+      <p>Want to try out Check? Sign up now to learn more about how your team can use Check in your daily work.</p>
 
       <p><%= partial "partials/typeform__check" %></p>
     </div>
 
     <h3>
-      As used during
+      As used during 
+      
+      <span class="link__checkpoint">
+      <a href='https://medium.com/@meedan/press-release-new-whatsapp-tip-line-launched-to-understand-and-respond-to-misinformation-during-f4fce616adf4'>Checkpoint</a>
+        
+      </span>
       <span class="link__verificado">
         <a href='https://medium.com/meedan-updates/verificado-2018-wins-major-collaboration-and-partnerships-award-e6812ecbbdf'>Verificado</a>
         <%= partial "partials/image", :locals => {
@@ -117,7 +122,7 @@ ogp:
         layout--padding-none
         layout--padding-right
       ">
-        Want to try out Check? Sign up now for a free trial and to learn more about how your team can use Check in your daily work.
+        Want to try out Check? Sign up now to learn more about how your team can use Check in your daily work.
       </p>
       <p class="layout--padding-top"><%= partial "partials/typeform__check" %></p>
     </div>
@@ -179,24 +184,19 @@ ogp:
   </div>
 </section>
 
-<%# Partners %>
-<section class="check__logos layout--padding-bottom">
-
+<%# Plans %>
+<section class="check__plans layout--padding-bottom">
   <div class="section-inner">
-    <h3><%= t("check.partners.header") %></h3>
-    <p><%= t("check.partners.text") %></p>
-    <ul class="logos">
-      <% data.check_supporter_logos.each do |image| %>
-        <li>
-          <%= partial "partials/image", :locals => {
-            :type => image[:type],
-            :name => image[:name],
-            :url => image[:url],
-            :title => image[:title]
-          } %>
-        </li>
-      <% end %>
-    </ul>
+    <h3><%= t("check.plans.header") %></h3>
+    
+    <h4><%= t("check.plans.lite.header") %></h4>
+    <p><%= t("check.plans.lite.text") %></p>
+
+    <h4><%= t("check.plans.public.header") %></h4>
+    <p><%= t("check.plans.public.text") %></p>
+
+    <h4><%= t("check.plans.enterprise.header") %></h4>
+    <p><%= t("check.plans.enterprise.text") %></p>
   </div>
 </section>
 
