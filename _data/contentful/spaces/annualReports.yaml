@@ -3,10 +3,10 @@ annualReport:
 - sys:
     id: 1WcdU4LZoH1Ju1N8uzJJvE
     created_at: !ruby/object:DateTime 2019-01-21 20:25:55.349000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-04 20:31:07.097000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 20:10:48.884000000 Z
     content_type_id: annualReport
-    revision: 10
-  title: 2017 Annual Report Develop
+    revision: 11
+  title: 2017 Annual Report
   summary: Meedan designs/develops open source software, leads monitoring projects,
     produces assessment standards, and conducts trainings in support of global digital
     journalism, human rights media investigations, and digital media verification.
@@ -16,9 +16,9 @@ annualReport:
   - sys:
       id: 40Gp9FLfhLZDNfzKYUgNTH
       created_at: !ruby/object:DateTime 2019-01-21 20:26:18.863000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-22 20:48:50.423000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-30 23:52:41.479000000 Z
       content_type_id: section
-      revision: 5
+      revision: 6
     title: CEO's Note
     cover_graphic:
       sys:
@@ -34,9 +34,9 @@ annualReport:
     - sys:
         id: 4CNo4r00vh1ybDFHJlTqy9
     - sys:
-        id: 74L9TRXQcZOAJxv375unEG
-    - sys:
         id: 2cN3kU1bZUPeRP4aZ11xWk
+    - sys:
+        id: 74L9TRXQcZOAJxv375unEG
     - sys:
         id: XqJB4MNnFgacnsF4C3Fx9
     - sys:
@@ -185,206 +185,204 @@ annualReport:
   donate: "- Support Meedan in building world class tools for journalists, citizen
     journalists and translators. \n- [Become a Meedan Supporter](https://donorbox.org/support-meedan)"
   other_years: |-
+    - [2018](https://next.meedan.com/2018-annual-report/)
+    - [2017](https://meedan.com/2017-annual-report/)
     - [2016](https://meedan.com/2016-annual-report/)
     - [2015](https://meedan.com/2015-annual-report/)
     - [2014](https://meedan.com/2014-annual-report/)
 - sys:
-    id: 3t5p5YMcylqfiuK2lyi8H0
-    created_at: !ruby/object:DateTime 2019-01-29 22:32:16.115000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-11 21:00:03.413000000 Z
+    id: 7kAMcLldp3mO6ByNBTNB67
+    created_at: !ruby/object:DateTime 2019-01-30 20:52:24.165000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:30:22.472000000 Z
     content_type_id: annualReport
-    revision: 8
-  title: 2018 Annual Report Develop
-  summary: Meedan designs/develops open source software, leads monitoring projects,
+    revision: 1
+  title: 2018 Annual Report
+  summary: Meedan designs and develops open source software, leads monitoring projects,
     produces assessment standards, and conducts trainings in support of global digital
     journalism, human rights media investigations, and digital media verification.
   year: 2018
   slug: 2018-annual-report
   sections:
   - sys:
-      id: nxrbURSOa6XDDOoB45edS
-      created_at: !ruby/object:DateTime 2019-02-04 11:17:05.557000000 Z
-      updated_at: !ruby/object:DateTime 2019-06-20 01:38:16.575000000 Z
+      id: 0DhAdyXhX6siTtI6809Cq
+      created_at: !ruby/object:DateTime 2019-06-20 19:47:54.054000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:16:45.068000000 Z
       content_type_id: section
-      revision: 21
-    title: CEO's Note Preview
+      revision: 1
+    title: CEO's Note
     cover_graphic:
       sys:
-        id: 3MtthKnRr7Pbr8IwdiKpT1
-        created_at: !ruby/object:DateTime 2019-02-11 20:37:45.969000000 Z
-        updated_at: !ruby/object:DateTime 2019-02-11 20:41:09.702000000 Z
-      title: graphic introduction
+        id: 17AvwPbj5s8H60n5GOmadY
+        created_at: !ruby/object:DateTime 2019-06-20 19:48:18.414000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:23:11.585000000 Z
+      title: graphic introduction 2018
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3MtthKnRr7Pbr8IwdiKpT1/f1f4f7d5937c94ff66bd309a9579ed5f/graphic_introduction.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/17AvwPbj5s8H60n5GOmadY/302e62f0e0b815029639702807ac63fc/graphic_introduction.png"
     background_color: "#262626"
     section_class: introduction
     modules:
     - sys:
-        id: qi7ClJUws2XoAs8fHagW2
+        id: 6qAOA9ThbkaQVqtTK9hulB
     - sys:
-        id: 4kZSX6ftd6zVfWP6m8LCzL
+        id: 1rW6yazco5VTWWcq0f4Skk
     - sys:
-        id: 4sIWziC3k9VT6SsEhCtugV
+        id: 3HGBndOpo8wUtniqgwxHq3
     - sys:
-        id: 3SJqQKWOYGNPtaDGcZFy3b
+        id: 2lKwrgySdDqZvbXIAIdfWt
     - sys:
-        id: 7m7y7emkSF5dxrcNYfDu0Q
+        id: 1HEdXrQzfGBkMTOuUs8RFb
     - sys:
-        id: 7tXxYFBH1fjY22bOGf4EN6
+        id: 1f4zmNYMVlcvhlNkcIp7sx
     - sys:
-        id: tZdjEgyuFtjDxCiunvqd9
+        id: 4FOSPaw82qnfysoNybGj6g
     - sys:
-        id: 49a6daptyLVvhPq7IjPsjr
+        id: 5RFtTjhl7jyvBkIEZhsanH
     - sys:
-        id: 6oxNyIa47OMJav2iTlt8uW
+        id: 2aWUylMWU2F9o44aL43cTe
     - sys:
-        id: 6UpVEtCeaKMjrB3AOk8aGn
+        id: 3pBuTx4fBNzd0aoqrhq1iF
     - sys:
-        id: 5xEqe3OZlJnh9lwF6OImqr
+        id: 2Y91L14Qi8K99KmobxHjMn
     - sys:
-        id: 6F0VNrj8ZkrDCmBoAHlhoq
+        id: 6I4xNqDFffLAQM4U8MASff
     - sys:
-        id: 2O3ai2KPVn462xy05zb4pq
+        id: 1qnLORRdcElvs8mCA35H1I
     - sys:
-        id: kug6i1KGpPhRw5kzNC4zt
+        id: 6SBktBgH5j31olKl9zYRXX
     - sys:
-        id: 6ht9Ar2SW5X70CuIhvNDVR
+        id: 5OyF8ulJtVq7IfU4NxQTlM
     - sys:
-        id: 4sHLP5gJMbTwzgDZaG3LxL
+        id: 41zRDkfej1rxUcwIyYydI0
     - sys:
-        id: 4TwQwBHebTRZ8r0lokN3yF
+        id: 10Tsy9nTIbNK9x31KMlBVg
     - sys:
-        id: 1DXdYsmmmjZARyb39CSVuD
+        id: 2INBehgBBfYjw6HORPbP70
     - sys:
-        id: 0jDxxwVLEBpgZJQZhoUX9
+        id: tz7MXJpslDwXGh7nBiuI1
     - sys:
-        id: 9up5D4RqrdqEea6aMDt22
+        id: 4fzeyqeLTguDbkYBQ2IVDw
     - sys:
-        id: 6agrGX80U6jXKTgHeBnL85
+        id: 1LNWVbRl6J3xImJugrRhQv
     - sys:
-        id: 3RBLWgka3kVb3tplqYmkNN
+        id: 5uhK38ycbjjUNQtubFkxpw
     - sys:
-        id: AoPM0nQiqZKaOQ3KzhuJe
+        id: 6chBH2x9q7OgmOQEBUKwkU
     - sys:
-        id: 3s8itc6u8ZtabiEhaL0W41
+        id: 4vg1raUkEXo815eQkuIZqo
     - sys:
-        id: 5DYN16O3MumwQtKoNWNpay
+        id: 32Zmz21wmcaDzIbqFyNTK4
     - sys:
-        id: 3ESH1YK4llZc7lp7M1xudm
+        id: 6sitO8Q3Gg8EiGn81psD0Q
     - sys:
-        id: 7jC2SLAN1nmqBnS3gbd6c6
+        id: 6oHkTmI1IsAXZ9XFutDMHT
     - sys:
-        id: 6Kk8ME3QS0cjoiSPOfJRHH
+        id: 0ZRekrPwx5CD8CT1NMtv0
     - sys:
-        id: 6luwlIR2x56jCrB0A2fgdP
+        id: 4nkJ8elDJ0npNr2mkbP0WX
     - sys:
-        id: 6FFUHOphHzqYFWYc6y343Z
+        id: 2sAUgQPOTCxUygyZyDLY7q
     - sys:
-        id: 4Uhzl8SLhIqJOCdMqgUVu7
+        id: 5lVjcnj0D0ecSBl5FsteHk
     - sys:
-        id: 490iMWyflF7bYWFN4ipv5A
+        id: 5wD5XQ6zHFAF3EZmrtiVfK
     - sys:
-        id: 2KBlGezCwMTH48ZsuJUO2K
+        id: 2qwxkfi4DaA8M9Nyz67Bmm
     - sys:
-        id: 76HRNQPrgYcoCfpkTwcsWq
+        id: 4CsFtWqUF5n0Tbb5ZaIBbg
     - sys:
-        id: 1jkskQyBlyqtcWyVXheTsO
+        id: 1qkbwSXinu7XmOSJo6vOfV
     - sys:
-        id: 6htmyKu4X94tTa7RN0ozdc
+        id: 331BYBrTSImRa4O4CkCBwq
     - sys:
-        id: 4rR70Sh2j8aDpGshDia13b
+        id: 6aAGlhyPL1mljn7AhHZHsy
     - sys:
-        id: 5271rNY1FCKkCYagBAoIPf
+        id: 5GLb7yvNQcZSx1XF005Yuc
     - sys:
-        id: 4i6KEC1w832rQB3B6gkf28
+        id: 2nJNRf5lX4z18GxGg7kHvG
     - sys:
-        id: 1C8ZiRaJgj4SK7aEWaCtKI
+        id: 4rLpQm7VnBOgpkN4j6GmxC
     - sys:
-        id: 3rUXWHSnTHSW4I06F9mJgQ
-    - sys:
-        id: 6oadm1vQGRGHouON2YP0mp
+        id: 78td8w9duRoYnGZu3jK5oz
   - sys:
-      id: mIOTFQdW2dIbe7b1AlVHf
-      created_at: !ruby/object:DateTime 2019-02-04 11:50:44.764000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-17 14:00:01.883000000 Z
+      id: 3OA347xix3XOiOZSKPBcox
+      created_at: !ruby/object:DateTime 2019-06-20 21:42:23.119000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:26:23.861000000 Z
       content_type_id: section
-      revision: 4
+      revision: 1
     title: In Numbers
     cover_graphic:
       sys:
-        id: OWvNBLaXLbdbwAxM0Zqt7
-        created_at: !ruby/object:DateTime 2019-02-11 20:45:26.160000000 Z
-        updated_at: !ruby/object:DateTime 2019-02-11 20:46:14.258000000 Z
-      title: graphic in-numbers
+        id: 3WTYK4Df66wgD5UQ5H43FP
+        created_at: !ruby/object:DateTime 2019-06-20 21:42:27.368000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:23:17.872000000 Z
+      title: graphic in-numbers 2018
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/OWvNBLaXLbdbwAxM0Zqt7/3f23b170c9c9b20724ef99d6ec59d175/graphic_in-numbers.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/3WTYK4Df66wgD5UQ5H43FP/996ca11cb96e98af98b42a04c50a3de1/graphic_in-numbers.png"
     section_class: in-numbers
     modules:
     - sys:
-        id: 2RdGCF07f8uuWAZ9iML8iY
+        id: 6aa1sDAh1zD9Prro1K8c0T
     - sys:
-        id: 4q2QxEvZAir3d20QsBWxKP
+        id: Zqc6VKHv5VWjwQAh0IKhP
     - sys:
-        id: 6DR0mANGAithMDXsVDKQNt
+        id: LblskgHWr4XsB5Sw2edJr
     - sys:
-        id: Q3yFVxFrwsgEajKULiO2n
+        id: 2ssjUm7D16AxTyPbFXSZJ6
+    - sys:
+        id: 5kH23CD08OyNeVlLsUOe1G
   - sys:
-      id: 2iWU4eiaQQiLsQhfGXdrko
-      created_at: !ruby/object:DateTime 2019-02-04 11:56:51.313000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-26 13:04:45.259000000 Z
+      id: 2mgIScO3KyCXaY80Phpw8J
+      created_at: !ruby/object:DateTime 2019-06-20 21:49:38.628000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 22:08:19.891000000 Z
       content_type_id: section
-      revision: 11
+      revision: 1
     title: What are people saying
     cover_graphic:
       sys:
-        id: 4tXCcaLC6NfkOqCWTHzgV7
-        created_at: !ruby/object:DateTime 2019-02-11 20:48:47.946000000 Z
-        updated_at: !ruby/object:DateTime 2019-02-11 20:49:44.916000000 Z
-      title: graphic reviews
+        id: rRO9AYJXogavf7PCMkbkB
+        created_at: !ruby/object:DateTime 2019-06-20 21:49:42.759000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:26:30.145000000 Z
+      title: graphic reviews 2018
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4tXCcaLC6NfkOqCWTHzgV7/ed6b6ee52dd8ed34c6dd5d987544164f/graphic_reviews.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/rRO9AYJXogavf7PCMkbkB/23e03665c5f494657a2bd8f3378ce59b/graphic_reviews.png"
     background_color: "#D4D4D4"
     section_class: reviews
     modules:
     - sys:
-        id: xalBrlYhsyAMNY7qS1Z4r
+        id: 2GYMRXZLR1w4glcoLKwH4r
     - sys:
-        id: 6QyGHWSW8JcDBTH9vBBdZL
+        id: Ok9QtW8ptC67iMIsP6wL4
     - sys:
-        id: 1crr86IViOp2hqU6S4rRAj
+        id: 7efdWnfKRDLQepRcqHPG4o
     - sys:
-        id: 25Elne9p59uXJMoF17nvH9
+        id: 6VWNcbBhjs6jMhjawR4l1w
     - sys:
-        id: 6k4ZIhjzH3UMhjhoONGHdm
-    - sys:
-        id: 7leDokQqVOTwVuLikKjD1U
-    - sys:
-        id: 5bWYOCcUOXiRftF9pMQGO5
+        id: 3A9R7ioFwtFnpCIhondxdo
   - sys:
-      id: 4OQ2RoEfUYcGSgC8GASZKd
-      created_at: !ruby/object:DateTime 2019-02-04 11:59:02.269000000 Z
-      updated_at: !ruby/object:DateTime 2019-06-19 12:53:55.807000000 Z
+      id: 4SZYbBohaeNBz7VZWvNjQw
+      created_at: !ruby/object:DateTime 2019-06-20 22:03:02.116000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:29:19.463000000 Z
       content_type_id: section
-      revision: 3
+      revision: 1
     title: Financials
     cover_graphic:
       sys:
-        id: 31KYe4UrxKp2r7Hi9gCwp7
-        created_at: !ruby/object:DateTime 2019-02-11 20:52:44.807000000 Z
-        updated_at: !ruby/object:DateTime 2019-02-11 20:53:11.365000000 Z
-      title: graphic financials
+        id: 6T0FGs8pMKFn8511aYNzHd
+        created_at: !ruby/object:DateTime 2019-06-20 22:03:05.407000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:28:14.644000000 Z
+      title: graphic financials 2018
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/31KYe4UrxKp2r7Hi9gCwp7/b87faa1c6ebbd8c44e4a43e218608ccf/graphic_financials.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6T0FGs8pMKFn8511aYNzHd/37818d9484c01af586ba26261c7ebce5/graphic_financials.png"
     section_class: financials
     modules:
     - sys:
-        id: 62Ua6cU2yaYb7C2UEarBV2
+        id: dRXovnFGidG9lBVcA6e2H
     - sys:
-        id: fQV7xt2ka9oVS1OHiodGb
+        id: 6rYz9XnMlEKhLWFX2xp9qV
     - sys:
-        id: 6tbTBxQWQNcLvVuDWf7zul
-  about: This Annual Report reflects the state of Meedan.org and its financial health.
-    Meedan.org is a US registered, San Francisco based, 501(c) 3 non-profit organization
+        id: 4dBLLWuFXFz8hwlGfk6VR8
+  about: This Annual Report reflects the state of Meedan and its financial health.
+    Meedan is a US registered, San Francisco based, 501(c) 3 non-profit organization
     established in 2006 that works on projects to support global journalism and cross-cultural
     education.
   graphic:
@@ -401,13 +399,14 @@ annualReport:
     - Hanan Heikal
     - Tim Hwang
     - Zeynep Tufecki
+    - Maria Ressa
   address: |-
     - 1355 Market, Suite 488
     - San Francisco, CA 94103
     - United States
     - [hello@meedan.com](mailto:hello@meedan.com)
-  donate: "- Support Meedan in building world class tools for journalists, citizen
-    journalists and translators. \n- [Become a Meedan Supporter](https://donorbox.org/support-meedan)"
+  donate: "- Support Meedan in building world class tools for journalists, human rights
+    investigators, citizen journalists and translators. \n- [Become a Meedan Supporter](https://donorbox.org/support-meedan)"
   other_years: |-
     - [2017](https://meedan.com/2017-annual-report/)
     - [2016](https://meedan.com/2016-annual-report/)

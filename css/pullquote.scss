@@ -35,3 +35,14 @@
 	margin-top: 4px;
 	color: $g1;
 }
+
+.pullquote .translation p {
+	background-image: linear-gradient($green 1px, transparent 1px);
+}
+
+.pullquote .translation-language {
+	display: block;
+	margin-top: $space-small/2;
+	font-size: $small-text;
+	color: $green;
+}

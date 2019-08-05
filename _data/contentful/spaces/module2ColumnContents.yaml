@@ -43,27 +43,16 @@ module2ColumnContent:
   - sys:
       id: 5uqrRSFtRHpYZJZwSx9mtv
       created_at: !ruby/object:DateTime 2019-01-21 20:31:01.012000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-21 20:31:05.104000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 00:24:19.902000000 Z
       content_type_id: moduleTex
-      revision: 1
-    content: "There is no question that this past seven years of our work has been
-      a single long, and, from this vantage point, prescient, arc to the epicenter
-      of the internet freedom and access issues that offer a serious threat to democratic
-      systems around the world. We take this to be very much the challenge of our
-      time, and a challenge that does not just impact political participation, but
-      also public health, education, environment, and virtually every area of online
-      discourse. We did not envision seven years ago that our idea for addressing
-      verification in service of raising citizen voices would have put us in the middle
-      of the effort to improve the very infrastructure of the web, but we are extremely
-      proud that we have navigated our work to this point and are very grateful for
-      the huge contributions to our work in 2017 from our funders, partners, and,
-      most importantly, our users.\n\nIn the next year we expect to work with amazing
-      partners like Yemen Archive, Rappler, Animal Politico, Chicas Poderosas, AfricaCheck,
-      Witness, and Dig Deeper in election settings, digital investigations, and crisis
-      response efforts. Most importantly, we will pursue this ambitious agenda with
-      an organizational commitment to place diversity, kindness, and support for the
-      well-being of our team members and partners at the core of everything we do.\n\nUntil
-      Soon, \nEAB"
+      revision: 2
+    content: |-
+      There is no question that this past seven years of our work has been a single long, and, from this vantage point, prescient, arc to the epicenter of the internet freedom and access issues that offer a serious threat to democratic systems around the world. We take this to be very much the challenge of our time, and a challenge that does not just impact political participation, but also public health, education, environment, and virtually every area of online discourse. We did not envision seven years ago that our idea for addressing verification in service of raising citizen voices would have put us in the middle of the effort to improve the very infrastructure of the web, but we are extremely proud that we have navigated our work to this point and are very grateful for the huge contributions to our work in 2017 from our funders, partners, and, most importantly, our users.
+
+      In the next year we expect to work with amazing partners like Yemen Archive, Rappler, Animal Politico, Chicas Poderosas, AfricaCheck, Witness, and Dig Deeper in election settings, digital investigations, and crisis response efforts. Most importantly, we will pursue this ambitious agenda with an organizational commitment to place diversity, kindness, and support for the well-being of our team members and partners at the core of everything we do.
+
+      Until Soon,
+      EAB
   top_border: false
 - sys:
     id: 5eyjYBy7neZpkFUk0dr9Sy
@@ -206,14 +195,24 @@ module2ColumnContent:
   - sys:
       id: 56L6B83gDr9REU085qUWdG
       created_at: !ruby/object:DateTime 2019-01-22 22:55:28.856000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-22 23:50:48.194000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-30 21:11:36.109000000 Z
       content_type_id: moduleTex
       revision: 3
-    content: "## [Check](https://meedan.com/en/check/) combines smart checklists,
-      workflow integrations, and intuitive design to make digital newsgathering an
-      efficient and collaborative process. Invite your team and online community in
-      a secure environment to work together to validate breaking news content. Then,
-      quickly show the work to your audience on social media or your news site."
+    content: |+
+      ## [Check](https://meedan.com/en/check/) combines smart checklists, workflow integrations, and intuitive design to make digital newsgathering an efficient and collaborative process. Invite your team and online community in a secure environment to work together to validate breaking news content. Then, quickly show the work to your audience on social media or your news site.
+
+
+      ---
+      ### List of top things added to Check in 2017
+
+      - Check localization to French
+      - Reverse image search
+      - Check localization to Arabic
+      - Check localization to Brazilian Portuguese
+      - Keep integration
+      - Browser Extension
+      - Check Bot
+
   - sys:
       id: 6RmpMyIfr2TfLh9iXJtfG7
       created_at: !ruby/object:DateTime 2019-01-22 22:55:47.867000000 Z
@@ -235,7 +234,7 @@ module2ColumnContent:
   - sys:
       id: 2M5jZrLAsBAdLKAfHzJqe3
       created_at: !ruby/object:DateTime 2019-01-22 23:10:58.574000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-22 23:11:33.276000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-30 21:13:30.246000000 Z
       content_type_id: moduleGraphic
       revision: 1
     title: Check easy of use graphic
@@ -252,7 +251,7 @@ module2ColumnContent:
   - sys:
       id: 6mWJjUiETeh0bYmPQG3T9J
       created_at: !ruby/object:DateTime 2019-01-22 23:39:38.935000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-22 23:40:40.904000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-30 21:15:47.843000000 Z
       content_type_id: moduleStats
       revision: 1
     title: Stats for Check
@@ -260,11 +259,13 @@ module2ColumnContent:
     - sys:
         id: 3AS6jqdJ9x8f291Le7IY6O
     - sys:
-        id: 7CJ35G2tcT9H3TD5JDHVfJ
-    - sys:
         id: 2tF0cYtvsigdB58cbsO8H0
     - sys:
+        id: 7CJ35G2tcT9H3TD5JDHVfJ
+    - sys:
         id: 5kW2cR97rHJL28SaauI3fd
+    - sys:
+        id: 2PZFkh4oZyiUZBBiAT9blV
   top_border: true
   logo:
     sys:
@@ -459,90 +460,97 @@ module2ColumnContent:
     content_type_id: module2ColumnContent
     revision: 0
 - sys:
-    id: VK8k4vOYQo6PJEPj96Nnl
-    created_at: !ruby/object:DateTime 2019-01-30 20:36:20.456000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-30 20:39:05.985000000 Z
+    id: 1rW6yazco5VTWWcq0f4Skk
+    created_at: !ruby/object:DateTime 2019-06-20 19:52:58.104000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:18:06.951000000 Z
     content_type_id: module2ColumnContent
     revision: 1
-  title: Common Standards
+  title: Having Important Conversations
   content:
   - sys:
-      id: 4wkyeOfd5zww63wruPkyn5
-      created_at: !ruby/object:DateTime 2019-01-30 20:38:06.425000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-30 20:38:15.973000000 Z
+      id: 7tek6AWAXmnrmUqvlxfm1X
+      created_at: !ruby/object:DateTime 2019-06-20 19:53:09.037000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:17:47.058000000 Z
       content_type_id: moduleTex
       revision: 1
-    content: 'So, when the dust settled on Electionland (before the awards for that
-      project started to drop from the sky) we recognized that the 1000 journalists
-      that were working into our software, doing annotation work, classifying content
-      were completely disconnected from the machinery. We called for: “common media
-      verification standards and APIs, and they should work to develop a shared visual
-      language to expose the work of media verification and fact-checking professionals.
-      This means developing a new schema for verification.”'
-- sys:
-    id: 3g0yZB2ScP9QECrH5sgeEr
-    created_at: !ruby/object:DateTime 2019-01-30 20:42:25.052000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-30 20:45:08.311000000 Z
-    content_type_id: module2ColumnContent
-    revision: 1
-  title: Check Global
-  content:
+    content: "So, recognizing this challenge, we did a little daydreaming. Could we
+      perhaps write software to programmatically generate the document? We have a
+      corpora of previous years notes for training data, and in 2018, with the generous
+      support of the AI fund, we brought bots into Check. The thinking was that we
+      might just toss our g-docs (9,718) and travel receipts (653), Slack messages
+      (144,661), tweets (too many), posts (not enough), emails (embarrassing, number
+      withheld), conference talks (17), proposals (15) and board packets (4) into
+      Check and set the AnnualNoteBot to work. We imagined the AI might generate a
+      thoughtful, inspiring, and eloquent overview of the wonderful things that happened
+      at Meedan during another arguably awful year for the planet and, particularly,
+      for the digital surface of it that we have devoted our lives and this organization
+      to improving. \n\nAlas, our end of grant report to the AI Fund will not include
+      any mention of the failed AnnualNoteBot, nor will this note include any algorithmically
+      generated content.  \n\nInstead, it falls to me, with all my human biases deployed,
+      to share with my assessment across the continuing story of this organization.
+      Working on tools and programs supporting human rights investigators, election
+      monitoring, and collaborative media annotation we have put our theory of change
+      into motion with significant and award-winning results. In 2018 our team of
+      16 and our amazing organizational partners created: election media monitoring
+      projects that pushed the boundaries of rigorous classification and creative
+      memetic response to disinformation (Pop-Up Newsroom); structured data standards
+      that generate machine readable signals from such work and might provide an early
+      model for researching and defining standards that could help to bring a contextual
+      layer of credibility signals to the web (CredCo); and, the open source software
+      that keeps all of this work organized (Check)."
   - sys:
-      id: 1636osBm9OGp2Exh0J7NuJ
-      created_at: !ruby/object:DateTime 2019-01-30 20:43:01.658000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-30 20:44:31.224000000 Z
+      id: 57kxrVLJa8mS0WoGem05cg
+      created_at: !ruby/object:DateTime 2019-06-20 23:08:17.221000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:17:43.727000000 Z
       content_type_id: moduleImage
       revision: 1
-    caption: Brussels - March 2017
+    caption: Mexico City 2018
     image:
       sys:
-        id: 29EqTxtg8IaQgUQCaYYwo6
-        created_at: !ruby/object:DateTime 2018-12-05 21:20:23.612000000 Z
-        updated_at: !ruby/object:DateTime 2018-12-05 21:20:37.524000000 Z
-      title: An at Rights Con 2017
+        id: 2NabWFbgWeiOXbbnLwq4Oh
+        created_at: !ruby/object:DateTime 2019-06-20 23:08:39.622000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:17:40.838000000 Z
+      title: edit-3070133
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/29EqTxtg8IaQgUQCaYYwo6/6049b1340804627185e0f796fc9e0835/_Priority__An_at_Rights_Con_2017.jpg"
-    caption_title: Rights Con
+      url: "//images.ctfassets.net/g118h5yoccvd/2NabWFbgWeiOXbbnLwq4Oh/960744d255f3936825e462515ec48b25/edit-3070133.jpg"
+    caption_title: Tom Trewinnard at Verificado
   - sys:
-      id: 4oqd3ywdZ7CfadbPgovCh9
-      created_at: !ruby/object:DateTime 2019-01-30 20:44:49.434000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-30 20:44:54.325000000 Z
+      id: MVrjdPvG9wIGQtp6wuTaz
+      created_at: !ruby/object:DateTime 2019-06-20 23:08:07.678000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:17:30.136000000 Z
       content_type_id: moduleTex
       revision: 1
-    content: CHECK — Meedan’s flagship project focused on open source technologies
-      for media, source, link verification and research and trainings that support
-      these practices. Beneficiaries include human rights investigators, independent
-      journalists, and civil society orgs. In 2017 we delivered high impact projects
-      in Lebanon, Philippines, Hong Kong, Kenya, Egypt, France, England, and the US.
+    content: "In the past decade we have had some very successful programs, and certainly
+      these have had impact on policy, spurred new technical approaches to collaborative
+      translation and verification, and powered serious investigative journalism efforts,
+      but in 2018 I think we actually helped change the world. In Mexico, the Verificado
+      team from Animal Politicò, AJ+ Español, and  more than 80 media partners had
+      a significant impact on the quality of information flowing through FB, WhatsApp,
+      Twitter, and the interwebs broadly during Mexico’s historic election. This week
+      a Mexican citizen came to me in tears with his thanks for that project - that
+      is impact. It was the beginning of us taking what had been very technical and
+      assessment focused efforts and bridging those to visual, creative, memetic outputs.
+      Verificado cracked the code on high impact collaborative journalism for election
+      monitoring, and perhaps also serves as a point of hope and optimism against
+      the backdrop of a very difficult year for journalism, democracy, and interweb
+      idealism.  \n\nSo, with that algorithimically identifiable upnote, on behalf
+      of our 2018 team members - Tom, An, Karim, Caio, Noha, Sawy, Alex, Dani, Wafaa,
+      Uva, Dima, Abdul Rehman, Nat, Dwight - and our great board - Jon, Hanan, Zeynep,
+      Tim, Maria - and the many many partners, volunteers, funders, and fans - thanks
+      for helping us keep this crazy dream of an organization going for another year.
+      \n\nAbrazos,\nEd"
 - sys:
-    id: 5xEqe3OZlJnh9lwF6OImqr
-    created_at: !ruby/object:DateTime 2019-02-04 11:18:27.427000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-04 11:26:09.868000000 Z
-    content_type_id: module2ColumnContent
-    revision: 1
-  title: Timeline
-  content:
-  - sys:
-      id: Iphdm5OKyAvkSZZZgi7Ou
-      created_at: !ruby/object:DateTime 2019-02-04 11:19:04.393000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-04 11:20:05.048000000 Z
-      content_type_id: moduleTex
-      revision: 1
-    content: A timeline of the events that took place and Meedan participated at in
-      2018!
-  top_border: false
-- sys:
-    id: 7m7y7emkSF5dxrcNYfDu0Q
-    created_at: !ruby/object:DateTime 2019-02-14 12:08:06.203000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-14 12:09:30.984000000 Z
+    id: 1HEdXrQzfGBkMTOuUs8RFb
+    created_at: !ruby/object:DateTime 2019-06-20 21:05:31.070000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:18:33.941000000 Z
     content_type_id: module2ColumnContent
     revision: 1
   title: Check
   content:
   - sys:
-      id: 7MfnabHNWXeHKwSyFrIHS4
-      created_at: !ruby/object:DateTime 2019-02-14 12:08:42.805000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-14 12:09:14.277000000 Z
+      id: 4joMx3e0nvkVsbt2L0Ie5Q
+      created_at: !ruby/object:DateTime 2019-06-20 21:06:04.817000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:18:31.333000000 Z
       content_type_id: moduleTex
       revision: 1
     content: Open source technology and programs supporting collaborative verification,
@@ -551,70 +559,70 @@ module2ColumnContent:
       Asia.
   top_border: false
 - sys:
-    id: 7tXxYFBH1fjY22bOGf4EN6
-    created_at: !ruby/object:DateTime 2019-02-14 12:10:12.706000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-14 12:11:43.560000000 Z
+    id: 1f4zmNYMVlcvhlNkcIp7sx
+    created_at: !ruby/object:DateTime 2019-06-20 21:07:53.478000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:18:47.844000000 Z
     content_type_id: module2ColumnContent
     revision: 1
   title: Pop-Up Newsroom
   content:
   - sys:
-      id: 6pO51pT4VUArrPHMnZWbJp
-      created_at: !ruby/object:DateTime 2019-02-14 12:10:50.283000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-14 12:24:38.124000000 Z
+      id: ANo8wJBm9wy0e46MRACGV
+      created_at: !ruby/object:DateTime 2019-06-20 21:07:59.664000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:18:41.817000000 Z
       content_type_id: moduleTex
-      revision: 2
-    content: 'Collaborative initiative co-design and training events (Verificado 2018,
-      Riksdagsvalet 2018, Pop-Up Newsroom: India, Pop-Up Newsroom: Natural Disaster).
-
-'
+      revision: 1
+    content: |
+      Collaborative initiative co-design and training events (Verificado 2018, Riksdagsvalet 2018, Pop-Up Newsroom: India, Pop-Up Newsroom: Natural Disaster).
+      Meedan does this work in collaboration with [Dig Deeper](http://digdeepermedia.com/)
   top_border: false
 - sys:
-    id: tZdjEgyuFtjDxCiunvqd9
-    created_at: !ruby/object:DateTime 2019-02-14 12:14:38.867000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-14 12:16:05.204000000 Z
+    id: 4FOSPaw82qnfysoNybGj6g
+    created_at: !ruby/object:DateTime 2019-06-20 21:08:18.427000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:18:58.278000000 Z
     content_type_id: module2ColumnContent
     revision: 1
   title: Credibility Coalition
   content:
   - sys:
-      id: 5VoZMvnUKoF8Vzt88rmQe7
-      created_at: !ruby/object:DateTime 2019-02-14 12:15:15.005000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-14 12:15:45.012000000 Z
+      id: 3jCrMmpj5YpzCkbKuv4wvR
+      created_at: !ruby/object:DateTime 2019-06-20 21:08:22.465000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:18:54.239000000 Z
       content_type_id: moduleTex
       revision: 1
-    content: Better standards for online content through rigorous research.
+    content: |-
+      Better standards for online content through rigorous research.
+      Meedan does this work in collaboration with Hacks/Hackers.
   top_border: false
 - sys:
-    id: 49a6daptyLVvhPq7IjPsjr
-    created_at: !ruby/object:DateTime 2019-02-14 12:17:12.511000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-14 12:20:38.927000000 Z
+    id: 5RFtTjhl7jyvBkIEZhsanH
+    created_at: !ruby/object:DateTime 2019-06-20 21:08:49.720000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:20:18.138000000 Z
     content_type_id: module2ColumnContent
-    revision: 2
-  title: The Translation Project /Bridge
+    revision: 1
+  title: Bridge
   content:
   - sys:
-      id: SxFvyOI2gTIMlyrqhGs0F
-      created_at: !ruby/object:DateTime 2019-02-14 12:18:05.946000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-14 12:24:10.869000000 Z
+      id: zaFoh5EOITRSwZVUCeW5u
+      created_at: !ruby/object:DateTime 2019-06-20 21:08:54.549000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:19:05.373000000 Z
       content_type_id: moduleTex
-      revision: 2
+      revision: 1
     content: Open source infrastructure for humanitarian and crisis response translation.
-  top_border: false
 - sys:
-    id: 6oxNyIa47OMJav2iTlt8uW
-    created_at: !ruby/object:DateTime 2019-02-14 12:20:51.426000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-14 12:22:14.431000000 Z
+    id: 2aWUylMWU2F9o44aL43cTe
+    created_at: !ruby/object:DateTime 2019-06-20 21:09:38.248000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:20:26.129000000 Z
     content_type_id: module2ColumnContent
     revision: 1
   title: Geographic areas served
   content:
   - sys:
-      id: JSqft5E3g9zSuTJW7sLIG
-      created_at: !ruby/object:DateTime 2019-02-14 12:21:24.774000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-14 12:25:48.673000000 Z
+      id: 6c5zWA8TDQ07XeNRI8ch2N
+      created_at: !ruby/object:DateTime 2019-06-20 21:09:45.467000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:20:23.774000000 Z
       content_type_id: moduleTex
-      revision: 2
+      revision: 1
     content: |-
       - Latin America
       - North America
@@ -625,55 +633,84 @@ module2ColumnContent:
       - South East Asia
   top_border: true
 - sys:
-    id: 4q2QxEvZAir3d20QsBWxKP
-    created_at: !ruby/object:DateTime 2019-02-17 13:49:08.377000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-17 19:28:59.877000000 Z
+    id: 2Y91L14Qi8K99KmobxHjMn
+    created_at: !ruby/object:DateTime 2019-06-20 21:18:43.915000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:20:48.773000000 Z
     content_type_id: module2ColumnContent
-    revision: 4
+    revision: 1
+  title: Timeline
+  content:
+  - sys:
+      id: 3NaYXUeXcou9FZVsnQzUmM
+      created_at: !ruby/object:DateTime 2019-06-20 21:18:51.187000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:20:45.957000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: A timeline of the events that took place and Meedan participated at in
+      2018!
+  top_border: false
+- sys:
+    id: Zqc6VKHv5VWjwQAh0IKhP
+    created_at: !ruby/object:DateTime 2019-06-20 21:43:34.040000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:24:04.554000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
   title: Check
   content:
   - sys:
-      id: 2C8fnNxqPPvW1nYBSgbx8E
-      created_at: !ruby/object:DateTime 2019-02-17 13:50:11.302000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-17 19:20:14.398000000 Z
+      id: 64WKFhSLuU8Mka4Ky10Zkz
+      created_at: !ruby/object:DateTime 2019-06-20 21:43:47.002000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:23:28.191000000 Z
       content_type_id: moduleTex
-      revision: 2
-    content: "## [Check](https://meedan.com/en/check/) combines smart checklists,
-      workflow integrations, and intuitive design to make digital newsgathering an
-      efficient and collaborative process. Invite your team and online community in
-      a secure environment to work together to validate breaking news content. Then,
-      quickly show the work to your audience on social media or your news site.\n\n\n---\n###
-      List of top things added to Check in 2018\n\n\n- Check localization to Spanish\n-
-      Schema.org’s ClaimReview schema to extract structured data from articles.\n-
-      Items and tasks assignments to users. Displaying progress of assignments per
-      each team member to owners.\n- Items relationships and locking statuses.\n-
-      Check bot for Slack workspaces.\n- Bot Garden.\n- Users to delete their own
-      accounts.\n \n"
+      revision: 1
+    content: |-
+      ## [Check](https://meedan.com/en/check/) combines smart checklists, workflow integrations, and intuitive design to make digital newsgathering an efficient and collaborative process. Invite your team and online community in a secure environment to work together to validate breaking news content. Then, quickly show the work to your audience on social media or your news site.
+
+
+      ---
+      ### List of top things added to Check in 2018
+
+
+      - Check localization to Spanish
+      - Schema.org’s ClaimReview schema to extract structured data from articles.
+      - Items and tasks assignments to users. Displaying progress of assignments per each team member to owners.
+      - Items relationships and locking statuses.
+      - Check bot for Slack workspaces.
+      - Bot Garden to enable third party AIs/bots into workflows.
+      - Users to delete their own accounts.
   - sys:
-      id: AMYKjjqicEDuNscjgaVRm
-      created_at: !ruby/object:DateTime 2019-02-17 13:51:49.480000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-17 19:30:03.768000000 Z
+      id: 1dQzk5Minya1P4G2XTooWA
+      created_at: !ruby/object:DateTime 2019-07-25 12:14:31.973000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:23:36.896000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: NPS
+    graphic:
+      sys:
+        id: 7gg14VNE7kmK8XTFsBq39m
+        created_at: !ruby/object:DateTime 2019-07-25 12:17:43.534000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:23:34.232000000 Z
+      title: Check NPS score 2019
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7gg14VNE7kmK8XTFsBq39m/c80f970ece43726b71fa63e2155c9548/Check_NPS_Score_2019.png"
+  - sys:
+      id: 3RLv7Y4LfpPIRRQu9A8ZCl
+      created_at: !ruby/object:DateTime 2019-06-20 21:44:07.024000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:23:59.313000000 Z
       content_type_id: moduleStats
-      revision: 3
+      revision: 1
     title: Stats for Check
     stats:
     - sys:
-        id: Mpmnm77uhacP1kOaYIaJs
+        id: 21FrixQ6rxlLwndt0Ldlkf
     - sys:
-        id: 6ZWmn1rGhr63NpTTIqLRSK
+        id: YGgRxAfM6Dt3RKUjZ0zCj
     - sys:
-        id: 1uyemmEqLk5hixeif60MNo
+        id: 5J59MUPPz7lSVR5URakNdb
     - sys:
-        id: 4TJkl64QXEtObdBYnb8KZ8
+        id: 1jXobbhkd2fNAmAukXfW5b
     - sys:
-        id: 51HZTYvFeCWZ0kphbb86c3
-  - sys:
-      id: 1jJtlgPqkUEXk2TtJxKOGG
-      created_at: !ruby/object:DateTime 2019-02-17 19:28:20.418000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-17 19:28:51.363000000 Z
-      content_type_id: moduleTex
-      revision: 1
-    content: "(NPS went up from 24 last year)"
+        id: 7cDAHPxBJlGKCpP3JpdRxh
   top_border: true
   logo:
     sys:
@@ -684,17 +721,17 @@ module2ColumnContent:
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/PjY3XCvyk27TBjrQLKTJC/bf861a45f1878d972a3b807d9fd21e9f/check.svg"
 - sys:
-    id: 6DR0mANGAithMDXsVDKQNt
-    created_at: !ruby/object:DateTime 2019-02-17 13:56:38.454000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-17 13:58:05.424000000 Z
+    id: LblskgHWr4XsB5Sw2edJr
+    created_at: !ruby/object:DateTime 2019-06-20 21:46:12.563000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:25:05.936000000 Z
     content_type_id: module2ColumnContent
     revision: 1
   title: Keep
   content:
   - sys:
-      id: 28Y3I2vO20Jj7pqHhRk70
-      created_at: !ruby/object:DateTime 2019-02-17 13:57:23.206000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-17 13:57:31.413000000 Z
+      id: 2qvd7VhD6FXOwM8Or9uHw2
+      created_at: !ruby/object:DateTime 2019-06-20 21:46:23.449000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:24:11.042000000 Z
       content_type_id: moduleTex
       revision: 1
     content: "## Keep works as a backup platform for links added online. If a media
@@ -702,64 +739,80 @@ module2ColumnContent:
       added to Keep so that there is always a backup link in case that the original
       goes down or gets removed at any point in time."
   - sys:
-      id: 7yArIw59Ul3NiqxRNSgdl4
-      created_at: !ruby/object:DateTime 2019-02-17 13:57:42.805000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-17 18:56:07.342000000 Z
+      id: 2yuID3Ja1L3LjV2VlR4cdu
+      created_at: !ruby/object:DateTime 2019-06-20 21:46:33.218000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:24:49.963000000 Z
       content_type_id: moduleStats
-      revision: 3
+      revision: 1
     title: Stats for Keep
     stats:
     - sys:
-        id: vePmvXjDKHJ2u05KiKoXn
+        id: 2qWbvJWrblugPH2NSVYEm7
     - sys:
-        id: a5flKSQ4rkW9DCFsnytHg
+        id: 6QGqwJItrucas6N5EclGdi
     - sys:
-        id: 4OLkMfFhDrHk3Pc0rqbS7Q
+        id: 6hzodQ9yeIgBMQs2K8jGwY
     - sys:
-        id: 4GUoXG4Yj4ifz415uHYuUz
+        id: 4rRNW3R7FEnArxXOVULBe
+    - sys:
+        id: 1SjT4H4cu4JJD09vO82ZIE
+    - sys:
+        id: 3wd9MFapxIDmbttqHuQZGR
+    - sys:
+        id: 3WzxITgc0IzX9rrjUW7wgk
   top_border: true
 - sys:
-    id: Q3yFVxFrwsgEajKULiO2n
-    created_at: !ruby/object:DateTime 2019-02-17 13:58:22.730000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-18 11:21:17.520000000 Z
+    id: 2ssjUm7D16AxTyPbFXSZJ6
+    created_at: !ruby/object:DateTime 2019-06-20 21:47:45.321000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:25:47.290000000 Z
     content_type_id: module2ColumnContent
-    revision: 2
+    revision: 1
   title: Bridge
   content:
   - sys:
-      id: 10nBkJHSIN8w9IMxoHoH9C
-      created_at: !ruby/object:DateTime 2019-02-17 13:58:56.014000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-17 18:28:21.691000000 Z
+      id: 3j8s59Vwv4IDKhnYWdNkrP
+      created_at: !ruby/object:DateTime 2019-06-20 21:47:54.835000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:25:13.428000000 Z
       content_type_id: moduleTex
-      revision: 2
+      revision: 1
     content: "## [Bridge](https://meedan.com/en/bridge/) helps communities translate,
       annotate, share, and source the most compelling global content on social media.
       Starting with a pilot with the National Geographic Society and Pulitzer Prize-winning
       journalist Paul Salopek’s Out of Eden Walk project, the product aims to support
       a team of translators with tools like glossaries and translation memories."
   - sys:
-      id: 3YXCDqe9cP1UN6N4wppzEL
-      created_at: !ruby/object:DateTime 2019-02-17 13:59:21.558000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-18 11:20:44.085000000 Z
+      id: 6vh0h6pfbpND9FNKsWNjDV
+      created_at: !ruby/object:DateTime 2019-07-25 12:19:50.848000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:25:21.745000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: NPS Graphic
+    graphic:
+      sys:
+        id: 5KvYmhwLk82HEixycbgKOs
+        created_at: !ruby/object:DateTime 2019-07-25 12:20:02.709000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:25:18.913000000 Z
+      title: Bridge NPS score 2019
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5KvYmhwLk82HEixycbgKOs/9e648b89109de1d144b6bdadf79e1b71/Bridge_NPS_score_2019.png"
+  - sys:
+      id: kh4lYARVrrlOyipid7MNx
+      created_at: !ruby/object:DateTime 2019-06-20 21:48:06.588000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:25:43.316000000 Z
       content_type_id: moduleStats
-      revision: 2
+      revision: 1
     title: Stats for Bridge
     stats:
     - sys:
-        id: 7q8kIOmtBi7R2j6qZsaBr6
+        id: 3yYxJMahqixN1pxCXmGDOQ
     - sys:
-        id: CBKUGzp32AYkBzdx0dGlB
+        id: 2b5jJ8z7TJUlzRQqj77EH4
     - sys:
-        id: 1QZ04nd2zfyGvn0TulXhhI
+        id: 3DkywM1IdWALCOciK8dokx
     - sys:
-        id: 7jHIqfTwU0VUrfqJVRO4Rv
-  - sys:
-      id: 2xTrfk1qsAzT5mrMW6KpcE
-      created_at: !ruby/object:DateTime 2019-02-18 11:20:49.804000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-18 11:21:07.003000000 Z
-      content_type_id: moduleTex
-      revision: 1
-    content: "(NPS went up from 75 last year)"
+        id: 3Bi4udmmI1n2ApzJrrFnf6
+    - sys:
+        id: 60PUz7hMwUxFmRMDyI7yjM
   top_border: true
   logo:
     sys:
@@ -770,120 +823,117 @@ module2ColumnContent:
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/73Sp2Ab2ltcNdohfflUFVO/19cb09edca959c690d56d01a734549ed/bridge.svg"
 - sys:
-    id: 7leDokQqVOTwVuLikKjD1U
-    created_at: !ruby/object:DateTime 2019-02-19 11:34:24.031000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-19 11:37:05.430000000 Z
+    id: 6VWNcbBhjs6jMhjawR4l1w
+    created_at: !ruby/object:DateTime 2019-06-20 21:51:46.653000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:26:58.762000000 Z
     content_type_id: module2ColumnContent
-    revision: 2
+    revision: 1
   title: Press
   content:
   - sys:
-      id: 7iXcSZe4JHxQr2xcd9QCho
-      created_at: !ruby/object:DateTime 2019-02-19 11:34:52.069000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-19 11:35:03.112000000 Z
+      id: 6efmrPQDzZ7avEGWaHwEor
+      created_at: !ruby/object:DateTime 2019-06-20 21:51:56.132000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:26:56.371000000 Z
       content_type_id: moduleTex
       revision: 1
     content: Stories covering Meedan's work in 2018.
   top_border: true
 - sys:
-    id: fQV7xt2ka9oVS1OHiodGb
-    created_at: !ruby/object:DateTime 2019-06-19 12:44:27.582000000 Z
-    updated_at: !ruby/object:DateTime 2019-06-19 12:48:26.389000000 Z
+    id: 6rYz9XnMlEKhLWFX2xp9qV
+    created_at: !ruby/object:DateTime 2019-06-20 22:05:49.587000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:28:54.627000000 Z
     content_type_id: module2ColumnContent
     revision: 1
   title: Revenue
   content:
   - sys:
-      id: 2ovoSVsHH3UkbDlLobL7R4
-      created_at: !ruby/object:DateTime 2019-06-19 12:46:39.878000000 Z
-      updated_at: !ruby/object:DateTime 2019-06-19 12:55:56.140000000 Z
+      id: 6MwbVl9tqWdzHMNs1Ilzrx
+      created_at: !ruby/object:DateTime 2019-07-24 19:16:20.558000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:28:27.313000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: Revenue
+    graphic:
+      sys:
+        id: 3DB60SrnpWUTyGRzfHwOsV
+        created_at: !ruby/object:DateTime 2019-07-24 19:16:27.873000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-05 19:28:25.077000000 Z
+      title: 2019 financials graphics
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3DB60SrnpWUTyGRzfHwOsV/b51f1f72db8e14d01fad8d7337392c4b/Meedan_2019_financials_graphic.png"
+  - sys:
+      id: 62Up0kBXh4TWZw8GjwZqus
+      created_at: !ruby/object:DateTime 2019-06-20 22:06:13.108000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:28:51.073000000 Z
       content_type_id: moduleStats
       revision: 1
-    title: Revenue Numbers
+    title: Revenue Numbers 2018
     stats:
     - sys:
-        id: 5ysKLcctJexTDQUqMYCnHq
+        id: 7GXAqn9LDykl5K9vcnyzMf
     - sys:
-        id: 71Mcje0vsUM6ZqIAXJsrGc
+        id: 57am9b4pEfCk8LZJQRgEpD
     - sys:
-        id: 15dEMbWysIQ0F6kJqlUE6G
+        id: 5VZe57fYJ4eYSASilydJnn
     - sys:
-        id: 2A5sZS8OOFCB7vLKbtK8OR
+        id: 3ROjbBlC9VWDraf5TOzYZe
+  top_border: true
 - sys:
-    id: 6tbTBxQWQNcLvVuDWf7zul
-    created_at: !ruby/object:DateTime 2019-06-19 12:52:42.800000000 Z
-    updated_at: !ruby/object:DateTime 2019-06-19 12:55:40.222000000 Z
+    id: 4dBLLWuFXFz8hwlGfk6VR8
+    created_at: !ruby/object:DateTime 2019-06-20 22:09:27.532000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:29:17.075000000 Z
     content_type_id: module2ColumnContent
     revision: 1
   title: Expenditures
   content:
   - sys:
-      id: 4Vmy599vwObG79EBVBVy6g
-      created_at: !ruby/object:DateTime 2019-06-19 12:52:53.357000000 Z
-      updated_at: !ruby/object:DateTime 2019-06-19 12:53:41.887000000 Z
+      id: 3SLisTwW0icDT715pMk6f5
+      created_at: !ruby/object:DateTime 2019-06-20 22:09:48.634000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:29:13.979000000 Z
       content_type_id: moduleStats
       revision: 1
-    title: Expenditures Numbers
+    title: Expenditures Numbers 2018
     stats:
     - sys:
-        id: 49uYQp410qMm0Eopo3cjzt
+        id: 2Qpzrh1L8NTHnq390xzI7x
+  top_border: true
 - sys:
-    id: 4sIWziC3k9VT6SsEhCtugV
-    created_at: !ruby/object:DateTime 2019-06-19 19:13:42.870000000 Z
-    updated_at: !ruby/object:DateTime 2019-06-19 19:16:03.259000000 Z
+    id: 5kH23CD08OyNeVlLsUOe1G
+    created_at: !ruby/object:DateTime 2019-07-04 12:39:40.346000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-05 19:26:18.572000000 Z
     content_type_id: module2ColumnContent
     revision: 1
-  title: Important Conversations
+  title: Credibility Coalition
   content:
   - sys:
-      id: jmTN8bmMYKoN2fHBwvr7u
-      created_at: !ruby/object:DateTime 2019-06-19 19:14:05.339000000 Z
-      updated_at: !ruby/object:DateTime 2019-06-19 19:14:52.162000000 Z
+      id: 6QbXv1jHmlFd2FiWIGgwyD
+      created_at: !ruby/object:DateTime 2019-07-31 21:51:32.102000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:25:53.254000000 Z
       content_type_id: moduleTex
       revision: 1
-    content: "So, recognizing this challenge, we did a little daydreaming. Could we
-      perhaps write some software to programmatically generate the document? We have
-      a corpora of previous years notes for training data, and in 2018, with the generous
-      support of the AI fund, we brought bots into Check. The thinking was that we
-      might just toss our g-docs (9,718) and travel receipts, Slack messages (144,661),
-      tweets (too many), posts (not enough), emails (embarrassing, number withheld),
-      conference talks (17), proposals (15) and board packets (4) into Check and set
-      the AnnualNoteBot to work. We imagined the AI might generate a thoughtful, inspiring,
-      and eloquent overview of the wonderful things that happened at Meedan during
-      another arguably awful year for the planet and, particularly for the digital
-      surface of it that we have devoted our lives and this organization to improve.
-      \n\nOur end of grant report to the AI Fund, which generously supported the development
-      and fertilization of our Bot Garden this year, will not include any mention
-      of the failed EdBot nor will this end of year note include any algorithmically
-      generated assessment.  \n\nInstead, it falls to me, with all my human biases
-      deployed, to share with my very human assessment across the continuing story
-      of this organization. Working on tools and programs supporting human rights
-      investigators, election monitoring, and collaborative media annotation we have
-      put our theory of change into motion with significant and award-winning work.
-      In 2018 our team of 16 worked on election media monitoring projects that pushed
-      the boundaries of rigorous classification and creative memetic response to disinformation
-      (Pop-Up Newsroom); the structured data standards that generate machine readable
-      signals from such work and might provide an early model for researching and
-      defining standards that could help to bring a contextual layer of credibility
-      signals (structured annotations) to the web (CredCo); and the open source software
-      that keeps all of this work organized (Check). \n\nIt feels to me that in 2018
-      we were able to go beyond saying that our writings or trainings or tools are
-      inspiring important conversations and powering important projects to  we are
-      truly building something that has had meaningful impact on the world. In the
-      past we have had very important successes, and certainly have influenced high
-      level conversations on transparency, verification, closed networks, and collaborative
-      journalism, but in 2018 I think we actually helped change the world. In Mexico,
-      the Verificado team from Animal Politicò, AJ+ Español, and 80 media partners
-      did have a significant impact on the overall quality of information flowing
-      through FB, WhatsApp, Twitter, and the interwebs broadly during Mexico’s historic
-      election. This week a Mexican citizen came to be in tears with thanks for that
-      project - that is impact. It was the beginning of us taking what had been very
-      technical and assessment focused efforts and adapting those to focus also on
-      the creative, memetic response to the disinformation. I think Verificado truly
-      points the way to a more hopeful outlook for our blue and green planet in the
-      year ahead. \n\nWith the serious strides being made on data and standards work
-      with CredCo and a number of election monitoring projects ahead, I anticipate
-      even more impact in the year ahead for the Meedan team. So, on behalf of Tom,
-      An, Karim, Caio, Noha, Sawy, Alex, Dani, Wafaa, Uva, Dima, Abdul Rehman, Nat,
-      Dwight, and the many many others who have contributed to the year’s work, thanks
-      for your interest and support. \n\nAbrazos,\n\nEd"
+    content: "## [Credibility Coalition](https://credibilitycoalition.org) is an interdisciplinary
+      community committed to improving information ecosystems and media literacy through
+      transparent and collaborative exploration."
+  - sys:
+      id: 5wW8Q4kQmmKUQ4DlzLhYeK
+      created_at: !ruby/object:DateTime 2019-07-04 12:39:53.978000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:26:11.255000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: Stats for CredCo
+    stats:
+    - sys:
+        id: 4lrOmYj0IwKhbNS6rhX5TJ
+    - sys:
+        id: 1SAGWzkI3L6MFyYYXpem3A
+    - sys:
+        id: 1e8dwSizutEiHAAdnCguny
+  top_border: true
+  logo:
+    sys:
+      id: sRblN5EDafSY1FojI1pl4
+      created_at: !ruby/object:DateTime 2019-07-31 19:44:18.089000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-05 19:26:15.499000000 Z
+    title: Screen Shot 2019-07-31 at 9.43.55 PM
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/sRblN5EDafSY1FojI1pl4/92e1ad0a3e1d9fe122c0d6e2da1573c6/Screen_Shot_2019-07-31_at_9.43.55_PM.png"
