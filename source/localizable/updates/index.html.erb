@@ -1,0 +1,40 @@
+---
+layout: "default"
+slug: "updates"
+---
+
+<%# Updates %>
+<section>
+  <div class="section-inner">
+    <h2><%= t("updates.header") %></h2>
+    <p><%= t("updates.text") %></p>
+    <h3><%= t("updates.meedan") %></h3>
+    <ul class="updates__list">
+      <% data.updates.meedan.each do |update| %>
+      <li>
+        <h4><%= update.date %></h4>
+        <p>
+          <a href="<%= update.url %>" target="_blank" rel="noreferrer noopener"><%= update.title %></a>
+          <br />
+          <span><%= update.author %></span>
+        </p>
+      </li>
+      <% end %>
+    </ul>
+    <h3><%= t("updates.press") %></h3>
+    <ul class="updates__list">
+      <% data.updates.press.each do |update| %>
+      <li>
+        <h4><%= update.date %></h4>
+        <p>
+          <a href="<%= update.url %>" target="_blank" rel="noreferrer noopener"><%= update.title %></a>
+          <br />
+          <span><%= update.author %></span>
+        </p>
+      </li>
+      <% end %>
+    </ul>
+    <h3><%= t("updates.contact.header") %></h3>
+    <p><%= t("updates.contact.text") %></p>
+  </div>
+</section>
