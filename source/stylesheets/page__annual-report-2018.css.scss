@@ -884,6 +884,10 @@ hr {
   padding-bottom: 1.1em;
 }
 
+.list a {
+  border-bottom: 1px solid #008D5E;
+}
+
 .list-only {
   border-top: 1px solid #D4D4D4;
   margin-top: 2.2em;
@@ -934,6 +938,10 @@ hr {
   .listing .list-wrapper {
     max-width: 60%;
     flex-basis: 60%;
+  }
+  .sub-list .list-wrapper {
+    max-width: 100%;
+    flex-basis: 100%;
   }
 }
 
