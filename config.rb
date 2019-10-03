@@ -15,7 +15,9 @@ activate :directory_indexes
 redirect "index.html", :to => "en/index.html"
 activate :i18n, :mount_at_root => "en"
 page "**/*_tos.html", :directory_index => false
+page "**/*_tos.*.html", :directory_index => false
 page "**/*_privacy.html", :directory_index => false
+page "**/*_privacy.*.html", :directory_index => false
 
 
 # Open Graph Tags
