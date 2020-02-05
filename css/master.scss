@@ -1,0 +1,88 @@
+---
+# Master SASS file
+---
+
+:root {
+    --blackInk: #262626;
+    --sunDown: #FFB2B2;
+    // type scale
+    --int: 1.5;
+    --scale0: 1rem;
+    --scale-1: calc(var(--scale0) / var(--int));
+    --scale-2: calc(var(--scale-1) / var(--int));
+    --scale1: calc(var(--scale0) * var(--int));
+    --scale2: calc(var(--scale1) * var(--int));
+    
+    --space-1: 1.250rem; // 20px
+    --space-2: 1.667rem; // 30px
+    --space-3: 2.222rem; // 40px
+    --space-4: 3.333rem; // 60px
+    --space-5: 4.444rem; // 80px
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main-grid,
+header,
+footer {
+    display: grid;
+    grid-gap: var(--space-2);
+    // grid-template-columns: 0.8fr 0.8fr 2fr 0.8fr 0.5fr 150px;
+    grid-template-columns: repeat(11, 1fr) 150px;
+    padding-left: var(--space-3);
+    padding-right: 0;
+}
+
+.menu {
+    grid-column: 4 / 4;
+}
+
+.page-wrapper h1 {
+    margin: 0;
+    grid-column: 5 / 8;
+}
+
+.page-wrapper h2 {
+    padding: var(--space-5) 0;
+    grid-column: 1 / 6;
+}
+
+header {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-3);
+}
+
+.call-out {
+    position: absolute;
+    white-space: nowrap;
+    top: var(--space-2);
+    right: var(--space-2);
+    font-size: var(--scale1);
+}
+
+h3.call-out span span:nth-of-type(1) {
+    
+}
+
+h4.call-out {
+    display: inline-block;
+    transform-origin: right top;
+    transform: rotate(90deg) translateX(100%);
+    padding-left: var(--space-2);
+}

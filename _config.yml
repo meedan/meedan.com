@@ -36,7 +36,6 @@ contentful:
     - annualReports: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'annualReport'
         client_options:
@@ -46,7 +45,6 @@ contentful:
     - sections: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'section'
         client_options:
@@ -56,7 +54,6 @@ contentful:
     - module2ColumnContents: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'module2ColumnContent'
         client_options:
@@ -66,7 +63,6 @@ contentful:
     - stats: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'stat'
         client_options:
@@ -76,7 +72,6 @@ contentful:
     - moduleCards: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'moduleCard'
         client_options:
@@ -86,7 +81,6 @@ contentful:
     - userGuides: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'userGuide'
         client_options:

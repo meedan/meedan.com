@@ -1,0 +1,33 @@
+<section class="footer">
+	<div class="content-wrapper">
+		<div class="board">
+			<span>Board of Directors</span>
+			{{ page.board_of_directors | markdownify }}
+		</div>
+	</div>
+	<div class="content-wrapper">
+		<div class="about">
+			<span>Meedan</span>
+			{{ page.address | markdownify }}
+		</div>
+		<div class="social">
+			<ul>
+				<li><span>Follow Us</span></li>
+				<li><a href="//github.com/Meedan">Github</a></li>
+				<li><a href="//medium.com/@meedan">Medium</a></li>
+				<li><a href="//twitter.com/meedan">Twitter</a></li>
+				<li><a href="//www.facebook.com/pages/Meedan/54421674438">Facebook</a></li>
+			</ul>
+		</div>
+		<div class="other-year">
+			<span>Other Years</span>
+			{{ page.other_years | markdownify }}
+		</div>
+	</div>
+	<div class="content-wrapper">
+		<div class="donate">
+				<span>Donate</span>
+				{{ page.donate | markdownify }}
+		</div>
+	</div>
+</section>
