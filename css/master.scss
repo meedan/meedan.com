@@ -2,22 +2,30 @@
 # Master SASS file
 ---
 
+@import "journal.scss";
+
 :root {
     --blackInk: #262626;
     --sunDown: #FFB2B2;
     // type scale
-    --int: 1.5;
-    --scale0: 1rem;
-    --scale-1: calc(var(--scale0) / var(--int));
-    --scale-2: calc(var(--scale-1) / var(--int));
-    --scale1: calc(var(--scale0) * var(--int));
-    --scale2: calc(var(--scale1) * var(--int));
+    --int: 1.556;
+    --scale-0: 1rem;
+    --scale--1: calc(var(--scale-0) / var(--int));
+    --scale--2: calc(var(--scale-1) / var(--int));
+    --scale-1: 1.4vw;
+    --scale-2: 1.8vw;
+    --scale-3: 2.4vw;
+    --scale-4: 3.6vw;
+    --scale-5: 4.6vw;
     
+    --font-size-1: 1.4vw;
+
     --space-1: 1.250rem; // 20px
     --space-2: 1.667rem; // 30px
     --space-3: 2.222rem; // 40px
     --space-4: 3.333rem; // 60px
     --space-5: 4.444rem; // 80px
+    --space-6: 5.556rem; // 100px
 }
 
 * {
@@ -29,8 +37,19 @@
 
 html {
     font-size: 18px;
+    line-height: 1.12;
     scroll-behavior: smooth;
 }
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
     margin: 0;
@@ -38,13 +57,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+figure,
 .main-grid,
 header,
 footer {
     display: grid;
     grid-gap: var(--space-2);
-    // grid-template-columns: 0.8fr 0.8fr 2fr 0.8fr 0.5fr 150px;
-    grid-template-columns: repeat(11, 1fr) 150px;
+    grid-template-columns: repeat(12, 1fr);
     padding-left: var(--space-3);
     padding-right: 0;
 }
@@ -59,8 +78,10 @@ footer {
 }
 
 .page-wrapper h2 {
-    padding: var(--space-5) 0;
-    grid-column: 1 / 6;
+    font-size: var(--scale-4);
+    font-weight: normal;
+    padding-top: var(--space-5);
+    grid-column: 1 / 8;
 }
 
 header {
@@ -73,11 +94,7 @@ header {
     white-space: nowrap;
     top: var(--space-2);
     right: var(--space-2);
-    font-size: var(--scale1);
-}
-
-h3.call-out span span:nth-of-type(1) {
-    
+    font-size: var(--scale-1);
 }
 
 h4.call-out {
@@ -85,4 +102,8 @@ h4.call-out {
     transform-origin: right top;
     transform: rotate(90deg) translateX(100%);
     padding-left: var(--space-2);
+}
+
+.graphic img {
+    grid-column: 2 / -2;
 }

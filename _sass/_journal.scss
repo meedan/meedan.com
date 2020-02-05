@@ -1,0 +1,25 @@
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: var(--space-2);
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+}
+
+.story-grid-item {
+    .tag {
+        font-size: var(--scale-2);
+    }
+    .title {
+        font-size: var(--scale-4);
+    }
+    .image-container {
+        display: block;
+    }
+    .image-container.landscape {
+        margin: var(--space-3) var(--space-4) var(--space-2);
+    }
+    .image-container.portrait {
+        margin: var(--space-3) var(--space-6) var(--space-2);
+    }
+}
