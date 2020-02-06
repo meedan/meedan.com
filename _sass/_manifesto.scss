@@ -1,12 +1,12 @@
 .manifesto .intro {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(10, 6.2rem);
+    grid-template-rows: repeat(10, 8vw);
     grid-gap: var(--space-1);
     padding-left: var(--space-3);
     padding-right: var(--space-3);
-    font-size: 6.111rem;
-    line-height: 1.2;
+    font-size: 7.6vw;
+    line-height: 1;
 }
 
 .manifesto .intro span:nth-of-type(1) {
