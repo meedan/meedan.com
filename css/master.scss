@@ -1,8 +1,11 @@
 ---
 # Master SASS file
 ---
-
+@import "variables.scss";
+@import "mixins.scss";
 @import "journal.scss";
+@import "manifesto.scss";
+
 
 :root {
     --blackInk: #262626;
@@ -12,6 +15,7 @@
     --scale-0: 1rem;
     --scale--1: calc(var(--scale-0) / var(--int));
     --scale--2: calc(var(--scale-1) / var(--int));
+    // testing vw based scale
     --scale-1: 1.4vw;
     --scale-2: 1.8vw;
     --scale-3: 2.4vw;
@@ -26,6 +30,7 @@
     --space-4: 3.333rem; // 60px
     --space-5: 4.444rem; // 80px
     --space-6: 5.556rem; // 100px
+    --section-space: 6.667rem; // 120px
 }
 
 * {
@@ -36,9 +41,13 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.12;
     scroll-behavior: smooth;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+    html { font-size: 112.5%; } /* 1rem = 18px */
 }
 
 img {
@@ -106,4 +115,9 @@ h4.call-out {
 
 .graphic img {
     grid-column: 2 / -2;
+}
+
+.section-margins {
+    padding-top: var(--space-1);
+    padding-bottom: var(--section-space);
 }

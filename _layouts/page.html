@@ -4,7 +4,7 @@
 
 <body class="">
     <div class="page-wrapper">
-        <header>
+        <header class="section-margins">
             <a class="meedan" href="/">
                 {% include meedan_ribbon.html %}
             </a>
@@ -18,55 +18,11 @@
                 misinformation news roundup.
             </h4>
         </header>
-        <figure class="graphic">
+        <figure class="section-margins graphic">
             <img src="/images/home.png" alt="Meedan's CEO Ed Bice talking with the team." />
         </figure>
-        <section class="story-grid">
-            <div class="story-grid-item">
-                <div class="title-container">
-                    <a class="tag" href="#">Network /</a>
-                    <a class="title" href="#">How Meedan supported three reporting initiatives in Asia</a>
-                </div>
-                <a href="#">
-                    <picture class="image-container landscape">
-                        <img src="/images/placeholders/an.jpg" />
-                    </picture>
-                </a>
-            </div>
-            <div class="story-grid-item">
-                <div class="title-container">
-                    <a class="tag" href="#">Data /</a>
-                    <a class="title" href="#">Our veteran journalist on WhatsApp misinformation during India’s elections</a>
-                </div>
-                <a href="#">
-                    <picture class="image-container landscape">
-                        <img src="/images/placeholders/karim.jpg" />
-                    </picture>
-                </a>
-            </div>
-            <div class="story-grid-item">
-                <div class="title-container">
-                    <a class="tag" href="#">Technology /</a>
-                    <a class="title" href="#">Caio Almeida on software that serves a global community</a>
-                </div>
-                <a href="#">
-                    <picture class="image-container portrait">
-                        <img src="/images/placeholders/caio.jpg" />
-                    </picture>
-                </a>
-            </div>
-            <div class="story-grid-item">
-                <div class="title-container">
-                    <a class="tag" href="#">Research /</a>
-                    <a class="title" href="#">Digital Health: Fact-checking in an era of misinfodemics</a>
-                </div>
-                <a href="#">
-                    <picture class="image-container landscape">
-                        <img src="/images/placeholders/elections.jpg" />
-                    </picture>
-                </a>
-            </div>
-        </section>
+        {% include module_story_grid.html %}
+        {% include module_manifesto_text.html %}
     </div>
     {% include js.html %}
 </body>
