@@ -1027,26 +1027,71 @@ module2ColumnContent:
 - sys:
     id: 46RNgfpLLoGCxCwHNTQlQx
     created_at: !ruby/object:DateTime 2020-02-06 22:31:05.938000000 Z
-    updated_at: !ruby/object:DateTime 2020-02-06 22:31:11.132000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-06 23:50:35.253000000 Z
     content_type_id: module2ColumnContent
     revision: 0
+  title: SIDA
   content:
   - sys:
       id: 5iKdzoXo2nmRRVFQ8MXlHn
       created_at: !ruby/object:DateTime 2020-02-06 22:31:10.772000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 22:31:12.792000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:32:53.698000000 Z
       content_type_id: moduleTex
       revision: 0
-    content: "In 2018, the Swedish International Development Cooperation Agency (SIDA)
-      awarded Meedan with a grant to apply our fact-checking and open source investigation
-      tools to a variety of global journalism contexts. \n\nMeedan has pioneered award-winning
-      development of tools and techniques to support the collaborative curation, analysis
-      and verification of citizen media since 2011. With previous SIDA support we’ve
-      provided digital media literacy tools and training to over 1500 citizens across
-      Egypt, Palestine, Lebanon, and Jordan through partnerships with local independent
-      media and universities. In collaboration with our project partner, Birmingham
-      City University, we have made e-learning materials from these trainings available
-      through the website [ArabCitizenMedia.org](https://nawamedia.org/), and through
-      BCU’s Monitoring & Evaluation Lab’s online website [impact.bcmcr.org](http://impact.bcmcr.org/).
+    content: "SIDA is an entity of the Swedish Ministry of Foreign Affairs. It enjoys
+      a strong reputation and organizes the biennial Stockholm Internet Forum, at
+      which Meedan usually plays an organizing role.\n\nIn 2018, the Swedish International
+      Development Cooperation Agency (SIDA) awarded Meedan with a grant to apply our
+      fact-checking and open source investigation tools to a variety of global journalism
+      contexts. \n\nMeedan has pioneered award-winning development of tools and techniques
+      to support the collaborative curation, analysis and verification of citizen
+      media since 2011. With previous SIDA support we’ve provided digital media literacy
+      tools and training to over 1500 citizens across Egypt, Palestine, Lebanon, and
+      Jordan through partnerships with local independent media and universities. In
+      collaboration with our project partner, Birmingham City University, we have
+      made e-learning materials from these trainings available through the website
+      [ArabCitizenMedia.org](https://nawamedia.org/), and through BCU’s Monitoring
+      & Evaluation Lab’s online website [impact.bcmcr.org](http://impact.bcmcr.org/).
       \n\nNow, our new and elevated engagement with SIDA takes our work to an entirely
       new level. "
+  top_border: true
+- sys:
+    id: 3Wnd0h7kgIn4zpHlhcN972
+    created_at: !ruby/object:DateTime 2020-02-06 23:34:25.456000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-06 23:44:04.267000000 Z
+    content_type_id: module2ColumnContent
+    revision: 0
+  title: Last six years
+  content:
+  - sys:
+      id: 52xJNpbKXY6pmYlDPtsfyW
+      created_at: !ruby/object:DateTime 2020-02-06 22:10:09.004000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-07 00:02:30.235000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |-
+      Over the last six years Meedan has built:
+
+      - A network of international partners in the developing world
+      - An award-winning technology platform that journalists use for fact-checking, open-source investigations and newsroom collaboration
+- sys:
+    id: 6Aw0VWwGmDgeApiamjxq7T
+    created_at: !ruby/object:DateTime 2020-02-06 23:38:38.384000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-06 23:50:30.187000000 Z
+    content_type_id: module2ColumnContent
+    revision: 0
+  title: Scaling up
+  content:
+  - sys:
+      id: 7jCe5bMCJ5FD1IHcrviYAJ
+      created_at: !ruby/object:DateTime 2020-02-06 23:38:43.083000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:38:45.405000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |-
+      With a significant grant from the Swedish International Development Agency (SIDA) to expand our work, Meedan’s impact is now scaling up significantly with the launch of CheckGlobal. We’re widening our network beyond our previous focus of the Middle East and North Africa region (MENA) to include a number of new global contexts:
+
+      - East Africa (Zimbabwe, Kenya and Tanzania)
+      - Latin America (Mexico, Colombia, Brazil, Costa Rica and Venezuela)
+      - Southeast Asia (Philippines)
+  top_border: true

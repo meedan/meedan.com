@@ -235,7 +235,7 @@ section:
     title: 'Pop-Up Newsroom: Documenting Hate Training'
     description: 'Texas State
 
-'
+      '
     date: '08'
   - sys:
       id: 4pruJ90FWBVj8AgyV9QtUp
@@ -1282,7 +1282,7 @@ section:
 - sys:
     id: 7nn4kZGYAPg6q4udylnqSE
     created_at: !ruby/object:DateTime 2020-02-06 22:09:09.415000000 Z
-    updated_at: !ruby/object:DateTime 2020-02-06 23:13:55.006000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-06 23:42:55.878000000 Z
     content_type_id: section
     revision: 0
   title: Background
@@ -1297,37 +1297,34 @@ section:
   section_class: financials
   modules:
   - sys:
-      id: 52xJNpbKXY6pmYlDPtsfyW
-      created_at: !ruby/object:DateTime 2020-02-06 22:10:09.004000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 23:13:51.923000000 Z
-      content_type_id: moduleTex
+      id: 3Wnd0h7kgIn4zpHlhcN972
+      created_at: !ruby/object:DateTime 2020-02-06 23:34:25.456000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:44:04.267000000 Z
+      content_type_id: module2ColumnContent
       revision: 0
-    content: |-
-      Over the last six years Meedan has built:
-
-      - A network of [[number]] international partners in the developing world
-      - An award-winning technology platform that journalists use for fact-checking, open-source investigations and newsroom collaboration
-
-      With a significant grant from the Swedish International Development Agency (SIDA) to expand our work, Meedan’s impact is now scaling up significantly with the launch of CheckGlobal. We’re widening our network beyond our previous focus of the Middle East and North Africa region (MENA) to include a number of new global contexts:
-
-      - East Africa (Zimbabwe, Kenya and Tanzania)
-      - Latin America (Mexico, Colombia, Brazil, Costa Rica and Venezuela)
-      - Southeast Asia (Philippines)
+    title: Last six years
+    content:
+    - sys:
+        id: 52xJNpbKXY6pmYlDPtsfyW
   - sys:
-      id: 2DJqrr1mNY9HvqeD4rsvu2
-      created_at: !ruby/object:DateTime 2020-02-06 22:09:56.681000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 22:10:01.111000000 Z
-      content_type_id: moduleLeadText
+      id: 6Aw0VWwGmDgeApiamjxq7T
+      created_at: !ruby/object:DateTime 2020-02-06 23:38:38.384000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:50:30.187000000 Z
+      content_type_id: module2ColumnContent
       revision: 0
-    content: SIDA is an entity of the Swedish Ministry of Foreign Affairs. It enjoys
-      a strong reputation and organizes the biennial Stockholm Internet Forum, at
-      which Meedan usually plays an organizing role.
+    title: Scaling up
+    content:
+    - sys:
+        id: 7jCe5bMCJ5FD1IHcrviYAJ
+    top_border: true
   - sys:
       id: 46RNgfpLLoGCxCwHNTQlQx
       created_at: !ruby/object:DateTime 2020-02-06 22:31:05.938000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 22:31:11.132000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:50:35.253000000 Z
       content_type_id: module2ColumnContent
       revision: 0
+    title: SIDA
     content:
     - sys:
         id: 5iKdzoXo2nmRRVFQ8MXlHn
+    top_border: true

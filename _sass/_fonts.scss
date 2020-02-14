@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Telegraf-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Telegraf-Regular'),
+       url('/fonts/Telegraf-Regular.woff2') format('woff2'), /* will be preloaded */ 
+       url('/fonts/Telegraf-Regular.woff') format('woff'),
+       url('/fonts/Telegraf-Regular.ttf') format('truetype'),
+       url('/fonts/Telegraf-Regular.eot') format('embedded-opentype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+.page-wrapper {
+    font-family: 'Telegraf-Regular', Arial, Helvetica, sans-serif;
+}

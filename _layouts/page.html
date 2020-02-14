@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="en-US">
 {% include head.html %}
 
-<body class="">
+<body class="front">
     <div class="page-wrapper">
-        <header class="section-margins">
-            <a class="meedan" href="/">
-                {% include meedan_ribbon.html %}
-            </a>
+        <header class="section-margins dark">
             <a class="menu" href="#">
-                {% include menu.html %}
+                <span class="meedan" href="/">
+                    {% include meedan_ribbon.html %}
+                </span>
+                <span class="menu-icon" href="#">
+                    {% include menu.html %}
+                </span>
             </a>
             <h1>Meedan</h1>
             <h2>This is Meedan.<br />We build online tools and offline initiatives for global journalism and digital verification.</h2>
@@ -18,7 +20,7 @@
                 misinformation news roundup.
             </h4>
         </header>
-        <figure class="section-margins graphic">
+        <figure class="graphic">
             <img src="/images/home.png" alt="Meedan's CEO Ed Bice talking with the team." />
         </figure>
         {% include module_story_grid.html %}
