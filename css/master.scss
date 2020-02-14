@@ -24,6 +24,7 @@
     // testing vw based scale
     --scale-1: calc(var(--scale-0) * var(--int));
     --scale-2: calc(var(--scale-1) * var(--int));
+    --scale-2-5: calc(var(--scale-1) * 1.18 * var(--int));
     --scale-3: calc(var(--scale-2) * var(--int));
     --scale-4: calc(var(--scale-3) * var(--int));
     --scale-5: calc(var(--scale-4) * var(--int));
@@ -65,15 +66,6 @@ html {
     line-height: 1.12;
     scroll-behavior: smooth;
 }
-// @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-//     html {
-//         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-//     }
-// }
-
-// @include responsive('min-width: #{$width-tablet}') {
-//     html { font-size: 22px; } 
-// }
 
 img {
     max-width: 100%;
@@ -153,7 +145,7 @@ body {
 
 @include responsive('min-width: #{$width-tablet}') {
     .front .page-wrapper h2 {
-        grid-column: 1 / 8;
+        grid-column: 1 / 9;
     }
 }
 
@@ -205,7 +197,7 @@ header {
 }
 
 .section-margins {
-    padding-top: var(--space-1);
+    padding-top: var(--space-4);
     padding-bottom: var(--section-space);
 }
 
