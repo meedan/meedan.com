@@ -2,6 +2,7 @@
   font-family: 'Telegraf-Regular';
   font-style: normal;
   font-weight: 400;
+  font-display: fallback;
   src: local('Telegraf-Regular'),
        url('/fonts/Telegraf-Regular.woff2') format('woff2'), /* will be preloaded */ 
        url('/fonts/Telegraf-Regular.woff') format('woff'),

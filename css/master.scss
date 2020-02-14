@@ -15,7 +15,10 @@
     
     // type scale
     --int: 1.333;
-    --scale-0: 1rem;
+    --scale-0: 2.4vw;
+    @include responsive('min-width: #{$width-tablet}') {
+        --scale-0: 1.8vw;
+    }
     --scale--1: calc(var(--scale-0) / var(--int));
     --scale--2: calc(var(--scale-1) / var(--int));
     // testing vw based scale
@@ -62,10 +65,15 @@ html {
     line-height: 1.12;
     scroll-behavior: smooth;
 }
+// @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+//     html {
+//         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+//     }
+// }
 
-@include responsive('min-width: #{$width-tablet}') {
-    html { font-size: 112.5%; } /* 1rem = 18px */
-}
+// @include responsive('min-width: #{$width-tablet}') {
+//     html { font-size: 22px; } 
+// }
 
 img {
     max-width: 100%;

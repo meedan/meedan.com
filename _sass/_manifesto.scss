@@ -1,7 +1,7 @@
 .manifesto .intro {
     padding-left: var(--space-1);
     padding-right: var(--space-1);
-    font-size: var(--scale-4);
+    font-size: var(--scale-5);
     line-height: 1.6;
     letter-spacing: -0.4px;
     hyphens: auto;
@@ -154,12 +154,7 @@
 
 @include responsive('min-width: #{$width-wide}') {
     .manifesto .intro {
-        font-size: var(--scale-6);
-    }
-}
-
-@include responsive('min-width: #{$width-display}') {
-    .manifesto .intro {
-        font-size: var(--scale-8);
+        font-size: var(--scale-5);
+        line-height: 1;
     }
 }
