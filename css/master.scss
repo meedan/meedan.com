@@ -115,6 +115,7 @@ body {
 .page-wrapper h1 {
     font-weight: normal;
     margin: 0;
+    align-self: center;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
@@ -154,23 +155,26 @@ header {
     padding-bottom: var(--space-3);
     padding-left: var(--space-3);
     padding-right: 0;
+    svg:not(:root) {
+        overflow: visible;
+    };
 }
 
-.call-out {
+.callout {
     position: absolute;
     white-space: nowrap;
-    top: var(--space-2);
-    right: var(--space-2);
+    top: var(--space-4);
+    right: var(--space-4);
     font-size: var(--scale-1);
     font-weight: normal;
 }
 
-.front h4.call-out {
-    display: inline-block;
-    transform-origin: right top;
-    transform: rotate(90deg) translateX(100%);
-    padding-left: var(--space-2);
-}
+// .front h4.callout {
+//     display: inline-block;
+//     transform-origin: right top;
+//     transform: rotate(90deg) translateX(100%);
+//     padding-left: var(--space-2);
+// }
 
 .front .graphic {
     position: relative;
