@@ -134,23 +134,24 @@ body {
 }
 
 .front .page-wrapper h2 {
+    grid-column: 1 / 9;
+    @include responsive('min-width: #{$width-desktop}') {
+        grid-column: 1 / 7;
+    }
     font-size: var(--scale-4);
+    @include responsive('min-width: #{$width-desktop}') {
+        font-size: var(--scale-3);
+    }
     font-weight: normal;
     padding-top: var(--space-5);
 }
 
 .front header .meedan svg {
-    fill: var(--accent);
+    fill: var(--sunDown);
 }
 
 .front header .menu svg {
-    stroke: var(--accent);
-}
-
-@include responsive('min-width: #{$width-tablet}') {
-    .front .page-wrapper h2 {
-        grid-column: 1 / 9;
-    }
+    stroke: var(--sunDown);
 }
 
 header {
@@ -174,7 +175,7 @@ header {
 
 .callout text {
     font-size: 26px;
-    fill: var(--accent);
+    fill: var(--sunDown);
 }
 
 @include responsive('min-width: #{$width-desktop}') {
@@ -226,5 +227,5 @@ header {
 
 .dark {
     background-color: var(--blackInk);
-    color: var(--accent);
+    color: var(--sunDown);
 }
