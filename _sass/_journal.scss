@@ -15,10 +15,16 @@
 
 .story-grid-item {
     .tag {
-        font-size: var(--scale-1);
+        font-size: var(--scale-2);
+        @include responsive('min-width: #{$width-wide}') {
+            font-size: var(--scale-1);
+        }
     }
     .title {
-        font-size: var(--scale-2-5);
+        font-size: var(--scale-4);
+        @include responsive('min-width: #{$width-wide}') {
+            font-size: var(--scale-3);
+        }
     }
     .image-container {
         display: block;

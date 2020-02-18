@@ -84,13 +84,13 @@
     .manifesto .intro span:nth-of-type(5) {
         grid-column: 1 / 9;
         grid-row: 5 / 5;
-        word-spacing: -0.5vw;
+        word-spacing: -0.7vw;
     }
 
     .manifesto .intro span:nth-of-type(6) {
         grid-column: 1 / 9;
         grid-row: 6 / auto;
-        // word-spacing: -0.5vw;
+        word-spacing: -0.7vw;
     }
 
     .manifesto .intro span:nth-of-type(7) {
@@ -99,20 +99,20 @@
     }
 
     .manifesto .intro span:nth-of-type(8) {
-        margin-left: calc(-1 * var(--space-4));
+        margin-left: calc(-1 * var(--space-5));
         grid-column: 6 / -1;
         grid-row: 8 / auto;
         // word-spacing: -0.5vw;
     }
 
     .manifesto .intro span:nth-of-type(9) {
-        margin-left: calc(-1 * var(--space-4));
+        margin-left: calc(-1 * var(--space-5));
         grid-column: 6 / 10;
         grid-row: 9 / 9;
     }
 
     .manifesto .intro span:nth-of-type(10) {
-        margin-left: calc(-1 * var(--space-4));
+        margin-left: calc(-1 * var(--space-5));
         grid-column: 6 / 11;
         grid-row: 10 / 10;
     }
@@ -144,7 +144,7 @@
     }
 
     .manifesto .intro img:nth-of-type(5) {
-        padding-left: var(--space-4);
+        padding-left: var(--space-6);
         grid-column: 10 / -1;
         grid-row: 9 / -1;
         align-self: end;
@@ -155,6 +155,6 @@
 @include responsive('min-width: #{$width-wide}') {
     .manifesto .intro {
         font-size: var(--scale-5);
-        line-height: 1;
+        line-height: 1.2;
     }
 }
