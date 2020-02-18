@@ -42,7 +42,7 @@
     --space-5: 3.333rem; // 60px
     --space-6: 4.444rem; // 80px
     --space-7: 5.556rem; // 100px
-    --section-space: --space-6;
+    --section-space: var(--space-6);
     @include responsive('min-width: #{$width-tablet}') {
         --space-1: 1.250rem; // 20px
         --space-2: 1.667rem; // 30px
@@ -214,9 +214,14 @@ header {
     z-index: -1;
 }
 
-.section-margins {
+.section-padding {
     padding-top: var(--space-4);
     padding-bottom: var(--section-space);
+}
+
+.section-margin {
+    margin-top: var(--space-4);
+    margin-bottom: var(--section-space);
 }
 
 .dark {
