@@ -4,6 +4,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "fonts.scss";
+@import "grid.scss";
 @import "journal.scss";
 @import "manifesto.scss";
 
@@ -133,7 +134,21 @@ body {
     }
 }
 
-.front .page-wrapper h2 {
+.page-wrapper h2 {
+    grid-column: 1 / 9;
+    @include responsive('min-width: #{$width-desktop}') {
+        grid-column: 1 / 7;
+    }
+    font-size: var(--scale-7);
+    @include responsive('min-width: #{$width-desktop}') {
+        font-size: var(--scale-6);
+    }
+    line-height: 1;
+    font-weight: normal;
+    padding-top: var(--space-5);
+}
+
+.front h2 {
     grid-column: 1 / 9;
     @include responsive('min-width: #{$width-desktop}') {
         grid-column: 1 / 7;
@@ -146,8 +161,13 @@ body {
     padding-top: var(--space-5);
 }
 
+
 .front header .meedan svg {
     fill: var(--sunDown);
+}
+
+header .menu svg {
+    stroke: var(--blackInk);
 }
 
 .front header .menu svg {
@@ -156,12 +176,15 @@ body {
 
 header {
     padding-top: var(--space-2);
-    padding-bottom: var(--space-3);
     padding-left: var(--space-3);
     padding-right: 0;
     svg:not(:root) {
         overflow: visible;
     };
+}
+
+.front header {
+    padding-bottom: var(--space-3);
 }
 
 .callout {
@@ -175,6 +198,10 @@ header {
 
 .callout text {
     font-size: 26px;
+    fill: var(--blackInk);
+}
+
+.dark .callout text {
     fill: var(--sunDown);
 }
 
@@ -228,4 +255,21 @@ header {
 .dark {
     background-color: var(--blackInk);
     color: var(--sunDown);
+}
+
+.page-wrapper .standfirst {
+    grid-column: 5 / 12;
+    font-size: var(--scale-2);
+    margin-top: var(--space-3);
+}
+
+.page-wrapper section {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    font-size: var(--scale-2);
+}
+
+.page-wrapper figure {
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-4);
 }

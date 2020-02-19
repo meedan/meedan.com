@@ -11,6 +11,10 @@
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
+.front,
 .page-wrapper {
     font-family: 'Telegraf-Regular', Arial, Helvetica, sans-serif;
+    h2 {
+      font-weight: normal;
+    }
 }

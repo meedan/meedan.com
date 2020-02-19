@@ -35,3 +35,12 @@
     position: relative;
     overflow: hidden;
 }
+
+// Grid helpers
+@mixin grid-item-columns($col-start, $col-end) {
+  grid-column: #{$col-start}/#{$col-end};
+}
+
+@mixin grid-item-rows($row-start, $row-end) {
+  grid-row: #{$row-start}/#{$row-end};
+}

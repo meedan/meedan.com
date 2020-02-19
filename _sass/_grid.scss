@@ -1,0 +1,35 @@
+// columns
+@include responsive('min-width: #{$width-tablet}') {
+    .main-grid__1--1 {
+        grid-column:1/-1;
+    }
+    .main-grid__1-12 {
+        grid-column:1/13;
+    }
+    .main-grid__1-3 {
+        grid-column:1/4;
+    }
+    .main-grid__3-4 {
+        grid-column:3/5;
+    }
+    .main-grid__4-12 {
+        grid-column:4/13;
+    }
+    .main-grid__5-12 {
+        grid-column:5/13;
+    }
+}
+
+// rows
+@include responsive('min-width: #{$width-tablet}') {
+    .grid-row--1 {
+        grid-row:1
+    }
+    .grid-row--2 {
+        grid-row:2
+    }
+    .grid-row--1-2 {
+        grid-row:1/3
+    }
+    
+}

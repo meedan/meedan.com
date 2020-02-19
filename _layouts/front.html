@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="front">
+    <div class="">
+        <header class="dark">
+            <a class="menu" href="#">
+                <span class="meedan" href="/">
+                    {% include meedan_ribbon.html %}
+                </span>
+                <span class="menu-icon" href="#">
+                    {% include menu.html %}
+                </span>
+            </a>
+            <h1>Meedan</h1>
+            <h2>This is Meedan.<br />We build online tools and offline initiatives for global journalism and digital verification.</h2>
+            <svg id="text-container" class="callout" width="618" height="663" viewBox="0 0 618 663" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="text-curve"d="M0 1H445C502.333 1.66667 617 16 617 151C617 269.4 617 663 617 663" stroke="none"/>
+                <text width="100%">
+                    <textPath id="text-path" href="#text-curve" startOffset="460">
+                        Subscribe to our misinformation news roundup
+                    </textPath>
+                </text>
+            </svg>
+        </header>
+        <figure class="graphic">
+            <img src="/images/home.png" alt="Meedan's CEO Ed Bice talking with the team." />
+        </figure>
+        {% include module_story_grid.html %}
+        {% include module_manifesto_text.html %}
+    </div>
+    {% include js.html %}
+</body>
+
+</html>
