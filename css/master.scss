@@ -95,6 +95,18 @@ body {
         display: grid;
         grid-gap: var(--space-2);
         grid-template-columns: repeat(12, 1fr);
+        padding-left: var(--space-3);
+        padding-right: var(--space-3);
+        &.bleed {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        &.bleed-left {
+            padding-left: 0;
+        }
+        &.bleed-right {
+            padding-right: 0;
+        }
     }
     .menu {
         grid-column: 1 / 5;
@@ -116,7 +128,7 @@ body {
     }
 }
 
-.page-wrapper h1 {
+header h1 {
     font-weight: normal;
     margin: 0;
     align-self: center;
@@ -264,9 +276,8 @@ header {
 }
 
 .page-wrapper section {
-    padding-left: var(--space-3);
-    padding-right: var(--space-3);
     font-size: var(--scale-2);
+    
 }
 
 .page-wrapper h3 {

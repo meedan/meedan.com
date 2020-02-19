@@ -30,6 +30,9 @@
     .main-grid__3-4 {
         grid-column:3/5;
     }
+    .main-grid__3-12 {
+        grid-column:4/13;
+    }
     .main-grid__4-12 {
         grid-column:4/13;
     }
@@ -57,4 +60,8 @@
 
 .justify-content--space-between {
     justify-content: space-between;
+}
+
+.bleed {
+    // push one column
 }
