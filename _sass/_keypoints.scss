@@ -1,0 +1,25 @@
+.page-wrapper .key-points {
+    margin-top: var(--space-3);
+    grid-template-rows: 2, 1fr;
+    grid-row-gap: 0;
+}
+
+.page-wrapper .key-point {
+    grid-column: span 4;
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-2);
+    border-bottom: 1px solid var(--blackInk);
+    &:nth-child(-n+3) {
+        border-top: 1px solid var(--blackInk);
+    }
+    .count,
+    .title {
+        font-size: var(--scale-1);
+    }
+    .title {
+        margin-bottom: var(--space-2);
+    }
+    .description {
+        font-size: var(--scale-0);
+    }
+}
