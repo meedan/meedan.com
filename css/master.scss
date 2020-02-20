@@ -14,7 +14,9 @@
 @import "text-list.scss";
 @import "text-links.scss";
 @import "buttons.scss";
+// @import "project.scss";
 @import "checklist.scss";
+@import "footer_small.scss";
 
 
 :root {
@@ -146,7 +148,6 @@ footer {
 }
 
 header h1 {
-    font-weight: normal;
     margin: 0;
     align-self: center;
 }
@@ -173,7 +174,6 @@ header h1 {
         font-size: var(--scale-6);
     }
     line-height: 1;
-    font-weight: normal;
     padding-top: var(--space-5);
 }
 
@@ -186,7 +186,6 @@ header h1 {
     @include responsive('min-width: #{$width-desktop}') {
         font-size: var(--scale-3);
     }
-    font-weight: normal;
     padding-top: var(--space-5);
 }
 
@@ -244,7 +243,6 @@ header {
     top: var(--space-4);
     right: var(--space-4);
     font-size: var(--scale-1);
-    font-weight: normal;
 }
 
 .callout text {

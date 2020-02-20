@@ -52,15 +52,27 @@
 }
 
 .icon {
-    width: 3rem;
-    height: 3rem;
+    width: 5vw;
+    height: 5vw;
     &.icon_20x20 {
-        width: 2rem;
-        height: 2rem;
+        width: 4vw;
+        height: 4vw;
+        @include responsive('min-width: #{$width-tablet}') {
+            width: 3vw;
+            height: 3vw;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            width: 2.4vw;
+            height: 2.4vw;
+        }
+        @include responsive('min-width: #{$width-wide}') {
+            width: 3vw;
+            height: 3vw;
+        }
     }
     &.icon_100x100 {
-        width: 4rem;
-        height: 4rem;
+        width: 6vw;
+        height: 6vw;
     }
 }
 

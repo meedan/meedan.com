@@ -40,7 +40,7 @@
 }
 
 .dark.module a:not(.button) {
-    color: var(--sunDown);
+    color: #fff;
 }
 
 .module p, a {
@@ -53,8 +53,4 @@
     a {
         font-size: var(--scale-0);
     }
-}
-
-.dark.module .module-links {
-    color: var(--sunDown);
 }
