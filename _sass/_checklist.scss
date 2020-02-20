@@ -1,0 +1,14 @@
+.module-checklist {
+    h3 {
+        margin-bottom: 0;
+    }
+    &.dark {
+        color: #fff;
+    }
+    .button {
+        margin-bottom: 0;
+    }
+    .subtitle {
+        font-size: var(--scale-4);
+    }
+}

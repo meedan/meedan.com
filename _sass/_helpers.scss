@@ -27,6 +27,9 @@
 .dark {
     background-color: var(--blackInk);
     color: var(--sunDown);
+    a:not(.button) {
+        color: var(--sunDown);
+    }
 }
 
 .small-hr {
@@ -40,6 +43,27 @@
     } 
     h3 {
         padding-top: var(--space-2);
+    }
+    .dark & {
+        &:before {
+            border-color: 1px solid var(--sunDown);
+        } 
     }  
 }
 
+.icon {
+    width: 3rem;
+    height: 3rem;
+    &.icon_20x20 {
+        width: 2rem;
+        height: 2rem;
+    }
+    &.icon_100x100 {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+.color--check-blue { color: var(--checkBlue) }
+
+.color--coral { color: var(--coral) }

@@ -13,3 +13,8 @@ a.button {
         color: var(--sunDown);
     }
 }
+
+.dark a.button:hover {
+    background-color: var(--sunDown);
+    color: var(--blackInk)
+}
