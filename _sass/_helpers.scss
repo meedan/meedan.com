@@ -23,3 +23,23 @@
         border: 0;
     }    
 }
+
+.dark {
+    background-color: var(--blackInk);
+    color: var(--sunDown);
+}
+
+.small-hr {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: var(--space-3);
+        width: 3rem;
+        border-top: 2px solid var(--blackInk);
+    } 
+    h3 {
+        margin-top: var(--space-2);
+    }  
+}
+

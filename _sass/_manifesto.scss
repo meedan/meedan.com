@@ -1,4 +1,4 @@
-.manifesto .intro {
+.module-manifesto .intro {
     margin-top: var(--space-2);
     padding-left: var(--space-1);
     padding-right: var(--space-1);
@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 1px) and (max-width: #{$width-desktop}) {
-    .manifesto .intro img {
+    .module-manifesto .intro img {
         margin-bottom: -1rem;
         width: var(--scale-6);
         height: var(--scale-6);
@@ -40,7 +40,7 @@
 }
 
 @media (min-width: #{$width-tablet}) and (max-width: #{$width-desktop}) {
-    .manifesto .intro img {
+    .module-manifesto .intro img {
         margin-bottom: -1rem;
         width: var(--scale-8);
         height: var(--scale-8);
@@ -49,7 +49,7 @@
 
 
 @include responsive('min-width: #{$width-desktop}') {
-    .manifesto .intro {
+    .module-manifesto .intro {
         padding-left: var(--space-3);
         padding-right: var(--space-3);
         display: grid;
@@ -61,90 +61,90 @@
         hyphens: none;
     }
 
-    .manifesto .intro span:nth-of-type(1) {
+    .module-manifesto .intro span:nth-of-type(1) {
         grid-column: 1 / 10;
         grid-row: 1 / 1;
     }
 
-    .manifesto .intro span:nth-of-type(2) {
+    .module-manifesto .intro span:nth-of-type(2) {
         grid-column: 4 / 10;
         grid-row: 2 / 2;
     }
 
-    .manifesto .intro span:nth-of-type(3) {
+    .module-manifesto .intro span:nth-of-type(3) {
         grid-column: 4 / 10;
         grid-row: 3 / 3;
     }
 
-    .manifesto .intro span:nth-of-type(4) {
+    .module-manifesto .intro span:nth-of-type(4) {
         grid-column: 1 / -1;
         grid-row: 4 / 4;
         word-spacing: -0.8vw;
     }
 
-    .manifesto .intro span:nth-of-type(5) {
+    .module-manifesto .intro span:nth-of-type(5) {
         grid-column: 1 / 10;
         grid-row: 5 / 5;
         word-spacing: -0.7vw;
     }
 
-    .manifesto .intro span:nth-of-type(6) {
+    .module-manifesto .intro span:nth-of-type(6) {
         grid-column: 1 / 10;
         grid-row: 6 / auto;
         word-spacing: -0.7vw;
     }
 
-    .manifesto .intro span:nth-of-type(7) {
+    .module-manifesto .intro span:nth-of-type(7) {
         grid-column: 1 / 10;
         grid-row: 7 / 7;
     }
 
-    .manifesto .intro span:nth-of-type(8) {
+    .module-manifesto .intro span:nth-of-type(8) {
         margin-left: calc(-1 * var(--space-5));
         grid-column: 6 / -1;
         grid-row: 8 / auto;
         // word-spacing: -0.5vw;
     }
 
-    .manifesto .intro span:nth-of-type(9) {
+    .module-manifesto .intro span:nth-of-type(9) {
         margin-left: calc(-1 * var(--space-5));
         grid-column: 6 / 10;
         grid-row: 9 / 9;
     }
 
-    .manifesto .intro span:nth-of-type(10) {
+    .module-manifesto .intro span:nth-of-type(10) {
         margin-left: calc(-1 * var(--space-5));
         grid-column: 6 / 11;
         grid-row: 10 / 10;
     }
 
-    .manifesto .intro img:nth-of-type(1) {
+    .module-manifesto .intro img:nth-of-type(1) {
         grid-column: 10 / -1;
         grid-row: 1 / 3;
         padding-left: var(--space-3);
         padding-bottom: var(--space-2);
     }
 
-    .manifesto .intro img:nth-of-type(2) {
+    .module-manifesto .intro img:nth-of-type(2) {
         grid-column: 1 / 4;
         grid-row: 2 / 3;
     }
 
-    .manifesto .intro img:nth-of-type(3) {
+    .module-manifesto .intro img:nth-of-type(3) {
         grid-column: 9 / -1;
         grid-row: 5 / 8;
         padding-top: var(--space-2);
         padding-left: var(--space-1);
     }
 
-    .manifesto .intro img:nth-of-type(4) {
+    .module-manifesto .intro img:nth-of-type(4) {
         padding-right: var(--space-4);
         grid-column: 1 / 6;
         grid-row: 8 / -1;
         align-self: end;
     }
 
-    .manifesto .intro img:nth-of-type(5) {
+    .module-manifesto .intro img:nth-of-type(5) {
         padding-left: var(--space-6);
         grid-column: 10 / -1;
         grid-row: 9 / -1;
@@ -154,7 +154,7 @@
 }
 
 @include responsive('min-width: #{$width-wide}') {
-    .manifesto .intro {
+    .module-manifesto .intro {
         font-size: var(--scale-5);
         line-height: 1.2;
     }

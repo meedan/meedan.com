@@ -5,10 +5,14 @@
 @import "mixins.scss";
 @import "fonts.scss";
 @import "grid.scss";
+@import "helpers.scss";
 @import "journal.scss";
 @import "manifesto.scss";
 @import "press.scss";
 @import "keypoints.scss";
+@import "text-list.scss";
+@import "text-links.scss";
+@import "buttons.scss";
 
 
 :root {
@@ -71,6 +75,7 @@ html {
     @include responsive('min-width: #{$width-tablet}') {
         font-size: 18px;
     }
+    color: var(--blackInk);
 }
 
 img {
@@ -183,6 +188,9 @@ header .menu svg {
     fill: var(--sunDown);
 }
 
+.front .menu svg {
+    stroke: var(--sunDown);
+}
 .front .graphic {
     position: relative;
     margin-bottom: var(--section-space);
@@ -261,11 +269,6 @@ header {
     margin-bottom: var(--section-space);
 }
 
-.dark {
-    background-color: var(--blackInk);
-    color: var(--sunDown);
-}
-
 .about {
     background-color: var(--sunDown);
 }
@@ -289,4 +292,14 @@ header {
 .page-wrapper figure {
     margin-top: var(--space-3);
     margin-bottom: var(--space-4);
+}
+
+.module a:not(.button) {
+    display: block;
+    color: var(--blackInk);
+    text-decoration: none;
+}
+
+.module p, a {
+    font-size: var(--scale-1);
 }

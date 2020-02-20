@@ -1,4 +1,4 @@
-.story-grid {
+.module-story-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: var(--space-2);
@@ -7,7 +7,7 @@
 }
 
 @include responsive('min-width: #{$width-tablet}') {
-    .story-grid {
+    .module-story-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
