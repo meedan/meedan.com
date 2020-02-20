@@ -12,15 +12,14 @@
     background-color: var(--sunDown);
 }
 
+.page-wrapper {
+    font-size: var(--scale-1);
+}
+
 .page-wrapper .standfirst {
     grid-column: 5 / 12;
     font-size: var(--scale-2);
     margin-top: var(--space-3);
-}
-
-.page-wrapper section {
-    font-size: var(--scale-2);
-    
 }
 
 .page-wrapper h3 {
@@ -34,7 +33,6 @@
 }
 
 .module a:not(.button) {
-    display: block;
     color: var(--blackInk);
     text-decoration: none;
 }

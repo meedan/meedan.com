@@ -1,5 +1,5 @@
-
-<section class="footer-small{% if include.theme == dark %}{{ "dark" | prepend: " " }}{% endif %}">
+{% assign theme_class = include.theme | default: '' %}
+<section class="footer-small {% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}">
 		<div class="social">
 			<ul>
 				<li><span>Follow Meedan</span></li>
