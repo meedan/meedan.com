@@ -7,18 +7,6 @@
         margin-bottom: var(--space-1);
         text-transform: uppercase;
     }
-    p, li a {
-        // font-size: var(--scale-0);
-    }
-    ul {
-        list-style: none;
-        margin-top: var(--space-1);
-    }
-    li a {
-        display: block;
-        padding: var(--space-1) 0;
-        border-bottom: 1px solid var(--blackInk);
-    }
 
     .project-story a {
         display: grid;

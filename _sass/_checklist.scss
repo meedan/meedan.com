@@ -1,5 +1,6 @@
 .module-checklist {
-    h3 {
+    p {
+        font-size: var(--scale-2);
         margin-bottom: 0;
     }
     &.dark {

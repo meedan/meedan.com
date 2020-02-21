@@ -79,3 +79,18 @@
 .color--check-blue { color: var(--checkBlue) }
 
 .color--coral { color: var(--coral) }
+
+ul.plain-list {
+    list-style: none;
+    margin-top: var(--space-1);
+}
+ul.plain-list li a {
+    display: block;
+    font-size: var(--scale-0);
+    padding: var(--space-1) var(--space-1);
+    border-bottom: 1px solid var(--blackInk);
+    &:hover {
+        background-color: var(--blackInk);
+        color: #fff;
+    }
+}

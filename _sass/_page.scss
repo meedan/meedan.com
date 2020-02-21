@@ -34,6 +34,7 @@
 }
 
 .page-wrapper h3 {
+    font-size: var(--scale-3);
     font-weight: normal;
     margin-bottom: var(--space-4);
 }
@@ -62,4 +63,13 @@
     a {
         font-size: var(--scale-0);
     }
+}
+
+.module-bg {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-3);
+}
+
+.module-bg-color--coral {
+    background-color: var(--coral);
 }
