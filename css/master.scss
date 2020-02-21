@@ -14,7 +14,7 @@
 @import "text-list.scss";
 @import "text-links.scss";
 @import "buttons.scss";
-// @import "project.scss";
+@import "project.scss";
 @import "checklist.scss";
 @import "footer_small.scss";
 
@@ -25,6 +25,7 @@
     --accent: #F2DEDC;
     --checkBlue: #2D77FC;
     --coral: #FF864D;
+    --eastSide: #9F82C4;
     
     // type scale
     --int: 1.333;

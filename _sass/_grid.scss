@@ -54,6 +54,9 @@
     .main-grid__6-12 {
         grid-column:6/13;
     }
+    .main-grid__7-9 {
+        grid-column:7/10;
+    }
     .main-grid__7-12 {
         grid-column:7/13;
     }
@@ -70,6 +73,12 @@
 
 // rows
 @include responsive('min-width: #{$width-tablet}') {
+    .grid-template-rows--2 {
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .grid-template-rows--3 {
+        grid-template-rows: repeat(3, 1fr);
+    }
     .grid-row--1 {
         grid-row:1
     }

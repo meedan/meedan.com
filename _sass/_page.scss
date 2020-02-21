@@ -12,6 +12,10 @@
     background-color: var(--sunDown);
 }
 
+.projects {
+    background-color: var(--eastSide);
+}
+
 .page-wrapper {
     font-size: var(--scale-1);
 }
@@ -46,7 +50,7 @@
 }
 
 .module .module-links {
-    margin-top: var(--space-6);
+    margin-top: var(--space-4);
     font-size: var(--scale-0);
     a {
         font-size: var(--scale-0);

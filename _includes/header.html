@@ -1,10 +1,10 @@
 {% assign theme_class = include.theme | default: '' %}
 <header class="{% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}">
-    <a class="menu" href="#">
-        <span class="meedan" href="/">
+    <a class="menu" href="/">
+        <span class="meedan">
             {% include meedan_ribbon.html %}
         </span>
-        <span class="menu-icon" href="#">
+        <span class="menu-icon">
             {% include menu.html %}
         </span>
     </a>
