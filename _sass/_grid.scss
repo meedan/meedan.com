@@ -3,9 +3,6 @@
     .main-grid__1--1 {
         grid-column:1/-1;
     }
-    .main-grid__1-12 {
-        grid-column:1/13;
-    }
     .main-grid__1-2 {
         grid-column:1/2;
     }
@@ -26,6 +23,18 @@
     }
     .main-grid__1-8 {
         grid-column:1/9;
+    }
+    .main-grid__1-9 {
+        grid-column:1/10;
+    }
+    .main-grid__1-10 {
+        grid-column:1/11;
+    }
+    .main-grid__1-11 {
+        grid-column:1/12;
+    }
+    .main-grid__1-12 {
+        grid-column:1/13;
     }
     .main-grid__3-4 {
         grid-column:3/5;
