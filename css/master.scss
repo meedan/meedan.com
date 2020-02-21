@@ -29,8 +29,14 @@
     
     // type scale
     --int: 1.333;
-    --scale-0: 2.4vw;
+    --scale-0: 4vw;
     @include responsive('min-width: #{$width-tablet}') {
+        --scale-0: 2vw;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        --scale-0: 1.8vw;
+    }
+    @include responsive('min-width: #{$width-wide}') {
         --scale-0: 1.8vw;
     }
     --scale--1: calc(var(--scale-0) / var(--int));
@@ -149,18 +155,25 @@ footer {
 }
 
 header h1 {
+    font-size: var(--scale-2);
+    @include responsive('min-width: #{$width-desktop}') {
+        font-size: var(--scale-1);
+    }
     margin: 0;
     align-self: center;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-    .page-wrapper .meedan {
+    .page-wrapper .meedan,
+    .front .meedan {
         display: none;
     }
-    .page-wrapper .menu {
+    .page-wrapper .menu,
+    .front .menu {
         float: left;
     }
-    .page-wrapper h2 {
+    .page-wrapper h2,
+    .front h2 {
         padding-right: 4rem;
     }
 }
@@ -170,7 +183,7 @@ header h1 {
     @include responsive('min-width: #{$width-desktop}') {
         grid-column: 1 / 7;
     }
-    font-size: var(--scale-7);
+    font-size: var(--scale-5);
     @include responsive('min-width: #{$width-desktop}') {
         font-size: var(--scale-6);
     }
@@ -190,17 +203,22 @@ header h1 {
     padding-top: var(--space-5);
 }
 
-header .menu svg {
-    stroke: var(--blackInk);
+header .meedan svg {
+    fill: var(--blackInk);
 }
 
 .front header .meedan svg {
     fill: var(--sunDown);
 }
 
+header .menu svg {
+    stroke: var(--blackInk);
+}
+
 .front .menu svg {
     stroke: var(--sunDown);
 }
+
 .front .graphic {
     position: relative;
     margin-bottom: var(--section-space);
@@ -244,6 +262,9 @@ header {
     top: var(--space-4);
     right: var(--space-4);
     font-size: var(--scale-1);
+    @include responsive('min-width: #{$width-mobile}') {
+        top: var(--space-5);
+    }
 }
 
 .callout text {

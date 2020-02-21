@@ -24,6 +24,9 @@
     grid-column: 5 / 12;
     font-size: var(--scale-2);
     margin-top: var(--space-3);
+    @include responsive('min-width: #{$width-mobile}') {
+        padding-right: var(--space-5);
+    }
 }
 
 .page-wrapper h3 {
