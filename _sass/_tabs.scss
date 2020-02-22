@@ -1,5 +1,6 @@
 $tab-color:var(--blackInk);
 $active-tab-color: #fff;
+$non-active-tab-color: var(--blackInk);
 
 .slick-initialized {
     .tab-content-wrapper {
@@ -14,9 +15,10 @@ $active-tab-color: #fff;
     .tab-image {
         grid-column: span 1;
     }
-
+    
     .tab-image img {
         width: 100%;
+        object-fit: cover;
         height: 50vw;
         @include responsive('min-width: #{$width-tablet}') {
             height: 60vw;
@@ -24,13 +26,18 @@ $active-tab-color: #fff;
         @include responsive('min-width: #{$width-desktop}') {
             height: 50vw;
         }
-        object-fit: cover;
     }
 
     .tab-text {
         display: grid;
         grid-template-rows: 0.5fr 1.5fr 2fr;
         padding: var(--space-2);
+        @include responsive('min-width: #{$width-tablet}') {
+            height: 60vw;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            height: 50vw;
+        }
         h4 {
             margin-bottom: var(--space-2);
         }
@@ -59,11 +66,8 @@ $active-tab-color: #fff;
         font-size: var(--scale-0);
         color: $tab-color;
         cursor: pointer;
-        border-bottom: 2px solid rgba($active-tab-color, 0);
-
-        &:not(:last-child) {
-            margin-right: var(--space-1);
-        }
+        border-bottom: 2px solid $non-active-tab-color;
+        padding-right: var(--space-1);
 
         &:hover {
             color: $active-tab-color;

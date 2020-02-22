@@ -40,3 +40,13 @@
         color: var(--blackInk);
     }
 }
+
+.with-more-link {
+    position: relative;
+    .trail-wrapper {
+        position: absolute;
+        bottom: var(--space-4);
+        width: 80%;
+        right: 0;
+    }
+}

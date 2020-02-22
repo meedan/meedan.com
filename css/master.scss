@@ -18,6 +18,8 @@
 @import "checklist.scss";
 @import "hero.scss";
 @import "tabs.scss";
+@import "quotes.scss";
+@import "contribute.scss";
 @import "footer_small.scss";
 
 
@@ -30,6 +32,8 @@
     --eastSide: #9F82C4;
     --cornflowerBlue: #5F9EE5;
     --texasRose: #FFB34D;
+    --deepSea: #008D5E;
+    --silver: #A7A7A7;
     
     // type scale
     --int: 1.333;
@@ -190,6 +194,10 @@ header h1 {
     }
     line-height: 1;
     padding-top: var(--space-5);
+}
+
+.front {
+    background-color: var(--accent);
 }
 
 .front h2 {
