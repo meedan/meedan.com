@@ -1,0 +1,83 @@
+$tab-color:var(--blackInk);
+$active-tab-color: #fff;
+
+.slick-initialized {
+    .tab-content-wrapper {
+        @include responsive('min-width: #{$width-tablet}') {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            // grid-gap: var(--space-1);
+        }
+    }
+
+    .tab-text,
+    .tab-image {
+        grid-column: span 1;
+    }
+
+    .tab-image img {
+        width: 100%;
+        height: 50vw;
+        @include responsive('min-width: #{$width-tablet}') {
+            height: 60vw;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            height: 50vw;
+        }
+        object-fit: cover;
+    }
+
+    .tab-text {
+        display: grid;
+        grid-template-rows: 0.5fr 1.5fr 2fr;
+        padding: var(--space-2);
+        h4 {
+            margin-bottom: var(--space-2);
+        }
+        p {
+            font-size: var(--scale-0);
+        }
+    }
+
+
+    .stat {
+        align-self: end;
+        .stat-header {
+            margin-bottom: var(--space-1);
+            font-size: var(--scale-0);
+        }
+        .stat-number {
+            font-size: var(--scale-6);
+            line-height: 1;
+        }
+    }
+
+    .tab {
+        height: var(--scale-4);
+        background: none;
+        border: 0;
+        font-size: var(--scale-0);
+        color: $tab-color;
+        cursor: pointer;
+        border-bottom: 2px solid rgba($active-tab-color, 0);
+
+        &:not(:last-child) {
+            margin-right: var(--space-1);
+        }
+
+        &:hover {
+            color: $active-tab-color;
+        }
+
+        &.active-tab {
+            border-bottom-color: $active-tab-color;
+            color: $active-tab-color;
+        }
+
+    }
+}
+
+.module-tabs {
+    margin-left: var(--space-3);
+    margin-right: var(--space-3);
+}

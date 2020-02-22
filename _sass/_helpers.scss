@@ -66,8 +66,8 @@
             height: 2.4vw;
         }
         @include responsive('min-width: #{$width-wide}') {
-            width: 3vw;
-            height: 3vw;
+            width: 2.4vw;
+            height: 2.4vw;
         }
     }
     &.icon_100x100 {
@@ -77,8 +77,16 @@
 }
 
 .color--check-blue { color: var(--checkBlue) }
-
 .color--coral { color: var(--coral) }
+.color--texas-rose { color: var(--texasRose) }
+
+
+.module-bg-color--coral {
+    background-color: var(--coral);
+}
+.module-bg-color--texas-rose {
+    background-color: var(--texasRose);
+}
 
 ul.plain-list {
     list-style: none;
