@@ -1,11 +1,11 @@
 {% assign theme_class = include.theme | default: '' %}
 <header class="{% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}">
-    <a class="menu" href="/">
+    <a class="menu" onclick="openNav()">
         <span class="meedan">
             {% include meedan_ribbon.html %}
         </span>
         <span class="menu-icon">
-            {% include menu.html %}
+            {% include icon_menu.html %}
         </span>
     </a>
     <h1>{{ page.title }}</h1>
@@ -24,3 +24,25 @@
     </p>
     {% endif %}
 </header>
+<div id="nav" class="nav-overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <div class="nav-content">
+      <a href="/technology/check">Check</a>
+      <a href="/projects">Projects</a>
+      <a href="/about">About</a>
+    </div>  
+</div>
+<script type="text/javascript">
+    /* Open */
+function openNav() {
+    console.log(document.getElementById("nav"));
+  document.getElementById("nav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("nav").style.height = "0%";
+}
+</script>
