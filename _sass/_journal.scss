@@ -1,4 +1,4 @@
-.story-grid {
+.module-story-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: var(--space-2);
@@ -7,7 +7,7 @@
 }
 
 @include responsive('min-width: #{$width-tablet}') {
-    .story-grid {
+    .module-story-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -16,9 +16,15 @@
 .story-grid-item {
     .tag {
         font-size: var(--scale-2);
+        @include responsive('min-width: #{$width-desktop}') {
+            font-size: var(--scale-1);
+        }
     }
     .title {
         font-size: var(--scale-4);
+        @include responsive('min-width: #{$width-desktop}') {
+            font-size: var(--scale-3);
+        }
     }
     .image-container {
         display: block;
@@ -28,5 +34,19 @@
     }
     .image-container.portrait {
         margin: var(--space-3) var(--space-6) var(--space-2);
+    }
+    a {
+        text-decoration: none;
+        color: var(--blackInk);
+    }
+}
+
+.with-more-link {
+    position: relative;
+    .trail-wrapper {
+        position: absolute;
+        bottom: var(--space-4);
+        width: 80%;
+        right: 0;
     }
 }

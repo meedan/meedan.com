@@ -1,0 +1,39 @@
+a.button {
+    display: inline-block;
+    font-size: var(--scale-0);
+    color: var(--blackInk);
+    text-decoration: none;
+    background-color: #fff;
+    padding: var(--space-1);
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-5);
+    border: 1px solid var(--blackInk);
+    &:hover {
+        background-color: var(--blackInk);
+        color: var(--sunDown);
+    }
+}
+
+.dark a.button:hover {
+    background-color: var(--sunDown);
+    color: var(--blackInk)
+}
+
+.trail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-2);
+    .button {
+        margin: 0;
+    }
+    hr {
+        flex: 1 auto;
+        color: var(--blackInk);
+        border-style: solid;
+        margin-right: var(--space-1);
+    }
+}
+
+.dark .trail hr { color: #fff }

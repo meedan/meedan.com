@@ -1,0 +1,71 @@
+.section-padding {
+    padding-top: var(--space-4);
+    padding-bottom: var(--section-space);
+}
+
+.section-margin {
+    margin-top: var(--space-4);
+    margin-bottom: var(--section-space);
+}
+
+.about {
+    background-color: var(--sunDown);
+}
+
+.projects {
+    background-color: var(--eastSide);
+}
+
+.check {
+    background-color: var(--cornflowerBlue);
+}
+
+.page-wrapper {
+    font-size: var(--scale-1);
+}
+
+.page-wrapper .standfirst {
+    grid-column: 5 / 12;
+    font-size: var(--scale-2);
+    margin-top: var(--space-3);
+    @include responsive('min-width: #{$width-mobile}') {
+        padding-right: var(--space-5);
+    }
+}
+
+.page-wrapper h3 {
+    font-size: var(--scale-3);
+    font-weight: normal;
+    margin-bottom: var(--space-4);
+}
+
+.page-wrapper figure {
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-4);
+}
+
+.module a:not(.button) {
+    color: var(--blackInk);
+    text-decoration: none;
+}
+
+.dark.module a:not(.button) {
+    color: #fff;
+}
+
+.module p, a {
+    font-size: var(--scale-1);
+}
+
+.module .module-links {
+    margin-top: var(--space-4);
+    font-size: var(--scale-0);
+    a {
+        font-size: var(--scale-0);
+    }
+}
+
+.module-bg {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-3);
+}

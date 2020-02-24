@@ -1,0 +1,56 @@
+// Footer Small
+.footer-small {
+	display: flex;
+    justify-content: space-between;
+    padding: var(--space-1) var(--space-3) var(--space-2);
+    div {
+        margin-top: var(--space-1);
+    }
+    span,
+    a {
+        display: inline-block;
+        font-size: var(--scale-0);
+        color: #fff;
+        opacity: 0.6;
+    }
+    a {
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .social ul {
+        list-style: none;
+        display: flex;
+    }
+    .social li {
+        display: flex;
+        align-items: center;
+    }
+    .social span {
+        margin-right: var(--space-1);
+    }
+    .social a {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        @include responsive('min-width: #{$width-desktop}') {
+            padding-left: var(--space-1);
+            padding-right: var(--space-1);
+        }
+    }
+    .top {
+        display: flex;
+        align-items: center;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        left: var(--space-3);
+        right: var(--space-3);
+        border-top: 1px solid rgba(#fff, 0.6);
+    }
+}
+
+.dark.footer-small a {
+    color: #fff;
+    text-decoration: none;
+}

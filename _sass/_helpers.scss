@@ -23,3 +23,107 @@
         border: 0;
     }    
 }
+
+.dark {
+    background-color: var(--blackInk);
+    color: var(--sunDown);
+    a:not(.button) {
+        color: var(--sunDown);
+    }
+}
+
+.small-hr {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: var(--space-3);
+        width: var(--scale-2);
+        border-top: 1px solid var(--blackInk);
+    } 
+    h3 {
+        padding-top: var(--space-2);
+    }
+    .dark & {
+        &:before {
+            border-color: 1px solid var(--sunDown);
+        } 
+    }  
+}
+
+.icon {
+    width: 5vw;
+    height: 5vw;
+    &.icon_20x20 {
+        width: 4vw;
+        height: 4vw;
+        @include responsive('min-width: #{$width-tablet}') {
+            width: 3vw;
+            height: 3vw;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            width: 2.4vw;
+            height: 2.4vw;
+        }
+        @include responsive('min-width: #{$width-wide}') {
+            width: 2.4vw;
+            height: 2.4vw;
+        }
+    }
+    &.icon_60x60 {
+        width: 10vw;
+        height: 10vw;
+        @include responsive('min-width: #{$width-tablet}') {
+            width: 6vw;
+            height: 6vw;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            width: 4vw;
+            height: 4vw;
+        }
+    }
+    &.icon_100x100 {
+        width: 10vw;
+        height: 10vw;
+        @include responsive('min-width: #{$width-desktop}') {
+            width: 6vw;
+            height: 6vw;
+        }
+    }
+}
+
+.color--check-blue { color: var(--checkBlue) }
+.color--coral { color: var(--coral) }
+.color--texas-rose { color: var(--texasRose) }
+
+
+.module-bg-color--coral {
+    background-color: var(--coral);
+}
+.module-bg-color--texas-rose {
+    background-color: var(--texasRose);
+}
+.module-bg-color--east-side {
+    background-color: var(--eastSide);
+}
+.module-bg-color--deep-sea {
+    background-color: var(--deepSea);
+}
+.module-bg-color--silver {
+    background-color: var(--silver);
+}
+
+ul.plain-list {
+    list-style: none;
+    margin-top: var(--space-1);
+}
+ul.plain-list li a {
+    display: block;
+    font-size: var(--scale-0);
+    padding: var(--space-1) var(--space-1);
+    border-bottom: 1px solid var(--blackInk);
+    &:hover {
+        background-color: var(--blackInk);
+        color: #fff;
+    }
+}

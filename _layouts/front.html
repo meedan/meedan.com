@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="{{ page.class }}">
+    <a id="top"></a>
+    <div class="front-wrapper">
+        {% include header.html theme="dark" %}
+        <figure class="graphic bleed">
+            <img src="/images/home.png" alt="Meedan's CEO Ed Bice talking with the team." />
+        </figure>
+        <section>
+            {{ content }}
+        </section>
+    </div>
+    {% include js.html %}
+</body>
+
+</html>

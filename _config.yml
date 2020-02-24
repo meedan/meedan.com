@@ -90,7 +90,6 @@ contentful:
     - projects: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'project'
         client_options:

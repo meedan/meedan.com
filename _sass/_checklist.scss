@@ -1,0 +1,16 @@
+.module-checklist {
+    p {
+        font-size: var(--scale-2);
+        margin-bottom: 0;
+    }
+    &.dark {
+        color: #fff;
+    }
+    .button {
+        margin-top: var(--space-1);
+        margin-bottom: 0;
+    }
+    .subtitle {
+        font-size: var(--scale-4);
+    }
+}
