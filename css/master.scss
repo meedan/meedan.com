@@ -271,14 +271,15 @@ header {
     white-space: nowrap;
     top: var(--space-4);
     right: var(--space-4);
-    font-size: var(--scale-1);
-    @include responsive('min-width: #{$width-mobile}') {
-        top: var(--space-5);
-    }
 }
 
 .callout text {
-    font-size: 26px;
+    // font-size: 26px;
+    font-size: var(--scale-2);
+    @include responsive('min-width: #{$width-desktop}') {
+        // font-size: 32px;
+        font-size: var(--scale-1);
+    }
     fill: var(--blackInk);
 }
 
@@ -286,11 +287,7 @@ header {
     fill: var(--sunDown);
 }
 
-@include responsive('min-width: #{$width-desktop}') {
-    .callout text {
-        font-size: 32px;
-    }
-}
+
 
 // .front h4.callout {
 //     display: inline-block;
