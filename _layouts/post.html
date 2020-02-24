@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="{{ page.class }}">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include post_header.html %}
+        <section>
+            <div class="post">
+                {{ page.body | markdownify }}
+            </div>
+        </section>
+    </div>
+    {% include js.html %}
+</body>
+
+</html>
