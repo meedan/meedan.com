@@ -78,9 +78,8 @@
     }
     > p,
     a,
-    h3,
-    h4,
-    ul {
+    ul,
+    ol {
         color: var(--blackInk);
         @include responsive('min-width: #{$width-tablet}') {
             grid-column: 4/11;
@@ -129,7 +128,13 @@
 }
 
 .page-wrapper .story-wrapper h2 {
-    font-size: var(--scale-1);
+    font-size: var(--scale-3);
+    grid-column: 4/11;
+    margin-bottom: var(--space-1);
+}
+
+.page-wrapper .story-wrapper h3 {
+    font-size: var(--scale-2);
     grid-column: 4/11;
     margin-bottom: var(--space-1);
 }
