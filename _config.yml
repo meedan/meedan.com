@@ -87,7 +87,7 @@ contentful:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
-    - posts: 
+    - projects: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
         cda_query:
@@ -96,11 +96,11 @@ contentful:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
-    - posts: 
+    - stories: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
         cda_query:
-          content_type: 'post'
+          content_type: 'story'
         client_options:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
@@ -122,7 +122,7 @@ page_gen:
     template: 'project'
     name: 'slug'
     dir: '/projects/'
-  - data: 'contentful.spaces.posts.post'
-    template: 'post'
+  - data: 'contentful.spaces.stories.story'
+    template: 'story'
     name: 'slug'
     dir: '/journal/'
