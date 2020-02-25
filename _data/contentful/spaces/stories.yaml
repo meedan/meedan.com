@@ -67,3 +67,139 @@ story:
       content_type_id: contributor
       revision: 0
     name: Megan Marrelli
+- sys:
+    id: 14n0r6BLwwNHAyCz6a9tZn
+    created_at: !ruby/object:DateTime 2020-02-25 05:38:09.276000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-25 07:10:08.152000000 Z
+    content_type_id: story
+    revision: 0
+  title: Our veteran journalist on WhatsApp misinformation during India’s elections
+  slug: our-veteran-journalist-on-whatsapp-misinformation-during-indias-elections
+  topic:
+  - sys:
+      id: 45nimjOpv2SeOkdHJOLQlx
+      created_at: !ruby/object:DateTime 2020-02-24 21:57:27.025000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-24 21:57:32.016000000 Z
+      content_type_id: topic
+      revision: 0
+    title: Data
+  lead_image:
+    sys:
+      id: d6SiPjKGnTmS8KUTdpzzF
+      created_at: !ruby/object:DateTime 2020-02-25 07:10:07.890000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-25 07:10:55.683000000 Z
+    title: Shalini Joshi
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/d6SiPjKGnTmS8KUTdpzzF/f788ae9b49281eeb8cdd87a27f3b9233/Shalini-Joshi.jpg"
+  body: |+
+    Conversations on family WhatsApp groups in India can be exhausting. *“Your bank has gone bust. Its share prices have dropped. Before you lose your life savings, find a reliable bank and transfer all your money.”* My anxious family members shared this message on one of our many family WhatsApp groups.
+
+    The language and style of the message looked dubious to me. A few inquiries and one good fact-check relieved me: My bank was safe! Before I could share the good news on the family group, there was another forward that family members did not want anyone to miss. A big chocolate brand was gifting free chocolate hampers for Diwali! Before I could alert family members to not fall for the new hoax, there was mayhem on the group. The number of chocolate boxes purportedly being gifted increased with each message! So my little alert was buried in an avalanche of chocolate discussion among very excited young and old members of my family.
+
+
+  words_by:
+  - sys:
+      id: o2SUkfpjcZYozMKy01Wis
+      created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-25 05:54:39.368000000 Z
+      content_type_id: contributor
+      revision: 0
+    name: Shalini Joshi
+- sys:
+    id: 3m8HqQDFPSp3pXHNYzhS8P
+    created_at: !ruby/object:DateTime 2020-02-25 06:59:01.557000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-25 07:08:56.968000000 Z
+    content_type_id: story
+    revision: 0
+  title: Caio Almeida on software that serves a global community
+  slug: caio-almeida-on-software-that-serves-a-global-community
+  topic:
+  - sys:
+      id: 3YteOu0dCPeNZKQlFMQNwF
+      created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-24 21:58:18.076000000 Z
+      content_type_id: topic
+      revision: 0
+    title: Technology
+  lead_image:
+    sys:
+      id: fxzzu0XQ9FrB50ljSTuIi
+      created_at: !ruby/object:DateTime 2020-02-25 06:59:38.326000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-25 07:00:25.825000000 Z
+    title: Caio Almeida
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg"
+  body: |
+    Before I joined Meedan as a software engineer in late 2011, this amazing team had already noticed that new media was ending the scarcity in which mass media journalism functioned. This was having repercussions for both newsgathering and publishing—no longer were audiences solely reliant on foreign reporters to tell the story. This was particularly true of the reporting of the Middle East, where citizen media been used so powerfully in the midst of such colossal social and political change during the Arab Spring. And citizen media should be verified.
+
+    That’s when Meedan started working on this problem — clearly a very difficult nut to crack. It all started with a participatory liveblog with leading Egyptian independent daily Al-Masry Al-Youm.
+
+    ![The Early Days: Checkdesk 1.0](//images.ctfassets.net/g118h5yoccvd/1pyqrBpzaGsslnQzRhWQbq/99411e1d90054d975042df1d3243377a/1_vhGxiy0adssnlxAxPYO91Q.png)
+
+    Less than one year after I joined Meedan, around October 2012, the software engineering team (myself included) started working on a second iteration of this platform for collaborative fact-checking, which at that point was called Checkdesk, which we launched in July 2013.
+
+    Checkdesk was a verification desk for the digital newsroom, designed to help curate user-generated content during breaking news and to connect journalists to citizen sources on the ground. We developed it in cooperation with six leading media outlets in the MENA region: Al Masry Al Youm and Welad El Balad Media Services in Egypt, 7iber in Jordan, Nahar Ashabab and Social Media Exchange (SMEX) in Lebanon, Ma’an Network in Palestine, and Al-Ayyam in Syria.
+
+    ![Checkdesk 2.0 in action by Bellingcat](//images.ctfassets.net/g118h5yoccvd/5hGviBzBImRaJ9H6kj2QvJ/6f2de5304cc654ba0983ec1a96bab305/1_v1g4OUFLKHmvwSv_ChhYRQ.gif)
+
+    From a technological perspective, Checkdesk was built as a monolithic web application using [Drupal](https://drupal.org/), an open source platform for web content management. As a CMS, Drupal was among the most successful and seemed like a great fit for our needs, because it strikes a great balance between getting up and running in no time, and the ability to extend its functionality almost infinitely. It served us quite well between 2013 and early 2016 and during that time we had the opportunity to [make numerous contributions to its community](https://www.drupal.org/node/2343639) and attend some Drupal conferences to share all the expertise we gained with that work.
+
+    As our applications grew, we started facing scalability challenges with Drupal. These challenges manifested in many ways, from code maintainability to lower performance, proliferation of defects and automated testing. It was time for us to rethink our software architecture. We had to implement more features, go mobile, support more languages, handle more content, serve more users and face new social events—mainly elections.
+
+    We accepted a big challenge at that time, which was to completely rewrite Checkdesk, in six months, from scratch, with a completely new code base.
+
+    Personally, I had some good pre-Meedan experience with the open source web application framework [Ruby On Rails](https://rubyonrails.org/) since 2009. During my early days at Meedan I had the opportunity to implement a prototype in Ruby On Rails for social media translation, which was called Translatedesk. This prototype evolved into a micro services architecture made of several Ruby On Rails APIs which were at the core of our translation product, [Bridge](https://meedan.com/en/bridge/).
+
+    So we decided to pursue a similar software stack approach as Bridge and re-implemented Checkdesk as a multi-service application: some [GraphQL](https://graphql.org/) APIs written in Ruby On Rails, a web application using [React.JS](https://reactjs.org/) and, as usual, everything was released [as an open source project](https://github.com/meedan/check). We also started a new culture for our software development process, which includes writing automated tests for everything seeking [100% code coverage](https://codeclimate.com/repos/58bdc058359261025a0020fa/code), [continuous testing](http://travis-ci.org/meedan), [code quality with maximum GPA at Code Climate](https://codeclimate.com/repos/58bdc058359261025a0020fa) and containerization of our softwares.
+
+    Not only the code was rewritten, but also the branding: Checkdesk was brought out from behind the ‘desk.’ The 3.0 version of our open source software was rebranded as, simply, [Check](https://meedan.com/en/check/).
+
+    ![Checkdesk 3.0, a.k.a. Check](//images.ctfassets.net/g118h5yoccvd/1Dkor8b2zPH26RZptleGDl/da47acfd15d8a1a4ec964482baa491fb/1_pcz3ZoK-tD_C9gnM2CCpnw.png)
+
+    Check provides a central workbench facilitating online verification newsroom collaboration, allowing participating journalists and editors a simple and powerful framework to work together to investigate and annotate links, media and claims. This new code base has been serving us well since then, and during that time we implemented many improvements, new features and performance enhancements in order to accommodate its increasing usage. Since we first released it in October 2016, it was used by OJA-winning election monitoring projects like [Electionland](https://medium.com/meedan-updates/checking-the-vote-how-check-was-used-during-electionland-4242dd875e4b) (United States, 2016), [CrossCheck](https://crosscheck.firstdraftnews.org/france-fr/) (France, 2017) and [Verificado](https://medium.com/meedan-updates/verificado-2018-wins-major-collaboration-and-partnerships-award-e6812ecbbdf) (Mexico, 2018), in addition to similar projects in Asia, namely [Indonesia, Philippines and India](https://medium.com/meedan-updates/meedan-in-asia-how-check-supported-three-simultaneous-election-reporting-initiatives-9b6626e89e3a).
+
+    In India we had a new big challenge to face: misinformation on WhatsApp. WhatsApp plays a [significant role in elections](https://www.nytimes.com/2018/05/14/technology/whatsapp-india-elections.html) in many developing countries, and in recent years WhatsApp-based rumors in India have caused misinformation issues that in some cases led to [violence and death](https://www.wired.com/story/how-whatsapp-fuels-fake-news-and-violence-in-india/). In December 2018 we started to integrate Check into the WhatsApp business API and released this feature in early April 2019, just in time for the elections in India. Check Message was born: our tool for fact-checking against disinformation at scale, seeking scalability, reliability and great performance.
+
+    ![Check Message architecture](//images.ctfassets.net/g118h5yoccvd/4YDeFFaKebhPeh3N1xAt9p/f3f144a5e8ebbd10c083377b3db57b89/1_QEFoJ2yG5LvjfQVew-oPyA.png)
+
+    Our collaboration in India, called [Checkpoint](https://www.checkpoint.pro.to/), was officially launched in April as the first real use case of Check Message. In total, Checkpoint gathered over 80,000 claims for verification and our software was useful to group duplicate requests, allow similar items to be related, prioritize most requested items and, in general, optimize the fact-checker’s work as much as possible.
+
+    ![Screenshots showing how the Check integration with the WhatsApp Business API supported Checkpoint in India.](//images.ctfassets.net/g118h5yoccvd/ZGSXEbcYFFi7s3hNd9W22/7f47387810303d1f82b917a12807cea4/meedan-in-asia_checkpoint-india.jpeg)
+
+    After this first release, we generalized our software module from WhatsApp-specific to more platform-agnostic, and we now support other closed message platforms, like Twitter DMs and Facebook Messenger. This module was implemented as a Check bot. Check allows for extensible scripts and functions that help you augment your verification experience with tools like private messenger integration, archiving and language detection. We call these scripts [bots](https://github.com/meedan/check-bots), and they live in the [Bot Garden](https://medium.com/meedan-user-guides/bot-garden-user-guide-adc2c1d743f3). We hope that this bot infrastructure can be used by other developers around the world to integrate Check with other tools and with their own workflows.
+
+    We keep working on Check in order to improve user experience, content ingestion and augmented verification. Stay tuned! What I can say is that I’m really enjoying the things we are working on right now and really excited for the next challenges we’ll face and the new software support we’ll implement in the upcoming years in order to make Check even more global. I invite everyone to join us on that. If you are a software developer interested in open source and in these challenges we’re tackling, get in touch on [GitHub](http://github.com/meedan). If you are journalist and want to use Check for your project, get in touch with us on our [website](https://meedan.com/en/check/).
+
+    Ultimately, it’s a collaborative effort.
+  words_by:
+  - sys:
+      id: 1LO43iZQgk754PxET3q581
+      created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-25 07:09:01.039000000 Z
+      content_type_id: contributor
+      revision: 0
+    name: Caio Almeida
+- sys:
+    id: 5yWSBJ4oHKMmIkekWoomZg
+    created_at: !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-25 07:39:20.906000000 Z
+    content_type_id: story
+    revision: 0
+  title: 'Digital Health: Fact-checking in an era of misinfodemics '
+  slug: digital-health-fact-checking-in-an-era-of-misinfodemics
+  topic:
+  - sys:
+      id: 6TvSKHc0JwGsaZxHUrYc5M
+      created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-24 21:58:10.409000000 Z
+      content_type_id: topic
+      revision: 0
+    title: Research
+  lead_image:
+    sys:
+      id: 2nW6GqFf50AHuJI42McaGY
+      created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-25 07:40:03.425000000 Z
+    title: 'Digital Health: Fact-checking in an era of misinfodemics'
+    description: 'Digital Health: Fact-checking in an era of misinfodemics'
+    url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"

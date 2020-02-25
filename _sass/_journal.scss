@@ -109,15 +109,17 @@
 .story-wrapper blockquote {
     margin-top: var(--space-4);
     padding-top: var(--space-6);
-    position: relative;
-    :before {
-        content: '';
-        background-image: url('/images/icon_quote.svg');
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
+    @include responsive('min-width: #{$width-desktop}') {
+        position: relative;
+        :before {
+            content: '';
+            background-image: url('/images/icon_quote.svg');
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 

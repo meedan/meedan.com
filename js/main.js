@@ -6,6 +6,22 @@ $(document).ready(function() {
 		dots: true,
 	});
 
+	// Go to homepage if people click the meedan logo in the header
+	$('.meedan svg').click(function() {
+		window.location.href = '/';
+	});
+
+	// Add class landscape or portrait to journal lead images
+	$('.image-container img').each(function() {
+		var height = $(this).height();
+		var width = $(this).width();
+		if (height > width) {
+			$(this).parent().addClass('portrait');
+		} else {
+			$(this).parent().addClass('landscape');
+		}
+	});
+
 
 	// Image
 	$('a.media-link').magnificPopup({

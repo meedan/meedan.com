@@ -216,6 +216,10 @@ header h1 {
     padding-top: var(--space-5);
 }
 
+header .meedan {
+    z-index: 100;
+}
+
 header .meedan svg {
     fill: var(--blackInk);
 }
