@@ -41,6 +41,15 @@
     font-size: var(--scale-3);
     font-weight: normal;
     margin-bottom: var(--space-4);
+    sup {
+        padding-left: 0.5em;
+        font-size: var(--scale-0);
+        top: -1em;
+    }
+}
+
+.page-wrapper sup {
+    padding-left: 0.5em;
 }
 
 .page-wrapper figure {
@@ -66,6 +75,10 @@
     font-size: var(--scale-0);
     a {
         font-size: var(--scale-0);
+        opacity: 0.6;
+        &:hover {
+            opacity: 1;
+        }
     }
 }
 

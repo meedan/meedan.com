@@ -79,14 +79,15 @@
     > p,
     a,
     h3,
-    h4, {
-        font-size: var(--scale-0);
+    h4,
+    ul {
         color: var(--blackInk);
         @include responsive('min-width: #{$width-tablet}') {
             grid-column: 4/11;
         }
     }
-    > p {
+    > p,
+    > ul {
         margin-bottom: var(--space-3);
         line-height: 1.2;
     }
@@ -104,7 +105,8 @@
             grid-column: 2/12;
         }
     }
-    em {
+    em,
+    strong {
         font-family: 'Times New Roman', 'Times', serif;
     }
 }
@@ -129,6 +131,19 @@
 .page-wrapper .story-wrapper h2 {
     font-size: var(--scale-1);
     grid-column: 4/11;
+    margin-bottom: var(--space-1);
+}
+
+.story-wrapper ul li {
+    margin-bottom: var(--space-1);
+}
+
+.story-wrapper h4 {
+    font-size: var(--scale-0);
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    grid-column: 4/11;
+    margin-top: var(--space-2);
     margin-bottom: var(--space-1);
 }
 

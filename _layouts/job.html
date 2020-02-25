@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="story">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include post_header.html %}
+        <section>
+            <div class="story-wrapper section-margin">
+                {{ page.body | markdownify }}
+            </div>
+            <!-- <div class="story-footer small-hr section-margin">
+                <div class="story-footer-item">
+                    <span>Published on</span> {{ page.sys.created_at | date: "%-d %B %Y" }}
+                </div>
+            </div> -->
+            {% include module_checklist.html %}
+            {% include footer_small.html theme="dark" %}
+        </section>
+    </div>
+    {% include js.html %}
+</body>
+
+</html>

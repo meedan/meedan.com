@@ -8,7 +8,11 @@
             {% include icon_menu.html %}
         </span>
     </a>
-    <h1>Journal</h1>
+    {% if page.sys.content_type_id == 'job' %}
+        <h1><a href="/jobs">Jobs</a></h1>
+    {% elsif page.sys.content_type_id == 'story' %}
+        <h1><a href="/journal">Journal</a></h1>
+    {% endif %}
     <div class="title-container main-grid__1--1">
         <span class="tag">
             {% for topic in page.topic %}

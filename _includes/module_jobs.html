@@ -1,0 +1,7 @@
+{% assign jobs = site.data.contentful.spaces.jobs.job %}
+<h3>Open positions<sup>{{ jobs.size }}</sup></h3>
+{% for job in jobs %}
+    <a href="/jobs/{{ job.slug }}">
+        {{ job.title }}
+    </a>
+{% endfor %}

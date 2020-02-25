@@ -26,8 +26,8 @@
             border-bottom: 1px solid #fff;
             margin: 0;
             padding: 0;
-            line-height: 5vw;
-            height: 5vw;
+            line-height: var(--scale-4);
+            height: var(--scale-4);
             outline: 0;
             width: 100%;
             background-color: transparent;
@@ -48,12 +48,15 @@
         button {
             background: none;
             border: 0 none;
-            height: 5vw;
+            height: var(--scale-4);
+            padding-left: var(--space-1);
+            padding-right: var(--space-1);
             border-bottom: 1px solid #fff;
             cursor: pointer;
-            padding-top: var(--space-1);
-            svg path {
-                fill: #fff;
+            color: #fff;
+            &:hover {
+                background-color: var(--sunDown);
+                color: var(--blackInk);
             }
         }
     }
