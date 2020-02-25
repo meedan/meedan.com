@@ -125,11 +125,11 @@
     background-color: var(--silver);
 }
 
-ul.plain-list {
+.plain-list ul {
     list-style: none;
     margin-top: var(--space-1);
 }
-ul.plain-list li a {
+.plain-list ul li a {
     display: block;
     font-size: var(--scale-0);
     padding: var(--space-1) var(--space-1);
