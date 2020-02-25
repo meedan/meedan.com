@@ -35,6 +35,12 @@
     a:not(.button) {
         color: var(--sunDown);
     }
+    header .meedan svg {
+        fill: var(--sunDown);
+    }
+    .menu svg {
+        stroke: var(--sunDown);
+    }
 }
 
 .small-hr {
