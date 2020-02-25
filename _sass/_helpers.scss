@@ -7,6 +7,7 @@
  * To display media in 4:3 ratio use clasess: u-responsive-ratio media-4by3
  */
 
+ 
 .u-responsive-ratio {
     @include fix-aspect-ratio(5, 3);
 
@@ -22,6 +23,10 @@
         width: 100%;
         border: 0;
     }    
+}
+
+.hidden {
+    display: none;
 }
 
 .dark {
@@ -41,7 +46,8 @@
         width: var(--scale-2);
         border-top: 1px solid var(--blackInk);
     } 
-    h3 {
+    h3,
+    .story-footer-item {
         padding-top: var(--space-2);
     }
     .dark & {

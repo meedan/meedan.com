@@ -42,9 +42,11 @@
                 <img src="/images/placeholders/elections.jpg" />
             </picture>
         </a>
-        <div class="trail-wrapper">
-            <span class="trail"><hr /><a href="/journal" class="button">View all stories</a></span>
-        </div>
+        {% if include.trail %}
+            <div class="trail-wrapper">
+                <span class="trail"><hr /><a href="/journal" class="button">View all stories</a></span>
+            </div>
+        {% endif %}
     </div>
     
 </section>

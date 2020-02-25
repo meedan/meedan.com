@@ -55,12 +55,17 @@
 
 // Story page
 
-.story {
+.story,
+.journal {
     background-color: var(--accent);
 }
 
 .story .title-container {
     margin-top: var(--space-5);
+}
+
+.story figcaption {
+    font-size: var(--scale-0);
 }
 
 .story-wrapper {
@@ -69,6 +74,7 @@
     @include responsive('min-width: #{$width-tablet}') {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: var(--space-2);
     }
     > p,
     a,
@@ -83,6 +89,13 @@
     > p {
         margin-bottom: var(--space-3);
         line-height: 1.2;
+    }
+    p:first-child {
+        font-size: var(--scale-1);
+        margin-bottom: var(--space-6);
+        @include responsive('min-width: #{$width-tablet}') {
+            grid-column: 2/12;
+        }
     }
     img, 
     blockquote {
@@ -109,7 +122,24 @@
 }
 
 .page-wrapper .story-wrapper h2 {
-    font-size: var(--scale-2);
+    font-size: var(--scale-1);
     grid-column: 4/11;
     margin-bottom: var(--space-1);
+}
+
+.story-footer {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    font-size: var(--scale-0);
+    line-height: 1.2;
+    @include responsive('min-width: #{$width-tablet}') {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: var(--space-2);
+    }
+    .story-footer-item {
+        span {
+            display: block;
+        }
+    }
 }

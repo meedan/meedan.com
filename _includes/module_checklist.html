@@ -13,12 +13,16 @@
             <p class="color--check-blue">—open-source investigations, industry resources and event information</p>
         </div>
         <div class="main-grid__7-12 align-self--end">
-            <a class="button" href="#">Sign up for our newsletter</a>
+            <form name="meedan-checklist" id="meedan-checklist" class="checklist-signup" netlify-honeypot="bot" netlify>
+                <label style="display: none;">Don’t fill this out: <input name="bot"></label>
+                <label for="email"><span>Email</span> <input type="email" name="email" placeholder="Sign up for our newsletter" required></label>
+                <button type="submit">{% include icon_forward_arrow.html %}</button>
+            </form>
         </div>
     </div>
     <div class="main-grid module-links">
         <div class="main-grid__7-9">
-            <a href="#">Browse previous issues</a>
+            <a href="//us11.campaign-archive.com/home/?u=539fbe59ddc773c6592797bf2&id=8fa4ab9399">Browse previous issues</a>
         </div>
         <div class="main-grid__10-12">
             Send your tips to <a href="mailto:checklist@meedan.com">checklist@meedan.com</a>
