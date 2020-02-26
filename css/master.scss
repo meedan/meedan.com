@@ -371,6 +371,10 @@ header h1 {
     }
 }
 
+.front .cursor {
+    border-color: var(--sunDown);
+}
+
 .cursor.cursor-active {
     visibility: visible;
     opacity: 1;
@@ -384,3 +388,8 @@ header h1 {
         display: none;
     }
 } 
+
+.front[data-menu] .cursor {
+    color: var(--blackInk);
+    border-color: var(--blackInk);
+}
