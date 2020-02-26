@@ -1,0 +1,26 @@
+<div class="cursor">
+    <div class="open">Menu</div>
+    <div class="close">Close</div>
+</div>
+
+<script>
+    let mouseCursor = document.querySelector(".cursor");
+    let topMenu = document.querySelector(".menu");
+
+    window.addEventListener('mousemove', cursor);
+
+    function cursor(e) {
+        mouseCursor.style.top = e.pageY + 'px';
+        mouseCursor.style.left = e.pageX + 'px';
+    }
+
+    topMenu.addEventListener('mouseleave', () => {
+        mouseCursor.classList.remove('cursor-active');
+    });
+    topMenu.addEventListener('mouseover', () => {
+        mouseCursor.classList.add('cursor-active');
+    });
+
+
+
+</script>

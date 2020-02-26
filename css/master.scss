@@ -348,3 +348,39 @@ header h1 {
 //     transform: rotate(90deg) translateX(100%);
 //     padding-left: var(--space-2);
 // }
+
+.cursor {
+    visibility: hidden;
+    opacity: 0;
+    width: var(--space-6);
+    height: var(--space-6);
+    border: 2px solid var(--blackInk);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 111;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--scale-0);
+    .close {
+        display: none;
+    }
+}
+
+.cursor.cursor-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.site[data-menu] .cursor {
+    .close {
+        display: inline;
+    }
+    .open {
+        display: none;
+    }
+} 
