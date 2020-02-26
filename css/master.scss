@@ -116,7 +116,6 @@ body {
 
 figure,
 .main-grid,
-header,
 footer {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
@@ -149,15 +148,78 @@ footer {
     }
 }
 
+header {
+    svg:not(:root) {
+        overflow: visible;
+    };
+}
+
+.front header {
+    padding-bottom: var(--space-3);
+}
+
+// When menu is not open
+.site:not([data-menu]) .header {
+    .nav-overlay {
+        visibility: hidden;
+    }
+}
+
+// When menu is open
+.site[data-menu] {
+    overflow: hidden;
+}
+
+.site[data-menu] .header {
+    .menu {
+        z-index: 99;
+        background-color: var(--sunDown);
+    }
+    .nav-overlay {
+      visibility: visible;
+    }
+}
+
+header .meedan {
+    z-index: 100;
+}
+
+header .meedan svg {
+    fill: var(--blackInk);
+}
+
+.front:not([data-menu]) header .meedan svg {
+    fill: var(--sunDown);
+}
+
+.front[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
+header .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.front:not([data-menu]) .menu-icon svg {
+    stroke: var(--sunDown);
+}
+
+.front[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: var(--space-2);
+    padding-left: var(--space-3);
+    padding-right: var(--space-1);
+    padding-bottom: var(--space-1);
     .menu-icon {
         height: 2rem;
         display: flex;
         align-items: center;
-        margin-right: 1rem;
     }
     &:hover {
         cursor: pointer;
@@ -165,6 +227,8 @@ footer {
 }
 
 header h1 {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-1);
     font-size: var(--scale-2);
     @include responsive('min-width: #{$width-desktop}') {
         font-size: var(--scale-1);
@@ -199,6 +263,7 @@ header h1 {
     }
     line-height: 1;
     padding-top: var(--space-5);
+    padding-left: var(--space-3);
 }
 
 .front {
@@ -215,26 +280,7 @@ header h1 {
         font-size: var(--scale-3);
     }
     padding-top: var(--space-5);
-}
-
-header .meedan {
-    z-index: 100;
-}
-
-header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.front header .meedan svg {
-    fill: var(--sunDown);
-}
-
-header .menu svg {
-    stroke: var(--blackInk);
-}
-
-.front .menu svg {
-    stroke: var(--sunDown);
+    padding-left: var(--space-3);
 }
 
 .front .graphic {
@@ -259,19 +305,6 @@ header .menu svg {
     height: 68%;
     background-color: var(--blackInk);
     z-index: -1;
-}
-
-header {
-    padding-top: var(--space-2);
-    padding-left: var(--space-3);
-    padding-right: 0;
-    svg:not(:root) {
-        overflow: visible;
-    };
-}
-
-.front header {
-    padding-bottom: var(--space-3);
 }
 
 .callout {
