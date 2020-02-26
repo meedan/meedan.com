@@ -196,6 +196,10 @@ header .meedan svg {
     fill: var(--blackInk);
 }
 
+.team[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
 header .menu-icon svg {
     stroke: var(--blackInk);
 }
@@ -205,6 +209,10 @@ header .menu-icon svg {
 }
 
 .front[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.team[data-menu] .menu-icon svg {
     stroke: var(--blackInk);
 }
 
@@ -222,6 +230,9 @@ header .menu-icon svg {
         align-items: center;
     }
     &:hover {
+        svg {
+            fill: var(--blackInk);
+        }
         cursor: pointer;
     }
 }
