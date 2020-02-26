@@ -256,17 +256,17 @@ header h1 {
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-    .page-wrapper h1,
-    .front h1 {
+    .page-wrapper header h1,
+    .front header h1 {
         padding-left: var(--space-3);
     }
-    .page-wrapper h2,
+    .page-wrapper header h2,
     .front h2 {
         padding-right: 2rem;
     }
 }
 
-.page-wrapper h2 {
+.page-wrapper header h2 {
     grid-column: 1 / 11;
     // @include responsive('min-width: #{$width-desktop}') {
     //     grid-column: 1 / 6;
@@ -284,7 +284,7 @@ header h1 {
     background-color: var(--accent);
 }
 
-.front h2 {
+.front header h2 {
     grid-column: 1 / 9;
     @include responsive('min-width: #{$width-desktop}') {
         grid-column: 1 / 7;
@@ -371,7 +371,8 @@ header h1 {
     }
 }
 
-.front .cursor {
+.front .cursor,
+.team .cursor {
     border-color: var(--sunDown);
 }
 
@@ -389,7 +390,8 @@ header h1 {
     }
 } 
 
-.front[data-menu] .cursor {
+.front[data-menu] .cursor,
+.team[data-menu] .cursor {
     color: var(--blackInk);
     border-color: var(--blackInk);
 }
