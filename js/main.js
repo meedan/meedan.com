@@ -7,9 +7,9 @@ $(document).ready(function() {
 	});
 
 	// Go to homepage if people click the meedan logo in the header
-	$('.meedan svg').click(function() {
-		window.location.href = '/';
-	});
+	// $('.meedan svg').click(function() {
+	// 	window.location.href = '/';
+	// });
 
 	// Add class landscape or portrait to journal lead images
 	$('.image-container img').each(function() {

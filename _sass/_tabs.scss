@@ -26,7 +26,7 @@ $non-active-tab-color: var(--blackInk);
             height: 60vw;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            height: 48vw;
+            height: 42vw;
         }
     }
 
@@ -38,7 +38,7 @@ $non-active-tab-color: var(--blackInk);
             height: 60vw;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            height: 48vw;
+            height: 42vw;
         }
         h4 {
             margin-bottom: var(--space-2);

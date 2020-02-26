@@ -39,7 +39,10 @@
     padding-top: var(--space-1);
     padding-bottom: var(--space-1);
     text-decoration: none;
-    font-size: var(--scale-4);
+    font-size: var(--scale-2);
+    @include responsive('min-width: #{$width-desktop}') {
+        font-size: var(--scale-4);    
+    }
     color: var(--sunDown);
     display: block;
     position: relative;
