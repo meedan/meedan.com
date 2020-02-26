@@ -2,9 +2,17 @@
 <div class="module module-project-list">
     {% for project in projects %}
         <div class="main-grid section-margin bleed-left">
-            <div class="main-grid__1-5 bleed project-story">
-                <img src="{{ project.hero_image.url }}" />
-            </div>
+            {% if project.stories %}
+                {% for story in project.stories %}
+                <div class="main-grid__1-5 bleed project-story">
+                    <a href="/journal/{{ story.slug }}">
+                        <img src="{{ story.lead_image.url }}" />
+                        <h4>{{ story.title }}</h4>
+                        <div class="arrow">→</div>
+                    </a>
+                </div>
+                {% endfor %}
+            {% endif %}
             <div class="main-grid__6-12 project-teaser">
                 <h3>{{ project.title }}</h3>
                 {{ project.short_description | markdownify }}
