@@ -17,7 +17,8 @@ $(document).ready(function() {
 		variableWidth: true,
 		dots: false,
 		prevArrow: false,
-		nextArrow: false
+		nextArrow: false,
+		draggable: true
 	});
 
 	// Go to homepage if people click the meedan logo in the header
