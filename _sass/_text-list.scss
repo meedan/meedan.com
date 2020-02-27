@@ -1,6 +1,13 @@
 .module-text-list .text-list {
-    grid-row-gap: var(--space-1);
+    @include responsive('min-width: #{$width-tablet}') {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    margin-top: var(--space-6);
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
 }
 .text-list-item {
     display: block;
+    margin-bottom: var(--space-1);
 }
