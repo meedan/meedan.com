@@ -9,7 +9,7 @@
     let topMenu = document.querySelector(".menu");
     let keyPoints = document.querySelector(".key-points");
 
-    window.addEventListener('mousemove', cursor);
+    topMenu.addEventListener('mousemove', cursor);
 
     function cursor(e) {
         mouseCursor.style.top = e.pageY + 'px';
@@ -24,16 +24,5 @@
         mouseCursor.classList.add('cursor-active');
         site.classList.add('cursor-in-use');
     });
-
-    keyPoints.addEventListener('mouseleave', () => {
-        mouseCursor.classList.remove('cursor-active');
-        site.classList.remove('cursor-in-use');
-    });
-    keyPoints.addEventListener('mouseover', () => {
-        mouseCursor.classList.add('cursor-active');
-        site.classList.add('cursor-in-use');
-    });
-
-
 
 </script>
