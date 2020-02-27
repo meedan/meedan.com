@@ -292,7 +292,7 @@ project:
   - sys:
       id: 5yWSBJ4oHKMmIkekWoomZg
       created_at: !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-25 07:39:20.906000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-27 21:04:27.188000000 Z
       content_type_id: story
       revision: 0
     title: 'Digital Health: Fact-checking in an era of misinfodemics '
@@ -308,10 +308,20 @@ project:
       title: 'Digital Health: Fact-checking in an era of misinfodemics'
       description: 'Digital Health: Fact-checking in an era of misinfodemics'
       url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"
+    body: "Misinfodemics, a term coined in 2018 by Meedan researchers, is a phenomenon
+      in which online health misinformation contributes to the spread of real world
+      disease. \n\nThe Lab’s [new report](https://health.meedan.com/primer.pdf) notes
+      that at both individual and population levels, low-quality online content about
+      health topics can influence vaccination rates and herd immunity, the appropriate
+      use of antibiotics and treatment regimens, the adoption of response efforts
+      in epidemics, and access to care for serious illnesses. \n\nThe impact that
+      this is having on population health suggests it is critical and urgent to re-think
+      and innovate around the way we approach health misinformation.\n\n[Read the
+      report](https://health.meedan.com/primer.pdf)."
 - sys:
     id: 1qNyYdbk1y7nt1zzo18Yyl
     created_at: !ruby/object:DateTime 2020-02-25 22:47:23.980000000 Z
-    updated_at: !ruby/object:DateTime 2020-02-27 02:37:40.356000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-27 20:49:32.891000000 Z
     content_type_id: project
     revision: 0
   title: Content Moderation Project
@@ -323,7 +333,9 @@ project:
     title: Content Moderation Project
     description: Kat Lo
     url: "//images.ctfassets.net/g118h5yoccvd/6TfRuAKJj6golgGhzEl8eS/a92c80a091313c5bce69f571dc5bd7d7/projects-content-moderation-project-3.png"
-  short_description: Researching, designing and testing the impact of the internet
-    on public health. We are building a framework for addressing health misinformation,
-    and it is centered around more equitable access to quality health content.
+  short_description: Collaborating with stakeholders in academia, policy, and civil
+    society groups to develop clear pathways to responsible content moderation for
+    technology platforms. Applied research with civil society organizations and human
+    rights responders help us better understand varying experiences with content moderation
+    and allow us to identify points of intervention.
   slug: content-moderation-project

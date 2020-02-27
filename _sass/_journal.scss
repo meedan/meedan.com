@@ -69,6 +69,7 @@
     padding-left: var(--space-3);
     padding-right: var(--space-3);
     font-size: var(--scale-0);
+    line-height: 1.275;
     @include responsive('min-width: #{$width-tablet}') {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -86,7 +87,6 @@
     > p,
     > ul {
         margin-bottom: var(--space-3);
-        line-height: 1.2;
     }
     p:first-child {
         font-size: var(--scale-1);
