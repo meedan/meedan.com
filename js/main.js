@@ -6,6 +6,20 @@ $(document).ready(function() {
 		dots: true,
 	});
 
+	// Slick Slider for press
+	$('.slideshow').slick({
+		infinite: true,
+		slidesToShow: 1,
+		//   centerMode: true,
+		// slidesToScroll: 3,
+		// autoplay: true,
+		// autoplaySpeed: 2000,
+		variableWidth: true,
+		dots: false,
+		prevArrow: false,
+		nextArrow: false
+	});
+
 	// Go to homepage if people click the meedan logo in the header
 	// $('.meedan svg').click(function() {
 	// 	window.location.href = '/';

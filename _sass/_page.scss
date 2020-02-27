@@ -88,3 +88,15 @@
     padding-top: var(--space-2);
     padding-bottom: var(--space-3);
 }
+
+.slideshow {
+    img {
+        background-size: cover;
+        // width: 80%;
+        height: 48vw;
+        object-fit:scale-down;
+    }
+    img:first-child {
+        padding-left: var(--scale-3);
+    }
+}
