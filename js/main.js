@@ -10,15 +10,13 @@ $(document).ready(function() {
 	$('.slideshow').slick({
 		infinite: true,
 		slidesToShow: 1,
-		//   centerMode: true,
-		// slidesToScroll: 3,
 		autoplay: true,
 		autoplaySpeed: 3000,
 		variableWidth: true,
 		dots: false,
 		prevArrow: false,
 		nextArrow: false,
-		draggable: true
+		draggable: true,
 	});
 
 	// Go to homepage if people click the meedan logo in the header
