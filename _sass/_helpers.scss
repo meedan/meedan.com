@@ -32,9 +32,7 @@
 .dark {
     background-color: var(--blackInk);
     color: var(--sunDown);
-    :not(header) a:not(.button) {
-        color: var(--sunDown);
-    }
+    
     header .meedan svg {
         fill: var(--sunDown);
     }

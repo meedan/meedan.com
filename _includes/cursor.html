@@ -4,8 +4,10 @@
 </div>
 
 <script>
+    let site = document.querySelector(".site");
     let mouseCursor = document.querySelector(".cursor");
     let topMenu = document.querySelector(".menu");
+    let keyPoints = document.querySelector(".key-points");
 
     window.addEventListener('mousemove', cursor);
 
@@ -16,9 +18,20 @@
 
     topMenu.addEventListener('mouseleave', () => {
         mouseCursor.classList.remove('cursor-active');
+        site.classList.remove('cursor-in-use');
     });
     topMenu.addEventListener('mouseover', () => {
         mouseCursor.classList.add('cursor-active');
+        site.classList.add('cursor-in-use');
+    });
+
+    keyPoints.addEventListener('mouseleave', () => {
+        mouseCursor.classList.remove('cursor-active');
+        site.classList.remove('cursor-in-use');
+    });
+    keyPoints.addEventListener('mouseover', () => {
+        mouseCursor.classList.add('cursor-active');
+        site.classList.add('cursor-in-use');
     });
 
 

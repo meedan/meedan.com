@@ -253,6 +253,10 @@ header h1 {
     }
     margin: 0;
     align-self: center;
+    a {
+        color: var(--blackInk);
+        text-decoration: none;
+    }
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
