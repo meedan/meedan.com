@@ -294,7 +294,7 @@ header h1 {
 .front header h2 {
     grid-column: 1 / 9;
     @include responsive('min-width: #{$width-desktop}') {
-        grid-column: 1 / 7;
+        grid-column: 1 / 9;
     }
     font-size: var(--scale-4);
     @include responsive('min-width: #{$width-desktop}') {
