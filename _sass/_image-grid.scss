@@ -2,7 +2,7 @@
     @include responsive('min-width: #{$width-tablet}') {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1.2fr 0.5fr 0.5fr 0.9fr;
+        grid-template-rows: 1.2fr 0.5fr 0.5fr 1fr;
         grid-gap: 0;
     }
     padding-left: var(--space-3);
