@@ -19,6 +19,16 @@ $(document).ready(function() {
 		draggable: true,
 	});
 
+	// User quotes for check page
+	$('.user-quotes-wrapper').slick({
+		infinite: true,
+		slidesToShow: 1,
+		dots: true,
+		prevArrow: false,
+		nextArrow: false,
+		draggable: true,
+	});
+
 	// Go to homepage if people click the meedan logo in the header
 	// $('.meedan svg').click(function() {
 	// 	window.location.href = '/';
