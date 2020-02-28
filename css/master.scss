@@ -120,6 +120,7 @@ figure,
 footer {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
+    overflow: visible;
     &.bleed {
         padding-left: 0;
         padding-right: 0;
