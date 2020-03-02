@@ -23,7 +23,13 @@ $(function () {
 		arrows: false,
 		infinite: false,
 		swipeToSlide: true,
-		touchThreshold: 10
+		touchThreshold: 10,
+		responsive: [{
+			breakpoint: 600,
+				settings: {
+				slidesToShow: 2.7,
+			}
+		}]
 	});
 
 	$tabsContentContainer.slick({

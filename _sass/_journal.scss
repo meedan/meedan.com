@@ -39,12 +39,15 @@
 }
 
 .with-more-link {
-    position: relative;
+    display: flex;
+    flex-direction: column;
     .trail-wrapper {
-        position: absolute;
-        bottom: var(--space-4);
-        width: 80%;
-        right: 0;
+        margin-top: var(--space-4);
+        text-align: right;
+        
+        span {
+            width: 80%;
+        }    
     }
 }
 
