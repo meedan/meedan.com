@@ -46,6 +46,12 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), template + ".html")
       self.data['title'] = data[name]
+      # SEO fixes
+      if template == "story"
+        data['description'] = data['body'].split[0...30].join(' ')
+        data['image'] = "https:" + data['lead_image']['url']
+      end
+      
       # add all the information defined in _data for the current record to the
       # current page (so that we can access it with liquid tags)
       self.data.merge!(data)
