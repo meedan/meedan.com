@@ -70,7 +70,7 @@ story:
 - sys:
     id: 14n0r6BLwwNHAyCz6a9tZn
     created_at: !ruby/object:DateTime 2020-02-25 05:38:09.276000000 Z
-    updated_at: !ruby/object:DateTime 2020-02-25 07:10:08.152000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-02 21:56:23.890000000 Z
     content_type_id: story
     revision: 0
   title: Our veteran journalist on WhatsApp misinformation during India’s elections
@@ -95,6 +95,35 @@ story:
     Conversations on family WhatsApp groups in India can be exhausting. *“Your bank has gone bust. Its share prices have dropped. Before you lose your life savings, find a reliable bank and transfer all your money.”* My anxious family members shared this message on one of our many family WhatsApp groups.
 
     The language and style of the message looked dubious to me. A few inquiries and one good fact-check relieved me: My bank was safe! Before I could share the good news on the family group, there was another forward that family members did not want anyone to miss. A big chocolate brand was gifting free chocolate hampers for Diwali! Before I could alert family members to not fall for the new hoax, there was mayhem on the group. The number of chocolate boxes purportedly being gifted increased with each message! So my little alert was buried in an avalanche of chocolate discussion among very excited young and old members of my family.
+
+    Studies have shown that trust in the person sharing a message on closed messaging apps like WhatsApp is a key indicator of the message being shared multiple times. It is because of this trust that even suspicious looking messages are spread. I often talk with friends about this; *“What is the right strategy to call out family members sending fake news on WhatsApp groups?” “I can’t stop being Judge Judy on my family WhatsApp groups and people hate me for that.” “The last time I told my uncle his message was fake, he made a nasty comment and ignored me at the next family gathering.”*
+
+    From first-hand experience running newsrooms, I can tell you that fact-checkers in India face similar concerns to my friends and I. I once met a media marketing manager who managed 60 WhatsApp groups. I wondered how he kept track of important messages. Shortly after that interaction, my newsroom went from print to digital, and I found myself on at least 40 WhatsApp groups that had media persons and other local professionals. The barrage of good morning messages did not stop until early evening. Group members were happy to share all kinds of unsolicited advice about personal or professional issues. Birthdays and anniversaries are big in India, and wishes, memes, songs on these occasions started from midnight and never ended! Amidst all this, fake information filtered into these groups as well. It was nearly impossible to keep track of conversations and information.
+
+    What is the solution to this? Will we just learn to live surrounded by a fog of noise and misinformation?
+
+    *“There’s a lot of noise on WhatsApp. Ignoring it is not an option; this is the pulse of conversations around us today. Addressing it is a challenge because of the clutter.”* My conversations with fact-checkers in India indicate high levels of exhaustion just from monitoring incoming messages on WhatsApp. Many of them work with limited resources and small teams. Managing a helpline on WhatsApp is not easy; from employment related inquiries to requests for setting up appointments with celebrities — fact-checkers have dealt with it all. There’s also video calls from users at all hours, pornographic content, trolls, these are also concerns flagged by fact-checkers in India.
+
+    So how do fact-checking initiatives cope with this? Well…
+
+    - Some have had to discontinue their helplines
+    - Others have to scroll through several messages to identify and prioritize the most relevant ones
+    - Fact-checkers are also relying on other social media platforms to look for relevant information to address. “We can’t not address misinformation on WhatsApp”, the last fact-checker I met said.
+
+    #### Check is here to help!
+
+    Meedan’s digital tool, Check, has features that can provide solutions to messages on closed apps like WhatsApp or Facebook Messenger. I was introduced to Check last year when I learned about Verificado, a collaborative election reporting and fact-checking project in Mexico. In March this year I was actively using Check while working on Checkpoint, a research project around the 2019 Indian general election where Check integrated with the WhatsApp Business API.
+
+    As a Check journalist, there are many tasks that the tool simplified
+
+    - I didn’t have to look at a WhatsApp number everyday to find relevant election related messages
+    - It was possible for me to collaborate with other team members, even those members who were not physically present in the same space, because we all had access to the same feed
+    - Finding important messages buried in a heap of junk also became easier because of Check
+    - Keeping track of work and looking at patterns of misinformation was another task where different features of Check came in handy.
+
+    I saw the potential of Check to perform many more tasks to help fact-checkers, journalists, activists and researchers. As a team member leading Meedan’s work in the Asia Pacific region, I am now engaging with new partners and introducing Check to their workflows. I understand the concerns of journalists and fact-checkers well, and some of their concerns are now on the roadmap for Meedan’s team to improve Check and enhance its features. As a Meedan team member, I understand how Check can be positioned in the work of organizations and how its existing features can be applied effectively. It’s a dynamic relationship and it’s a good place to be in.
+
+
 
 
   words_by:
@@ -215,7 +244,7 @@ story:
 - sys:
     id: 45vAHRb7C95yfC4xPspSvd
     created_at: !ruby/object:DateTime 2020-02-25 22:28:23.080000000 Z
-    updated_at: !ruby/object:DateTime 2020-02-25 22:50:30.783000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-02 22:00:49.730000000 Z
     content_type_id: story
     revision: 0
   title: Signaling Credibility — What We’re Building at the W3C
@@ -252,7 +281,52 @@ story:
     (yes, that means means we’re celebrating our birthday today!), at CredWeb pleased
     to release two documents for public review and commentary. These are both DRAFT
     documents, designed to be circulated and commented on by folks dedicating time
-    to this issue.\n\n"
+    to this issue.\n\n#### [Technological Approaches to Improving Credibility Assessment
+    on the Web](https://credweb.org/report/20181011)\n\nThis is a vision document
+    that captures a general technical approach for improving credibility assessment
+    online. It captures everything from terminology to threat models and stakeholders,
+    and it lays out some of our core vision for the potential of these standards.
+    It’s a hefty lift, and we recommend taking some time to look through it and offer
+    commentary.\n\nHere’s how it starts:\n\n*Can you tell, when looking at a random
+    web page, whether you should trust it? When scanning a page of reviews or search
+    results, do you know which matches come from legitimate sources and which are
+    scams? When reading a news feed, can you tell which items ought to be believed
+    and which are slanted or manipulative? Can you detect propaganda or outright lies?
+    Perhaps most importantly, what happens when you inevitably guess wrong while making
+    some of these credibility assessments, and you unknowingly share falsehoods with
+    your community, helping to make them viral? What if you are misled into making
+    bad decisions for yourself and the people you care about, with potentially disastrous
+    consequences?*\n\n*The Credible Web Community Group was formed at W3C, the organization
+    which develops technical standards for the web, to look for technological approaches
+    to this “credibility assessment” problem. It’s not that we think technology can
+    solve every problem, especially ones as deeply human and complex as this one,
+    but it seems likely that some technology is making matters worse and that certain
+    designs could probably serve people better. For some of us, creating better approaches
+    to credibility assessment seems like a good way to help.*\n\n\n#### [Credibility
+    Signals](https://credweb.org/signals/)\n\nAfter reading through the above, it
+    helps to dive into specifics. What do signals look like? In this document, we
+    have an outline of some draft signals. They range from signals around rhetoric
+    — does it show negative or positive valence? — to a typology around clickbait
+    and what it means for a title to accurately represent the body content.\n\nHere’s
+    how we frame the document:\n\n*This document is intended to support an ecosystem
+    of interoperable credibility tools. These software tools, which may be components
+    of familiar existing systems, will gather, process, and use relevant data to help
+    people more accurately decide what information they can trust online and protect
+    themselves from being misled. We expect that an open data-sharing architecture
+    will facilitate efficient research and development, as well as an overall system
+    which is more visibly trustworthy.*\n\n*The document has three primary audiences:*\n\n-
+    *Software developers and computer science researchers wanting to build systems
+    which work with credibility data. For them, the document aims to be a precise
+    technical specification, stating what they need for their software to interoperate
+    with any other software which conforms to this specification.*\n- *People who
+    work in journalism and want to review and contribute to this technology sphere,
+    to help make sure it is beneficial and practical.*\n- *Non-computer-science researchers,
+    interested in helping develop and improve the science behind this work.*\n\nWe’re
+    grateful to the many many participants who gave feedback on these documents in
+    their early stages, and we’re looking forward to advancing them in our second
+    year as a group. If you’re coming to [CredCon](http://www.credcon.org/), be sure
+    to join our workshops and chat with CredWeb co-chair Sandro Hawke. Or, learn more
+    about joining the group at [credweb.org](http://credweb.org/).\n\n\n\n\n"
 - sys:
     id: 7jKRIrwtkpkWXs4584YVyZ
     created_at: !ruby/object:DateTime 2020-02-25 22:42:45.916000000 Z
