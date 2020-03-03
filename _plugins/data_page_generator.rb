@@ -49,7 +49,6 @@ module Jekyll
       # SEO fixes
       if template == "story"
         data['description'] = data['body'].split[0...30].join(' ')
-        data['image'] = "https:" + data['lead_image']['url']
       end
       
       # add all the information defined in _data for the current record to the
