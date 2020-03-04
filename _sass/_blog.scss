@@ -154,8 +154,13 @@
     max-height: 40vw;
 }
 
-.story-wrapper ul li {
-    margin-bottom: var(--space-1);
+.story-wrapper ul,
+.story-wrapper ol {
+    margin-left: var(--space-4);
+    li {
+        padding-left: var(--space-1);
+        margin-bottom: var(--space-1);
+    }
 }
 
 .story-wrapper h4 {

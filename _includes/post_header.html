@@ -12,6 +12,8 @@
         <h1><a href="/jobs">Jobs</a></h1>
     {% elsif page.sys.content_type_id == 'story' %}
         <h1><a href="/blog">Blog</a></h1>
+    {% elsif page.layout == 'legal' %}
+        <h1><a href="/legal">Legal</a></h1>
     {% endif %}
     <div class="title-container main-grid__1--1">
         <span class="tag">

@@ -143,6 +143,8 @@
     font-size: var(--scale-0);
     padding: var(--space-1) var(--space-1);
     border-bottom: 1px solid var(--blackInk);
+    color: var(--blackInk);
+    text-decoration: none;
     &:hover {
         background-color: var(--blackInk);
         color: #fff;
