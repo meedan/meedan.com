@@ -5,7 +5,7 @@
             {% if project.stories %}
                 {% for story in project.stories %}
                 <div class="main-grid__1-5 bleed project-story">
-                    <a href="/journal/{{ story.slug }}">
+                    <a href="/blog/{{ story.slug }}">
                         <img src="{{ story.lead_image.url }}" />
                         <h4>{{ story.title }}</h4>
                         <div class="arrow">→</div>

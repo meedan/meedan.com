@@ -137,7 +137,7 @@ page_gen:
   - data: 'contentful.spaces.stories.story'
     template: 'story'
     name: 'slug'
-    dir: '/journal/'
+    dir: '/blog/'
   - data: 'contentful.spaces.jobs.job'
     template: 'job'
     name: 'slug'

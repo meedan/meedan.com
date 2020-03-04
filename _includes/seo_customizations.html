@@ -28,7 +28,7 @@
     <meta property="og:image:alt" content="Meedan team" />
     <meta property="og:image:width" content="1000" />
     <meta property="og:image:height" content="500" />
-{% elsif page.path contains 'journal/' %}
+{% elsif page.path contains 'blog/' %}
     <meta property="og:image" content="http:{{ page.lead_image.url }}" />
     <meta property="og:image:secure_url" content="https:{{ page.lead_image.url }}" />
     <meta property="og:image:alt" content="{{ page.title }}" />
@@ -43,3 +43,5 @@
     <meta property="og:image:width" content="1000" />
     <meta property="og:image:height" content="500" />
 {% endif %}
+
+{{ page.path | debug }}

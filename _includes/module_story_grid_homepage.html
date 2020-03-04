@@ -5,14 +5,14 @@
         {% for story in stories limit:4 %}
         <div class="story-grid-item{% if forloop.last %}{{ 'with-more-link' | prepend: ' ' }}{% endif %}">
             <div class="title-container">
-                <a class="tag" href="/journal/{{ story.slug }}">
+                <a class="tag" href="/blog/{{ story.slug }}">
                     {% for topic in story.topic %}
                         {{ topic.title }} /
                     {% endfor %}
                 </a>
-                <a class="title" href="/journal/{{ story.slug }}">{{ story.title }}</a>
+                <a class="title" href="/blog/{{ story.slug }}">{{ story.title }}</a>
             </div>
-            <a href="/journal/{{ story.slug }}">
+            <a href="/blog/{{ story.slug }}">
                 <picture class="image-container">
                     <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
                 </picture>
@@ -20,7 +20,7 @@
             {% if forloop.last %}
                 {% if include.trail %}
                     <div class="trail-wrapper">
-                        <span class="trail"><hr /><a href="/journal" class="button">View all stories</a></span>
+                        <span class="trail"><hr /><a href="/blog" class="button">View all stories</a></span>
                     </div>
                 {% endif %}
             {% endif %}
