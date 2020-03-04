@@ -1,27 +1,29 @@
 {% assign stories = site.data.contentful.spaces.stories.story %}
 <section class="module module-story-grid section-margin">
-    {% for story in stories %}
-    <div class="story-grid-item with-more-link">
-        <div class="title-container">
-            <a class="tag" href="/journal/{{ story.slug }}">
-                {% for topic in story.topic %}
-                    {{ topic.title }} /
-                {% endfor %}
+    <div class="module-wrapper">
+        {% for story in stories %}
+        <div class="story-grid-item with-more-link">
+            <div class="title-container">
+                <a class="tag" href="/journal/{{ story.slug }}">
+                    {% for topic in story.topic %}
+                        {{ topic.title }} /
+                    {% endfor %}
+                </a>
+                <a class="title" href="/journal/{{ story.slug }}">{{ story.title }}</a>
+            </div>
+            <a href="/journal/{{ story.slug }}">
+                <picture class="image-container">
+                    <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+                </picture>
             </a>
-            <a class="title" href="/journal/{{ story.slug }}">{{ story.title }}</a>
-        </div>
-        <a href="/journal/{{ story.slug }}">
-            <picture class="image-container">
-                <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
-            </picture>
-        </a>
-        {% if forloop.last %}
-            {% if include.trail %}
-                <div class="trail-wrapper">
-                    <span class="trail"><hr /><a href="/journal" class="button">View all stories</a></span>
-                </div>
+            {% if forloop.last %}
+                {% if include.trail %}
+                    <div class="trail-wrapper">
+                        <span class="trail"><hr /><a href="/journal" class="button">View all stories</a></span>
+                    </div>
+                {% endif %}
             {% endif %}
-        {% endif %}
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </section>
