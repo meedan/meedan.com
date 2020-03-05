@@ -10,8 +10,9 @@
     a {
         display: inline-block;
         font-size: var(--scale-0);
-        color: #fff;
-        opacity: 0.6;
+        color: var(--blackInk);
+        opacity: 0.9;
+        text-decoration: none;
     }
     a {
         &:hover {
@@ -46,11 +47,24 @@
         position: absolute;
         left: var(--space-3);
         right: var(--space-3);
-        border-top: 1px solid rgba(#fff, 0.6);
+        border-top: 1px solid var(--blackInk);
     }
 }
 
-.dark.footer-small a {
+.dark.footer-small {
     color: #fff;
+    span,
+    a {
+    color: #fff;
+    opacity: 0.6;
     text-decoration: none;
+    }
+    a {
+        &:hover {
+            opacity: 1;
+        }
+    }
+    &:before {
+        border-color: rgba(#fff, 0.6);
+    }
 }
