@@ -95,13 +95,37 @@
 
 .slideshow {
     overflow-x: hidden;
-    img {
+    .slide {
+        position: relative;
+    }
+    figure {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        cursor: move;
+        &:hover {
+            figcaption { display: inline-block; }
+        }
+    }
+    .slide img {
         background-size: cover;
         // width: 80%;
         height: 42vw;
         object-fit:scale-down;
     }
-    img:first-child {
+    .slide:first-child {
         padding-left: var(--scale-3);
+    }
+    figcaption {
+        display: none;
+        background-color: rgba(#262626, 0.8);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.4;
+        padding: 1rem;
+        // padding-right: var(--space-1);
     }
 }

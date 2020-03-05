@@ -116,7 +116,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-figure,
+figure.graphic,
 .main-grid,
 footer {
     padding-left: var(--space-3);
@@ -135,7 +135,7 @@ footer {
 }
 
 @include responsive('min-width: #{$width-tablet}') {
-    figure,
+    figure.graphic,
     .main-grid,
     header,
     footer {
