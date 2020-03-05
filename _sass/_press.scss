@@ -1,5 +1,8 @@
 .press-item-quote {
     margin-top: var(--space-2);
+    .quote {
+        font-size: var(--scale-2);
+    }
 }
 
 .press-item {
