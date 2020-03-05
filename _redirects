@@ -14,3 +14,7 @@
 # /en/bridge/bridge_privacy.html          /bridge/bridge_privacy.html
 # /en/bridge/bridge_tos.html              /bridge/bridge_tos.html
 # /en/copyright/                          /copyright/
+
+
+# Domain Redirects
+https://next.meedan.com/*                 https://meedan.com/:splat     301!
