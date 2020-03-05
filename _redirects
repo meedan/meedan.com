@@ -1,17 +1,17 @@
 # Redirects from what the browser requests to what we serve
 
-# /en/*                                     /:splat
-/en/                                    /
-/en/check/                              /technology/check/
-/es/check/                              /technology/check/
+/en/*                                     /:splat
+# /en/                                    /
+# /en/check/                              /technology/check/
+# /es/check/                              /technology/check/
 /check/                                 /technology/check/
-/en/bridge/                             /technology/check/
-/en/about/                              /about/
-/en/updates/                            /blog/
-/en/jobs/                               /jobs/
-/en/check/                              /technology/check/
-/en/check/check_privacy.html            /check/check_privacy.html
-/en/check/check_tos.html                /check/check_tos.html
-/en/bridge/bridge_privacy.html          /bridge/bridge_privacy.html
-/en/bridge/bridge_tos.html              /bridge/bridge_tos.html
-/en/copyright/                          /copyright/
+# /en/bridge/                             /technology/check/
+# /en/about/                              /about/
+# /en/updates/                            /blog/
+# /en/jobs/                               /jobs/
+# /en/check/                              /technology/check/
+# /en/check/check_privacy.html            /check/check_privacy.html
+# /en/check/check_tos.html                /check/check_tos.html
+# /en/bridge/bridge_privacy.html          /bridge/bridge_privacy.html
+# /en/bridge/bridge_tos.html              /bridge/bridge_tos.html
+# /en/copyright/                          /copyright/
