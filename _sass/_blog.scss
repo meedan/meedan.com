@@ -67,6 +67,9 @@
 .story,
 .blog {
     background-color: var(--accent);
+    a {
+        color: var(--blackInk);
+    }
 }
 
 .story .title-container {
