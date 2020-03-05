@@ -1,6 +1,6 @@
 {% assign stories = site.data.contentful.spaces.stories.story %}
 <section class="module module-story-grid section-margin">
-    <h3 class="section-title">What's New</h3>
+    <h3 class="section-title">● Blog</h3>
     <div class="module-wrapper">
         {% for story in stories limit:4 %}
         <div class="story-grid-item{% if forloop.last %}{{ 'with-more-link' | prepend: ' ' }}{% endif %}">
