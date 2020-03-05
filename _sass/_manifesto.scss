@@ -8,6 +8,17 @@
     hyphens: auto;
 }
 
+.module-manifesto .credit {
+    font-size: 1rem;
+    display: block;
+    margin-top: var(--space-1);
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    opacity: 0.6;
+    text-align: right;
+    line-height: 1.4;
+}
+
 @media (min-width: 1px) and (max-width: #{$width-desktop}) {
     .module-manifesto .intro img {
         margin-bottom: -1rem;
