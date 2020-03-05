@@ -10,7 +10,7 @@ $(document).ready(function() {
 	$('.slideshow').slick({
 		infinite: true,
 		slidesToShow: 1,
-		// autoplay: true,
+		autoplay: true,
 		autoplaySpeed: 3000,
 		variableWidth: true,
 		dots: false,

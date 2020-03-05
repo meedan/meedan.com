@@ -39,7 +39,7 @@ $(function () {
 		arrows: false,
 		infinite: false,
 		swipeToSlide: true,
-    draggable: false,
+    	draggable: true,
 		touchThreshold: 10
 	});
 
