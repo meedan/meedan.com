@@ -1,10 +1,11 @@
 # Redirects from what the browser requests to what we serve
 /en/*                                     /:splat
 /updates/                                 /blog/
+/bridge/                                  /check/
 # /en/                                    /
 # /en/check/                              /check/
 # /es/check/                              /check/
-# /en/bridge/                             /check/
+# /en/bridge/                            /check/
 # /en/about/                              /about/
 # /en/updates/                            /blog/
 # /en/jobs/                               /jobs/
