@@ -1,4 +1,4 @@
-{% assign projects = site.data.contentful.spaces.projects.project %}
+{% assign projects = site.data.contentful.spaces.projects.project | sort: 'order' %}
 <div class="module module-project-list">
     {% for project in projects %}
         <div class="main-grid section-margin bleed-left">

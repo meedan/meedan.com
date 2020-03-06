@@ -3,9 +3,9 @@ project:
 - sys:
     id: 1qNyYdbk1y7nt1zzo18Yyl
     created_at: !ruby/object:DateTime 2020-03-05 18:49:07.952000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-05 18:49:07.952000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-06 01:31:46.979000000 Z
     content_type_id: project
-    revision: 1
+    revision: 2
   title: Content Moderation Project
   hero_image:
     sys:
@@ -21,12 +21,13 @@ project:
     rights responders help us better understand varying experiences with content moderation
     and allow us to identify points of intervention.
   slug: content-moderation-project
+  order: 5
 - sys:
     id: ZrRI71jL8H3THqYYM98j8
     created_at: !ruby/object:DateTime 2020-03-05 18:49:35.682000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-05 18:49:35.682000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-06 01:31:11.203000000 Z
     content_type_id: project
-    revision: 1
+    revision: 5
   title: Check Global
   hero_image:
     sys:
@@ -36,10 +37,10 @@ project:
     title: Check Global
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/6NUsv6oRkYob4fiImP6S2W/096be2ca061cf06f4322410b2d593ba0/project-check-global.png"
-  short_description: Check Global is an initiative that supports journalism and human
+  short_description: 'Check Global is an initiative that supports journalism and human
     rights research in the developing world. We provide software, training and support
     to an international group of independent media organizations, journalism schools
-    and human rights researchers.
+    and human rights researchers.  '
   summary: Provides tools, training and support to an international network of independent
     media organizations, journalism schools and human rights researchers in the developing
     world.
@@ -109,12 +110,13 @@ project:
     words_by:
     - sys:
         id: 1uaMTril4FB8NxxRTKwLDH
+  order: 1
 - sys:
     id: UJfyuXyQXasahqsdKIV07
     created_at: !ruby/object:DateTime 2020-03-05 18:49:49.422000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-05 18:49:49.422000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-06 01:31:29.665000000 Z
     content_type_id: project
-    revision: 1
+    revision: 4
   title: Credibility Coalition
   hero_image:
     sys:
@@ -124,9 +126,9 @@ project:
     title: Credibility Coalition
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/7sQg1C3EdlTzklL3YulGY7/33897c950f96cf8bc93c8353d6d81aa2/project-credibility-coalition.png"
-  short_description: An interdisciplinary research incubator founded in partnership
+  short_description: 'An interdisciplinary research incubator founded in partnership
     with Hacks/Hackers. We facilitate working groups that think through misinformation
-    problems using design, health, economic and many other lenses.
+    problems using design, health, economic and many other lenses. '
   links: "- [Website](https://credibilitycoalition.org/)\n"
   slug: credibility-coalition
   stories:
@@ -218,12 +220,13 @@ project:
       you’re coming to [CredCon](http://www.credcon.org/), be sure to join our workshops
       and chat with CredWeb co-chair Sandro Hawke. Or, learn more about joining the
       group at [credweb.org](http://credweb.org/).\n\n\n\n\n"
+  order: 3
 - sys:
     id: 2IpXGBWrltynhplbhkfG6D
     created_at: !ruby/object:DateTime 2020-03-05 18:50:00.638000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-05 18:50:00.638000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-06 01:31:39.497000000 Z
     content_type_id: project
-    revision: 1
+    revision: 4
   title: Pop-Up Newsroom
   hero_image:
     sys:
@@ -233,10 +236,10 @@ project:
     title: Pop-Up Newsroom
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/1JitRMENSazZqLtnMzC31C/d4da9dfb77035924d51865116c8545ea/project-pop-up-newsroom-2.png"
-  short_description: We develop collaborative editorial projects with newsrooms around
+  short_description: 'We develop collaborative editorial projects with newsrooms around
     the world. Our job is to generate large-scale ideas, supply the collaborative
     technology and execute complex workflows between different news outlets. This
-    is a joint project with London-based news consultancy Fathm.
+    is a joint project with London-based news consultancy Fathm. '
   links: "- [Website](https://popup.news/)\n"
   slug: pop-up-newsroom
   stories:
@@ -284,12 +287,13 @@ project:
     words_by:
     - sys:
         id: KqWGUp2L3YoBZP00nuZYv
+  order: 4
 - sys:
     id: 4ZJUuixM4DCL7IrvAbgd4P
     created_at: !ruby/object:DateTime 2020-03-05 18:50:10.457000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-05 18:50:10.457000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-06 01:31:17.190000000 Z
     content_type_id: project
-    revision: 1
+    revision: 4
   title: Digital Health Lab
   hero_image:
     sys:
@@ -299,9 +303,9 @@ project:
     title: 'Digital Health: Fact-checking in an era of misinfodemics'
     description: 'Digital Health: Fact-checking in an era of misinfodemics'
     url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"
-  short_description: Researching, designing and testing the impact of the internet
+  short_description: 'Researching, designing and testing the impact of the internet
     on public health. We are building a framework for addressing health misinformation,
-    and it is centered around more equitable access to quality health content.
+    and it is centered around more equitable access to quality health content. '
   links: "- [Website](https://health.meedan.com/)\n"
   slug: digital-health-lab
   stories:
@@ -334,3 +338,4 @@ project:
       this is having on population health suggests it is critical and urgent to re-think
       and innovate around the way we approach health misinformation.\n\n[Read the
       report](https://health.meedan.com/primer.pdf)."
+  order: 2
