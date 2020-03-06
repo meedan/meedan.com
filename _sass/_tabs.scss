@@ -17,6 +17,21 @@ $non-active-tab-color: var(--blackInk);
     .tab-image {
         grid-column: span 1;
     }
+
+    .tab-image {
+        position: relative;
+        .credit {
+            font-size: 1rem;
+            line-height: 1.4;
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(#262626, 0.6);
+            padding: 1rem;
+            width: 100%;
+            color: #fff;
+        }
+    }
     
     .tab-image img {
         width: 100%;
