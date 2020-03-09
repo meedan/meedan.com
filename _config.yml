@@ -111,6 +111,15 @@ contentful:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
+    - jobs: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        cda_query:
+          content_type: 'job'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
+        all_entries: true
+        destination: 'contentful/spaces/'
 
 
 # Generate pages from Contentful data files
@@ -132,3 +141,7 @@ page_gen:
     template: 'story'
     name: 'slug'
     dir: '/blog/'
+  - data: 'contentful.spaces.jobs.job'
+    template: 'job'
+    name: 'slug'
+    dir: '/jobs/'

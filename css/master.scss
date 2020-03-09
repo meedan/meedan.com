@@ -71,6 +71,7 @@
     --space-5: 3.333rem; // 60px
     --space-6: 4.444rem; // 80px
     --space-7: 5.556rem; // 100px
+    --space-8: 5.556rem; // 120px
     --section-space: var(--space-6);
     @include responsive('min-width: #{$width-tablet}') {
         --space-1: 1.250rem; // 20px
@@ -79,7 +80,9 @@
         --space-4: 3.333rem; // 60px
         --space-5: 4.444rem; // 80px
         --space-6: 5.556rem; // 100px
-        --section-space: 6.667rem; // 120px
+        --space-7: 5.556rem; // 120px
+        --section-space: var(--space-7); // 120px
+        --space-8: 7.778rem; // 140px
     }
 }
 
