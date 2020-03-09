@@ -1,4 +1,4 @@
-{% assign stories = site.data.contentful.spaces.stories.story %}
+{% assign stories = site.data.contentful.spaces.stories.story | story_date_sort | reverse %}
 <section class="module module-story-grid section-margin">
     <div class="module-wrapper">
         {% for story in stories %}

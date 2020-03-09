@@ -110,6 +110,8 @@ contentful:
         client_options:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
+        content_types:
+          story: StoryMapper
         destination: 'contentful/spaces/'
     - jobs: 
         space: ENV_CONTENTFUL_M_SPACE_ID
@@ -119,6 +121,8 @@ contentful:
         client_options:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
+        content_types:
+          job: JobsMapper
         destination: 'contentful/spaces/'
 
 

@@ -6,6 +6,19 @@ job:
     updated_at: !ruby/object:DateTime 2020-02-25 20:13:41.422000000 Z
     content_type_id: job
     revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: Design Associate (CDMX)
   slug: design-associate-cdmx
   body: |-
@@ -65,12 +78,26 @@ job:
     Meedan is a fast-paced, small, software development startup that relies heavily on the unique skills of each team member. Our team members are able to work flexibly and respond to challenges across a range of project areas. We are headquartered in San Francisco’s SOMA district. We encourage individuals from historically underrepresented communities in technology and journalism to apply, including women, people of color, people with disabilities and those who identify as LGBTQ.
 
     Please send CV, portfolio (or a website equivalent) and statement of interest to jobs@meedan.com.
+  date: '2020-02-25'
 - sys:
     id: 6AgtUn149xr01IT56AqDbV
     created_at: !ruby/object:DateTime 2020-03-09 22:36:44.593000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 22:38:47.561000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:17.171000000 Z
     content_type_id: job
-    revision: 0
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: SysOps Specialist
   slug: sysops-specialist
   body: |-
@@ -116,12 +143,26 @@ job:
     Salary commensurate with qualifications and experience.
 
     Please send CV, Github repo and statement of interest to jobs@meedan.com.
+  date: '2020-03-09'
 - sys:
     id: 4SJXXyNQWl2YY5WawH8Z8f
     created_at: !ruby/object:DateTime 2020-03-09 22:38:56.806000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 22:45:34.881000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:11.547000000 Z
     content_type_id: job
-    revision: 0
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: Research Fellow
   slug: research-fellow
   body: "- __Location:__ San Francisco, USA, or Oxford, UK, preferred; remote possible
@@ -217,3 +258,4 @@ job:
     color, people with disabilities and those who identify as LGBTQ.\n\nSalary and
     benefits commensurate with qualifications and experience. \n\nPlease send CV and
     statement of interest to jobs@meedan.com \n"
+  date: '2020-03-09'

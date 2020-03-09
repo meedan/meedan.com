@@ -1,4 +1,4 @@
-{% assign jobs = site.data.contentful.spaces.jobs.job %}
+{% assign jobs = site.data.contentful.spaces.jobs.job | date_sort %}
 {% if jobs.size %}
     <h3>Open positions</h3>
     <div class="plain-list">
