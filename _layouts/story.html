@@ -23,13 +23,19 @@
                     </div>
                 {% endif %}
                 <div class="story-footer-item">
-                    <span>Published on</span> {{ page.sys.created_at | date: "%-d %B %Y" }}
+                    {% if page.alt_date %}
+                        {% assign published_on = page.alt_date %}
+                    {% else %}
+                        {% assign published_on = page.sys.created_at %}
+                    {% endif %}
+                    <span>Published on</span> {{ published_on | date: "%-d %B %Y" }}
                 </div>
             </div>
             {% include module_checklist.html %}
             {% include footer_small.html theme="dark" %}
         </section>
     </div>
+    <!-- {% include footer_nav.html %} -->
     {% include js.html %}
 </body>
 

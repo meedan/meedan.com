@@ -149,3 +149,15 @@
 .justify-self--center {
     justify-self: center;
 }
+
+.content-grid--2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content-grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content-grid--4 {
+    grid-template-columns: repeat(2, 1fr);
+}

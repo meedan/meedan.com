@@ -1,11 +1,17 @@
 {% assign jobs = site.data.contentful.spaces.jobs.job %}
 {% if jobs.size %}
     <h3>Open positions</h3>
-    {% for job in jobs %}
-        <a href="/jobs/{{ job.slug }}">
-            {{ job.title }}
-        </a>
-    {% endfor %}
+    <div class="plain-list">
+        <ul>
+            {% for job in jobs %}
+                <li>
+                    <a href="/jobs/{{ job.slug }}">
+                        {{ job.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 {% else %}
     <p>There are currently no opportunities open at Meedan.</p>
 {% endif %}
