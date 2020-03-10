@@ -127,7 +127,6 @@
     }
     img, 
     blockquote {
-        text-align: center;
         @include responsive('min-width: #{$width-tablet}') {
             grid-column: 2/12;
         }
@@ -169,8 +168,14 @@
     margin-bottom: var(--space-1);
 }
 
-.page-wrapper .lead_image {
-    max-height: 40vw;
+.story .page-wrapper .graphic {
+    text-align: center;
+    @include responsive('min-width: #{$width-tablet}') {
+        text-align: unset;
+    }
+    .lead_image {
+        max-height: 40vw;
+    }
 }
 
 .story-wrapper ul,
