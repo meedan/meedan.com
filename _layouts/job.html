@@ -2,14 +2,26 @@
 <html dir="ltr" lang="en-US">
 {% include head.html %}
 
-<body class="site story">
+<body class="site story job">
     <a id="top"></a>
     <div class="page-wrapper">
         {% include post_header.html %}
         <section>
             <div class="story-wrapper section-margin">
+                <div class="story-sidebar">
+                    <div class="story-sidebar-item">
+                        Please send CV and statement of interest
+                        <a href="mailto:jobs@meedan.com" class="button">
+                            Apply ↗
+                        </a>
+                    </div>
+                    <div class="story-sidebar-item">
+                        <span>Published on</span> {{ page.sys.created_at | date: "%-d %B %Y" }}
+                    </div>
+                </div>
                 {{ page.body | markdownify }}
             </div>
+            
             <!-- <div class="story-footer small-hr section-margin">
                 <div class="story-footer-item">
                     <span>Published on</span> {{ page.sys.created_at | date: "%-d %B %Y" }}
