@@ -1,13 +1,22 @@
-{% assign stories = site.data.contentful.spaces.stories.story %}
+<!-- Get list of handpicked stories -->
+{% assign story_list = site.data.contentful.spaces.moduleStories.moduleStories 
+    | where_exp: "item","item.sys.id == '7s8B9FgTZA4NcTCAz2F5DX'"
+%}
+{% assign topics = site.data.contentful.spaces.topics.topic %}
+
 <section class="module module-story-grid section-margin">
-    <h3 class="section-title">● Blog</h3>
+    <h3 class="section-title">● {{ story_list[0].title }}</h3>
     <div class="module-wrapper">
-        {% for story in stories limit:4 %}
+        {% for story in story_list[0].stories limit:4 %}
         <div class="story-grid-item{% if forloop.last %}{{ 'with-more-link' | prepend: ' ' }}{% endif %}">
             <div class="title-container">
                 <a class="tag" href="/blog/{{ story.slug }}">
-                    {% for topic in story.topic %}
-                        {{ topic.title }} /
+                    {% for t in story.topic %}
+                        {% for topic in topics %}
+                            {% if t.sys.id == topic.sys.id %}
+                                {{ topic.title }} /
+                            {% endif %}
+                        {% endfor %}
                     {% endfor %}
                 </a>
                 <a class="title" href="/blog/{{ story.slug }}">{{ story.title }}</a>
