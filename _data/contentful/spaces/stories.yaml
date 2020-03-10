@@ -3,9 +3,22 @@ story:
 - sys:
     id: m7aLQU2hG9LVRQc6LJqHz
     created_at: !ruby/object:DateTime 2020-02-25 01:43:46.111000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 20:03:36.996000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.288000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: How Meedan supported three reporting initiatives in Asia
   slug: how-meedan-supported-three-reporting-initiatives-in-asia
   topic:
@@ -70,12 +83,27 @@ story:
       revision: 1
     name: Megan Marrelli
   alt_date: !ruby/object:DateTime 2019-07-29 00:00:00.000000000 Z
+  date: '2020-02-25'
+  alt_date_string: '2019-07-29'
 - sys:
     id: 14n0r6BLwwNHAyCz6a9tZn
     created_at: !ruby/object:DateTime 2020-02-25 05:38:09.276000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 19:48:07.391000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.279000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: Our veteran journalist on WhatsApp misinformation during India’s elections
   slug: our-veteran-journalist-on-whatsapp-misinformation-during-indias-elections
   topic:
@@ -138,12 +166,27 @@ story:
       revision: 1
     name: Shalini Joshi
   alt_date: !ruby/object:DateTime 2019-11-01 00:00:00.000000000 Z
+  date: '2020-02-25'
+  alt_date_string: '2019-11-01'
 - sys:
     id: 3m8HqQDFPSp3pXHNYzhS8P
     created_at: !ruby/object:DateTime 2020-02-25 06:59:01.557000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 19:52:21.112000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.293000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: Caio Almeida on software that serves a global community
   slug: caio-almeida-on-software-that-serves-a-global-community
   topic:
@@ -213,12 +256,27 @@ story:
       revision: 1
     name: Caio Almeida
   alt_date: !ruby/object:DateTime 2019-12-12 00:00:00.000000000 Z
+  date: '2020-02-25'
+  alt_date_string: '2019-12-12'
 - sys:
     id: 5yWSBJ4oHKMmIkekWoomZg
-    created_at: !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
+    created_at: &1 !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
     updated_at: !ruby/object:DateTime 2020-03-05 18:44:51.466000000 Z
     content_type_id: story
     revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: 'Digital Health: Fact-checking in an era of misinfodemics '
   slug: digital-health-fact-checking-in-an-era-of-misinfodemics
   topic:
@@ -246,12 +304,28 @@ story:
     epidemics, and access to care for serious illnesses. \n\nThe impact that this
     is having on population health suggests it is critical and urgent to re-think
     and innovate around the way we approach health misinformation.\n\n[Read the report](https://health.meedan.com/primer.pdf)."
+  date: '2020-02-25'
+  alt_date: *1
+  alt_date_string: '2020-02-25'
 - sys:
     id: 45vAHRb7C95yfC4xPspSvd
     created_at: !ruby/object:DateTime 2020-02-25 22:28:23.080000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 20:04:48.051000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.272000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: Signaling Credibility — What We’re Building at the W3C
   slug: signaling-credibility-what-were-building-at-the-w3c
   lead_image:
@@ -333,12 +407,27 @@ story:
     to join our workshops and chat with CredWeb co-chair Sandro Hawke. Or, learn more
     about joining the group at [credweb.org](http://credweb.org/).\n\n\n\n\n"
   alt_date: !ruby/object:DateTime 2018-11-08 00:00:00.000000000 Z
+  date: '2020-02-25'
+  alt_date_string: '2018-11-08'
 - sys:
     id: 7jKRIrwtkpkWXs4584YVyZ
     created_at: !ruby/object:DateTime 2020-02-25 22:42:45.916000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 20:05:51.532000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.272000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: Five Insights For Collaborative Natural Disaster Reporting From Hurricane
     Florence
   slug: five-insights-for-collaborative-natural-disaster-reporting-from-hurricane
@@ -383,3 +472,5 @@ story:
       revision: 1
     name: Tom Trewinnard
   alt_date: !ruby/object:DateTime 2018-10-10 00:00:00.000000000 Z
+  date: '2020-02-25'
+  alt_date_string: '2018-10-10'
