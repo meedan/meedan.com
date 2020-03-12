@@ -53,7 +53,7 @@
     padding-left: 0.5em;
 }
 
-.page-wrapper figure {
+.page-wrapper figure:not(.no-margin) {
     margin-top: var(--space-3);
     margin-bottom: var(--space-4);
 }
