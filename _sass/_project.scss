@@ -1,5 +1,10 @@
 .module-project-list {
     // margin-bottom: var(--space-4);
+    @include responsive('min-width: #{$width-tablet}') {
+        .projects {
+            padding-left: 0;
+        }
+    }
     .project-teaser {
         margin-top: var(--space-1);
     }

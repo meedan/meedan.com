@@ -120,8 +120,9 @@
     }
     p:first-child {
         font-size: var(--scale-1);
-        margin-bottom: var(--space-6);
+        margin-bottom: var(--space-4);
         @include responsive('min-width: #{$width-tablet}') {
+            margin-bottom: var(--space-6);
             grid-column: 2/12;
         }
     }
@@ -172,9 +173,9 @@
     text-align: center;
     @include responsive('min-width: #{$width-tablet}') {
         text-align: unset;
-    }
-    .lead_image {
-        max-height: 40vw;
+        .lead_image {
+            max-height: 40vw;
+        }
     }
 }
 

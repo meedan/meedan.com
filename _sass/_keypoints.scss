@@ -9,8 +9,10 @@
     padding-top: var(--space-2);
     padding-bottom: var(--space-2);
     border-bottom: 1px solid var(--blackInk);
-    &:nth-child(-n+3) {
-        border-top: 1px solid var(--blackInk);
+    @include responsive('min-width: #{$width-tablet}') {
+        &:nth-child(-n+3) {
+            border-top: 1px solid var(--blackInk);
+        }
     }
     .count,
     .title {

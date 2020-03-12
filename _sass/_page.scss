@@ -1,6 +1,10 @@
 .section-padding {
     padding-top: var(--space-4);
     padding-bottom: var(--section-space);
+    .bleed {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .section-margin {
@@ -110,7 +114,10 @@
     .slide img {
         background-size: cover;
         // width: 80%;
-        height: 42vw;
+        height: 62vw;
+        @include responsive('min-width: #{$width-tablet}') {
+            height: 42vw;
+        }
         object-fit:scale-down;
     }
     .slide:first-child {
