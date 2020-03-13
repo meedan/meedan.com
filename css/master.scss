@@ -67,7 +67,7 @@
     --scale-10: calc(var(--scale-9) * var(--int));
     
     --font-size-1: 1.4vw;
-    --space-1: 0.556rem; // 10px
+    --space-1: 1rem; // ?
     --space-2: 1.250rem; // 20px
     --space-3: 1.667rem; // 30px
     --space-4: 2.222rem; // 40px
@@ -137,6 +137,22 @@ footer {
     }
     &.bleed-right {
         padding-right: 0;
+    }
+}
+
+@include responsive('max-width: #{$width-mobile}') {
+    *[class^="main-grid__"] {
+        margin-bottom: var(--space-2);
+        .bleed {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .bleed-left {
+            padding-left: 0;
+        }
+        .bleed-right {
+            padding-right: 0;
+        }
     }
 }
 
@@ -281,9 +297,6 @@ header h1 {
 
 .page-wrapper header h2 {
     grid-column: 1 / 11;
-    // @include responsive('min-width: #{$width-desktop}') {
-    //     grid-column: 1 / 6;
-    // }
     font-size: var(--scale-5);
     @include responsive('min-width: #{$width-desktop}') {
         font-size: var(--scale-6);
@@ -291,6 +304,8 @@ header h1 {
     line-height: 1;
     padding-top: var(--space-5);
     padding-left: var(--space-3);
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .front {

@@ -11,7 +11,11 @@
         margin-bottom: 0;
     }
     .subtitle {
+        display: none;
         font-size: var(--scale-4);
+        @include responsive('min-width: #{$width-tablet}') {
+            display: block;
+        }
     }
     &:hover {
         input, button {

@@ -135,7 +135,7 @@
 }
 
 .plain-list ul {
-    list-style: none;
+    list-style-type: none;
     margin-top: var(--space-1);
 }
 .plain-list ul li a {
@@ -149,6 +149,15 @@
         background-color: var(--blackInk);
         color: #fff;
     }
+}
+
+.list-with-header ul {
+    list-style-type: none;
+    margin-bottom: var(--space-4);
+}
+
+.list-with-header ul li:first-child {
+    margin-bottom: var(--space-1);
 }
 
 .credit {
