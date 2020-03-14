@@ -13,7 +13,10 @@
     > p,
     a,
     ul,
-    ol {
+    ol,
+    h2,
+    h3,
+    h4 {
         @include responsive('min-width: #{$width-tablet}') {
             grid-column: 4/-1;
         }
