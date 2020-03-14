@@ -44,3 +44,11 @@
 @mixin grid-item-rows($row-start, $row-end) {
   grid-row: #{$row-start}/#{$row-end};
 }
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
