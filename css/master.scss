@@ -166,6 +166,26 @@ footer {
         grid-template-columns: repeat(12, 1fr);
     }
     .menu {
+        grid-column: 1 / 6;
+    }
+    .front h1,
+    .page-wrapper h1 {
+        grid-column: 6 / 10;
+        align-self: center;
+        line-height: 1;
+    }
+}
+
+@include responsive('min-width: #{$width-desktop}') {
+    figure.graphic,
+    .main-grid,
+    header,
+    footer {
+        display: grid;
+        grid-gap: var(--space-2);
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .menu {
         grid-column: 1 / 5;
     }
     .front h1,
@@ -313,7 +333,7 @@ header h1 {
 }
 
 .front header h2 {
-    grid-column: 1 / 9;
+    grid-column: 1 / 12;
     @include responsive('min-width: #{$width-desktop}') {
         grid-column: 1 / 9;
     }
@@ -331,7 +351,7 @@ header h1 {
 }
 
 .front .graphic img {
-    grid-column: 1 / -2;
+    grid-column: 2 / 12;
 }
 
 @include responsive('min-width: #{$width-desktop}') {

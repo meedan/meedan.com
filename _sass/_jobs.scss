@@ -9,3 +9,16 @@
     }
 }
 
+.job .story-wrapper {
+    > p,
+    a,
+    ul,
+    ol {
+        @include responsive('min-width: #{$width-tablet}') {
+            grid-column: 4/-1;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            grid-column: 4/11;
+        }
+    }
+}

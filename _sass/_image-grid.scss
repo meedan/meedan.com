@@ -5,8 +5,10 @@
         grid-template-rows: 1.2fr 0.5fr 0.5fr 1fr;
         grid-gap: 0;
     }
-    padding-left: var(--space-3);
-    padding-right: var(--space-3);
+    @include responsive('min-width: #{$width-desktop}') {
+        padding-left: var(--space-3);
+        padding-right: var(--space-3);
+    }
     .text {
         grid-column: 1 / 3;
         grid-row: 1 / 4;
