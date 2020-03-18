@@ -3,8 +3,12 @@
 }
 
 .quote {
-    color: #fff;
     display: block;
+    color: var(--checkBlue);
+}
+
+.about .quote {
+    color: #fff;
 }
 
 .module-user-quotes .quotes {

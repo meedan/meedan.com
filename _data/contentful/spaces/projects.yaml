@@ -1,30 +1,8 @@
 ---
 project:
 - sys:
-    id: 1qNyYdbk1y7nt1zzo18Yyl
-    created_at: !ruby/object:DateTime 2020-03-05 18:49:07.952000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-06 01:31:46.979000000 Z
-    content_type_id: project
-    revision: 2
-  title: Content Moderation Project
-  hero_image:
-    sys:
-      id: 6TfRuAKJj6golgGhzEl8eS
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
-    title: Content Moderation Project
-    description: Kat Lo
-    url: "//images.ctfassets.net/g118h5yoccvd/6TfRuAKJj6golgGhzEl8eS/a92c80a091313c5bce69f571dc5bd7d7/projects-content-moderation-project-3.png"
-  short_description: Collaborating with stakeholders in academia, policy, and civil
-    society groups to develop clear pathways to responsible content moderation for
-    technology platforms. Applied research with civil society organizations and human
-    rights responders help us better understand varying experiences with content moderation
-    and allow us to identify points of intervention.
-  slug: content-moderation-project
-  order: 5
-- sys:
     id: ZrRI71jL8H3THqYYM98j8
-    created_at: !ruby/object:DateTime 2020-03-05 18:49:35.682000000 Z
+    created_at: !ruby/object:DateTime 2020-02-06 20:33:55.642000000 Z
     updated_at: !ruby/object:DateTime 2020-03-06 01:31:11.203000000 Z
     content_type_id: project
     revision: 5
@@ -32,7 +10,7 @@ project:
   hero_image:
     sys:
       id: 6NUsv6oRkYob4fiImP6S2W
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:14.895000000 Z
+      created_at: !ruby/object:DateTime 2020-02-26 06:03:55.325000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:49:14.895000000 Z
     title: Check Global
     description: 
@@ -49,11 +27,64 @@ project:
     our tools and trainings on digital media literacy, fact-checking, disinformation-monitoring
     and verification of online journalism\n"
   slug: check-global
-  sections: []
+  sections:
+  - sys:
+      id: 3KKLPp1gaZFn8DA2991hai
+      created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 22:24:34.062000000 Z
+      content_type_id: section
+      revision: 0
+    title: Pillars of activity
+    cover_graphic:
+      sys:
+        id: 3PsNMd4GDKOI4Kg6A242yo
+        created_at: !ruby/object:DateTime 2018-12-07 19:57:16.456000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 19:57:30.447000000 Z
+      title: graphic reviews
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3PsNMd4GDKOI4Kg6A242yo/d9210c94649cd353c1b8fcc602640783/graphic_reviews.png"
+    background_color: "#D4D4D4"
+    section_class: reviews
+    modules:
+    - sys:
+        id: 7mjrsI2HIn9NjvAuChgfuM
+    - sys:
+        id: 3gPNPngJyHbMKzJzTsUf6B
+    - sys:
+        id: 1x0YoYn3i7CiCnerRfcdOr
+    - sys:
+        id: 30IO6Cc2Dlw6TwXEMDAWBe
+    - sys:
+        id: 4KUDgS2JKNuwtuhgb33HHB
+    - sys:
+        id: 63dXTMUG8Uh9LGQPs07J1V
+  - sys:
+      id: 7nn4kZGYAPg6q4udylnqSE
+      created_at: !ruby/object:DateTime 2020-02-06 22:09:09.415000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:42:55.878000000 Z
+      content_type_id: section
+      revision: 0
+    title: Background
+    cover_graphic:
+      sys:
+        id: TikhWKrVq60OCqqcSga4w
+        created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
+      title: graphic in-numbers
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+    section_class: financials
+    modules:
+    - sys:
+        id: 3Wnd0h7kgIn4zpHlhcN972
+    - sys:
+        id: 6Aw0VWwGmDgeApiamjxq7T
+    - sys:
+        id: 46RNgfpLLoGCxCwHNTQlQx
   stories:
   - sys:
       id: m7aLQU2hG9LVRQc6LJqHz
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.193000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 01:43:46.111000000 Z
       updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.288000000 Z
       content_type_id: story
       revision: 2
@@ -65,7 +96,7 @@ project:
     lead_image:
       sys:
         id: 3irGSo1SmfFCQze2LhNpx0
-        created_at: !ruby/object:DateTime 2020-03-05 18:48:41.105000000 Z
+        created_at: !ruby/object:DateTime 2020-03-03 07:02:31.007000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:48:41.105000000 Z
       title: vote
       description: 
@@ -114,7 +145,7 @@ project:
   order: 1
 - sys:
     id: UJfyuXyQXasahqsdKIV07
-    created_at: !ruby/object:DateTime 2020-03-05 18:49:49.422000000 Z
+    created_at: !ruby/object:DateTime 2020-02-25 22:27:11.772000000 Z
     updated_at: !ruby/object:DateTime 2020-03-06 01:31:29.665000000 Z
     content_type_id: project
     revision: 4
@@ -122,7 +153,7 @@ project:
   hero_image:
     sys:
       id: 7sQg1C3EdlTzklL3YulGY7
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
+      created_at: !ruby/object:DateTime 2020-02-26 06:03:14.316000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
     title: Credibility Coalition
     description: 
@@ -135,7 +166,7 @@ project:
   stories:
   - sys:
       id: 45vAHRb7C95yfC4xPspSvd
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.235000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 22:28:23.080000000 Z
       updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.272000000 Z
       content_type_id: story
       revision: 2
@@ -144,7 +175,7 @@ project:
     lead_image:
       sys:
         id: 4bliYB7Zthb9fivR28r4iL
-        created_at: !ruby/object:DateTime 2020-03-05 18:48:26.965000000 Z
+        created_at: !ruby/object:DateTime 2020-02-25 22:50:30.496000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:48:26.965000000 Z
       title: Happy birthday, CredWeb! Here’s us presenting on our work at the W3C
         Technical Plenary / Advisory Committee meeting in Burlingame, CA on November
@@ -225,7 +256,7 @@ project:
   order: 3
 - sys:
     id: 2IpXGBWrltynhplbhkfG6D
-    created_at: !ruby/object:DateTime 2020-03-05 18:50:00.638000000 Z
+    created_at: !ruby/object:DateTime 2020-02-25 22:41:35.752000000 Z
     updated_at: !ruby/object:DateTime 2020-03-06 01:31:39.497000000 Z
     content_type_id: project
     revision: 4
@@ -233,11 +264,11 @@ project:
   hero_image:
     sys:
       id: 1JitRMENSazZqLtnMzC31C
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:55.970000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:49:55.970000000 Z
+      created_at: !ruby/object:DateTime 2020-02-26 06:01:31.050000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-10 23:10:00.215000000 Z
     title: Pop-Up Newsroom
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/1JitRMENSazZqLtnMzC31C/d4da9dfb77035924d51865116c8545ea/project-pop-up-newsroom-2.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/1JitRMENSazZqLtnMzC31C/2c263547a930ac2f6dd0a78bcd9a71fa/project-pop-up-newsroom.png"
   short_description: 'We develop collaborative editorial projects with newsrooms around
     the world. Our job is to generate large-scale ideas, supply the collaborative
     technology and execute complex workflows between different news outlets. This
@@ -247,7 +278,7 @@ project:
   stories:
   - sys:
       id: 7jKRIrwtkpkWXs4584YVyZ
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.467000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 22:42:45.916000000 Z
       updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.272000000 Z
       content_type_id: story
       revision: 2
@@ -257,7 +288,7 @@ project:
     lead_image:
       sys:
         id: 3W8CS3yBNno9zBVCHtBA9r
-        created_at: !ruby/object:DateTime 2020-03-05 18:47:59.669000000 Z
+        created_at: !ruby/object:DateTime 2020-02-25 22:44:52.662000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:47:59.669000000 Z
       title: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
       description: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
@@ -293,7 +324,7 @@ project:
   order: 4
 - sys:
     id: 4ZJUuixM4DCL7IrvAbgd4P
-    created_at: !ruby/object:DateTime 2020-03-05 18:50:10.457000000 Z
+    created_at: !ruby/object:DateTime 2020-02-25 22:46:30.279000000 Z
     updated_at: !ruby/object:DateTime 2020-03-06 01:31:17.190000000 Z
     content_type_id: project
     revision: 4
@@ -301,7 +332,7 @@ project:
   hero_image:
     sys:
       id: 2nW6GqFf50AHuJI42McaGY
-      created_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
     title: 'Digital Health: Fact-checking in an era of misinfodemics'
     description: 'Digital Health: Fact-checking in an era of misinfodemics'
@@ -314,7 +345,7 @@ project:
   stories:
   - sys:
       id: 5yWSBJ4oHKMmIkekWoomZg
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.466000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:44:51.466000000 Z
       content_type_id: story
       revision: 1
@@ -326,7 +357,7 @@ project:
     lead_image:
       sys:
         id: 2nW6GqFf50AHuJI42McaGY
-        created_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
+        created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
       title: 'Digital Health: Fact-checking in an era of misinfodemics'
       description: 'Digital Health: Fact-checking in an era of misinfodemics'
@@ -342,3 +373,25 @@ project:
       and innovate around the way we approach health misinformation.\n\n[Read the
       report](https://health.meedan.com/primer.pdf)."
   order: 2
+- sys:
+    id: 1qNyYdbk1y7nt1zzo18Yyl
+    created_at: !ruby/object:DateTime 2020-02-25 22:47:23.980000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-06 01:31:46.979000000 Z
+    content_type_id: project
+    revision: 2
+  title: Content Moderation Project
+  hero_image:
+    sys:
+      id: 6TfRuAKJj6golgGhzEl8eS
+      created_at: !ruby/object:DateTime 2020-02-27 02:37:40.031000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
+    title: Content Moderation Project
+    description: Kat Lo
+    url: "//images.ctfassets.net/g118h5yoccvd/6TfRuAKJj6golgGhzEl8eS/a92c80a091313c5bce69f571dc5bd7d7/projects-content-moderation-project-3.png"
+  short_description: Collaborating with stakeholders in academia, policy, and civil
+    society groups to develop clear pathways to responsible content moderation for
+    technology platforms. Applied research with civil society organizations and human
+    rights responders help us better understand varying experiences with content moderation
+    and allow us to identify points of intervention.
+  slug: content-moderation-project
+  order: 5
