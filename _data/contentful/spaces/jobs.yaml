@@ -1,23 +1,87 @@
 ---
 job:
 - sys:
+    id: 6AgtUn149xr01IT56AqDbV
+    created_at: !ruby/object:DateTime 2020-03-09 22:36:44.593000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-10 00:35:53.002000000 Z
+    content_type_id: job
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: SysOps Engineer
+  slug: sysops-engineer
+  body: "- __Location:__ Anywhere within the timezones GMT+2 to GMT-8. Other locations
+    possible for the right candidate.\n- __Reports to:__ Senior Systems Manager\n-
+    __Availability:__ Immediate\n\nWe are looking for a SysOps (aka DevOps) specialist
+    to help us enhance the reliability, performance and security of our software,
+    within a small team of competent technologists and designers.\n\nMeedan is a 501(c)(3)
+    non-profit that builds digital tools for global journalism. We are a team of designers,
+    technologists, academics, and journalists who focus on open source investigation
+    of digital media and crowdsourced translation of social media. With commercial,
+    media and university partners, we support research, curriculum development, and
+    new forms of digital storytelling. We have supported major fact-checking initiatives
+    around elections in Mexico (Verificado), France (CrossCheck), the US (Electionland),
+    and India (Checkpoint) as well as general day-to-day fact-checking efforts in
+    the Philippines (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for
+    world changing human rights investigations with partners like Bellingcat, Syrian
+    Archives, Watching Western Sahara, and the Berkeley Human Rights Center.\n\nOur
+    product suite includes Check, an open-source media annotation web application
+    integrated with major social media platforms that allows journalists, human-rights
+    defenders, and civil society organizations to annotate, verify, fact-check, and
+    contextualize web content in a collaborative manner mixing human and machine intelligence.\n\nThis
+    is a full-time position.\n\n### Responsibilities\n\n- Participate in building
+    new versions of our software products\n- Participate in managing infrastructure\n-
+    Participate in troubleshooting and incident management\n- Maintain and enhance
+    our continuous deployment system\n- Maintain and enhance our Docker-based container
+    services on the AWS platform\n- Participate in performance and security reviews,
+    including fixes where needed\n- Maintain and enhance our automated testing infrastructure\n-
+    Support developers in maintaining and enhancing their development environment\n\n###
+    Qualifications\n\n- Experience with AWS scripting.\n- Experience with Ruby, NodeJS,
+    and other mainstream programming platforms\n- Experience with Docker\n- Knowledge
+    of automation tools such as Terraform, Ansible, or CloudFormation\n- Experience
+    with managing and optimizing PostgreSQL and Elasticsearch\n- Experience with open
+    source software development\n- Experience with automated testing\n- Ability to
+    quickly learn and use new technologies\n- Strong communications and interpersonal
+    skills\n- Experience working in cross-cultural contexts\n- Experience working
+    remotely\n\n\nMeedan is a fast-paced, small, software development startup that
+    relies heavily on the unique skills of each team member. Our team members are
+    able to work flexibly and respond to challenges across a range of project areas.
+    We are headquartered in San Francisco’s SOMA district with team members distributed
+    through multiple cities and time zones. We encourage individuals from historically
+    underrepresented communities in technology and journalism to apply, including
+    women, people of color, people with disabilities and those who identify as LGBTQ.\n\nSalary
+    and benefits commensurate with qualifications and experience. \n\nPlease send
+    CV, Github repo and statement of interest to jobs@meedan.com."
+  date: '2020-03-09'
+- sys:
     id: 4SJXXyNQWl2YY5WawH8Z8f
-    created_at: !ruby/object:DateTime 2020-03-09 23:25:11.546000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 23:25:11.546000000 Z
+    created_at: !ruby/object:DateTime 2020-03-09 22:38:56.806000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-09 23:25:11.547000000 Z
     content_type_id: job
     revision: 1
     space:
       sys:
         id: g118h5yoccvd
     type: Entry
+    content_type:
+      sys:
+        id: job
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
-    content_type:
-      sys:
-        id: job
     locale: en-US
   title: Research Fellow
   slug: research-fellow
@@ -114,68 +178,4 @@ job:
     color, people with disabilities and those who identify as LGBTQ.\n\nSalary and
     benefits commensurate with qualifications and experience. \n\nPlease send CV and
     statement of interest to jobs@meedan.com \n"
-  date: '2020-03-09'
-- sys:
-    id: 6AgtUn149xr01IT56AqDbV
-    created_at: !ruby/object:DateTime 2020-03-09 23:25:17.171000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-10 00:35:53.002000000 Z
-    content_type_id: job
-    revision: 3
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    content_type:
-      sys:
-        id: job
-    locale: en-US
-  title: SysOps Engineer
-  slug: sysops-engineer
-  body: "- __Location:__ Anywhere within the timezones GMT+2 to GMT-8. Other locations
-    possible for the right candidate.\n- __Reports to:__ Senior Systems Manager\n-
-    __Availability:__ Immediate\n\nWe are looking for a SysOps (aka DevOps) specialist
-    to help us enhance the reliability, performance and security of our software,
-    within a small team of competent technologists and designers.\n\nMeedan is a 501(c)(3)
-    non-profit that builds digital tools for global journalism. We are a team of designers,
-    technologists, academics, and journalists who focus on open source investigation
-    of digital media and crowdsourced translation of social media. With commercial,
-    media and university partners, we support research, curriculum development, and
-    new forms of digital storytelling. We have supported major fact-checking initiatives
-    around elections in Mexico (Verificado), France (CrossCheck), the US (Electionland),
-    and India (Checkpoint) as well as general day-to-day fact-checking efforts in
-    the Philippines (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for
-    world changing human rights investigations with partners like Bellingcat, Syrian
-    Archives, Watching Western Sahara, and the Berkeley Human Rights Center.\n\nOur
-    product suite includes Check, an open-source media annotation web application
-    integrated with major social media platforms that allows journalists, human-rights
-    defenders, and civil society organizations to annotate, verify, fact-check, and
-    contextualize web content in a collaborative manner mixing human and machine intelligence.\n\nThis
-    is a full-time position.\n\n### Responsibilities\n\n- Participate in building
-    new versions of our software products\n- Participate in managing infrastructure\n-
-    Participate in troubleshooting and incident management\n- Maintain and enhance
-    our continuous deployment system\n- Maintain and enhance our Docker-based container
-    services on the AWS platform\n- Participate in performance and security reviews,
-    including fixes where needed\n- Maintain and enhance our automated testing infrastructure\n-
-    Support developers in maintaining and enhancing their development environment\n\n###
-    Qualifications\n\n- Experience with AWS scripting.\n- Experience with Ruby, NodeJS,
-    and other mainstream programming platforms\n- Experience with Docker\n- Knowledge
-    of automation tools such as Terraform, Ansible, or CloudFormation\n- Experience
-    with managing and optimizing PostgreSQL and Elasticsearch\n- Experience with open
-    source software development\n- Experience with automated testing\n- Ability to
-    quickly learn and use new technologies\n- Strong communications and interpersonal
-    skills\n- Experience working in cross-cultural contexts\n- Experience working
-    remotely\n\n\nMeedan is a fast-paced, small, software development startup that
-    relies heavily on the unique skills of each team member. Our team members are
-    able to work flexibly and respond to challenges across a range of project areas.
-    We are headquartered in San Francisco’s SOMA district with team members distributed
-    through multiple cities and time zones. We encourage individuals from historically
-    underrepresented communities in technology and journalism to apply, including
-    women, people of color, people with disabilities and those who identify as LGBTQ.\n\nSalary
-    and benefits commensurate with qualifications and experience. \n\nPlease send
-    CV, Github repo and statement of interest to jobs@meedan.com."
   date: '2020-03-09'

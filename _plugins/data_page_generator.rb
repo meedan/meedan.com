@@ -48,7 +48,7 @@ module Jekyll
       self.data['title'] = data[name]
       # SEO fixes
       if template == "story"
-        data['description'] = data['body'].split[0...30].join(' ')
+        data['description'] = data['body'].to_s.split[0...30].join(' ')
       end
       
       # add all the information defined in _data for the current record to the

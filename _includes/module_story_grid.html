@@ -2,7 +2,7 @@
 <section class="module module-story-grid section-margin">
     <div class="module-wrapper">
         {% for story in stories %}
-        <div class="story-grid-item with-more-link">
+        <div class="story-grid-item">
             <div class="title-container">
                 <a class="tag" href="/blog/{{ story.slug }}">
                     {% for topic in story.topic %}
