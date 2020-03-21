@@ -1,3 +1,11 @@
+<!-- Get recent press -->
+{% assign links = site.data.contentful.spaces.moduleCards.moduleCards 
+    | where_exp: "item","item.sys.id == '4CWa8UN1MMrhDX1XEoq5XT'"
+%}
+<!-- Get quotes -->
+{% assign quotes = site.data.contentful.spaces.moduleList.moduleList
+    | where_exp: "item","item.sys.id == '4ytDksEIifiBOFrxcoIUll'"
+%}
 <div class="module module-recent-press section-margin small-hr">
     <div class="main-grid">
         <div class="main-grid__1--1">
@@ -7,54 +15,30 @@
         </div>
     </div>
     <div class="main-grid">
+        {% if quotes %}
         <div class="main-grid__1-5 quotes">
             {% include icon_quotes.html %}
-            <a href="//www.niemanlab.org/2017/07/this-tool-is-helping-newsrooms-collaborate-on-factchecking-and-verification-projects/" class="press-item-quote">
-                <span class="quote">If we had not had Check there as a tool, it would’ve been very difficult to manage that workflow.</span> <span class="quote-by"></span>–Sam Dubberley, CrossCheck’s managing editor</span>
-            </a>
+            {% for quote in quotes[0].items | limit: 1 %}
+                <a href="{{ quote.link }}" class="press-item-quote">
+                    <span class="quote">{{ quote.pullquote }}</span> <span class="quote-by"></span>–{{ quote.pullquote_by }}, {{ quote.source }}</span>
+                </a>
+            {% endfor %}
         </div>
+        {% endif %}
         <div class="main-grid__7-12">
-            <a class="press-item" href="//www.poynter.org/reporting-editing/2019/here-comes-a-tool-approved-by-whatsapp-to-automate-the-distribution-of-fact-checks/">
-                <div class="card-graphic logo" style="background-image:url(//images.ctfassets.net/g118h5yoccvd/39NYZGRTtXpEwVihA77c8N/9d63cdd006c1badbfbe36eaa4a8fa5d0/poynter-logo-black.png)"></div>
-                <div class="title">
-                    Here comes a tool, approved by WhatsApp, to automate the distribution of fact-checks
-                </div>
-                <div class="source">
-                    Poynter
-                </div>
-            </a>
-            <a class="press-item" href="//www.nbcnews.com/tech/social-media/coronavirus-misinformation-surges-fueled-chase-attention-n1126511">
-                <div class="title">
-                    Coronavirus misinformation surges, fueled by clout chasers
-                </div>
-                <div class="source">
-                    NBC News
-                </div>
-            </a>
-            <a class="press-item" href="//www.cjr.org/special_report/vaccination-whatsapp.php">
-                <div class="title">
-                    It’s not misinformation. It’s faith.
-                </div>
-                <div class="source">
-                    Columbia Journalism Review
-                </div>
-            </a>
-            <a class="press-item" href="//www.journalism.co.uk/news/the-credibility-coalition-is-working-to-establish-the-common-elements-of-trustworthy-articles/s2/a712487/">
-                <div class="title">
-                    The Credibility Coalition is working to establish the common elements of trustworthy articles
-                </div>
-                <div class="source">
-                    journalism.co.uk
-                </div>
-            </a>
-            <a class="press-item" href="//www.editorandpublisher.com/feature/to-free-themselves-from-lies-journalists-are-using-new-tools-and-techniques-to-check-facts/">
-                <div class="title">
-                    To Free Themselves From Lies, Journalists are Using New Tools and Techniques to Check Facts
-                </div>
-                <div class="source">
-                    Editor & Publisher Magazine
-                </div>
-            </a>
+            {% for link in links[0].cards %}
+                <a class="press-item" href="{{ link.link }}">
+                    {% if forloop.first and link.image.url and link.logo %}
+                        <div class="card-graphic logo" style="background-image:url({{ link.image.url }})"></div>
+                    {% endif %}
+                    <div class="title">
+                        {{ link.title }}
+                    </div>
+                    <div class="source">
+                        {{ link.tag }}
+                    </div>
+                </a>
+            {% endfor %}
         </div>
     </div>
 </div>

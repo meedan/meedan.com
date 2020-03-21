@@ -477,9 +477,9 @@ story:
 - sys:
     id: 3F5aNZnxGuUwpBrhQBLIMq
     created_at: &2 !ruby/object:DateTime 2020-03-17 22:49:50.997000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-17 23:59:51.846000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-18 00:45:51.938000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -495,11 +495,19 @@ story:
     locale: en-US
   title: Meedan and COVID-19
   slug: meedan-and-covid-19
+  topic:
+  - sys:
+      id: 2JV51Hja1BxcyGdNP5VID3
+      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+      content_type_id: topic
+      revision: 1
+    title: Network
   lead_image:
     sys:
       id: 39DpMJAzrR2ryKuF5kwTSx
       created_at: !ruby/object:DateTime 2020-03-17 23:52:22.305000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-17 23:52:33.337000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-18 00:45:39.017000000 Z
     title: 202003 meedan-covid-19
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/39DpMJAzrR2ryKuF5kwTSx/237bd5e1f78275f706e7f3815ce61d1d/202003_meedan-covid-19.png"
@@ -549,15 +557,268 @@ story:
     Job Posting\")? Email us at hello@meedan.com if you want to lend a hand with the
     formidable task of getting high quality COVID-19 info onto the interwebs while
     we rebuild this plane inflight and work through a new way of running a coronavirus
-    resistant organization.\n\nEAB\nMarch 16, 2020\nWoodacre, CA"
+    resistant organization.\n\nEAB<br/>\nMarch 16, 2020<br/>\nWoodacre, CA"
   words_by:
   - sys:
       id: 7xM8QfuAFGFURUXRBNLBtX
       created_at: !ruby/object:DateTime 2020-03-17 23:59:51.580000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-17 23:59:54.845000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-18 00:45:45.106000000 Z
       content_type_id: contributor
-      revision: 0
+      revision: 1
     name: Ed Bice
   date: '2020-03-17'
   alt_date: *2
   alt_date_string: '2020-03-17'
+- sys:
+    id: 4nVhoxAnzRiaVAnA0BasK6
+    created_at: &3 !ruby/object:DateTime 2020-03-19 15:22:44.768000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-19 19:05:15.142000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Going Virtual: How Meedan is Doing the Conference Thing Online'
+  slug: going-virtual-how-meedan-is-doing-the-conference-thing-online
+  topic:
+  - sys:
+      id: 2JV51Hja1BxcyGdNP5VID3
+      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+      content_type_id: topic
+      revision: 1
+    title: Network
+  lead_image:
+    sys:
+      id: 4Qm0nprXWtT3tBAAEVYypx
+      created_at: !ruby/object:DateTime 2020-03-19 18:39:58.133000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-19 19:05:08.521000000 Z
+    title: meedan going-virtual
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/4Qm0nprXWtT3tBAAEVYypx/1995799bb68d253e5124954d91082a87/meedan_going-virtual.png"
+  body: "April is usually a very busy month for Meedan. While our partners work remotely
+    most of the year, conferences are concentrated bursts of productivity for journalists,
+    fact-checkers, and civic tech developers. The emergence of COVID–19, the novel
+    coronavirus, has led to the cancellation of most conferences focusing on Internet
+    freedom, journalism, and technology. \n\n[Check](https://meedan.com/check), the
+    project we were hoping to present in person, is being used to address everything
+    from health misinformation to political disinformation, on platforms like WhatsApp,
+    Twitter and YouTube. In the midst of our work, we’ve seen a rising trend in COVID-19-related
+    content, and  public health and science communication experts have been helping
+    us respond to this pandemic, as fact-checkers use Check to ensure  accurate information
+    can be returned to places where rumors and inaccurate health information usually
+    spread. \n\nWe don’t want to put our communities at risk, but this year it’s more
+    critical for us to accomplish what we usually do at conferences. While we are
+    disappointed that we won’t be seeing our colleagues in person, there’s an opportunity
+    here. There have always been many reasons to have a virtual conference, but now
+    there are more people and organizations motivated to do something about it - there
+    are entire industries going virtual. At Meedan, we strongly value equity, diversity
+    and inclusion amongst both staff and partners. If we work on this issue during
+    a pandemic, we can make conferences more accessible for everyone as a long term
+    goal too. Participants from emerging economies often have difficulty getting visas
+    to attend conferences. Global climate change has led several people to forgo airplane
+    travel. Parents have to skip conferences when childcare isn’t available. Some
+    disabilities make travel difficult, and the disability activism community has
+    long called for improvements to technology for remote participation.\n\nRemote
+    participation has been used by several conferences to enable attendance for people
+    who cannot travel. While this has been effective for panelists, purely virtual
+    conferences are not widespread, and they lack virtual versions of useful conference
+    activities. Many of the open source tools we use were designed by covering walls
+    in a massive number of sticky notes. \n\nThis is an invitation to you all. What
+    do you need from a virtual conference? What do you think of existing solutions?
+    What works for you, and what doesn’t? Do we need to work on something new? \n\nWe
+    started with the activities we find useful:\n\n1. Presenting talks and slides\n\n2.
+    Presenting product demos\n\n3. Audience questions\n\n4. Breakout sessions\n\n5.
+    One-on-one discussions\n\n6. Introducing conference participants to each other\n\n7.
+    Un-conference formats\n\n8. The equivalents of whiteboards and sticky notes\n\nWe
+    came up with some user stories. Many of the virtual conference tools we’ve looked
+    at were designed for big tech companies. Big commercial conferences have massive
+    budgets and lax privacy policies. Our usual conferences have small budgets and
+    high levels of security awareness. For instance, many of us wear lanyards that
+    indicate that we don’t want our photos taken. Here are some of the people we’re
+    thinking of. If we have left something out, let us know! \n\n1. This participant
+    has a compromised immune system. Any conference involves risk. Disclosing a disability,
+    however, is not always feasible. Because remote participation is not an option
+    at many conferences, they cannot perform their job without traveling. As long
+    as there are ways to watch talks, submit questions, and communicate with other
+    participants, this person's needs are met.\n\n2. This participant lives in a region
+    or country with limited access to a fast Internet connection. Any virtual conference
+    technology has to take low bandwidth environments into account.\n\n3. This participant
+    has a passport or legal status that makes it difficult for them to travel. They
+    often get rejected for visas, even when they are a featured speaker at a conference.
+    \n\n3. This participant lives in a country that censors the Internet and arrests
+    journalists. In order to participate safely, they can only go to conferences with
+    a no photo or video policy, whether this is a blanket ban or attendee preferences
+    can be signaled by the color of their conference lanyard. Any virtual conference
+    technology must allow private access, allowances for pseudonyms, participation
+    without voice or video, and possibly compatibility with censorship circumvention
+    technologies.\n\n4. This participant is Deaf. Their technology needs may include
+    live captioning, participation by typing, a sign language interpreter, clear video
+    of presenters to enable lip reading, or clear audio from participants depending
+    on their level of hearing and their own accessibility technology.\n\n5. This participant
+    is blind. Virtual conference software needs to be compatible with screen readers,
+    and presenters should consult with an accessibility coordinator to make any of
+    their presentation materials compatible.\n\n6. This participant may have problems
+    understanding one or more of the conference languages. They may need live translation,
+    or just subtitles in order to cope with various accents and dialects. \n\n7. The
+    participant is a caregiver and cannot always log in at the exact time of the presentation.
+    They may need transcription or access to recordings, with the ability to ask questions
+    of the presenter at a later time.\n\n8. People who need mobility aids face obstacles
+    when traveling. Wheelchair users often get broken chairs back from airlines. When
+    these chairs are custom fit, there are no temporary replacements that can make
+    participating in a conference a pain-free experience. Power wheelchairs are very
+    expensive, so travel can mean gambling with one’s mobility for a long time after
+    a conference. \n\n9. This participant has modest tech skills and may need help
+    with operating the interface for online meetings. Usability is an access issue.
+    \n\nWe’re working with our communities to make lasting change out of this emergency
+    situation. The civic tech community is evaluating software and practices for conferences
+    and hackathons. We’re also expanding our online developer community. Let’s build
+    something together! \n\nEmail us at <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>
+    to get started. "
+  words_by:
+  - sys:
+      id: 4xcMBMqtwEeYps68iqYofV
+      created_at: !ruby/object:DateTime 2020-03-19 18:36:57.777000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-19 19:05:12.110000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Karen Reilly
+  date: '2020-03-19'
+  alt_date: *3
+  alt_date_string: '2020-03-19'
+- sys:
+    id: 7xtLMdlSCEjcEAPRRuQv0X
+    created_at: &4 !ruby/object:DateTime 2020-03-19 15:58:57.773000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-20 02:18:36.417000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Meet Our Regional Program Managers, APAC, Latin America and Africa
+  slug: meet-our-regional-program-managers-apac-latin-america-and-africa
+  lead_image:
+    sys:
+      id: 9WNaAZtFNpSIB9YQzbkLO
+      created_at: !ruby/object:DateTime 2020-03-20 02:18:36.082000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-20 02:53:27.458000000 Z
+    title: meedan program managers 2
+    description: Shalini Josh in India, Isabella Barroso in Brazil and Wafaa Heikal
+      in Berlin
+    url: "//images.ctfassets.net/g118h5yoccvd/9WNaAZtFNpSIB9YQzbkLO/af305e46624d04433466352e47a05f11/meedan_program_managers_2.jpg"
+  body: "During 2019, as we grew our Check Global program with the generous support
+    of the Swedish International Development Agency (Sida), Meedan expanded its partnership
+    footprint to Africa, Asia Pacific and Latin America. Shalini Joshi, Isabella Barroso,
+    and Wafaa Heikal make our all-women superstar, program leads team working with
+    more than 5 newsrooms across three continents. \n\nThis represents significant
+    growth from previous years, allowing us to deepen our support for these regions
+    with program leads who are deeply familiar with their local contexts and who can
+    provide ongoing support for our amazing partners around the world. Below, we are
+    pleased to introduce two new regional leads, along with Wafaa Heikal, our long-running
+    program manager who is now heading up our efforts in Africa and the Western Asia
+    regions.\n\n### Meet Shalini Josh in India\n\nShalini Joshi is passionate about
+    feminism and local journalism. Over the last two decades, her work has brought
+    the two together. She has also studied misinformation, particularly on closed
+    messaging apps, in great depth, including on the most recent Checkpoint project,
+    a collaboration with PROTO (where Shalini previously worked) and Pop-Up Newsroom
+    (a Meedan initiative with news consultancy Fathm). Her work and role at Meedan
+    connect these streams with the projects that she is leading.\n\nShalini started
+    her work after a Master's of Arts in History from the Jawahar Lal Nehru University
+    (JNU) in gender and media development. She started her professional journey with
+    Nirantar, a centre for gender education, where she was part of the leadership
+    from 2009 to 2013. Shalini is the co-founder of Khabar Lahariya ( \"News Waves\"
+    in Hindi), an independent digital rural news network. Khabar Lahariya is known
+    for its groundbreaking journalism and its journalists - a team of women from some
+    of the most underserved communities of rural North India. The project is a testament
+    to the fact that in a democracy like India, a local, independent media is an essential
+    service.\n\nThe problem that Khabar Lahariya wanted to solve was the lack of representation
+    of rural women in the printed news materials in their communities. The project
+    also aimed to provide independent news to media deserts and media dark areas.
+    Nirantar and Shalini put together a team of women journalists, all paid and working
+    full-time as professionals, who reported on local issues of governance, development,
+    politics, gender discrimination and culture.\n\nShalini's fight against and research
+    into misinformation started to form since the newspaper days, where false claims
+    spread wide offline. People's general perceptions of issues and stereotypical
+    beliefs about people often gave free leeway to believing and sharing misinformation.
+    Although she left the organisation in 2014, Shalini continued her research as
+    a fellow at the International Center for Journalists.\n\nIn 2019, Shalini was
+    once against a project lead at Checkpoint, research project to study misinformation
+    around the 2019 Indian general elections using a WhatsApp tipline, powered by
+    Check, Meedan's award-winning platform for news verification. Shalini believes
+    that Check and its future iterations can be a turning point for journalists aiming
+    to study and counter misinformation shared on closed messaging platforms such
+    as Whatsapp. Check allows for more transparency within newsrooms which Shalini
+    works with and advises. The language filters allow for collaborative work between
+    journalists of different language skills. Check's report feature also allows journalists
+    to send back verification reports to users who are interested to track and know
+    the truth behind the \"tips\" they receive.\n\n### Meet Isabella Barroso in Brazil\n\nIsabella
+    Barroso, also known to many as Isa, is Meedan's Latin America regional program
+    manager. She works with several newsrooms in both Spanish and Portuguese spanning
+    Brazil and Mexico.\n\nIsa joins Meedan's program team with a passion for human-centred
+    design and product development that is fit to solve problems. After two degrees
+    in journalism and interaction design, Isa hopes that her dual expertise in both
+    journalism and her technical skills in product management and design will help
+    bridge the intersection of society, journalism and technology.\n\nIn Latin America,
+    our Check Global partners are Chicas Poderosas, present in 18 countries and Animal
+    Político in México.\n\n> I am now developing more of my program skills based on
+    my experience in product,\" noted Isabella. \"I am interested in social development
+    and impact. I learned a lot about how to scale processes in different contexts
+    and at Meedan this happens with each partner or new venture.\n\nMisinformation
+    in Latin America seems to be as decentralised as the open web. It's systemised,
+    coordinated messaging on closed messaging apps such as WhatsApp, rumours and what
+    seems to be an information overflow to disorient information consumers.\n\n###
+    Meet Wafaa Heikal in Berlin\n\nWafaa Heikal graduated in 2011 from Cairo University
+    and received a bachelor’s in journalism. She loves fiction and thought journalism
+    \ is an excellent proxy to literature. \n\n> “My focus was following the interactions
+    of youth with culture and social media after the revolution,\" she’s said. \n\nWafaa's
+    first job was as a culture journalist at Akhbar El Adab, due to her love for fiction
+    and literature. \n\nHer inspiration to be a journalist came directly from her
+    participation as a student activist in the Egyptian revolution of 2011.  \n\n>
+    Through journalism I felt I could do more than just participate; I could contribute
+    to the movement. \n\nThe move to open source investigations, open media projects
+    and university-based journalism efforts was a way of expressing the goals and
+    values of the revolution. \n \nWafaa had worked in local and regional media for
+    years, and she is now one of Meedan’s regional program managers, working with
+    newsrooms which often are not fully prepared  for the speed of the news cycle.
+    In this role, Wafaa helps to build fact-checking collaborations to monitor and
+    verify social media during elections, and supports fact-checkers and human rights
+    researchers work in verifying user generated content using Meedan verification,
+    annotation and translation tools.\n \nWafaa sees immense potential for Meedan’s
+    open source tools.\n\n> “I use Check to support different workflows depending
+    \ on what types of content we want to investigate and what context we are working
+    in - its great that our tools allow for work across an interesting range of use
+    cases... However, I really like working with small teams and small newsrooms around
+    the globe on our  elections monitoring projects, understanding the particular
+    national context and partner capacities and then designing new workflows around
+    them.”\n\n"
+  words_by:
+  - sys:
+      id: 7JIwO7govlJW5ID7v226Rz
+      created_at: !ruby/object:DateTime 2020-03-19 23:44:00.907000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-19 23:45:33.996000000 Z
+      content_type_id: contributor
+      revision: 0
+    name: Ahmed Medien
+  date: '2020-03-19'
+  alt_date: *4
+  alt_date_string: '2020-03-19'
