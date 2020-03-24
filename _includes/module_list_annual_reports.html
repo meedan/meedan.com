@@ -1,0 +1,25 @@
+<!-- Get all annual reports -->
+{% assign reports = site.data.contentful.spaces.annualReports.annualReport %}
+{% if reports %}
+<div class="module module-text-links section-margin">
+    <div class="main-grid">
+        <div class="main-grid__1-12">
+            <div class="main-grid bleed text-align--center">
+                <h3 class="main-grid__3-10">Annual reports</h3>
+            </div>
+        </div>
+    </div>
+    <div class="main-grid">
+        <p class="main-grid__3-10 text-align--center">
+            Meedan is a 501(c)3 non-profit. Our annual reports detail our programming and operating budgets
+        </p>
+    </div>
+    <div class="main-grid text-links key-points">
+        {% for report in reports %}
+            <div class="key-point">
+                <a href="/{{ report.slug }}" class="title">{{ report.year }}</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
