@@ -78,10 +78,13 @@ story:
   - sys:
       id: 1uaMTril4FB8NxxRTKwLDH
       created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:44.838000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:40:45.461000000 Z
       content_type_id: contributor
       revision: 1
     name: Megan Marrelli
+    staff: true
+    location: New York
+    role: Program Manager
   alt_date: !ruby/object:DateTime 2019-07-29 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-07-29'
@@ -161,10 +164,13 @@ story:
   - sys:
       id: o2SUkfpjcZYozMKy01Wis
       created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:36.827000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:41:23.144000000 Z
       content_type_id: contributor
       revision: 1
     name: Shalini Joshi
+    staff: true
+    location: New Delhi
+    role: Program Lead, APAC
   alt_date: !ruby/object:DateTime 2019-11-01 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-11-01'
@@ -251,10 +257,13 @@ story:
   - sys:
       id: 1LO43iZQgk754PxET3q581
       created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:52.119000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:41:02.030000000 Z
       content_type_id: contributor
       revision: 1
     name: Caio Almeida
+    staff: true
+    location: Salvador
+    role: Director of Engineering
   alt_date: !ruby/object:DateTime 2019-12-12 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-12-12'
@@ -562,10 +571,13 @@ story:
   - sys:
       id: 7xM8QfuAFGFURUXRBNLBtX
       created_at: !ruby/object:DateTime 2020-03-17 23:59:51.580000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-18 00:45:45.106000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:39:39.671000000 Z
       content_type_id: contributor
       revision: 1
     name: Ed Bice
+    staff: true
+    location: San Francisco
+    role: CEO
   date: '2020-03-17'
   alt_date: *2
   alt_date_string: '2020-03-17'
@@ -689,10 +701,12 @@ story:
   - sys:
       id: 4xcMBMqtwEeYps68iqYofV
       created_at: !ruby/object:DateTime 2020-03-19 18:36:57.777000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-19 19:05:12.110000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:39:20.671000000 Z
       content_type_id: contributor
       revision: 1
     name: Karen Reilly
+    staff: true
+    location: Berlin
   date: '2020-03-19'
   alt_date: *3
   alt_date_string: '2020-03-19'
