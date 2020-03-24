@@ -1,5 +1,5 @@
 <!-- Get all annual reports -->
-{% assign reports = site.data.contentful.spaces.annualReports.annualReport %}
+{% assign reports = site.data.contentful.spaces.annualReports.annualReport | year_sort | reverse %}
 {% if reports %}
 <div class="module module-text-links section-margin">
     <div class="main-grid">

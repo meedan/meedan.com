@@ -13,6 +13,11 @@ module Jekyll
           Date.parse(el['alt_date'].strftime("%B %d %Y"), '%d-%m-%Y')
         end
       end
+      def year_sort(collection)
+        collection.sort_by do |el|
+          el['year']
+        end
+      end
     end
   end
   Liquid::Template.register_filter(Jekyll::DateFilter)
