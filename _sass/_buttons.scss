@@ -5,13 +5,18 @@ a.button {
     text-decoration: none;
     background-color: #fff;
     padding: var(--space-1);
-    margin-top: var(--space-3);
-    margin-bottom: var(--space-5);
+    // margin-top: var(--space-3);
+    // margin-bottom: var(--space-5);
     border: 1px solid var(--blackInk);
     &:hover {
         background-color: var(--blackInk);
         color: var(--sunDown);
     }
+}
+
+a.button:not(.no-margin) {
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-5);
 }
 
 .dark a.button:hover {
