@@ -78,10 +78,13 @@ story:
   - sys:
       id: 1uaMTril4FB8NxxRTKwLDH
       created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:44.838000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
       content_type_id: contributor
-      revision: 1
+      revision: 2
     name: Megan Marrelli
+    staff: true
+    location: New York
+    role: Program Manager
   alt_date: !ruby/object:DateTime 2019-07-29 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-07-29'
@@ -161,10 +164,13 @@ story:
   - sys:
       id: o2SUkfpjcZYozMKy01Wis
       created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:36.827000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.047000000 Z
       content_type_id: contributor
-      revision: 1
+      revision: 2
     name: Shalini Joshi
+    staff: true
+    location: New Delhi
+    role: Program Lead, APAC
   alt_date: !ruby/object:DateTime 2019-11-01 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-11-01'
@@ -251,10 +257,13 @@ story:
   - sys:
       id: 1LO43iZQgk754PxET3q581
       created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:52.119000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
       content_type_id: contributor
-      revision: 1
+      revision: 2
     name: Caio Almeida
+    staff: true
+    location: Salvador
+    role: Director of Engineering
   alt_date: !ruby/object:DateTime 2019-12-12 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-12-12'
@@ -562,10 +571,13 @@ story:
   - sys:
       id: 7xM8QfuAFGFURUXRBNLBtX
       created_at: !ruby/object:DateTime 2020-03-17 23:59:51.580000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-18 00:45:45.106000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.291000000 Z
       content_type_id: contributor
-      revision: 1
+      revision: 2
     name: Ed Bice
+    staff: true
+    location: San Francisco
+    role: CEO
   date: '2020-03-17'
   alt_date: *2
   alt_date_string: '2020-03-17'
@@ -689,19 +701,21 @@ story:
   - sys:
       id: 4xcMBMqtwEeYps68iqYofV
       created_at: !ruby/object:DateTime 2020-03-19 18:36:57.777000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-19 19:05:12.110000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.299000000 Z
       content_type_id: contributor
-      revision: 1
+      revision: 2
     name: Karen Reilly
+    staff: true
+    location: Berlin
   date: '2020-03-19'
   alt_date: *3
   alt_date_string: '2020-03-19'
 - sys:
     id: 7xtLMdlSCEjcEAPRRuQv0X
     created_at: &4 !ruby/object:DateTime 2020-03-19 15:58:57.773000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-20 02:18:36.417000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 23:09:48.208000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -717,107 +731,108 @@ story:
     locale: en-US
   title: Meet Our Regional Program Managers, APAC, Latin America and Africa
   slug: meet-our-regional-program-managers-apac-latin-america-and-africa
+  topic:
+  - sys:
+      id: 2JV51Hja1BxcyGdNP5VID3
+      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+      content_type_id: topic
+      revision: 1
+    title: Network
   lead_image:
     sys:
       id: 9WNaAZtFNpSIB9YQzbkLO
       created_at: !ruby/object:DateTime 2020-03-20 02:18:36.082000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-20 02:53:27.458000000 Z
-    title: meedan program managers 2
-    description: Shalini Josh in India, Isabella Barroso in Brazil and Wafaa Heikal
-      in Berlin
+      updated_at: !ruby/object:DateTime 2020-03-24 23:09:40.701000000 Z
+    title: Meedan's New Program Managers
+    description: Shalini Joshi in India, Isabella Barroso in Brazil and Wafaa Heikal
+      in Germany
     url: "//images.ctfassets.net/g118h5yoccvd/9WNaAZtFNpSIB9YQzbkLO/af305e46624d04433466352e47a05f11/meedan_program_managers_2.jpg"
   body: "During 2019, as we grew our Check Global program with the generous support
-    of the Swedish International Development Agency (Sida), Meedan expanded its partnership
-    footprint to Africa, Asia Pacific and Latin America. Shalini Joshi, Isabella Barroso,
-    and Wafaa Heikal make our all-women superstar, program leads team working with
-    more than 5 newsrooms across three continents. \n\nThis represents significant
-    growth from previous years, allowing us to deepen our support for these regions
-    with program leads who are deeply familiar with their local contexts and who can
-    provide ongoing support for our amazing partners around the world. Below, we are
-    pleased to introduce two new regional leads, along with Wafaa Heikal, our long-running
-    program manager who is now heading up our efforts in Africa and the Western Asia
-    regions.\n\n### Meet Shalini Josh in India\n\nShalini Joshi is passionate about
-    feminism and local journalism. Over the last two decades, her work has brought
-    the two together. She has also studied misinformation, particularly on closed
-    messaging apps, in great depth, including on the most recent Checkpoint project,
-    a collaboration with PROTO (where Shalini previously worked) and Pop-Up Newsroom
-    (a Meedan initiative with news consultancy Fathm). Her work and role at Meedan
-    connect these streams with the projects that she is leading.\n\nShalini started
-    her work after a Master's of Arts in History from the Jawahar Lal Nehru University
-    (JNU) in gender and media development. She started her professional journey with
-    Nirantar, a centre for gender education, where she was part of the leadership
-    from 2009 to 2013. Shalini is the co-founder of Khabar Lahariya ( \"News Waves\"
+    of the [Swedish International Development Agency](https://www.sida.se/English/)
+    ([Sida](https://www.sida.se/English/)), Meedan expanded its partnership footprint
+    to Africa, Asia Pacific and Latin America. Shalini Joshi, Isabella Barroso, and
+    Wafaa Heikal make our all-women superstar, program leads team working with newsrooms,
+    fact-checkers, feminist networks and academic groups across three continents.\n\nThis
+    represents significant growth from previous years, allowing us to deepen our support
+    for these regions with program leads who are deeply familiar with their local
+    contexts and who can provide ongoing support for our amazing partners around the
+    world. We are pleased to introduce two new regional leads, along with Wafaa Heikal,
+    our long-running program manager who is now heading up our efforts in Africa and
+    the Western Asia regions.\n\n### Meet Shalini Joshi in India\n\nShalini Joshi
+    is passionate about feminism and local journalism. Over the last two decades,
+    her work has brought the two together. Shalini has studied misinformation, particularly
+    on closed messaging platforms. She has been a TruthBuzz Fellow with the [International
+    Center for Journalists](https://www.icfj.org/) ([ICFJ](https://www.icfj.org/)).
+    The fellowship focused on designing creative ways to counter misinformation. As
+    a specialist at [PROTO](https://www.pro.to/), ICFJ's partner in India, Shalini
+    led [Checkpoint](https://www.checkpoint.pro.to/) - a research project focused
+    on misinformation in the Indian elections. \n\nShalini started her professional
+    journey with [Nirantar](http://www.nirantar.net/), a centre for gender education.
+    She trained and mentored rural women from underrepresented communities to come
+    into new and professional roles, often breaking gender stereotypes. Shalini is
+    the co-founder of [Khabar Lahariya](https://khabarlahariya.org/) (“News Waves”
     in Hindi), an independent digital rural news network. Khabar Lahariya is known
-    for its groundbreaking journalism and its journalists - a team of women from some
+    for its groundbreaking journalism and its journalists — a team of women from some
     of the most underserved communities of rural North India. The project is a testament
-    to the fact that in a democracy like India, a local, independent media is an essential
-    service.\n\nThe problem that Khabar Lahariya wanted to solve was the lack of representation
-    of rural women in the printed news materials in their communities. The project
-    also aimed to provide independent news to media deserts and media dark areas.
-    Nirantar and Shalini put together a team of women journalists, all paid and working
-    full-time as professionals, who reported on local issues of governance, development,
-    politics, gender discrimination and culture.\n\nShalini's fight against and research
-    into misinformation started to form since the newspaper days, where false claims
-    spread wide offline. People's general perceptions of issues and stereotypical
-    beliefs about people often gave free leeway to believing and sharing misinformation.
-    Although she left the organisation in 2014, Shalini continued her research as
-    a fellow at the International Center for Journalists.\n\nIn 2019, Shalini was
-    once against a project lead at Checkpoint, research project to study misinformation
-    around the 2019 Indian general elections using a WhatsApp tipline, powered by
-    Check, Meedan's award-winning platform for news verification. Shalini believes
-    that Check and its future iterations can be a turning point for journalists aiming
-    to study and counter misinformation shared on closed messaging platforms such
-    as Whatsapp. Check allows for more transparency within newsrooms which Shalini
-    works with and advises. The language filters allow for collaborative work between
-    journalists of different language skills. Check's report feature also allows journalists
-    to send back verification reports to users who are interested to track and know
-    the truth behind the \"tips\" they receive.\n\n### Meet Isabella Barroso in Brazil\n\nIsabella
-    Barroso, also known to many as Isa, is Meedan's Latin America regional program
-    manager. She works with several newsrooms in both Spanish and Portuguese spanning
-    Brazil and Mexico.\n\nIsa joins Meedan's program team with a passion for human-centred
-    design and product development that is fit to solve problems. After two degrees
-    in journalism and interaction design, Isa hopes that her dual expertise in both
-    journalism and her technical skills in product management and design will help
-    bridge the intersection of society, journalism and technology.\n\nIn Latin America,
-    our Check Global partners are Chicas Poderosas, present in 18 countries and Animal
-    Político in México.\n\n> I am now developing more of my program skills based on
-    my experience in product,\" noted Isabella. \"I am interested in social development
-    and impact. I learned a lot about how to scale processes in different contexts
-    and at Meedan this happens with each partner or new venture.\n\nMisinformation
-    in Latin America seems to be as decentralised as the open web. It's systemised,
-    coordinated messaging on closed messaging apps such as WhatsApp, rumours and what
-    seems to be an information overflow to disorient information consumers.\n\n###
-    Meet Wafaa Heikal in Berlin\n\nWafaa Heikal graduated in 2011 from Cairo University
-    and received a bachelor’s in journalism. She loves fiction and thought journalism
-    \ is an excellent proxy to literature. \n\n> “My focus was following the interactions
-    of youth with culture and social media after the revolution,\" she’s said. \n\nWafaa's
-    first job was as a culture journalist at Akhbar El Adab, due to her love for fiction
-    and literature. \n\nHer inspiration to be a journalist came directly from her
-    participation as a student activist in the Egyptian revolution of 2011.  \n\n>
-    Through journalism I felt I could do more than just participate; I could contribute
-    to the movement. \n\nThe move to open source investigations, open media projects
-    and university-based journalism efforts was a way of expressing the goals and
-    values of the revolution. \n \nWafaa had worked in local and regional media for
-    years, and she is now one of Meedan’s regional program managers, working with
-    newsrooms which often are not fully prepared  for the speed of the news cycle.
+    to the fact that in a democracy like India, local and independent media is essential,
+    as any other service, in small towns and rural areas.\n\nShalini believes that
+    [Check](https://meedan.com/check) and its future iterations can be a turning point
+    for journalists aiming to study and counter misinformation shared on closed messaging
+    platforms. Newsrooms can use the platforms to curate, annotate, verify and archive
+    misinformation and Shalini believes that for several small and independent newsrooms,
+    this is a great service that no other platform currently provides. Check has tremendous
+    potential for newsrooms and fact-checkers to design collaborative projects, especially
+    around areas of common interest. Its unique features are great for large projects
+    on politics, health, climate change or those that track human rights issues. \n\n\n###
+    Meet Isabella Barroso in Brazil\n\nIsabella Barroso, also known to many as Isa,
+    is Meedan's Latin America regional program manager. She works with several newsrooms
+    in both Spanish and Portuguese spanning Brazil and Mexico.\n\nIsa joins Meedan's
+    program team with a passion for human-centred design and product development that
+    is fit to solve problems. After two degrees in journalism and interaction design,
+    Isa hopes that her dual expertise in both journalism and her technical skills
+    in product management and design will help bridge the intersection of society,
+    journalism and technology.\n\nIn Latin America, our Check Global partners are
+    [Chicas Poderosas](https://chicaspoderosas.org/about/), present in 18 countries
+    and [Animal Político](https://www.animalpolitico.com/) in México.\n\n> I am now
+    developing more of my program skills based on my experience in product,\" noted
+    Isabella. \"I am interested in social development and impact. I learned a lot
+    about how to scale processes in different contexts and at Meedan this happens
+    with each partner or new venture.\n\nMisinformation in Latin America seems to
+    be as decentralised as the open web. It's systemised, coordinated messaging on
+    closed messaging apps such as WhatsApp, rumours and what seems to be an information
+    overflow to disorient information consumers.\n\n### Meet Wafaa Heikal in Berlin\n\nWafaa
+    Heikal graduated in 2011 from Cairo University and received a bachelor’s in journalism.
+    She loves fiction and thought journalism  is an excellent proxy to literature.
+    \n\n> “My focus was following the interactions of youth with culture and social
+    media after the revolution,\" she’s said. \n\nWafaa's first job was as a culture
+    journalist at [Akhbar El Adab](https://en.wikipedia.org/wiki/Akhbar_Al-Adab),
+    due to her love for fiction and literature. \n\nHer inspiration to be a journalist
+    came directly from her participation as a student activist in the Egyptian revolution
+    of 2011.  \n\n> Through journalism I felt I could do more than just participate;
+    I could contribute to the movement. \n\nThe move to open source investigations,
+    open media projects and university-based journalism efforts was a way of expressing
+    the goals and values of the revolution. \n \nWafaa had worked in local and regional
+    media for years, and she is now one of Meedan’s regional program managers, working
+    with newsrooms which often are not fully prepared  for the speed of the news cycle.
     In this role, Wafaa helps to build fact-checking collaborations to monitor and
     verify social media during elections, and supports fact-checkers and human rights
     researchers work in verifying user generated content using Meedan verification,
     annotation and translation tools.\n \nWafaa sees immense potential for Meedan’s
-    open source tools.\n\n> “I use Check to support different workflows depending
-    \ on what types of content we want to investigate and what context we are working
-    in - its great that our tools allow for work across an interesting range of use
-    cases... However, I really like working with small teams and small newsrooms around
-    the globe on our  elections monitoring projects, understanding the particular
-    national context and partner capacities and then designing new workflows around
-    them.”\n\n"
+    open source tools.\n\n> “I use [Check](https://meedan.com/check) to support different
+    workflows depending  on what types of content we want to investigate and what
+    context we are working in - its great that our tools allow for work across an
+    interesting range of use cases... However, I really like working with small teams
+    and small newsrooms around the globe on our  elections monitoring projects, understanding
+    the particular national context and partner capacities and then designing new
+    workflows around them.”\n\n"
   words_by:
   - sys:
       id: 7JIwO7govlJW5ID7v226Rz
       created_at: !ruby/object:DateTime 2020-03-19 23:44:00.907000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-19 23:45:33.996000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 23:09:45.614000000 Z
       content_type_id: contributor
-      revision: 0
+      revision: 1
     name: Ahmed Medien
   date: '2020-03-19'
   alt_date: *4

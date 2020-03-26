@@ -10,8 +10,8 @@
     background-color: var(--blackInk);
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .nav-content {
@@ -57,4 +57,16 @@
 .nav-overlay a:hover,
 .nav-overlay a:focus {
     color: #fff;
+}
+
+.nav-footer {
+    margin-top: var(--section-space);
+    margin-left: var(--space-3);
+    margin-right: var(--space-3);
+    margin-bottom: var(--space-2);
+    padding-bottom: var(--space-1);
+    border-top: 1px solid var(--sunDown);
+    a {
+        font-size: var(--scale-0);
+    }
 }
