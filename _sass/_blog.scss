@@ -7,8 +7,12 @@
 }
 
 @include responsive('min-width: #{$width-tablet}') {
-    .module-story-grid .module-wrapper {
+    .grid-template-columns--2 .module-wrapper {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-template-columns--3 .module-wrapper {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -17,11 +21,7 @@
     padding-left: var(--space-3);
     padding-right: var(--space-3);
     font-size: var(--scale-1);
-    // text-align: center;
-    // text-transform: uppercase;
-    // letter-spacing: 0.1rem;
 }
-
 
 .story-grid-item {
     .tag {
@@ -32,9 +32,6 @@
     }
     .title {
         font-size: var(--scale-2);
-    }
-    .image-container {
-        display: block;
     }
     .image-container.landscape {
         margin: var(--space-1) var(--space-2) var(--space-1);
@@ -50,7 +47,21 @@
     }
 }
 
-.story {
+.grid-template-columns--3 {
+    .tag {
+        font-size: var(--scale-0);
+    }
+    .title {
+        font-size: var(--scale-1);
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        .image-container {
+            min-height: 20rem;
+        }
+    }
+}
+
+.story header {
     .tag {
         font-size: var(--scale-1);
     }
@@ -85,6 +96,11 @@
 .story .title-container {
     margin-top: var(--space-5);
     padding-left: var(--space-3);
+}
+
+.grid-template-columns--3 .title-container {
+    margin-top: var(--space-1);
+    padding-left: 0;
 }
 
 .story figcaption {
@@ -221,4 +237,28 @@
 .story-sidebar {
     grid-column: 1/4;
     margin-bottom: var(--space-6);
+}
+
+.module-related {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    .section-title {
+        border-top: 1px solid var(--blackInk);
+        padding-top: var(--space-4);
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .module-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .trail-wrapper {
+        margin-top: var(--space-3);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        span {
+            width: 20rem;
+        }
+    }
 }

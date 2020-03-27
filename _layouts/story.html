@@ -31,6 +31,7 @@
                     <span>Published on</span> {{ published_on | date: "%-d %B %Y" }}
                 </div>
             </div>
+            {% include module_stories.html %}
             {% include module_checklist.html %}
             {% include footer_small.html theme="dark" %}
         </section>
