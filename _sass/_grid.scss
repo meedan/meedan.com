@@ -135,6 +135,20 @@
     }     
 }
 
+// columns
+@include responsive('min-width: #{$width-tablet}') {
+    .grid-template-columns--2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-template-columns--3 {
+        grid-template-columns: repeat(3, 1fr);
+    }  
+}
+
+.display--block {
+    display: block;
+}
+
 .flex {
     display: flex;
 }
@@ -157,6 +171,10 @@
 
 .justify-self--center {
     justify-self: center;
+}
+
+.align-items--flex-end {
+    align-items: flex-end;
 }
 
 .content-grid--2 {

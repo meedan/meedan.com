@@ -319,7 +319,7 @@ story:
 - sys:
     id: 45vAHRb7C95yfC4xPspSvd
     created_at: !ruby/object:DateTime 2020-02-25 22:28:23.080000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.272000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-27 21:47:39.761000000 Z
     content_type_id: story
     revision: 2
     space:
@@ -337,6 +337,14 @@ story:
     locale: en-US
   title: Signaling Credibility — What We’re Building at the W3C
   slug: signaling-credibility-what-were-building-at-the-w3c
+  topic:
+  - sys:
+      id: 6TvSKHc0JwGsaZxHUrYc5M
+      created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+      content_type_id: topic
+      revision: 1
+    title: Research
   lead_image:
     sys:
       id: 4bliYB7Zthb9fivR28r4iL
@@ -421,7 +429,7 @@ story:
 - sys:
     id: 7jKRIrwtkpkWXs4584YVyZ
     created_at: !ruby/object:DateTime 2020-02-25 22:42:45.916000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.272000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-27 21:47:26.856000000 Z
     content_type_id: story
     revision: 2
     space:
@@ -440,6 +448,14 @@ story:
   title: Five Insights For Collaborative Natural Disaster Reporting From Hurricane
     Florence
   slug: five-insights-for-collaborative-natural-disaster-reporting-from-hurricane
+  topic:
+  - sys:
+      id: 2JV51Hja1BxcyGdNP5VID3
+      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+      content_type_id: topic
+      revision: 1
+    title: Network
   lead_image:
     sys:
       id: 3W8CS3yBNno9zBVCHtBA9r
@@ -837,3 +853,110 @@ story:
   date: '2020-03-19'
   alt_date: *4
   alt_date_string: '2020-03-19'
+- sys:
+    id: 3Bccx27IyIKqZTMAPzuB4r
+    created_at: &5 !ruby/object:DateTime 2020-03-26 23:09:32.028000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-27 20:11:55.000000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Five tips for fact-checking during a pandemic
+  slug: five-tips-for-fact-checking-during-a-pandemic
+  topic:
+  - sys:
+      id: 13HcGYCQHm8vDRW3EAkw6j
+      created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+      content_type_id: topic
+      revision: 1
+    title: COVID-19
+  lead_image:
+    sys:
+      id: 38oGDoj4LEM1k7ynnYd29I
+      created_at: !ruby/object:DateTime 2020-03-27 19:21:53.912000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-27 20:11:50.515000000 Z
+    title: Meedan fact-checking-tips-covid-19 01
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/38oGDoj4LEM1k7ynnYd29I/df6a67c0499500d0275e90c38bae032a/Meedan_fact-checking-tips-covid-19_01.png"
+  body: "Sifting through an onslaught of misinformation and competing narratives is
+    one of the greatest challenges of the COVID-19 health crisis. Meedan is working
+    with fact-checking groups across the globe to debunk misleading health claims
+    and support responsible verification efforts in many contexts. Our public health
+    expert, Nat Gyenes, put together some critical tips for fact-checking pandemic-related
+    information, building from the report we released a few months ago on [responsible
+    health fact-checking](https://health.meedan.com/primer.pdf). \n\nFive tips for
+    fact-checking information during a pandemic:\n\n__1. Reference the date and time
+    at which you accessed the health information used to fact-check.__ This ensures
+    that users know the information is only valid up to that date and time. Including
+    specific time zones might be useful as well. The World Health Organization hosts
+    daily media briefings in which recommendations to governments or countries may
+    change, and it is important to communicate with your target audiences the exact
+    point of relevance of the information that you are disseminating. \n\n__2. Be
+    context-specific when responding to treatment and prevention strategy queries.__
+    For questions about specific treatment or prevention strategies, such as questions
+    about whether  antibiotics are used to treat COVID-19 (they’re not*), respond
+    to whether they have been tested or validated in the COVID-19 context only. This
+    ensures that the fact-check response doesn’t resemble a clinical recommendation,
+    and avoids possibly harmful references to other contexts in which particular treatments
+    have been effective.\n\n__3. Reference the source of the health information you
+    use to fact check.__ It may be important to clarify whether the information you
+    have received was verified by an infectious disease professional, as opposed to
+    publicly accessible information on the website of a health information authority,
+    such as the World Health Organization or national department of health sources.
+    This can help provide guidance to your audience members as they search for additional
+    information or context online. \n\n__4. Use disclaimer text to ensure transparency
+    with users about the changing nature of information in a pandemic.__ We drafted
+    a sample disclaimer text that you can include in fact-checks to help communicate
+    to users the ever-changing nature of information in a pandemic: \n\n> “We base
+    our COVID-19 fact-checks on information provided by internationally-    recognized
+    health organizations and health professionals. Because information in   epidemics
+    is constantly being updated, our fact-checks are up to date based on the date
+    and time they are published. If you're looking for medical advice, please contact
+    a healthcare provider, and be sure to review the World Health Organization website
+    for more information about COVID-19: https://www.who.int/emergencies/diseases/novel-coronavirus-2019”\n\n__5.
+    Consider clinical requests to be out of scope: Avoid providing any clinical recommendations
+    to your audience.__ The disclaimer text above should help with that. If there
+    are specific personal medical questions which your audience wants answered, they
+    can be responded to with a subset of the disclaimer text above:  \n\n>   “If you're
+    looking for medical advice, please contact a healthcare provider, and   be sure
+    to review the World Health Organization website for more information about COVID-19:
+    https://www.who.int/emergencies/diseases/novel-coronavirus-2019”\n\nAs the COVID-19
+    pandemic and misinfodemic continues to spread across continents and screens, drastically
+    impacting public health, our way of life and global markets, Meedan is also reflecting
+    on this historic moment and its emerging lessons: In the coming weeks we will
+    be releasing a series of analyses on COVID-19, written by journalists, fact-checkers,
+    censorship experts, thought leaders and academics. The contributors are writing
+    about the pandemic through the fog of the war— filing reports and analyses as
+    news is still breaking, long before we know how the story of COVID-19 ends. \n\nThe
+    analyses will aim to shine a light on topics like disaster diplomacy, censorship,
+    localization of information access, and public trust, as we start to think about
+    moving forward and away from the pandemic. Stay tuned for more updates on this
+    in our newsletter and on social media. \n\n*\"No, antibiotics do not work against
+    viruses, only bacteria. The new coronavirus (2019-nCoV) is a virus and, therefore,
+    antibiotics should not be used as a means of prevention or treatment. However,
+    if you are hospitalized for the 2019-nCoV, you may receive antibiotics because
+    bacterial co-infection is possible\"\n\n"
+  words_by:
+  - sys:
+      id: 3jh6Rz03KzuYCvSNyk4TfF
+      created_at: !ruby/object:DateTime 2020-03-26 23:10:41.808000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-27 02:36:15.132000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Megan Marrelli
+    staff: true
+  date: '2020-03-26'
+  alt_date: *5
+  alt_date_string: '2020-03-26'

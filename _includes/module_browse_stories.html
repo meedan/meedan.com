@@ -1,0 +1,42 @@
+{% assign topics = site.data.contentful.spaces.topics.topic %}
+<section class="module module-story-grid module-browse grid-template-columns--3 section-margin">
+    <div class="section-title">
+        Stories about 
+        <select id="topic-select">
+            {% for topic in topics %}
+                <option value="topic-{{topic.title | slugify }}">{{ topic.title }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    {% for topic in topics %}
+    <div id="topic-{{topic.title | slugify }}">
+    <div class="module-wrapper">
+            {% assign stories = site.data.contentful.spaces.stories.story
+                | where_exp: "item","item.topic[0].sys.id == topic.sys.id" 
+                | story_date_sort | reverse 
+             %}
+            {% for story in stories | limit: 3 %}
+            <div class="story-grid-item">
+                <div class="title-container">
+                    <a class="tag" href="/blog/{{ story.slug }}">
+                        {% for topic in story.topic %}
+                            {{ topic.title }} /
+                        {% endfor %}
+                    </a>
+                    <a class="title" href="/blog/{{ story.slug }}">{{ story.title }}</a>
+                </div>
+                <a href="/blog/{{ story.slug }}">
+                    <picture class="image-container">
+                        <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+                    </picture>
+                </a>
+            </div>
+            {% endfor %}
+        
+    </div>
+</div>
+    {% endfor %}
+    <div class="trail-wrapper">
+        <span class="trail"><hr /><a href="/blog" class="button no-margin">View all stories →</a></span>
+    </div>
+</section>

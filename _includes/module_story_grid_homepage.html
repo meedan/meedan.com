@@ -4,8 +4,8 @@
 %}
 {% assign topics = site.data.contentful.spaces.topics.topic %}
 
-<section class="module module-story-grid section-margin">
-    <h3 class="section-title">● {{ story_list[0].title }}</h3>
+<section class="module module-story-grid grid-template-columns--2 section-margin">
+    <h3 class="section-title">● <a href="/blog" title="{{ story_list[0].title }}">{{ story_list[0].title }}</a></h3>
     <div class="module-wrapper">
         {% for story in story_list[0].stories limit:4 %}
         <div class="story-grid-item{% if forloop.last %}{{ 'with-more-link' | prepend: ' ' }}{% endif %}">
@@ -22,7 +22,7 @@
                 <a class="title" href="/blog/{{ story.slug }}">{{ story.title }}</a>
             </div>
             <a href="/blog/{{ story.slug }}">
-                <picture class="image-container">
+                <picture class="image-container display--block">
                     <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
                 </picture>
             </a>

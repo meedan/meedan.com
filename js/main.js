@@ -36,7 +36,7 @@ $(document).ready(function() {
 	// });
 
 	// Add class landscape or portrait to journal lead images
-	$('.image-container img').each(function() {
+	$('.grid-template-columns--2 .image-container img').each(function() {
 		var height = $(this).height();
 		var width = $(this).width();
 		if (height > width) {
@@ -45,8 +45,7 @@ $(document).ready(function() {
 			$(this).parent().addClass('landscape');
 		}
 	});
-
-
+	
 	// Image
 	$('a.media-link').magnificPopup({
 		type:'image',
