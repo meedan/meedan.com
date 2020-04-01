@@ -319,9 +319,9 @@ story:
 - sys:
     id: 45vAHRb7C95yfC4xPspSvd
     created_at: !ruby/object:DateTime 2020-02-25 22:28:23.080000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-27 21:47:39.761000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-31 18:26:46.904000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -429,9 +429,9 @@ story:
 - sys:
     id: 7jKRIrwtkpkWXs4584YVyZ
     created_at: !ruby/object:DateTime 2020-02-25 22:42:45.916000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-27 21:47:26.856000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-31 18:26:51.462000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -502,7 +502,7 @@ story:
 - sys:
     id: 3F5aNZnxGuUwpBrhQBLIMq
     created_at: &2 !ruby/object:DateTime 2020-03-17 22:49:50.997000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-18 00:45:51.938000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-31 18:27:11.166000000 Z
     content_type_id: story
     revision: 1
     space:
@@ -521,6 +521,13 @@ story:
   title: Meedan and COVID-19
   slug: meedan-and-covid-19
   topic:
+  - sys:
+      id: 13HcGYCQHm8vDRW3EAkw6j
+      created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+      content_type_id: topic
+      revision: 1
+    title: COVID-19
   - sys:
       id: 2JV51Hja1BxcyGdNP5VID3
       created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
@@ -960,3 +967,155 @@ story:
   date: '2020-03-26'
   alt_date: *5
   alt_date_string: '2020-03-26'
+- sys:
+    id: 1luEBzpLpQe39y8unAkBsS
+    created_at: &6 !ruby/object:DateTime 2020-03-31 00:03:55.514000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-31 18:41:50.201000000 Z
+    content_type_id: story
+    revision: 6
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: We’re building a database of expert-sourced COVID-19 information for fact-checkers
+  slug: database-of-expert-sourced-covid-19-information-for-fact-checkers
+  topic:
+  - sys:
+      id: 13HcGYCQHm8vDRW3EAkw6j
+      created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+      content_type_id: topic
+      revision: 1
+    title: COVID-19
+  lead_image:
+    sys:
+      id: BFv04cYmlzazIO8In6HIC
+      created_at: !ruby/object:DateTime 2020-03-31 01:05:16.367000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-31 01:05:41.770000000 Z
+    title: Meedan covid-19 database
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/BFv04cYmlzazIO8In6HIC/ebc81119f6ddc371e9d5c1747c6c2c3b/Meedan_covid-19_database.png"
+  body: "Global fact-checking organizations and pandemic communicators are fielding
+    massive amounts of complex information requests about COVID-19. Meedan's Digital
+    Health Lab is developing an emergency response resource to support their efforts.
+    \n\nThrough our network of public health researchers, epidemiologists and infectious
+    disease specialists, we are developing a living database of real-time, expert-sourced
+    health and science information on COVID-19. This effort is designed to support
+    fact-checkers and pandemic communicators who are verifying and answering incoming
+    questions about the pandemic. \n\nOver the last six years, first at the Harvard
+    School of Public Health and now at Meedan's Digital Health Lab, I’ve researched
+    how health information inequity and digital health misinformation can impact the
+    spread and burden of disease. It is increasingly clear, and is demonstrated through
+    the COVID-19 pandemic, that two twin challenges need support:\n\n- Fact-checking
+    organizations are working tirelessly to answer questions about complex health
+    situations and disease distribution, and to explain medical research and epidemiological
+    findings\n- Public health practitioners and infectious disease researchers struggle
+    to urgently communicate their expertise effectively to a wide, general audience
+    \n\nWith support from the Google News Initiative, Facebook, the Omidyar Network,
+    the Swedish International Development Agency and the Robert Wood Johnson Foundation,
+    we are addressing these challenges in an initiative centered around six pillars
+    of work: \n \n__Data:__ During breaking news, limited access to experts can create
+    bottlenecks for fact-checkers. Meedan’s database will scale fact-checkers’ access
+    to reliable sources for urgent expertise. Through the growing list of publicly
+    sourced questions, this resource can also help intergovernmental health organizations
+    understand the greatest and most urgent communication needs during the pandemic.
+    \n\n\n__Network:__ Meedan has assembled a distributed global network of epidemiologists
+    and global public health experts to build and maintain the expert-sourced COVID-19
+    information database. To streamline the process of ‘expert-seeking,’ which fact-checkers
+    and communicators regularly go through, we developed a criteria system to triage
+    fact-checking inquiries to appropriate public health practitioners and researchers
+    with different areas of expertise. \n\n\n__Communications:__ It is key for this
+    project to bridge research and practice, and for insights to be actionable for
+    communicators. We are developing templates for packaged, verified content that
+    is sent from fact-checkers to their audiences. The packages are grounded in behavior
+    science and health-specific standards of care for communications. The design outputs
+    have best practices in mind for addressing health information response challenges,
+    such as competing expert perspectives, consistency, and transparency in the ever-changing
+    information ecosystem of pandemics. \n\n\n__Technology:__ As part of this project,
+    we are examining pathways for disseminating the contents of the database across
+    languages to fact-checkers and pandemic communicators around the world. We are
+    also integrating the database into Meedan’s verification and fact-checking workspace
+    software, Check, in order to make its expert-reviewed contents available to the
+    public. A set of new features in Check will make it easy for organizations to
+    create custom multilingual bots and connect them to messaging networks in order
+    to interface with the public (first on Facebook, Twitter or WhatsApp). End users
+    will then be able to access a subset of relevant resources, selected by each fact-checking
+    organization individually, via a simple query system, and will be presented short
+    lists of up-to-date content that matches their query.  \n \n__Research:__ Through
+    this project, we will investigate discrepancies in quality COVID-19 information
+    in the various contexts in which fact-checkers work. We will also research specific
+    challenges in accessing subject matter experts for verification. We will examine
+    the nature of COVID-19 questions across languages and geographies, and explore
+    patterns of similar themes of misinformation, translating findings into useful
+    insights for public health communicators. In addition, as a group that works closely
+    with partners in emerging economies, Meedan is closely following the impact of
+    the pandemic on migrants, women, people living in densely populated urban areas
+    and underserved communities that don't have access to public health care systems.
+    Our team members in different regions will also track the impact of lockdowns
+    on democracies, civil rights and violence against women, and insights will inform
+    database priorities.\n\n\n__Impact Assessment:__ As we continue to collaborate
+    on projects that address emerging threats with new technologies and evolving workflows,
+    we are committed to centralizing research in impact assessment, monitoring and
+    evaluation  into the earliest parts of project design. We are fortunate to be
+    working with the Behavioural Insights Team, as well as a team of user researchers,
+    to better understand the behavioral impact of our response efforts, which will
+    drive project workflows and will support content design. \n\n\nAs we’re learning
+    each day, information and misinformation about the COVID-19 pandemic are spreading
+    in online ecosystems as rapidly as the virus itself is spreading around the world.
+    During this historic time, the public has a wide range of time-sensitive and critical
+    questions about everything from new travel restrictions to evolving infectious
+    disease research. While response efforts in this challenging time aim to reduce
+    public confusion, fact-checkers and communications first responders, already working
+    with a number of resource constraints, are faced with an immeasurable challenge
+    of addressing the low-quality online health information that can exacerbate the
+    spread of disease. \n\nThis project builds off of years of research, including
+    research on addressing health misinformation at MIT’s Center for Civic Media and
+    the Berkman Klein Center for Internet and Society, inspired by working with Dr.
+    Brittany Seymour, a brilliant researcher and mentor whose early work shaped much
+    of today’s health misinformation discourse, and through the founding of Meedan’s
+    Digital Health Lab in 2018, a public health research unit with a goal of promoting
+    health equity through digital initiatives. As part of the Digital Health Lab,
+    together with Megan Marrelli, we [published a report in 2019 exploring standards
+    of care for health fact-checking](https://health.meedan.com/primer.pdf), and are
+    eager to continue this link between research and practice. \n\nOver the last six
+    years, these ideas have been developed, workshopped, and shared in late-night
+    graduate school study sessions punctuated by ‘what-ifs’ and impromptu brainstorming,
+    in sessions at SwitchPoint, the International Journalism Festival, the Digital
+    Health @ Harvard series, RightsCon, MisinfoCon, and the Google News Initiative
+    Summits, in fellows hours at the Berkman Klein Center, in ethics, mixed methods,
+    and human rights lectures, and in conversations between friends and colleagues,
+    hopeful in our ability to create something important together. I am immensely
+    grateful to Meedan’s partners for showing us where we can make the most of our
+    work together, and to all of our supporters as we further develop this intersection.\n\nThis
+    COVID-19 response effort would not be possible without the partnership and collaboration
+    of Dr. Christin Gilmer, Graphika, the Behavioural Insights Team, Birmingham City
+    University, students and researchers from the Harvard School of Public Health
+    and the Johns Hopkins School of Public Health, and our network of public health
+    specialists. \n\nAs we continue to build this initiative, we are keen to learn
+    and collaborate. We’re grateful for the opportunity to contribute to the challenging
+    and essential work that fact-checkers and communicators are doing to address this
+    pandemic, and the accompanying misinfodemic. Please reach out at health@meedan.com
+    to talk more."
+  words_by:
+  - sys:
+      id: 4JqOrlVgCscDebeRwxYBu8
+      created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Nat Gyenes
+    staff: true
+    role: Senior Program Manager
+    location: On the Road
+  date: '2020-03-31'
+  alt_date: *6
+  alt_date_string: '2020-03-31'

@@ -3,9 +3,9 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-27 20:12:26.509000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-31 18:47:56.931000000 Z
     content_type_id: moduleStories
-    revision: 5
+    revision: 6
   title: Blog
   stories:
   - sys:
@@ -297,12 +297,14 @@ moduleStories:
   - sys:
       id: 3F5aNZnxGuUwpBrhQBLIMq
       created_at: !ruby/object:DateTime 2020-03-17 22:49:50.997000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-18 00:45:51.938000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-31 18:27:11.166000000 Z
       content_type_id: story
       revision: 1
     title: Meedan and COVID-19
     slug: meedan-and-covid-19
     topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
     - sys:
         id: 2JV51Hja1BxcyGdNP5VID3
     lead_image:
