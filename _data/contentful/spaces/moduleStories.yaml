@@ -3,11 +3,161 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-31 18:47:56.931000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-07 11:21:13.096000000 Z
     content_type_id: moduleStories
-    revision: 6
+    revision: 7
   title: Blog
   stories:
+  - sys:
+      id: 1luEBzpLpQe39y8unAkBsS
+      created_at: !ruby/object:DateTime 2020-03-31 00:03:55.514000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-06 17:23:02.131000000 Z
+      content_type_id: story
+      revision: 7
+    title: We’re building a database of expert-sourced COVID-19 information for fact-checkers
+    slug: database-of-expert-sourced-covid-19-information-for-fact-checkers
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: BFv04cYmlzazIO8In6HIC
+        created_at: !ruby/object:DateTime 2020-03-31 01:05:16.367000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-31 01:05:41.770000000 Z
+      title: Meedan covid-19 database
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/BFv04cYmlzazIO8In6HIC/ebc81119f6ddc371e9d5c1747c6c2c3b/Meedan_covid-19_database.png"
+    body: "Global fact-checking organizations and pandemic communicators are fielding
+      massive amounts of complex information requests about COVID-19. Meedan's Digital
+      Health Lab is announcing the development of an emergency response resource to
+      support pandemic fact-checking efforts. \n\nThrough our network of public health
+      researchers, epidemiologists and infectious disease specialists, we are developing
+      a database of information related to COVID-19 that is contextualized, populated
+      and regularly updated by public health experts, including epidemiologists and
+      infectious disease researchers. This resource can be used as source material
+      for journalists and fact-checkers who are working to verify and contextualize
+      pandemic-related information. \n\nLimited access to public health experts can
+      present a bottleneck for fact-checkers and journalists, especially during emergencies,
+      when demand for those experts is high. Over the last six years, first at the
+      Harvard School of Public Health and now at Meedan's Digital Health Lab, I have
+      been researching how health information inequity and digital health misinformation
+      can impact the spread and burden of disease, as well as the communication gaps
+      that can exacerbate those issues. In December 2019, we [published a report](https://health.meedan.com/primer.pdf)
+      on how responsible health fact-checking requires a unique standard of care.
+      \n\nIt is increasingly clear, and is demonstrated through the COVID-19 pandemic,
+      that two twin challenges need support:\n\n1) Fact-checking organizations, journalists
+      and other communicators are working tirelessly to answer questions about complex
+      health situations and disease distribution, and to explain medical research
+      and epidemiological findings\n\n2) Public health practitioners and infectious
+      disease researchers struggle to urgently communicate their expertise effectively
+      to a wide, general audience \n\nThis resource of aggregated expert-sourced information
+      is designed to complement fact-checking database efforts, like Poynter’s excellent
+      CoronaVirusFacts/DatosCoronavirus Alliance, First Draft’s Reporter Hub resources,
+      and Google’s Fact Check Explorer. Where these databases focus on the first challenge
+      — helping fact-checkers and journalists do their jobs more effectively — the
+      second challenge needs more critical support. Meedan’s Digital Health Lab is
+      supplying important health expert perspectives on key COVID-19 issues. We plan
+      to utilize ClaimReview and MediaReview to make sure the content we generate
+      can be shared readily amongst others. \n\nWe are also integrating this database
+      into fact-checking bot workflows that many of our partners are already using
+      to source questions from the public, adding an option for wider audiences to
+      either access existing resources relevant to COVID-19, or to submit their queries
+      to be fact-checked. This added option of reaching local fact-checking organizations
+      directly, and providing localized responses, complements the incredibly valuable
+      initiatives being developed by the World Health Organization, and various health
+      ministries around the world, working together to strengthen access to quality
+      information through the pandemic. \n\nWith support from the Google News Initiative,
+      Twitter, Facebook, Omidyar Network, the Swedish International Development Agency
+      and the Robert Wood Johnson Foundation, we have designed an initiative centered
+      around six pillars of work: \n \n__Data:__ During breaking news, limited access
+      to experts can create bottlenecks. This resource can scale fact-checkers’ abilities
+      to access reliable sources for urgent expertise by providing content that is
+      populated and regularly updated by experts. Through a growing list of publicly
+      sourced questions and expert-sourced answers, this resource can also help intergovernmental
+      health organizations understand the greatest and most urgent communication needs
+      during the pandemic. \n\n__Network:__ Meedan has assembled a distributed global
+      network of epidemiologists and global public health experts to build and maintain
+      the database. To streamline the process of ‘expert-seeking,’ which fact-checkers
+      and communicators regularly go through, we developed a triage system that organizes
+      COVID-19 questions into several groups, based on:\n\n- Potential for impacting
+      public health outcomes\n- Timeliness and/or urgency\n- Area of health expertise
+      required to respond appropriately \n\n__Impact Assessment:__ As we continue
+      to collaborate on projects that address emerging threats with new technologies
+      and evolving workflows, we are committed to centralizing research in impact
+      assessment, monitoring and evaluation into the earliest parts of project design.
+      In addition to our team of public health and user researchers, we are fortunate
+      to be working with experts in monitoring and evaluation from Birmingham City
+      University, as well as the Behavioural Insights Team, to better understand the
+      behavioral impact of our response efforts, and to drive project workflows, database
+      priorities and content design. We are prioritizing a localized and feminist
+      COVID-19 response effort.  \n\n__Communications:__ It is key for this initiative
+      \ to bridge research and practice, and for insights to be actionable for communicators.
+      We are developing templates for packaged, verified content that can be included
+      in outputs sent from fact-checkers to their audiences. The packages are grounded
+      in behavior science and our efforts to develop health-specific standards of
+      care for communications, and include best practices for addressing health information
+      response challenges, such as competing expert perspectives, consistency, and
+      transparency in the ever-changing information ecosystem of pandemics. \n\n__Technology:__
+      We are prioritizing pathways for disseminating contents of the database across
+      languages to fact-checkers and pandemic communicators around the world. We are
+      also integrating into Meedan’s open source verification and fact-checking workspace
+      software, Check, in order to make its expert-reviewed contents available to
+      the public. Through Check, we are creating an interface for users to design
+      custom multilingual bots for disseminating their fact-checked content, connecting
+      users to closed messaging networks including Facebook Messenger, Twitter Direct
+      Message, and WhatsApp. End users will then be able to access a subset of relevant
+      resources, selected by each fact-checking organization individually, via a simple
+      query system, and will be presented with short lists of up-to-date content that
+      matches their query.  \n \n__Research:__ Through this project, we are examining
+      the nature and scope of COVID-19 questions across languages and geographies,
+      exploring patterns of similar themes of misinformation, and translating findings
+      into useful insights for public health communicators. In addition, as a group
+      that works closely with partners in emerging economies, Meedan is closely following
+      the impact of the pandemic on migrants, women, people living in densely populated
+      urban areas and underserved communities that don't have access to public health
+      care systems. Our team members in different regions are tracking the impact
+      of lockdowns on democracies, civil rights and violence against women, and insights
+      will inform database priorities.\n\nAs we’re learning each day, information
+      and misinformation about the COVID-19 pandemic are spreading in online ecosystems
+      as rapidly as the virus itself is spreading around the world. During this historic
+      time, the public has a wide range of time-sensitive and critical questions about
+      everything from new travel restrictions to evolving infectious disease research.
+      Fact-checking organizations are working tirelessly to answer questions about
+      complex health information, medical research and epidemiological findings, while
+      public health practitioners and infectious disease researchers struggle to urgently
+      communicate their expertise to a wide general audience. The result of this problem
+      set is public confusion, strained resources and often poor health outcomes,
+      as low-quality online health information exacerbates the real-world spread of
+      disease. Through this initiative, it is our hope to alleviate pressure on fact-checking
+      organizations with limited resources and provide a needed audience to health
+      experts. \n\n\nThis project builds off of years of research, including research
+      on addressing health misinformation at MIT’s Center for Civic Media and the
+      Berkman Klein Center for Internet and Society, inspired by working with Dr.
+      Brittany Seymour, a brilliant researcher and mentor whose early work shaped
+      much of today’s health misinformation discourse, and through the founding of
+      Meedan’s Digital Health Lab in 2018, a public health research unit with a goal
+      of promoting health equity through digital initiatives. \n\nOver the last six
+      years, these ideas have been developed, workshopped, and shared in late-night
+      dinners and graduate school study sessions punctuated by ‘what-ifs’ and impromptu
+      brainstorming, in sessions at SwitchPoint, the International Journalism Festival,
+      the Digital Health @ Harvard series, RightsCon, MisinfoCon, and the Google News
+      Initiative Summits, in fellows hours at the Berkman Klein Center, in ethics,
+      mixed methods, and human rights lectures, and in conversations between friends
+      and colleagues, hopeful in our ability to create something important together.
+      I am immensely grateful to Meedan’s partners for showing us where we can make
+      the most of our work together, and to all of our supporters as we further develop
+      this intersection.\n\nThis COVID-19 response effort would not be possible without
+      the partnership and collaboration of Dr. Christin Gilmer, Graphika, the Behavioural
+      Insights Team, Birmingham City University, students and researchers from the
+      Harvard School of Public Health and the Johns Hopkins School of Public Health,
+      and our network of public health specialists. \n\nAs we continue to build this
+      initiative, we are keen to learn and collaborate. We’re grateful for the opportunity
+      to contribute to the challenging and essential work that fact-checkers and communicators
+      are doing to address this pandemic, and the accompanying misinfodemic. Please
+      reach out at health@meedan.com to talk more.\n"
+    words_by:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
   - sys:
       id: 3Bccx27IyIKqZTMAPzuB4r
       created_at: !ruby/object:DateTime 2020-03-26 23:09:32.028000000 Z
@@ -367,3 +517,83 @@ moduleStories:
     words_by:
     - sys:
         id: 7xM8QfuAFGFURUXRBNLBtX
+  - sys:
+      id: 34QofKm9PbO6WiXJtwsuUe
+      created_at: !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-08 00:31:07.380000000 Z
+      content_type_id: story
+      revision: 0
+    title: 'Launching the COVID-19 Check Global Micro Grants to Support Digital Literacy
+      and Independent Media Production in Evolving Economies '
+    slug: launching-the-covid-19-check-global-micro-grants-to-support-digital-literacy
+    lead_image:
+      sys:
+        id: 2O80ER32L22S8aFaV3jkOa
+        created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-08 00:40:23.088000000 Z
+      title: meedan check-global-micro-grants
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/d992f8d98bfd7bfb2b6948983902016a/meedan_check-global-micro-grants.png"
+    body: "As the World Health Organization (WHO) announced COVID-19 outbreak a pandemic
+      and a global health crisis, health misinformation and rumors have multiplied
+      across platforms, thus undermining efforts for producing reliable and factual
+      information around the virus. This is particularly challenging for civil society
+      organisations and grassroots collectives who are still struggling to make sense
+      of, and to counter the effects of, the outbreak on their own local contexts.
+      \n\nIn an attempt to support independent media, fact-checkers, citizen journalists,
+      activists, and technology and digital literacy enthusiasts in their efforts
+      to cover the outbreak, Meedan is launching the COVID-19 Check Global micro grants,
+      specifically aimed at groups working within the context of evolving economies
+      (Middle East and North Africa (MENA), Africa, Latin America, Asia-Pacific region).
+      \n\nThe grants are aimed at supporting fact-checking and verification projects,
+      local watchdog initiatives, documentation of local reality under quarantine
+      and media/digital literacy campaigns, tracking the impact of lockdowns on democracies,
+      and examining digital surveillance and surveillance capitalism, civil rights,
+      and violence against women related to COVID-19. We encourage applicants to be
+      creative in their proposals. We  are keen to support the production of different
+      kinds of outputs, including podcasts, videos, documentaries, written pieces,
+      campaigns, toolkits, digital archives, and blogging. We are also looking to
+      support proposals that are not only focused on covering misinformation about
+      the pandemic, but also looking at people's lives and experiences under quarantine.\n\nWe
+      are accepting proposals in English, Arabic, French, Spanish and Portuguese at
+      the moment. Applications will be considered on a rolling basis. \n\n\n- Individuals
+      can apply for up to $500 \n- Organizations can apply for up to $2000\n- Collaborative
+      projects can apply for up to $2500 \n\n\n__Application process__\n\n\n1. Applicants
+      should fill out an [online form](https://forms.gle/BL9wbZwJZqq8DWtE7) detailing
+      their proposal \n2. The fund advisory board meets weekly to review all applications\n3.
+      Successful applicants are then notified within a period of 5 to 10 days from
+      submission\n\n\n__Selection criteria__\n- Originality & significance: The quality
+      of the written application. What are the challenges it suggests to address?
+      What is its geographic area / focus?\n- Achievability: Will the applicant be
+      able to deliver on the promises made in the application? Is the work plan realistic
+      within the suggested timeline? Does the fieldwork represent any ethical or health
+      and safety issues that need to be taken into consideration? \n- Impact & Dissemination:
+      Does the application identify a relevant audience for the work? How does the
+      work set out to transform perception on COVID-19? Is the application clear in
+      terms of why this work is important now? Projects that serve local and underserved
+      communities, women, gender non-binaries, vulnerable people and rural populations
+      will be prioritized.\n- Rigour: Do you adhere to a fact-checking methodology?
+      How will the applicant check their sources as accurate? Are the resources used
+      for your media literacy campaign reliable?\n\nPlease be advised, if you haven’t
+      heard from us within 3 weeks of your application, this means it was not successful.
+      Unfortunately we are not able to respond to each unsuccessful applicant due
+      to the numbers of applications we receive.\n\nAccepted applicants will publish
+      their projects on their own platforms and will be referenced on the Check Global
+      page. They will later be highlighted on our blog at the end of this funding
+      cycle. \n\n__[Apply Here](https://forms.gle/BL9wbZwJZqq8DWtE7)__\n\n__Check
+      Global__ is an initiative  from Meedan that supports and facilitates journalism
+      and human rights work, including research, in developing countries. We provide
+      software, training, and support to a group of independent media organizations,
+      journalism schools, and human rights researchers in Latin America, East Africa
+      and the NAWA region. \n\n__Meedan__ is a non-profit that focuses on improving
+      the quality and equity of online information. We do this by building software
+      and designing human-powered initiatives for newsrooms, NGOs and academic institutions."
+    words_by:
+    - sys:
+        id: 5RAhIbkGFCzRWLiEMbezs9
+- sys:
+    id: 4xiD0SNvKOCkwGlZS2YwSs
+    created_at: !ruby/object:DateTime 2020-04-07 11:19:52.797000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-07 11:19:52.797000000 Z
+    content_type_id: moduleStories
+    revision: 0
