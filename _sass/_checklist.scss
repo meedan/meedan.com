@@ -1,3 +1,7 @@
+.checklist {
+    a { color: var(--blackInk) }
+}
+
 .module-checklist {
     p {
         font-size: var(--scale-2);
@@ -56,9 +60,6 @@ form.checklist-signup {
         &::-ms-input-placeholder { /* Microsoft Edge */
             color: var(--blackInk);
         }
-        &:hover {
-            background-color: rgba(var(--coral), 0.3);
-        }
     }
     button {
         background: none;
@@ -70,7 +71,7 @@ form.checklist-signup {
         cursor: pointer;
         color: var(--blackInk);
         &:hover {
-            background-color: var(--coral);
+            background-color: var(--sunDown);
             color: var(--blackInk);
         }
     }
