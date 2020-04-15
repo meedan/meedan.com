@@ -35,7 +35,7 @@ form.checklist-signup {
     input {
         display: block;
         border: 0;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid var(--blackInk);
         margin: 0;
         padding-left: var(--scale-1);
         line-height: var(--scale-4);
@@ -43,10 +43,46 @@ form.checklist-signup {
         outline: 0;
         width: 100%;
         background-color: transparent;
+        color: var(--blackInk);
+        &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: var(--blackInk);
+            opacity: 1; /* Firefox */
+        }
+
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: var(--blackInk);
+        }
+
+        &::-ms-input-placeholder { /* Microsoft Edge */
+            color: var(--blackInk);
+        }
+        &:hover {
+            background-color: rgba(var(--coral), 0.3);
+        }
+    }
+    button {
+        background: none;
+        border: 0 none;
+        height: var(--scale-4);
+        padding-left: var(--space-1);
+        padding-right: var(--space-1);
+        border-bottom: 1px solid var(--blackInk);
+        cursor: pointer;
+        color: var(--blackInk);
+        &:hover {
+            background-color: var(--coral);
+            color: var(--blackInk);
+        }
+    }
+}
+
+
+form.checklist-signup.dark {
+    input {
+        border-bottom: 1px solid #fff;
         color: #fff;
         &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
             color: #fff;
-            opacity: 1; /* Firefox */
         }
 
         &:-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -57,14 +93,8 @@ form.checklist-signup {
             color: #fff;
         }
     }
-    button {
-        background: none;
-        border: 0 none;
-        height: var(--scale-4);
-        padding-left: var(--space-1);
-        padding-right: var(--space-1);
+    button { 
         border-bottom: 1px solid #fff;
-        cursor: pointer;
         color: #fff;
         &:hover {
             background-color: var(--sunDown);
