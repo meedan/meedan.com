@@ -3,9 +3,9 @@ moduleList:
 - sys:
     id: MJXbtCDpyQ0oRzW3rTabs
     created_at: !ruby/object:DateTime 2020-03-20 22:42:53.229000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-21 01:11:01.441000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-09 20:21:28.386000000 Z
     content_type_id: moduleList
-    revision: 1
+    revision: 2
   title: Our supporters
   description: Since 2006, Meedan has worked with a network of extraordinary sponsors,
     clients, and partners.
@@ -28,6 +28,15 @@ moduleList:
     title: Sida
     list_only: true
     link: https://www.sida.se/English/
+  - sys:
+      id: xb5QGLB2kyZJeh3uHyBCh
+      created_at: !ruby/object:DateTime 2020-04-09 20:18:32.252000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-09 20:19:56.927000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Omidyar Network
+    list_only: true
+    link: https://www.omidyar.com/
   - sys:
       id: 52H3jRa50jO62ZD7BrzR0t
       created_at: !ruby/object:DateTime 2020-03-20 22:45:31.546000000 Z
@@ -568,13 +577,12 @@ moduleList:
   - sys:
       id: o2SUkfpjcZYozMKy01Wis
       created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.047000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-15 08:42:07.528000000 Z
       content_type_id: contributor
       revision: 2
     name: Shalini Joshi
-    staff: true
-    location: New Delhi
     role: Program Lead, APAC
+    location: New Delhi
   - sys:
       id: 1uaMTril4FB8NxxRTKwLDH
       created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
