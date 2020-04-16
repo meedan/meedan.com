@@ -115,6 +115,7 @@ contentful:
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
         cda_query:
+          locale: '*'
           content_type: 'story'
         client_options:
           api_url: ENV_CONTENTFUL_API_URL
@@ -190,6 +191,18 @@ page_gen:
     template: 'story'
     name: 'slug'
     dir: '/blog/'
+  - data: 'contentful.spaces.stories.story'
+    template: 'story-es'
+    name: 'slug'
+    dir: '/blog/es/'
+  - data: 'contentful.spaces.stories.story'
+    template: 'story-pt'
+    name: 'slug'
+    dir: '/blog/pt/'
+  - data: 'contentful.spaces.stories.story'
+    template: 'story-ar'
+    name: 'slug'
+    dir: '/blog/ar/'
   - data: 'contentful.spaces.jobs.job'
     template: 'job'
     name: 'slug'

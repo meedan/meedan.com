@@ -1,3 +1,7 @@
+{% if page.lang == 'es' %}
+    {% assign page.title = page.title-es %}
+{% endif %}
+
 {% assign theme_class = include.theme | default: '' %}
 <header class="header{% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}">
     <a class="menu">
@@ -17,8 +21,8 @@
     {% endif %}
     <div class="title-container main-grid__1--1">
         <span class="tag">
-            {% for topic in page.topic %}
-                {{ topic.title }} /
+            {% for topic in page.topic.en-US %}
+                {{ topic.title.en-US }} /
             {% endfor %}
         </span>
         <span class="title">{{ page.title }}</span>

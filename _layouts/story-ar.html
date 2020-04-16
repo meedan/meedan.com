@@ -1,11 +1,14 @@
 ---
-lang: en-US
+lang: ar
 ---
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-{% include head.html %}
 
-<body class="site story">
+<html dir="ltr" lang="ar">
+{% include head.html %}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+</style>
+<body class="site story ar">
     <a id="top"></a>
     <div class="page-wrapper">
         {% include post_header.html %}
@@ -17,7 +20,7 @@ lang: en-US
                 </figcaption>
             </figure>
             <div class="story-wrapper section-margin">
-                {{ page.body | markdownify }}
+                {{ page.body-ar | markdownify }}
             </div>
             <div class="story-footer small-hr section-margin">
                 {% if page.words_by %}

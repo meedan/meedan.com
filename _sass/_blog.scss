@@ -262,3 +262,21 @@
         }
     }
 }
+
+// Adjustments for Arabic text 
+
+.ar .story-wrapper {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    strong {
+        font-family: 'Tajawal', sans-serif;
+    }
+    ul,
+    ol {
+        margin-right: var(--space-4);
+        li {
+            padding-right: var(--space-1);
+            margin-bottom: var(--space-1);
+        }
+    }
+}
