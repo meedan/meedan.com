@@ -16,8 +16,8 @@
             </a>
             <div class="title-container">
                 <a class="tag" href="/blog/{{ story.slug }}">
-                    {% for topic in story.topic %}
-                        {{ topic.title }} /
+                    {% for topic in story.topic.en-US %}
+                        {{ topic.title.en-US }} /
                     {% endfor %}
                 </a>
                 <a class="title" href="/blog/{{ story.slug }}">{{ story.title }}</a>

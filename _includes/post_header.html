@@ -1,3 +1,13 @@
+{% if page.lang == 'en-US' %}
+    {% assign title = page.title %}
+{% elsif page.lang == 'ar' %}
+    {% assign title = page.title-ar %}
+{% elsif page.lang == 'es' %}
+    {% assign title = page.title-es %}
+{% elsif page.lang == 'pt' %}
+    {% assign title = page.title-pt %}
+{% endif %}
+
 {% assign theme_class = include.theme | default: '' %}
 <header class="header{% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}">
     <a class="menu">
@@ -17,11 +27,11 @@
     {% endif %}
     <div class="title-container main-grid__1--1">
         <span class="tag">
-            {% for topic in page.topic %}
-                {{ topic.title }} /
+            {% for topic in page.topic.en-US %}
+                {{ topic.title.en-US }} /
             {% endfor %}
         </span>
-        <span class="title">{{ page.title }}</span>
+        <span class="title">{{ title }}</span>
     </div>
     {% if page.callout %}
     <svg id="text-container" class="callout" width="618" height="663" viewBox="0 0 618 663" fill="none" xmlns="http://www.w3.org/2000/svg">

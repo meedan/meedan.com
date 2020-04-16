@@ -48,7 +48,19 @@ module Jekyll
       self.data['title'] = data[name]
       # SEO fixes
       if template == "story"
-        data['description'] = data['body'].to_s.split[0...30].join(' ')
+          data['description'] = data['body'].to_s.split[0...30].join(' ')
+      end
+      if template == "story-es"
+        data['title'] = data['title-es']
+        data['description'] = data['body-es'].to_s.split[0...30].join(' ')
+      end
+      if template == "story-pt"
+        data['title'] = data['title-pt']
+        data['description'] = data['body-pt'].to_s.split[0...30].join(' ')
+      end
+      if template == "story-ar"
+        data['title'] = data['title-ar']
+        data['description'] = data['body-ar'].to_s.split[0...30].join(' ')
       end
       
       # add all the information defined in _data for the current record to the

@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: pt
 ---
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="pt">
 {% include head.html %}
 
 <body class="site story">
@@ -18,12 +18,12 @@ lang: en-US
             </figure>
             {% include translations.html %}
             <div class="story-wrapper section-margin">
-                {{ page.body | markdownify }}
+                {{ page.body-pt | markdownify }}
             </div>
             <div class="story-footer small-hr section-margin">
                 {% if page.words_by %}
                     <div class="story-footer-item">
-                        <span>Words</span> {% for contributor in page.words_by.en-US %}{{ contributor.name.en-US }}{% endfor %}
+                        <span>Words</span> {% for contributor in page.words_by %}{{ contributor.name}}{% endfor %}
                     </div>
                 {% endif %}
                 <div class="story-footer-item">

@@ -18,24 +18,29 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: How Meedan supported three reporting initiatives in Asia
   slug: how-meedan-supported-three-reporting-initiatives-in-asia
   topic:
-  - sys:
-      id: 2JV51Hja1BxcyGdNP5VID3
-      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Network
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
   lead_image:
-    sys:
-      id: 3irGSo1SmfFCQze2LhNpx0
-      created_at: !ruby/object:DateTime 2020-03-03 07:02:31.007000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:41.105000000 Z
-    title: vote
+    en-US:
+      sys:
+        id: 3irGSo1SmfFCQze2LhNpx0
+        created_at: !ruby/object:DateTime 2020-03-03 07:02:31.007000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:41.105000000 Z
+      title: vote
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3irGSo1SmfFCQze2LhNpx0/4c5dccb828d53f93dddfff40ee22d963/vote.jpg"
     description: 
+    title: vote
     url: "//images.ctfassets.net/g118h5yoccvd/3irGSo1SmfFCQze2LhNpx0/4c5dccb828d53f93dddfff40ee22d963/vote.jpg"
   body: |
     In April 2019 Meedan worked with newsrooms and fact checking organizations on three election initiatives in some of Asia’s largest democracies. Our award-winning fact-checking platform, Check, was at the center of each of the digital verification projects.
@@ -75,16 +80,21 @@ story:
 
     In the end, it was the students of the University of the Philippines that verified the most claims. “The University used Check to its fullest. On election day we saw their collaboration, how they put in the claims, how we fact checked the claims, everything, all our work was within the Check platform,” said Chua.
   words_by:
-  - sys:
-      id: 1uaMTril4FB8NxxRTKwLDH
-      created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Megan Marrelli
-    staff: true
-    location: New York
-    role: Program Manager
+    en-US:
+    - sys:
+        id: 1uaMTril4FB8NxxRTKwLDH
+        created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Megan Marrelli
+      staff:
+        en-US: true
+      location:
+        en-US: New York
+      role:
+        en-US: Program Manager
   alt_date: !ruby/object:DateTime 2019-07-29 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-07-29'
@@ -106,24 +116,29 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: Our veteran journalist on WhatsApp misinformation during India’s elections
   slug: our-veteran-journalist-on-whatsapp-misinformation-during-indias-elections
   topic:
-  - sys:
-      id: 45nimjOpv2SeOkdHJOLQlx
-      created_at: !ruby/object:DateTime 2020-02-24 21:57:27.025000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:31.792000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Data
+    en-US:
+    - sys:
+        id: 45nimjOpv2SeOkdHJOLQlx
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:27.025000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:31.792000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Data
   lead_image:
-    sys:
-      id: d6SiPjKGnTmS8KUTdpzzF
-      created_at: !ruby/object:DateTime 2020-02-25 07:10:07.890000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:26.591000000 Z
-    title: Shalini Joshi
+    en-US:
+      sys:
+        id: d6SiPjKGnTmS8KUTdpzzF
+        created_at: !ruby/object:DateTime 2020-02-25 07:10:07.890000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:26.591000000 Z
+      title: Shalini Joshi
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/d6SiPjKGnTmS8KUTdpzzF/f788ae9b49281eeb8cdd87a27f3b9233/Shalini-Joshi.jpg"
     description: 
+    title: Shalini Joshi
     url: "//images.ctfassets.net/g118h5yoccvd/d6SiPjKGnTmS8KUTdpzzF/f788ae9b49281eeb8cdd87a27f3b9233/Shalini-Joshi.jpg"
   body: |+
     Conversations on family WhatsApp groups in India can be exhausting. *“Your bank has gone bust. Its share prices have dropped. Before you lose your life savings, find a reliable bank and transfer all your money.”* My anxious family members shared this message on one of our many family WhatsApp groups.
@@ -161,16 +176,19 @@ story:
 
 
   words_by:
-  - sys:
-      id: o2SUkfpjcZYozMKy01Wis
-      created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.047000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Shalini Joshi
-    staff: true
-    location: New Delhi
-    role: Program Lead, APAC
+    en-US:
+    - sys:
+        id: o2SUkfpjcZYozMKy01Wis
+        created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-15 08:42:07.528000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Shalini Joshi
+      role:
+        en-US: Program Lead, APAC
+      location:
+        en-US: New Delhi
   alt_date: !ruby/object:DateTime 2019-11-01 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-11-01'
@@ -192,24 +210,29 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: Caio Almeida on software that serves a global community
   slug: caio-almeida-on-software-that-serves-a-global-community
   topic:
-  - sys:
-      id: 3YteOu0dCPeNZKQlFMQNwF
-      created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Technology
+    en-US:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Technology
   lead_image:
-    sys:
-      id: fxzzu0XQ9FrB50ljSTuIi
-      created_at: !ruby/object:DateTime 2020-02-25 06:59:38.326000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:44.598000000 Z
-    title: Caio Almeida
+    en-US:
+      sys:
+        id: fxzzu0XQ9FrB50ljSTuIi
+        created_at: !ruby/object:DateTime 2020-02-25 06:59:38.326000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:44.598000000 Z
+      title: Caio Almeida
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg"
     description: 
+    title: Caio Almeida
     url: "//images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg"
   body: |
     Before I joined Meedan as a software engineer in late 2011, this amazing team had already noticed that new media was ending the scarcity in which mass media journalism functioned. This was having repercussions for both newsgathering and publishing—no longer were audiences solely reliant on foreign reporters to tell the story. This was particularly true of the reporting of the Middle East, where citizen media been used so powerfully in the midst of such colossal social and political change during the Arab Spring. And citizen media should be verified.
@@ -254,16 +277,21 @@ story:
 
     Ultimately, it’s a collaborative effort.
   words_by:
-  - sys:
-      id: 1LO43iZQgk754PxET3q581
-      created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Caio Almeida
-    staff: true
-    location: Salvador
-    role: Director of Engineering
+    en-US:
+    - sys:
+        id: 1LO43iZQgk754PxET3q581
+        created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Caio Almeida
+      staff:
+        en-US: true
+      location:
+        en-US: Salvador
+      role:
+        en-US: Director of Engineering
   alt_date: !ruby/object:DateTime 2019-12-12 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2019-12-12'
@@ -285,24 +313,29 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: 'Digital Health: Fact-checking in an era of misinfodemics '
   slug: digital-health-fact-checking-in-an-era-of-misinfodemics
   topic:
-  - sys:
-      id: 6TvSKHc0JwGsaZxHUrYc5M
-      created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Research
+    en-US:
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Research
   lead_image:
-    sys:
-      id: 2nW6GqFf50AHuJI42McaGY
-      created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
-    title: 'Digital Health: Fact-checking in an era of misinfodemics'
+    en-US:
+      sys:
+        id: 2nW6GqFf50AHuJI42McaGY
+        created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
+      title: 'Digital Health: Fact-checking in an era of misinfodemics'
+      description: 'Digital Health: Fact-checking in an era of misinfodemics'
+      url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"
     description: 'Digital Health: Fact-checking in an era of misinfodemics'
+    title: 'Digital Health: Fact-checking in an era of misinfodemics'
     url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"
   body: "Misinfodemics, a term coined in 2018 by Meedan researchers, is a phenomenon
     in which online health misinformation contributes to the spread of real world
@@ -334,27 +367,36 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: Signaling Credibility — What We’re Building at the W3C
   slug: signaling-credibility-what-were-building-at-the-w3c
   topic:
-  - sys:
-      id: 6TvSKHc0JwGsaZxHUrYc5M
-      created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Research
+    en-US:
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Research
   lead_image:
-    sys:
-      id: 4bliYB7Zthb9fivR28r4iL
-      created_at: !ruby/object:DateTime 2020-02-25 22:50:30.496000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:26.965000000 Z
-    title: Happy birthday, CredWeb! Here’s us presenting on our work at the W3C Technical
-      Plenary / Advisory Committee meeting in Burlingame, CA on November 8, 2017
+    en-US:
+      sys:
+        id: 4bliYB7Zthb9fivR28r4iL
+        created_at: !ruby/object:DateTime 2020-02-25 22:50:30.496000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:26.965000000 Z
+      title: Happy birthday, CredWeb! Here’s us presenting on our work at the W3C
+        Technical Plenary / Advisory Committee meeting in Burlingame, CA on November
+        8, 2017
+      description: Happy birthday, CredWeb! Here’s us presenting on our work at the
+        W3C Technical Plenary / Advisory Committee meeting in Burlingame, CA on November
+        8, 2017
+      url: "//images.ctfassets.net/g118h5yoccvd/4bliYB7Zthb9fivR28r4iL/b6e488db444c14b212f6447fef4dc944/project-credibility-coalition-3.png"
     description: Happy birthday, CredWeb! Here’s us presenting on our work at the
       W3C Technical Plenary / Advisory Committee meeting in Burlingame, CA on November
       8, 2017
+    title: Happy birthday, CredWeb! Here’s us presenting on our work at the W3C Technical
+      Plenary / Advisory Committee meeting in Burlingame, CA on November 8, 2017
     url: "//images.ctfassets.net/g118h5yoccvd/4bliYB7Zthb9fivR28r4iL/b6e488db444c14b212f6447fef4dc944/project-credibility-coalition-3.png"
   body: "While misinformation is not a new problem, what’s new is the context: as
     misinformation flows online, it’s pretty clear we need structures for signaling
@@ -444,25 +486,30 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: Five Insights For Collaborative Natural Disaster Reporting From Hurricane
     Florence
   slug: five-insights-for-collaborative-natural-disaster-reporting-from-hurricane
   topic:
-  - sys:
-      id: 2JV51Hja1BxcyGdNP5VID3
-      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Network
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
   lead_image:
-    sys:
-      id: 3W8CS3yBNno9zBVCHtBA9r
-      created_at: !ruby/object:DateTime 2020-02-25 22:44:52.662000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:47:59.669000000 Z
-    title: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
+    en-US:
+      sys:
+        id: 3W8CS3yBNno9zBVCHtBA9r
+        created_at: !ruby/object:DateTime 2020-02-25 22:44:52.662000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:59.669000000 Z
+      title: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
+      description: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
+      url: "//images.ctfassets.net/g118h5yoccvd/3W8CS3yBNno9zBVCHtBA9r/e7eae131fd1baca907d0adec1f87f060/project-pop-up-newsroom-2.jpg"
     description: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
+    title: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
     url: "//images.ctfassets.net/g118h5yoccvd/3W8CS3yBNno9zBVCHtBA9r/e7eae131fd1baca907d0adec1f87f060/project-pop-up-newsroom-2.jpg"
   body: |
     Using real-time data from weather events is essential input when designing a project that will serve journalists hoping to cover these types of stories through an editorial collaboration. Through our fellowship program with the Reynolds Journalism Institute, University of Missouri, we enlisted the help of Rachel Behrndt — a Mizzou journalism student — to try and identify some key takeaways from the way this story was covered. She spent hours watching real-time coverage and pouring through stories from this storm in order to give our project some valuable insights:
@@ -489,13 +536,15 @@ story:
 
     Because weather is such an important coverage area for many local and mid-market media, effective branding plays a key role in building trust and audience loyalty. For example, the weather desks of stations often have a piece of equipment which they market, such as a Dallas NBC affiliate “The Thunder Truck.” With a shared stream of data and UGC, we can see a potentially valuable and trustworthy “brand” that asserts membership to a reporting collaboration, and access to a wider range of data and content. This brand can be a new area of distinction for newsrooms that participate in the collaboration and the sharing of non-competing content, information and data.
   words_by:
-  - sys:
-      id: KqWGUp2L3YoBZP00nuZYv
-      created_at: !ruby/object:DateTime 2020-02-25 22:44:45.076000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:04.337000000 Z
-      content_type_id: contributor
-      revision: 1
-    name: Tom Trewinnard
+    en-US:
+    - sys:
+        id: KqWGUp2L3YoBZP00nuZYv
+        created_at: !ruby/object:DateTime 2020-02-25 22:44:45.076000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:04.337000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Tom Trewinnard
   alt_date: !ruby/object:DateTime 2018-10-10 00:00:00.000000000 Z
   date: '2020-02-25'
   alt_date_string: '2018-10-10'
@@ -517,31 +566,37 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: Meedan and COVID-19
   slug: meedan-and-covid-19
   topic:
-  - sys:
-      id: 13HcGYCQHm8vDRW3EAkw6j
-      created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
-      content_type_id: topic
-      revision: 1
-    title: COVID-19
-  - sys:
-      id: 2JV51Hja1BxcyGdNP5VID3
-      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Network
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
   lead_image:
-    sys:
-      id: 39DpMJAzrR2ryKuF5kwTSx
-      created_at: !ruby/object:DateTime 2020-03-17 23:52:22.305000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-18 00:45:39.017000000 Z
-    title: 202003 meedan-covid-19
+    en-US:
+      sys:
+        id: 39DpMJAzrR2ryKuF5kwTSx
+        created_at: !ruby/object:DateTime 2020-03-17 23:52:22.305000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-18 00:45:39.017000000 Z
+      title: 202003 meedan-covid-19
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/39DpMJAzrR2ryKuF5kwTSx/237bd5e1f78275f706e7f3815ce61d1d/202003_meedan-covid-19.png"
     description: 
+    title: 202003 meedan-covid-19
     url: "//images.ctfassets.net/g118h5yoccvd/39DpMJAzrR2ryKuF5kwTSx/237bd5e1f78275f706e7f3815ce61d1d/202003_meedan-covid-19.png"
   body: "Meedan is a global organization. Our name speaks to gathering - in a number
     of languages the Meedan, Maydan, Maidan, etc is the town square. Our work, too,
@@ -591,16 +646,21 @@ story:
     we rebuild this plane inflight and work through a new way of running a coronavirus
     resistant organization.\n\nEAB<br/>\nMarch 16, 2020<br/>\nWoodacre, CA"
   words_by:
-  - sys:
-      id: 7xM8QfuAFGFURUXRBNLBtX
-      created_at: !ruby/object:DateTime 2020-03-17 23:59:51.580000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.291000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Ed Bice
-    staff: true
-    location: San Francisco
-    role: CEO
+    en-US:
+    - sys:
+        id: 7xM8QfuAFGFURUXRBNLBtX
+        created_at: !ruby/object:DateTime 2020-03-17 23:59:51.580000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.291000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Ed Bice
+      staff:
+        en-US: true
+      location:
+        en-US: San Francisco
+      role:
+        en-US: CEO
   date: '2020-03-17'
   alt_date: *2
   alt_date_string: '2020-03-17'
@@ -622,24 +682,29 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: 'Going Virtual: How Meedan is Doing the Conference Thing Online'
   slug: going-virtual-how-meedan-is-doing-the-conference-thing-online
   topic:
-  - sys:
-      id: 2JV51Hja1BxcyGdNP5VID3
-      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Network
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
   lead_image:
-    sys:
-      id: 4Qm0nprXWtT3tBAAEVYypx
-      created_at: !ruby/object:DateTime 2020-03-19 18:39:58.133000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-19 19:05:08.521000000 Z
-    title: meedan going-virtual
+    en-US:
+      sys:
+        id: 4Qm0nprXWtT3tBAAEVYypx
+        created_at: !ruby/object:DateTime 2020-03-19 18:39:58.133000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-19 19:05:08.521000000 Z
+      title: meedan going-virtual
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4Qm0nprXWtT3tBAAEVYypx/1995799bb68d253e5124954d91082a87/meedan_going-virtual.png"
     description: 
+    title: meedan going-virtual
     url: "//images.ctfassets.net/g118h5yoccvd/4Qm0nprXWtT3tBAAEVYypx/1995799bb68d253e5124954d91082a87/meedan_going-virtual.png"
   body: "April is usually a very busy month for Meedan. While our partners work remotely
     most of the year, conferences are concentrated bursts of productivity for journalists,
@@ -721,15 +786,19 @@ story:
     something together! \n\nEmail us at <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>
     to get started. "
   words_by:
-  - sys:
-      id: 4xcMBMqtwEeYps68iqYofV
-      created_at: !ruby/object:DateTime 2020-03-19 18:36:57.777000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.299000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Karen Reilly
-    staff: true
-    location: Berlin
+    en-US:
+    - sys:
+        id: 4xcMBMqtwEeYps68iqYofV
+        created_at: !ruby/object:DateTime 2020-03-19 18:36:57.777000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.299000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Karen Reilly
+      staff:
+        en-US: true
+      location:
+        en-US: Berlin
   date: '2020-03-19'
   alt_date: *3
   alt_date_string: '2020-03-19'
@@ -751,25 +820,31 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: Meet Our Regional Program Managers, APAC, Latin America and Africa
   slug: meet-our-regional-program-managers-apac-latin-america-and-africa
   topic:
-  - sys:
-      id: 2JV51Hja1BxcyGdNP5VID3
-      created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
-      content_type_id: topic
-      revision: 1
-    title: Network
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
   lead_image:
-    sys:
-      id: 9WNaAZtFNpSIB9YQzbkLO
-      created_at: !ruby/object:DateTime 2020-03-20 02:18:36.082000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 23:09:40.701000000 Z
-    title: Meedan's New Program Managers
+    en-US:
+      sys:
+        id: 9WNaAZtFNpSIB9YQzbkLO
+        created_at: !ruby/object:DateTime 2020-03-20 02:18:36.082000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 23:09:40.701000000 Z
+      title: Meedan's New Program Managers
+      description: Shalini Joshi in India, Isabella Barroso in Brazil and Wafaa Heikal
+        in Germany
+      url: "//images.ctfassets.net/g118h5yoccvd/9WNaAZtFNpSIB9YQzbkLO/af305e46624d04433466352e47a05f11/meedan_program_managers_2.jpg"
     description: Shalini Joshi in India, Isabella Barroso in Brazil and Wafaa Heikal
       in Germany
+    title: Meedan's New Program Managers
     url: "//images.ctfassets.net/g118h5yoccvd/9WNaAZtFNpSIB9YQzbkLO/af305e46624d04433466352e47a05f11/meedan_program_managers_2.jpg"
   body: "During 2019, as we grew our Check Global program with the generous support
     of the [Swedish International Development Agency](https://www.sida.se/English/)
@@ -850,13 +925,15 @@ story:
     the particular national context and partner capacities and then designing new
     workflows around them.”\n\n"
   words_by:
-  - sys:
-      id: 7JIwO7govlJW5ID7v226Rz
-      created_at: !ruby/object:DateTime 2020-03-19 23:44:00.907000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 23:09:45.614000000 Z
-      content_type_id: contributor
-      revision: 1
-    name: Ahmed Medien
+    en-US:
+    - sys:
+        id: 7JIwO7govlJW5ID7v226Rz
+        created_at: !ruby/object:DateTime 2020-03-19 23:44:00.907000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 23:09:45.614000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Ahmed Medien
   date: '2020-03-19'
   alt_date: *4
   alt_date_string: '2020-03-19'
@@ -878,24 +955,29 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: Five tips for fact-checking during a pandemic
   slug: five-tips-for-fact-checking-during-a-pandemic
   topic:
-  - sys:
-      id: 13HcGYCQHm8vDRW3EAkw6j
-      created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
-      content_type_id: topic
-      revision: 1
-    title: COVID-19
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
   lead_image:
-    sys:
-      id: 38oGDoj4LEM1k7ynnYd29I
-      created_at: !ruby/object:DateTime 2020-03-27 19:21:53.912000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-27 20:11:50.515000000 Z
-    title: Meedan fact-checking-tips-covid-19 01
+    en-US:
+      sys:
+        id: 38oGDoj4LEM1k7ynnYd29I
+        created_at: !ruby/object:DateTime 2020-03-27 19:21:53.912000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 20:11:50.515000000 Z
+      title: Meedan fact-checking-tips-covid-19 01
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/38oGDoj4LEM1k7ynnYd29I/df6a67c0499500d0275e90c38bae032a/Meedan_fact-checking-tips-covid-19_01.png"
     description: 
+    title: Meedan fact-checking-tips-covid-19 01
     url: "//images.ctfassets.net/g118h5yoccvd/38oGDoj4LEM1k7ynnYd29I/df6a67c0499500d0275e90c38bae032a/Meedan_fact-checking-tips-covid-19_01.png"
   body: "Sifting through an onslaught of misinformation and competing narratives is
     one of the greatest challenges of the COVID-19 health crisis. Meedan is working
@@ -956,23 +1038,26 @@ story:
     if you are hospitalized for the 2019-nCoV, you may receive antibiotics because
     bacterial co-infection is possible\"\n\n"
   words_by:
-  - sys:
-      id: 3jh6Rz03KzuYCvSNyk4TfF
-      created_at: !ruby/object:DateTime 2020-03-26 23:10:41.808000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-27 02:36:15.132000000 Z
-      content_type_id: contributor
-      revision: 1
-    name: Megan Marrelli
-    staff: true
+    en-US:
+    - sys:
+        id: 3jh6Rz03KzuYCvSNyk4TfF
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:41.808000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 02:36:15.132000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Megan Marrelli
+      staff:
+        en-US: true
   date: '2020-03-26'
   alt_date: *5
   alt_date_string: '2020-03-26'
 - sys:
     id: 1luEBzpLpQe39y8unAkBsS
     created_at: &6 !ruby/object:DateTime 2020-03-31 00:03:55.514000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-31 18:41:50.201000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-06 17:23:02.131000000 Z
     content_type_id: story
-    revision: 6
+    revision: 7
     space:
       sys:
         id: g118h5yoccvd
@@ -985,117 +1070,148 @@ story:
         id: master
         type: Link
         linkType: Environment
-    locale: en-US
   title: We’re building a database of expert-sourced COVID-19 information for fact-checkers
   slug: database-of-expert-sourced-covid-19-information-for-fact-checkers
   topic:
-  - sys:
-      id: 13HcGYCQHm8vDRW3EAkw6j
-      created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
-      content_type_id: topic
-      revision: 1
-    title: COVID-19
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
   lead_image:
-    sys:
-      id: BFv04cYmlzazIO8In6HIC
-      created_at: !ruby/object:DateTime 2020-03-31 01:05:16.367000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-31 01:05:41.770000000 Z
-    title: Meedan covid-19 database
+    en-US:
+      sys:
+        id: BFv04cYmlzazIO8In6HIC
+        created_at: !ruby/object:DateTime 2020-03-31 01:05:16.367000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-31 01:05:41.770000000 Z
+      title: Meedan covid-19 database
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/BFv04cYmlzazIO8In6HIC/ebc81119f6ddc371e9d5c1747c6c2c3b/Meedan_covid-19_database.png"
     description: 
+    title: Meedan covid-19 database
     url: "//images.ctfassets.net/g118h5yoccvd/BFv04cYmlzazIO8In6HIC/ebc81119f6ddc371e9d5c1747c6c2c3b/Meedan_covid-19_database.png"
   body: "Global fact-checking organizations and pandemic communicators are fielding
     massive amounts of complex information requests about COVID-19. Meedan's Digital
-    Health Lab is developing an emergency response resource to support their efforts.
-    \n\nThrough our network of public health researchers, epidemiologists and infectious
-    disease specialists, we are developing a living database of real-time, expert-sourced
-    health and science information on COVID-19. This effort is designed to support
-    fact-checkers and pandemic communicators who are verifying and answering incoming
-    questions about the pandemic. \n\nOver the last six years, first at the Harvard
-    School of Public Health and now at Meedan's Digital Health Lab, I’ve researched
+    Health Lab is announcing the development of an emergency response resource to
+    support pandemic fact-checking efforts. \n\nThrough our network of public health
+    researchers, epidemiologists and infectious disease specialists, we are developing
+    a database of information related to COVID-19 that is contextualized, populated
+    and regularly updated by public health experts, including epidemiologists and
+    infectious disease researchers. This resource can be used as source material for
+    journalists and fact-checkers who are working to verify and contextualize pandemic-related
+    information. \n\nLimited access to public health experts can present a bottleneck
+    for fact-checkers and journalists, especially during emergencies, when demand
+    for those experts is high. Over the last six years, first at the Harvard School
+    of Public Health and now at Meedan's Digital Health Lab, I have been researching
     how health information inequity and digital health misinformation can impact the
-    spread and burden of disease. It is increasingly clear, and is demonstrated through
-    the COVID-19 pandemic, that two twin challenges need support:\n\n- Fact-checking
-    organizations are working tirelessly to answer questions about complex health
-    situations and disease distribution, and to explain medical research and epidemiological
-    findings\n- Public health practitioners and infectious disease researchers struggle
-    to urgently communicate their expertise effectively to a wide, general audience
-    \n\nWith support from the Google News Initiative, Facebook, the Omidyar Network,
-    the Swedish International Development Agency and the Robert Wood Johnson Foundation,
-    we are addressing these challenges in an initiative centered around six pillars
-    of work: \n \n__Data:__ During breaking news, limited access to experts can create
-    bottlenecks for fact-checkers. Meedan’s database will scale fact-checkers’ access
-    to reliable sources for urgent expertise. Through the growing list of publicly
-    sourced questions, this resource can also help intergovernmental health organizations
-    understand the greatest and most urgent communication needs during the pandemic.
-    \n\n\n__Network:__ Meedan has assembled a distributed global network of epidemiologists
-    and global public health experts to build and maintain the expert-sourced COVID-19
-    information database. To streamline the process of ‘expert-seeking,’ which fact-checkers
-    and communicators regularly go through, we developed a criteria system to triage
-    fact-checking inquiries to appropriate public health practitioners and researchers
-    with different areas of expertise. \n\n\n__Communications:__ It is key for this
-    project to bridge research and practice, and for insights to be actionable for
-    communicators. We are developing templates for packaged, verified content that
-    is sent from fact-checkers to their audiences. The packages are grounded in behavior
-    science and health-specific standards of care for communications. The design outputs
-    have best practices in mind for addressing health information response challenges,
+    spread and burden of disease, as well as the communication gaps that can exacerbate
+    those issues. In December 2019, we [published a report](https://health.meedan.com/primer.pdf)
+    on how responsible health fact-checking requires a unique standard of care. \n\nIt
+    is increasingly clear, and is demonstrated through the COVID-19 pandemic, that
+    two twin challenges need support:\n\n1) Fact-checking organizations, journalists
+    and other communicators are working tirelessly to answer questions about complex
+    health situations and disease distribution, and to explain medical research and
+    epidemiological findings\n\n2) Public health practitioners and infectious disease
+    researchers struggle to urgently communicate their expertise effectively to a
+    wide, general audience \n\nThis resource of aggregated expert-sourced information
+    is designed to complement fact-checking database efforts, like Poynter’s excellent
+    CoronaVirusFacts/DatosCoronavirus Alliance, First Draft’s Reporter Hub resources,
+    and Google’s Fact Check Explorer. Where these databases focus on the first challenge
+    — helping fact-checkers and journalists do their jobs more effectively — the second
+    challenge needs more critical support. Meedan’s Digital Health Lab is supplying
+    important health expert perspectives on key COVID-19 issues. We plan to utilize
+    ClaimReview and MediaReview to make sure the content we generate can be shared
+    readily amongst others. \n\nWe are also integrating this database into fact-checking
+    bot workflows that many of our partners are already using to source questions
+    from the public, adding an option for wider audiences to either access existing
+    resources relevant to COVID-19, or to submit their queries to be fact-checked.
+    This added option of reaching local fact-checking organizations directly, and
+    providing localized responses, complements the incredibly valuable initiatives
+    being developed by the World Health Organization, and various health ministries
+    around the world, working together to strengthen access to quality information
+    through the pandemic. \n\nWith support from the Google News Initiative, Twitter,
+    Facebook, Omidyar Network, the Swedish International Development Agency and the
+    Robert Wood Johnson Foundation, we have designed an initiative centered around
+    six pillars of work: \n \n__Data:__ During breaking news, limited access to experts
+    can create bottlenecks. This resource can scale fact-checkers’ abilities to access
+    reliable sources for urgent expertise by providing content that is populated and
+    regularly updated by experts. Through a growing list of publicly sourced questions
+    and expert-sourced answers, this resource can also help intergovernmental health
+    organizations understand the greatest and most urgent communication needs during
+    the pandemic. \n\n__Network:__ Meedan has assembled a distributed global network
+    of epidemiologists and global public health experts to build and maintain the
+    database. To streamline the process of ‘expert-seeking,’ which fact-checkers and
+    communicators regularly go through, we developed a triage system that organizes
+    COVID-19 questions into several groups, based on:\n\n- Potential for impacting
+    public health outcomes\n- Timeliness and/or urgency\n- Area of health expertise
+    required to respond appropriately \n\n__Impact Assessment:__ As we continue to
+    collaborate on projects that address emerging threats with new technologies and
+    evolving workflows, we are committed to centralizing research in impact assessment,
+    monitoring and evaluation into the earliest parts of project design. In addition
+    to our team of public health and user researchers, we are fortunate to be working
+    with experts in monitoring and evaluation from Birmingham City University, as
+    well as the Behavioural Insights Team, to better understand the behavioral impact
+    of our response efforts, and to drive project workflows, database priorities and
+    content design. We are prioritizing a localized and feminist COVID-19 response
+    effort.  \n\n__Communications:__ It is key for this initiative  to bridge research
+    and practice, and for insights to be actionable for communicators. We are developing
+    templates for packaged, verified content that can be included in outputs sent
+    from fact-checkers to their audiences. The packages are grounded in behavior science
+    and our efforts to develop health-specific standards of care for communications,
+    and include best practices for addressing health information response challenges,
     such as competing expert perspectives, consistency, and transparency in the ever-changing
-    information ecosystem of pandemics. \n\n\n__Technology:__ As part of this project,
-    we are examining pathways for disseminating the contents of the database across
-    languages to fact-checkers and pandemic communicators around the world. We are
-    also integrating the database into Meedan’s verification and fact-checking workspace
-    software, Check, in order to make its expert-reviewed contents available to the
-    public. A set of new features in Check will make it easy for organizations to
-    create custom multilingual bots and connect them to messaging networks in order
-    to interface with the public (first on Facebook, Twitter or WhatsApp). End users
-    will then be able to access a subset of relevant resources, selected by each fact-checking
-    organization individually, via a simple query system, and will be presented short
-    lists of up-to-date content that matches their query.  \n \n__Research:__ Through
-    this project, we will investigate discrepancies in quality COVID-19 information
-    in the various contexts in which fact-checkers work. We will also research specific
-    challenges in accessing subject matter experts for verification. We will examine
-    the nature of COVID-19 questions across languages and geographies, and explore
-    patterns of similar themes of misinformation, translating findings into useful
-    insights for public health communicators. In addition, as a group that works closely
-    with partners in emerging economies, Meedan is closely following the impact of
-    the pandemic on migrants, women, people living in densely populated urban areas
-    and underserved communities that don't have access to public health care systems.
-    Our team members in different regions will also track the impact of lockdowns
-    on democracies, civil rights and violence against women, and insights will inform
-    database priorities.\n\n\n__Impact Assessment:__ As we continue to collaborate
-    on projects that address emerging threats with new technologies and evolving workflows,
-    we are committed to centralizing research in impact assessment, monitoring and
-    evaluation  into the earliest parts of project design. We are fortunate to be
-    working with the Behavioural Insights Team, as well as a team of user researchers,
-    to better understand the behavioral impact of our response efforts, which will
-    drive project workflows and will support content design. \n\n\nAs we’re learning
+    information ecosystem of pandemics. \n\n__Technology:__ We are prioritizing pathways
+    for disseminating contents of the database across languages to fact-checkers and
+    pandemic communicators around the world. We are also integrating into Meedan’s
+    open source verification and fact-checking workspace software, Check, in order
+    to make its expert-reviewed contents available to the public. Through Check, we
+    are creating an interface for users to design custom multilingual bots for disseminating
+    their fact-checked content, connecting users to closed messaging networks including
+    Facebook Messenger, Twitter Direct Message, and WhatsApp. End users will then
+    be able to access a subset of relevant resources, selected by each fact-checking
+    organization individually, via a simple query system, and will be presented with
+    short lists of up-to-date content that matches their query.  \n \n__Research:__
+    Through this project, we are examining the nature and scope of COVID-19 questions
+    across languages and geographies, exploring patterns of similar themes of misinformation,
+    and translating findings into useful insights for public health communicators.
+    In addition, as a group that works closely with partners in emerging economies,
+    Meedan is closely following the impact of the pandemic on migrants, women, people
+    living in densely populated urban areas and underserved communities that don't
+    have access to public health care systems. Our team members in different regions
+    are tracking the impact of lockdowns on democracies, civil rights and violence
+    against women, and insights will inform database priorities.\n\nAs we’re learning
     each day, information and misinformation about the COVID-19 pandemic are spreading
     in online ecosystems as rapidly as the virus itself is spreading around the world.
     During this historic time, the public has a wide range of time-sensitive and critical
     questions about everything from new travel restrictions to evolving infectious
-    disease research. While response efforts in this challenging time aim to reduce
-    public confusion, fact-checkers and communications first responders, already working
-    with a number of resource constraints, are faced with an immeasurable challenge
-    of addressing the low-quality online health information that can exacerbate the
-    spread of disease. \n\nThis project builds off of years of research, including
+    disease research. Fact-checking organizations are working tirelessly to answer
+    questions about complex health information, medical research and epidemiological
+    findings, while public health practitioners and infectious disease researchers
+    struggle to urgently communicate their expertise to a wide general audience. The
+    result of this problem set is public confusion, strained resources and often poor
+    health outcomes, as low-quality online health information exacerbates the real-world
+    spread of disease. Through this initiative, it is our hope to alleviate pressure
+    on fact-checking organizations with limited resources and provide a needed audience
+    to health experts. \n\n\nThis project builds off of years of research, including
     research on addressing health misinformation at MIT’s Center for Civic Media and
     the Berkman Klein Center for Internet and Society, inspired by working with Dr.
     Brittany Seymour, a brilliant researcher and mentor whose early work shaped much
     of today’s health misinformation discourse, and through the founding of Meedan’s
     Digital Health Lab in 2018, a public health research unit with a goal of promoting
-    health equity through digital initiatives. As part of the Digital Health Lab,
-    together with Megan Marrelli, we [published a report in 2019 exploring standards
-    of care for health fact-checking](https://health.meedan.com/primer.pdf), and are
-    eager to continue this link between research and practice. \n\nOver the last six
-    years, these ideas have been developed, workshopped, and shared in late-night
-    graduate school study sessions punctuated by ‘what-ifs’ and impromptu brainstorming,
-    in sessions at SwitchPoint, the International Journalism Festival, the Digital
-    Health @ Harvard series, RightsCon, MisinfoCon, and the Google News Initiative
-    Summits, in fellows hours at the Berkman Klein Center, in ethics, mixed methods,
-    and human rights lectures, and in conversations between friends and colleagues,
-    hopeful in our ability to create something important together. I am immensely
-    grateful to Meedan’s partners for showing us where we can make the most of our
-    work together, and to all of our supporters as we further develop this intersection.\n\nThis
+    health equity through digital initiatives. \n\nOver the last six years, these
+    ideas have been developed, workshopped, and shared in late-night dinners and graduate
+    school study sessions punctuated by ‘what-ifs’ and impromptu brainstorming, in
+    sessions at SwitchPoint, the International Journalism Festival, the Digital Health
+    @ Harvard series, RightsCon, MisinfoCon, and the Google News Initiative Summits,
+    in fellows hours at the Berkman Klein Center, in ethics, mixed methods, and human
+    rights lectures, and in conversations between friends and colleagues, hopeful
+    in our ability to create something important together. I am immensely grateful
+    to Meedan’s partners for showing us where we can make the most of our work together,
+    and to all of our supporters as we further develop this intersection.\n\nThis
     COVID-19 response effort would not be possible without the partnership and collaboration
     of Dr. Christin Gilmer, Graphika, the Behavioural Insights Team, Birmingham City
     University, students and researchers from the Harvard School of Public Health
@@ -1104,18 +1220,565 @@ story:
     and collaborate. We’re grateful for the opportunity to contribute to the challenging
     and essential work that fact-checkers and communicators are doing to address this
     pandemic, and the accompanying misinfodemic. Please reach out at health@meedan.com
-    to talk more."
+    to talk more.\n"
   words_by:
-  - sys:
-      id: 4JqOrlVgCscDebeRwxYBu8
-      created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
-      content_type_id: contributor
-      revision: 1
-    name: Nat Gyenes
-    staff: true
-    role: Senior Program Manager
-    location: On the Road
+    en-US:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+        created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Nat Gyenes
+      staff:
+        en-US: true
+      role:
+        en-US: Senior Program Manager
+      location:
+        en-US: On the Road
   date: '2020-03-31'
   alt_date: *6
   alt_date_string: '2020-03-31'
+- sys:
+    id: 34QofKm9PbO6WiXJtwsuUe
+    created_at: &7 !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-16 21:29:10.794000000 Z
+    content_type_id: story
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: New Microgrants for COVID-19 Media Work in Emerging Economies
+  slug: new-microgrants-for-covid-19-media-work-in-emerging-economies
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
+  lead_image:
+    en-US:
+      sys:
+        id: 2O80ER32L22S8aFaV3jkOa
+        created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
+      title: meedan check-global-micro-grants
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
+    description: 
+    title: meedan check-global-micro-grants
+    url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
+  body: "As the World Health Organization (WHO) announced the [COVID-19 outbreak as
+    a pandemic](https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020)
+    and a global health crisis, health misinformation and rumors have multiplied across
+    platforms, thus undermining efforts for producing reliable and factual information
+    around the virus. This is particularly challenging for civil society organisations
+    and grassroots collectives who are still struggling to make sense of, and to counter
+    the effects of, the outbreak on their own local contexts. \n\nIn an attempt to
+    support independent media, fact-checkers, citizen journalists, activists, and
+    technology and digital literacy enthusiasts in their efforts to cover the outbreak,
+    Meedan's Check Global program is launching the COVID-19 Microgrants, specifically
+    aimed at groups working within the context of emerging economies (North Africa/West
+    Asia, Africa, Latin America, Asia-Pacific region). \n\nThe grants are aimed at
+    supporting fact-checking and verification projects, local watchdog initiatives,
+    documentation of the local reality under quarantine, media/digital literacy campaigns,
+    [tracking the impact of lockdowns on democracies](https://carnegieendowment.org/2020/04/06/how-will-coronavirus-reshape-democracy-and-governance-globally-pub-81470),
+    and examining [digital surveillance](https://www.eff.org/issues/covid-19) and
+    [surveillance capitalism](https://www.amnesty.org/en/latest/news/2020/04/covid-19-surveillance-threat-to-your-rights/),
+    civil rights, and [violence against women related to COVID-19](https://news.un.org/en/story/2020/04/1061132).
+    We encourage applicants to be creative in their proposals. We  are keen to support
+    the production of different kinds of outputs, including podcasts, videos, documentaries,
+    written pieces, campaigns, toolkits, digital archives, and blogging. We are also
+    looking to support proposals that are not only focused on covering misinformation
+    about the pandemic, but also looking at people's lives and experiences under quarantine.\n\nWe
+    are accepting proposals in English, Arabic, French, Spanish and Portuguese at
+    the moment. Applications will be considered on a rolling basis. \n\n- Individuals
+    can apply for up to $500 \n- Organizations can apply for up to $2000\n- Collaborative
+    projects can apply for up to $2500 \n\n### Application process\n\n1. Applicants
+    should fill out an [online form](https://forms.gle/BL9wbZwJZqq8DWtE7) detailing
+    their proposal \n2. The fund advisory board meets weekly to review all applications\n3.
+    Successful applicants are then notified within a period of 5 to 10 days from submission\n\n\n###
+    Selection criteria\n\n- __Originality & significance:__ The quality of the written
+    application. What are the challenges it suggests to address? What is its geographic
+    area / focus?\n- __Achievability:__ Will the applicant be able to deliver on the
+    promises made in the application? Is the work plan realistic within the suggested
+    timeline? Does the fieldwork represent any ethical or health and safety issues
+    that need to be taken into consideration? \n- __Impact & Dissemination:__ Does
+    the application identify a relevant audience for the work? How does the work set
+    out to transform perception on COVID-19? Is the application clear in terms of
+    why this work is important now? Projects that serve local and underserved communities,
+    women, gender non-binary individuals, vulnerable people and rural populations
+    will be prioritized.\n- __Rigour:__ Do you adhere to a fact-checking methodology?
+    How will the applicant check their sources as accurate? Are the resources used
+    for your media literacy campaign reliable?\n\nPlease be advised, if you haven’t
+    heard from us within 3 weeks of your application, this means it was not successful.
+    Unfortunately we are not able to respond to each unsuccessful applicant due to
+    the numbers of applications we receive.\n\nAccepted applicants will publish their
+    projects on their own platforms and will be referenced on the Check Global page.
+    They will later be highlighted on our blog at the end of this funding cycle. \n\n__[Apply
+    Here](https://forms.gle/BL9wbZwJZqq8DWtE7)__\n\nPlease send all questions to <a
+    href=\"mailto:checkgrants@meedan.com\">checkgrants@meedan.com</a>. We support
+    encrypted e-mails.\n\n__Check Global__ is an initiative  from Meedan that supports
+    and facilitates journalism and human rights work, including research, in developing
+    countries. We provide software, training, and support to a group of independent
+    media organizations, journalism schools, and human rights researchers in Latin
+    America, East Africa and the NAWA region. \n\n__Meedan__ is a non-profit that
+    focuses on improving the quality and equity of online information. We do this
+    by building software and designing human-powered initiatives for newsrooms, NGOs
+    and academic institutions."
+  date: '2020-04-07'
+  title-ar: إطلاق منح صغيرة لدعم إنتاج المشروعات الإعلامية المستقلة حول فيروس كوفيد-19
+    في الاقتصادات الناشئة
+  title-es: Pequeños incentivos financieros para apoyar el trabajo de medios en economías
+    emergentes
+  title-pt: Micro-bolsas para apoiar o trabalho da mídia em economias emergentes
+  description-es: Check Global abre esta convocatoria de pequeños incentivos financieros
+    con el objetivo de apoyar la alfabetización digital y la producción de medios
+    independientes en las economías emergentes relacionadas con COVID-19.
+  description-pt: Check Global abre esta chamada para incentivos (micro-bolsas) com
+    o objetivo de apoiar a alfabetização digital e a produção independente de mídia
+    nas economias emergentes relacionado ao COVID-19. A Organização
+  description-ar: في اللحظة التي أعلنت بها منظمة الصحة العالمية أن فيروس كوفيد-19
+    وباءً وأزمةً صحيةً عالميةً، قد ازدادت المعلومات الصحية المُضللة والشائعات عبر
+    منصات التواصل الاجتماعي، ممَّا أدى إلى تقويض الجهود
+  body-ar: "في اللحظة التي أعلنت بها منظمة الصحة العالمية أن فيروس كوفيد-19 وباءً
+    وأزمةً صحيةً عالميةً، قد ازدادت المعلومات الصحية المُضللة والشائعات عبر منصات
+    التواصل الاجتماعي، ممَّا أدى إلى تقويض الجهود المبذولة لنشر معلومات موثوقة وتم
+    التحقق منها حول الفيروس. وينطوي هذا الأمر على تحدٍ خاص لمنظمات المجتمع المدني
+    و التعاونيات والمجموعات الناشطة في مجال التكنولوجيا والتحقق من المعلومات التي
+    تكافح من أجل فهم هذه الجائحة والتصدي لآثارها في سياقاتها المحلية. \n\nتطلق ميدان
+    منح \"تشك جلوبال\" الصغيرة في محاولة منها لدعم الإعلاميين المستقلين ومدققي الحقائق
+    والمواطنين الصحفيين والناشطين والعاملين في حقل التكنولوجيا والمعرفة الرقمية والتحقق
+    من الأخبار في جهودهم الرامية إلى تغطية تفشي فيروس كوفيد-19 ، وتستهدف هذه المنح
+    تحديداً المجموعات الناشطة في شمال أفريقيا وغرب آسيا، وأفريقيا، وأمريكا اللاتينية
+    ومنطقة آسيا التي تطل على المحيط الهادئ.  \n\nوتهدف هذه المنح إلى دعم مشاريع تدقيق
+    الحقائق والتحقق من الأخبار والمعلومات ومبادرات المراقبة المحلية وتوثيق يوميات
+    الواقع المحلي  للمجتمعات الخاضعة للحجر الصحي وحملات التربية الإعلامية والرقمية
+    وتعقب أثر منع التجول على الأنظمة الديمقراطية، وفحص تأثير الجائحة على آليات المراقبة
+    التقنية، ورأسمالية المراقبة والحقوق المدنية والعنف ضد المرأة فيما يتعلق بفيروس
+    كوفيد-19. وبالتالي، فإننا نشجع المتقدمين على الإبداع في مقترحاتهم. وإننا حريصون
+    على دعم إنتاج أنواع مختلفة من المشروعات بما فيها البودكاست (البث الصوتي الرقمي)
+    والفيديوهات والوثائقيات والمؤلفات والحملات ومجموعات الأدوات والأرشيفات الرقمية
+    والتدوين. كما نتطلع إلى دعم المقترحات التي لا تركز فقط على تغطية المعلومات المضللة
+    حول الجائحة، بل أيضاً النظر في حياة الناس وتجاربهم أثناء الحجر الصحي.\n\nنحن حالياً
+    نقبل مقترحات بالعربية والإنجليزية والفرنسية والإسبانية والبرتغالية. وسيتم النظر
+    في الطلبات بشكل دوري. . \n\n\n- يُمكن للأفراد التقدم بطلب حتى 500 دولار. \n- يُمكن
+    للمنظمات التقدم بطلب حتى 2000 دولار.\n- يُمكن للمشاريع الجماعية التقدم بطلب حتى
+    2500 دولار. \n\n\n### عملية تقديم الطلبات\n\n\n- ينبغي على المتقدمين ملء [نموذجاً
+    الكترونياً](https://docs.google.com/forms/d/1da3cFbo7lwzegjv2roLQP0WBT3kDSnsO8rE-Zd95DZ0/prefill)
+    يصفون به مقترحهم بالتفصيل \n-  تجتمع اللجنة الاستشارية للصندوق كل أسبوع لمراجعة
+    جميع الطلبات\n- سيتم إخطار المتقدمين الناجحين خلال فترة من 5 إلى 10 أيام من تاريخ
+    تقديم الطلب\n\n\n\n### معايير الاختيار\n- __الأصالة ودرجة الأهمية__: جودة الطلب
+    المكتوب. ما التحديات التي يقترح معالجتها؟ ما منطقته الجغرافية/تركيزه الجغرافي؟\n-
+    __قابلية التحقيق__: هل سيكون المتقدم قادراً على الإيفاء بوعوده المذكورة في الطلب؟
+    هل خطة العمل واقعية في الإطار الزمني المُقترح؟ هل يُمثِّل العمل الميداني أي قضايا
+    متعلقة بالأخلاق والصحة والسلامة لا بد من وضعها في عين الاعتبار؟  \n- __الأثر والتعميم__:
+    هل يحدد الطلب جمهوراً معنياً بالعمل؟ كيفية تخطيط العمل لتغيير التصور بشأن كوفيد-19؟
+    هل الطلب واضح من حيث سبب أهمية هذا العمل الآن؟ سيتم إعطاء الأولوية للمشاريع التي
+    تخدم المجتمعات المحلية والمجتمعات المحرومة والنساء والمجموعات ثنائية الجندر و
+    الأقليات، وسكان الأقاليم .\n- __الدقة__: هل ستلتزم بمنهجية تدقيق الحقائق؟ كيف
+    سيتحقق المتقدم من دقة مصادره؟ هل المصادر المستخدمة في حملة التربية الإعلامية الخاصة
+    بك تعد موثوقة؟\n\nالرجاء ملاحظة أنه إذا لم تتلق منا رداً خلال ثلاثة أسابيع من
+    تاريخ تقديم طلبك، فهذا يعني أن طلبك غير موَّفق. ويؤسفنا القول بأنه لا يُمكننا
+    على الرد على كل طلب غير موَّفق بسبب كمية الطلبات الكبيرة التي نتلقاها.  \n\nسيقوم
+    المتقدمين المقبولين بنشر مشاريعهم على منصاتهم الخاصة وسيشار إليها أيضاً في صفحة
+    \"تشيك جلوبال\". وسيتم إبرازها لاحقاً على مدونتنا في نهاية هذه الدورة التمويلية.
+    \n\n__[رابط الاستمارة](https://docs.google.com/forms/d/1da3cFbo7lwzegjv2roLQP0WBT3kDSnsO8rE-Zd95DZ0/prefill)__
+    \n\nيرجى إرسال جميع الأسئلة إلى checkgrants@meedan.com ، نحن ندعم رسائل البريد
+    المشفرة.\n\n__تشيك جلوبال__ (Check Global) هي مبادرة أطلقتها ميدان لدعم وتيسير
+    الصحافة وأعمال حقوق الإنسان، بما في ذلك البحوث في البلدان النامية. نحن نوفر البرامج
+    الحاسوبية والتدريب والدعم لمجموعة من المنظمات الإعلامية المستقلة وكليات الصحافة
+    والباحثين في مجال حقوق الإنسان في أمريكا اللاتينية وشمال أفريقيا وغرب آسيا. \n\n__ميدان__
+    هي منظمة غير ربحية مهتمة بتحسين جودة ونزاهة المعلومات المتاحة على الإنترنت. ونقوم
+    بذلك عن طريق بناء برمجيات وتصميم مبادرات بشرية لغرف الأخبار والمنظمات غير الحكومية
+    والمعاهد الأكاديمية.\n                                                "
+  body-es: "Check Global abre esta convocatoria de pequeños incentivos financieros
+    con el objetivo de apoyar la alfabetización digital y la producción de medios
+    independientes en las economías emergentes relacionadas con COVID-19.\n\nLa Organización
+    Mundial de la Salud (OMS) anunció la pandema de COVID-19 y una crisis de salud
+    mundial. La información falsa y los rumores de salud se han multiplicado en todas
+    las plataformas, socavando los esfuerzos para producir información confiable y
+    objetiva sobre el virus. Esto es particularmente desafiante para las organizaciones
+    de la sociedad civil y los colectivos de base que aún luchan por comprender y
+    combatir los efectos del brote en sus propios contextos locales.\n\nEn un intento
+    por apoyar a los medios independientes, verificadores de hechos, periodistas ciudadanos,
+    entusiastas de la tecnología y la alfabetización digital en sus esfuerzos para
+    cubrir el brote, Meedan está lanzando COVID-19 Check Global, específicamente dirigido
+    a grupos de trabajo en el contexto de las economías emergentes (América Latina,
+    África del Norte / Asia occidental, África y la región Asia-Pacífico).\n\nNuestro
+    objetivo es apoyar la verificación de hechos y los proyectos de verificación,
+    las iniciativas de aplicación local, la documentación de la realidad local en
+    cuarentena y los medios / campañas digitales, el seguimiento del impacto de los
+    bloqueos en las democracias y el examen de la vigilancia digital y el capitalismo
+    de vigilancia, los derechos civiles y Violencia contra las mujeres relacionada
+    con COVID-19.\n\nAlentamos a los candidatos a ser creativos en sus propuestas.
+    Estamos interesados ​​en apoyar la producción de diferentes tipos de resultados,
+    incluidos podcasts, videos, documentales, artículos escritos, campañas, kits de
+    herramientas, archivos digitales y memorias y blogs. También buscamos apoyar propuestas
+    que no solo se centren en cubrir la información errónea sobre la pandemia, sino
+    también en las vidas y experiencias de las personas en cuarentena.\n\nActualmente
+    estamos aceptando propuestas en español , árabe, francés, inglés y portugués.
+    Las propuestas serán consideradas de manera continua.\n\n- Individuos pueden solicitar
+    hasta $ 500\n- Organizaciones pueden solicitar hasta $ 2000\n- Proyectos de colaboración
+    pueden solicitar hasta $ 2500\n\n\n### Proceso de solicitud\n\n- Los solicitantes
+    deben completar [un formulario en línea](https://docs.google.com/forms/d/1QKGnuEZ_uONOEtQTrYaChoib5vvsgsWfkmLe2iabEow/prefill)
+    que detalla su propuesta.\n- La junta asesora del fondo se reúne semanalmente
+    para revisar todas las solicitudes.\n- Los solicitantes seleccionados son notificados
+    dentro de los 5 a 10 días posteriores a la presentación.\n\n\n### Criterio de
+    selección\n\n- __Originalidad e importancia__: la calidad de la solicitud escrita.
+    ¿Cuáles son los desafíos que sugiere enfrentar? ¿Cuál es su área geográfica /
+    enfoque?\n- __Logro__: ¿Podrá el candidato cumplir las promesas hechas? ¿El plan
+    de trabajo es realista dentro del cronograma sugerido? ¿El trabajo de campo representa
+    un problema ético o de salud y seguridad que debe tenerse en cuenta?\n- __Impacto
+    y divulgación__: ¿Identifica el candidato una audiencia relevante para el trabajo?
+    ¿Cómo propone el trabajo transformar la percepción en COVID-19? ¿Está claro el
+    candidato en términos de por qué este trabajo es importante ahora? Se dará prioridad
+    a proyectos que sirvan a comunidades locales y desatendidas, mujeres, personas
+    no binarias, personas vulnerables y poblaciones rurales.\n- __Rigor__: ¿Sigue
+    una metodología de verificación de hechos? ¿Cómo verificará el candidato que sus
+    fuentes son precisas? ¿Son confiables los recursos utilizados para su campaña
+    de alfabetización mediática?\n\nTenga en cuenta que si no recibe una respuesta
+    de nosotros dentro de las tres semanas posteriores a la suscripción, significa
+    que su propuesta no tuvo éxito. Lamentablemente, no podemos responder a cada solicitante
+    debido a la cantidad de solicitudes recibidas.\n\nLos candidatos aceptados publicarán
+    sus proyectos en sus propias plataformas y serán referenciados en la página Check
+    Global. Más tarde, serán presentados en nuestro blog.\n\n__[Suscríbete Aquí](https://docs.google.com/forms/d/1QKGnuEZ_uONOEtQTrYaChoib5vvsgsWfkmLe2iabEow/prefill)__
+    \n\nEnvíe todas las preguntas a <a href=\"mailto:checkgrants@meedan.com\">checkgrants@meedan.com</a>,
+    tenemos soporte para correos electrónicos encriptados.\n\n__Meedan__ es una organización
+    sin fines de lucro que se enfoca en mejorar la calidad y la equidad de la información
+    en línea. Hacemos esto creando software y diseñando iniciativas humanas para redacciones,
+    ONG e instituciones académicas.\n\n__Check Global__ es una iniciativa de Meedan
+    que apoya y facilita el trabajo de periodistas, derechos humanos e investigación
+    en países en desarrollo. Brindamos software, capacitación y apoyo a un grupo de
+    organizaciones de medios independientes, escuelas de periodismo e investigadores
+    de derechos humanos en América Latina, África Oriental y la región NAWA."
+  body-pt: "Check Global abre esta chamada para incentivos (micro-bolsas) com o objetivo
+    de apoiar a alfabetização digital e a produção independente de mídia nas economias
+    emergentes relacionado ao COVID-19. \n\nA Organização Mundial da Saúde (OMS) anunciou
+    o surto de COVID-19, uma pandemia e uma crise global de saúde. As informações
+    falsas e os rumores sobre saúde se multiplicaram entre as plataformas, minando
+    os esforços para produzir informações confiáveis e factuais em relação ao vírus.
+    Isso é particularmente desafiador para as organizações da sociedade civil e coletivos
+    de base que ainda lutam para entender e combater os efeitos do surto em seus próprios
+    contextos locais.\n\nEm uma tentativa de apoiar meios de comunicação independentes,
+    verificadores de fatos, jornalistas cidadãos, ativistas e entusiastas da tecnologia
+    e da alfabetização digital em seus esforços para cobrir o surto, a Meedan está
+    lançando COVID-19 Check Global, especificamente destinadas a grupos que trabalham
+    dentro o contexto das economias emergentes (América Latina, Norte da África /
+    Ásia Ocidental, África e a região Ásia-Pacífico).\n\nVisamos apoiar projetos de
+    verificação e verificação de fatos, iniciativas locais de fiscalização, documentação
+    da realidade local em campanhas de quarentena e de mídia/digital, rastreando o
+    impacto dos bloqueios nas democracias e examinando a vigilância digital e o capitalismo
+    de vigilância, direitos civis e violência contra mulheres relacionada ao COVID-19.
+    \n\nIncentivamos os candidatos a serem criativos em suas propostas. Estamos interessados
+    em apoiar a produção de diferentes tipos de resultados, incluindo podcasts, vídeos,
+    documentários, peças escritas, campanhas, kits de ferramentas, arquivos e memórias
+    digitais e blogs. Também estamos procurando apoiar propostas que não sejam focadas
+    apenas na cobertura de informações erradas sobre a pandemia, mas também na vida
+    e nas experiências das pessoas em quarentena.\n\nEstamos aceitando propostas em
+    português , árabe, francês, espanhol e inglês no momento. As propostas serão consideradas
+    em uma base contínua.\n\n- Indivíduos podem solicitar até US $ 500\n- Organizações
+    podem solicitar até US $ 2000\n- Projetos colaborativos podem solicitar até US
+    $ 2500\n\n\n### Processo de aplicação\n- Os candidatos devem preencher um [formulário
+    on-line](https://docs.google.com/forms/d/e/1FAIpQLScvBv21oxrOPiGh53mzTu4cKiSQz6PRZl-hFvDCAPWJyRaIXw/viewform)
+    detalhando sua proposta.\n- O conselho consultivo do fundo se reúne semanalmente
+    para analisar todas as solicitações\n- Os candidatos aprovados são então notificados
+    dentro de um período de 5 a 10 dias após o envio.\n\n\n### Critério de seleção\n\n-
+    __Originalidade e importância__: a qualidade da solicitação escrita. Quais são
+    os desafios que ela sugere enfrentar? Qual é a sua área geográfica / foco?\n-
+    __Conquista__: O candidato poderá cumprir as promessas feitas? O plano de trabalho
+    é realista dentro do cronograma sugerido? O trabalho de campo representa algum
+    problema ético ou de saúde e segurança que precisa ser levado em consideração?\n-
+    __Impacto e divulgação__: O candidato identifica um público relevante para o trabalho?
+    Como o trabalho se propõe a transformar a percepção no COVID-19? O candidato  está
+    claro em termos de por que esse trabalho é importante agora? Serão priorizados
+    projetos que atendam comunidades locais e carentes, mulheres, pessoas não binárias,
+    pessoas vulneráveis e populações rurais. \n- __Rigor__: Você segue uma metodologia
+    de verificação de fatos? Como o candidato verificará suas fontes como precisas?
+    Os recursos utilizados para sua campanha de alfabetização de mídia são confiáveis?\n\nEsteja
+    ciente de que, se você não receber uma resposta nossa dentro de três semanas após
+    a inscrição, isso significa que sua proposta não foi bem-sucedida. Infelizmente,
+    não podemos responder a cada solicitante devido ao número de solicitações recebidas.\n\nOs
+    candidatos aceitos publicarão seus projetos em suas próprias plataformas e serão
+    referenciados na página de Check Global. Mais tarde, eles serão destacados em
+    nosso blog.\n\n__[Inscreva-se Aqui](https://docs.google.com/forms/d/e/1FAIpQLScvBv21oxrOPiGh53mzTu4cKiSQz6PRZl-hFvDCAPWJyRaIXw/viewform)__\n\nEnvie
+    todas as perguntas para <a href=\"mailto:checkgrants@meedan.com\">checkgrants@meedan.com</a>,
+    temos suporte para e-mails criptografados.\n\n__Meedan__ é uma organização sem
+    fins lucrativos que se concentra em melhorar a qualidade e a equidade das informações
+    on-line. Fazemos isso construindo software e projetando iniciativas humanas para
+    redações, ONGs e instituições acadêmicas.\n\n__Check Global__ é uma iniciativa
+    da Meedan que apóia e facilita nos países em desenvolvimento o trabalho de jornalistas,
+    direitos humanos e de pesquisas. Fornecemos software, treinamento e suporte a
+    um grupo de organizações independentes de mídia, escolas de jornalismo e pesquisadores
+    de direitos humanos na América Latina, África Oriental e na região da NAWA."
+  alt_date: *7
+  alt_date_string: '2020-04-07'
+- sys:
+    id: 41GLyQNVl8aDIgM9wGi2NP
+    created_at: &8 !ruby/object:DateTime 2020-04-15 00:35:05.420000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-15 17:09:03.334000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meedan Supports the Open COVID Pledge
+  slug: meedan-supports-the-open-covid-pledge
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
+  body: "“This is a time for science and solidarity,\" explained U.N. Secretary-General
+    António Guterres [in a recent speech](https://twitter.com/antonioguterres/status/1250095790959267841)
+    establishing a new UN Communications Response Initiative. \"Yet the global 'misinfo-demic'
+    is spreading…. Harmful health advice and snake-oil solutions are proliferating.
+    Wild conspiracy theories are infecting the Internet. Hatred is going viral, stigmatizing
+    and vilifying people and groups.\"\n\nWith the rapid spread of COVID-19 and its
+    effects on global societies, [misinformation is spreading around the world](https://www.npr.org/sections/coronavirus-live-updates/2020/04/14/834287961/u-n-chief-targets-dangerous-epidemic-of-misinformation-on-coronavirus),
+    causing confusion, panic and [real-world physical harm](https://www.independent.co.uk/news/world/middle-east/iran-coronavirus-methanol-drink-cure-deaths-fake-a9429956.html).
+    Meedan is committed to making certain our toolkit and the code upon which it’s
+    built can be utilized in service of addressing the challenges of trust, information
+    quality and critical research.\n\nThe [Open COVID Pledge](https://opencovidpledge.org/pledge/)
+    calls on organizations around the world to make their patents and copyrights freely
+    available in the fight against the COVID-19 pandemic. The Pledge was developed
+    by the Open COVID Coalition, an international group of scientists and lawyers
+    seeking to accelerate the rapid development and deployment of diagnostics, vaccines,
+    therapeutics, medical equipment and software solutions in this urgent public health
+    crisis. \n\nMeedan thanks the organizers of the Open COVID Pledge and is proud
+    to join this effort, recognizing the value that the exchange of technology and
+    ideas can bring to our work. All our code is made available under an [MIT open
+    source license](https://github.com/meedan/check/blob/develop/LICENSE.txt), including
+    [Check](https://github.com/meedan/check), our collaborative media annotation software;
+    [Check Mark](https://github.com/meedan/check-mark), a cross-platform bookmarking
+    extension; and tools and extensions for [text/media analysis, URL parsing](https://github.com/meedan/pender),
+    archiving and rendering, and [claim and image matching](https://github.com/meedan/alegre),
+    amongst other features.\n\nWe are also happy to support organizations working
+    in the public interest with free access to our toolkit. If you are interested
+    in using our tools, please contact us at hello@meedan.com.\n\nWe invite others
+    working on information trust and equity on the internet to join us in supporting
+    this initiative.\n"
+  date: '2020-04-15'
+  alt_date: *8
+  alt_date_string: '2020-04-15'
+- sys:
+    id: 59dIvkPLtpn4GOL6VANKIk
+    created_at: &9 !ruby/object:DateTime 2020-04-15 06:16:26.174000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-15 19:36:18.260000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Join the Check Global Network for media and tech in emerging economies
+  slug: join-the-check-global-network-for-media-and-tech-in-emerging-economies
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 6QAQjHOU88GlkH8iSL2oz8
+        created_at: !ruby/object:DateTime 2020-04-15 19:12:37.736000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-15 19:19:26.219000000 Z
+      title: Meedan check global network
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6QAQjHOU88GlkH8iSL2oz8/275ac507daa7c3f5ceaeb1b299416ae5/Meedan_check_global_network.png"
+    description: 
+    title: Meedan check global network
+    url: "//images.ctfassets.net/g118h5yoccvd/6QAQjHOU88GlkH8iSL2oz8/275ac507daa7c3f5ceaeb1b299416ae5/Meedan_check_global_network.png"
+  body: "Meedan is excited to announce a new wave of recruitment for the Check Global
+    Network. This is Meedan’s community that brings together non-profits and collectives
+    working in the area of independent media and information and communication technologies
+    (ICTs) in the emerging economies of Asia-Pacific (APAC), East Africa, Latin America
+    (LATAM), and the North Africa Western Asia region (NAWA). \n\nWe aim to provide
+    a platform that strengthens and facilitates the work of organizations committed
+    to promoting the development of people that have faced historic and systemic barriers
+    in entering the fields of media and technology.\n\nOur most impactful partnerships
+    are currently with women-led organizations and feminist networks using media to
+    promote feminist leadership and rights in emerging economies of the Global South.
+    The Check Global Network is now expanding to new areas and new partners. As part
+    of this phase of expansion, we are actively seeking partnerships with groups that
+    embed feminist values and concepts of social justice into organizational practices.
+    \n\nThe Check Global Network is a community for sharing, learning and reflection.
+    The network activities will be led by Meedan. In this process we will draw upon
+    skills of Meedan team members, the network members themselves as well as those
+    of other partners and institutions that we have worked with in different regions
+    over the last decade. \n\nThe main activities of the network will focus on capacity
+    building of members on journalism, fact-checking and organizational development,
+    providing them access to digital tools and the opportunity to be part of a growing
+    impactful community. \n\n__Forums for engagement__: \n- We’ll invite Check Global
+    Network members to participate in virtual and in person learning events that we
+    organise. \n- We will recommend members for conferences, fellowships, internships,
+    training programs and other structured learning opportunities.\n- Meedan’s weekly
+    newsletter, [The Checklist](https://us11.campaign-archive.com/home/?u=539fbe59ddc773c6592797bf2&id=8fa4ab9399),
+    will feature the work of network members and will provide them regular updates
+    on misinformation. \n- Meedan will design collaborative and time-bound projects
+    that meet the needs of network members and provide opportunities to respond to
+    global issues. \n\n__To join the network, please write to us at <a href=\"mailto:checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
+    with a statement of interest.__"
+  date: '2020-04-15'
+  alt_date: *9
+  alt_date_string: '2020-04-15'
+- sys:
+    id: 38X6lHkUvHetZVWZRMY4rI
+    created_at: &10 !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-16 20:17:46.061000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Exploring COVID-19 in Emerging Economies: Announcing the 2020 Global Misinfodemic
+    Report'
+  slug: global-misinfodemic-report
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
+  lead_image:
+    en-US:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-16 20:12:01.178000000 Z
+      title: Meedan global-misinfodemic-report
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    description: 
+    title: Meedan global-misinfodemic-report
+    url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+  body: "### The 2020 Global Misinfodemic Report examines the impact of COVID-19 outside
+    of the Global North\n\nMeedan is pleased to announce the 2020 Global Misinfodemic
+    Report, a multidisciplinary, transnational collaboration of information scholars,
+    legal experts, journalists and fact-checkers, focused on examining the impacts
+    of COVID-19 misinformation in Kenya, South Korea, Iran, India, Hong Kong, Brazil
+    and other regions. Working with scholars, verification experts and journalists
+    from major academic institutions, broadcasting stations and fact-checking organizations,
+    the Global Misinfodemic Report is an investigation into the way this unprecedented
+    viral event is both reforming and confirming the state of our global information
+    ecosystem. \n\nIn late 2019 and early 2020, as countries worked to contain the
+    first signs of the physical virus spreading, a secondary crisis occured: misinformation
+    on platforms like Twitter, Facebook and WhatsApp contributed to [confusion](https://www.cbc.ca/news/technology/coronavirus-avoid-sharing-social-media-disinformation-1.5497000),
+    [panic](https://www.reuters.com/article/us-health-coronavirus-disinformation/russia-deploying-coronavirus-disinformation-to-sow-panic-in-west-eu-document-says-idUSKBN21518F),
+    and sometimes real world physical health outcomes, including [death](https://www.bbc.com/news/world-middle-east-51677530).
+    \n\nIn a recent [video broadcast](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity),
+    UN Secretary-General António Guterres acknowledged “This is a time for science
+    and solidarity. Yet the global ‘misinfo-demic’ is spreading. Harmful health advice
+    and snake-oil solutions are proliferating. Falsehoods are filling the airwaves.
+    Wild conspiracy theories are infecting the Internet. Hatred is going viral, stigmatizing
+    and vilifying people and groups. The world must unite against this disease, too.”\n\nA
+    misinfodemic is a term coined by Meedan researchers in [the Atlantic in 2018](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/),
+    and it is defined as a phenomenon that takes place when online misinformation
+    leads to the spread of disease. The COVID-19 misinfodemic will complicate our
+    interactions with our neighbours and our own bodies long after a treatment is
+    approved or a vaccine is developed for the physical disease. \n\nThe report touches
+    on these key questions:\n\n- What types of COVID-19 misinformation are spreading
+    online, and by whom?\n- Why is COVID-19 misinformation resonating with certain
+    communities? \n- What are the varying impacts of that misinformation on  public
+    health outcomes in different parts of the world, especially emerging economies?\n-
+    What digital governance and policy issues are raised by COVID-19?\n\nThe first
+    wave of the pandemic is beginning to settle in large parts of the developed world,
+    but in emerging economies, the crisis may be just beginning. As the New York Times
+    editorial board noted on April 13, 2020: \n\n“What probably lies ahead is the
+    spread of the coronavirus through countries ravaged by conflict, through packed
+    refugee camps and detention centers in places like Syria or Bangladesh, through
+    teeming cities like Mumbai, Rio de Janeiro or Monrovia, where social distancing
+    is impossible and government is not trusted, through countries without the fiscal
+    capacity or health services to mount a viable response.\n\nThat would be disastrous
+    not only for them but also for the rest of the world as supplies of raw materials
+    are disrupted, fragile economies collapse, strongmen grow stronger and the virus
+    doubles back to reinfect northern regions.”\n\nWhat is also likely to ensue, long
+    after countries in North America and Europe control their initial outbreaks, is
+    sustained low-quality and sometimes dangerous information about the pandemic.
+    In Meedan’s own analyses of more than 5,700 submissions to our partners’ fact-checking
+    tiplines between January 1 and April 8, 2020, we watched COVID-19 misinformation
+    evolve in online spaces, including:\n\n- Unproven treatments involving tea, vitamins,
+    hot water, heat, and hydroxychloroquine \n- Misinformation about penalties for
+    spreading misinformation or just spreading information, about the pandemic \n-
+    Xenophobia about different ethnic groups \n\nAll of this misinformation can trigger
+    real-world health outcomes. Some countries are experiencing the most obvious and
+    harmful manifestations of right now, such as in Iran, where [people are dying
+    from drinking Methanol after false and misleading information circulated on social
+    media about its use as a treatment](https://www.ctvnews.ca/health/nearly-500-people-dead-in-iran-after-drinking-methanol-to-fight-off-covid-19-1.4870674).
+    In other regions, the misinfodemic materializes as public trust in leadership
+    weans and citizens look to sometimes misguided informal leaders for answers to
+    complex scientific information. \n\nAs both the physical and online virus rages
+    on into the summer, the Global Misinfodemic Report will begin publishing groups
+    of articles from contributors around the world. Look back here or [sign up for
+    our newsletter](https://meedan.com/contact) for updates on when to expect the
+    first batch of articles. "
+  words_by:
+    en-US:
+    - sys:
+        id: 3jh6Rz03KzuYCvSNyk4TfF
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:41.808000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 02:36:15.132000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Megan Marrelli
+      staff:
+        en-US: true
+  date: '2020-04-16'
+  alt_date: *10
+  alt_date_string: '2020-04-16'
