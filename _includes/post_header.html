@@ -1,5 +1,7 @@
-{% if page.lang == 'es' %}
-    {% assign page.title = page.title-es %}
+{% if page.lang == 'ar' %}
+    {% assign title = page.title-ar %}
+{% else %}
+    {% assign title = page.title-en %}
 {% endif %}
 
 {% assign theme_class = include.theme | default: '' %}
@@ -25,7 +27,7 @@
                 {{ topic.title.en-US }} /
             {% endfor %}
         </span>
-        <span class="title">{{ page.title }}</span>
+        <span class="title">{{ title }}</span>
     </div>
     {% if page.callout %}
     <svg id="text-container" class="callout" width="618" height="663" viewBox="0 0 618 663" fill="none" xmlns="http://www.w3.org/2000/svg">

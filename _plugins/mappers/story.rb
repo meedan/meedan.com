@@ -14,7 +14,7 @@ class StoryMapper < ::Jekyll::Contentful::Mappers::Base
       result['date'] = result['sys']['created_at'].to_date.to_s
 
       if result['lead_image']
-        result['lead_image_full'] = result['lead_image']
+        # result['lead_image_full'] = result['lead_image']
         result['lead_image']['description'] = result['lead_image']['en-US']['description']
         result['lead_image']['title'] = result['lead_image']['en-US']['title']
         result['lead_image']['url'] = result['lead_image']['en-US']['url']

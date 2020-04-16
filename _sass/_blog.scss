@@ -96,6 +96,12 @@
 .story .title-container {
     margin-top: var(--space-5);
     padding-left: var(--space-3);
+    padding-right: var(--space-3);
+}
+
+.ar.story .title-container {
+    padding-right: var(--space-3);
+    padding-left: var(--space-3);
 }
 
 .grid-template-columns--3 .title-container {
@@ -289,10 +295,11 @@
 }
 
 // Adjustments for Arabic text 
-.ar .callout {
+.ar .title-container {
     font-family: 'Tajawal', sans-serif;
     direction: rtl;
 }
+
 .ar .story-wrapper {
     font-family: 'Tajawal', sans-serif;
     direction: rtl;

@@ -3,11 +3,89 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-15 19:41:58.227000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-16 17:46:51.071000000 Z
     content_type_id: moduleStories
     revision: 9
   title: Blog
   stories:
+  - sys:
+      id: 38X6lHkUvHetZVWZRMY4rI
+      created_at: !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-16 17:52:51.896000000 Z
+      content_type_id: story
+      revision: 0
+    title: 'Announcing the 2020 Global Misinfodemic Report: COVID-19 in Emerging Economies'
+    slug: global-misinfodemic-report
+    topic:
+    - sys:
+        id: 51F5sjPasofaPfvjXeQRVL
+    body: "### The report examines the impact of COVID-19 outside of the Global North\n\nMeedan
+      is pleased to announce the Global Misinfodemic Report 2020, a multidisciplinary,
+      transnational collaboration of information scholars, legal experts, journalists
+      and fact-checkers, focused on examining the impacts of COVID-19 misinformation
+      in Kenya, South Korea, Iran, India, Hong Kong, Brazil and other regions. Working
+      with scholars, verification experts and journalists from major academic institutions,
+      broadcasting stations and fact-checking organizations, the Global Misinfodemic
+      Report is an investigation into the way this unprecedented viral event is both
+      reforming and confirming the state of our global information ecosystem. \n\nIn
+      late 2019 and early 2020, as countries worked to contain the first signs of
+      the physical virus spreading, a secondary crisis occured: misinformation on
+      platforms like Twitter, Facebook and WhatsApp contributed to [confusion](https://www.cbc.ca/news/technology/coronavirus-avoid-sharing-social-media-disinformation-1.5497000),
+      [panic](https://www.reuters.com/article/us-health-coronavirus-disinformation/russia-deploying-coronavirus-disinformation-to-sow-panic-in-west-eu-document-says-idUSKBN21518F),
+      and sometimes real world physical health outcomes, including [death](https://www.bbc.com/news/world-middle-east-51677530).
+      \n\nIN a recent [video broadcast](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity),
+      UN Secretary-General António Guterres acknowledged “This is a time for science
+      and solidarity. Yet the global ‘misinfo-demic’ is spreading. Harmful health
+      advice and snake-oil solutions are proliferating. Falsehoods are filling the
+      airwaves. Wild conspiracy theories are infecting the Internet. Hatred is going
+      viral, stigmatizing and vilifying people and groups. The world must unite against
+      this disease, too.”\n\nA misinfodemic is a term coined by Meedan researchers
+      in [the Atlantic in 2018](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/),
+      and it is defined as a phenomenon that takes place when online misinformation
+      leads to the spread of disease. The COVID-19 misinfodemic will complicate our
+      interactions with our neighbours and our own bodies long after a treatment is
+      approved or a vaccine is developed for the physical disease. \n\nThe report
+      touches on these key questions:\n\n- What types of COVID-19 misinformation are
+      spreading online, and by whom?\n- Why is COVID-19 misinformation resonating
+      with certain communities? \n- What are the varying impacts of that misinformation
+      on  public health outcomes in different parts of the world, especially emerging
+      economies?\n- What digital governance and policy issues are raised by COVID-19?\n\nThe
+      first wave of the pandemic is beginning to settle in large parts of the developed
+      world, but in emerging economies, the crisis may be just beginning. As the New
+      York Times editorial board noted on April 13, 2020: \n\n“What probably lies
+      ahead is the spread of the coronavirus through countries ravaged by conflict,
+      through packed refugee camps and detention centers in places like Syria or Bangladesh,
+      through teeming cities like Mumbai, Rio de Janeiro or Monrovia, where social
+      distancing is impossible and government is not trusted, through countries without
+      the fiscal capacity or health services to mount a viable response.\n\nThat would
+      be disastrous not only for them but also for the rest of the world as supplies
+      of raw materials are disrupted, fragile economies collapse, strongmen grow stronger
+      and the virus doubles back to reinfect northern regions.”\n\nWhat is also likely
+      to ensue, long after countries in North America and Europe control their initial
+      outbreaks, is sustained low-quality and sometimes dangerous information about
+      the pandemic. In Meedan’s own analyses of more than 5,700 submissions to our
+      partners’ fact-checking tiplines between January 1 and April 8, 2020, we watched
+      COVID-19 misinformation evolve in online spaces, including:\n\n- Unproven treatments
+      involving tea, vitamins, hot water, heat, and hydroxychloroquine \n- Misinformation
+      about penalties for spreading misinformation or just spreading information,
+      about the pandemic \n- Xenophobia about different ethnic groups \n\nAll of this
+      misinformation can trigger real-world health outcomes. Some countries are experiencing
+      the most obvious and harmful manifestations of right now, such as in Iran, where
+      [people are dying from drinking Methanol after false and misleading information
+      circulated on social media about its use as a treatment](https://www.ctvnews.ca/health/nearly-500-people-dead-in-iran-after-drinking-methanol-to-fight-off-covid-19-1.4870674).
+      In other regions, the misinfodemic materializes as public trust in leadership
+      weans and citizens look to sometimes misguided informal leaders for answers
+      to complex scientific information. \n\nAs both the physical and online virus
+      rages on into the summer, the Global Misinfodemic Report will begin publishing
+      groups of articles from contributors around the world. Look back here or [sign
+      up for our newsletter](https://meedan.com/contact) for updates on when to expect
+      the first batch of articles. "
+    words_by:
+    - sys:
+        id: 1VYhEJtngzZK35vh2btRXH
+    - sys:
+        id: 3jh6Rz03KzuYCvSNyk4TfF
+    alt_date: !ruby/object:DateTime 2020-04-16 00:00:00.000000000 Z
   - sys:
       id: 59dIvkPLtpn4GOL6VANKIk
       created_at: !ruby/object:DateTime 2020-04-15 06:16:26.174000000 Z
@@ -60,7 +138,7 @@ moduleStories:
   - sys:
       id: 34QofKm9PbO6WiXJtwsuUe
       created_at: !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-16 02:04:45.495000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-16 17:35:07.279000000 Z
       content_type_id: story
       revision: 3
     title: New Microgrants for COVID-19 Media Work in Emerging Economies
