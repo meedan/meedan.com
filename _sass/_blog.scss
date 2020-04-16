@@ -263,8 +263,36 @@
     }
 }
 
-// Adjustments for Arabic text 
+.story .translations {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    font-size: var(--scale-0);
+    line-height: 1.275;
+    @include responsive('min-width: #{$width-tablet}') {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: var(--space-2);
+    }
+    text-align: center;
+    ul {
+        list-style-type: none;
+        li {
+            padding-bottom: var(--space-1);
+        }
+        li.ar {
+            font-family: 'Tajawal', sans-serif;
+        }
+        @include responsive('min-width: #{$width-tablet}') {
+            grid-column: 2/12;
+        }
+    }
+}
 
+// Adjustments for Arabic text 
+.ar .callout {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
 .ar .story-wrapper {
     font-family: 'Tajawal', sans-serif;
     direction: rtl;

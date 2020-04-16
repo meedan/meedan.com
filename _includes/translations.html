@@ -1,0 +1,21 @@
+{% if page.body or page.body-es or page.body-ar or page.body-pt %}
+<div class="translations">
+    <ul>
+        {% if page.body and page.lang != 'en-US' %}
+            <li><a href="/blog/{{ page.slug }}">Read this post in English</a></li>
+        {% endif %}
+        {% if page.body-es and page.lang != 'es' %}
+            <li><a href="/blog/es/{{ page.slug }}">lee este post en español</a></li>
+        {% endif %}
+        {% if page.body-ar and page.lang != 'ar' %}
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+            </style>
+            <li class="ar"><a href="/blog/ar/{{ page.slug }}">اقرأ هذا المنشور باللغة العربية</a></li>
+        {% endif %}
+        {% if page.body-pt and page.lang != 'pt' %}
+            <li><a href="/blog/pt/{{ page.slug }}">leia este post em português</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endif %}
