@@ -99,7 +99,7 @@
     padding-right: var(--space-3);
 }
 
-.ar.story .title-container {
+.ar.story header .title-container {
     padding-right: var(--space-3);
     padding-left: var(--space-3);
 }
@@ -295,7 +295,7 @@
 }
 
 // Adjustments for Arabic text 
-.ar .title-container {
+.ar header .title-container {
     font-family: 'Tajawal', sans-serif;
     direction: rtl;
 }

@@ -21,25 +21,49 @@ class StoryMapper < ::Jekyll::Contentful::Mappers::Base
       end
 
       if result['title']
-        result['title-ar'] = result['title']['ar']
-        result['title-es'] = result['title']['es']
-        result['title-pt'] = result['title']['pt']
-        result['title-en'] = result['title']['en-US']
+        if result['title']['ar']
+          result['title-ar'] = result['title']['ar']
+        end
+        if result['title']['es']
+          result['title-es'] = result['title']['es']
+        end
+        if result['title']['pt']
+          result['title-pt'] = result['title']['pt']
+        end
+        if result['title']['en']
+          result['title-en'] = result['title']['en-US']
+        end
         result['title'] = result['title']['en-US']
       end
 
       if result['slug']
-        result['slug-ar'] = result['slug']['ar']
-        result['slug-es'] = result['slug']['es']
-        result['slug-pt'] = result['slug']['pt']
-        result['slug-en'] = result['slug']['en-US']
         result['slug'] = result['slug']['en-US']
       end
       
       if result['body']
-        result['body-ar'] = result['body']['ar']
-        result['body-es'] = result['body']['es']
-        result['body-pt'] = result['body']['pt']
+        # add description
+        if result['body']['es']
+          result['description-es'] = result['body']['es'].to_s.split[0...30].join(' ')
+        end
+        if result['body']['pt']
+          result['description-pt'] = result['body']['pt'].to_s.split[0...30].join(' ')
+        end
+        if result['body']['ar']
+          result['description-ar'] = result['body']['ar'].to_s.split[0...30].join(' ')
+        end
+        if result['body']['en']
+          result['description-en'] = result['body']['en'].to_s.split[0...30].join(' ')
+        end
+        # set body
+        if result['body']['ar']
+          result['body-ar'] = result['body']['ar']
+        end
+        if result['body']['es']
+          result['body-es'] = result['body']['es']
+        end
+        if result['body']['pt']
+          result['body-pt'] = result['body']['pt']
+        end
         result['body'] = result['body']['en-US']
       end
       

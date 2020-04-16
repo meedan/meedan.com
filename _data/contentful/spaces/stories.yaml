@@ -30,7 +30,7 @@ story:
         revision: 1
       title:
         en-US: Network
-  lead_image: &1
+  lead_image:
     en-US:
       sys:
         id: 3irGSo1SmfFCQze2LhNpx0
@@ -97,18 +97,6 @@ story:
         en-US: Program Manager
   alt_date: !ruby/object:DateTime 2019-07-29 00:00:00.000000000 Z
   date: '2020-02-25'
-  lead_image_full: *1
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: How Meedan supported three reporting initiatives in Asia
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: how-meedan-supported-three-reporting-initiatives-in-asia
-  body-ar: 
-  body-es: 
-  body-pt: 
   alt_date_string: '2019-07-29'
 - sys:
     id: 14n0r6BLwwNHAyCz6a9tZn
@@ -140,7 +128,7 @@ story:
         revision: 1
       title:
         en-US: Data
-  lead_image: &2
+  lead_image:
     en-US:
       sys:
         id: d6SiPjKGnTmS8KUTdpzzF
@@ -203,18 +191,6 @@ story:
         en-US: New Delhi
   alt_date: !ruby/object:DateTime 2019-11-01 00:00:00.000000000 Z
   date: '2020-02-25'
-  lead_image_full: *2
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Our veteran journalist on WhatsApp misinformation during India’s elections
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: our-veteran-journalist-on-whatsapp-misinformation-during-indias-elections
-  body-ar: 
-  body-es: 
-  body-pt: 
   alt_date_string: '2019-11-01'
 - sys:
     id: 3m8HqQDFPSp3pXHNYzhS8P
@@ -246,7 +222,7 @@ story:
         revision: 1
       title:
         en-US: Technology
-  lead_image: &3
+  lead_image:
     en-US:
       sys:
         id: fxzzu0XQ9FrB50ljSTuIi
@@ -318,22 +294,10 @@ story:
         en-US: Director of Engineering
   alt_date: !ruby/object:DateTime 2019-12-12 00:00:00.000000000 Z
   date: '2020-02-25'
-  lead_image_full: *3
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Caio Almeida on software that serves a global community
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: caio-almeida-on-software-that-serves-a-global-community
-  body-ar: 
-  body-es: 
-  body-pt: 
   alt_date_string: '2019-12-12'
 - sys:
     id: 5yWSBJ4oHKMmIkekWoomZg
-    created_at: &5 !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
+    created_at: &1 !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
     updated_at: !ruby/object:DateTime 2020-03-05 18:44:51.466000000 Z
     content_type_id: story
     revision: 1
@@ -361,7 +325,7 @@ story:
         revision: 1
       title:
         en-US: Research
-  lead_image: &4
+  lead_image:
     en-US:
       sys:
         id: 2nW6GqFf50AHuJI42McaGY
@@ -383,19 +347,7 @@ story:
     is having on population health suggests it is critical and urgent to re-think
     and innovate around the way we approach health misinformation.\n\n[Read the report](https://health.meedan.com/primer.pdf)."
   date: '2020-02-25'
-  lead_image_full: *4
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: 'Digital Health: Fact-checking in an era of misinfodemics '
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: digital-health-fact-checking-in-an-era-of-misinfodemics
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *5
+  alt_date: *1
   alt_date_string: '2020-02-25'
 - sys:
     id: 45vAHRb7C95yfC4xPspSvd
@@ -427,7 +379,7 @@ story:
         revision: 1
       title:
         en-US: Research
-  lead_image: &6
+  lead_image:
     en-US:
       sys:
         id: 4bliYB7Zthb9fivR28r4iL
@@ -515,18 +467,6 @@ story:
     about joining the group at [credweb.org](http://credweb.org/).\n\n\n\n\n"
   alt_date: !ruby/object:DateTime 2018-11-08 00:00:00.000000000 Z
   date: '2020-02-25'
-  lead_image_full: *6
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Signaling Credibility — What We’re Building at the W3C
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: signaling-credibility-what-were-building-at-the-w3c
-  body-ar: 
-  body-es: 
-  body-pt: 
   alt_date_string: '2018-11-08'
 - sys:
     id: 7jKRIrwtkpkWXs4584YVyZ
@@ -559,7 +499,7 @@ story:
         revision: 1
       title:
         en-US: Network
-  lead_image: &7
+  lead_image:
     en-US:
       sys:
         id: 3W8CS3yBNno9zBVCHtBA9r
@@ -607,23 +547,10 @@ story:
         en-US: Tom Trewinnard
   alt_date: !ruby/object:DateTime 2018-10-10 00:00:00.000000000 Z
   date: '2020-02-25'
-  lead_image_full: *7
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Five Insights For Collaborative Natural Disaster Reporting From Hurricane
-    Florence
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: five-insights-for-collaborative-natural-disaster-reporting-from-hurricane
-  body-ar: 
-  body-es: 
-  body-pt: 
   alt_date_string: '2018-10-10'
 - sys:
     id: 3F5aNZnxGuUwpBrhQBLIMq
-    created_at: &9 !ruby/object:DateTime 2020-03-17 22:49:50.997000000 Z
+    created_at: &2 !ruby/object:DateTime 2020-03-17 22:49:50.997000000 Z
     updated_at: !ruby/object:DateTime 2020-03-31 18:27:11.166000000 Z
     content_type_id: story
     revision: 1
@@ -659,7 +586,7 @@ story:
         revision: 1
       title:
         en-US: Network
-  lead_image: &8
+  lead_image:
     en-US:
       sys:
         id: 39DpMJAzrR2ryKuF5kwTSx
@@ -735,23 +662,11 @@ story:
       role:
         en-US: CEO
   date: '2020-03-17'
-  lead_image_full: *8
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Meedan and COVID-19
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: meedan-and-covid-19
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *9
+  alt_date: *2
   alt_date_string: '2020-03-17'
 - sys:
     id: 4nVhoxAnzRiaVAnA0BasK6
-    created_at: &11 !ruby/object:DateTime 2020-03-19 15:22:44.768000000 Z
+    created_at: &3 !ruby/object:DateTime 2020-03-19 15:22:44.768000000 Z
     updated_at: !ruby/object:DateTime 2020-03-19 19:05:15.142000000 Z
     content_type_id: story
     revision: 1
@@ -779,7 +694,7 @@ story:
         revision: 1
       title:
         en-US: Network
-  lead_image: &10
+  lead_image:
     en-US:
       sys:
         id: 4Qm0nprXWtT3tBAAEVYypx
@@ -885,23 +800,11 @@ story:
       location:
         en-US: Berlin
   date: '2020-03-19'
-  lead_image_full: *10
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: 'Going Virtual: How Meedan is Doing the Conference Thing Online'
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: going-virtual-how-meedan-is-doing-the-conference-thing-online
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *11
+  alt_date: *3
   alt_date_string: '2020-03-19'
 - sys:
     id: 7xtLMdlSCEjcEAPRRuQv0X
-    created_at: &13 !ruby/object:DateTime 2020-03-19 15:58:57.773000000 Z
+    created_at: &4 !ruby/object:DateTime 2020-03-19 15:58:57.773000000 Z
     updated_at: !ruby/object:DateTime 2020-03-24 23:09:48.208000000 Z
     content_type_id: story
     revision: 1
@@ -929,7 +832,7 @@ story:
         revision: 1
       title:
         en-US: Network
-  lead_image: &12
+  lead_image:
     en-US:
       sys:
         id: 9WNaAZtFNpSIB9YQzbkLO
@@ -1032,23 +935,11 @@ story:
       name:
         en-US: Ahmed Medien
   date: '2020-03-19'
-  lead_image_full: *12
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Meet Our Regional Program Managers, APAC, Latin America and Africa
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: meet-our-regional-program-managers-apac-latin-america-and-africa
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *13
+  alt_date: *4
   alt_date_string: '2020-03-19'
 - sys:
     id: 3Bccx27IyIKqZTMAPzuB4r
-    created_at: &15 !ruby/object:DateTime 2020-03-26 23:09:32.028000000 Z
+    created_at: &5 !ruby/object:DateTime 2020-03-26 23:09:32.028000000 Z
     updated_at: !ruby/object:DateTime 2020-03-27 20:11:55.000000000 Z
     content_type_id: story
     revision: 2
@@ -1076,7 +967,7 @@ story:
         revision: 1
       title:
         en-US: COVID-19
-  lead_image: &14
+  lead_image:
     en-US:
       sys:
         id: 38oGDoj4LEM1k7ynnYd29I
@@ -1159,23 +1050,11 @@ story:
       staff:
         en-US: true
   date: '2020-03-26'
-  lead_image_full: *14
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Five tips for fact-checking during a pandemic
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: five-tips-for-fact-checking-during-a-pandemic
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *15
+  alt_date: *5
   alt_date_string: '2020-03-26'
 - sys:
     id: 1luEBzpLpQe39y8unAkBsS
-    created_at: &17 !ruby/object:DateTime 2020-03-31 00:03:55.514000000 Z
+    created_at: &6 !ruby/object:DateTime 2020-03-31 00:03:55.514000000 Z
     updated_at: !ruby/object:DateTime 2020-04-06 17:23:02.131000000 Z
     content_type_id: story
     revision: 7
@@ -1203,7 +1082,7 @@ story:
         revision: 1
       title:
         en-US: COVID-19
-  lead_image: &16
+  lead_image:
     en-US:
       sys:
         id: BFv04cYmlzazIO8In6HIC
@@ -1359,24 +1238,12 @@ story:
       location:
         en-US: On the Road
   date: '2020-03-31'
-  lead_image_full: *16
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: We’re building a database of expert-sourced COVID-19 information for fact-checkers
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: database-of-expert-sourced-covid-19-information-for-fact-checkers
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *17
+  alt_date: *6
   alt_date_string: '2020-03-31'
 - sys:
     id: 34QofKm9PbO6WiXJtwsuUe
-    created_at: &19 !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-16 17:35:07.279000000 Z
+    created_at: &7 !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-16 21:29:10.794000000 Z
     content_type_id: story
     revision: 3
     space:
@@ -1403,7 +1270,7 @@ story:
         revision: 1
       title:
         en-US: COVID-19
-  lead_image: &18
+  lead_image:
     en-US:
       sys:
         id: 2O80ER32L22S8aFaV3jkOa
@@ -1474,16 +1341,20 @@ story:
     by building software and designing human-powered initiatives for newsrooms, NGOs
     and academic institutions."
   date: '2020-04-07'
-  lead_image_full: *18
   title-ar: إطلاق منح صغيرة لدعم إنتاج المشروعات الإعلامية المستقلة حول فيروس كوفيد-19
     في الاقتصادات الناشئة
-  title-es: 
-  title-pt: 
-  title-en: New Microgrants for COVID-19 Media Work in Emerging Economies
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: new-microgrants-for-covid-19-media-work-in-emerging-economies
+  title-es: Pequeños incentivos financieros para apoyar el trabajo de medios en economías
+    emergentes
+  title-pt: Micro-bolsas para apoiar o trabalho da mídia em economias emergentes
+  description-es: Check Global abre esta convocatoria de pequeños incentivos financieros
+    con el objetivo de apoyar la alfabetización digital y la producción de medios
+    independientes en las economías emergentes relacionadas con COVID-19.
+  description-pt: Check Global abre esta chamada para incentivos (micro-bolsas) com
+    o objetivo de apoiar a alfabetização digital e a produção independente de mídia
+    nas economias emergentes relacionado ao COVID-19. A Organização
+  description-ar: في اللحظة التي أعلنت بها منظمة الصحة العالمية أن فيروس كوفيد-19
+    وباءً وأزمةً صحيةً عالميةً، قد ازدادت المعلومات الصحية المُضللة والشائعات عبر
+    منصات التواصل الاجتماعي، ممَّا أدى إلى تقويض الجهود
   body-ar: "في اللحظة التي أعلنت بها منظمة الصحة العالمية أن فيروس كوفيد-19 وباءً
     وأزمةً صحيةً عالميةً، قد ازدادت المعلومات الصحية المُضللة والشائعات عبر منصات
     التواصل الاجتماعي، ممَّا أدى إلى تقويض الجهود المبذولة لنشر معلومات موثوقة وتم
@@ -1535,10 +1406,10 @@ story:
     هي منظمة غير ربحية مهتمة بتحسين جودة ونزاهة المعلومات المتاحة على الإنترنت. ونقوم
     بذلك عن طريق بناء برمجيات وتصميم مبادرات بشرية لغرف الأخبار والمنظمات غير الحكومية
     والمعاهد الأكاديمية.\n                                                "
-  body-es: "Check Global abre esta convocatoria de incentivos (micro subsidios) con
-    el objetivo de apoyar la alfabetización digital y la producción de medios independientes
-    en las economías emergentes relacionadas con COVID-19.\n\nLa Organización Mundial
-    de la Salud (OMS) anunció el brote de COVID-19, una pandemia y una crisis de salud
+  body-es: "Check Global abre esta convocatoria de pequeños incentivos financieros
+    con el objetivo de apoyar la alfabetización digital y la producción de medios
+    independientes en las economías emergentes relacionadas con COVID-19.\n\nLa Organización
+    Mundial de la Salud (OMS) anunció la pandema de COVID-19 y una crisis de salud
     mundial. La información falsa y los rumores de salud se han multiplicado en todas
     las plataformas, socavando los esfuerzos para producir información confiable y
     objetiva sobre el virus. Esto es particularmente desafiante para las organizaciones
@@ -1561,10 +1432,10 @@ story:
     que no solo se centren en cubrir la información errónea sobre la pandemia, sino
     también en las vidas y experiencias de las personas en cuarentena.\n\nActualmente
     estamos aceptando propuestas en español , árabe, francés, inglés y portugués.
-    Las propuestas serán consideradas de manera continua.\n\n- Las personas pueden
-    solicitar hasta $ 500\n- Las organizaciones pueden solicitar hasta $ 2000\n- Los
-    proyectos de colaboración pueden solicitar hasta $ 2500\n\n\n### Proceso de solicitud\n\n-
-    Los solicitantes deben completar [un formulario en línea](https://docs.google.com/forms/d/1QKGnuEZ_uONOEtQTrYaChoib5vvsgsWfkmLe2iabEow/prefill)
+    Las propuestas serán consideradas de manera continua.\n\n- Individuos pueden solicitar
+    hasta $ 500\n- Organizaciones pueden solicitar hasta $ 2000\n- Proyectos de colaboración
+    pueden solicitar hasta $ 2500\n\n\n### Proceso de solicitud\n\n- Los solicitantes
+    deben completar [un formulario en línea](https://docs.google.com/forms/d/1QKGnuEZ_uONOEtQTrYaChoib5vvsgsWfkmLe2iabEow/prefill)
     que detalla su propuesta.\n- La junta asesora del fondo se reúne semanalmente
     para revisar todas las solicitudes.\n- Los solicitantes seleccionados son notificados
     dentro de los 5 a 10 días posteriores a la presentación.\n\n\n### Criterio de
@@ -1600,7 +1471,7 @@ story:
     emergentes relacionado ao COVID-19. \n\nA Organização Mundial da Saúde (OMS) anunciou
     o surto de COVID-19, uma pandemia e uma crise global de saúde. As informações
     falsas e os rumores sobre saúde se multiplicaram entre as plataformas, minando
-    os esforços para produzir informações confiáveis ​​e factuais em relação ao vírus.
+    os esforços para produzir informações confiáveis e factuais em relação ao vírus.
     Isso é particularmente desafiador para as organizações da sociedade civil e coletivos
     de base que ainda lutam para entender e combater os efeitos do surto em seus próprios
     contextos locais.\n\nEm uma tentativa de apoiar meios de comunicação independentes,
@@ -1614,16 +1485,16 @@ story:
     impacto dos bloqueios nas democracias e examinando a vigilância digital e o capitalismo
     de vigilância, direitos civis e violência contra mulheres relacionada ao COVID-19.
     \n\nIncentivamos os candidatos a serem criativos em suas propostas. Estamos interessados
-    ​​em apoiar a produção de diferentes tipos de resultados, incluindo podcasts,
-    vídeos, documentários, peças escritas, campanhas, kits de ferramentas, arquivos
-    e memórias digitais e blogs. Também estamos procurando apoiar propostas que não
-    sejam focadas apenas na cobertura de informações erradas sobre a pandemia, mas
-    também na vida e nas experiências das pessoas em quarentena.\n\nEstamos aceitando
-    propostas em português , árabe, francês, espanhol e inglês no momento. As propostas
-    serão consideradas em uma base contínua.\n\n- Indivíduos podem solicitar até US
-    $ 500\n- Organizações podem solicitar até US $ 2000\n- Projetos colaborativos
-    podem solicitar até US $ 2500\n\n\n### Processo de aplicação\n- Os candidatos
-    devem preencher um [formulário on-line](https://docs.google.com/forms/d/e/1FAIpQLScvBv21oxrOPiGh53mzTu4cKiSQz6PRZl-hFvDCAPWJyRaIXw/viewform)
+    em apoiar a produção de diferentes tipos de resultados, incluindo podcasts, vídeos,
+    documentários, peças escritas, campanhas, kits de ferramentas, arquivos e memórias
+    digitais e blogs. Também estamos procurando apoiar propostas que não sejam focadas
+    apenas na cobertura de informações erradas sobre a pandemia, mas também na vida
+    e nas experiências das pessoas em quarentena.\n\nEstamos aceitando propostas em
+    português , árabe, francês, espanhol e inglês no momento. As propostas serão consideradas
+    em uma base contínua.\n\n- Indivíduos podem solicitar até US $ 500\n- Organizações
+    podem solicitar até US $ 2000\n- Projetos colaborativos podem solicitar até US
+    $ 2500\n\n\n### Processo de aplicação\n- Os candidatos devem preencher um [formulário
+    on-line](https://docs.google.com/forms/d/e/1FAIpQLScvBv21oxrOPiGh53mzTu4cKiSQz6PRZl-hFvDCAPWJyRaIXw/viewform)
     detalhando sua proposta.\n- O conselho consultivo do fundo se reúne semanalmente
     para analisar todas as solicitações\n- Os candidatos aprovados são então notificados
     dentro de um período de 5 a 10 dias após o envio.\n\n\n### Critério de seleção\n\n-
@@ -1632,11 +1503,11 @@ story:
     __Conquista__: O candidato poderá cumprir as promessas feitas? O plano de trabalho
     é realista dentro do cronograma sugerido? O trabalho de campo representa algum
     problema ético ou de saúde e segurança que precisa ser levado em consideração?\n-
-    __Impacto e divulgaçã__: O candidato identifica um público relevante para o trabalho?
+    __Impacto e divulgação__: O candidato identifica um público relevante para o trabalho?
     Como o trabalho se propõe a transformar a percepção no COVID-19? O candidato  está
     claro em termos de por que esse trabalho é importante agora? Serão priorizados
     projetos que atendam comunidades locais e carentes, mulheres, pessoas não binárias,
-    pessoas vulneráveis ​​e populações rurais. \n- __Rigor__: Você segue uma metodologia
+    pessoas vulneráveis e populações rurais. \n- __Rigor__: Você segue uma metodologia
     de verificação de fatos? Como o candidato verificará suas fontes como precisas?
     Os recursos utilizados para sua campanha de alfabetização de mídia são confiáveis?\n\nEsteja
     ciente de que, se você não receber uma resposta nossa dentro de três semanas após
@@ -1654,11 +1525,11 @@ story:
     direitos humanos e de pesquisas. Fornecemos software, treinamento e suporte a
     um grupo de organizações independentes de mídia, escolas de jornalismo e pesquisadores
     de direitos humanos na América Latina, África Oriental e na região da NAWA."
-  alt_date: *19
+  alt_date: *7
   alt_date_string: '2020-04-07'
 - sys:
     id: 41GLyQNVl8aDIgM9wGi2NP
-    created_at: &20 !ruby/object:DateTime 2020-04-15 00:35:05.420000000 Z
+    created_at: &8 !ruby/object:DateTime 2020-04-15 00:35:05.420000000 Z
     updated_at: !ruby/object:DateTime 2020-04-15 17:09:03.334000000 Z
     content_type_id: story
     revision: 0
@@ -1716,22 +1587,11 @@ story:
     working on information trust and equity on the internet to join us in supporting
     this initiative.\n"
   date: '2020-04-15'
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Meedan Supports the Open COVID Pledge
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: meedan-supports-the-open-covid-pledge
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *20
+  alt_date: *8
   alt_date_string: '2020-04-15'
 - sys:
     id: 59dIvkPLtpn4GOL6VANKIk
-    created_at: &22 !ruby/object:DateTime 2020-04-15 06:16:26.174000000 Z
+    created_at: &9 !ruby/object:DateTime 2020-04-15 06:16:26.174000000 Z
     updated_at: !ruby/object:DateTime 2020-04-15 19:36:18.260000000 Z
     content_type_id: story
     revision: 1
@@ -1759,7 +1619,7 @@ story:
         revision: 1
       title:
         en-US: Network
-  lead_image: &21
+  lead_image:
     en-US:
       sys:
         id: 6QAQjHOU88GlkH8iSL2oz8
@@ -1802,26 +1662,14 @@ story:
     global issues. \n\n__To join the network, please write to us at <a href=\"mailto:checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
     with a statement of interest.__"
   date: '2020-04-15'
-  lead_image_full: *21
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: Join the Check Global Network for media and tech in emerging economies
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: join-the-check-global-network-for-media-and-tech-in-emerging-economies
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date: *22
+  alt_date: *9
   alt_date_string: '2020-04-15'
 - sys:
     id: 38X6lHkUvHetZVWZRMY4rI
-    created_at: !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-16 17:52:51.896000000 Z
+    created_at: &10 !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-16 20:17:46.061000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -1834,33 +1682,46 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'Announcing the 2020 Global Misinfodemic Report: COVID-19 in Emerging Economies'
+  title: 'Exploring COVID-19 in Emerging Economies: Announcing the 2020 Global Misinfodemic
+    Report'
   slug: global-misinfodemic-report
   topic:
     en-US:
     - sys:
-        id: 51F5sjPasofaPfvjXeQRVL
-        created_at: !ruby/object:DateTime 2020-04-16 17:26:16.689000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-16 17:26:23.231000000 Z
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
         content_type_id: topic
-        revision: 0
+        revision: 1
       title:
-        en-US: COVID19
-  body: "### The report examines the impact of COVID-19 outside of the Global North\n\nMeedan
-    is pleased to announce the Global Misinfodemic Report 2020, a multidisciplinary,
-    transnational collaboration of information scholars, legal experts, journalists
-    and fact-checkers, focused on examining the impacts of COVID-19 misinformation
-    in Kenya, South Korea, Iran, India, Hong Kong, Brazil and other regions. Working
-    with scholars, verification experts and journalists from major academic institutions,
-    broadcasting stations and fact-checking organizations, the Global Misinfodemic
-    Report is an investigation into the way this unprecedented viral event is both
-    reforming and confirming the state of our global information ecosystem. \n\nIn
-    late 2019 and early 2020, as countries worked to contain the first signs of the
-    physical virus spreading, a secondary crisis occured: misinformation on platforms
-    like Twitter, Facebook and WhatsApp contributed to [confusion](https://www.cbc.ca/news/technology/coronavirus-avoid-sharing-social-media-disinformation-1.5497000),
+        en-US: COVID-19
+  lead_image:
+    en-US:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-16 20:12:01.178000000 Z
+      title: Meedan global-misinfodemic-report
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    description: 
+    title: Meedan global-misinfodemic-report
+    url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+  body: "### The 2020 Global Misinfodemic Report examines the impact of COVID-19 outside
+    of the Global North\n\nMeedan is pleased to announce the 2020 Global Misinfodemic
+    Report, a multidisciplinary, transnational collaboration of information scholars,
+    legal experts, journalists and fact-checkers, focused on examining the impacts
+    of COVID-19 misinformation in Kenya, South Korea, Iran, India, Hong Kong, Brazil
+    and other regions. Working with scholars, verification experts and journalists
+    from major academic institutions, broadcasting stations and fact-checking organizations,
+    the Global Misinfodemic Report is an investigation into the way this unprecedented
+    viral event is both reforming and confirming the state of our global information
+    ecosystem. \n\nIn late 2019 and early 2020, as countries worked to contain the
+    first signs of the physical virus spreading, a secondary crisis occured: misinformation
+    on platforms like Twitter, Facebook and WhatsApp contributed to [confusion](https://www.cbc.ca/news/technology/coronavirus-avoid-sharing-social-media-disinformation-1.5497000),
     [panic](https://www.reuters.com/article/us-health-coronavirus-disinformation/russia-deploying-coronavirus-disinformation-to-sow-panic-in-west-eu-document-says-idUSKBN21518F),
     and sometimes real world physical health outcomes, including [death](https://www.bbc.com/news/world-middle-east-51677530).
-    \n\nIN a recent [video broadcast](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity),
+    \n\nIn a recent [video broadcast](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity),
     UN Secretary-General António Guterres acknowledged “This is a time for science
     and solidarity. Yet the global ‘misinfo-demic’ is spreading. Harmful health advice
     and snake-oil solutions are proliferating. Falsehoods are filling the airwaves.
@@ -1909,12 +1770,6 @@ story:
   words_by:
     en-US:
     - sys:
-        id: 1VYhEJtngzZK35vh2btRXH
-        created_at: !ruby/object:DateTime 2020-04-16 17:12:04.317000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-16 17:12:04.317000000 Z
-        content_type_id: contributor
-        revision: 0
-    - sys:
         id: 3jh6Rz03KzuYCvSNyk4TfF
         created_at: !ruby/object:DateTime 2020-03-26 23:10:41.808000000 Z
         updated_at: !ruby/object:DateTime 2020-03-27 02:36:15.132000000 Z
@@ -1924,44 +1779,6 @@ story:
         en-US: Megan Marrelli
       staff:
         en-US: true
-  alt_date: !ruby/object:DateTime 2020-04-16 00:00:00.000000000 Z
   date: '2020-04-16'
-  title-ar: 
-  title-es: 
-  title-pt: 
-  title-en: 'Announcing the 2020 Global Misinfodemic Report: COVID-19 in Emerging
-    Economies'
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: global-misinfodemic-report
-  body-ar: 
-  body-es: 
-  body-pt: 
-  alt_date_string: '2020-04-16'
-- sys:
-    id: 4fGYbDhBhDRItKc8HokJH2
-    created_at: &23 !ruby/object:DateTime 2020-04-16 17:46:31.172000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-16 17:46:32.644000000 Z
-    content_type_id: story
-    revision: 0
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: story
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-  slug: untitled-entry-2020-04-16-at-17-46-31
-  date: '2020-04-16'
-  slug-ar: 
-  slug-es: 
-  slug-pt: 
-  slug-en: untitled-entry-2020-04-16-at-17-46-31
-  alt_date: *23
+  alt_date: *10
   alt_date_string: '2020-04-16'
