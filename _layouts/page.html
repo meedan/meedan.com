@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: page
 ---
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
@@ -8,20 +8,15 @@ layout: legal
 <body class="site story">
     <a id="top"></a>
     <div class="page-wrapper">
-        {% include post_header.html %}
+        {% include header.html %}
         <section>
             <div class="story-wrapper section-margin">
                 {{ page.body | markdownify }}
             </div>
             <div class="story-footer small-hr section-margin">
-                {% if page.words_by %}
-                    <div class="story-footer-item">
-                        <span>Words</span> {% for contributor in page.words_by %}{{ contributor.name}}{% endfor %}
-                    </div>
-                {% endif %}
                 <div class="story-footer-item">
-                    {% if page.modified %}
-                        {{ page.modified }}
+                    {% if page.custom-last-modified %}
+                        {{ page.custom-last-modified | date: "%-d %B %Y" }}
                     {% else %}
                         Last modified: <br />{{ page.sys.updated_at | date: "%-d %B %Y" }}
                     {% endif %}
