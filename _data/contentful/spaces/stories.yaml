@@ -97,6 +97,7 @@ story:
         en-US: Program Manager
   alt_date: !ruby/object:DateTime 2019-07-29 00:00:00.000000000 Z
   date: '2020-02-25'
+  title-en: How Meedan supported three reporting initiatives in Asia
   alt_date_string: '2019-07-29'
 - sys:
     id: 14n0r6BLwwNHAyCz6a9tZn
@@ -191,6 +192,7 @@ story:
         en-US: New Delhi
   alt_date: !ruby/object:DateTime 2019-11-01 00:00:00.000000000 Z
   date: '2020-02-25'
+  title-en: Our veteran journalist on WhatsApp misinformation during India’s elections
   alt_date_string: '2019-11-01'
 - sys:
     id: 3m8HqQDFPSp3pXHNYzhS8P
@@ -294,6 +296,7 @@ story:
         en-US: Director of Engineering
   alt_date: !ruby/object:DateTime 2019-12-12 00:00:00.000000000 Z
   date: '2020-02-25'
+  title-en: Caio Almeida on software that serves a global community
   alt_date_string: '2019-12-12'
 - sys:
     id: 5yWSBJ4oHKMmIkekWoomZg
@@ -347,6 +350,7 @@ story:
     is having on population health suggests it is critical and urgent to re-think
     and innovate around the way we approach health misinformation.\n\n[Read the report](https://health.meedan.com/primer.pdf)."
   date: '2020-02-25'
+  title-en: 'Digital Health: Fact-checking in an era of misinfodemics '
   alt_date: *1
   alt_date_string: '2020-02-25'
 - sys:
@@ -467,6 +471,7 @@ story:
     about joining the group at [credweb.org](http://credweb.org/).\n\n\n\n\n"
   alt_date: !ruby/object:DateTime 2018-11-08 00:00:00.000000000 Z
   date: '2020-02-25'
+  title-en: Signaling Credibility — What We’re Building at the W3C
   alt_date_string: '2018-11-08'
 - sys:
     id: 7jKRIrwtkpkWXs4584YVyZ
@@ -547,6 +552,8 @@ story:
         en-US: Tom Trewinnard
   alt_date: !ruby/object:DateTime 2018-10-10 00:00:00.000000000 Z
   date: '2020-02-25'
+  title-en: Five Insights For Collaborative Natural Disaster Reporting From Hurricane
+    Florence
   alt_date_string: '2018-10-10'
 - sys:
     id: 3F5aNZnxGuUwpBrhQBLIMq
@@ -662,6 +669,7 @@ story:
       role:
         en-US: CEO
   date: '2020-03-17'
+  title-en: Meedan and COVID-19
   alt_date: *2
   alt_date_string: '2020-03-17'
 - sys:
@@ -800,6 +808,7 @@ story:
       location:
         en-US: Berlin
   date: '2020-03-19'
+  title-en: 'Going Virtual: How Meedan is Doing the Conference Thing Online'
   alt_date: *3
   alt_date_string: '2020-03-19'
 - sys:
@@ -935,6 +944,7 @@ story:
       name:
         en-US: Ahmed Medien
   date: '2020-03-19'
+  title-en: Meet Our Regional Program Managers, APAC, Latin America and Africa
   alt_date: *4
   alt_date_string: '2020-03-19'
 - sys:
@@ -1050,6 +1060,7 @@ story:
       staff:
         en-US: true
   date: '2020-03-26'
+  title-en: Five tips for fact-checking during a pandemic
   alt_date: *5
   alt_date_string: '2020-03-26'
 - sys:
@@ -1238,14 +1249,15 @@ story:
       location:
         en-US: On the Road
   date: '2020-03-31'
+  title-en: We’re building a database of expert-sourced COVID-19 information for fact-checkers
   alt_date: *6
   alt_date_string: '2020-03-31'
 - sys:
     id: 34QofKm9PbO6WiXJtwsuUe
     created_at: &7 !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-16 21:29:10.794000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-16 22:38:36.622000000 Z
     content_type_id: story
-    revision: 3
+    revision: 4
     space:
       sys:
         id: g118h5yoccvd
@@ -1346,6 +1358,7 @@ story:
   title-es: Pequeños incentivos financieros para apoyar el trabajo de medios en economías
     emergentes
   title-pt: Micro-bolsas para apoiar o trabalho da mídia em economias emergentes
+  title-en: New Microgrants for COVID-19 Media Work in Emerging Economies
   description-es: Check Global abre esta convocatoria de pequeños incentivos financieros
     con el objetivo de apoyar la alfabetización digital y la producción de medios
     independientes en las economías emergentes relacionadas con COVID-19.
@@ -1587,6 +1600,7 @@ story:
     working on information trust and equity on the internet to join us in supporting
     this initiative.\n"
   date: '2020-04-15'
+  title-en: Meedan Supports the Open COVID Pledge
   alt_date: *8
   alt_date_string: '2020-04-15'
 - sys:
@@ -1662,14 +1676,15 @@ story:
     global issues. \n\n__To join the network, please write to us at <a href=\"mailto:checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
     with a statement of interest.__"
   date: '2020-04-15'
+  title-en: Join the Check Global Network for media and tech in emerging economies
   alt_date: *9
   alt_date_string: '2020-04-15'
 - sys:
     id: 38X6lHkUvHetZVWZRMY4rI
     created_at: &10 !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-16 20:17:46.061000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-16 22:40:12.882000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -1765,7 +1780,7 @@ story:
     complex scientific information. \n\nAs both the physical and online virus rages
     on into the summer, the Global Misinfodemic Report will begin publishing groups
     of articles from contributors around the world. Look back here or [sign up for
-    our newsletter](https://meedan.com/contact) for updates on when to expect the
+    our newsletter](https://meedan.com/checklist) for updates on when to expect the
     first batch of articles. "
   words_by:
     en-US:
@@ -1780,5 +1795,7 @@ story:
       staff:
         en-US: true
   date: '2020-04-16'
+  title-en: 'Exploring COVID-19 in Emerging Economies: Announcing the 2020 Global
+    Misinfodemic Report'
   alt_date: *10
   alt_date_string: '2020-04-16'

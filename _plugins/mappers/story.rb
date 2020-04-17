@@ -20,19 +20,17 @@ class StoryMapper < ::Jekyll::Contentful::Mappers::Base
         result['lead_image']['url'] = result['lead_image']['en-US']['url']
       end
 
-      if result['title']
-        if result['title']['ar']
-          result['title-ar'] = result['title']['ar']
-        end
-        if result['title']['es']
-          result['title-es'] = result['title']['es']
-        end
-        if result['title']['pt']
-          result['title-pt'] = result['title']['pt']
-        end
-        if result['title']['en']
-          result['title-en'] = result['title']['en-US']
-        end
+      if result['title']['ar']
+        result['title-ar'] = result['title']['ar']
+      end
+      if result['title']['es']
+        result['title-es'] = result['title']['es']
+      end
+      if result['title']['pt']
+        result['title-pt'] = result['title']['pt']
+      end
+      if result['title']['en-US']
+        result['title-en'] = result['title']['en-US']
         result['title'] = result['title']['en-US']
       end
 
