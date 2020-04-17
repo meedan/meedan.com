@@ -62,6 +62,9 @@ module Jekyll
         data['title'] = data['title-ar']
         data['description'] = data['body-ar'].to_s.split[0...30].join(' ')
       end
+      if template == "legal"
+        data['description'] = data['body'].to_s.split[0...30].join(' ')
+      end
       
       # add all the information defined in _data for the current record to the
       # current page (so that we can access it with liquid tags)
