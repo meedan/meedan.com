@@ -1543,9 +1543,9 @@ story:
 - sys:
     id: 41GLyQNVl8aDIgM9wGi2NP
     created_at: &8 !ruby/object:DateTime 2020-04-15 00:35:05.420000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-15 17:09:03.334000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-20 23:00:10.029000000 Z
     content_type_id: story
-    revision: 0
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -1570,17 +1570,29 @@ story:
         revision: 1
       title:
         en-US: COVID-19
-  body: "“This is a time for science and solidarity,\" explained U.N. Secretary-General
-    António Guterres [in a recent speech](https://twitter.com/antonioguterres/status/1250095790959267841)
-    establishing a new UN Communications Response Initiative. \"Yet the global 'misinfo-demic'
-    is spreading…. Harmful health advice and snake-oil solutions are proliferating.
-    Wild conspiracy theories are infecting the Internet. Hatred is going viral, stigmatizing
-    and vilifying people and groups.\"\n\nWith the rapid spread of COVID-19 and its
-    effects on global societies, [misinformation is spreading around the world](https://www.npr.org/sections/coronavirus-live-updates/2020/04/14/834287961/u-n-chief-targets-dangerous-epidemic-of-misinformation-on-coronavirus),
+  lead_image:
+    en-US:
+      sys:
+        id: 1UqLqkAtXcrgTEJBpCtXwD
+        created_at: !ruby/object:DateTime 2020-04-20 21:53:13.899000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-20 22:03:20.435000000 Z
+      title: Meedan COVID Pledge
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1UqLqkAtXcrgTEJBpCtXwD/a5785c3b3cedea7b10c7cc8ee61f516d/Meedan_COVID_Pledge.png"
+    description: 
+    title: Meedan COVID Pledge
+    url: "//images.ctfassets.net/g118h5yoccvd/1UqLqkAtXcrgTEJBpCtXwD/a5785c3b3cedea7b10c7cc8ee61f516d/Meedan_COVID_Pledge.png"
+  body: "With the rapid spread of COVID-19 and its effects on global societies, [misinformation
+    is spreading around the world](https://www.npr.org/sections/coronavirus-live-updates/2020/04/14/834287961/u-n-chief-targets-dangerous-epidemic-of-misinformation-on-coronavirus),
     causing confusion, panic and [real-world physical harm](https://www.independent.co.uk/news/world/middle-east/iran-coronavirus-methanol-drink-cure-deaths-fake-a9429956.html).
     Meedan is committed to making certain our toolkit and the code upon which it’s
     built can be utilized in service of addressing the challenges of trust, information
-    quality and critical research.\n\nThe [Open COVID Pledge](https://opencovidpledge.org/pledge/)
+    quality and critical research.\n\n“This is a time for science and solidarity,\"
+    explained U.N. Secretary-General António Guterres [in a recent speech](https://twitter.com/antonioguterres/status/1250095790959267841)
+    establishing a new UN Communications Response Initiative. \"Yet the global 'misinfo-demic'
+    is spreading…. Harmful health advice and snake-oil solutions are proliferating.
+    Wild conspiracy theories are infecting the Internet. Hatred is going viral, stigmatizing
+    and vilifying people and groups.\"\n\nThe [Open COVID Pledge](https://opencovidpledge.org/pledge/)
     calls on organizations around the world to make their patents and copyrights freely
     available in the fight against the COVID-19 pandemic. The Pledge was developed
     by the Open COVID Coalition, an international group of scientists and lawyers
@@ -1596,9 +1608,9 @@ story:
     archiving and rendering, and [claim and image matching](https://github.com/meedan/alegre),
     amongst other features.\n\nWe are also happy to support organizations working
     in the public interest with free access to our toolkit. If you are interested
-    in using our tools, please contact us at hello@meedan.com.\n\nWe invite others
-    working on information trust and equity on the internet to join us in supporting
-    this initiative.\n"
+    in using our tools, please contact us at <a href=\"hello@meedan.com\">hello@meedan.com</a>.\n\nWe
+    invite others working on information trust and equity on the internet to join
+    us in supporting this initiative."
   date: '2020-04-15'
   title-en: Meedan Supports the Open COVID Pledge
   alt_date: *8
@@ -1802,7 +1814,7 @@ story:
 - sys:
     id: 3tJ0tXpnEgpVppdKaAK2ii
     created_at: &11 !ruby/object:DateTime 2020-04-17 17:38:04.905000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-17 20:57:43.305000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-17 22:55:02.378000000 Z
     content_type_id: story
     revision: 3
     space:
