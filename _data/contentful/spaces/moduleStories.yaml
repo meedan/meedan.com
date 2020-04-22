@@ -3,17 +3,123 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-20 22:12:15.659000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-22 19:24:10.655000000 Z
     content_type_id: moduleStories
     revision: 12
   title: Blog
   stories:
   - sys:
+      id: 79gxasZZCgB4sjOH6fieWw
+      created_at: !ruby/object:DateTime 2020-04-21 18:37:49.956000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-22 20:57:42.559000000 Z
+      content_type_id: story
+      revision: 0
+    title: 'Image and claim matching for fact-checkers: A report from #TechAndCheck
+      2020'
+    slug: tech-and-check-2020
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+    body: "We were thrilled to hear that the focus of Tech & Check this year would
+      be on projects matching speakers’ claims with previously published fact-checks
+      and other related text and image matching efforts in service of fact-checking.
+      Just as we didn’t anticipate that our main technical focus would be the subject
+      of this year’s gathering, we didn’t suspect that our respective planned travel
+      from the UK and Brazil for this year’s Tech & Check would be replaced with an
+      opening night mixer via Zoom due to the restrictions imposed by the COVID-19
+      crisis around the world. Regardless of the global pandemic, on April 3rd, journalists,
+      engineers, computer scientists and other professionals met virtually to watch
+      a few demos and discuss claim matching in the context of fact-checking.\n \n![Caio
+      Almeida and Scott Hale presenting for an all-remote Tech & Check 2020](//images.ctfassets.net/g118h5yoccvd/2HMcWIk2C9ffzEvqowdg0v/888b838e1e57540066a464f7145441bd/tech-check-2020-caio-and-scott.png)\n<p
+      class=\"caption\">Caio Almeida and Scott Hale presenting for an all-remote Tech
+      & Check 2020</p>\n\n\nLast year at [Tech & Check](https://dewitt.sanford.duke.edu/tech-check-cooperative-2019/),
+      we presented [Check Message](https://meedan.com/check), an integration between
+      Check (Meedan’s open source platform for collaborative fact-checking) and the
+      [WhatsApp Business API](https://www.whatsapp.com/business/api), as a tool to
+      deal with misinformation in closed message applications at scale. Just a few
+      days after our presentation, the technology went live with [Checkpoint](https://www.checkpoint.pro.to/),
+      an effort to monitor, verify, and conduct research on WhatsApp misinformation
+      during the 2019 Indian Election led by Delhi-based media research and training
+      organization [PROTO](https://www.pro.to/) and commissioned and technically assisted
+      by WhatsApp. Check Message allows media partners to operate tip lines to which
+      people can forward possibly misleading, miscontextualised, or false information
+      they see to the partner for fact-checking. During the Indian Elections, PROTO
+      received over 100,000 submissions from the public.\n\n![Caio Almeida presenting
+      at Tech & Check 2019 in Duke University. Image via the DeWitt Wallace Center
+      for Media and Democracy, and photo by Colin Huth.](//images.ctfassets.net/g118h5yoccvd/4B2OKx6sL10bVZHj87I38t/8fa9949bd64c66abb7b5793850542770/Tech___Check_2019.jpg)\n<p
+      class=\"caption\">Caio Almeida presenting at <a href=\"https://dewitt.sanford.duke.edu/tech-check-cooperative-2019/\">Tech
+      & Check 2019</a> in Duke University. Image via the DeWitt Wallace Center for
+      Media and Democracy, and photo by Colin Huth.</p>\n\n\nMany of those submissions
+      were similar to other submissions, but at that time we just had the technology
+      implemented to match identical submissions—text or images—so, many submissions
+      that were similar but not identical had to be manually marked as such, which
+      was uselessly costly. In order to optimize that process, we started to work
+      on tools that could suggest similar items automatically to our users.\n \nWe
+      were honored to be one of five organizations that demonstrated their work in
+      this area. In our case, we demonstrated our current claim and image matching
+      tools for fact-checkers, which integrate with our open-source software, Check.
+      We developed an [open-source architecture](https://github.com/meedan/alegre)
+      to use ElasticSearch to efficiently search language volumes of text items by
+      their vector representations in near real-time and integrated this into Check.
+      For Checkpoint, we used pre trained word vectors, but the architecture we developed
+      is not specific to these choices and can easily be adapted to other vector-representation
+      models and languages. We are now using the [Multilingual Universal Sentence
+      Encoder](https://arxiv.org/abs/1907.04307), and are working to develop additional
+      approaches to support even more of many languages our partners across the world
+      use. For images, we are using perceptual hashing and evaluating newer approaches
+      including [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq).\n
+      \n![Architectural diagram of Check’s open source claim similarity framework](//images.ctfassets.net/g118h5yoccvd/gOQBQqGPrtCPCbFHRm1Wy/710c99128eb87060be2846b0af5a8718/check-similarity-bot.png)\n<p
+      class=\"caption\">Architectural diagram of Check’s <a href=\"https://github.com/meedan/check\">open
+      source</a> claim similarity framework</p>\n\n \nFor both images and text, Check
+      users are able to define a set of similarity rules, which can relate items to
+      be verified based on how similar they are. The user defines that minimum similarity
+      threshold, which is a number between 0% and 100%, and if our image and text
+      matching tool returns a similarity value equal or higher than that threshold,
+      two items are related automatically. The idea is that we are able to optimize
+      the fact-checking process by group similar items together rather than working
+      on them separately. This also helps our partners better understand what content
+      is most submitted to their tip lines. The video below demonstrates those features.\n
+      \n<a href=\"https://www.youtube.com/watch?v=zTbTQGhPpu0\" class=\"embedly-card\"
+      data-card-width=\"100%\" data-card-controls=\"0\">Video-demonstration of Check
+      similarity tools, presented at Tech & Check 2020</a>\n<p class=\"caption\">Video-demonstration
+      of Check similarity tools, presented at Tech & Check 2020</p>\n\n\nThis was
+      part of the discussion that followed the demos. In the afternoon, people interested
+      and working on claim matching discussed the problem types we have ahead of us,
+      and came up with three main branches: \n \nThe first one was obviously __claim
+      matching and semantic text similarity__: the matching of a novel claim with
+      previously checked claims to determine if there is a substantially similar previous
+      claim. Potential solutions that were proposed include, for example, named entity
+      overlap, vector representations, comparing with knowledge bases; categorization
+      of previously made claims and comparison to a novel claim; and combinations
+      of multiple approaches. \n \nThe second problem type was __human matching__.
+      Pure computational fact checking is prone to mismatches, sometimes funny, sometimes
+      truly detrimental. Where and how can human editors, crowdsourcing and other
+      forms of human intervention be used to assist and mediate this system? One proposal
+      for that is to have an editor as a final step in an otherwise computational
+      pipeline. At Meedan, we’re trying to develop efficient human-in-the-loop approaches
+      where we can finetune and improve our computational tools based on the standard
+      actions users take while using Check. Every time users remove an automated match
+      or add a manually match we gain valuable insights into the types of things that
+      should and shouldn’t match. Over time, we want to use this data to evaluate
+      new approaches and improve the existing approaches. In other words, we see the
+      system more as a circle than a pipeline: our algorithms make suggestions and
+      learn from users’ actions. \n \nThe third problem type we discussed was __image
+      matching__, and we discussed solutions like different image hashing algorithms,
+      object retrieval, object identification and information extraction from images.\n
+      \nWe are excited to keep working on those problems and to contribute with the
+      Tech & Check community, and we can’t wait to share more interesting insights
+      and findings next year at Tech & Check."
+    words_by:
+    - sys:
+        id: 1LO43iZQgk754PxET3q581
+    - sys:
+        id: 2DcM4qE9xRzIVHYT6noOsA
+  - sys:
       id: 41GLyQNVl8aDIgM9wGi2NP
       created_at: !ruby/object:DateTime 2020-04-15 00:35:05.420000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-20 23:00:10.029000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-20 23:09:07.497000000 Z
       content_type_id: story
-      revision: 3
+      revision: 4
     title: Meedan Supports the Open COVID Pledge
     slug: meedan-supports-the-open-covid-pledge
     topic:
@@ -57,6 +163,7 @@ moduleStories:
       contact us at <a href=\"hello@meedan.com\">hello@meedan.com</a>.\n\nWe invite
       others working on information trust and equity on the internet to join us in
       supporting this initiative."
+    alt_date: !ruby/object:DateTime 2020-04-20 00:00:00.000000000 Z
   - sys:
       id: 38X6lHkUvHetZVWZRMY4rI
       created_at: !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
@@ -194,9 +301,9 @@ moduleStories:
   - sys:
       id: 34QofKm9PbO6WiXJtwsuUe
       created_at: !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-17 13:51:56.107000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-21 17:23:09.705000000 Z
       content_type_id: story
-      revision: 4
+      revision: 7
     title: New Microgrants for COVID-19 Media Work in Emerging Economies
     slug: new-microgrants-for-covid-19-media-work-in-emerging-economies
     topic:

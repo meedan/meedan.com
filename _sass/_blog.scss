@@ -270,6 +270,12 @@
     }
 }
 
+.story p.caption {
+    font-family: 'IBM Plex Mono', monospace;;
+    font-size: 1rem;
+    margin-top: calc(-1 * var(--space-1)) ;
+}
+
 .story .translations {
     padding-left: var(--space-3);
     padding-right: var(--space-3);

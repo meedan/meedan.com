@@ -1,0 +1,15 @@
+{% for contributor in page.words_by.en-US %}
+    {% if forloop.first %}
+        <span>Words</span>
+    {% endif %}
+    {% if contributor.size == 1 %}
+        {{ contributor.name.en-US }} 
+    {% endif %}
+    {% if contributor.size >= 1 %}
+        {% if forloop.last %}
+            {{ contributor.name.en-US | append: "" }} 
+        {% else %}
+            {{ contributor.name.en-US | append: ", " }} 
+        {% endif %}
+    {% endif %}
+{% endfor %}

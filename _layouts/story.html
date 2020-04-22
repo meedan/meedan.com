@@ -23,7 +23,7 @@ lang: en-US
             <div class="story-footer small-hr section-margin">
                 {% if page.words_by %}
                     <div class="story-footer-item">
-                        <span>Words</span> {% for contributor in page.words_by.en-US %}{{ contributor.name.en-US }}{% endfor %}
+                        {% include words_by.html %}
                     </div>
                 {% endif %}
                 <div class="story-footer-item">
