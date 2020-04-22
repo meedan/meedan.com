@@ -3,11 +3,174 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-16 22:39:14.525000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-22 19:24:10.655000000 Z
     content_type_id: moduleStories
-    revision: 10
+    revision: 12
   title: Blog
   stories:
+  - sys:
+      id: 79gxasZZCgB4sjOH6fieWw
+      created_at: !ruby/object:DateTime 2020-04-21 18:37:49.956000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-22 22:31:22.783000000 Z
+      content_type_id: story
+      revision: 0
+    title: 'Image and claim matching for fact-checkers: A report from #TechAndCheck
+      2020'
+    slug: tech-and-check-2020
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+    lead_image:
+      sys:
+        id: iZVHgnNsD1orKY58wPyWw
+        created_at: !ruby/object:DateTime 2020-04-22 21:22:04.875000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-22 21:22:17.981000000 Z
+      title: Meedan tech and check
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/iZVHgnNsD1orKY58wPyWw/2e463c4eeecf8d074dd02f551d2d50c3/Meedan_tech_and_check.png"
+    body: "We were thrilled to hear that the focus of Tech & Check this year would
+      be on projects matching speakers’ claims with previously published fact-checks
+      and other related text and image matching efforts in service of fact-checking.
+      Just as we didn’t anticipate that our main technical focus would be the subject
+      of this year’s gathering, we didn’t suspect that our respective planned travel
+      from the UK and Brazil for this year’s Tech & Check would be replaced with an
+      opening night mixer via Zoom due to the restrictions imposed by the COVID-19
+      crisis around the world. Regardless of the global pandemic, on April 3rd, journalists,
+      engineers, computer scientists and other professionals met virtually to watch
+      a few demos and discuss claim matching in the context of fact-checking.\n \n![Caio
+      Almeida and Scott Hale presenting for an all-remote Tech & Check 2020](//images.ctfassets.net/g118h5yoccvd/2HMcWIk2C9ffzEvqowdg0v/888b838e1e57540066a464f7145441bd/tech-check-2020-caio-and-scott.png)\n<p
+      class=\"caption\">Caio Almeida and Scott Hale presenting for an all-remote Tech
+      & Check 2020</p>\n\n\nLast year at [Tech & Check](https://dewitt.sanford.duke.edu/tech-check-cooperative-2019/),
+      we presented [Check Message](https://meedan.com/check), an integration between
+      Check (Meedan’s open source platform for collaborative fact-checking) and the
+      [WhatsApp Business API](https://www.whatsapp.com/business/api), as a tool to
+      deal with misinformation in closed message applications at scale. Just a few
+      days after our presentation, the technology went live with [Checkpoint](https://www.checkpoint.pro.to/),
+      an effort to monitor, verify, and conduct research on WhatsApp misinformation
+      during the 2019 Indian Election led by Delhi-based media research and training
+      organization [PROTO](https://www.pro.to/) and commissioned and technically assisted
+      by WhatsApp. Check Message allows media partners to operate tip lines to which
+      people can forward possibly misleading, miscontextualised, or false information
+      they see to the partner for fact-checking. During the Indian Elections, PROTO
+      received over 100,000 submissions from the public.\n\n![Caio Almeida presenting
+      at Tech & Check 2019 in Duke University. Image via the DeWitt Wallace Center
+      for Media and Democracy, and photo by Colin Huth.](//images.ctfassets.net/g118h5yoccvd/4B2OKx6sL10bVZHj87I38t/8fa9949bd64c66abb7b5793850542770/Tech___Check_2019.jpg)\n<p
+      class=\"caption\">Caio Almeida presenting at <a href=\"https://dewitt.sanford.duke.edu/tech-check-cooperative-2019/\">Tech
+      & Check 2019</a> in Duke University. Image via the DeWitt Wallace Center for
+      Media and Democracy, and photo by Colin Huth.</p>\n\n\nMany of those submissions
+      were similar to other submissions, but at that time we just had the technology
+      implemented to match identical submissions—text or images—so, many submissions
+      that were similar but not identical had to be manually marked as such, which
+      was uselessly costly. In order to optimize that process, we started to work
+      on tools that could suggest similar items automatically to our users.\n \nWe
+      were honored to be one of five organizations that demonstrated their work in
+      this area. In our case, we demonstrated our current claim and image matching
+      tools for fact-checkers, which integrate with our open-source software, Check.
+      We developed an [open-source architecture](https://github.com/meedan/alegre)
+      to use ElasticSearch to efficiently search language volumes of text items by
+      their vector representations in near real-time and integrated this into Check.
+      For Checkpoint, we used pre trained word vectors, but the architecture we developed
+      is not specific to these choices and can easily be adapted to other vector-representation
+      models and languages. We are now using the [Multilingual Universal Sentence
+      Encoder](https://arxiv.org/abs/1907.04307), and are working to develop additional
+      approaches to support even more of many languages our partners across the world
+      use. For images, we are using perceptual hashing and evaluating newer approaches
+      including [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq).\n
+      \n![Architectural diagram of Check’s open source claim similarity framework](//images.ctfassets.net/g118h5yoccvd/gOQBQqGPrtCPCbFHRm1Wy/710c99128eb87060be2846b0af5a8718/check-similarity-bot.png)\n<p
+      class=\"caption\">Architectural diagram of Check’s <a href=\"https://github.com/meedan/check\">open
+      source</a> claim similarity framework</p>\n\n \nFor both images and text, Check
+      users are able to define a set of similarity rules, which can relate items to
+      be verified based on how similar they are. The user defines that minimum similarity
+      threshold, which is a number between 0% and 100%, and if our image and text
+      matching tool returns a similarity value equal or higher than that threshold,
+      two items are related automatically. The idea is that we are able to optimize
+      the fact-checking process by group similar items together rather than working
+      on them separately. This also helps our partners better understand what content
+      is most submitted to their tip lines. The video below demonstrates those features.\n\n<p
+      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/zTbTQGhPpu0\"
+      frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p class=\"caption\">Video-demonstration
+      of Check similarity tools, presented at Tech & Check 2020</p>\n\n\nThis was
+      part of the discussion that followed the demos. In the afternoon, people interested
+      and working on claim matching discussed the problem types we have ahead of us,
+      and came up with three main branches: \n \nThe first one was obviously __claim
+      matching and semantic text similarity__: the matching of a novel claim with
+      previously checked claims to determine if there is a substantially similar previous
+      claim. Potential solutions that were proposed include, for example, named entity
+      overlap, vector representations, comparing with knowledge bases; categorization
+      of previously made claims and comparison to a novel claim; and combinations
+      of multiple approaches. \n \nThe second problem type was __human matching__.
+      Pure computational fact checking is prone to mismatches, sometimes funny, sometimes
+      truly detrimental. Where and how can human editors, crowdsourcing and other
+      forms of human intervention be used to assist and mediate this system? One proposal
+      for that is to have an editor as a final step in an otherwise computational
+      pipeline. At Meedan, we’re trying to develop efficient human-in-the-loop approaches
+      where we can finetune and improve our computational tools based on the standard
+      actions users take while using Check. Every time users remove an automated match
+      or add a manually match we gain valuable insights into the types of things that
+      should and shouldn’t match. Over time, we want to use this data to evaluate
+      new approaches and improve the existing approaches. In other words, we see the
+      system more as a circle than a pipeline: our algorithms make suggestions and
+      learn from users’ actions. \n \nThe third problem type we discussed was __image
+      matching__, and we discussed solutions like different image hashing algorithms,
+      object retrieval, object identification and information extraction from images.\n
+      \nWe are excited to keep working on those problems and to contribute with the
+      Tech & Check community, and we can’t wait to share more interesting insights
+      and findings next year at Tech & Check."
+    words_by:
+    - sys:
+        id: 1LO43iZQgk754PxET3q581
+    - sys:
+        id: 2DcM4qE9xRzIVHYT6noOsA
+  - sys:
+      id: 41GLyQNVl8aDIgM9wGi2NP
+      created_at: !ruby/object:DateTime 2020-04-15 00:35:05.420000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-20 23:09:07.497000000 Z
+      content_type_id: story
+      revision: 4
+    title: Meedan Supports the Open COVID Pledge
+    slug: meedan-supports-the-open-covid-pledge
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 1UqLqkAtXcrgTEJBpCtXwD
+        created_at: !ruby/object:DateTime 2020-04-20 21:53:13.899000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-20 22:03:20.435000000 Z
+      title: Meedan COVID Pledge
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1UqLqkAtXcrgTEJBpCtXwD/a5785c3b3cedea7b10c7cc8ee61f516d/Meedan_COVID_Pledge.png"
+    body: "With the rapid spread of COVID-19 and its effects on global societies,
+      [misinformation is spreading around the world](https://www.npr.org/sections/coronavirus-live-updates/2020/04/14/834287961/u-n-chief-targets-dangerous-epidemic-of-misinformation-on-coronavirus),
+      causing confusion, panic and [real-world physical harm](https://www.independent.co.uk/news/world/middle-east/iran-coronavirus-methanol-drink-cure-deaths-fake-a9429956.html).
+      Meedan is committed to making certain our toolkit and the code upon which it’s
+      built can be utilized in service of addressing the challenges of trust, information
+      quality and critical research.\n\n“This is a time for science and solidarity,\"
+      explained U.N. Secretary-General António Guterres [in a recent speech](https://twitter.com/antonioguterres/status/1250095790959267841)
+      establishing a new UN Communications Response Initiative. \"Yet the global 'misinfo-demic'
+      is spreading…. Harmful health advice and snake-oil solutions are proliferating.
+      Wild conspiracy theories are infecting the Internet. Hatred is going viral,
+      stigmatizing and vilifying people and groups.\"\n\nThe [Open COVID Pledge](https://opencovidpledge.org/pledge/)
+      calls on organizations around the world to make their patents and copyrights
+      freely available in the fight against the COVID-19 pandemic. The Pledge was
+      developed by the Open COVID Coalition, an international group of scientists
+      and lawyers seeking to accelerate the rapid development and deployment of diagnostics,
+      vaccines, therapeutics, medical equipment and software solutions in this urgent
+      public health crisis. \n\nMeedan thanks the organizers of the Open COVID Pledge
+      and is proud to join this effort, recognizing the value that the exchange of
+      technology and ideas can bring to our work. All our code is made available under
+      an [MIT open source license](https://github.com/meedan/check/blob/develop/LICENSE.txt),
+      including [Check](https://github.com/meedan/check), our collaborative media
+      annotation software; [Check Mark](https://github.com/meedan/check-mark), a cross-platform
+      bookmarking extension; and tools and extensions for [text/media analysis, URL
+      parsing](https://github.com/meedan/pender), archiving and rendering, and [claim
+      and image matching](https://github.com/meedan/alegre), amongst other features.\n\nWe
+      are also happy to support organizations working in the public interest with
+      free access to our toolkit. If you are interested in using our tools, please
+      contact us at <a href=\"hello@meedan.com\">hello@meedan.com</a>.\n\nWe invite
+      others working on information trust and equity on the internet to join us in
+      supporting this initiative."
+    alt_date: !ruby/object:DateTime 2020-04-20 00:00:00.000000000 Z
   - sys:
       id: 38X6lHkUvHetZVWZRMY4rI
       created_at: !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
@@ -145,9 +308,9 @@ moduleStories:
   - sys:
       id: 34QofKm9PbO6WiXJtwsuUe
       created_at: !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-17 13:51:56.107000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-21 17:23:09.705000000 Z
       content_type_id: story
-      revision: 4
+      revision: 7
     title: New Microgrants for COVID-19 Media Work in Emerging Economies
     slug: new-microgrants-for-covid-19-media-work-in-emerging-economies
     topic:
@@ -220,153 +383,3 @@ moduleStories:
       focuses on improving the quality and equity of online information. We do this
       by building software and designing human-powered initiatives for newsrooms,
       NGOs and academic institutions."
-  - sys:
-      id: 1luEBzpLpQe39y8unAkBsS
-      created_at: !ruby/object:DateTime 2020-03-31 00:03:55.514000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-06 17:23:02.131000000 Z
-      content_type_id: story
-      revision: 7
-    title: We’re building a database of expert-sourced COVID-19 information for fact-checkers
-    slug: database-of-expert-sourced-covid-19-information-for-fact-checkers
-    topic:
-    - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
-    lead_image:
-      sys:
-        id: BFv04cYmlzazIO8In6HIC
-        created_at: !ruby/object:DateTime 2020-03-31 01:05:16.367000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-31 01:05:41.770000000 Z
-      title: Meedan covid-19 database
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/BFv04cYmlzazIO8In6HIC/ebc81119f6ddc371e9d5c1747c6c2c3b/Meedan_covid-19_database.png"
-    body: "Global fact-checking organizations and pandemic communicators are fielding
-      massive amounts of complex information requests about COVID-19. Meedan's Digital
-      Health Lab is announcing the development of an emergency response resource to
-      support pandemic fact-checking efforts. \n\nThrough our network of public health
-      researchers, epidemiologists and infectious disease specialists, we are developing
-      a database of information related to COVID-19 that is contextualized, populated
-      and regularly updated by public health experts, including epidemiologists and
-      infectious disease researchers. This resource can be used as source material
-      for journalists and fact-checkers who are working to verify and contextualize
-      pandemic-related information. \n\nLimited access to public health experts can
-      present a bottleneck for fact-checkers and journalists, especially during emergencies,
-      when demand for those experts is high. Over the last six years, first at the
-      Harvard School of Public Health and now at Meedan's Digital Health Lab, I have
-      been researching how health information inequity and digital health misinformation
-      can impact the spread and burden of disease, as well as the communication gaps
-      that can exacerbate those issues. In December 2019, we [published a report](https://health.meedan.com/primer.pdf)
-      on how responsible health fact-checking requires a unique standard of care.
-      \n\nIt is increasingly clear, and is demonstrated through the COVID-19 pandemic,
-      that two twin challenges need support:\n\n1) Fact-checking organizations, journalists
-      and other communicators are working tirelessly to answer questions about complex
-      health situations and disease distribution, and to explain medical research
-      and epidemiological findings\n\n2) Public health practitioners and infectious
-      disease researchers struggle to urgently communicate their expertise effectively
-      to a wide, general audience \n\nThis resource of aggregated expert-sourced information
-      is designed to complement fact-checking database efforts, like Poynter’s excellent
-      CoronaVirusFacts/DatosCoronavirus Alliance, First Draft’s Reporter Hub resources,
-      and Google’s Fact Check Explorer. Where these databases focus on the first challenge
-      — helping fact-checkers and journalists do their jobs more effectively — the
-      second challenge needs more critical support. Meedan’s Digital Health Lab is
-      supplying important health expert perspectives on key COVID-19 issues. We plan
-      to utilize ClaimReview and MediaReview to make sure the content we generate
-      can be shared readily amongst others. \n\nWe are also integrating this database
-      into fact-checking bot workflows that many of our partners are already using
-      to source questions from the public, adding an option for wider audiences to
-      either access existing resources relevant to COVID-19, or to submit their queries
-      to be fact-checked. This added option of reaching local fact-checking organizations
-      directly, and providing localized responses, complements the incredibly valuable
-      initiatives being developed by the World Health Organization, and various health
-      ministries around the world, working together to strengthen access to quality
-      information through the pandemic. \n\nWith support from the Google News Initiative,
-      Twitter, Facebook, Omidyar Network, the Swedish International Development Agency
-      and the Robert Wood Johnson Foundation, we have designed an initiative centered
-      around six pillars of work: \n \n__Data:__ During breaking news, limited access
-      to experts can create bottlenecks. This resource can scale fact-checkers’ abilities
-      to access reliable sources for urgent expertise by providing content that is
-      populated and regularly updated by experts. Through a growing list of publicly
-      sourced questions and expert-sourced answers, this resource can also help intergovernmental
-      health organizations understand the greatest and most urgent communication needs
-      during the pandemic. \n\n__Network:__ Meedan has assembled a distributed global
-      network of epidemiologists and global public health experts to build and maintain
-      the database. To streamline the process of ‘expert-seeking,’ which fact-checkers
-      and communicators regularly go through, we developed a triage system that organizes
-      COVID-19 questions into several groups, based on:\n\n- Potential for impacting
-      public health outcomes\n- Timeliness and/or urgency\n- Area of health expertise
-      required to respond appropriately \n\n__Impact Assessment:__ As we continue
-      to collaborate on projects that address emerging threats with new technologies
-      and evolving workflows, we are committed to centralizing research in impact
-      assessment, monitoring and evaluation into the earliest parts of project design.
-      In addition to our team of public health and user researchers, we are fortunate
-      to be working with experts in monitoring and evaluation from Birmingham City
-      University, as well as the Behavioural Insights Team, to better understand the
-      behavioral impact of our response efforts, and to drive project workflows, database
-      priorities and content design. We are prioritizing a localized and feminist
-      COVID-19 response effort.  \n\n__Communications:__ It is key for this initiative
-      \ to bridge research and practice, and for insights to be actionable for communicators.
-      We are developing templates for packaged, verified content that can be included
-      in outputs sent from fact-checkers to their audiences. The packages are grounded
-      in behavior science and our efforts to develop health-specific standards of
-      care for communications, and include best practices for addressing health information
-      response challenges, such as competing expert perspectives, consistency, and
-      transparency in the ever-changing information ecosystem of pandemics. \n\n__Technology:__
-      We are prioritizing pathways for disseminating contents of the database across
-      languages to fact-checkers and pandemic communicators around the world. We are
-      also integrating into Meedan’s open source verification and fact-checking workspace
-      software, Check, in order to make its expert-reviewed contents available to
-      the public. Through Check, we are creating an interface for users to design
-      custom multilingual bots for disseminating their fact-checked content, connecting
-      users to closed messaging networks including Facebook Messenger, Twitter Direct
-      Message, and WhatsApp. End users will then be able to access a subset of relevant
-      resources, selected by each fact-checking organization individually, via a simple
-      query system, and will be presented with short lists of up-to-date content that
-      matches their query.  \n \n__Research:__ Through this project, we are examining
-      the nature and scope of COVID-19 questions across languages and geographies,
-      exploring patterns of similar themes of misinformation, and translating findings
-      into useful insights for public health communicators. In addition, as a group
-      that works closely with partners in emerging economies, Meedan is closely following
-      the impact of the pandemic on migrants, women, people living in densely populated
-      urban areas and underserved communities that don't have access to public health
-      care systems. Our team members in different regions are tracking the impact
-      of lockdowns on democracies, civil rights and violence against women, and insights
-      will inform database priorities.\n\nAs we’re learning each day, information
-      and misinformation about the COVID-19 pandemic are spreading in online ecosystems
-      as rapidly as the virus itself is spreading around the world. During this historic
-      time, the public has a wide range of time-sensitive and critical questions about
-      everything from new travel restrictions to evolving infectious disease research.
-      Fact-checking organizations are working tirelessly to answer questions about
-      complex health information, medical research and epidemiological findings, while
-      public health practitioners and infectious disease researchers struggle to urgently
-      communicate their expertise to a wide general audience. The result of this problem
-      set is public confusion, strained resources and often poor health outcomes,
-      as low-quality online health information exacerbates the real-world spread of
-      disease. Through this initiative, it is our hope to alleviate pressure on fact-checking
-      organizations with limited resources and provide a needed audience to health
-      experts. \n\n\nThis project builds off of years of research, including research
-      on addressing health misinformation at MIT’s Center for Civic Media and the
-      Berkman Klein Center for Internet and Society, inspired by working with Dr.
-      Brittany Seymour, a brilliant researcher and mentor whose early work shaped
-      much of today’s health misinformation discourse, and through the founding of
-      Meedan’s Digital Health Lab in 2018, a public health research unit with a goal
-      of promoting health equity through digital initiatives. \n\nOver the last six
-      years, these ideas have been developed, workshopped, and shared in late-night
-      dinners and graduate school study sessions punctuated by ‘what-ifs’ and impromptu
-      brainstorming, in sessions at SwitchPoint, the International Journalism Festival,
-      the Digital Health @ Harvard series, RightsCon, MisinfoCon, and the Google News
-      Initiative Summits, in fellows hours at the Berkman Klein Center, in ethics,
-      mixed methods, and human rights lectures, and in conversations between friends
-      and colleagues, hopeful in our ability to create something important together.
-      I am immensely grateful to Meedan’s partners for showing us where we can make
-      the most of our work together, and to all of our supporters as we further develop
-      this intersection.\n\nThis COVID-19 response effort would not be possible without
-      the partnership and collaboration of Dr. Christin Gilmer, Graphika, the Behavioural
-      Insights Team, Birmingham City University, students and researchers from the
-      Harvard School of Public Health and the Johns Hopkins School of Public Health,
-      and our network of public health specialists. \n\nAs we continue to build this
-      initiative, we are keen to learn and collaborate. We’re grateful for the opportunity
-      to contribute to the challenging and essential work that fact-checkers and communicators
-      are doing to address this pandemic, and the accompanying misinfodemic. Please
-      reach out at health@meedan.com to talk more.\n"
-    words_by:
-    - sys:
-        id: 4JqOrlVgCscDebeRwxYBu8

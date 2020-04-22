@@ -130,7 +130,8 @@
     ol,
     h2,
     h3,
-    h4 {
+    h4,
+    .u-responsive-ratio {
         color: var(--blackInk);
         @include responsive('min-width: #{$width-tablet}') {
             grid-column: 2/12;
@@ -268,6 +269,12 @@
             width: 20rem;
         }
     }
+}
+
+.story p.caption {
+    font-family: 'IBM Plex Mono', monospace;;
+    font-size: 1rem;
+    margin-top: calc(-1 * var(--space-1)) ;
 }
 
 .story .translations {
