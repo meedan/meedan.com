@@ -11,7 +11,7 @@ moduleStories:
   - sys:
       id: 79gxasZZCgB4sjOH6fieWw
       created_at: !ruby/object:DateTime 2020-04-21 18:37:49.956000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-22 20:57:42.559000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-22 22:31:22.783000000 Z
       content_type_id: story
       revision: 0
     title: 'Image and claim matching for fact-checkers: A report from #TechAndCheck
@@ -20,6 +20,14 @@ moduleStories:
     topic:
     - sys:
         id: 3YteOu0dCPeNZKQlFMQNwF
+    lead_image:
+      sys:
+        id: iZVHgnNsD1orKY58wPyWw
+        created_at: !ruby/object:DateTime 2020-04-22 21:22:04.875000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-22 21:22:17.981000000 Z
+      title: Meedan tech and check
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/iZVHgnNsD1orKY58wPyWw/2e463c4eeecf8d074dd02f551d2d50c3/Meedan_tech_and_check.png"
     body: "We were thrilled to hear that the focus of Tech & Check this year would
       be on projects matching speakers’ claims with previously published fact-checks
       and other related text and image matching efforts in service of fact-checking.
@@ -78,10 +86,9 @@ moduleStories:
       two items are related automatically. The idea is that we are able to optimize
       the fact-checking process by group similar items together rather than working
       on them separately. This also helps our partners better understand what content
-      is most submitted to their tip lines. The video below demonstrates those features.\n
-      \n<a href=\"https://www.youtube.com/watch?v=zTbTQGhPpu0\" class=\"embedly-card\"
-      data-card-width=\"100%\" data-card-controls=\"0\">Video-demonstration of Check
-      similarity tools, presented at Tech & Check 2020</a>\n<p class=\"caption\">Video-demonstration
+      is most submitted to their tip lines. The video below demonstrates those features.\n\n<p
+      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/zTbTQGhPpu0\"
+      frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p class=\"caption\">Video-demonstration
       of Check similarity tools, presented at Tech & Check 2020</p>\n\n\nThis was
       part of the discussion that followed the demos. In the afternoon, people interested
       and working on claim matching discussed the problem types we have ahead of us,

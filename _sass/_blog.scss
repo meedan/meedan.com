@@ -130,7 +130,8 @@
     ol,
     h2,
     h3,
-    h4 {
+    h4,
+    .u-responsive-ratio {
         color: var(--blackInk);
         @include responsive('min-width: #{$width-tablet}') {
             grid-column: 2/12;
