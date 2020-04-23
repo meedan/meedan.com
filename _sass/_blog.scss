@@ -110,10 +110,6 @@
     padding-right: 0;
 }
 
-.story figcaption {
-    font-size: var(--scale-0);
-}
-
 .story-wrapper {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
@@ -271,10 +267,14 @@
     }
 }
 
-.story p.caption {
-    font-family: 'IBM Plex Mono', monospace;;
+.story p.caption,
+.story figcaption {
     font-size: 1rem;
     margin-top: calc(-1 * var(--space-1)) ;
+}
+
+.story figcaption {
+    text-align: center;
 }
 
 .story .translations {
