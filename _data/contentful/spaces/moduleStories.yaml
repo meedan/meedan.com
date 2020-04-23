@@ -3,17 +3,17 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-22 19:24:10.655000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-22 22:48:56.286000000 Z
     content_type_id: moduleStories
-    revision: 12
+    revision: 13
   title: Blog
   stories:
   - sys:
       id: 79gxasZZCgB4sjOH6fieWw
       created_at: !ruby/object:DateTime 2020-04-21 18:37:49.956000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-22 22:31:22.783000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-23 19:23:45.473000000 Z
       content_type_id: story
-      revision: 0
+      revision: 1
     title: 'Image and claim matching for fact-checkers: A report from #TechAndCheck
       2020'
     slug: tech-and-check-2020
@@ -22,12 +22,14 @@ moduleStories:
         id: 3YteOu0dCPeNZKQlFMQNwF
     lead_image:
       sys:
-        id: iZVHgnNsD1orKY58wPyWw
-        created_at: !ruby/object:DateTime 2020-04-22 21:22:04.875000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-22 21:22:17.981000000 Z
-      title: Meedan tech and check
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/iZVHgnNsD1orKY58wPyWw/2e463c4eeecf8d074dd02f551d2d50c3/Meedan_tech_and_check.png"
+        id: ISxiQxZEig4Rc8jslr0PY
+        created_at: !ruby/object:DateTime 2020-04-23 19:21:58.961000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-23 19:23:38.585000000 Z
+      title: Caio Almeida and Scott Hale presenting for an all-remote Tech & Check
+        2020
+      description: Caio Almeida and Scott Hale presenting for an all-remote Tech &
+        Check 2020
+      url: "//images.ctfassets.net/g118h5yoccvd/ISxiQxZEig4Rc8jslr0PY/efcaedb56fd8ae7a2ce12d06da5253f6/Meedan_tech_and_check.jpg"
     body: "We were thrilled to hear that the focus of Tech & Check this year would
       be on projects matching speakers’ claims with previously published fact-checks
       and other related text and image matching efforts in service of fact-checking.
@@ -37,10 +39,8 @@ moduleStories:
       opening night mixer via Zoom due to the restrictions imposed by the COVID-19
       crisis around the world. Regardless of the global pandemic, on April 3rd, journalists,
       engineers, computer scientists and other professionals met virtually to watch
-      a few demos and discuss claim matching in the context of fact-checking.\n \n![Caio
-      Almeida and Scott Hale presenting for an all-remote Tech & Check 2020](//images.ctfassets.net/g118h5yoccvd/2HMcWIk2C9ffzEvqowdg0v/888b838e1e57540066a464f7145441bd/tech-check-2020-caio-and-scott.png)\n<p
-      class=\"caption\">Caio Almeida and Scott Hale presenting for an all-remote Tech
-      & Check 2020</p>\n\n\nLast year at [Tech & Check](https://dewitt.sanford.duke.edu/tech-check-cooperative-2019/),
+      a few demos and discuss claim matching in the context of fact-checking.\n\nLast
+      year at [Tech & Check](https://dewitt.sanford.duke.edu/tech-check-cooperative-2019/),
       we presented [Check Message](https://meedan.com/check), an integration between
       Check (Meedan’s open source platform for collaborative fact-checking) and the
       [WhatsApp Business API](https://www.whatsapp.com/business/api), as a tool to
@@ -54,7 +54,7 @@ moduleStories:
       they see to the partner for fact-checking. During the Indian Elections, PROTO
       received over 100,000 submissions from the public.\n\n![Caio Almeida presenting
       at Tech & Check 2019 in Duke University. Image via the DeWitt Wallace Center
-      for Media and Democracy, and photo by Colin Huth.](//images.ctfassets.net/g118h5yoccvd/4B2OKx6sL10bVZHj87I38t/8fa9949bd64c66abb7b5793850542770/Tech___Check_2019.jpg)\n<p
+      for Media and Democracy, and photo by Colin Huth.](//images.ctfassets.net/g118h5yoccvd/4B2OKx6sL10bVZHj87I38t/8d09acce21eec3d68322d26242b64dd7/Tech___Check_2019.jpg)\n<p
       class=\"caption\">Caio Almeida presenting at <a href=\"https://dewitt.sanford.duke.edu/tech-check-cooperative-2019/\">Tech
       & Check 2019</a> in Duke University. Image via the DeWitt Wallace Center for
       Media and Democracy, and photo by Colin Huth.</p>\n\n\nMany of those submissions
@@ -305,81 +305,3 @@ moduleStories:
       that meet the needs of network members and provide opportunities to respond
       to global issues. \n\n__To join the network, please write to us at <a href=\"mailto:checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
       with a statement of interest.__"
-  - sys:
-      id: 34QofKm9PbO6WiXJtwsuUe
-      created_at: !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-21 17:23:09.705000000 Z
-      content_type_id: story
-      revision: 7
-    title: New Microgrants for COVID-19 Media Work in Emerging Economies
-    slug: new-microgrants-for-covid-19-media-work-in-emerging-economies
-    topic:
-    - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
-    lead_image:
-      sys:
-        id: 2O80ER32L22S8aFaV3jkOa
-        created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
-      title: meedan check-global-micro-grants
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
-    body: "As the World Health Organization (WHO) announced the [COVID-19 outbreak
-      as a pandemic](https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020)
-      and a global health crisis, health misinformation and rumors have multiplied
-      across platforms, thus undermining efforts for producing reliable and factual
-      information around the virus. This is particularly challenging for civil society
-      organisations and grassroots collectives who are still struggling to make sense
-      of, and to counter the effects of, the outbreak on their own local contexts.
-      \n\nIn an attempt to support independent media, fact-checkers, citizen journalists,
-      activists, and technology and digital literacy enthusiasts in their efforts
-      to cover the outbreak, Meedan's Check Global program is launching the COVID-19
-      Microgrants, specifically aimed at groups working within the context of emerging
-      economies (North Africa/West Asia, Africa, Latin America, Asia-Pacific region).
-      \n\nThe grants are aimed at supporting fact-checking and verification projects,
-      local watchdog initiatives, documentation of the local reality under quarantine,
-      media/digital literacy campaigns, [tracking the impact of lockdowns on democracies](https://carnegieendowment.org/2020/04/06/how-will-coronavirus-reshape-democracy-and-governance-globally-pub-81470),
-      and examining [digital surveillance](https://www.eff.org/issues/covid-19) and
-      [surveillance capitalism](https://www.amnesty.org/en/latest/news/2020/04/covid-19-surveillance-threat-to-your-rights/),
-      civil rights, and [violence against women related to COVID-19](https://news.un.org/en/story/2020/04/1061132).
-      We encourage applicants to be creative in their proposals. We  are keen to support
-      the production of different kinds of outputs, including podcasts, videos, documentaries,
-      written pieces, campaigns, toolkits, digital archives, and blogging. We are
-      also looking to support proposals that are not only focused on covering misinformation
-      about the pandemic, but also looking at people's lives and experiences under
-      quarantine.\n\nWe are accepting proposals in English, Arabic, French, Spanish
-      and Portuguese at the moment. Applications will be considered on a rolling basis.
-      \n\n- Individuals can apply for up to $500 \n- Organizations can apply for up
-      to $2000\n- Collaborative projects can apply for up to $2500 \n\n### Application
-      process\n\n1. Applicants should fill out an [online form](https://forms.gle/BL9wbZwJZqq8DWtE7)
-      detailing their proposal \n2. The fund advisory board meets weekly to review
-      all applications\n3. Successful applicants are then notified within a period
-      of 5 to 10 days from submission\n\n\n### Selection criteria\n\n- __Originality
-      & significance:__ The quality of the written application. What are the challenges
-      it suggests to address? What is its geographic area / focus?\n- __Achievability:__
-      Will the applicant be able to deliver on the promises made in the application?
-      Is the work plan realistic within the suggested timeline? Does the fieldwork
-      represent any ethical or health and safety issues that need to be taken into
-      consideration? \n- __Impact & Dissemination:__ Does the application identify
-      a relevant audience for the work? How does the work set out to transform perception
-      on COVID-19? Is the application clear in terms of why this work is important
-      now? Projects that serve local and underserved communities, women, gender non-binary
-      individuals, vulnerable people and rural populations will be prioritized.\n-
-      __Rigour:__ Do you adhere to a fact-checking methodology? How will the applicant
-      check their sources as accurate? Are the resources used for your media literacy
-      campaign reliable?\n\nPlease be advised, if you haven’t heard from us within
-      3 weeks of your application, this means it was not successful. Unfortunately
-      we are not able to respond to each unsuccessful applicant due to the numbers
-      of applications we receive.\n\nAccepted applicants will publish their projects
-      on their own platforms and will be referenced on the Check Global page. They
-      will later be highlighted on our blog at the end of this funding cycle. \n\n__[Apply
-      Here](https://forms.gle/BL9wbZwJZqq8DWtE7)__\n\nPlease send all questions to
-      <a href=\"mailto:checkgrants@meedan.com\">checkgrants@meedan.com</a>. We support
-      encrypted e-mails.\n\n__Check Global__ is an initiative  from Meedan that supports
-      and facilitates journalism and human rights work, including research, in developing
-      countries. We provide software, training, and support to a group of independent
-      media organizations, journalism schools, and human rights researchers in Latin
-      America, East Africa and the NAWA region. \n\n__Meedan__ is a non-profit that
-      focuses on improving the quality and equity of online information. We do this
-      by building software and designing human-powered initiatives for newsrooms,
-      NGOs and academic institutions."
