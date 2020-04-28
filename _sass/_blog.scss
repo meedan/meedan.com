@@ -166,7 +166,7 @@
         font-family: 'Times New Roman', 'Times', serif;
     }
     strong {
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: $font-stack-mono;
     }
 }
 
@@ -218,7 +218,7 @@
     text-transform: uppercase;
     margin-top: var(--space-2);
     margin-bottom: var(--space-1);
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: $font-stack-mono;
 }
 
 .story-footer {

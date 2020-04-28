@@ -1,0 +1,34 @@
+{% capture current_date %}{{ site.time | convert_to_date }}{% endcapture %}
+{% assign events = site.data.contentful.spaces.events.event 
+    | where_exp: "item","item.event_end_date_string >= current_date"
+    | sort: 'event_date_string' 
+%}
+<section class="module module-calendar section-margin">
+    <h3 class="section-title">Calendar</h3>
+    <div class="module-wrapper">
+        {% for event in events %}
+            <a href="/events/{{ event.slug }}" class="event-item event-item-{{ forloop.index }}">
+                <div class="date">
+                    <span class="month">{{ event.event_date | date: '%B' }}</span>
+                    <span class="day">{{ event.event_date | date: '%d' }}</span>
+                </div>
+                {% if forloop.first %}
+                    {% for image in event.images %}
+                        <picture class="image-container">
+                            <img src="{{ image.url }}" alt="{{ image.title }}"/>
+                        </picture>
+                    {% endfor %}
+                {% endif %}
+                <div class="details">
+                    <div class="event-title">
+                        {{ event.title }}
+                    </div>
+                    <div class="event-meta">
+                        <span>{{ event.event_date | date: '%I.%M%P %Z' }}</span>
+                        <span>{{ event.location_human_friendly }}</span>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>

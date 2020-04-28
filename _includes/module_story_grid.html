@@ -1,7 +1,7 @@
-{% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse %}
+{% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse  %}
 <section class="module module-story-grid grid-template-columns--2 section-margin">
     <div class="module-wrapper">
-        {% for story in stories %}
+        {% for story in stories | limit: 4 %}
         <div class="story-grid-item">
             <div class="title-container">
                 <a class="tag" href="/blog/{{ story.slug }}">

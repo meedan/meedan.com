@@ -3,17 +3,88 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-22 22:48:56.286000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-27 22:52:08.838000000 Z
     content_type_id: moduleStories
-    revision: 13
+    revision: 14
   title: Blog
   stories:
   - sys:
-      id: 79gxasZZCgB4sjOH6fieWw
-      created_at: !ruby/object:DateTime 2020-04-21 18:37:49.956000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-23 19:23:45.473000000 Z
+      id: 2MSLNFcnMme8mRj5QrGgdr
+      created_at: !ruby/object:DateTime 2020-04-24 17:20:00.021000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-27 22:40:28.197000000 Z
       content_type_id: story
       revision: 1
+    title: 'Introducing Check Bot: A Customizable COVID-19 WhatsApp Bot for Fact-Checkers'
+    slug: covid-19-whatsapp-bot-for-fact-checkers
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+    lead_image:
+      sys:
+        id: 4udWfT2HEV5BGVZ9Zvoz2I
+        created_at: !ruby/object:DateTime 2020-04-27 21:46:44.714000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-27 22:40:21.889000000 Z
+      title: 'Check Bot: a fully customizable bot designed for fact-checkers and journalists
+        to run fact-checking tiplines on Whatsapp, Facebook messenger, Twitter DM,
+        and more'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4udWfT2HEV5BGVZ9Zvoz2I/c99ac411ba51ba6b256fe642458f3cd9/Bot-iphone.png"
+    body: "The bot, which also works on other social messaging platforms, is designed
+      to scale response through the COVID crisis and other topical content.\n\nMeedan
+      is pleased to roll out Check Bot: a fully customizable bot designed for fact-checkers
+      and journalists to run fact-checking tiplines on Whatsapp, Facebook messenger,
+      Twitter DM, and more. Now being tested in Brazil, India and across Africa with
+      COVID-19 content, our bot is an extension of [Check](https://meedan.com/check),
+      our collaborative platform for digital media verification and annotation, to
+      boost the work of human journalists through AI-powered claims matching, smart
+      menus, and the ability to source new content directly from users for fact-checking.\n\nIt
+      has the following key features:\n\n- A fully customizable interaction scenario
+      , allowing fact-checking teams to spin up interactive menus of frequently-requested
+      content to react to events rapidly  \n- Enables audience-submitted tips for
+      queries not answered by the bot\n- Ties directly to a team’s Check database,
+      allowing them to send previously fact-checked reports\n\nFor our partner organizations,
+      the bot is an essential communication channel to engage their audience, size
+      the demand for specific topics, and distribute key information in close messaging
+      networks. Through building this relations, it is also the  opportunity to develop
+      interactive monitoring and evaluation surveys with end-users to assess behavioural
+      impacts of fact-checks.\n\n![phone bot](//images.ctfassets.net/g118h5yoccvd/417goq4WmR29NxllRAvdDX/11677981cda6d5de9658ddfc6dc2dc9b/phone_bot.gif)\n<p
+      class=\"caption\">Check Bot: a fully customizable bot designed for fact-checkers
+      and journalists to run fact-checking tiplines on Whatsapp, Facebook messenger,
+      Twitter DM, and more.</p>\n\nWhen designing this bot, we worked with our fact-checking
+      partners to ensure the following principles were met:\n\n- __Audience development:__
+      Fact-checking teams have spent years cultivating trust with their audiences,
+      and we wanted to make sure the bot supports this work. Teams can customize every
+      interaction and content  that represents their unique voice. They can  continue
+      to receive fact-check requests through the same tipline and communicate with
+      their audiences directly.\n- __Ready for scale:__ We are testing the bot with
+      teams that receive thousands of messages per week. The bot is designed to handle
+      requests of many thousands more, automating frequently-requested content while
+      overall improving the quality of tipline content submissions.\n- __Local content,
+      local languages:__ This bot can provide more detailed content coverage for local
+      audiences that complements the work of global health organizations and national
+      health ministries. Fact-checking organizations can create custom resource responses
+      for their end users that are context or language-specific, directly meeting
+      a target population’s health information needs. Thanks to our partnership with
+      the [Localization Lab](https://www.localizationlab.org/), we can also localize
+      the content and interface to relevant languages.\n\nRight now, we’re testing
+      this bot with COVID-19 content and localized COVID-19 resources. Per our ongoing
+      commitments to open source and the [Open COVID Pledge](https://meedan.com/blog/meedan-supports-the-open-covid-pledge/),
+      it is also open source. The goal is to link this up with [Meedan’s COVID-19
+      Expert Database](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/),
+      developed by our [Digital Health Lab](https://health.meedan.com/). This database
+      contains contextualized health information developed and vetted by public health
+      experts that can be used as source material in fact-checks, removing some of
+      the challenges of accessing verified expert content  \n\nThe bot can be fully
+      adapted for any kind of content, addressing audience queries related to  politics,
+      science and breaking news events. We are planning to add more messaging services
+      such as Lime, Telegram, Viber, Instagram and many more. \n\nInterested in a
+      demo? Get in touch at <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>.\n"
+  - sys:
+      id: 79gxasZZCgB4sjOH6fieWw
+      created_at: !ruby/object:DateTime 2020-04-21 18:37:49.956000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-24 03:06:37.771000000 Z
+      content_type_id: story
+      revision: 3
     title: 'Image and claim matching for fact-checkers: A report from #TechAndCheck
       2020'
     slug: tech-and-check-2020
@@ -24,12 +95,12 @@ moduleStories:
       sys:
         id: ISxiQxZEig4Rc8jslr0PY
         created_at: !ruby/object:DateTime 2020-04-23 19:21:58.961000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-23 19:23:38.585000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-23 19:57:39.265000000 Z
       title: Caio Almeida and Scott Hale presenting for an all-remote Tech & Check
         2020
       description: Caio Almeida and Scott Hale presenting for an all-remote Tech &
         Check 2020
-      url: "//images.ctfassets.net/g118h5yoccvd/ISxiQxZEig4Rc8jslr0PY/efcaedb56fd8ae7a2ce12d06da5253f6/Meedan_tech_and_check.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/ISxiQxZEig4Rc8jslr0PY/e4ecf60b56cb60d0c3d1872f7ec8f075/Meedan_tech_and_check-3.jpg"
     body: "We were thrilled to hear that the focus of Tech & Check this year would
       be on projects matching speakers’ claims with previously published fact-checks
       and other related text and image matching efforts in service of fact-checking.
@@ -87,7 +158,7 @@ moduleStories:
       the fact-checking process by group similar items together rather than working
       on them separately. This also helps our partners better understand what content
       is most submitted to their tip lines. The video below demonstrates those features.\n\n<p
-      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/zTbTQGhPpu0\"
+      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/zTbTQGhPpu0?rel=0\"
       frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p class=\"caption\">Video-demonstration
       of Check similarity tools, presented at Tech & Check 2020</p>\n\n\nThis was
       part of the discussion that followed the demos. In the afternoon, people interested
@@ -256,52 +327,3 @@ moduleStories:
     words_by:
     - sys:
         id: 3jh6Rz03KzuYCvSNyk4TfF
-  - sys:
-      id: 59dIvkPLtpn4GOL6VANKIk
-      created_at: !ruby/object:DateTime 2020-04-15 06:16:26.174000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-15 19:36:18.260000000 Z
-      content_type_id: story
-      revision: 1
-    title: Join the Check Global Network for media and tech in emerging economies
-    slug: join-the-check-global-network-for-media-and-tech-in-emerging-economies
-    topic:
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 6QAQjHOU88GlkH8iSL2oz8
-        created_at: !ruby/object:DateTime 2020-04-15 19:12:37.736000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-15 19:19:26.219000000 Z
-      title: Meedan check global network
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6QAQjHOU88GlkH8iSL2oz8/275ac507daa7c3f5ceaeb1b299416ae5/Meedan_check_global_network.png"
-    body: "Meedan is excited to announce a new wave of recruitment for the Check Global
-      Network. This is Meedan’s community that brings together non-profits and collectives
-      working in the area of independent media and information and communication technologies
-      (ICTs) in the emerging economies of Asia-Pacific (APAC), East Africa, Latin
-      America (LATAM), and the North Africa Western Asia region (NAWA). \n\nWe aim
-      to provide a platform that strengthens and facilitates the work of organizations
-      committed to promoting the development of people that have faced historic and
-      systemic barriers in entering the fields of media and technology.\n\nOur most
-      impactful partnerships are currently with women-led organizations and feminist
-      networks using media to promote feminist leadership and rights in emerging economies
-      of the Global South. The Check Global Network is now expanding to new areas
-      and new partners. As part of this phase of expansion, we are actively seeking
-      partnerships with groups that embed feminist values and concepts of social justice
-      into organizational practices. \n\nThe Check Global Network is a community for
-      sharing, learning and reflection. The network activities will be led by Meedan.
-      In this process we will draw upon skills of Meedan team members, the network
-      members themselves as well as those of other partners and institutions that
-      we have worked with in different regions over the last decade. \n\nThe main
-      activities of the network will focus on capacity building of members on journalism,
-      fact-checking and organizational development, providing them access to digital
-      tools and the opportunity to be part of a growing impactful community. \n\n__Forums
-      for engagement__: \n- We’ll invite Check Global Network members to participate
-      in virtual and in person learning events that we organise. \n- We will recommend
-      members for conferences, fellowships, internships, training programs and other
-      structured learning opportunities.\n- Meedan’s weekly newsletter, [The Checklist](https://us11.campaign-archive.com/home/?u=539fbe59ddc773c6592797bf2&id=8fa4ab9399),
-      will feature the work of network members and will provide them regular updates
-      on misinformation. \n- Meedan will design collaborative and time-bound projects
-      that meet the needs of network members and provide opportunities to respond
-      to global issues. \n\n__To join the network, please write to us at <a href=\"mailto:checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
-      with a statement of interest.__"
