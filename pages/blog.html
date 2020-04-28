@@ -5,7 +5,16 @@ class: blog
 permalink: blog
 lang: en-US
 ---
-{% include module_story_grid.html trail="true" link="/blog/all" count="4" %}
+{% include module_story_grid.html 
+    link="/blog/all" 
+    count="4" 
+%}
 {% include module_calendar.html title="Calendar" %}
+{% include module_story_list.html 
+    title="More stories" 
+    count="5" 
+    trail="true" 
+    link="/blog/all" 
+%}
 {% include module_checklist.html %}
 {% include footer_small.html theme="dark" %}
