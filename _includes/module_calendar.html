@@ -4,7 +4,13 @@
     | sort: 'event_date_string' 
 %}
 <section class="module module-calendar section-margin">
-    <h3 class="section-title" id="calendar">Calendar</h3>
+    {% if include.title %}
+    <h3 class="section-title" id="calendar">
+        <a href="/calendar">
+            {{ include.title }}
+        </a>
+    </h3>
+    {% endif %}
     <div class="module-wrapper">
         {% for event in events %}
             <a href="/events/{{ event.slug }}" class="event-item event-item-{{ forloop.index }}">

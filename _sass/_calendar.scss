@@ -3,7 +3,8 @@
     padding-right: var(--space-3);
 }
 
-.module-calendar .section-title {
+.section-title {
+    a { font-size: var(--scale-3); }
     padding-bottom: var(--space-2);
     border-bottom: 1px solid var(--blackInk);
     text-align: center;
