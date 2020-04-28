@@ -11,9 +11,9 @@ moduleStories:
   - sys:
       id: 2MSLNFcnMme8mRj5QrGgdr
       created_at: !ruby/object:DateTime 2020-04-24 17:20:00.021000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-27 22:40:28.197000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-28 17:52:10.829000000 Z
       content_type_id: story
-      revision: 1
+      revision: 2
     title: 'Introducing Check Bot: A Customizable COVID-19 WhatsApp Bot for Fact-Checkers'
     slug: covid-19-whatsapp-bot-for-fact-checkers
     topic:
@@ -69,13 +69,13 @@ moduleStories:
       the content and interface to relevant languages.\n\nRight now, we’re testing
       this bot with COVID-19 content and localized COVID-19 resources. Per our ongoing
       commitments to open source and the [Open COVID Pledge](https://meedan.com/blog/meedan-supports-the-open-covid-pledge/),
-      it is also open source. The goal is to link this up with [Meedan’s COVID-19
-      Expert Database](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/),
+      it is also [open source](https://github.com/meedan/check). The goal is to link
+      this up with [Meedan’s COVID-19 Expert Database](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/),
       developed by our [Digital Health Lab](https://health.meedan.com/). This database
       contains contextualized health information developed and vetted by public health
       experts that can be used as source material in fact-checks, removing some of
       the challenges of accessing verified expert content  \n\nThe bot can be fully
-      adapted for any kind of content, addressing audience queries related to  politics,
+      adapted for any kind of content, addressing audience queries related to politics,
       science and breaking news events. We are planning to add more messaging services
       such as Lime, Telegram, Viber, Instagram and many more. \n\nInterested in a
       demo? Get in touch at <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>.\n"
