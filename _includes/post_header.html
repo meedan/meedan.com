@@ -37,10 +37,14 @@
             <span class="title">{{ title }}</span>
         </div>
     {% elsif page.sys.content_type_id == 'event' %}
+        {% capture current_date %}{{ site.time | convert_to_date }}{% endcapture %}
         <div class="title-container main-grid__1--1">
             <span class="title">{{ title }}</span>
             <div class="event-meta">
-                <span>{{ page.event_date | date: '%I.%M%P %Z' }}</span>
+                <span>{% include event_date.html %}</span>
+                {% if page.event_end_date_string >= current_date %}
+                    <span>Past event</span>
+                {% endif %}
                 <span>{{ page.location_human_friendly }}</span>
             </div>
         </div>

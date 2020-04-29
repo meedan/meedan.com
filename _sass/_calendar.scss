@@ -6,7 +6,7 @@
 .module-calendar .section-title {
     a { font-size: var(--scale-3); }
     padding-bottom: var(--space-2);
-    margin-bottom: 0;
+    margin-bottom: var(--space-2);
     border-bottom: 1px solid var(--blackInk);
     text-align: center;
 }
@@ -18,7 +18,9 @@
     @include responsive('min-width: #{$width-tablet}') {
         grid-template-columns: repeat(3, 1fr);
     }
-    padding-top: var(--space-2);
+    &:not(:first-child) {
+        padding-top: var(--space-2);
+    }
     padding-bottom: var(--space-4);
     &:not(:last-child) {
         border-bottom: 1px solid var(--blackInk);
@@ -26,7 +28,7 @@
     
     &.event-item-1 {
         @include responsive('min-width: #{$width-tablet}') {
-            grid-template-rows: 3fr 1fr;
+            grid-template-rows: auto 1fr;
         }
     }
 
@@ -48,7 +50,6 @@
     &.event-item-1 .details {
         grid-row: 2/3;
     }
-
     
 }
 
@@ -68,4 +69,8 @@
     }
     padding-left: var(--space-3);
     padding-right: var(--space-3);
+}
+
+.module-past-events {
+    opacity: 0.5;
 }

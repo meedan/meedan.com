@@ -10,6 +10,9 @@ github_username:  meedan
 # Build settings
 markdown: kramdown
 
+# Timezone
+timezone: America/Vancouver
+
 plugins:
   - jekyll-seo-tag
 

@@ -1,0 +1,35 @@
+{% if event %}
+	{% assign e = event %}
+{% else %}
+	{% assign e = page %}
+{% endif %}
+
+{% assign start_date = e.event_date | date: '%B %d %Y' %}
+{% assign end_date = e.event_end_date | date: '%B %d %Y' %}
+
+{% assign start_date_month = e.event_date | date: '%B %Y' %}
+{% assign end_date_month = e.event_end_date | date: '%B %Y' %}
+
+<!-- If event is single day event with same start and end date -->
+{% if start_date == end_date %}
+<!-- {{ e.event_date | date: '%A %B %d %Y, %I.%M%p'  }} – {{ e.event_end_date | date: '%I.%M%p'  }}	 -->
+{% include date.html date=e.event_date %}
+{{ hour }}.{{ min }}{{ ampm }} –
+{% include date.html date=e.event_end_date %}
+{{ hour }}.{{ min }}{{ ampm }} {{ timezone }}
+
+{% else %}
+
+<!-- If event is multi-day event with different start and end date -->
+<!-- {{ e.event_date | date: '%A %B %d %Y, %I.%M%p'  }} – {{ e.event_end_date | date: '%A %B %d %Y, %I.%M%p'  }} -->
+{% include date.html date=e.event_date %}
+{{ wd }} {{ day }} {{ month }} {{ year }} –  
+{% include date.html date=e.event_end_date %}
+
+{% include date.html date=e.event_date %}
+{{ hour }}.{{ min }}{{ ampm }} – 
+{% include date.html date=e.event_end_date %}
+{{ hour }}.{{ min }}{{ ampm }} {{ timezone }}
+
+{% endif %}
+
