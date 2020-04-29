@@ -6,14 +6,18 @@
 .module-calendar .section-title {
     a { font-size: var(--scale-3); }
     padding-bottom: var(--space-2);
+    margin-bottom: 0;
     border-bottom: 1px solid var(--blackInk);
     text-align: center;
 }
 
 .event-item {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 3fr;
     grid-gap: var(--space-2);
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-template-columns: repeat(3, 1fr);
+    }
     padding-top: var(--space-2);
     padding-bottom: var(--space-4);
     &:not(:last-child) {
@@ -21,7 +25,9 @@
     }
     
     &.event-item-1 {
-        grid-template-rows: 3fr 1fr;
+        @include responsive('min-width: #{$width-tablet}') {
+            grid-template-rows: 3fr 1fr;
+        }
     }
 
     .month {
