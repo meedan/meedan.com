@@ -3,7 +3,7 @@ project:
 - sys:
     id: ZrRI71jL8H3THqYYM98j8
     created_at: !ruby/object:DateTime 2020-02-06 20:33:55.642000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-06 01:31:11.203000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-30 22:03:15.062000000 Z
     content_type_id: project
     revision: 5
   title: Check Global
@@ -15,26 +15,62 @@ project:
     title: Check Global
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/6NUsv6oRkYob4fiImP6S2W/096be2ca061cf06f4322410b2d593ba0/project-check-global.png"
-  short_description: 'Check Global is an initiative that supports journalism and human
+  short_description: Check Global is an initiative that supports journalism and human
     rights research in the developing world. We provide software, training and support
     to an international group of independent media organizations, journalism schools
-    and human rights researchers.  '
-  summary: Provides tools, training and support to an international network of independent
-    media organizations, journalism schools and human rights researchers in the developing
-    world.
-  intro: "- We collaborate with our partners to help them deal with the nuanced challenges
-    of media ecosystems that are decentralized, global, and real-time. \n- We focus
-    our tools and trainings on digital media literacy, fact-checking, disinformation-monitoring
-    and verification of online journalism\n"
+    and human rights researchers.
+  summary: Check Global is a program primarily run by Meedan in partnership with Birmingham
+    City University, with funding from Swedish International Development Agency (Sida).
+    The project aims to improve digital literacy, community-building and political
+    engagement skills for citizen journalists, activists, journalism students, civil
+    society organisations and human rights defenders, thus strengthening their role
+    as investigators and contributors to the public sphere.
+  intro: "We provide training, develop software, run programming, and conduct research
+    with a global network of independent media and human rights organizations, fact-checking
+    initiatives and journalism schools in Latin America, East Africa, Asia-Pacific
+    (APAC) and the North Africa/West Asia (NAWA) region.\n\nWe are committed to strengthening
+    the capacities of our partners to use media and technology to:\n\n- Counter the
+    rise of misinformation and disinformation\n- Provide credible information and
+    address inequalities in access to information \n- Develop media literacy skills
+    so they, and the communities they work with, are better equipped to hold public
+    figures to account\n"
   slug: check-global
   sections:
   - sys:
-      id: 3KKLPp1gaZFn8DA2991hai
-      created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 22:24:34.062000000 Z
+      id: 3zpdrjZeBGOlkTvFrchEYa
+      created_at: !ruby/object:DateTime 2020-04-30 19:57:35.775000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 20:03:27.477000000 Z
       content_type_id: section
       revision: 0
-    title: Pillars of activity
+    title: What We Do
+    cover_graphic:
+      sys:
+        id: GGLO5FEfU9GspSHMy8RYj
+        created_at: !ruby/object:DateTime 2020-03-02 22:25:38.905000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:51:29.430000000 Z
+      title: graphic introduction
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/GGLO5FEfU9GspSHMy8RYj/74fcfab7704c21bc1c10df7900330812/graphic_introduction.png"
+    background_color: "#262626"
+    section_class: introduction
+    modules:
+    - sys:
+        id: 1cqeAIgr19kVkBT5QbZxy0
+    - sys:
+        id: 5We3ntoM1jzUyVyn1vHRk7
+    - sys:
+        id: 6mAQ6I7zlp8zTFOfdJRNGP
+    - sys:
+        id: V0GFjO8JqQ7GWhhd3O4bI
+    - sys:
+        id: G131BSJzfGF7m1buiMyH0
+  - sys:
+      id: 3KKLPp1gaZFn8DA2991hai
+      created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 22:12:23.378000000 Z
+      content_type_id: section
+      revision: 0
+    title: The Five Pillars of  Check Global
     cover_graphic:
       sys:
         id: 3PsNMd4GDKOI4Kg6A242yo
@@ -49,38 +85,29 @@ project:
     - sys:
         id: 7mjrsI2HIn9NjvAuChgfuM
     - sys:
+        id: 1i4LKxNS2Ha1LF0MGWwyzp
+    - sys:
+        id: 2WwahZAgEbVkxIOuQc9Oxq
+    - sys:
         id: 3gPNPngJyHbMKzJzTsUf6B
+    - sys:
+        id: 5mOfhdkjqmah8gnXxVxAe9
     - sys:
         id: 1x0YoYn3i7CiCnerRfcdOr
     - sys:
+        id: 5Xq0f0IkRYyLZpvNOstMRr
+    - sys:
         id: 30IO6Cc2Dlw6TwXEMDAWBe
+    - sys:
+        id: 1iH7GYfJYJVcTPWofrt1cK
+    - sys:
+        id: 63dXTMUG8Uh9LGQPs07J1V
+    - sys:
+        id: 7arDY41aBzRnduCpH2vJpc
     - sys:
         id: 4KUDgS2JKNuwtuhgb33HHB
     - sys:
-        id: 63dXTMUG8Uh9LGQPs07J1V
-  - sys:
-      id: 7nn4kZGYAPg6q4udylnqSE
-      created_at: !ruby/object:DateTime 2020-02-06 22:09:09.415000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 23:42:55.878000000 Z
-      content_type_id: section
-      revision: 0
-    title: Background
-    cover_graphic:
-      sys:
-        id: TikhWKrVq60OCqqcSga4w
-        created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
-        updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
-      title: graphic in-numbers
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
-    section_class: financials
-    modules:
-    - sys:
-        id: 3Wnd0h7kgIn4zpHlhcN972
-    - sys:
-        id: 6Aw0VWwGmDgeApiamjxq7T
-    - sys:
-        id: 46RNgfpLLoGCxCwHNTQlQx
+        id: 2CsSGl5GzJpKdc3H2DB6e5
   stories:
   - sys:
       id: m7aLQU2hG9LVRQc6LJqHz
