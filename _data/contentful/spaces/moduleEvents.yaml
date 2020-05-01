@@ -11,7 +11,7 @@ moduleEvents:
   - sys:
       id: 1oV79mgpeyZAwAyKO3yBxM
       created_at: !ruby/object:DateTime 2020-04-27 21:58:37.565000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-01 00:13:05.450000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:15:29.395000000 Z
       content_type_id: event
       revision: 0
     title: 'SPACE10 Session: Cooking Kimchi for the Immune System with Kala'
@@ -34,7 +34,10 @@ moduleEvents:
       url: "//images.ctfassets.net/g118h5yoccvd/HnDwj9g3I8UctmCmCFIcM/c6d7090e81428fa257da92a9fc7cade7/image.png"
     location_human_friendly: Online on Zoom
     register_link: https://space10.zoom.us/meeting/register/tJwkcO2oqzstGNX6gTmIaPfBiVzcv87YUADu
-    description: |+
+    description: On April 28, Kala Sung from Kala's Kimchi teaches us about the health
+      benefits of fermented foods and shares a recipe to make tasty, immune-boosting
+      kimchi at home.
+    long_description: |+
       In this SPACE10 Session, Kala Sung from Kala’s Kimchi teaches us about the health benefits of fermented foods and shares a recipe to make tasty, immune-boosting kimchi at home.
 
       ### This Week
@@ -79,7 +82,7 @@ moduleEvents:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/44x6V3hvJrSHedngXop6YR/e1b5bd20a29499f7cdf6abf4d85a25f0/edit_DSCF0702-2.jpg"
     location_human_friendly: Online on Zoom
-    description: "How should we navigate a period of rapid change and uncertainty?
+    long_description: "How should we navigate a period of rapid change and uncertainty?
       In this SPACE10 Session, science fiction writer Monica Byrne puts forward the
       case for using imagination to deal with current global issues.\n\n"
     slug: space10-session-the-age-of-emergency-with-monica-byrne

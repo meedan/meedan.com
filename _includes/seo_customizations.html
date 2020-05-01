@@ -43,8 +43,8 @@
     {% if page.words_by.en-US %}
         <meta name="twitter:label1" content="Written by">
         {% for contributor in page.words_by.en-US %}
-            <meta name="author" content="{{ contributor.name.en-US }}" />
             <meta name="twitter:data{{ forloop.index }}" content="{{ contributor.name.en-US }}">
+            <meta name="author" content="{{ contributor.name.en-US }}" />
         {% endfor %}
     {% endif %}
 {% elsif page.path contains 'events/' %}

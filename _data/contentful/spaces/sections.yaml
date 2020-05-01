@@ -1207,7 +1207,7 @@ section:
 - sys:
     id: 3KKLPp1gaZFn8DA2991hai
     created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-30 22:12:23.378000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-01 18:40:01.286000000 Z
     content_type_id: section
     revision: 0
   title: The Five Pillars of  Check Global
@@ -1225,39 +1225,10 @@ section:
   - sys:
       id: 7mjrsI2HIn9NjvAuChgfuM
       created_at: !ruby/object:DateTime 2020-02-06 22:11:31.953000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-30 20:08:58.933000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:40:03.811000000 Z
       content_type_id: moduleLeadText
       revision: 0
     content: Check Global is made up of five interconnected pillars of work and activity.
-  - sys:
-      id: 1i4LKxNS2Ha1LF0MGWwyzp
-      created_at: !ruby/object:DateTime 2020-04-30 22:11:37.963000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-30 22:12:15.243000000 Z
-      content_type_id: moduleImage
-      revision: 0
-    image:
-      sys:
-        id: 53m53YD8PtZN7I4pnYCYVo
-        created_at: !ruby/object:DateTime 2020-04-30 22:11:49.447000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-30 22:12:08.477000000 Z
-      title: Check global
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/53m53YD8PtZN7I4pnYCYVo/7d9e5b7a5f13bd95a8fb83b37851ed58/check_global.png"
-    lead_image: true
-  - sys:
-      id: 2WwahZAgEbVkxIOuQc9Oxq
-      created_at: !ruby/object:DateTime 2020-04-30 20:12:09.936000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-30 20:46:09.432000000 Z
-      content_type_id: moduleTex
-      revision: 0
-    content: 'Meedan has been working with a team of researchers from Birmingham City
-      University on the Check project since 2013. BCU manages and co-delivers a variety
-      of activities, with particular focus on the Network, Training, and Research
-      pillars. This includes developing open-access journalism training resources,
-      used during our numerous events and workshops, and producing academic outputs.
-      Additionally, BCU’s Monitoring & Evaluation Lab is based at Birmingham City
-      University, tasked with the significant Check Global role of impact evaluation
-      and reporting. '
   - sys:
       id: 3gPNPngJyHbMKzJzTsUf6B
       created_at: !ruby/object:DateTime 2020-02-06 20:37:25.617000000 Z
@@ -1272,10 +1243,10 @@ section:
   - sys:
       id: 5mOfhdkjqmah8gnXxVxAe9
       created_at: !ruby/object:DateTime 2020-04-30 21:01:48.939000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-30 21:03:21.762000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:25:18.587000000 Z
       content_type_id: moduleCards
       revision: 0
-    title: Our Partners
+    title: Technology Partners
     cards:
     - sys:
         id: A5J9FrJT8zNhoWXfxo8A4
@@ -2256,3 +2227,49 @@ section:
     - sys:
         id: 5GFBxaFrdwOXi4GnXYS1dO
     top_border: true
+- sys:
+    id: EqEniIFDbF8HASu0rKCJh
+    created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-01 18:43:33.356000000 Z
+    content_type_id: section
+    revision: 0
+  title: Who we are
+  cover_graphic:
+    sys:
+      id: TikhWKrVq60OCqqcSga4w
+      created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
+    title: graphic in-numbers
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+  section_class: financials
+  modules:
+  - sys:
+      id: 5bPjLADdiXEy7wgvf0SonW
+      created_at: !ruby/object:DateTime 2020-05-01 18:43:07.268000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:43:29.971000000 Z
+      content_type_id: moduleLeadText
+      revision: 0
+    content: "Meedan has been working with a team of researchers from Birmingham City
+      University on the Check project since 2013. BCU manages and co-delivers a variety
+      of activities, with particular focus on the Network, Training, and Research
+      pillars. \n\nThis includes developing open-access journalism training resources,
+      used during our numerous events and workshops, and producing academic outputs.
+      Additionally, BCU’s Monitoring & Evaluation Lab is based at Birmingham City
+      University, tasked with the significant Check Global role of impact evaluation
+      and reporting. \n"
+  - sys:
+      id: 1i4LKxNS2Ha1LF0MGWwyzp
+      created_at: !ruby/object:DateTime 2020-04-30 22:11:37.963000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 22:12:15.243000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    image:
+      sys:
+        id: 53m53YD8PtZN7I4pnYCYVo
+        created_at: !ruby/object:DateTime 2020-04-30 22:11:49.447000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-30 22:12:08.477000000 Z
+      title: Check global
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/53m53YD8PtZN7I4pnYCYVo/7d9e5b7a5f13bd95a8fb83b37851ed58/check_global.png"
+    lead_image: true

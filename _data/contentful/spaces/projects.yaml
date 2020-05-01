@@ -3,7 +3,7 @@ project:
 - sys:
     id: ZrRI71jL8H3THqYYM98j8
     created_at: !ruby/object:DateTime 2020-02-06 20:33:55.642000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-30 22:03:15.062000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-01 18:39:45.400000000 Z
     content_type_id: project
     revision: 5
   title: Check Global
@@ -65,9 +65,30 @@ project:
     - sys:
         id: G131BSJzfGF7m1buiMyH0
   - sys:
+      id: EqEniIFDbF8HASu0rKCJh
+      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:43:33.356000000 Z
+      content_type_id: section
+      revision: 0
+    title: Who we are
+    cover_graphic:
+      sys:
+        id: TikhWKrVq60OCqqcSga4w
+        created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
+      title: graphic in-numbers
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+    section_class: financials
+    modules:
+    - sys:
+        id: 5bPjLADdiXEy7wgvf0SonW
+    - sys:
+        id: 1i4LKxNS2Ha1LF0MGWwyzp
+  - sys:
       id: 3KKLPp1gaZFn8DA2991hai
       created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-30 22:12:23.378000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:40:01.286000000 Z
       content_type_id: section
       revision: 0
     title: The Five Pillars of  Check Global
@@ -84,10 +105,6 @@ project:
     modules:
     - sys:
         id: 7mjrsI2HIn9NjvAuChgfuM
-    - sys:
-        id: 1i4LKxNS2Ha1LF0MGWwyzp
-    - sys:
-        id: 2WwahZAgEbVkxIOuQc9Oxq
     - sys:
         id: 3gPNPngJyHbMKzJzTsUf6B
     - sys:

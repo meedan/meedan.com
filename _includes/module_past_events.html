@@ -2,6 +2,8 @@
 {% assign events = site.data.contentful.spaces.events.event 
     | where_exp: "item","item.event_end_date_string < current_date"
     | sort: 'event_date_string' 
+    | reverse
+
 %}
 {% if events.size != 0 %}
 <section class="module module-calendar module-past-events section-margin">
