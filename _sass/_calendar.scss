@@ -88,3 +88,27 @@
     margin-bottom: var(--space-2);
     font-size: var(--scale-1);
 }
+
+.event-item-featured {
+    @include responsive('max-width: #{$width-mobile}') {
+        grid-template-columns: 1fr;
+    }
+}
+
+.event-item-featured .details {
+    grid-column: 1/1;
+    @include responsive('min-width: #{$width-tablet}') {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .event-title-wrapper {
+        margin-top: var(--space-4);
+    }
+    .event-title {
+        font-size: var(--scale-2);
+    }
+    .event-meta span {
+        display: block;
+    }
+}

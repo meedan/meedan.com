@@ -9,27 +9,27 @@
     {% endif %}
     <div class="module-wrapper">
         {% for event in events[0].events | limit: 1 %}
-            <a href="/events/{{ event.slug }}" class="event-item event-item-featured }}">
-                <div class="date">
-                    <span class="month">{{ event.event_date | date: '%B' }}</span>
-                    <span class="day">{{ event.event_date | date: '%d' }}</span>
-                </div>
-                {% if forloop.first %}
-                    {% for image in event.images %}
-                        <picture class="image-container">
-                            <img src="{{ image.url }}" alt="{{ image.title }}"/>
-                        </picture>
-                    {% endfor %}
-                {% endif %}
+            <a href="/events/{{ event.slug }}" class="event-item event-item-featured">
                 <div class="details">
-                    <div class="event-title">
-                        {{ event.title }}
+                    <div class="date">
+                        <span class="month">{{ event.event_date | date: '%B' }}</span>
+                        <span class="day">{{ event.event_date | date: '%d' }}</span>
                     </div>
-                    <div class="event-meta">
-                        <span>{% include short_event_time.html %}</span>
-                        <span>{{ event.location_human_friendly }}</span>
+                    <div class="event-title-wrapper">
+                        <div class="event-title">
+                            {{ event.title }}
+                        </div>
+                        <div class="event-meta">
+                            <span>{% include short_event_time.html %}</span>
+                            <span>{{ event.location_human_friendly }}</span>
+                        </div>
                     </div>
                 </div>
+                {% for image in event.images %}
+                    <picture class="image-container">
+                        <img src="{{ image.url }}" alt="{{ image.title }}"/>
+                    </picture>
+                {% endfor %}
             </a>
         {% endfor %}
     </div>
