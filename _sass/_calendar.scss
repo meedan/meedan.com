@@ -78,3 +78,13 @@
 .module-past-events {
     opacity: 0.5;
 }
+
+.module-featured {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+}
+
+.module-featured  .section-title {
+    margin-bottom: var(--space-2);
+    font-size: var(--scale-1);
+}
