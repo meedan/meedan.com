@@ -42,8 +42,8 @@
             <span class="title">{{ title }}</span>
             <div class="event-meta">
                 <span>{% include event_date.html %}</span>
-                {% if page.event_end_date_string >= current_date %}
-                    <span>Past event</span>
+                {% if page.non_public %}
+                    <span>By invitation only</span>
                 {% endif %}
                 <span>{{ page.location_human_friendly }}</span>
             </div>

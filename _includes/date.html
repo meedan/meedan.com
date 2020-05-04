@@ -5,6 +5,8 @@
 {% capture min %}{{ include.date | date: "%M" }}{% endcapture %}
 {% assign z = include.date | date: "%z" %}
 {% case z %}
+    {% when '+0000' %}
+        {% capture timezone %}UTC{% endcapture %}
     {% when '-0700' %}
         {% capture timezone %}PT{% endcapture %}
     {% when '-0800' %}
@@ -21,6 +23,8 @@
 {% capture timezone %}{{ include.date | date: "%z" }}{% endcapture %}
 {% assign z = include.date | date: "%z" %}
 {% case z %}
+    {% when '+0000' %}
+        {% capture timezone %}UTC{% endcapture %}
     {% when '-0700' %}
         {% capture timezone %}PT{% endcapture %}
     {% when '-0800' %}

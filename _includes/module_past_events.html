@@ -27,6 +27,9 @@
                     </div>
                     <div class="event-meta">
                         <span>{% include short_event_time.html %}</span>
+                        {% if event.non_public %}
+                            <span>By invitation only</span>
+                        {% endif %}
                         <span>{{ event.location_human_friendly }}</span>
                     </div>
                 </div>
