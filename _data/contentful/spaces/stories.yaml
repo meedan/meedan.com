@@ -1266,7 +1266,7 @@ story:
 - sys:
     id: 34QofKm9PbO6WiXJtwsuUe
     created_at: &7 !ruby/object:DateTime 2020-04-07 11:21:12.607000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-21 17:23:09.705000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-04 22:05:54.538000000 Z
     content_type_id: story
     revision: 7
     space:
@@ -1363,6 +1363,33 @@ story:
     focuses on improving the quality and equity of online information. We do this
     by building software and designing human-powered initiatives for newsrooms, NGOs
     and academic institutions."
+  updates:
+    en-US: "### May 4 Update\n\nWe are thrilled by the volume of applications we received
+      for our Check Global COVID-19 Microgrants from around the globe. We are now
+      closing this round of funding, and hope to be able to launch a second round
+      in the next few months.\n\nWe will now be taking some time to review the hundreds
+      of amazing submissions we received, and will be sending acceptance emails to
+      selected projects as soon as possible.\n\nWe hope you’re all staying well and
+      safe. \n\n–Check Global Team"
+    ar: "### تحديث \n\nنحن سعداء بحجم الإهتمام والطلبات التي تلقيناها للحصول على منح
+      كوفيد-١٩ من تشيك جلوبال. نعلن انتهاء فترة تقديم الطلبات والمشروعات خلال هذه
+      الدورة التمويلية، ونتمني أن نطلق دورة جديدة في الشهور القادمة.\n\nنحن الآن بصدد
+      مراجعة مقترحاتكم/ن المتميزة وسوف نراسلكم ان تم الموافقة على تمويل مشروعاتكم/ن
+      \ في أقرب وقت ممكن.\n\nكونوا في صحة وسلامة\n4 مايو 2020 - فريق تشك جلوبال"
+    es: "### Cierre de convocatoria\nEstamos muy contentos con el volumen de propuestas
+      que recibimos de toda América Latina. Estamos finalizando esta convocatoria
+      de pequeños incentivos financieros y esperamos lanzar una segunda en los próximos
+      meses.\n\nNos tomaremos un tiempo para revisar las increíbles propuestas que
+      recibimos y responderemos a los proyectos seleccionados lo antes posible. \n\nAgradecemos
+      a todos los que presentaron propuestas y esperamos que todos estén bien y seguros.\n\n4
+      de mayo de 2020, Check Global Team"
+    pt: "### Encerramento de convocatória\nFicamos muito felizes com o volume de propostas
+      que recebemos de toda a América Latina e do mundo. Estamos encerrando esta rodada
+      de micro-bolsas e esperamos poder lançar uma segunda rodada nos próximos meses.\n\nNós
+      levaremos algum tempo para revisar as propostas incríveis que recebemos e iremos
+      responder os projetos selecionados o mais rápido possível via email. \n\nAgradecemos
+      a todos que enviaram propostas e esperamos que todos estejam bem e seguros.\n\n4
+      de Maio de 2020, Equipe Check Global"
   date: '2020-04-07'
   image: https://images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png
   title-ar: إطلاق منح صغيرة لدعم إنتاج المشروعات الإعلامية المستقلة حول فيروس كوفيد-19
@@ -2392,3 +2419,121 @@ story:
   title-en: 3 Things We Learned on “Designing Collaborations” from The Reboot's Masterclass
   alt_date: *13
   alt_date_string: '2020-04-28'
+- sys:
+    id: 7sGFJi7LUmGTrrls0c8WLM
+    created_at: !ruby/object:DateTime 2020-05-04 14:40:43.306000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-04 19:08:49.474000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meedan recognizes World Press Freedom Day
+  slug: meedan-recognizes-world-press-freedom-day
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 6kmCs85D8h4K4eW2EuJSA2
+        created_at: !ruby/object:DateTime 2020-05-04 18:53:27.835000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-04 19:08:28.620000000 Z
+      title: graphic wp1
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6kmCs85D8h4K4eW2EuJSA2/9f9f890047ed22bea8b1f590cd43dd83/graphic_wp1.png"
+    description: 
+    title: graphic wp1
+    url: "//images.ctfassets.net/g118h5yoccvd/6kmCs85D8h4K4eW2EuJSA2/9f9f890047ed22bea8b1f590cd43dd83/graphic_wp1.png"
+  body: "As global journalism grapples with the COVID-19 pandemic, a number of challenges
+    to press freedom remain. But the crisis also presents an opportunity to reimagine
+    media in a post COVID-19 world. In time with World Press Fredom Day, we are launching
+    our [Check Global Network](https://meedan.com/blog/join-the-check-global-network-for-media-and-tech-in-emerging-economies/).\n\nWith
+    our mission to support global journalism, Meedan cares deeply about press freedom
+    around the world. The COVID-19 pandemic has brought about challenges we’ve been
+    monitoring and writing about through our [Checklist](https://meedan.com/checklist)
+    newsletter. Some of the trends we’ve seen are deeply concerning:\n\n### Journalists
+    are on the frontlines of the pandemic\nJournalists have been on the frontlines
+    reporting the pandemic in different regions. Reporters have been going to hospitals
+    and other hotspots where the risk of exposure to the virus and infection is very
+    high. Several media outlets do not have or cannot provide proper personal protective
+    equipment (PPE) for their staff. According to the [Committee for the Protection
+    of Journalists (CPJ), there is risk of the pandemic impacting journalists’ physical
+    health and psychological well-being](https://cpj.org/blog/2020/04/qa-us-photographers-navigate-a-new-reality-under-c.php).
+    \ \n\n### Media jobs are facing historic losses\nThe COVID-19 pandemic has not
+    only exposed media workers to physical vulnerabilities, it has also decimated
+    an already battered media sector, with many companies reducing hours, holding
+    back salaries or simply sacking their media staff outright, according to the [South
+    Asia Press Freedom Report](https://samsn.ifj.org/wp-content/uploads/2020/05/States-of-Control-IFJ-SAPFR-2019-20.pdf).
+    Shrinking revenue from advertisements, serious disruptions in circulation of newspapers
+    and printed publications and a severe strain on limited revenues have resulted
+    in a job crisis where reporters and journalists across the world are [experiencing
+    pay cuts, reduced hiring and layoffs](https://www.poynter.org/business-work/2020/here-are-the-newsroom-layoffs-furloughs-and-closures-caused-by-the-coronavirus/).
+    \ \n\n### Democracies are undermining press freedom\n[Over the last two and a
+    half months, the International Press Institute’s (IPI) COVID-19 tracker has documented
+    a total of 162 different press freedom violations related to the coronavirus](https://ipi.media/covid19-media-freedom-monitoring/).
+    These range from verbal or physical attacks on journalists to arrests, restrictions
+    on access to information and media censorship. This has created a hostile and
+    challenging environment for independent media and press freedom. Several agencies
+    also note that the current pandemic has given states an opportunity to exercise
+    greater control over the media. IPI has also documented 16 cases of ‘fake news’
+    laws either being passed with disproportionate penalties or used to take down
+    content about the virus online. IPI notes that while some of these laws are sincere
+    but ill-conceived, others appear to deliberately strengthen authoritarian regimes’
+    arsenal against the press.\n \n### Local journalism is under threat\nDuring a
+    pandemic, people need timely, reliable and unbiased news on local conditions,
+    however, the absence of sustainable and robust business models and distribution
+    networks for local news is making that increasingly difficult. [These newsrooms
+    will have to make strategic shifts in their business models in order to survive
+    the pandemic](https://knightfoundation.org/articles/how-local-news-can-survive-and-thrive-during-the-pandemic/).
+    \n\n### Journalists grapple with misinformation during a pandemic\nIn times of
+    a global pandemic, access to accurate and unbiased information about the disease
+    becomes ever more important. It is critical for the media to share verified and
+    reliable information. However, the widespread use of social media and other platforms
+    to share unverified information, often without scientific proof, can be dangerous
+    and life threatening in the current situation. [UN chief António Guterres noted](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity)
+    that \"the global ‘misinfo-demic’ is spreading,\" using a word coined by Meedan
+    researchers.  [UNESCO is promoting two social media campaigns “to fight the infodemic
+    of rumours and disinformation”](https://unesdoc.unesco.org/ark:/48223/pf0000373354_eng.locale=en).
+    UNESCO has also created a COVID- 19 resource centre for media. This online platform
+    aims to help journalists track false information regarding the pandemic and report
+    on the crisis reliably and effectively, as encouraged by the theme of World Press
+    Freedom Day 2020, “journalism without fear or favour”.\n\nAt the same time, as
+    [Meedan board member Maria Ressa wrote recently](https://time.com/5820620/maria-ressa-coronavirus-democracy/),
+    “The mission of independent journalism has never been as important as it is today,
+    when decisions are being made without transparency. Now more than ever, facts
+    matter. Truth matters. Checks and balances matter.” It’s vital that those working
+    for media freedom around the world come together to re-envision what this can
+    look like.\n\nIn time with World Press Freedom Day, Meedan is thrilled to launch
+    our [Check Global Network](https://meedan.com/blog/join-the-check-global-network-for-media-and-tech-in-emerging-economies/).
+    The network is Meedan’s community that brings together non-profits and collectives
+    working in the area of independent media and information and communication technologies
+    (ICTs) in the emerging economies of Asia-Pacific (APAC), East Africa, Latin America
+    (LATAM), and the North Africa Western Asia region (NAWA).\n\nOur partners from
+    different regions will participate in the launch of the Check Global Network this
+    week. The network will provide its members access to opportunities and forums
+    for sharing, learning and reflection. The main activities will focus on capacity
+    building of members on journalism, fact-checking and organizational development,
+    providing them access to digital tools and the opportunity to be part of a growing
+    impactful community."
+  alt_date: !ruby/object:DateTime 2020-05-03 00:00:00.000000000 Z
+  date: '2020-05-04'
+  image: https://images.ctfassets.net/g118h5yoccvd/6kmCs85D8h4K4eW2EuJSA2/9f9f890047ed22bea8b1f590cd43dd83/graphic_wp1.png
+  title-en: Meedan recognizes World Press Freedom Day
+  alt_date_string: '2020-05-03'

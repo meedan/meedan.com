@@ -20,6 +20,11 @@ lang: ar
                 </figcaption>
             </figure>
             {% include translations.html %}
+            {% if page.updates.ar %}
+                <div class="story-updates section-margin">
+                    {{ page.updates.ar | markdownify }}
+                </div>
+            {% endif %}
             <div class="story-wrapper section-margin">
                 {{ page.body-ar | markdownify }}
             </div>

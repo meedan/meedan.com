@@ -16,6 +16,11 @@ lang: pt
                     {{ page.lead_image.description }}
                 </figcaption>
             </figure>
+            {% if page.updates.pt %}
+                <div class="story-updates section-margin">
+                    {{ page.updates.pt | markdownify }}
+                </div>
+            {% endif %}
             {% include translations.html %}
             <div class="story-wrapper section-margin">
                 {{ page.body-pt | markdownify }}

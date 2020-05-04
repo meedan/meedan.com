@@ -308,28 +308,6 @@
     }
 }
 
-// Adjustments for Arabic text 
-.ar header .title-container {
-    font-family: 'Tajawal', sans-serif;
-    direction: rtl;
-}
-
-.ar .story-wrapper {
-    font-family: 'Tajawal', sans-serif;
-    direction: rtl;
-    strong {
-        font-family: 'Tajawal', sans-serif;
-    }
-    ul,
-    ol {
-        margin-right: var(--space-4);
-        li {
-            padding-right: var(--space-1);
-            margin-bottom: var(--space-1);
-        }
-    }
-}
-
 // Story List
 
 .module-story-list {
@@ -371,4 +349,48 @@
     .trail {
         justify-content: center;
     }
+}
+
+.story .story-updates {
+    font-family: $font-stack-mono;
+    border: 1px solid var(--blackInk);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--space-2);
+    background-color: #fff;
+    * {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    p {
+        margin-bottom: var(--space-2);
+    }
+}
+
+// Adjustments for Arabic text 
+.ar header .title-container {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+
+.ar .story-wrapper {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    strong {
+        font-family: 'Tajawal', sans-serif;
+    }
+    ul,
+    ol {
+        margin-right: var(--space-4);
+        li {
+            padding-right: var(--space-1);
+            margin-bottom: var(--space-1);
+        }
+    }
+}
+
+.ar .story-updates {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
 }
