@@ -354,9 +354,13 @@
 .story .story-updates {
     font-family: $font-stack-mono;
     border: 1px solid var(--blackInk);
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: var(--scale-1);
+    margin-right: var(--scale-1);
+    @include responsive('min-width: #{$width-tablet}') {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     padding: var(--space-2);
     background-color: #fff;
     * {
