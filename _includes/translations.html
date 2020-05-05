@@ -8,6 +8,9 @@
             <li><a href="/blog/es/{{ page.slug }}">lee este post en español</a></li>
         {% endif %}
         {% if page.body-ar and page.lang != 'ar' %}
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+            </style>
             <li class="ar"><a href="/blog/ar/{{ page.slug }}">اقرأ هذا المنشور باللغة العربية</a></li>
         {% endif %}
         {% if page.body-pt and page.lang != 'pt' %}
