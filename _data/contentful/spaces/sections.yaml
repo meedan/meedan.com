@@ -1207,10 +1207,10 @@ section:
 - sys:
     id: 3KKLPp1gaZFn8DA2991hai
     created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-    updated_at: !ruby/object:DateTime 2020-02-06 22:24:34.062000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-01 18:40:01.286000000 Z
     content_type_id: section
     revision: 0
-  title: Pillars of activity
+  title: The Five Pillars of  Check Global
   cover_graphic:
     sys:
       id: 3PsNMd4GDKOI4Kg6A242yo
@@ -1225,10 +1225,10 @@ section:
   - sys:
       id: 7mjrsI2HIn9NjvAuChgfuM
       created_at: !ruby/object:DateTime 2020-02-06 22:11:31.953000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 22:11:38.597000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:40:03.811000000 Z
       content_type_id: moduleLeadText
       revision: 0
-    content: 'Our work on Check Global is designed around five pillars of activity:'
+    content: Check Global is made up of five interconnected pillars of work and activity.
   - sys:
       id: 3gPNPngJyHbMKzJzTsUf6B
       created_at: !ruby/object:DateTime 2020-02-06 20:37:25.617000000 Z
@@ -1241,6 +1241,18 @@ section:
         id: A3LMDFDS0ficdA562tlJz
     top_border: false
   - sys:
+      id: 5mOfhdkjqmah8gnXxVxAe9
+      created_at: !ruby/object:DateTime 2020-04-30 21:01:48.939000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:25:18.587000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Technology Partners
+    cards:
+    - sys:
+        id: A5J9FrJT8zNhoWXfxo8A4
+    - sys:
+        id: 1obMbvlyu9XvM4iNHbvXAg
+  - sys:
       id: 1x0YoYn3i7CiCnerRfcdOr
       created_at: !ruby/object:DateTime 2020-02-06 20:37:52.996000000 Z
       updated_at: !ruby/object:DateTime 2020-02-06 20:38:04.840000000 Z
@@ -1250,6 +1262,24 @@ section:
     content:
     - sys:
         id: 2ksxprcbEV18oJJ7b5BNj0
+  - sys:
+      id: 5Xq0f0IkRYyLZpvNOstMRr
+      created_at: !ruby/object:DateTime 2020-04-30 21:05:54.819000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:38:54.937000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Network Partners
+    cards:
+    - sys:
+        id: 6K4yx3zyjdowdEsijEdU8f
+    - sys:
+        id: 4qMKz1vHfUX8JRH3DgCm9y
+    - sys:
+        id: 4coLG6bNPMatZBOk7S479P
+    - sys:
+        id: 7isQwp6WvNuUai1ld2RnaA
+    - sys:
+        id: 4tATGPhbfAs94vcmbngXgT
   - sys:
       id: 30IO6Cc2Dlw6TwXEMDAWBe
       created_at: !ruby/object:DateTime 2020-02-06 20:38:39.072000000 Z
@@ -1261,15 +1291,21 @@ section:
     - sys:
         id: cUba7yZU4KkWQwan95Kiv
   - sys:
-      id: 4KUDgS2JKNuwtuhgb33HHB
-      created_at: !ruby/object:DateTime 2020-02-06 20:39:11.888000000 Z
-      updated_at: !ruby/object:DateTime 2020-02-06 20:39:16.568000000 Z
-      content_type_id: module2ColumnContent
+      id: 1iH7GYfJYJVcTPWofrt1cK
+      created_at: !ruby/object:DateTime 2020-04-30 21:42:30.518000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:45:59.330000000 Z
+      content_type_id: moduleCards
       revision: 0
-    title: Data
-    content:
+    title: Training Partners
+    cards:
     - sys:
-        id: 1p0yYpsK0s0eiyreVbfcGL
+        id: 4xNYQjvviZvGsqi8LrmIRO
+    - sys:
+        id: 6K4yx3zyjdowdEsijEdU8f
+    - sys:
+        id: 4qMKz1vHfUX8JRH3DgCm9y
+    - sys:
+        id: 4coLG6bNPMatZBOk7S479P
   - sys:
       id: 63dXTMUG8Uh9LGQPs07J1V
       created_at: !ruby/object:DateTime 2020-02-06 20:39:27.779000000 Z
@@ -1280,6 +1316,46 @@ section:
     content:
     - sys:
         id: 1IdHzLOBE0I3NoNzm7R7E9
+  - sys:
+      id: 7arDY41aBzRnduCpH2vJpc
+      created_at: !ruby/object:DateTime 2020-04-30 21:46:09.439000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:48:56.729000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Research Partners
+    cards:
+    - sys:
+        id: 6O0JVsdnWdztubuUDm45ws
+    - sys:
+        id: 58jV0uIVH0G48DqnWudetk
+  - sys:
+      id: 4KUDgS2JKNuwtuhgb33HHB
+      created_at: !ruby/object:DateTime 2020-02-06 20:39:11.888000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 20:39:16.568000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Data
+    content:
+    - sys:
+        id: 1p0yYpsK0s0eiyreVbfcGL
+  - sys:
+      id: 2CsSGl5GzJpKdc3H2DB6e5
+      created_at: !ruby/object:DateTime 2020-04-30 21:49:57.225000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:55:54.746000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Data Partners
+    cards:
+    - sys:
+        id: 2qdCx2UgYAQlv1XiwfM8p0
+    - sys:
+        id: 1BVFQTnmzIo1OuwdTJ9e0B
+    - sys:
+        id: 456kPFMPyKEcVu19c2V8AV
+    - sys:
+        id: 4ALOCfVG9WvZfAVwrwJgus
+    - sys:
+        id: 622F2h3ut7XMvz76ANLmAq
 - sys:
     id: 7nn4kZGYAPg6q4udylnqSE
     created_at: !ruby/object:DateTime 2020-02-06 22:09:09.415000000 Z
@@ -2081,3 +2157,119 @@ section:
     updated_at: !ruby/object:DateTime 2020-03-10 00:28:28.030000000 Z
     content_type_id: section
     revision: 0
+- sys:
+    id: 3zpdrjZeBGOlkTvFrchEYa
+    created_at: !ruby/object:DateTime 2020-04-30 19:57:35.775000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-30 20:03:27.477000000 Z
+    content_type_id: section
+    revision: 0
+  title: What We Do
+  cover_graphic:
+    sys:
+      id: GGLO5FEfU9GspSHMy8RYj
+      created_at: !ruby/object:DateTime 2020-03-02 22:25:38.905000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:51:29.430000000 Z
+    title: graphic introduction
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/GGLO5FEfU9GspSHMy8RYj/74fcfab7704c21bc1c10df7900330812/graphic_introduction.png"
+  background_color: "#262626"
+  section_class: introduction
+  modules:
+  - sys:
+      id: 1cqeAIgr19kVkBT5QbZxy0
+      created_at: !ruby/object:DateTime 2020-04-30 19:58:43.011000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 19:58:47.313000000 Z
+      content_type_id: moduleLeadText
+      revision: 0
+    content: 'We collaborate with non-profit organizations, collectives and individuals
+      on a range of activities, including:'
+  - sys:
+      id: 5We3ntoM1jzUyVyn1vHRk7
+      created_at: !ruby/object:DateTime 2020-04-30 20:02:05.849000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 20:02:39.526000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: creating
+    content:
+    - sys:
+        id: qENinvJS3XM8zIjJXNCWB
+    top_border: true
+  - sys:
+      id: 6mAQ6I7zlp8zTFOfdJRNGP
+      created_at: !ruby/object:DateTime 2020-04-30 20:02:43.450000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 20:02:56.030000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: fostering
+    content:
+    - sys:
+        id: 1ZGuJUzEwiiJkaqSO4jqZI
+    top_border: true
+  - sys:
+      id: V0GFjO8JqQ7GWhhd3O4bI
+      created_at: !ruby/object:DateTime 2020-04-30 20:03:09.638000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 20:03:22.842000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: training
+    content:
+    - sys:
+        id: 1nE9VAtYFlTs2Jq1L0GFnz
+    top_border: true
+  - sys:
+      id: G131BSJzfGF7m1buiMyH0
+      created_at: !ruby/object:DateTime 2020-04-30 20:03:26.962000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 20:03:42.791000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: producing and collaborating
+    content:
+    - sys:
+        id: 5GFBxaFrdwOXi4GnXYS1dO
+    top_border: true
+- sys:
+    id: EqEniIFDbF8HASu0rKCJh
+    created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-01 18:43:33.356000000 Z
+    content_type_id: section
+    revision: 0
+  title: Who we are
+  cover_graphic:
+    sys:
+      id: TikhWKrVq60OCqqcSga4w
+      created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
+    title: graphic in-numbers
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+  section_class: financials
+  modules:
+  - sys:
+      id: 5bPjLADdiXEy7wgvf0SonW
+      created_at: !ruby/object:DateTime 2020-05-01 18:43:07.268000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:43:29.971000000 Z
+      content_type_id: moduleLeadText
+      revision: 0
+    content: "Meedan has been working with a team of researchers from Birmingham City
+      University on the Check project since 2013. BCU manages and co-delivers a variety
+      of activities, with particular focus on the Network, Training, and Research
+      pillars. \n\nThis includes developing open-access journalism training resources,
+      used during our numerous events and workshops, and producing academic outputs.
+      Additionally, BCU’s Monitoring & Evaluation Lab is based at Birmingham City
+      University, tasked with the significant Check Global role of impact evaluation
+      and reporting. \n"
+  - sys:
+      id: 1i4LKxNS2Ha1LF0MGWwyzp
+      created_at: !ruby/object:DateTime 2020-04-30 22:11:37.963000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 22:12:15.243000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    image:
+      sys:
+        id: 53m53YD8PtZN7I4pnYCYVo
+        created_at: !ruby/object:DateTime 2020-04-30 22:11:49.447000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-30 22:12:08.477000000 Z
+      title: Check global
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/53m53YD8PtZN7I4pnYCYVo/7d9e5b7a5f13bd95a8fb83b37851ed58/check_global.png"
+    lead_image: true

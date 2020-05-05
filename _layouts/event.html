@@ -1,8 +1,8 @@
 ---
-lang: pt
+lang: en-US
 ---
 <!DOCTYPE html>
-<html dir="ltr" lang="pt">
+<html dir="ltr" lang="en-US">
 {% include head.html %}
 
 <body class="site story">
@@ -10,27 +10,23 @@ lang: pt
     <div class="page-wrapper">
         {% include post_header.html %}
         <section>
-            <figure class="graphic">
-                <img class="main-grid__2-11 justify-self--center lead_image" alt="{{ page.lead_image.title }}" src="{{ page.lead_image.url }}" />
-                <figcaption class="main-grid__2-11">
-                    {{ page.lead_image.description }}
-                </figcaption>
-            </figure>
-            {% if page.updates.pt %}
-                <div class="story-updates section-margin">
-                    {{ page.updates.pt | markdownify }}
-                </div>
-            {% endif %}
-            {% include translations.html %}
+            <div class="event-image-grid">
+            {% for image in page.images %}
+                <picture>
+                    <img src="{{ image.url }}" alt="{{ image.title }}"/>
+                </picture>
+            {% endfor %}
+            </div>
+            <div class="time">
+                {{ page.time | markdownify }}
+            </div>
             <div class="story-wrapper section-margin">
-                {{ page.body-pt | markdownify }}
+                {{ page.long_description | markdownify }}
+                {% if page.register_link %}
+                    <p><a class="button" href="{{ page.register_link }}">Attend</a></p>
+                {% endif %}
             </div>
             <div class="story-footer small-hr section-margin">
-                {% if page.words_by %}
-                    <div class="story-footer-item">
-                        {% include words_by.html %}
-                    </div>
-                {% endif %}
                 <div class="story-footer-item">
                     {% if page.alt_date %}
                         {% assign published_on = page.alt_date %}
@@ -40,7 +36,6 @@ lang: pt
                     <span>Published on</span> {{ published_on | date: "%-d %B %Y" }}
                 </div>
             </div>
-            {% include module_stories.html %}
             {% include module_checklist.html %}
             {% include footer_small.html theme="dark" %}
         </section>

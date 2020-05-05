@@ -2,6 +2,7 @@
 {% assign count = include.count | default: '' %}
 {% assign graphic = include.image %}
 {% assign description = include.description | default: '' %}
+{% assign tag = include.tag %}
 {% assign block_tag = include.block_tag | default: 'p' %}
 {% assign date = include.date | default: '' %}
 {% assign link = include.link | default: '' %}
@@ -17,6 +18,10 @@
     <div class="card-text">
         <h3 class="title">
             {{ title }}
+            <!-- Show tag -->
+            {% if tag != '' %}
+                <span>{{ tag }}</span>
+            {% endif %}
             <!-- Show date only when needed -->
             {% if date != '' %}
                 <span>{{ date }}</span>

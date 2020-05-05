@@ -17,6 +17,11 @@ lang: es
                 </figcaption>
             </figure>
             {% include translations.html %}
+            {% if page.updates.es %}
+                <div class="story-updates section-margin">
+                    {{ page.updates.es | markdownify }}
+                </div>
+            {% endif %}
             <div class="story-wrapper section-margin">
                 {{ page.body-es | markdownify }}
             </div>

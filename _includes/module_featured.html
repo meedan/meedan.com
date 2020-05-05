@@ -1,0 +1,36 @@
+<!-- Get list of handpicked events -->
+{% assign events = site.data.contentful.spaces.moduleEvents.moduleEvents 
+    | where_exp: "item","item.sys.id == '8cg57tenBbCxgUBQxJYss'"
+%}
+{% if events.size != 0 %}
+<section class="module module-featured section-margin">
+    {% if events[0].title %}
+    <h3 class="section-title">● <a href="/events" title="{{ events[0].title }}">{{ events[0].title }}</a></h3>
+    {% endif %}
+    <div class="module-wrapper">
+        {% for event in events[0].events | limit: 1 %}
+            <a href="/events/{{ event.slug }}" class="event-item event-item-featured">
+                <div class="details">
+                    <div class="date">
+                        <span class="month">{{ event.event_date | date: '%B' }}</span>
+                        <span class="day">{{ event.event_date | date: '%d' }}</span>
+                    </div>
+                    <div class="event-title-wrapper">
+                        <div class="event-title">
+                            {{ event.title }}
+                        </div>
+                        <div class="event-meta">
+                            <span>{{ event.location_human_friendly }}</span>
+                        </div>
+                    </div>
+                </div>
+                {% for image in event.images %}
+                    <picture class="image-container">
+                        <img src="{{ image.url }}" alt="{{ image.title }}"/>
+                    </picture>
+                {% endfor %}
+            </a>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
