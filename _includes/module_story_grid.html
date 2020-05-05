@@ -1,9 +1,7 @@
-{% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse  %}
-{% assign count = include.count %}
-{% assign columns = include.columns | default: '2' %}
-<section class="module module-story-grid grid-template-columns--{{ columns }} section-margin">
+{% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse %}
+<section class="module module-story-grid grid-template-columns--2 section-margin">
     <div class="module-wrapper">
-        {% for story in stories | limit: count %}
+        {% for story in stories %}
         <div class="story-grid-item">
             <div class="title-container">
                 <a class="tag" href="/blog/{{ story.slug }}">
@@ -21,7 +19,7 @@
             {% if forloop.last %}
                 {% if include.trail %}
                     <div class="trail-wrapper">
-                        <span class="trail"><hr /><a href="{% if include.link %}{{ include.link }}{% else %}/blog{% endif %}" class="button">View all stories</a></span>
+                        <span class="trail"><hr /><a href="/blog" class="button">View all stories</a></span>
                     </div>
                 {% endif %}
             {% endif %}

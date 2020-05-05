@@ -5,6 +5,9 @@ lang: ar
 
 <html dir="ltr" lang="ar">
 {% include head.html %}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+</style>
 <body class="site story ar">
     <a id="top"></a>
     <div class="page-wrapper">
@@ -17,11 +20,6 @@ lang: ar
                 </figcaption>
             </figure>
             {% include translations.html %}
-            {% if page.updates.ar %}
-                <div class="story-updates section-margin">
-                    {{ page.updates.ar | markdownify }}
-                </div>
-            {% endif %}
             <div class="story-wrapper section-margin">
                 {{ page.body-ar | markdownify }}
             </div>

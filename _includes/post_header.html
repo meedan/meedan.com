@@ -22,8 +22,6 @@
         <h1><a href="/jobs">Jobs</a></h1>
     {% elsif page.sys.content_type_id == 'story' %}
         <h1><a href="/blog">Blog</a></h1>
-    {% elsif page.sys.content_type_id == 'event' %}
-        <h1><a href="/events">Events</a></h1>
     {% elsif page.layout == 'legal_manual' or page.sys.content_type_id == 'legal' %}
         <h1><a href="/legal">Legal</a></h1>
     {% endif %}
@@ -35,18 +33,6 @@
                 {% endfor %}
             </span>
             <span class="title">{{ title }}</span>
-        </div>
-    {% elsif page.sys.content_type_id == 'event' %}
-        {% capture current_date %}{{ site.time | convert_to_date }}{% endcapture %}
-        <div class="title-container main-grid__1--1">
-            <span class="title">{{ title }}</span>
-            <div class="event-meta">
-                <span>{% include event_date.html %}</span>
-                <span>{{ page.location_human_friendly }}</span>
-                {% if page.non_public %}
-                    <span>By invitation only</span>
-                {% endif %}
-            </div>
         </div>
     {% endif %}
     {% if page.callout %}
