@@ -1,0 +1,33 @@
+<!-- Strings that don't need to be translated -->
+{% capture day %}{{ include.date | date: "%-d" }}{% endcapture %}
+{% capture year %}{{ include.date | date: "%Y" }}{% endcapture %}
+{% capture hour %}{{ include.date | date: "%I" }}{% endcapture %}
+{% capture min %}{{ include.date | date: "%M" }}{% endcapture %}
+{% assign z = include.date | date: "%z" %}
+{% case z %}
+    {% when '+0000' %}
+        {% capture timezone %}UTC{% endcapture %}
+    {% when '-0700' %}
+        {% capture timezone %}PT{% endcapture %}
+    {% when '-0800' %}
+        {% capture timezone %}PT{% endcapture %}
+{% endcase %}
+  
+<!-- Short version for English -->
+{% if include.format != 'short' %}
+{% capture month %}{{ include.date | date: "%B" }}{% endcapture %}
+{% capture wd %}{{ include.date | date: "%A" }}{% endcapture %}
+{% capture ampm %}{{ include.date | date: "%P" }}{% endcapture %}
+{% else %}
+{% capture month %}{{ include.date | date: "%b" }}{% endcapture %}
+{% capture timezone %}{{ include.date | date: "%z" }}{% endcapture %}
+{% assign z = include.date | date: "%z" %}
+{% case z %}
+    {% when '+0000' %}
+        {% capture timezone %}UTC{% endcapture %}
+    {% when '-0700' %}
+        {% capture timezone %}PT{% endcapture %}
+    {% when '-0800' %}
+        {% capture timezone %}PT{% endcapture %}
+{% endcase %}
+{% endif %}
