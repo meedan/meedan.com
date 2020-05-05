@@ -42,10 +42,10 @@
             <span class="title">{{ title }}</span>
             <div class="event-meta">
                 <span>{% include event_date.html %}</span>
+                <span>{{ page.location_human_friendly }}</span>
                 {% if page.non_public %}
                     <span>By invitation only</span>
                 {% endif %}
-                <span>{{ page.location_human_friendly }}</span>
             </div>
         </div>
     {% endif %}
