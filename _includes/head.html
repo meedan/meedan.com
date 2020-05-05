@@ -5,8 +5,8 @@
   <meta name="google-site-verification" content="" />
 
   <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.location.title %}{{ page.location.title | prepend: ', ' }}{% endif %}{{ site.title | escape | prepend: ' | ' }}</title>
-  {% seo %}
   {% include seo_customizations.html %}
+  {% seo %}
   <link rel="apple-touch-icon" href="apple-touch-icon.png"> 
   <link rel="preload" href="/fonts/Telegraf-Regular.woff2" as="font">
   <link rel="stylesheet" type="text/css" href="/css/normalize.min.css">
@@ -21,5 +21,8 @@
     {% endfor %}
   {% endif %}
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" media="screen" type="text/css">
+  {% if page.lang == 'ar' or page.body-ar %}
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  {% endif %}
 
 </head>

@@ -1,0 +1,31 @@
+{% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse  %}
+{% assign count = include.count %}
+{% assign columns = include.columns | default: '2' %}
+<section class="module module-story-list section-margin">
+    {% if include.title %}
+    <h3 class="section-title" id="calendar">
+        <a href="/blog/all">
+            {{ include.title }}
+        </a>
+    </h3>
+    {% endif %}
+    <div class="module-wrapper">
+        {% for story in stories | limit: count %}
+        <div class="story-list-item">
+            <a class="tag" href="/blog/{{ story.slug }}">
+                {% for topic in story.topic.en-US | limit: 1 %}
+                    {{ topic.title.en-US }}
+                {% endfor %}
+            </a>
+            <div class="title-container">
+                <a class="title" href="/blog/{{ story.slug }}">{{ story.title-en }}</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% if include.trail %}
+        <div class="trail-wrapper">
+            <span class="trail"><hr /><a href="{% if include.link %}{{ include.link }}{% else %}/blog/all{% endif %}" class="button no-margin">View all stories →</a></span>
+        </div>
+    {% endif %}
+</section>

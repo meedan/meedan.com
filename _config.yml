@@ -10,6 +10,9 @@ github_username:  meedan
 # Build settings
 markdown: kramdown
 
+# Timezone
+timezone: America/Vancouver
+
 plugins:
   - jekyll-seo-tag
 
@@ -17,7 +20,7 @@ plugins:
 # https://github.com/jekyll/jekyll-seo-tag
 twitter:
   username: meedan
-  card:     "summary"
+  card:     "summary_large_image"
 logo: /images/meedan-logo-horizontal-3@2x.png
 seo:
   type: Organization
@@ -179,6 +182,26 @@ contentful:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
+    - events: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        cda_query:
+          content_type: 'event'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
+        all_entries: true
+        content_types:
+          event: EventsMapper
+        destination: 'contentful/spaces/'
+    - moduleEvents: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        cda_query:
+          content_type: 'moduleEvents'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
+        all_entries: true
+        destination: 'contentful/spaces/'
 
 
 # Generate pages from Contentful data files
@@ -223,3 +246,7 @@ page_gen:
     template: 'job'
     name: 'slug'
     dir: '/jobs/'
+  - data: 'contentful.spaces.events.event'
+    template: 'event'
+    name: 'slug'
+    dir: '/events/'

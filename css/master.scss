@@ -1,7 +1,7 @@
 ---
 # Master SASS file
 ---
-@import url('//fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700');
+@import url('//fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,700');
 
 @import "variables.scss";
 @import "mixins.scss";
@@ -10,6 +10,7 @@
 @import "helpers.scss";
 @import "page.scss";
 @import "blog.scss";
+@import "calendar.scss";
 @import "manifesto.scss";
 @import "press.scss";
 @import "keypoints.scss";
@@ -28,6 +29,7 @@
 @import "team.scss";
 @import "image-grid.scss";
 @import "jobs.scss";
+
 // @import "slick.scss";
 
 :root {
