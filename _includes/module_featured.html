@@ -1,6 +1,8 @@
+{% capture current_date %}{{ site.time | convert_to_date }}{% endcapture %}
 <!-- Get list of handpicked events -->
 {% assign events = site.data.contentful.spaces.moduleEvents.moduleEvents 
     | where_exp: "item","item.sys.id == '8cg57tenBbCxgUBQxJYss'"
+    | where_exp: "item","item.event_end_date_string >= current_date"
 %}
 {% if events.size != 0 %}
 <section class="module module-featured section-margin">
