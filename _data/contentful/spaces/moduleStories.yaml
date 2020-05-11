@@ -3,11 +3,58 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-04 19:08:56.748000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-11 20:11:33.858000000 Z
     content_type_id: moduleStories
-    revision: 16
+    revision: 17
   title: Blog
   stories:
+  - sys:
+      id: 43f4qKh3bGCC2Wpn9odtte
+      created_at: !ruby/object:DateTime 2020-05-07 02:27:33.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-11 23:16:46.869000000 Z
+      content_type_id: story
+      revision: 1
+    title: Textfakes, Deepfakes, and the Power of Context
+    slug: textfakes-deepfakes-and-the-power-of-context
+    topic:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+    lead_image:
+      sys:
+        id: FRaQKCZnJm7KOPYizwe3w
+        created_at: !ruby/object:DateTime 2020-05-11 19:37:16.741000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:27.205000000 Z
+      title: Textfakes, Deepfakes, and the Power of Context
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/FRaQKCZnJm7KOPYizwe3w/912553475d66a9bb7cc3b51a772f3f94/Meedan_sms.png"
+    body: |-
+      "I'm going to the grocery store asap," my friend texted me a few weeks ago, at the peak of the confusion around COVID-19 in the US. He'd heard word from a friend of a friend that President Trump was going to declare a nationwide quarantine. The text came through with urgency and authority --- the President was going to invoke the Stafford Act, the National Guard was going to be called in, and no one would be allowed outside their homes for two weeks.
+
+      It wasn't true, but it felt true, and it felt especially true in the early morning hours when I got the message. I could feel in my bones a sense of dread --- wait, maybe this time it's real? California and New York were already shutting down. President Trump did declare a national emergency using the Stafford Act. There were indeed [credible recommendations from epidemiologists](https://www.latimes.com/science/story/2020-03-13/coronavirus-shopping-list-your-essential-quarantine-items) that we stock up for two weeks in case we need to quarantine. And the [National Guard had already been called](https://www.npr.org/2020/03/10/814164923/new-york-state-deploys-national-guard-to-manage-coronavirus-in-nyc-suburb) into a number of outbreak zones in the United States.
+
+      The problem comes in the shades of gray: the Stafford Act does grant enormous powers to the President, but [national quarantine is not one of them](https://www.usatoday.com/story/news/factcheck/2020/03/19/fact-check-does-stafford-act-allow-trump-order-quarantine/2872743001/). The National Guard has been deployed, not to enforce anything remotely resembling martial law but instead to help with [cleaning, testing and food delivery](https://www.vox.com/2020/3/24/21188088/coronavirus-national-guard-testing-food-cleaning-martial). Cities and states have indeed issued shelter-in-place orders, but [the federal government doesn't have direct power](https://www.npr.org/2020/04/02/825293201/a-president-is-not-able-to-order-a-national-quarantine-experts-say) over these. Around the world, we're indeed  seeing national lockdowns in places like India, China and Hungary, with tremendous implications on civil rights. In this context, it might not be unreasonable to think that a military-enforced quarantine might be coming for the United States.
+
+      [A recent New York Times article](https://www.nytimes.com/2020/03/16/us/coronavirus-text-messages-national-quarantine.html) pointed out that false and misleading information is part of an ongoing problem in the wake of the pandemic: "With the rapid spread of the coronavirus across the world, misinformation has followed suit," the article noted. It continues:
+
+      Other [SMS] messages in recent weeks, reflecting the same pattern, have warned that New York City public transit would shut down last week (it's still running), or that the entire Pacific Northwest would be quarantined last week (also not true). At least one message said that President Trump would declare a national emergency within three days --- Mr. Trump declared the emergency on Friday, but that did not give him the power to impose a national quarantine.
+
+      ![Meedan sms 2](//images.ctfassets.net/g118h5yoccvd/Qad98m6x2PoDGg9WD0DaW/91f2f80e2539ad70eec5389dd59470c6/Meedan_sms_2.png)
+
+      Over the past year, the misinformation research community has been sounding the alarm about deepfakes, [a form of synthetic media](https://lab.witness.org/projects/synthetic-media-and-deep-fakes/) (i.e., media made by artificial intelligence) wherein people are made to look like they're saying or doing something that they're not. In January of this year, as the novel coronavirus that causes COVID-19 was spreading across China and --- as we would later learn --- much of the world, [Facebook announced a ban on AI-generated videos](https://www.theguardian.com/technology/2020/jan/07/facebook-bans-deepfake-videos-in-run-up-to-us-election). That same month, [William A. Galston at the Brookings Institution](https://www.brookings.edu/research/is-seeing-still-believing-the-deepfake-challenge-to-truth-in-politics/) warned that "If AI is reaching the point where it will be virtually impossible to detect audio and video representations of people saying things they never said (and even doing things they never did), seeing will no longer be believing, and we will have to decide for ourselves---without reliable evidence---whom or what to believe."
+
+      Galston wrote these words with an eye on the upcoming 2020 election in the US, but just a few months later, the COVID-19 pandemic has quickly placed the US election into the background of national conversations. Furthermore, the misinformation thriving now is not deepfakes but cheap fakes --- what [Data & Society researchers Britt Paris and Joan Donovan](https://datasociety.net/library/deepfakes-and-cheap-fakes/) define as "an AV manipulation created with cheaper, more accessible software (or, none at all). Cheap fakes can be rendered through Photoshop, lookalikes, re-contextualizing footage, speeding, or slowing." Cheap fakes can simply be miscontextualized videos, like one going viral on [WhatsApp purportedly showing panicked mobs in the Netherlands](https://www.bellingcat.com/news/2020/03/13/monitoring-and-debunking-covid-19-panic-the-haarlem-aldi-hoax/). 
+
+      But much of today's pandemic misinformation is proving to be even simpler: what I call text fakes --- the oldest form of media manipulation, made possible by the ability to put words on a page, or a screen, or spread it around rapidly on private messaging apps. 
+
+      The text fake goes back to the days of scrolls and pamphlets. [The ancient Romans engaged in information combat](https://www.ft.com/content/aaf2bb08-dca2-11e6-86ac-f253db7791c6), using the literary implements of their time to spread disinformation and confusion. But it was the rise of moveable type in the 15th century that soon yielded pamphleteering as a popular medium for politics. As such, they became an early source of text fakes: "Cheap and made on the smallest sheets of paper," noted [one article in the New Yorker](https://www.newyorker.com/culture/cultural-comment/how-we-solved-fake-news-the-first-time), "pamphlets were written for attention and money. How do you get attention? Then, as now, successful strategies included exaggeration and hating others (in the pamphlets' case, Catholics). Elaborate conspiracy theories were popular, too." Essayist and pamphleteer Jonathan Swift famously observed that "falsehood flies, and truth comes limping after." 
+
+      Much of the deepfake discussion in 2019 focused lagely on the content of synthetic media --- what the media shows, how to detect it, what it might say, how it might mislead. Cheap fakes and text fakes floating around private messaging apps and public social media are, alternatively, a reminder of the importance of the context of media --- the mental state of the recipient, the narrative discourse in media and the general public, the relationship between the person sending the message and the person(s) receiving it, the political situation in the region, and a variety of other factors that influence how we interpret a piece of content, whether it's a piece of text or a fully-manipulated video.
+
+      The history of writing suggests that as more people gain access to writing tools and the ability to manipulate the written word, the more we see misinformation in text. We should expect the same of video, with the rise of video editing tools and synthetic media. Beware the text fake --- it's a powerful reminder that when content flies around the internet, our understanding of its context still comes limping after.
+    words_by:
+    - sys:
+        id: 1tmlbKKzfWSfejPphmGRcH
+    alt_date: !ruby/object:DateTime 2020-05-11 00:00:00.000000000 Z
   - sys:
       id: 7sGFJi7LUmGTrrls0c8WLM
       created_at: !ruby/object:DateTime 2020-05-04 14:40:43.306000000 Z

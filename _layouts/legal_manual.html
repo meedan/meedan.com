@@ -11,17 +11,15 @@
                 {{ content }}
             </div>
             <div class="story-footer small-hr section-margin">
-                {% if page.words_by %}
-                    <div class="story-footer-item">
-                        <span>Words</span> {% for contributor in page.words_by %}{{ contributor.name}}{% endfor %}
-                    </div>
-                {% endif %}
                 <div class="story-footer-item">
                     {% if page.modified %}
                         {{ page.modified }}
                     {% else %}
                         Last modified: <br />{{ page.sys.updated_at | date: "%-d %B %Y" }}
                     {% endif %}
+                </div>
+                <div class="story-footer-item">
+                    <span>Archived version</span> <a href="//github.com/meedan/meedan.com/commits/master{{ page.url }}">on Github</a>
                 </div>
             </div>
             {% include footer_small.html %}
