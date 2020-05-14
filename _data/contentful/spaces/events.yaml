@@ -116,9 +116,9 @@ event:
 - sys:
     id: 6iRF9eVv2Ro0WW2SjYrv1H
     created_at: !ruby/object:DateTime 2020-05-04 23:23:02.275000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-05 00:48:03.720000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-06 15:38:18.729000000 Z
     content_type_id: event
-    revision: 0
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -149,16 +149,18 @@ event:
   - sys:
       id: 5wf4TwfopjoyjLrhDvkNdn
       created_at: !ruby/object:DateTime 2020-05-05 00:40:21.596000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-05 00:42:33.741000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-05 01:14:53.512000000 Z
     title: Meedan network event
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/5wf4TwfopjoyjLrhDvkNdn/ebbe81feea0a35171c9c45da0d752687/Meedan_network_event.png"
   location_human_friendly: Online on Zoom
-  description: We are excited to launch the Check Global Network, Meedan’s community
+  description: On May 5, we are launching the Check Global Network, Meedan’s community
     that brings together collectives working in the area of media and technology in
     emerging economies.
-  long_description: Our current partners and new members from different regions will
-    participate in the launch of the Check Global Network.
+  long_description: |-
+    We are excited to launch the Check Global Network, Meedan’s community that brings together collectives working in the area of media and technology in emerging economies.
+
+    Our current partners and new members from different regions will participate in the launch of the Check Global Network.
   slug: check-global-network-launch
   non_public: true
   event_date_sting: '2020-05-05'
