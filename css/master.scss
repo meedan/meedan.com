@@ -257,6 +257,10 @@ header .meedan svg {
     fill: var(--blackInk);
 }
 
+.values[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
 header .menu-icon svg {
     stroke: var(--blackInk);
 }
@@ -270,6 +274,10 @@ header .menu-icon svg {
 }
 
 .team[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.values[data-menu] .menu-icon svg {
     stroke: var(--blackInk);
 }
 
@@ -425,7 +433,8 @@ header h1 {
 }
 
 .front .cursor,
-.team .cursor {
+.team .cursor,
+.values .cursor {
     border-color: var(--sunDown);
 }
 
@@ -444,7 +453,8 @@ header h1 {
 } 
 
 .front[data-menu] .cursor,
-.team[data-menu] .cursor {
+.team[data-menu] .cursor,
+.values[data-menu] .cursor, {
     color: var(--blackInk);
     border-color: var(--blackInk);
 }
