@@ -852,7 +852,7 @@ annualReport:
 - sys:
     id: 5hXIRylVnKcEtnG9PLVCKI
     created_at: !ruby/object:DateTime 2020-05-06 21:01:42.003000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-06 21:59:31.244000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-14 14:30:17.708000000 Z
     content_type_id: annualReport
     revision: 0
   title: 2019 Annual Report
@@ -865,9 +865,9 @@ annualReport:
   - sys:
       id: 25F9ID6QuWa4YaGM7sfRQb
       created_at: !ruby/object:DateTime 2020-05-06 21:46:52.323000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-06 21:57:35.370000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-17 15:02:06.865000000 Z
       content_type_id: section
-      revision: 0
+      revision: 4
     title: CEO's Note 2019
     cover_graphic:
       sys:
@@ -881,11 +881,19 @@ annualReport:
     section_class: introduction
     modules:
     - sys:
-        id: 6qAOA9ThbkaQVqtTK9hulB
+        id: 2eJV4MjwgHuO8I5VrjAv62
     - sys:
-        id: 1rW6yazco5VTWWcq0f4Skk
+        id: 6w2UYs8lx2SfiXz9cXZWjA
     - sys:
-        id: 4FOSPaw82qnfysoNybGj6g
+        id: 6FyGTssmse5HthvhXB5yie
+    - sys:
+        id: 4UIKJn5icbzIUX6uRPGGFp
+    - sys:
+        id: 6jURI3qZ4t6vvj2qKAMxgA
+    - sys:
+        id: 3ivRaYql4ZQUNjKsWR5O4g
+    - sys:
+        id: 1fuk9a5UC9eHUMQr8Xgk6r
     - sys:
         id: tz7MXJpslDwXGh7nBiuI1
     - sys:
@@ -948,7 +956,7 @@ annualReport:
   - sys:
       id: 6XPVMfT6wvJe4EZDxyk3i7
       created_at: !ruby/object:DateTime 2020-05-06 21:58:44.076000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-06 21:58:49.027000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-14 15:09:09.796000000 Z
       content_type_id: section
       revision: 0
     title: Financials 2019
@@ -963,11 +971,11 @@ annualReport:
     section_class: financials
     modules:
     - sys:
-        id: dRXovnFGidG9lBVcA6e2H
+        id: 1d1qHQZffinnsvSeCUW7Nf
     - sys:
-        id: 6rYz9XnMlEKhLWFX2xp9qV
+        id: 344IXoFOZDvP7Bwl4aGFqQ
     - sys:
-        id: 4dBLLWuFXFz8hwlGfk6VR8
+        id: BhdkHC0EJlLuTk3Bd6zUa
   about: This Annual Report reflects the state of Meedan and its financial health.
     Meedan is a US registered, San Francisco based, 501(c) 3 non-profit organization
     established in 2006 that works on projects to support global journalism and cross-cultural
