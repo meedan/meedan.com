@@ -2273,9 +2273,9 @@ section:
 - sys:
     id: 25F9ID6QuWa4YaGM7sfRQb
     created_at: !ruby/object:DateTime 2020-05-06 21:46:52.323000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-17 15:02:06.865000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-19 16:23:20.371000000 Z
     content_type_id: section
-    revision: 4
+    revision: 7
   title: CEO's Note 2019
   cover_graphic:
     sys:
@@ -2329,46 +2329,32 @@ section:
     title: Program Names
     top_border: true
   - sys:
-      id: 6jURI3qZ4t6vvj2qKAMxgA
-      created_at: !ruby/object:DateTime 2020-05-17 15:01:14.137000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-17 15:01:35.619000000 Z
-      content_type_id: moduleListItem
+      id: 588vJQ6YRh66yuxBA2lWjA
+      created_at: !ruby/object:DateTime 2020-05-19 16:06:41.132000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 16:07:46.989000000 Z
+      content_type_id: moduleTex
       revision: 1
-    title: Check Global
+    content: " \n\n- Check Global \n- Digital Health Lab\n- Credibility Coalition
+      \n- Pop-up Newsroom\n- Content Moderation Project\n"
   - sys:
-      id: 3ivRaYql4ZQUNjKsWR5O4g
-      created_at: !ruby/object:DateTime 2020-05-17 15:01:44.817000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-17 15:02:00.198000000 Z
-      content_type_id: moduleListItem
+      id: Q2ZkbNEp0JWPjBiIqo61a
+      created_at: !ruby/object:DateTime 2020-05-19 16:14:59.714000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 16:16:05.446000000 Z
+      content_type_id: module2ColumnContent
       revision: 1
-    title: Digital Health Lab
+    title: Timeline
+    content:
+    - sys:
+        id: 4ucBPM0RgBjSyFA0mpQRRY
   - sys:
-      id: 1fuk9a5UC9eHUMQr8Xgk6r
-      created_at: !ruby/object:DateTime 2020-05-17 15:00:30.042000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-17 15:00:38.995000000 Z
+      id: 4N37kXoV1zEazy1Zxk5pmi
+      created_at: !ruby/object:DateTime 2020-05-19 16:21:49.904000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 16:22:35.736000000 Z
       content_type_id: moduleListItem
       revision: 1
-    title: Credibility Coalition
-  - sys:
-      id: tz7MXJpslDwXGh7nBiuI1
-      created_at: !ruby/object:DateTime 2019-06-20 21:25:22.259000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:21:34.318000000 Z
-      content_type_id: moduleListItem
-      revision: 1
-    title: Ed Bice, Tom Trewinnard and An Xiao Mina presented on their work at the
-      International Journalism Festival.
-    description: Perugia, Italy
-    date: '04'
-  - sys:
-      id: 4fzeyqeLTguDbkYBQ2IVDw
-      created_at: !ruby/object:DateTime 2019-06-20 21:25:52.993000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:21:40.125000000 Z
-      content_type_id: moduleListItem
-      revision: 1
-    title: Caio Almeida joined a discussion in "Media Chat" event about fake news
-      - where he presented Check.
-    description: Natal, Brazil
-    nested_list_item: true
+    title: Tom Trewinnard, with ICFJ, gave a training on misinformation collaboration
+      in Moldova
+    description: Pop-Up Newsroom - Chisinau, Moldova
 - sys:
     id: 6XxWNpZC0HFc6UwUr3Bt3o
     created_at: !ruby/object:DateTime 2020-05-06 21:58:08.772000000 Z
