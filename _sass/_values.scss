@@ -1,7 +1,7 @@
 @include responsive('min-width: #{$width-tablet}') {
     .values {
         background-image: url('//images.ctfassets.net/g118h5yoccvd/7fokmGqMl9grHW4Dv5d51Y/81034b5d4a9a3b4eaf379be96caddc85/background_rework.svg');
-        background-size: 100%;
+        background-size: 108%;
         background-repeat: no-repeat;
         background-position: top left;
     }
@@ -11,7 +11,7 @@
     grid-column: 1 / 9;
     padding-left: var(--space-3);
     @include responsive('min-width: #{$width-tablet}') {
-        margin-bottom: 30rem;
+        margin-bottom: 32rem;
     }
 }
 
