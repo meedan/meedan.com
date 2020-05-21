@@ -1134,7 +1134,7 @@ section:
   - sys:
       id: 3A9R7ioFwtFnpCIhondxdo
       created_at: !ruby/object:DateTime 2019-06-20 21:52:15.173000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:28:04.640000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 23:05:25.572000000 Z
       content_type_id: moduleCards
       revision: 1
     title: 2018 Featured Press Coverage
@@ -2273,18 +2273,18 @@ section:
 - sys:
     id: 25F9ID6QuWa4YaGM7sfRQb
     created_at: !ruby/object:DateTime 2020-05-06 21:46:52.323000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-19 16:23:20.371000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-21 15:16:30.280000000 Z
     content_type_id: section
-    revision: 7
+    revision: 42
   title: CEO's Note 2019
   cover_graphic:
     sys:
-      id: 17AvwPbj5s8H60n5GOmadY
-      created_at: !ruby/object:DateTime 2019-06-20 19:48:18.414000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:23:11.585000000 Z
-    title: graphic introduction 2018
+      id: 60J6bIIwdet9EsQ2SC2Vir
+      created_at: !ruby/object:DateTime 2020-05-19 19:42:23.729000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 19:42:45.035000000 Z
+    title: graphic introduction 2019
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/17AvwPbj5s8H60n5GOmadY/302e62f0e0b815029639702807ac63fc/graphic_introduction.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/60J6bIIwdet9EsQ2SC2Vir/6722ca7bef498cbeee80d6858d228605/graphic_introduction.png"
   background_color: "#262626"
   section_class: introduction
   modules:
@@ -2305,21 +2305,30 @@ section:
   - sys:
       id: 6w2UYs8lx2SfiXz9cXZWjA
       created_at: !ruby/object:DateTime 2020-05-17 14:18:01.056000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-17 14:43:09.043000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 14:47:08.668000000 Z
       content_type_id: module2ColumnContent
-      revision: 2
+      revision: 3
     title: How our past shaped our future
     content:
     - sys:
         id: 17A6VzqCGsyvOXcH2rne8m
-    - sys:
-        id: 7kt33aDTpW85D6vHqkyZ57
   - sys:
       id: 6FyGTssmse5HthvhXB5yie
       created_at: !ruby/object:DateTime 2020-05-17 14:52:09.359000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-17 14:52:09.359000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 13:54:11.038000000 Z
       content_type_id: moduleImage
-      revision: 0
+      revision: 5
+    caption: Tunis, 2019
+    image:
+      sys:
+        id: 3hCMBgx4rUrAif2MpzAKHE
+        created_at: !ruby/object:DateTime 2020-05-20 11:27:19.779000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-20 13:45:05.600000000 Z
+      title: edit 48183432401 abb4028302 o
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3hCMBgx4rUrAif2MpzAKHE/f8f9baeb545f388650683ca2f7f356f3/edit_48183432401_abb4028302_o.jpg"
+    caption_title: Rights Con
+    top_border: true
   - sys:
       id: 4UIKJn5icbzIUX6uRPGGFp
       created_at: !ruby/object:DateTime 2020-05-17 14:57:42.638000000 Z
@@ -2331,11 +2340,47 @@ section:
   - sys:
       id: 588vJQ6YRh66yuxBA2lWjA
       created_at: !ruby/object:DateTime 2020-05-19 16:06:41.132000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-19 16:07:46.989000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 17:11:47.370000000 Z
       content_type_id: moduleTex
       revision: 1
-    content: " \n\n- Check Global \n- Digital Health Lab\n- Credibility Coalition
-      \n- Pop-up Newsroom\n- Content Moderation Project\n"
+    content: "- Check Global \n- Digital Health Lab\n- Credibility Coalition \n- Pop-up
+      Newsroom\n- Content Moderation Project\n"
+  - sys:
+      id: 3IFytmYvUbfGK9LxxygpCE
+      created_at: !ruby/object:DateTime 2020-05-20 14:05:17.823000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 14:05:47.104000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Mission Statement
+    content:
+    - sys:
+        id: 7gwoouvZF1U9N14s27lYM3
+  - sys:
+      id: 566D0u8fbwSohCxPprGOEI
+      created_at: !ruby/object:DateTime 2020-05-20 14:40:22.349000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-21 10:41:21.050000000 Z
+      content_type_id: moduleImage
+      revision: 2
+    caption: Portugal - October 2019
+    image:
+      sys:
+        id: 258crxBB9jdNIFMQWrD2t0
+        created_at: !ruby/object:DateTime 2020-05-20 14:47:46.466000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-21 10:39:19.581000000 Z
+      title: Portugal 2019
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/258crxBB9jdNIFMQWrD2t0/06a59992543eb6ef0f2199134b450a45/edit_img_2440_3.jpg"
+    caption_title: Meedan's Team Retreat
+  - sys:
+      id: 3u1saWV7raYPc9jJ8JSCY9
+      created_at: !ruby/object:DateTime 2020-05-20 14:05:55.830000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 14:30:29.975000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Georgraphic Areas Served
+    content:
+    - sys:
+        id: 1B1XrVYxOy7a440x47FPfC
   - sys:
       id: Q2ZkbNEp0JWPjBiIqo61a
       created_at: !ruby/object:DateTime 2020-05-19 16:14:59.714000000 Z
@@ -2347,29 +2392,440 @@ section:
     - sys:
         id: 4ucBPM0RgBjSyFA0mpQRRY
   - sys:
+      id: 5n6alKdmT58k4tuGClUJj0
+      created_at: !ruby/object:DateTime 2020-05-20 18:37:20.361000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-21 14:49:23.025000000 Z
+      content_type_id: moduleImage
+      revision: 1
+    caption: These are the places Meedan visited in 2019
+    image:
+      sys:
+        id: 6iaiAqtz06mr5H9rWGW4J8
+        created_at: !ruby/object:DateTime 2020-05-20 18:37:30.017000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-21 15:14:50.103000000 Z
+      title: Map
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6iaiAqtz06mr5H9rWGW4J8/3df5177e1f815e076736afb7f7d730c0/Annual-Report_2019_map__3_.png"
+  - sys:
       id: 4N37kXoV1zEazy1Zxk5pmi
       created_at: !ruby/object:DateTime 2020-05-19 16:21:49.904000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-19 16:22:35.736000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 18:39:05.407000000 Z
       content_type_id: moduleListItem
-      revision: 1
+      revision: 2
     title: Tom Trewinnard, with ICFJ, gave a training on misinformation collaboration
       in Moldova
     description: Pop-Up Newsroom - Chisinau, Moldova
+    date: '01'
+  - sys:
+      id: 2QsQYY1eD043TrpIdIgwV8
+      created_at: !ruby/object:DateTime 2020-05-20 18:43:24.086000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 18:49:10.848000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Dwight Knell presented on CredCo with Connie Moon Sehat and Sewell Chan
+    description: 'SXSW: Nutrition Labels for News - Austin, Texas
+
+      '
+    date: '03'
+  - sys:
+      id: 4emAzQmZw4JSnsv3rdftAO
+      created_at: !ruby/object:DateTime 2020-05-20 18:44:50.817000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:07:29.041000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: " Caio Almeida presented on free software using Check "
+    description: "Computing Week - Federal University of Bahia, Salvador, Brazil\n\n"
+  - sys:
+      id: 4PIsMIGsj9BnwlpQ0lAyb2
+      created_at: !ruby/object:DateTime 2020-05-20 19:06:59.256000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:07:40.692000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Daniela Feitosa presented on history of the web and web development with
+      Ruby on Rails
+    description: Computing Week - Federal University of Bahia, Salvador, Brazil
+  - sys:
+      id: 4x1xX9rL7PzU5vpQTzrCHM
+      created_at: !ruby/object:DateTime 2020-05-20 18:49:19.247000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 18:50:26.987000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Nat Gyenes presented on credibility coalition and participated in a panel
+      with other organizations working in the credibility sector
+    description: |2-
+
+      Google News Initiative Summit - Google HQ, Silicon Valley, California
+  - sys:
+      id: 5xCQU8O8Er1k95U6YmmkfI
+      created_at: !ruby/object:DateTime 2020-05-20 18:55:09.841000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 18:56:20.493000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Caio Almeida presented Check and Check message (Whatsapp Integration)
+    description: 'Tech & Check - Duke University, Durham, NC, USA
+
+      '
+  - sys:
+      id: 6t59lXvHF4k7o9xDXLVld5
+      created_at: !ruby/object:DateTime 2020-05-20 18:57:01.763000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 18:57:42.909000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Wafaa Heikal showcased Montage tool, gave a session about elections in
+      Zimbabwe with CITE and participated in the localization lab summit
+    description: 'Internet Freedom Festival - Valencia, Spain
+
+      '
+    date: '04'
+  - sys:
+      id: 317AanRQIhePxQBQTQGFH0
+      created_at: !ruby/object:DateTime 2020-05-20 18:58:09.210000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 18:58:38.457000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Meedan's crew (Nat Gyenes, Dwight Knell, Wafaa Heikal, Uva Vaca, Ed Bice,
+      Tom Trewinnard) hosted a health misinformation workshop, presented on a health
+      misinformation panel related to the Path project, moderated a panel on journalism
+      and chat applications
+    description: 'International Journalism Festival - Perugia, Italy
+
+      '
+  - sys:
+      id: 1JFxjd6Td7hX4IjNCeeSdu
+      created_at: !ruby/object:DateTime 2020-05-20 18:59:21.659000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 18:59:48.167000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Ed Bice and Tom Trewinnard collaborated to design a large scale collaboration
+      for the US 2020 elections
+    description: 'Pop-Up Newsroom: US2020 - Washington DC
+
+      '
+  - sys:
+      id: 5EN9URbaoi3L8mRHL4R5RH
+      created_at: !ruby/object:DateTime 2020-05-20 19:00:18.980000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:01:01.273000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Nat Gyenes presented on Path, discussed the challenges of health misinformation
+      and technological collaborations to address them
+    description: 'SwitchPoint - Saxapahaw, North Carolina
+
+      '
+  - sys:
+      id: 7miGTl1hPAX8dWwO1KDxZY
+      created_at: !ruby/object:DateTime 2020-05-20 19:02:27.745000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:03:28.688000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Caio Almeida presented on Rails and GraphQL, which are technologies heavily
+      used on Check
+    description: 'Mexico on Rails - Mexico City, Mexico
+
+      '
+    date: '05'
+  - sys:
+      id: 4mZOsPCru0qFEH1qXqkggx
+      created_at: !ruby/object:DateTime 2020-05-20 19:03:38.351000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:04:12.482000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Meedan's crew (Ed Bice, Tom Trewinnard, Dima Saber and Wafaa Heikal) participated
+      in misinformation panel
+    description: 'Stockholm Internet Forum - Stockholm, Sweden
+
+      '
+  - sys:
+      id: 4IBdImpYrplCbWl7DuoK7Z
+      created_at: !ruby/object:DateTime 2020-05-20 19:04:49.503000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:05:28.275000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Katherine Lo moderated a Speech Police session at the launch of David Kaye's
+      new book
+    description: 'Rights Night 1st Amendment: David Kaye Book Launch - Los Angeles
+      Central Library
+
+      '
+  - sys:
+      id: 5BthOINaWqJOiNCyKLAEen
+      created_at: !ruby/object:DateTime 2020-05-20 19:06:03.884000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:06:26.077000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Daniela Feitosa participated in a panel about inclusion of women in computer
+      courses
+    description: "Ethics and Computing - Federal University of Bahia, Salvador, Brazil\n\n"
+  - sys:
+      id: 9IlWiQkb3yHWUIEfvgGlI
+      created_at: !ruby/object:DateTime 2020-05-20 19:08:25.971000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:13:13.407000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Caio Almeida participated in a panel about free software
+    description: Ethics and Computing - Federal University of Bahia, Salvador, Brazil
+  - sys:
+      id: AsoYqrI83zgK0pj6LsyGK
+      created_at: !ruby/object:DateTime 2020-05-20 19:09:34.729000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-21 13:50:23.560000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Meedan presented in 11 sessions during Rightscon and led a live translation
+      lab for all the event tweets
+    description: Rights Con - Tunisia
+    date: '06'
+  - sys:
+      id: 1HaM0ZkArU7TAr7ZIT2xVU
+      created_at: !ruby/object:DateTime 2020-05-20 19:10:33.815000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:13:03.695000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: "Meedan co-sponsored Rails Girls event. Daniela Feitosa, Caio Almeida and
+      Alexandre Amorim organized the development workshop for girls and presented
+      Meedan's Check and Bridge during the event\t"
+    description: 'Rails Girls Salvador - Federal University of Bahia, Salvador, Brazil
+
+      '
+  - sys:
+      id: 6xnRtAk6qo3NK2MwxWIUVV
+      created_at: !ruby/object:DateTime 2020-05-20 19:11:45.579000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:14:10.734000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Wafaa Heikal represented Meedan at meetings with our fact-checking partners
+      in Africa and Asia
+    description: 'Global Fact 6 - Cape Town, South Africa
+
+      '
+  - sys:
+      id: dO9NgH3iV52h2MKLJZojK
+      created_at: !ruby/object:DateTime 2020-05-20 19:14:20.618000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:15:23.267000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Katherine Lo moderated a workshop on abusive language online presenting
+      machine learning solutions for moderation
+    description: 'The 57th Annual Meeting of the Association for Computational Linguistics
+      (ACL) - Florence, Italy
+
+      '
+    date: '08'
+  - sys:
+      id: 6UMntM5vQqzvTxEgaikJte
+      created_at: !ruby/object:DateTime 2020-05-20 19:17:42.315000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:18:17.087000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Meedan's Brazil crew (Caio Almeida, Dani Feitosa, Alex Amorim and Isabella
+      Barroso) ran a workshop and demoed Check at the Media Fair, and Meedan co-led
+      the Hackathon with 200 participants
+    description: 'Media Party and Media Party Hackathon - Buenos Aires
+
+      '
+    date: '09'
+  - sys:
+      id: 4iWuWhHbLfmkesB0CaqjmE
+      created_at: !ruby/object:DateTime 2020-05-20 19:18:29.011000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-21 13:51:03.469000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Katherine Lo, Nathalie Gyenes and Wafaa Heikal gave training workshops
+      over a two week period
+    description: 'Kenya Census Workshops - Nairobi
+
+      '
+  - sys:
+      id: 6IJDoF2DXA6K5MZ59i8qRo
+      created_at: !ruby/object:DateTime 2020-05-20 19:19:23.849000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:20:12.070000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Tom Trewinnard and Megan Marrelli represented Meedan at the largest gathering
+      of journalists in the world
+    description: 'Online News Association annual meeting - New Orleans
+
+      '
+  - sys:
+      id: 1fpN7T7BOi7SiVjNSPmUpu
+      created_at: !ruby/object:DateTime 2020-05-20 19:20:51.266000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:21:22.414000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Scott Hale represented Meedan at the academic workshop on data trusts and
+      challenges to implementation
+    description: 'Data Trusts Workshop - Cambridge, UK
+
+      '
+  - sys:
+      id: 4YVVh6xbS6aQSmaq8ZD4sq
+      created_at: !ruby/object:DateTime 2020-05-21 15:15:30.153000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-21 15:15:56.513000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Meedan's Team Retreat
+    description: Riba de Âncora, Portugal
+    date: '10'
+  - sys:
+      id: Vo0beRw0cWpZpTC0KQmpi
+      created_at: !ruby/object:DateTime 2020-05-20 19:22:24.079000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-21 15:16:25.280000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Scott Hale spoke about mis/disinformation and moderation topics
+    description: 'Turth and Trust Online - London, UK
+
+      '
+  - sys:
+      id: 6MMGFCW5BAyy46PXqnlruC
+      created_at: !ruby/object:DateTime 2020-05-20 19:22:57.390000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:24:04.465000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Katherine Lo and Scott Hale represented Meedan at the Misinfo Con
+    description: 'Misinfocon London - London, UK
+
+      '
+  - sys:
+      id: 4EFpLP6uJzr9qrWkAtDqPE
+      created_at: !ruby/object:DateTime 2020-05-20 19:24:37.924000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:25:12.687000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Scott Hale gave a talk on "Learning from social data to study human behaviour"
+      to University of Oxford researchers
+    description: 'International Multimodal Communication Centre - Oxford, UK
+
+      '
+  - sys:
+      id: 3bX176w7wbv0yqBHGXOJ61
+      created_at: !ruby/object:DateTime 2020-05-20 19:26:31.490000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:29:40.939000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Katherine Lo gave a presentation and participated in roundtable at the
+      "Content Moderation, Automation, and Platform Accountability" session hosted
+      by Witness Scott Hale participated in Misinfocon London
+    description: |+
+      Mozilla Festival - London, UK
+
+
+  - sys:
+      id: 5Ug38aOuVcUNo4eMg0Q9sY
+      created_at: !ruby/object:DateTime 2020-05-20 19:30:03.619000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:30:31.270000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Ed Bice and Pierre Conti gave a talk on Check, Verificado, and collaborative
+      journalism initiatives
+    description: '20 Norwegian journalists & editors with Berkeley J-School - San
+      Francisco, CA
+
+      '
+  - sys:
+      id: 47dMUBpEQmFAqcpSMJMInP
+      created_at: !ruby/object:DateTime 2020-05-20 19:31:04.894000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:31:35.967000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Scott Hale gave a talk on "Learning from social data to study human behaviour"
+      academics from across the natural sciences
+    description: 'Okinawa Institute of Science and Technology - Onna, Japan
+
+      '
+    date: '11'
+  - sys:
+      id: 75sp5BQIGDSGtMfYOaIFEh
+      created_at: !ruby/object:DateTime 2020-05-20 19:31:52.681000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:34:00.910000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Scott Hale attended academic conference on empirical methods in natural
+      language processing (EMNLP) to present academic research on automatic detection
+      of semantic change
+    description: 'Empirical Methods in Natural Language Processing (EMNLP) - Hong
+      Kong
+
+      '
+  - sys:
+      id: 73k7Uvu6yZxdvJcdi4nucx
+      created_at: !ruby/object:DateTime 2020-05-20 19:33:08.521000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:33:35.460000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Caio Almeida participated in a round table with EU delegation to discuss
+      the role of Fake News in elections and talked about Check
+    description: 'MediaThon - Lima, Peru
+
+      '
+  - sys:
+      id: 5hXJnlNpeU78pxF4HfQNj9
+      created_at: !ruby/object:DateTime 2020-05-20 19:34:18.450000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:34:54.952000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Wafaa Heikal presented on sessions about fact-checking, debunking social
+      media during civil unrest, and memes and propaganda. She also led a session
+      about localization and misinformation in Arabic
+    description: 'Bread & Net - Beirut, Lebanon
+
+      '
+  - sys:
+      id: 5y5tLKOb0gBPlR7eenBD37
+      created_at: !ruby/object:DateTime 2020-05-20 19:35:27.251000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:35:51.307000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Wafaa Heikal  presented claims and memes database project during the event
+    description: 'Open Tech Fund Summit - Taipei, Taiwan
+
+      '
+  - sys:
+      id: 6uyOIeh63O0SoiWpmvIPiR
+      created_at: !ruby/object:DateTime 2020-05-20 19:36:07.366000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:36:44.989000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Megan Marrelli gave a talk on our new tool that maps anti-misinformation
+      efforts globally
+    description: 'WikiConference North America 2019 - Boston, Massachussetts
+
+      '
+  - sys:
+      id: oouFs5IhVK6gsE5AaintT
+      created_at: !ruby/object:DateTime 2020-05-20 19:37:17.181000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:37:54.820000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Scott Hale and Shalini Joshi presented on Check Message to main stage and
+      shared Meedan Research Team work
+    description: 'Google News Initiative APAC Summit - Singapore
+
+      '
+    date: '12'
+  - sys:
+      id: 3HWTSqCi30GvUFGr40UpxV
+      created_at: !ruby/object:DateTime 2020-05-20 19:38:22.466000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 19:41:58.259000000 Z
+      content_type_id: moduleListItem
+      revision: 2
+    title: Ed Bice presented on Meedan's work to a gathering of Carleton College Alums
+      in the E Bay
+    description: The History of Meedan - Oakland
 - sys:
     id: 6XxWNpZC0HFc6UwUr3Bt3o
     created_at: !ruby/object:DateTime 2020-05-06 21:58:08.772000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-06 21:58:12.945000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-19 19:42:56.809000000 Z
     content_type_id: section
     revision: 0
   title: In Numbers 2019
   cover_graphic:
     sys:
-      id: 3WTYK4Df66wgD5UQ5H43FP
-      created_at: !ruby/object:DateTime 2019-06-20 21:42:27.368000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:23:17.872000000 Z
-    title: graphic in-numbers 2018
+      id: 5bE95JsPr7mD4QP3ZO8SaK
+      created_at: !ruby/object:DateTime 2020-05-19 19:42:56.304000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 19:43:09.969000000 Z
+    title: graphic in-numbers 2019
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/3WTYK4Df66wgD5UQ5H43FP/996ca11cb96e98af98b42a04c50a3de1/graphic_in-numbers.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/5bE95JsPr7mD4QP3ZO8SaK/40462402691a4ae0ec34aa6f018c3604/graphic_in-numbers.png"
   section_class: in-numbers
   modules:
   - sys:
@@ -2462,29 +2918,29 @@ section:
 - sys:
     id: 6DlsoRvvlWy4vCpMpiUzba
     created_at: !ruby/object:DateTime 2020-05-06 21:58:25.048000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-06 21:58:31.669000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-19 23:20:32.822000000 Z
     content_type_id: section
     revision: 0
   title: What are people saying 2019
   cover_graphic:
     sys:
-      id: rRO9AYJXogavf7PCMkbkB
-      created_at: !ruby/object:DateTime 2019-06-20 21:49:42.759000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:26:30.145000000 Z
-    title: graphic reviews 2018
+      id: 41TYri0y59j59Zsv06ch3F
+      created_at: !ruby/object:DateTime 2020-05-19 19:43:23.322000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 19:43:37.417000000 Z
+    title: graphic reviews 2019
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/rRO9AYJXogavf7PCMkbkB/23e03665c5f494657a2bd8f3378ce59b/graphic_reviews.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/41TYri0y59j59Zsv06ch3F/faa049cd1dd0088ca5b8f821a75fc006/graphic_reviews.png"
   background_color: "#D4D4D4"
   section_class: reviews
   modules:
   - sys:
-      id: 2GYMRXZLR1w4glcoLKwH4r
-      created_at: !ruby/object:DateTime 2019-06-20 21:50:13.473000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:26:33.512000000 Z
+      id: 1QwgeDHbXisPDfMechxY39
+      created_at: !ruby/object:DateTime 2020-05-19 19:51:23.756000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 19:51:28.804000000 Z
       content_type_id: moduleLeadText
-      revision: 1
+      revision: 0
     content: We are humbled by these quotes from our partners using Meedan’s tools
-      in 2018.
+      in 2019.
   - sys:
       id: Ok9QtW8ptC67iMIsP6wL4
       created_at: !ruby/object:DateTime 2019-06-20 21:50:42.697000000 Z
@@ -2526,7 +2982,7 @@ section:
   - sys:
       id: 3A9R7ioFwtFnpCIhondxdo
       created_at: !ruby/object:DateTime 2019-06-20 21:52:15.173000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:28:04.640000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 23:05:25.572000000 Z
       content_type_id: moduleCards
       revision: 1
     title: 2018 Featured Press Coverage
@@ -2545,21 +3001,31 @@ section:
         id: flwx2UlZBizhVKRlfdLZd
     - sys:
         id: L4sZaMwtcXY9kYx90DFGy
+  - sys:
+      id: 1ZSYylACHNiiY4QFAb8YYR
+      created_at: !ruby/object:DateTime 2020-05-19 23:20:32.349000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 23:25:22.122000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Additional coverage
+    content:
+    - sys:
+        id: 2IpRuCzb33hHjbalbcgMaQ
 - sys:
     id: 6XPVMfT6wvJe4EZDxyk3i7
     created_at: !ruby/object:DateTime 2020-05-06 21:58:44.076000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-14 15:09:09.796000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-19 19:43:48.366000000 Z
     content_type_id: section
     revision: 0
   title: Financials 2019
   cover_graphic:
     sys:
-      id: 6T0FGs8pMKFn8511aYNzHd
-      created_at: !ruby/object:DateTime 2019-06-20 22:03:05.407000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:28:14.644000000 Z
-    title: graphic financials 2018
+      id: 2UGnMyd8eHnwZCd5JD4Aql
+      created_at: !ruby/object:DateTime 2020-05-19 19:43:47.773000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 19:44:51.351000000 Z
+    title: graphic financials 2019
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/6T0FGs8pMKFn8511aYNzHd/37818d9484c01af586ba26261c7ebce5/graphic_financials.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/2UGnMyd8eHnwZCd5JD4Aql/91d40ff1640c24d42bc1fe3772c716ba/graphic_financials.png"
   section_class: financials
   modules:
   - sys:

@@ -1794,9 +1794,9 @@ module2ColumnContent:
 - sys:
     id: 6w2UYs8lx2SfiXz9cXZWjA
     created_at: !ruby/object:DateTime 2020-05-17 14:18:01.056000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-17 14:43:09.043000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-20 14:47:08.668000000 Z
     content_type_id: module2ColumnContent
-    revision: 2
+    revision: 3
   title: How our past shaped our future
   content:
   - sys:
@@ -1872,12 +1872,6 @@ module2ColumnContent:
       will continue to build global infrastructure in code, data, partners, and research
       to address the grand challenges that feel so close and pressing.  \n\nPlease
       be safe and stay healthy. \n\nYours, \nEd\nWoodacre, CA"
-  - sys:
-      id: 7kt33aDTpW85D6vHqkyZ57
-      created_at: !ruby/object:DateTime 2020-05-17 14:29:05.631000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-17 14:29:05.631000000 Z
-      content_type_id: moduleImage
-      revision: 0
 - sys:
     id: 12hbgAH5yo10UCpQDntpYN
     created_at: !ruby/object:DateTime 2020-05-17 14:49:48.921000000 Z
@@ -1901,3 +1895,73 @@ module2ColumnContent:
       revision: 2
     content: A timeline of the events that took place and Meedan participated at in
       2019!
+- sys:
+    id: 1ZSYylACHNiiY4QFAb8YYR
+    created_at: !ruby/object:DateTime 2020-05-19 23:20:32.349000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-19 23:25:22.122000000 Z
+    content_type_id: module2ColumnContent
+    revision: 0
+  title: Additional coverage
+  content:
+  - sys:
+      id: 2IpRuCzb33hHjbalbcgMaQ
+      created_at: !ruby/object:DateTime 2020-05-19 23:20:39.457000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 23:20:41.170000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: Checkpoint project has been mentioned in [Forbes](https://www.forbes.com/sites/jillgoldsmith/2019/04/02/whatsapp-india-tip-line-latest-salvo-in-facebooks-fake-news-offensive/#20809c413d85),
+      [WSJ](https://www.wsj.com/articles/whatsapp-adds-tip-line-to-fight-misinformation-in-india-11554200672),
+      [Globo](https://g1.globo.com/economia/tecnologia/noticia/2019/04/02/whatsapp-lanca-servico-de-checagem-de-fatos-para-combater-mensagens-falsas-na-india.ghtml),
+      [Times of India](https://timesofindia.indiatimes.com/gadgets-news/whatsapp-launches-checkpoint-tipline-to-tackle-fake-news/articleshow/68700632.cms),
+      [Reuters](https://uk.reuters.com/article/uk-facebook-whatsapp-idUKKCN1RE0HA),
+      and [CNN Business](https://edition.cnn.com/2019/04/02/tech/whatsapp-india-tip-line-election/index.html).
+- sys:
+    id: 3IFytmYvUbfGK9LxxygpCE
+    created_at: !ruby/object:DateTime 2020-05-20 14:05:17.823000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-20 14:05:47.104000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Mission Statement
+  content:
+  - sys:
+      id: 7gwoouvZF1U9N14s27lYM3
+      created_at: !ruby/object:DateTime 2020-05-20 14:05:27.321000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 14:05:42.860000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: Meedan is a technology not-for-profit that builds tools and develops
+      programs to strengthen global journalism, digital literacy, and accessibility
+      of information.
+- sys:
+    id: 3u1saWV7raYPc9jJ8JSCY9
+    created_at: !ruby/object:DateTime 2020-05-20 14:05:55.830000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-20 14:30:29.975000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Georgraphic Areas Served
+  content:
+  - sys:
+      id: 1B1XrVYxOy7a440x47FPfC
+      created_at: !ruby/object:DateTime 2020-05-20 14:29:35.324000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-20 14:30:23.855000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: |+
+      - India
+      - South Africa
+      - East Africa
+      - Nigeria
+      - Kenya
+      - United States
+      - Tunisia
+      - Mexico
+      - Latin America
+      - Zimbabwe
+      - NAWA region
+      - Western Sahara
+      - Philippines
+      - Lebanon
+      - Syria
+      - Yemen
+      - Egypt
+
