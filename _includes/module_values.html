@@ -1,0 +1,15 @@
+{% assign values = site.data.contentful.spaces.moduleCards.moduleCards
+	| where_exp: "item","item.sys.id == '5gASrlrj18D9d4SJIurEkA'" %}
+<div class="values-wrapper">
+	{% for value in values[0].cards %}
+		<div class="value-wrapper">
+			<div class="value">
+				<span>{{ forloop.index | prepend: '0' }}</span>
+				<h3>{{ value.title }}</h3>
+			</div>
+			<div class="value-description">
+				{{ value.description | markdownify }}
+			</div>
+		</div>
+	{% endfor %}
+</div>

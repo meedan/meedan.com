@@ -29,6 +29,7 @@
 @import "team.scss";
 @import "image-grid.scss";
 @import "jobs.scss";
+@import "values.scss";
 
 // @import "slick.scss";
 
@@ -43,6 +44,8 @@
     --texasRose: #FFB34D;
     --deepSea: #008D5E;
     --silver: #A7A7A7;
+    --softOrange: #DAA06D;
+    --brightGreen:#36B687;
     
     // type scale
     --int: 1.333;
@@ -254,6 +257,10 @@ header .meedan svg {
     fill: var(--blackInk);
 }
 
+.values[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
 header .menu-icon svg {
     stroke: var(--blackInk);
 }
@@ -267,6 +274,10 @@ header .menu-icon svg {
 }
 
 .team[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.values[data-menu] .menu-icon svg {
     stroke: var(--blackInk);
 }
 
@@ -422,7 +433,8 @@ header h1 {
 }
 
 .front .cursor,
-.team .cursor {
+.team .cursor,
+.values .cursor {
     border-color: var(--sunDown);
 }
 
@@ -441,7 +453,8 @@ header h1 {
 } 
 
 .front[data-menu] .cursor,
-.team[data-menu] .cursor {
+.team[data-menu] .cursor,
+.values[data-menu] .cursor, {
     color: var(--blackInk);
     border-color: var(--blackInk);
 }
