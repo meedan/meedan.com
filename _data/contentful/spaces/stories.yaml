@@ -182,13 +182,15 @@ story:
     - sys:
         id: o2SUkfpjcZYozMKy01Wis
         created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-15 08:42:07.528000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:16:40.972000000 Z
         content_type_id: contributor
-        revision: 2
+        revision: 3
       name:
         en-US: Shalini Joshi
+      staff:
+        en-US: true
       role:
-        en-US: Program Lead, APAC
+        en-US: Program Director, APAC
       location:
         en-US: New Delhi
   alt_date: !ruby/object:DateTime 2019-11-01 00:00:00.000000000 Z
@@ -1247,15 +1249,15 @@ story:
     - sys:
         id: 4JqOrlVgCscDebeRwxYBu8
         created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
         content_type_id: contributor
-        revision: 1
+        revision: 2
       name:
         en-US: Nat Gyenes
       staff:
         en-US: true
       role:
-        en-US: Senior Program Manager
+        en-US: Program Director, Digital Health Lab
       location:
         en-US: On the Road
   date: '2020-03-31'
@@ -2287,9 +2289,9 @@ story:
 - sys:
     id: 6j6je0ogt4Rvk5J0Z8v0Hw
     created_at: &12 !ruby/object:DateTime 2020-04-28 16:43:41.650000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-28 22:35:09.258000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-27 21:55:25.861000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -2328,7 +2330,8 @@ story:
       Reboot's Masterclass</a>.
     title: One of the slides from The Reboot's Masterclass.
     url: "//images.ctfassets.net/g118h5yoccvd/7xEYY0nAltPNXQhYE8kvcA/5f211f50c57bdfd48c775f12d2d731d1/reboot_Designing_Collaborations_for_Urgent_Courageous_Change.png"
-  body: "This past Wednesday, three Meedanis had a chance to attend The Reboot’s Masterclass
+  body: "This is part 2 of a [two-part series](https://meedan.com/blog/3-more-things-we-learned-about-cohesive-action-from-the-reboot/)\n\nThis
+    past Wednesday, three Meedanis had a chance to attend The Reboot’s Masterclass
     on “[Designing Collaborations for Urgent, Courageous Change](https://reboot.org/2020/04/14/driving-transformative-collaboration-reboot-masterclass-series/),”
     a 1.5-hour session on cross-sector collaboration. We will be sharing our team's
     insights for the other two sessions of this webinar series. \n\nAs the workshop
@@ -2395,15 +2398,15 @@ story:
     - sys:
         id: 4JqOrlVgCscDebeRwxYBu8
         created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
         content_type_id: contributor
-        revision: 1
+        revision: 2
       name:
         en-US: Nat Gyenes
       staff:
         en-US: true
       role:
-        en-US: Senior Program Manager
+        en-US: Program Director, Digital Health Lab
       location:
         en-US: On the Road
     - sys:
@@ -2930,3 +2933,124 @@ story:
   title-en: Get the latest COVID-19 expert updates in our weekly newsletter hosted
     by Dr. Seema Yasmin
   alt_date_string: '2020-05-20'
+- sys:
+    id: 5BRYd5pcfXQaZeRnX6fTrC
+    created_at: &14 !ruby/object:DateTime 2020-05-22 22:05:20.512000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-27 21:55:52.614000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 3 (More!) Things We Learned about Cohesive Action from the Reboot
+  slug: 3-more-things-we-learned-about-cohesive-action-from-the-reboot
+  topic:
+    en-US:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
+  lead_image:
+    en-US:
+      sys:
+        id: VWVvfjGQKVSQJu7jrfJu6
+        created_at: !ruby/object:DateTime 2020-05-27 21:50:52.641000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-27 21:51:13.887000000 Z
+      title: The Arc of Alignment as described by The Reboot
+      description: The Arc of Alignment as described by The Reboot
+      url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png"
+    description: The Arc of Alignment as described by The Reboot
+    title: The Arc of Alignment as described by The Reboot
+    url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png"
+  social_card_image:
+    en-US:
+      sys:
+        id: VWVvfjGQKVSQJu7jrfJu6
+        created_at: !ruby/object:DateTime 2020-05-27 21:50:52.641000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-27 21:51:13.887000000 Z
+      title: The Arc of Alignment as described by The Reboot
+      description: The Arc of Alignment as described by The Reboot
+      url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png"
+  body: "![The Arc of Alignment as described by The Reboot](//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png)\n\nThis
+    is part 2 of a [two-part series](https://meedan.com/blog/3-things-we-learned-on-designing-collaborations-from-the-reboots-masterclass/).\n\nOver
+    the past few weeks, a number of Meedan team members have been attending Reboot’s
+    online series on [Driving Transformative Collaboration](https://reboot.org/2020/04/14/driving-transformative-collaboration-reboot-masterclass-series/).
+    \ As the workshop describes itself:\n\nCOVID-19 demands that we build diverse
+    coalitions to advance equitable and effective response efforts. These efforts
+    must draw on the radical imaginations of our artists, the moral courage of our
+    activists, the innovation of community organizers, the agenda-setting influence
+    of our media, the values of our civil society leaders, the infrastructure of the
+    private sector, and the reach of our public institutions.\n\nAt Meedan, we work
+    at the intersection of a number of different sectors — journalists, academics,
+    policy researchers, human rights workers, artists and others — at a global scale,
+    and so this is a topic close to our heart. We wrote previously about insights
+    we gained from the first event. Here are three more from the most recent two events:\n\n__Do
+    the work before the work.__\n\nWorking with different sectors and personas from
+    all over the world, we found it really helpful to “do the work before the work”
+    and understand our collaborators’ interests, anxieties and agendas before getting
+    together. Knowing about their journeys and impact will allow us to introduce unheard
+    perspectives and this can be extended to our collaborators themselves getting
+    to know each other! We can do this by creating materials and sharing a synthesized
+    version across the collaborators of a specific project, we can then ground on
+    the communalities we have and we may think about a shared problem ahead of time.\n\n\n__Document
+    document document. Even when it’s hard.\n__\n\nThe Reboot team shared an all-too-familiar
+    sentiment with participants about the often conflicted relationship that can be
+    experienced with documentation – it can take quite some time to develop the documentation
+    that teams need to stay organized and aligned, but these documents are well worth
+    the investment. Keeping information up-to-date and organized can help to ensure
+    expectations are shared and agreed-upon by the team, and a short-term investment
+    in documentation can help prevent challenges in alignment in the future. \n\n\n__When
+    everything’s important, create structures for alignment.\n__\n\nIt can seem like
+    everything’s important. And that’s true. But that also creates barrier for getting
+    a project started. The Arc of Alignment that Reboot’s team articulated enables
+    an excellent framework, which felt very much like a masterclass in meeting facilitation.
+    “Brainstorm, with Bumpers” is something I think all program and product managers
+    have to navigate, and the toolkit they’ve provided is one we use a lot at Meedan
+    - facilitated conversation through structured whiteboarding and post-it sessions,
+    followed by group prioritization. The brainstorming is part of the work, and with
+    that necessarily comes tension. How teams navigate that tension is part of what
+    distinguishes success from struggles.\n"
+  words_by:
+    en-US:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+        created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Nat Gyenes
+      staff:
+        en-US: true
+      role:
+        en-US: Program Director, Digital Health Lab
+      location:
+        en-US: On the Road
+    - sys:
+        id: 3LwmNUnWdLGIZbvPisgSL5
+        created_at: !ruby/object:DateTime 2020-05-12 17:16:35.911000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-12 17:17:35.131000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: An Xiao Mina
+      staff:
+        en-US: false
+  date: '2020-05-22'
+  image: https://images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png
+  title-en: 3 (More!) Things We Learned about Cohesive Action from the Reboot
+  alt_date: *14
+  alt_date_string: '2020-05-22'
