@@ -68,6 +68,9 @@ module Jekyll
       if template == "page"
         data['description'] = data['body'].to_s.split[0...30].join(' ')
       end
+      if template == "annual_report"
+        data['description'] = data['summary'].to_s.split[0...30].join(' ')
+      end
       
       # add all the information defined in _data for the current record to the
       # current page (so that we can access it with liquid tags)

@@ -2880,10 +2880,10 @@ section:
 - sys:
     id: 6DlsoRvvlWy4vCpMpiUzba
     created_at: !ruby/object:DateTime 2020-05-06 21:58:25.048000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-28 10:34:40.239000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-01 19:39:08.774000000 Z
     content_type_id: section
     revision: 1
-  title: What are people saying 2019
+  title: What are people saying
   cover_graphic:
     sys:
       id: 41TYri0y59j59Zsv06ch3F
@@ -2975,6 +2975,23 @@ section:
     content:
     - sys:
         id: 2IpRuCzb33hHjbalbcgMaQ
+  - sys:
+      id: zoI2WeaE8b0TiowTkonPe
+      created_at: !ruby/object:DateTime 2020-06-01 19:39:03.200000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-01 19:40:59.711000000 Z
+      content_type_id: modulePullQuote
+      revision: 0
+    pullquote_by: Jill Goldsmith
+    pullquote: 'The WhatsApp tip line called Checkpoint lets the service’s 200 million
+      users in India send messages, photos, links and videos in four Indian languages
+      and English to be fact checked at a verification center that will declare them
+      to be true, false, misleading or disputed. Checkpoint was unveiled the day after
+      a long story in The New York Times described a flood of fake posts and hate
+      speech in India that has already led to violence and risks disrupting elections.
+
+'
+    source: Forbes
+    link: https://www.forbes.com/sites/jillgoldsmith/2019/04/02/whatsapp-india-tip-line-latest-salvo-in-facebooks-fake-news-offensive/#9595353d8543
 - sys:
     id: 6XPVMfT6wvJe4EZDxyk3i7
     created_at: !ruby/object:DateTime 2020-05-06 21:58:44.076000000 Z

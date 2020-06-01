@@ -28,6 +28,12 @@
     <meta property="og:image:alt" content="Meedan team" />
     <meta property="og:image:width" content="1000" />
     <meta property="og:image:height" content="500" />
+{% elsif page.layout == 'annual_report' %}
+    <meta property="og:image" content="http:{{ page.sections[0].cover_graphic.url | append: '?f=center&fit=crop&w=1000&h=540' }}" />
+    <meta property="og:image:secure_url" content="https:{{ page.sections[0].cover_graphic.url | append: '?f=center&fit=crop&w=1000&h=540' }}" />
+    <meta property="og:image:alt" content="Meedan team" />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="540" />
 {% elsif page.path contains 'blog/' %}
     <meta property="og:image:alt" content="{{ page.title }}" />
     <meta property="og:image:width" content="1000" />
