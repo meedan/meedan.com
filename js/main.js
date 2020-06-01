@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 
 	// Slick Slider for press
-	$('.cards').slick({
-		dots: true,
-	});
+	// $('.cards').slick({
+	// 	dots: true,
+	// });
 
 	// Slick Slider for press
 	$('.slideshow').slick({

@@ -651,65 +651,63 @@ module2ColumnContent:
 - sys:
     id: Zqc6VKHv5VWjwQAh0IKhP
     created_at: !ruby/object:DateTime 2019-06-20 21:43:34.040000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-05 19:24:04.554000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 14:02:13.501000000 Z
     content_type_id: module2ColumnContent
-    revision: 1
+    revision: 4
   title: Check
   content:
   - sys:
-      id: 64WKFhSLuU8Mka4Ky10Zkz
-      created_at: !ruby/object:DateTime 2019-06-20 21:43:47.002000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:23:28.191000000 Z
+      id: 6bkscUXpc5kzqJ4SSZu1WJ
+      created_at: !ruby/object:DateTime 2020-05-26 13:48:39.369000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 13:49:57.144000000 Z
       content_type_id: moduleTex
       revision: 1
-    content: |-
+    content: |
       ## [Check](https://meedan.com/en/check/) combines smart checklists, workflow integrations, and intuitive design to make digital newsgathering an efficient and collaborative process. Invite your team and online community in a secure environment to work together to validate breaking news content. Then, quickly show the work to your audience on social media or your news site.
 
 
       ---
-      ### List of top things added to Check in 2018
+      ### List of top things added to Check in 2019
 
-
-      - Check localization to Spanish
-      - Schema.org’s ClaimReview schema to extract structured data from articles.
-      - Items and tasks assignments to users. Displaying progress of assignments per each team member to owners.
-      - Items relationships and locking statuses.
-      - Check bot for Slack workspaces.
-      - Bot Garden to enable third party AIs/bots into workflows.
-      - Users to delete their own accounts.
+      - Enhanced functionality of open source verification toolkit Check
+      - Check integrated with other tools including scrapers, archiving tools, mapping platforms, and visual analysis toolkits
+      - Check localized into Filipino and 5 other languages
+      - Improved open-access tools and technical infrastructure for independent actors in the Global South to curate, check, verify and debunk claims, links and media shared online, and to produce alternative content that helps countering mis-information
   - sys:
-      id: 1dQzk5Minya1P4G2XTooWA
-      created_at: !ruby/object:DateTime 2019-07-25 12:14:31.973000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:23:36.896000000 Z
+      id: 4mWHQUcX6NQTdMHAAYJVUg
+      created_at: !ruby/object:DateTime 2020-05-26 13:51:12.064000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 13:52:40.529000000 Z
       content_type_id: moduleGraphic
       revision: 1
-    title: NPS
+    title: NPS Scale
     graphic:
       sys:
-        id: 7gg14VNE7kmK8XTFsBq39m
-        created_at: !ruby/object:DateTime 2019-07-25 12:17:43.534000000 Z
-        updated_at: !ruby/object:DateTime 2019-08-05 19:23:34.232000000 Z
-      title: Check NPS score 2019
+        id: 3EDzDhSu5K3bibNS0o3c4M
+        created_at: !ruby/object:DateTime 2020-05-26 13:51:26.282000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-26 13:52:32.033000000 Z
+      title: NPS
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/7gg14VNE7kmK8XTFsBq39m/c80f970ece43726b71fa63e2155c9548/Check_NPS_Score_2019.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/3EDzDhSu5K3bibNS0o3c4M/fc80eb891c1d8ed29b54ffe613544d50/Check_NPS_Score_2019.png"
   - sys:
-      id: 3RLv7Y4LfpPIRRQu9A8ZCl
-      created_at: !ruby/object:DateTime 2019-06-20 21:44:07.024000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-05 19:23:59.313000000 Z
+      id: 7BDVaB4lHjVdxGhKBmRgvs
+      created_at: !ruby/object:DateTime 2020-05-26 13:55:44.073000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:01:43.434000000 Z
       content_type_id: moduleStats
       revision: 1
     title: Stats for Check
     stats:
     - sys:
-        id: 21FrixQ6rxlLwndt0Ldlkf
+        id: 2pHwz0LTNzG0Q051H601YO
     - sys:
-        id: YGgRxAfM6Dt3RKUjZ0zCj
+        id: 6siZBFmf5UW3gd9VUMFfI9
     - sys:
-        id: 5J59MUPPz7lSVR5URakNdb
+        id: 4FgqFV1RJopCwMCDJJXJaR
     - sys:
-        id: 1jXobbhkd2fNAmAukXfW5b
+        id: 62YYaUqfzh7I8S8Iw5X3Yn
     - sys:
-        id: 7cDAHPxBJlGKCpP3JpdRxh
+        id: 3dMpY2ezdjULPamj5hCzMZ
+    - sys:
+        id: 3vx5LwlMRasMY5NcYNREu9
   top_border: true
   logo:
     sys:
@@ -1737,23 +1735,23 @@ module2ColumnContent:
 - sys:
     id: 344IXoFOZDvP7Bwl4aGFqQ
     created_at: !ruby/object:DateTime 2020-05-14 14:35:56.186000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-14 15:02:56.372000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 14:58:55.879000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Revenue
   content:
   - sys:
       id: 4YcKE0bi800y6SOhbwzkZN
       created_at: !ruby/object:DateTime 2020-05-14 15:02:13.431000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-18 22:02:29.246000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:58:53.049000000 Z
       content_type_id: moduleGraphic
-      revision: 0
+      revision: 1
     title: Revenue
     graphic:
       sys:
         id: 4pfPZofU7VSwovWL1y7CcN
         created_at: !ruby/object:DateTime 2020-05-18 22:02:28.275000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-18 22:02:43.809000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-26 14:58:49.227000000 Z
       title: Meedan 2019 financials graphic
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/4pfPZofU7VSwovWL1y7CcN/4fcc404ffdf1ada07b685467c489d9b3/Meedan_2019_financials_graphic.png"
@@ -1802,28 +1800,29 @@ module2ColumnContent:
   - sys:
       id: 17A6VzqCGsyvOXcH2rne8m
       created_at: !ruby/object:DateTime 2020-05-17 14:27:57.510000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-17 14:46:00.607000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-31 15:57:18.072000000 Z
       content_type_id: moduleTex
-      revision: 2
+      revision: 7
     content: "As a context company, I will make an effort to also situate this note
       in the data that describes the current global pandemic. This annual CEO letter
-      is being written on a day when the World Health Organization notes 1,279,722
-      confirmed global cases of COVID-19. The year began with concern for Wuhan and
-      China, but by the start of March there was more attention on other East Asian
-      countries. By the end of March, of course, more focus on Iran, Europe, and the
-      US. We are currently bracing ourselves for the focus to unfortunately move to
-      countries in the greater Global South, including the North Africa Western Asia
-      region, Africa, Latin America and Asia Pacific, where social distancing is much
-      harder, and where COVID-19 is likely to have unprecedented devastating effects.
-      \n\nToday as I write this note, we have made public an ambitious COVID-19 response
-      database and toolkit effort with the support of Sida, Google, Facebook, Omidyar,
-      and a cast of global public health experts. I am reminded of a similar point
-      in the early weeks of 2011 when our team efforts were in the course of a few
-      short days converted to working with a community of hundreds of translators
-      to share personal narratives from inside the Egyptian revolution. \n\nJust as
-      our work to establish and staff a team of journalists and engineers in Cairo
-      from 2007 placed us in a unique position do important work during the Arab Spring,
-      our work on Covid-19 response began in 2018 when we established Meedan’s Digital
+      is being written on a day when the World Health Organization notes [1,279,722
+      confirmed global cases of COVID-19](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200407-sitrep-78-covid-19.pdf?sfvrsn=bc43e1b_2).
+      The year began with concern for Wuhan and China, but by the start of March there
+      was more attention on other East Asian countries. By the end of March, of course,
+      more focus on Iran, Europe, and the US. We are currently bracing ourselves for
+      the focus to unfortunately move to countries in the greater Global South, including
+      the North Africa Western Asia region, Africa, Latin America and Asia Pacific,
+      where social distancing is much harder, and where COVID-19 is likely to have
+      unprecedented devastating effects. \n\nToday as I write this note, we have made
+      public [an ambitious COVID-19 response database](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/)
+      and toolkit effort with the support of Sida, Google, Facebook, Omidyar, and
+      a cast of global public health experts. I am reminded of a similar point in
+      the early weeks of 2011 when our team efforts were in the course of a few short
+      days converted to working with a community of hundreds of translators to share
+      personal narratives from inside the Egyptian revolution. \n\nJust as our work
+      to establish and staff a team of journalists and engineers in Cairo from 2007
+      placed us in a unique position do important work during the Arab Spring, our
+      work on Covid-19 response began in 2018 when we established Meedan’s Digital
       Health Lab as a research and practice hub for developing a standard of care
       for responding to misinfodemics. Which is perhaps a thread I can follow here
       to get back to the task of reporting on Meedan’s remarkable year in 2019.\n\nWe
@@ -1833,45 +1832,46 @@ module2ColumnContent:
       always emphasized the need to work across boundaries and between communities.
       In 2019 we formalized this community aspect of our work, launching the Check
       Global Network with LatAm, APAC, NAWA (North Africa West Asia), and East African
-      partners. A few of the highlights from this network: \n\nWe supported the inspiring
-      women’s media collective Chicas Poderosas to lead three Mediathons in 2019,
-      in Argentina, Colombia and Mexico, attended by 300 women journalists. Mediathons
-      are two-day events where journalists, communicators, designers, and other women
-      who work in media gather with the aim of creating collaborative, multimedia,
-      journalistic projects to make visible under-represented issues. \n\nThe NAWA
-      Investigative Fund is an initiative of Check Global to financially support new,
-      quality investigative journalism from, for, and about the Arab region. The NAWA-IF
-      supports a new generation of digital investigative journalists in the North
-      Africa and West Asia (NAWA) region by providing micro-grants for investigative
-      work across all media.\n\nDuring 2019, our partner Mnemonic has published four
-      full-length open source investigations in Syria. The investigations included
-      the bombing of civilian infrastructure such as medical facilities, as well as
-      the use of chemical weapons against civilians in Syria and the export of these
-      chemicals from the EU to Syria after sanctions.\n\nOur work with Hacks/Hackers
-      on the Credibility Coalition continued in 2019, with the release of the CredCat
-      as a compendium of misinformation response efforts around the world. \n\nOur
-      election monitoring work continued with important efforts in APAC. We ran a
-      Pop-Up Newsroom (our partnership with Fathm) with WhatsApp and the civic media
-      studio Proto. The Checkpoint project team monitored and responded to visual
-      misinformation circulating on WhatsApp through the run up to the Indian national
-      election in July. In parallel we ran election monitoring projects in Indonesia,
-      Cekfakta, with partner Tempo.co, and in the Philippines, Tsek.ph, with partner
-      Vera Files. \n\nCheckpoint was also the first release of our open source solution
-      for monitoring and responding to misinformation on WhatsApp. This technology
-      is a version of Check that is integrated with WhatsApp (and a dozen other closed
-      messaging apps) and optimized for efficiently sorting thousands of incoming
-      messages and generating visual cards for viral response. We’ve been extremely
-      fortunate to have WhatsApp as a partner in this work to design and develop tools
-      to address the most daunting aspect of the global misinformation challenge -
-      misinformation response in E2E encrypted messaging networks.  \n\nLooking back,
-      it is clear that our accomplishments in 2019 have positioned us well to contribute
-      to the unfolding crisis of Covid-19. From this vantage point it is pretty clear
-      that now, more than ever, the world needs Meedan to succeed in its mission to
-      improve the equity, diversity, and inclusion in our digital ecologies as a means
-      to create and extend a healthier world. As a small but mighty organization we
-      will continue to build global infrastructure in code, data, partners, and research
-      to address the grand challenges that feel so close and pressing.  \n\nPlease
-      be safe and stay healthy. \n\nYours, \nEd\nWoodacre, CA"
+      partners. A few of the highlights from this network: \n\n[We supported the inspiring
+      women’s media collective Chicas Poderosas to lead three Mediathons](https://meedan.com/blog/voicesontherise-mediathon-in-mexico/)
+      in 2019, in Argentina, Colombia and Mexico, attended by 300 women journalists.
+      Mediathons are two-day events where journalists, communicators, designers, and
+      other women who work in media gather with the aim of creating collaborative,
+      multimedia, journalistic projects to make visible under-represented issues.
+      \n\n[The NAWA Investigative Fund](https://nawamedia.org/) is an initiative of
+      Check Global to financially support new, quality investigative journalism from,
+      for, and about the Arab region. The NAWA-IF supports a new generation of digital
+      investigative journalists in the North Africa and West Asia (NAWA) region by
+      providing micro-grants for investigative work across all media.\n\nDuring 2019,
+      our partner Mnemonic has published four full-length open source investigations
+      in Syria. The investigations included the bombing of civilian infrastructure
+      such as medical facilities, as well as the use of chemical weapons against civilians
+      in Syria and the export of these chemicals from the EU to Syria after sanctions.\n\nOur
+      work with Hacks/Hackers on the Credibility Coalition continued in 2019, [with
+      the release of the CredCat](https://credibilitycoalition.org/credcatalog/) as
+      a compendium of misinformation response efforts around the world. \n\nOur election
+      monitoring work continued with important efforts in APAC. We ran a Pop-Up Newsroom
+      (our partnership with Fathm) with WhatsApp and the civic media studio Proto.
+      The Checkpoint project team monitored and responded to visual misinformation
+      circulating on WhatsApp through the run up to the Indian national election in
+      July. In parallel we ran election monitoring projects in Indonesia, Cekfakta,
+      with partner Tempo.co, and in the Philippines, Tsek.ph, with partner Vera Files.
+      \n\nCheckpoint was also the first release of our open source solution for monitoring
+      and responding to misinformation on WhatsApp. This technology is a version of
+      Check that is integrated with WhatsApp (and a dozen other closed messaging apps)
+      and optimized for efficiently sorting thousands of incoming messages and generating
+      visual cards for viral response. We’ve been extremely fortunate to have WhatsApp
+      as a partner in this work to design and develop tools to address the most daunting
+      aspect of the global misinformation challenge - misinformation response in E2E
+      encrypted messaging networks.  \n\nLooking back, it is clear that our accomplishments
+      in 2019 have positioned us well to contribute to the unfolding crisis of Covid-19.
+      From this vantage point it is pretty clear that now, more than ever, the world
+      needs Meedan to succeed in its mission to improve the equity, diversity, and
+      inclusion in our digital ecologies as a means to create and extend a healthier
+      world. As a small but mighty organization we will continue to build global infrastructure
+      in code, data, partners, and research to address the grand challenges that feel
+      so close and pressing.  \n\nPlease be safe and stay healthy. \n\nYours, \n\nEd\n\nWoodacre,
+      CA"
 - sys:
     id: 12hbgAH5yo10UCpQDntpYN
     created_at: !ruby/object:DateTime 2020-05-17 14:49:48.921000000 Z
@@ -1882,33 +1882,24 @@ module2ColumnContent:
 - sys:
     id: Q2ZkbNEp0JWPjBiIqo61a
     created_at: !ruby/object:DateTime 2020-05-19 16:14:59.714000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-19 16:16:05.446000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-28 17:26:59.544000000 Z
     content_type_id: module2ColumnContent
-    revision: 1
+    revision: 2
   title: Timeline
-  content:
-  - sys:
-      id: 4ucBPM0RgBjSyFA0mpQRRY
-      created_at: !ruby/object:DateTime 2020-05-19 16:15:40.450000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-19 16:20:51.208000000 Z
-      content_type_id: moduleTex
-      revision: 2
-    content: A timeline of the events that took place and Meedan participated at in
-      2019!
 - sys:
     id: 1ZSYylACHNiiY4QFAb8YYR
     created_at: !ruby/object:DateTime 2020-05-19 23:20:32.349000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-19 23:25:22.122000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 15:33:31.479000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Additional coverage
   content:
   - sys:
       id: 2IpRuCzb33hHjbalbcgMaQ
       created_at: !ruby/object:DateTime 2020-05-19 23:20:39.457000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-19 23:20:41.170000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 15:33:26.513000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: Checkpoint project has been mentioned in [Forbes](https://www.forbes.com/sites/jillgoldsmith/2019/04/02/whatsapp-india-tip-line-latest-salvo-in-facebooks-fake-news-offensive/#20809c413d85),
       [WSJ](https://www.wsj.com/articles/whatsapp-adds-tip-line-to-fight-misinformation-in-india-11554200672),
       [Globo](https://g1.globo.com/economia/tecnologia/noticia/2019/04/02/whatsapp-lanca-servico-de-checagem-de-fatos-para-combater-mensagens-falsas-na-india.ghtml),
@@ -1918,9 +1909,9 @@ module2ColumnContent:
 - sys:
     id: 3IFytmYvUbfGK9LxxygpCE
     created_at: !ruby/object:DateTime 2020-05-20 14:05:17.823000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-20 14:05:47.104000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 14:50:53.918000000 Z
     content_type_id: module2ColumnContent
-    revision: 1
+    revision: 2
   title: Mission Statement
   content:
   - sys:
@@ -1932,13 +1923,14 @@ module2ColumnContent:
     content: Meedan is a technology not-for-profit that builds tools and develops
       programs to strengthen global journalism, digital literacy, and accessibility
       of information.
+  top_border: true
 - sys:
     id: 3u1saWV7raYPc9jJ8JSCY9
     created_at: !ruby/object:DateTime 2020-05-20 14:05:55.830000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-20 14:30:29.975000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-28 10:42:30.583000000 Z
     content_type_id: module2ColumnContent
-    revision: 1
-  title: Georgraphic Areas Served
+    revision: 2
+  title: Geographic Areas Served
   content:
   - sys:
       id: 1B1XrVYxOy7a440x47FPfC
@@ -1965,3 +1957,162 @@ module2ColumnContent:
       - Yemen
       - Egypt
 
+- sys:
+    id: xh63nrmTstAvgc8aLiETo
+    created_at: !ruby/object:DateTime 2020-05-26 14:02:34.932000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 14:11:06.085000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Check
+  content:
+  - sys:
+      id: 61KzCdrqjC6XhHCsBG39Rm
+      created_at: !ruby/object:DateTime 2020-05-26 14:03:21.956000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:03:28.682000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: |
+      ## [Check](https://meedan.com/en/check/) combines smart checklists, workflow integrations, and intuitive design to make digital newsgathering an efficient and collaborative process. Invite your team and online community in a secure environment to work together to validate breaking news content. Then, quickly show the work to your audience on social media or your news site.
+
+
+      ---
+      ### List of top things added to Check in 2019
+
+      - Enhanced functionality of open source verification toolkit Check
+      - Check integrated with other tools including scrapers, archiving tools, mapping platforms, and visual analysis toolkits
+      - Check localized into Filipino and 5 other languages
+      - Improved open-access tools and technical infrastructure for independent actors in the Global South to curate, check, verify and debunk claims, links and media shared online, and to produce alternative content that helps countering mis-information
+  - sys:
+      id: syPjELFi2uaPqt9M6HnTr
+      created_at: !ruby/object:DateTime 2020-05-26 14:03:48.499000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:04:36.072000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: NPS Scale
+    graphic:
+      sys:
+        id: 22hRCNBdhok0ZQPsPY0zcf
+        created_at: !ruby/object:DateTime 2020-05-26 14:03:54.599000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-26 14:04:21.133000000 Z
+      title: Check NPS Score 2019
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/22hRCNBdhok0ZQPsPY0zcf/24ed56bacdbc7100dbf7735bfb32b798/Check_NPS_Score_2019.png"
+  - sys:
+      id: 2WAvYhdeUEaGRKWyeMwOG7
+      created_at: !ruby/object:DateTime 2020-05-26 14:05:17.138000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:10:50.106000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: Stats for Check
+    stats:
+    - sys:
+        id: 3jyH7pSTVWWtvQy23pxnUe
+    - sys:
+        id: 5HZD7Didq7EFA0VTyqVuxY
+    - sys:
+        id: 6Cn53LvxNs7IaOE76TptY1
+    - sys:
+        id: BH9SZkKfQt6hRFxVmXCW8
+    - sys:
+        id: 2kizZBsdaCe9oiMcT2ddWu
+    - sys:
+        id: 4XjEZppJjmj12JZGw3GcWw
+- sys:
+    id: 3iO1JzAa4trt4YWig1HOXn
+    created_at: !ruby/object:DateTime 2020-05-26 14:23:08.629000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 14:28:53.351000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Claims and Memes Database
+  content:
+  - sys:
+      id: 6iQjmV09xdTnKBN5bMMgOG
+      created_at: !ruby/object:DateTime 2020-05-26 14:25:47.633000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:33:39.737000000 Z
+      content_type_id: moduleTex
+      revision: 2
+    content: 'We created a unique international dataset of claims and memes drawing
+      from our diverse international partners. We collected the dataset from Egypt,
+      Mexico, the Philippines, Kenya, India, Indonesia, Lebanon and Tunisia in more
+      than 13 worldwide languages including Sawhili, Tagalog, Indian, French, Arabic,
+      Bengali, Marathi, Urdu. '
+  - sys:
+      id: 6FtP8ywp5cpgRdoPZBu12l
+      created_at: !ruby/object:DateTime 2020-05-26 14:25:09.432000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:28:46.301000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: CMDb Stats
+    stats:
+    - sys:
+        id: 1HI3LBPt6twwBXQlYBKUtB
+    - sys:
+        id: 3fhEqgedXsIjXv3Yh79xGj
+    - sys:
+        id: 2itMpray9c0kYlu7vFaebZ
+  top_border: true
+- sys:
+    id: 29ZQXjy1ravvtXmingBBgM
+    created_at: !ruby/object:DateTime 2020-05-26 14:35:14.239000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 14:44:50.572000000 Z
+    content_type_id: module2ColumnContent
+    revision: 2
+  title: Media and Communications
+  content:
+  - sys:
+      id: 6N6mc04Le5OLqaYvYYHTZE
+      created_at: !ruby/object:DateTime 2020-05-26 14:35:48.641000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 14:40:56.558000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: M&C Stats
+    stats:
+    - sys:
+        id: 4IoYW1XYr4yDEDE9Y2QB64
+    - sys:
+        id: 4HtE6oUfhHLJ4vbOcvN9h6
+    - sys:
+        id: 6m7rjVpbCoVAm8l8AICz7n
+    - sys:
+        id: 1ewJOZLgvVVIvTLR86gkHG
+    - sys:
+        id: 3kJ8sD81XoAMAhJy0u7eZ
+    - sys:
+        id: KQSSj1Fgy4SXbNJQR4WK2
+  top_border: true
+- sys:
+    id: 3bSNJ2Fnj1xYoHkXPmpWlF
+    created_at: !ruby/object:DateTime 2020-05-26 14:46:05.987000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 14:50:40.255000000 Z
+    content_type_id: module2ColumnContent
+    revision: 3
+  title: Program Names
+  content:
+  - sys:
+      id: 1T8h0aMBa64MtDNHhP5emR
+      created_at: !ruby/object:DateTime 2020-05-26 14:46:17.510000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-28 17:37:12.870000000 Z
+      content_type_id: moduleTex
+      revision: 3
+    content: |-
+      - [Check Global](https://meedan.com/projects)
+      - [Digital Health Lab](https://meedan.com/projects)
+      - [Credibility Coalition ](https://meedan.com/projects)
+      - [Pop-up Newsroom](https://meedan.com/projects)
+      - [Content Moderation Project](https://meedan.com/projects)
+  top_border: false
+- sys:
+    id: 78SKBLbmpS14gKiiGOidYC
+    created_at: !ruby/object:DateTime 2020-05-26 15:31:38.611000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-26 15:32:38.148000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Press
+  content:
+  - sys:
+      id: 5NKvbjH7RnD8PMAFwG64CI
+      created_at: !ruby/object:DateTime 2020-05-26 15:32:15.244000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-26 15:32:21.811000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: Stories covering Meedan's work in 2019.
