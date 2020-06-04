@@ -852,27 +852,26 @@ annualReport:
 - sys:
     id: 5hXIRylVnKcEtnG9PLVCKI
     created_at: !ruby/object:DateTime 2020-05-06 21:01:42.003000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-28 17:33:03.501000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-01 19:47:10.760000000 Z
     content_type_id: annualReport
-    revision: 2
+    revision: 3
   title: 2019 Annual Report
-  summary: Meedan is a global technology not-for-profit that develops open-source
+  summary: 'Meedan is a global technology not-for-profit that develops open-source
     tools for creating and sharing context on digital media through annotation, verification,
     archival, and translation. We co-create programmatic initiatives with technologists,
     newsrooms, fact-checkers, public health professionals, NGOs and academic institutions
     on award-winning projects from election monitoring to pandemic response to human
-    rights documentation.  Please visit meedan.com for the latest information about
-    Meedan and its initiatives.
+    rights documentation. '
   year: 2019
   slug: 2019-annual-report
   sections:
   - sys:
       id: 25F9ID6QuWa4YaGM7sfRQb
       created_at: !ruby/object:DateTime 2020-05-06 21:46:52.323000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-28 17:28:10.695000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-01 20:39:43.635000000 Z
       content_type_id: section
-      revision: 46
-    title: CEO's Note 2019
+      revision: 47
+    title: CEO's Note
     cover_graphic:
       sys:
         id: 60J6bIIwdet9EsQ2SC2Vir
@@ -981,15 +980,15 @@ annualReport:
   - sys:
       id: 6XxWNpZC0HFc6UwUr3Bt3o
       created_at: !ruby/object:DateTime 2020-05-06 21:58:08.772000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-26 14:41:13.797000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-01 20:41:34.462000000 Z
       content_type_id: section
-      revision: 3
-    title: In Numbers 2019
+      revision: 4
+    title: In Numbers
     cover_graphic:
       sys:
         id: 5bE95JsPr7mD4QP3ZO8SaK
         created_at: !ruby/object:DateTime 2020-05-19 19:42:56.304000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-19 19:43:09.969000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-01 20:41:31.477000000 Z
       title: graphic in-numbers 2019
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5bE95JsPr7mD4QP3ZO8SaK/40462402691a4ae0ec34aa6f018c3604/graphic_in-numbers.png"
@@ -1006,9 +1005,9 @@ annualReport:
   - sys:
       id: 6DlsoRvvlWy4vCpMpiUzba
       created_at: !ruby/object:DateTime 2020-05-06 21:58:25.048000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-01 19:39:08.774000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-01 20:44:06.418000000 Z
       content_type_id: section
-      revision: 1
+      revision: 2
     title: What are people saying
     cover_graphic:
       sys:
@@ -1035,13 +1034,17 @@ annualReport:
         id: 1ZSYylACHNiiY4QFAb8YYR
     - sys:
         id: zoI2WeaE8b0TiowTkonPe
+    - sys:
+        id: 1bJ7oVlRj6vWzGrkMRYyvS
+    - sys:
+        id: 7xWpuKHHVY2pBiMaJ8tjD1
   - sys:
       id: 6XPVMfT6wvJe4EZDxyk3i7
       created_at: !ruby/object:DateTime 2020-05-06 21:58:44.076000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-26 14:59:13.788000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-01 20:44:32.820000000 Z
       content_type_id: section
-      revision: 1
-    title: Financials 2019
+      revision: 2
+    title: Financials
     cover_graphic:
       sys:
         id: 2UGnMyd8eHnwZCd5JD4Aql
