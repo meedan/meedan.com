@@ -2647,10 +2647,10 @@ story:
   alt_date_string: '2020-05-11'
 - sys:
     id: 7gtmJXtROk7m5cbnflRfTz
-    created_at: &13 !ruby/object:DateTime 2020-05-15 09:39:05.001000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-15 10:06:46.991000000 Z
+    created_at: !ruby/object:DateTime 2020-05-15 09:39:05.001000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-03 06:28:17.947000000 Z
     content_type_id: story
-    revision: 0
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -2665,7 +2665,29 @@ story:
         linkType: Environment
   title: 'Elections, Promises, and COVID-19 : Three Years of Supporting Fact-Checking
     and Verification in East Africa'
-  slug: elections-promises-and-covid-19-three-years-in-supporting-fact-checking-and
+  slug: fact-checking-verification-in-east-africa
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 4coJhMidZWp6bpDzdkdB2c
+        created_at: !ruby/object:DateTime 2020-06-03 01:58:45.167000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-03 02:14:49.703000000 Z
+      title: meedan blog africa
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4coJhMidZWp6bpDzdkdB2c/3d629806605bd0d400859f38a88e50c1/meedan_blog_africa.jpg"
+    description: 
+    title: meedan blog africa
+    url: "//images.ctfassets.net/g118h5yoccvd/4coJhMidZWp6bpDzdkdB2c/3d629806605bd0d400859f38a88e50c1/meedan_blog_africa.jpg"
   body: "In July 2018, I traveled to Zimbabwe to join The Carter Center to work with
     civil society organizations and newsrooms on tracking and addressing misinformation
     around the first harmonized elections in the country after Robert Mugabe stepped
@@ -2794,7 +2816,7 @@ story:
     being answered by experts. Subscribe [here](https://speakbridge.us11.list-manage.com/subscribe?u=539fbe59ddc773c6592797bf2&id=8fa4ab9399).\n\n\n__Are
     you an African organization or group interested in using Check in your editorial
     workflow? We are expanding our work on the continent and would love to hear from
-    you. Please get in touch  wafaa{at}meedan.com. __"
+    you. Please get in touch wafaa{at}meedan.com.__"
   words_by:
     en-US:
     - sys:
@@ -2811,11 +2833,12 @@ story:
         en-US: Program Manager, East Africa
       location:
         en-US: Berlin
+  alt_date: !ruby/object:DateTime 2020-06-02 00:00:00.000000000 Z
   date: '2020-05-15'
+  image: https://images.ctfassets.net/g118h5yoccvd/4coJhMidZWp6bpDzdkdB2c/3d629806605bd0d400859f38a88e50c1/meedan_blog_africa.jpg
   title-en: 'Elections, Promises, and COVID-19 : Three Years of Supporting Fact-Checking
     and Verification in East Africa'
-  alt_date: *13
-  alt_date_string: '2020-05-15'
+  alt_date_string: '2020-06-02'
 - sys:
     id: 16nHBCq3HdUvVf8UEy25qA
     created_at: !ruby/object:DateTime 2020-05-19 21:53:02.857000000 Z
@@ -2935,10 +2958,10 @@ story:
   alt_date_string: '2020-05-20'
 - sys:
     id: 5BRYd5pcfXQaZeRnX6fTrC
-    created_at: &14 !ruby/object:DateTime 2020-05-22 22:05:20.512000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-27 21:55:52.614000000 Z
+    created_at: &13 !ruby/object:DateTime 2020-05-22 22:05:20.512000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-03 02:20:17.143000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -2968,27 +2991,16 @@ story:
       sys:
         id: VWVvfjGQKVSQJu7jrfJu6
         created_at: !ruby/object:DateTime 2020-05-27 21:50:52.641000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-27 21:51:13.887000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-03 02:20:02.168000000 Z
       title: The Arc of Alignment as described by The Reboot
       description: The Arc of Alignment as described by The Reboot
-      url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/b3ead8fc49ef0b9208f259ce73abda0b/thereboot.arcofalignment.png"
     description: The Arc of Alignment as described by The Reboot
     title: The Arc of Alignment as described by The Reboot
-    url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png"
-  social_card_image:
-    en-US:
-      sys:
-        id: VWVvfjGQKVSQJu7jrfJu6
-        created_at: !ruby/object:DateTime 2020-05-27 21:50:52.641000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-27 21:51:13.887000000 Z
-      title: The Arc of Alignment as described by The Reboot
-      description: The Arc of Alignment as described by The Reboot
-      url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png"
-  body: "![The Arc of Alignment as described by The Reboot](//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png)\n\nThis
-    is part 2 of a [two-part series](https://meedan.com/blog/3-things-we-learned-on-designing-collaborations-from-the-reboots-masterclass/).\n\nOver
-    the past few weeks, a number of Meedan team members have been attending Reboot’s
-    online series on [Driving Transformative Collaboration](https://reboot.org/2020/04/14/driving-transformative-collaboration-reboot-masterclass-series/).
-    \ As the workshop describes itself:\n\nCOVID-19 demands that we build diverse
+    url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/b3ead8fc49ef0b9208f259ce73abda0b/thereboot.arcofalignment.png"
+  body: "Over the past few weeks, a number of Meedan team members have been attending
+    Reboot’s online series on [Driving Transformative Collaboration](https://reboot.org/2020/04/14/driving-transformative-collaboration-reboot-masterclass-series/).
+    As the workshop describes itself:\n\n> COVID-19 demands that we build diverse
     coalitions to advance equitable and effective response efforts. These efforts
     must draw on the radical imaginations of our artists, the moral courage of our
     activists, the innovation of community organizers, the agenda-setting influence
@@ -2997,32 +3009,33 @@ story:
     at the intersection of a number of different sectors — journalists, academics,
     policy researchers, human rights workers, artists and others — at a global scale,
     and so this is a topic close to our heart. We wrote previously about insights
-    we gained from the first event. Here are three more from the most recent two events:\n\n__Do
-    the work before the work.__\n\nWorking with different sectors and personas from
+    we gained from the first event. Here are three more from the most recent two events:\n\n###
+    Do the work before the work.\n\nWorking with different sectors and personas from
     all over the world, we found it really helpful to “do the work before the work”
     and understand our collaborators’ interests, anxieties and agendas before getting
     together. Knowing about their journeys and impact will allow us to introduce unheard
     perspectives and this can be extended to our collaborators themselves getting
     to know each other! We can do this by creating materials and sharing a synthesized
     version across the collaborators of a specific project, we can then ground on
-    the communalities we have and we may think about a shared problem ahead of time.\n\n\n__Document
-    document document. Even when it’s hard.\n__\n\nThe Reboot team shared an all-too-familiar
-    sentiment with participants about the often conflicted relationship that can be
-    experienced with documentation – it can take quite some time to develop the documentation
-    that teams need to stay organized and aligned, but these documents are well worth
-    the investment. Keeping information up-to-date and organized can help to ensure
-    expectations are shared and agreed-upon by the team, and a short-term investment
-    in documentation can help prevent challenges in alignment in the future. \n\n\n__When
-    everything’s important, create structures for alignment.\n__\n\nIt can seem like
-    everything’s important. And that’s true. But that also creates barrier for getting
-    a project started. The Arc of Alignment that Reboot’s team articulated enables
-    an excellent framework, which felt very much like a masterclass in meeting facilitation.
-    “Brainstorm, with Bumpers” is something I think all program and product managers
-    have to navigate, and the toolkit they’ve provided is one we use a lot at Meedan
-    - facilitated conversation through structured whiteboarding and post-it sessions,
-    followed by group prioritization. The brainstorming is part of the work, and with
-    that necessarily comes tension. How teams navigate that tension is part of what
-    distinguishes success from struggles.\n"
+    the communalities we have and we may think about a shared problem ahead of time.\n\n\n###
+    Document document document. Even when it’s hard.\n\nThe Reboot team shared an
+    all-too-familiar sentiment with participants about the often conflicted relationship
+    that can be experienced with documentation – it can take quite some time to develop
+    the documentation that teams need to stay organized and aligned, but these documents
+    are well worth the investment. Keeping information up-to-date and organized can
+    help to ensure expectations are shared and agreed-upon by the team, and a short-term
+    investment in documentation can help prevent challenges in alignment in the future.
+    \n\n\n### When everything’s important, create structures for alignment.\n\nIt
+    can seem like everything’s important. And that’s true. But that also creates barrier
+    for getting a project started. The Arc of Alignment that Reboot’s team articulated
+    enables an excellent framework, which felt very much like a masterclass in meeting
+    facilitation. “Brainstorm, with Bumpers” is something I think all program and
+    product managers have to navigate, and the toolkit they’ve provided is one we
+    use a lot at Meedan - facilitated conversation through structured whiteboarding
+    and post-it sessions, followed by group prioritization. The brainstorming is part
+    of the work, and with that necessarily comes tension. How teams navigate that
+    tension is part of what distinguishes success from struggles.\n\nThis is part
+    2 of a [two-part series](https://meedan.com/blog/3-things-we-learned-on-designing-collaborations-from-the-reboots-masterclass/)."
   words_by:
     en-US:
     - sys:
@@ -3050,7 +3063,7 @@ story:
       staff:
         en-US: false
   date: '2020-05-22'
-  image: https://images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/a86bfee12820d26378138acfe1f00896/thereboot.arcofalignment.png
+  image: https://images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/b3ead8fc49ef0b9208f259ce73abda0b/thereboot.arcofalignment.png
   title-en: 3 (More!) Things We Learned about Cohesive Action from the Reboot
-  alt_date: *14
+  alt_date: *13
   alt_date_string: '2020-05-22'

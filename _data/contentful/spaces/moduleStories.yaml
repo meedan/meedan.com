@@ -3,11 +3,166 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-20 21:14:24.856000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-03 06:29:06.352000000 Z
     content_type_id: moduleStories
-    revision: 19
+    revision: 21
   title: Blog
   stories:
+  - sys:
+      id: 7gtmJXtROk7m5cbnflRfTz
+      created_at: !ruby/object:DateTime 2020-05-15 09:39:05.001000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-03 06:28:17.947000000 Z
+      content_type_id: story
+      revision: 2
+    title: 'Elections, Promises, and COVID-19 : Three Years of Supporting Fact-Checking
+      and Verification in East Africa'
+    slug: fact-checking-verification-in-east-africa
+    topic:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: 4coJhMidZWp6bpDzdkdB2c
+        created_at: !ruby/object:DateTime 2020-06-03 01:58:45.167000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-03 02:14:49.703000000 Z
+      title: meedan blog africa
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4coJhMidZWp6bpDzdkdB2c/3d629806605bd0d400859f38a88e50c1/meedan_blog_africa.jpg"
+    body: "In July 2018, I traveled to Zimbabwe to join The Carter Center to work
+      with civil society organizations and newsrooms on tracking and addressing misinformation
+      around the first harmonized elections in the country after Robert Mugabe stepped
+      down.\n\nWhen I arrived in Zimbabwe, election-related propaganda was all over
+      news media and social media. As an Egyptian, I was all too familiar with this
+      kind of information ecosystem: mainstream media is owned by the state, and its
+      goal is simply to amplify and spread one side of the story — that of those in
+      power. Wandering the streets of Harare, it was impossible not to notice the
+      dominance of the ruling party Zimbabwe African National Union – Patriotic Front
+      ([Zanu-PF](https://en.wikipedia.org/wiki/ZANU%E2%80%93PF)) in its use of posters
+      and billboards. Zimbabwe’s digital streets — Facebook, Twitter, YouTube, were
+      similarly flooded with pro-Zanu-PF content: memes, articles, and videos all
+      designed and spread to support the long-time ruling party.\n\nThough we had
+      worked for more than a decade in North Africa, at the time our work in sub-saharan
+      Africa was in its early days. Meedan was in the middle of developing a network
+      in East Africa, which included launching a partnership with [PesaCheck](https://pesacheck.org/)
+      to support the fact-checking ecosystem in the region. Fact-checkers at PesaCheck
+      integrated Meedan’s open source toolkit, [Check](http://meedan.com/en/check),
+      into their workflows and verified statements from public figures in Kenya, Uganda
+      and Tanzania. \n\nComing to Zimbabwe in 2018, we found a nation and people full
+      of hope and looking for the political change needed to address decades of corruption
+      and the challenges of [their brutal economic situation](https://www.worldbank.org/en/country/zimbabwe/overview).
+      In an earlier [post](https://medium.com/meedan-updates/how-zimbabwes-fact-checkers-monitored-the-2018-election-using-check-51c948d5d7f6)
+      this year, I wrote about how Robert Mugabe’s retirement from his presidency
+      in 2017 opened up the region to a new era. Our invitation to join the Carter
+      Center team in Zimbabwe to help partners monitor and assess the role of online
+      mis and disinformation represented [the first time in more than a decade that
+      international election observers](https://www.commonwealthroundtable.co.uk/commonwealth/africa/zimbabwe/zimbabwe-and-election-observation-missions/)
+      were able to monitor an election in Zimbabwe, and as such certainly represented
+      the first online election media analysis effort there. . In this spirit the
+      2018 Zimbabwe presidential, parliamentary, and local government elections (harmonized
+      elections) took place on July 30, 2018.\n\n[Our collaborations in Zimbabwe](https://medium.com/meedan-updates/how-zimbabwes-fact-checkers-monitored-the-2018-election-using-check-51c948d5d7f6)
+      included the fact-checking initiative [ZimFact](https://zimfact.org/) as well
+      as the Centre for Innovation & Technology ([CITE](http://www.cite.org.zw/about-us/)),
+      a group in South Zimbabwe that supports initiatives led by youths, journalists,
+      and designers. \n\n\n### A new phase of Check Global: Post-Election Narratives\n\nThe
+      Kenya elections in 2017 were “marred by serious human rights violations, including
+      unlawful killings and beatings by police during protests and house-to-house
+      operations” according to[ Human Rights Watch](https://www.hrw.org/news/2017/08/27/kenya-post-election-killings-abuse).
+      Under those circumstances, Check Global fact-checking partners CITE (in Zimbabwe)
+      \ and PesaCheck  (in Kenya) continued to verify social media evidence after
+      the elections and focused on how to hold politicians accountable to their constituencies.\n\nCurrently,
+      PesaCheck in Kenya is building a prototype of Wajibisha, which means “to hold
+      accountable,” a promise tracker with a focus on fact-checking budgetary promises
+      and election promises, for initial deployment in Kenya and Uganda. Promises
+      are logged on Meedan 's Check platform covering the following thematic areas
+      - Health, Housing, Jobs, Governance, Environment, Traffic Management and Social
+      Inclusion (Youth, Women and Persons with Disabilities). Updates on the progress
+      of delivery on these promises will then reflect on the main promise tracker
+      website, which is not yet available to the general public but will be soon.\n\nEric
+      Mugendi, the managing editor of PesaCheck, explains their use of Check:: \n\n>
+      \"Check as a platform has enabled us to collaborate both within and outside
+      our organization to fact-check and verify content. Our team is distributed in
+      three countries, and we work on different platforms. Check allows us to keep
+      track of what everyone is doing, and ensures that our work is done to the same
+      standard. We are exploring new ways to use the platform, and the most promising
+      one so far is in keeping track of promises by elected figures. \"\n\nIn Zimbabwe,
+      CITE is working on [The Digital Media for Accountability Project](https://www.cite.org.zw/category/factcheckzw/).
+      This is an innovative project that combines digital technology, journalistic
+      fact-checking skills and capacity building to promote social accountability
+      at the local government level. Focusing mainly on Bulawayo, Zimbabwe’s second
+      capital city, the project aims to track and check statements made by the Bulawayo
+      City Council. CITE continues to use Check in their daily fact-checking workflow
+      to provide citizens with timely, relevant and accurate information on issues
+      of local governance, service delivery and public resources management. \n\nCalling
+      Check’s workflow “harmonious” and “intuitive,” Sean Ndlovu, co-founder of CITE,
+      said: \n\n> \"The Check platform has allowed us at CITE to be able to follow
+      up on announcements, promises and proclamations made by local authorities in
+      Zimbabwe in a systematic and archival way. The Check platform also allows us
+      to collaborate as a team by assigning tasks to each other in a seamless way
+      thus helping the team to report on claims in a simple and standardised format.
+      \"\n\n### Check Global intersections with different projects at Meedan\n\nWe’ve
+      also expanded our work with our current Check Global partners in East Africa
+      in that it  is also feeding the capacity of our Claims and Memes Database (CMDb)
+      project. The CMDb project was possible by the generous support of Open Tech
+      Fund (OTF), and it's an API-accessible repository of fact checked claims and
+      debunked visual misinformation from internet repressive countries, where disinformation
+      and social network manipulation have become key censorship strategies. As we
+      witnessed visual misinformation travel between Kenya and Zimbabwe during the
+      elections, we realized the importance of creating an annotated and verified
+      database for claims and memes. \n\nIn July 2019, I was honored to travel to
+      Kenya to participate in a collaborative pop-up newsroom to counter misinformation
+      during the Kenyan census. This effort was organized by Meedan and supported
+      by Article 19. During this pop-up workshop we collected, annotated, and verified
+      Kenyan memes based on the census.\n\n### What's new for Check Global in East
+      Africa in 2020?\n\nAs the World Health Organization (WHO) [announced the COVID-19
+      outbreak as a pandemic](https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020)
+      and a global health crisis, health misinformation and rumors have multiplied
+      across platforms, thus undermining efforts for producing reliable and factual
+      information around the virus.\n\nEast African countries face different challenges
+      on many levels, not only in terms of weakened [public health services](https://time.com/5816299/coronavirus-africa-ventilators-doctors/?utm_source=twitter&utm_medium=social&utm_campaign=editorial&utm_term=world_&linkId=85995855)
+      and infrastructure, but also rising [mis/disinformation on social media platforms](https://www.article19.org/resources/coronavirus-new-article-19-briefing-on-tackling-misinformation/),
+      lacking [access to public records and information](https://cipesa.org/2020/04/why-access-to-information-on-covid-19-is-crucial-to-persons-with-disabilities-in-africa/),
+      [severe cutbacks to free speech](https://ifex.org/covid-19-in-africa-right-to-information-another-casualty-with-spike-in-attacks-on-journalists/),
+      [internet and telecom accessibility issues](https://www.dw.com/en/how-the-internet-is-making-stay-at-home-difficult-for-africans/a-53048013),
+      and worsening [civil rights violations](https://cipesa.org/2020/04/cipesa-submission-to-un-special-rapporteur-spotlights-rights-concerns-in-africas-covid-19-response/).\n\n__Meedan
+      launched [new COVID-19 microgrants](https://meedan.com/blog/new-microgrants-for-covid-19-media-work-in-emerging-economies/)__
+      to support independent media projects in Africa. Our goal was to support journalists,
+      activists and citizen journalists to explore open source investigations and
+      verification storytelling. \n\nWe are monitoring the COVID-19 situation closely
+      in East Africa with our partners, with whom we are discussing and adapting new
+      ways of virtual training programs that, while it will no longer require the
+      physical attendance of participants, will continue to keep them involved. \n\n[CITE](https://www.cite.org.zw/)
+      just launched an online learning platform '[Funda](http://funda.cite.org.zw/)'
+      (meaning 'learn' in [Ndebele](https://www.britannica.com/topic/Ndebele-Zimbabwean-people)),
+      relying on online learning resources from [Nawa Media](https://nawamedia.org/courses/),
+      a separate Check Global project that brings together journalism students across
+      five countries (Tunisia, Egypt, Lebanon, Syria, and Yemen) across North Africa,
+      West Asia to instill the next generation of Arab-speaking journalists with open-source
+      investigation tools, fact-checking skills, and an acumen for digital and media
+      literacy. \n\nSeparately, [PesaCheck](https://pesacheck.org/) is creating two
+      massive open online courses (MOOC), one on general fact-checking processes using
+      Check and another on how to build Promise Tracking using Check. PesaCheck will
+      conduct virtual training using these modules with four different newsrooms in
+      Kenya.\n\n\nThis increased inter-partner collaboration, not only manifested
+      in East Africa, has accelerated and strengthened Meedan’s aspirations to bring
+      our partners together within the [Check Global Network](https://meedan.com/blog/join-the-check-global-network-for-media-and-tech-in-emerging-economies/).
+      The Network  virtually launched on May 5, 2020.. \n\n\n### Events\n\nIn light
+      of the COVID-19 pandemic, we are not attending events this year, as a number
+      of the conferences we typically attend have been canceled. That said, we are
+      moving this energy online and hosting  a series of online conversations. Please
+      stay tuned for more info on these virtual events by following us on social media
+      or on our newsletter. \n\nWe invite all our partners to send us tips and ideas
+      for our weekly newsletter, [The Checklist](https://us11.campaign-archive.com/home/?u=539fbe59ddc773c6592797bf2&id=8fa4ab9399),
+      weekly misinformation news around the world. Meedan's Digital Health Lab is
+      working with a team of scientists to answer the most important and complex pandemic
+      questions. Each week, we highlight [the most important questions](https://us11.campaign-archive.com/?u=539fbe59ddc773c6592797bf2&id=70729b5123)
+      being answered by experts. Subscribe [here](https://speakbridge.us11.list-manage.com/subscribe?u=539fbe59ddc773c6592797bf2&id=8fa4ab9399).\n\n\n__Are
+      you an African organization or group interested in using Check in your editorial
+      workflow? We are expanding our work on the continent and would love to hear
+      from you. Please get in touch wafaa{at}meedan.com.__"
+    words_by:
+    - sys:
+        id: 5RAhIbkGFCzRWLiEMbezs9
+    alt_date: !ruby/object:DateTime 2020-06-02 00:00:00.000000000 Z
   - sys:
       id: 16nHBCq3HdUvVf8UEy25qA
       created_at: !ruby/object:DateTime 2020-05-19 21:53:02.857000000 Z
@@ -78,6 +233,69 @@ moduleStories:
     - sys:
         id: 1uaMTril4FB8NxxRTKwLDH
     alt_date: !ruby/object:DateTime 2020-05-20 00:00:00.000000000 Z
+  - sys:
+      id: 5BRYd5pcfXQaZeRnX6fTrC
+      created_at: !ruby/object:DateTime 2020-05-22 22:05:20.512000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-03 02:20:17.143000000 Z
+      content_type_id: story
+      revision: 3
+    title: 3 (More!) Things We Learned about Cohesive Action from the Reboot
+    slug: 3-more-things-we-learned-about-cohesive-action-from-the-reboot
+    topic:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+    lead_image:
+      sys:
+        id: VWVvfjGQKVSQJu7jrfJu6
+        created_at: !ruby/object:DateTime 2020-05-27 21:50:52.641000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-03 02:20:02.168000000 Z
+      title: The Arc of Alignment as described by The Reboot
+      description: The Arc of Alignment as described by The Reboot
+      url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/b3ead8fc49ef0b9208f259ce73abda0b/thereboot.arcofalignment.png"
+    body: "Over the past few weeks, a number of Meedan team members have been attending
+      Reboot’s online series on [Driving Transformative Collaboration](https://reboot.org/2020/04/14/driving-transformative-collaboration-reboot-masterclass-series/).
+      As the workshop describes itself:\n\n> COVID-19 demands that we build diverse
+      coalitions to advance equitable and effective response efforts. These efforts
+      must draw on the radical imaginations of our artists, the moral courage of our
+      activists, the innovation of community organizers, the agenda-setting influence
+      of our media, the values of our civil society leaders, the infrastructure of
+      the private sector, and the reach of our public institutions.\n\nAt Meedan,
+      we work at the intersection of a number of different sectors — journalists,
+      academics, policy researchers, human rights workers, artists and others — at
+      a global scale, and so this is a topic close to our heart. We wrote previously
+      about insights we gained from the first event. Here are three more from the
+      most recent two events:\n\n### Do the work before the work.\n\nWorking with
+      different sectors and personas from all over the world, we found it really helpful
+      to “do the work before the work” and understand our collaborators’ interests,
+      anxieties and agendas before getting together. Knowing about their journeys
+      and impact will allow us to introduce unheard perspectives and this can be extended
+      to our collaborators themselves getting to know each other! We can do this by
+      creating materials and sharing a synthesized version across the collaborators
+      of a specific project, we can then ground on the communalities we have and we
+      may think about a shared problem ahead of time.\n\n\n### Document document document.
+      Even when it’s hard.\n\nThe Reboot team shared an all-too-familiar sentiment
+      with participants about the often conflicted relationship that can be experienced
+      with documentation – it can take quite some time to develop the documentation
+      that teams need to stay organized and aligned, but these documents are well
+      worth the investment. Keeping information up-to-date and organized can help
+      to ensure expectations are shared and agreed-upon by the team, and a short-term
+      investment in documentation can help prevent challenges in alignment in the
+      future. \n\n\n### When everything’s important, create structures for alignment.\n\nIt
+      can seem like everything’s important. And that’s true. But that also creates
+      barrier for getting a project started. The Arc of Alignment that Reboot’s team
+      articulated enables an excellent framework, which felt very much like a masterclass
+      in meeting facilitation. “Brainstorm, with Bumpers” is something I think all
+      program and product managers have to navigate, and the toolkit they’ve provided
+      is one we use a lot at Meedan - facilitated conversation through structured
+      whiteboarding and post-it sessions, followed by group prioritization. The brainstorming
+      is part of the work, and with that necessarily comes tension. How teams navigate
+      that tension is part of what distinguishes success from struggles.\n\nThis is
+      part 2 of a [two-part series](https://meedan.com/blog/3-things-we-learned-on-designing-collaborations-from-the-reboots-masterclass/)."
+    words_by:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+    - sys:
+        id: 3LwmNUnWdLGIZbvPisgSL5
   - sys:
       id: fb5HPOQ7ZE8M5gDsXXEoe
       created_at: !ruby/object:DateTime 2020-04-22 13:43:59.591000000 Z
@@ -203,237 +421,3 @@ moduleStories:
     - sys:
         id: 57swkb0x1YLvhHB31YFb3U
     alt_date: !ruby/object:DateTime 2020-05-15 00:00:00.000000000 Z
-  - sys:
-      id: 43f4qKh3bGCC2Wpn9odtte
-      created_at: !ruby/object:DateTime 2020-05-07 02:27:33.621000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-12 17:16:58.858000000 Z
-      content_type_id: story
-      revision: 2
-    title: Textfakes, Deepfakes, and the Power of Context
-    slug: textfakes-deepfakes-and-the-power-of-context
-    topic:
-    - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
-    lead_image:
-      sys:
-        id: FRaQKCZnJm7KOPYizwe3w
-        created_at: !ruby/object:DateTime 2020-05-11 19:37:16.741000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-11 20:11:27.205000000 Z
-      title: Textfakes, Deepfakes, and the Power of Context
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/FRaQKCZnJm7KOPYizwe3w/912553475d66a9bb7cc3b51a772f3f94/Meedan_sms.png"
-    body: |-
-      "I'm going to the grocery store asap," my friend texted me a few weeks ago, at the peak of the confusion around COVID-19 in the US. He'd heard word from a friend of a friend that President Trump was going to declare a nationwide quarantine. The text came through with urgency and authority --- the President was going to invoke the Stafford Act, the National Guard was going to be called in, and no one would be allowed outside their homes for two weeks.
-
-      It wasn't true, but it felt true, and it felt especially true in the early morning hours when I got the message. I could feel in my bones a sense of dread --- wait, maybe this time it's real? California and New York were already shutting down. President Trump did declare a national emergency using the Stafford Act. There were indeed [credible recommendations from epidemiologists](https://www.latimes.com/science/story/2020-03-13/coronavirus-shopping-list-your-essential-quarantine-items) that we stock up for two weeks in case we need to quarantine. And the [National Guard had already been called](https://www.npr.org/2020/03/10/814164923/new-york-state-deploys-national-guard-to-manage-coronavirus-in-nyc-suburb) into a number of outbreak zones in the United States.
-
-      The problem comes in the shades of gray: the Stafford Act does grant enormous powers to the President, but [national quarantine is not one of them](https://www.usatoday.com/story/news/factcheck/2020/03/19/fact-check-does-stafford-act-allow-trump-order-quarantine/2872743001/). The National Guard has been deployed, not to enforce anything remotely resembling martial law but instead to help with [cleaning, testing and food delivery](https://www.vox.com/2020/3/24/21188088/coronavirus-national-guard-testing-food-cleaning-martial). Cities and states have indeed issued shelter-in-place orders, but [the federal government doesn't have direct power](https://www.npr.org/2020/04/02/825293201/a-president-is-not-able-to-order-a-national-quarantine-experts-say) over these. Around the world, we're indeed  seeing national lockdowns in places like India, China and Hungary, with tremendous implications on civil rights. In this context, it might not be unreasonable to think that a military-enforced quarantine might be coming for the United States.
-
-      [A recent New York Times article](https://www.nytimes.com/2020/03/16/us/coronavirus-text-messages-national-quarantine.html) pointed out that false and misleading information is part of an ongoing problem in the wake of the pandemic: "With the rapid spread of the coronavirus across the world, misinformation has followed suit," the article noted. It continues:
-
-      Other [SMS] messages in recent weeks, reflecting the same pattern, have warned that New York City public transit would shut down last week (it's still running), or that the entire Pacific Northwest would be quarantined last week (also not true). At least one message said that President Trump would declare a national emergency within three days --- Mr. Trump declared the emergency on Friday, but that did not give him the power to impose a national quarantine.
-
-      ![Meedan sms 2](//images.ctfassets.net/g118h5yoccvd/Qad98m6x2PoDGg9WD0DaW/91f2f80e2539ad70eec5389dd59470c6/Meedan_sms_2.png)
-
-      Over the past year, the misinformation research community has been sounding the alarm about deepfakes, [a form of synthetic media](https://lab.witness.org/projects/synthetic-media-and-deep-fakes/) (i.e., media made by artificial intelligence) wherein people are made to look like they're saying or doing something that they're not. In January of this year, as the novel coronavirus that causes COVID-19 was spreading across China and --- as we would later learn --- much of the world, [Facebook announced a ban on AI-generated videos](https://www.theguardian.com/technology/2020/jan/07/facebook-bans-deepfake-videos-in-run-up-to-us-election). That same month, [William A. Galston at the Brookings Institution](https://www.brookings.edu/research/is-seeing-still-believing-the-deepfake-challenge-to-truth-in-politics/) warned that "If AI is reaching the point where it will be virtually impossible to detect audio and video representations of people saying things they never said (and even doing things they never did), seeing will no longer be believing, and we will have to decide for ourselves---without reliable evidence---whom or what to believe."
-
-      Galston wrote these words with an eye on the upcoming 2020 election in the US, but just a few months later, the COVID-19 pandemic has quickly placed the US election into the background of national conversations. Furthermore, the misinformation thriving now is not deepfakes but cheap fakes --- what [Data & Society researchers Britt Paris and Joan Donovan](https://datasociety.net/library/deepfakes-and-cheap-fakes/) define as "an AV manipulation created with cheaper, more accessible software (or, none at all). Cheap fakes can be rendered through Photoshop, lookalikes, re-contextualizing footage, speeding, or slowing." Cheap fakes can simply be miscontextualized videos, like one going viral on [WhatsApp purportedly showing panicked mobs in the Netherlands](https://www.bellingcat.com/news/2020/03/13/monitoring-and-debunking-covid-19-panic-the-haarlem-aldi-hoax/). 
-
-      But much of today's pandemic misinformation is proving to be even simpler: what I call text fakes --- the oldest form of media manipulation, made possible by the ability to put words on a page, or a screen, or spread it around rapidly on private messaging apps. 
-
-      The text fake goes back to the days of scrolls and pamphlets. [The ancient Romans engaged in information combat](https://www.ft.com/content/aaf2bb08-dca2-11e6-86ac-f253db7791c6), using the literary implements of their time to spread disinformation and confusion. But it was the rise of moveable type in the 15th century that soon yielded pamphleteering as a popular medium for politics. As such, they became an early source of text fakes: "Cheap and made on the smallest sheets of paper," noted [one article in the New Yorker](https://www.newyorker.com/culture/cultural-comment/how-we-solved-fake-news-the-first-time), "pamphlets were written for attention and money. How do you get attention? Then, as now, successful strategies included exaggeration and hating others (in the pamphlets' case, Catholics). Elaborate conspiracy theories were popular, too." Essayist and pamphleteer Jonathan Swift famously observed that "falsehood flies, and truth comes limping after." 
-
-      Much of the deepfake discussion in 2019 focused lagely on the content of synthetic media --- what the media shows, how to detect it, what it might say, how it might mislead. Cheap fakes and text fakes floating around private messaging apps and public social media are, alternatively, a reminder of the importance of the context of media --- the mental state of the recipient, the narrative discourse in media and the general public, the relationship between the person sending the message and the person(s) receiving it, the political situation in the region, and a variety of other factors that influence how we interpret a piece of content, whether it's a piece of text or a fully-manipulated video.
-
-      The history of writing suggests that as more people gain access to writing tools and the ability to manipulate the written word, the more we see misinformation in text. We should expect the same of video, with the rise of video editing tools and synthetic media. Beware the text fake --- it's a powerful reminder that when content flies around the internet, our understanding of its context still comes limping after.
-    words_by:
-    - sys:
-        id: 3LwmNUnWdLGIZbvPisgSL5
-    alt_date: !ruby/object:DateTime 2020-05-11 00:00:00.000000000 Z
-  - sys:
-      id: 7sGFJi7LUmGTrrls0c8WLM
-      created_at: !ruby/object:DateTime 2020-05-04 14:40:43.306000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-04 23:34:38.754000000 Z
-      content_type_id: story
-      revision: 2
-    title: Meedan recognizes World Press Freedom Day
-    slug: meedan-recognizes-world-press-freedom-day
-    topic:
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 6kmCs85D8h4K4eW2EuJSA2
-        created_at: !ruby/object:DateTime 2020-05-04 18:53:27.835000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-04 19:08:28.620000000 Z
-      title: graphic wp1
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6kmCs85D8h4K4eW2EuJSA2/9f9f890047ed22bea8b1f590cd43dd83/graphic_wp1.png"
-    body: "As global journalism grapples with the COVID-19 pandemic, a number of challenges
-      to press freedom remain. But the crisis also presents an opportunity to reimagine
-      media in a post COVID-19 world. In time with World Press Fredom Day, we are
-      launching our [Check Global Network](https://meedan.com/blog/join-the-check-global-network-for-media-and-tech-in-emerging-economies/),
-      our community for non-profits and collectives working in the area of independent
-      media and information and communication technologies (ICTs) in emerging economies.\n\nWith
-      our mission to support global journalism, Meedan cares deeply about press freedom
-      around the world. The COVID-19 pandemic has brought about challenges we’ve been
-      monitoring and writing about through our [Checklist](https://meedan.com/checklist)
-      newsletter. Some of the trends we’ve seen are deeply concerning:\n\n### Journalists
-      are on the frontlines of the pandemic\nJournalists have been on the frontlines
-      reporting the pandemic in different regions. Reporters have been going to hospitals
-      and other hotspots where the risk of exposure to the virus and infection is
-      very high. Several media outlets do not have or cannot provide proper personal
-      protective equipment (PPE) for their staff. According to the [Committee for
-      the Protection of Journalists (CPJ), there is risk of the pandemic impacting
-      journalists’ physical health and psychological well-being](https://cpj.org/blog/2020/04/qa-us-photographers-navigate-a-new-reality-under-c.php).
-      \ \n\n### Media jobs are facing historic losses\nThe COVID-19 pandemic has not
-      only exposed media workers to physical vulnerabilities, it has also decimated
-      an already battered media sector, with many companies reducing hours, holding
-      back salaries or simply sacking their media staff outright, according to the
-      [South Asia Press Freedom Report](https://samsn.ifj.org/wp-content/uploads/2020/05/States-of-Control-IFJ-SAPFR-2019-20.pdf).
-      Shrinking revenue from advertisements, serious disruptions in circulation of
-      newspapers and printed publications and a severe strain on limited revenues
-      have resulted in a job crisis where reporters and journalists across the world
-      are [experiencing pay cuts, reduced hiring and layoffs](https://www.poynter.org/business-work/2020/here-are-the-newsroom-layoffs-furloughs-and-closures-caused-by-the-coronavirus/).
-      \ \n\n### Democracies are undermining press freedom\n[Over the last two and
-      a half months, the International Press Institute’s (IPI) COVID-19 tracker has
-      documented a total of 162 different press freedom violations related to the
-      coronavirus](https://ipi.media/covid19-media-freedom-monitoring/). These range
-      from verbal or physical attacks on journalists to arrests, restrictions on access
-      to information and media censorship. This has created a hostile and challenging
-      environment for independent media and press freedom. Several agencies also note
-      that the current pandemic has given states an opportunity to exercise greater
-      control over the media. IPI has also documented 16 cases of ‘fake news’ laws
-      either being passed with disproportionate penalties or used to take down content
-      about the virus online. IPI notes that while some of these laws are sincere
-      but ill-conceived, others appear to deliberately strengthen authoritarian regimes’
-      arsenal against the press.\n \n### Local journalism is under threat\nDuring
-      a pandemic, people need timely, reliable and unbiased news on local conditions,
-      however, the absence of sustainable and robust business models and distribution
-      networks for local news is making that increasingly difficult. [These newsrooms
-      will have to make strategic shifts in their business models in order to survive
-      the pandemic](https://knightfoundation.org/articles/how-local-news-can-survive-and-thrive-during-the-pandemic/).
-      \n\n### Journalists grapple with misinformation during a pandemic\nIn times
-      of a global pandemic, access to accurate and unbiased information about the
-      disease becomes ever more important. It is critical for the media to share verified
-      and reliable information. However, the widespread use of social media and other
-      platforms to share unverified information, often without scientific proof, can
-      be dangerous and life threatening in the current situation. [UN chief António
-      Guterres noted](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity)
-      that \"the global ‘misinfo-demic’ is spreading,\" using a word coined by Meedan
-      researchers.  [UNESCO is promoting two social media campaigns “to fight the
-      infodemic of rumours and disinformation”](https://unesdoc.unesco.org/ark:/48223/pf0000373354_eng.locale=en).
-      UNESCO has also created a COVID- 19 resource centre for media. This online platform
-      aims to help journalists track false information regarding the pandemic and
-      report on the crisis reliably and effectively, as encouraged by the theme of
-      World Press Freedom Day 2020, “journalism without fear or favour”.\n\nAt the
-      same time, as [Meedan board member Maria Ressa wrote recently](https://time.com/5820620/maria-ressa-coronavirus-democracy/),
-      “The mission of independent journalism has never been as important as it is
-      today, when decisions are being made without transparency. Now more than ever,
-      facts matter. Truth matters. Checks and balances matter.” It’s vital that those
-      working for media freedom around the world come together to re-envision what
-      this can look like.\n\nIn time with World Press Freedom Day, Meedan is thrilled
-      to launch our [Check Global Network](https://meedan.com/blog/join-the-check-global-network-for-media-and-tech-in-emerging-economies/).
-      The network is Meedan’s community that brings together non-profits and collectives
-      working in the area of independent media and information and communication technologies
-      (ICTs) in the emerging economies of Asia-Pacific (APAC), East Africa, Latin
-      America (LATAM), and the North Africa Western Asia region (NAWA).\n\nOur partners
-      from different regions will participate in the launch of the Check Global Network
-      this week. The network will provide its members access to opportunities and
-      forums for sharing, learning and reflection. The main activities will focus
-      on capacity building of members on journalism, fact-checking and organizational
-      development, providing them access to digital tools and the opportunity to be
-      part of a growing impactful community."
-    alt_date: !ruby/object:DateTime 2020-05-03 00:00:00.000000000 Z
-  - sys:
-      id: 6j6je0ogt4Rvk5J0Z8v0Hw
-      created_at: !ruby/object:DateTime 2020-04-28 16:43:41.650000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-27 21:55:25.861000000 Z
-      content_type_id: story
-      revision: 3
-    title: 3 Things We Learned on “Designing Collaborations” from The Reboot's Masterclass
-    slug: 3-things-we-learned-on-designing-collaborations-from-the-reboots-masterclass
-    topic:
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 7xEYY0nAltPNXQhYE8kvcA
-        created_at: !ruby/object:DateTime 2020-04-28 20:17:51.275000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-28 21:36:03.109000000 Z
-      title: One of the slides from The Reboot's Masterclass.
-      description: One of the slides from <a href="https://reboot.org/wordpress/wp-content/uploads/2020/04/Masterclass-Session-1_-_Designing-Collaborations-for-Urgent-Courageous-Change_-Presentation-.pdf">The
-        Reboot's Masterclass</a>.
-      url: "//images.ctfassets.net/g118h5yoccvd/7xEYY0nAltPNXQhYE8kvcA/5f211f50c57bdfd48c775f12d2d731d1/reboot_Designing_Collaborations_for_Urgent_Courageous_Change.png"
-    body: "This is part 2 of a [two-part series](https://meedan.com/blog/3-more-things-we-learned-about-cohesive-action-from-the-reboot/)\n\nThis
-      past Wednesday, three Meedanis had a chance to attend The Reboot’s Masterclass
-      on “[Designing Collaborations for Urgent, Courageous Change](https://reboot.org/2020/04/14/driving-transformative-collaboration-reboot-masterclass-series/),”
-      a 1.5-hour session on cross-sector collaboration. We will be sharing our team's
-      insights for the other two sessions of this webinar series. \n\nAs the workshop
-      describes itself:\n\n> COVID-19 demands that we build diverse coalitions to
-      advance equitable and effective response efforts. These efforts must draw on
-      the radical imaginations of our artists, the moral courage of our activists,
-      the innovation of community organizers, the agenda-setting influence of our
-      media, the values of our civil society leaders, the infrastructure of the private
-      sector, and the reach of our public institutions.\n\nAt Meedan, we work at the
-      intersection of a number of different sectors — journalists, academics, policy
-      researchers, human rights workers, artists and others — at a global scale, and
-      so this is a topic close to our heart. Here are three things we learned from
-      speakers [Panthea Lee, Founder and Executive Director of The Reboot](https://reboot.org/team/panthea-lee/)
-      and [Chelsey Lepage, Associate Director of Programs](https://reboot.org/team/chelsey-lepage/):\n\n__Program
-      and initiative design can look like agile product development, starting with
-      the problem and people.__\n\nFocus on the problem first, invite fewer subject
-      matter experts to the table and more the people that need the solution. Chelsey
-      Lepage suggested framing the problem as a hunch to make everyone collaborating
-      more comfortable when giving inputs. It was insightful to see design and product
-      development concepts applied to program work in such a clear manner.\n\nIn agile
-      product development, defining a good problem statement is always a challenge,
-      and if it is not well-crafted, the user need (solution) will be unmet. Making
-      sure the team and users are involved in the framing is the key. Otherwise, all
-      those hours spent on meetings, coding and design will have resulted in something
-      —  in this context, an initiative — that will never be used. \n\nDuring the
-      webinar, other concepts drew on that shared parallel such as “success criteria''.
-      Knowing what criteria must be met so it is considered a success and how you
-      will measure and identify it is also a core part of the product development
-      cycle. They are embedded in the user stories, so every feature built brings
-      value and is solving a user need. In program design this was presented in the
-      same way: how will you know that an objective in your program was met? What
-      will success look like? The Reboot’s webinar made clear that such as it is in
-      product development, a fruitful initiative design is impossible without true
-      collaboration.\n\n— *Isabella Barroso, Program Manager, Latin America*\n\n__When
-      developing a collaboration, work on building relationships before focusing on
-      the technical challenges you hope to address together.__\n\nWhen launching or
-      developing a collaboration, the webinar leads emphasized the importance of thinking
-      about collaborations as ongoing journeys, with interpersonal relationships to
-      develop and strengthen before technical challenges become the focus. Presenters
-      emphasized that this happens with multiple touchpoints to strengthen the collaboration,
-      to build social cohesion, and to have “conversations as humans first, and as
-      representatives of an organization second”. As organizations work to develop
-      strong and long-term collaborations, the webinar emphasized that relationship
-      building early on can help strengthen the interpersonal accountability that
-      can help with achieving success as a team. \n\nOver the last decade, Meedan
-      has prioritized the development of a global community of contributors and collaborators,
-      working together to build impactful projects at the intersection of information
-      equity and accessibility, global journalism and digital literacy. This webinar
-      emphasized an important value that we as an organization hold dear: as we continue
-      to develop collaborations to address the pressing global challenges of today,
-      we’re committed to centralizing the focus on all forms of expertise, ensuring
-      that all stakeholders are part of collaboration design, and strengthening the
-      foundational relationships that enable success and maximize the impact we can
-      realize together. \n\n— *Nat Gyenes, Senior Program Manager and Lead, Digital
-      Health Lab*\n\n__Living Expertise is a valuable form of expertise that’s often
-      overlooked in favor of formal training and education.__\n\nThe webinar discussed
-      the concept of Living Experts, defined as those who “understand the lived experience
-      of a problem or context.” These experts sit alongside a diversity of perspectives
-      in cross-sector collaboration, such as technical experts, decision makers, implementers
-      and allies. “Take an expensive view of ‘expertise’,” noted the webinar leaders.
-      At Check Global and in [Meedan programs](https://meedan.com/projects) overall,
-      we aim to center different forms of expertise, and this framework made a lot
-      of sense for how we try to implement our initiatives.\n\n— *Mina Xiao, Operations*"
-    words_by:
-    - sys:
-        id: 4JqOrlVgCscDebeRwxYBu8
-    - sys:
-        id: 57swkb0x1YLvhHB31YFb3U
-    - sys:
-        id: 1tmlbKKzfWSfejPphmGRcH
