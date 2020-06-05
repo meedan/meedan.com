@@ -20,6 +20,11 @@ class EventsMapper < ::Jekyll::Contentful::Mappers::Base
         result['event_end_date_string'] = result['event_end_date'].to_date.to_s
       end
 
+      if result['social_card_image']
+        result['image'] = "https:" + result['social_card_image']['url']
+      elsif result['images']
+        result['image'] = "https:" + result['images'][0]['url']
+      end
 
       result
     end

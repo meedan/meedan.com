@@ -46,6 +46,9 @@
                 {% if page.non_public %}
                     <span>By invitation only</span>
                 {% endif %}
+                {% if page.register_link %}
+                    <span><a href="{{ page.register_link }}">Attend</a></span>
+                {% endif %}
             </div>
         </div>
     {% endif %}

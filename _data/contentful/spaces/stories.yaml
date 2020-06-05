@@ -2648,9 +2648,9 @@ story:
 - sys:
     id: 7gtmJXtROk7m5cbnflRfTz
     created_at: !ruby/object:DateTime 2020-05-15 09:39:05.001000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-03 06:28:17.947000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-03 20:11:11.293000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -2679,15 +2679,15 @@ story:
   lead_image:
     en-US:
       sys:
-        id: 4coJhMidZWp6bpDzdkdB2c
-        created_at: !ruby/object:DateTime 2020-06-03 01:58:45.167000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-03 02:14:49.703000000 Z
-      title: meedan blog africa
+        id: 4hHb9rKU6NNyYSMcgQvN1K
+        created_at: !ruby/object:DateTime 2020-06-03 20:10:52.583000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-03 20:11:07.463000000 Z
+      title: meedan blog africa wide
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4coJhMidZWp6bpDzdkdB2c/3d629806605bd0d400859f38a88e50c1/meedan_blog_africa.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/4hHb9rKU6NNyYSMcgQvN1K/be8dc4895ea33f093aeb9ffabb3dc93b/meedan_blog_africa_wide.jpg"
     description: 
-    title: meedan blog africa
-    url: "//images.ctfassets.net/g118h5yoccvd/4coJhMidZWp6bpDzdkdB2c/3d629806605bd0d400859f38a88e50c1/meedan_blog_africa.jpg"
+    title: meedan blog africa wide
+    url: "//images.ctfassets.net/g118h5yoccvd/4hHb9rKU6NNyYSMcgQvN1K/be8dc4895ea33f093aeb9ffabb3dc93b/meedan_blog_africa_wide.jpg"
   body: "In July 2018, I traveled to Zimbabwe to join The Carter Center to work with
     civil society organizations and newsrooms on tracking and addressing misinformation
     around the first harmonized elections in the country after Robert Mugabe stepped
@@ -2835,7 +2835,7 @@ story:
         en-US: Berlin
   alt_date: !ruby/object:DateTime 2020-06-02 00:00:00.000000000 Z
   date: '2020-05-15'
-  image: https://images.ctfassets.net/g118h5yoccvd/4coJhMidZWp6bpDzdkdB2c/3d629806605bd0d400859f38a88e50c1/meedan_blog_africa.jpg
+  image: https://images.ctfassets.net/g118h5yoccvd/4hHb9rKU6NNyYSMcgQvN1K/be8dc4895ea33f093aeb9ffabb3dc93b/meedan_blog_africa_wide.jpg
   title-en: 'Elections, Promises, and COVID-19 : Three Years of Supporting Fact-Checking
     and Verification in East Africa'
   alt_date_string: '2020-06-02'
@@ -3067,3 +3067,382 @@ story:
   title-en: 3 (More!) Things We Learned about Cohesive Action from the Reboot
   alt_date: *13
   alt_date_string: '2020-05-22'
+- sys:
+    id: 51b7Zp4ynwTDHtNhp4aBQL
+    created_at: !ruby/object:DateTime 2020-06-05 01:17:43.296000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-05 03:37:58.006000000 Z
+    content_type_id: story
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: We must demand more of our institutions and of our leaders
+  slug: we-must-demand-more-of-our-institutions-and-of-our-leaders
+  body: "All injustices have at their core an abuse of power. Systemic injustices
+    ingrain these abuses into the structure of our societies, into the mechanics of
+    how power, money, opportunity, and—as the past months have made so brutally apparent—health
+    is accessed and distributed. \n\nAs an organization that is ultimately built on
+    the premise that truth and knowledge are contextual, we have an obligation to
+    the truth that exceeds our commitment to non-partisanship. We in the strongest
+    possible terms condemn the killings of George Floyd and Breonna Taylor, and we
+    criticize US national leadership, whose lack of contrition and unwillingness or
+    inability to empathize with the very clear sentiments of millions of Americans
+    in this moment is a profound and damaging failure.\n\nMeedan, while founded in
+    the US, is a global technology non-profit working with media partners around the
+    world, primarily in the global south. Our partners work to document human rights
+    abuses in Yemen, uncover political corruption in the Philippines, and empower
+    young investigative journalists and fact-checkers in Africa. We have designed
+    our organization in response to the single question: \"What can we do as engineers,
+    program managers, researchers and designers to address injustice and inequity
+    in digital spaces?\"\n\nThis moment of social rage is of profound concern. We
+    must demand more of our institutions and of our leaders, especially with regards
+    to systemic racism against Black communities. Every sector of our society from
+    the institutions of our government, to our corporations, to the media, to our
+    universities, to the technology platforms, to organizations like ours must make
+    an aggressively anti-racist approach core to our business models, our missions
+    and our daily work.\n\nAt Meedan we commit to honoring the memory of George Floyd,
+    Breonna Taylor, and all those whose lives and livelihoods have been harmed by
+    anti-blackness, racism, hatred and disinformation. So much more needs to be done,
+    and we commit to using our work---our tools, our programs, and our research---to
+    helping in this effort.\n\n\n— Ed Bice, CEO, Meedan\n\n"
+  words_by:
+    en-US:
+    - sys:
+        id: 7xM8QfuAFGFURUXRBNLBtX
+        created_at: !ruby/object:DateTime 2020-03-17 23:59:51.580000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.291000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Ed Bice
+      staff:
+        en-US: true
+      location:
+        en-US: San Francisco
+      role:
+        en-US: CEO
+  alt_date: !ruby/object:DateTime 2020-06-03 00:00:00.000000000 Z
+  date: '2020-06-05'
+  title-en: We must demand more of our institutions and of our leaders
+  alt_date_string: '2020-06-03'
+- sys:
+    id: 1bhs2HMJUOkuKQSkxy35kB
+    created_at: &14 !ruby/object:DateTime 2020-06-05 10:35:20.188000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-05 14:41:37.770000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Maria Ressa and Seema Yasmin in Conversation: Reporting Barriers During
+    COVID-19 '
+  slug: maria-ressa-and-seema-yasmin-in-conversation-reporting-barriers-during-covid
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  body: "__Maria Ressa and Seema Yasmin in Conversation: Reporting Barriers During
+    COVID-19 __\nThursday, June 18, 2020\n8 AM San Francisco / 11 AM New York / 4
+    PM London / 8:30 PM Delhi / 11 PM Manila\nLive on Zoom\n[Register now to sign
+    up for the Zoom event](https://docs.google.com/forms/d/e/1FAIpQLSegpj2B3_FjygvEXoZsAxhFyS4Vh1izBQoC0pqtG1nTquCfjA/viewform?usp=sf_link)\n\nAmid
+    the COVID-19 pandemic, free flow of reliable and independent information is absolutely
+    critical to public health and accountability. However, with several restrictions
+    imposed on media across different regions, people have limited access to independent
+    information, and few spaces  to dialogue and discuss the adequacy of measures
+    being taken by their governments to contain the pandemic. This challenge is taking
+    place amid a backdrop of an incredibly complex and evolving information environment,
+    in which journalists and fact-checkers are expected to distill complicated research
+    on epidemiology and infectious disease.\n\nPeople need news and information they
+    can trust. Instead of making this available, governments are censoring news, curbing
+    the free flow of information and scrutinising voices that seek accountability.
+    \n\nIn order to analyse and discuss potential solutions to the current misinfodemic,
+    Meedan is hosting an online event titled, ‘Reporting Barriers During COVID-19.
+    The session will have veteran journalist and co-founder of Rappler, Maria Ressa
+    in conversation with Seema Yasmin, an Emmy Award-winning medical journalist. Maria
+    has been leading the fight for freedom of press in the Philippines. For her courage
+    and work on disinformation, Maria was named Time Magazine’s 2018 Person of the
+    Year, was among its 100 Most Influential People of 2019, and has also been named
+    one of Time's Most Influential Women of the Century. Seema was a finalist for
+    the Pulitzer Prize in breaking news in 2017 with a team from The Dallas Morning
+    News and received an Emmy Award for her reporting on neglected diseases. \n\n##
+    About the Series: Women, Media and the Pandemic\nThis event is first in the Check
+    Global Network’s webinar series ‘Women, Media and the Pandemic’. Launched on May
+    5, 2020, Check Global members are currently located in the Philippines, Indonesia,
+    Pakistan, Syria, Yemen, Western Sahara, Kenya, Zimbabwe and Mexico. As a community
+    of independent media, technology and human rights groups, the Check Global Network
+    plans to meet regularly to discuss solutions to challenges, to design collaborative
+    projects and to respond proactively to the needs of partners in emerging economies.
+    \n\nFor more information about joining the network, please write to us at checkglobalnetwork@meedan.com
+    with a statement of interest.\n\nThe event will be hosted on Zoom on June 18,
+    2020 at 11PM Manila/8:30 PM Delhi/ 5PM CET/ 11AM ET/ 8AM PT. We will share Zoom
+    details with you once you have signed up!\n\n[REGISTER NOW](https://docs.google.com/forms/d/e/1FAIpQLSegpj2B3_FjygvEXoZsAxhFyS4Vh1izBQoC0pqtG1nTquCfjA/viewform?usp=sf_link)\n\n##
+    About the Speakers\n\nA journalist in Asia for nearly 35 years, __Maria Ressa__
+    co-founded Rappler, the top digital only news site that is leading the fight for
+    press freedom in the Philippines. As Rappler's executive editor and CEO, Maria
+    has endured constant political harassment and arrests by the Duterte government,
+    forced to post bail eight times to stay free. Rappler's battle for truth and democracy
+    is the subject of the 2020 Sundance Film Festival documentary, A Thousand Cuts.
+    \n\nFor her courage and work on disinformation and 'fake news,' Maria was named
+    Time Magazine’s 2018 Person of the Year, was among its 100 Most Influential People
+    of 2019, and has also been named one of Time's Most Influential Women of the Century.
+    She was also part of BBC's 100 most inspiring and influential women of 2019 and
+    Prospect magazine's world's top 50 thinkers. Among many awards, she received the
+    prestigious Golden Pen of Freedom Award from the World Association of Newspapers
+    and News Publishers, the Knight International Journalism Award from the International
+    Center for Journalists, the Gwen Ifill Press Freedom Award from the Committee
+    to Protect Journalists, the Shorenstein Journalism Award from Stanford University,
+    the Columbia Journalism Award, the Free Media Pioneer Award from the International
+    Press Institute, and the Sergei Magnitsky Award for Investigative Journalism.
+    \n\nBefore founding Rappler, Maria focused on investigating terrorism in Southeast
+    Asia. She opened and ran CNN's Manila Bureau for nearly a decade before opening
+    the network's Jakarta Bureau, which she ran from 1995 to 2005. She wrote Seeds
+    of Terror: An Eyewitness Account of al-Qaeda’s Newest Center of Operations in
+    Southeast Asia and From Bin Laden to Facebook: 10 Days of Abduction, 10 Years
+    of Terrorism.\n\n__Seema Yasmin__ is an Emmy Award-winning medical journalist,
+    poet, physican and author. Yasmin served as an officer in the Epidemic Intelligence
+    Service at the U.S. Centers for Disease Control and Prevention where she investigated
+    disease outbreaks. She trained in journalism at the University of Toronto and
+    in medicine at the University of Cambridge.\n\nYasmin was a finalist for the Pulitzer
+    Prize in breaking news in 2017 with a team from The Dallas Morning News and received
+    an Emmy Award for her reporting on neglected diseases. She received two grants
+    from the Pulitzer Center on Crisis Reporting and was selected as a John S. Knight
+    Fellow in Journalism at Stanford University iin 2017 where she investigated the
+    spread of health misinformation and disinformation during epidemics."
+  date: '2020-06-05'
+  title-en: 'Maria Ressa and Seema Yasmin in Conversation: Reporting Barriers During
+    COVID-19 '
+  alt_date: *14
+  alt_date_string: '2020-06-05'
+- sys:
+    id: 2HHkxZxtbj7L7gzdqaesOJ
+    created_at: &15 !ruby/object:DateTime 2020-06-05 16:09:59.148000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-05 16:24:29.233000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: " Meedan Receives Support from the Open Technology Fund to Develop the Claims
+    and Memes Database"
+  slug: meedan-receives-support-from-the-open-technology-fund-to-develop-the-claims
+  body: "In today’s increasingly online world, social media has become a source for
+    news—often in compressed visual form. Widely circulated images have the power
+    to shape opinions and alter actions. Sometimes they’re funny. Sometimes they’re
+    informative. But what happens when memes are used to intentionally transmit disinformation
+    (information that is false and deliberately created to cause harm)? How are people
+    supposed to know what’s true and what’s false?\n \nIf the distinction seems trivial,
+    it’s not. Elections and lives hang in the balance of finding a way to solve this
+    problem in an efficient and effective manner. That’s why Meedan received funding
+    from the Open Technology Fund (OTF) in 2019 to help develop the Claims and Memes
+    Database (CMDb)—a programmer-accessible repository of fact-checked claims and
+    debunked visual misinformation intended to combat this new type of information
+    control. The CMDb project was overseen by Meedan program manager Wafaa Heikal.
+    \n \n \n### SETTING THE STAGE: *The rise of the intentional use of misinformation
+    online*\n \nMeedan has long worked at the forefront of improving the quality and
+    equity of online information. One of the main ways it does so is through the organization’s
+    flagship software, Check. This free and open-source collaborative workflow software
+    helps users verify digital photos and text, build datasets, and structure open-source
+    investigations. An early iteration of the software played a key role for citizen
+    journalists during the 2011 Arab Spring protests. Five years later, over 1,000
+    journalists used Check’s collaborative verification structure to help monitor
+    and detect voting issues in the 2016 U.S. presidential election. Today, over 250
+    workspaces created by more than 1,750 users around the world now rely on Check
+    to fact-check and investigate online information. Their efforts, and the stories
+    they have helped produce, have made a tangible difference in the way global citizen
+    media is relied upon and viewed.\n \nBut by 2019, with repressive regimes ramping
+    up their own efforts to weaponize visual misinformation as a tool for social network
+    manipulation, voter suppression, and censorship, it became clear that the Check
+    platform required an upgrade. Journalists needed to be able to more efficiently
+    verify or debunk memes. And citizens needed to be able to receive that fact-checked
+    information in a more expeditious manner. So, with the funding from OTF’s Core
+    Infrastructure Fund, Meedan set out to build the CMDb and enhance Check’s infrastructure.\n
+    \n \n### TRUE OR FALSE—EXPLAINED: *Inside Meedan’s revolutionary verification
+    software Check*\n \nBefore diving into the details of the CMDb project, it’s best
+    to understand how Check works.\n \nThe software helps journalists, researchers,
+    and civil society organizations gather and verify digital information through
+    a uniquely customizable process. After a Check team creates their project workspace,
+    they set-up how they will receive submissions for verification. These submissions
+    can be images, text, a combination of images and text (memes), or videos. For
+    example in India, the Checkpoint project allowed for submissions by providing
+    WhatsApp users with a phone number to which they could text rumors, claims, or
+    memes for verification. Other submission processes include collaborating with
+    local partners in North Africa and West Asia to crowdsource investigative evidence
+    of human rights violations (to be sent to the UC Berkeley Human Rights Investigations
+    Lab) or working with students and journalists to help monitor elections in Tunisia.\n
+    \nOnce these submissions are uploaded to Check, the verification process begins.
+    Throughout it all, Meedan works with partners to shape their tasks and workflows
+    based on the project’s specific needs. During verification, users (such as journalists
+    or human rights researchers) review a submission and work to determine the claim’s
+    origin and accuracy. Annotation options allow reviewers to provide in-depth analysis
+    and tags. After all tasks are completed for a submission, a verdict is determined
+    (these are customizable and often include correct, incorrect, or misleading).
+    In certain situations, this verdict can then be transmitted back to the individual
+    who submitted the claim.\n \n \n### ENHANCED TECHNOLOGY: *CMDb developments streamline
+    the verification process for thousands of Check users*\n \nEven just a brief overview
+    of the verification process reveals how incredibly time-consuming it can be. With
+    thousands of claims being submitted to election-monitoring projects, how can reviewers
+    possibly verify each one?\n \nShort answer: They can’t. And the reviewers can’t
+    provide the results fast enough to combat voter suppression and protect electoral
+    integrity. But there is a way to streamline the process—that’s why Meedan applied
+    to OTF to develop the CMDb.\n \nThe technology built for the CMDb allowed Meedan
+    to develop better workflows for annotating claims and images on Check. These developments
+    will help improve research and machine-learning processes in both the short and
+    long term. OTF’s funding also allowed the Meedan team to build new features to
+    better respond to memetic misinformation—like Check’s report designer, which enables
+    journalists to quickly develop compelling visual responses to help stem the spread
+    of misinformation online. New tools for processing content, like importing spreadsheets
+    and ingesting content submitted from closed networks, were also developed with
+    the support.\n \nIn addition to enhancing user ease, the CMDb project significantly
+    improved Meedan’s image and claim similarity infrastructure. The newly developed
+    claim/image matching technology enables similar images and claims to be clustered—making
+    a verifier’s work far easier. By identifying secondary items that are related
+    to a submitted claim, this matching technology allows for similar images and memes
+    to automatically receive the same tagging, annotation, and verdict as the original
+    image or meme. This technological advancement produced immediate efficiencies.
+    Journalists are now able to cluster hundreds of similar images and claims and
+    respond to misinformation in a collective manner (saving massive amounts of time
+    and effort).\n \n \n### EXPANDED OUTREACH: *Immediate application of CMDb technology
+    and OTF funds enable Meedan to expand its global impact*\n \nMeedan quickly put
+    the newly developed CMDb technology to use. The streamlined content workflows
+    and image matching technology helped support dozens of newsrooms and fact-checking
+    organizations during the 2019 elections in India, Indonesia, and the Philippines.\n
+    \n__India__: In response to misinformation circulating in closed networks in India,
+    Meedan partnered with Pop-Up Newsroom, WhatsApp, and Proto (a civic media studio)
+    on the massive and innovative research endeavor, Checkpoint. The effort used Check
+    Message, Meedan’s WhatsApp integration, to conduct research to better understand
+    the ways by which misinformation spreads on WhatsApp.\n \n__Indonesia__: Google
+    News Initiative worked in collaboration with Meedan and the news consultancy Fathm
+    to help journalism schools, newsrooms, and fact-checking organizations in Indonesia
+    collaborate and verify claims during and leading up to the 2019 elections. The
+    initiative, which resembled Meedan’s 2016 Electionland effort in the United States,
+    was headed by the fact-checking platform Cekfakta.\n \n__Philippines__: Meedan
+    teamed up with local partners in the Philippines to create Tsek.ph—a new collaborative
+    fact-checking journalistic initiative (Tsek means “Check” in Filipino). The project
+    brought together 11 news organizations and three universities in an effort to
+    counter disinformation and provide verified information related to the country’s
+    midterm elections. Throughout the year, Meedan also continued its work with VeraFiles
+    and Rappler, two pioneers of fact-checking and verification in the Philippines.\n
+    \nSupport from OTF in 2019 also enabled Meedan to lead various informational workshops
+    around the globe showcasing the CMDb project and providing journalists with a
+    better understanding of the power—for good, and for bad—of global memes and claims.
+    Various aspects of the CMDb’s research were presented by Meedan's Director of
+    Research, Scott Hale, at the International Multimodal Communication Centre, University
+    of Oxford, the Okinawa Institute for Science and Technology, and the CCSS School
+    on Computational Social Science at the University of Kobe. \n\nMeedan’s Director
+    of Engineering, Caio Almeida, presented a research paper, Text Similarity Using
+    Word Embeddings to Classify Fake News, at the Workshop on Digital Humanities and
+    Natural Language Processing collocated with the International Conference on the
+    Computational Processing of Portuguese (PROPOR 2020). The paper describes the
+    new, open-source architecture Meedan developed to use word embeddings at scale
+    with Elasticsearch in order to analyse the similarity of short textual items and
+    identify near duplicates. A second research paper evaluating the text and image
+    matching performance is currently in preparation.\n \nWhile contributing to research
+    efforts, Meedan also provided input to Facebook, Twitter, and Google regarding
+    the best approaches to the use of misleading manipulated and synthetic imagery
+    on social media platforms. This feedback was taken into consideration when Twitter
+    drafted new guidelines on manipulated media. Additionally, as part of the W3C
+    Credible Web Community Group, Meedan contributed to the development of a list
+    of indicators for content credibility, including images. And, as part of the Credibility
+    Coalition, members of Meedan helped form the Responding to Memes and Images working
+    group to further address credibility indicators for images and memes.\n \n \n###
+    DATA DRAWBACKS: *Complications emerge surrounding data sharing and sensitivity*\n
+    \nDespite the significant progress achieved during the CMDb’s first year, the
+    project was not without its difficulties. Obstacles arose pertaining to the data
+    collected by partners using Check’s software. Ideally, the images and claims that
+    comprise the CMDb would be able to be shared publicly. But doing so creates a
+    host of ethical concerns and legal issues regarding terms of service, varying
+    privacy policies, and the very real threat of revealing personal information.
+    Meedan worked with Harvard Law School’s Cyberlaw Clinic on terms that enable us
+    to conduct research on this data while protecting personally identifiable information
+    and user privacy. Options such as data trusts, in which a legally separate trust
+    would own the underlying data, are also being explored. These efforts are critical,
+    as finding a way to make the database accessible to other users—and one day even
+    the general public—would help further curb the spread of misinformation online.\n
+    \nAnother obstacle that emerged during the project was psychological. Due to the
+    sensitive nature of some of the investigations conducted using Check, images can
+    be highly graphic and therefore traumatizing for people to review. At this time,
+    image and text matching technology can only reduce—not eliminate—the need for
+    human judgement. That means in cases of human rights violations, an individual
+    must still personally view the submitted image. Such work involves serious mental
+    health challenges and risks like PTSD. Meedan is working to better understand
+    these problems and provide the necessary resources to support the journalists
+    and fact-checkers in these roles. Although new developments, like the option to
+    flag and filter unwanted images, provide possible mitigation options—this issue
+    needs more attention and may not be able to be solved by technology alone.\n \n
+    \n### LOOKING TO THE FUTURE: *What’s next for Meedan, Check, and the CMDb?*\n
+    \nMeedan’s work to build a publicly accessible global claims and memes database
+    is far from over. Data sharing issues must be resolved, language barriers must
+    be overcome, and the matching technology must continue to be improved. Nonetheless,
+    the first year of the CMDb project was a resounding success. Technology developed
+    for the project is already in use, saving critical time and effort for journalists
+    and human rights activists in the verification process. Much was also learned
+    about the ways by which disinformation spreads across the internet. In response,
+    an infrastructure was established that one day will be able to prevent debunked
+    claims and memes from traveling across countries and time (known as “zombie misinformation,”
+    these false rumors originate in one context and continue to permeate the internet
+    despite being “killed off”—debunked—in their original country/time).\n \nFor now,
+    Meedan has focused its efforts on combating the spread of misinformation related
+    to the COVID-19 pandemic. Like the virus itself, misinformation pertaining to
+    “cures” or “treatments” is spreading around the world and causing real harm. Meedan
+    is committed to making its full toolkit and code available to help improve trust,
+    information quality, and research capabilities. The organization’s development
+    of the CMDb, and its history of fighting to advance accurate information online,
+    make it uniquely positioned to help during this critical time. As a critical first
+    step, Meedan introduced the Check Bot—a customizable COVID-19 WhatsApp bot for
+    fact-checkers tackling the wave of misinformation surrounding the virus.  The
+    COVID-19 Expert Database, which contains A database of expert-sourced COVID-19
+    information, has been built to help support verification processes.\n \n \nNow,
+    as repressive regimes continue to expand their use of misinformation online, and
+    COVID-19 rumors threaten to wreak havoc on public health, Meedan’s work is more
+    important than ever. Memes are no longer a laughing matter. Lives truly hang in
+    the balance of determining what’s true and what’s false.\n\n"
+  words_by:
+    en-US:
+    - sys:
+        id: 9F1HC5T8a0McVXMz0YNM0
+        created_at: !ruby/object:DateTime 2020-06-05 16:24:22.963000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-05 16:24:39.256000000 Z
+        content_type_id: contributor
+        revision: 0
+      name:
+        en-US: Learning Lab
+      staff:
+        en-US: false
+  date: '2020-06-05'
+  title-en: " Meedan Receives Support from the Open Technology Fund to Develop the
+    Claims and Memes Database"
+  alt_date: *15
+  alt_date_string: '2020-06-05'
