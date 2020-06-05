@@ -10,15 +10,15 @@ lang: en-US
     <div class="page-wrapper">
         {% include post_header.html %}
         <section>
+            <div class="time">
+                {{ page.time | markdownify }}
+            </div>
             <div class="event-image-grid">
             {% for image in page.images %}
                 <picture>
                     <img src="{{ image.url }}" alt="{{ image.title }}"/>
                 </picture>
             {% endfor %}
-            </div>
-            <div class="time">
-                {{ page.time | markdownify }}
             </div>
             <div class="story-wrapper section-margin">
                 {{ page.long_description | markdownify }}
