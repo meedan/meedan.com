@@ -13,7 +13,7 @@ class EventsMapper < ::Jekyll::Contentful::Mappers::Base
 
 
       if result['event_date']
-        result['event_date_sting'] = result['event_date'].to_date.to_s
+        result['event_date_string'] = result['event_date'].to_date.to_s
       end
   
       if result['event_end_date']
