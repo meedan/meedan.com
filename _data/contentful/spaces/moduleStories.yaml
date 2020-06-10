@@ -3,11 +3,59 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-05 20:21:48.557000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-10 03:23:18.782000000 Z
     content_type_id: moduleStories
-    revision: 21
+    revision: 22
   title: Blog
   stories:
+  - sys:
+      id: 51b7Zp4ynwTDHtNhp4aBQL
+      created_at: !ruby/object:DateTime 2020-06-05 01:17:43.296000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-10 03:23:11.678000000 Z
+      content_type_id: story
+      revision: 4
+    title: We must demand more of our institutions and of our leaders
+    slug: we-must-demand-more-of-our-institutions-and-of-our-leaders
+    lead_image:
+      sys:
+        id: 1bYxFxmWZ6fldWG0PXMxDt
+        created_at: !ruby/object:DateTime 2020-06-10 03:16:15.672000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-10 03:23:07.396000000 Z
+      title: Untitled3
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1bYxFxmWZ6fldWG0PXMxDt/f22c0bedbd966e5a0ec788834dc2b0aa/Untitled3.png"
+    body: "All injustices have at their core an abuse of power. Systemic injustices
+      ingrain these abuses into the structure of our societies, into the mechanics
+      of how power, money, opportunity, and—as the past months have made so brutally
+      apparent—health is accessed and distributed. \n\nAs an organization that is
+      ultimately built on the premise that truth and knowledge are contextual, we
+      have an obligation to the truth that exceeds our commitment to non-partisanship.
+      We in the strongest possible terms condemn the killings of George Floyd and
+      Breonna Taylor, and we criticize US national leadership, whose lack of contrition
+      and unwillingness or inability to empathize with the very clear sentiments of
+      millions of Americans in this moment is a profound and damaging failure.\n\nMeedan,
+      while founded in the US, is a global technology non-profit working with media
+      partners around the world, primarily in the global south. Our partners work
+      to document human rights abuses in Yemen, uncover political corruption in the
+      Philippines, and empower young investigative journalists and fact-checkers in
+      Africa. We have designed our organization in response to the single question:
+      \"What can we do as engineers, program managers, researchers and designers to
+      address injustice and inequity in digital spaces?\"\n\nThis moment of social
+      rage is of profound concern. We must demand more of our institutions and of
+      our leaders, especially with regards to systemic racism against Black communities.
+      Every sector of our society from the institutions of our government, to our
+      corporations, to the media, to our universities, to the technology platforms,
+      to organizations like ours must make an aggressively anti-racist approach core
+      to our business models, our missions and our daily work.\n\nAt Meedan we commit
+      to honoring the memory of George Floyd, Breonna Taylor, and all those whose
+      lives and livelihoods have been harmed by anti-blackness, racism, hatred and
+      disinformation. So much more needs to be done, and we commit to using our work---our
+      tools, our programs, and our research---to helping in this effort.\n\n\n— Ed
+      Bice, CEO, Meedan\n\n"
+    words_by:
+    - sys:
+        id: 7xM8QfuAFGFURUXRBNLBtX
+    alt_date: !ruby/object:DateTime 2020-06-03 00:00:00.000000000 Z
   - sys:
       id: 7gtmJXtROk7m5cbnflRfTz
       created_at: !ruby/object:DateTime 2020-05-15 09:39:05.001000000 Z
@@ -163,76 +211,6 @@ moduleStories:
     - sys:
         id: 5RAhIbkGFCzRWLiEMbezs9
     alt_date: !ruby/object:DateTime 2020-06-02 00:00:00.000000000 Z
-  - sys:
-      id: 16nHBCq3HdUvVf8UEy25qA
-      created_at: !ruby/object:DateTime 2020-05-19 21:53:02.857000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-21 17:57:09.484000000 Z
-      content_type_id: story
-      revision: 3
-    title: Get the latest COVID-19 expert updates in our weekly newsletter hosted
-      by Dr. Seema Yasmin
-    slug: expert-database-newsletter
-    topic:
-    - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 6H2TMO6oahBvdTcfgOuaTw
-        created_at: !ruby/object:DateTime 2020-05-20 20:51:33.941000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-20 21:13:52.346000000 Z
-      title: Meedan covid-19 expert highlights
-      description: Dr. Seema Yasmin
-      url: "//images.ctfassets.net/g118h5yoccvd/6H2TMO6oahBvdTcfgOuaTw/1cabdfb7c387703441f7b75e3ea507aa/Meedan_covid-19_expert_highlights.jpg"
-    social_card_image:
-      sys:
-        id: 4yaCPpHWjgYbPEPmTVHXDJ
-        created_at: !ruby/object:DateTime 2020-05-21 17:56:47.132000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-21 17:57:03.928000000 Z
-      title: Meedan covid-19 expert highlights wide
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4yaCPpHWjgYbPEPmTVHXDJ/d6410573b8f2ce1bd3dbce4ab6354a03/Meedan_covid-19_expert_highlights_wide.jpg"
-    body: "This week, Meedan welcomes medical doctor and award-winning journalist,
-      Dr. Seema Yasmin to our COVID-19 team. \n\nHer role will include sharing highlights
-      from Meedan’s COVID-19 Expert Database, a new tool supported by major tech funders
-      and foundations, which engages public health experts to provide newsworthy insights
-      into complex pandemic science. \n\nYou’ll be able to find Dr. Yasmin’s highlights
-      in our weekly newsletter, The Checklist, and on even more platforms soon. [Sign
-      up](https://meedan.com/checklist) for the Checklist. To learn more about the
-      COVID-19 Expert Database or to see how your newsroom or fact-checking organization
-      can get involved, email <a href=\"health@meedan.com\">health@meedan.com</a>.
-      \n\n“Journalists are under immense pressure to report quickly, frequently, and
-      accurately, during the pandemic,” said Dr. Yasmin. “That requires sifting through
-      dozens of new studies published each day, analyzing complex methodology, and
-      translating technical language into content for broad audiences — in addition
-      to protecting the public from false narratives and dangerous myths spread by
-      some politicians and bad actors. The Expert Database supports reporters and
-      fact-checkers, helping them verify information so they can publish the kind
-      of nuanced, accurate, and up-to-date content that the public demands during
-      the global health crisis of our generation.\"\n\nEach week, Dr. Yasmin will
-      curate key selections from the COVID-19 Expert Database and provide an added
-      layer of context onto those pieces of information. This will help fact-checkers
-      and journalists who use the COVID-19 Expert Database understand the most important
-      content from around the world.\n\nDr. Yasmin is a physician-journalist who served
-      as an officer in the Epidemic Intelligence Service at the U.S. Centers for Disease
-      Control and Prevention, before training as a journalist and reporting on the
-      front lines of epidemics such as of Ebola, Zika, gun violence, and more. She
-      trained in journalism at the University of Toronto and in medicine at the University
-      of Cambridge. \n\nYasmin was [a finalist for the Pulitzer Prize in breaking
-      news](https://www.pulitzer.org/prize-winners-by-year/2017) in 2017 with a team
-      from The Dallas Morning News and received an Emmy Award for her reporting on
-      neglected diseases. She has received two grants from the Pulitzer Center on
-      Crisis Reporting and in 2017 she was selected as a John S. Knight Fellow in
-      Journalism at Stanford University where she investigated the spread of health
-      misinformation and disinformation during epidemics.\n\nWe are excited to work
-      with Dr. Yasmin on amplifying these highlights to our audience. Stay tuned for
-      more updates on the COVID-19 Expert Database soon, including more platforms
-      for broadcasting highlights and an introduction to our entire team of experts.\n"
-    words_by:
-    - sys:
-        id: 1uaMTril4FB8NxxRTKwLDH
-    alt_date: !ruby/object:DateTime 2020-05-20 00:00:00.000000000 Z
   - sys:
       id: 5BRYd5pcfXQaZeRnX6fTrC
       created_at: !ruby/object:DateTime 2020-05-22 22:05:20.512000000 Z
