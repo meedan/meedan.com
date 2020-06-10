@@ -9,7 +9,7 @@
     <h3 class="section-title">● <a href="/events" title="{{ events[0].title }}">{{ events[0].title }}</a></h3>
     {% endif %}
     <div class="module-wrapper">
-        {% for event in events[0].events | limit: 1 %}
+        {% for event in events[0].events | limit: 2 %}
             <a href="/events/{{ event.slug }}" class="event-item event-item-featured">
                 <div class="details">
                     <div class="date">
