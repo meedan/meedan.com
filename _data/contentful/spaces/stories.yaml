@@ -3359,9 +3359,9 @@ story:
 - sys:
     id: 2eI9u7B6dEeolWbe0C2FXl
     created_at: &15 !ruby/object:DateTime 2020-06-09 19:14:31.378000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-10 18:14:59.279000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-10 18:56:50.192000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -3386,10 +3386,21 @@ story:
         revision: 1
       title:
         en-US: COVID-19
-  body: "COVID-19 in Brazil: memory as a form of resistance \n\nTo wake up in Brazil
-    in 2020 is to confront daily headlines that send us back to 1968, our years of
-    military dictatorship. We see headlines such as: Brazilian President Jair Bolsonaro
-    [suspends](https://www.telegraph.co.uk/news/2020/06/07/bolsonaro-removes-surging-coronavirus-death-toll-official-websites/
+  lead_image:
+    en-US:
+      sys:
+        id: 3nSZwz7Zre6hlN5YdxmiQG
+        created_at: !ruby/object:DateTime 2020-06-10 18:33:46.491000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-10 18:56:45.365000000 Z
+      title: 'COVID-19 in Brazil: memory as a form of resistance '
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3nSZwz7Zre6hlN5YdxmiQG/cae91892be6d53489f7d7f20527e5b74/meedan_brazil_covid-19_isa_2.jpg"
+    description: 
+    title: 'COVID-19 in Brazil: memory as a form of resistance '
+    url: "//images.ctfassets.net/g118h5yoccvd/3nSZwz7Zre6hlN5YdxmiQG/cae91892be6d53489f7d7f20527e5b74/meedan_brazil_covid-19_isa_2.jpg"
+  body: "To wake up in Brazil in 2020 is to confront daily headlines that send us
+    back to 1968, our years of military dictatorship. We see headlines such as: Brazilian
+    President Jair Bolsonaro [suspends](https://www.telegraph.co.uk/news/2020/06/07/bolsonaro-removes-surging-coronavirus-death-toll-official-websites/
     \"Bolsonaro removes number of deaths\") publication of number of deaths; the government
     demands a [recount](https://www1.folha.uol.com.br/equilibrioesaude/2020/06/governo-vai-recontar-numero-de-mortos-por-covid-19-diz-secretario-da-saude.shtml
     \"Bolsonaro's govenament wants to recount the number of deaths \") of the death
@@ -3439,8 +3450,8 @@ story:
     Scientists currently estimate a 6.45% death rate among the Yanomami population,
     according to [a study](https://acervo.socioambiental.org/acervo/publicacoes-isa/o-impacto-da-pandemia-na-terra-indigena-yanomami-foragarimpoforacovid)
     conducted by the Instituto Socioambiental (ISA) and the Federal University of
-    Minas Gerais.\n\n\nLearning from our recent past \n\nState violence, such as what
-    we are living through today, generates [trauma](https://www.bbc.com/news/world-latin-america-30408012)
+    Minas Gerais.\n\n### Learning from our recent past \n\nState violence, such as
+    what we are living through today, generates [trauma](https://www.bbc.com/news/world-latin-america-30408012)
     in the fabric of society that needs to be repaired to avoid a repeat of our recent
     past, where there has been an erasure of popular history of collective resistance.
     The transitional justice process after the dictatorship in Brazil was done we
@@ -3459,9 +3470,10 @@ story:
     when, in addition to burying our dead in [collective graves](https://www.businessinsider.com/photos-brazil-mass-graves-experts-anticipate-covid-19-deaths-2020-5
     \"Photos of Brazil mass graves\"), remembering their lives, and surviving a pandemic,
     we still urgently need to preserve data and documents, in order for compensation
-    to be possible in the future to the families of the victims of this policy. \n\n\nActing
-    while we suffer: online collective mourning and self organizing \n\nMemory as
-    resistance is being articulated by the [Memorial of Victims of COVID-19 in Brazil](https://www.facebook.com/pg/memorialcoronabrasil/about/?ref=page_internal
+    to be possible in the future to the families of the victims of this policy. \n\n\n###
+    Acting while we suffer: online collective mourning and self organizing \n\nMemory
+    as resistance is being articulated by the [Memorial of Victims of COVID-19 in
+    Brazil](https://www.facebook.com/pg/memorialcoronabrasil/about/?ref=page_internal
     \"Facebook page of the covid-19 memorial\"), a Facebook page that aims to honor
     victims and tell their stories. And it is one of the initiatives of the [Support
     Network for the Families of Fatal Victims of Covid-19 in Brazil](https://seguraaonda.com.br/nasce-a-rede-de-apoio-as-familias-de-vitimas-fatais-do-covid-19-no-brasil/),
@@ -3483,11 +3495,11 @@ story:
     from the Special Indigenous Health Secretariat (SesaI). In some cases they are
     [three times](https://g1.globo.com/bemestar/coronavirus/noticia/2020/06/01/18-mil-indigenas-sao-infectados-por-covid-19-em-78-povos-no-brasil-diz-organizacao.ghtml)
     higher according to Articulation of Indigenous Peoples in Brazil (Apib) their
-    aim is to preserve victims’ memory.\n\n\nPreserving memory as a path forward\n\n>
+    aim is to preserve victims’ memory.\n\n\n### Preserving memory as a path forward\n\n>
     \"Memory is, in itself, an end, a strategy to repair the damage caused to human
     rights and is a way to reconcile a society\" comments Professor Isabel Piper Shafir,
     from the Faculty of Social Sciences at the University of Chile, about the post-dictatorship
-    reparation processes in Chile. To ensure that we can use memory as a strategy
+    reparation processes in Chile. \n\nTo ensure that we can use memory as a strategy
     for reparation, the work of civil organizations, activists, technologists, historians,
     researchers and journalists is essential to the archiving and preservation process.
     \n\nUnderstanding our current information ecosystem can be part of the strategy
@@ -3544,6 +3556,7 @@ story:
       location:
         en-US: Brazil
   date: '2020-06-09'
+  image: https://images.ctfassets.net/g118h5yoccvd/3nSZwz7Zre6hlN5YdxmiQG/cae91892be6d53489f7d7f20527e5b74/meedan_brazil_covid-19_isa_2.jpg
   title-pt: 'COVID-19 no Brasil: memória como resistência '
   title-en: 'COVID-19 in Brazil: memory as a form of resistance '
   alt_date: *15

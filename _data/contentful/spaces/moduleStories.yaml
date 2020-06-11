@@ -3,59 +3,179 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-10 03:23:18.782000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-10 18:59:47.302000000 Z
     content_type_id: moduleStories
-    revision: 22
+    revision: 23
   title: Blog
   stories:
   - sys:
-      id: 51b7Zp4ynwTDHtNhp4aBQL
-      created_at: !ruby/object:DateTime 2020-06-05 01:17:43.296000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-10 03:23:11.678000000 Z
+      id: 2eI9u7B6dEeolWbe0C2FXl
+      created_at: !ruby/object:DateTime 2020-06-09 19:14:31.378000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-10 18:56:50.192000000 Z
       content_type_id: story
-      revision: 4
-    title: We must demand more of our institutions and of our leaders
-    slug: we-must-demand-more-of-our-institutions-and-of-our-leaders
+      revision: 1
+    title: 'COVID-19 in Brazil: memory as a form of resistance '
+    slug: covid-19-in-brazil-memory-as-a-form-of-resistance
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
     lead_image:
       sys:
-        id: 1bYxFxmWZ6fldWG0PXMxDt
-        created_at: !ruby/object:DateTime 2020-06-10 03:16:15.672000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-10 03:23:07.396000000 Z
-      title: Untitled3
+        id: 3nSZwz7Zre6hlN5YdxmiQG
+        created_at: !ruby/object:DateTime 2020-06-10 18:33:46.491000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-10 18:56:45.365000000 Z
+      title: 'COVID-19 in Brazil: memory as a form of resistance '
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1bYxFxmWZ6fldWG0PXMxDt/f22c0bedbd966e5a0ec788834dc2b0aa/Untitled3.png"
-    body: "All injustices have at their core an abuse of power. Systemic injustices
-      ingrain these abuses into the structure of our societies, into the mechanics
-      of how power, money, opportunity, and—as the past months have made so brutally
-      apparent—health is accessed and distributed. \n\nAs an organization that is
-      ultimately built on the premise that truth and knowledge are contextual, we
-      have an obligation to the truth that exceeds our commitment to non-partisanship.
-      We in the strongest possible terms condemn the killings of George Floyd and
-      Breonna Taylor, and we criticize US national leadership, whose lack of contrition
-      and unwillingness or inability to empathize with the very clear sentiments of
-      millions of Americans in this moment is a profound and damaging failure.\n\nMeedan,
-      while founded in the US, is a global technology non-profit working with media
-      partners around the world, primarily in the global south. Our partners work
-      to document human rights abuses in Yemen, uncover political corruption in the
-      Philippines, and empower young investigative journalists and fact-checkers in
-      Africa. We have designed our organization in response to the single question:
-      \"What can we do as engineers, program managers, researchers and designers to
-      address injustice and inequity in digital spaces?\"\n\nThis moment of social
-      rage is of profound concern. We must demand more of our institutions and of
-      our leaders, especially with regards to systemic racism against Black communities.
-      Every sector of our society from the institutions of our government, to our
-      corporations, to the media, to our universities, to the technology platforms,
-      to organizations like ours must make an aggressively anti-racist approach core
-      to our business models, our missions and our daily work.\n\nAt Meedan we commit
-      to honoring the memory of George Floyd, Breonna Taylor, and all those whose
-      lives and livelihoods have been harmed by anti-blackness, racism, hatred and
-      disinformation. So much more needs to be done, and we commit to using our work---our
-      tools, our programs, and our research---to helping in this effort.\n\n\n— Ed
-      Bice, CEO, Meedan\n\n"
+      url: "//images.ctfassets.net/g118h5yoccvd/3nSZwz7Zre6hlN5YdxmiQG/cae91892be6d53489f7d7f20527e5b74/meedan_brazil_covid-19_isa_2.jpg"
+    body: "To wake up in Brazil in 2020 is to confront daily headlines that send us
+      back to 1968, our years of military dictatorship. We see headlines such as:
+      Brazilian President Jair Bolsonaro [suspends](https://www.telegraph.co.uk/news/2020/06/07/bolsonaro-removes-surging-coronavirus-death-toll-official-websites/
+      \"Bolsonaro removes number of deaths\") publication of number of deaths; the
+      government demands a [recount](https://www1.folha.uol.com.br/equilibrioesaude/2020/06/governo-vai-recontar-numero-de-mortos-por-covid-19-diz-secretario-da-saude.shtml
+      \"Bolsonaro's govenament wants to recount the number of deaths \") of the death
+      numbers saying they are \"inflated\". Meanwhile Brazilian scientists estimate
+      that the number of underreported victims of COVID-19 is [seven times higher](https://oglobo.globo.com/sociedade/coronavirus/numero-de-casos-de-covid-19-no-brasil-pode-ser-ate-sete-vezes-maior-do-que-oficial-diz-pesquisa-1-24445874
+      \"Number of deaths can be seven times higher than the official numbers, says
+      research\") than what has been reported. This means that according to the [official
+      data](https://www.publico.pt/2020/06/05/mundo/noticia/brasil-morre-pessoa-minuto-devido-covid19-1919572
+      \"According to offcial data on eperson dies per minute due to covid-19 in Brazil\"),
+      every minute,a person dies from COVID-19 in Brazil. \n\nIn Latin America the
+      erasure of data and memory, lack of transparency and the rise of scientific
+      and [historical](https://www1.folha.uol.com.br/poder/2019/03/nao-houve-ditadura-teve-uns-probleminhas-diz-bolsonaro-sobre-regime-militar-no-pais.shtml
+      \"Bolsonaro denies the existance of Brazil's military dictatorship past\") denialism
+      is nothing new, much less in Brazil. For a [brief period ](https://oglobo.globo.com/sociedade/referencia-global-sobre-covid-19-universidade-johns-hopkins-interrompe-contagem-de-dados-do-brasil-1-24466845?utm_source=Twitter&utm_medium=Social&utm_campaign=O%20Globo)of
+      time this week, Brazil was removed from the Johns Hopkins University ranking
+      that globally counts the number of victims of the pandemic. This was a result
+      of the decision taken on June 2nd by Bolsonaro to [take down](https://oglobo.globo.com/sociedade/governo-esconde-totais-de-mortes-casos-da-covid-19-tira-site-do-ar-1-24466314
+      \"Brazillian governament takes down COVID-19 death numbers from official website\")
+      the website that provides data on deaths by COVID-19 in the country. Upon making
+      them available again this Friday, the government decided that it would focus
+      on the number of [victims recovered ](https://oglobo.globo.com/sociedade/portal-da-covid-19-volta-ao-ar-mas-sem-total-de-casos-mortes-sem-planilha-com-dados-detalhados-1-24466899)and
+      those who have died in the past 24 hours. A breakdown of the data by region,
+      and by total number of deaths will no longer be available. \n\nThe government
+      also decided to recount the dead and check the math as it believes the numbers
+      were [\"made up\"](https://blogs.oglobo.globo.com/bela-megale/post/ministerio-da-saude-vai-recontar-mortos-pela-covid-19-porque-diz-ver-dados-fantasiosos.html
+      \"Governament wants to recount the numbers saying they are made up\"). It is
+      not the first time that this government has questioned the data provided by
+      scientific organizations. In July 2019, when asked about the exponential growth
+      of deforestation in the Amazon,the Chief Minister of the Institutional Security
+      Office, General Augusto Heleno, said that the data was [\"manipulated\"](https://www1.folha.uol.com.br/ambiente/2019/07/indices-de-desmatamento-na-amazonia-sao-manipulados-diz-ministro-augusto-heleno.shtml
+      \"Minister Augusto Heleno says Amazon deforestation data was manipulated\")
+      by the National Institute for Space Research (INSPE). More recently, this scientific
+      denialism has manifested in the firing of the Women's Health Coordination Team
+      at the Ministry of Health, due to the publication of a technical note that addresses
+      access to sexual and reproductive health in the context of the COVID-19 pandemic.
+      Several organizations [denounced](http://www.visibilidadefeminina.org/noticias)
+      this decision, among them Visibilidade Feminina (Femininine Visibility), a non-profit
+      civil organization that aims to promote the role of women in public and private
+      spaces of power.\n\nThe majority of the victims in the COVID-19 pandemic are
+      black, according to a survey by [Agência Pública](https://apublica.org/2020/05/em-duas-semanas-numero-de-negros-mortos-por-coronavirus-e-cinco-vezes-maior-no-brasil/
+      \"In two weeks the number of black vistims is five times higher\"), and they
+      are victims of a racist and genocidal policy imposed by the Bolsonaro government
+      which [plays down the effects of the pandemic](https://edition.cnn.com/2020/05/23/americas/brazil-coronavirus-hospitals-intl/index.html).
+      The number of black victims with low literacy is four times higher than that
+      of white people with a higher education level, as revealed by the [research
+      carried](http://www.ctc.puc-rio.br/diferencas-sociais-confirmam-que-pretos-e-pardos-morrem-mais-de-covid-19-do-que-brancos-segundo-nt11-do-nois/)
+      out by PUC-RIO. And this week we also learned that the virus is [twice as lethal](https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2020-06/covid-19-agrava-violacoes-contra-indigenas-yanomami-diz-estudo)
+      \ to the Yanomami tribe, and due to the mining and deforestation activities
+      [supported](https://www.nytimes.com/2020/04/19/world/americas/bolsonaro-brazil-amazon-indigenous.html)
+      by Bolsonaro's government in the Amazon forest, they are even more vulnerable.
+      Scientists currently estimate a 6.45% death rate among the Yanomami population,
+      according to [a study](https://acervo.socioambiental.org/acervo/publicacoes-isa/o-impacto-da-pandemia-na-terra-indigena-yanomami-foragarimpoforacovid)
+      conducted by the Instituto Socioambiental (ISA) and the Federal University of
+      Minas Gerais.\n\n### Learning from our recent past \n\nState violence, such
+      as what we are living through today, generates [trauma](https://www.bbc.com/news/world-latin-america-30408012)
+      in the fabric of society that needs to be repaired to avoid a repeat of our
+      recent past, where there has been an erasure of popular history of collective
+      resistance. The transitional justice process after the dictatorship in Brazil
+      was done we did not, for example, [hold the military to account](https://www.foreignaffairs.com/articles/brazil/2019-01-01/ghosts-brazils-military-dictatorship).\n\nOne
+      lesson we did learn was the importance of memory as a practice of resistance.
+      By preserving historical artifacts such as testimonies, documents, images and
+      videos during and after the dictatorship period we were able, more or less effectively,
+      to carry out recovery processes through the [National Commission of Truth](https://www.conectas.org/en/news/final-report-of-the-national-truth-commission-what-now-brazil)
+      that addressed missing persons, the exiled and victims of political crimes.
+      After the dictatorship, the Brazilian Constitution of 1988 sought to heal some
+      secular wounds as a result of the efforts of civil society that demanded the
+      creation of SUS, our universal health system which provides access to health
+      for the Brazilian population. It is this same system that during the COVID-19
+      pandemic is collapsing in several states of the country, proving that it is
+      [underfunded](https://politica.estadao.com.br/blogs/fausto-macedo/o-sus-e-o-direito-a-saude-em-tempos-de-coronavirus/),
+      even while being essential.\n\nThe cruelty of this historical moment becomes
+      acute, when, in addition to burying our dead in [collective graves](https://www.businessinsider.com/photos-brazil-mass-graves-experts-anticipate-covid-19-deaths-2020-5
+      \"Photos of Brazil mass graves\"), remembering their lives, and surviving a
+      pandemic, we still urgently need to preserve data and documents, in order for
+      compensation to be possible in the future to the families of the victims of
+      this policy. \n\n\n### Acting while we suffer: online collective mourning and
+      self organizing \n\nMemory as resistance is being articulated by the [Memorial
+      of Victims of COVID-19 in Brazil](https://www.facebook.com/pg/memorialcoronabrasil/about/?ref=page_internal
+      \"Facebook page of the covid-19 memorial\"), a Facebook page that aims to honor
+      victims and tell their stories. And it is one of the initiatives of the [Support
+      Network for the Families of Fatal Victims of Covid-19 in Brazil](https://seguraaonda.com.br/nasce-a-rede-de-apoio-as-familias-de-vitimas-fatais-do-covid-19-no-brasil/),
+      an emergency network made up of volunteers, professionals and people in solidarity
+      with the families of victims in the country, in their honor. The network's objectives
+      are to: provide guidance for funerals, burials and farewell rituals and to create
+      channels to guarantee the right to memory and wakes (even if virtual) and due
+      tribute to the dead. \n\nNews portal [G1](http://especiais.g1.globo.com/bemestar/coronavirus/memorial-vitimas-covid-19/#/
+      \"G1 COVID-19 omline Memorial\"), has responded to this collective need of mourning
+      by creating an online memorial with the victim's obituaries. Another example
+      is [Inumeráveis ](https://inumeraveis.com.br/ \"Inumeráveis website\")(Innumerable)
+      a collaborative and volunteer virtual memorial effort with the premise that
+      no one likes to be a number, according to them, people deserve to exist in prose.
+      Their editorial process involves families of the victims, journalists and researchers.
+      It was built as a space to celebrate life.\n\nTo articulate how self organizing
+      is important for the indiginous population in Brazil in challenging the state
+      narrative you only have to compare the numbers of confirmed deaths recorded
+      by families and communities with the official numbers that the government shares
+      from the Special Indigenous Health Secretariat (SesaI). In some cases they are
+      [three times](https://g1.globo.com/bemestar/coronavirus/noticia/2020/06/01/18-mil-indigenas-sao-infectados-por-covid-19-em-78-povos-no-brasil-diz-organizacao.ghtml)
+      higher according to Articulation of Indigenous Peoples in Brazil (Apib) their
+      aim is to preserve victims’ memory.\n\n\n### Preserving memory as a path forward\n\n>
+      \"Memory is, in itself, an end, a strategy to repair the damage caused to human
+      rights and is a way to reconcile a society\" comments Professor Isabel Piper
+      Shafir, from the Faculty of Social Sciences at the University of Chile, about
+      the post-dictatorship reparation processes in Chile. \n\nTo ensure that we can
+      use memory as a strategy for reparation, the work of civil organizations, activists,
+      technologists, historians, researchers and journalists is essential to the archiving
+      and preservation process. \n\nUnderstanding our current information ecosystem
+      can be part of the strategy for the sustainability of these archives and collections
+      of data. The memorial of the Covid-19 victims in Brazil is hosted on [Facebook](https://www.facebook.com/pg/memorialcoronabrasil/about/?ref=page_internal
+      \"Facebook page of the Memorial for Victms of COVID-19 in Brazil\")'s platform;
+      in practical terms this means that the content, those collectively woven threads
+      of memory, are being stored and held by a corporate social media platform. These
+      corporations are becoming the record keepers of a country's history while there
+      is still a [total lack of transparency](https://www.eff.org/press/releases/facebook-instagram-lack-transparency-government-ordered-content-removal-amid
+      \"EFF: Facebook and Instagram lack transparency\") regarding their content moderation
+      policies. Often we don't know why they take something down, leaving their motivation
+      unclear and leaving us to wonder: was this content [censored](https://www.theguardian.com/commentisfree/2019/nov/08/instagram-shadow-bans-marginalised-communities-queer-plus-sized-bodies-sexually-suggestive
+      \"Instagram shadow bans marginalised communities\")? Was it a technical error?
+      Or did it infringe the platform's policies?\n\nA possible response is using
+      open source technology to contribute to ongoing efforts to archive and safeguard
+      content and history, helping to preserve context and ownership, as well as ensuring
+      data collection and transparency for future accountability. \n\nThere are several
+      formats of how civil organizations and open source communities can cooperate
+      in these efforts some examples are: creating open source investigations to collect
+      data on the victims of COVID-19 using [Check](https://meedan.com/check \"Check
+      product page\"), or using archiving software such as Huridoc's [Uwazi ](https://www.uwazi.io/
+      \"Uwazi product page\")to curate and publish human rights documentation that
+      could make important, public information more accessible, as well as using the
+      OpenArchive’s [app Save](https://open-archive.org/save/ \"Save website\") to
+      streamline media workflows to facilitate rapid response and reporting while
+      encrypting the media. Another open source approach comes from [DocNow](https://www.docnow.io/
+      \"DocNow website\") whose focus is on archiving social media activist content,
+      they do this by engaging directly with communities and [co-creating](https://news.docnow.io/documenting-activism-now-17db7b956fcf
+      \"DocNow blog post on Documenting Activism\") through workshops solutions that
+      are customized to their needs and workflows. \n\nLet's learn from our past historical
+      erasures and organize ourselves to use current technology to safeguard our memory
+      but also to understand the limitations of certain tools and products. Perhaps
+      this time around, we can say that in spite of our collective shock and loss
+      we honored our loved ones by mourning, remembering and saving space for future
+      reparation. And hopefully as we walk on the coronavirus-free streets again we
+      will do it in spaces that, different from today, are liberated of rotting statues
+      and avenues named after the generals that were responsible for digging mass
+      graves in times past. \n"
     words_by:
     - sys:
-        id: 7xM8QfuAFGFURUXRBNLBtX
-    alt_date: !ruby/object:DateTime 2020-06-03 00:00:00.000000000 Z
+        id: 57swkb0x1YLvhHB31YFb3U
   - sys:
       id: 7gtmJXtROk7m5cbnflRfTz
       created_at: !ruby/object:DateTime 2020-05-15 09:39:05.001000000 Z
@@ -212,6 +332,54 @@ moduleStories:
         id: 5RAhIbkGFCzRWLiEMbezs9
     alt_date: !ruby/object:DateTime 2020-06-02 00:00:00.000000000 Z
   - sys:
+      id: 51b7Zp4ynwTDHtNhp4aBQL
+      created_at: !ruby/object:DateTime 2020-06-05 01:17:43.296000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-10 03:23:11.678000000 Z
+      content_type_id: story
+      revision: 4
+    title: We must demand more of our institutions and of our leaders
+    slug: we-must-demand-more-of-our-institutions-and-of-our-leaders
+    lead_image:
+      sys:
+        id: 1bYxFxmWZ6fldWG0PXMxDt
+        created_at: !ruby/object:DateTime 2020-06-10 03:16:15.672000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-10 03:23:07.396000000 Z
+      title: Untitled3
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1bYxFxmWZ6fldWG0PXMxDt/f22c0bedbd966e5a0ec788834dc2b0aa/Untitled3.png"
+    body: "All injustices have at their core an abuse of power. Systemic injustices
+      ingrain these abuses into the structure of our societies, into the mechanics
+      of how power, money, opportunity, and—as the past months have made so brutally
+      apparent—health is accessed and distributed. \n\nAs an organization that is
+      ultimately built on the premise that truth and knowledge are contextual, we
+      have an obligation to the truth that exceeds our commitment to non-partisanship.
+      We in the strongest possible terms condemn the killings of George Floyd and
+      Breonna Taylor, and we criticize US national leadership, whose lack of contrition
+      and unwillingness or inability to empathize with the very clear sentiments of
+      millions of Americans in this moment is a profound and damaging failure.\n\nMeedan,
+      while founded in the US, is a global technology non-profit working with media
+      partners around the world, primarily in the global south. Our partners work
+      to document human rights abuses in Yemen, uncover political corruption in the
+      Philippines, and empower young investigative journalists and fact-checkers in
+      Africa. We have designed our organization in response to the single question:
+      \"What can we do as engineers, program managers, researchers and designers to
+      address injustice and inequity in digital spaces?\"\n\nThis moment of social
+      rage is of profound concern. We must demand more of our institutions and of
+      our leaders, especially with regards to systemic racism against Black communities.
+      Every sector of our society from the institutions of our government, to our
+      corporations, to the media, to our universities, to the technology platforms,
+      to organizations like ours must make an aggressively anti-racist approach core
+      to our business models, our missions and our daily work.\n\nAt Meedan we commit
+      to honoring the memory of George Floyd, Breonna Taylor, and all those whose
+      lives and livelihoods have been harmed by anti-blackness, racism, hatred and
+      disinformation. So much more needs to be done, and we commit to using our work---our
+      tools, our programs, and our research---to helping in this effort.\n\n\n— Ed
+      Bice, CEO, Meedan\n\n"
+    words_by:
+    - sys:
+        id: 7xM8QfuAFGFURUXRBNLBtX
+    alt_date: !ruby/object:DateTime 2020-06-03 00:00:00.000000000 Z
+  - sys:
       id: 5BRYd5pcfXQaZeRnX6fTrC
       created_at: !ruby/object:DateTime 2020-05-22 22:05:20.512000000 Z
       updated_at: !ruby/object:DateTime 2020-06-03 02:20:17.143000000 Z
@@ -274,128 +442,3 @@ moduleStories:
         id: 4JqOrlVgCscDebeRwxYBu8
     - sys:
         id: 3LwmNUnWdLGIZbvPisgSL5
-  - sys:
-      id: fb5HPOQ7ZE8M5gDsXXEoe
-      created_at: !ruby/object:DateTime 2020-04-22 13:43:59.591000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-15 15:57:04.101000000 Z
-      content_type_id: story
-      revision: 4
-    title: 'Looking back at the #VoicesOnTheRise Mediathon in Mexico'
-    slug: voicesontherise-mediathon-in-mexico
-    topic:
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
-    lead_image:
-      sys:
-        id: 6mIWJkNQ9uJ02oaN1h6WcW
-        created_at: !ruby/object:DateTime 2020-04-22 15:41:05.527000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-21 17:33:22.288000000 Z
-      title: Chicas Poderosas Mexico Mediathon
-      description: A group of women with their hands raised during the 2019 Chicas
-        Poderosas Mexico Mediathon (Photo courtesy of Chicas Poderosas)
-      url: "//images.ctfassets.net/g118h5yoccvd/6mIWJkNQ9uJ02oaN1h6WcW/6a46158c3e2a629e2b25d180c5c1d88b/edit_MexicoMediathon_November_23_1_.jpg"
-    body: "With the COVID-19 pandemic reaching Latin America and the rest of the world,
-      we are living through unprecedented times in our civilization. Social distancing
-      is the norm for those who are privileged enough to have shelter; sheltering-in-place
-      is the norm for those with enough flexible income to keep food in storage for
-      two weeks;  and washing hands regularly for 20 seconds is the norm when you
-      have water to run for that long and that often. In Latin America and other emerging
-      economies where most of the population live in [urban dense](https://www.washingtonpost.com/world/the_americas/brazil-coronavirus-rio-favela/2020/03/20/2522b49e-6889-11ea-b199-3a9799c54512_story.html)
-      areas the outcome of this disease is daunting. \n\nThis can also be a time to
-      remember the power we have in gathering as a community to collaborate and create
-      new and inclusive pathways. The following article is a collection of thoughts
-      as a speaker and as an observant participant in the #VoicesOnTheRise Mediathon
-      in México, which occurred November 2019, before the COVID-19 outbreak. \n\n>
-      \"Para cambiar los medios necessitamos cambiarlo nosotras (to change the media
-      we will need to change it ourselves)\" said Mariana Santos, founder and CEO
-      of Chicas Poderosas, at the beginning of the 2019 Mediathon in Mexico. This
-      speech set the tone for the rest of the weekend, and it sums up Chicas Poderosas
-      an all-female digital media professinals network and Meedan partner. \n\nIn
-      a historic building at the center of Mexico City, 100 women from 17 Mexican
-      states got together for two days with the goal of creating multimedia projects
-      on subjects relevant to their context and based on the current sexual assaults
-      occurring in the country. \n\nTo get to this meeting spot you would have to
-      first find yourself on a street right behind the Catedral Metropolitana, a catholic
-      church that is part of a series of buildings that stand today on top of what
-      used to be The Templo Mayor, the heart of the Mexica empire.\n\nAs the event
-      started, the women took pictures first of the stage and the speakers, but slowly
-      as they started to chat with each other during the activities of the day, selfies
-      emerged— a prelude to the professional relationships and friendships that were
-      forged at these events. Despite the grey building, colors were abundant in Chicas
-      banners, participant's hairs, [pañuelos](https://www.infobae.com/sociedad/2019/06/08/color-por-color-que-significan-los-24-panuelos-que-se-venden-en-las-calles-portenas/)
-      and children's toys. \n\n\nA little girl was running between the participants'
-      tables, and was covering the event by taking pictures with her mother's camera.
-      A future journalist? No way to tell, but she was embraced and taken care of
-      by the community. In Latin America there is an increasing number of women self
-      identifying as [household heads](https://www.cambridge.org/core/books/unequal-family-lives/families-in-latin-america/27F2E01B797AD1489A238BFDF2075F1C/core-reader),
-      and as they become mothers the participation in professional events declines,
-      as do career development opportunities. This effect is known as the [baby penalty](https://www.chronicle.com/article/The-Baby-Penalty/140813
-      \"Baby Penalty\"). The presence of kids in this event set a precedent for Chicas,
-      and in 2020 all Mediathons will make clear in their calls to the community that
-      mothers and children are welcome *(due to COVID-19 pandemic Mediathons will
-      be held online)*. \n \nThe words used during most of the interactions were those
-      of a call for action, pure energy, and resistance. Chicas Mediathons are feminist
-      spaces, and platforms used to capacitate and share knowledge. The crowd was
-      composed of psychologists, philosophers, photographers, developers, designers,
-      and journalists. All the presenters were women, and they engaged a crowd  of
-      diverse personalities: a few raised their voices to be heard, others nodded.\n\n###
-      The Mediathon Model: Building a community by building safe spaces\n\nTo ensure
-      that the room was transformed into a safe space, [rules of behavior ](http://chicaspoderosas.org/wp-content/uploads/2018/12/Co%CC%81digo-Chicas-ES.pdf
-      \"Chicas Code of conduct\")and engagement were shared as soon as the event began.
-      Chicas defines a safe a place as one that is free of social, cultural, racial
-      and sexual oppression. The material with the code of conduct was sent to the
-      participants beforehand, and they were reminded by the organizers that they
-      were always available to answer any questions and to help if something that
-      violated the code or made them feel uncomfortable happened. A few members were
-      defined as the go-to people for any woman that felt the code was violated. There
-      were only a few men present, of those, most were working at the catering service
-      and only a couple representing NGOs that were speaking on the first day. \n\nMediathons
-      are made real thanks to Chicas volunteer ambassadors in each country/city in
-      which they run an event. The team organizing it was composed of members that
-      first started by attending or presenting at one of Chicas Poderosas events around
-      Latin America, which is a common way to get to know and be a part of the community.
-      In this case, most of them were not from México City and had instead traveled
-      from distant provinces. \n\nThe event was based on a two-day structure centered
-      around a contextualized issue, in this case, violence against women in México.
-      The first segment involved local NGOs and communities presenting their work
-      on gender violence, violence against women journalists, abortion and reproductive
-      rights. After that, the participants decided which subtopic they wanted to investigate
-      further, and teams formed around the multimedia projects. On the second day,
-      \ women leaders in their field presented issues on which they are experts, such
-      as online engagement, online security, and fact-checking tools (this last one
-      was presented by a zombie-like me while I was fighting a mix of: flu and CDMX
-      dry climate). After this, they worked on the projects with their mentors and
-      at the end presented their multimedia projects and timelines.\n\nThe highlight
-      of this experience was when one of the participants started presenting her project
-      in a Mayan language. The entire crowd clapped, shouted and, safe to say, I had
-      goosebumps. Coming from Brazil, a country that systematically erased (and still
-      does) the existence of the indigenous population, it was humbling to hear that
-      ancient and important language. That woman speaking summed to me what Chicas
-      is about: sharing and saving space for underrepresented voices that shape our
-      communities. \n\n### One-month mentoring projects\n\nThe projects presented
-      were about a myriad of subjects: abortion, sexuality, a radio community directed
-      to indigenous women focusing on fighting gender violence in 6 different local
-      languages, child and teenage pregnancies, masculinity and gender roles. \n\n[Here](https://medium.com/chicas-poderosas/historias-que-ponen-nuestras-vocesenalza-ad1b31907010)
-      you can check out the amazing work that was published after the one-month mentoring
-      program:\n\n- [Forced maternity: pregnancies in girls and adolescents show the
-      other side of violence against women in Mexico](https://serendipia.digital/2020/01/embarazo-adolescente-muestra-la-otra-cara-de-la-violencia-contra-las-mujeres-en-mexico/)\n-
-      [Women on community radio](https://ladobe.com.mx/2020/01/las-mujeres-en-las-radios-comunitarias/)\n-
-      [Women journalists under two fires: gender and sociopolitical violence](https://distintaslatitudes.net/historias/reportaje/mujeres-periodistas-bajo-dos-fuegos)
-      \n\n\n### Chicas Poderosas 2020\n\n![Mexico Mediathon ](//images.ctfassets.net/g118h5yoccvd/6NCe6uxzx4nguVhywe97Gx/48786d0f90014704e61c2c4c0ffbdf66/MexicoMediathon_November23_1_.jpg)\n\nLooking
-      at these photos now, it’s hard to remember when it was possible to come together
-      in such a large group. Adapting to the COVID-19 reality Chicas Poderosas is
-      working on an online format for the mediathon and exploring new ways to innovate,
-      sustain and expand their community using digital tools. This year one of the
-      initiatives we will be supporting Chicas is the [Conversaciones Poderosas en
-      La Pandemia COVID-19](https://medium.com/chicas-poderosas/conversacionespoderosas-en-la-pandemia-de-covid-19-71daa8ea523f
-      \"Conversaciones Poderosas\"), a space to talk about the various challenges
-      that the pandemic presents on a professional and personal level for journalists,
-      share ideas on how to face them and exchange points of view from different countries.
-      The objective is to create a space of containment, learning and accompaniment
-      for the community."
-    words_by:
-    - sys:
-        id: 57swkb0x1YLvhHB31YFb3U
-    alt_date: !ruby/object:DateTime 2020-05-15 00:00:00.000000000 Z

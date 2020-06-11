@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="site {{ page.class }}">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include header.html %}
+        <section>
+            <div class="section-icon section-margin">
+                <img src="/images/placeholders/part-one-icon.png" />
+            </div>
+            <div class="section-meta main-grid section-margin">
+                <span class="section-number">
+                    Part One
+                </span>
+                <span class="section-name">
+                    Informal Information Leaders
+                </span>
+                <span class="section-intro">
+                    The pandemic has shown Americans how far apart they are. But out of this crisis there’s a chance to build a better nation.
+                </span>
+            </div>
+            <div class="paper-wrapper main-grid">
+                <div class="paper">
+                    <a class="paper-link" href="#">
+                        <div class="paper-meta">
+                            <span class="paper-title">
+                                Government interference online is getting worse.
+                            </span>
+                            <span class="paper-intro">
+                                According to the Oxford Internet Institute, the number of countries with political disinformation campaigns nearly doubled to 70 in the last two years or so. 
+                            </span>
+                            <span class="paper-byline">
+                                writes Davey Alba
+                            </span>
+                        </div>
+                        <div class="image-wrapper">
+                            <img class="paper-image" src="/images/placeholders/paper-image-1.png" />
+                        </div>
+                    </a>
+                </div>
+
+                <div class="paper section-margin">
+                    <a class="paper-link" href="#">
+                        <div class="paper-meta">
+                            <span class="paper-title">
+                                In China, a whole new internet is flowering.
+                            </span>
+                            <span class="paper-intro">
+                                Billions of people are using apps you may have never heard of. The first generation of Chinese tech giants, known as BAT (Baidu, Alibaba and Tencent), were founded during the desktop internet era.
+                            </span>
+                            <span class="paper-byline">
+                                writes Yiren Lu
+                            </span>
+                        </div>
+                        <div class="image-wrapper">
+                            <img class="paper-image" src="/images/placeholders/paper-image-2.png" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% include footer_small_newsletter.html theme="dark" %}
+        </section>
+    </div>
+    {% include js.html %}
+</body>
+
+</html>
