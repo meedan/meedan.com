@@ -25,9 +25,48 @@
 }
 
 .paper-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(Min(8em, 100%), 1fr));
+    grid-gap: var(--space-3);
+    grid-auto-flow: row;
     padding-left: var(--space-3);
     padding-right: var(--space-3);
     .paper {
+        background-color: var(--black);
         text-align: center;
+        grid-column: span 6;
+        padding: var(--space-2) var(--space-2);
+        color: #fff;
     }
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
+
+.paper .paper-title {
+    font-family: $font-stack-c;
+    font-size: var(--scale-3);
+    line-height: 0.8;
+}
+
+.paper .paper-intro {
+    display: block;
+    font-family: $font-stack-d;
+    font-size: var(--scale-0);
+    margin-top: 0.278rem;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paper .paper-byline {
+    display: block;
+    font-family: $font-stack-d;
+    font-size: var(--scale-0);
+    margin-top: 0.278rem;
+}
+
+.paper .image-wrapper {
+    margin-top: var(--space-3);
+
 }
