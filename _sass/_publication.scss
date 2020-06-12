@@ -1,26 +1,68 @@
+.publication .page-wrapper header h2 {
+    grid-column: 2/-2;
+    text-align: center;
+    font-family: $font-stack-c;
+    font-size: var(--scale-4);
+    @include responsive('min-width: #{$width-tablet}') {
+        font-size: 5.556rem;
+    }
+    letter-spacing: -0.01rem;
+    line-height: 0.95;
+}
+
+.publication .page-wrapper header .standfirst {
+    grid-column: 2/-2;
+    text-align: center;
+    font-family: $font-stack-d;
+    font-size: var(--scale-1);
+    color: #fff;
+    margin-top: 0;
+    @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+        margin-top: var(--space-1);
+        padding-left: var(--space-3);
+        padding-right: var(--space-3);
+    }
+}
+
+
 .section-meta,
 .section-icon {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
-    text-align: center;
+    // text-align: center;
 }
 
 .section-icon {
-    width: 140px;
-    margin-left: auto;
-    margin-right: auto;
+    // width: 140px;
+    // margin-left: auto;
+    // margin-right: auto;
 }
 
 .section-meta {
+    margin-top: var(--section-space);
+    margin-bottom: var(--space-4);
     span {
         display: block;
     }
     .section-number,
     .section-name {
-        grid-column: 5/-5;
+        grid-column: 1/9;
+    }
+    .section-number {
+        font-family: $font-stack;
+        text-transform: uppercase;
+        letter-spacing: 0.044rem;
+        font-size: 0.778rem;
+        font-weight: 700;
+    }
+    .section-name {
+        font-family: $font-stack-c;
+        font-size: var(--scale-3);
+        line-height: 0.95;
     }
     .section-intro {
-        grid-column: 3/-3;
+        grid-column: 1/8;
+        font-size: var(--scale-0);
     }
 }
 

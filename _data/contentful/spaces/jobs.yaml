@@ -1,8 +1,189 @@
 ---
 job:
 - sys:
+    id: 6AgtUn149xr01IT56AqDbV
+    created_at: !ruby/object:DateTime 2020-03-09 22:36:44.593000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-14 22:46:03.243000000 Z
+    content_type_id: job
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: SysOps Engineer
+  slug: sysops-engineer
+  body: "- __Location:__ Anywhere within the timezones GMT+2 to GMT-8. Other locations
+    possible for the right candidate.\n- __Reports to:__ Senior Systems Manager\n-
+    __Availability:__ Immediate\n\nWe are looking for a SysOps (aka DevOps) specialist
+    to help us enhance the reliability, performance and security of our software,
+    within a small team of competent technologists and designers.\n\nMeedan is a 501(c)(3)
+    non-profit that builds digital tools for global journalism. We are a team of designers,
+    technologists, academics, and journalists who focus on open source investigation
+    of digital media and crowdsourced translation of social media. With commercial,
+    media and university partners, we support research, curriculum development, and
+    new forms of digital storytelling. We have supported major fact-checking initiatives
+    around elections in Mexico (Verificado), France (CrossCheck), the US (Electionland),
+    and India (Checkpoint) as well as general day-to-day fact-checking efforts in
+    the Philippines (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for
+    world changing human rights investigations with partners like Bellingcat, Syrian
+    Archives, Watching Western Sahara, and the Berkeley Human Rights Center.\n\nOur
+    product suite includes Check, an open-source media annotation web application
+    integrated with major social media platforms that allows journalists, human-rights
+    defenders, and civil society organizations to annotate, verify, fact-check, and
+    contextualize web content in a collaborative manner mixing human and machine intelligence.\n\nThis
+    is a full-time position.\n\n### Responsibilities\n\n- Participate in building
+    new versions of our software products\n- Participate in managing infrastructure\n-
+    Participate in troubleshooting and incident management\n- Maintain and enhance
+    our continuous deployment system\n- Maintain and enhance our Docker-based container
+    services on the AWS platform\n- Participate in performance and security reviews,
+    including fixes where needed\n- Maintain and enhance our automated testing infrastructure\n-
+    Support developers in maintaining and enhancing their development environment\n\n###
+    Qualifications\n\n- Experience with AWS scripting.\n- Experience with Ruby, NodeJS,
+    and other mainstream programming platforms\n- Experience with Docker\n- Knowledge
+    of automation tools such as Terraform, Ansible, or CloudFormation\n- Experience
+    with managing and optimizing PostgreSQL and Elasticsearch\n- Experience with open
+    source software development\n- Experience with automated testing\n- Ability to
+    quickly learn and use new technologies\n- Strong communications and interpersonal
+    skills\n- Experience working in cross-cultural contexts\n- Experience working
+    remotely\n\n\nMeedan is a fast-paced, small, software development startup that
+    relies heavily on the unique skills of each team member. Our team members are
+    able to work flexibly and respond to challenges across a range of project areas.
+    We are headquartered in San Francisco’s SOMA district with team members distributed
+    through multiple cities and time zones. We encourage individuals from historically
+    underrepresented communities in technology and journalism to apply, including
+    women, people of color, people with disabilities and those who identify as LGBTQ.\n\nSalary
+    and benefits commensurate with qualifications and experience. \n\nPlease send
+    CV, Github repo and statement of interest to <a href=\"mailto:jobs@meedan.com?subject=SysOps
+    Engineer\">jobs@meedan.com</a>."
+  date: '2020-03-09'
+- sys:
+    id: 4SJXXyNQWl2YY5WawH8Z8f
+    created_at: !ruby/object:DateTime 2020-03-09 22:38:56.806000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-30 10:53:56.855000000 Z
+    content_type_id: job
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Research Fellow
+  slug: research-fellow
+  body: "- __Location:__ San Francisco, USA, or Oxford, UK, preferred; remote possible
+    for the right candidate\n- __Availability:__ Immediate; 12-month 1.0 FTE contract,
+    with possibility of renewal subject to funding\n- __Reports to:__ Director of
+    Research\n- __Deadline:__ Please apply before 27 March 2020 for full consideration.\n\n###
+    Overview of the role\n\nMeedan is seeking a Research Fellow to join its research
+    team for a 12-month fellowship. The successful fellow will work primarily on the
+    CryptoChat project led by Dr Scott Hale at Meedan and Dr Kiran Garimella at MIT’s
+    Institute for Data, Systems, and Society. The Fellow will also contribute to other
+    research projects at Meedan under guidance from Director of Research, Dr Hale.
+    The Fellow’s research will include analysis of large, real-world social media
+    datasets created and annotated by Meedan partners. This opportunity is available
+    to suitable candidates located anywhere in the world to work remotely with in-person
+    opportunities in Oxford, UK, or San Francisco, USA.\n\nMeedan is a 501(c)(3) non-profit
+    that builds digital tools for global journalism. We are a team of designers, technologists,
+    academics, and journalists who focus on open source investigation of digital media
+    and crowdsourced translation of social media. With commercial, media and university
+    partners, we support research, curriculum development, and new forms of digital
+    storytelling. We have supported major fact-checking initiatives around elections
+    in Mexico (Verificado), France (CrossCheck), the US (Electionland), and India
+    (Checkpoint) as well as general day-to-day fact-checking efforts in the Philippines
+    (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for world changing
+    human rights investigations with partners like Bellingcat, Syrian Archives, Watching
+    Western Sahara, and the Berkeley Human Rights Center.\n\nOur product suite includes
+    Check, an open-source media annotation web application integrated with major social
+    media platforms that allows journalists, human-rights defenders, and civil society
+    organizations to annotate, verify, fact-check, and contextualize web content in
+    a collaborative manner mixing human and machine intelligence.\n\n\n### Responsibilities\n\n####
+    Original Research\n\n- Develop and undertake state-of-the-art research in social
+    data science, computational social science, or computer science.\n- Lead quantitative
+    analysis of large social-media datasets, including messaging app data already
+    collected for the project from tip lines operated by media partners and webscraping.\n-
+    Survey existing literature, tools, and techniques in regard to messaging platforms
+    and online communication.\n- Writing, publication, and dissemination of results
+    in articles, blog posts, and project reports aimed at both academic and non-academic
+    audiences.\n\n#### Project Administration\n\n- General day-to-day administration
+    of the project and coordination with all project partners.\n- Research design
+    in collaboration with the lead investigators.\n- Maintaining the project’s online
+    presence.\n- Support legal partners working to develop and evaluate new data governance
+    approaches.\n\n#### Research Support\n\n- Participate actively in the intellectual
+    life of Meedan sharing findings and developing research questions with Meedan’s
+    program, product, design, and software development teams.\n- Such other project-related
+    duties as may be required by Dr Scott Hale.\n\n### Qualifications\n\n#### Required\n\n-
+    Hold a relevant Ph.D in computational social science, computer science, communication
+    or another programme with social science theory and computational/data science
+    methods. Those without a Ph.D. but with exceptional academic research experience
+    will also be considered.\n- Demonstrated experience in empirical data analysis
+    using a suitable scripting language (e.g., Python)\n- Ability to effectively disseminate
+    results to a range of stakeholders\n- Ability to work flexibly, prioritizing tasks
+    to meet given deadlines and maintaining a high standard of accuracy and attention
+    to detail\n- Interpersonal skills relevant to working with colleagues as part
+    of a global, cross-cultural team at Meedan and communicating across disciplines
+    and industry-academia boundaries\n- The ability to write reports and publications
+    in fluent English\n\n#### Optional, but a plus\n\n- Machine learning, natural
+    language processing, crowdsourcing, image/video processing (e.g., image hashing),
+    or computer vision experience \n- Strong experience in Computer-Supported Collaborative
+    Work, Computer Mediated Communication, and other disciplines focused on analysing
+    online communication. \n- Demonstrated commitment to Open Science and public or
+    policy engagement\n\n\n### About the CryptoChat project\n\nThe CryptoChat project
+    is a 12-month quantitative research project analysing communication dynamics in
+    large datasets from encrypted messaging platforms. It leverages existing datasets
+    in a comparative analysis to understand how encrypted messaging differs from the
+    open web and other social media platforms. The intended contributions of this
+    research are multifold. \n\n1. Provide insights into the nature of encrypted messaging
+    platforms through descriptive statistics about their use (e.g., number of users,
+    number of unique messages, number of images versus textual messages, temporal
+    trends). \n2. Provide exploratory analysis of the data through unsupervised methods
+    such as clustering images based on similarity metrics and topic modeling text
+    to generate hypotheses for further research.\n3. Investigate instances of dangerous
+    and harmful content within the datasets with a specific focus on hate speech and
+    incitement to violence.\n4. Provide methodological insights into how to best study
+    mis/disinformation on encrypted platforms, with considerations for both ethics
+    and efficacy. Specifically, we compare datasets created through misinformation
+    tiplines with datasets created by crawling the web for join links to large, pseudo-public
+    groups.\n5. Compare content in our closed messaging datasets to open web and traditional
+    media data to understand the extent to which content overlaps and the temporal
+    ordering of content appearance. Does content appear first on closed messaging
+    platforms and later on the open web or vice versa?\n6. Build the technical capacity
+    to generate descriptive statistics and exploratory analysis quickly. We will build
+    interfaces for live statistics with the goal of allowing policymakers, journalists,
+    and the public to understand the content submitted in near real-time. We will
+    further build a robust pipeline for exploratory data analysis (e.g., content clustering)
+    so that reports with these results can be published within one month of any tip
+    line deployment.\n7. Build and test a legal and ethical framework that provides
+    clear guidelines for data collection and data usage in a global context.\n\nMeedan
+    is a fast-paced, small, software development startup that relies heavily on the
+    unique skills of each team member. Our team members are able to work flexibly
+    and respond to challenges across a range of project areas. We are headquartered
+    in San Francisco’s SOMA district with team members distributed through multiple
+    cities and time zones. We encourage individuals from historically underrepresented
+    communities in technology and journalism to apply, including women, people of
+    color, people with disabilities and those who identify as LGBTQ.\n\nSalary and
+    benefits commensurate with qualifications and experience. \n\nPlease send CV and
+    statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Research Fellow\">jobs@meedan.com</a>
+    \n"
+  date: '2020-03-09'
+- sys:
     id: 6pyAqz4QzbYvWi64mswCGr
-    created_at: !ruby/object:DateTime 2020-05-14 22:45:18.368000000 Z
+    created_at: !ruby/object:DateTime 2020-05-14 22:40:53.487000000 Z
     updated_at: !ruby/object:DateTime 2020-06-10 18:58:08.906000000 Z
     content_type_id: job
     revision: 4
@@ -10,14 +191,14 @@ job:
       sys:
         id: g118h5yoccvd
     type: Entry
+    content_type:
+      sys:
+        id: job
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
-    content_type:
-      sys:
-        id: job
     locale: en-US
   title: Program Associate, APAC
   slug: program-associate-apac

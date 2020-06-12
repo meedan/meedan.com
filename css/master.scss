@@ -30,6 +30,7 @@
 @import "image-grid.scss";
 @import "jobs.scss";
 @import "publication.scss";
+@import "report.scss";
 @import "values.scss";
 
 // @import "slick.scss";
@@ -247,6 +248,10 @@ header .meedan svg {
     fill: var(--blackInk);
 }
 
+header.dark .meedan svg {
+    fill: var(--sunDown);
+}
+
 .front:not([data-menu]) header .meedan svg {
     fill: var(--sunDown);
 }
@@ -316,6 +321,12 @@ header h1 {
     a {
         color: var(--blackInk);
         text-decoration: none;
+    }
+}
+
+header.dark h1 {
+    a { 
+        color: var(--sunDown);
     }
 }
 

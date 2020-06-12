@@ -1,0 +1,38 @@
+---
+lang: en-US
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="site story report">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include report_header.html theme="dark" %}
+        <section>
+            <div class="story-wrapper section-margin">
+                {{ content | markdownify }}
+            </div>
+            <div class="story-footer small-hr section-margin">
+                {% if page.words_by %}
+                    <div class="story-footer-item">
+                        {% include words_by.html %}
+                    </div>
+                {% endif %}
+                <div class="story-footer-item">
+                    {% if page.alt_date %}
+                        {% assign published_on = page.alt_date %}
+                    {% else %}
+                        {% assign published_on = page.sys.created_at %}
+                    {% endif %}
+                    <span>Published on</span> {{ published_on | date: "%-d %B %Y" }}
+                </div>
+            </div>
+            {% include footer_small_newsletter.html %}
+        </section>
+    </div>
+    <!-- {% include footer_nav.html %} -->
+    {% include js.html %}
+</body>
+
+</html>
