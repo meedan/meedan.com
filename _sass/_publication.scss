@@ -29,13 +29,13 @@
 .section-icon {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
-    // text-align: center;
+    text-align: center;
 }
 
 .section-icon {
-    // width: 140px;
-    // margin-left: auto;
-    // margin-right: auto;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-meta {
@@ -46,7 +46,7 @@
     }
     .section-number,
     .section-name {
-        grid-column: 1/9;
+        grid-column: 5/-5;
     }
     .section-number {
         font-family: $font-stack;
@@ -61,7 +61,7 @@
         line-height: 0.95;
     }
     .section-intro {
-        grid-column: 1/8;
+        grid-column: 3/-3;
         font-size: var(--scale-0);
     }
 }
