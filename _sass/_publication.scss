@@ -66,13 +66,13 @@
     }
 }
 
-.paper-wrapper {
+.report-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(Min(8em, 100%), 1fr));
-    grid-gap: var(--space-3);
+    grid-gap: var(--space-2);
     grid-auto-flow: row;
     padding-left: var(--space-3);
     padding-right: var(--space-3);
-    .paper {
+    .report {
         background-color: var(--black);
         text-align: center;
         grid-column: span 6;
@@ -85,13 +85,13 @@
     }
 }
 
-.paper .paper-title {
+.report .report-title {
     font-family: $font-stack-c;
     font-size: var(--scale-3);
     line-height: 0.8;
 }
 
-.paper .paper-intro {
+.report .report-intro {
     display: block;
     font-family: $font-stack-d;
     font-size: var(--scale-0);
@@ -101,14 +101,14 @@
     margin-right: auto;
 }
 
-.paper .paper-byline {
+.report .report-byline {
     display: block;
     font-family: $font-stack-d;
     font-size: var(--scale-0);
     margin-top: 0.278rem;
 }
 
-.paper .image-wrapper {
+.report .image-wrapper {
     margin-top: var(--space-3);
 
 }

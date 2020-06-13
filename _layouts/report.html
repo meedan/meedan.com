@@ -12,20 +12,30 @@ lang: en-US
         <section>
             <div class="story-wrapper section-margin">
                 {{ content | markdownify }}
+                <div class="report-sidebar">
+                    <div class="report-sidebar-item">
+                        This report is part of a special project of Meedan’s Digital Health Lab about the COVID-19 misinformation on the internet.
+                    </div>
+                </div>
             </div>
-            <div class="story-footer small-hr section-margin">
+            <div class="report-footer section-margin">
                 {% if page.words_by %}
-                    <div class="story-footer-item">
+                    <div class="report-footer-item">
                         {% include words_by.html %}
                     </div>
                 {% endif %}
-                <div class="story-footer-item">
+                <div class="report-footer-item">
                     {% if page.alt_date %}
                         {% assign published_on = page.alt_date %}
                     {% else %}
                         {% assign published_on = page.sys.created_at %}
                     {% endif %}
                     <span>Published on</span> {{ published_on | date: "%-d %B %Y" }}
+                </div>
+                <div class="report-footer-item">
+                    
+                    <span>Acknowledgments</span> 
+                    <span>This primer was developed with support and contributions from An Xiao Mina (Meedan), Scott A. Hale (Meedan, Oxford Internet Institute) Jane Shapiro (Google AI), Jenna Sherman (Harvard Chan School of Public Health) and with significant input from the Meedan team.</span>
                 </div>
             </div>
             {% include footer_small_newsletter.html %}
