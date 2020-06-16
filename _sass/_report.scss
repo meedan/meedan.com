@@ -18,10 +18,11 @@
     .title {
         font-family: $font-stack-c;
         font-size: var(--scale-3);
+        letter-spacing: -0.04rem;
         line-height: 0.95;
     }
     .intro {
-        margin-top: var(--space-1);
+        margin-top: 0.278rem;
         font-family: $font-stack-d;
         font-size: var(--scale-0);
         flex-grow: 1;

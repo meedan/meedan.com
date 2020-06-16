@@ -22,11 +22,13 @@
     {% endif %}
     {% if page.description %}
     <div class="standfirst">
-        {{ page.description }}
-        <br />writes {% 
+        <span style="color: {{ page.color.value }}">
+            {{ page.description }}
+        </span>
+        <span>writes {% 
             include authors.html 
             data=page.author 
-        %}
+        %}</span>
     </div>
     {% endif %}
     {% include nav_overlay.html %}

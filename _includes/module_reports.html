@@ -4,7 +4,7 @@
 	{% for report in reports %}
         {% if r.sys.id == report.sys.id %}
             <div class="report">
-                <a class="report-link" href="#">
+                <a class="report-link" href="/reports/{{ report.slug }}">
                     <div class="report-meta">
                     <span class="report-title" style="color: {{ report.color.value }}">
                             {{ report.title }} 

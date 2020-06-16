@@ -11,10 +11,10 @@ lang: en-US
         {% include report_header.html theme="dark" %}
         <section>
             <div class="story-wrapper section-margin">
-                {{ content | markdownify }}
+                {{ page.body | markdownify }}
                 <div class="report-sidebar">
                     <div class="report-sidebar-item">
-                        This report is part of a special project of Meedan’s Digital Health Lab about the COVID-19 misinformation on the internet.
+                        {{ page.publication[0].publication_promo | markdownify }}
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ lang: en-US
                     {% else %}
                         {% assign published_on = page.sys.created_at %}
                     {% endif %}
-                    <span>Published on</span> {{ published_on | date: "%-d %B %Y" }}
+                    <span>Published on</span> <span>{{ published_on | date: "%-d %B %Y" }}</span>
                 </div>
                 <div class="report-footer-item">
                     <span>Acknowledgments</span> 

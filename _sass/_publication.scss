@@ -6,7 +6,7 @@
     @include responsive('min-width: #{$width-tablet}') {
         font-size: 5.556rem;
     }
-    letter-spacing: -0.01rem;
+    letter-spacing: -0.04rem;
     line-height: 0.95;
 }
 
@@ -21,6 +21,9 @@
         margin-top: var(--space-1);
         padding-left: var(--space-3);
         padding-right: var(--space-3);
+    }
+    span {
+        display: block;
     }
 }
 
@@ -63,6 +66,7 @@
         font-family: $font-stack-c;
         font-size: var(--scale-3);
         line-height: 0.95;
+        letter-spacing: -0.04rem;
     }
     .section-intro {
         grid-column: 3/-3;
@@ -80,7 +84,7 @@
         background-color: var(--black);
         text-align: center;
         grid-column: span 6;
-        padding: var(--space-2) var(--space-2);
+        padding: var(--space-1) 0;
         color: #fff;
     }
     a {
@@ -93,6 +97,7 @@
     font-family: $font-stack-c;
     font-size: var(--scale-3);
     line-height: 0.8;
+    letter-spacing: -0.04rem;
 }
 
 .report .report-intro {
