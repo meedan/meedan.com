@@ -961,9 +961,9 @@ story:
 - sys:
     id: 3Bccx27IyIKqZTMAPzuB4r
     created_at: &5 !ruby/object:DateTime 2020-03-26 23:09:32.028000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-27 20:11:55.000000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-15 20:01:13.860000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -1061,15 +1061,19 @@ story:
   words_by:
     en-US:
     - sys:
-        id: 3jh6Rz03KzuYCvSNyk4TfF
-        created_at: !ruby/object:DateTime 2020-03-26 23:10:41.808000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-27 02:36:15.132000000 Z
+        id: 1uaMTril4FB8NxxRTKwLDH
+        created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
         content_type_id: contributor
-        revision: 1
+        revision: 2
       name:
         en-US: Megan Marrelli
       staff:
         en-US: true
+      location:
+        en-US: New York
+      role:
+        en-US: Program Manager
   date: '2020-03-26'
   image: https://images.ctfassets.net/g118h5yoccvd/38oGDoj4LEM1k7ynnYd29I/df6a67c0499500d0275e90c38bae032a/Meedan_fact-checking-tips-covid-19_01.png
   title-en: Five tips for fact-checking during a pandemic
@@ -1737,9 +1741,9 @@ story:
 - sys:
     id: 38X6lHkUvHetZVWZRMY4rI
     created_at: &9 !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-16 22:40:12.882000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-15 20:01:12.358000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -1840,15 +1844,19 @@ story:
   words_by:
     en-US:
     - sys:
-        id: 3jh6Rz03KzuYCvSNyk4TfF
-        created_at: !ruby/object:DateTime 2020-03-26 23:10:41.808000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-27 02:36:15.132000000 Z
+        id: 1uaMTril4FB8NxxRTKwLDH
+        created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
         content_type_id: contributor
-        revision: 1
+        revision: 2
       name:
         en-US: Megan Marrelli
       staff:
         en-US: true
+      location:
+        en-US: New York
+      role:
+        en-US: Program Manager
   date: '2020-04-16'
   image: https://images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png
   title-en: 'Exploring COVID-19 in Emerging Economies: Announcing the 2020 Global
@@ -3572,3 +3580,107 @@ story:
   title-en: 'COVID-19 in Brazil: memory as a form of resistance '
   alt_date: *15
   alt_date_string: '2020-06-09'
+- sys:
+    id: 2S78uIQGLH0h6pTi0giy6c
+    created_at: &16 !ruby/object:DateTime 2020-06-15 15:54:39.212000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-15 20:29:51.441000000 Z
+    content_type_id: story
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: We Stand with Maria Ressa
+  slug: we-stand-with-maria-ressa
+  lead_image:
+    en-US:
+      sys:
+        id: 49WfemvlNP1bPJin8hyyVd
+        created_at: !ruby/object:DateTime 2020-06-15 18:45:05.958000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-15 18:49:39.988000000 Z
+      title: 
+      description: flickr.com/photos/franzlopez CC BY-NC 2.0
+      url: "//images.ctfassets.net/g118h5yoccvd/49WfemvlNP1bPJin8hyyVd/43345a652d2c169fbb6c7488d98836be/8089307139_014f7b0c99_k.jpg"
+    description: flickr.com/photos/franzlopez CC BY-NC 2.0
+    title: 
+    url: "//images.ctfassets.net/g118h5yoccvd/49WfemvlNP1bPJin8hyyVd/43345a652d2c169fbb6c7488d98836be/8089307139_014f7b0c99_k.jpg"
+  body: "Last night we learned that our friend and Meedan Board of Directors member
+    Maria Ressa has been convicted of cyber libel and sentenced to serve time in prison
+    for these crimes. Here is a quick run-down of the verdict and case details:\n\n-
+    On Monday, June 15, Manila Regional Trial Court Judge Rainelda Estacio Montesa
+    convicted Rappler CEO and Executive Editor Maria Ressa and former researcher-writer
+    Rey Santos Jr of cyber libel. \n- The court sentenced Ressa and Santos to a minimum
+    of six months and one day to a maximum of six years in prison.\n- They were released
+    on bail pending appeal. Ressa and Santos were also each ordered to pay 200,000
+    Philippine pesos (approximately 3,500 euros) in moral damages and 200,000 pesos
+    in exemplary damages.\n- Ressa and Reynaldo will not go to prison at this time,
+    as the conviction can be appealed and they have the option to exhaust legal remedies
+    in higher courts. \n- The cyber-libel case against Ressa is based on an investigative
+    report published by Rappler on May 2012. \n- The article said that the then-chief
+    justice of the Philippines Supreme Court, Renato Corona, had used vehicles belonging
+    to a controversial businessman.\n- The article was republished on February 2014,
+    to correct a spelling error, which is a normal practice of news publications.\n-
+    In February last year, the Department of Justice (DOJ) arrested Ressa and filed
+    charges against her, reporter Reynaldo Santos Jr. and Rappler Inc. under the Cybercrime
+    Prevention Act, which was enacted on September 2012, four months after the publication
+    of the original report in Rappler. \n- The charges stemmed from a complaint by
+    the businessman, Wilfredo D. Keng. Authorities initially declined to prosecute
+    the case, but later reversed that decision.\n- In the court, the prosecution argued
+    that the republication of the article in 2014 to correct a “typo” amounted to
+    republication of the story and therefore the cyber libel law could be applied.\nSource:
+    [International Press Institute](https://ipi.media/maria-ressa-fearless-journalism-found-guilty/?mc_cid=a0dd6d7110&mc_eid=89968079c7)&
+    [Rappler](https://www.rappler.com/nation/263817-statement-conviction-maria-ressa-reynaldo-santos-jr-cyber-libel-case)\n\nAcross
+    the interwebs there is an outpouring of support for Maria and condemnation of
+    this verdict. We add to that our emphatic support for Maria, for Rappler's meticulous
+    and ethical journalism, and for the very institution of an open and critical press
+    that she has come to embody. \n\nI want to share some personal reflections, some
+    context, that might not be known to an international audience who sees her only
+    as the Time Magazine person of the year and a global face of press freedom. The
+    Maria Ressa I have come to know is most remarkable for the fact that she has built
+    a media property to oppose and stand against corruption, violence, and censorship
+    while remaining one of the kindest, most modest, and upbeat people I have ever
+    encountered. This is not a veneer - it goes straight through to the core of who
+    Maria is.  \n\nAnd then there is the way Maria thinks. Anyone who has ever been
+    involved in a project with Maria knows what happens after the glimmer in her eye
+    sparks and she pushes up in her chair and begins tossing out ideas and connecting
+    dots. The way Maria thinks is somewhere between a journalist, a moral philosopher,
+    a web application designer, and a database architect. Two weeks ago we had a meeting
+    with Maria and her team to discuss rolling out some journalism technology with
+    her team. Within five minutes Maria has sprinted past what any of us had envisioned
+    - basically laying out a roadmap for the reinvention of journalism in the age
+    of messaging networks and on demand information services.  \n\nThere is something
+    deep in the notion of social justice. It is  that there is a definable justice
+    that sits beneath courts and laws, a justice that is 'social' in the sense that
+    it is what society knows to be true. Maria has been fighting for social justice
+    in the Philippines for decades by simply documenting the truth in that society.
+    And now the powers that are threatened by that truth are corrupting their courts
+    and laws to preserve their ability to control what can be said by whom. This is
+    not only a threat to our dear friend Maria and her colleague Rey, it is more profoundly
+    a threat to journalism *and* democracy in the Philippines and around the world.
+    \n\n\nPlease join us in raising your voice in support. #holdtheline #standwithmaria
+    #supportrappler "
+  words_by:
+    en-US:
+    - sys:
+        id: 1FyUNasGkYsSW1TC4x8vcJ
+        created_at: !ruby/object:DateTime 2020-06-15 17:53:31.436000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-15 17:55:21.931000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Ed Bice
+      staff:
+        en-US: true
+  date: '2020-06-15'
+  image: https://images.ctfassets.net/g118h5yoccvd/49WfemvlNP1bPJin8hyyVd/43345a652d2c169fbb6c7488d98836be/8089307139_014f7b0c99_k.jpg
+  title-en: We Stand with Maria Ressa
+  alt_date: *16
+  alt_date_string: '2020-06-15'

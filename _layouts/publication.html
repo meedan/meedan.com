@@ -2,85 +2,15 @@
 <html dir="ltr" lang="en-US">
 {% include head.html %}
 
-<body class="site publication {{ page.class }}">
+<body class="site publication dark{{ page.class }}">
     <a id="top"></a>
     <div class="page-wrapper">
-        {% include header.html %}
+        {% include publication_header.html %}
         <section>
             <!-- <div class="section-icon section-margin">
                 <img src="/images/placeholders/part-one-icon.png" />
             </div> -->
-            <div class="section-meta main-grid">
-                <span class="section-number">
-                    Part One
-                </span>
-                <span class="section-name">
-                    Informal Information Leaders
-                </span>
-                <span class="section-intro">
-                    The pandemic has shown Americans how far apart they are. But out of this crisis there’s a chance to build a better nation.
-                </span>
-            </div>
-            <div class="report-wrapper main-grid">
-                <div class="report">
-                    <a class="report-link" href="#">
-                        <div class="report-meta">
-                            <span class="report-title">
-                                Government interference online is getting worse.
-                            </span>
-                            <span class="report-intro">
-                                According to the Oxford Internet Institute, the number of countries with political disinformation campaigns nearly doubled to 70 in the last two years or so. 
-                            </span>
-                            <span class="report-byline">
-                                writes Davey Alba
-                            </span>
-                        </div>
-                        <div class="image-wrapper">
-                            <img class="report-image" src="/images/placeholders/paper-image-1.png" />
-                        </div>
-                    </a>
-                </div>
-
-                <div class="report">
-                    <a class="report-link" href="#">
-                        <div class="report-meta">
-                            <span class="report-title">
-                                In China, a whole new internet is flowering.
-                            </span>
-                            <span class="report-intro">
-                                Billions of people are using apps you may have never heard of. The first generation of Chinese tech giants, known as BAT (Baidu, Alibaba and Tencent), were founded during the desktop internet era.
-                            </span>
-                            <span class="report-byline">
-                                writes Yiren Lu
-                            </span>
-                        </div>
-                        <div class="image-wrapper">
-                            <img class="report-image" src="/images/placeholders/paper-image-2.png" />
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="report">
-                    <a class="report-link" href="#">
-                        <div class="report-meta">
-                            <span class="report-title">
-                                In China, a whole new internet is flowering.
-                            </span>
-                            <span class="report-intro">
-                                Billions of people are using apps you may have never heard of. The first generation of Chinese tech giants, known as BAT (Baidu, Alibaba and Tencent), were founded during the desktop internet era.
-                            </span>
-                            <span class="report-byline">
-                                writes Yiren Lu
-                            </span>
-                        </div>
-                        <div class="image-wrapper">
-                            <img class="report-image" src="/images/placeholders/paper-image-2.png" />
-                        </div>
-                    </a>
-                </div>
-
-            </div>
+            {% include publication_sections.html %}
             {% include footer_small_newsletter.html theme="dark" %}
         </section>
     </div>

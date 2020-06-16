@@ -202,6 +202,33 @@ contentful:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
+    - publications: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        cda_query:
+          content_type: 'publication'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
+        all_entries: true
+        destination: 'contentful/spaces/'
+    - reports: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        cda_query:
+          content_type: 'report'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
+        all_entries: true
+        destination: 'contentful/spaces/'
+    - contributors: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        cda_query:
+          content_type: 'contributor'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
+        all_entries: true
+        destination: 'contentful/spaces/'
 
 
 # Generate pages from Contentful data files
@@ -250,3 +277,11 @@ page_gen:
     template: 'event'
     name: 'slug'
     dir: '/events/'
+  - data: 'contentful.spaces.publications.publication'
+    template: 'publication'
+    name: 'slug'
+    dir: '/reports/'
+  - data: 'contentful.spaces.reports.report'
+    template: 'report'
+    name: 'slug'
+    dir: '/reports/'

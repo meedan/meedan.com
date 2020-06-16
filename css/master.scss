@@ -270,6 +270,14 @@ header.dark .meedan svg {
     fill: var(--blackInk);
 }
 
+.publication[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
+.report[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
 header .menu-icon svg {
     stroke: var(--blackInk);
 }
@@ -287,6 +295,14 @@ header .menu-icon svg {
 }
 
 .values[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.report[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.publication[data-menu] .menu-icon svg {
     stroke: var(--blackInk);
 }
 
@@ -471,6 +487,8 @@ header.dark h1 {
 
 .front[data-menu] .cursor,
 .team[data-menu] .cursor,
+.report[data-menu] .cursor,
+.publication[data-menu] .cursor,
 .values[data-menu] .cursor, {
     color: var(--blackInk);
     border-color: var(--blackInk);

@@ -364,23 +364,3 @@ event:
   event_date_string: '2020-06-11'
   event_end_date_string: '2020-06-11'
   image: https://images.ctfassets.net/g118h5yoccvd/5crdFSB1xfekqvrc6zQEjn/b29cddaab90b201f8a92d296d32bfb98/meedan_event_iglive_june-11_w.jpg
-- sys:
-    id: 73kAiEbnt1AuowSeu8L4Jr
-    created_at: !ruby/object:DateTime 2020-06-11 23:15:15.870000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-11 23:15:23.207000000 Z
-    content_type_id: event
-    revision: 0
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: event
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    locale: en-US
-  slug: untitled-entry-2020-06-11-at-23-15-15

@@ -3,11 +3,86 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-11 18:22:28.761000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-15 19:57:03.287000000 Z
     content_type_id: moduleStories
-    revision: 24
+    revision: 25
   title: Blog
   stories:
+  - sys:
+      id: 2S78uIQGLH0h6pTi0giy6c
+      created_at: !ruby/object:DateTime 2020-06-15 15:54:39.212000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-15 20:29:51.441000000 Z
+      content_type_id: story
+      revision: 4
+    title: We Stand with Maria Ressa
+    slug: we-stand-with-maria-ressa
+    lead_image:
+      sys:
+        id: 49WfemvlNP1bPJin8hyyVd
+        created_at: !ruby/object:DateTime 2020-06-15 18:45:05.958000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-15 18:49:39.988000000 Z
+      title: 
+      description: flickr.com/photos/franzlopez CC BY-NC 2.0
+      url: "//images.ctfassets.net/g118h5yoccvd/49WfemvlNP1bPJin8hyyVd/43345a652d2c169fbb6c7488d98836be/8089307139_014f7b0c99_k.jpg"
+    body: "Last night we learned that our friend and Meedan Board of Directors member
+      Maria Ressa has been convicted of cyber libel and sentenced to serve time in
+      prison for these crimes. Here is a quick run-down of the verdict and case details:\n\n-
+      On Monday, June 15, Manila Regional Trial Court Judge Rainelda Estacio Montesa
+      convicted Rappler CEO and Executive Editor Maria Ressa and former researcher-writer
+      Rey Santos Jr of cyber libel. \n- The court sentenced Ressa and Santos to a
+      minimum of six months and one day to a maximum of six years in prison.\n- They
+      were released on bail pending appeal. Ressa and Santos were also each ordered
+      to pay 200,000 Philippine pesos (approximately 3,500 euros) in moral damages
+      and 200,000 pesos in exemplary damages.\n- Ressa and Reynaldo will not go to
+      prison at this time, as the conviction can be appealed and they have the option
+      to exhaust legal remedies in higher courts. \n- The cyber-libel case against
+      Ressa is based on an investigative report published by Rappler on May 2012.
+      \n- The article said that the then-chief justice of the Philippines Supreme
+      Court, Renato Corona, had used vehicles belonging to a controversial businessman.\n-
+      The article was republished on February 2014, to correct a spelling error, which
+      is a normal practice of news publications.\n- In February last year, the Department
+      of Justice (DOJ) arrested Ressa and filed charges against her, reporter Reynaldo
+      Santos Jr. and Rappler Inc. under the Cybercrime Prevention Act, which was enacted
+      on September 2012, four months after the publication of the original report
+      in Rappler. \n- The charges stemmed from a complaint by the businessman, Wilfredo
+      D. Keng. Authorities initially declined to prosecute the case, but later reversed
+      that decision.\n- In the court, the prosecution argued that the republication
+      of the article in 2014 to correct a “typo” amounted to republication of the
+      story and therefore the cyber libel law could be applied.\nSource: [International
+      Press Institute](https://ipi.media/maria-ressa-fearless-journalism-found-guilty/?mc_cid=a0dd6d7110&mc_eid=89968079c7)&
+      [Rappler](https://www.rappler.com/nation/263817-statement-conviction-maria-ressa-reynaldo-santos-jr-cyber-libel-case)\n\nAcross
+      the interwebs there is an outpouring of support for Maria and condemnation of
+      this verdict. We add to that our emphatic support for Maria, for Rappler's meticulous
+      and ethical journalism, and for the very institution of an open and critical
+      press that she has come to embody. \n\nI want to share some personal reflections,
+      some context, that might not be known to an international audience who sees
+      her only as the Time Magazine person of the year and a global face of press
+      freedom. The Maria Ressa I have come to know is most remarkable for the fact
+      that she has built a media property to oppose and stand against corruption,
+      violence, and censorship while remaining one of the kindest, most modest, and
+      upbeat people I have ever encountered. This is not a veneer - it goes straight
+      through to the core of who Maria is.  \n\nAnd then there is the way Maria thinks.
+      Anyone who has ever been involved in a project with Maria knows what happens
+      after the glimmer in her eye sparks and she pushes up in her chair and begins
+      tossing out ideas and connecting dots. The way Maria thinks is somewhere between
+      a journalist, a moral philosopher, a web application designer, and a database
+      architect. Two weeks ago we had a meeting with Maria and her team to discuss
+      rolling out some journalism technology with her team. Within five minutes Maria
+      has sprinted past what any of us had envisioned - basically laying out a roadmap
+      for the reinvention of journalism in the age of messaging networks and on demand
+      information services.  \n\nThere is something deep in the notion of social justice.
+      It is  that there is a definable justice that sits beneath courts and laws,
+      a justice that is 'social' in the sense that it is what society knows to be
+      true. Maria has been fighting for social justice in the Philippines for decades
+      by simply documenting the truth in that society. And now the powers that are
+      threatened by that truth are corrupting their courts and laws to preserve their
+      ability to control what can be said by whom. This is not only a threat to our
+      dear friend Maria and her colleague Rey, it is more profoundly a threat to journalism
+      *and* democracy in the Philippines and around the world. \n\n\nPlease join us
+      in raising your voice in support. #holdtheline #standwithmaria #supportrappler "
+    words_by:
+    - sys:
+        id: 1FyUNasGkYsSW1TC4x8vcJ
   - sys:
       id: 2eI9u7B6dEeolWbe0C2FXl
       created_at: !ruby/object:DateTime 2020-06-09 19:14:31.378000000 Z
@@ -387,66 +462,3 @@ moduleStories:
     - sys:
         id: 7xM8QfuAFGFURUXRBNLBtX
     alt_date: !ruby/object:DateTime 2020-06-03 00:00:00.000000000 Z
-  - sys:
-      id: 5BRYd5pcfXQaZeRnX6fTrC
-      created_at: !ruby/object:DateTime 2020-05-22 22:05:20.512000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-03 02:20:17.143000000 Z
-      content_type_id: story
-      revision: 3
-    title: 3 (More!) Things We Learned about Cohesive Action from the Reboot
-    slug: 3-more-things-we-learned-about-cohesive-action-from-the-reboot
-    topic:
-    - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
-    lead_image:
-      sys:
-        id: VWVvfjGQKVSQJu7jrfJu6
-        created_at: !ruby/object:DateTime 2020-05-27 21:50:52.641000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-03 02:20:02.168000000 Z
-      title: The Arc of Alignment as described by The Reboot
-      description: The Arc of Alignment as described by The Reboot
-      url: "//images.ctfassets.net/g118h5yoccvd/VWVvfjGQKVSQJu7jrfJu6/b3ead8fc49ef0b9208f259ce73abda0b/thereboot.arcofalignment.png"
-    body: "Over the past few weeks, a number of Meedan team members have been attending
-      Reboot’s online series on [Driving Transformative Collaboration](https://reboot.org/2020/04/14/driving-transformative-collaboration-reboot-masterclass-series/).
-      As the workshop describes itself:\n\n> COVID-19 demands that we build diverse
-      coalitions to advance equitable and effective response efforts. These efforts
-      must draw on the radical imaginations of our artists, the moral courage of our
-      activists, the innovation of community organizers, the agenda-setting influence
-      of our media, the values of our civil society leaders, the infrastructure of
-      the private sector, and the reach of our public institutions.\n\nAt Meedan,
-      we work at the intersection of a number of different sectors — journalists,
-      academics, policy researchers, human rights workers, artists and others — at
-      a global scale, and so this is a topic close to our heart. We wrote previously
-      about insights we gained from the first event. Here are three more from the
-      most recent two events:\n\n### Do the work before the work.\n\nWorking with
-      different sectors and personas from all over the world, we found it really helpful
-      to “do the work before the work” and understand our collaborators’ interests,
-      anxieties and agendas before getting together. Knowing about their journeys
-      and impact will allow us to introduce unheard perspectives and this can be extended
-      to our collaborators themselves getting to know each other! We can do this by
-      creating materials and sharing a synthesized version across the collaborators
-      of a specific project, we can then ground on the communalities we have and we
-      may think about a shared problem ahead of time.\n\n\n### Document document document.
-      Even when it’s hard.\n\nThe Reboot team shared an all-too-familiar sentiment
-      with participants about the often conflicted relationship that can be experienced
-      with documentation – it can take quite some time to develop the documentation
-      that teams need to stay organized and aligned, but these documents are well
-      worth the investment. Keeping information up-to-date and organized can help
-      to ensure expectations are shared and agreed-upon by the team, and a short-term
-      investment in documentation can help prevent challenges in alignment in the
-      future. \n\n\n### When everything’s important, create structures for alignment.\n\nIt
-      can seem like everything’s important. And that’s true. But that also creates
-      barrier for getting a project started. The Arc of Alignment that Reboot’s team
-      articulated enables an excellent framework, which felt very much like a masterclass
-      in meeting facilitation. “Brainstorm, with Bumpers” is something I think all
-      program and product managers have to navigate, and the toolkit they’ve provided
-      is one we use a lot at Meedan - facilitated conversation through structured
-      whiteboarding and post-it sessions, followed by group prioritization. The brainstorming
-      is part of the work, and with that necessarily comes tension. How teams navigate
-      that tension is part of what distinguishes success from struggles.\n\nThis is
-      part 2 of a [two-part series](https://meedan.com/blog/3-things-we-learned-on-designing-collaborations-from-the-reboots-masterclass/)."
-    words_by:
-    - sys:
-        id: 4JqOrlVgCscDebeRwxYBu8
-    - sys:
-        id: 3LwmNUnWdLGIZbvPisgSL5
