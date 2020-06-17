@@ -2,70 +2,15 @@
 moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
-    created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-10 03:23:23.841000000 Z
+    created_at: !ruby/object:DateTime 2020-05-05 01:19:52.216000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-12 18:55:56.773000000 Z
     content_type_id: moduleEvents
-    revision: 5
+    revision: 6
   title: Upcoming Events
   events:
   - sys:
-      id: 1ViR26okrrp5ZiKBhJ23a7
-      created_at: !ruby/object:DateTime 2020-06-09 18:22:35.552000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-10 03:17:23.569000000 Z
-      content_type_id: event
-      revision: 2
-    title: 'Instagram Live: Race, Protests and the Pandemic'
-    event_date: !ruby/object:DateTime 2020-06-11 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-06-11 00:00:00.000000000 Z
-    time: |-
-      - *San Francisco* 1pm
-      - *New York* 4pm
-      - *London* 9pm
-      - *Cairo* 10pm
-    images:
-    - sys:
-        id: NhZ8ykNnWp4v3crofS2m8
-        created_at: !ruby/object:DateTime 2020-06-10 03:02:55.515000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-10 03:17:18.945000000 Z
-      title: meedan event iglive june-11 a
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/NhZ8ykNnWp4v3crofS2m8/cf58dca73bb9b469633f244d44926895/meedan_event_iglive_june-11_a.png"
-    - sys:
-        id: 6eH6BPdGHuMnMUCx5jtGdV
-        created_at: !ruby/object:DateTime 2020-06-10 03:03:29.302000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-10 03:17:21.476000000 Z
-      title: meedan event iglive june-11 b
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6eH6BPdGHuMnMUCx5jtGdV/eaae650ec7279826fb9dd83893a0c6ee/meedan_event_iglive_june-11_b.png"
-    social_card_image:
-      sys:
-        id: 5crdFSB1xfekqvrc6zQEjn
-        created_at: !ruby/object:DateTime 2020-06-09 21:45:55.718000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-09 22:17:24.909000000 Z
-      title: meedan event iglive june-11 w
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5crdFSB1xfekqvrc6zQEjn/b29cddaab90b201f8a92d296d32bfb98/meedan_event_iglive_june-11_w.jpg"
-    location_human_friendly: 'Instagram Live: @heymeedan'
-    description: Dr. Seema Yasmin and Dr. Christin Gilmer discuss highlights from
-      the [COVID-19 Expert Database](https://learnaboutcovid19.org/), focusing on
-      public health, race and racism in America.
-    long_description: "What do we know about why COVID-19 impacts Black Americans
-      more aggressively than others? Can tear gas make COVID-19 worse? Will recent
-      protests lead to an outbreak, or second wave of infections? Can we trust antibody
-      tests to tell who has been infected and who hasn't?\n\nOn the heels of nation-wide
-      protests against police brutality and amid systemic racism in America, health
-      desks are now asking how race, systemic bias, police tactics and protests impact
-      COVID-19. \n\n__Dr. Seema Yasmin__, an Emmy-award winning journalist and medical
-      doctor joins Instagram Live with __Dr. Christin Gilmer__, a Global Health Scientist
-      with a background in infectious diseases, international health systems, and
-      population health and technology. \n\nTogether, the two experts are set to discuss
-      top highlights from the [COVID-19 Expert Database](https://learnaboutcovid19.org/),
-      focusing specifically on public health conversations around race and racism
-      in America.\n"
-    slug: instagram-live-race-protests-and-the-pandemic
-  - sys:
       id: 16J0WBGwhPmJQAa19aKBMC
-      created_at: !ruby/object:DateTime 2020-06-05 20:05:12.841000000 Z
+      created_at: !ruby/object:DateTime 2020-06-05 21:58:03.321000000 Z
       updated_at: !ruby/object:DateTime 2020-06-05 21:58:03.321000000 Z
       content_type_id: event
       revision: 1
@@ -82,14 +27,14 @@ moduleEvents:
     images:
     - sys:
         id: 541MHQymeR4ztvh95QY4Z3
-        created_at: !ruby/object:DateTime 2020-06-05 20:07:58.803000000 Z
+        created_at: !ruby/object:DateTime 2020-06-05 21:57:57.191000000 Z
         updated_at: !ruby/object:DateTime 2020-06-05 21:57:57.191000000 Z
       title: Maria Ressa
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/541MHQymeR4ztvh95QY4Z3/51b8de5cda86e0b1c77874a4bdd3df3c/meedan_event_maria-ressa.jpg"
     - sys:
         id: 5RtLyYJORcx0CRTlSB3WNK
-        created_at: !ruby/object:DateTime 2020-06-05 20:10:38.486000000 Z
+        created_at: !ruby/object:DateTime 2020-06-05 21:57:54.298000000 Z
         updated_at: !ruby/object:DateTime 2020-06-05 21:57:54.299000000 Z
       title: Seema Yasmin
       description: 
@@ -97,7 +42,7 @@ moduleEvents:
     social_card_image:
       sys:
         id: 6gxAtLuoEDa1qyvo3HG1sM
-        created_at: !ruby/object:DateTime 2020-06-05 20:14:45.436000000 Z
+        created_at: !ruby/object:DateTime 2020-06-05 21:57:51.318000000 Z
         updated_at: !ruby/object:DateTime 2020-06-05 21:57:51.318000000 Z
       title: 'Maria Ressa and Seema Yasmin in Conversation: Reporting Barriers During
         COVID-19'

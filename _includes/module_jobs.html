@@ -1,9 +1,9 @@
-{% assign jobs = site.data.contentful.spaces.jobs.job | date_sort %}
+{% assign jobs = site.data.contentful.spaces.jobs.job %}
 {% if jobs.size %}
     <h3>Open positions</h3>
     <div class="plain-list">
         <ul>
-            {% for job in jobs %}
+            {% for job in jobs | date_sort %}
                 <li>
                     <a href="/jobs/{{ job.slug }}">
                         {{ job.title }}
