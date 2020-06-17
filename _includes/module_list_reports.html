@@ -1,9 +1,11 @@
-{% assign reports = site.data.contentful.spaces.reports.report %}
+{% 
+    assign reports = site.data.contentful.spaces.reports.report 
+    | where_exp: "item","item.publication[0].sys.id == page.sys.id"
+%}
 <div class="report-list-wrapper">
     <div class="report-list-item">
-        <div class="report-list-item-row"></a>
-            <span>2 reports</span>
-            <span></span>
+        <div class="report-list-item-row report-list-item-row-header"></a>
+            <span>{{ reports.size }} reports</span>
             <span>Title</span>
             <span>Authors</span>
             <span>Date</span>
@@ -18,7 +20,7 @@
                     <div class="image-wrapper">
                         <img class="report-image" src="{{ report.lead_image.url }}" />
                     </div>
-                    <span class="report-title" style="color: {{ report.color.value }}">
+                    <span class="report-title">
                         {{ report.title }} 
                     </span>
                     <span class="report-byline">

@@ -1,3 +1,7 @@
+.publication {
+    color: var(--accent);
+}
+
 .publication .page-wrapper header h2 {
     grid-column: 2/-2;
     text-align: center;
@@ -96,18 +100,32 @@
 .report-list-wrapper {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
+    font-size: 1.2rem;
     a {
         color: inherit;
         text-decoration: inherit;
     }
     .report-list-item-row {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: 0.1fr 0.9fr 2fr 0.5fr 0.5fr;
         grid-gap: var(--space-2);
         grid-auto-flow: column;
     }
+    .report-list-item-row-header {
+        padding-bottom: var(--space-1);
+        span:nth-of-type(1) {
+            grid-column: span 2;
+        }
+    }
     .report-link {
-        border-top: 1px solid var(--sunDown);
+        border-top: 1px solid var(--accent);
+        padding-top: var(--space-2);
+    }
+    span {
+        text-align: left;
+    }
+    .report-title {
+        font-size: var(--scale-1);
     }
 }
 
