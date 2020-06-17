@@ -1204,7 +1204,7 @@ section:
 - sys:
     id: 3KKLPp1gaZFn8DA2991hai
     created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-01 18:40:01.286000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-17 20:48:32.204000000 Z
     content_type_id: section
     revision: 0
   title: The Five Pillars of  Check Global
@@ -1226,6 +1226,23 @@ section:
       content_type_id: moduleLeadText
       revision: 0
     content: Check Global is made up of five interconnected pillars of work and activity.
+  - sys:
+      id: 7ud4Hr06UvT7C1mFT0S9WR
+      created_at: !ruby/object:DateTime 2020-06-17 20:42:47.666000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 20:49:04.533000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    caption: Check Global Partners Map
+    image:
+      sys:
+        id: 5CqhqrsKT6PG2l2JtbMEwT
+        created_at: !ruby/object:DateTime 2020-06-17 20:47:35.009000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-17 20:47:57.551000000 Z
+      title: Check-Global Partners-Map 07-1
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5CqhqrsKT6PG2l2JtbMEwT/e03635369041dd533f018ee6111ce9a9/Check-Global_Partners-Map_07-1.png"
+    caption_title: Check Global Partners Map
+    lead_image: true
   - sys:
       id: 3gPNPngJyHbMKzJzTsUf6B
       created_at: !ruby/object:DateTime 2020-02-06 20:37:25.617000000 Z
