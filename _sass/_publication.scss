@@ -93,6 +93,24 @@
     }
 }
 
+.report-list-wrapper {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    .report-list-item-row {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: var(--space-2);
+        grid-auto-flow: column;
+    }
+    .report-link {
+        border-top: 1px solid var(--sunDown);
+    }
+}
+
 .report .report-title {
     font-family: $font-stack-c;
     font-size: var(--scale-3);

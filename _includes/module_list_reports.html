@@ -1,0 +1,43 @@
+{% assign reports = site.data.contentful.spaces.reports.report %}
+<div class="report-list-wrapper">
+    <div class="report-list-item">
+        <div class="report-list-item-row"></a>
+            <span>2 reports</span>
+            <span></span>
+            <span>Title</span>
+            <span>Authors</span>
+            <span>Date</span>
+        </div>
+    </div>
+    {% for r in module.reports %}
+	{% for report in reports %}
+        {% if r.sys.id == report.sys.id %}
+            <div class="report-list-item">
+                <a class="report-list-item-row report-link" href="/reports/{{ report.slug }}">
+                    <span>{{ forloop.index }}</span>
+                    <div class="image-wrapper">
+                        <img class="report-image" src="{{ report.lead_image.url }}" />
+                    </div>
+                    <span class="report-title" style="color: {{ report.color.value }}">
+                        {{ report.title }} 
+                    </span>
+                    <span class="report-byline">
+                        {% 
+                            include authors.html 
+                            data=report.author 
+                        %}
+                    </span>
+                    <span>
+                        {% if page.alt_date %}
+                            {% assign published_on = page.alt_date %}
+                        {% else %}
+                            {% assign published_on = page.sys.created_at %}
+                        {% endif %}
+                        {{ published_on | date: "%-d %B %Y" }}
+                    </span>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>

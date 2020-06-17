@@ -20,7 +20,9 @@
                         data=page.author 
                     %}
                 </span>
-                <span class="org">Oxford Internet Institute, <br /> University of Oxford</span>
+                {% if page.organization %}
+                    <span class="org">{{ page.organization }}</span>
+                {% endif %}
             </div>
         </div>
         <figure class="report-graphic no-margin">
