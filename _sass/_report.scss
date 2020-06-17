@@ -81,6 +81,15 @@
         font-size: var(--scale-1);
         color: var(--green);
     }
+
+    sup {
+        top: -.5rem;
+        font-size: .8rem;
+        &:hover {
+            opacity: .6;
+        }
+    }
+
 }
 
 .report-sidebar {
@@ -94,9 +103,12 @@
 .report-footer {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
-    font-size: var(--scale-0);
-    line-height: 1.2;
+    font-size: 1rem;
+    line-height: 1.4;
     color: var(--sunSet);
+    a {
+        color: var(--sunSet);
+    }
     .report-footer-item {
         border-top: 1px solid var(--sunSet);
         padding-top: var(--space-1);
@@ -112,5 +124,20 @@
     }
     span:nth-of-type(2) {
         grid-column: 4/12;
+    }
+}
+
+.report-footnotes {
+    ol li { margin-bottom: 0.5rem; }
+    ol li p { display: inline; }
+    ol li a { display: inline; }
+}
+
+.report-references {
+    ul {
+        list-style-type: none;
+    }
+    ul li {
+
     }
 }

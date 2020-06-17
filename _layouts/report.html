@@ -19,6 +19,24 @@ lang: en-US
                 </div>
             </div>
             <div class="report-footer section-margin">
+                {% if page.footnotes %}
+                    <div class="report-footer-item report-footnotes">
+                        <span>Footnotes</span>
+                        <span>
+                            <ol>
+                                {% for footnote in page.footnotes %}
+                                    <li id="fn{{ forloop.index }}">{{ footnote.body | markdownify }} <a href="#fnref1">↩︎</a></li>
+                                {% endfor %}
+                            </ol>
+                        </span>
+                    </div>
+                {% endif %}
+                {% if page.references %}
+                    <div class="report-footer-item report-references">
+                        <span>References</span>
+                        <span>{{ page.references | markdownify }}</span>
+                    </div>
+                {% endif %}
                 {% if page.words_by %}
                     <div class="report-footer-item">
                         {% include words_by.html %}
