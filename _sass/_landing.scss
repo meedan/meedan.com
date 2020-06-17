@@ -69,8 +69,20 @@
 		border-top: 1px solid $g0;
 		padding-top: $space-small/2;
 		padding-bottom: $space-small/2;
+		padding-left: $space-small/2;
+		padding-right: $space-small/2;
+		border-right: 1px solid $g0;
 		&:last-child {
 			border-bottom: 1px solid $g0;
+		}
+		&:nth-child(1) {
+			border-left: 8px solid $check-blue;
+		}
+		&:nth-child(2) {
+			border-left: 8px solid $pale-orange;
+		}
+		&:nth-child(3) {
+			border-left: 8px solid $pale-purple;
 		}
 	}
 }
@@ -82,21 +94,27 @@
 }
 
 .page-section .nav,
+.page-section .nav-header,
 .page-section .about-report {
 	max-width: $page-width;
 	margin: 0 auto;
+}
+
+.page-section .nav-header {
+	padding-top: $space-small;
+	text-transform: uppercase;
+	font-size: .8rem;
+	font-weight: 700;
+	letter-spacing: .05rem;
 }
 
 .page-section .nav-wrapper {
 	background-color: rgba($g0, 0.3);
 	border-top: 1px solid $g0;
 	border-bottom: 1px solid $g0;
-}
-
-@include responsive('min-width: #{$width-tablet}') {
-	.page-section .nav-wrapper {
-		padding: 0 $space-small;
-	}
+	padding-left: $space-small;
+	padding-right: $space-small;
+	padding-bottom: $space-small;
 }
 
 .page-section .nav ul {
@@ -104,6 +122,9 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	li {
+		flex-grow: 1;
+	}
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
@@ -117,9 +138,11 @@
 
 .page-section .nav a {
 	display: block;
-	padding: 1em 4em 2em 0.5em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 8px solid $g0;
 	&:hover {
-		background-color: $g0;
+		border-bottom: 8px solid $green;
 	}
 }
 

@@ -49,7 +49,102 @@ project:
     our tools and trainings on digital media literacy, fact-checking, disinformation-monitoring
     and verification of online journalism\n"
   slug: check-global
+<<<<<<< HEAD
   sections: []
+=======
+  sections:
+  - sys:
+      id: 3zpdrjZeBGOlkTvFrchEYa
+      created_at: !ruby/object:DateTime 2020-04-30 19:57:35.775000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 20:03:27.477000000 Z
+      content_type_id: section
+      revision: 0
+    title: What We Do
+    cover_graphic:
+      sys:
+        id: GGLO5FEfU9GspSHMy8RYj
+        created_at: !ruby/object:DateTime 2020-03-02 22:25:38.905000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:51:29.430000000 Z
+      title: graphic introduction
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/GGLO5FEfU9GspSHMy8RYj/74fcfab7704c21bc1c10df7900330812/graphic_introduction.png"
+    background_color: "#262626"
+    section_class: introduction
+    modules:
+    - sys:
+        id: 1cqeAIgr19kVkBT5QbZxy0
+    - sys:
+        id: 5We3ntoM1jzUyVyn1vHRk7
+    - sys:
+        id: 6mAQ6I7zlp8zTFOfdJRNGP
+    - sys:
+        id: V0GFjO8JqQ7GWhhd3O4bI
+    - sys:
+        id: G131BSJzfGF7m1buiMyH0
+  - sys:
+      id: EqEniIFDbF8HASu0rKCJh
+      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:43:33.356000000 Z
+      content_type_id: section
+      revision: 0
+    title: Who we are
+    cover_graphic:
+      sys:
+        id: TikhWKrVq60OCqqcSga4w
+        created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
+      title: graphic in-numbers
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+    section_class: financials
+    modules:
+    - sys:
+        id: 5bPjLADdiXEy7wgvf0SonW
+    - sys:
+        id: 1i4LKxNS2Ha1LF0MGWwyzp
+  - sys:
+      id: 3KKLPp1gaZFn8DA2991hai
+      created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 20:48:32.204000000 Z
+      content_type_id: section
+      revision: 0
+    title: The Five Pillars of  Check Global
+    cover_graphic:
+      sys:
+        id: 3PsNMd4GDKOI4Kg6A242yo
+        created_at: !ruby/object:DateTime 2018-12-07 19:57:16.456000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 19:57:30.447000000 Z
+      title: graphic reviews
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3PsNMd4GDKOI4Kg6A242yo/d9210c94649cd353c1b8fcc602640783/graphic_reviews.png"
+    background_color: "#D4D4D4"
+    section_class: reviews
+    modules:
+    - sys:
+        id: 7mjrsI2HIn9NjvAuChgfuM
+    - sys:
+        id: 7ud4Hr06UvT7C1mFT0S9WR
+    - sys:
+        id: 3gPNPngJyHbMKzJzTsUf6B
+    - sys:
+        id: 5mOfhdkjqmah8gnXxVxAe9
+    - sys:
+        id: 1x0YoYn3i7CiCnerRfcdOr
+    - sys:
+        id: 5Xq0f0IkRYyLZpvNOstMRr
+    - sys:
+        id: 30IO6Cc2Dlw6TwXEMDAWBe
+    - sys:
+        id: 1iH7GYfJYJVcTPWofrt1cK
+    - sys:
+        id: 63dXTMUG8Uh9LGQPs07J1V
+    - sys:
+        id: 7arDY41aBzRnduCpH2vJpc
+    - sys:
+        id: 4KUDgS2JKNuwtuhgb33HHB
+    - sys:
+        id: 2CsSGl5GzJpKdc3H2DB6e5
+>>>>>>> 31b8f30d... Check global project page: in-page navigation and list style updates.
   stories:
   - sys:
       id: m7aLQU2hG9LVRQc6LJqHz

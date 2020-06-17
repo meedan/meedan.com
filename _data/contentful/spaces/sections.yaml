@@ -1205,6 +1205,227 @@ section:
         id: 3SLisTwW0icDT715pMk6f5
     top_border: true
 - sys:
+<<<<<<< HEAD
+=======
+    id: 3KKLPp1gaZFn8DA2991hai
+    created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-17 20:48:32.204000000 Z
+    content_type_id: section
+    revision: 0
+  title: The Five Pillars of  Check Global
+  cover_graphic:
+    sys:
+      id: 3PsNMd4GDKOI4Kg6A242yo
+      created_at: !ruby/object:DateTime 2018-12-07 19:57:16.456000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-07 19:57:30.447000000 Z
+    title: graphic reviews
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3PsNMd4GDKOI4Kg6A242yo/d9210c94649cd353c1b8fcc602640783/graphic_reviews.png"
+  background_color: "#D4D4D4"
+  section_class: reviews
+  modules:
+  - sys:
+      id: 7mjrsI2HIn9NjvAuChgfuM
+      created_at: !ruby/object:DateTime 2020-02-06 22:11:31.953000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:40:03.811000000 Z
+      content_type_id: moduleLeadText
+      revision: 0
+    content: Check Global is made up of five interconnected pillars of work and activity.
+  - sys:
+      id: 7ud4Hr06UvT7C1mFT0S9WR
+      created_at: !ruby/object:DateTime 2020-06-17 20:42:47.666000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 20:49:04.533000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    caption: Check Global Partners Map
+    image:
+      sys:
+        id: 5CqhqrsKT6PG2l2JtbMEwT
+        created_at: !ruby/object:DateTime 2020-06-17 20:47:35.009000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-17 20:47:57.551000000 Z
+      title: Check-Global Partners-Map 07-1
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5CqhqrsKT6PG2l2JtbMEwT/e03635369041dd533f018ee6111ce9a9/Check-Global_Partners-Map_07-1.png"
+    caption_title: Check Global Partners Map
+    lead_image: true
+  - sys:
+      id: 3gPNPngJyHbMKzJzTsUf6B
+      created_at: !ruby/object:DateTime 2020-02-06 20:37:25.617000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 20:37:42.797000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Technology
+    content:
+    - sys:
+        id: A3LMDFDS0ficdA562tlJz
+    top_border: false
+  - sys:
+      id: 5mOfhdkjqmah8gnXxVxAe9
+      created_at: !ruby/object:DateTime 2020-04-30 21:01:48.939000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-01 18:25:18.587000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Technology Partners
+    cards:
+    - sys:
+        id: A5J9FrJT8zNhoWXfxo8A4
+    - sys:
+        id: 1obMbvlyu9XvM4iNHbvXAg
+  - sys:
+      id: 1x0YoYn3i7CiCnerRfcdOr
+      created_at: !ruby/object:DateTime 2020-02-06 20:37:52.996000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 20:38:04.840000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Network
+    content:
+    - sys:
+        id: 2ksxprcbEV18oJJ7b5BNj0
+  - sys:
+      id: 5Xq0f0IkRYyLZpvNOstMRr
+      created_at: !ruby/object:DateTime 2020-04-30 21:05:54.819000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:38:54.937000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Network Partners
+    cards:
+    - sys:
+        id: 6K4yx3zyjdowdEsijEdU8f
+    - sys:
+        id: 4qMKz1vHfUX8JRH3DgCm9y
+    - sys:
+        id: 4coLG6bNPMatZBOk7S479P
+    - sys:
+        id: 7isQwp6WvNuUai1ld2RnaA
+    - sys:
+        id: 4tATGPhbfAs94vcmbngXgT
+  - sys:
+      id: 30IO6Cc2Dlw6TwXEMDAWBe
+      created_at: !ruby/object:DateTime 2020-02-06 20:38:39.072000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 20:38:51.248000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Training
+    content:
+    - sys:
+        id: cUba7yZU4KkWQwan95Kiv
+  - sys:
+      id: 1iH7GYfJYJVcTPWofrt1cK
+      created_at: !ruby/object:DateTime 2020-04-30 21:42:30.518000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:45:59.330000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Training Partners
+    cards:
+    - sys:
+        id: 4xNYQjvviZvGsqi8LrmIRO
+    - sys:
+        id: 6K4yx3zyjdowdEsijEdU8f
+    - sys:
+        id: 4qMKz1vHfUX8JRH3DgCm9y
+    - sys:
+        id: 4coLG6bNPMatZBOk7S479P
+  - sys:
+      id: 63dXTMUG8Uh9LGQPs07J1V
+      created_at: !ruby/object:DateTime 2020-02-06 20:39:27.779000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 20:39:36.116000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Research
+    content:
+    - sys:
+        id: 1IdHzLOBE0I3NoNzm7R7E9
+  - sys:
+      id: 7arDY41aBzRnduCpH2vJpc
+      created_at: !ruby/object:DateTime 2020-04-30 21:46:09.439000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:48:56.729000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Research Partners
+    cards:
+    - sys:
+        id: 6O0JVsdnWdztubuUDm45ws
+    - sys:
+        id: 58jV0uIVH0G48DqnWudetk
+  - sys:
+      id: 4KUDgS2JKNuwtuhgb33HHB
+      created_at: !ruby/object:DateTime 2020-02-06 20:39:11.888000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 20:39:16.568000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Data
+    content:
+    - sys:
+        id: 1p0yYpsK0s0eiyreVbfcGL
+  - sys:
+      id: 2CsSGl5GzJpKdc3H2DB6e5
+      created_at: !ruby/object:DateTime 2020-04-30 21:49:57.225000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-30 21:55:54.746000000 Z
+      content_type_id: moduleCards
+      revision: 0
+    title: Data Partners
+    cards:
+    - sys:
+        id: 2qdCx2UgYAQlv1XiwfM8p0
+    - sys:
+        id: 1BVFQTnmzIo1OuwdTJ9e0B
+    - sys:
+        id: 456kPFMPyKEcVu19c2V8AV
+    - sys:
+        id: 4ALOCfVG9WvZfAVwrwJgus
+    - sys:
+        id: 622F2h3ut7XMvz76ANLmAq
+- sys:
+    id: 7nn4kZGYAPg6q4udylnqSE
+    created_at: !ruby/object:DateTime 2020-02-06 22:09:09.415000000 Z
+    updated_at: !ruby/object:DateTime 2020-02-06 23:42:55.878000000 Z
+    content_type_id: section
+    revision: 0
+  title: Background
+  cover_graphic:
+    sys:
+      id: TikhWKrVq60OCqqcSga4w
+      created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
+    title: graphic in-numbers
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+  section_class: financials
+  modules:
+  - sys:
+      id: 3Wnd0h7kgIn4zpHlhcN972
+      created_at: !ruby/object:DateTime 2020-02-06 23:34:25.456000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:44:04.267000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Last six years
+    content:
+    - sys:
+        id: 52xJNpbKXY6pmYlDPtsfyW
+  - sys:
+      id: 6Aw0VWwGmDgeApiamjxq7T
+      created_at: !ruby/object:DateTime 2020-02-06 23:38:38.384000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:50:30.187000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Scaling up
+    content:
+    - sys:
+        id: 7jCe5bMCJ5FD1IHcrviYAJ
+    top_border: true
+  - sys:
+      id: 46RNgfpLLoGCxCwHNTQlQx
+      created_at: !ruby/object:DateTime 2020-02-06 22:31:05.938000000 Z
+      updated_at: !ruby/object:DateTime 2020-02-06 23:50:35.253000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: SIDA
+    content:
+    - sys:
+        id: 5iKdzoXo2nmRRVFQ8MXlHn
+    top_border: true
+- sys:
+>>>>>>> 31b8f30d... Check global project page: in-page navigation and list style updates.
     id: 6qg471TeZdWjIvD45J4wUt
     created_at: !ruby/object:DateTime 2020-03-05 18:51:47.461000000 Z
     updated_at: !ruby/object:DateTime 2020-03-05 18:51:47.461000000 Z

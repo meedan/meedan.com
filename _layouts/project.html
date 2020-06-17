@@ -16,6 +16,22 @@
                 {% endif %}
             </div>
         </div>
+        <section class="precontent">
+            {% if page.sections %}
+            <div class="nav-wrapper">
+                <div class="nav-header">
+                    Jump to
+                </div>
+                <div class="nav">
+                    <ul>
+                        {% for section in page.sections %}
+                           <li><a href="#{{ section.section_class | slugify }}">{{ forloop.index }}. {{ section.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+        </section>
         {% include render_sections.html %}
         {% include footer_annual_report.html %}
     </div>
