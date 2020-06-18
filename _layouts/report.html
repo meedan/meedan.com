@@ -48,6 +48,12 @@ lang: en-US
                         </span>
                     </div>
                 {% endif %}
+                {% if page.organization %}
+                    <div class="report-footer-item">
+                        <span>Organization</span>
+                        <span>{{ page.organization }}</span>
+                    </div>
+                {% endif %}
                 <div class="report-footer-item">
                     {% if page.alt_date %}
                         {% assign published_on = page.alt_date %}

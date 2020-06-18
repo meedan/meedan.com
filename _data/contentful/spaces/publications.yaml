@@ -3,61 +3,41 @@ publication:
 - sys:
     id: 2lQKVWqTIPTns0oj5UA78S
     created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-17 02:57:34.527000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-18 21:36:02.899000000 Z
     content_type_id: publication
     revision: 0
-  title: 'Data Craft: The Manipulation of Social Media Metadata'
+  title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
   kicker: A Check Global Report
-  description: Data Craft analyzes how bad actors manipulate metadata to create effective
-    disinformation campaigns and provides tips for researchers and technology companies
-    trying to spot this “data craft.”
-  slug: data-craft-the-manipulation-of-social-media-metadata
+  description: An interdisciplinary collection of reports and essays that seek to
+    map the anatomy of a global misinfodemic.
+  slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
   sections:
-  - sys:
-      id: 1jkEcTAbvK0Y7O1NmysvKT
-      created_at: !ruby/object:DateTime 2020-06-15 20:05:11.826000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-15 23:01:52.123000000 Z
-      content_type_id: section
-      revision: 0
-    title: Informal Information Leaders
-    section_description: The pandemic has shown Americans how far apart they are.
-      But out of this crisis there’s a chance to build a better nation.
-    modules:
-    - sys:
-        id: 1pgnNHzGfRTq0Mzq5PkaYA
   - sys:
       id: 6K6TuAvZBDXdJATv8SynCi
       created_at: !ruby/object:DateTime 2020-06-15 20:42:10.413000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-15 23:02:47.319000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 21:18:14.234000000 Z
       content_type_id: section
       revision: 0
     title: Public Trust and the Pandemic
-    section_description: Cities have stopped being the engines of growth and opportunity
-      they once were. Now is the time to invest in fixing them.
+    section_description: Lack of trust in government and health ministries COVID-19
+      pandemic is encouraging many individuals around the world to turn to informal
+      and unofficial sources of health information, such as online forums, religious
+      leaders and private messaging apps.
     modules:
     - sys:
         id: 5zfSBJOSEBW5bT7Zt7Sh6m
-  author:
   - sys:
-      id: 4JqOrlVgCscDebeRwxYBu8
-      created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Nat Gyenes
-    staff: true
-    role: Program Director, Digital Health Lab
-    location: On the Road
-  - sys:
-      id: 1uaMTril4FB8NxxRTKwLDH
-      created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Megan Marrelli
-    staff: true
-    location: New York
-    role: Program Manager
+      id: 1jkEcTAbvK0Y7O1NmysvKT
+      created_at: !ruby/object:DateTime 2020-06-15 20:05:11.826000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 21:17:59.746000000 Z
+      content_type_id: section
+      revision: 0
+    title: Informal Information Leaders
+    section_description: In some countries, an erosion of public trust has set a stage
+      for confusion and information chaos during the COVID-19 pandemic.
+    modules:
+    - sys:
+        id: 1pgnNHzGfRTq0Mzq5PkaYA
   publication_promo: 'This report is part of a special project of Meedan’s Digital
     Health Lab about the COVID-19 misinformation on the internet.
 
