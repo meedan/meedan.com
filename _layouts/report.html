@@ -25,7 +25,7 @@ lang: en-US
                         <span>
                             <ol>
                                 {% for footnote in page.footnotes %}
-                                    <li id="fn{{ forloop.index }}">{{ footnote.body | markdownify }} <a href="#fnref1">↩︎</a></li>
+                                    <li id="fn{{ forloop.index }}">{{ footnote.body | markdownify }} <a href="#fnref{{ forloop.index }}">↩︎</a></li>
                                 {% endfor %}
                             </ol>
                         </span>
@@ -37,9 +37,15 @@ lang: en-US
                         <span>{{ page.references | markdownify }}</span>
                     </div>
                 {% endif %}
-                {% if page.words_by %}
+                {% if page.author %}
                     <div class="report-footer-item">
-                        {% include words_by.html %}
+                        <span>Authors</span>
+                        <span>
+                        {% 
+                            include authors.html 
+                            data=page.author 
+                        %}
+                        </span>
                     </div>
                 {% endif %}
                 <div class="report-footer-item">
@@ -49,10 +55,6 @@ lang: en-US
                         {% assign published_on = page.sys.created_at %}
                     {% endif %}
                     <span>Published on</span> <span>{{ published_on | date: "%-d %B %Y" }}</span>
-                </div>
-                <div class="report-footer-item">
-                    <span>Acknowledgments</span> 
-                    <span>This primer was developed with support and contributions from An Xiao Mina (Meedan), Scott A. Hale (Meedan, Oxford Internet Institute) Jane Shapiro (Google AI), Jenna Sherman (Harvard Chan School of Public Health) and with significant input from the Meedan team.</span>
                 </div>
             </div>
             {% include footer_small_newsletter.html %}
