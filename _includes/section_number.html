@@ -1,0 +1,8 @@
+{% assign label = 'Part' %}
+{% assign number = forloop.index %}
+{% case number %}
+	{% when 1 %}
+        {{ label }} One
+    {% when 2 %}
+        {{ label }} Two
+{% endcase %}

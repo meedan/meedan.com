@@ -2,7 +2,7 @@
     {% for section in page.sections %}
         <div class="section-meta main-grid">
             <span class="section-number" style="color: {{ page.color.value }}">
-                Part One
+                {% include section_number.html %}
             </span>
             <span class="section-name" style="color: {{ page.color.value }}">
                 {{ section.title }}

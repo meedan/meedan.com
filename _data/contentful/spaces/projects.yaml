@@ -3,9 +3,9 @@ project:
 - sys:
     id: ZrRI71jL8H3THqYYM98j8
     created_at: !ruby/object:DateTime 2020-02-06 20:33:55.642000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-17 21:00:10.807000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-18 06:08:10.663000000 Z
     content_type_id: project
-    revision: 5
+    revision: 8
   title: Check Global
   hero_image:
     sys:
@@ -19,12 +19,14 @@ project:
     rights research in the developing world. We provide software, training and support
     to an international group of independent media organizations, journalism schools
     and human rights researchers.
-  summary: "Check Global is a program primarily run by Meedan in partnership with
-    Birmingham City University, with funding from Swedish International Development
-    Agency (Sida). \n\nThe project aims to improve digital literacy, community-building
-    and political engagement skills for citizen journalists, activists, journalism
-    students, civil society organisations and human rights defenders, thus strengthening
-    their role as investigators and contributors to the public sphere."
+  links: "- [Learn more](https://meedan.com/projects/check-global)\n"
+  summary: "Check Global is a program run by [Meedan](https://meedan.com/about) in
+    partnership with [Birmingham City University](https://www.bcu.ac.uk/), with funding
+    from Swedish International Development Agency (Sida). \n\nThe project aims to
+    improve digital literacy, community-building and political engagement skills for
+    citizen journalists, activists, journalism students, civil society organisations
+    and human rights defenders, thus strengthening their role as investigators and
+    contributors to the public sphere."
   intro: "We provide training, develop software, run programming, and conduct research
     with a global network of independent media and human rights organizations, fact-checking
     initiatives and journalism schools in Latin America, East Africa, Asia-Pacific
@@ -39,15 +41,15 @@ project:
   - sys:
       id: 3zpdrjZeBGOlkTvFrchEYa
       created_at: !ruby/object:DateTime 2020-04-30 19:57:35.775000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-17 22:43:20.397000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 03:16:45.425000000 Z
       content_type_id: section
-      revision: 0
+      revision: 1
     title: What We Do
     cover_graphic:
       sys:
         id: 3qY0ei2Bg7SMahDkxnxMgi
         created_at: !ruby/object:DateTime 2020-06-17 22:43:16.721000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-17 22:43:42.293000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-18 03:16:34.398000000 Z
       title: Check Global – What We Do
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/3qY0ei2Bg7SMahDkxnxMgi/920389bec8fa2b79b9f1ef535c982af0/graphic_1.png"
@@ -65,38 +67,17 @@ project:
     - sys:
         id: G131BSJzfGF7m1buiMyH0
   - sys:
-      id: EqEniIFDbF8HASu0rKCJh
-      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-17 22:43:53.507000000 Z
-      content_type_id: section
-      revision: 0
-    title: Who we are
-    cover_graphic:
-      sys:
-        id: 46wwHwBQpDhqhNqup0reBS
-        created_at: !ruby/object:DateTime 2020-06-17 22:43:49.492000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-17 22:44:07.336000000 Z
-      title: Check Global – Who We Are
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/46wwHwBQpDhqhNqup0reBS/5b153775e57a6aa28c68b7013091d5cc/graphic_2.png"
-    section_class: financials
-    modules:
-    - sys:
-        id: 5bPjLADdiXEy7wgvf0SonW
-    - sys:
-        id: 1i4LKxNS2Ha1LF0MGWwyzp
-  - sys:
       id: 3KKLPp1gaZFn8DA2991hai
       created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-17 22:44:18.295000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 05:57:23.347000000 Z
       content_type_id: section
-      revision: 0
+      revision: 2
     title: The Five Pillars of  Check Global
     cover_graphic:
       sys:
         id: 5z0rhk7t6MEUnGdvNYQyo6
         created_at: !ruby/object:DateTime 2020-06-17 22:44:14.497000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-17 22:44:32.492000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-18 03:16:56.474000000 Z
       title: Check Global – The Five Pillars of Check Global
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5z0rhk7t6MEUnGdvNYQyo6/f0045fd813f5a67f156a43d73c1a35de/graphic_3.png"
@@ -127,6 +108,27 @@ project:
         id: 4KUDgS2JKNuwtuhgb33HHB
     - sys:
         id: 2CsSGl5GzJpKdc3H2DB6e5
+  - sys:
+      id: EqEniIFDbF8HASu0rKCJh
+      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 05:57:51.230000000 Z
+      content_type_id: section
+      revision: 2
+    title: Who we are
+    cover_graphic:
+      sys:
+        id: 46wwHwBQpDhqhNqup0reBS
+        created_at: !ruby/object:DateTime 2020-06-17 22:43:49.492000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-18 03:23:40.862000000 Z
+      title: Check Global – Who We Are
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/46wwHwBQpDhqhNqup0reBS/5b153775e57a6aa28c68b7013091d5cc/graphic_2.png"
+    section_class: financials
+    modules:
+    - sys:
+        id: 5bPjLADdiXEy7wgvf0SonW
+    - sys:
+        id: 1i4LKxNS2Ha1LF0MGWwyzp
   stories:
   - sys:
       id: m7aLQU2hG9LVRQc6LJqHz
