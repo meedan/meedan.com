@@ -67,10 +67,10 @@
     .u-responsive-ratio {
         color: var(--blackInk);
         @include responsive('min-width: #{$width-tablet}') {
-            grid-column: 4/10;
+            grid-column: 4/11;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            grid-column: 4/10;
+            grid-column: 4/11;
         }
     }
     > p,
@@ -94,6 +94,22 @@
         }
     }
 
+}
+
+.report .story-wrapper ul,
+.report  .story-wrapper ol {
+    margin-left: 0;
+    list-style: none;
+    li {
+        padding-left: 0;
+        margin-bottom: var(--space-1);
+        padding-bottom: var(--space-1);
+        border-bottom: 1px solid var(--blackInk);
+        &:first-child {
+            border-top: 1px solid var(--blackInk);
+            padding-top: var(--space-1);
+        }
+    }
 }
 
 .report-sidebar {
