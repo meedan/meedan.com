@@ -3,9 +3,22 @@ report:
 - sys:
     id: 1vw9SWrQcyEyWtga37JUw6
     created_at: !ruby/object:DateTime 2020-06-15 20:05:48.745000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-22 22:10:59.078000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-22 23:46:39.177000000 Z
     content_type_id: report
     revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: report
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: 'Trust, Religion, and Politics: Coronavirus Misinformation in Iran'
   slug: trust-religion-and-politics-coronavirus-misinformation-in-iran
   description: Three main aspects have shaped the spread of coronavirus misinformation
@@ -21,6 +34,14 @@ report:
     title: iran
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/1dZgE7lhkFmGDiYmoEDtE0/fc846020c620fa0f20cb73d2ecff1772/iran.png"
+  social_card_image:
+    sys:
+      id: 1TXTPQACmPJLvpvGpSNDPO
+      created_at: !ruby/object:DateTime 2020-06-22 23:46:33.116000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-22 23:46:53.220000000 Z
+    title: 'Trust, Religion, and Politics: Coronavirus Misinformation in Iran'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1TXTPQACmPJLvpvGpSNDPO/eddb026113295da7d48402cb782ef134/meedan_report_covid-19-iran_oii_01.png"
   body: "In early 2020, the introduction of COVID-19 in the MENA region found its
     epicenter in Iran. The country’s outbreak preceded much of the rest of the world,
     and during the outset of the crisis the Iranian government’s slow reaction and
@@ -460,12 +481,26 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/6ioZnbN9f9SjY2XZfp46QG/28488ebd1d9e4b4cd2dbc9ba34074735/ffb34d.png"
     text: "#262626"
+  image: https://images.ctfassets.net/g118h5yoccvd/1TXTPQACmPJLvpvGpSNDPO/eddb026113295da7d48402cb782ef134/meedan_report_covid-19-iran_oii_01.png
 - sys:
     id: 3FjVXrJAIvjk2zHMcvRxtq
     created_at: !ruby/object:DateTime 2020-06-17 23:32:00.982000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-19 18:19:43.729000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-22 23:22:12.006000000 Z
     content_type_id: report
     revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: report
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: False health information in Kenya
   slug: false-health-information-in-kenya
   description: The fact-checking organization Africa Check identifies major trends
@@ -482,6 +517,14 @@ report:
     title: kenya
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/2FaNwN7eNAIKR9NSFae2xD/fb01cfa24e810a121848317a6fe9a830/kenya.png"
+  social_card_image:
+    sys:
+      id: 3qrqeRUJmXadMqSKn51oaF
+      created_at: !ruby/object:DateTime 2020-06-22 23:22:05.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-22 23:47:19.921000000 Z
+    title: False health information in Kenya
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3qrqeRUJmXadMqSKn51oaF/bfb84d389358017676bccf23d25d039f/meedan_report_covid-19-kenya_africa-check_01.png"
   body: "In this paper, we focus on our experience of harmful false information about
     health in Kenya. We identify major trends and discuss the contextual factors influencing
     mis- and disinformation in the country. We show that while there has been a surge
@@ -822,3 +865,4 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/6DFxyXxmFWXQ8Eq5QdgVl3/25dc83caf2981ab55b5b35e3c59f2467/FF4D7E"
     text: "#262626"
+  image: https://images.ctfassets.net/g118h5yoccvd/3qrqeRUJmXadMqSKn51oaF/bfb84d389358017676bccf23d25d039f/meedan_report_covid-19-kenya_africa-check_01.png

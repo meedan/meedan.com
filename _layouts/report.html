@@ -14,6 +14,11 @@ lang: en-US
                 {{ page.body | markdownify }}
                 <div class="report-sidebar">
                     <div class="report-sidebar-item">
+                        <a href="/reports/{{ page.publication[0].slug}}" title="{{ page.publication[0].title }}">
+                            <img src="{{ page.publication[0].publication_promo_graphic.url }}" alt="{{ page.publication[0].title }}" />
+                        </a>
+                    </div>
+                    <div class="report-sidebar-item">
                         {{ page.publication[0].publication_promo | markdownify }}
                     </div>
                 </div>
