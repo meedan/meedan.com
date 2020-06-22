@@ -44,6 +44,17 @@
     }
 }
 
+.publication .publication-cover-wrapper {
+    display: flex;
+    justify-content: center;
+    @include responsive('min-width: #{$width-tablet}') {
+        .publication-cover {
+            margin: 0 auto;
+            max-height: 40vw;
+        }
+    }
+}
+
 .publication-wrapper {
     margin-bottom: var(--space-8);
 }
@@ -84,10 +95,16 @@
         font-size: var(--scale-3);
         line-height: 0.95;
         letter-spacing: -0.04rem;
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            margin-top: var(--space-1);
+        }
     }
     .section-intro {
         grid-column: 3/-3;
         font-size: var(--scale-0);
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            margin-top: var(--space-1);
+        }
     }
 }
 

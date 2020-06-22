@@ -1,3 +1,6 @@
+---
+layout: publication
+---
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 {% include head.html %}
@@ -7,6 +10,9 @@
     <div class="page-wrapper">
         {% include publication_header.html theme="dark" %}
         <section>
+            <figure class="publication-cover-wrapper">
+                <img class="publication-cover" alt="{{ page.cover_image.title }}" src="{{ page.cover_image.url }}" />
+            </figure>
             {% include publication_sections.html %}
             {% include footer_small_newsletter.html theme="dark" %}
         </section>

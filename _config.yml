@@ -210,6 +210,8 @@ contentful:
         client_options:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
+        content_types:
+          publication: PublicationMapper
         destination: 'contentful/spaces/'
     - reports: 
         space: ENV_CONTENTFUL_M_SPACE_ID
