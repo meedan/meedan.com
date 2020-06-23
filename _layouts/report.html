@@ -43,11 +43,11 @@ lang: en-US
                     </div>
                 {% endif %}
                 {% if page.author %}
-                    <div class="report-footer-item">
+                    <div class="report-footer-item report-authors">
                         <span>Authors</span>
                         <span>
                         {% 
-                            include authors.html 
+                            include authors_with_bios.html 
                             data=page.author 
                         %}
                         </span>

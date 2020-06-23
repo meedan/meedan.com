@@ -1,0 +1,7 @@
+{% assign authors = include.data %}
+{% assign contributors = site.data.contentful.spaces.contributors.contributor %}
+<ul>
+    {% for a in authors %}
+        <li>{{ a.bio | markdownify }}</li>
+    {% endfor %}
+</ul>
