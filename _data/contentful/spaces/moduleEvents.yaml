@@ -3,9 +3,9 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 03:23:01.385000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 18:20:40.531000000 Z
     content_type_id: moduleEvents
-    revision: 11
+    revision: 13
   title: Upcoming Events
   events:
   - sys:
@@ -170,3 +170,23 @@ moduleEvents:
       Fact 7, the annual conference of the International Fact-Checking Network on
       Wednesday, June 24."
     slug: meedan-research-at-global-fact-7-fakes-misinformation-and-fact-checking
+  - sys:
+      id: 4qawjSwRq8KCFBNt4oA29e
+      created_at: !ruby/object:DateTime 2020-06-23 17:48:52.369000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-23 17:57:24.137000000 Z
+      content_type_id: event
+      revision: 3
+    title: 'Instagram Live: Dr. Saskia Popescu and Dr. Seema Yasmin'
+    event_date: !ruby/object:DateTime 2020-06-26 00:00:00.000000000 Z
+    time: |-
+      - *San Francisco* 9am
+      - *New York* 12pm
+      - *London* 5pm
+      - *Delhi* 9:30pm
+    location_human_friendly: http://www.instagram.com/heymeedan
+    long_description: Dr. Saskia Popescu, infectious disease epidemiologist and infection
+      preventionist joins Dr. Seema Yasmin to talk about COVID-19 science and highlights
+      from Meedan's [COVID-19 Expert Database](https://learnaboutcovid19.org/). Join
+      [@heymeedan](http://www.instagram.com/heymeedan) on Instagram at 12 ET /9 PT
+      on Friday, June 26 for what will be an insightful discussion!
+    slug: instagram-live-dr-saskia-popescu-and-dr-seema-yasmin
