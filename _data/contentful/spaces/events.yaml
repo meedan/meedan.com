@@ -438,9 +438,9 @@ event:
 - sys:
     id: EiiSzfZdXJzaKXuSUFp5Z
     created_at: !ruby/object:DateTime 2020-06-22 14:52:02.921000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-22 21:44:48.842000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 04:14:34.935000000 Z
     content_type_id: event
-    revision: 6
+    revision: 7
     space:
       sys:
         id: g118h5yoccvd
@@ -486,6 +486,7 @@ event:
     title: meedan webinar nat june-12 03
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/18olRjuGziObtrs4qi9CIa/5a88acc6fe4813095875c038924fef7a/meedan_webinar_nat_june-12_03.jpg"
+  location_human_friendly: Online
   register_link: https://virtual.globalfact7.com/agenda/tackling-health-misinformation-with-truth-trust-and-tactics
   description: Meedan, in collaboration with Full Fact, Pesa Check, the University
     of Lagos and DataLEADS is hosting a session about effective responses to misinfodemics.
@@ -507,3 +508,69 @@ event:
   event_date_string: '2020-06-24'
   event_end_date_string: '2020-06-24'
   image: https://images.ctfassets.net/g118h5yoccvd/18olRjuGziObtrs4qi9CIa/5a88acc6fe4813095875c038924fef7a/meedan_webinar_nat_june-12_03.jpg
+- sys:
+    id: 35TsODvxAA9l4N4MHjgf5y
+    created_at: !ruby/object:DateTime 2020-06-23 02:58:41.827000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 03:22:23.652000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Meedan Research at Global Fact 7: Fakes, misinformation and fact-checking:
+    Current research '
+  event_date: !ruby/object:DateTime 2020-06-24 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-06-24 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 9am
+    - *New York* 12pm (noon)
+    - *London* 5pm
+    - *Delhi* 9:30pm
+  images:
+  - sys:
+      id: 2a94QycozHL6eDbGDvZOLa
+      created_at: !ruby/object:DateTime 2020-06-22 21:32:46.537000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-22 21:44:45.567000000 Z
+    title: meedan webinar nat june-24 01
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2a94QycozHL6eDbGDvZOLa/49615f935d71bee66168ca2a80cdedab/meedan_webinar_nat_june-24_01.png"
+  - sys:
+      id: 2I28ad7Uznww7HPydVdmJl
+      created_at: !ruby/object:DateTime 2020-06-22 19:53:31.493000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-22 20:02:35.611000000 Z
+    title: Dr Scott A. Hale
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2I28ad7Uznww7HPydVdmJl/8ca37903ad63e892a46d561740e457ea/meedan_webinar_scott_june-24_02.png"
+  location_human_friendly: Online
+  register_link: https://virtual.globalfact7.com/agenda/academic-track-fakes-misinformation-and-fact-checking-current-research-part-2
+  description: Natural language processing and semantic change can help policymakers,
+    public health authorities, journalists, and fact-checkers keep a finger on the
+    pulse of the online health conversation.
+  long_description: "We are in extraordinary times, but even prior to the pandemic
+    thousands of health conversations were happening on social media everyday. In
+    2019, Meedan's Digital Health Lab in collaboration with researchers at the Oxford
+    Internet Institute, the Harvard T.H. Chan School of Public Health, and University
+    of Michigan's Department of Computer Science developed and tested approaches to
+    help policymakers, public health authorities, journalists, and fact-checkers keep
+    a finger on the pulse of the online health conversation. By modifying semantic
+    change detection methods, we found we could identify when health words were being
+    used in new, unexpected ways. Many of these shifts were due to large external
+    events, but a few were due to misinformation. \n\nThe research is [detailed in
+    an 8-minute video](https://www.youtube.com/watch?v=vzyr1e9tSJs&list=PLEcKYh_fjP9hsDdFjnRkxFdDKARmivAPg&index=13
+    \"Presentation of the research on YouTube\") and will be discussed at Global Fact
+    7, the annual conference of the International Fact-Checking Network on Wednesday,
+    June 24."
+  slug: meedan-research-at-global-fact-7-fakes-misinformation-and-fact-checking
+  event_date_string: '2020-06-24'
+  event_end_date_string: '2020-06-24'
+  image: https://images.ctfassets.net/g118h5yoccvd/2a94QycozHL6eDbGDvZOLa/49615f935d71bee66168ca2a80cdedab/meedan_webinar_nat_june-24_01.png

@@ -24,13 +24,13 @@
                     <span class="org">{{ page.organization }}</span>
                 {% endif %}
             </div>
+            <figure class="report-graphic no-margin">
+                <img class="lead_image" alt="{{ page.lead_image.title }}" src="{{ page.lead_image.url }}" />
+                <figcaption class="">
+                    {{ page.lead_image.description }}
+                </figcaption>
+            </figure>
         </div>
-        <figure class="report-graphic no-margin">
-            <img class="lead_image" alt="{{ page.lead_image.title }}" src="{{ page.lead_image.url }}" />
-            <figcaption class="">
-                {{ page.lead_image.description }}
-            </figcaption>
-        </figure>
     </div>
     {% if page.callout %}
     <svg id="text-container" class="callout" width="618" height="663" viewBox="0 0 618 663" fill="none" xmlns="http://www.w3.org/2000/svg">
