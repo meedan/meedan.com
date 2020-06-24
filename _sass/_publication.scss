@@ -1,0 +1,190 @@
+.publication {
+    color: var(--accent);
+}
+
+.publication .page-wrapper header h2 {
+    grid-column: 2/-2;
+    text-align: center;
+    font-family: $font-stack-c;
+    font-size: var(--scale-4);
+    @include responsive('min-width: #{$width-tablet}') {
+        font-size: 5.556rem;
+    }
+    letter-spacing: -0.04rem;
+    line-height: 0.95;
+    padding-top: 0;
+    hyphens: unset;
+}
+
+.publication .page-wrapper header h3 {
+    grid-column: 2/-2;
+    padding-top: var(--space-3);
+    margin-bottom: 0;
+    font-family: $font-stack;
+    font-size: 0.778rem;
+    font-weight: 700;
+    letter-spacing: 0.044rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.publication .page-wrapper header .standfirst {
+    grid-column: 2/-2;
+    text-align: center;
+    font-family: $font-stack-d;
+    font-size: var(--scale-1);
+    color: #fff;
+    margin-top: 0;
+    @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+        margin-top: var(--space-1);
+        padding-left: var(--space-3);
+        padding-right: var(--space-3);
+    }
+    span {
+        display: block;
+    }
+}
+
+.publication .publication-cover-wrapper {
+    display: flex;
+    justify-content: center;
+    @include responsive('min-width: #{$width-tablet}') {
+        .publication-cover {
+            margin: 0 auto;
+            max-height: 40vw;
+        }
+    }
+}
+
+.publication-wrapper {
+    margin-bottom: var(--space-8);
+}
+
+
+.section-meta,
+.section-icon {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    text-align: center;
+}
+
+.section-icon {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-meta {
+    margin-top: var(--section-space);
+    margin-bottom: var(--space-4);
+    span {
+        display: block;
+    }
+    .section-number,
+    .section-name {
+        grid-column: 5/-5;
+    }
+    .section-number {
+        font-family: $font-stack;
+        text-transform: uppercase;
+        letter-spacing: 0.044rem;
+        font-size: 0.778rem;
+        font-weight: 700;
+    }
+    .section-name {
+        font-family: $font-stack-c;
+        font-size: var(--scale-3);
+        line-height: 0.95;
+        letter-spacing: -0.04rem;
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            margin-top: var(--space-1);
+        }
+    }
+    .section-intro {
+        grid-column: 3/-3;
+        font-size: var(--scale-0);
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            margin-top: var(--space-1);
+        }
+    }
+}
+
+.report-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(Min(8em, 100%), 1fr));
+    grid-gap: var(--space-2);
+    grid-auto-flow: row;
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    .report {
+        background-color: var(--black);
+        text-align: center;
+        grid-column: span 6;
+        padding: var(--space-1) 0;
+        color: #fff;
+    }
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
+
+.report-list-wrapper {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    font-size: 1.2rem;
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    .report-list-item-row {
+        display: grid;
+        grid-template-columns: 0.1fr 0.9fr 2fr 0.5fr 0.5fr;
+        grid-gap: var(--space-2);
+        grid-auto-flow: column;
+    }
+    .report-list-item-row-header {
+        padding-bottom: var(--space-1);
+        span:nth-of-type(1) {
+            grid-column: span 2;
+        }
+    }
+    .report-link {
+        border-top: 1px solid var(--accent);
+        padding-top: var(--space-2);
+    }
+    span {
+        text-align: left;
+    }
+    .report-title {
+        font-size: var(--scale-1);
+    }
+}
+
+.report .report-title {
+    font-family: $font-stack-c;
+    font-size: var(--scale-3);
+    line-height: 0.8;
+    letter-spacing: -0.04rem;
+}
+
+.report .report-intro {
+    display: block;
+    font-family: $font-stack-d;
+    font-size: var(--scale-0);
+    margin-top: 0.278rem;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.report .report-byline {
+    display: block;
+    font-family: $font-stack-d;
+    font-size: var(--scale-0);
+    margin-top: 0.278rem;
+}
+
+.report .image-wrapper {
+    margin-top: var(--space-3);
+
+}

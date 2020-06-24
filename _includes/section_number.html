@@ -1,0 +1,24 @@
+{% assign label = 'Part' %}
+{% assign number = forloop.index %}
+{% case number %}
+	{% when 1 %}
+        {{ label }} One
+    {% when 2 %}
+        {{ label }} Two
+    {% when 3 %}
+        {{ label }} Three
+    {% when 4 %}
+        {{ label }} Four
+    {% when 5 %}
+        {{ label }} Five
+    {% when 6 %}
+        {{ label }} Six
+    {% when 7 %}
+        {{ label }} Seven
+    {% when 8 %}
+        {{ label }} Eight
+    {% when 9 %}
+        {{ label }} Nine
+    {% when 10 %}
+        {{ label }} Ten
+{% endcase %}

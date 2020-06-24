@@ -29,13 +29,17 @@
 @import "team.scss";
 @import "image-grid.scss";
 @import "jobs.scss";
+@import "publication.scss";
+@import "report.scss";
 @import "values.scss";
 
 // @import "slick.scss";
 
 :root {
+    --black: #1A1A1A;
     --blackInk: #262626;
     --sunDown: #FFB2B2;
+    --sunSet: #E74640;
     --accent: #F2DEDC;
     --checkBlue: #2D77FC;
     --coral: #FF864D;
@@ -43,6 +47,7 @@
     --cornflowerBlue: #5F9EE5;
     --texasRose: #FFB34D;
     --deepSea: #008D5E;
+    --green: #04733B;
     --silver: #A7A7A7;
     --softOrange: #DAA06D;
     --brightGreen:#36B687;
@@ -245,6 +250,10 @@ header .meedan svg {
     fill: var(--blackInk);
 }
 
+header.dark .meedan svg {
+    fill: var(--sunDown);
+}
+
 .front:not([data-menu]) header .meedan svg {
     fill: var(--sunDown);
 }
@@ -258,6 +267,14 @@ header .meedan svg {
 }
 
 .values[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
+.publication[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
+.report[data-menu] header .meedan svg {
     fill: var(--blackInk);
 }
 
@@ -278,6 +295,14 @@ header .menu-icon svg {
 }
 
 .values[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.report[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.publication[data-menu] .menu-icon svg {
     stroke: var(--blackInk);
 }
 
@@ -314,6 +339,12 @@ header h1 {
     a {
         color: var(--blackInk);
         text-decoration: none;
+    }
+}
+
+header.dark h1 {
+    a { 
+        color: var(--sunDown);
     }
 }
 
@@ -434,6 +465,8 @@ header h1 {
 
 .front .cursor,
 .team .cursor,
+.report .cursor,
+.publication .cursor,
 .values .cursor {
     border-color: var(--sunDown);
 }
@@ -454,6 +487,8 @@ header h1 {
 
 .front[data-menu] .cursor,
 .team[data-menu] .cursor,
+.report[data-menu] .cursor,
+.publication[data-menu] .cursor,
 .values[data-menu] .cursor, {
     color: var(--blackInk);
     border-color: var(--blackInk);

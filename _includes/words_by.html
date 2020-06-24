@@ -5,7 +5,7 @@
     {% if contributor.size == 1 %}
         {{ contributor.name.en-US }} 
     {% endif %}
-    {% if contributor.size >= 1 %}
+    {% if contributor.size > 1 %}
         {% if forloop.last %}
             {{ contributor.name.en-US | append: "" }} 
         {% else %}

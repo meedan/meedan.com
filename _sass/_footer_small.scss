@@ -7,6 +7,25 @@
     form input {
         padding-left: 0;
         &::placeholder {
+            opacity: 0.9;
+        }
+    }
+    form input,
+    form button {
+        color: rgba(#262626, 0.9);
+        border-bottom-color: rgba(#262626, 0.6);
+    }
+    &:hover {
+        input, button {
+            background-color: rgba(#262626, 0.2);
+            border-bottom: 1px solid var(--coral);
+        }
+    }
+}
+
+.dark .footer-newsletter {
+    form input {
+        &::placeholder {
             opacity: 0.6;
         }
     }
