@@ -2,7 +2,7 @@
 userGuide:
 - sys:
     id: 6XyPn0FHgvv1G5tpJGkvjf
-    created_at: !ruby/object:DateTime 2019-02-14 21:56:47.640000000 Z
+    created_at: !ruby/object:DateTime 2019-02-14 21:53:25.262000000 Z
     updated_at: !ruby/object:DateTime 2019-02-14 21:56:47.640000000 Z
     content_type_id: userGuide
     revision: 1
@@ -11,7 +11,7 @@ userGuide:
   product:
   - sys:
       id: 5KuG2owqnOZkrAsXjoFK5b
-      created_at: !ruby/object:DateTime 2019-02-14 21:53:16.712000000 Z
+      created_at: !ruby/object:DateTime 2019-02-14 21:52:36.121000000 Z
       updated_at: !ruby/object:DateTime 2019-02-14 21:53:16.712000000 Z
       content_type_id: product
       revision: 1
@@ -19,21 +19,21 @@ userGuide:
   modules:
   - sys:
       id: 6aTMBi5o7rpvSDJFP8eDqZ
-      created_at: !ruby/object:DateTime 2019-02-14 21:55:31.742000000 Z
+      created_at: !ruby/object:DateTime 2019-02-14 21:54:14.029000000 Z
       updated_at: !ruby/object:DateTime 2019-02-14 21:55:31.742000000 Z
       content_type_id: moduleImage
       revision: 1
     image:
       sys:
         id: 3BTWQUZVbEQzjwe0DUKx1h
-        created_at: !ruby/object:DateTime 2019-02-14 21:55:23.026000000 Z
+        created_at: !ruby/object:DateTime 2019-02-14 21:55:03.732000000 Z
         updated_at: !ruby/object:DateTime 2019-02-14 21:55:23.026000000 Z
       title: Check Related Items 1
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/3BTWQUZVbEQzjwe0DUKx1h/045881c8cd4074c0b4d955e4f85d0761/0_Mm4VtDwtB0buJLmR"
   - sys:
       id: 4FMrj6QKGmho8JHOrmP6ZI
-      created_at: !ruby/object:DateTime 2019-02-14 21:56:35.260000000 Z
+      created_at: !ruby/object:DateTime 2019-02-14 21:55:47.917000000 Z
       updated_at: !ruby/object:DateTime 2019-02-14 21:56:35.260000000 Z
       content_type_id: moduleTex
       revision: 1
@@ -41,3 +41,132 @@ userGuide:
       Item Relationships allow the user to join more than one item together to show under the related column on the item’s page.
 
       From an item’s page, click the link to “Add Related Item” showing on the right:
+- sys:
+    id: 6ZBEyecCsadBawhCdOnXXd
+    created_at: !ruby/object:DateTime 2019-07-24 18:33:08.244000000 Z
+    updated_at: !ruby/object:DateTime 2019-07-24 18:54:01.467000000 Z
+    content_type_id: userGuide
+    revision: 0
+  title: How to add people to your team!
+  slug: how-to-add-people-to-your-team
+  product:
+  - sys:
+      id: 5KuG2owqnOZkrAsXjoFK5b
+      created_at: !ruby/object:DateTime 2019-02-14 21:52:36.121000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 21:53:16.712000000 Z
+      content_type_id: product
+      revision: 1
+    title: Check
+  modules:
+  - sys:
+      id: yhRlralrPZ7AKNeowtHpB
+      created_at: !ruby/object:DateTime 2019-07-24 18:37:53.394000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:45:19.068000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |+
+      ## User Guide
+      There are two ways to add people to your team, either by (1) sending them a join link that they can use to send a request and then you approve it or by (2) email them invitations to their email address with a link that has an expiration date.
+
+
+  - sys:
+      id: qcYrsCKtXCFhoZqOiUSAP
+      created_at: !ruby/object:DateTime 2019-07-24 18:53:52.529000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:53:54.623000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: "### 1. Join Link"
+  - sys:
+      id: 4vnAPOJgpfV1a0edIDfkdi
+      created_at: !ruby/object:DateTime 2019-07-24 18:41:48.799000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:55:47.406000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    image:
+      sys:
+        id: 2O9PSXzJPdusordUQLXHH
+        created_at: !ruby/object:DateTime 2019-07-24 18:42:12.297000000 Z
+        updated_at: !ruby/object:DateTime 2019-07-24 18:42:57.271000000 Z
+      title: Build Your Team
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2O9PSXzJPdusordUQLXHH/e1a5c01b2a12e61134c824898aba6fad/0_nf0FqLv1d9SxD4BZ"
+  - sys:
+      id: 1qitR3MWSknl5KUpFOQwd7
+      created_at: !ruby/object:DateTime 2019-07-24 18:46:10.574000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:53:47.287000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |-
+      By clicking “Copy” from the blue box the join link is copied, and you can paste it anywhere to share it with people you would like to join your team.
+
+      When a user goes to this link, they see a join request button. Upon clicking, they send a notification to team owners to approve or reject this request from the members section on the team page.
+
+      If you reject a join request, user won’t be able to send another request again. If your team is public, he can see team’s projects and items as a reader but he won’t be able to contribute.
+  - sys:
+      id: 63QGmVthlM1hoRQQPbu57G
+      created_at: !ruby/object:DateTime 2019-07-24 18:46:42.119000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:55:42.302000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    image:
+      sys:
+        id: 37Wm1SKlYBECFPhBHXw1SU
+        created_at: !ruby/object:DateTime 2019-07-24 18:46:48.195000000 Z
+        updated_at: !ruby/object:DateTime 2019-07-24 18:47:04.550000000 Z
+      title: Sending an Invitation
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/37Wm1SKlYBECFPhBHXw1SU/a542b07e8ff8198a87ec1272130a14b4/0_Znw0YFsxymdI13qc"
+  - sys:
+      id: 2lWlvOGEY5CMDnemllyt0D
+      created_at: !ruby/object:DateTime 2019-07-24 18:52:53.563000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:55:08.789000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: "### 2. Sending an Invitation "
+  - sys:
+      id: 4FtN738KcZHSH3dAXfm3oO
+      created_at: !ruby/object:DateTime 2019-07-24 18:47:14.804000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:55:27.946000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    image:
+      sys:
+        id: 1qqfF8oM2ytIqD5u4HIBxB
+        created_at: !ruby/object:DateTime 2019-07-24 18:47:19.780000000 Z
+        updated_at: !ruby/object:DateTime 2019-07-24 18:47:32.066000000 Z
+      title: Sending an Invitation 2
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1qqfF8oM2ytIqD5u4HIBxB/2e5370698bea5aea12f8932b7bde3b4a/0_D9NubmjsF2AetQk_"
+  - sys:
+      id: 2wipajiwbTif0mYyWr8EU6
+      created_at: !ruby/object:DateTime 2019-07-24 18:47:47.237000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:47:51.094000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: You can click the “Invite” button from the team page that opens a popup
+      window to enter the invitee(s) email address(es) and their roles.
+  - sys:
+      id: 2jlF5mcfMPTbPBs9QC6cpb
+      created_at: !ruby/object:DateTime 2019-07-24 18:48:06.437000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 18:49:19.823000000 Z
+      content_type_id: moduleImage
+      revision: 0
+    image:
+      sys:
+        id: 1LBwJLkCDN2ANyLrTAehDr
+        created_at: !ruby/object:DateTime 2019-07-24 18:48:21.846000000 Z
+        updated_at: !ruby/object:DateTime 2019-07-24 18:48:41.243000000 Z
+      title: Sending an Invitation 3
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1LBwJLkCDN2ANyLrTAehDr/a0fe397b3df26f217e621bc3a8ca269b/0_PJ_ESwiCVCTpzel-"
+  - sys:
+      id: 4AzK3LMv5IDizLzMCNxJwL
+      created_at: !ruby/object:DateTime 2019-07-24 18:49:27.601000000 Z
+      updated_at: !ruby/object:DateTime 2019-07-24 21:00:50.479000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |-
+      After clicking “Send’, invitations will be sent to users emails with a link that has an expiration date that user can click to join the team.
+
+      Want to know which roles to assign to people you add to your team? Please have a look at our user guide for different Check roles and permissions at:
+      [https://medium.com/meedan-user-guides/user-roles-on-check-7db8a1bced75](https://medium.com/meedan-user-guides/user-roles-on-check-7db8a1bced75)
