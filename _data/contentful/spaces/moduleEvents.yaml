@@ -3,9 +3,9 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 18:20:40.531000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-24 15:02:45.850000000 Z
     content_type_id: moduleEvents
-    revision: 13
+    revision: 14
   title: Upcoming Events
   events:
   - sys:
@@ -65,61 +65,6 @@ moduleEvents:
       so difficult; and (3) the social life of everyday health myths, and what we
       can do to tackle it with tact.\n\nTo learn more, visit [Global Fact's website](https://virtual.globalfact7.com/agenda/tackling-health-misinformation-with-truth-trust-and-tactics)."
     slug: tackling-health-misinformation-with-truth-trust-and-tactics-meedan-digital
-  - sys:
-      id: 5g9qJ6OWJXy9fH6AbMLUFt
-      created_at: !ruby/object:DateTime 2020-06-22 00:42:53.661000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-22 20:21:50.365000000 Z
-      content_type_id: event
-      revision: 8
-    title: Countering the COVID-19 Misinfodemic with Text Similarity and Social Data
-      Science
-    event_date: !ruby/object:DateTime 2020-06-24 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-06-24 00:00:00.000000000 Z
-    time: |-
-      - *New York* 8am
-      - *London* 1pm
-      - *Delhi* 5:30pm
-      - *Tokyo* 9pm
-    images:
-    - sys:
-        id: 5NhpvrSEk5rOEeBK3NEmKF
-        created_at: !ruby/object:DateTime 2020-06-22 19:53:11.840000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-22 20:02:29.672000000 Z
-      title: meedan webinar scott june-24 01
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5NhpvrSEk5rOEeBK3NEmKF/c365b01f9c778ee5057c2b4a49931fb8/meedan_webinar_scott_june-24_01.png"
-    - sys:
-        id: 2I28ad7Uznww7HPydVdmJl
-        created_at: !ruby/object:DateTime 2020-06-22 19:53:31.493000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-22 20:02:35.611000000 Z
-      title: Dr Scott A. Hale
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/2I28ad7Uznww7HPydVdmJl/8ca37903ad63e892a46d561740e457ea/meedan_webinar_scott_june-24_02.png"
-    social_card_image:
-      sys:
-        id: 1LsQQ6broPO1ArJt9VTs2e
-        created_at: !ruby/object:DateTime 2020-06-22 00:59:44.459000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-22 01:01:18.065000000 Z
-      title: Countering the COVID-19 Misinfodemic with Text Similarity and Social
-        Data Science
-      description: Meedan research is using text similarity algorithms to help fact-checkers
-        locate misinformation, cluster similar misinformation, and identify existing
-        fact-checks in the context of tip lines on platforms with end-to-end encryption.
-      url: "//images.ctfassets.net/g118h5yoccvd/1LsQQ6broPO1ArJt9VTs2e/fe3541eb1bd694f57c93946540ef50a0/SocialMediaAd_-_Scott.jpg"
-    location_human_friendly: Online on Zoom
-    register_link: https://us02web.zoom.us/webinar/register/1715923164080/WN_iKjmfbtGReir5PKpPuMOHg
-    description: Text similarity algorithms can help fact-checkers locate misinformation,
-      cluster similar misinformation, and identify existing fact-checks when operating
-      tip lines on end-to-end encrypted platforms.
-    long_description: |-
-      Misinformation about COVID-19 has led to severe harms in multiple instances: as an example, a rumor that drinking methanol would cure the virus resulted in hundreds of deaths. While end-to-end encryption is an important privacy safeguard, this encryption prevents platforms such as WhatsApp, Signal, and others from employing centralized interventions and warnings about misinformation. Several options, however, from user interface changes to tip lines to having more intelligence on client devices offer hope.
-
-      In this presentation Dr Scott A. Hale will discuss how text similarity algorithms are being used to help fact-checkers locate misinformation, cluster similar misinformation, and identify existing fact-checks in the context of tip lines on platforms with end-to-end encryption. The presentation will detail research at the Oxford Internet Institute and Meedan, a global technology not-for-profit developing open-source tools for fact-checking and translation, that is actively being used by fact-checkers to improve the information available online.
-
-      The session will be a 30 minute presentation followed by 30 minutes of questions. Dr Chico Camargo, Postdoctoral Researcher in Data Science at the Oxford Internet Institute, will moderate the session.
-
-      **Dr Scott A. Hale** is a Senior Research at the Oxford Internet Institute, University of Oxford; Director of Research at Meedan; and a Fellow at the Alan Turing Institute. His cross-disciplinary research develops and applies new techniques in the computational sciences to social science questions and puts the results into practice with industry and policy partners. He is particularly interested in mobilization/collective action, agenda setting, and antisocial behaviour (e.g., hate speech) and has a strong track record in building tools and teaching programmes that enable wider access to new methods and forms of data.
-    slug: countering-the-covid-19-misinfodemic-with-text-similarity-and-social-data
   - sys:
       id: 35TsODvxAA9l4N4MHjgf5y
       created_at: !ruby/object:DateTime 2020-06-23 02:58:41.827000000 Z
