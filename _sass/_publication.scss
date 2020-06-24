@@ -45,15 +45,10 @@
     }
 }
 
-.publication .publication-cover-wrapper {
-    display: flex;
-    justify-content: center;
-    min-height: 100px;
-    @include responsive('min-width: #{$width-tablet}') {
-        .publication-cover {
-            margin: 0 auto;
-            max-height: 40vw;
-        }
+@include responsive('min-width: #{$width-tablet}') {
+    .publication-cover {
+        margin: 0 auto;
+        max-height: 40vw;
     }
 }
 
