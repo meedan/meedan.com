@@ -3,23 +3,43 @@ report:
 - sys:
     id: 1vw9SWrQcyEyWtga37JUw6
     created_at: !ruby/object:DateTime 2020-06-15 20:05:48.745000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-17 02:48:48.681000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-24 01:11:12.719000000 Z
     content_type_id: report
-    revision: 0
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: report
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
   title: 'Trust, Religion, and Politics: Coronavirus Misinformation in Iran'
   slug: trust-religion-and-politics-coronavirus-misinformation-in-iran
-  description: In early 2020, the introduction of COVID-19 in the MENA region found
-    its epicenter in Iran. The country’s outbreak preceded much of the rest of the
-    world, and during the outset of the crisis the Iranian government’s slow reaction
-    and delayed quarantines ignited ridicule internationally.
+  description: Lack of public trust in officials, religiously charged narratives by
+    unofficial fringe figures and political manipulation of the discourse is shaping
+    COVID-19 misinformation in Iran.
   lead_image:
     sys:
-      id: 2O80ER32L22S8aFaV3jkOa
-      created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
-    title: meedan check-global-micro-grants
+      id: 1dZgE7lhkFmGDiYmoEDtE0
+      created_at: !ruby/object:DateTime 2020-06-19 03:22:05.276000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:10:16.075000000 Z
+    title: 'Trust, Religion, and Politics: Coronavirus Misinformation in Iran'
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/1dZgE7lhkFmGDiYmoEDtE0/fc846020c620fa0f20cb73d2ecff1772/iran.png"
+  social_card_image:
+    sys:
+      id: 1TXTPQACmPJLvpvGpSNDPO
+      created_at: !ruby/object:DateTime 2020-06-22 23:46:33.116000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:10:19.697000000 Z
+    title: 'Trust, Religion, and Politics: Coronavirus Misinformation in Iran'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1TXTPQACmPJLvpvGpSNDPO/bee0b505859726cfeace88c3c4a15486/meedan_report_covid-19-iran_01.png"
   body: "In early 2020, the introduction of COVID-19 in the MENA region found its
     epicenter in Iran. The country’s outbreak preceded much of the rest of the world,
     and during the outset of the crisis the Iranian government’s slow reaction and
@@ -30,18 +50,19 @@ report:
     by unofficial fringe figures, c) political manipulation of the discourse around
     the virus. We end this chapter by focusing on the counter measures implemented
     and the limitations that enabled the dissemination of the misleading content.\n\n###
-    Trust Crisis in Iran   \n\nIn the months leading up to the COVID-19 crisis in
-    Iran, there was an increase in distrust in Iran’s official institutions. Following
-    November 2019 protests that resulted in what is suspected to have been thousands
-    of deaths, Iran’s Revolutionary Guards, the country’s wide-reaching military corps<sup><a
-    id=\"fnref1\" href=\"#fn1\">[1]</a></sup>, and the (semi) elected Iranian government
-    faced a crisis of legitimacy. In addition, the downing and the subsequent coverup
-    of the Ukraine Airlines passenger jet in January 2020 by the Guards led to a new
-    round of protests ([Behravesh, Jan. 14, 2020](https://www.aljazeera.com/news/2020/01/iran-plane-shoot-protest-crisis-competency-legitimacy-200113151404256.html)).\n\nAs
+    Trust Crisis in Iran\n\n#### Political Turbulence and Trust\n\nIn the months leading
+    up to the COVID-19 crisis in Iran, there was an increase in distrust in Iran’s
+    official institutions. Following November 2019 protests that resulted in what
+    is suspected to have been thousands of deaths, Iran’s Revolutionary Guards, the
+    country’s wide-reaching military corps<sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>,
+    and the (semi) elected Iranian government faced a crisis of legitimacy. In addition,
+    the downing and the subsequent coverup of the Ukraine Airlines passenger jet in
+    January 2020 by the Guards led to a new round of protests ([Behravesh, Jan. 14,
+    2020](https://www.aljazeera.com/news/2020/01/iran-plane-shoot-protest-crisis-competency-legitimacy-200113151404256.html)).\n\nAs
     COVID-19 began to take hold in the country, the Supreme Leader Ayatollah Khamenei,
     President Rouhani, the Ministry of Health and other officials initially played
     down the pandemic, in fear that the virus would lower voter turnout for the country’s
-    February election (Al Jazeera, Feb. 23, 2020; [BBC Persian, Feb. 25, 2020](https://www.bbc.com/persian/iran-51630282)).
+    February election ([BBC Persian, Feb. 25, 2020](https://www.bbc.com/persian/iran-51630282)).
     Less reported in the media are the other issues and events that have eroded public
     trust against these authorities throughout the pandemic: Channels affiliated to
     the Revolutionary Guards and state affiliated news channels promoted conspiracy
@@ -60,65 +81,69 @@ report:
     some associated with hardline and traditional institutions such as the Revolutionary
     Guards, were providing credible information by at least, [29 February](https://t.me/c/1153794295/2423),
     asking followers to follow social distancing measures and sharing videos of medical
-    staff asking Iranians to stay home to save lives. \n\nOur analysis of social media
-    found examples of religiously-charged COVID-19 messages promoted in India, the
-    US, and MENA countries such as Iran. It is the latter that we focus on in this
-    report. There is no doubt that Islam prohibts the spreading of unverified information,
-    gossipes, and rumours<sup><a id=\"fnref2\" href=\"#fn2\">[2]</a></sup>. Yet, with
-    a deficit of public trust in authorities, opportunities for information sharing
-    have been allocated to unqualified actors, most significantly, clerics and religious
-    figures. \n\nIn Iran, where some Shiite Muslim religious figures often use their
-    faith as a pillar of opposition against westernization, a fringe figure named
-    Ayatollah Abbas Tabrizian has come to be known as “the father of Islamic medicine.”
-    Prior to the outbreak of COVID-19, Tabrizian posted a video in January of himself
-    burning a copy of _Harrison's Principles of Internal Medicine_, an American reference
-    textbook of medicine used globally. Tabrizian accused the book of being “a tool
-    of the West’s infiltration of other countries” in a video sermon posted to his
-    Telegram channel (Tabrizian 2020b). \n\nThose who follow Tabrizian’s thinking
-    against modern medicine are known to refuse to vaccinate, or follow medical advice,
-    for major illnesses including cancer diagnoses (Faghihi 2020). On 25 February,
-    as the coronavirus crisis unfolded in Iran, Tabrizian advised followers infected
-    with the virus to swab their anus’ with a piece of cotton dipped in violet oil
-    (See Figure 1). The post has gone viral on his Telegram channel of over 200,000
-    followers and beyond onto other Persian language social media, with mixed reactions
-    that included both ridicule and adherence to Tabrizian’s messaging (Tabrizian
-    2020a). \n\n![A screenshot from Ayatollah Abbas Tabrizian’s official Telegram
-    page.](//images.ctfassets.net/g118h5yoccvd/3BvGJf7b7qKzwlVwdG5QHw/a578ccf7fdadd92619bb576a2d22be8f/meedan_covid-19-report_iran_Ayatollah-Abbas-Tabrizian-official-Telegram.jpg)\n\n<p
+    staff asking Iranians to stay home to save lives. \n\n#### Religious Figures Fill
+    Trust Vacuum\n\nOur analysis of social media found examples of religiously-charged
+    COVID-19 messages promoted in India, the US, and MENA countries such as Iran.
+    It is the latter that we focus on in this report. There is no doubt that Islam
+    prohibts the spreading of unverified information, gossipes, and rumours<sup><a
+    id=\"fnref2\" href=\"#fn2\">[2]</a></sup>. Yet, with a deficit of public trust
+    in authorities, opportunities for information sharing have been allocated to unqualified
+    actors, most significantly, clerics and religious figures. \n\nIn Iran, where
+    some Shiite Muslim religious figures often use their faith as a pillar of opposition
+    against westernization, a fringe figure named Ayatollah Abbas Tabrizian has come
+    to be known as “the father of Islamic medicine.” Prior to the outbreak of COVID-19,
+    Tabrizian [posted a video](https://t.me/DaftareAyatollahTabrizian/6965) in January
+    of himself burning a copy of _Harrison's Principles of Internal Medicine_, an
+    American reference textbook of medicine used globally. Tabrizian accused the book
+    of being “a tool of the West’s infiltration of other countries” in a video sermon
+    posted to his Telegram channel. \n\nThose who follow Tabrizian’s thinking against
+    modern medicine are known to refuse to vaccinate, or follow medical advice, for
+    major illnesses including cancer diagnoses ([Faghihi, Mar. 10, 2020](https://www.al-monitor.com/pulse/originals/2020/03/bizarre-cures-for-coronavirus-in-iran.html)).
+    On 25 February, as the coronavirus crisis unfolded in Iran, Tabrizian advised
+    followers infected with the virus to swab their anus’ with a piece of cotton dipped
+    in violet oil (See Figure 1). The [post](https://t.me/DaftareAyatollahTabrizian)
+    has gone viral on his Telegram channel of over 200,000 followers and beyond onto
+    other Persian language social media, with mixed reactions that included both ridicule
+    and adherence to Tabrizian’s messaging. \n\n![A screenshot from Ayatollah Abbas
+    Tabrizian’s official Telegram page](//images.ctfassets.net/g118h5yoccvd/3CJFb17rwFFRpozdZ1Y4DZ/d12d6051f1765aa7e065dd6ea7978e6b/meedan_covid-19-report_iran_Ayatollah-Abbas-Tabrizian-official-Telegram-2.png)\n<p
     class=\"caption\">Figure 1: A screenshot from Ayatollah Abbas Tabrizian’s official
     Telegram page. In a 25 February 2020 post, he lists 13 actions to take in an effort
     to battle an infection against coronavirus. Point 8 has been particularly shocking,
     where he advises infected followers to swab their anus with violet oil before
     bed. This screenshot was taken by the authors on 28 March 2020.</p>\n\nAnother
     controversial video that circulated across Persian language social media shows
-    Mortazavi Kohsal, known to be a disciple of Ayatollah Tabrizian (Saeedian 2020;
-    Bahar News 2020). As he claims to practice Islamic medicine, Kohsal visits critically
-    ill and quarantined coronavirus patients, while wearing no protective clothes
-    or gear, to rub a liquid he claimed to be “the perfume of the Prophet” on the
-    patients lips in the city of Anzali in Gilan. Two days later, one of the young
-    patients Kohsal rubbed the perfume died from the virus ([Bahar News 2020](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)).
-    \n\nIn another similar situation another follower of Tabrizian, Mehdi Sabili,
-    circulated a viral video recommending camel urine as a coronavirus remedy. Authorities
-    arrested himfor creating “confusion and anxiety” for the public, and undermining
-    the countries “Islamic and medicinal values” in addition to running a Islamic
-    Medicine clinic in Tehran without a license  ([YJC, Apr. 22, 2020](https://www.yjc.ir/fa/news/7327494/%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D9%85%D8%B2%D8%A7%DB%8C%D8%A7%DB%8C-%D9%86%D9%88%D8%B4%DB%8C%D8%AF%D9%86-%D8%A7%D8%AF%D8%B1%D8%A7%D8%B1-%D8%B4%D8%AA%D8%B1-%D8%A8%D8%A7%D8%B2%D8%AF%D8%A7%D8%B4%D8%AA-%D8%B4%D8%AF)).
-    \n\nCriticisms against these actors and their contribution to fatal dangers within
-    Iranian establishment are aplenty ([Radio Farda, Dec. 29, 2020](https://en.radiofarda.com/a/successor-to-khamenei-died-because-he-trusted-islamic-medicine-son-reveals/30349899.html)),
-    however it is generally known that the phenomenon remains protected from official
-    reproach through Tabrizian’s entrenched networks amongst Iran’s elite. While two
-    of Tabrizian’s disciples have been arrested, after causing outrage in both internal
-    Iranian and international media, Tabrizian has been left untouched, and his honorific
-    title of “Ayatollah” yet to be questioned for removal by Iran’s Shiite seminaries
-    ([YJC, Apr. 23, 2020](https://www.yjc.ir/fa/news/7328801/%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D8%B5%D8%AD%D8%A8%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%B4%DB%8C%D8%A7%D8%AF-%D9%86%D9%88%D8%B4%D9%86%D8%AF%D9%87-%D8%A7%D8%AF%D8%B1%D8%A7%D8%B1-%D8%B4%D8%AA%D8%B1-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%DA%AF%DB%8C%D8%B1%DB%8C-%D9%81%DB%8C%D9%84%D9%85))<sup><a
+    Mortazavi Kohsal, known to be a disciple of Ayatollah Tabrizian ([Saeedian, Mar.
+    23, 2020](https://twitter.com/mahdiarsaeedian/status/1241289478301499392); Bahar
+    News, Mar. 23, 2020). As he claims to practice Islamic medicine, Kohsal visits
+    critically ill and quarantined coronavirus patients, while wearing no protective
+    clothes or gear, to rub a liquid he claimed to be “the perfume of the Prophet”
+    on the patients lips in the city of Anzali in Gilan. Two days later, one of the
+    young patients Kohsal rubbed the perfume died from the virus ([Bahar News, Mar.
+    23, 2020](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)).
+    \n\nMehdi Sabili, another follower of Tabrizian, similarly circulated a viral
+    video recommending camel urine as a coronavirus remedy. Authorities arrested himfor
+    creating “confusion and anxiety” for the public, and undermining the countries
+    “Islamic and medicinal values” in addition to running a Islamic Medicine clinic
+    in Tehran without a license  ([YJC, Apr. 22, 2020](https://www.yjc.ir/fa/news/7327494/%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D9%85%D8%B2%D8%A7%DB%8C%D8%A7%DB%8C-%D9%86%D9%88%D8%B4%DB%8C%D8%AF%D9%86-%D8%A7%D8%AF%D8%B1%D8%A7%D8%B1-%D8%B4%D8%AA%D8%B1-%D8%A8%D8%A7%D8%B2%D8%AF%D8%A7%D8%B4%D8%AA-%D8%B4%D8%AF)).
+    \n\n#### Protection for Religious Misinformers\n\nCriticisms against these actors
+    and their contribution to fatal dangers within the Iranian establishment are aplenty
+    ([Radio Farda, Dec. 29, 2020](https://en.radiofarda.com/a/successor-to-khamenei-died-because-he-trusted-islamic-medicine-son-reveals/30349899.html)).
+    However the phenomenon remains protected from official reproach through Tabrizian’s
+    entrenched networks amongst Iran’s clerical elite. While two of Tabrizian’s disciples
+    have been arrested after causing outrage in both internal Iranian and international
+    media, Tabrizian has been left untouched. His honorific title of “Ayatollah” has
+    never been questioned for removal by Iran’s Shiite seminaries ([YJC, Apr. 23,
+    2020](https://www.yjc.ir/fa/news/7328801/%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D8%B5%D8%AD%D8%A8%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%B4%DB%8C%D8%A7%D8%AF-%D9%86%D9%88%D8%B4%D9%86%D8%AF%D9%87-%D8%A7%D8%AF%D8%B1%D8%A7%D8%B1-%D8%B4%D8%AA%D8%B1-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%DA%AF%DB%8C%D8%B1%DB%8C-%D9%81%DB%8C%D9%84%D9%85))<sup><a
     id=\"fnref3\" href=\"#fn3\">[3]</a></sup>.  \n\nIn February 2020, three Iranian
     doctors who condemned Tabrizian’s medical advice were sentenced to flogging in
-    the city of Mashad ([Asr Iran, Feb. 9, 2020](https://www.asriran.com/fa/news/712989/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%86%D8%B8%D8%A7%D9%85-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C-%D9%85%D8%B4%D9%87%D8%AF-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D8%B1%D8%A7%DB%8C-%D9%85%D8%AD%DA%A9%D9%88%D9%85%DB%8C%D8%AA-3-%D9%BE%D8%B2%D8%B4%DA%A9-%D8%A8%D8%A7-%D8%B4%DA%A9%D8%A7%DB%8C%D8%AA-%D8%AA%D8%A8%D8%B1%DB%8C%D8%B2%DB%8C%D8%A7%D9%86)<sup><a
-    id=\"fnref4\" href=\"#fn4\">[4]</a></sup>). The doctors were later [acquitted](https://www.irna.ir/news/83761292/%D8%B3%D9%87-%D9%BE%D8%B2%D8%B4%DA%A9-%D9%85%D9%88%D8%B1%D8%AF-%D8%B4%DA%A9%D8%A7%DB%8C%D8%AA-%D8%B9%D8%A8%D8%A7%D8%B3-%D8%AA%D8%A8%D8%B1%DB%8C%D8%B2%DB%8C%D8%A7%D9%86-%D8%AA%D8%A8%D8%B1%D8%A6%D9%87-%D8%B4%D8%AF%D9%86%D8%AF).
-    A journalist running the Telegram channel for the semi-official Iranian Labour
-    News Agency (ILNA) was arrested on 23 April for posting a satirical cartoon of
-    Tabrizian and his suggested coronavirus remedies on the basis of insulting the
-    Supreme Leader Khamenei. The cartoon depicted Khamenei as a nurse asking for silence
-    as he allows for remedies to be applied to a coronavirus patient ([RFE/RL, Apr.
-    28, 2020](https://www.rferl.org/a/iran-arrests-editor-journalist-over-cartoon-mocking-khamenei/30581070.html)).
+    the city of Mashhad ([Asr Iran, Feb. 9, 2020](https://www.asriran.com/fa/news/712989/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%86%D8%B8%D8%A7%D9%85-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C-%D9%85%D8%B4%D9%87%D8%AF-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D8%B1%D8%A7%DB%8C-%D9%85%D8%AD%DA%A9%D9%88%D9%85%DB%8C%D8%AA-3-%D9%BE%D8%B2%D8%B4%DA%A9-%D8%A8%D8%A7-%D8%B4%DA%A9%D8%A7%DB%8C%D8%AA-%D8%AA%D8%A8%D8%B1%DB%8C%D8%B2%DB%8C%D8%A7%D9%86))<sup><a
+    id=\"fnref4\" href=\"#fn4\">[4]</a></sup>. While the doctors were later [acquitted](https://www.irna.ir/news/83761292/%D8%B3%D9%87-%D9%BE%D8%B2%D8%B4%DA%A9-%D9%85%D9%88%D8%B1%D8%AF-%D8%B4%DA%A9%D8%A7%DB%8C%D8%AA-%D8%B9%D8%A8%D8%A7%D8%B3-%D8%AA%D8%A8%D8%B1%DB%8C%D8%B2%DB%8C%D8%A7%D9%86-%D8%AA%D8%A8%D8%B1%D8%A6%D9%87-%D8%B4%D8%AF%D9%86%D8%AF),
+    these arrests highlight Tabrizian’s influence with authorities. Furthermore, a
+    journalist running the Telegram channel for the semi-official Iranian Labour News
+    Agency (ILNA) was arrested on 23 April for posting a satirical cartoon of Tabrizian
+    and his suggested coronavirus remedies on the basis of insulting the Supreme Leader
+    Khamenei. The cartoon depicted Khamenei as a nurse asking for silence as he allows
+    for remedies to be applied to a coronavirus patient ([RFE/RL, Apr. 28, 2020](https://www.rferl.org/a/iran-arrests-editor-journalist-over-cartoon-mocking-khamenei/30581070.html)).
     Popular platforms such as the Iranian alternative to YouTube, Aparat, that strictly
     adhere to Iran’s censorship regulations ([Center for Human Rights in Iran, Nov.
     29, 2017](https://www.iranhumanrights.org/2017/11/after-fiery-speech-iran-censors-ahmadinejad-related-online-searches/))
@@ -129,97 +154,102 @@ report:
     spreading in religious shrines, and resistance to closing down the religious shrines
     in the city of Qom, where the virus had its first outbreak in Iran, was a contributing
     factor to the spread of the disease ([Batrawy, Feb. 25, 2020](https://apnews.com/7b8f420db1a339116d66bc55c9085d7c)).
-    \n\nDespite many authorities condemning “religious misinformation”, it was still
-    a phenomenon that contributed to Iran’s _infodemic_. The combination of communications
-    platforms allowing for wider audiences for fanatical solutions have contributed
-    to the reach and impact of dangerous ideas and remedies. Politically, the spread
-    of the virus from a holy Shiite centre such as Qom has fueled the existing sectarian
-    tensions within the Gulf region and Lebanon. Scapegoating problems of coronavirus
-    to Shiite Islam has contributed to eroding civil rights against already persecuted
-    minority Shiite communities in Saudi Arabia and Bahrain (Matthiesen 2020). \n\nOne
-    of the most emblematic issues of public distrust in Iran comes around the consumption
-    of alcohol. To date, over 300 Iranians have died and another 1,000 were poisoned
-    by alcohol during the pandemic (Karimi and Gambrell 2020). Yet, contrary to what
-    local and foriegn media has determined, this is not a problem found in the “online
-    infodemic.” Alcohol related deaths have long been a problem in Iran. \n\nWhile
-    there have been no public posts or channels propagating alcohol as a solution
-    to our knowledge, a deficit of public trust often leads to word of mouth remedies.
-    Iranians have created a cognitive dissonance avoiding official messages that kept
-    failing them and replaced these messages by alternatives, which could lead to
-    death in some cases (see Festinger 1957).\n\nAs an Islamic theocracy, alcohol
-    is banned in the country but still widely consumed. Iranians have different ways
-    of acquiring alcohol. There are alcohol dealers that sell various imported alcoholic
-    drinks, typically at very high prices. An alternative, however, is making the
-    alcohol at home or purchasing alcohol distilled in illegal local workshops. These
-    two alternative options are often the source of poorly made distillations that
-    lead to methanol poisoning. In fact, alcohol related deaths due to these poisonous
-    distillations have long been a public health crisis in Iran, well before the introduction
-    of the coronavirus ([Hekmat et al 2012](http://ircmj.com/articles/15765.html)).
-    Alcohol poisoning has increased during the pandemic as more people have been looking
-    to occupy their time at home by drinking; falsely interpreting alcohol consumption
-    as a coronavirus disinfectant or remedy; and an increase in dealers selling poisonous
-    alcohol ([Hamshari Online, Mar. 14 2020](http://newspaper.hamshahrionline.ir/id/96869/36%D8%AC%D8%A7%D9%86-%D9%81%D8%AF%D8%A7%DB%8C-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%87.html)).
+    However, as the pandemic has carried on for a few months, some clerical figures,
+    especially in Qom, have come to be seen as community leaders in guiding public
+    health on good advice ([Bozorgmehr, Jun. 17, 2020](https://www.ft.com/content/8e9b50bb-ebf7-4702-9894-1f2081ae869a)).\n\nDespite
+    many authorities condemning “religious misinformation”, it was still a phenomenon
+    that contributed to Iran’s _infodemic_. The combination of communications platforms
+    allowing for wider audiences for fanatical solutions have contributed to the reach
+    and impact of dangerous ideas and remedies. Politically, the spread of the virus
+    from a holy Shiite centre such as Qom has fueled the existing sectarian tensions
+    within the Gulf region and Lebanon. Scapegoating problems of coronavirus to Shiite
+    Islam has contributed to eroding civil rights against already persecuted minority
+    Shiite communities in Saudi Arabia and Bahrain ([Matthiesen, Mar. 23, 2020](https://www.foreignaffairs.com/articles/middle-east/2020-03-23/coronavirus-exacerbating-sectarian-tensions-middle-east)).\n\n####
+    The Alcohol Epidemic Within the Pandemic: Not Part of the Online Infodemic\n\nTo
+    date, over 300 Iranians have died and another 1,000 were poisoned by alcohol during
+    the pandemic ([Karimi and Gambrell, Mar. 27, 2020](https://apnews.com/6e04783f95139b5f87a5febe28d72015?utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP)).
+    Contrary to some sources promoted by foriegn media, this was not a problem found
+    in the “online infodemic.<sup><a id=\"fnref5\" href=\"#fn5\">[5]</a></sup>” Alcohol
+    related deaths have long been a problem in Iran. Conditions of the lockdown have
+    just exacerbated it. \n\nAs an Islamic theocracy, alcohol is banned in the country
+    but still widely consumed. Iranians have different ways of acquiring alcohol.
+    There are alcohol dealers that sell various imported alcoholic drinks, typically
+    at very high prices. A cheaper alternative, however, is making the alcohol at
+    home or purchasing alcohol distilled in illegal local workshops. The latter options
+    are often the source of poorly made distillations that lead to methanol poisoning.
+    In fact, alcohol related deaths due to these poisonous distillations have long
+    been a public health crisis in Iran, well before the introduction of the coronavirus
+    ([Hekmat et al 2012](http://ircmj.com/articles/15765.html)). Alcohol poisoning
+    has increased during the pandemic as more people have been looking to occupy their
+    time at home by drinking; falsely interpreting alcohol consumption as a coronavirus
+    disinfectant or remedy; and an increase in dealers selling poisonous alcohol ([Hamshari](http://newspaper.hamshahrionline.ir/id/96869/36%D8%AC%D8%A7%D9%86-%D9%81%D8%AF%D8%A7%DB%8C-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%87.html)[
+    Online, Mar. 14 2020](http://newspaper.hamshahrionline.ir/id/96869/36%D8%AC%D8%A7%D9%86-%D9%81%D8%AF%D8%A7%DB%8C-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%87.html)).
     This, combined with Iran’s existing issues of trust and access to information
     factors surrounding the virus in Iran have intensified into a record amount of
-    deaths.\n\n### Politics: A Blame Game\n\nPolitical leaders in Iran have spread
-    conspiracy theories that accuse other countries of spreading the virus. High ranking
-    officials of the Iranian Revolutionary Guards Corps (IRGC), as well as the Supreme
-    Leader Ayatollah Khamenei have spread the conspiracy theory that coronavirus is
-    part of an American led bio attack against Iran within the country’s officialdom
-    (RFE/RL 2020; Haghdoost and Motevalli 2020). \n\nWhile some unofficial religious
-    leaders promoted remedies, Iranian officials promoted fake virus testing technologies,
-    making a mockery of the states efforts to combat the deadly virus. In what seemed
-    like a show, the IRGC unveiled what was advertised as a “coronavirus remote detector”
-    that could locate people infected within a 100 meters range. News about the unveiling
-    ceremony on the 15th of April was published throughout Iran’s press and spread
-    throughout international media. Links about this poorly-designed public diplomacy/propaganda
-    attempt have circulated on Twitter for its “scientific capacity” (see Figure 2).
-    \n\n![A screenshot of a Tweet by Press TV supporting the IRGC’s coronavirus detector](//images.ctfassets.net/g118h5yoccvd/71abbYBDpUWuJ1x90GdpIv/b147bd105274cb11c5657b5834372ed7/meedan_covid-19-report_iran_Press-TV-screenshot.jpg)\n<p
+    deaths.\n\n### The Role of Geopolitics in Misinformation\n\n#### Conspiracy Theories\n\nPolitical
+    leaders in Iran have spread conspiracy theories that accuse other countries of
+    spreading the virus. High ranking officials of the Iranian Revolutionary Guards
+    Corps (IRGC), as well as the Supreme Leader Ayatollah Khamenei have spread the
+    conspiracy theory that coronavirus is part of an American led bio attack against
+    Iran within the country’s officialdom ([Haghdoost and Motevalli, Mar. 12, ](https://www.bloomberg.com/news/articles/2020-03-12/iran-s-khamenei-says-virus-outbreak-may-be-biological-attack)[2020](https://www.bloomberg.com/news/articles/2020-03-12/iran-s-khamenei-says-virus-outbreak-may-be-biological-attack)).
+    \n\nWhile some unofficial religious leaders promoted remedies, Iranian officials
+    promoted fake virus testing technologies, making a mockery of the states efforts
+    to combat the deadly virus. In what seemed like a show, the IRGC unveiled what
+    was advertised as a “coronavirus remote detector” that could locate people infected
+    within a 100 meters range. News about the unveiling ceremony on the 15th of April
+    was published throughout Iran’s press and spread throughout international media.
+    Links about this poorly-designed public diplomacy/propaganda attempt have circulated
+    on Twitter for its “scientific capacity” (see Figure2). \n\n![A screenshot of
+    a Tweet by Press TV supporting the IRGC’s coronavirus detector](//images.ctfassets.net/g118h5yoccvd/5VD3rzJUGbxpP72Up64Fv5/2cec71690024ee3dbb28b53afeeb38a6/meedan_covid-19-report_iran_Press-TV-screenshot-2.png)\n<p
     class=\"caption\">Figure 2: A screenshot of a Tweet by Press TV supporting the
     IRGC’s coronavirus detector. The screenshot was taken by the authors on the 25th
-    of April 2020. <a href=\"https://twitter.com/PressTV/status/1250895835023499264\">Source
-    link</a>.</p>\n\nOne argument about international coverage of the coronavirus
-    in Iran however, is that Iran’s place as a “bad actor” or “pariah” state within
-    the world, especially as a force countering U.S hegemony in the Middle East, has
-    led to unbalanced reporting on the situation of the virus in Iran. As one of the
-    first countries hit by the virus, analysis of Iran’s inadequate response was perceived
-    as a shocking and singular demonstration of Iran’s incompetence. However, as the
-    virus became a pandemic overtaking almost every country in the world, it became
-    evident incompetence and inadequacy were not singular to Iran and were in fact
-    a feature of even many advanced democracies.\n\nNonetheless, manipulation campaigns
-    have been tied to Iran. The “International Union of Virtual Media” (IUVM) has
-    been uncovered as an influence campaign tied to Iran by researchers at Graphika,
-    FireEye, and Facebook (Graphika[, 2020](https://graphika.com/reports/irans-iuvm-turns-to-coronavirus/)).
-    Following a headlining whistleblower report released by BBC Persian on 28 February,
-    indicating the number of deaths in Iran far exceeded the government reports ([BBC,
-    Feb. 28, 2020](https://www.bbc.com/news/world-middle-east-51673053)), IUVM TV
-    ran a smear campaign calling BBC Persian reporting a British conspiracy to undermine
-    Iranian authorities (see figure 3). \n\n![meedan covid-19-report iran IUVM-website-screenshot](//images.ctfassets.net/g118h5yoccvd/20isFvyYMCrJX7FeoVOvB7/3aabc74f765b05ee5ca6574f4bf4bf66/meedan_covid-19-report_iran_IUVM-website-screenshot.jpg)\n\n<p
+    of April 2020.</p>\n\n#### Information Controls\n\nOne argument about international
+    coverage of the coronavirus in Iran however, is that Iran’s place as a “bad actor”
+    or “pariah” state within the world, especially as a force countering U.S hegemony
+    in the Middle East, has led to unbalanced reporting on the situation of the virus
+    in Iran. As one of the first countries hit by the virus, analysis of Iran’s inadequate
+    response was perceived as a shocking and singular demonstration of Iran’s incompetence.
+    However, as the virus became a pandemic overtaking almost every country in the
+    world, it became evident incompetence and inadequacy were not singular to Iran.
+    Many advanced democracies struggled just as Iran did. This imbalance in foreign
+    media coverage further exasperated confusions in what trusted sources could be.
+    Authorities made an extra effort to tarnish the work of foreign media coverage
+    of the virus in Iran as malicious.  In May. President Rouhani announced foreign
+    media purposely manipulated news of the virus to “close down our country” ([IRNA
+    News, May. 16, 2020](https://www.irna.ir/news/83789038/%D8%B1%D8%B3%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%DA%AF%D8%A7%D9%86%D9%87-%D8%A8%D9%87-%D8%A8%D9%87%D8%A7%D9%86%D9%87-%DA%A9%D8%B1%D9%88%D9%86%D8%A7-%D8%A8%D9%87-%D8%AF%D9%86%D8%A8%D8%A7%D9%84-%D8%AA%D8%B9%D8%B7%DB%8C%D9%84-%DA%A9%D8%B1%D8%AF%D9%86-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%88%D8%AF%D9%86%D8%AF)).
+    \n\nNevertheless, manipulation campaigns have been tied to Iran. The “International
+    Union of Virtual Media” (IUVM) has been uncovered as an influence campaign tied
+    to Iran by researchers at Graphika, FireEye, and Facebook ([Graphika, Apr. 14,
+    2020](https://graphika.com/reports/irans-iuvm-turns-to-coronavirus/)). On 28 February
+    BBC Persian published a whistleblower report that proved the number of deaths
+    in Iran far exceeded the government reports ([BBC, Feb. 28, 2020](https://www.bbc.com/news/world-middle-east-51673053)).
+    Shortly afterwards IUVM TV ran a smear campaign calling BBC Persian reporting
+    a British conspiracy to undermine Iranian authorities (see figure 3). \n\n![A
+    screenshot of a video posted on the IUVM website](//images.ctfassets.net/g118h5yoccvd/3Q5RbuIpEK8pYbrfSL7Ixg/26473d2207f13e9fff9ca5abbfef4e45/meedan_covid-19-report_iran_IUVM-website-screenshot_2.png)\n<p
     class=\"caption\">Figure 3: A screenshot of a video posted on the IUVM website,
     indicating BBC Persian’s reporting on Iran’s coronavirus cases and responses are
     part of a British conspiracy against Iran. The screenshot was taken by the authors
-    on the 25th of April 2020. <a href=\"https://iuvmtv.com/bbc-coronian-media-against-iran/\">Source
-    link</a>.</p>\n\nGeopolitical warfare over controlling the coronavirus narrative
-    continues alongside the censorship of major social media platforms, including
-    \ Twitter, Facebook, YouTube, Telegram and major international media outlets such
-    as BBC Persian. This has helped place hurdles on access to trusted information,
-    especially pertinent during the start of the spread of the virus. \n\nPrior to
-    the country’s parliamentary elections information sources about the virus were
-    scarce if not only on censored platforms. However, the government denied the arrival
-    of the virus as “disinformation” being spread through social media ([BBC Persian,
-    Feb. 16 2020](https://www.bbc.com/persian/iran-51521216)). \n\nFear of contradicting
-    the government has also stopped many Iranians from sharing information online.
-    There have been a number of arrests of medical workers exposing the true extent
-    of the medical catastrophe ([ARTICLE19](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/)
-    2020). Some criticism of the government’s public health responses led to high
-    profile arrests, such as Shiraz City Councillor Mehdi Hajati, who on his Twitter
-    account criticized authorities that did not quarantine Qom as the enemy of the
-    people (Hajati 2020). \n\nIn many addresses to the nation President Rouhani has
-    warned of a coronavirus _infodemic_ ([Tasnim, Mar. 14, 2020](https://www.tasnimnews.com/fa/news/1398/12/24/2222979/%D8%B1%D9%88%D8%AD%D8%A7%D9%86%DB%8C-%D8%B1%D8%B3%D8%A7%D9%86%D9%87-%D9%87%D8%A7-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%86%D8%AF%D9%87%D9%86%D8%AF-%D8%AF%D8%B1-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%DA%A9%D8%B1%D9%88%D9%86%D8%A7-%D8%A8%D9%87-%D8%B3%D9%85%D8%AA-%D8%AF%D9%88%D9%82%D8%B7%D8%A8%DB%8C-%D8%A8%D8%B1%D9%88%DB%8C%D9%85-%D8%A8%D9%87-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D8%A2%D8%B1%D8%A7%D9%85%D8%B4-%D8%AF%D9%87%DB%8C%D9%85)).
-    The consequences authorities have distributed, except in the two high profile
-    cases of the fringereligious actors , have mostly been arrests and crackdowns
-    related to criticisms against the response of the varying institutions of the
-    Islamic Republic.\n\n### Counter-Measures\n\nWhile misinformation is circulated,
+    on the 25th of April 2020.</p> \n\nGeopolitical warfare over controlling the coronavirus
+    narrative continues alongside the censorship of major social media platforms,
+    including  Twitter, Facebook, YouTube, Telegram and major international media
+    outlets such as BBC Persian. This has helped place hurdles on access to trusted
+    information, especially pertinent during the start of the spread of the virus.
+    \n\nPrior to the country’s parliamentary elections information sources about the
+    virus were scarce if not only on censored platforms. However, the government denied
+    the arrival of the virus as “disinformation” being spread through social media
+    ([BBC Persian, Feb. 16 2020](https://www.bbc.com/persian/iran-51521216)). \n\nFear
+    of contradicting the government has also stopped many Iranians from sharing information
+    online. There have been a number of arrests of medical workers exposing the true
+    extent of the medical catastrophe ([ARTICLE19](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/),
+    Mar. 27,[ 2020](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/)).
+    Some criticism of the government’s public health responses led to high profile
+    arrests, such as Shiraz City Councillor Mehdi Hajati, who on his [Twitter account](https://twitter.com/mehdihajati/status/1237649682953715712)
+    criticized authorities that did not quarantine Qom as the enemy of the people.\n\nIn
+    many addresses to the nation President Rouhani has warned of a coronavirus _infodemic_
+    ([Tasnim, Mar. 14, 2020](https://www.tasnimnews.com/fa/news/1398/12/24/2222979/%D8%B1%D9%88%D8%AD%D8%A7%D9%86%DB%8C-%D8%B1%D8%B3%D8%A7%D9%86%D9%87-%D9%87%D8%A7-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%86%D8%AF%D9%87%D9%86%D8%AF-%D8%AF%D8%B1-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%DA%A9%D8%B1%D9%88%D9%86%D8%A7-%D8%A8%D9%87-%D8%B3%D9%85%D8%AA-%D8%AF%D9%88%D9%82%D8%B7%D8%A8%DB%8C-%D8%A8%D8%B1%D9%88%DB%8C%D9%85-%D8%A8%D9%87-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D8%A2%D8%B1%D8%A7%D9%85%D8%B4-%D8%AF%D9%87%DB%8C%D9%85)).
+    While figures such as Tabrizian have been exempt, authorities have been known
+    to crack down on those criticizing the states as opposed to actors producing dangerous
+    misinformation.\n\n### Counter-Measures\n\nWhile misinformation is circulated,
     counter-measures were barely implemented in the MENA region. Old coercive methods
     have been imposed, like arrests. MENA governments have launched more “threats”
     to those who spread rumours – or anything that contradicts the official news –
@@ -228,66 +258,67 @@ report:
     behind bars in this region. There have been a number of arrests in Iran due to
     spreading “misinformation” on social media. To enforce that, the Iranian government
     created a task force to combat “misinformation” and “the spread of fear” leading
-    to at least 24 arrests ([ARTICLE19](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/),
-    2020). While official measures did not help counter the spread of misinformation,
-    measures implemented by social media platforms did not seem to help either. \n\nSocial
-    media use in Western contexts are mainly dominated by platforms owned by Google,
-    Facebook and Twitter. Although they operate imperfectly, there have been channels
-    for criticism and accountability for the policies and decisions these companies
-    take for fighting misinformation by civil society and governments. Within the
-    Iranian context, the platforms used are more complex. According to a 2019 poll
-    done by the Islamic Student Polling Agency, the top three most used social media
-    applications (not including streaming platforms) are WhatsApp, Telegram and Instagram
-    (in that order of popularity) ([ISPA 2019](http://ispa.ir/Default/Details/fa/2095)).
-    [Iran’s Alexa ranking](https://www.alexa.com/topsites/countries/IR) for websites
-    also lists the local video streaming platform Aparat as the second most visited
-    website in Iran (Alexa 2020). \n\nWhat is emblematic of Iran’s information spaces
-    are the lack of oversight that can be afforded to flag or remove false information.
-    Viral news stories or videos forwarded in private chats or WhatsApp groups have
-    become an emblem of COVID19’s Iranian infodemic. As researchers, this phenomenon
-    is hard to track and trace across WhatsApp beyond interviews done with Iranians.
-    In terms of oversight of the virality of false information on the platform, WhatsApp
-    has struggled to find solutions. These struggles are naturally inherent in the
-    nature of the platform as a private and encrypted messaging<sup><a id=\"fnref5\"
-    href=\"#fn5\">[5]</a></sup>.  \n\nAs the second most popular social media platform
-    in Iran, Telegram’s major role lies in its public channels, which have been a
-    platform for false information during the coronavirus pandemic. Content moderation
-    policies on Telegram are notoriously more lax and subject to fewer accountability
-    oversight mechanisms. This might be a product of how niche its social media function
-    is within only certain communities or countries. However, as the “infodemic” within
-    the coronavirus pandemic has become a global issue of universal relevance in almost
-    every community and country, Telegram introduced a system to verify its channels
-    in April in order to fight against dangerous coronavirus mis/disinformation<sup><a
-    id=\"fnref6\" href=\"#fn6\">[6]</a></sup>. \n\nThroughout the coronavirus pandemic,
-    problematic channels such as that of [Ayatollah Tabrizian’](https://t.me/DaftareAyatollahTabrizian)s,
-    propagating his false remedies according to the dictates of his own school of
-    “Islamic Medicine” have circulated unchecked. However, many channels affiliated
-    with authorities did publish legitimate information that might have been ignored
-    due to the crisis of legitimacy that exists between citizens and authorities.\n\nIn
-    an official attempt to raise awareness, the Iranian government raised concerns
-    about coronavirus misinformation as an issue mainly from “enemies.” Before official
-    orders were given to lockdown public spaces, businesses, and restaurants in Iran,
-    President Rouhani indicated “it is the conspiracy of our enemies to create fear
-    to shut down our country” ([BBC Persian, Feb. 25, 2020](https://www.bbc.com/persian/iran-51630282)).
+    to at least 24 arrests ([ARTICLE19, Mar. 27. 2020](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/)).
+    While official measures did not help counter the spread of misinformation, measures
+    implemented by social media platforms did not seem to help either. \n\n#### Social
+    Media Platforms and Misinformation\n\nSocial media use in Western contexts are
+    mainly dominated by platforms owned by Google, Facebook and Twitter. Although
+    they operate imperfectly, there have been channels for criticism and accountability
+    for the policies and decisions these companies take for fighting misinformation
+    by civil society and governments. Within the Iranian context, the platforms used
+    are more complex. According to a 2019 poll done by the Islamic Student Polling
+    Agency, the top three most used social media applications (not including streaming
+    platforms) are WhatsApp, Telegram and Instagram (in that order of popularity)
+    ([ISPA, Apr. 30, 2019](http://ispa.ir/Default/Details/fa/2095)). [Iran’s Alexa
+    ranking](https://www.alexa.com/topsites/countries/IR) for websites also lists
+    the local video streaming platform Aparat as the second most visited website in
+    Iran . \n\nWhat is emblematic of Iran’s information spaces are the lack of oversight
+    that can be afforded to flag or remove false information. Viral news stories or
+    videos forwarded in private chats or WhatsApp groups have become an emblem of
+    COVID19’s Iranian infodemic. As researchers, this phenomenon is hard to track
+    and trace across WhatsApp beyond interviews done with Iranians. In terms of oversight
+    of the virality of false information on the platform, WhatsApp has struggled to
+    find solutions. These struggles are naturally inherent in the nature of the platform
+    as a private and encrypted messaging<sup><a id=\"fnref6\" href=\"#fn6\">[6]</a></sup>.
+    \ \n\nAs the second most popular social media platform in Iran, Telegram’s major
+    role lies in its public channels, which have been a platform for false information
+    during the coronavirus pandemic. Content moderation policies on Telegram are notoriously
+    more lax and subject to fewer accountability oversight mechanisms. This might
+    be a product of how niche its social media function is within only certain communities
+    or countries. However, as the “infodemic” within the coronavirus pandemic has
+    become a global issue of universal relevance in almost every community and country,
+    Telegram introduced a system to verify its channels in April in order to fight
+    against dangerous coronavirus mis/disinformation<sup><a id=\"fnref7\" href=\"#fn7\">[7]</a></sup>.\n\n####
+    Misinformation Mitigation in Iran\n\nThroughout the coronavirus pandemic, problematic
+    channels such as that of [Ayatollah ](https://t.me/DaftareAyatollahTabrizian)[Tabrizian’](https://t.me/DaftareAyatollahTabrizian)s,
+    propagating false remedies according to the dictates of his own school of “Islamic
+    Medicine” have circulated unchecked. However, many channels affiliated with authorities
+    did publish legitimate information that might have been ignored due to the crisis
+    of legitimacy that exists between citizens and authorities.\n\nIn an official
+    attempt to raise awareness, the Iranian government raised concerns about coronavirus
+    misinformation as an issue mainly from “enemies.” Before official orders were
+    given to lockdown public spaces, businesses, and restaurants in Iran, President
+    Rouhani indicated “it is the conspiracy of our enemies to create fear to shut
+    down our country” ([BBC Persian, Feb. 25, 2020](https://www.bbc.com/persian/iran-51630282)).
     Instead of promoting media literacy in the country, the government flagged these
     warnings to further cement the theory of “western influence” in creating or worsening
     the situation or to deflect from government criticism. While official efforts
     were lacking to counter the spread of misleading information in Iran, independent
-    fact-checking efforts were also lacking. \n\nThe MENA region, in general, lacks
-    fact-checking efforts. Only a few local fact checkers work on countering Arabic
-    and Persian misinformation in relation to coronavirus at the time of writing.
-    AFP Factual and Fatabyyano are among those few entities that run coronavirus fact
-    checking efforts, and act as the official Facebook third-party fact checkers in
-    the region (See more on [Google Fact Check Tools](https://toolbox.google.com/factcheck/explorer/search/coronavirus;hl=)
+    fact-checking efforts were also lacking.\n\n#### Independent Fact-Checking\n\nThe
+    MENA region, in general, lacks fact-checking efforts. Only a few local fact checkers
+    work on countering Arabic and Persian misinformation in relation to coronavirus
+    at the time of writing. AFP Factual and Fatabyyano are among those few entities
+    that run coronavirus fact checking efforts, and act as the official Facebook third-party
+    fact checkers in the region (See more on [Google Fact Check Tools](https://toolbox.google.com/factcheck/explorer/search/coronavirus;hl=)
     and [IFCN](https://ifcncodeofprinciples.poynter.org/signatories)). Others, in
     a less formal way, run fact-checking efforts like Verify-Syria, Factnameh, Matsda2sh,
     and Misbar – all are currently focusing on coronavirus fact-checking. [BBC Monitoring](https://www.bbc.co.uk/news/world-middle-east-51677530)
     has done some work to dispel misinformation on Persian social media, however their
-    analyses are only in the English language (Sardarizadeh 2020). \n\nWhile this
-    region lacks fact-checking efforts, social media platforms have also never prioritized
-    collaborating with third-party fact checkers in the region. To this date, Facebook,
-    for example, has only two partners that cover the entire MENA region ([Elswah
-    & Howard, 2020](https://comprop.oii.ox.ac.uk/research/tunisia-election-memo/)).
+    analyses are only in the English language ([Sardarizadeh, Feb. 29, 2020](https://www.bbc.com/news/world-middle-east-51677530)).
+    \n\nHowever, this region lacks fact-checking efforts, social media platforms have
+    also never prioritized collaborating with third-party fact checkers in the region.To
+    this date, Facebook, for example, has only two partners that cover the entire
+    MENA region ([Elswah & Howard, Mar. 29, 2020](https://comprop.oii.ox.ac.uk/research/tunisia-election-memo/)).
     While social media platforms have spent resources in directing their users to
     accurate coronavirus-information in the MENA region, a lot still needs to be done,
     including developing their algorithms, content moderation, and fact-checking.\n\n###
@@ -327,27 +358,27 @@ report:
   - sys:
       id: 7DM0hR46JaInBD5GPlI09s
       created_at: !ruby/object:DateTime 2020-06-16 20:14:55.387000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 20:15:03.666000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:18.791000000 Z
       content_type_id: footnote
-      revision: 0
+      revision: 1
     body: The Revolutionary Guards are a separate military force from Iran’s national
       military, tasked with protecting the Islamic Revolution.
   - sys:
       id: 5tGdS2Q5xC833V0yJL1ERD
       created_at: !ruby/object:DateTime 2020-06-16 20:15:05.313000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 20:15:10.723000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:15.486000000 Z
       content_type_id: footnote
-      revision: 0
+      revision: 1
     body: 'In the Quran, spreading unverified information is prohibited: “O ye who
       believe! If a wicked person comes to you with any news, ascertain the truth,
       lest ye harm people unwittingly, and afterwards become full of repentance for
-      what ye have done” (Quran: 49: 6).'
+      what ye have done” (Quran: 49: 6)'
   - sys:
       id: 2PCziqAyq1Ak8fZqmq1stC
       created_at: !ruby/object:DateTime 2020-06-16 20:15:17.563000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 20:15:20.061000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:12.351000000 Z
       content_type_id: footnote
-      revision: 0
+      revision: 1
     body: Ayatollah is an honorific title for high ranking Shiite clerics. Iran’s
       clerical government and Shiite seminaries have previously stripped clerics with
       the title of “Ayatollah” for political reasons that criticized the Islamic Republic’s
@@ -355,152 +386,154 @@ report:
   - sys:
       id: 70uKOnW0zp81xTFuxYMhNX
       created_at: !ruby/object:DateTime 2020-06-16 20:15:21.329000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 20:15:25.899000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:09.342000000 Z
       content_type_id: footnote
-      revision: 0
+      revision: 1
     body: A judge later acquitted all three of the charges on 22 April.
+  - sys:
+      id: 4GshZlIOUWlXwOwB9PYblK
+      created_at: !ruby/object:DateTime 2020-06-23 18:21:10.055000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:06.528000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: '[UK tabloids](https://www.dailypost.co.uk/news/north-wales-news/tragic-link-between-north-wales-18019185)
+      falsely claim the story of the British man’s use of Whisky while he had coronavirus
+      became viral misinformation in Iran leading to alcohol poisoning. After our
+      own search of Persian social media, there is no little evidence this was a widely
+      shared or impactful piece of news in Persian social media. Other news sources
+      such as the [Independent](https://www.independent.co.uk/news/world/middle-east/iran-coronavirus-methanol-drink-cure-deaths-fake-a9429956.html)
+      and the [Associated Press](https://www.theglobeandmail.com/world/article-hundreds-killed-in-iran-over-false-belief-that-drinking-methanol-can/)
+      have also promoted the false theory that the increase in alcohol deaths is because
+      of “fake remedies spread across social media in Iran".'
   - sys:
       id: 3NNZuWTtlUAEEPtkH16KMk
       created_at: !ruby/object:DateTime 2020-06-16 20:15:27.038000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 20:15:31.909000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:02.402000000 Z
       content_type_id: footnote
-      revision: 0
+      revision: 1
     body: On April 7 2020 WhatsApp announced it was [restricting the number of people
       users could forwarded messages](https://slate.com/technology/2020/04/whatsapp-message-forwarding-disinformation-coronavirus.html)
       to in order to slow the spread of coronavirus misinformation.
   - sys:
       id: 5e6lOwlcHvBAAE2MLuIeSL
       created_at: !ruby/object:DateTime 2020-06-16 20:15:33.062000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 20:15:38.719000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:04:59.087000000 Z
       content_type_id: footnote
-      revision: 0
+      revision: 1
     body: 'On April 3, 2020 Telegram introduced its [channel verification procedures](https://telegram.org/blog/coronavirus). '
-  references: "- Alexa. 2020. “Top Sites in Iran”. Accessed April 30, 2020. [https://www.alexa.com/topsites/countries/IR](https://www.alexa.com/topsites/countries/IR)\n-
-    ARTICLE19. 2020. “Iran: Coronavirus Crisis Highlights Need for the Free Flow of
-    Information.” ARTICLE 19. March 27, 2020.[ ](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/)[https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/).\n-
-    ———. 2019. “Middle East and Northern Africa: Regional Overview.” ARTICLE 19. Accessed
-    March 29, 2020.[ ](https://www.article19.org/reader/global-expression-report-2018-19/regional-overviews/middle-east-and-northern-africa-regional-overview/)[https://www.article19.org/reader/global-expression-report-2018-19/regional-overviews/middle-east-and-northern-africa-regional-overview/](https://www.article19.org/reader/global-expression-report-2018-19/regional-overviews/middle-east-and-northern-africa-regional-overview/).\n-
-    Asr Iran. 2020. ‘The Announcement of Mashad’s Medical Society on the Conviction
-    of 3 Doctor’s for Insult to Tabrizian’. عصر ايران. World. 9 February 2020. https://www.asriran.com/fa/news/712989.\n-
-    Bahar News. 2020. “The Death of a Young Citizen of Anzali After a Visit from Kohsal!”
-    پایگاه خبری بهار نیوز. March 23, 2020.[ ](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[http](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[://](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[www](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[.](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[baharnews](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[.](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[ir](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[/](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[news](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[/206368/](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[درگذشت](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[-](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[جوان](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[-](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[اهل](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[-](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[انزلی](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[-](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[دیدار](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[-](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)[كهنسال](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84).\n-
-    BBC News. 2013. “Sunnis and Shia in the Middle East.” Accessed March 29, 2020.[
-    ](https://www.bbc.co.uk/news/world-middle-east-25434060)[https://www.bbc.co.uk/news/world-middle-east-25434060](https://www.bbc.co.uk/news/world-middle-east-25434060).\n-
-    BBC. 2020. ‘Coronavirus Kills 210 in Iran - Hospital Sources’. BBC News, 28 February
-    2020, sec. Middle East. https://www.bbc.com/news/world-middle-east-51673053.\n-
-    BBC Persian. 2020. ‘Rouhani: The Conpsiracy of Enemies to Create Coronavirus Fear
-    in Order to Shut the Country Down’. 24 February 2020. https://www.bbc.com/persian/iran-51630282.\n-
-    ———. n.d. ‘Iran’s Ministry of Health Denied Sending Letters of Warning About Coronavirus’.
-    16/02/2020. Accessed 3 May 2020. https://www.bbc.com/persian/iran-51521216.\n-
-    Behravesh, Maysam. 2020. ‘“Funeral for Public Trust”: New Crisis in Iran after
-    Plane Crash | News | Al Jazeera’. 14 January 2020. https://www.aljazeera.com/news/2020/01/iran-plane-shoot-protest-crisis-competency-legitimacy-200113151404256.html.\n-
-    Borger, Julian. 2020. ‘US Ignores Calls to Suspend Venezuela and Iran Sanctions
-    amid Coronavirus Pandemic’. The Guardian, 31 March 2020, sec. World news. [https://www.theguardian.com/world/2020/mar/31/us-ignores-global-appeals-suspend-sanctions-coronavirus-pandemic-iran-venezuela](https://www.theguardian.com/world/2020/mar/31/us-ignores-global-appeals-suspend-sanctions-coronavirus-pandemic-iran-venezuela).\n-
-    Centre for Human Rights in Iran. 2017. ‘After Fiery Speech, Iran Censors Ahmadinejad-Related
-    Online Searches’. 29 November 2017. http://www.iranhumanrights.org/2017/11/after-fiery-speech-iran-censors-ahmadinejad-related-online-searches/.\n-
-    Elswah, Mona, and Philip N. Howard. 2020. “The Challenges of Monitoring Social
-    Media in the Arab World: The Case of the 2019 Tunisian Elections.” _The Computational
-    Propaganda Project_. Accessed March 29, 2020.[ ](https://comprop.oii.ox.ac.uk/research/tunisia-election-memo/)[https://comprop.oii.ox.ac.uk/research/tunisia-election-memo/](https://comprop.oii.ox.ac.uk/research/tunisia-election-memo/).\n-
-    Faghihi, Rohollah. 2020. “A Cleric’s Cure for Coronavirus Becomes Butt of Jokes
-    in Iran.” Al-Monitor. March 10, 2020.[ ](https://www.al-monitor.com/pulse/originals/2020/03/bizarre-cures-for-coronavirus-in-iran.html)[https://www.al-monitor.com/pulse/originals/2020/03/bizarre-cures-for-coronavirus-in-iran.html](https://www.al-monitor.com/pulse/originals/2020/03/bizarre-cures-for-coronavirus-in-iran.html).\n-
-    Faramarzi, Scheherazade. 2020. “Iranian officials troll the US handling of the
-    coronavirus to hide their own failings” Accessed April 30, 2020. [https://atlanticcouncil.org/blogs/iransource/iranian-officials-troll-the-us-handling-of-the-coronavirus-to-hide-their-own-failings/](https://atlanticcouncil.org/blogs/iransource/iranian-officials-troll-the-us-handling-of-the-coronavirus-to-hide-their-own-failings/)
-    \n- Festinger, Leon. 1957. _“A theory of cognitive dissonance.”_ California: Stanford
-    University Press.\n- Freedom House. 2019.“Freedom on the Net.” Freedom House.
-    Accessed March 29, 2020.[ ](https://freedomhouse.org/report/freedom-net)[https://freedomhouse.org/report/freedom-net](https://freedomhouse.org/report/freedom-net).\n-
-    Graphika. 2020. ‘Iran’s IUVM Turns To Coronavirus’. 14 April 2020. https://graphika.com/reports/irans-iuvm-turns-to-coronavirus/.\n-
-    Haghdoost, Yasna, and Golnar Motevalli. 2020. “Iran’s Khamenei Says Virus Outbreak
-    May Be ‘Biological Attack.’” _Bloomberg News_, March 12, 2020.[ ](https://www.bloomberg.com/news/articles/2020-03-12/iran-s-khamenei-says-virus-outbreak-may-be-biological-attack)[https://www.bloomberg.com/news/articles/2020-03-12/iran-s-khamenei-says-virus-outbreak-may-be-biological-attack](https://www.bloomberg.com/news/articles/2020-03-12/iran-s-khamenei-says-virus-outbreak-may-be-biological-attack).\n-
-    Hajati, Mehdi. 2020. “Don’t Cry out against the Enemy When You’re the Enemy of
-    the People of Iran for Not Quarantining Qom.” Twitter. March 11, 2020.[ ](https://twitter.com/mehdihajati/status/1237649682953715712)[https://twitter.com/mehdihajati/status/1237649682953715712](https://twitter.com/mehdihajati/status/1237649682953715712).\n-
-    Hamshahri Online. 2020. ‘Victims of Alcohol Poisoning Outnumber Coronavirus in
-    Khuzestan’. 14 March 2020. http://newspaper.hamshahrionline.ir/.\n- Hekmat, Reza,
-    Fariboorz Samini, Bita Dadpour, Faezeh Maghsudloo, and Mohammad Javad Mojahedi.
-    2012. ‘Should Guidelines for Conventional Hemodialysis Initiation in Acute Methanol
-    Poisoning, Be Revised, When No Fomepizloe Is Used?’ Iranian Red Crescent Medical
-    Journal. Kowsar. 15 November 2012. https://doi.org/10.5812/ircmj.3467.\n- Human
-    Rights Watch. 2019. ‘Iran: Sanctions Threatening Health’. 29 October 2019. https://www.hrw.org/news/2019/10/29/iran-sanctions-threatening-health.\n-
-    Islamic Azad University News Agency. 2020. “Which institution didn’t give permission
-    to quarantine Qom?” March 11, 2020.[ ](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[/](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[fa](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[/](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[news](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[/15/477237/](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[چه](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[-](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[دستگاهی](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[-](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[اجازه](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[-](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[قرنطینه](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[-](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[شهر](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[-](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[قم](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[-](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[را](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[-](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)[نداد](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF).\n-
-    ISNA. 2020. “An Announcement of Disgust Against the Burning of Harrison’s Medical
-    Science Book.” January 25, 2020.[ ](https://www.isna.ir/news/98110503072/%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%A7%D9%86%D8%B2%D8%AC%D8%A7%D8%B1-%D9%85%D8%AF%DB%8C%D8%B1-%D8%AD%D9%88%D8%B2%D9%87-%D8%A7%D8%B2-%D8%A2%D8%AA%D8%B4-%D8%B2%D8%AF%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B9%D9%84%D9%85%DB%8C-%D8%B7%D8%A8-%D9%87%D8%A7%D8%B1%DB%8C%D8%B3%D9%88%D9%86)[https://bit.ly/3asZByZ](https://bit.ly/3asZByZ).\n-
-    ISPA. 2018. “Migration from Telegram to WhatsApp”. Accessed April 30, 2020. [http://ispa.ir/Default/Details/fa/2095](http://ispa.ir/Default/Details/fa/2095)\n-
-    Karimi, Nasser, and Jon Gambrell. 2020. “In Iran, False Belief a Poison Fights
-    Virus Kills Hundreds.” Associated Press. March 27, 2020.[ ](https://apnews.com/6e04783f95139b5f87a5febe28d72015?utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP)[https://apnews.com/6e04783f95139b5f87a5febe28d72015?utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP](https://apnews.com/6e04783f95139b5f87a5febe28d72015?utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP).\n-
-    Matthiesen, Toby. 2020. “The Coronavirus Is Exacerbating Sectarian Tensions in
-    the Middle East,” March 23, 2020.[ ](https://www.foreignaffairs.com/articles/middle-east/2020-03-23/coronavirus-exacerbating-sectarian-tensions-middle-east)[https://www.foreignaffairs.com/articles/middle-east/2020-03-23/coronavirus-exacerbating-sectarian-tensions-middle-east](https://www.foreignaffairs.com/articles/middle-east/2020-03-23/coronavirus-exacerbating-sectarian-tensions-middle-east).\n-
-    Motevalli, Golnar. 2020. ‘Medical Charity MSF Says Iran Coronavirus Aid Is “On
-    Hold” - Bloomberg’. 24 March 2020. https://www.bloomberg.com/news/articles/2020-03-24/french-charity-msf-says-iran-coronavirus-aid-is-on-hold.\n-
-    MSF. 2020. ‘Iranian Authorities Revoke Approval for MSF Coronavirus Treatment
-    Center | Doctors Without Borders - USA’. 24 March 2020. [https://www.doctorswithoutborders.org/what-we-do/news-stories/story/iranian-authorities-revoke-approval-msf-coronavirus-treatment-center](https://www.doctorswithoutborders.org/what-we-do/news-stories/story/iranian-authorities-revoke-approval-msf-coronavirus-treatment-center).\n-
-    OHCHR. 2020. ‘Bachelet Calls for Easing of Sanctions to Enable Medical Systems
-    to Fight COVID-19 and Limit Global Contagion’. 24 March 2020. https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=25744&LangID=E.\n-
-    RFE/RL. 2020. “Man Seen Licking Shrine Grids Despite Coronavirus Arrested In Iran.”
-    RFE/RL. Accessed March 29, 2020.[ ](https://en.radiofarda.com/a/man-seen-licking-shrine-grids-despite-coronavirus-arrested-in-iran/30462926.html)[https://en.radiofarda.com/a/man-seen-licking-shrine-grids-despite-coronavirus-arrested-in-iran/30462926.html](https://en.radiofarda.com/a/man-seen-licking-shrine-grids-despite-coronavirus-arrested-in-iran/30462926.html).\n-
-    RFE/RL. 2019. ‘Successor To Khamenei Died Because He Trusted Islamic Medicine,
-    Son Reveals’. RFE/RL. 29 December 2019. https://en.radiofarda.com/a/successor-to-khamenei-died-because-he-trusted-islamic-medicine-son-reveals/30349899.html.\n-
-    ———. 2020. ‘Iran Arrests Editor, Journalist Over Cartoon Mocking Khamenei’. 29
-    April 2020. https://www.rferl.org/a/iran-arrests-editor-journalist-over-cartoon-mocking-khamenei/30581070.html.\n-
-    Saeedian, Mahdiar. 2020. “Ayatollah Kohsal Administering Islam Medicine on Critical
-    Coronavirus Patients.” Twitter. March 21, 2020.[ ](https://twitter.com/mahdiarsaeedian/status/1241289478301499392)[https://twitter.com/mahdiarsaeedian/status/1241289478301499392](https://twitter.com/mahdiarsaeedian/status/1241289478301499392).\n-
-    Sardarizadeh, Shayan. 2020. “Coronavirus Misinformation Clouds over Iran.” _BBC
-    News_, February 29, 2020, sec. Middle East.[ ](https://www.bbc.com/news/world-middle-east-51677530)[https://www.bbc.com/news/world-middle-east-51677530](https://www.bbc.com/news/world-middle-east-51677530).\n-
-    Statista. 2010. “Population in Middle East/North Africa by Religion 2010.” Statista.
-    Accessed March 29, 2020.[ ](https://www.statista.com/statistics/374759/population-in-middle-east-north-africa-by-religion/)[https://www.statista.com/statistics/374759/population-in-middle-east-north-africa-by-religion/](https://www.statista.com/statistics/374759/population-in-middle-east-north-africa-by-religion/).\n-
-    Tabrizian, Ayatollah Abbas. 2020a. “Important Preachings and Explanations than
-    Ayatollah Tabrizian.” _Telegram Channel: Daftare Ayatollah Tabrizian_.[ ](https://t.me/DaftareAyatollahTabrizian)[https://t.me/DaftareAyatollahTabrizian](https://t.me/DaftareAyatollahTabrizian).\n-
-    ———. 2020b. “Prevention Against Infectious Diseases.” _Telegram Channel: Daftare
-    Ayatollah Tabrizian_.[ ](https://t.me/DaftareAyatollahTabrizian)[https://t.me/DaftareAyatollahTabrizian](https://t.me/DaftareAyatollahTabrizian).\n-
-    Tasnim News. 2020. ‘Rouhani: the media should not become polarized/ we should
-    calm the society about coronavirus’. 14 March 2020. \n- Young Journalists Club.
-    2020a. ‘The Promoter of the proponent of drinking camel urine is arrested’. خبرگزاری
-    باشگاه خبرنگاران | آخرین اخبار ایران و جهان | YJC. World. 22 April 2020. http://www.yjc.ir/fa/news/7327494.\n-
-    ———. 2020b. ‘The first interview of the swindler of camerl urine’. Text,Image.
-    fa. خبرگزاری باشگاه خبرنگاران | آخرین اخبار ایران و جهان | YJC. World. 23 April
-    2020. http://www.yjc.ir/fa/news/7328801."
+  references: |-
+    - ARTICLE19. 2020. “[Iran: Coronavirus Crisis Highlights Need for the Free Flow of Information](https://www.article19.org/resources/iran-coronavirus-crisis-highlights-need-for-the-free-flow-of-information/).” ARTICLE 19. March 27, 2020.
+    - Asr Iran. 2020. '[The Announcement of Mashad's Medical Society on the Conviction of 3 Doctors for Insult to Tabrizian](https://www.asriran.com/fa/news/712989)'. عصر ايران. World. 9 February 2020.
+    - Bahar News. 2020. “[The Death of a Young Citizen of Anzali After a Visit from Kohsal!](http://www.baharnews.ir/news/206368/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D8%AC%D9%88%D8%A7%D9%86-%D8%A7%D9%87%D9%84-%D8%A7%D9%86%D8%B2%D9%84%DB%8C-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%83%D9%87%D9%86%D8%B3%D8%A7%D9%84)” پایگاه خبری بهار نیوز. March 23, 2020.
+    - BBC News. 2013. “[Sunnis and Shia in the Middle East.](https://www.bbc.co.uk/news/world-middle-east-25434060)” Accessed March 29, 2020.
+    - BBC. 2020. '[Coronavirus Kills 210 in Iran - Hospital Sources](https://www.bbc.com/news/world-middle-east-51673053)'. BBC News, 28 February 2020, sec. Middle East.
+    - BBC Persian. 2020. ‘[Rouhani: The Conspiracy of Enemies to Create Coronavirus Fear in Order to Shut the Country Down](https://www.bbc.com/persian/iran-51630282)’. 24 February 2020.
+    - ––. n.d. ‘[Iran’s Ministry of Health Denied Sending Letters of Warning About Coronavirus](https://www.bbc.com/persian/iran-51521216)’. 16/02/2020. Accessed 3 May 2020
+    - Behravesh, Maysam. 2020. ‘[“Funeral for Public Trust”: New Crisis in Iran after Plane Crash](https://www.aljazeera.com/news/2020/01/iran-plane-shoot-protest-crisis-competency-legitimacy-200113151404256.html)’. 14 January 2020.
+    - Borger, Julian. 2020. ‘[US Ignores Calls to Suspend Venezuela and Iran Sanctions amid Coronavirus Pandemic](https://www.theguardian.com/world/2020/mar/31/us-ignores-global-appeals-suspend-sanctions-coronavirus-pandemic-iran-venezuela)’. The Guardian, 31 March 2020, sec. World news.
+    - Bozorgmehr, N. (2020, June 17). '[How Iran’s clergy fought back against coronavirus](https://www.ft.com/content/8e9b50bb-ebf7-4702-9894-1f2081ae869a)'.
+    - Centre for Human Rights in Iran. 2017. ‘[After Fiery Speech, Iran Censors Ahmadinejad-Related Online Searches](http://www.iranhumanrights.org/2017/11/after-fiery-speech-iran-censors-ahmadinejad-related-online-searches/)’. 29 November 2017.
+    - Elswah, Mona, and Philip N. Howard. 2020. “[The Challenges of Monitoring Social Media in the Arab World: The Case of the 2019 Tunisian Elections.](https://comprop.oii.ox.ac.uk/research/tunisia-election-memo)” _The Computational Propaganda Project_. Accessed March 29, 2020.
+    - Faghihi, Rohollah. 2020. “[A Cleric’s Cure for Coronavirus Becomes Butt of Jokes in Iran.](https://www.al-monitor.com/pulse/originals/2020/03/bizarre-cures-for-coronavirus-in-iran.html)” Al-Monitor. March 10, 2020.
+    - Faramarzi, Scheherazade. 2020. “[Iranian officials troll the US handling of the coronavirus to hide their own failings.](https://atlanticcouncil.org/blogs/iransource/iranian-officials-troll-the-us-handling-of-the-coronavirus-to-hide-their-own-failings/)” Accessed April 30, 2020.
+    - Festinger, Leon. 1957. _“A theory of cognitive dissonance.”_ California: Stanford University Press.
+    - Freedom House. 2019. “[Freedom on the Net.](https://freedomhouse.org/report/freedom-net)” Freedom House. Accessed March 29, 2020.
+    - Graphika. 2020. ‘[Iran’s IUVM Turns To Coronavirus](https://graphika.com/reports/irans-iuvm-turns-to-coronavirus/)’. 14 April 2020.
+    - Haghdoost, Yasna, and Golnar Motevalli. 2020. “[Iran’s Khamenei Says Virus Outbreak May Be ‘Biological Attack.’](https://www.bloomberg.com/news/articles/2020-03-12/iran-s-khamenei-says-virus-outbreak-may-be-biological-attack)” _Bloomberg News_, March 12, 2020.
+    - Hamshahri Online. 2020. ‘[Victims of Alcohol Poisoning Outnumber Coronavirus in Khuzestan](http://newspaper.hamshahrionline.ir/)’. 14 March 2020.
+    - Hekmat, Reza, Fariboorz Samini, Bita Dadpour, Faezeh Maghsudloo, and Mohammad Javad Mojahedi. 2012. ‘[Should Guidelines for Conventional Hemodialysis Initiation in Acute Methanol Poisoning, Be Revised, When No Fomepizole Is Used?](https://doi.org/10.5812/ircmj.3467)’ Iranian Red Crescent Medical Journal. Kowsar. November 15, 2012.
+    - Human Rights Watch. 2019. ‘[Iran: Sanctions Threatening Health](https://www.hrw.org/news/2019/10/29/iran-sanctions-threatening-health)’. 29 October 2019.
+    - Islamic Azad University News Agency. 2020. “[Which institution didn’t give permission to quarantine Qom?](https://doi.org//fa/news/15/477237/%DA%86%D9%87-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%AC%D8%A7%D8%B2%D9%87-%D9%82%D8%B1%D9%86%D8%B7%DB%8C%D9%86%D9%87-%D8%B4%D9%87%D8%B1-%D9%82%D9%85-%D8%B1%D8%A7-%D9%86%D8%AF%D8%A7%D8%AF)” March 11, 2020.
+    - IRNA. 2020. “[Foreign media tried to use COVID19 to shut Iran down.](https://www.irna.ir/news/83789038)” May 16, 2020.
+    - ISNA. 2020. “[An Announcement of Disgust Against the Burning of Harrison’s Medical Science Book.](https://bit.ly/3asZByZ)” January 25, 2020.
+    - ISPA. 2018. “[Migration from Telegram to WhatsApp](http://ispa.ir/Default/Details/fa/2095)”. Accessed April 30, 2020.
+    - Karimi, Nasser, and Jon Gambrell. 2020. “[In Iran, False Belief a Poison Fights Virus Kills Hundreds.](https://apnews.com/6e04783f95139b5f87a5febe28d72015)” Associated Press. March 27, 2020.
+    - Matthiesen, Toby. 2020. “[The Coronavirus Is Exacerbating Sectarian Tensions in the Middle East](https://www.foreignaffairs.com/articles/middle-east/2020-03-23/coronavirus-exacerbating-sectarian-tensions-middle-east),” March 23, 2020.
+    - Motevalli, Golnar. 2020. ‘[Medical Charity MSF Says Iran Coronavirus Aid Is “On Hold” - Bloomberg](https://www.bloomberg.com/news/articles/2020-03-24/french-charity-msf-says-iran-coronavirus-aid-is-on-hold)’. 24 March 2020.
+    - MSF. 2020. ‘[Iranian Authorities Revoke Approval for MSF Coronavirus Treatment Center](https://www.doctorswithoutborders.org/what-we-do/news-stories/story/iranian-authorities-revoke-approval-msf-coronavirus-treatment-center)’. 24 March 2020.
+    - OHCHR. 2020. ‘[Bachelet Calls for Easing of Sanctions to Enable Medical Systems to Fight COVID-19 and Limit Global Contagion](https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=25744&LangID=E)’. 24 March 2020.
+    - RFE/RL. 2020. “[Man Seen Licking Shrine Grids Despite Coronavirus Arrested In Iran.](https://en.radiofarda.com/a/man-seen-licking-shrine-grids-despite-coronavirus-arrested-in-iran/30462926.html)” RFE/RL. Accessed March 29, 2020.
+    - RFE/RL. 2019. ‘[Successor To Khamenei Died Because He Trusted Islamic Medicine, Son Reveals](https://en.radiofarda.com/a/successor-to-khamenei-died-because-he-trusted-islamic-medicine-son-reveals/30349899.html)’. RFE/RL. 29 December 2019.
+    - ––. 2020. ‘[Iran Arrests Editor, Journalist Over Cartoon Mocking Khamenei](https://www.rferl.org/a/iran-arrests-editor-journalist-over-cartoon-mocking-khamenei/30581070.html)’. 29 April 2020.
+    - Saeedian, Mahdiar. 2020. “[Ayatollah Kohsal Administering Islam Medicine on Critical Coronavirus Patients.](https://twitter.com/mahdiarsaeedian/status/1241289478301499392)” Twitter. March 21, 2020.
+    - Sardarizadeh, Shayan. 2020. “[Coronavirus Misinformation Clouds over Iran.](https://www.bbc.com/news/world-middle-east-51677530)” _BBC News_, February 29, 2020, sec. Middle East.
+    - Statista. 2010. “[Population in Middle East/North Africa by Religion 2010.](https://www.statista.com/statistics/374759/population-in-middle-east-north-africa-by-religion/)” Statista. Accessed March 29, 2020.
+    - Tasnim News. 2020. ‘Rouhani: the media should not become polarized/ we should calm the society about coronavirus’. 14 March 2020.
+    - Young Journalists Club. 2020a. ‘[The Promoter of the proponent of drinking camel urine is arrested](http://www.yjc.ir/fa/news/7327494)’. خبرگزاری باشگاه خبرنگاران آخرین اخبار ایران و جهان  YJC. World. 22 April 2020.
+    - ––. 2020b. ‘[The first interview of the swindler of camel urine](http://www.yjc.ir/fa/news/7328801)’. Text,Image. fa. خبرگزاری باشگاه خبرنگاران آخرین اخبار ایران و جهان  YJC. World. 23 April 2020.
+  alt_date: !ruby/object:DateTime 2020-06-23 00:00:00.000000000 Z
   author:
   - sys:
       id: pBXwSnwaN2YJp4KJc9uRg
       created_at: !ruby/object:DateTime 2020-06-16 00:03:57.410000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 00:04:00.645000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:23.069000000 Z
       content_type_id: contributor
-      revision: 0
+      revision: 1
     name: Mahsa Alimardnai
+    bio: Mahsa Alimardnai is a doctoral candidate at the Oxford Internet Institute
+      (OII), where she examines political communication online in Iran. She's a researcher
+      on the MENA region for the freedom of expression organisation ARTICLE19 and
+      a Senior Information Control Fellow for the Open Technology Fund (OTF).
   - sys:
       id: 3dw2wNKNhNmWlCRxSpvQ0y
       created_at: !ruby/object:DateTime 2020-06-16 00:04:03.128000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 00:04:12.950000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:26.777000000 Z
       content_type_id: contributor
-      revision: 0
+      revision: 1
     name: Mona Elswah
-  organization: Oxford Internet Institute,<br />University of Oxford
+    bio: Mona Elswah is a doctoral candidate at the Oxford Internet Institute (OII),
+      where she examines social movements in the Arab World. She is also a researcher
+      and a core member of the Computational Propaganda project (COMPROP) with a focus
+      on the MENA region and authoritarian regimes. Before joining the OII, Mona was
+      awarded a Ford Foundation fellowship to study at the American University in
+      Cairo. She has a master’s degree in journalism and mass communication and a
+      Graduate Diploma in public policy.
   publication:
   - sys:
       id: 2lQKVWqTIPTns0oj5UA78S
       created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-17 02:57:34.527000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:28:44.493000000 Z
       content_type_id: publication
-      revision: 0
-    title: 'Data Craft: The Manipulation of Social Media Metadata'
+      revision: 4
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    short_title: 2020 Misinfodemic Report
     kicker: A Check Global Report
-    description: Data Craft analyzes how bad actors manipulate metadata to create
-      effective disinformation campaigns and provides tips for researchers and technology
-      companies trying to spot this “data craft.”
-    slug: data-craft-the-manipulation-of-social-media-metadata
+    description: 'Misinfodemic: when online misinformation contributes to real-world
+      disease. In the coming months, Meedan will publish eight pieces of reporting
+      and anaylsis in an effort to map the anatomy of the global COVID-19 information
+      ecosystem.'
+    slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
     sections:
     - sys:
-        id: 1jkEcTAbvK0Y7O1NmysvKT
-    - sys:
         id: 6K6TuAvZBDXdJATv8SynCi
-    author:
     - sys:
-        id: 4JqOrlVgCscDebeRwxYBu8
-    - sys:
-        id: 1uaMTril4FB8NxxRTKwLDH
-    publication_promo: 'This report is part of a special project of Meedan’s Digital
-      Health Lab about the COVID-19 misinformation on the internet.
-
-      '
+        id: 1jkEcTAbvK0Y7O1NmysvKT
+    cover_image:
+      sys:
+        id: Tu2ovEuxh8gztQD9kuF0G
+        created_at: !ruby/object:DateTime 2020-06-23 05:08:56.807000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/Tu2ovEuxh8gztQD9kuF0G/0f5da326dfe06869775caf1002c330e6/meedan_report_2020-infodemic-report_01.png"
+    publication_promo_graphic:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    social_card_image:
+      sys:
+        id: 5L7KfUhYU7lqikodPkJoQQ
+        created_at: !ruby/object:DateTime 2020-06-22 23:00:20.044000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png"
+    publication_promo: This report is part of a Check Global Report about [COVID-19
+      in Emerging Economies](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/).
     color:
       sys:
         id: 43kw5bcVj1xtfe7ua88F6V
@@ -508,17 +541,411 @@ report:
     sys:
       id: 1TCGlH6d0n4BiXTMpDB7Y7
       created_at: !ruby/object:DateTime 2020-06-15 23:44:13.060000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-15 23:50:38.295000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:10:30.292000000 Z
       content_type_id: color
-      revision: 0
+      revision: 1
     name: Orange
     value: "#FF864D"
     thumbnail:
       sys:
         id: 6ioZnbN9f9SjY2XZfp46QG
         created_at: !ruby/object:DateTime 2020-06-15 23:50:31.815000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-15 23:50:58.027000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:10:27.575000000 Z
       title: ffb34d
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/6ioZnbN9f9SjY2XZfp46QG/28488ebd1d9e4b4cd2dbc9ba34074735/ffb34d.png"
     text: "#262626"
+  image: https://images.ctfassets.net/g118h5yoccvd/1TXTPQACmPJLvpvGpSNDPO/bee0b505859726cfeace88c3c4a15486/meedan_report_covid-19-iran_01.png
+- sys:
+    id: 3FjVXrJAIvjk2zHMcvRxtq
+    created_at: !ruby/object:DateTime 2020-06-17 23:32:00.982000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-24 01:10:57.494000000 Z
+    content_type_id: report
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: report
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: False health information in Kenya
+  slug: false-health-information-in-kenya
+  description: 'A surge in false claims linked to Covid-19 in Kenya follows existing
+    misinformation trends in the country.
+
+    '
+  lead_image:
+    sys:
+      id: 2FaNwN7eNAIKR9NSFae2xD
+      created_at: !ruby/object:DateTime 2020-06-18 00:04:24.098000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:06:03.021000000 Z
+    title: kenya
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2FaNwN7eNAIKR9NSFae2xD/fb01cfa24e810a121848317a6fe9a830/kenya.png"
+  social_card_image:
+    sys:
+      id: 3qrqeRUJmXadMqSKn51oaF
+      created_at: !ruby/object:DateTime 2020-06-22 23:22:05.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:06:06.178000000 Z
+    title: False health information in Kenya
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3qrqeRUJmXadMqSKn51oaF/bfb84d389358017676bccf23d25d039f/meedan_report_covid-19-kenya_africa-check_01.png"
+  body: "In this paper, we focus on our experience of harmful false information about
+    health in Kenya. We identify major trends and discuss the contextual factors influencing
+    mis- and disinformation in the country. We show that while there has been a surge
+    in false information linked to Covid-19, this is not new to the country, with
+    health myths that lead to vaccine hesitancy having a long tail, for example. Finally,
+    we suggest areas that fact-checkers can look into to counter harmful health mis-
+    and disinformation.\n\n### Introduction\n\nFalse information about health causes
+    real harm to people’s lives. Africa Check has been fact-checking public statements
+    about health in Kenya since late 2016. \n\nIn our first two years of operation
+    in the country we focused on claims made by public figures and institutions or
+    by the media that we judged would cause the most harm if left unchallenged. In
+    that period our experience was mainly of **misinformation**, with many journalists,
+    people and entities publicly sharing content that they likely did not know was
+    false. \n\nThis ranged from government officials making inaccurate claims about
+    the prevalence of HIV/AIDS in adolescents at major international meetings<sup><a
+    id=\"fnref1\" href=\"#fn1\">[1]</a></sup> to poor fact-checking by both local
+    and international media, with cited statistics often being either deficient<sup><a
+    id=\"fnref2\" href=\"#fn2\">[2]</a></sup> or non-existent<sup><a id=\"fnref3\"
+    href=\"#fn3\">[3]</a></sup>.\n\nOur experience of **disinformation** (deliberately
+    falsified information) in that period included dangerous claims about vaccines,
+    with significant opposition fanned by conservative groups to tetanus vaccines<sup><a
+    id=\"fnref4\" href=\"#fn4\">[4]</a></sup> for example. Churches play a major role
+    in Kenyan society and were quite instrumental in seeding this. We have seen a
+    resurgence of disinformation around vaccines due to the Covid-19 pandemic, including
+    claims<sup><a id=\"fnref5\" href=\"#fn5\">[5]</a></sup> that the continent would
+    be used for trials.\n\nThere has also been broader public awareness about disinformation
+    in recent years, resulting in more people flagging questionable health content
+    to us. This has given us greater insight into the types of false information shared
+    in the country, from the occasional hoax to outrightly fabricated content and
+    miracle cures for cancer<sup><a id=\"fnref6\" href=\"#fn6\">[6]</a></sup> and
+    other diseases of concern to Kenyans. \n\nBut we have noted **two key trends**
+    in the country that are pre-eminent:\n\n- The use of **false context** (including
+    false connection and clickbait headlines), and;\n-  **Manipulation** of genuine
+    content. \n\nDecontextualisation often involves the use of genuine imagery re-shared
+    as new, whether during everyday discussions of public health or during a major
+    news event such as the Covid-19 crisis. Certain media, such as pictures and videos,
+    have an intrinsic ability to make text appear more believable.\n\nManipulation
+    is mainly doctored or tampered-with content. It is also notable that the two types
+    of disinformation provide a low “barrier to entry” compared to say, deepfakes
+    — or even shallowfakes.\n\nWhat the two have in common is the use of genuine content
+    as a starting point. But there is also an added element of profit-seeking involved
+    where believability is used to scam people or drive traffic to websites. This
+    is rather surprising as we expected that, for reasons of structural deficiency
+    around healthcare, including affordability, most false information would be about
+    cures. \n\nHowever, it isn’t completely dissociated. The use of genuine content
+    as a jumping off point provides a sort of beachhead strategy into the other forms
+    of disinformation mentioned, whether being screenshots appearing to be from credible
+    sources that push false information to those that rely on heuristics to stoke
+    emotion and drive virality.   \n\nThis is important from the perspective of both
+    amplification and fact-checking, because studies show that content with a kernel
+    of truth tends to be most shared<sup><a id=\"fnref7\" href=\"#fn7\">[7]</a></sup>,
+    and is also best countered by acknowledging this<sup><a id=\"fnref8\" href=\"#fn8\">[8]</a></sup>.\n\n\n###
+    Contextual factors influencing mis- and disinformation in Kenya \n\nA number of
+    factors are at play. All broadly coalesce around financial, political and social
+    and cultural motivations.\n\n- Of the 9.9 million people who use the internet
+    in the country, 6.3 million — nearly two-thirds (64%) — are young people aged
+    between 15 and 34<sup><a id=\"fnref9\" href=\"#fn9\">[9]</a></sup>. **But digital
+    literacy remains low, with a notable digital divide where many are offline.**
+    Our research<sup><a id=\"fnref10\" href=\"#fn10\">[10]</a></sup> also shows that
+    while all demographics are vulnerable to false information, older people and people
+    with lower levels of education in general are at increased fallibility. \n\n-
+    **Youth unemployment** is also high<sup><a id=\"fnref11\" href=\"#fn11\">[11]</a></sup>,
+    with many young people seeking to leverage the country’s increased connectivity
+    to gain from a growing digital economy. This informs why false health information
+    often involves scams seeking to make profit by duping would be job applicants,
+    sites looking to make money off advertising and those people looking to sell hope
+    to the desperate through false and untested cures. \n\n- There is also **low investment
+    in quality public healthcare**, while private hospitals are largely still out
+    of reach for most. In many families in Kenya, a cancer diagnosis is a sure path
+    to financial ruin. This makes many Kenyans particularly vulnerable to unproven
+    cures being peddled on social networks.\n\n- **Culture** also plays a role. Worldviews
+    in Kenya tend to lean towards the communal rather than the ideological, and are
+    very experiential. Community leaders for example have a lot of influence on society,
+    and beliefs play an elevated role in how information is processed. False cures
+    and anti-vaccination positions pushed by figures of authority are some of the
+    ways this is manifested. Related to this is an inherent elevation of social consensus
+    information. There is an innate belief that because a certain piece of information
+    is being shared in groups Kenyans are members of (such as Whatsapp groups), it
+    is being done in good faith and that it also is “pre-verified” and accurate. This
+    informs why authority figures successfully share false information — such as a
+    prominent senator who claimed<sup><a id=\"fnref12\" href=\"#fn12\">[12]</a></sup>
+    soya causes breast cancer, or Nairobi’s incumbent governor claiming<sup><a id=\"fnref13\"
+    href=\"#fn13\">[13]</a></sup> that alcohol is a ‘throat disinfectant’ against
+    the new coronavirus.\n\n- There is also **a distrust of authority**, though not
+    of experts, giving alternative voices such as bloggers and influencers a growing
+    audience. These invest their time capital into the system for a return in social
+    capital (likes and follows), and in algorithmic capital. Facebook groups and trending
+    topics are for example quite influential in Kenya, and the players use this mainly
+    for economic capital, in a sort of permissive feedback loop well outlined by Danil
+    Mikhailov<sup><a id=\"fnref14\" href=\"#fn14\">[14]</a></sup>.\n\n### Examples
+    of mis- and disinformation in Kenya\n\n#### Incorrect public pronouncements not
+    based on, and/or misrepresenting verifiable data\n\nNairobi governor Mike Sonko
+    [includes alcohol in food packs](https://africacheck.org/spot-check/nairobi-governor-sonko-puts-families-at-risk-with-coronavirus-busting-alcohol-in-food-packs/)
+    to poor families, claiming that “alcohol plays a very major role in killing the
+    coronavirus or any sort of virus”.\n\n#### False cures/prevention regimens\n\nFalse
+    cancer cures from [a mysterious ‘Dr Gupta’](https://africacheck.org/spot-check/beware-false-cancer-cures-from-dr-gupta-on-facebook/)
+    — that cancer will “disappear” if patients stop eating sugar, drink lemon juice
+    before meals for three months and take spoonfuls of coconut oil morning and night
+    — go viral on Facebook.\n\n#### Hoaxes and scams\n\n[Job openings at WHO for a
+    high salary](https://africacheck.org/fbcheck/coronavirus-job-scam-no-world-health-organization-kenya-not-hiring-on-facebook/).
+    Applicants were asked to submit their personal information, with enough information
+    being asked for to initiate identity theft. \n\n#### Manipulated and/or out-of-context
+    videos and images\n\n [‘Every Kenyan to receive 100K due to the lockdown on corona’](https://africacheck.org/fbcheck/no-false-news-of-ksh100000-payout-for-every-kenyan-during-covid-19-lockdown-not-broadcast-on-citizen-tv/)\n\n####
+    Conspiracy theories and predictions\n\n“[Barack Obama is asking Africans not to
+    accept vaccines that will come from America and Europe](https://africacheck.org/fbcheck/no-former-us-president-obama-didnt-warn-africans-against-coronavirus-vaccines/)”.\n\n###
+    Covid-19 disinformation in Kenya\n\nAfrica Check has looked at this mainly through
+    the lenses of disinformation, with content where the intent could be safely assessed
+    as not meant to mislead or cause harm left out. \n\nSince March 2020 we have maintained
+    a constantly updated “[live guide](https://africacheck.org/reports/live-guide-all-our-coronavirus-fact-checks-in-one-place/)”,
+    with decontextualized content — imagery and articles — forming the bulk of the
+    entries for Kenya, for reasons discussed elsewhere in this report, key being the
+    low barriers to entry. \n\n**Hoaxes** — fabricated content about non-existent
+    events and entities, **half-truths** — where truths swim in the same waters as
+    misleading claims and **scams** with a financial motive are also key players in
+    the Kenyan false information ecosystem. The prevalence of half-truths is especially
+    effective — infusing false claims with plausible ones adds to the overall believability.
+    \n\n**Cures and vaccines** are the next of the main types of pandemic disinformation.
+    Many claims about cures come with a profit element in the background, such as
+    buying a “natural” product or visiting a practitioner. Claims about vaccines are
+    often caught up in the country’s strong conservative beliefs or protests about
+    Africans being guinea pigs.\n\n### How false information about health in Kenya
+    compares internationally\n\nLike in many other countries, the false health information
+    that is shared in Kenya tends to be that which evokes emotional responses. But
+    there are some differences.\n\nA lot of health mis- and disinformation in the
+    Global North tends to be grounded in **ideology**, but there is little evidence
+    of this in Kenya. This is a reason why harmful false information that is Kenya-specific
+    originates on social and professional media, as opposed to, say, the anonymous
+    web or conspiracy communities as is often the case elsewhere.\n\n**Relationships**
+    also come before purpose in Kenya. Mis- and disinformation that tap into these
+    networks — families, communities etc — is quite widely shared. \n\nFurther, due
+    to how information leaches into the community (community meetings are crucibles
+    for the individual to act on (false) information), disinformation often has more
+    impact — for example a lot of stigma around Covid-19 patients has been experienced
+    in Kenyan communities, sometimes with fatal outcomes. \n\n### Conclusion\n\nThe
+    entire information ecosystem — government, the media, big tech, fact-checkers
+    and audiences — have a role to play in countering health mis- and disinformation.
+    \n\nBut there are some areas fact-checkers can look into:\n\n- Disinformation
+    in particular in Kenya very often thrives by leveraging on **relationships**,
+    because a lot of people have an emotional rather than rational or logical relationship
+    to information. \n- **Indigenisation of fact-checking is important**: Our fact-checking
+    work in 11 other African languages generated a lot of interest, because it helps
+    break accurate information out of the urban ivory towers where it is still very
+    much concentrated. Others like the BBC have gone into localisation of content
+    in much more detail<sup><a id=\"fnref15\" href=\"#fn15\">[15]</a></sup>.\n- More
+    research into **how individual/societal differences such as culture affect responses
+    to false** **health** **information** is needed. We need to better understand
+    the circumstances that make fact-checking have any impact on politicians and how
+    to make it a durable effect. How can we persuade the alcohol-peddling Nairobi
+    governor to check himself?\n- Should we cloak up like mis/disinformation peddlers?
+    For example, we know that adding an image to a tweet can make the difference between
+    a fact check that gets seen, and one that is outranked by more attention grabbing
+    posts. We’ve in the past debunked false health information with video, and we
+    are already sending audio to our audiences, should it be a standard? This is very
+    much a point of debate<sup><a id=\"fnref16\" href=\"#fn16\">[16]</a></sup>."
+  footnotes:
+  - sys:
+      id: 2DkAXIG4Ntyrbm3HDpNXq4
+      created_at: !ruby/object:DateTime 2020-06-17 23:45:18.750000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:06:55.948000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[No, adolescents don’t account for half of new HIV infections in Kenya](https://africacheck.org/reports/no-adolescents-dont-account-for-half-of-new-hiv-infections-in-kenya/)."
+  - sys:
+      id: 15omfxfgnFxiqZMm2iJbwM
+      created_at: !ruby/object:DateTime 2020-06-17 23:53:25.855000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:06:59.383000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Little evidence that 10,000 children abused by sex tourism in Kenyan town](https://africacheck.org/reports/little-evidence-that-10000-children-abused-by-sex-tourism-in-kenyan-town/)."
+  - sys:
+      id: 2btJHRj6ClEbAdolu2nyDE
+      created_at: !ruby/object:DateTime 2020-06-17 23:53:49.634000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:02.498000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[‘65% of females’ in Kenyan slum traded sex for sanitary pads? Unicef &
+      UK newspaper pull stat from thin air.](https://africacheck.org/reports/65-of-females-in-kenyan-slum-traded-sex-for-sanitary-pads-unicef-uk-newspaper-pull-stat-from-thin-air/)"
+  - sys:
+      id: 41a1CgPv7IKlAsuEDl2q0G
+      created_at: !ruby/object:DateTime 2020-06-17 23:54:26.278000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:05.420000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[ANALYSIS: What could Kenya’s Odinga gain by dredging up an unfounded tetanus
+      vaccine claim?](https://africacheck.org/2017/09/13/analysis-what-could-kenyas-odinga-gain-by-dredging-up-an-unfounded-tetanus-vaccine-claim/)"
+  - sys:
+      id: 5pz4bl2tUvvzVRKwRV6oek
+      created_at: !ruby/object:DateTime 2020-06-17 23:55:05.584000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:09.314000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Bill Gates not testing Covid-19 vaccine in Africa](https://africacheck.org/fbcheck/bill-gates-not-testing-covid-19-vaccine-in-africa/)"
+  - sys:
+      id: 7ts93qPQn2DJMucLcUwUuX
+      created_at: !ruby/object:DateTime 2020-06-17 23:55:25.799000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:28.129000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Beware false cancer cures from ‘Dr Gupta’ on Facebook](https://africacheck.org/spot-check/beware-false-cancer-cures-from-dr-gupta-on-facebook/)"
+  - sys:
+      id: 6HxAJhcWSzs4OQMmrcWSsL
+      created_at: !ruby/object:DateTime 2020-06-17 23:55:45.169000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:28.092000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Communicating fact checks online](https://africacheck.org/wp-content/uploads/2020/02/EN-How-to-communicate-a-fact-check-online.pdf)."
+  - sys:
+      id: bbVGW71L6ZcXPBcxtegG7
+      created_at: !ruby/object:DateTime 2020-06-17 23:56:47.971000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:28.124000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[COMMENT: Fighting falsehood, reducing harm? Lessons from Africa’s complex
+      countries](https://africacheck.org/2019/05/31/comment-fighting-falsehood-reducing-harm-lessons-from-africas-complex-countries/)"
+  - sys:
+      id: 1vT206XBr6DA2lPQGULslF
+      created_at: !ruby/object:DateTime 2020-06-17 23:57:12.944000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:28.097000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: 'Kenya National Bureau of Statistics (2020). 2019 Kenya Population and Housing
+      Census. Volume IV: Distribution of Population by socioeconomic characteristics.
+      Nairobi: KNBS'
+  - sys:
+      id: 6Mmmaj34l25JoPl9F6DPkY
+      created_at: !ruby/object:DateTime 2020-06-17 23:57:23.574000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:27.843000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Who is most likely to believe and to share misinformation?](https://africacheck.org/wp-content/uploads/2020/02/EN-Who-believes-and-shares-misinformation.pdf)"
+  - sys:
+      id: 67vmIwn0dwu45qxHig8YRG
+      created_at: !ruby/object:DateTime 2020-06-17 23:58:38.416000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:27.969000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Kenya’s youth unemployment at 39%? Why this headline-grabbing number is
+      wrong](https://africacheck.org/reports/kenyas-youth-unemployment-at-39-why-this-headline-grabbing-number-is-wrong/)."
+  - sys:
+      id: b9py99eBZgKx07AZPVsVp
+      created_at: !ruby/object:DateTime 2020-06-17 23:58:58.217000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:27.862000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Nairobi governor Sonko puts families at risk with ‘coronavirus-busting’
+      alcohol in food packs](https://africacheck.org/spot-check/nairobi-governor-sonko-puts-families-at-risk-with-coronavirus-busting-alcohol-in-food-packs/)."
+  - sys:
+      id: 67qc59CNM18PcqWxyqXE8F
+      created_at: !ruby/object:DateTime 2020-06-17 23:59:21.737000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:27.849000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[How spreaders of misinformation acquire influence online](https://medium.com/@danil.s.mikhailov/how-spreaders-of-misinformation-acquire-influence-online-456757723e50)"
+  - sys:
+      id: 4UQVO4wOslN6fXtG6JbjvM
+      created_at: !ruby/object:DateTime 2020-06-17 23:59:43.239000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:27.813000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[The COVID-19 WhatsApp service by WHO - is it effective?](https://www.bbc.co.uk/blogs/mediaactioninsight/entries/a6e20e60-64af-4308-9c41-be109a6265db?at_custom3=%40bbcmediaaction&at_custom1=%5Bpost+type%5D&at_medium=custom7&at_custom2=twitter&at_custom4=2025C37C-895A-11EA-AE16-34D5C28169F1&at_campaign=64)"
+  - sys:
+      id: 3pAq6hbMMlpdwrAcYns7QA
+      created_at: !ruby/object:DateTime 2020-06-17 23:59:53.830000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:07:27.788000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Communicating fact checks online](https://africacheck.org/wp-content/uploads/2020/02/EN-How-to-communicate-a-fact-check-online.pdf)."
+  alt_date: !ruby/object:DateTime 2020-06-23 00:00:00.000000000 Z
+  author:
+  - sys:
+      id: 7A5mBS9Hmf7Dc9GNo6NOO9
+      created_at: !ruby/object:DateTime 2020-06-18 00:03:21.562000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:08:52.862000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Africa Check
+    bio: "[Africa Check](https://africacheck.org/) is the continent’s leading independent,
+      nonpartisan, fact-checking organisation. Established in 2012, we have four offices
+      across the continent: in Johannesburg (South Africa), Nairobi (Kenya), Lagos
+      (Nigeria) and Dakar (Senegal). Since 2012, we have fact-checked more than 1,500
+      claims in English and French, focusing on areas from education and health to
+      elections and the economy. Our goal is to raise the quality of information available
+      to society across the continent. Ultimately, we aim to strengthen democracy
+      and improve life outcomes."
+  publication:
+  - sys:
+      id: 2lQKVWqTIPTns0oj5UA78S
+      created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:28:44.493000000 Z
+      content_type_id: publication
+      revision: 4
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    short_title: 2020 Misinfodemic Report
+    kicker: A Check Global Report
+    description: 'Misinfodemic: when online misinformation contributes to real-world
+      disease. In the coming months, Meedan will publish eight pieces of reporting
+      and anaylsis in an effort to map the anatomy of the global COVID-19 information
+      ecosystem.'
+    slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
+    sections:
+    - sys:
+        id: 6K6TuAvZBDXdJATv8SynCi
+    - sys:
+        id: 1jkEcTAbvK0Y7O1NmysvKT
+    cover_image:
+      sys:
+        id: Tu2ovEuxh8gztQD9kuF0G
+        created_at: !ruby/object:DateTime 2020-06-23 05:08:56.807000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/Tu2ovEuxh8gztQD9kuF0G/0f5da326dfe06869775caf1002c330e6/meedan_report_2020-infodemic-report_01.png"
+    publication_promo_graphic:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    social_card_image:
+      sys:
+        id: 5L7KfUhYU7lqikodPkJoQQ
+        created_at: !ruby/object:DateTime 2020-06-22 23:00:20.044000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png"
+    publication_promo: This report is part of a Check Global Report about [COVID-19
+      in Emerging Economies](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/).
+    color:
+      sys:
+        id: 43kw5bcVj1xtfe7ua88F6V
+  color:
+    sys:
+      id: 3VU0jnxwp2VUwfdpUQb35X
+      created_at: !ruby/object:DateTime 2020-06-19 03:25:05.797000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:09:11.259000000 Z
+      content_type_id: color
+      revision: 1
+    name: Bright Red
+    value: "#FF4D7E"
+    thumbnail:
+      sys:
+        id: 6DFxyXxmFWXQ8Eq5QdgVl3
+        created_at: !ruby/object:DateTime 2020-06-19 03:25:20.750000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:09:08.974000000 Z
+      title: FF4D7E
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6DFxyXxmFWXQ8Eq5QdgVl3/25dc83caf2981ab55b5b35e3c59f2467/FF4D7E"
+    text: "#262626"
+  image: https://images.ctfassets.net/g118h5yoccvd/3qrqeRUJmXadMqSKn51oaF/bfb84d389358017676bccf23d25d039f/meedan_report_covid-19-kenya_africa-check_01.png

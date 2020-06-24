@@ -2,21 +2,64 @@
 moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
-    created_at: !ruby/object:DateTime 2020-03-10 04:34:12.209000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-16 23:04:52.798000000 Z
+    created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 18:31:24.104000000 Z
     content_type_id: moduleStories
     revision: 26
   title: Blog
   stories:
   - sys:
+      id: 3LXzHMwn8OxgdqOOXWp6es
+      created_at: !ruby/object:DateTime 2020-06-23 18:28:58.088000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-23 18:49:29.044000000 Z
+      content_type_id: story
+      revision: 10
+    title: 'Press Release: Nigeria Health Watch Partners with Meedan to counter COVID-19
+      misinformation in Nigeria'
+    slug: press-release-nigeria-health-watch-partners-with-meedan
+    body: "__June 23, 2020__ — Today the health communications organization [Nigeria
+      Health Watch](https://nigeriahealthwatch.com/) and Meedan announce a partnership
+      to counter misinformation around COVID-19 and other public health challenges
+      in Nigeria. This partnership will take place through Meedan's [COVID-19 Expert
+      Database](https://learnaboutcovid19.org/). \n\nThe spread of misinformation
+      during disease outbreaks is a global issue. False or misleading information
+      around disease prevention, treatment and cures can can cause confusion and panic,
+      and can be dangerous to public health. There is there an urgent need for collaboration
+      to address widespread health misinformation as governments tackle the double
+      epidemic of misinformation and COVID-19.\n\nThrough the partnership, potentially
+      false or misleading COVID-19 claims will be identified, and Nigeria Health Watch
+      will leverage Meedan’s [team of experts](https://learnaboutcovid19.org/about/)
+      to produce multimedia messages that debunk misinformation around the virus.
+      The multimedia messages will include critical context and background information
+      that is key to safely communicating debunks to misinformation. The project will
+      apply insights from collated data to create evidence-based media campaigns to
+      counter COVID-19 misinformation.\n\nManaging Director at Nigeria Health Watch,
+      Vivianne Ihekweazu, said “Misinformation poses a threat to the public response
+      to outbreaks, eroding the public’s trust, and their willingness and ability
+      to take preventative measures.\" \n\n“As we’re learning each day, information
+      and misinformation about the COVID-19 pandemic are spreading in online ecosystems
+      as rapidly as the virus itself is spreading around the world. Strained access
+      to health experts during emergencies, such as the one we’re experiencing, can
+      quickly lead to poor health outcomes, as low-quality information exacerbates
+      the real-world spread of disease,” said Nat Gyenes, Meedan Digital Health Lab
+      lead. \n\n__About Nigeria Health Watch__\nNigeria Health Watch uses informed
+      advocacy and communication to influence health policy and seek better health
+      and access to healthcare in Nigeria. We seek to amplify some of the great work
+      happening in the health sector, challenge the bad, and create a space for positive
+      ideas and action. Through its various platforms, Nigeria Health Watch is a trusted
+      source that provides informed commentary and in-depth analysis of health issues
+      in Nigeria, always in good conscience. \n\n__About Meedan__\n\nMeedan is a technology
+      not-for-profit that builds software and designs human-powered initiatives for
+      newsrooms, NGOs and academic institutions. The Digital Health Lab is our initiative
+      that focuses on improving the quality and equity of online health information.
+      \ We are researching, designing and testing a digital response framework for
+      addressing health misinformation. Learn more at [meedan.com](https://www.meedan.com)
+      and [health.meedan.com](https://health.meedan.com/) \n"
+    alt_date: !ruby/object:DateTime 2020-06-23 00:00:00.000000000 Z
+  - sys:
       id: 4Qi00kygRwhPWFHpbSGFp9
-<<<<<<< HEAD
-      created_at: !ruby/object:DateTime 2020-06-16 23:03:45.272000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-16 23:25:23.384000000 Z
-=======
       created_at: !ruby/object:DateTime 2020-06-16 12:51:20.313000000 Z
       updated_at: !ruby/object:DateTime 2020-06-17 15:56:10.835000000 Z
->>>>>>> 31b8f30d... Check global project page: in-page navigation and list style updates.
       content_type_id: story
       revision: 5
     title: '25 grassroots projects awarded through the Check Global COVID-19 Fund '
@@ -29,7 +72,7 @@ moduleStories:
     lead_image:
       sys:
         id: 2WPIleyIUdrFnSOypreJGl
-        created_at: !ruby/object:DateTime 2020-06-16 22:35:49.067000000 Z
+        created_at: !ruby/object:DateTime 2020-06-16 12:52:09.463000000 Z
         updated_at: !ruby/object:DateTime 2020-06-16 23:52:28.354000000 Z
       title: The floor of a farm full of ripen and unpicked pears
       description: The floor of a farm full of ripen and unpicked pears and in the
@@ -79,13 +122,8 @@ moduleStories:
       The above COVID-19 microgrants recipients have given Meedan consent to announce their projects publicly, while others have not been named for security reasons.
   - sys:
       id: 2S78uIQGLH0h6pTi0giy6c
-<<<<<<< HEAD
-      created_at: !ruby/object:DateTime 2020-06-15 18:26:12.499000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-15 20:29:51.441000000 Z
-=======
       created_at: !ruby/object:DateTime 2020-06-15 15:54:39.212000000 Z
       updated_at: !ruby/object:DateTime 2020-06-17 14:54:02.851000000 Z
->>>>>>> 31b8f30d... Check global project page: in-page navigation and list style updates.
       content_type_id: story
       revision: 5
     title: We Stand with Maria Ressa
@@ -93,7 +131,7 @@ moduleStories:
     lead_image:
       sys:
         id: 49WfemvlNP1bPJin8hyyVd
-        created_at: !ruby/object:DateTime 2020-06-15 18:49:39.988000000 Z
+        created_at: !ruby/object:DateTime 2020-06-15 18:45:05.958000000 Z
         updated_at: !ruby/object:DateTime 2020-06-15 18:49:39.988000000 Z
       title: 
       description: flickr.com/photos/franzlopez CC BY-NC 2.0
@@ -162,7 +200,7 @@ moduleStories:
         id: 1FyUNasGkYsSW1TC4x8vcJ
   - sys:
       id: 2eI9u7B6dEeolWbe0C2FXl
-      created_at: !ruby/object:DateTime 2020-06-10 18:56:50.192000000 Z
+      created_at: !ruby/object:DateTime 2020-06-09 19:14:31.378000000 Z
       updated_at: !ruby/object:DateTime 2020-06-11 01:16:16.892000000 Z
       content_type_id: story
       revision: 3
@@ -174,9 +212,9 @@ moduleStories:
     lead_image:
       sys:
         id: 3nSZwz7Zre6hlN5YdxmiQG
-        created_at: !ruby/object:DateTime 2020-06-10 18:56:36.165000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-10 18:56:36.165000000 Z
-      title: meedan brazil covid-19 isa 2
+        created_at: !ruby/object:DateTime 2020-06-10 18:33:46.491000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-10 18:56:45.365000000 Z
+      title: 'COVID-19 in Brazil: memory as a form of resistance '
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/3nSZwz7Zre6hlN5YdxmiQG/cae91892be6d53489f7d7f20527e5b74/meedan_brazil_covid-19_isa_2.jpg"
     body: "To wake up in Brazil in 2020 is to confront daily headlines that send us
@@ -338,7 +376,7 @@ moduleStories:
         id: 57swkb0x1YLvhHB31YFb3U
   - sys:
       id: 51b7Zp4ynwTDHtNhp4aBQL
-      created_at: !ruby/object:DateTime 2020-06-05 03:31:37.678000000 Z
+      created_at: !ruby/object:DateTime 2020-06-05 01:17:43.296000000 Z
       updated_at: !ruby/object:DateTime 2020-06-10 03:23:11.678000000 Z
       content_type_id: story
       revision: 4
@@ -347,7 +385,7 @@ moduleStories:
     lead_image:
       sys:
         id: 1bYxFxmWZ6fldWG0PXMxDt
-        created_at: !ruby/object:DateTime 2020-06-10 03:23:07.396000000 Z
+        created_at: !ruby/object:DateTime 2020-06-10 03:16:15.672000000 Z
         updated_at: !ruby/object:DateTime 2020-06-10 03:23:07.396000000 Z
       title: Untitled3
       description: 
@@ -384,3 +422,57 @@ moduleStories:
     - sys:
         id: 7xM8QfuAFGFURUXRBNLBtX
     alt_date: !ruby/object:DateTime 2020-06-03 00:00:00.000000000 Z
+  - sys:
+      id: 4dNRb3JY8VwKmfH5RzZWZY
+      created_at: !ruby/object:DateTime 2020-06-21 15:05:25.979000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-21 15:26:35.430000000 Z
+      content_type_id: story
+      revision: 0
+    title: 2019 Meedan Annual Report Now Online
+    slug: 2019-meedan-annual-report-now-online
+    lead_image:
+      sys:
+        id: 5vL7mjBdgPuBsBSALVwGkw
+        created_at: !ruby/object:DateTime 2020-06-21 15:05:55.112000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-21 15:06:26.526000000 Z
+      title: Screen Shot 2020-06-18 at 4.26.03 PM
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5vL7mjBdgPuBsBSALVwGkw/c853cfb0f862342d3854417ef136ba51/Screen_Shot_2020-06-18_at_4.26.03_PM.png"
+    body: "We are delighted to announce the launch of [our 2019 Meedan Annual Report](https://meedan.com/2019-annual-report/).
+      \n\n\nOur annual reports involve four main sections: \n\n[CEO’s Letter](https://meedan.com/2019-annual-report/#introduction)\n[In
+      Numbers](https://meedan.com/2019-annual-report/#in-numbers)\n[What People Are
+      Saying About Us](https://meedan.com/2019-annual-report/#reviews)\n[Financials](https://meedan.com/2019-annual-report/#financials)\n\nTaking
+      pride in being a global team, [the Meedan 2019 Annual Report](https://meedan.com/2019-annual-report/)
+      lists the cities and the countries we have traveled to in 2019, including global
+      events, sponsoring local events and/or talking about misinformation and presenting
+      the work we are doing.\n \nWe have always been, and will continue, developing
+      the technology and the programs that help with creating more equitable internet
+      with the aim of strengthening global journalism, digital literacy, and accessibility
+      of information through our projects [Check Global](https://meedan.com/projects),
+      [Digital Health Lab](https://health.meedan.com/), [Credibility Coalition](https://credibilitycoalition.org/),
+      [Pop-Up Newsroom](https://popup.news/) and [Content Moderation](https://meedan.com/projects).\n\n\nWhile
+      we are publishing our last year report today during a pandemic, it occurred
+      to us that our work in 2018 when we established [Digital Health Lab](https://health.meedan.com/)
+      for responding to misinfodemics has positioned us well to contribute to the
+      unfolding crisis of COVID-19.\n\n\nLooking at our [annual reports](https://meedan.com/about)
+      published through the past years reminds us of how far we have come with the
+      global contribution we have been always committed to. \n\nThis report and the
+      past annual reports of Meedan live in the [About](https://meedan.com/about)
+      page on our website. "
+  - sys:
+      id: 4C9LI4VisMu2O1xXlhO5XB
+      created_at: !ruby/object:DateTime 2020-06-22 12:54:03.320000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-22 13:04:00.868000000 Z
+      content_type_id: story
+      revision: 0
+    title: The evolution of fact-checking on WhatsApp
+    slug: the-evolution-of-fact-checking-on-whatsapp
+    body: "What: As communications and sharing increasingly shift to private services
+      like WhatsApp, hear about the obstacles fact-checkers have overcome to help
+      users verify potential misinformation.\n\nWhen: June 25, 2020\n10:30pm-11:30pm
+      Manila \n8pm-9pm New Delhi\n12pm-13pm New York \n\n\nWhere: Live on [YouTube](https://www.youtube.com/watch?v=9IJjpi6yylw&feature=youtu.be),
+      [Facebook](https://www.facebook.com/factchecknet) & [Twitter](https://twitter.com/factchecknet)\n\nWho:
+      \nModerator\nShalini Joshi | Meedan, Program Director, APAC\n\nPanelists\nBaybars
+      Örsek | International Fact-Checking Network, Director\nKate Wilkinson | Africa
+      Check, Deputy Chief Editor\nLouis Moynihan | WhatsApp, Product Business Development\nGovindiraj
+      Ethiraj | Boom, Founder"

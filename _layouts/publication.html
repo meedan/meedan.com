@@ -1,0 +1,23 @@
+---
+layout: publication
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="site publication dark{{ page.class }}">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include publication_header.html theme="dark" %}
+        <section>
+            <figure class="graphic">
+                <img class="main-grid__2-11 justify-self--center lead_image" alt="{{ page.cover_image.title }}" src="{{ page.cover_image.url }}" />
+            </figure>
+            {% include publication_sections.html %}
+            {% include footer_small_newsletter.html theme="dark" %}
+        </section>
+    </div>
+    {% include js.html %}
+</body>
+
+</html>

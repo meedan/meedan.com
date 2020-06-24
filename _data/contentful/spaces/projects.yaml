@@ -1,73 +1,58 @@
 ---
 project:
 - sys:
-    id: 1qNyYdbk1y7nt1zzo18Yyl
-    created_at: !ruby/object:DateTime 2020-03-05 18:49:07.952000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-06 01:31:46.979000000 Z
-    content_type_id: project
-    revision: 2
-  title: Content Moderation Project
-  hero_image:
-    sys:
-      id: 6TfRuAKJj6golgGhzEl8eS
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
-    title: Content Moderation Project
-    description: Kat Lo
-    url: "//images.ctfassets.net/g118h5yoccvd/6TfRuAKJj6golgGhzEl8eS/a92c80a091313c5bce69f571dc5bd7d7/projects-content-moderation-project-3.png"
-  short_description: Collaborating with stakeholders in academia, policy, and civil
-    society groups to develop clear pathways to responsible content moderation for
-    technology platforms. Applied research with civil society organizations and human
-    rights responders help us better understand varying experiences with content moderation
-    and allow us to identify points of intervention.
-  slug: content-moderation-project
-  order: 5
-- sys:
     id: ZrRI71jL8H3THqYYM98j8
-    created_at: !ruby/object:DateTime 2020-03-05 18:49:35.682000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-06 01:31:11.203000000 Z
+    created_at: !ruby/object:DateTime 2020-02-06 20:33:55.642000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 20:47:55.693000000 Z
     content_type_id: project
-    revision: 5
-  title: Check Global
+    revision: 8
+  title: 'Check Global  '
   hero_image:
     sys:
       id: 6NUsv6oRkYob4fiImP6S2W
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:14.895000000 Z
+      created_at: !ruby/object:DateTime 2020-02-26 06:03:55.325000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:49:14.895000000 Z
     title: Check Global
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/6NUsv6oRkYob4fiImP6S2W/096be2ca061cf06f4322410b2d593ba0/project-check-global.png"
-  short_description: 'Check Global is an initiative that supports journalism and human
+  short_description: Check Global is an initiative that supports journalism and human
     rights research in the developing world. We provide software, training and support
     to an international group of independent media organizations, journalism schools
-    and human rights researchers.  '
-  summary: Provides tools, training and support to an international network of independent
-    media organizations, journalism schools and human rights researchers in the developing
-    world.
-  intro: "- We collaborate with our partners to help them deal with the nuanced challenges
-    of media ecosystems that are decentralized, global, and real-time. \n- We focus
-    our tools and trainings on digital media literacy, fact-checking, disinformation-monitoring
-    and verification of online journalism\n"
+    and human rights researchers.
+  links: "- [Learn more](https://meedan.com/projects/check-global)\n"
+  summary: "Check Global is a program run by [Meedan](https://meedan.com/about) in
+    partnership with [Birmingham City University](https://www.bcu.ac.uk/), with funding
+    from Swedish International Development Agency (Sida). \n\nThe project aims to
+    improve digital literacy, community-building and political engagement skills for
+    citizen journalists, activists, journalism students, civil society organisations
+    and human rights defenders, thus strengthening their role as investigators and
+    contributors to the public sphere."
+  intro: "We provide training, develop software, run programming, and conduct research
+    with a global network of independent media and human rights organizations, fact-checking
+    initiatives and journalism schools in Latin America, East Africa, Asia-Pacific
+    (APAC) and the North Africa/West Asia (NAWA) region.\n\nWe are committed to strengthening
+    the capacities of our partners to use media and technology to:\n\n- Counter the
+    rise of misinformation and disinformation\n- Provide credible information and
+    address inequalities in access to information \n- Develop media literacy skills
+    so they, and the communities they work with, are better equipped to hold public
+    figures to account\n"
   slug: check-global
-<<<<<<< HEAD
-  sections: []
-=======
   sections:
   - sys:
       id: 3zpdrjZeBGOlkTvFrchEYa
       created_at: !ruby/object:DateTime 2020-04-30 19:57:35.775000000 Z
-      updated_at: !ruby/object:DateTime 2020-04-30 20:03:27.477000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 03:16:45.425000000 Z
       content_type_id: section
-      revision: 0
+      revision: 1
     title: What We Do
     cover_graphic:
       sys:
-        id: GGLO5FEfU9GspSHMy8RYj
-        created_at: !ruby/object:DateTime 2020-03-02 22:25:38.905000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-05 18:51:29.430000000 Z
-      title: graphic introduction
+        id: 3qY0ei2Bg7SMahDkxnxMgi
+        created_at: !ruby/object:DateTime 2020-06-17 22:43:16.721000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-18 03:16:34.398000000 Z
+      title: Check Global – What We Do
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/GGLO5FEfU9GspSHMy8RYj/74fcfab7704c21bc1c10df7900330812/graphic_introduction.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/3qY0ei2Bg7SMahDkxnxMgi/920389bec8fa2b79b9f1ef535c982af0/graphic_1.png"
     background_color: "#262626"
     section_class: introduction
     modules:
@@ -82,41 +67,20 @@ project:
     - sys:
         id: G131BSJzfGF7m1buiMyH0
   - sys:
-      id: EqEniIFDbF8HASu0rKCJh
-      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-01 18:43:33.356000000 Z
-      content_type_id: section
-      revision: 0
-    title: Who we are
-    cover_graphic:
-      sys:
-        id: TikhWKrVq60OCqqcSga4w
-        created_at: !ruby/object:DateTime 2018-12-07 19:55:15.990000000 Z
-        updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.622000000 Z
-      title: graphic in-numbers
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
-    section_class: financials
-    modules:
-    - sys:
-        id: 5bPjLADdiXEy7wgvf0SonW
-    - sys:
-        id: 1i4LKxNS2Ha1LF0MGWwyzp
-  - sys:
       id: 3KKLPp1gaZFn8DA2991hai
       created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-17 20:48:32.204000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 05:57:23.347000000 Z
       content_type_id: section
-      revision: 0
+      revision: 2
     title: The Five Pillars of  Check Global
     cover_graphic:
       sys:
-        id: 3PsNMd4GDKOI4Kg6A242yo
-        created_at: !ruby/object:DateTime 2018-12-07 19:57:16.456000000 Z
-        updated_at: !ruby/object:DateTime 2018-12-07 19:57:30.447000000 Z
-      title: graphic reviews
+        id: 5z0rhk7t6MEUnGdvNYQyo6
+        created_at: !ruby/object:DateTime 2020-06-17 22:44:14.497000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-18 03:16:56.474000000 Z
+      title: Check Global – The Five Pillars of Check Global
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3PsNMd4GDKOI4Kg6A242yo/d9210c94649cd353c1b8fcc602640783/graphic_reviews.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/5z0rhk7t6MEUnGdvNYQyo6/f0045fd813f5a67f156a43d73c1a35de/graphic_3.png"
     background_color: "#D4D4D4"
     section_class: reviews
     modules:
@@ -144,11 +108,31 @@ project:
         id: 4KUDgS2JKNuwtuhgb33HHB
     - sys:
         id: 2CsSGl5GzJpKdc3H2DB6e5
->>>>>>> 31b8f30d... Check global project page: in-page navigation and list style updates.
+  - sys:
+      id: EqEniIFDbF8HASu0rKCJh
+      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 05:57:51.230000000 Z
+      content_type_id: section
+      revision: 2
+    title: Who we are
+    cover_graphic:
+      sys:
+        id: 46wwHwBQpDhqhNqup0reBS
+        created_at: !ruby/object:DateTime 2020-06-17 22:43:49.492000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-18 03:23:40.862000000 Z
+      title: Check Global – Who We Are
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/46wwHwBQpDhqhNqup0reBS/5b153775e57a6aa28c68b7013091d5cc/graphic_2.png"
+    section_class: financials
+    modules:
+    - sys:
+        id: 5bPjLADdiXEy7wgvf0SonW
+    - sys:
+        id: 1i4LKxNS2Ha1LF0MGWwyzp
   stories:
   - sys:
       id: m7aLQU2hG9LVRQc6LJqHz
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.193000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 01:43:46.111000000 Z
       updated_at: !ruby/object:DateTime 2020-03-09 23:25:32.288000000 Z
       content_type_id: story
       revision: 2
@@ -160,7 +144,7 @@ project:
     lead_image:
       sys:
         id: 3irGSo1SmfFCQze2LhNpx0
-        created_at: !ruby/object:DateTime 2020-03-05 18:48:41.105000000 Z
+        created_at: !ruby/object:DateTime 2020-03-03 07:02:31.007000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:48:41.105000000 Z
       title: vote
       description: 
@@ -209,7 +193,7 @@ project:
   order: 1
 - sys:
     id: UJfyuXyQXasahqsdKIV07
-    created_at: !ruby/object:DateTime 2020-03-05 18:49:49.422000000 Z
+    created_at: !ruby/object:DateTime 2020-02-25 22:27:11.772000000 Z
     updated_at: !ruby/object:DateTime 2020-03-06 01:31:29.665000000 Z
     content_type_id: project
     revision: 4
@@ -217,7 +201,7 @@ project:
   hero_image:
     sys:
       id: 7sQg1C3EdlTzklL3YulGY7
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
+      created_at: !ruby/object:DateTime 2020-02-26 06:03:14.316000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
     title: Credibility Coalition
     description: 
@@ -230,7 +214,7 @@ project:
   stories:
   - sys:
       id: 45vAHRb7C95yfC4xPspSvd
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.235000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 22:28:23.080000000 Z
       updated_at: !ruby/object:DateTime 2020-03-31 18:26:46.904000000 Z
       content_type_id: story
       revision: 3
@@ -242,7 +226,7 @@ project:
     lead_image:
       sys:
         id: 4bliYB7Zthb9fivR28r4iL
-        created_at: !ruby/object:DateTime 2020-03-05 18:48:26.965000000 Z
+        created_at: !ruby/object:DateTime 2020-02-25 22:50:30.496000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:48:26.965000000 Z
       title: Happy birthday, CredWeb! Here’s us presenting on our work at the W3C
         Technical Plenary / Advisory Committee meeting in Burlingame, CA on November
@@ -323,7 +307,7 @@ project:
   order: 3
 - sys:
     id: 2IpXGBWrltynhplbhkfG6D
-    created_at: !ruby/object:DateTime 2020-03-05 18:50:00.638000000 Z
+    created_at: !ruby/object:DateTime 2020-02-25 22:41:35.752000000 Z
     updated_at: !ruby/object:DateTime 2020-03-06 01:31:39.497000000 Z
     content_type_id: project
     revision: 4
@@ -331,7 +315,7 @@ project:
   hero_image:
     sys:
       id: 1JitRMENSazZqLtnMzC31C
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:55.970000000 Z
+      created_at: !ruby/object:DateTime 2020-02-26 06:01:31.050000000 Z
       updated_at: !ruby/object:DateTime 2020-03-10 23:10:00.215000000 Z
     title: Pop-Up Newsroom
     description: 
@@ -345,7 +329,7 @@ project:
   stories:
   - sys:
       id: 7jKRIrwtkpkWXs4584YVyZ
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.467000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 22:42:45.916000000 Z
       updated_at: !ruby/object:DateTime 2020-03-31 18:26:51.462000000 Z
       content_type_id: story
       revision: 3
@@ -358,7 +342,7 @@ project:
     lead_image:
       sys:
         id: 3W8CS3yBNno9zBVCHtBA9r
-        created_at: !ruby/object:DateTime 2020-03-05 18:47:59.669000000 Z
+        created_at: !ruby/object:DateTime 2020-02-25 22:44:52.662000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:47:59.669000000 Z
       title: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
       description: "“Florence off the East Coast” by Stuart Rankin (CC BY-NC 2.0)"
@@ -394,7 +378,7 @@ project:
   order: 4
 - sys:
     id: 4ZJUuixM4DCL7IrvAbgd4P
-    created_at: !ruby/object:DateTime 2020-03-05 18:50:10.457000000 Z
+    created_at: !ruby/object:DateTime 2020-02-25 22:46:30.279000000 Z
     updated_at: !ruby/object:DateTime 2020-06-16 22:34:40.971000000 Z
     content_type_id: project
     revision: 5
@@ -402,7 +386,7 @@ project:
   hero_image:
     sys:
       id: 2nW6GqFf50AHuJI42McaGY
-      created_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
     title: 'Digital Health: Fact-checking in an era of misinfodemics'
     description: 'Digital Health: Fact-checking in an era of misinfodemics'
@@ -417,7 +401,7 @@ project:
   stories:
   - sys:
       id: 5yWSBJ4oHKMmIkekWoomZg
-      created_at: !ruby/object:DateTime 2020-03-05 18:44:51.466000000 Z
+      created_at: !ruby/object:DateTime 2020-02-25 07:38:55.348000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:44:51.466000000 Z
       content_type_id: story
       revision: 1
@@ -429,7 +413,7 @@ project:
     lead_image:
       sys:
         id: 2nW6GqFf50AHuJI42McaGY
-        created_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
+        created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
         updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
       title: 'Digital Health: Fact-checking in an era of misinfodemics'
       description: 'Digital Health: Fact-checking in an era of misinfodemics'
@@ -445,3 +429,45 @@ project:
       and innovate around the way we approach health misinformation.\n\n[Read the
       report](https://health.meedan.com/primer.pdf)."
   order: 2
+- sys:
+    id: 1qNyYdbk1y7nt1zzo18Yyl
+    created_at: !ruby/object:DateTime 2020-02-25 22:47:23.980000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-06 01:31:46.979000000 Z
+    content_type_id: project
+    revision: 2
+  title: Content Moderation Project
+  hero_image:
+    sys:
+      id: 6TfRuAKJj6golgGhzEl8eS
+      created_at: !ruby/object:DateTime 2020-02-27 02:37:40.031000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
+    title: Content Moderation Project
+    description: Kat Lo
+    url: "//images.ctfassets.net/g118h5yoccvd/6TfRuAKJj6golgGhzEl8eS/a92c80a091313c5bce69f571dc5bd7d7/projects-content-moderation-project-3.png"
+  short_description: Collaborating with stakeholders in academia, policy, and civil
+    society groups to develop clear pathways to responsible content moderation for
+    technology platforms. Applied research with civil society organizations and human
+    rights responders help us better understand varying experiences with content moderation
+    and allow us to identify points of intervention.
+  slug: content-moderation-project
+  order: 5
+- sys:
+    id: 3cCWgjiaPDeRHUen8SeClJ
+    created_at: !ruby/object:DateTime 2020-06-23 20:47:57.852000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-24 01:11:45.903000000 Z
+    content_type_id: project
+    revision: 1
+  title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+  hero_image:
+    sys:
+      id: 5wkwfNNTjvV1Cgf2FAQFD4
+      created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+  short_description: 'A "misinfodemic" is what happens when online misinformation
+    contributes to real-world disease. This interdisciplinary collection of reporting
+    and analysis seeks to map the anatomy of the COVID-19 misinfodemic. '
+  links: "- [Read the report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)\n"
+  slug: 2020-misinfodemic-report-covid-19-in-emerging-economies

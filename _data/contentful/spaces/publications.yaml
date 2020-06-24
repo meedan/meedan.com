@@ -3,80 +3,97 @@ publication:
 - sys:
     id: 2lQKVWqTIPTns0oj5UA78S
     created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-17 02:57:34.527000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-24 01:28:44.493000000 Z
     content_type_id: publication
-    revision: 0
-  title: 'Data Craft: The Manipulation of Social Media Metadata'
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: publication
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+  short_title: 2020 Misinfodemic Report
   kicker: A Check Global Report
-  description: Data Craft analyzes how bad actors manipulate metadata to create effective
-    disinformation campaigns and provides tips for researchers and technology companies
-    trying to spot this “data craft.”
-  slug: data-craft-the-manipulation-of-social-media-metadata
+  description: 'Misinfodemic: when online misinformation contributes to real-world
+    disease. In the coming months, Meedan will publish eight pieces of reporting and
+    anaylsis in an effort to map the anatomy of the global COVID-19 information ecosystem.'
+  slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
   sections:
-  - sys:
-      id: 1jkEcTAbvK0Y7O1NmysvKT
-      created_at: !ruby/object:DateTime 2020-06-15 20:05:11.826000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-15 23:01:52.123000000 Z
-      content_type_id: section
-      revision: 0
-    title: Informal Information Leaders
-    section_description: The pandemic has shown Americans how far apart they are.
-      But out of this crisis there’s a chance to build a better nation.
-    modules:
-    - sys:
-        id: 1pgnNHzGfRTq0Mzq5PkaYA
   - sys:
       id: 6K6TuAvZBDXdJATv8SynCi
       created_at: !ruby/object:DateTime 2020-06-15 20:42:10.413000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-15 23:02:47.319000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:11:04.378000000 Z
       content_type_id: section
-      revision: 0
+      revision: 1
     title: Public Trust and the Pandemic
-    section_description: Cities have stopped being the engines of growth and opportunity
-      they once were. Now is the time to invest in fixing them.
+    section_description: 'In some countries, an erosion of public trust has set a
+      stage for confusion and information chaos during the COVID-19 pandemic. '
     modules:
     - sys:
         id: 5zfSBJOSEBW5bT7Zt7Sh6m
-  author:
   - sys:
-      id: 4JqOrlVgCscDebeRwxYBu8
-      created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Nat Gyenes
-    staff: true
-    role: Program Director, Digital Health Lab
-    location: On the Road
-  - sys:
-      id: 1uaMTril4FB8NxxRTKwLDH
-      created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Megan Marrelli
-    staff: true
-    location: New York
-    role: Program Manager
-  publication_promo: 'This report is part of a special project of Meedan’s Digital
-    Health Lab about the COVID-19 misinformation on the internet.
-
-    '
+      id: 1jkEcTAbvK0Y7O1NmysvKT
+      created_at: !ruby/object:DateTime 2020-06-15 20:05:11.826000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:11:18.395000000 Z
+      content_type_id: section
+      revision: 1
+    title: Informal Information Leaders
+    section_description: Individuals are turning to informal and unofficial sources
+      of health information, such as online forums, religious leaders and private
+      messaging apps.
+    modules:
+    - sys:
+        id: 1pgnNHzGfRTq0Mzq5PkaYA
+  cover_image:
+    sys:
+      id: Tu2ovEuxh8gztQD9kuF0G
+      created_at: !ruby/object:DateTime 2020-06-23 05:08:56.807000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/Tu2ovEuxh8gztQD9kuF0G/0f5da326dfe06869775caf1002c330e6/meedan_report_2020-infodemic-report_01.png"
+  publication_promo_graphic:
+    sys:
+      id: 5wkwfNNTjvV1Cgf2FAQFD4
+      created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+  social_card_image:
+    sys:
+      id: 5L7KfUhYU7lqikodPkJoQQ
+      created_at: !ruby/object:DateTime 2020-06-22 23:00:20.044000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png"
+  publication_promo: This report is part of a Check Global Report about [COVID-19
+    in Emerging Economies](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/).
   color:
     sys:
       id: 43kw5bcVj1xtfe7ua88F6V
       created_at: !ruby/object:DateTime 2020-06-15 23:52:33.585000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-15 23:53:15.936000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 01:05:50.629000000 Z
       content_type_id: color
-      revision: 0
+      revision: 1
     name: Pale Pink
     value: "#FFB2B2"
     thumbnail:
       sys:
         id: 6audU50SjICTVxbrdWcY8s
         created_at: !ruby/object:DateTime 2020-06-15 23:53:10.219000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-15 23:53:22.372000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:47.220000000 Z
       title: ffb2b2
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/6audU50SjICTVxbrdWcY8s/b440cade936973205487d25e7914cd33/ffb2b2.png"
     text: "#262626"
+  image: https://images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png

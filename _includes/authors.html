@@ -1,0 +1,14 @@
+{% assign authors = include.data %}
+{% assign contributors = site.data.contentful.spaces.contributors.contributor %}
+{% for a in authors %}
+   {% if authors.size == 1 %}
+        {{ a.name }} 
+   {% endif %}
+   {% if authors.size > 1 %}
+        {% if forloop.last %}
+            {{ a.name | append: "" }} 
+        {% else %}
+            {{ a.name | append: ", " }} 
+        {% endif %}
+    {% endif %}
+{% endfor %}

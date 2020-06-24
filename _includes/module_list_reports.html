@@ -1,0 +1,46 @@
+{% 
+    assign reports = site.data.contentful.spaces.reports.report 
+    | where_exp: "item","item.publication[0].sys.id == page.sys.id"
+%}
+<div class="report-list-wrapper">
+    <div class="report-list-item">
+        <div class="report-list-item-row report-list-item-row-header"></a>
+            <span></span>
+            <span>Title</span>
+            <span>Authors</span>
+            <span>Date</span>
+        </div>
+    </div>
+    
+    {% for report in reports %}
+    {% for r in module.reports %}
+        {% if r.sys.id == report.sys.id %}
+            <div class="report-list-item">
+                <a class="report-list-item-row report-link" href="/reports/{{ report.slug }}">
+                    <span>0{{ forloop.index }}</span>
+                    <div class="image-wrapper">
+                        <img class="report-image" src="{{ report.lead_image.url }}" />
+                    </div>
+                    <span class="report-title">
+                        {{ report.title }} 
+                    </span>
+                    <span class="report-byline">
+                        {% 
+                            include authors.html 
+                            data=report.author 
+                        %}
+                    </span>
+                    <span>
+                        {% if report.alt_date %}
+                            {% assign published_on = report.alt_date %}
+                        {% else %}
+                            {% assign published_on = report.sys.created_at %}
+                        {% endif %}
+                        {{ published_on | date: "%-d %B %Y" }}
+                    </span>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>

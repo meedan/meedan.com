@@ -1,0 +1,78 @@
+---
+lang: en-US
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="site story report">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include report_header.html theme="dark" %}
+        <section>
+            <div class="story-wrapper section-margin">
+                {{ page.body | markdownify }}
+                <div class="report-sidebar">
+                    <div class="report-sidebar-item">
+                        <a href="/reports/{{ page.publication[0].slug}}" title="{{ page.publication[0].title }}">
+                            <img src="{{ page.publication[0].publication_promo_graphic.url }}" alt="{{ page.publication[0].title }}" />
+                        </a>
+                    </div>
+                    <div class="report-sidebar-item">
+                        {{ page.publication[0].publication_promo | markdownify }}
+                    </div>
+                </div>
+            </div>
+            <div class="report-footer section-margin">
+                {% if page.footnotes %}
+                    <div class="report-footer-item report-footnotes">
+                        <span>Footnotes</span>
+                        <span>
+                            <ol>
+                                {% for footnote in page.footnotes %}
+                                    <li id="fn{{ forloop.index }}">{{ footnote.body | markdownify }} <a href="#fnref{{ forloop.index }}">↩︎</a></li>
+                                {% endfor %}
+                            </ol>
+                        </span>
+                    </div>
+                {% endif %}
+                {% if page.references %}
+                    <div class="report-footer-item report-references">
+                        <span>References</span>
+                        <span>{{ page.references | markdownify }}</span>
+                    </div>
+                {% endif %}
+                {% if page.author %}
+                    <div class="report-footer-item report-authors">
+                        <span>Authors</span>
+                        <span>
+                        {% 
+                            include authors_with_bios.html 
+                            data=page.author 
+                        %}
+                        </span>
+                    </div>
+                {% endif %}
+                {% if page.organization %}
+                    <div class="report-footer-item">
+                        <span>Organization</span>
+                        <span>{{ page.organization }}</span>
+                    </div>
+                {% endif %}
+                <div class="report-footer-item">
+                    {% if page.alt_date %}
+                        {% assign published_on = page.alt_date %}
+                    {% else %}
+                        {% assign published_on = page.sys.created_at %}
+                    {% endif %}
+                    <span>Published on</span> <span>{{ published_on | date: "%-d %B %Y" }}</span>
+                </div>
+            </div>
+            {% include footer_small_newsletter.html %}
+        </section>
+    </div>
+    <!-- {% include footer_nav.html %} -->
+    {% include js.html %}
+</body>
+
+</html>

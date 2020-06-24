@@ -1,0 +1,47 @@
+{% assign theme_class = include.theme | default: '' %}
+<header class="header{% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}">
+    <a class="menu">
+        <span class="meedan">
+            {% include meedan_ribbon.html %}
+        </span>
+        <span class="menu-icon">
+            {% include icon_menu.html %}
+        </span>
+    </a>
+    <h1><a href="/reports/{{ page.publication[0].slug }}">{{ page.publication[0].short_title }}</a></h1>
+    <div class="title-wrapper">
+        <div class="title-container">
+            <span class="title" style="color: {{ page.color.value }}">{{ page.title }}</span>
+            <span class="intro" style="color: {{ page.color.value }}">{{ page.description }}</span>
+            <div class="meta">
+                <span class="byline">
+                    {% 
+                        include authors.html 
+                        data=page.author 
+                    %}
+                </span>
+                {% if page.organization %}
+                    <span class="org">{{ page.organization }}</span>
+                {% endif %}
+            </div>
+            <figure class="report-graphic no-margin">
+                <img class="lead_image" alt="{{ page.lead_image.title }}" src="{{ page.lead_image.url }}" />
+                <figcaption class="">
+                    {{ page.lead_image.description }}
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    {% if page.callout %}
+    <svg id="text-container" class="callout" width="618" height="663" viewBox="0 0 618 663" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="text-curve"d="M0 1H445C502.333 1.66667 617 16 617 151C617 269.4 617 663 617 663" stroke="none"/>
+        <text width="100%">
+            <textPath id="text-path" href="#text-curve" startOffset="460">
+                {{ page.callout }}
+            </textPath>
+        </text>
+    </svg>
+    {% endif; %}
+    {% include nav_overlay.html %}
+    {% include cursor.html %}
+</header>
