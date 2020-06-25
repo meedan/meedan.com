@@ -34,6 +34,11 @@
     a:not(:last-child) {
         margin-right: var(--space-3);
     }
+    a:last-child {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .module-product-disclaimer {
