@@ -1741,9 +1741,9 @@ story:
 - sys:
     id: 38X6lHkUvHetZVWZRMY4rI
     created_at: &9 !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-15 20:01:12.358000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-25 03:50:48.719000000 Z
     content_type_id: story
-    revision: 3
+    revision: 4
     space:
       sys:
         id: g118h5yoccvd
@@ -1781,13 +1781,14 @@ story:
     description: 
     title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
     url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
-  body: "### The 2020 Global Misinfodemic Report examines the impact of COVID-19 outside
-    of the Global North\n\nMeedan is pleased to announce the 2020 Global Misinfodemic
-    Report, a multidisciplinary, transnational collaboration of information scholars,
-    legal experts, journalists and fact-checkers, focused on examining the impacts
-    of COVID-19 misinformation in Kenya, South Korea, Iran, India, Hong Kong, Brazil
-    and other regions. Working with scholars, verification experts and journalists
-    from major academic institutions, broadcasting stations and fact-checking organizations,
+  body: "### The [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
+    examines the impact of COVID-19 outside of the Global North\n\nMeedan is pleased
+    to announce the [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/),
+    a multidisciplinary, transnational collaboration of information scholars, legal
+    experts, journalists and fact-checkers, focused on examining the impacts of COVID-19
+    misinformation in Kenya, South Korea, Iran, India, Hong Kong, Brazil and other
+    regions. Working with scholars, verification experts and journalists from major
+    academic institutions, broadcasting stations and fact-checking organizations,
     the Global Misinfodemic Report is an investigation into the way this unprecedented
     viral event is both reforming and confirming the state of our global information
     ecosystem. \n\nIn late 2019 and early 2020, as countries worked to contain the
@@ -1838,9 +1839,9 @@ story:
     weans and citizens look to sometimes misguided informal leaders for answers to
     complex scientific information. \n\nAs both the physical and online virus rages
     on into the summer, the Global Misinfodemic Report will begin publishing groups
-    of articles from contributors around the world. Look back here or [sign up for
-    our newsletter](https://meedan.com/checklist) for updates on when to expect the
-    first batch of articles. "
+    of articles from contributors around the world. [See the most recent reports](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
+    and [sign up for our newsletter](https://meedan.com/checklist) for updates on
+    when to expect the next batch of articles. "
   words_by:
     en-US:
     - sys:
@@ -3845,44 +3846,11 @@ story:
   alt_date: *18
   alt_date_string: '2020-06-21'
 - sys:
-    id: 4C9LI4VisMu2O1xXlhO5XB
-    created_at: &19 !ruby/object:DateTime 2020-06-22 12:54:03.320000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-22 13:04:00.868000000 Z
-    content_type_id: story
-    revision: 0
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: story
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-  title: The evolution of fact-checking on WhatsApp
-  slug: the-evolution-of-fact-checking-on-whatsapp
-  body: "What: As communications and sharing increasingly shift to private services
-    like WhatsApp, hear about the obstacles fact-checkers have overcome to help users
-    verify potential misinformation.\n\nWhen: June 25, 2020\n10:30pm-11:30pm Manila
-    \n8pm-9pm New Delhi\n12pm-13pm New York \n\n\nWhere: Live on [YouTube](https://www.youtube.com/watch?v=9IJjpi6yylw&feature=youtu.be),
-    [Facebook](https://www.facebook.com/factchecknet) & [Twitter](https://twitter.com/factchecknet)\n\nWho:
-    \nModerator\nShalini Joshi | Meedan, Program Director, APAC\n\nPanelists\nBaybars
-    Örsek | International Fact-Checking Network, Director\nKate Wilkinson | Africa
-    Check, Deputy Chief Editor\nLouis Moynihan | WhatsApp, Product Business Development\nGovindiraj
-    Ethiraj | Boom, Founder"
-  date: '2020-06-22'
-  title-en: The evolution of fact-checking on WhatsApp
-  alt_date: *19
-  alt_date_string: '2020-06-22'
-- sys:
     id: 3LXzHMwn8OxgdqOOXWp6es
     created_at: !ruby/object:DateTime 2020-06-23 18:28:58.088000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-24 15:31:08.579000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-25 03:51:57.414000000 Z
     content_type_id: story
-    revision: 11
+    revision: 14
     space:
       sys:
         id: g118h5yoccvd
@@ -3895,32 +3863,42 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'Press Release: Nigeria Health Watch Partners with Meedan to counter COVID-19
-    misinformation in Nigeria'
+  title: Nigeria Health Watch Partners with Meedan to counter COVID-19 misinformation
+    in Nigeria
   slug: press-release-nigeria-health-watch-partners-with-meedan
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
   lead_image:
     en-US:
       sys:
-        id: 6lQZfnF5keEP23Ew2gCq3X
-        created_at: !ruby/object:DateTime 2020-06-24 15:30:47.990000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-24 15:31:04.676000000 Z
-      title: Meedan+Nigeria-Health-Watch
+        id: 15E6dA8YNcbA2cxyE0EaMU
+        created_at: !ruby/object:DateTime 2020-06-24 15:43:58.937000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 15:48:44.654000000 Z
+      title: Meedan+Nigeria-Health-Watch 2
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6lQZfnF5keEP23Ew2gCq3X/7a0e7e925f1abdbac2ece51cfb81db40/Meedan_Nigeria-Health-Watch.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/15E6dA8YNcbA2cxyE0EaMU/98f2d7c2d7ff716da2fb4a4bfd8c3f92/Meedan_Nigeria-Health-Watch_2.png"
     description: 
-    title: Meedan+Nigeria-Health-Watch
-    url: "//images.ctfassets.net/g118h5yoccvd/6lQZfnF5keEP23Ew2gCq3X/7a0e7e925f1abdbac2ece51cfb81db40/Meedan_Nigeria-Health-Watch.jpg"
-  body: "__June 23, 2020__ — Today the health communications organization [Nigeria
-    Health Watch](https://nigeriahealthwatch.com/) and Meedan announce a partnership
-    to counter misinformation around COVID-19 and other public health challenges in
-    Nigeria. This partnership will take place through Meedan's [COVID-19 Expert Database](https://learnaboutcovid19.org/).
-    \n\nThe spread of misinformation during disease outbreaks is a global issue. False
-    or misleading information around disease prevention, treatment and cures can can
-    cause confusion and panic, and can be dangerous to public health. There is there
-    an urgent need for collaboration to address widespread health misinformation as
-    governments tackle the double epidemic of misinformation and COVID-19.\n\nThrough
-    the partnership, potentially false or misleading COVID-19 claims will be identified,
-    and Nigeria Health Watch will leverage Meedan’s [team of experts](https://learnaboutcovid19.org/about/)
+    title: Meedan+Nigeria-Health-Watch 2
+    url: "//images.ctfassets.net/g118h5yoccvd/15E6dA8YNcbA2cxyE0EaMU/98f2d7c2d7ff716da2fb4a4bfd8c3f92/Meedan_Nigeria-Health-Watch_2.png"
+  body: "Today the health communications organization [Nigeria Health Watch](https://nigeriahealthwatch.com/)
+    and Meedan announce a partnership to counter misinformation around COVID-19 and
+    other public health challenges in Nigeria. This partnership will take place through
+    Meedan's [COVID-19 Expert Database](https://learnaboutcovid19.org/). \n\nThe spread
+    of misinformation during disease outbreaks is a global issue. False or misleading
+    information around disease prevention, treatment and cures can can cause confusion
+    and panic, and can be dangerous to public health. There is there an urgent need
+    for collaboration to address widespread health misinformation as governments tackle
+    the double epidemic of misinformation and COVID-19.\n\nThrough the partnership,
+    potentially false or misleading COVID-19 claims will be identified, and Nigeria
+    Health Watch will leverage Meedan’s [team of experts](https://learnaboutcovid19.org/about/)
     to produce multimedia messages that debunk misinformation around the virus. The
     multimedia messages will include critical context and background information that
     is key to safely communicating debunks to misinformation. The project will apply
@@ -3948,7 +3926,125 @@ story:
     and [health.meedan.com](https://health.meedan.com/) \n"
   alt_date: !ruby/object:DateTime 2020-06-23 00:00:00.000000000 Z
   date: '2020-06-23'
-  image: https://images.ctfassets.net/g118h5yoccvd/6lQZfnF5keEP23Ew2gCq3X/7a0e7e925f1abdbac2ece51cfb81db40/Meedan_Nigeria-Health-Watch.jpg
-  title-en: 'Press Release: Nigeria Health Watch Partners with Meedan to counter COVID-19
-    misinformation in Nigeria'
+  image: https://images.ctfassets.net/g118h5yoccvd/15E6dA8YNcbA2cxyE0EaMU/98f2d7c2d7ff716da2fb4a4bfd8c3f92/Meedan_Nigeria-Health-Watch_2.png
+  title-en: Nigeria Health Watch Partners with Meedan to counter COVID-19 misinformation
+    in Nigeria
   alt_date_string: '2020-06-23'
+- sys:
+    id: 0Vo4bEALC4mzMRdyHHQFR
+    created_at: &19 !ruby/object:DateTime 2020-06-25 02:41:51.084000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-25 16:01:47.606000000 Z
+    content_type_id: story
+    revision: 5
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Insights from 5,700 Fact-Checks on the WhatsApp Business API
+  slug: insights-from-5-700-fact-checks-on-the-whatsapp-business-api
+  topic:
+    en-US:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Technology
+  lead_image:
+    en-US:
+      sys:
+        id: 6BXH5Hr5n3ujFZFacGuJS3
+        created_at: !ruby/object:DateTime 2020-06-25 02:48:08.095000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-25 02:50:15.019000000 Z
+      title: 
+      description: A chart showing nearly 5,700 fact-checks in 5 months across India,
+        Brazil, South Africa, Kenya and Nigeria through cumulative number of unique
+        fact-checks from December through May
+      url: "//images.ctfassets.net/g118h5yoccvd/6BXH5Hr5n3ujFZFacGuJS3/64946158b5c72ae22c9671ba616d87c3/Golobal_Check_-_case_study_02.png"
+    description: A chart showing nearly 5,700 fact-checks in 5 months across India,
+      Brazil, South Africa, Kenya and Nigeria through cumulative number of unique
+      fact-checks from December through May
+    title: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6BXH5Hr5n3ujFZFacGuJS3/64946158b5c72ae22c9671ba616d87c3/Golobal_Check_-_case_study_02.png"
+  body: "Today at [Global Fact 7](https://virtual.globalfact7.com/), the largest worldwide
+    gathering of fact-checkers, global technology not-for-profit Meedan announced
+    a case study of a global fact-checking project using the [WhatsApp Business API](https://www.whatsapp.com/business/api).
+    The groundbreaking study is based on nearly 5,700 fact-checks across India, Brazil,
+    South Africa, Kenya and Nigeria and was made possible with support from WhatsApp
+    and Facebook. \n\n<p class=\"text-align--center\">\n<a class=\"button no-margin\"
+    href=\"https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact\">Download
+    the full report: End-to-End Fact-Checking</a>\n</p>\n\nFor the project, Meedan
+    developed several software features on [Check](https://www.meedan.com/check),
+    a web application for journalists to verify and annotate online information for
+    open-source investigations, that were customized specifically for global fact-checking
+    organizations and deployed by the AFP (in Brazil and India), Africa Check, BOOM
+    and India Today. They have  been running since October 2019 across 4 languages
+    and more than 180,000 submissions, including ongoing submissions today. \n\nThe
+    report, called [End-to-End Fact-Checking](https://meedan.com/files/Meedan_Global-Fact_Whatsapp-Pilot-Case-Study.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact),
+    details the insights, field research and product features made that maximized
+    the value of the API for fact checkers around the world; it’s name is a reference
+    to the program’s ability to successfully fact-check on the end-to-end encrypted
+    service.   \n\n“Fact-checkers working globally have a variety of needs, so we
+    built tools that optimize workflows and the nuances of AI in order to create a
+    roadmap for improving fact-checking and information integrity across the web,”
+    said Ed Bice, CEO, Meedan. “This effort has been highly collaborative, and we
+    appreciate the support and guidance that we were given from the teams at AFP,
+    Africa Check, BOOM and India Today in particular.”\n\nThe report offers the following
+    core insights:\n\n#### Bots are the new audience engagement paradigm. \nA WhatsApp
+    Fact-Checking bot can serve three purposes: (1) help audiences understand how
+    to interact with the fact-checking team and see commonly-requested content, (2)
+    serve as a bridge between a human editor and someone submitting content to a tipline
+    and (3) cut down on unactionable content.\n\n#### Machines in the loop augment
+    quality human efforts.\nCheck helps fact-checkers do their jobs more efficiently
+    and effectively.\n\n#### Follow the news cycle.\nNewsrooms learned that a topic-oriented
+    approach to tipline promotion following the news cycle yields stronger audience
+    engagement and submissions. After the outbreak of COVID-19, we saw an uptick in
+    the percentage of quality, actionable content, in turn generating better fact-checks.\n\n####
+    Fact-checkers need no-nonsense, no-code interfaces in multiple languages.\nWe
+    adapted our toolkit to help fact-checkers focus on the fact-checking rather rather
+    than technical tasks. This enabled teams to customize their workflows.\n\n“We
+    used to get inundated by the thousands of messages that people would send us on
+    WhatsApp,” said Balkrishna, fact-checking editor at [India Today](https://www.indiatoday.in/).
+    “Check has not only made it possible for us to sift through the fact-check requests
+    quickly, it also helped deliver most of our readers with fast and personalized
+    responses. This helps us build a direct bond of trust with our audience.” \n\n“Check
+    really improved the way we communicate with our readers on WhatsApp,” said María
+    Clara Pestre, a fact-checker at [AFP Checamos](https://checamos.afp.com/) (Brazil).
+    “Now, we can be sure anyone who reaches out through the app will have an immediate
+    and consistent reply, while having time to dedicate ourselves to other parts of
+    the verification process.”\n\n“We’re excited to work with partners like Meedan
+    to help address the challenge of misinformation within private messaging. Our
+    approach is to give users tools to easily get accurate information and support
+    fact checking,” said Ben Supple, head of civic engagement at WhatsApp. “We appreciate
+    and value the work done to maximize the WhatsApp Business API for fact checkers
+    and ensure more people have access to accurate information at the click of a button.”\n\nMeedan
+    presented this study at Global Fact 7, with representatives from WhatsApp, the
+    International Fact Checking Network, Boom and Africa Check. To support this work,
+    Meedan developed a number of key software features that maximized the WhatsApp
+    Business API with a mix of AI, interface and multilingual innovations, including:\n\n-
+    __Multilingual WhatsApp Bot:__ a customizable bot that presents both intuitive
+    menu items and human conversations with fact-checkers in multiple languages\n-
+    __Workflow Automation:__ a triage system to recognize, review and prioritize claims
+    and responses\n- __Similarity Analysis:__ algorithms that detect content patterns
+    and trends based on variations of the same claims\n- __Response at Scale:__ a
+    publishing system to send fact-check reports to tipline users who send duplicate
+    or similar requests\n\n“Our goal with Check,” explained Meedan’s Director of Product
+    Pierre Conti, “is to build a scalable human and AI system for fact-checkers to
+    efficiently size the demand for verification directly from their audience, cut
+    through the noise, and maximize impact by helping them to prioritize their response
+    to the most pressing misinformation.”"
+  date: '2020-06-25'
+  image: https://images.ctfassets.net/g118h5yoccvd/6BXH5Hr5n3ujFZFacGuJS3/64946158b5c72ae22c9671ba616d87c3/Golobal_Check_-_case_study_02.png
+  title-en: Insights from 5,700 Fact-Checks on the WhatsApp Business API
+  alt_date: *19
+  alt_date_string: '2020-06-25'

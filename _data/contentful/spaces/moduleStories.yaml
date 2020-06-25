@@ -3,40 +3,131 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 18:31:24.104000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-25 03:52:45.561000000 Z
     content_type_id: moduleStories
-    revision: 26
+    revision: 28
   title: Blog
   stories:
   - sys:
-      id: 3LXzHMwn8OxgdqOOXWp6es
-      created_at: !ruby/object:DateTime 2020-06-23 18:28:58.088000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-24 15:31:08.579000000 Z
+      id: 0Vo4bEALC4mzMRdyHHQFR
+      created_at: !ruby/object:DateTime 2020-06-25 02:41:51.084000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-25 16:01:47.606000000 Z
       content_type_id: story
-      revision: 11
-    title: 'Press Release: Nigeria Health Watch Partners with Meedan to counter COVID-19
-      misinformation in Nigeria'
-    slug: press-release-nigeria-health-watch-partners-with-meedan
+      revision: 5
+    title: Insights from 5,700 Fact-Checks on the WhatsApp Business API
+    slug: insights-from-5-700-fact-checks-on-the-whatsapp-business-api
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
     lead_image:
       sys:
-        id: 6lQZfnF5keEP23Ew2gCq3X
-        created_at: !ruby/object:DateTime 2020-06-24 15:30:47.990000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-24 15:31:04.676000000 Z
-      title: Meedan+Nigeria-Health-Watch
+        id: 6BXH5Hr5n3ujFZFacGuJS3
+        created_at: !ruby/object:DateTime 2020-06-25 02:48:08.095000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-25 02:50:15.019000000 Z
+      title: 
+      description: A chart showing nearly 5,700 fact-checks in 5 months across India,
+        Brazil, South Africa, Kenya and Nigeria through cumulative number of unique
+        fact-checks from December through May
+      url: "//images.ctfassets.net/g118h5yoccvd/6BXH5Hr5n3ujFZFacGuJS3/64946158b5c72ae22c9671ba616d87c3/Golobal_Check_-_case_study_02.png"
+    body: "Today at [Global Fact 7](https://virtual.globalfact7.com/), the largest
+      worldwide gathering of fact-checkers, global technology not-for-profit Meedan
+      announced a case study of a global fact-checking project using the [WhatsApp
+      Business API](https://www.whatsapp.com/business/api). The groundbreaking study
+      is based on nearly 5,700 fact-checks across India, Brazil, South Africa, Kenya
+      and Nigeria and was made possible with support from WhatsApp and Facebook. \n\n<p
+      class=\"text-align--center\">\n<a class=\"button no-margin\" href=\"https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact\">Download
+      the full report: End-to-End Fact-Checking</a>\n</p>\n\nFor the project, Meedan
+      developed several software features on [Check](https://www.meedan.com/check),
+      a web application for journalists to verify and annotate online information
+      for open-source investigations, that were customized specifically for global
+      fact-checking organizations and deployed by the AFP (in Brazil and India), Africa
+      Check, BOOM and India Today. They have  been running since October 2019 across
+      4 languages and more than 180,000 submissions, including ongoing submissions
+      today. \n\nThe report, called [End-to-End Fact-Checking](https://meedan.com/files/Meedan_Global-Fact_Whatsapp-Pilot-Case-Study.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact),
+      details the insights, field research and product features made that maximized
+      the value of the API for fact checkers around the world; it’s name is a reference
+      to the program’s ability to successfully fact-check on the end-to-end encrypted
+      service.   \n\n“Fact-checkers working globally have a variety of needs, so we
+      built tools that optimize workflows and the nuances of AI in order to create
+      a roadmap for improving fact-checking and information integrity across the web,”
+      said Ed Bice, CEO, Meedan. “This effort has been highly collaborative, and we
+      appreciate the support and guidance that we were given from the teams at AFP,
+      Africa Check, BOOM and India Today in particular.”\n\nThe report offers the
+      following core insights:\n\n#### Bots are the new audience engagement paradigm.
+      \nA WhatsApp Fact-Checking bot can serve three purposes: (1) help audiences
+      understand how to interact with the fact-checking team and see commonly-requested
+      content, (2) serve as a bridge between a human editor and someone submitting
+      content to a tipline and (3) cut down on unactionable content.\n\n#### Machines
+      in the loop augment quality human efforts.\nCheck helps fact-checkers do their
+      jobs more efficiently and effectively.\n\n#### Follow the news cycle.\nNewsrooms
+      learned that a topic-oriented approach to tipline promotion following the news
+      cycle yields stronger audience engagement and submissions. After the outbreak
+      of COVID-19, we saw an uptick in the percentage of quality, actionable content,
+      in turn generating better fact-checks.\n\n#### Fact-checkers need no-nonsense,
+      no-code interfaces in multiple languages.\nWe adapted our toolkit to help fact-checkers
+      focus on the fact-checking rather rather than technical tasks. This enabled
+      teams to customize their workflows.\n\n“We used to get inundated by the thousands
+      of messages that people would send us on WhatsApp,” said Balkrishna, fact-checking
+      editor at [India Today](https://www.indiatoday.in/). “Check has not only made
+      it possible for us to sift through the fact-check requests quickly, it also
+      helped deliver most of our readers with fast and personalized responses. This
+      helps us build a direct bond of trust with our audience.” \n\n“Check really
+      improved the way we communicate with our readers on WhatsApp,” said María Clara
+      Pestre, a fact-checker at [AFP Checamos](https://checamos.afp.com/) (Brazil).
+      “Now, we can be sure anyone who reaches out through the app will have an immediate
+      and consistent reply, while having time to dedicate ourselves to other parts
+      of the verification process.”\n\n“We’re excited to work with partners like Meedan
+      to help address the challenge of misinformation within private messaging. Our
+      approach is to give users tools to easily get accurate information and support
+      fact checking,” said Ben Supple, head of civic engagement at WhatsApp. “We appreciate
+      and value the work done to maximize the WhatsApp Business API for fact checkers
+      and ensure more people have access to accurate information at the click of a
+      button.”\n\nMeedan presented this study at Global Fact 7, with representatives
+      from WhatsApp, the International Fact Checking Network, Boom and Africa Check.
+      To support this work, Meedan developed a number of key software features that
+      maximized the WhatsApp Business API with a mix of AI, interface and multilingual
+      innovations, including:\n\n- __Multilingual WhatsApp Bot:__ a customizable bot
+      that presents both intuitive menu items and human conversations with fact-checkers
+      in multiple languages\n- __Workflow Automation:__ a triage system to recognize,
+      review and prioritize claims and responses\n- __Similarity Analysis:__ algorithms
+      that detect content patterns and trends based on variations of the same claims\n-
+      __Response at Scale:__ a publishing system to send fact-check reports to tipline
+      users who send duplicate or similar requests\n\n“Our goal with Check,” explained
+      Meedan’s Director of Product Pierre Conti, “is to build a scalable human and
+      AI system for fact-checkers to efficiently size the demand for verification
+      directly from their audience, cut through the noise, and maximize impact by
+      helping them to prioritize their response to the most pressing misinformation.”"
+  - sys:
+      id: 3LXzHMwn8OxgdqOOXWp6es
+      created_at: !ruby/object:DateTime 2020-06-23 18:28:58.088000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-25 03:51:57.414000000 Z
+      content_type_id: story
+      revision: 14
+    title: Nigeria Health Watch Partners with Meedan to counter COVID-19 misinformation
+      in Nigeria
+    slug: press-release-nigeria-health-watch-partners-with-meedan
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 15E6dA8YNcbA2cxyE0EaMU
+        created_at: !ruby/object:DateTime 2020-06-24 15:43:58.937000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 15:48:44.654000000 Z
+      title: Meedan+Nigeria-Health-Watch 2
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6lQZfnF5keEP23Ew2gCq3X/7a0e7e925f1abdbac2ece51cfb81db40/Meedan_Nigeria-Health-Watch.jpg"
-    body: "__June 23, 2020__ — Today the health communications organization [Nigeria
-      Health Watch](https://nigeriahealthwatch.com/) and Meedan announce a partnership
-      to counter misinformation around COVID-19 and other public health challenges
-      in Nigeria. This partnership will take place through Meedan's [COVID-19 Expert
-      Database](https://learnaboutcovid19.org/). \n\nThe spread of misinformation
-      during disease outbreaks is a global issue. False or misleading information
-      around disease prevention, treatment and cures can can cause confusion and panic,
-      and can be dangerous to public health. There is there an urgent need for collaboration
-      to address widespread health misinformation as governments tackle the double
-      epidemic of misinformation and COVID-19.\n\nThrough the partnership, potentially
-      false or misleading COVID-19 claims will be identified, and Nigeria Health Watch
-      will leverage Meedan’s [team of experts](https://learnaboutcovid19.org/about/)
+      url: "//images.ctfassets.net/g118h5yoccvd/15E6dA8YNcbA2cxyE0EaMU/98f2d7c2d7ff716da2fb4a4bfd8c3f92/Meedan_Nigeria-Health-Watch_2.png"
+    body: "Today the health communications organization [Nigeria Health Watch](https://nigeriahealthwatch.com/)
+      and Meedan announce a partnership to counter misinformation around COVID-19
+      and other public health challenges in Nigeria. This partnership will take place
+      through Meedan's [COVID-19 Expert Database](https://learnaboutcovid19.org/).
+      \n\nThe spread of misinformation during disease outbreaks is a global issue.
+      False or misleading information around disease prevention, treatment and cures
+      can can cause confusion and panic, and can be dangerous to public health. There
+      is there an urgent need for collaboration to address widespread health misinformation
+      as governments tackle the double epidemic of misinformation and COVID-19.\n\nThrough
+      the partnership, potentially false or misleading COVID-19 claims will be identified,
+      and Nigeria Health Watch will leverage Meedan’s [team of experts](https://learnaboutcovid19.org/about/)
       to produce multimedia messages that debunk misinformation around the virus.
       The multimedia messages will include critical context and background information
       that is key to safely communicating debunks to misinformation. The project will
@@ -64,6 +155,92 @@ moduleStories:
       addressing health misinformation. Learn more at [meedan.com](https://www.meedan.com)
       and [health.meedan.com](https://health.meedan.com/) \n"
     alt_date: !ruby/object:DateTime 2020-06-23 00:00:00.000000000 Z
+  - sys:
+      id: 38X6lHkUvHetZVWZRMY4rI
+      created_at: !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-25 03:50:48.719000000 Z
+      content_type_id: story
+      revision: 4
+    title: 'Exploring COVID-19 in Emerging Economies: Announcing the 2020 Global Misinfodemic
+      Report'
+    slug: global-misinfodemic-report
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    body: "### The [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
+      examines the impact of COVID-19 outside of the Global North\n\nMeedan is pleased
+      to announce the [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/),
+      a multidisciplinary, transnational collaboration of information scholars, legal
+      experts, journalists and fact-checkers, focused on examining the impacts of
+      COVID-19 misinformation in Kenya, South Korea, Iran, India, Hong Kong, Brazil
+      and other regions. Working with scholars, verification experts and journalists
+      from major academic institutions, broadcasting stations and fact-checking organizations,
+      the Global Misinfodemic Report is an investigation into the way this unprecedented
+      viral event is both reforming and confirming the state of our global information
+      ecosystem. \n\nIn late 2019 and early 2020, as countries worked to contain the
+      first signs of the physical virus spreading, a secondary crisis occured: misinformation
+      on platforms like Twitter, Facebook and WhatsApp contributed to [confusion](https://www.cbc.ca/news/technology/coronavirus-avoid-sharing-social-media-disinformation-1.5497000),
+      [panic](https://www.reuters.com/article/us-health-coronavirus-disinformation/russia-deploying-coronavirus-disinformation-to-sow-panic-in-west-eu-document-says-idUSKBN21518F),
+      and sometimes real world physical health outcomes, including [death](https://www.bbc.com/news/world-middle-east-51677530).
+      \n\nIn a recent [video broadcast](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity),
+      UN Secretary-General António Guterres acknowledged “This is a time for science
+      and solidarity. Yet the global ‘misinfo-demic’ is spreading. Harmful health
+      advice and snake-oil solutions are proliferating. Falsehoods are filling the
+      airwaves. Wild conspiracy theories are infecting the Internet. Hatred is going
+      viral, stigmatizing and vilifying people and groups. The world must unite against
+      this disease, too.”\n\nA misinfodemic is a term coined by Meedan researchers
+      in [the Atlantic in 2018](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/),
+      and it is defined as a phenomenon that takes place when online misinformation
+      leads to the spread of disease. The COVID-19 misinfodemic will complicate our
+      interactions with our neighbours and our own bodies long after a treatment is
+      approved or a vaccine is developed for the physical disease. \n\nThe report
+      touches on these key questions:\n\n- What types of COVID-19 misinformation are
+      spreading online, and by whom?\n- Why is COVID-19 misinformation resonating
+      with certain communities? \n- What are the varying impacts of that misinformation
+      on  public health outcomes in different parts of the world, especially emerging
+      economies?\n- What digital governance and policy issues are raised by COVID-19?\n\nThe
+      first wave of the pandemic is beginning to settle in large parts of the developed
+      world, but in emerging economies, the crisis may be just beginning. As the New
+      York Times editorial board noted on April 13, 2020: \n\n“What probably lies
+      ahead is the spread of the coronavirus through countries ravaged by conflict,
+      through packed refugee camps and detention centers in places like Syria or Bangladesh,
+      through teeming cities like Mumbai, Rio de Janeiro or Monrovia, where social
+      distancing is impossible and government is not trusted, through countries without
+      the fiscal capacity or health services to mount a viable response.\n\nThat would
+      be disastrous not only for them but also for the rest of the world as supplies
+      of raw materials are disrupted, fragile economies collapse, strongmen grow stronger
+      and the virus doubles back to reinfect northern regions.”\n\nWhat is also likely
+      to ensue, long after countries in North America and Europe control their initial
+      outbreaks, is sustained low-quality and sometimes dangerous information about
+      the pandemic. In Meedan’s own analyses of more than 5,700 submissions to our
+      partners’ fact-checking tiplines between January 1 and April 8, 2020, we watched
+      COVID-19 misinformation evolve in online spaces, including:\n\n- Unproven treatments
+      involving tea, vitamins, hot water, heat, and hydroxychloroquine \n- Misinformation
+      about penalties for spreading misinformation or just spreading information,
+      about the pandemic \n- Xenophobia about different ethnic groups \n\nAll of this
+      misinformation can trigger real-world health outcomes. Some countries are experiencing
+      the most obvious and harmful manifestations of right now, such as in Iran, where
+      [people are dying from drinking Methanol after false and misleading information
+      circulated on social media about its use as a treatment](https://www.ctvnews.ca/health/nearly-500-people-dead-in-iran-after-drinking-methanol-to-fight-off-covid-19-1.4870674).
+      In other regions, the misinfodemic materializes as public trust in leadership
+      weans and citizens look to sometimes misguided informal leaders for answers
+      to complex scientific information. \n\nAs both the physical and online virus
+      rages on into the summer, the Global Misinfodemic Report will begin publishing
+      groups of articles from contributors around the world. [See the most recent
+      reports](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
+      and [sign up for our newsletter](https://meedan.com/checklist) for updates on
+      when to expect the next batch of articles. "
+    words_by:
+    - sys:
+        id: 1uaMTril4FB8NxxRTKwLDH
   - sys:
       id: 4Qi00kygRwhPWFHpbSGFp9
       created_at: !ruby/object:DateTime 2020-06-16 12:51:20.313000000 Z
@@ -128,359 +305,3 @@ moduleStories:
       We are pleased and excited to support five projects from the region, divided between media literacy campaigns, fact-checking initiatives and in-depth investigations. [Radio Medenine](http://radiomedenine.com/), a community radio project based in southern Tunisia, aims to create a digital health program interviewing health experts and providing pressing health information. Award-winning collaborative blog [Nawaat](http://nawaat.org/portail/) ("the core" in Arabic), also from Tunisia, will be sustaining its trilingual fact-checking efforts through our grant over the next month, while media platform [SyriaUntold](https://syriauntold.com/en/) will publish a series of investigative reports about health disparities in Syria. We were also happy to fund an investigation on the state of African refugees in Tangier and a health fact-checking campaign in Egypt.
 
       The above COVID-19 microgrants recipients have given Meedan consent to announce their projects publicly, while others have not been named for security reasons.
-  - sys:
-      id: 2S78uIQGLH0h6pTi0giy6c
-      created_at: !ruby/object:DateTime 2020-06-15 15:54:39.212000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-17 14:54:02.851000000 Z
-      content_type_id: story
-      revision: 5
-    title: We Stand with Maria Ressa
-    slug: we-stand-with-maria-ressa
-    lead_image:
-      sys:
-        id: 49WfemvlNP1bPJin8hyyVd
-        created_at: !ruby/object:DateTime 2020-06-15 18:45:05.958000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-15 18:49:39.988000000 Z
-      title: 
-      description: flickr.com/photos/franzlopez CC BY-NC 2.0
-      url: "//images.ctfassets.net/g118h5yoccvd/49WfemvlNP1bPJin8hyyVd/43345a652d2c169fbb6c7488d98836be/8089307139_014f7b0c99_k.jpg"
-    body: "Last night we learned that our friend and Meedan Board of Directors member
-      Maria Ressa has been convicted of cyber libel and sentenced to serve time in
-      prison for these crimes. Here is a quick run-down of the verdict and case details:\n\n-
-      On Monday, June 15, Manila Regional Trial Court Judge Rainelda Estacio Montesa
-      convicted Rappler CEO and Executive Editor Maria Ressa and former researcher-writer
-      Rey Santos Jr of cyber libel. \n- The court sentenced Ressa and Santos to a
-      minimum of six months and one day to a maximum of six years in prison.\n- They
-      were released on bail pending appeal. Ressa and Santos were also each ordered
-      to pay 200,000 Philippine pesos (approximately 3,500 euros) in moral damages
-      and 200,000 pesos in exemplary damages.\n- Ressa and Reynaldo will not go to
-      prison at this time, as the conviction can be appealed and they have the option
-      to exhaust legal remedies in higher courts. \n- The cyber-libel case against
-      Ressa is based on an investigative report published by Rappler on May 2012.
-      \n- The article said that the then-chief justice of the Philippines Supreme
-      Court, Renato Corona, had used vehicles belonging to a controversial businessman.\n-
-      The article was republished on February 2014, to correct a spelling error, which
-      is a normal practice of news publications.\n- In February last year, the Department
-      of Justice (DOJ) arrested Ressa and filed charges against her, reporter Reynaldo
-      Santos Jr. and Rappler Inc. under the Cybercrime Prevention Act, which was enacted
-      on September 2012, four months after the publication of the original report
-      in Rappler. \n- The charges stemmed from a complaint by the businessman, Wilfredo
-      D. Keng. Authorities initially declined to prosecute the case, but later reversed
-      that decision.\n- In the court, the prosecution argued that the republication
-      of the article in 2014 to correct a “typo” amounted to republication of the
-      story and therefore the cyber libel law could be applied.\nSource: [International
-      Press Institute](https://ipi.media/maria-ressa-fearless-journalism-found-guilty/?mc_cid=a0dd6d7110&mc_eid=89968079c7)&
-      [Rappler](https://www.rappler.com/nation/263817-statement-conviction-maria-ressa-reynaldo-santos-jr-cyber-libel-case)\n\nAcross
-      the interwebs there is an outpouring of support for Maria and condemnation of
-      this verdict. We add to that our emphatic support for Maria, for Rappler's meticulous
-      and ethical journalism, and for the very institution of an open and critical
-      press that she has come to embody. \n\nI want to share some personal reflections,
-      some context, that might not be known to an international audience who sees
-      her only as the Time Magazine person of the year and a global face of press
-      freedom. The Maria Ressa I have come to know is most remarkable for the fact
-      that she has built a media property to oppose and stand against corruption,
-      violence, and censorship while remaining one of the kindest, most modest, and
-      upbeat people I have ever encountered. This is not a veneer - it goes straight
-      through to the core of who Maria is.  \n\nAnd then there is the way Maria thinks.
-      Anyone who has ever been involved in a project with Maria knows what happens
-      after the glimmer in her eye sparks and she pushes up in her chair and begins
-      tossing out ideas and connecting dots. The way Maria thinks is somewhere between
-      a journalist, a moral philosopher, a web application designer, and a database
-      architect. Two weeks ago we had a meeting with Maria and her team to discuss
-      rolling out some journalism technology with her team. Within five minutes Maria
-      has sprinted past what any of us had envisioned - basically laying out a roadmap
-      for the reinvention of journalism in the age of messaging networks and on demand
-      information services.  \n\nThere is something deep in the notion of social justice.
-      It is  that there is a definable justice that sits beneath courts and laws,
-      a justice that is 'social' in the sense that it is what society knows to be
-      true. Maria has been fighting for social justice in the Philippines for decades
-      by simply documenting the truth in that society. And now the powers that are
-      threatened by that truth are corrupting their courts and laws to preserve their
-      ability to control what can be said by whom. This is not only a threat to our
-      dear friend Maria and her colleague Rey, it is more profoundly a threat to journalism
-      *and* democracy in the Philippines and around the world. \n\n\nPlease join us
-      in raising your voice in support. #holdtheline #standwithmaria #supportrappler
-      \n\n---\n\n*Meedan's Check Global Network invites you to attend our upcoming
-      online event on June 18: [Maria Ressa and Seema Yasmin in Conversation: Reporting
-      Barriers During COVID-19](https://meedan.com/events/maria-ressa-and-seema-yasmin-in-conversation-reporting-barriers-during-covid/).*"
-    words_by:
-    - sys:
-        id: 1FyUNasGkYsSW1TC4x8vcJ
-  - sys:
-      id: 2eI9u7B6dEeolWbe0C2FXl
-      created_at: !ruby/object:DateTime 2020-06-09 19:14:31.378000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-11 01:16:16.892000000 Z
-      content_type_id: story
-      revision: 3
-    title: 'COVID-19 in Brazil: memory as a form of resistance '
-    slug: covid-19-in-brazil-memory-as-a-form-of-resistance
-    topic:
-    - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
-    lead_image:
-      sys:
-        id: 3nSZwz7Zre6hlN5YdxmiQG
-        created_at: !ruby/object:DateTime 2020-06-10 18:33:46.491000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-10 18:56:45.365000000 Z
-      title: 'COVID-19 in Brazil: memory as a form of resistance '
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3nSZwz7Zre6hlN5YdxmiQG/cae91892be6d53489f7d7f20527e5b74/meedan_brazil_covid-19_isa_2.jpg"
-    body: "To wake up in Brazil in 2020 is to confront daily headlines that send us
-      back to 1968, our years of military dictatorship. We see headlines such as:
-      Brazilian President Jair Bolsonaro [suspends](https://www.telegraph.co.uk/news/2020/06/07/bolsonaro-removes-surging-coronavirus-death-toll-official-websites/
-      \"Bolsonaro removes number of deaths\") publication of number of deaths; the
-      government demands a [recount](https://www1.folha.uol.com.br/equilibrioesaude/2020/06/governo-vai-recontar-numero-de-mortos-por-covid-19-diz-secretario-da-saude.shtml
-      \"Bolsonaro's govenament wants to recount the number of deaths \") of the death
-      numbers saying they are \"inflated\". Meanwhile Brazilian scientists estimate
-      that the number of underreported victims of COVID-19 is [seven times higher](https://oglobo.globo.com/sociedade/coronavirus/numero-de-casos-de-covid-19-no-brasil-pode-ser-ate-sete-vezes-maior-do-que-oficial-diz-pesquisa-1-24445874
-      \"Number of deaths can be seven times higher than the official numbers, says
-      research\") than what has been reported. This means that according to the [official
-      data](https://www.publico.pt/2020/06/05/mundo/noticia/brasil-morre-pessoa-minuto-devido-covid19-1919572
-      \"According to offcial data one person dies per minute due to covid-19 in Brazil\"),every
-      minute, a person dies from COVID-19 in Brazil. \n\nIn Latin America the erasure
-      of data and memory, lack of transparency and the rise of scientific and [historical](https://www1.folha.uol.com.br/poder/2019/03/nao-houve-ditadura-teve-uns-probleminhas-diz-bolsonaro-sobre-regime-militar-no-pais.shtml
-      \"Bolsonaro denies the existance of Brazil's military dictatorship past\") denialism
-      is nothing new, much less in Brazil. For a [brief period ](https://oglobo.globo.com/sociedade/referencia-global-sobre-covid-19-universidade-johns-hopkins-interrompe-contagem-de-dados-do-brasil-1-24466845?utm_source=Twitter&utm_medium=Social&utm_campaign=O%20Globo
-      \"Johns Hopkins University interrupts feed of Brazil COVID-19 data\")of time
-      this week, Brazil was removed from the Johns Hopkins University ranking that
-      globally counts the number of victims of the pandemic. This was a result of
-      the decision taken on June 2nd by Bolsonaro to [take down](https://oglobo.globo.com/sociedade/governo-esconde-totais-de-mortes-casos-da-covid-19-tira-site-do-ar-1-24466314
-      \"Brazillian governament takes down COVID-19 death numbers from official website\")
-      the website that provides data on deaths by COVID-19 in the country. Upon making
-      them available again this Friday, the government decided that it would focus
-      on the number of [victims recovered ](https://oglobo.globo.com/sociedade/portal-da-covid-19-volta-ao-ar-mas-sem-total-de-casos-mortes-sem-planilha-com-dados-detalhados-1-24466899
-      \"Offcial Helath portal comes back with data without the numbers breakdown\")and
-      those who have died in the past 24 hours. A breakdown of the data by region,
-      and by total number of deaths will no longer be available. \n\nThe government
-      also decided to recount the dead and check the math as it believes the numbers
-      were [\"made up\"](https://blogs.oglobo.globo.com/bela-megale/post/ministerio-da-saude-vai-recontar-mortos-pela-covid-19-porque-diz-ver-dados-fantasiosos.html
-      \"Governament wants to recount the numbers saying they are made up\"). It is
-      not the first time that this government has questioned the data provided by
-      scientific organizations. In July 2019, when asked about the exponential growth
-      of deforestation in the Amazon,the Chief Minister of the Institutional Security
-      Office, General Augusto Heleno, said that the data was [\"manipulated\"](https://www1.folha.uol.com.br/ambiente/2019/07/indices-de-desmatamento-na-amazonia-sao-manipulados-diz-ministro-augusto-heleno.shtml
-      \"Minister Augusto Heleno says Amazon deforestation data was manipulated\")
-      by the National Institute for Space Research (INSPE). More recently, this scientific
-      denialism has manifested in the firing of the Women's Health Coordination Team
-      at the Ministry of Health, due to the publication of a technical note that addresses
-      access to sexual and reproductive health in the context of the COVID-19 pandemic.
-      Several organizations [denounced](http://www.visibilidadefeminina.org/noticias
-      \"Visibilidade Feminina website\") this decision, among them Visibilidade Feminina
-      (Feminine Visibility), a non-profit civil organization that aims to promote
-      the role of women in public and private spaces of power.\n\nThe majority of
-      the victims in the COVID-19 pandemic are black, according to a survey by [Agência
-      Pública](https://apublica.org/2020/05/em-duas-semanas-numero-de-negros-mortos-por-coronavirus-e-cinco-vezes-maior-no-brasil/
-      \"In two weeks the number of black vistims is five times higher\"), and they
-      are victims of a racist and genocidal policy imposed by the Bolsonaro government
-      which [plays down the effects of the pandemic](https://edition.cnn.com/2020/05/23/americas/brazil-coronavirus-hospitals-intl/index.html
-      \"CNN article on Brazil hospitals\"). The number of black victims with low literacy
-      is four times higher than that of white people with a higher education level,
-      as revealed by the [research carried](http://www.ctc.puc-rio.br/diferencas-sociais-confirmam-que-pretos-e-pardos-morrem-mais-de-covid-19-do-que-brancos-segundo-nt11-do-nois/
-      \"Research says that more black people die due to COVID-19\") out by PUC-RIO.
-      And this week we also learned that the virus is [twice as lethal](https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2020-06/covid-19-agrava-violacoes-contra-indigenas-yanomami-diz-estudo
-      \" Study says COVID-19 agravates violations against Yanomamis\")  to the Yanomami
-      tribe, and due to the mining and deforestation activities [supported](https://www.nytimes.com/2020/04/19/world/americas/bolsonaro-brazil-amazon-indigenous.html
-      \"Bolsonaro governament and the Amazon\") by Bolsonaro's government in the Amazon
-      forest, they are even more vulnerable. Scientists currently estimate a 6.45%
-      death rate among the Yanomami population, according to [a study](https://acervo.socioambiental.org/acervo/publicacoes-isa/o-impacto-da-pandemia-na-terra-indigena-yanomami-foragarimpoforacovid
-      \"Study about the impact of the pandemic on the Yanomami population\") conducted
-      by the Instituto Socioambiental (ISA) and the Federal University of Minas Gerais.\n\n###
-      Learning from our recent past \n\nState violence, such as what we are living
-      through today, generates [trauma](https://www.bbc.com/news/world-latin-america-30408012
-      \"Moment of Truth for Brazil's military past\") in the fabric of society that
-      needs to be repaired to avoid a repeat of our recent past, where there has been
-      an erasure of popular history of collective resistance. After the transitional
-      justice process post-dictartorship was done we did not, for example, [hold the
-      military to account](https://www.foreignaffairs.com/articles/brazil/2019-01-01/ghosts-brazils-military-dictatorship
-      \"Ghosts of Brazil's military dictatorship\").\n\nOne lesson we did learn was
-      the importance of memory as a practice of resistance. By preserving historical
-      artifacts such as testimonies, documents, images and videos during and after
-      the dictatorship period we were able, more or less effectively, to carry out
-      recovery processes through the [National Commission of Truth](https://www.conectas.org/en/news/final-report-of-the-national-truth-commission-what-now-brazil
-      \"Final Report of the national truth comission\") that addressed missing persons,
-      the exiled and victims of political crimes. After the dictatorship, the Brazilian
-      Constitution of 1988 sought to heal some secular wounds as a result of the efforts
-      of civil society that demanded the creation of SUS, our universal health system
-      which provides access to health for the Brazilian population. It is this same
-      system that during the COVID-19 pandemic is collapsing in several states of
-      the country, proving that it is [underfunded](https://politica.estadao.com.br/blogs/fausto-macedo/o-sus-e-o-direito-a-saude-em-tempos-de-coronavirus/
-      \"About SUS and the constitucional right to acess health\"), even while being
-      essential.\n\nThe cruelty of this historical moment becomes acute, when, in
-      addition to burying our dead in [collective graves](https://www.businessinsider.com/photos-brazil-mass-graves-experts-anticipate-covid-19-deaths-2020-5
-      \"Photos of Brazil mass graves\"), remembering their lives, and surviving a
-      pandemic, we still urgently need to preserve data and documents, in order for
-      compensation to be possible in the future to the families of the victims of
-      this policy. \n\n\n### Acting while we suffer: online collective mourning and
-      self-organizing \n\nMemory as resistance is being articulated by the [Memorial
-      of Victims of COVID-19 in Brazil](https://www.facebook.com/pg/memorialcoronabrasil/about/?ref=page_internal
-      \"Facebook page of the covid-19 memorial\"), a Facebook page that aims to honor
-      victims and tell their stories. And it is one of the initiatives of the [Support
-      Network for the Families of Fatal Victims of Covid-19 in Brazil](https://seguraaonda.com.br/nasce-a-rede-de-apoio-as-familias-de-vitimas-fatais-do-covid-19-no-brasil/),
-      an emergency network made up of volunteers, professionals and people in solidarity
-      with the families of victims in the country, in their honor. The network's objectives
-      are to: provide guidance for funerals, burials and farewell rituals and to create
-      channels to guarantee the right to memory and wakes (even if virtual) and due
-      tribute to the dead. \n\nNews portal [G1](http://especiais.g1.globo.com/bemestar/coronavirus/memorial-vitimas-covid-19/#/
-      \"G1 COVID-19 omline Memorial\"), has responded to this collective need of mourning
-      by creating an online memorial with the victim's obituaries. Another example
-      is [Inumeráveis ](https://inumeraveis.com.br/ \"Inumeráveis website\")(Innumerable)
-      a collaborative and volunteer virtual memorial effort with the premise that
-      no one likes to be a number, according to them, people deserve to exist in prose.
-      Their editorial process involves families of the victims, journalists and researchers.
-      It was built as a space to celebrate life.\n\nTo articulate how self organizing
-      is important for the indigenous population in Brazil in challenging the state
-      narrative you only have to compare the numbers of confirmed deaths recorded
-      by families and communities with the official numbers that the government shares
-      from the Special Indigenous Health Secretariat (Sesai). In some cases they are
-      [three times](https://g1.globo.com/bemestar/coronavirus/noticia/2020/06/01/18-mil-indigenas-sao-infectados-por-covid-19-em-78-povos-no-brasil-diz-organizacao.ghtml
-      \"Numbers of infected indigenous population\") higher according to Articulation
-      of Indigenous Peoples in Brazil (Apib) their aim is to preserve victims’ memory.\n\n\n###
-      Preserving memory as a path forward\n\n> \"Memory is, in itself, an end, a strategy
-      to repair the damage caused to human rights and is a way to reconcile a society\"
-      comments Professor Isabel Piper Shafir, from the Faculty of Social Sciences
-      at the University of Chile, about the post-dictatorship reparation processes
-      in Chile. \n\nTo ensure that we can use memory as a strategy for reparation,
-      the work of civil organizations, activists, technologists, historians, researchers
-      and journalists is essential to the archiving and preservation process. \n\nUnderstanding
-      our current information ecosystem can be part of the strategy for the sustainability
-      of these archives and collections of data. The memorial of the Covid-19 victims
-      in Brazil is hosted on [Facebook](https://www.facebook.com/pg/memorialcoronabrasil/about/?ref=page_internal
-      \"Facebook page of the Memorial for Victms of COVID-19 in Brazil\")'s platform;
-      in practical terms this means that the content, those collectively woven threads
-      of memory, are being stored and held by a corporate social media platform. These
-      corporations are becoming the record keepers of a country's history while there
-      is still a [total lack of transparency](https://www.eff.org/press/releases/facebook-instagram-lack-transparency-government-ordered-content-removal-amid
-      \"EFF: Facebook and Instagram lack transparency\") regarding their content moderation
-      policies. Often we don't know why they take something down, leaving their motivation
-      unclear and leaving us to wonder: was this content [censored](https://www.theguardian.com/commentisfree/2019/nov/08/instagram-shadow-bans-marginalised-communities-queer-plus-sized-bodies-sexually-suggestive
-      \"Instagram shadow bans marginalised communities\")? Was it a technical error?
-      Or did it infringe the platform's policies?\n\nA possible response is using
-      open source technology to contribute to ongoing efforts to archive and safeguard
-      content and history, helping to preserve context and ownership, as well as ensuring
-      data collection and transparency for future accountability. \n\nThere are several
-      formats of how civil organizations and open source communities can cooperate
-      in these efforts some examples are: creating open source investigations to collect
-      data on the victims of COVID-19 using [Check](https://meedan.com/check \"Check
-      - Meedan website\"), or using archiving software such as Huridoc's [Uwazi ](https://www.uwazi.io/
-      \"Uwazi website\")to curate and publish human rights documentation that could
-      make important, public information more accessible, as well as using the OpenArchive’s
-      [app Save](https://open-archive.org/save/ \"Save website\") to streamline media
-      workflows to facilitate rapid response and reporting while encrypting the media.
-      Another open source approach comes from [DocNow](https://www.docnow.io/ \"DocNow
-      website\") whose focus is on archiving social media activist content, they do
-      this by engaging directly with communities and [co-creating](https://news.docnow.io/documenting-activism-now-17db7b956fcf
-      \"DocNow blog post on Documenting Activism\") through workshops solutions that
-      are customized to their needs and workflows. \n\nLet's learn from our past historical
-      erasures and organize ourselves to use current technology to safeguard our memory
-      but also to understand the limitations of certain tools and products. Perhaps
-      this time around, we can say that in spite of our collective shock and loss
-      we honored our loved ones by mourning, remembering and saving space for future
-      reparation. And hopefully as we walk on the coronavirus-free streets again we
-      will do it in spaces that, different from today, are liberated of rotting statues
-      and avenues named after the generals that were responsible for digging mass
-      graves in times past. \n"
-    words_by:
-    - sys:
-        id: 57swkb0x1YLvhHB31YFb3U
-  - sys:
-      id: 51b7Zp4ynwTDHtNhp4aBQL
-      created_at: !ruby/object:DateTime 2020-06-05 01:17:43.296000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-10 03:23:11.678000000 Z
-      content_type_id: story
-      revision: 4
-    title: We must demand more of our institutions and of our leaders
-    slug: we-must-demand-more-of-our-institutions-and-of-our-leaders
-    lead_image:
-      sys:
-        id: 1bYxFxmWZ6fldWG0PXMxDt
-        created_at: !ruby/object:DateTime 2020-06-10 03:16:15.672000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-10 03:23:07.396000000 Z
-      title: Untitled3
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1bYxFxmWZ6fldWG0PXMxDt/f22c0bedbd966e5a0ec788834dc2b0aa/Untitled3.png"
-    body: "All injustices have at their core an abuse of power. Systemic injustices
-      ingrain these abuses into the structure of our societies, into the mechanics
-      of how power, money, opportunity, and—as the past months have made so brutally
-      apparent—health is accessed and distributed. \n\nAs an organization that is
-      ultimately built on the premise that truth and knowledge are contextual, we
-      have an obligation to the truth that exceeds our commitment to non-partisanship.
-      We in the strongest possible terms condemn the killings of George Floyd and
-      Breonna Taylor, and we criticize US national leadership, whose lack of contrition
-      and unwillingness or inability to empathize with the very clear sentiments of
-      millions of Americans in this moment is a profound and damaging failure.\n\nMeedan,
-      while founded in the US, is a global technology non-profit working with media
-      partners around the world, primarily in the global south. Our partners work
-      to document human rights abuses in Yemen, uncover political corruption in the
-      Philippines, and empower young investigative journalists and fact-checkers in
-      Africa. We have designed our organization in response to the single question:
-      \"What can we do as engineers, program managers, researchers and designers to
-      address injustice and inequity in digital spaces?\"\n\nThis moment of social
-      rage is of profound concern. We must demand more of our institutions and of
-      our leaders, especially with regards to systemic racism against Black communities.
-      Every sector of our society from the institutions of our government, to our
-      corporations, to the media, to our universities, to the technology platforms,
-      to organizations like ours must make an aggressively anti-racist approach core
-      to our business models, our missions and our daily work.\n\nAt Meedan we commit
-      to honoring the memory of George Floyd, Breonna Taylor, and all those whose
-      lives and livelihoods have been harmed by anti-blackness, racism, hatred and
-      disinformation. So much more needs to be done, and we commit to using our work---our
-      tools, our programs, and our research---to helping in this effort.\n\n\n— Ed
-      Bice, CEO, Meedan\n\n"
-    words_by:
-    - sys:
-        id: 7xM8QfuAFGFURUXRBNLBtX
-    alt_date: !ruby/object:DateTime 2020-06-03 00:00:00.000000000 Z
-  - sys:
-      id: 4dNRb3JY8VwKmfH5RzZWZY
-      created_at: !ruby/object:DateTime 2020-06-21 15:05:25.979000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-21 15:26:35.430000000 Z
-      content_type_id: story
-      revision: 0
-    title: 2019 Meedan Annual Report Now Online
-    slug: 2019-meedan-annual-report-now-online
-    lead_image:
-      sys:
-        id: 5vL7mjBdgPuBsBSALVwGkw
-        created_at: !ruby/object:DateTime 2020-06-21 15:05:55.112000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-21 15:06:26.526000000 Z
-      title: Screen Shot 2020-06-18 at 4.26.03 PM
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5vL7mjBdgPuBsBSALVwGkw/c853cfb0f862342d3854417ef136ba51/Screen_Shot_2020-06-18_at_4.26.03_PM.png"
-    body: "We are delighted to announce the launch of [our 2019 Meedan Annual Report](https://meedan.com/2019-annual-report/).
-      \n\n\nOur annual reports involve four main sections: \n\n[CEO’s Letter](https://meedan.com/2019-annual-report/#introduction)\n[In
-      Numbers](https://meedan.com/2019-annual-report/#in-numbers)\n[What People Are
-      Saying About Us](https://meedan.com/2019-annual-report/#reviews)\n[Financials](https://meedan.com/2019-annual-report/#financials)\n\nTaking
-      pride in being a global team, [the Meedan 2019 Annual Report](https://meedan.com/2019-annual-report/)
-      lists the cities and the countries we have traveled to in 2019, including global
-      events, sponsoring local events and/or talking about misinformation and presenting
-      the work we are doing.\n \nWe have always been, and will continue, developing
-      the technology and the programs that help with creating more equitable internet
-      with the aim of strengthening global journalism, digital literacy, and accessibility
-      of information through our projects [Check Global](https://meedan.com/projects),
-      [Digital Health Lab](https://health.meedan.com/), [Credibility Coalition](https://credibilitycoalition.org/),
-      [Pop-Up Newsroom](https://popup.news/) and [Content Moderation](https://meedan.com/projects).\n\n\nWhile
-      we are publishing our last year report today during a pandemic, it occurred
-      to us that our work in 2018 when we established [Digital Health Lab](https://health.meedan.com/)
-      for responding to misinfodemics has positioned us well to contribute to the
-      unfolding crisis of COVID-19.\n\n\nLooking at our [annual reports](https://meedan.com/about)
-      published through the past years reminds us of how far we have come with the
-      global contribution we have been always committed to. \n\nThis report and the
-      past annual reports of Meedan live in the [About](https://meedan.com/about)
-      page on our website. "
-  - sys:
-      id: 4C9LI4VisMu2O1xXlhO5XB
-      created_at: !ruby/object:DateTime 2020-06-22 12:54:03.320000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-22 13:04:00.868000000 Z
-      content_type_id: story
-      revision: 0
-    title: The evolution of fact-checking on WhatsApp
-    slug: the-evolution-of-fact-checking-on-whatsapp
-    body: "What: As communications and sharing increasingly shift to private services
-      like WhatsApp, hear about the obstacles fact-checkers have overcome to help
-      users verify potential misinformation.\n\nWhen: June 25, 2020\n10:30pm-11:30pm
-      Manila \n8pm-9pm New Delhi\n12pm-13pm New York \n\n\nWhere: Live on [YouTube](https://www.youtube.com/watch?v=9IJjpi6yylw&feature=youtu.be),
-      [Facebook](https://www.facebook.com/factchecknet) & [Twitter](https://twitter.com/factchecknet)\n\nWho:
-      \nModerator\nShalini Joshi | Meedan, Program Director, APAC\n\nPanelists\nBaybars
-      Örsek | International Fact-Checking Network, Director\nKate Wilkinson | Africa
-      Check, Deputy Chief Editor\nLouis Moynihan | WhatsApp, Product Business Development\nGovindiraj
-      Ethiraj | Boom, Founder"
