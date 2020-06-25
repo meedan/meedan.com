@@ -609,3 +609,64 @@ event:
   slug: instagram-live-dr-saskia-popescu-and-dr-seema-yasmin
   event_date_string: '2020-06-26'
   event_end_date_string: '2020-06-26'
+- sys:
+    id: NkbqNSrf4o6ED6bCCtcw8
+    created_at: !ruby/object:DateTime 2020-06-24 12:48:30.583000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-24 13:56:45.980000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: The evolution of fact-checking on WhatsApp
+  event_date: !ruby/object:DateTime 2020-06-25 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-06-25 00:00:00.000000000 Z
+  time: "- *San Francisco* 7:30am\n- *New York* 11:30am\n- *London* 4:30pm \n- *Delhi*
+    8:00pm \n"
+  images:
+  - sys:
+      id: 3DMF8v9GdhJ6F8smXJdaIs
+      created_at: !ruby/object:DateTime 2020-03-04 21:19:29.401000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-24 13:56:41.853000000 Z
+    title: Meedan Logo
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3DMF8v9GdhJ6F8smXJdaIs/3ab20055c58308dcfad43f243c6c0a62/meedan_logo.png"
+  - sys:
+      id: d6SiPjKGnTmS8KUTdpzzF
+      created_at: !ruby/object:DateTime 2020-02-25 07:10:07.890000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:47:26.591000000 Z
+    title: Shalini Joshi
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/d6SiPjKGnTmS8KUTdpzzF/f788ae9b49281eeb8cdd87a27f3b9233/Shalini-Joshi.jpg"
+  register_link: https://virtual.globalfact7.com/agenda/the-evolution-of-fact-checking-on-whatsapp
+  description: 'As communications and sharing increasingly shift to private services
+    like WhatsApp, hear about the obstacles fact-checkers have overcome to help users
+    verify potential misinformation.
+
+    '
+  long_description: |-
+    Moderator
+
+    Shalini Joshi | Meedan, Program Director, APAC
+
+    Panelists
+
+    Baybars Örsek | International Fact-Checking Network, Director
+    Kate Wilkinson | Africa Check, Deputy Chief Editor
+    Louis Moynihan | WhatsApp, Product Business Development
+    Govindiraj Ethiraj | Boom, Founder
+  slug: the-evolution-of-fact-checking-on-whatsapp
+  non_public: false
+  event_date_string: '2020-06-25'
+  event_end_date_string: '2020-06-25'
+  image: https://images.ctfassets.net/g118h5yoccvd/3DMF8v9GdhJ6F8smXJdaIs/3ab20055c58308dcfad43f243c6c0a62/meedan_logo.png

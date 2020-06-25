@@ -2,9 +2,28 @@
     margin-bottom: var(--space-1);
 }
 
-.quote {
+.quotes span {
     display: block;
+}
+
+.quote {
     color: var(--checkBlue);
+}
+
+.quotes .avatar {
+    display: block;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: var(--space-1) auto;
+}
+
+.quote-by {
+    font-size: var(--scale-0);
+}
+.quote-by-title {
+    margin-top: 0.5rem;
+    font-size: 1rem;
 }
 
 .about .quote,
@@ -18,6 +37,5 @@
 
 .user-quote {
     width: 100%;
-    
 }
 

@@ -9,6 +9,9 @@
         </span>
     </a>
     <h1>{{ page.title }}</h1>
+    {% if page.path == 'pages/check.html' %}
+        <h3><img src="/images/check.png" alt="Check" /></h3>
+    {% endif %}
     <h2>{{ page.h2 }}</h2>
     {% if page.callout %}
         <svg id="text-container" class="callout" width="618" height="663" viewBox="0 0 618 663" fill="none" xmlns="http://www.w3.org/2000/svg">

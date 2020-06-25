@@ -12,6 +12,14 @@
     margin-bottom: var(--section-space);
 }
 
+.section-top-margin {
+    margin-top: var(--space-4);
+}
+
+.section-bottom-margin {
+    margin-bottom: var(--section-space);
+}
+
 .about {
     background-color: var(--sunDown);
 }
@@ -52,7 +60,9 @@
         font-size: var(--scale-3);
     }
     font-weight: normal;
-    margin-bottom: var(--space-2);
+    &:not(.no-margin) {
+        margin-bottom: var(--space-2);
+    }
     sup {
         padding-left: 0.5em;
         font-size: var(--scale-0);
