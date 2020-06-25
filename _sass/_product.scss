@@ -15,7 +15,10 @@
         margin-bottom: var(--space-2);
     }
     img {
-        width: 140px;
+        width: 120px;
+        @include responsive('min-width: #{$width-tablet}') {
+            width: 180px;
+        }
     }
 }
 
