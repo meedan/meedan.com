@@ -133,6 +133,10 @@
 .module-bg-color--silver {
     background-color: var(--silver);
 }
+.module-bg-color--black-ink {
+    background-color: var(--blackInk);
+    color: #fff;
+}
 
 .plain-list ul {
     list-style-type: none;

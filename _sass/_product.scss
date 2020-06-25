@@ -43,3 +43,44 @@
         color: inherit;
     }
 }
+
+.module-product-features {
+    h3 {
+        padding-top: var(--space-5);
+        padding-bottom: var(--space-3);
+        color: var(--texasRose);
+    }
+    .product-feature {
+        @include responsive('min-width: #{$width-tablet}') {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-column-gap: var(--space-3);
+        }
+        padding-left: var(--space-4);
+        margin-bottom: var(--space-4);
+    }
+    .product-feature-header {
+        span {
+            display: block;
+            margin-bottom: var(--space-1);
+        }
+        .number {
+            color: var(--texasRose);
+            padding-top: var(--space-2);
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 8%;
+                top: 0;
+                border-top: 1px solid var(--texasRose);
+            }
+        }
+        .title {
+            color: var(--texasRose);
+        }
+        .description {
+            font-size: var(--scale-0);
+        }
+    }
+}
