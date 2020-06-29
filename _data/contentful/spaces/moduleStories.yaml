@@ -3,17 +3,17 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-25 03:52:45.561000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-26 00:31:43.423000000 Z
     content_type_id: moduleStories
-    revision: 28
+    revision: 30
   title: Blog
   stories:
   - sys:
       id: 0Vo4bEALC4mzMRdyHHQFR
       created_at: !ruby/object:DateTime 2020-06-25 02:41:51.084000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-25 16:01:47.606000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 16:36:33.316000000 Z
       content_type_id: story
-      revision: 5
+      revision: 8
     title: Insights from 5,700 Fact-Checks on the WhatsApp Business API
     slug: insights-from-5-700-fact-checks-on-the-whatsapp-business-api
     topic:
@@ -54,26 +54,27 @@ moduleStories:
       appreciate the support and guidance that we were given from the teams at AFP,
       Africa Check, BOOM and India Today in particular.”\n\nThe report offers the
       following core insights:\n\n#### Bots are the new audience engagement paradigm.
-      \nA WhatsApp Fact-Checking bot can serve three purposes: (1) help audiences
+      \nA WhatsApp fact-Checking bot can serve three purposes: (1) help audiences
       understand how to interact with the fact-checking team and see commonly-requested
       content, (2) serve as a bridge between a human editor and someone submitting
       content to a tipline and (3) cut down on unactionable content.\n\n#### Machines
-      in the loop augment quality human efforts.\nCheck helps fact-checkers do their
-      jobs more efficiently and effectively.\n\n#### Follow the news cycle.\nNewsrooms
-      learned that a topic-oriented approach to tipline promotion following the news
-      cycle yields stronger audience engagement and submissions. After the outbreak
-      of COVID-19, we saw an uptick in the percentage of quality, actionable content,
-      in turn generating better fact-checks.\n\n#### Fact-checkers need no-nonsense,
-      no-code interfaces in multiple languages.\nWe adapted our toolkit to help fact-checkers
-      focus on the fact-checking rather rather than technical tasks. This enabled
-      teams to customize their workflows.\n\n“We used to get inundated by the thousands
-      of messages that people would send us on WhatsApp,” said Balkrishna, fact-checking
-      editor at [India Today](https://www.indiatoday.in/). “Check has not only made
-      it possible for us to sift through the fact-check requests quickly, it also
-      helped deliver most of our readers with fast and personalized responses. This
-      helps us build a direct bond of trust with our audience.” \n\n“Check really
-      improved the way we communicate with our readers on WhatsApp,” said María Clara
-      Pestre, a fact-checker at [AFP Checamos](https://checamos.afp.com/) (Brazil).
+      in the loop augment quality human efforts.\nAlready designed for human work,
+      Check now automates everything from content matching to intake, helping fact-checkers
+      do their jobs more efficiently and therefore effectively.\n\n#### Follow the
+      news cycle.\nNewsrooms learned that a topic-oriented approach to tipline promotion
+      following the news cycle yields stronger audience engagement and submissions.
+      After the outbreak of COVID-19, we saw an uptick in the percentage of quality,
+      actionable content, in turn generating better fact-checks.\n\n#### Fact-checkers
+      need no-nonsense, no-code interfaces in multiple languages.\nWe adapted our
+      toolkit to help fact-checkers focus on the fact-checking rather rather than
+      technical tasks. This enabled teams to customize their workflows.\n\n“We used
+      to get inundated by the thousands of messages that people would send us on WhatsApp,”
+      said Balkrishna, fact-checking editor at [India Today](https://www.indiatoday.in/).
+      “Check has not only made it possible for us to sift through the fact-check requests
+      quickly, it also helped deliver most of our readers with fast and personalized
+      responses. This helps us build a direct bond of trust with our audience.” \n\n“Check
+      really improved the way we communicate with our readers on WhatsApp,” said María
+      Clara Pestre, a fact-checker at [AFP Checamos](https://checamos.afp.com/) (Brazil).
       “Now, we can be sure anyone who reaches out through the app will have an immediate
       and consistent reply, while having time to dedicate ourselves to other parts
       of the verification process.”\n\n“We’re excited to work with partners like Meedan
@@ -82,21 +83,101 @@ moduleStories:
       fact checking,” said Ben Supple, head of civic engagement at WhatsApp. “We appreciate
       and value the work done to maximize the WhatsApp Business API for fact checkers
       and ensure more people have access to accurate information at the click of a
-      button.”\n\nMeedan presented this study at Global Fact 7, with representatives
-      from WhatsApp, the International Fact Checking Network, Boom and Africa Check.
-      To support this work, Meedan developed a number of key software features that
-      maximized the WhatsApp Business API with a mix of AI, interface and multilingual
-      innovations, including:\n\n- __Multilingual WhatsApp Bot:__ a customizable bot
-      that presents both intuitive menu items and human conversations with fact-checkers
-      in multiple languages\n- __Workflow Automation:__ a triage system to recognize,
-      review and prioritize claims and responses\n- __Similarity Analysis:__ algorithms
-      that detect content patterns and trends based on variations of the same claims\n-
+      button.”\n\nMeedan presented this study at [Global Fact 7](https://virtual.globalfact7.com/),
+      with representatives from WhatsApp, the International Fact Checking Network,
+      Boom and Africa Check. See the video from the panel here:\n\n<a href=\"https://www.youtube.com/watch?v=TnHPLY8uIkY&feature=emb_title\"
+      class=\"embedly-card\" data-card-width=\"100%\" data-card-controls=\"0\">Embedded
+      content: https://www.youtube.com/watch?v=TnHPLY8uIkY&feature=emb_title</a>\n\nTo
+      support this work, Meedan developed a number of key software features that maximized
+      the WhatsApp Business API with a mix of AI, interface and multilingual innovations,
+      including:\n\n- __Multilingual WhatsApp Bot:__ a customizable bot that presents
+      both intuitive menu items and human conversations with fact-checkers in multiple
+      languages\n- __Workflow Automation:__ a triage system to recognize, review and
+      prioritize claims and responses\n- __Similarity Analysis:__ algorithms that
+      detect content patterns and trends based on variations of the same claims\n-
       __Response at Scale:__ a publishing system to send fact-check reports to tipline
-      users who send duplicate or similar requests\n\n“Our goal with Check,” explained
-      Meedan’s Director of Product Pierre Conti, “is to build a scalable human and
-      AI system for fact-checkers to efficiently size the demand for verification
+      users who send duplicate or similar requests\n\n“Our goal with [Check](http://www.meedan.com/check),”
+      explained Meedan’s Director of Product Pierre Conti, “is to build a scalable
+      human and AI system for fact-checkers to efficiently size the demand for verification
       directly from their audience, cut through the noise, and maximize impact by
       helping them to prioritize their response to the most pressing misinformation.”"
+  - sys:
+      id: 6kOm9RDBNPyry1Z1Ez0yTU
+      created_at: !ruby/object:DateTime 2020-06-26 00:26:36.101000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-26 19:04:07.787000000 Z
+      content_type_id: story
+      revision: 6
+    title: Leveraging the COVID-19 Expert Database to visualize pandemic information
+    slug: leveraging-the-covid-19-expert-database-to-visualize-pandemic-information
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: qDdbO3MgaZZujxTqDl0LG
+        created_at: !ruby/object:DateTime 2020-06-26 03:29:40.847000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-26 03:30:05.532000000 Z
+      title: Leveraging the COVID-19 Expert Database to visualize pandemic information
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/qDdbO3MgaZZujxTqDl0LG/03b742f84bbf3c7e81683c0fd080e849/Meedan_studentsagainstcovid19.png"
+    body: "The proliferation of misinformation and disinformation online throughout
+      the COVID-19 pandemic has quickly yielded a corresponding ‘infodemic.’ Information
+      around the novel coronavirus is shifting daily and narratives vary based on
+      the contexts in which we live, work and socialize.  \n\nThis creates a near-perfect
+      recipe for a confusing, substandard information ecosystem and intentionally
+      false information. Mis- and disinformation related to the pandemic is not just
+      \ harmful for individuals, but, because of the nature of the virus, low-quality
+      information also adversely impacts the collective and directly contributes to
+      greater numbers of cases and deaths. \n\nAs both a graduate student pursuing
+      an MPH at the Harvard T.H. Chan School of Public Health, and as a young person
+      raised in the American South, I’ve had a lens into two contrasting sides of
+      the COVID-19 online informational arena. On the one hand, I have access to some
+      of the highest-quality and timely information on the pandemic. On the other,
+      I have a lens into American skepticism of the CDC and WHO, and clear gaps in
+      which  public health authorities  (such as from Harvard Chan, the CDC, and WHO
+      themselves), are not effectively reaching the general public, particularly in
+      the digital realm. \n\nMisinformation is highly challenging to regulate, often
+      because it spreads  informally across a range of social media platforms. Evidence
+      shows that traditional public health interventions on social media, which present
+      text-heavy facts on platforms, are inadequate for obtaining wide-reach. This
+      becomes particularly clear when those interventions are compared to the reach
+      of mis- and disinformation. Exacerbating this challenge is the fact that news
+      sources are often not staffed with in-house public health experts, and given
+      that, there are significant bottlenecks within academia that preclude a free-flowing
+      stream of the most up-to-date health information for journalists.\n\nIn order
+      to address this set of challenges, student group Students Against COVID-19 (SAC)
+      and [Meedan's COVID-19 Expert Database](https://learnaboutcovid19.org/) are
+      partnering to pair the latest expert health information with digestible infographics
+      tailored to online spaces and resharing. Through the partnership, SAC will leverage
+      the Meedan Digital Health Lab’s team of experts to translate their most recent
+      COVID-19 updates and answers to pressing questions into highly accessible visuals
+      particularly intended for online audiences globally. Graphics will be posted
+      alongside expert answers on the [learnaboutcovid19.org](http://learnaboutcovid19.org/)
+      database for easy viewing and sharing. This pairing of content and visuals has
+      the potential for broad impact in mitigating health misinformation online and,
+      in turn, improved public health outcomes. \n\n![Zoonotic Diseases](//images.ctfassets.net/g118h5yoccvd/3hzT12rbPNOOF4inKiGxzp/763ba6cb8a26539ddcd96eebb4e9adaa/Screen_Shot_2020-06-26_at_2.56.45_PM.png)!
+      ![India](//images.ctfassets.net/g118h5yoccvd/2pNCMf43m3GJ8zb2qgXT0L/7e2266d187f171bfd7e8fedb71b935ce/Screen_Shot_2020-06-26_at_3.02.49_PM.png)\n\n####
+      About Meedan\nMeedan is a technology not-for-profit that builds software and
+      designs human-powered initiatives for newsrooms, NGOs and academic institutions.
+      The Digital Health Lab is our initiative that focuses on improving the quality
+      and equity of online health information.  We are researching, designing and
+      testing a digital response framework for addressing health misinformation. Learn
+      more at meedan.com and health.meedan.com.\n\n#### About Students Against COVID-19\nStarted
+      by students from the Harvard T.H. Chan School of Public Health and expanded
+      across universities and high schools, Students Against COVID19 is a student-led
+      movement striving to: 1) empower the nation with quality, accessible information
+      online, and 2) protect our school community and communities of residence during
+      this crisis. COVID-19 is testing our nation’s fabric and in this time of crisis
+      and misinformation, students have a crucial role to play as ambassadors of facts
+      and quality information. The focus is to lead national social media and information
+      campaigns that push evidence-based information on COVID-19 to the general public
+      and empower online users to do the same. Learn more at [studentsagainstcovid-19.com](https://www.studentsagainstcovid19.com/)
+      and [@StudentsAgainstCovid19](https://www.instagram.com/studentsagainstcovid19/)
+      on social media."
+    words_by:
+    - sys:
+        id: 4rDdPefIUGPezxEVMbHNyB
+    alt_date: !ruby/object:DateTime 2020-06-25 00:00:00.000000000 Z
   - sys:
       id: 3LXzHMwn8OxgdqOOXWp6es
       created_at: !ruby/object:DateTime 2020-06-23 18:28:58.088000000 Z
@@ -158,9 +239,9 @@ moduleStories:
   - sys:
       id: 38X6lHkUvHetZVWZRMY4rI
       created_at: !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-25 03:50:48.719000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-26 03:35:09.768000000 Z
       content_type_id: story
-      revision: 4
+      revision: 6
     title: 'Exploring COVID-19 in Emerging Economies: Announcing the 2020 Global Misinfodemic
       Report'
     slug: global-misinfodemic-report
@@ -175,9 +256,11 @@ moduleStories:
       title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
-    body: "### The [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
-      examines the impact of COVID-19 outside of the Global North\n\nMeedan is pleased
-      to announce the [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/),
+    body: "The [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
+      examines the impact of COVID-19 outside of the Global North.\n\n<p class=\"text-align--center\">\n<a
+      class=\"button no-margin\" href=\"https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/\">Read
+      the report</a>\n</p>\n\nMeedan is pleased to announce the [2020 Global Misinfodemic
+      Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/),
       a multidisciplinary, transnational collaboration of information scholars, legal
       experts, journalists and fact-checkers, focused on examining the impacts of
       COVID-19 misinformation in Kenya, South Korea, Iran, India, Hong Kong, Brazil

@@ -30,7 +30,7 @@ lang: en-US
                         <span>
                             <ol>
                                 {% for footnote in page.footnotes %}
-                                    <li id="fn{{ forloop.index }}">{{ footnote.body | markdownify }} <a href="#fnref{{ forloop.index }}">↩︎</a></li>
+                                    <li id="fn{{ forloop.index }}">{{ footnote.body | markdownify }} <a class="footnote-backref" href="#fnref{{ forloop.index }}">↩︎</a></li>
                                 {% endfor %}
                             </ol>
                         </span>

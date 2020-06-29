@@ -577,9 +577,9 @@ event:
 - sys:
     id: 4qawjSwRq8KCFBNt4oA29e
     created_at: !ruby/object:DateTime 2020-06-23 17:48:52.369000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 18:24:24.124000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-25 20:10:35.908000000 Z
     content_type_id: event
-    revision: 5
+    revision: 7
     space:
       sys:
         id: g118h5yoccvd
@@ -601,14 +601,38 @@ event:
     - *New York* 12pm
     - *London* 5pm
     - *Delhi* 9:30pm
+  images:
+  - sys:
+      id: 2rxqKQCvu6j4TCV6ZOT0W9
+      created_at: !ruby/object:DateTime 2020-06-25 20:08:57.750000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-25 20:09:39.934000000 Z
+    title: 'Instagram Live: Dr. Saskia Popescu and Dr. Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2rxqKQCvu6j4TCV6ZOT0W9/b9c19b75335ee96ded5a1c2957dd9362/meedan_iglive_june-26_02.png"
+  - sys:
+      id: 59krAYNWGjdZ9NaVsoHyix
+      created_at: !ruby/object:DateTime 2020-06-25 20:09:41.918000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-25 20:09:57.522000000 Z
+    title: 'Instagram Live: Dr. Saskia Popescu and Dr. Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/59krAYNWGjdZ9NaVsoHyix/26d10cf8e7d5e4ecd2a37e3b119a8afa/meedan_iglive_june-26_03.png"
+  social_card_image:
+    sys:
+      id: 1gCjsKa3Wcx61GGBmp1DZk
+      created_at: !ruby/object:DateTime 2020-06-25 20:08:28.626000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-25 20:09:37.192000000 Z
+    title: 'Instagram Live: Dr. Saskia Popescu and Dr. Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1gCjsKa3Wcx61GGBmp1DZk/416dc381f961d47c1688ec55cd74c669/meedan_iglive_june-26_03.png"
   long_description: Dr. Saskia Popescu, infectious disease epidemiologist and infection
     preventionist joins Dr. Seema Yasmin to talk about COVID-19 science and highlights
     from Meedan's [COVID-19 Expert Database](https://learnaboutcovid19.org/). Join
-    [@heymeedan](http://www.instagram.com/heymeedan) on Instagram at 12 ET /9 PT on
-    Friday, June 26 for what will be an insightful discussion!
+    [@heymeedan](http://www.instagram.com/heymeedan) on Instagram at 12 ET / 9 PT
+    on Friday, June 26 for what will be an insightful discussion!
   slug: instagram-live-dr-saskia-popescu-and-dr-seema-yasmin
   event_date_string: '2020-06-26'
   event_end_date_string: '2020-06-26'
+  image: https://images.ctfassets.net/g118h5yoccvd/1gCjsKa3Wcx61GGBmp1DZk/416dc381f961d47c1688ec55cd74c669/meedan_iglive_june-26_03.png
 - sys:
     id: NkbqNSrf4o6ED6bCCtcw8
     created_at: !ruby/object:DateTime 2020-06-24 12:48:30.583000000 Z
@@ -662,7 +686,7 @@ event:
     like WhatsApp, hear about the obstacles fact-checkers have overcome to help users
     verify potential misinformation.
 
-'
+    '
   long_description: |-
     As communications and sharing increasingly shift to private services like WhatsApp, hear about the obstacles fact-checkers have overcome to help users verify potential misinformation.
 
