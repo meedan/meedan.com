@@ -18,7 +18,6 @@
                 <div class="date">
                     <span class="month">{{ event.event_date | date: '%B' }}</span>
                     <span class="day">{{ event.event_date | date: '%d' }}</span>
-                    
                 </div>
                 {% if forloop.first %}
                     {% for image in event.images %}

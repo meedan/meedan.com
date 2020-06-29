@@ -2,6 +2,7 @@
 <!-- Get list of handpicked events -->
 {% assign events = site.data.contentful.spaces.moduleEvents.moduleEvents 
     | where_exp: "item","item.sys.id == '8cg57tenBbCxgUBQxJYss'"
+    | where_exp: "item","item.event_end_date_string >= current_date"
 %}
 {% if events.size != 0 %}
 <section class="module module-featured section-margin">
@@ -9,8 +10,8 @@
     <h3 class="section-title">● <a href="/events" title="{{ events[0].title }}">{{ events[0].title }}</a></h3>
     {% endif %}
     <div class="module-wrapper">
-        {% for event in events[0].events | limit: 2 %}
-            <a href="/events/{{ event.slug }}" class="event-item event-item-featured">
+        {% for event in events[0].events | limit: 1 %}
+            <a href="/events/{{ event.slug }}" class="event-item event-item-featured{% if event.images.size == 2 %}{{ ' event-item-with-image' }}{% else %}{{ ' event-item-no-image' }}{% endif %}">
                 <div class="details">
                     <div class="date">
                         <span class="month">{{ event.event_date | date: '%B' }}</span>
@@ -25,11 +26,13 @@
                         </div>
                     </div>
                 </div>
-                {% for image in event.images %}
-                    <picture class="image-container">
-                        <img src="{{ image.url }}" alt="{{ image.title }}"/>
-                    </picture>
-                {% endfor %}
+                {% if event.images.size != 0 %}
+                    {% for image in event.images %}
+                        <picture class="image-container">
+                            <img src="{{ image.url }}" alt="{{ image.title }}"/>
+                        </picture>
+                    {% endfor %}
+                {% endif %}
             </a>
         {% endfor %}
     </div>
