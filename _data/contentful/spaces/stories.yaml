@@ -3160,10 +3160,10 @@ story:
   alt_date_string: '2020-06-03'
 - sys:
     id: 2HHkxZxtbj7L7gzdqaesOJ
-    created_at: &14 !ruby/object:DateTime 2020-06-05 16:09:59.148000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-05 16:24:29.233000000 Z
+    created_at: !ruby/object:DateTime 2020-06-05 16:09:59.148000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 00:23:54.046000000 Z
     content_type_id: story
-    revision: 0
+    revision: 4
     space:
       sys:
         id: g118h5yoccvd
@@ -3176,9 +3176,31 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: " Meedan Receives Support from the Open Technology Fund to Develop the Claims
-    and Memes Database"
+  title: Meedan Receives Support from the Open Technology Fund to Develop the Claims
+    and Memes Database
   slug: meedan-receives-support-from-the-open-technology-fund-to-develop-the-claims
+  topic:
+    en-US:
+    - sys:
+        id: 45nimjOpv2SeOkdHJOLQlx
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:27.025000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:31.792000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Data
+  lead_image:
+    en-US:
+      sys:
+        id: 1cUY0iq6H6A0rAEdOAoDgn
+        created_at: !ruby/object:DateTime 2020-06-29 19:58:14.523000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-29 20:27:04.176000000 Z
+      title: meedan blog cmdb
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1cUY0iq6H6A0rAEdOAoDgn/3df3990fd51ee2972b37b462a202260f/meedan_blog_cmdb.png"
+    description: 
+    title: meedan blog cmdb
+    url: "//images.ctfassets.net/g118h5yoccvd/1cUY0iq6H6A0rAEdOAoDgn/3df3990fd51ee2972b37b462a202260f/meedan_blog_cmdb.png"
   body: "In today’s increasingly online world, social media has become a source for
     news—often in compressed visual form. Widely circulated images have the power
     to shape opinions and alter actions. Sometimes they’re funny. Sometimes they’re
@@ -3187,42 +3209,44 @@ story:
     supposed to know what’s true and what’s false?\n \nIf the distinction seems trivial,
     it’s not. Elections and lives hang in the balance of finding a way to solve this
     problem in an efficient and effective manner. That’s why Meedan received funding
-    from the Open Technology Fund (OTF) in 2019 to help develop the Claims and Memes
-    Database (CMDb)—a programmer-accessible repository of fact-checked claims and
-    debunked visual misinformation intended to combat this new type of information
-    control. The CMDb project was overseen by Meedan program manager Wafaa Heikal.
-    \n \n \n### SETTING THE STAGE: *The rise of the intentional use of misinformation
-    online*\n \nMeedan has long worked at the forefront of improving the quality and
+    from the [Open Technology Fund](https://www.opentech.fund/) (OTF) in 2019 to help
+    develop the Claims and Memes Database (CMDb)—a programmer-accessible repository
+    of fact-checked claims and debunked visual misinformation intended to combat this
+    new type of information control. The CMDb project was overseen by Meedan program
+    manager [Wafaa Heikal](https://meedan.com/blog/meet-our-regional-program-managers-apac-latin-america-and-africa/).
+    \n \n \n#### SETTING THE STAGE\n### The rise of the intentional use of misinformation
+    online\n \nMeedan has long worked at the forefront of improving the quality and
     equity of online information. One of the main ways it does so is through the organization’s
-    flagship software, Check. This free and open-source collaborative workflow software
-    helps users verify digital photos and text, build datasets, and structure open-source
-    investigations. An early iteration of the software played a key role for citizen
-    journalists during the 2011 Arab Spring protests. Five years later, over 1,000
-    journalists used Check’s collaborative verification structure to help monitor
-    and detect voting issues in the 2016 U.S. presidential election. Today, over 250
-    workspaces created by more than 1,750 users around the world now rely on Check
-    to fact-check and investigate online information. Their efforts, and the stories
-    they have helped produce, have made a tangible difference in the way global citizen
-    media is relied upon and viewed.\n \nBut by 2019, with repressive regimes ramping
-    up their own efforts to weaponize visual misinformation as a tool for social network
-    manipulation, voter suppression, and censorship, it became clear that the Check
-    platform required an upgrade. Journalists needed to be able to more efficiently
-    verify or debunk memes. And citizens needed to be able to receive that fact-checked
-    information in a more expeditious manner. So, with the funding from OTF’s Core
-    Infrastructure Fund, Meedan set out to build the CMDb and enhance Check’s infrastructure.\n
-    \n \n### TRUE OR FALSE—EXPLAINED: *Inside Meedan’s revolutionary verification
-    software Check*\n \nBefore diving into the details of the CMDb project, it’s best
-    to understand how Check works.\n \nThe software helps journalists, researchers,
-    and civil society organizations gather and verify digital information through
-    a uniquely customizable process. After a Check team creates their project workspace,
-    they set-up how they will receive submissions for verification. These submissions
-    can be images, text, a combination of images and text (memes), or videos. For
-    example in India, the Checkpoint project allowed for submissions by providing
-    WhatsApp users with a phone number to which they could text rumors, claims, or
-    memes for verification. Other submission processes include collaborating with
-    local partners in North Africa and West Asia to crowdsource investigative evidence
-    of human rights violations (to be sent to the UC Berkeley Human Rights Investigations
-    Lab) or working with students and journalists to help monitor elections in Tunisia.\n
+    flagship software, [Check](https://meedan.com/check). This free and [open-source](https://github.com/meedan/check)
+    collaborative workflow software helps users verify digital photos and text, build
+    datasets, and structure open-source investigations. An early iteration of the
+    software played a key role for citizen journalists during the 2011 Arab Spring
+    protests. Five years later, over 1,000 journalists used Check’s collaborative
+    verification structure to help monitor and detect voting issues in the 2016 U.S.
+    presidential election. Today, over 250 workspaces created by more than 1,750 users
+    around the world now rely on Check to fact-check and investigate online information.
+    Their efforts, and the stories they have helped produce, have made a tangible
+    difference in the way global citizen media is relied upon and viewed.\n \nBut
+    by 2019, with repressive regimes ramping up their own efforts to weaponize visual
+    misinformation as a tool for social network manipulation, voter suppression, and
+    censorship, it became clear that the Check platform required an upgrade. Journalists
+    needed to be able to more efficiently verify or debunk memes. And citizens needed
+    to be able to receive that fact-checked information in a more expeditious manner.
+    So, with the funding from OTF’s Core Infrastructure Fund, Meedan set out to build
+    the CMDb and enhance Check’s infrastructure.\n \n \n#### TRUE OR FALSE—EXPLAINED\n###
+    Inside Meedan’s revolutionary verification software Check\n \nBefore diving into
+    the details of the CMDb project, it’s best to understand how Check works.\n \nThe
+    software helps journalists, researchers, and civil society organizations gather
+    and verify digital information through a uniquely customizable process. After
+    a Check team creates their project workspace, they set-up how they will receive
+    submissions for verification. These submissions can be images, text, a combination
+    of images and text (memes), or videos. For example in India, the Checkpoint project
+    allowed for submissions by providing WhatsApp users with a phone number to which
+    they could text rumors, claims, or memes for verification. Other submission processes
+    include collaborating with local partners in North Africa and West Asia to crowdsource
+    investigative evidence of human rights violations (to be sent to the [UC Berkeley
+    Human Rights Investigations Lab)](https://humanrights.berkeley.edu/programs-projects/tech/investigations-lab)
+    or working with students and journalists to help monitor elections in Tunisia.\n
     \nOnce these submissions are uploaded to Check, the verification process begins.
     Throughout it all, Meedan works with partners to shape their tasks and workflows
     based on the project’s specific needs. During verification, users (such as journalists
@@ -3231,99 +3255,102 @@ story:
     and tags. After all tasks are completed for a submission, a verdict is determined
     (these are customizable and often include correct, incorrect, or misleading).
     In certain situations, this verdict can then be transmitted back to the individual
-    who submitted the claim.\n \n \n### ENHANCED TECHNOLOGY: *CMDb developments streamline
-    the verification process for thousands of Check users*\n \nEven just a brief overview
-    of the verification process reveals how incredibly time-consuming it can be. With
-    thousands of claims being submitted to election-monitoring projects, how can reviewers
-    possibly verify each one?\n \nShort answer: They can’t. And the reviewers can’t
-    provide the results fast enough to combat voter suppression and protect electoral
-    integrity. But there is a way to streamline the process—that’s why Meedan applied
-    to OTF to develop the CMDb.\n \nThe technology built for the CMDb allowed Meedan
-    to develop better workflows for annotating claims and images on Check. These developments
-    will help improve research and machine-learning processes in both the short and
-    long term. OTF’s funding also allowed the Meedan team to build new features to
-    better respond to memetic misinformation—like Check’s report designer, which enables
-    journalists to quickly develop compelling visual responses to help stem the spread
-    of misinformation online. New tools for processing content, like importing spreadsheets
-    and ingesting content submitted from closed networks, were also developed with
-    the support.\n \nIn addition to enhancing user ease, the CMDb project significantly
-    improved Meedan’s image and claim similarity infrastructure. The newly developed
-    claim/image matching technology enables similar images and claims to be clustered—making
-    a verifier’s work far easier. By identifying secondary items that are related
-    to a submitted claim, this matching technology allows for similar images and memes
-    to automatically receive the same tagging, annotation, and verdict as the original
-    image or meme. This technological advancement produced immediate efficiencies.
-    Journalists are now able to cluster hundreds of similar images and claims and
-    respond to misinformation in a collective manner (saving massive amounts of time
-    and effort).\n \n \n### EXPANDED OUTREACH: *Immediate application of CMDb technology
-    and OTF funds enable Meedan to expand its global impact*\n \nMeedan quickly put
-    the newly developed CMDb technology to use. The streamlined content workflows
-    and image matching technology helped support dozens of newsrooms and fact-checking
-    organizations during the 2019 elections in India, Indonesia, and the Philippines.\n
-    \n__India__: In response to misinformation circulating in closed networks in India,
-    Meedan partnered with Pop-Up Newsroom, WhatsApp, and Proto (a civic media studio)
-    on the massive and innovative research endeavor, Checkpoint. The effort used Check
-    Message, Meedan’s WhatsApp integration, to conduct research to better understand
-    the ways by which misinformation spreads on WhatsApp.\n \n__Indonesia__: Google
-    News Initiative worked in collaboration with Meedan and the news consultancy Fathm
-    to help journalism schools, newsrooms, and fact-checking organizations in Indonesia
-    collaborate and verify claims during and leading up to the 2019 elections. The
-    initiative, which resembled Meedan’s 2016 Electionland effort in the United States,
-    was headed by the fact-checking platform Cekfakta.\n \n__Philippines__: Meedan
-    teamed up with local partners in the Philippines to create Tsek.ph—a new collaborative
-    fact-checking journalistic initiative (Tsek means “Check” in Filipino). The project
-    brought together 11 news organizations and three universities in an effort to
-    counter disinformation and provide verified information related to the country’s
-    midterm elections. Throughout the year, Meedan also continued its work with VeraFiles
-    and Rappler, two pioneers of fact-checking and verification in the Philippines.\n
-    \nSupport from OTF in 2019 also enabled Meedan to lead various informational workshops
-    around the globe showcasing the CMDb project and providing journalists with a
-    better understanding of the power—for good, and for bad—of global memes and claims.
-    Various aspects of the CMDb’s research were presented by Meedan's Director of
-    Research, Scott Hale, at the International Multimodal Communication Centre, University
-    of Oxford, the Okinawa Institute for Science and Technology, and the CCSS School
-    on Computational Social Science at the University of Kobe. \n\nMeedan’s Director
-    of Engineering, Caio Almeida, presented a research paper, Text Similarity Using
-    Word Embeddings to Classify Fake News, at the Workshop on Digital Humanities and
-    Natural Language Processing collocated with the International Conference on the
-    Computational Processing of Portuguese (PROPOR 2020). The paper describes the
-    new, open-source architecture Meedan developed to use word embeddings at scale
-    with Elasticsearch in order to analyse the similarity of short textual items and
-    identify near duplicates. A second research paper evaluating the text and image
-    matching performance is currently in preparation.\n \nWhile contributing to research
-    efforts, Meedan also provided input to Facebook, Twitter, and Google regarding
-    the best approaches to the use of misleading manipulated and synthetic imagery
-    on social media platforms. This feedback was taken into consideration when Twitter
-    drafted new guidelines on manipulated media. Additionally, as part of the W3C
-    Credible Web Community Group, Meedan contributed to the development of a list
-    of indicators for content credibility, including images. And, as part of the Credibility
-    Coalition, members of Meedan helped form the Responding to Memes and Images working
-    group to further address credibility indicators for images and memes.\n \n \n###
-    DATA DRAWBACKS: *Complications emerge surrounding data sharing and sensitivity*\n
+    who submitted the claim.\n \n \n#### ENHANCED TECHNOLOGY\n### CMDb developments
+    streamline the verification process for thousands of Check users\n \nEven just
+    a brief overview of the verification process reveals how incredibly time-consuming
+    it can be. With thousands of claims being submitted to election-monitoring projects,
+    how can reviewers possibly verify each one?\n \nShort answer: They can’t. And
+    the reviewers can’t provide the results fast enough to combat voter suppression
+    and protect electoral integrity. But there is a way to streamline the process—that’s
+    why Meedan applied to OTF to develop the CMDb.\n \nThe technology built for the
+    CMDb allowed Meedan to develop better workflows for annotating claims and images
+    on Check. These developments will help improve research and machine-learning processes
+    in both the short and long term. OTF’s funding also allowed the Meedan team to
+    build new features to better respond to memetic misinformation—like Check’s report
+    designer, which enables journalists to quickly develop compelling visual responses
+    to help stem the spread of misinformation online. New tools for processing content,
+    like importing spreadsheets and ingesting content submitted from closed networks,
+    were also developed with the support.\n \nIn addition to enhancing user ease,
+    the CMDb project significantly improved Meedan’s image and claim similarity infrastructure.
+    The newly developed claim/image matching technology enables similar images and
+    claims to be clustered—making a verifier’s work far easier. By identifying secondary
+    items that are related to a submitted claim, this matching technology allows for
+    similar images and memes to automatically receive the same tagging, annotation,
+    and verdict as the original image or meme. This technological advancement produced
+    immediate efficiencies. Journalists are now able to cluster hundreds of similar
+    images and claims and respond to misinformation in a collective manner (saving
+    massive amounts of time and effort).\n \n \n#### EXPANDED OUTREACH\n### Immediate
+    application of CMDb technology and OTF funds enable Meedan to expand its global
+    impact\n \nMeedan quickly put the newly developed CMDb technology to use. The
+    streamlined content workflows and image matching technology helped support dozens
+    of newsrooms and fact-checking organizations during the 2019 elections in India,
+    Indonesia, and the Philippines.\n \n__India__: In response to misinformation circulating
+    in closed networks in India, Meedan partnered with [Pop-Up Newsroom](https://popup.news/),
+    WhatsApp, and [Proto](https://www.pro.to/) (a civic media studio) on the massive
+    and innovative research endeavor, [Checkpoint](https://www.checkpoint.pro.to/).
+    The effort used Check Message, Meedan’s WhatsApp integration, to conduct research
+    to better understand the ways by which misinformation spreads on WhatsApp.\n \n__Indonesia__:
+    [Google News Initiative](https://newsinitiative.withgoogle.com/) worked in collaboration
+    with Meedan and the news consultancy [Fathm](https://www.fathm.co/) to help journalism
+    schools, newsrooms, and fact-checking organizations in Indonesia collaborate and
+    verify claims during and leading up to the 2019 elections. The initiative, which
+    resembled [Meedan’s 2016 Electionland effort](https://www.youtube.com/watch?v=lhD379ggq54&feature=emb_title)
+    in the United States, was headed by the fact-checking platform Cekfakta.\n \n__Philippines__:
+    Meedan teamed up with local partners in the Philippines to create [Tsek.ph](https://tsek.ph/)—a
+    new collaborative fact-checking journalistic initiative (Tsek means “Check” in
+    Filipino). The project brought together 11 news organizations and three universities
+    in an effort to counter disinformation and provide verified information related
+    to the country’s midterm elections. Throughout the year, Meedan also continued
+    its work with VeraFiles and Rappler, two pioneers of fact-checking and verification
+    in the Philippines.\n \nSupport from OTF in 2019 also enabled Meedan to lead various
+    informational workshops around the globe showcasing the CMDb project and providing
+    journalists with a better understanding of the power—for good, and for bad—of
+    global memes and claims. Various aspects of the CMDb’s research were presented
+    by Meedan's Director of Research, Scott Hale, at the International Multimodal
+    Communication Centre, University of Oxford, the Okinawa Institute for Science
+    and Technology, and the CCSS School on Computational Social Science at the University
+    of Kobe. \n\nMeedan’s Director of Engineering, Caio Almeida, [presented](https://docs.google.com/presentation/d/15Bs713r-i-lAPj6uPwqreX8QvNQ0EW_TnoEuN3dF6V0/edit#slide=id.p)
+    a research paper, [Text Similarity Using Word Embeddings to Classify Fake News](http://ceur-ws.org/Vol-2607/short4.pdf),
+    at the [Workshop on Digital Humanities and Natural Language Processing](https://propor.di.uevora.pt/)
+    collocated with the International Conference on the Computational Processing of
+    Portuguese (PROPOR 2020). The paper describes the new, open-source architecture
+    Meedan developed to use word embeddings at scale with Elasticsearch in order to
+    analyse the similarity of short textual items and identify near duplicates. A
+    second research paper evaluating the text and image matching performance is currently
+    in preparation.\n \nWhile contributing to research efforts, Meedan also provided
+    input to Facebook, Twitter, and Google regarding the best approaches to the use
+    of misleading manipulated and synthetic imagery on social media platforms. This
+    feedback was taken into consideration when Twitter drafted new guidelines on manipulated
+    media. Additionally, as part of the [W3C Credible Web Community Group](https://credweb.org/),
+    Meedan contributed to the development of a list of indicators for content credibility,
+    including images. And, as part of the [Credibility Coalition](https://credibilitycoalition.org/),
+    members of Meedan helped form the Responding to Memes and Images working group
+    to further address credibility indicators for images and memes.\n \n \n#### DATA
+    DRAWBACKS\n### Complications emerge surrounding data sharing and sensitivity\n
     \nDespite the significant progress achieved during the CMDb’s first year, the
     project was not without its difficulties. Obstacles arose pertaining to the data
     collected by partners using Check’s software. Ideally, the images and claims that
     comprise the CMDb would be able to be shared publicly. But doing so creates a
     host of ethical concerns and legal issues regarding terms of service, varying
     privacy policies, and the very real threat of revealing personal information.
-    Meedan worked with Harvard Law School’s Cyberlaw Clinic on terms that enable us
-    to conduct research on this data while protecting personally identifiable information
-    and user privacy. Options such as data trusts, in which a legally separate trust
-    would own the underlying data, are also being explored. These efforts are critical,
-    as finding a way to make the database accessible to other users—and one day even
-    the general public—would help further curb the spread of misinformation online.\n
-    \nAnother obstacle that emerged during the project was psychological. Due to the
-    sensitive nature of some of the investigations conducted using Check, images can
-    be highly graphic and therefore traumatizing for people to review. At this time,
-    image and text matching technology can only reduce—not eliminate—the need for
-    human judgement. That means in cases of human rights violations, an individual
-    must still personally view the submitted image. Such work involves serious mental
-    health challenges and risks like PTSD. Meedan is working to better understand
-    these problems and provide the necessary resources to support the journalists
+    Meedan worked with Harvard Law School’s [Cyberlaw Clinic](https://hls.harvard.edu/dept/clinical/clinics/cyberlaw-clinic/)
+    on terms that enable us to conduct research on this data while protecting personally
+    identifiable information and user privacy. Options such as data trusts, in which
+    a legally separate trust would own the underlying data, are also being explored.
+    These efforts are critical, as finding a way to make the database accessible to
+    other users—and one day even the general public—would help further curb the spread
+    of misinformation online.\n \nAnother obstacle that emerged during the project
+    was psychological. Due to the sensitive nature of some of the investigations conducted
+    using Check, images can be highly graphic and therefore traumatizing for people
+    to review. At this time, image and text matching technology can only reduce—not
+    eliminate—the need for human judgement. That means in cases of human rights violations,
+    an individual must still personally view the submitted image. Such work involves
+    serious mental health challenges and risks like PTSD. Meedan is working to better
+    understand these problems and provide the necessary resources to support the journalists
     and fact-checkers in these roles. Although new developments, like the option to
     flag and filter unwanted images, provide possible mitigation options—this issue
     needs more attention and may not be able to be solved by technology alone.\n \n
-    \n### LOOKING TO THE FUTURE: *What’s next for Meedan, Check, and the CMDb?*\n
+    \n#### LOOKING TO THE FUTURE\n### What’s next for Meedan, Check, and the CMDb?\n
     \nMeedan’s work to build a publicly accessible global claims and memes database
     is far from over. Data sharing issues must be resolved, language barriers must
     be overcome, and the matching technology must continue to be improved. Nonetheless,
@@ -3342,34 +3369,36 @@ story:
     information quality, and research capabilities. The organization’s development
     of the CMDb, and its history of fighting to advance accurate information online,
     make it uniquely positioned to help during this critical time. As a critical first
-    step, Meedan introduced the Check Bot—a customizable COVID-19 WhatsApp bot for
-    fact-checkers tackling the wave of misinformation surrounding the virus.  The
-    COVID-19 Expert Database, which contains A database of expert-sourced COVID-19
-    information, has been built to help support verification processes.\n \n \nNow,
-    as repressive regimes continue to expand their use of misinformation online, and
-    COVID-19 rumors threaten to wreak havoc on public health, Meedan’s work is more
-    important than ever. Memes are no longer a laughing matter. Lives truly hang in
-    the balance of determining what’s true and what’s false.\n\n"
+    step, Meedan introduced the [Check Bot](https://meedan.com/blog/covid-19-whatsapp-bot-for-fact-checkers/)—a
+    customizable COVID-19 WhatsApp bot for fact-checkers tackling the wave of misinformation
+    surrounding the virus.  The [COVID-19 Expert Database](https://learnaboutcovid19.org/),
+    which contains a database of expert-sourced COVID-19 information, has been built
+    to help support verification processes.\n \nNow, as repressive regimes continue
+    to expand their use of misinformation online, and COVID-19 rumors threaten to
+    wreak havoc on public health, Meedan’s work is more important than ever. Memes
+    are no longer a laughing matter. Lives truly hang in the balance of determining
+    what’s true and what’s false."
   words_by:
     en-US:
     - sys:
         id: 9F1HC5T8a0McVXMz0YNM0
         created_at: !ruby/object:DateTime 2020-06-05 16:24:22.963000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-05 16:24:39.256000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-29 20:21:55.633000000 Z
         content_type_id: contributor
-        revision: 0
+        revision: 1
       name:
         en-US: Learning Lab
       staff:
         en-US: false
+  alt_date: !ruby/object:DateTime 2020-06-11 00:00:00.000000000 Z
   date: '2020-06-05'
-  title-en: " Meedan Receives Support from the Open Technology Fund to Develop the
-    Claims and Memes Database"
-  alt_date: *14
-  alt_date_string: '2020-06-05'
+  image: https://images.ctfassets.net/g118h5yoccvd/1cUY0iq6H6A0rAEdOAoDgn/3df3990fd51ee2972b37b462a202260f/meedan_blog_cmdb.png
+  title-en: Meedan Receives Support from the Open Technology Fund to Develop the Claims
+    and Memes Database
+  alt_date_string: '2020-06-11'
 - sys:
     id: 2eI9u7B6dEeolWbe0C2FXl
-    created_at: &15 !ruby/object:DateTime 2020-06-09 19:14:31.378000000 Z
+    created_at: &14 !ruby/object:DateTime 2020-06-09 19:14:31.378000000 Z
     updated_at: !ruby/object:DateTime 2020-06-11 01:16:16.892000000 Z
     content_type_id: story
     revision: 3
@@ -3581,11 +3610,11 @@ story:
   image: https://images.ctfassets.net/g118h5yoccvd/3nSZwz7Zre6hlN5YdxmiQG/cae91892be6d53489f7d7f20527e5b74/meedan_brazil_covid-19_isa_2.jpg
   title-pt: 'COVID-19 no Brasil: memória como resistência '
   title-en: 'COVID-19 in Brazil: memory as a form of resistance '
-  alt_date: *15
+  alt_date: *14
   alt_date_string: '2020-06-09'
 - sys:
     id: 2S78uIQGLH0h6pTi0giy6c
-    created_at: &16 !ruby/object:DateTime 2020-06-15 15:54:39.212000000 Z
+    created_at: &15 !ruby/object:DateTime 2020-06-15 15:54:39.212000000 Z
     updated_at: !ruby/object:DateTime 2020-06-17 14:54:02.851000000 Z
     content_type_id: story
     revision: 5
@@ -3687,11 +3716,11 @@ story:
   date: '2020-06-15'
   image: https://images.ctfassets.net/g118h5yoccvd/49WfemvlNP1bPJin8hyyVd/43345a652d2c169fbb6c7488d98836be/8089307139_014f7b0c99_k.jpg
   title-en: We Stand with Maria Ressa
-  alt_date: *16
+  alt_date: *15
   alt_date_string: '2020-06-15'
 - sys:
     id: 4Qi00kygRwhPWFHpbSGFp9
-    created_at: &17 !ruby/object:DateTime 2020-06-16 12:51:20.313000000 Z
+    created_at: &16 !ruby/object:DateTime 2020-06-16 12:51:20.313000000 Z
     updated_at: !ruby/object:DateTime 2020-06-17 15:56:10.835000000 Z
     content_type_id: story
     revision: 5
@@ -3788,11 +3817,11 @@ story:
   date: '2020-06-16'
   image: https://images.ctfassets.net/g118h5yoccvd/2WPIleyIUdrFnSOypreJGl/2cd5ed9de5f80ed8d24469555c204d10/Ruda05.jpg
   title-en: '25 grassroots projects awarded through the Check Global COVID-19 Fund '
-  alt_date: *17
+  alt_date: *16
   alt_date_string: '2020-06-16'
 - sys:
     id: 4dNRb3JY8VwKmfH5RzZWZY
-    created_at: &18 !ruby/object:DateTime 2020-06-21 15:05:25.979000000 Z
+    created_at: &17 !ruby/object:DateTime 2020-06-21 15:05:25.979000000 Z
     updated_at: !ruby/object:DateTime 2020-06-21 15:26:35.430000000 Z
     content_type_id: story
     revision: 0
@@ -3845,7 +3874,7 @@ story:
   date: '2020-06-21'
   image: https://images.ctfassets.net/g118h5yoccvd/5vL7mjBdgPuBsBSALVwGkw/c853cfb0f862342d3854417ef136ba51/Screen_Shot_2020-06-18_at_4.26.03_PM.png
   title-en: 2019 Meedan Annual Report Now Online
-  alt_date: *18
+  alt_date: *17
   alt_date_string: '2020-06-21'
 - sys:
     id: 3LXzHMwn8OxgdqOOXWp6es
@@ -3934,10 +3963,10 @@ story:
   alt_date_string: '2020-06-23'
 - sys:
     id: 0Vo4bEALC4mzMRdyHHQFR
-    created_at: &19 !ruby/object:DateTime 2020-06-25 02:41:51.084000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 16:36:33.316000000 Z
+    created_at: &18 !ruby/object:DateTime 2020-06-25 02:41:51.084000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-30 21:43:26.104000000 Z
     content_type_id: story
-    revision: 8
+    revision: 10
     space:
       sys:
         id: g118h5yoccvd
@@ -4033,33 +4062,35 @@ story:
     API for fact checkers and ensure more people have access to accurate information
     at the click of a button.”\n\nMeedan presented this study at [Global Fact 7](https://virtual.globalfact7.com/),
     with representatives from WhatsApp, the International Fact Checking Network, Boom
-    and Africa Check. See the video from the panel here:\n\n<a href=\"https://www.youtube.com/watch?v=TnHPLY8uIkY&feature=emb_title\"
-    class=\"embedly-card\" data-card-width=\"100%\" data-card-controls=\"0\">Embedded
-    content: https://www.youtube.com/watch?v=TnHPLY8uIkY&feature=emb_title</a>\n\nTo
-    support this work, Meedan developed a number of key software features that maximized
-    the WhatsApp Business API with a mix of AI, interface and multilingual innovations,
-    including:\n\n- __Multilingual WhatsApp Bot:__ a customizable bot that presents
-    both intuitive menu items and human conversations with fact-checkers in multiple
-    languages\n- __Workflow Automation:__ a triage system to recognize, review and
-    prioritize claims and responses\n- __Similarity Analysis:__ algorithms that detect
-    content patterns and trends based on variations of the same claims\n- __Response
-    at Scale:__ a publishing system to send fact-check reports to tipline users who
-    send duplicate or similar requests\n\n“Our goal with [Check](http://www.meedan.com/check),”
-    explained Meedan’s Director of Product Pierre Conti, “is to build a scalable human
-    and AI system for fact-checkers to efficiently size the demand for verification
-    directly from their audience, cut through the noise, and maximize impact by helping
-    them to prioritize their response to the most pressing misinformation.”"
+    and Africa Check. See the video from the panel here:\n\n<p class=\"u-responsive-ratio\">\n<iframe
+    class=\"youtube\" src=\"https://www.youtube.com/embed/TnHPLY8uIkY?rel=0\" frameborder=\"0\"
+    allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p class=\"caption\">Meedan's
+    Shalini Joshi moderates a discussion about the evolution of fact-checking on WhatsApp
+    at Global Fact 7</p>\n\nTo support this work, Meedan developed a number of key
+    software features that maximized the WhatsApp Business API with a mix of AI, interface
+    and multilingual innovations, including:\n\n- __Multilingual WhatsApp Bot:__ a
+    customizable bot that presents both intuitive menu items and human conversations
+    with fact-checkers in multiple languages\n- __Workflow Automation:__ a triage
+    system to recognize, review and prioritize claims and responses\n- __Similarity
+    Analysis:__ algorithms that detect content patterns and trends based on variations
+    of the same claims\n- __Response at Scale:__ a publishing system to send fact-check
+    reports to tipline users who send duplicate or similar requests\n\n“Our goal with
+    [Check](http://www.meedan.com/check),” explained Meedan’s Director of Product
+    Pierre Conti, “is to build a scalable human and AI system for fact-checkers to
+    efficiently size the demand for verification directly from their audience, cut
+    through the noise, and maximize impact by helping them to prioritize their response
+    to the most pressing misinformation.”"
   date: '2020-06-25'
   image: https://images.ctfassets.net/g118h5yoccvd/6BXH5Hr5n3ujFZFacGuJS3/64946158b5c72ae22c9671ba616d87c3/Golobal_Check_-_case_study_02.png
   title-en: Insights from 5,700 Fact-Checks on the WhatsApp Business API
-  alt_date: *19
+  alt_date: *18
   alt_date_string: '2020-06-25'
 - sys:
     id: 6kOm9RDBNPyry1Z1Ez0yTU
     created_at: !ruby/object:DateTime 2020-06-26 00:26:36.101000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-26 19:04:07.787000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-29 19:46:54.015000000 Z
     content_type_id: story
-    revision: 6
+    revision: 7
     space:
       sys:
         id: g118h5yoccvd
@@ -4146,7 +4177,7 @@ story:
     students have a crucial role to play as ambassadors of facts and quality information.
     The focus is to lead national social media and information campaigns that push
     evidence-based information on COVID-19 to the general public and empower online
-    users to do the same. Learn more at [studentsagainstcovid-19.com](https://www.studentsagainstcovid19.com/)
+    users to do the same. Learn more at [studentsagainstcovid-19.com](https://www.studentsagainstcovid-19.com/)
     and [@StudentsAgainstCovid19](https://www.instagram.com/studentsagainstcovid19/)
     on social media."
   words_by:
