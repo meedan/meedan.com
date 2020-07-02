@@ -3,17 +3,17 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-26 00:31:43.423000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 00:25:00.974000000 Z
     content_type_id: moduleStories
-    revision: 30
+    revision: 32
   title: Blog
   stories:
   - sys:
       id: 0Vo4bEALC4mzMRdyHHQFR
       created_at: !ruby/object:DateTime 2020-06-25 02:41:51.084000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-29 16:36:33.316000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-30 21:43:26.104000000 Z
       content_type_id: story
-      revision: 8
+      revision: 10
     title: Insights from 5,700 Fact-Checks on the WhatsApp Business API
     slug: insights-from-5-700-fact-checks-on-the-whatsapp-business-api
     topic:
@@ -85,28 +85,30 @@ moduleStories:
       and ensure more people have access to accurate information at the click of a
       button.”\n\nMeedan presented this study at [Global Fact 7](https://virtual.globalfact7.com/),
       with representatives from WhatsApp, the International Fact Checking Network,
-      Boom and Africa Check. See the video from the panel here:\n\n<a href=\"https://www.youtube.com/watch?v=TnHPLY8uIkY&feature=emb_title\"
-      class=\"embedly-card\" data-card-width=\"100%\" data-card-controls=\"0\">Embedded
-      content: https://www.youtube.com/watch?v=TnHPLY8uIkY&feature=emb_title</a>\n\nTo
-      support this work, Meedan developed a number of key software features that maximized
-      the WhatsApp Business API with a mix of AI, interface and multilingual innovations,
-      including:\n\n- __Multilingual WhatsApp Bot:__ a customizable bot that presents
-      both intuitive menu items and human conversations with fact-checkers in multiple
-      languages\n- __Workflow Automation:__ a triage system to recognize, review and
-      prioritize claims and responses\n- __Similarity Analysis:__ algorithms that
-      detect content patterns and trends based on variations of the same claims\n-
-      __Response at Scale:__ a publishing system to send fact-check reports to tipline
-      users who send duplicate or similar requests\n\n“Our goal with [Check](http://www.meedan.com/check),”
-      explained Meedan’s Director of Product Pierre Conti, “is to build a scalable
-      human and AI system for fact-checkers to efficiently size the demand for verification
+      Boom and Africa Check. See the video from the panel here:\n\n<p class=\"u-responsive-ratio\">\n<iframe
+      class=\"youtube\" src=\"https://www.youtube.com/embed/TnHPLY8uIkY?rel=0\" frameborder=\"0\"
+      allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p class=\"caption\">Meedan's
+      Shalini Joshi moderates a discussion about the evolution of fact-checking on
+      WhatsApp at Global Fact 7</p>\n\nTo support this work, Meedan developed a number
+      of key software features that maximized the WhatsApp Business API with a mix
+      of AI, interface and multilingual innovations, including:\n\n- __Multilingual
+      WhatsApp Bot:__ a customizable bot that presents both intuitive menu items and
+      human conversations with fact-checkers in multiple languages\n- __Workflow Automation:__
+      a triage system to recognize, review and prioritize claims and responses\n-
+      __Similarity Analysis:__ algorithms that detect content patterns and trends
+      based on variations of the same claims\n- __Response at Scale:__ a publishing
+      system to send fact-check reports to tipline users who send duplicate or similar
+      requests\n\n“Our goal with [Check](http://www.meedan.com/check),” explained
+      Meedan’s Director of Product Pierre Conti, “is to build a scalable human and
+      AI system for fact-checkers to efficiently size the demand for verification
       directly from their audience, cut through the noise, and maximize impact by
       helping them to prioritize their response to the most pressing misinformation.”"
   - sys:
       id: 6kOm9RDBNPyry1Z1Ez0yTU
       created_at: !ruby/object:DateTime 2020-06-26 00:26:36.101000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-26 19:04:07.787000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 19:46:54.015000000 Z
       content_type_id: story
-      revision: 6
+      revision: 7
     title: Leveraging the COVID-19 Expert Database to visualize pandemic information
     slug: leveraging-the-covid-19-expert-database-to-visualize-pandemic-information
     topic:
@@ -171,7 +173,7 @@ moduleStories:
       and misinformation, students have a crucial role to play as ambassadors of facts
       and quality information. The focus is to lead national social media and information
       campaigns that push evidence-based information on COVID-19 to the general public
-      and empower online users to do the same. Learn more at [studentsagainstcovid-19.com](https://www.studentsagainstcovid19.com/)
+      and empower online users to do the same. Learn more at [studentsagainstcovid-19.com](https://www.studentsagainstcovid-19.com/)
       and [@StudentsAgainstCovid19](https://www.instagram.com/studentsagainstcovid19/)
       on social media."
     words_by:
@@ -237,154 +239,208 @@ moduleStories:
       and [health.meedan.com](https://health.meedan.com/) \n"
     alt_date: !ruby/object:DateTime 2020-06-23 00:00:00.000000000 Z
   - sys:
-      id: 38X6lHkUvHetZVWZRMY4rI
-      created_at: !ruby/object:DateTime 2020-04-16 17:09:52.978000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-26 03:35:09.768000000 Z
+      id: 2HHkxZxtbj7L7gzdqaesOJ
+      created_at: !ruby/object:DateTime 2020-06-05 16:09:59.148000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-02 00:23:54.046000000 Z
       content_type_id: story
-      revision: 6
-    title: 'Exploring COVID-19 in Emerging Economies: Announcing the 2020 Global Misinfodemic
-      Report'
-    slug: global-misinfodemic-report
+      revision: 4
+    title: Meedan Receives Support from the Open Technology Fund to Develop the Claims
+      and Memes Database
+    slug: meedan-receives-support-from-the-open-technology-fund-to-develop-the-claims
     topic:
     - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
+        id: 45nimjOpv2SeOkdHJOLQlx
     lead_image:
       sys:
-        id: 5wkwfNNTjvV1Cgf2FAQFD4
-        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
-      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+        id: 1cUY0iq6H6A0rAEdOAoDgn
+        created_at: !ruby/object:DateTime 2020-06-29 19:58:14.523000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-29 20:27:04.176000000 Z
+      title: meedan blog cmdb
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
-    body: "The [2020 Global Misinfodemic Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
-      examines the impact of COVID-19 outside of the Global North.\n\n<p class=\"text-align--center\">\n<a
-      class=\"button no-margin\" href=\"https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/\">Read
-      the report</a>\n</p>\n\nMeedan is pleased to announce the [2020 Global Misinfodemic
-      Report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/),
-      a multidisciplinary, transnational collaboration of information scholars, legal
-      experts, journalists and fact-checkers, focused on examining the impacts of
-      COVID-19 misinformation in Kenya, South Korea, Iran, India, Hong Kong, Brazil
-      and other regions. Working with scholars, verification experts and journalists
-      from major academic institutions, broadcasting stations and fact-checking organizations,
-      the Global Misinfodemic Report is an investigation into the way this unprecedented
-      viral event is both reforming and confirming the state of our global information
-      ecosystem. \n\nIn late 2019 and early 2020, as countries worked to contain the
-      first signs of the physical virus spreading, a secondary crisis occured: misinformation
-      on platforms like Twitter, Facebook and WhatsApp contributed to [confusion](https://www.cbc.ca/news/technology/coronavirus-avoid-sharing-social-media-disinformation-1.5497000),
-      [panic](https://www.reuters.com/article/us-health-coronavirus-disinformation/russia-deploying-coronavirus-disinformation-to-sow-panic-in-west-eu-document-says-idUSKBN21518F),
-      and sometimes real world physical health outcomes, including [death](https://www.bbc.com/news/world-middle-east-51677530).
-      \n\nIn a recent [video broadcast](https://www.un.org/en/un-coronavirus-communications-team/time-science-and-solidarity),
-      UN Secretary-General António Guterres acknowledged “This is a time for science
-      and solidarity. Yet the global ‘misinfo-demic’ is spreading. Harmful health
-      advice and snake-oil solutions are proliferating. Falsehoods are filling the
-      airwaves. Wild conspiracy theories are infecting the Internet. Hatred is going
-      viral, stigmatizing and vilifying people and groups. The world must unite against
-      this disease, too.”\n\nA misinfodemic is a term coined by Meedan researchers
-      in [the Atlantic in 2018](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/),
-      and it is defined as a phenomenon that takes place when online misinformation
-      leads to the spread of disease. The COVID-19 misinfodemic will complicate our
-      interactions with our neighbours and our own bodies long after a treatment is
-      approved or a vaccine is developed for the physical disease. \n\nThe report
-      touches on these key questions:\n\n- What types of COVID-19 misinformation are
-      spreading online, and by whom?\n- Why is COVID-19 misinformation resonating
-      with certain communities? \n- What are the varying impacts of that misinformation
-      on  public health outcomes in different parts of the world, especially emerging
-      economies?\n- What digital governance and policy issues are raised by COVID-19?\n\nThe
-      first wave of the pandemic is beginning to settle in large parts of the developed
-      world, but in emerging economies, the crisis may be just beginning. As the New
-      York Times editorial board noted on April 13, 2020: \n\n“What probably lies
-      ahead is the spread of the coronavirus through countries ravaged by conflict,
-      through packed refugee camps and detention centers in places like Syria or Bangladesh,
-      through teeming cities like Mumbai, Rio de Janeiro or Monrovia, where social
-      distancing is impossible and government is not trusted, through countries without
-      the fiscal capacity or health services to mount a viable response.\n\nThat would
-      be disastrous not only for them but also for the rest of the world as supplies
-      of raw materials are disrupted, fragile economies collapse, strongmen grow stronger
-      and the virus doubles back to reinfect northern regions.”\n\nWhat is also likely
-      to ensue, long after countries in North America and Europe control their initial
-      outbreaks, is sustained low-quality and sometimes dangerous information about
-      the pandemic. In Meedan’s own analyses of more than 5,700 submissions to our
-      partners’ fact-checking tiplines between January 1 and April 8, 2020, we watched
-      COVID-19 misinformation evolve in online spaces, including:\n\n- Unproven treatments
-      involving tea, vitamins, hot water, heat, and hydroxychloroquine \n- Misinformation
-      about penalties for spreading misinformation or just spreading information,
-      about the pandemic \n- Xenophobia about different ethnic groups \n\nAll of this
-      misinformation can trigger real-world health outcomes. Some countries are experiencing
-      the most obvious and harmful manifestations of right now, such as in Iran, where
-      [people are dying from drinking Methanol after false and misleading information
-      circulated on social media about its use as a treatment](https://www.ctvnews.ca/health/nearly-500-people-dead-in-iran-after-drinking-methanol-to-fight-off-covid-19-1.4870674).
-      In other regions, the misinfodemic materializes as public trust in leadership
-      weans and citizens look to sometimes misguided informal leaders for answers
-      to complex scientific information. \n\nAs both the physical and online virus
-      rages on into the summer, the Global Misinfodemic Report will begin publishing
-      groups of articles from contributors around the world. [See the most recent
-      reports](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)
-      and [sign up for our newsletter](https://meedan.com/checklist) for updates on
-      when to expect the next batch of articles. "
+      url: "//images.ctfassets.net/g118h5yoccvd/1cUY0iq6H6A0rAEdOAoDgn/3df3990fd51ee2972b37b462a202260f/meedan_blog_cmdb.png"
+    body: "In today’s increasingly online world, social media has become a source
+      for news—often in compressed visual form. Widely circulated images have the
+      power to shape opinions and alter actions. Sometimes they’re funny. Sometimes
+      they’re informative. But what happens when memes are used to intentionally transmit
+      disinformation (information that is false and deliberately created to cause
+      harm)? How are people supposed to know what’s true and what’s false?\n \nIf
+      the distinction seems trivial, it’s not. Elections and lives hang in the balance
+      of finding a way to solve this problem in an efficient and effective manner.
+      That’s why Meedan received funding from the [Open Technology Fund](https://www.opentech.fund/)
+      (OTF) in 2019 to help develop the Claims and Memes Database (CMDb)—a programmer-accessible
+      repository of fact-checked claims and debunked visual misinformation intended
+      to combat this new type of information control. The CMDb project was overseen
+      by Meedan program manager [Wafaa Heikal](https://meedan.com/blog/meet-our-regional-program-managers-apac-latin-america-and-africa/).
+      \n \n \n#### SETTING THE STAGE\n### The rise of the intentional use of misinformation
+      online\n \nMeedan has long worked at the forefront of improving the quality
+      and equity of online information. One of the main ways it does so is through
+      the organization’s flagship software, [Check](https://meedan.com/check). This
+      free and [open-source](https://github.com/meedan/check) collaborative workflow
+      software helps users verify digital photos and text, build datasets, and structure
+      open-source investigations. An early iteration of the software played a key
+      role for citizen journalists during the 2011 Arab Spring protests. Five years
+      later, over 1,000 journalists used Check’s collaborative verification structure
+      to help monitor and detect voting issues in the 2016 U.S. presidential election.
+      Today, over 250 workspaces created by more than 1,750 users around the world
+      now rely on Check to fact-check and investigate online information. Their efforts,
+      and the stories they have helped produce, have made a tangible difference in
+      the way global citizen media is relied upon and viewed.\n \nBut by 2019, with
+      repressive regimes ramping up their own efforts to weaponize visual misinformation
+      as a tool for social network manipulation, voter suppression, and censorship,
+      it became clear that the Check platform required an upgrade. Journalists needed
+      to be able to more efficiently verify or debunk memes. And citizens needed to
+      be able to receive that fact-checked information in a more expeditious manner.
+      So, with the funding from OTF’s Core Infrastructure Fund, Meedan set out to
+      build the CMDb and enhance Check’s infrastructure.\n \n \n#### TRUE OR FALSE—EXPLAINED\n###
+      Inside Meedan’s revolutionary verification software Check\n \nBefore diving
+      into the details of the CMDb project, it’s best to understand how Check works.\n
+      \nThe software helps journalists, researchers, and civil society organizations
+      gather and verify digital information through a uniquely customizable process.
+      After a Check team creates their project workspace, they set-up how they will
+      receive submissions for verification. These submissions can be images, text,
+      a combination of images and text (memes), or videos. For example in India, the
+      Checkpoint project allowed for submissions by providing WhatsApp users with
+      a phone number to which they could text rumors, claims, or memes for verification.
+      Other submission processes include collaborating with local partners in North
+      Africa and West Asia to crowdsource investigative evidence of human rights violations
+      (to be sent to the [UC Berkeley Human Rights Investigations Lab)](https://humanrights.berkeley.edu/programs-projects/tech/investigations-lab)
+      or working with students and journalists to help monitor elections in Tunisia.\n
+      \nOnce these submissions are uploaded to Check, the verification process begins.
+      Throughout it all, Meedan works with partners to shape their tasks and workflows
+      based on the project’s specific needs. During verification, users (such as journalists
+      or human rights researchers) review a submission and work to determine the claim’s
+      origin and accuracy. Annotation options allow reviewers to provide in-depth
+      analysis and tags. After all tasks are completed for a submission, a verdict
+      is determined (these are customizable and often include correct, incorrect,
+      or misleading). In certain situations, this verdict can then be transmitted
+      back to the individual who submitted the claim.\n \n \n#### ENHANCED TECHNOLOGY\n###
+      CMDb developments streamline the verification process for thousands of Check
+      users\n \nEven just a brief overview of the verification process reveals how
+      incredibly time-consuming it can be. With thousands of claims being submitted
+      to election-monitoring projects, how can reviewers possibly verify each one?\n
+      \nShort answer: They can’t. And the reviewers can’t provide the results fast
+      enough to combat voter suppression and protect electoral integrity. But there
+      is a way to streamline the process—that’s why Meedan applied to OTF to develop
+      the CMDb.\n \nThe technology built for the CMDb allowed Meedan to develop better
+      workflows for annotating claims and images on Check. These developments will
+      help improve research and machine-learning processes in both the short and long
+      term. OTF’s funding also allowed the Meedan team to build new features to better
+      respond to memetic misinformation—like Check’s report designer, which enables
+      journalists to quickly develop compelling visual responses to help stem the
+      spread of misinformation online. New tools for processing content, like importing
+      spreadsheets and ingesting content submitted from closed networks, were also
+      developed with the support.\n \nIn addition to enhancing user ease, the CMDb
+      project significantly improved Meedan’s image and claim similarity infrastructure.
+      The newly developed claim/image matching technology enables similar images and
+      claims to be clustered—making a verifier’s work far easier. By identifying secondary
+      items that are related to a submitted claim, this matching technology allows
+      for similar images and memes to automatically receive the same tagging, annotation,
+      and verdict as the original image or meme. This technological advancement produced
+      immediate efficiencies. Journalists are now able to cluster hundreds of similar
+      images and claims and respond to misinformation in a collective manner (saving
+      massive amounts of time and effort).\n \n \n#### EXPANDED OUTREACH\n### Immediate
+      application of CMDb technology and OTF funds enable Meedan to expand its global
+      impact\n \nMeedan quickly put the newly developed CMDb technology to use. The
+      streamlined content workflows and image matching technology helped support dozens
+      of newsrooms and fact-checking organizations during the 2019 elections in India,
+      Indonesia, and the Philippines.\n \n__India__: In response to misinformation
+      circulating in closed networks in India, Meedan partnered with [Pop-Up Newsroom](https://popup.news/),
+      WhatsApp, and [Proto](https://www.pro.to/) (a civic media studio) on the massive
+      and innovative research endeavor, [Checkpoint](https://www.checkpoint.pro.to/).
+      The effort used Check Message, Meedan’s WhatsApp integration, to conduct research
+      to better understand the ways by which misinformation spreads on WhatsApp.\n
+      \n__Indonesia__: [Google News Initiative](https://newsinitiative.withgoogle.com/)
+      worked in collaboration with Meedan and the news consultancy [Fathm](https://www.fathm.co/)
+      to help journalism schools, newsrooms, and fact-checking organizations in Indonesia
+      collaborate and verify claims during and leading up to the 2019 elections. The
+      initiative, which resembled [Meedan’s 2016 Electionland effort](https://www.youtube.com/watch?v=lhD379ggq54&feature=emb_title)
+      in the United States, was headed by the fact-checking platform Cekfakta.\n \n__Philippines__:
+      Meedan teamed up with local partners in the Philippines to create [Tsek.ph](https://tsek.ph/)—a
+      new collaborative fact-checking journalistic initiative (Tsek means “Check”
+      in Filipino). The project brought together 11 news organizations and three universities
+      in an effort to counter disinformation and provide verified information related
+      to the country’s midterm elections. Throughout the year, Meedan also continued
+      its work with VeraFiles and Rappler, two pioneers of fact-checking and verification
+      in the Philippines.\n \nSupport from OTF in 2019 also enabled Meedan to lead
+      various informational workshops around the globe showcasing the CMDb project
+      and providing journalists with a better understanding of the power—for good,
+      and for bad—of global memes and claims. Various aspects of the CMDb’s research
+      were presented by Meedan's Director of Research, Scott Hale, at the International
+      Multimodal Communication Centre, University of Oxford, the Okinawa Institute
+      for Science and Technology, and the CCSS School on Computational Social Science
+      at the University of Kobe. \n\nMeedan’s Director of Engineering, Caio Almeida,
+      [presented](https://docs.google.com/presentation/d/15Bs713r-i-lAPj6uPwqreX8QvNQ0EW_TnoEuN3dF6V0/edit#slide=id.p)
+      a research paper, [Text Similarity Using Word Embeddings to Classify Fake News](http://ceur-ws.org/Vol-2607/short4.pdf),
+      at the [Workshop on Digital Humanities and Natural Language Processing](https://propor.di.uevora.pt/)
+      collocated with the International Conference on the Computational Processing
+      of Portuguese (PROPOR 2020). The paper describes the new, open-source architecture
+      Meedan developed to use word embeddings at scale with Elasticsearch in order
+      to analyse the similarity of short textual items and identify near duplicates.
+      A second research paper evaluating the text and image matching performance is
+      currently in preparation.\n \nWhile contributing to research efforts, Meedan
+      also provided input to Facebook, Twitter, and Google regarding the best approaches
+      to the use of misleading manipulated and synthetic imagery on social media platforms.
+      This feedback was taken into consideration when Twitter drafted new guidelines
+      on manipulated media. Additionally, as part of the [W3C Credible Web Community
+      Group](https://credweb.org/), Meedan contributed to the development of a list
+      of indicators for content credibility, including images. And, as part of the
+      [Credibility Coalition](https://credibilitycoalition.org/), members of Meedan
+      helped form the Responding to Memes and Images working group to further address
+      credibility indicators for images and memes.\n \n \n#### DATA DRAWBACKS\n###
+      Complications emerge surrounding data sharing and sensitivity\n \nDespite the
+      significant progress achieved during the CMDb’s first year, the project was
+      not without its difficulties. Obstacles arose pertaining to the data collected
+      by partners using Check’s software. Ideally, the images and claims that comprise
+      the CMDb would be able to be shared publicly. But doing so creates a host of
+      ethical concerns and legal issues regarding terms of service, varying privacy
+      policies, and the very real threat of revealing personal information. Meedan
+      worked with Harvard Law School’s [Cyberlaw Clinic](https://hls.harvard.edu/dept/clinical/clinics/cyberlaw-clinic/)
+      on terms that enable us to conduct research on this data while protecting personally
+      identifiable information and user privacy. Options such as data trusts, in which
+      a legally separate trust would own the underlying data, are also being explored.
+      These efforts are critical, as finding a way to make the database accessible
+      to other users—and one day even the general public—would help further curb the
+      spread of misinformation online.\n \nAnother obstacle that emerged during the
+      project was psychological. Due to the sensitive nature of some of the investigations
+      conducted using Check, images can be highly graphic and therefore traumatizing
+      for people to review. At this time, image and text matching technology can only
+      reduce—not eliminate—the need for human judgement. That means in cases of human
+      rights violations, an individual must still personally view the submitted image.
+      Such work involves serious mental health challenges and risks like PTSD. Meedan
+      is working to better understand these problems and provide the necessary resources
+      to support the journalists and fact-checkers in these roles. Although new developments,
+      like the option to flag and filter unwanted images, provide possible mitigation
+      options—this issue needs more attention and may not be able to be solved by
+      technology alone.\n \n \n#### LOOKING TO THE FUTURE\n### What’s next for Meedan,
+      Check, and the CMDb?\n \nMeedan’s work to build a publicly accessible global
+      claims and memes database is far from over. Data sharing issues must be resolved,
+      language barriers must be overcome, and the matching technology must continue
+      to be improved. Nonetheless, the first year of the CMDb project was a resounding
+      success. Technology developed for the project is already in use, saving critical
+      time and effort for journalists and human rights activists in the verification
+      process. Much was also learned about the ways by which disinformation spreads
+      across the internet. In response, an infrastructure was established that one
+      day will be able to prevent debunked claims and memes from traveling across
+      countries and time (known as “zombie misinformation,” these false rumors originate
+      in one context and continue to permeate the internet despite being “killed off”—debunked—in
+      their original country/time).\n \nFor now, Meedan has focused its efforts on
+      combating the spread of misinformation related to the COVID-19 pandemic. Like
+      the virus itself, misinformation pertaining to “cures” or “treatments” is spreading
+      around the world and causing real harm. Meedan is committed to making its full
+      toolkit and code available to help improve trust, information quality, and research
+      capabilities. The organization’s development of the CMDb, and its history of
+      fighting to advance accurate information online, make it uniquely positioned
+      to help during this critical time. As a critical first step, Meedan introduced
+      the [Check Bot](https://meedan.com/blog/covid-19-whatsapp-bot-for-fact-checkers/)—a
+      customizable COVID-19 WhatsApp bot for fact-checkers tackling the wave of misinformation
+      surrounding the virus.  The [COVID-19 Expert Database](https://learnaboutcovid19.org/),
+      which contains a database of expert-sourced COVID-19 information, has been built
+      to help support verification processes.\n \nNow, as repressive regimes continue
+      to expand their use of misinformation online, and COVID-19 rumors threaten to
+      wreak havoc on public health, Meedan’s work is more important than ever. Memes
+      are no longer a laughing matter. Lives truly hang in the balance of determining
+      what’s true and what’s false."
     words_by:
     - sys:
-        id: 1uaMTril4FB8NxxRTKwLDH
-  - sys:
-      id: 4Qi00kygRwhPWFHpbSGFp9
-      created_at: !ruby/object:DateTime 2020-06-16 12:51:20.313000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-17 15:56:10.835000000 Z
-      content_type_id: story
-      revision: 5
-    title: '25 grassroots projects awarded through the Check Global COVID-19 Fund '
-    slug: 25-grassroots-projects-awarded-through-the-check-global-covid-19-fund
-    topic:
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
-    lead_image:
-      sys:
-        id: 2WPIleyIUdrFnSOypreJGl
-        created_at: !ruby/object:DateTime 2020-06-16 12:52:09.463000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-16 23:52:28.354000000 Z
-      title: The floor of a farm full of ripen and unpicked pears
-      description: The floor of a farm full of ripen and unpicked pears and in the
-        middle of the picture the legs and feet of someone standing wearing pants
-        and sand. Photo courtesy of Ruda Coletiva. This picture is part of photographer
-        Wara Vargas's work related to the impact of COVID-19 in the food chain of
-        Latin America.
-      url: "//images.ctfassets.net/g118h5yoccvd/2WPIleyIUdrFnSOypreJGl/2cd5ed9de5f80ed8d24469555c204d10/Ruda05.jpg"
-    body: |
-      [As we've seen](https://misinforeview.hks.harvard.edu/article/using-misinformation-as-a-political-weapon-covid-19-and-bolsonaro-in-brazil/), health misinformation is escalating not only within Western democracies but also at a dangerous scale in emerging economies, where independent media workers and organizations have had to wade through financial, physical, and mental strain. As the Check Global team continued to monitor the ramifications of COVID-19 on emerging economies and independent media organizations, the need to act was undeniable.
-
-      Meedan has engaged in a company-wide effort to address our partners' challenges, whether through building new technologies[ such as the COVID-19 Check Bot](https://meedan.com/blog/covid-19-whatsapp-bot-for-fact-checkers/), providing independent newsrooms and partners with [a database led by expert epidemiologists and public health workers](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/) to facilitate fact-checking and verification initiatives, or contributing to [global research](https://meedan.com/blog/global-misinfodemic-report/) about COVID-19-related misinformation. In the interest of reaching out to new organizations in need, the Check Global team announced on April 8 a call to [support media organizations and media workers in Asia-Pacific, in Africa, in Latin America and in the North Africa Western Asia region through a series of micro-grants.](https://meedan.com/blog/new-microgrants-for-covid-19-media-work-in-emerging-economies/) The microgrants projects ranged amongst fact-checking projects, media literacy campaigns and daily blogging reflecting on applicants' quarantine realities. We were blown away by the popularity of our call, receiving a whooping 298 applications in less than 30 days!
-
-      While overwhelming and heartening, the large pool of applications made the selection process challenging. A few criteria guided us in this process. Originality and the innovative nature of the application were  important factors in the selection. Some applications stood out for their creativity and clarity. Applications were also shortlisted on the basis of their achievability --- projects that proposed activities and outputs that could be realistically achieved during the current health crisis were prioritised. Finally, outreach and potential impact were also important factors. Projects that strengthened the involvement of underserved communities and represented issues of people in areas outside the radar of mainstream media made it to the final selection process. We had limited funding, but there are many applications that are deserving, and we hope to be able to support those projects at a later stage.
-
-      In this round, we awarded 25 projects with funding that ranged between $300 and $2,500, for a total of $52,000. From organisations involved in relief work around COVID-19 to individuals committed to tracking the impact of the pandemic on local communities, - the range of applications was wide, rich and diverse. Given the work they do, some of these grantees face risks of political repression, and we're not able to list all of them here. Here are some of the highlights from our work:
-
-
-      ### APAC: 7 Fact-checking projects targeting vulnerable groups
-
-      We received close to 40 applications from the Asia Pacific region.
-
-      We selected seven applications for media work have been selected from the APAC region for the COVID-19 microgrants. These represent six countries in the region, with a particular focus on Southeast and South Asia --- Cambodia, the Philippines, Indonesia, Nepal, India and Sri Lanka. The creation of online content that is fact-checked and accurate has been an area around which a few groups have designed their projects. [Open Development Cambodia](https://opendevelopmentcambodia.net/) has designed a project to create an online information hub in order to provide fact-checked information to citizens and civil society organisations. In the Philippines, we are thrilled to support the work of an individual, Carol Dawonlay/[Lalang Hu Mga Laga](https://www.facebook.com/pg/storiesofwomencampaign/posts/) who will produce social media cards and videos to highlight violence against women during the pandemic. [BASAbali](https://basabali.org/) in Indonesia is in the process of designing a digital literacy campaign around COVID-19 with the underserved and minority communities in Bali.
-
-      We're also happy to support [Disability Empowerment Society Nepal](https://www.facebook.com/DisabiltyEmp/); they have designed a project to create an accessible website to provide news and information on COVID-19 to people with disabilities. In India, [Sadbhavana Trust](http://sadbhavanatrust.org.in/) will strengthen the leadership and meaningful participation of young women from underserved communities in addressing the COVID-19 outbreak by creating online content from a feminist perspective. [International Youth Alliance for Peace](https://iyapsl.org/) in Sri Lanka will design a  blogging project to capture stories of frontline workers addressing the COVID-19 pandemic.
-
-      ### Africa: 6 efforts curbing the ramifications of the COVID-19 misinfodemic
-
-      We were thrilled by the 170 applications we received from Africa, which made up the majority of our overall application pool. Due to our limited funds we were only able to support six  applications from Nigeria, Somalia, Kenya, Guinee, Tanzania, Zambia. Here are highlights from four of these.
-
-      [People's Check](http://www.peoplescheck.org/) in Nigeria is launching the 'Verify Nigeria' project to fact-check and verify viral health misinformation and disinformation that has affected people's health and life in Nigeria. People's Check will create different visual elements and participate in training students and citizen journalists on health fact-checking training. [Radio Daljir SOMALIA](https://www.daljir.com/) will support media literacy efforts in Somalia and design audio campaigns and radio reporting to bring health facts to the public, encourage COVID-19 prevention measures & make social distancing possible. Radio Daljir will target communities in Somalia's regions of Puntland and Galmudug States of Somalia with a focus on the situation of the nomads. [Zéro Pauvre Afrique (ZPA, "Zero Poor in Africa")](https://www.facebook.com/zeropauvreenafrique/) will track, deconstruct, disseminate misinfodemics with support of a network of volunteers in order to reduce their impact on the management of the COVID-19 crisis in Guinea.
-
-      Family Welfare Foundation's project will contribute to ensuring engagement of human rights defenders and activists with local artists in documenting, information sharing, reporting and amplifying voices on injustice issues, human rights abuse and repressions associated to COVID-19 interventions in Tanzania.
-
-      We are building on the success of the COVID-19 microgrants to create different media funds in Africa that can support more innovative projects.
-
-
-      ### Latin America: Sustaining the work of 5 women-led independent media organizations
-
-      We received 47 applications from Latin America in both Spanish and Portuguese. The majority of the 7 selected initiatives are led by women and are covering the impact of COVID-19 pandemic in their regions. [Coletivo Cirandeiras](https://www.instagram.com/cirandeiras/) will produce podcast episodes on the stories of women leaders in underrepresented and marginalized communities in Brazil. We will also be supporting the fact-checking work of an alliance of two independent media outlets in Cuba ([Periodismo de Barrio](https://www.periodismodebarrio.org/) and [elTOQUE](https://eltoque.com/)) to increase regional awareness in matters related to the pandemic. Another fact checking initiative [Eté Checagem](https://www.etechecagem.com/) agency works and specializes in human rights and guidelines relating to the women, youth and LGBTQIA population in Brazil. [Ruda Coletiva](https://rudacolectiva.com) a group of Latin America women photographers, will do a visual investigation of the impact that the pandemic has had in the food chain throughout the region. With the theme "From my window" [Coletivo Mulherias](https://mulherias.blogosfera.uol.com.br/) will coordinate a group of women journalists living in the slums of Brazil portraying their routine during the pandemic. In Ecuador we will hear [Isabel Gonzales and Chicas Poderosas ](https://www.instagram.com/chicaspoderosasec/)develop a new podcast that aims to inform and support the journalist community in Latin America suffering the consequences of COVID-19 in their work. And in El Salvador we will support the work of photographer [Giuzeppe Dezza](http://www.GDezza.net) and his work on documenting the impacts of the pandemic in the country.
-
-      ### NAWA: Supporting 5 investigations and fact-checking initiatives
-      As for applications from the North Africa Western Asia region, we were lucky to receive 24 applications, both in English and Arabic.
-
-      We are pleased and excited to support five projects from the region, divided between media literacy campaigns, fact-checking initiatives and in-depth investigations. [Radio Medenine](http://radiomedenine.com/), a community radio project based in southern Tunisia, aims to create a digital health program interviewing health experts and providing pressing health information. Award-winning collaborative blog [Nawaat](http://nawaat.org/portail/) ("the core" in Arabic), also from Tunisia, will be sustaining its trilingual fact-checking efforts through our grant over the next month, while media platform [SyriaUntold](https://syriauntold.com/en/) will publish a series of investigative reports about health disparities in Syria. We were also happy to fund an investigation on the state of African refugees in Tangier and a health fact-checking campaign in Egypt.
-
-      The above COVID-19 microgrants recipients have given Meedan consent to announce their projects publicly, while others have not been named for security reasons.
+        id: 9F1HC5T8a0McVXMz0YNM0
+    alt_date: !ruby/object:DateTime 2020-06-11 00:00:00.000000000 Z
