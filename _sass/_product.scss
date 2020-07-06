@@ -64,7 +64,7 @@
     h3 {
         padding-top: var(--space-5);
         padding-bottom: var(--space-3);
-        color: var(--texasRose);
+        color: var(--paleNavy);
     }
     .product-feature {
         @include responsive('min-width: #{$width-tablet}') {
@@ -81,7 +81,7 @@
             margin-bottom: var(--space-1);
         }
         .number {
-            color: var(--texasRose);
+            color: var(--paleNavy);
             padding-top: var(--space-2);
             position: relative;
             &:before {
@@ -89,11 +89,11 @@
                 position: absolute;
                 width: 8%;
                 top: 0;
-                border-top: 1px solid var(--texasRose);
+                border-top: 1px solid var(--paleNavy);
             }
         }
         .title {
-            color: var(--texasRose);
+            color: var(--paleNavy);
         }
         .description {
             font-size: var(--scale-0);
