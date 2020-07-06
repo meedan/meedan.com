@@ -143,6 +143,15 @@
     list-style-type: none;
     margin-top: var(--space-1);
 }
+
+.plain-list.with-spacing ul li {
+    margin-bottom: var(--space-1);
+}
+
+.plain-list.with-spacing ul li p {
+    margin-bottom: var(--space-1);
+}
+
 .plain-list ul li a {
     display: block;
     font-size: var(--scale-0);
