@@ -40,6 +40,10 @@
     background-color: var(--coral);
 }
 
+.podcast {
+    background-color: var(--lightNavy);
+}
+
 .page-wrapper {
     font-size: var(--scale-1);
 }
@@ -168,4 +172,30 @@
     background-position: center right;
     background-size: 55%;
     overflow: visible;
+}
+
+.sidebar {
+    font-size: var(--scale-0);
+    font-family: $font-stack;
+}
+
+.sidebar a {
+    color: var(--blackInk);
+}
+
+.sidebar ul,
+.sidebar li {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: var(--space-1);
+}
+
+.sidebar ul li {
+    margin-bottom: var(--space-1);
+    padding-bottom: var(--space-1);
+    border-bottom: 1px solid var(--blackInk);
 }
