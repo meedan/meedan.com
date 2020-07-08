@@ -3,7 +3,52 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 19:05:15.682000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-08 01:35:15.438000000 Z
     content_type_id: moduleEvents
-    revision: 19
+    revision: 20
   title: Upcoming Events
+  events:
+  - sys:
+      id: 2IVc4gpeKc2YMOSl3dc4y
+      created_at: !ruby/object:DateTime 2020-07-07 18:51:41.980000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 01:13:46.182000000 Z
+      content_type_id: event
+      revision: 6
+    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+    event_date: !ruby/object:DateTime 2020-07-09 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-07-09 00:00:00.000000000 Z
+    time: |-
+      - *New York* 6:30pm
+      - *San Francisco* 3:30pm
+    images:
+    - sys:
+        id: 6UM4uQWvHAOZKmqzyeveOv
+        created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 01:04:51.232000000 Z
+      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/e6fdc641bd328a2dcf817f3caf8e4890/meedan_iglive_july-9_01.png"
+    - sys:
+        id: 3TJAgyBrHZiavOT7sisOXB
+        created_at: !ruby/object:DateTime 2020-07-08 01:13:23.163000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 01:13:42.003000000 Z
+      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3TJAgyBrHZiavOT7sisOXB/367c84efd6097172afb2d1080cc369c8/meedan_iglive_july-9_02.png"
+    social_card_image:
+      sys:
+        id: 7mRc8c0wFkFDTVzsNzu1wn
+        created_at: !ruby/object:DateTime 2020-07-08 01:04:23.296000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 01:04:53.917000000 Z
+      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7mRc8c0wFkFDTVzsNzu1wn/d4fc43412508c4d59fa8a3754e37c85c/meedan_iglive_july-9_03.png"
+    location_human_friendly: 'Instagram Live: @heymeedan'
+    description: Tune in on Friday at 6:30 PM Eastern to hear Dr. Salles in conversation
+      with Dr. Seema Yasmin.
+    long_description: Dr. Salles is a bariatric surgeon who helped New York City during
+      its COVID-19 peak and is now providing care in California as cases rise. Her
+      research focuses on gender equity, implicit bias, diversity, inclusion, and
+      physician well-being. Tune in on Friday at 6:30 PM Eastern to hear Dr. Salles
+      in conversation with Dr. Seema Yasmin.
+    slug: instagram-live-dr-arghavan-salles-on-covid-19-and-healthcare-workers
