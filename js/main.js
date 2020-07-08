@@ -36,7 +36,7 @@ $(document).ready(function() {
 	// });
 
 	// Add class landscape or portrait to journal lead images
-	$('.grid-template-columns--2 .image-container img, .grid-template-columns--3 .image-container img').each(function() {
+	$('.grid-template-columns--2 .image-container img').each(function() {
 		var height = $(this).height();
 		var width = $(this).width();
 		if (height > width) {

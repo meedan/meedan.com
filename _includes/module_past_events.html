@@ -16,7 +16,7 @@
     {% endif %}
     <div class="module-wrapper">
         {% for event in events %}
-            <a href="/events/{{ event.slug }}" class="event-item">
+            <a href="/events/{{ event.slug }}" class="event-item event-item-wide">
                 <div class="date">
                     <span class="month">{{ event.event_date | date: '%B' }}</span>
                     <span class="day">{{ event.event_date | date: '%d' }}</span>

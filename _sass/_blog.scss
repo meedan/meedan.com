@@ -54,17 +54,17 @@
     .title {
         font-size: var(--scale-1);
     }
-    @include responsive('min-width: #{$width-desktop}') {
-        .image-container {
-            min-height: 20rem;
-        }
-    }
-    .image-container.landscape {
-        margin: var(--space-1) var(--space-2) var(--space-1);
-    }
-    .image-container.portrait {
-        margin: var(--space-1) var(--space-4) var(--space-1);
-    }
+    // @include responsive('min-width: #{$width-desktop}') {
+        // .image-container {
+            // min-height: 20rem;
+        // }
+    // }
+    // .image-container.landscape {
+    //     margin: var(--space-1) var(--space-2) var(--space-1);
+    // }
+    // .image-container.portrait {
+    //     margin: var(--space-1) var(--space-4) var(--space-1);
+    // }
 }
 
 .story header {
