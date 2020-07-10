@@ -51,6 +51,10 @@
                 {% endif %}
             </div>
         </div>
+    {% elsif page.sys.content_type_id == 'job' %}
+        <div class="title-container main-grid__1--1">
+            <span class="title">{{ page.title }}</span>
+        </div>
     {% endif %}
     {% if page.callout %}
     <svg id="text-container" class="callout" width="618" height="663" viewBox="0 0 618 663" fill="none" xmlns="http://www.w3.org/2000/svg">
