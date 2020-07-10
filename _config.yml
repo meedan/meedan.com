@@ -126,17 +126,17 @@ contentful:
         content_types:
           story: StoryMapper
         destination: 'contentful/spaces/'
-    # - jobs: 
-    #     space: ENV_CONTENTFUL_M_SPACE_ID
-    #     access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-    #     cda_query:
-    #       content_type: 'job'
-    #     client_options:
-    #       api_url: ENV_CONTENTFUL_API_URL
-    #     all_entries: true
-    #     content_types:
-    #       job: JobsMapper
-    #     destination: 'contentful/spaces/'
+    - jobs: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        cda_query:
+          content_type: 'job'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
+        all_entries: true
+        content_types:
+          job: JobsMapper
+        destination: 'contentful/spaces/'
     - pages: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
@@ -273,10 +273,10 @@ page_gen:
     name: 'slug'
     dir: '/blog/ar/'
     filter: 'body-ar'
-  # - data: 'contentful.spaces.jobs.job'
-  #   template: 'job'
-  #   name: 'slug'
-  #   dir: '/jobs/'
+  - data: 'contentful.spaces.jobs.job'
+    template: 'job'
+    name: 'slug'
+    dir: '/jobs/'
   - data: 'contentful.spaces.events.event'
     template: 'event'
     name: 'slug'

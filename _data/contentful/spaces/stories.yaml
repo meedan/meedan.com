@@ -3161,9 +3161,9 @@ story:
 - sys:
     id: 2HHkxZxtbj7L7gzdqaesOJ
     created_at: !ruby/object:DateTime 2020-06-05 16:09:59.148000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 00:23:54.046000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-10 01:16:03.793000000 Z
     content_type_id: story
-    revision: 4
+    revision: 5
     space:
       sys:
         id: g118h5yoccvd
@@ -3201,19 +3201,22 @@ story:
     description: 
     title: meedan blog cmdb
     url: "//images.ctfassets.net/g118h5yoccvd/1cUY0iq6H6A0rAEdOAoDgn/3df3990fd51ee2972b37b462a202260f/meedan_blog_cmdb.png"
-  body: "In today’s increasingly online world, social media has become a source for
-    news—often in compressed visual form. Widely circulated images have the power
-    to shape opinions and alter actions. Sometimes they’re funny. Sometimes they’re
-    informative. But what happens when memes are used to intentionally transmit disinformation
-    (information that is false and deliberately created to cause harm)? How are people
-    supposed to know what’s true and what’s false?\n \nIf the distinction seems trivial,
-    it’s not. Elections and lives hang in the balance of finding a way to solve this
-    problem in an efficient and effective manner. That’s why Meedan received funding
-    from the [Open Technology Fund](https://www.opentech.fund/) (OTF) in 2019 to help
-    develop the Claims and Memes Database (CMDb)—a programmer-accessible repository
-    of fact-checked claims and debunked visual misinformation intended to combat this
-    new type of information control. The CMDb project was overseen by Meedan program
-    manager [Wafaa Heikal](https://meedan.com/blog/meet-our-regional-program-managers-apac-latin-america-and-africa/).
+  body: "*This report was written by [Learning Lab](https://www.opentech.fund/labs/learning-lab/),
+    a team of writers and designers to help  Open Technology Fund-supported projects
+    produce content, and cross-posted at [the Open Technology Fund website](https://www.opentech.fund/news/stemming-the-spread-of-meme-based-disinformation/).*\n\nIn
+    today’s increasingly online world, social media has become a source for news—often
+    in compressed visual form. Widely circulated images have the power to shape opinions
+    and alter actions. Sometimes they’re funny. Sometimes they’re informative. But
+    what happens when memes are used to intentionally transmit disinformation (information
+    that is false and deliberately created to cause harm)? How are people supposed
+    to know what’s true and what’s false?\n \nIf the distinction seems trivial, it’s
+    not. Elections and lives hang in the balance of finding a way to solve this problem
+    in an efficient and effective manner. That’s why Meedan received funding from
+    the [Open Technology Fund](https://www.opentech.fund/) (OTF) in 2019 to help develop
+    the Claims and Memes Database (CMDb)—a programmer-accessible repository of fact-checked
+    claims and debunked visual misinformation intended to combat this new type of
+    information control. The CMDb project was overseen by Meedan program manager [Wafaa
+    Heikal](https://meedan.com/blog/meet-our-regional-program-managers-apac-latin-america-and-africa/).
     \n \n \n#### SETTING THE STAGE\n### The rise of the intentional use of misinformation
     online\n \nMeedan has long worked at the forefront of improving the quality and
     equity of online information. One of the main ways it does so is through the organization’s
@@ -3964,9 +3967,9 @@ story:
 - sys:
     id: 0Vo4bEALC4mzMRdyHHQFR
     created_at: &18 !ruby/object:DateTime 2020-06-25 02:41:51.084000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-08 11:54:08.327000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-08 20:19:28.728000000 Z
     content_type_id: story
-    revision: 11
+    revision: 13
     space:
       sys:
         id: g118h5yoccvd
@@ -4068,18 +4071,17 @@ story:
     Shalini Joshi moderates a discussion about the evolution of fact-checking on WhatsApp
     at Global Fact 7</p>\n\nTo support this work, Meedan developed a number of key
     software features that maximized the WhatsApp Business API with a mix of AI, interface
-    and multilingual innovations, including:\n\n- __Multilingual WhatsApp Bot:__ a
-    customizable bot that presents both intuitive menu items and human conversations
-    with fact-checkers in multiple languages\n- __Workflow Automation:__ a triage
-    system to recognize, review and prioritize claims and responses\n- __Similarity
-    Analysis:__ algorithms that detect content patterns and trends based on variations
-    of the same claims\n- __Response at Scale:__ a publishing system to send fact-check
-    reports to tipline users who send duplicate or similar requests\n\n“Our goal with
-    [Check](http://www.meedan.com/check),” explained Meedan’s Director of Product
-    Pierre Conti, “is to build a scalable human and AI system for fact-checkers to
-    efficiently size the demand for verification directly from their audience, cut
-    through the noise, and maximize impact by helping them to prioritize their response
-    to the most pressing misinformation.”"
+    and multilingual innovations, including:\n\n__Multilingual WhatsApp Bot:__ a customizable
+    bot that presents both intuitive menu items and human conversations with fact-checkers
+    in multiple languages\n\n__Workflow Automation:__ a triage system to recognize,
+    review and prioritize claims and responses\n\n__Similarity Analysis:__ algorithms
+    that detect content patterns and trends based on variations of the same claims\n\n__Response
+    at Scale:__ a publishing system to send fact-check reports to tipline users who
+    send duplicate or similar requests\n\n“Our goal with [Check](http://www.meedan.com/check),”
+    explained Meedan’s Director of Product Pierre Conti, “is to build a scalable human
+    and AI system for fact-checkers to efficiently size the demand for verification
+    directly from their audience, cut through the noise, and maximize impact by helping
+    them to prioritize their response to the most pressing misinformation.”"
   date: '2020-06-25'
   image: https://images.ctfassets.net/g118h5yoccvd/6BXH5Hr5n3ujFZFacGuJS3/64946158b5c72ae22c9671ba616d87c3/Golobal_Check_-_case_study_02.png
   title-pt: Publicação dos Resultados do Esforço Global de Verificação de Fatos na
@@ -4157,10 +4159,10 @@ story:
     de software, que maximizou o valor da API Comercial do WhatsApp (WhatsApp Business
     API), usando uma mistura de inteligência artificial, interface e inovações multilíngues,
     que incluem:\n\n__Bot multilíngue do WhatsApp:__ um bot personalizável que apresenta
-    itens de menu intuitivos e conversas com verificadores de fatos em vários idiomas;\n__Automação
+    itens de menu intuitivos e conversas com verificadores de fatos em vários idiomas;\n\n__Automação
     do fluxo de trabalho:__ um sistema de triagem para reconhecer, revisar e priorizar
-    demandas e soluções;\n__Análise de similaridade:__ algoritmos que detectam padrões
-    e tendências de conteúdo com base em variações das mesmas demandas de conteúdo;\n__Resposta
+    demandas e soluções;\n\n__Análise de similaridade:__ algoritmos que detectam padrões
+    e tendências de conteúdo com base em variações das mesmas demandas de conteúdo;\n\n__Resposta
     em escala:__ um sistema de publicação para enviar relatórios de verificação de
     fatos aos usuários de canais diretos (tiplines) que enviarem solicitações duplicadas
     ou semelhantes.\n\n“Nosso objetivo com o [Check](http://www.meedan.com/check)”,
