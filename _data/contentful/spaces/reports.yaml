@@ -491,7 +491,7 @@ report:
   - sys:
       id: 2lQKVWqTIPTns0oj5UA78S
       created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-24 14:09:49.496000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 22:46:55.906000000 Z
       content_type_id: publication
       revision: 5
     title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
@@ -507,6 +507,8 @@ report:
         id: 6K6TuAvZBDXdJATv8SynCi
     - sys:
         id: 1jkEcTAbvK0Y7O1NmysvKT
+    - sys:
+        id: 3ixzizcKVwnSXEFRRyVuxL
     cover_image:
       sys:
         id: Tu2ovEuxh8gztQD9kuF0G
@@ -558,9 +560,9 @@ report:
 - sys:
     id: 3FjVXrJAIvjk2zHMcvRxtq
     created_at: !ruby/object:DateTime 2020-06-17 23:32:00.982000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-26 22:37:08.532000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-22 22:57:55.564000000 Z
     content_type_id: report
-    revision: 3
+    revision: 4
     space:
       sys:
         id: g118h5yoccvd
@@ -834,6 +836,13 @@ report:
     body: "[Kenya’s youth unemployment at 39%? Why this headline-grabbing number is
       wrong](https://africacheck.org/reports/kenyas-youth-unemployment-at-39-why-this-headline-grabbing-number-is-wrong/)."
   - sys:
+      id: 1rg9qDm999vKSTrsosM5HL
+      created_at: !ruby/object:DateTime 2020-07-22 22:57:06.057000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 22:57:51.890000000 Z
+      content_type_id: footnote
+      revision: 1
+    body: "[Kenyan senator wrong about breast cancer risk from soya](https://africacheck.org/reports/kenyan-senator-wrong-about-breast-cancer-risk-from-soya/)"
+  - sys:
       id: b9py99eBZgKx07AZPVsVp
       created_at: !ruby/object:DateTime 2020-06-17 23:58:58.217000000 Z
       updated_at: !ruby/object:DateTime 2020-06-24 01:07:27.862000000 Z
@@ -883,7 +892,7 @@ report:
   - sys:
       id: 2lQKVWqTIPTns0oj5UA78S
       created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-24 14:09:49.496000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 22:46:55.906000000 Z
       content_type_id: publication
       revision: 5
     title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
@@ -899,6 +908,8 @@ report:
         id: 6K6TuAvZBDXdJATv8SynCi
     - sys:
         id: 1jkEcTAbvK0Y7O1NmysvKT
+    - sys:
+        id: 3ixzizcKVwnSXEFRRyVuxL
     cover_image:
       sys:
         id: Tu2ovEuxh8gztQD9kuF0G
@@ -950,7 +961,7 @@ report:
 - sys:
     id: 4hNlM6eXCZG6w43fIoHUPY
     created_at: !ruby/object:DateTime 2020-07-07 21:18:34.780000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-07 22:00:01.734000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-22 23:10:29.772000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -968,9 +979,17 @@ report:
     locale: en-US
   title: COVID-19 and China’s Information Control Policy
   slug: covid-19-and-chinas-information-control-policy
+  lead_image:
+    sys:
+      id: 6EFpl4pr4UkR9W98fHuQhH
+      created_at: !ruby/object:DateTime 2020-07-22 22:45:41.617000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 23:10:57.897000000 Z
+    title: COVID-19 and China’s Information Control Policy
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6EFpl4pr4UkR9W98fHuQhH/699bff5a547f16f53a3492eb77ba4091/china.png"
   body: "On March 12, 2020 Zhao Lijian, a deputy director of China’s Ministry of Foreign
     Affairs published an unusual tweet that claimed the U.S. army brought COVID-19
-    to China when the country participated in the October 2019 Military Olympic Games<a
+    to China when the country participated in the October 2019 Military Olympic Games<sup><a
     id=\"fnref1\" href=\"#fn1\">[1]</a></sup>. But the claim, if not a conspiracy,
     was not supported by any evidence. The message was made by the Chinese authority’s
     spokespersonand spread like wildfire, becoming a global piece of misinformation
@@ -979,7 +998,7 @@ report:
     “The Trump administration was about to lock down the entire country,” was sent
     to many American’s cellphones and social media feeds. The message was later confirmed
     to be false. U.S. officials considered the tactic an unprecedented move by Chinese
-    agents<a id=\"fnref2\" href=\"#fn2\">[2]</a></sup>.\n\nAccording to the University
+    agents<sup><a id=\"fnref2\" href=\"#fn2\">[2]</a></sup>.\n\nAccording to the University
     of Hong Kong’s censorship monitoring project Weiboscope, a post on Weibo (which
     is the Chinese equivalent to Twitter) was published in the afternoon of December
     31, 2019 and it was swiftly censored within an hour. The message read, “Wuhan
@@ -1019,7 +1038,7 @@ report:
     digital technology have been profoundly shaping China’s social, economic, and
     even political domains. Even though the Internet is known to serve as an enabler
     for citizen activism in China, the state’s repressive power is remarkably strengthened
-    by means of digital technologies<a id=\"fnref3\" href=\"#fn3\">[3]</a></sup>.
+    by means of digital technologies<sup><a id=\"fnref3\" href=\"#fn3\">[3]</a></sup>.
     To illustrate this, for instance, three hundred million cameras will be reportedly
     installed in China for the purposes of surveillance and the devices are backed
     with facial and video recognition technologies. Chinese authorities have strongly
@@ -1059,71 +1078,200 @@ report:
     receive facial scans. Online anonymity is virtually impossible in China. Surveillance
     cameras, facial recognition technology, and identity tracking have been extensively
     used to assist the authority’s public monitoring of the implementation of self-quarantine
-    policy during the coronavirus outbreak<a id=\"fnref5\" href=\"#fn5\">[5]</a></sup>.\n\nChina
+    policy during the coronavirus outbreak<sup><a id=\"fnref5\" href=\"#fn5\">[5]</a></sup>.\n\nChina
     has introduced the Cybersecurity Law, which came into effect on June 1, 2017,
-    and has created substantial market uncertainty<a id=\"fnref6\" href=\"#fn6\">[6]</a></sup>.
+    and has created substantial market uncertainty<sup><a id=\"fnref6\" href=\"#fn6\">[6]</a></sup>.
     Public and private communication are closely monitored by service providers or/and
     the authorities. If a content crosses a “red line” (an often invisible, unknown
     yardstick) it may be censored, or the account owner’s content administrator may
-    be invited to “drink tea”<a id=\"fnref7\" href=\"#fn7\">[7]</a></sup>, requested
+    be invited to “drink tea”<sup><a id=\"fnref7\" href=\"#fn7\">[7]</a></sup>, requested
     to remove it. If an account is repeatedly found to be non-compliant with content
-    regulations, it can be suspended or even permanently terminated<a id=\"fnref8\"
+    regulations, it can be suspended or even permanently terminated<sup><a id=\"fnref8\"
     href=\"#fn8\">[8]</a></sup>. For certain serious offences, the content author
-    may be sentenced to jail<a id=\"fnref9\" href=\"#fn9\">[9]</a></sup>. More than
-    that, the “red line” is opaque and its threshold and boundaries are largely unknown:
-    life-style “clickbait” was blocked<a id=\"fnref10\" href=\"#fn10\">[10]</a></sup>,
-    rap pop music was banned<a id=\"fnref11\" href=\"#fn11\">[11]</a></sup>, television
-    drama series<a id=\"fnref12\" href=\"#fn12\">[12]</a></sup> were disapproved,
-    and video game services were stopped<a id=\"fnref13\" href=\"#fn13\">[13]</a></sup>.
+    may be sentenced to jail<sup><a id=\"fnref9\" href=\"#fn9\">[9]</a></sup>. More
+    than that, the “red line” is opaque and its threshold and boundaries are largely
+    unknown: life-style “clickbait” was blocked<sup><a id=\"fnref10\" href=\"#fn10\">[10]</a></sup>,
+    rap pop music was banned<sup><a id=\"fnref11\" href=\"#fn11\">[11]</a></sup>,
+    television drama series<sup><a id=\"fnref12\" href=\"#fn12\">[12]</a></sup> were
+    disapproved, and video game services were stopped<sup><a id=\"fnref13\" href=\"#fn13\">[13]</a></sup>.
     Three Chinese volunteers were detained by police because of uploading censored
-    COVID-19 material to Github<a id=\"fnref14\" href=\"#fn14\">[14]</a></sup>. \n\n###
-    Impact Beyond China’s Borders\n\nWith China’s economic rise and growing global
-    influence, the country has modernized its information systems and cyber warfare
-    capabilities. Being the second largest economy in the world, information technology
-    is not only key to both economic growth and the vital functions of society in
-    China, but also national security. China now operates the most sophisticated online
-    censorship system in the world, with over 854 million online citizens under its
-    sphere (CNNIC, 2019). Apart from traditional warfare methods such as land, sea,
-    air, and outer space, the online cyberspace has become a highly recognized domain
-    of warfare to the Chinese government (Fritz, 2017). As China increases its engagement
-    with the world, this struggle for controlling the narrative about the Chinese
-    Communist Party and the country has expanded to global public opinion, an ambitious
-    external propaganda project (Tsai, 2017), and the Internet is one of the latest
-    battlespaces via the means of information warfare.\n\nApart from traditional forms
-    of propaganda published on Chinese state media, there are now cases of organized
-    and coordinated efforts of online influence campaigns on issues deemed of core
-    interest and importance to the Chinese government, such as the detentions of Uyghurs
-    in Xinjiang, the Taiwanese presidential elections, and the more recent Hong Kong
-    protests (Mazarr et al., 2019).\n\nIn 2016, in wake of Taiwan President Tsai Ing-wen’s
-    presidential election, over 27,000 comments flooded her Facebook page, mostly
-    stating that Taiwan is a part of China. Since access to Facebook in Mainland China
-    is blocked by the Great Firewall maintained by the state, the flood of comments
-    were known as part of an organized campaign from an Internet forum called “Diba,”
-    where forum users ironically scaled the Great Firewall to post nationalistic messages
-    adhering to the official line of the Chinese Communist Party on Tsai’s Facebook
-    posts (Yang & Chen, 2017).\n\nDiba users have since attempted but failed to influence
-    the narrative on the Hong Kong protests in 2019 as well by trying to infiltrate
-    LIHKG, a local reddit-like online forum frequently used by protesters in Hong
-    Kong. Although no direct connection between the Diba users and the Chinese state
-    were identified, concern has been raised towards a growing trend of either a grassroots
-    level or organized “cyber-nationalism” by younger Chinese Internet users to influence
-    the narrative on topics deemed of strategic value to the Chinese government (Fang
-    & Repnikova, 2018). \n\nSocial media sites from the Western world have also acted
-    on what they believe is a coordinated effort by the Chinese government to influence
-    global narrative on China related topics, such as the Hong Kong protests. In August
-    2019, China’s information operations were brought to the light after several social
-    media platforms, including Twitter and Facebook, discovered the existence of coordinated
-    network activities by China that were spreading disinformation about Hong Kong
-    protests. Twitter said that the aim of these operations was to undermine the protest
-    movement’s “legitimacy and political positions.<a id=\"fnref15\" href=\"#fn15\">[15]</a></sup>”\n\nAt
+    COVID-19 material to Github<sup><a id=\"fnref14\" href=\"#fn14\">[14]</a></sup>.
+    \n\n### Impact Beyond China’s Borders\n\nWith China’s economic rise and growing
+    global influence, the country has modernized its information systems and cyber
+    warfare capabilities. Being the second largest economy in the world, information
+    technology is not only key to both economic growth and the vital functions of
+    society in China, but also national security. China now operates the most sophisticated
+    online censorship system in the world, with over 854 million online citizens under
+    its sphere (CNNIC, 2019). Apart from traditional warfare methods such as land,
+    sea, air, and outer space, the online cyberspace has become a highly recognized
+    domain of warfare to the Chinese government (Fritz, 2017). As China increases
+    its engagement with the world, this struggle for controlling the narrative about
+    the Chinese Communist Party and the country has expanded to global public opinion,
+    an ambitious external propaganda project (Tsai, 2017), and the Internet is one
+    of the latest battlespaces via the means of information warfare.\n\nApart from
+    traditional forms of propaganda published on Chinese state media, there are now
+    cases of organized and coordinated efforts of online influence campaigns on issues
+    deemed of core interest and importance to the Chinese government, such as the
+    detentions of Uyghurs in Xinjiang, the Taiwanese presidential elections, and the
+    more recent Hong Kong protests (Mazarr et al., 2019).\n\nIn 2016, in wake of Taiwan
+    President Tsai Ing-wen’s presidential election, over 27,000 comments flooded her
+    Facebook page, mostly stating that Taiwan is a part of China. Since access to
+    Facebook in Mainland China is blocked by the Great Firewall maintained by the
+    state, the flood of comments were known as part of an organized campaign from
+    an Internet forum called “Diba,” where forum users ironically scaled the Great
+    Firewall to post nationalistic messages adhering to the official line of the Chinese
+    Communist Party on Tsai’s Facebook posts (Yang & Chen, 2017).\n\nDiba users have
+    since attempted but failed to influence the narrative on the Hong Kong protests
+    in 2019 as well by trying to infiltrate LIHKG, a local reddit-like online forum
+    frequently used by protesters in Hong Kong. Although no direct connection between
+    the Diba users and the Chinese state were identified, concern has been raised
+    towards a growing trend of either a grassroots level or organized “cyber-nationalism”
+    by younger Chinese Internet users to influence the narrative on topics deemed
+    of strategic value to the Chinese government (Fang & Repnikova, 2018). \n\nSocial
+    media sites from the Western world have also acted on what they believe is a coordinated
+    effort by the Chinese government to influence global narrative on China related
+    topics, such as the Hong Kong protests. In August 2019, China’s information operations
+    were brought to the light after several social media platforms, including Twitter
+    and Facebook, discovered the existence of coordinated network activities by China
+    that were spreading disinformation about Hong Kong protests. Twitter said that
+    the aim of these operations was to undermine the protest movement’s “legitimacy
+    and political positions.<sup><a id=\"fnref15\" href=\"#fn15\">[15]</a></sup>”\n\nAt
     the time of writing, the coronavirus pandemic is still developing and the situation
     keeps changing every day. But it seems apparent to many people that the world
     after COVID-19 will look very different. Relationships between China and the world
     are anticipated to become bitter and contentious. China’s strategy to control
     information and its consequences has become a global concern. A lawsuit was launched
-    to sue China for economic losses<a id=\"fnref16\" href=\"#fn16\">[16]</a></sup>
+    to sue China for economic losses<sup><a id=\"fnref16\" href=\"#fn16\">[16]</a></sup>
     and an independent investigation into China’s information transparency and the
-    virus origin was suggested. Further development remains an open question. \n\n\n\n\n"
+    virus origin was suggested. Further development remains an open question."
+  footnotes:
+  - sys:
+      id: TdHDHZsZNJbX5dQIsL8wp
+      created_at: !ruby/object:DateTime 2020-07-22 20:15:00.009000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:15:06.016000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: Twitter is blocked by the Great Firewall in China.
+  - sys:
+      id: 2CEnXPOhXeisIqvcqoBklU
+      created_at: !ruby/object:DateTime 2020-07-22 20:15:08.793000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:15:23.474000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[Chinese Agents Helped Spread Messages That Sowed Virus Panic in U.S.,
+      Officials Say](https://www.nytimes.com/2020/04/22/us/politics/coronavirus-china-disinformation.html)"
+  - sys:
+      id: 2yBHGcixdrFsSdgzFyBYSg
+      created_at: !ruby/object:DateTime 2020-07-22 20:15:34.521000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:15:46.919000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[China’s terrifying surveillance state looks a lot like America’s future](https://www.vanityfair.com/news/2018/07/china-surveillance-state-artificial-intelligence)
+      (Vanity Fair)"
+  - sys:
+      id: 66I34JqsBNZkEv1YkaIlpW
+      created_at: !ruby/object:DateTime 2020-07-22 20:15:54.655000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:16:04.106000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[China is rolling out facial recognition for all new mobile phone numbers](https://edition.cnn.com/2019/12/02/tech/china-facial-recognition-mobile-intl-hnk-scli/index.html)"
+  - sys:
+      id: 7eH312YRJqVUeVA4er8ja1
+      created_at: !ruby/object:DateTime 2020-07-22 20:16:05.727000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:16:20.123000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "['The new normal': China's excessive coronavirus public monitoring could
+      be here to stay](https://www.theguardian.com/world/2020/mar/09/the-new-normal-chinas-excessive-coronavirus-public-monitoring-could-be-here-to-stay)"
+  - sys:
+      id: 7wwy3zLlUppPEV5SfWYZmp
+      created_at: !ruby/object:DateTime 2020-07-22 20:16:25.457000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:16:37.804000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[China's new cyber law just kicked in and nobody's sure how it works](https://money.cnn.com/2017/06/01/technology/business/china-cybersecurity-law/index.html)
+      (CNN Money)"
+  - sys:
+      id: 5bWQAPDLJF2KLPvwl4yTQl
+      created_at: !ruby/object:DateTime 2020-07-22 20:16:44.374000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:16:54.627000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[Twitter allegedly subject to Chinese censorship reach through hacked accounts
+      and deleted tweets](https://www.abc.net.au/news/2018-12-21/chinese-censorship-allegedly-extends-to-twitter/10633850)
+      (ABC News)"
+  - sys:
+      id: 4kEq0SkYxLLeWmMLGQ6mEX
+      created_at: !ruby/object:DateTime 2020-07-22 20:17:01.376000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:17:22.127000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[Chinese celebrity's Weibo account blocked after criticizing Huawei](http://www.globaltimes.cn/content/1153854.shtml)
+      (Global Times)"
+  - sys:
+      id: 1E3thIBL1Yr2ASu1IVaRyN
+      created_at: !ruby/object:DateTime 2020-07-22 20:17:26.592000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:17:38.162000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[Chinese blogger jailed under crackdown on 'internet rumours'](https://www.theguardian.com/world/2014/apr/17/chinese-blogger-jailed-crackdown-internet-rumours-qin-zhihui)
+      (The Guardian)"
+  - sys:
+      id: 59RRuVm7kB2qKDRHITMRA4
+      created_at: !ruby/object:DateTime 2020-07-22 20:17:42.500000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:17:53.895000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[The unmaking of Mimeng: the rise and fall of China’s polarising social
+      media empress](https://www.scmp.com/news/china/society/article/2188326/unmaking-mimeng-rise-and-fall-chinas-polarising-social-media)
+      (SCMP)"
+  - sys:
+      id: 1T1bep5xxChG9g8Ku3hRYB
+      created_at: !ruby/object:DateTime 2020-07-22 20:17:55.290000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:18:11.434000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[China’s hip-hop culture ban: authorities send mixed messages](https://www.scmp.com/culture/music/article/2142444/chinas-hip-hop-culture-ban-authorities-send-mixed-messages)
+      (SCMP)"
+  - sys:
+      id: 59OiSYvfmkjemujVc0i217
+      created_at: !ruby/object:DateTime 2020-07-22 20:18:17.281000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:18:34.806000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[Too lavish, too nasty: Chinese state media goes to war against Yanxi Palace
+      and other period dramas](https://www.scmp.com/news/china/society/article/2183885/yanxi-palace-drama-chinese-state-media-declares-war-period-shows)
+      (SCMP)"
+  - sys:
+      id: 3patZIhCH72jDUuFdHdum4
+      created_at: !ruby/object:DateTime 2020-07-22 20:18:36.271000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:18:48.965000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[China’s new gaming rules to ban poker, blood and imperial schemes](https://techcrunch.com/2019/04/21/chinas-new-gaming-rules-to-ban-poker-blood-and-imperial-schemes/)
+      (TechCrunch)"
+  - sys:
+      id: 3jkoEVgkyTYjkZlKRCdbNI
+      created_at: !ruby/object:DateTime 2020-07-22 20:18:54.996000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:19:09.293000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[Chinese activists detained after sharing censored coronavirus material
+      on crowdsourcing site Github](https://www.scmp.com/news/china/politics/article/3081569/chinese-activists-detained-after-sharing-censored-coronavirus)"
+  - sys:
+      id: 63sCCYaQri1Gfwh6NGaFKj
+      created_at: !ruby/object:DateTime 2020-07-22 20:19:22.133000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:19:30.850000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[Information operations directed at Hong Kong](https://blog.twitter.com/en_us/topics/company/2019/information_operations_directed_at_Hong_Kong.html)"
+  - sys:
+      id: 6ZdeOJw88rZFaxNmiIXCgO
+      created_at: !ruby/object:DateTime 2020-07-22 20:19:34.241000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:19:59.424000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: "[In a first, Missouri sues China over coronavirus economic losses](https://www.reuters.com/article/us-health-coronavirus-china-lawsuit/in-a-first-missouri-sues-china-over-coronavirus-economic-losses-idUSKCN2232US)"
   references: "- CNNIC. (2019). The 44th Statistical report on internet development
     in China. *China Internet Network Information Center (CNNIC), China*.\n- Fang,
     K., & Repnikova, M. (2018). Demystifying “Little Pink”: The creation and evolution
@@ -1131,4 +1279,445 @@ report:
     20(6), 2162–2185.\n- Freedom House. (2018). Freedom on the Net 2018: [The Rise
     of Digital Authoritarianism](https://freedomhouse.org/report/freedom-net/freedom-net-2018/rise-digital-authoritarianism).
     \n- Fritz, J. R. (2017). *China’s Cyber Warfare: The Evolution of Strategic Doctrine*.
-    Lexington Books.\n- "
+    Lexington Books.\n- Fu, K., Chan, C., & Chau, M. (2013). Assessing censorship
+    on microblogs in China: Discriminatory keyword analysis and the real-name registration
+    policy. *IEEE Internet Computing*, *17(3), 42–50.\n- Fu, K., & Zhu, Y. (2020).
+    [Did the world overlook the media’s early warning of COVID-19?](https://doi.org/10.1080/13669877.2020.1756380)
+    Journal of Risk Research, 1–5. \n- Green, A. (2020). Li Wenliang. *[The Lancet](https://doi.org/10.1016/S0140-6736(20)30382-2)*,
+    395(10225), 682.\n- Lee, J.-A. (2018). Hacking into China’s Cybersecurity Law.
+    *Wake Forest L. Rev*., 53, 57.\n- Li, Q., Guan, X., Wu, P., Wang, X., Zhou, L.,
+    Tong, Y., Ren, R., Leung, K. S. M., Lau, E. H. Y., Wong, J. Y., Xing, X., Xiang,
+    N., Wu, Y., Li, C., Chen, Q., Li, D., Liu, T., Zhao, J., Liu, M., … Feng, Z. (2020).
+    [Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia](https://doi.org/10.1056/NEJMoa2001316).
+    *New England Journal of Medicine*, 382(13), 1199–1207.\n- Mazarr, M. J., Casey,
+    A., Demus, A., Harold, S. W., Matthews, L. J., Beauchamp-Mustafaga, N., & Sladden,
+    J. (2019). *Hostile Social Manipulation Present Realities and Emerging Trends*.
+    RAND Corporation Santa Monica United States.\n- National Health Commission. (2020).
+    *Press Conference of the National Health Commission High-Level Expert Group Regarding
+    the Pneumonia Caused by the Novel Coronavirus Infection*<http://www.nhc.gov.cn/xcs/s7847/202001/8d735f0bb50b45af928d9944d16950c8.shtml>.\n-
+    Phillips, N., Mallapaty, S., & Cyranoski, D. (2020). [How quickly does the Wuhan
+    virus spread?](https://doi.org/10.1038/d41586-020-00146-w) *Nature*.\n- Tsai,
+    W.-H. (2017). [Enabling China’s Voice to Be Heard by the World: Ideas and Operations
+    of the Chinese Communist Party’s External Propaganda System](https://doi.org/10.1080/10758216.2016.1236667).
+    *Problems of Post-Communism*, 64(3–4), 203–213.\n- Wuhan Municipal Health Commission.
+    (2019). *[Wuhan Municipal Health Commission’s Situation Report of the Epidemic
+    of Pneumonia in Our City](http://wjw.wuhan.gov.cn/xwzx_28/gsgg/202004/t20200430_1199576.shtml)*
+    (in Chinese).\n- Yang, S., & Chen, P.-Y. (2017). “Diba Expedition to Facebook”:
+    A preliminary study of massive online collective action in China. *IConference
+    2017 Proceedings*."
+  author:
+  - sys:
+      id: 2eP3SnlKPgADI7bCE5bbjr
+      created_at: !ruby/object:DateTime 2020-07-22 20:14:47.896000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 20:14:55.221000000 Z
+      content_type_id: contributor
+      revision: 0
+    name: King-wa Fu
+  organization: Journalism and Media Studies Centre, <br />The University of Hong
+    Kong
+  publication:
+  - sys:
+      id: 2lQKVWqTIPTns0oj5UA78S
+      created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 22:46:55.906000000 Z
+      content_type_id: publication
+      revision: 5
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    short_title: 2020 Misinfodemic Report
+    kicker: A Check Global Report
+    description: 'Misinfodemic: when online misinformation contributes to real-world
+      disease. In the coming months, Meedan will publish eight pieces of reporting
+      and analysis in an effort to map the anatomy of the global COVID-19 information
+      ecosystem.'
+    slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
+    sections:
+    - sys:
+        id: 6K6TuAvZBDXdJATv8SynCi
+    - sys:
+        id: 1jkEcTAbvK0Y7O1NmysvKT
+    - sys:
+        id: 3ixzizcKVwnSXEFRRyVuxL
+    cover_image:
+      sys:
+        id: Tu2ovEuxh8gztQD9kuF0G
+        created_at: !ruby/object:DateTime 2020-06-23 05:08:56.807000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/Tu2ovEuxh8gztQD9kuF0G/0f5da326dfe06869775caf1002c330e6/meedan_report_2020-infodemic-report_01.png"
+    publication_promo_graphic:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    social_card_image:
+      sys:
+        id: 5L7KfUhYU7lqikodPkJoQQ
+        created_at: !ruby/object:DateTime 2020-06-22 23:00:20.044000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png"
+    publication_promo: This report is part of a Check Global Report about [COVID-19
+      in Emerging Economies](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/).
+    color:
+      sys:
+        id: 43kw5bcVj1xtfe7ua88F6V
+  color:
+    sys:
+      id: 2TZKWffUJGg1qZc3rFIxTk
+      created_at: !ruby/object:DateTime 2020-07-22 22:49:35.988000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 22:50:15.080000000 Z
+      content_type_id: color
+      revision: 0
+    name: Bright Orange
+    value: "#FFB34D"
+    thumbnail:
+      sys:
+        id: 5zPJST9f1Y3hLceo562134
+        created_at: !ruby/object:DateTime 2020-07-22 22:50:13.469000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-22 22:50:23.120000000 Z
+      title: FFB34D
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5zPJST9f1Y3hLceo562134/757cd636c9b462e5bd1f4a9bdb0416bf/FFB34D"
+    text: "#262626"
+- sys:
+    id: 2sKzBmA7npYvPuvjnkYitv
+    created_at: !ruby/object:DateTime 2020-07-22 23:21:35.597000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-22 23:48:10.780000000 Z
+    content_type_id: report
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: report
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Coronavirus Misinformation in India Is Not Limited to Health Misinformation
+  slug: coronavirus-misinformation-in-india-is-not-limited-to-health-misinformation
+  lead_image:
+    sys:
+      id: 4QY8HOpHY9b8RVKCe2mN0Y
+      created_at: !ruby/object:DateTime 2020-07-22 23:45:55.835000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 23:46:14.789000000 Z
+    title: Coronavirus Misinformation in India Is Not Limited to Health Misinformation
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/4QY8HOpHY9b8RVKCe2mN0Y/18a2027337822abb1f78602809088847/india.png"
+  social_card_image:
+    sys:
+      id: 3hrpvLcTanPaFxcvRbFt9Z
+      created_at: !ruby/object:DateTime 2020-07-22 23:48:04.845000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 23:48:17.273000000 Z
+    title: Coronavirus Misinformation in India Is Not Limited to Health Misinformation
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3hrpvLcTanPaFxcvRbFt9Z/d9d8be34291410f327211d270292ace5/meedan_report_covid-19-india_01.png"
+  body: "BOOM is an India-based fact checking organization that began actively debunking
+    fake news about the COVID-19 pandemic since January 25, 2020, one week after China
+    declared the spread of the virus. In an [analysis](https://www.boomlive.in/fact-file/fake-news-in-the-time-of-coronavirus-a-boom-study-8008)
+    of around 178 fact checks that were purely related to COVID-19 information between
+    January to May 2020, we found evidence of a phased ‘misinfodemic’ of misinformation
+    spreading across online platforms in India. We found that COVID-19 misinformation
+    increased in the month of March as the number of COVID-19 cases increased in the
+    country. In this period, COVID-19 dominated the news cycle which also contributed
+    to the increase in misinformation about the disease. While in February, BOOM fact-checked
+    13 misinformation pieces about COVID-19, in March, this number had increased to
+    69 articles. \n\nMost of the false or misleading claims we found were circulated
+    with videos (35%). There was also a significant number of text messages (29.4%)
+    being shared with fake cures, treatments or quotes from celebrities, along with
+    images (29.4%) that were either misrepresented or doctored. We also noticed a
+    small number of audio clips (2.2%) going viral with false context.  \n\nOur investigation
+    classifies two waves of COVID-19 misinformation on social platforms such as WhatsApp,
+    Facebook, Twitter – medical and communal. Medical misinformation that we found
+    focused on theemergence, origin, spread, and cures of the virus. Communal misinformation
+    emerged as the number of patients testing positive for COVID-19 increased, and
+    the disease spread across the country. This type of misinformation leaned on and
+    exacerbated existing tensions in the country, particularly long-standing rifts
+    between the country’s Muslim minority and Hindu populations. Misinformation during
+    this wave took on narratives related to the economy, politics, and local communities.\n\nIn
+    both forms, COVID-19 misinformation on social media paints a picture of a changing
+    pattern of news consumption, suggesting that the area may be an important topic
+    for future research [(](https://aisel.aisnet.org/pacis2019/194/)[Li et al](https://aisel.aisnet.org/pacis2019/194/),
+    2019). According to a 2018 Weber Shandwick [study](https://www.webershandwick.com/wp-content/uploads/2018/11/Healthcare-Info-Search-Report.pdf)
+    about The Great American Search for Healthcare Information, a study of 1700 individuals,
+    around 73% of Americans gathered their healthcare information from the internet.
+    There is no Indian study highlighting the sources of health information for Indians.
+    \ \n\nIn India, in some cities like Mumbai, the police force enforced [strict
+    action for peddlers](https://www.livemint.com/news/india/mumbai-police-warns-whatsapp-group-admins-over-covid-related-fake-news-11590374904713.html)
+    of fake news and misinformation. Recent media reports suggest that Facebook and
+    WhatsApp have been [taking active steps](https://www.facebook.com/facebookmedia/blog/working-to-stop-misinformation-and-false-news)
+    to curb the spread of misinformation on their websites. Research should be carried
+    out to further understand how social media itself could be used to contain the
+    spread of misinformation.This report outlines two distinct types of misinformation
+    which we observed throughout the COVID-19 crisis in India between January to April
+    2020.\n\n### Wave One: Medical Misinformation\n\n*India reported its first three
+    cases of COVID-19 between the last week of January 2020 and the first week of
+    February 2020. According to our analysis, this is also when the first wave of
+    misinformation emerged in the country. Misinformation during this period was largely
+    related to the science, spread, cause and conspiracy theories about the virus.
+    Then, throughout February, India did not report any new cases. Our analysis found
+    that during this time, there was a rise in misinformation about videos from China,
+    being shared with misleading narratives. During this time, [a video of three events](https://www.boomlive.in/fake-news/video-shows-chinese-policemen-killing-coronavirus-patients-factcheck-6885)
+    not related to COVID-19 was passed off as police brutality on COVID-19 patients
+    in China. On March 2, 2020, India reported new cases as Indians returned home
+    from countries in Europe and Asia.  With the emergence of new cases, misinformation
+    on the prevention, control and cure of the virus, such as the use of home remedies
+    not backed by science, like [drinking garlic water](https://www.boomlive.in/health/boiled-garlic-water-for-treating-coronavirus-not-really-6737)
+    to prevent COVID-19, began to circulate again.*\n\nIndia’s first wave of misinformation
+    revolved around the **origin, causes, spread, and treatment of the virus** and
+    also **China’s response to controlling the outbreak**. In the early months of
+    the pandemic the origin of the virus, and its modes of transmission, were unclear
+    to scientists and the public alike. Conspiracy theories emerged on Indian social
+    media, even though the virus was not yet present in the country. False claims
+    about the virus originating in various animals, without any scientific evidence,
+    circulated on platforms. Scientific progress on human to human transmission led
+    to further speculations about the virus, such as false claims about the virus
+    being a bioweapon, [manufactured in a lab](https://www.boomlive.in/fact-file/is-coronavirus-a-bioweapon-the-internet-loves-to-think-so-7623).
+    \ \n\nThe origin of the virus was, and still is, mired in misinformation about
+    it having emerged from a lab in Wuhan, of the virus already being [patented](https://www.boomlive.in/health/coronavirus-patented-why-social-media-posts-are-misleading-6661),
+    of the virus being a bioweapon, all without any proof or credible evidence. In
+    one misleading account, a false message which announced that COVID-19 is a Chinese
+    conspiracy was attributed to somebody pretending to be a Chinese[intelligence
+    officer](https://www.boomlive.in/fake-news/false-chinese-intelligence-officer-reveals-coronavirus-is-a-bioweapon-7224).
+    However, this turned out to be a fictional story on social news platform  Reddit.
+    The thread asked users to write a fictional story related to a real life event.\n\nFalse
+    conspiracy theories circulated around China killing [20,000 patients](https://www.boomlive.in/fake-news/false-china-seeks-court-approval-to-kill-over-20000-coronavirus-patients-6812)
+    to underreport the cases of COVID-19 in the country—misinformation that emerged
+    from a web article on AB-TC ,also known as City News**,** a regular fake news
+    peddler. Other theories, such that [Dettol,](https://www.boomlive.in/health/did-dettol-know-about-coronavirus-outbreak-beforehand-a-factcheck-6767)
+    many [books](https://www.boomlive.in/fake-news/did-these-books-predict-the-coronavirus-outbreak),
+    the [Simpsons and Asterix](https://www.boomlive.in/health/did-the-simpsons-and-comic-series-asterix-predict-the-2019-coronavirus-outbreak-6867)
+    predicted or already knew about the virus, have been rampantly circulating on
+    social media. F[alse information](https://www.boomlive.in/fake-news/bat-infestation-video-from-florida-falsely-shared-as-coronavirus-source-found-6747)
+    also circulated about [bats](https://www.boomlive.in/fake-news/fake-news-site-invents-story-about-covid-19-patient-zero-having-sex-with-bats-7407),
+    [chicken](https://www.boomlive.in/health/false-coronavirus-found-in-broiler-chickens-6757),
+    and [goats](https://www.boomlive.in/fake-news/old-video-shared-as-goats-infected-with-covid-19-in-ajmer-7265),
+    as misleading origins of the virus have been circulating on social media. Other
+    misinformation speculated that [5G Technology](https://www.boomlive.in/fact-file/did-the-race-to-5g-cause-the-coronavirus-outbreak-7404)could
+    have led to emergence of the virus. All of these claims have been debunked by
+    BOOM and other fact-checking organizations.\n\n**Fake notifications** attributed
+    to various organizations also emerged as a norm during the first wave. Claims
+    about the causes, spread, cure, and treatment of COVID-19 that were not supported
+    by research were attributed to national and international organizations.Fake notifications
+    attributed to [UNICEF](https://www.boomlive.in/health/viral-coronavirus-advisory-is-not-from-unicef-7171)
+    and the Ministry of Health about ways [to prevent the virus](https://www.boomlive.in/health/hoax-alert-viral-emergency-notification-on-coronavirus-is-fake-6682)
+    and not purchase colours from China during [Holi](about:blank), the festival of
+    colours in India, emerged on social media. \n\n**Videos and narratives from China**
+    with unreliable claims were scattered across social media. These claims focused
+    on China’s surveillance tactics, atrocities that residents faced, strict authoritative
+    action, and even false narratives related to the heads of the country. [Mock drills](https://www.boomlive.in/fake-news/coronavirus-mock-drill-by-chinese-police-viral-as-real-6997)
+    across China were shared as police atrocities, a group of unrelated videos were
+    combined to [showcase](https://www.boomlive.in/fake-news/video-shows-chinese-policemen-killing-coronavirus-patients-factcheck-6885)
+    Chinese officials killing coronavirus patients. Along with this, an [Indonesian](https://www.boomlive.in/fake-news/coronavirus-indonesian-market-video-viral-as-wuhan-china-6697)
+    wet animal market was shared as a Chinese market suggesting that China is not
+    mending its ways. \n\nThe Chinese Prime Minister and President were not spared
+    either. The [Chinese President](https://www.boomlive.in/fake-news/old-photos-of-xi-jinpings-mosque-visit-falsely-linked-to-coronavirus-6803)
+    and [PM’](https://www.boomlive.in/fake-news/no-the-chinese-pm-did-not-visit-a-mosque-to-protect-himself-from-coronavirus-6763)s
+    earlier visits to mosques were shared with narratives that the officials were
+    visiting the mosques to improve China’s prevailing conditions.\n\nMoreover, as
+    the symptoms of the virus were similar in nature to colds, social media was rife
+    with different ways that the virus could have be cured or treated; false and unproven
+    information about avoiding [cold food](https://www.boomlive.in/health/can-avoiding-ice-creams-and-cold-drinks-for-90-days-prevent-coronavirus-6689),
+    drinking hot water, homeopathic tablets for prophylaxis to the consumption of
+    anti-malarial hydroxychloroquine were shared online as preventive mechanisms.
+    Claims about [homeopathic medicine](https://www.boomlive.in/health/does-homeopathic-medicine-arsenicum-album-30-prevent-coronavirus-a-fact-check-7156),
+    home remedies such as various types of [tea](https://www.boomlive.in/coronavirus-outbreak/false-different-types-of-tea-can-act-as-a-cure-for-covid-19-7506),
+    [garlic](https://www.boomlive.in/health/boiled-garlic-water-for-treating-coronavirus-not-really-6737)
+    and hot water as well as [cow urine](https://www.boomlive.in/factcheck/can-cow-urine-or-gaumutra-cure-coronavirus-what-we-know-7308)
+    curing COVID-19 circulated in the country. [Alcohol](https://www.boomlive.in/health/does-drinking-alcohol-prevent-coronavirus-6935)
+    and [marijuana](https://www.boomlive.in/fake-news/marijuana-kills-coronavirus-meme-viral-with-false-claims-6831)
+    were also shared as plausible cures for coronavirus. Along with this, there were
+    also many [speculations](about:blank) about [vaccines](https://www.boomlive.in/health/viral-posts-claiming-vaccines-for-coronavirus-have-been-developed-are-false-7201)
+    for the virus before the actual trial of vaccines had begun. \n\nAfter reporting
+    three cases in February 2020 India did not report any new cases until March 2,
+    2020. During this period, we observed misinformation decreasing in volume, picking
+    up again in early March when new international hotspots began emerging.\n\n###
+    Wave Two: Communal Misinformation\n\n*In March, an Islamic congregation held in
+    New Delhi changed the trajectory of the misinformation universe in India. The
+    Tablighi Jamaat, a Muslim missionary movement, held an annual gathering with international
+    attendees. The convening later emerged as a hotspot of COVID-19 cases. As cases
+    increased steadily, misinformation about religion and politics started circulating
+    more prominently in the country. The Indian Prime Minister,  Narendra Modi, along
+    with enforcing a lockdown in the country for 21 days and further extending it
+    twice, also assigned activities for expressing gratitude to all the frontline
+    workers in the country. Misinformation emerged around the [banging of plates](https://www.boomlive.in/fake-news/how-celebs-amplified-misinformation-around-janta-curfew-7317)
+    and [lighting of diyas](https://www.boomlive.in/fake-news/false-photo-shows-india-illuminated-during-pm-modis-9-pm-9-minutes-appeal-7562)
+    or earthen lamps, tasks requested by the Prime Minister.*\n\n*India is currently
+    amidst the second wave of misinformation that is an amalgamation of the pre-existing
+    first wave and themes of economic, administrative, communal, and lockdown related
+    misinformation. The older themes of origin, prevention, cure, and treatment continued
+    to be in circulation. The second wave appears to be circulated more widely with
+    a higher consumption rate on social media as it even takes into consideration
+    the effect that the virus has upon sectors other than health.* \n\nThe second
+    wave of misinformation in India is thematically about politics, religion, culture,
+    and economics—which we define as communal misinformation. Misinformation with
+    communal narratives, along with narratives around the lockdown, emerged to be
+    the biggest contributor to misinformation during the second wave of misinformation.
+    BOOM fact-checked 34 claims with communal narratives in this period. \n\nThe second
+    wave of misinformation picked up pace when the Indian Prime Minister addressed
+    the country for the first time on March 18, 2020. As an expression of gratitude
+    for the frontline workers and to understand the importance of social distancing,
+    he announced March 22 as Janata curfew, a self-imposed curfew, wherein he requested
+    citizens to stay at home for that day and at 5 PM clap or play an instrument from
+    the confines of their homes for frontline workers. Following this event, another
+    task of lighting diyas, the 21-day lockdown and the subsequent 18-day lockdown
+    followed. Fake news related to the lockdown, and the two gratitude events spread
+    across the country along with hailing the PM. This included celebrities who shared
+    the Prime Minister’s request for expressing gratitude with false narratives. One
+    of the most viral pieces of misinformation was about the banging of plates killing
+    the virus as misinformation on the virus’ shelf life on [surfaces](https://www.boomlive.in/fact-file/message-claiming-coronavirus-lives-on-a-surface-for-12-hours-is-misleading-7310)
+    and [air](https://www.boomlive.in/fake-news/message-claiming-coronavirus-can-last-up-to-8-hours-in-air-is-misleading-7328)
+    circulated with many different claims. \n\nClaims about the virus lasting on surfaces
+    for various hours and it spreading through [currency](https://www.boomlive.in/health/can-contaminated-currencies-spread-coronavirus-all-you-need-to-know-7297)
+    were rife on social media. Images depicting [money](https://www.boomlive.in/fake-news/did-italians-throw-their-money-on-the-streets-due-to-covid-19-deaths-7468)
+    lying strewn over streets due to it being a transmission method were circulating
+    on social media. Another piece suggesting [Narendra Modi](https://www.boomlive.in/fake-news/false-us-uk-asked-pm-modi-to-lead-18-nation-coronavirus-task-force-7475)
+    was appointed as the leader of a special task force to tackle COVID-19 has also
+    been doing the rounds. \n\nThe Indian administrative authorities were also targeted
+    with misinformation as Indian social media was flooded with messages suggesting
+    that the [Tourism Ministry](https://www.boomlive.in/fake-news/false-tourism-ministry-announces-closure-of-hotels-till-october-15-7645)
+    was keeping all hotels and restaurants shut in lieu of the coronavirus. Other
+    messages of the [Supreme Court](about:blank) banning Indian media houses from
+    publishing Coronavirus news reports were also doing the rounds. The [Mumbai police](https://www.boomlive.in/fake-news/mumbai-police-call-out-whatsapp-audio-clips-going-viral-in-its-name-7451)
+    also debunked a couple of videos which were repeatedly shared in its name. \n\nAnother
+    piece of misinformation which was a notification that falsely attributed a Cambridge
+    study to the [WHO](https://www.boomlive.in/fake-news/viral-messages-stating-who-protocols-for-lockdown-extension-are-false-7552)
+    stating it had proposed a lockdown schedule to fight the virus was shared widely
+    in the country.\n\nMany esteemed industrialists and doctors of the country have
+    been dragged into the fake news surrounding coronavirus. Images and audio files
+    bearing fake quotes related to India’s battle with COVID-19 have been misattributed
+    to doctors like [Dr. Devi Shetty](https://www.boomlive.in/coronavirus-outbreak/dr-devi-shetty-did-not-record-viral-audio-clip-on-coronavirus-7275)_,_
+    \ the founder of Narayana Hrudyalaya, a chain of hospitals in India and other
+    influential celebrities such as [Ratan Tata](https://www.boomlive.in/fake-news/ratan-tata-quote-on-impact-of-coronavirus-on-indian-economy-is-fake-7634),
+    the chairman of Tata Group of Companies and [Raghuram Rajan](https://www.boomlive.in/fake-news/raghuram-rajan-did-not-address-imf-webinar-on-covid-19-7767),
+    the ex-governor of the Reserve Bank of India. \n\nThe communal and religious misinformation
+    wave began when an Islamic congregation in Delhi came under the line of fire after
+    many people who attended the event tested positive which led to a spurt of cases
+    in India. Older videos of communal violence, incidences from other countries being
+    shared as communal differences in India, videos of spitting in food, coughing
+    in food shared falsely as Muslims deliberately trying to spread the virus in India
+    gained momentum as soon as news about this congregation were shared across the
+    country. \n\nAudio stating that Muslim [vendors](https://www.boomlive.in/fake-news/viral-audio-clip-claiming-muslim-vendors-in-surat-are-spreading-coronavirus-is-false-7644)
+    were spreading coronavirus in Surat, [Jamaat attendees](https://www.boomlive.in/fake-news/false-markaz-attendee-thrashed-by-cops-for-misbehaving-with-hospital-staff-7647)
+    were claimed to be harassed and beaten by the police, while a video of a [pharmacist](https://www.boomlive.in/fake-news/false-communal-spin-given-to-madhya-pradesh-pharmacists-death-7611)’s
+    death was shared with a communal spin. Along with this, a gathering of migrant
+    workers in [Mumbai](https://www.boomlive.in/fake-news/migrants-defying-lockdown-at-mumbais-bandra-station-given-communal-spin-7683)
+    was given a communal spin suggesting Muslims were trying to defy the lockdown
+    and spread coronavirus. Claims from [Haldwani](https://www.boomlive.in/fake-news/rumours-led-to-residents-protest-against-imams-quarantine-uttarakhand-police-7680)
+    suggested that Muslims were purportedly defying the lockdown to spread coronavirus.
+    \n\nIt is pertinent to understand the nature of India’s religious and communal
+    narratives to gauge why the Muslim community was particularly targeted as a vector
+    to spread misinformation. In the last three decades, the country has witnessed
+    many incidences of Hindu- Muslim rivalry. From the demolition of the Babri Masjid
+    in 1992 and the subsequent riots and bomb blasts across the country to the recent
+    attack on students at Jamia Milia University in Delhi for the much touted National
+    Register of Citizens (NRC) and the Citizen Amendment Act which was felt to be
+    discriminatory against the community, the recent coronavirus misinformation augments
+    the communal bias in the country. \n\nThe pre-existing themes of the first wave
+    of misinformation have passed on to the second wave too. The claim that nigella
+    seeds possess [hydroxychloroquine](https://www.boomlive.in/coronavirus-outbreak/hydroxychloroquine-found-in-kalonji-seeds-not-quite-7631)
+    – a drug that is undertrial as a potential cure for COVID-19- was not scientifically
+    backed. Claims that [thrombosis](https://www.boomlive.in/fake-news/is-thrombosis-the-leading-cause-of-covid-19-deaths-a-factcheck-7977)-
+    blood clots are the leading reason for Coronavirus deaths instead of respiratory
+    failure were also circulating during this period. \n\nVideos with false narratives
+    are continuously in circulation. Old videos of people [committing suicide](https://www.boomlive.in/fake-news/2015-video-from-philadelphia-peddled-as-coronavirus-suicide-in-italy-7620)
+    in two separate instances were passed off as people [committing suicide](https://www.boomlive.in/fake-news/dated-photos-of-a-suicide-in-spain-falsely-linked-to-coronavirus-in-italy-7370)
+    due to coronavirus. A [lion](https://www.boomlive.in/fake-news/putin-let-loose-lions-to-keep-russians-indoors-bizarre-claim-goes-viral-7320)
+    on the streets of South Africa was shared as Russia’s efforts to maintain a lockdown.
+    A video of a woman in the hospital was claimed to be [Sophie Trudeau](https://www.boomlive.in/fake-news/no-this-is-not-sophie-trudeau-talking-about-coronavirus-7299)\n\nFurthermore,
+    casualties in an earthquake in [Croatia](https://www.boomlive.in/fake-news/croatia-earthquake-pics-peddled-as-italy-overwhelmed-with-covid-19-patients-7363)
+    were peddled as Italy’s deteriorating condition. Body bags from Ecuador were shared
+    as [New York](https://www.boomlive.in/fake-news/no-this-video-does-not-show-body-bags-in-a-new-york-hospital-7588),
+    Pakistani videos of [apple](https://www.boomlive.in/fast-check/video-of-boy-washing-apples-in-a-sewer-in-pakistan-revived-7605)
+    washing and [quarantine centres](https://www.boomlive.in/fake-news/video-of-an-agitated-woman-at-a-quarantine-centre-in-pakistan-shared-as-india-7661)
+    were circulating as India.\n\nIndia is currently not only battling COVID-19 and
+    health misinformation but also is tackling many different narratives of misinformation.
+    \ \n\n\n"
+  author:
+  - sys:
+      id: 4kgyss6jtjX7WbUbXMCVE3
+      created_at: !ruby/object:DateTime 2020-07-22 23:22:14.908000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 23:22:17.317000000 Z
+      content_type_id: contributor
+      revision: 0
+    name: Shachi Sutaria
+  organization: " BOOM FactCheck, <br >India"
+  publication:
+  - sys:
+      id: 2lQKVWqTIPTns0oj5UA78S
+      created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 22:46:55.906000000 Z
+      content_type_id: publication
+      revision: 5
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    short_title: 2020 Misinfodemic Report
+    kicker: A Check Global Report
+    description: 'Misinfodemic: when online misinformation contributes to real-world
+      disease. In the coming months, Meedan will publish eight pieces of reporting
+      and analysis in an effort to map the anatomy of the global COVID-19 information
+      ecosystem.'
+    slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
+    sections:
+    - sys:
+        id: 6K6TuAvZBDXdJATv8SynCi
+    - sys:
+        id: 1jkEcTAbvK0Y7O1NmysvKT
+    - sys:
+        id: 3ixzizcKVwnSXEFRRyVuxL
+    cover_image:
+      sys:
+        id: Tu2ovEuxh8gztQD9kuF0G
+        created_at: !ruby/object:DateTime 2020-06-23 05:08:56.807000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/Tu2ovEuxh8gztQD9kuF0G/0f5da326dfe06869775caf1002c330e6/meedan_report_2020-infodemic-report_01.png"
+    publication_promo_graphic:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    social_card_image:
+      sys:
+        id: 5L7KfUhYU7lqikodPkJoQQ
+        created_at: !ruby/object:DateTime 2020-06-22 23:00:20.044000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png"
+    publication_promo: This report is part of a Check Global Report about [COVID-19
+      in Emerging Economies](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/).
+    color:
+      sys:
+        id: 43kw5bcVj1xtfe7ua88F6V
+  color:
+    sys:
+      id: 5JDZYN12fQYOkyNmPTQBff
+      created_at: !ruby/object:DateTime 2020-06-18 00:00:55.264000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 00:02:31.180000000 Z
+      content_type_id: color
+      revision: 0
+    name: Strong Cyan
+    value: "#008D5E"
+    thumbnail:
+      sys:
+        id: 4t2hYWT1aLyVQkXkWQ9lkB
+        created_at: !ruby/object:DateTime 2020-06-18 00:01:45.060000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-18 00:01:56.311000000 Z
+      title: '008D5E'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4t2hYWT1aLyVQkXkWQ9lkB/5200e3453163a18e91698f955c3fa075/008D5E"
+    text: "#262626"
+  image: https://images.ctfassets.net/g118h5yoccvd/3hrpvLcTanPaFxcvRbFt9Z/d9d8be34291410f327211d270292ace5/meedan_report_covid-19-india_01.png

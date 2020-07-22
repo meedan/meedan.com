@@ -265,9 +265,9 @@ job:
 - sys:
     id: OR656AY4CZ9IV5g6JS7sT
     created_at: !ruby/object:DateTime 2020-07-09 15:59:52.822000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-10 03:25:17.043000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-10 03:29:51.357000000 Z
     content_type_id: job
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -346,3 +346,76 @@ job:
     and statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Program
     Associate, East Africa\">jobs@meedan.com</a> by July 31, 2020."
   date: '2020-07-09'
+- sys:
+    id: 56rk6EIfGewB4WYMyuhEDM
+    created_at: !ruby/object:DateTime 2020-07-16 19:03:08.286000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-16 19:48:21.613000000 Z
+    content_type_id: job
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Software Engineer, Frontend
+  slug: software-engineer-frontend
+  body: "- __Location:__ Remote, overlap with Atlantic Time Zone (UTC-3/4) preferred\n-
+    __Reports to:__ Director of Software\n- __Availability:__ Immediate; 12-month
+    1.0 FTE contract subject to 3-month probation period, with possibility of renewal
+    subject to funding\n- __Salary:__ Commensurate with qualifications and experience\n\nMeedan
+    is seeking a frontend developer to join our 10-member software team. We build
+    [Check](https://github.com/meedan/check), a web platform for collaborative media
+    annotation and claim-checking. Our frontends include a React web app, a cross-browser
+    Web Extension and a sophisticated Slack bot, all accessing our backend services
+    via GraphQL and REST APIs.  \n\nThe successful candidate will participate in building
+    and maintaining these frontends, bringing their experience and knowledge to produce
+    high-quality code contributions and enrich the team’s collective assets and expertise.
+    Their problem-solving skills, attention to detail, ability to learn fast, sense
+    of initiative and positive attitude will ensure a long and rewarding tenure in
+    a similarly-minded group. \n\n### Responsibilities\n- Participate in maintaining
+    and enhancing existing frontends \n- Participate in architectural planning, especially
+    related to frontend-backend communication \n- Participate in testing, performance
+    analysis, and other quality-oriented activities\n- Participate in reviewing product
+    specifications and designs to assess feasibility and simplicity\n- Follow development
+    practices, including ticketing workflows and coding guidelines\n\n### Qualifications\n-
+    Required: Strong command of English language\n- Required: Strong communication
+    skills, especially via Internet\n- Required: Solid experience with Web technologies:
+    HTML, CSS, JavaScript, HTTP\n- Required: Familiarity with newer specifications
+    of ECMAScript / JavaScript\n- Required: Solid experience with version control,
+    preferably Git and GitHub\n- Required: Working knowledge of React.js and its core
+    principles\n- Required: Working knowledge of unit testing and integration testing\n-
+    Required: Familiarity with Docker or other containerization technologies\n- Required:
+    Demonstrated experience delivering production-grade Web applications\n- Preferred:
+    Working knowledge of UX principles and their relevance to Web applications\n-
+    Preferred: Working knowledge of Relay / GraphQL\n- Preferred: Working knowledge
+    of AWS Lambda or other serverless environments\n- Preferred: Familiarity with
+    prototyping and design tools such as Figma, Invision\n- Preferred: Ability to
+    travel for 1-2 months per year for in-person team meetings\n- Preferred: Community
+    involvement such as event organization, talks and presentations\n\n### About Meedan\nMeedan
+    is a 501(c)(3) non-profit that builds digital tools for global journalism. We
+    are a team of designers, technologists, academics, and journalists who focus on
+    open source investigation of digital media and crowdsourced translation of social
+    media. With commercial, media and university partners, we support research, curriculum
+    development, and new forms of digital storytelling. We have supported major fact-checking
+    initiatives around elections in Mexico (Verificado), France (CrossCheck), the
+    US (Electionland), and India (Checkpoint) as well as general day-to-day fact-checking
+    efforts in the Philippines (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck)
+    and for world changing human rights investigations with partners like Bellingcat,
+    Syrian Archives, Watching Western Sahara, and the Berkeley Human Rights Center.\nOur
+    team members are able to work flexibly and respond to challenges across a range
+    of project areas. We are headquartered in San Francisco’s SOMA district with team
+    members distributed through multiple cities and time zones. We encourage individuals
+    from historically underrepresented communities in technology and journalism to
+    apply, including women, people of color, people with disabilities and those who
+    identify as LGBTQ.\n\nPlease send CV, portfolio (or a website equivalent) and
+    statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Software Engineer,
+    Frontend\">jobs@meedan.com</a>\n"
+  date: '2020-07-16'
