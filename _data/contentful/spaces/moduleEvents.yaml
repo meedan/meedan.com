@@ -3,61 +3,17 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-08 03:44:00.479000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-22 20:00:37.725000000 Z
     content_type_id: moduleEvents
-    revision: 21
+    revision: 27
   title: Upcoming Events
   events:
   - sys:
-      id: 2IVc4gpeKc2YMOSl3dc4y
-      created_at: !ruby/object:DateTime 2020-07-07 18:51:41.980000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-09 02:59:11.343000000 Z
-      content_type_id: event
-      revision: 8
-    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
-    event_date: !ruby/object:DateTime 2020-07-09 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-07-09 00:00:00.000000000 Z
-    time: |-
-      - *New York* 6:30pm
-      - *San Francisco* 3:30pm
-    images:
-    - sys:
-        id: 6UM4uQWvHAOZKmqzyeveOv
-        created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
-      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
-    - sys:
-        id: 79afTvhK0O3bTwExiAt2wy
-        created_at: !ruby/object:DateTime 2020-07-08 14:42:13.239000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-08 18:50:15.539000000 Z
-      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/79afTvhK0O3bTwExiAt2wy/887cc195b5d0996e3aab8c72d1d8ff4b/meedan_iglive_july-9_04.jpg"
-    social_card_image:
-      sys:
-        id: 5mkGkebdSAcwvhSgnJtlDs
-        created_at: !ruby/object:DateTime 2020-07-09 02:58:36.841000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-09 02:59:06.900000000 Z
-      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5mkGkebdSAcwvhSgnJtlDs/1b2a774437a3febe4163f39a42ba1f04/meedan_iglive_july-9_04.png"
-    location_human_friendly: 'Instagram Live: @heymeedan'
-    description: Tune in on Friday at 6:30 PM Eastern to hear Dr. Salles in conversation
-      with Dr. Seema Yasmin.
-    long_description: Dr. Salles is a bariatric surgeon who helped New York City during
-      its COVID-19 peak and is now providing care in California as cases rise. Her
-      research focuses on gender equity, implicit bias, diversity, inclusion, and
-      physician well-being. Tune in on Friday at 6:30 PM Eastern to hear Dr. Salles
-      in conversation with Dr. Seema Yasmin.
-    slug: instagram-live-dr-arghavan-salles-on-covid-19-and-healthcare-workers
-  - sys:
       id: 7eKsdJMPiajC771QBSSjQH
       created_at: !ruby/object:DateTime 2020-07-07 21:45:03.134000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-08 21:58:03.120000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 21:31:44.637000000 Z
       content_type_id: event
-      revision: 4
+      revision: 6
     title: 'Book Talk and Webinar: Keep Calm and Log On with author Gus Andrews'
     event_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
     event_end_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
@@ -91,7 +47,7 @@ moduleEvents:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/63z2q6HnqpudUyTBIfnbf8/b29938ac4a80e72bdfea29aced3ed5bb/meedan_webinar_gillian-gus-andrews_book.png"
     location_human_friendly: Online on Zoom
-    register_link: https://forms.gle/XvPucpEkn2LwyxBU8
+    register_link: https://meedan.zoom.us/webinar/register/WN_QVt6M3HWSkWyiDsi2emSkw
     description: Join *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* author
       Gus Andrews in conversation with Memes to Movements author An Xiao Mina about
       her new book, published by MIT Press.
@@ -101,7 +57,7 @@ moduleEvents:
       Join *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* author Gus Andrews in conversation with *[Memes to Movements](https://www.penguinrandomhouse.com/books/567159/memes-to-movements-by-an-xiao-mina/)* author An Xiao Mina about her new book, published by MIT Press.
 
       Live on Zoom
-      [Register now to sign up for the Zoom event](https://forms.gle/XvPucpEkn2LwyxBU8)
+      [Register now to sign up for the Zoom event](https://meedan.zoom.us/webinar/register/WN_QVt6M3HWSkWyiDsi2emSkw)
 
       ## About the Author
       *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* is the first book from Dr. Gillian Andrews, known to most as Gus.
@@ -112,3 +68,50 @@ moduleEvents:
 
       Dr. Andrews is a dynamic writer and speaker who is keen to help her fellow citizens protect themselves in a year which promises escalated cybersecurity and disinformation attacks.
     slug: webinar-keep-calm-and-log-on-with-author-gus-andrews
+    non_public: false
+  - sys:
+      id: 6pwPFFDIr5ylmbOizCK4gt
+      created_at: !ruby/object:DateTime 2020-07-22 09:58:22.024000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 21:32:46.192000000 Z
+      content_type_id: event
+      revision: 4
+    title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+    event_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
+    time: "- *New York* 6:30am \n- *London* 11:30am\n- *Cairo* 12:30pm\n- *Delhi*
+      4pm"
+    images:
+    - sys:
+        id: 1IMJsE4QMDUlAKFlgZuvX3
+        created_at: !ruby/object:DateTime 2020-07-22 18:38:22.605000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-22 18:38:39.915000000 Z
+      title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1IMJsE4QMDUlAKFlgZuvX3/fcafbd1f6692b5fb6a4a37221f70e44a/meedan_disinfodemic_india_04.jpg"
+    - sys:
+        id: 1VcuNINr6KpNMC2Fr77ikU
+        created_at: !ruby/object:DateTime 2020-07-22 18:37:31.612000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-22 18:38:46.179000000 Z
+      title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1VcuNINr6KpNMC2Fr77ikU/d42433c6b12e8b8cbf2db83c317488c1/meedan_disinfodemic_india_03.jpg"
+    social_card_image:
+      sys:
+        id: 6T6QskTKK6f41D0RsWUDqg
+        created_at: !ruby/object:DateTime 2020-07-22 18:38:50.070000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-22 18:38:56.690000000 Z
+      title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6T6QskTKK6f41D0RsWUDqg/a12ed7ad33bdd90b0a4e956ed2f1c098/meedan_event_disinfodemic_india_01.jpg"
+    location_human_friendly: Online on Zoom
+    register_link: https://zoom.us/webinar/register/WN_W7IlZMFYQE6n57E64ZGOXQ
+    description: Webinar on the spike in misinformation in India in 2019-2020
+    long_description: "The past 16 months have been relentless for journalists and
+      fact-checkers in India. From the Pulwama attack in February 2019 to the outbreak
+      of the novel coronavirus, misinformation has taken the public discourse by storm.\n\nThe
+      webinar, hosted by [The Quint](https://www.thequint.com/), brings together a
+      panel to discuss some of the work that fact-checkers in India have been doing.
+      \n\n- Kritika Goel, assistant editor, The Quint\n- Karen Rebelo, deputy editor
+      of BOOM Live, \n- Surabhi Malik, program director, India at Internews \n- Shalini
+      Joshi, program director at Meedan"
+    slug: disinfodemic-16-months-of-relentless-fact-checking-in-india

@@ -136,6 +136,13 @@
             }
         }
     }
+    .covid-19-and-china-s-information-control-policy .title-container {
+        grid-template-columns: 0.85fr 1.05fr;
+        .report-graphic {
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
 }
 
 .report .story-wrapper {

@@ -132,6 +132,9 @@
         color: inherit;
         text-decoration: inherit;
     }
+    .report-list-item:not(:first-child) {
+        margin-bottom: var(--space-2);
+    }
     .report-list-item-row {
         display: grid;
         grid-template-columns: 0.1fr 0.9fr 2fr 0.5fr 0.5fr;

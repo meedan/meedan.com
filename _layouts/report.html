@@ -5,7 +5,7 @@ lang: en-US
 <html dir="ltr" lang="en-US">
 {% include head.html %}
 
-<body class="site story report">
+<body class="site story report {{ page.title | slugify }}">
     <a id="top"></a>
     <div class="page-wrapper">
         {% include report_header.html theme="dark" %}

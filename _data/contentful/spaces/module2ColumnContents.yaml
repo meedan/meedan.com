@@ -1797,9 +1797,9 @@ module2ColumnContent:
   - sys:
       id: 17A6VzqCGsyvOXcH2rne8m
       created_at: !ruby/object:DateTime 2020-05-17 14:27:57.510000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-31 15:57:18.072000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-15 20:14:00.105000000 Z
       content_type_id: moduleTex
-      revision: 7
+      revision: 9
     content: "As a context company, I will make an effort to also situate this note
       in the data that describes the current global pandemic. This annual CEO letter
       is being written on a day when the World Health Organization notes [1,279,722
@@ -1829,46 +1829,47 @@ module2ColumnContent:
       always emphasized the need to work across boundaries and between communities.
       In 2019 we formalized this community aspect of our work, launching the Check
       Global Network with LatAm, APAC, NAWA (North Africa West Asia), and East African
-      partners. A few of the highlights from this network: \n\n[We supported the inspiring
-      women’s media collective Chicas Poderosas to lead three Mediathons](https://meedan.com/blog/voicesontherise-mediathon-in-mexico/)
-      in 2019, in Argentina, Colombia and Mexico, attended by 300 women journalists.
-      Mediathons are two-day events where journalists, communicators, designers, and
-      other women who work in media gather with the aim of creating collaborative,
-      multimedia, journalistic projects to make visible under-represented issues.
-      \n\n[The NAWA Investigative Fund](https://nawamedia.org/) is an initiative of
-      Check Global to financially support new, quality investigative journalism from,
-      for, and about the Arab region. The NAWA-IF supports a new generation of digital
-      investigative journalists in the North Africa and West Asia (NAWA) region by
-      providing micro-grants for investigative work across all media.\n\nDuring 2019,
-      our partner Mnemonic has published four full-length open source investigations
-      in Syria. The investigations included the bombing of civilian infrastructure
-      such as medical facilities, as well as the use of chemical weapons against civilians
-      in Syria and the export of these chemicals from the EU to Syria after sanctions.\n\nOur
-      work with Hacks/Hackers on the Credibility Coalition continued in 2019, [with
-      the release of the CredCat](https://credibilitycoalition.org/credcatalog/) as
-      a compendium of misinformation response efforts around the world. \n\nOur election
-      monitoring work continued with important efforts in APAC. We ran a Pop-Up Newsroom
-      (our partnership with Fathm) with WhatsApp and the civic media studio Proto.
-      The Checkpoint project team monitored and responded to visual misinformation
-      circulating on WhatsApp through the run up to the Indian national election in
-      July. In parallel we ran election monitoring projects in Indonesia, Cekfakta,
-      with partner Tempo.co, and in the Philippines, Tsek.ph, with partner Vera Files.
-      \n\nCheckpoint was also the first release of our open source solution for monitoring
-      and responding to misinformation on WhatsApp. This technology is a version of
-      Check that is integrated with WhatsApp (and a dozen other closed messaging apps)
-      and optimized for efficiently sorting thousands of incoming messages and generating
-      visual cards for viral response. We’ve been extremely fortunate to have WhatsApp
-      as a partner in this work to design and develop tools to address the most daunting
-      aspect of the global misinformation challenge - misinformation response in E2E
-      encrypted messaging networks.  \n\nLooking back, it is clear that our accomplishments
-      in 2019 have positioned us well to contribute to the unfolding crisis of Covid-19.
-      From this vantage point it is pretty clear that now, more than ever, the world
-      needs Meedan to succeed in its mission to improve the equity, diversity, and
-      inclusion in our digital ecologies as a means to create and extend a healthier
-      world. As a small but mighty organization we will continue to build global infrastructure
-      in code, data, partners, and research to address the grand challenges that feel
-      so close and pressing.  \n\nPlease be safe and stay healthy. \n\nYours, \n\nEd\n\nWoodacre,
-      CA"
+      partners. A few of the highlights from this network: \n\nWe supported the inspiring
+      women’s media collective Chicas Poderosas to lead two collaborative [media design
+      and training workshops, or \"mediathons\"](https://meedan.com/blog/voicesontherise-mediathon-in-mexico/)
+      in Colombia and Mexico, each of these brought together more than 100 women journalists
+      for fact-checking and verification trainings and media innovation co-design.\nMediathons
+      are two-day events where journalists, communicators, designers, and other women
+      who work in media gather with the aim of creating collaborative, multimedia,
+      journalistic projects to make visible under-represented issues. \n\n[The NAWA
+      Investigative Fund](https://nawamedia.org/) is an initiative of Check Global
+      to financially support new, quality investigative journalism from, for, and
+      about the Arab region. The NAWA-IF supports a new generation of digital investigative
+      journalists in the North Africa and West Asia (NAWA) region by providing micro-grants
+      for investigative work across all media.\n\nDuring 2019, our partner Mnemonic
+      has published four full-length open source investigations in Syria. The investigations
+      included the bombing of civilian infrastructure such as medical facilities,
+      as well as the use of chemical weapons against civilians in Syria and the export
+      of these chemicals from the EU to Syria after sanctions.\n\nOur work with Hacks/Hackers
+      on the Credibility Coalition continued in 2019, [with the release of the CredCat](https://credibilitycoalition.org/credcatalog/)
+      as a compendium of misinformation response efforts around the world. \n\nOur
+      election monitoring work continued with important efforts in APAC. We ran a
+      Pop-Up Newsroom (our partnership with Fathm) with WhatsApp and the civic media
+      studio Proto. The Checkpoint project team monitored and responded to visual
+      misinformation circulating on WhatsApp through the run up to the Indian national
+      election in July. In parallel we ran election monitoring projects in Indonesia,
+      Cekfakta, with partner Tempo.co, and in the Philippines, Tsek.ph, with partner
+      Vera Files. \n\nCheckpoint was also the first release of our open source solution
+      for monitoring and responding to misinformation on WhatsApp. This technology
+      is a version of Check that is integrated with WhatsApp (and a dozen other closed
+      messaging apps) and optimized for efficiently sorting thousands of incoming
+      messages and generating visual cards for viral response. We’ve been extremely
+      fortunate to have WhatsApp as a partner in this work to design and develop tools
+      to address the most daunting aspect of the global misinformation challenge -
+      misinformation response in E2E encrypted messaging networks.  \n\nLooking back,
+      it is clear that our accomplishments in 2019 have positioned us well to contribute
+      to the unfolding crisis of Covid-19. From this vantage point it is pretty clear
+      that now, more than ever, the world needs Meedan to succeed in its mission to
+      improve the equity, diversity, and inclusion in our digital ecologies as a means
+      to create and extend a healthier world. As a small but mighty organization we
+      will continue to build global infrastructure in code, data, partners, and research
+      to address the grand challenges that feel so close and pressing.  \n\nPlease
+      be safe and stay healthy. \n\nYours, \n\nEd\n\nWoodacre, CA"
 - sys:
     id: 12hbgAH5yo10UCpQDntpYN
     created_at: !ruby/object:DateTime 2020-05-17 14:49:48.921000000 Z

@@ -765,9 +765,9 @@ event:
 - sys:
     id: 7eKsdJMPiajC771QBSSjQH
     created_at: !ruby/object:DateTime 2020-07-07 21:45:03.134000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-08 21:58:03.120000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-22 21:31:44.637000000 Z
     content_type_id: event
-    revision: 4
+    revision: 6
     space:
       sys:
         id: g118h5yoccvd
@@ -814,7 +814,7 @@ event:
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/63z2q6HnqpudUyTBIfnbf8/b29938ac4a80e72bdfea29aced3ed5bb/meedan_webinar_gillian-gus-andrews_book.png"
   location_human_friendly: Online on Zoom
-  register_link: https://forms.gle/XvPucpEkn2LwyxBU8
+  register_link: https://meedan.zoom.us/webinar/register/WN_QVt6M3HWSkWyiDsi2emSkw
   description: Join *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* author
     Gus Andrews in conversation with Memes to Movements author An Xiao Mina about
     her new book, published by MIT Press.
@@ -824,7 +824,7 @@ event:
     Join *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* author Gus Andrews in conversation with *[Memes to Movements](https://www.penguinrandomhouse.com/books/567159/memes-to-movements-by-an-xiao-mina/)* author An Xiao Mina about her new book, published by MIT Press.
 
     Live on Zoom
-    [Register now to sign up for the Zoom event](https://forms.gle/XvPucpEkn2LwyxBU8)
+    [Register now to sign up for the Zoom event](https://meedan.zoom.us/webinar/register/WN_QVt6M3HWSkWyiDsi2emSkw)
 
     ## About the Author
     *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* is the first book from Dr. Gillian Andrews, known to most as Gus.
@@ -835,6 +835,226 @@ event:
 
     Dr. Andrews is a dynamic writer and speaker who is keen to help her fellow citizens protect themselves in a year which promises escalated cybersecurity and disinformation attacks.
   slug: webinar-keep-calm-and-log-on-with-author-gus-andrews
+  non_public: false
   event_date_string: '2020-07-23'
   event_end_date_string: '2020-07-23'
   image: https://images.ctfassets.net/g118h5yoccvd/63z2q6HnqpudUyTBIfnbf8/b29938ac4a80e72bdfea29aced3ed5bb/meedan_webinar_gillian-gus-andrews_book.png
+- sys:
+    id: 5uzzATpLsTBk9hTipV1OBP
+    created_at: !ruby/object:DateTime 2020-07-15 17:35:29.107000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-16 17:41:21.865000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Internet Freedom Festival Glitter Meetup: Recordkeepers of the Resistance'
+  event_date: !ruby/object:DateTime 2020-07-16 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-07-16 00:00:00.000000000 Z
+  time: |
+    - *Ciudad de Mexico* 8am
+    - *New York* 9am
+    - *São Paulo* 10am
+    - *London* 2pm
+  images:
+  - sys:
+      id: 7osdXlMczm9SkZHYMIqnQy
+      created_at: !ruby/object:DateTime 2020-07-15 21:41:59.795000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-15 21:42:32.806000000 Z
+    title: Internet Freedom Festival Glitter Meetup – Recordkeepers of the Resistance
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg"
+  - sys:
+      id: 5elVzLqZLlaFxDHmJEFeZZ
+      created_at: !ruby/object:DateTime 2020-07-15 21:34:43.093000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-15 21:35:32.517000000 Z
+    title: Isabella Barroso
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5elVzLqZLlaFxDHmJEFeZZ/dd71e3fd6f4ef8f37474fad2aea657aa/meedan_isa.jpg"
+  location_human_friendly: IFF Community – Glitter Meetup
+  description: Our Latin America Progam Manager, Isabella Barroso, will host the Glitter
+    Meetup of the IFF community and explore the dangers of relyng on social media
+    platforms to archive activist content.
+  long_description: "The idea is to mobilize the community around the topic of corporate
+    social media platforms becoming the recordkeepers of activist history while there
+    is still a total lack of transparency regarding their content moderation policies.
+    Join us in trying to come up with new ways to fix this, as an attempt to counter,
+    together, the bleak yet possible scenario of an erasing of activist histories.\n\nA
+    few question we will explore:\n  -  How can open source technology contribute
+    to ongoing efforts to archive and safeguard activist content and history?\n  -
+    \ What are pathways to reach out to communities?\n  -  What are the data sources
+    for feminists archives in social media?\n  -  What are the challenges of collecting
+    this information and content in Latin America/the world?\n  - How to share this
+    knowledge with activists? \n\nInvitation via: <a href=\"mailto:team@internetfreedomfestival.org\">team@internetfreedomfestival.org</a>.\n"
+  slug: internet-freedom-festival-glitter-meetup-recordkeepers-of-the-resistance
+  event_date_string: '2020-07-16'
+  event_end_date_string: '2020-07-16'
+  image: https://images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg
+- sys:
+    id: 6GnWHe3rZjm3WsEbopcee0
+    created_at: !ruby/object:DateTime 2020-07-16 16:12:16.487000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-16 18:51:49.490000000 Z
+    content_type_id: event
+    revision: 6
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Misinfodemia on IG Live: Dr. Seema Yasmin speaks with Dr. Cedric Dark about
+    COVID-19 in Houston, Texas'
+  event_date: !ruby/object:DateTime 2020-07-17 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-07-17 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 6pm
+    - *New York* 9pm
+    - *London* 2am (+1)
+    - *Delhi* 6:30am (+1)
+    - *Manila* 9am (+1)
+  images:
+  - sys:
+      id: 3TJAgyBrHZiavOT7sisOXB
+      created_at: !ruby/object:DateTime 2020-07-08 01:13:23.163000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 01:13:42.003000000 Z
+    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3TJAgyBrHZiavOT7sisOXB/367c84efd6097172afb2d1080cc369c8/meedan_iglive_july-9_02.png"
+  - sys:
+      id: 4dleBNn9M44Ny3Qj19OVTS
+      created_at: !ruby/object:DateTime 2020-07-16 18:49:25.000000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-16 18:51:45.277000000 Z
+    title: Misinfodemia on IG Live
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/4dleBNn9M44Ny3Qj19OVTS/821599e1f9d7f1663a66e75339df6dcc/meedan_iglive_july-9_01.png"
+  location_human_friendly: 'Instagram Live: @heymeedan'
+  description: 'Join Dr. Seema Yasmin for another episode of Misinfodemia on Instagram
+    Live. '
+  long_description: This Friday Dr. Yasmin speaks with Dr. Cedric Dark, an emergency
+    medicine physician in Houston, Texas about what he is seeing there as cases rise.
+    Follow us on Instagram at [@heymeedan](https://www.instagram.com/heymeedan/) and
+    tune in.
+  slug: misinfodemia-on-ig-live-dr-seema-yasmin-speaks-with-dr-cedric-dark-about
+  event_date_string: '2020-07-17'
+  event_end_date_string: '2020-07-17'
+  image: https://images.ctfassets.net/g118h5yoccvd/3TJAgyBrHZiavOT7sisOXB/367c84efd6097172afb2d1080cc369c8/meedan_iglive_july-9_02.png
+- sys:
+    id: 3gkBb8awJYtB2DRpk897bU
+    created_at: !ruby/object:DateTime 2020-07-21 12:43:22.903000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-21 12:58:37.941000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Digital Health Lab at the International Conference on Computational Social
+    Science (IC2S2)
+  event_date: !ruby/object:DateTime 2020-07-18 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-07-18 00:00:00.000000000 Z
+  time: |-
+    15:00 New York
+    20:00 London
+  location_human_friendly: Online
+  long_description: "Ashkan Kazemi and Scott Hale presented joint work with Jenna
+    Sherman\nand Nat Gyenes at the 2020 International Conference on Computational
+    Social Science (IC2S2). The paper, \"Monitoring the health conversation online:
+    Detecting notable shifts through word embeddings and semantic change,\" was accepted
+    as a oral presentation. \n\nIC2S2 brings together researchers in computational
+    science, complexity, and social science, and provides a platform for new work
+    in the field of computational social science.\n\nThis research was also presented
+    at Global Fact 7, and a video presentation is pubicly available.\n\n    \n    <iframe
+    width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vzyr1e9tSJs\"
+    frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope;
+    picture-in-picture\" allowfullscreen></iframe>"
+  slug: digital-health-lab-at-the-international-conference-on-computational-social
+  non_public: true
+  event_date_string: '2020-07-18'
+  event_end_date_string: '2020-07-18'
+- sys:
+    id: 6pwPFFDIr5ylmbOizCK4gt
+    created_at: !ruby/object:DateTime 2020-07-22 09:58:22.024000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-22 21:32:46.192000000 Z
+    content_type_id: event
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+  event_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
+  time: "- *New York* 6:30am \n- *London* 11:30am\n- *Cairo* 12:30pm\n- *Delhi* 4pm"
+  images:
+  - sys:
+      id: 1IMJsE4QMDUlAKFlgZuvX3
+      created_at: !ruby/object:DateTime 2020-07-22 18:38:22.605000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 18:38:39.915000000 Z
+    title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1IMJsE4QMDUlAKFlgZuvX3/fcafbd1f6692b5fb6a4a37221f70e44a/meedan_disinfodemic_india_04.jpg"
+  - sys:
+      id: 1VcuNINr6KpNMC2Fr77ikU
+      created_at: !ruby/object:DateTime 2020-07-22 18:37:31.612000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 18:38:46.179000000 Z
+    title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1VcuNINr6KpNMC2Fr77ikU/d42433c6b12e8b8cbf2db83c317488c1/meedan_disinfodemic_india_03.jpg"
+  social_card_image:
+    sys:
+      id: 6T6QskTKK6f41D0RsWUDqg
+      created_at: !ruby/object:DateTime 2020-07-22 18:38:50.070000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-22 18:38:56.690000000 Z
+    title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6T6QskTKK6f41D0RsWUDqg/a12ed7ad33bdd90b0a4e956ed2f1c098/meedan_event_disinfodemic_india_01.jpg"
+  location_human_friendly: Online on Zoom
+  register_link: https://zoom.us/webinar/register/WN_W7IlZMFYQE6n57E64ZGOXQ
+  description: Webinar on the spike in misinformation in India in 2019-2020
+  long_description: "The past 16 months have been relentless for journalists and fact-checkers
+    in India. From the Pulwama attack in February 2019 to the outbreak of the novel
+    coronavirus, misinformation has taken the public discourse by storm.\n\nThe webinar,
+    hosted by [The Quint](https://www.thequint.com/), brings together a panel to discuss
+    some of the work that fact-checkers in India have been doing. \n\n- Kritika Goel,
+    assistant editor, The Quint\n- Karen Rebelo, deputy editor of BOOM Live, \n- Surabhi
+    Malik, program director, India at Internews \n- Shalini Joshi, program director
+    at Meedan"
+  slug: disinfodemic-16-months-of-relentless-fact-checking-in-india
+  event_date_string: '2020-07-23'
+  event_end_date_string: '2020-07-23'
+  image: https://images.ctfassets.net/g118h5yoccvd/6T6QskTKK6f41D0RsWUDqg/a12ed7ad33bdd90b0a4e956ed2f1c098/meedan_event_disinfodemic_india_01.jpg
