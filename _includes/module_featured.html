@@ -3,8 +3,9 @@
 {% assign events = site.data.contentful.spaces.moduleEvents.moduleEvents 
     | where_exp: "item","item.sys.id == '8cg57tenBbCxgUBQxJYss'"
 %}
+
 {% if events[0].events.size != 0 %}
-<section class="module module-featured {% if events[0].events.size == 2 %} module-featured-2 {% endif %}section-margin">
+<section class="module module-featured {% if events[0].events.size >= 2 %} module-featured-2 {% endif %}section-margin">
     {% if events[0].title %}
     <h3 class="section-title">● <a href="/events" title="{{ events[0].title }}">{{ events[0].title }}</a></h3>
     {% endif %}
@@ -37,8 +38,8 @@
                 </a>
         
             {% endfor %}
-        {% elsif events[0].events.size == 2 %}
-            {% for event in events[0].events %}
+        {% elsif events[0].events.size >= 2 %}
+            {% for event in events[0].events limit: 2 %}
                 
                 <a href="/events/{{ event.slug }}" class="event-item event-item-half">
                     <div class="details">
@@ -53,7 +54,11 @@
                         </div>
                     </div>
                     <picture class="image-container">
-                        <img src="{{ event.images[1].url }}" alt="{{ image.title }}"/>
+                        {% if event.images[1].url %}
+                            <img src="{{ event.images[1].url }}" alt="{{ image.title }}"/>
+                        {% elsif event.images[0].url %}
+                            <img src="{{ event.images[0].url }}" alt="{{ image.title }}"/>
+                        {% endif %}
                     </picture>
                 </a>
 

@@ -4618,9 +4618,9 @@ story:
 - sys:
     id: 7pYCQNlkxln1QxndXVLuQw
     created_at: &19 !ruby/object:DateTime 2020-07-17 21:31:50.612000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-20 14:34:28.229000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-28 23:54:10.533000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -4633,42 +4633,91 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'Endorsement: Ecuadorian Journalists in the Health Emergency'
+  title: 'Endorsement: Ecuadorian Journalists in the Health Emergency '
   slug: endorsement-ecuadorian-journalists-in-the-health-emergency
-  body: "\nThe city of Guayaquil was the epicenter of the pandemic in Ecuador with
-    scenes of [caskets and bodies laid out](https://www.washingtonpost.com/world/the_americas/coronavirus-guayaquil-ecuador-bodies-corpses-streets/2020/04/03/79c786c8-7522-11ea-ad9b-254ec99993bc_story.html
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 1PwAmkuVJBwILQ6PSt4mKO
+        created_at: !ruby/object:DateTime 2020-07-28 23:42:49.821000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-29 00:41:39.043000000 Z
+      title: 'Image from the #SOSperiodistas (#SOSjournalists) campaign'
+      description: '"PRESS WORKERS NEED HELP," says this image in Spanish presenting
+        the campaign to support media workers during the pandemic. Image from the
+        Fundamedios website. '
+      url: "//images.ctfassets.net/g118h5yoccvd/1PwAmkuVJBwILQ6PSt4mKO/9efa3d73804dbee510982756c9eab143/Screen_Shot_2020-07-28_at_20.42.02.png"
+    description: '"PRESS WORKERS NEED HELP," says this image in Spanish presenting
+      the campaign to support media workers during the pandemic. Image from the Fundamedios
+      website. '
+    title: 'Image from the #SOSperiodistas (#SOSjournalists) campaign'
+    url: "//images.ctfassets.net/g118h5yoccvd/1PwAmkuVJBwILQ6PSt4mKO/9efa3d73804dbee510982756c9eab143/Screen_Shot_2020-07-28_at_20.42.02.png"
+  body: "The city of Guayaquil was the epicenter of the pandemic in Ecuador with scenes
+    of [caskets and bodies laid out](https://www.washingtonpost.com/world/the_americas/coronavirus-guayaquil-ecuador-bodies-corpses-streets/2020/04/03/79c786c8-7522-11ea-ad9b-254ec99993bc_story.html
     \"Bodies lie in the streets of Guayaquil, Ecuador, emerging epicenter of the coronavirus
     in Latin America\") and abandoned by their families on the streets moved by despair
     and lack of government infra-structure to handle the disease. It was the first
     country in  Latin America to showcase how emerging countries would look like when
     hit by COVID-19.\n\nMeedan supports the Ecuadorian journalism community statement
     demanding [better working](https://twitter.com/ChicasPoderEC/status/1249746048827957251)
-    conditions for journalists covering Covid-19 in Ecuador from media news outlets
+    conditions for journalists covering COVID-19 in Ecuador from media news outlets
     and the [Inter-institutional Committee for the Protection of Journalists and Communication
     Workers](https://www.fundamedios.org.ec/comite-periodistas-ecuador-emergencia-pandemia/
     \"Demandamos respuesta del Comité Interinstitucional para la Protección de Periodistas
-    frente a emergencia en Ecuador\"). \n\nIsabel Gonzales, from Chicas Poderosas
-    introduces in her article [\"The risks of covering the pandemic in Ecuador\"](https://medium.com/chicas-poderosas/los-riesgos-de-cubrir-la-pandemia-en-ecuador-fad831054013
+    frente a emergencia en Ecuador\"). \n\nIsabel Gonzales from Chicas Poderosas introduces
+    in her article [\"The risks of covering the pandemic in Ecuador\"](https://medium.com/chicas-poderosas/los-riesgos-de-cubrir-la-pandemia-en-ecuador-fad831054013
     \"The risks of covering the pandemic in Ecuador\") the devastating impact COVID-19
     is having in the journalism community in the country, resulting in 9 deaths, 16
     infections and 18 workers in cuarentine according to Fundamedios (data gathered
     in April). \n\n20 organizations such as Fundamedios, Nos Faltan Tres (We Are Missing
-    Three), Periodistas sin Cadenas, SOS Familias Guayaquil, and Chicas Poderosas
-    are united in this initiative and have also started a [solidarity campaign](https://www.fundamedios.org.ec/emergencia-pandemia-fundamedios-periodistas/
+    Three), Periodistas sin Cadenas (Journalists without Chains), SOS Familias Guayaquil,
+    and Chicas Poderosas are united in this initiative and have also started a [solidarity
+    campaign](https://www.fundamedios.org.ec/emergencia-pandemia-fundamedios-periodistas/
     \"Solidarity campaign for the journalists and their families\") to raise funds
     to help with the minimal expenses for food and medicine for those who are in the
-    worst conditions at the moment. \n\nMeedan thanks this initiative on it's fundamental
-    role in demanding better working conditions and life and the improvement of journalists
-    affected by the pandemic. We invite others working on the information ecosystem
-    to join us in supporting this initiative.\n"
+    worst conditions at the moment. At the time this post is published [500 media
+    workers (journalists, administration and print personel) have been laid off](https://www.fundamedios.org.ec/alertas/edison-despido-medios-publicos/)
+    because of the downsizing of the public media company of Ecuador.\n\nWithout official
+    data and knowing the labor risks that are implied in journalism work, Isabel Gonzalez
+    and the team from Chicas Poderosas Ecuador [conducted a community a survey](https://www.fes-ecuador.org/news-list/e/como-hacemos-periodismo-durante-la-pandemia/)
+    that sought to know the conditions of journalists covering Covid-19 in Ecuador.\n\nMeedan
+    thanks this initiative on its fundamental role in demanding better working conditions,
+    life and the improvement of journalists affected by the pandemic. We invite others
+    working on the information ecosystem to join us in supporting this initiative."
+  words_by:
+    en-US:
+    - sys:
+        id: 57swkb0x1YLvhHB31YFb3U
+        created_at: !ruby/object:DateTime 2020-03-24 00:41:40.973000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.056000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Isabella Barroso
+      staff:
+        en-US: true
+      role:
+        en-US: Program Manager, Latin America
+      location:
+        en-US: Brazil
   date: '2020-07-17'
-  title-en: 'Endorsement: Ecuadorian Journalists in the Health Emergency'
+  image: https://images.ctfassets.net/g118h5yoccvd/1PwAmkuVJBwILQ6PSt4mKO/9efa3d73804dbee510982756c9eab143/Screen_Shot_2020-07-28_at_20.42.02.png
+  title-en: 'Endorsement: Ecuadorian Journalists in the Health Emergency '
   alt_date: *19
   alt_date_string: '2020-07-17'
 - sys:
     id: 2OyCkY4x90BqvGy9RG4kN8
     created_at: &20 !ruby/object:DateTime 2020-07-18 20:08:51.154000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-21 22:47:33.723000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-06 18:13:03.625000000 Z
     content_type_id: story
     revision: 0
     space:
@@ -4703,6 +4752,18 @@ story:
         revision: 1
       title:
         en-US: COVID-19
+  lead_image:
+    en-US:
+      sys:
+        id: 591uU3S7qsOtaa1BD5aTe2
+        created_at: !ruby/object:DateTime 2020-08-06 18:12:57.248000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 18:12:57.248000000 Z
+      title: 
+      description: 
+      url: ''
+    description: 
+    title: 
+    url: ''
   body: "Early in the days of COVID-19, as it was just starting to leave the confines
     of East Asia, a number of people I know started calling the then-emergent pandemic
     a \"black swan event.\" This is a metaphor for something very rare and difficult
@@ -4817,6 +4878,786 @@ story:
       staff:
         en-US: false
   date: '2020-07-18'
+  image: 'https:'
   title-en: This pandemic isn’t a swan—it’s a canary
   alt_date: *20
   alt_date_string: '2020-07-18'
+- sys:
+    id: 7eInGgVDPjt1Ma95sdpG4A
+    created_at: !ruby/object:DateTime 2020-07-23 19:29:11.835000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-23 20:22:23.674000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Misinformation Research Highlights from ACL 2020
+  slug: misinformation-research-highlights-from-acl-2020
+  topic:
+    en-US:
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Research
+  lead_image:
+    en-US:
+      sys:
+        id: 75WJN70IIugDl4ZLvwaE2w
+        created_at: !ruby/object:DateTime 2020-07-23 19:29:45.030000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-23 20:08:25.813000000 Z
+      title: ACL 2020 Opening Remarks
+      description: 'Photos from the ACL 2020 Chairs'' Opening Remarks. From top left
+        to bottom right: Dan Jurafsky (General Chair), Joel Tetreault (Program Chair),
+        Natalie Schluter (Program Chair) and Joyce Chai (Program Chair).'
+      url: "//images.ctfassets.net/g118h5yoccvd/75WJN70IIugDl4ZLvwaE2w/68f287d2e5a17f0eb8285871ee3cbbef/Screenshot_from_2020-07-21_14-51-07-COLLAGE.jpg"
+    description: 'Photos from the ACL 2020 Chairs'' Opening Remarks. From top left
+      to bottom right: Dan Jurafsky (General Chair), Joel Tetreault (Program Chair),
+      Natalie Schluter (Program Chair) and Joyce Chai (Program Chair).'
+    title: ACL 2020 Opening Remarks
+    url: "//images.ctfassets.net/g118h5yoccvd/75WJN70IIugDl4ZLvwaE2w/68f287d2e5a17f0eb8285871ee3cbbef/Screenshot_from_2020-07-21_14-51-07-COLLAGE.jpg"
+  body: |-
+    The [2020 version of the Association of Computational Linguistics (ACL) conference](https://acl2020.org/), originally planned to take place in Seattle, happened virtually from July 5th to 10th. This year's ACL, which is among the top publication venues for natural language processing researchers around the world, set many records as it was the first ACL event to ever be held virtually and had record numbers in volunteers, participants (overall and across continents) and accepted papers.
+
+    ACL 2020 featured many papers addressing challenges in misinformation, fact-checking and computational journalism, with Microsoft Research Asia having three automated fact-checking papers in the main conference alone. Overall, most of these papers introduced new and important challenges to the community and some proposed new models to solve or improve on existing tasks. Throughout the rest of this blog post, I'll try to highlight some of these efforts.
+
+    ### Main Conference Papers
+
+    This year, there were a number of papers addressing misinformation and fact-checking from an NLP perspective. Here are some of the papers that caught my attention:
+
+    #### [That is a Known Lie: Detecting Previously Fact-Checked Claims](https://www.aclweb.org/anthology/2020.acl-main.332.pdf)
+
+    The paper by [Qatar Computing Research Institute](https://www.hbku.edu.qa/en/qcri/about) (QCRI) team led by [Preslav Nakov](https://www.hbku.edu.qa/en/staff/dr-preslav-nakov), addresses the claim matching problem which [has been of interest to Meedan](https://www.oii.ox.ac.uk/videos/countering-the-covid-19-misinfodemic-with-text-similarity-and-social-data-science/) and the fact-checking community. Technology is needed to meet the ever-increasing volume of claims coming in to fact-checkers around the globe. One important and effective solution to this problem is the detection of duplicate and previously fact-checked claims. This paper presents two claim-matching datasets and proposes a mix of information retrieval and text embedding based models as potential solutions for the claim-matching problem.
+
+    #### [Generating Fact Checking Explanations](https://www.aclweb.org/anthology/2020.acl-main.656.pdf)
+
+    Extracting supporting evidence from discussions around a claim is the premise of this paper by [Isabelle Augenstein](https://isabelleaugenstein.github.io/)'s group at the [University of Copenhagen](https://www.ku.dk/english/). Using a dataset of facts from Politifact, the authors derive explanations using a BERT-based sentence selection model for each fact-checked statement. They show that the extracted explanations can help automated fact-checking models improve on veracity prediction tasks by jointly learning to do both fact-checking and explanation extraction.
+
+    #### [DeSePtion: Dual Sequence Prediction and Adversarial Examples for Improved Fact-Checking](https://www.aclweb.org/anthology/2020.acl-main.761.pdf) 
+
+    Work by authors from [Columbia University](https://www.cs.columbia.edu/), [Facebook AI](https://ai.facebook.com/) and [George Washington University](https://www.cs.seas.gwu.edu/) provides resources and models for studying and understanding challenges in automated fact-checking. They address three types of challenges that confuse current automated fact-verification systems: multiple propositions (the need to synthesize evidence from various sources), temporal reasoning, and ambiguity and lexical variation. Their solutions largely use pointer networks, BERT and reinforcement learning algorithms. The code and resource of this extensive work is [publicly available](https://github.com/chridey/fever2-columbia).
+
+    #### [Masking Actor Information Leads to Fairer Political Claims Detection](https://www.aclweb.org/anthology/2020.acl-main.404.pdf)
+
+    This is a short paper on identifying political claims from text that proposes a method for increasing fairness to minority groups in these models. The simple but useful reference masking method presented by University of Stuttgart researchers on a German newspaper dataset shows claim-detection models can be fairer to minorities without significant performance drops.
+
+    #### [Prta: A System to Support the Analysis of Propaganda Techniques in the News](https://www.aclweb.org/anthology/2020.acl-demos.32.pdf)
+
+    This demonstration paper by QCRI won an honorable mention award in the demo category. The paper builds on top of their prior work on propaganda analysis and provides statistics on different propaganda techniques used in media outlets. You can also [submit](https://www.tanbih.org/prta) your propaganda of choice and see the ways it is trying to convince you.
+
+    For a more detailed picture of computational journalism research at ACL 2020, I also recommend looking at the following papers:
+
+    - MSR Asia [Papers](https://www.aclweb.org/anthology/2020.acl-main.655.pdf) on [Automated](https://www.aclweb.org/anthology/2020.acl-main.539.pdf)  [FactChecking](https://www.aclweb.org/anthology/2020.acl-main.549.pdf)
+    - [Understanding the Language of Political Agreement and Disagreement in Legislative Texts](https://www.aclweb.org/anthology/2020.acl-main.476.pdf)
+    - [NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg](https://www.aclweb.org/anthology/2020.acl-demos.40.pdf)
+    - ["Who said it, and Why?" Provenance for Natural Language Claims](https://www.aclweb.org/anthology/2020.acl-main.406.pdf)
+    - [DTCA: Decision Tree-based Co-Attention Networks for Explainable Claim Verification](https://www.aclweb.org/anthology/2020.acl-main.97.pdf)
+    - [GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media](https://www.aclweb.org/anthology/2020.acl-main.48/)
+
+    ### Workshops
+
+    Often mini-conferences of their own, workshops at ACL maintain high quality proceedings and hold fascinating invited talks. The line up for workshops this year included a variety of topics ranging from neural text generation and translation to educational applications and conversational AI. In the remainder of this post, I try to summarize the workshops I found interesting and relevant to computational journalism.
+
+    #### [FEVER Workshop](https://fever.ai/workshop.html)
+
+    The recent meeting of the workshop for fact extraction and verification included an excellent line-up of invited speakers and contributed work. This was the third edition of the excellent workshop organized by [Andreas Vlachos](https://andreasvlachos.github.io/), [James Thorne](https://jamesthorne.co.uk/), [Oana Cocarascu](https://www.doc.ic.ac.uk/~oc511/), [Christos Christodoulopoulos](http://christos-c.com/) and [Arpit Mittal](https://scholar.google.com/citations?user=fDORjGoAAAAJ&hl=en). The opening talk by [Isabelle Augenstein](https://isabelleaugenstein.github.io/) on the importance of explainable fact-checking first took a deep dive into extracting supporting evidence for fact veracity and then moved on to presenting work on claim understanding and what needs to be fact-checked. The overall sentiment within participants and speakers, as reiterated by [Yejin Choi](https://homes.cs.washington.edu/~yejin/), was that we need more evidence-based and explanatory approaches in FEVER. Among other fascinating talks, [Philip Resnik](http://www.umiacs.umd.edu/~resnik/) presented work on framing and how it affects our perception of news and facts. Through years of research on language framing, he portrayed that harmful content isn't always false information and sometimes more harm can be done with true information framed to serve a purpose. In his closing remarks, he called for a more "FEVER"ish approach to tackling our misinformation problems, meaning that we should go beyond labeling content fake or true and look at more complicated analyses of the phenomenon.
+
+    #### [NLP COVID-19 Workshop](https://www.nlpcovid19workshop.org/)
+
+    This ACL workshop was formed as a response to the COVID-19 pandemic in a short timeframe and contained many interesting peer-reviewed COVID-related papers, including research by NYU and University of Waterloo on [Rapidly Deploying a Neural Search Engine for the COVID-19 Open Research Dataset: Preliminary Thoughts and Lessons Learned](https://openreview.net/pdf?id=PlUA_mgGaPq). This system and paper provided a neural search engine for COVID-19 literature and is available at [covidex.ai](http://covidex.ai/). With the large number of submissions in such short timelines, the workshop deserves a closer look at its proceedings.
+
+    You can find the [full list of submitted papers here](https://openreview.net/group?id=aclweb.org/ACL/2020/Workshop/NLP-COVID).
+
+    ### Final Thoughts
+
+    With uncertainty caused by the pandemic and upcoming elections, it's both overwhelming and exciting to be involved in computational journalism research. It is refreshing to see the rapid community response to the pandemic and the evolution of computational misinformation research.
+
+    Presented research on misinformation and fact-checking at ACL 2020 seems to be moving away from "automatic" misinformation detection towards addressing specific questions more in demand of journalists and fact-checkers. Acknowledging that any potential solution to the current misinformation problems will require more than just "detection", the shift in focus in this year's papers portrays the NLP community's maturity in understanding the deeper, more important underlying requirements for a working solution. Meedan has long advocated for an approach that augments and empowers human fact-checkers and does not try to replace them, an orientation that is evident in our [open-source fact-checking software, Check](https://meedan.com/check). There are many ways that NLP can assist fact-checkers, and even papers at ACL not specifically about misinformation such as text similarity, summarization, and cross-lingual alignment are relevant to tasks fact-checkers need to perform.
+
+    This community growth could not have been possible without interdisciplinary collaborations and publication venues with journalism experts and researchers. As brought up both during and in their followup questionnaire, the FEVER workshop was interested in community feedback on future direction and next steps. Building on top of the fruitful interdisciplinary collaboration and the need for a future plan, now seems like a good time for a stronger NLP and journalism alliance in planning our next moves against information disorders.
+
+    ### Acknowledgements
+
+    I would like to thank my PhD advisor Dr. Rada Mihalcea for providing me with financial support to attend the conference. My appreciation also goes to my mentor and manager Dr. Scott Hale, Director of Research at Meedan, and other fellow Meedanis for supporting my attendance in the conference during my summer internship at Meedan.
+  words_by:
+    en-US:
+    - sys:
+        id: 7CBpK5YT4WAGbnE7Eq3BAL
+        created_at: !ruby/object:DateTime 2020-07-23 19:31:28.190000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-23 20:08:16.839000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Ashkan Kazemi
+      staff:
+        en-US: true
+      role:
+        en-US: NLP Research Intern
+      location:
+        en-US: Ann Arbor, MI, USA
+      bio:
+        en-US: '[Ashkan](https://www.ashkankazemi.ir "Ashkan''s personal website")
+          is a natural language processing (NLP) intern at Meedan, contributing to
+          research efforts in building fact-checking technology. He is also a PhD
+          candidate at University of Michigan''s department of Computer Science and
+          Engineering.'
+  alt_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
+  date: '2020-07-23'
+  image: https://images.ctfassets.net/g118h5yoccvd/75WJN70IIugDl4ZLvwaE2w/68f287d2e5a17f0eb8285871ee3cbbef/Screenshot_from_2020-07-21_14-51-07-COLLAGE.jpg
+  title-en: Misinformation Research Highlights from ACL 2020
+  alt_date_string: '2020-07-23'
+- sys:
+    id: 1RxTNJjApkdv7OvHSCTo70
+    created_at: !ruby/object:DateTime 2020-07-23 22:26:53.602000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-24 23:48:08.720000000 Z
+    content_type_id: story
+    revision: 6
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: When Misinformation Spreads Faster Than A Pandemic
+  slug: when-misinformation-spreads-faster-than-a-pandemic
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
+  lead_image:
+    en-US:
+      sys:
+        id: 24ehga8wO59zAd3uSRGQMg
+        created_at: !ruby/object:DateTime 2020-07-24 00:19:06.573000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-24 01:46:58.947000000 Z
+      title: Meedan covid19 misinfol
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/24ehga8wO59zAd3uSRGQMg/efd619227d2520f7d5d20dbd6a382f22/Meedan_covid19_misinfo.png"
+    description: 
+    title: Meedan covid19 misinfol
+    url: "//images.ctfassets.net/g118h5yoccvd/24ehga8wO59zAd3uSRGQMg/efd619227d2520f7d5d20dbd6a382f22/Meedan_covid19_misinfo.png"
+  body: "A few weeks ago, in a WhatsApp message group with family members, a forwarded
+    message showed up on my screen that read: “The COVID-19 plot thickens, please
+    do read.” \n \nIn India, where my family is from, it is typical for a day to begin
+    with five or more messages in different family or work WhatsApp groups. The messages
+    range from friendly updates and innocent gifs to threads pressuring you to forward
+    messages to nine people in order to avoid ill-fated planetary alignments.\n \nWhat
+    followed the COVID-19 message a few weeks ago was an elaborate thread containing
+    false claims about COVID-19 as a lab-made virus, intended to boost the sales of
+    Remdesivir and benefit Bill Gates and George Soros. The forwarded text falsely
+    claimed that the entire COVID-19 crisis is a well-orchestrated effort at the highest
+    levels by Gates, Soros, Obama, and Clinton to develop a COVID-19 vaccine, with
+    “the ultimate motivation of making billions of dollars in profits at the cost
+    of only losing a mere million human lives.” This particular conspiracy theory
+    was disseminated on Facebook in the United States, and quickly spread through
+    WhatsApp in India as well.\n \nIn the United States, journalists are battling
+    misinformation on open or partially open social platforms like Facebook and Twitter.
+    In India, as in other parts of the world, the problem may be trickier to catch—and
+    harder to prevent, because misinformation spreads predominantly in closed chat
+    groups on WhatsApp, away from the sights of content moderators and fact-checkers.
+    \ Blatant misinformation campaigns like the one I received recently are dangerous
+    under normal circumstances, and downright deadly in the midst of a pandemic. Misinformation
+    makes it harder for healthcare authorities to effectively communicate critical
+    health information to wider audiences.\n \nWhatsApp misinformation in India sows
+    distrust in healthcare institutions and encourages disregard for basic public
+    health advice. Often disguised as medical advice, doctored videos of a prominent
+    Indian doctor advising viewers not to get tested for coronavirus were circulated
+    over 5,000 times on Facebook and Twitter. False rumors have led to many Indian
+    doctors and frontline healthcare workers being evicted from their homes. This
+    is especially important in the Indian context, where unfiltered and inaccurate
+    information spreads rapidly on WhatsApp, and can quickly hamper efforts to trace,
+    isolate, and care for COVID cases. Healthcare workers attempting to stop the spread
+    of COVID-19 have been attacked by mobs across India as recently as April, and
+    misinformation has only exacerbated the violence.\n \nIn March 2020, one particular
+    message circulating on WhatsApp caught the attention of the Government of India’s
+    Press Information Bureau (PIB). The message falsely claimed that the Government
+    was spraying “CV vaccine gas inside the country, through airplanes.”\n \nThe official
+    Twitter account of PIB (@PIBFactCheck) responded by stating: “Amidst #Coronavirusoutbreak,
+    misinformation on CV Vaccine gas spread out through Airplanes is circulating on
+    social media. NO such action has been planned out by the Indian Government. Get
+    your facts from trusted sources. Do not amplify #fakenews!”\n \nAge-old rumors
+    about vaccine safety are now being tailored to COVID-19 audiences to promote vaccine
+    hesitancy, which could derail efforts not only for the eventual implementation
+    of a COVID-19 vaccine, but also for the continuation of routine vaccinations for
+    myriad other diseases.\n \nThe misinformation amid the pandemic is not limited
+    to vaccine hesitancy. In some  parts of India, the indigenous cow has been elevated
+    to new heights and questionable treatments, such as cow urine, have been marketed
+    as an effective remedy against the novel coronavirus. Such claims may have gained
+    legitimacy under the current Government, which created an open call for research
+    & development proposals that examine dubious pseudo-scientific treatments such
+    as “cowpathy” for “medicine and health” in February this year. In such circumstances,
+    it becomes even more difficult to distinguish science from pseudoscience in a
+    pandemic, especially as misinformation seems to travel even faster than COVID-19
+    in India.\n \nIn Mizoram, approximately 15 individuals were arrested for spreading
+    a fictitious and official-sounding directive from state officials, asking local
+    citizens from outside Mizoram to return home at once. Similar arrests have taken
+    place in Rajasthan, Odisha, and other Indian states. Successive state governments
+    have responded to misinformation by conducting mass arrests rather than tackling
+    the problem at its root by improving health communication in localized languages.\n
+    \nEffective health communication in a pandemic requires systematic investments
+    in health infrastructure and adequate training for academics and journalists.
+    Fortunately, many organizations are meeting this gap and providing resources and
+    responses to tackle such misinformation. Organizations such as SciLine, the International
+    Fact Checking Network (IFCN), and COVID Explained have developed several resources,
+    unpacking claims about COVID-19. While many such projects focus on general misinformation
+    related to COVID-19, there is an increased need for addressing vaccine misinformation
+    specifically, and to provide the context needed for individuals that speak a variety
+    of different languages, with varying health literacy levels.\n  \nThere is a paucity
+    of evidence-based information for journalists, fact-checkers and everyday WhatsApp
+    users to effectively unpack disingenuous claims, whether it be anti-vaccine propaganda
+    or the marketing of natural and herbal remedies as cures for the coronavirus.\n
+    \nIndia has detected 1.2 million cases and 30,000 deaths of COVID-19, according
+    to the Ministry of Health & Family Welfare. Given the difficulties around active
+    surveillance in India, experts believe the actual number could be even higher.
+    Even if official estimates are to be believed, however, the contagion of misinformation
+    threatens to derail existing efforts and present roadblocks to the development
+    of a future vaccine.\n \nIt is now more imperative than ever before to prioritize
+    effective health communication in order to tackle the scourge of misinformation,
+    especially as we double down on efforts to rein in the COVID-19 pandemic.\n \n*Mohit
+    Nair currently serves as Partnerships Director at FairVote Washington, a non-profit
+    organization based in Seattle, WA, and a consultant working with the Database
+    Implementation Team at Meedan. Previously, he worked with the Medecins Sans Frontieres
+    (MSF) Vienna Evaluation Unit and with MSF Operational Centre Barcelona in India.
+    He holds a Master of Public Health from the Harvard University T.H. Chan School
+    of Public Health and a Bachelor of Science from Cornell University.*\n\n*This
+    blog is part of a series on the impact of COVID-19 on population health and society,
+    written by contributors to the Meedan Digital Health Lab COVID-19 expert database.
+    The blog draws on public health expertise to provide broader context to themes
+    represented in more granular database entries as well as highlight connections
+    between them. To learn more about the database, see our list of experts, or to
+    ask a question to our team, please visit [the database website](https://learnaboutcovid19.org/).*"
+  words_by:
+    en-US:
+    - sys:
+        id: 4BsflHAQBlW6KrNVf6NWEW
+        created_at: !ruby/object:DateTime 2020-07-23 22:31:31.441000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-23 22:31:37.647000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Mohit Nair
+  alt_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
+  date: '2020-07-23'
+  image: https://images.ctfassets.net/g118h5yoccvd/24ehga8wO59zAd3uSRGQMg/efd619227d2520f7d5d20dbd6a382f22/Meedan_covid19_misinfo.png
+  title-en: When Misinformation Spreads Faster Than A Pandemic
+  alt_date_string: '2020-07-23'
+- sys:
+    id: 77XtZxUTMsilrHnbjbuVcW
+    created_at: !ruby/object:DateTime 2020-07-30 21:15:18.975000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-31 19:51:07.348000000 Z
+    content_type_id: story
+    revision: 8
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: In Calling for Equitable Information Access, Let’s Remember the Disability
+    Digital Divide
+  slug: in-calling-for-equitable-information-access-lets-remember-the-disability
+  lead_image:
+    en-US:
+      sys:
+        id: 6gBmnjbZSRLEd8udOyil0x
+        created_at: !ruby/object:DateTime 2020-07-31 19:49:48.572000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-31 19:50:56.862000000 Z
+      title: Screen Shot 2020-07-31 at 3.49.15 PM
+      description: 'Four disability symbols used by the U.S. National Park Service '
+      url: "//images.ctfassets.net/g118h5yoccvd/6gBmnjbZSRLEd8udOyil0x/b5177e50cc43529c614abfe3157c1a4c/Disability_symbols.svg"
+    description: 'Four disability symbols used by the U.S. National Park Service '
+    title: Screen Shot 2020-07-31 at 3.49.15 PM
+    url: "//images.ctfassets.net/g118h5yoccvd/6gBmnjbZSRLEd8udOyil0x/b5177e50cc43529c614abfe3157c1a4c/Disability_symbols.svg"
+  body: "Last week I was fortunate to receive corrective surgery on my disabled arm,
+    a remnant of an injury from over 9 months ago. When the COVID-19 pandemic hit,
+    changing all of our plans, it understandably delayed non-essential medical procedures
+    like the one I needed.\n \nJuly 2020 marks [30 years since the passage of the
+    Americans with Disabilities Act (ADA)](https://www.ada.gov/30th_anniversary/index.html).
+    Twelve years ago the [Convention on the Rights of Persons with Disabilities (CRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)
+    came into effect, which was the first United Nations (UN) human rights treaty
+    of the 21st century, and also the UN convention with the largest number of signatories
+    in history on its opening day.  \n\nAs I recover, I am reflecting on what these
+    mean for my friends and colleagues with disabilities, including disabilities that
+    are permanent or longer-term than my own. \n\nWe have made progress through high-level
+    decisions and cultural shifts. For example, plans for people with disabilities
+    are now included in the UN’s Sustainable Development Goals, the Paris Agreement
+    on Global Climate Change, the Sendai Framework for Disaster Risk Reduction, and
+    the Addis Ababa Action Agenda on Financing for Development. Yet there is much
+    more to do  – we still have not achieved universal access, and people with disabilities
+    are being disproportionately affected by the COVID-19 pandemic in multiple ways.\n\n-
+    People with disabilities are at a higher risk of severe symptoms and death from
+    COVID-19. A [study published in the *Disability and Health Journal*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245650/)
+    found that there is a higher COVID-19 fatality rate among people with intellectual
+    and developmental disabilities (IDD). The researchers also found a higher concentration
+    of COVID-19 cases at younger ages for people with IDD. Last month, the American
+    Civil Liberties Union (ACLU) shared [devastating statistics](https://www.aclu.org/news/disability-rights/covid-19-deaths-in-nursing-homes-are-not-unavoidable-they-are-the-result-of-deadly-discrimination/)
+    on the anniversary of the landmark U.S. Supreme Court decision in Olmstead v.
+    L.C., which recognized that unjustified segregation of people with disabilities
+    is a form of discrimination: Nearly 50% of COVID-19 deaths have been among people
+    living in nursing homes, psychiatric hospitals, and other congregate settings
+    for people with disabilities, while this population only makes up less than 1%
+    of the U.S. population. The ACLU warns us that these excess and inequitable deaths
+    are “not unavoidable – they are the result of deadly discrimination.”\n\n- People
+    with disabilities are also excluded as much of our world moves online during the
+    COVID-19 pandemic, impacting everything from education and employment to essential
+    services and social connection. There is [growing worldwide concern](https://unctad.org/en/pages/newsdetails.aspx?OriginalVersionID=2322)
+    about the digital divide, where many people still lack access to technologies
+    like computers and smartphones, not to mention affordable as well as reliable
+    internet and even electricity. The most affected tend to be [lower-income](https://www.pewresearch.org/fact-tank/2019/05/07/digital-divide-persists-even-as-lower-income-americans-make-gains-in-tech-adoption/),
+    [older generations](https://www.nytimes.com/2020/03/27/technology/virus-older-generation-digital-divide.html),
+    [racial and ethnic minorities](https://www.pewresearch.org/fact-tank/2019/08/20/smartphones-help-blacks-hispanics-bridge-some-but-not-all-digital-gaps-with-whites/),
+    [sexual and gender minorities](https://www.ohchr.org/Documents/Issues/Women/WRGS/GenderDigital/HRBDT_submission.pdf),
+    and [people with disabilities](https://www.pewresearch.org/fact-tank/2017/04/07/disabled-americans-are-less-likely-to-use-technology/),
+    with many intersectionalities. Exacerbating this, people with disabilities can
+    face additional barriers, such as:\n\n\n1.   Increased risks of online harassment
+    and discrimination\n\n2.   Lack of adaptations for limited abilities to see, hear,
+    and understand content\n\n3.  Lack of adaptations for limited physical abilities
+    to use devices (ex.    following my injury, I learned to type using one hand supplemented
+    with voice recognition software)\n\nIt is more crucial than ever to mitigate barriers
+    like these during a pandemic, where online access to quality information and essential
+    activities can directly influence health outcomes.\n\nHere at Meedan, the Digital
+    Health Lab is working to address “viral misinformation that facilitates the spread
+    of a particular health outcome or disease,” also called a “misinfodemic,” by increasing
+    access to expert-sourced information about COVID-19. \n\nMeedan’s efforts to increase
+    access include avoiding jargon to make information readable by the general public,
+    providing a glossary with simplified definitions of scientific terms, translating
+    information for non-English speakers, and disseminating information across diverse
+    media channels. In this process, we cannot forget to include people with disabilities.
+    Leaving out people with disabilities means hurting a significant proportion of
+    humanity: The World Health Organization (WHO) [estimates that over 1 billion](https://www.who.int/news-room/fact-sheets/detail/disability-and-health)
+    people experience some form of disability. Additionally, the ADA and CRPD require
+    making online content, services, and systems accessible to people with disabilities.\n\nEquality
+    under the law does not automatically translate to equity in everyday practice.
+    We have to do the hard work of building the inclusive world we’d like to see,
+    and we need to continuously work on addressing ableism and centering disability
+    justice. Meedan’s Digital Health Lab is striving to increase access to COVID-19
+    information for all, including people with disabilities, and we invite you to
+    join us.\n\nResources:\n\n[ADA Best Practices Chapter 5 Website Accessibility](https://www.ada.gov/pcatoolkit/chap5toolkit.htm)\n[Federal
+    Social Media Accessibility Toolkit Hackpad](https://digital.gov/resources/federal-social-media-accessibility-toolkit-hackpad/)\n[W3C
+    Accessibility Standards Overview](https://www.w3.org/WAI/standards-guidelines/)\n
+    \n*Dr. Jessica Huang currently serves as a Pandemic Response and Recovery Fellow
+    with the Bloomberg City Leadership Initiative at Harvard University’s John F.
+    Kennedy School of Government, while working as a consultant for the COVID-19 Expert
+    Database with Meedan’s Digital Health Lab. She is grateful to be part of the Boston
+    Inclusion Community convened by Partners for Youth with Disabilities. Previously,
+    she was an instructor with the Massachusetts Institute of Technology’s D-Lab,
+    where she collaborated on design projects in sustainable development, global health
+    and humanitarian innovation across five continents. She holds a Doctorate of Public
+    Health from Harvard University’s T.H. Chan School of Public Health, and a Master’s
+    in Learning, Design and Technology from Stanford University.*\n \n"
+  words_by:
+    en-US:
+    - sys:
+        id: 4EUKpNMRSgKZSSTJCyJxSW
+        created_at: !ruby/object:DateTime 2020-07-30 21:27:30.965000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-30 21:27:46.872000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Dr. Jessica Huang
+      staff:
+        en-US: false
+  alt_date: !ruby/object:DateTime 2020-07-30 00:00:00.000000000 Z
+  date: '2020-07-30'
+  image: https://images.ctfassets.net/g118h5yoccvd/6gBmnjbZSRLEd8udOyil0x/b5177e50cc43529c614abfe3157c1a4c/Disability_symbols.svg
+  title-en: In Calling for Equitable Information Access, Let’s Remember the Disability
+    Digital Divide
+  alt_date_string: '2020-07-30'
+- sys:
+    id: 1yxbPy2yG6pcuiyVxbEwvk
+    created_at: !ruby/object:DateTime 2020-08-04 19:39:28.085000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-06 05:31:59.948000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Missing information, not just misinformation, is part of the problem
+  slug: missing-information-not-just-misinformation-is-part-of-the-problem
+  topic:
+    en-US:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
+  lead_image:
+    en-US:
+      sys:
+        id: ibCBC7OBTotrdOgEn7qux
+        created_at: !ruby/object:DateTime 2020-08-04 19:43:11.394000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-05 22:59:08.256000000 Z
+      title: CC-BY Alexander von Halem
+      description: CC-BY Alexander von Halem
+      url: "//images.ctfassets.net/g118h5yoccvd/ibCBC7OBTotrdOgEn7qux/3ce5e93e765849a3acb553a640b2c969/8187244403_fca0d48f19_o.jpg"
+    description: CC-BY Alexander von Halem
+    title: CC-BY Alexander von Halem
+    url: "//images.ctfassets.net/g118h5yoccvd/ibCBC7OBTotrdOgEn7qux/3ce5e93e765849a3acb553a640b2c969/8187244403_fca0d48f19_o.jpg"
+  body: |-
+    As the world slowly starts to open up (or not), we've entered a new pandemic stage: confusion. Where once the most solid advice was simply to stay indoors and avoid others, we seem to be encountering a panoply of recommendations. Wash your hands. Masks aren't needed. Wear a mask. Stay six feet away. Actually, it might be airborne, so stay outside too. Take a test. Don't take a test, because supplies are limited.
+
+    In the world of public health, this liminal stage we find ourselves in --- moving past lockdown but nowhere near reaching either a social or medical endpoint to the pandemic --- is often the most dangerous for a disease's spread. In 1918, the city of San Francisco had the fewest reported cases of Spanish Flu in the country thanks to strict social distancing practices. The city and the people declared victory, emerged from lockdown, and returned to normal life. By the end of the year, the city had one of the worst infection and mortality rates in the US, [with 45,000 cases and more than 3,000 deaths](https://www.nbcnews.com/politics/politics-news/san-francisco-had-1918-flu-under-control-then-it-lifted-n1191141).
+
+    In the world of information trust, this liminal stage presents another threat: epistemic ambiguity. The usual model for misleading information is two fold: there's misinformation --- false information spread unintentionally --- and disinformation --- false information spread with the intent of harm. We've certainly seen this with COVID-19. [Misinfodemics](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/), the spread of false information that exacerbates the spread of disease, have erupted around [drinking bleach](https://arstechnica.com/science/2020/06/americans-are-drinking-bleach-and-dunking-food-in-it-to-prevent-covid-19/) or [methanol](https://www.aljazeera.com/news/2020/04/iran-700-dead-drinking-alcohol-cure-coronavirus-200427163529629.html), having immunity [based on race](https://www.bloomberg.com/news/articles/2020-03-14/no-black-people-aren-t-immune-to-covid-19), and countless other bits of misinformation, leading to hospitalizations and even deaths.
+
+    From a fact-checking perspective, this is relatively straightforward. Health professionals *know* bleach and methanol don't cure COVID-19. But the problem is in the murky areas, when fact-checking is being done in good faith but the extant body of knowledge is limited and evolving.
+
+    Take an example from this summer. In June, an official from the World Health Organization COVID-19 [caused significant public confusion](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/) by saying that asymptomatic spread of novel coronavirus is rare. [As Poynter's Al Tompkins wrote](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/), this statement could "light new fires among people who believe the entire COVID-19 pandemic has been overblown and that there was no need for stay-at-home orders that keep seemingly healthy people at home." The next day, the WHO issued a clarification: the researcher was referring to emergent data from a small set of studies.
+
+    So much more is being learned about the virus. We don't know right now if [people can be reinfected or not](https://learnaboutcovid19.org/questions/can-someone-get-reinfected-and-get-covid-19-a-second-time/#undefined). Experts are debating whether [there's airborne transmission](https://www.nature.com/articles/d41586-020-02058-1). We're still learning about [the role of vitamins](https://learnaboutcovid19.org/questions/does-vitamin-d-help-prevent-or-treat-covid-19/). And it's not just that we don't know --- it's that no one knows. Science hasn't caught up yet. Do we wear a mask or not wear a mask? It's obvious now that we should, but just a few months ago, even respected bodies like the WHO and CDC were [offering conflicting advice](https://abcnews.go.com/Health/cdc-offer-conflicting-advice-masks-expert-tells-us/story?id=70958380).
+
+    It turns out that the framework of mis- and disinformation has a basic assumption that doesn't always apply in the case of COVID-19: the idea that there might be a ground truth, somewhere, at some point, that someone might have in some situation. [As I've written before](https://www.niemanlab.org/2018/12/the-death-of-consensus-not-the-death-of-truth/), the process of consensus-making requires a negotiation of truth through trusted parties and sources (and therefore subject to the rules of trust, emotion and relatability).
+
+    But what if the information we're trying to discuss isn't known by anyone?
+
+
+    ## Midinformation: When knowledge stands in the middle, what do we do?
+
+    In the case of emerging knowledge, it might be helpful to think not just about misinformation but *mid*information. We know a little now, we'll know more later, and we may never know everything ever. In other words, information stands in the middle, and we're trying. Scientists are gaining some clarity, but it's going to take some time for scientific consensus to build, and for public understanding to catch up.
+
+    Midinformation, in other words, is the sort of information crisis that happens when not all the facts are known. In that vacuum of knowledge, all kinds of rumors, conspiracies, misunderstandings and misconceptions can emerge, because it's comforting to have an anchor that feels true and reliable.
+
+    **We might define midinformation as informational ambiguity based on scant or conflicting evidence, often about emerging scientific knowledge.** And the COVID-19 pandemic is rife with it. The usual media literacy course teaches basic things: vet your sources, look for corroborating evidence, [read laterally](https://webliteracy.pressbooks.com/chapter/what-reading-laterally-means/). But the phenomenon of midinformation requires new skills, for journalists, educators and all of us.
+
+    Here are some:
+
+    ### __Take a breather.__
+
+    This one's obvious, but in an attention economy, it's harder and harder to resist checking the news. Doomscrolling, as [WIRED writer Angela Watercutter](https://www.wired.com/story/stop-doomscrolling/) has pointed out, makes us *feel* better prepared for what's going on, but it might actually be hurting us.
+
+    > Right now, people are living at a time with no easy solutions, a moment with a lot of conflicting "facts" in a rapidly changing landscape. According to Nicole Ellison, who studies communication and social media at the University of Michigan's School of Information, that means there's a "lot of demand on cognitive processing to make sense of this. There's no overarching narrative that helps us." That, she adds, only compounds the stress and anxiety they're already feeling.
+
+    Watercutter points out that COVID-19 isn't a sprint; it's a marathon. We have to take care of our mental health, recognize when our attention to the news might be destructive, and to remember that resolution to the pandemic will take time, at the scale of years, not months or weeks. To curb my own doomscrolling habit, I've been reading books and putting my phone away before going to bed.
+
+    ### __We're doing science in public --- help people understand that.__
+
+    The experience of the WHO researcher reflects a reality for every public health researcher: there's often no data, and when there is data, it's not validated or vetted, and it might even be in conflict with other studies. The scientific method demands replicability of results, but this process can take months, if not years, far slower than a typical news cycle and certainly much slower than the lightning speed of viral media. "We're six months into a pandemic," she said in her public clarification. "There's a huge amount of research that is being done, but we don't have that full picture yet."
+
+    <p class="u-responsive-ratio">
+    <iframe class="youtube" src="https://www.youtube.com/embed/q89IUdracnw?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+    <p class="caption">Book Talk and Webinar: Keep Calm and Log On with author Gus Andrews</p>
+
+    In a recent conversation I had [with author Gus Andrews](https://www.keepcalmlogon.com/about-author-gillian-gus-andrews), I asked her about how we deal this. Because of significant scientific advances in the fields of physics, chemistry and astronomy, we're used to the idea of scientific consensus on key topics.
+
+    But this is a novel coronavirus, and we're doing science in public now, she said. That means heated debates, scant data, papers that haven't been subject to peer review, and all kinds of conversations usually limited to experts but now exposed to the public by the pandemic given the enormous interest in the topic. It's vital that we help each other along in understanding what a lack of scientific consensus looks like, and [how to navigate the waters of an infodemic](https://www.yalemedicine.org/stories/covid-19-infodemic/).
+
+    And remember to focus on what we do know: stay at home as much as possible, wear a mask if you go out, etc. It's important that we not let the inevitable confusion that arises from midinformation to in turn foster information nihilism.
+
+    ### __Bring audiences along on the journey.__
+
+    Here's what Gus had to say: "I wonder if we can give more people the feeling that they're part of the evolving discussion by encouraging them to keep listening and educating themselves on the latest narratives. Which maybe even unfolds like a podcast or other series, where there's value and a feeling of safety in becoming part of the community that keeps engaging. We're all learning, together, and we become stronger by doing so."
+
+    On the technical side, it's important to ensure our databases are updated regularly to ensure search results remain relevant not just by content but by time, that we have clear flags for emerging information that may change later by context or time, and that time stamps are clear and accurate. The [COVID-19 Expert Database team](https://learnaboutcovid19.org/) work regularly to ensure everything is up to date, circling back on key topics as the science evolves.
+
+    ### __Embrace ambiguity. It's what we've got.__
+
+    Medical doctors have a lot of perspective to offer during times of ambiguous and confusing situations. Many of us have personally received word from a doctor about a health condition that our doctor is still learning about, from a broken bone to cancer. Doctors have perfected the art of expressing uncertainty in a time when people seek certainty. Most cancer diagnoses come with caveats, qualifications and "we simply don't know."
+
+    Saying "I dont' know," as medical journalist Seema Yasmin regularly points out, is an important way for doctors to build trust. Somewhere between information nihilism and a blanket trust in unverified facts comes the harsh reality: we as a society have to accept and live with ambiguity for a significant amount of time. "We don't know yet, but check back in," is a tough pill to swallow, but it's the closest thing we have to truth right now for a lot of aspects of this disease, and it opens up audiences for an invitation to keeping checking in as we learn more.
+  words_by:
+    en-US:
+    - sys:
+        id: 3LwmNUnWdLGIZbvPisgSL5
+        created_at: !ruby/object:DateTime 2020-05-12 17:16:35.911000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-12 17:17:35.131000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: An Xiao Mina
+      staff:
+        en-US: false
+  alt_date: !ruby/object:DateTime 2020-08-05 00:00:00.000000000 Z
+  date: '2020-08-04'
+  image: https://images.ctfassets.net/g118h5yoccvd/ibCBC7OBTotrdOgEn7qux/3ce5e93e765849a3acb553a640b2c969/8187244403_fca0d48f19_o.jpg
+  title-en: Missing information, not just misinformation, is part of the problem
+  alt_date_string: '2020-08-05'
+- sys:
+    id: 1j7pukiiIJLqM6BkVPEjes
+    created_at: !ruby/object:DateTime 2020-08-06 16:10:13.557000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-07 20:46:00.685000000 Z
+    content_type_id: story
+    revision: 16
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Training the next generation of journalists to field dangerous claims
+  slug: training-the-next-workforce-to-field-dangerous-claims
+  topic:
+    en-US:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+        created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Training
+  lead_image:
+    en-US:
+      sys:
+        id: 1qRNXY3kCrIJ47gtGnGtsn
+        created_at: !ruby/object:DateTime 2020-08-06 19:16:16.345000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 19:19:18.822000000 Z
+      title: Training the next workforce to field dangerous claims
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1qRNXY3kCrIJ47gtGnGtsn/77514c4b0bfdc694983edb17e2039e20/meedan_blog_training.png"
+    description: 
+    title: Training the next workforce to field dangerous claims
+    url: "//images.ctfassets.net/g118h5yoccvd/1qRNXY3kCrIJ47gtGnGtsn/77514c4b0bfdc694983edb17e2039e20/meedan_blog_training.png"
+  body: "In the 1300s during the Black Plague, before scientists could diagnose the
+    cause of the disease (a bacterium now called Yersinia pestis), [religious cures,
+    potions and bloodletting](https://www.ancient.eu/article/1540/medieval-cures-for-the-black-death/)
+    filled anxiety-inducing gaps in information that contemporary medical knowledge
+    could not. Generations later, during the Spanish Flu, before its true biology
+    was discovered, even[ many scientists](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2118275/)
+    believed wrongly that the disease came from the same bacterium that caused illnesses
+    like anthrax, cholera, and plague. Today, in the throes of this pandemic, we see
+    similar misinformation surrounding COVID-19 treatments, cures and preventions,
+    all spreading across the internet before they’ve been verified or refuted by good
+    science. \n\nIn each of these cases, the need or desire to know a truth outpaces
+    the discovery of that truth *(\"How much should we be testing? How did the virus
+    spread? What are the symptoms? What are the cures?\")*. So people make stuff up.
+    They latch onto theories, maybe because bad information and hasty news is more
+    comforting than no information at all. It's a problem we might call [“midinformation,\"](https://meedan.com/blog/missing-information-not-just-misinformation-is-part-of-the-problem/),
+    or informational ambiguity based on scant or conflicting evidence, often about
+    emerging scientific knowledge.\n\nThere is a growing global need for a generation
+    of journalists who can help the public root through the noise of the internet
+    and get to the bottom of the chaos. More than just a baseline need for journalism
+    and high quality reporting (which is equally critical and proactive), the failures
+    of governments, platforms and information leaders during COVID-19, coupled with
+    the public's growing skepticism of science, call for more of us to be able to
+    spot midinformation and misinformation, discern its different manifestations,
+    debunk claims online, and spread the message. We are hoping to address these challenges
+    through Check U, a new vertical at Meedan that trains university students to spot
+    and verify misleading information. \n\nThis is important now more than ever. Waning
+    public trust in authorities, coupled with an evolving disease in which research
+    and science changes daily, is predictably sowing confusion, and opening gaps for
+    bad actors to manipulate online narratives. We’re seeing this virtually everywhere.
+    \n\n- In the Philippines, top leaders [spread misinformation](https://verafiles.org/articles/vera-files-fact-check-manila-vice-mayor-lacuna-demos-wrong-w)
+    about how to properly wear masks in public\n\n- In India, health misinformation
+    is [intertwined](https://meedan.com/reports/coronavirus-misinformation-in-india-is-not-limited-to-health-misinformation/)
+    with existing divided narratives between Hindus and Muslims and people are confused
+    by false information about ayurvedic “cures”\n\n- Governments around the world[
+    are not communicating health information](https://www.coe.int/en/web/portal/covid-19-minority-languages)
+    in minority languages\n\n- In Tribal regions in the United States and Canada,
+    government guidelines are [widely out of touch](https://www.hrw.org/news/2020/06/09/systemic-inequities-increase-covid-19-risk-indigenous-people-canada)
+    with the reality of indigenous, community-centered living\n\nThe gaps are slightly
+    different in every region, but the trend is observable across language, demographics
+    and other divides: people are in need of high quality health information, not
+    just because of the general and obvious importance of being able to discern what’s
+    true from what’s false, but because knowing things about health [leads to doing
+    things about health](https://www.tandfonline.com/doi/abs/10.1080/10810730.2013.768727).
+    Literally. Knowing the ground truth about vaccine safety [can lead to](https://www.sciencedirect.com/science/article/pii/S0264410X1500506X)
+    getting vaccinated. Knowing the public health benefits of mask wearing [has been
+    shown](https://www.clevelandfed.org/en/newsroom-and-events/publications/economic-commentary/2020-economic-commentaries/ec-202020-survey-results-on-mask-wearing-behaviors-and-beliefs.aspx)
+    to contribute to people wearing masks. If your information is wrong, unrealistic,
+    misleading, or inaccessible because of language or literacy, then the things you’ll
+    do with that information (or lack thereof it) [may be](https://www.healthypeople.gov/2020/topics-objectives/topic/social-determinants-health/interventions-resources/health-literacy)
+    incorrect and unsafe. Conspiracy theories about vaccination lead people I know
+    not only to not vaccinate, but to also spread those conspiracy theories so that
+    others don’t vaccinate either.\n\nThrough [Credibility Coalition](https://credibilitycoalition.org/credcatalog/),
+    our joint program with Hacks/Hackers, we’re launching a Google News Initiative-supported
+    series of Fall 2020 training programs in which students from Germany, Yemen, Syria,
+    Cairo, the United States and other places learn critical debunking skills amid
+    a century-defining pandemic. All together, we’ll be training more than 1,100 students
+    from 14 universities. To this end, we’re doing the following:\n\n- Developing
+    a syllabus with Syracuse University’s [Jennifer Grygiel](https://newhouse.syr.edu/faculty-staff/jennifer-grygiel)
+    \n\n- Walking students through sourcing, screening, categorizing and debunking
+    claims\n\n- Using [Check](https://meedan.com/check), Meedan’s online verification
+    tool, as a collaborative education platform on which to train and evaluate students
+    \n\nToday’s online environment exacerbates the spread of all forms of misleading
+    content by amplifying false or understudied theories, leading to poor health outcomes
+    worldwide. The internet's decentralization of information, and ensuing decentralization
+    of information authority triggers a big chunk of the spread of what's now known
+    as [misinfodemics](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/).
+    It also calls for solutions that are as powerful and scaleable as the problem
+    itself.\n\nThis is just the beginning of our efforts to educate professionals
+    and students about responsible ways to debunk claims related to topics as critical
+    as our own health and well-being. It builds off many years of Meedan experience
+    in this realm, from our initial collaboration with the University of Hong Kong’s
+    Cyber Verification Lab to UC Berkeley’s Human Rights Center to our ONA Challenge
+    Grant project with the University of Nevada Reno’s Reynolds School of Journalism.
+    These lessons have taught us that the act of fact-checking and verification is
+    one of the best tools for learning about these processes, and we’re excited to
+    formalize this at a new level."
+  words_by:
+    en-US:
+    - sys:
+        id: 5duhLnruShUUo31a7TR4vd
+        created_at: !ruby/object:DateTime 2020-08-06 19:17:03.040000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 19:17:12.913000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Megan Marrelli
+      staff:
+        en-US: true
+  alt_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
+  date: '2020-08-06'
+  image: https://images.ctfassets.net/g118h5yoccvd/1qRNXY3kCrIJ47gtGnGtsn/77514c4b0bfdc694983edb17e2039e20/meedan_blog_training.png
+  title-en: Training the next generation of journalists to field dangerous claims
+  alt_date_string: '2020-08-10'
+- sys:
+    id: 2uGeBfzRSJYn8qx2lzzQis
+    created_at: !ruby/object:DateTime 2020-08-06 17:38:46.782000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-06 20:44:53.121000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'World Breastfeeding Week 2020: Supporting Moms, Protecting Babies, and Preventing
+    Misinformation'
+  slug: world-breastfeeding-week-2020-supporting-moms-protecting-babies-and
+  lead_image:
+    en-US:
+      sys:
+        id: 7cOrfWoPgbhOJOcA80mkx7
+        created_at: !ruby/object:DateTime 2020-08-06 20:42:54.689000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 22:10:58.798000000 Z
+      title: Breastfeeding-icon-med
+      description: Universal Breastfeeding Symbol by Fiona M. Jardine is licensed
+        under a Creative Commons Attribution-Non Commercial 4.0 International License
+      url: "//images.ctfassets.net/g118h5yoccvd/7cOrfWoPgbhOJOcA80mkx7/3540eae5f9a3fb33235e03e7962936b8/unibfsymbolblue"
+    description: Universal Breastfeeding Symbol by Fiona M. Jardine is licensed under
+      a Creative Commons Attribution-Non Commercial 4.0 International License
+    title: Breastfeeding-icon-med
+    url: "//images.ctfassets.net/g118h5yoccvd/7cOrfWoPgbhOJOcA80mkx7/3540eae5f9a3fb33235e03e7962936b8/unibfsymbolblue"
+  body: "Breastfeeding promotes early childhood cognitive development, prevents young
+    child infections including pneumonia and diarrhea, and improves mental and physical
+    health in mothers. That’s why each year during the first week of August, [World
+    Breastfeeding Week](https://worldbreastfeedingweek.org) is celebrated to raise
+    awareness and promote breastfeeding as the best source of nutrition for most babies.
+    \n\nGeneral breastfeeding guidance from the World Health Organization (WHO) and
+    other leading health authorities includes breastfeeding for the first six months
+    of life all the way to two years of age and beyond.\n\nUnfortunately, misinformation
+    about breastfeeding is widespread. Claims often center around:\n\n- Foods breastfeeding
+    mothers should or should not eat (In general, [breastfeeding moms](https://www.cdc.gov/breastfeeding/breastfeeding-special-circumstances/diet-and-micronutrients/maternal-diet.html)
+    should eat a varied diet and don’t need to include or avoid specific foods except
+    for some seafood that may be high in mercury.)\n\n- If exercise changes the taste
+    of breastmilk ([Exercise](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding)
+    is healthy and has not been shown to change the taste of breastmilk.)\n\n- Whether
+    negative emotions affect breastmilk quality (Breastmilk quality [doesn’t change](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding)
+    based on mom’s emotions.)\n\n- Whether it is okay for a mother to breastfeed if
+    she is ill ([In most cases](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding),
+    moms should continue to breastfeed even when they’re ill because breastmilk passes
+    on immune defense to the baby, but there are some exceptions so always check with
+    your or your baby’s doctor.)\n \nExacerbating the issue, early in the coronavirus
+    pandemic incomplete scientific consensus and confusion resulted in brand new types
+    of breastfeeding [misinformation](https://www.iol.co.za/lifestyle/family/baby/covid-19-moms-and-breastfeeding-separating-facts-from-fiction-add70b6c-9821-4471-8297-67e69947c5b1).
+    Because little was known about the virus, many feared that the virus would spread
+    from mothers to their infants through [breastmilk](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
+    and those concerns were shared widely in online communities. \n\nOffline challenges
+    of COVID-19 have also taken hold. Lockdown limits access to pre- and postnatal
+    lactation support [services](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(20)30327-2/fulltext)
+    leaving mothers vulnerable to online or familial misinformation in the absence
+    of professional breastfeeding support. Some women have been [advised](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7036629/)
+    by doctors not to breastfeed or to stop breastfeeding. \n\nIn some cases, babies
+    [were](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(20)30327-2/fulltext)
+    separated from mothers in hospitals, a practice known to make establishing breastfeeding
+    [difficult](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/pregnancy-breastfeeding.html),
+    decrease breastfeeding [success](https://trends.hms.harvard.edu/2020/03/31/covid-19-separating-infected-mothers-from-newborns-weighing-the-risks-and-benefits/),
+    inhibit [early bonding](https://pubmed.ncbi.nlm.nih.gov/27885658/) and attachment,
+    and [negatively impact maternal mental health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4842365/).
+    Finally, some reports have also suggested that formula companies began further
+    undermining breastfeeding messages by promoting formula as safer than breastmilk
+    during the pandemic.\n \nNow, eight months into the pandemic, we have improved
+    understanding and data, so breastfeeding recommendations for mothers infected
+    with COVID-19 are clearer. Despite misinformation, while studies of breastmilk
+    and breastfeeding are ongoing, current research shows that the risk of an infant
+    becoming infected with COVID-19 through breast milk is low. \nThe WHO [suggests](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
+    that “at this point, it appears that COVID-19 in infants and children represents
+    a much lower threat to survival and health than other infections that breastfeeding
+    is protective against.” Meanwhile the threat of poor health outcomes as a result
+    of not breastfeeding is [particularly true](https://www.bfmed.org/assets/DOCUMENTS/abm-position-breastfeeding.pdf)
+    in areas where access to clean water and medical care are limited.\n \nFor those
+    on the front lines who are supporting moms and babies everyday, providing encouragement,
+    addressing misinformation, and empowering mothers to make well-informed feeding
+    decisions, are a huge part of providing high-quality care. While babies are not
+    immune from contracting COVID-19, based on the current evidence the WHO advises
+    that even with suspected or confirmed maternal COVID-19, breastfeeding is recommended
+    for infants and young children. The U.S. Centers for Disease Control and Prevention
+    further advise mothers to further discuss breastfeeding with their healthcare
+    providers.\n \nResources:\n[World Alliance for Breastfeeding. 2020. ](https://waba.org.my)https://waba.org.my
+    \n\n[World Health Organization. Breastfeeding and COVID-19. June 2020.](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
+    https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19\n
+    \nWorld Health Organization. Pregnancy, Childbirth, Breastfeeding and COVID-19.
+    2020. [https://www.who.int/reproductivehealth/publications/emergencies/COVID-19-pregnancy-ipc-breastfeeding-infographics/en/](https://www.who.int/reproductivehealth/publications/emergencies/COVID-19-pregnancy-ipc-breastfeeding-infographics/en/)\n"
+  words_by:
+    en-US:
+    - sys:
+        id: 4MK93CSrpmc3tFyE5MYEeh
+        created_at: !ruby/object:DateTime 2020-08-06 17:41:56.490000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 17:42:09.070000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Emily LaRose
+      staff:
+        en-US: false
+  alt_date: !ruby/object:DateTime 2020-08-06 00:00:00.000000000 Z
+  date: '2020-08-06'
+  image: https://images.ctfassets.net/g118h5yoccvd/7cOrfWoPgbhOJOcA80mkx7/3540eae5f9a3fb33235e03e7962936b8/unibfsymbolblue
+  title-en: 'World Breastfeeding Week 2020: Supporting Moms, Protecting Babies, and
+    Preventing Misinformation'
+  alt_date_string: '2020-08-06'
