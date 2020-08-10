@@ -3,115 +3,133 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-22 20:00:37.725000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-10 21:16:33.741000000 Z
     content_type_id: moduleEvents
-    revision: 27
+    revision: 36
   title: Upcoming Events
   events:
   - sys:
-      id: 7eKsdJMPiajC771QBSSjQH
-      created_at: !ruby/object:DateTime 2020-07-07 21:45:03.134000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-22 21:31:44.637000000 Z
+      id: 1OJsbxLjUieBF80RqPgy3U
+      created_at: !ruby/object:DateTime 2020-08-09 14:36:57.335000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-10 20:15:43.005000000 Z
       content_type_id: event
-      revision: 6
-    title: 'Book Talk and Webinar: Keep Calm and Log On with author Gus Andrews'
-    event_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
+      revision: 5
+    title: Misinfodemia on COVID-19 and women with Dr. Roopan Gill
+    event_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
+    time: |-
+      - *Los Angeles* 12:00 pm
+      - *New York* 3:00pm
+      - *São Paulo* 3:00pm
+      - *London* 8:00 pm
+      - *Nairobi* 10:00 pm
+      - *New Delhi* 12:30am (+1)
+      - *Manila* 2:30am (+1)
+    images:
+    - sys:
+        id: 4dleBNn9M44Ny3Qj19OVTS
+        created_at: !ruby/object:DateTime 2020-07-16 18:49:25.000000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-16 18:51:45.277000000 Z
+      title: Misinfodemia on IG Live
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4dleBNn9M44Ny3Qj19OVTS/821599e1f9d7f1663a66e75339df6dcc/meedan_iglive_july-9_01.png"
+    long_description: "Join Dr. Seema Yasmin in conversation with Dr. Roopan Gill.
+      This episode of Misinfodemia is going to touch on COVID-19's specific impact
+      on women around the world. Dr. Gill is a clinician-researcher that co-founded
+      a not-for-profit Vitala Global, she is a technical consultant with WHO and a
+      field obstetrician and medical advisor with MSF Australia, she has clinical
+      experience in Yemen and research work in Venezuela.\n\nJoin us [at @heymeedan](https://www.instagram.com/heymeedan/)
+      on Instagram on Monday, Aug. 10, 2020! "
+    slug: misinfodemia-with-dr-roopan-gill
+  - sys:
+      id: 5aPiXJnPHAmnOetCPdREJM
+      created_at: !ruby/object:DateTime 2020-08-04 22:15:52.298000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-09 14:43:17.149000000 Z
+      content_type_id: event
+      revision: 2
+    title: 'AAJA Fest: Verification on a Deadline'
+    event_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
+    time: |-
+      - *Los Angeles* 11:30am
+      - *New York* 2:30pm
+      - *São Paulo* 3:30pm
+      - *London* 7:30pm
+      - *Nairobi* 9:30pm
+      - *New Delhi* 12:00am (+1)
+      - *Manila* 2:30am (+1)
+    images:
+    - sys:
+        id: 231TZ41ni7GM7g4ZTV4FpV
+        created_at: !ruby/object:DateTime 2020-08-06 19:40:55.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 19:43:01.858000000 Z
+      title: 'AAJA Fest: Verification on a Deadline'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/231TZ41ni7GM7g4ZTV4FpV/b18cb136aa4b35f0527ec5f1b2951cb7/meedan_aaja_2020.png"
+    - sys:
+        id: uRk3GYxGK5r9xdQnWIpQW
+        created_at: !ruby/object:DateTime 2020-08-06 19:42:48.407000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 19:42:59.810000000 Z
+      title: 'AAJA Fest: Verification on a Deadline'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/uRk3GYxGK5r9xdQnWIpQW/47a868dd3a9df90b2e89d97717272fb0/meedan_aaja_2020_2.jpg"
+    register_link: https://www.aaja20.org/registration
+    description: "This workshop will show attendees how to verify information quickly
+      and accurately with actionable tips and tricks. \n"
+    long_description: "The tactics and technology used by bad actors to misinform
+      the public are rapidly evolving. The growing volume of deepfakes, misinformation
+      and disinformation are challenging for journalists–and the public–to keep up
+      accurate information they can use. This workshop will show attendees how to
+      verify information quickly and accurately with actionable tips and tricks. \n"
+    slug: aaja-fest-verification-on-a-deadline
+    non_public: true
+  - sys:
+      id: 4cocA1h2WYBNGRigL5e4Dg
+      created_at: !ruby/object:DateTime 2020-08-03 23:21:36.406000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-06 19:40:13.025000000 Z
+      content_type_id: event
+      revision: 1
+    title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
+    event_date: !ruby/object:DateTime 2020-09-03 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-09-03 00:00:00.000000000 Z
     time: |-
       - *San Francisco* 8am
       - *New York* 11am
+      - *São Paolo* 12pm
       - *London* 4pm
+      - *Nairobi* 6pm
       - *Delhi* 8:30pm
       - *Manila* 11pm
     images:
     - sys:
-        id: 7rsVG0VrtQr6aYMRnO4212
-        created_at: !ruby/object:DateTime 2020-07-08 01:20:57.686000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-08 18:44:25.319000000 Z
-      title: 'Webinar: Keep Calm and Log On with author Gus Andrews'
+        id: 5T2jF057tCsfnFc8lNPtc9
+        created_at: !ruby/object:DateTime 2020-08-06 19:39:21.807000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 21:07:38.516000000 Z
+      title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/7rsVG0VrtQr6aYMRnO4212/597cb46abb567c42195e07ebb6a6529f/meedan_webinar_gillian-gus-andrews_book_02.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/5T2jF057tCsfnFc8lNPtc9/6db9d459c3327f71d550ad5634717d0d/meedan_webinar_anika-gupta_book_01.jpg"
     - sys:
-        id: iYogFmaoqov7xDaBT8j3k
-        created_at: !ruby/object:DateTime 2020-07-08 01:17:40.438000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-08 18:50:42.974000000 Z
-      title: 'Webinar: Keep Calm and Log On with author Gus Andrews'
+        id: jQN7vMI1reAShqXjpwrNw
+        created_at: !ruby/object:DateTime 2020-08-06 19:39:36.920000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 19:40:06.838000000 Z
+      title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/iYogFmaoqov7xDaBT8j3k/a32b56d00eecb2b770185ff8c7ff5a1b/meedan_webinar_gillian-gus-andrews_book_01.jpg"
-    social_card_image:
-      sys:
-        id: 63z2q6HnqpudUyTBIfnbf8
-        created_at: !ruby/object:DateTime 2020-07-08 01:31:51.453000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-08 01:32:06.621000000 Z
-      title: 'Webinar: Keep Calm and Log On with author Gus Andrews'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/63z2q6HnqpudUyTBIfnbf8/b29938ac4a80e72bdfea29aced3ed5bb/meedan_webinar_gillian-gus-andrews_book.png"
-    location_human_friendly: Online on Zoom
-    register_link: https://meedan.zoom.us/webinar/register/WN_QVt6M3HWSkWyiDsi2emSkw
-    description: Join *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* author
-      Gus Andrews in conversation with Memes to Movements author An Xiao Mina about
-      her new book, published by MIT Press.
+      url: "//images.ctfassets.net/g118h5yoccvd/jQN7vMI1reAShqXjpwrNw/cdbbedcdef4814fb81f3733afb84822d/meedan_webinar_anika-gupta_book_02.jpg"
+    location_human_friendly: Zoom Webinar
+    register_link: https://meedan.zoom.us/webinar/register/WN_h26kTCHxRMCFPunBv-L8rg
+    description: Join How to Handle a Crowd author Anika Gupta in conversation with
+      Memes to Movements author An Xiao Mina about her new book, published by Tiller
+      Press.
     long_description: |-
-      Feeling overwhelmed by an avalanche of online content? Anxious about identity theft? Unsettled by the proliferation of fake news? Welcome to the digital revolution. Wait—wasn't the digital revolution supposed to make our lives better? It was going to be fun and put the world at our fingertips. What happened? *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* is a new survival handbook that will help you achieve online mindfulness and overcome online helplessness—the feeling that tech is out of your control—with tips for handling cybersecurity, creepy ads, untrustworthy information, and much more.
+      Don’t read the comments. Old advice, yet more relevant than ever. The tools we once hailed for their power to connect people and spark creativity can also be hotbeds of hate, harassment, and political division. Platforms like Facebook, YouTube, and Twitter are under fire for either too much or too little moderation. Creating and maintaining healthy online communities isn’t easy.
 
-      Join *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* author Gus Andrews in conversation with *[Memes to Movements](https://www.penguinrandomhouse.com/books/567159/memes-to-movements-by-an-xiao-mina/)* author An Xiao Mina about her new book, published by MIT Press.
+      Over the course of two years of graduate research at MIT, former tech journalist and current product manager Anika Gupta interviewed moderators who’d worked on the sidelines of gamer forums and in the quagmires of online news comments sections. She’s spoken with professional and volunteer moderators for communities like Pantsuit Nation, Nextdoor, World of Warcraft guilds, Reddit, and FetLife.
 
-      Live on Zoom
-      [Register now to sign up for the Zoom event](https://meedan.zoom.us/webinar/register/WN_QVt6M3HWSkWyiDsi2emSkw)
+      [How to Handle a Crowd](https://bookshop.org/books/how-to-handle-a-crowd-the-art-of-creating-healthy-and-dynamic-online-communities/9781982132316) is the perfect book for anyone looking to take their small community group to the next level, start a career in online moderation, or tackle their own business’s comments section.
 
-      ## About the Author
-      *[Keep Calm and Log On](https://www.keepcalmlogon.com/)* is the first book from Dr. Gillian Andrews, known to most as Gus.
+      Join [How to Handle a Crowd](https://bookshop.org/books/how-to-handle-a-crowd-the-art-of-creating-healthy-and-dynamic-online-communities/9781982132316) author Anika Gupta in conversation with [Memes to Movements](https://www.penguinrandomhouse.com/books/567159/memes-to-movements-by-an-xiao-mina/) author An Xiao Mina about her new book, published by Tiller Press.
 
-      Dr. Andrews’s unusual background as a hacker, scholar, and educator makes her uniquely suited to offer advice on managing the media in your life. A graduate of Teachers College, Columbia University, she put her passion for media literacy to work in creating [The Media Show](https://www.youtube.com/user/themediashow), an award-winning YouTube series for a young adult audience. Currently, she works as a digital security trainer, running trainings and producing curriculum materials for tech companies, the NGO Tactical Tech, and the forthcoming Cyber Nation film project.
-
-      Dr. Andrews hasn’t been surprised in the slightest by news that foreign intelligence agencies, advertisers, and social media sites are exploiting everyday people’s data. As a former panelist on the digital rights radio show “Off The Hook” and an organizer for the Hackers On Planet Earth conference, she has been tracking warnings about digital privacy and security issues for over a decade. In her user experience work for ThoughtWorks, Second Life, Simply Secure, and the Open Internet Tools project, she has helped developers make digital systems easier for everyday people to use safely.
-
-      Dr. Andrews is a dynamic writer and speaker who is keen to help her fellow citizens protect themselves in a year which promises escalated cybersecurity and disinformation attacks.
-    slug: webinar-keep-calm-and-log-on-with-author-gus-andrews
+      ### About the Author
+      Anika Gupta is a digital thought leader whose research on online communities spans several industries. A former science and technology journalist, she's currently a senior product manager at The Atlantic. In 2019, she was honored as a member of the Online News Association's Women's Leadership Accelerator, a program that finds and trains women media leaders for roles as leaders in the industry. She has a Master's degree in comparative media studies from the Massachusetts Institute of Technology and a bachelor's degree in journalism from the Medill School of Journalism at Northwestern University. Her journalistic work has appeared online in Smithsonian, Fortune, The Guardian, and elsewhere.
+    slug: book-talk-how-to-handle-a-crowd-with-author-anika-gupta
     non_public: false
-  - sys:
-      id: 6pwPFFDIr5ylmbOizCK4gt
-      created_at: !ruby/object:DateTime 2020-07-22 09:58:22.024000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-22 21:32:46.192000000 Z
-      content_type_id: event
-      revision: 4
-    title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
-    event_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
-    time: "- *New York* 6:30am \n- *London* 11:30am\n- *Cairo* 12:30pm\n- *Delhi*
-      4pm"
-    images:
-    - sys:
-        id: 1IMJsE4QMDUlAKFlgZuvX3
-        created_at: !ruby/object:DateTime 2020-07-22 18:38:22.605000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-22 18:38:39.915000000 Z
-      title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1IMJsE4QMDUlAKFlgZuvX3/fcafbd1f6692b5fb6a4a37221f70e44a/meedan_disinfodemic_india_04.jpg"
-    - sys:
-        id: 1VcuNINr6KpNMC2Fr77ikU
-        created_at: !ruby/object:DateTime 2020-07-22 18:37:31.612000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-22 18:38:46.179000000 Z
-      title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1VcuNINr6KpNMC2Fr77ikU/d42433c6b12e8b8cbf2db83c317488c1/meedan_disinfodemic_india_03.jpg"
-    social_card_image:
-      sys:
-        id: 6T6QskTKK6f41D0RsWUDqg
-        created_at: !ruby/object:DateTime 2020-07-22 18:38:50.070000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-22 18:38:56.690000000 Z
-      title: Disinfodemic? 16 Months of Relentless Fact-Checking in India
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6T6QskTKK6f41D0RsWUDqg/a12ed7ad33bdd90b0a4e956ed2f1c098/meedan_event_disinfodemic_india_01.jpg"
-    location_human_friendly: Online on Zoom
-    register_link: https://zoom.us/webinar/register/WN_W7IlZMFYQE6n57E64ZGOXQ
-    description: Webinar on the spike in misinformation in India in 2019-2020
-    long_description: "The past 16 months have been relentless for journalists and
-      fact-checkers in India. From the Pulwama attack in February 2019 to the outbreak
-      of the novel coronavirus, misinformation has taken the public discourse by storm.\n\nThe
-      webinar, hosted by [The Quint](https://www.thequint.com/), brings together a
-      panel to discuss some of the work that fact-checkers in India have been doing.
-      \n\n- Kritika Goel, assistant editor, The Quint\n- Karen Rebelo, deputy editor
-      of BOOM Live, \n- Surabhi Malik, program director, India at Internews \n- Shalini
-      Joshi, program director at Meedan"
-    slug: disinfodemic-16-months-of-relentless-fact-checking-in-india
