@@ -201,6 +201,8 @@ contentful:
         client_options:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
+        content_types:
+          event: EventsMapper
         destination: 'contentful/spaces/'
     - publications: 
         space: ENV_CONTENTFUL_M_SPACE_ID

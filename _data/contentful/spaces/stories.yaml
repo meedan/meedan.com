@@ -4716,10 +4716,10 @@ story:
   alt_date_string: '2020-07-17'
 - sys:
     id: 2OyCkY4x90BqvGy9RG4kN8
-    created_at: &20 !ruby/object:DateTime 2020-07-18 20:08:51.154000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-06 18:13:03.625000000 Z
+    created_at: !ruby/object:DateTime 2020-07-18 20:08:51.154000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-11 19:50:11.894000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -4757,114 +4757,62 @@ story:
       sys:
         id: 591uU3S7qsOtaa1BD5aTe2
         created_at: !ruby/object:DateTime 2020-08-06 18:12:57.248000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-06 18:12:57.248000000 Z
-      title: 
-      description: 
-      url: ''
-    description: 
-    title: 
-    url: ''
-  body: "Early in the days of COVID-19, as it was just starting to leave the confines
-    of East Asia, a number of people I know started calling the then-emergent pandemic
-    a \"black swan event.\" This is a metaphor for something very rare and difficult
-    to predict. It would be a fitting one if COVID-19 was like the Spanish Flu---a
-    once in a century event that wreaks havoc and then is quickly forgotten. It's
-    become popular in finance circles thanks to the work of options trader Nassim
-    Nicholas Taleb. As summarized in Wikipedia, [Black swan theory](https://en.wikipedia.org/wiki/Black_swan_theory)
-    has three key charateristics:\n\n1.  The disproportionate role of high-profile,
-    hard-to-predict, and rare events that are beyond the realm of normal expectations
-    in history, science, finance, and technology.\n\n2.  The non-computability of
-    the probability of the consequential rare events using scientific methods (owing
-    to the very nature of small probabilities).\n\n3.  The psychological biases that
-    blind people, both individually and collectively, to uncertainty and to a rare
-    event's massive role in historical affairs.\n\nA striking image --- just because
-    we've never seen a black swan doesn't mean it doesn't exist ---, it's wholly inadequate
-    for understanding COVID-19. [An article in Fast Company](https://www.fastcompany.com/90475793/why-the-coronavirus-crisis-is-a-gray-rhino-and-not-a-black-swan)
-    helped me understand and dispense with that metaphor pretty quickly:\n\n> But
-    true linguists say that the proper metaphor for the crisis is a \"gray rhino,\"
-    which refers to highly probable but neglected threats that have an enormous impact.
-    It was coined by Michele Wucker, a policy analyst who came up with the term after
-    the 2012 Greek financial crisis.\n\nIndeed, nearly two years ago,[  Atlantic writer
-    Ed Yong pointed out that the US](https://www.theatlantic.com/magazine/archive/2018/07/when-the-next-plague-hits/561734/)---and,
-    as we've learned, the world---is simply not ready for a pandemic:\n\n> Perhaps
-    most important, the U.S. is prone to the same forgetfulness and shortsightedness
-    that befall all nations, rich and poor---and the myopia has worsened considerably
-    in recent years. Public-health programs are low on money; hospitals are stretched
-    perilously thin; crucial funding is being slashed. And while we tend to think
-    of science when we think of pandemic response, the worse the situation, the more
-    the defense depends on political leadership.\n>\n> When Ebola flared in 2014,
-    the science-minded President Barack Obama calmly and quickly took the reins. The
-    White House is now home to a president who is neither calm nor science-minded.
-    We should not underestimate what that may mean if risk becomes reality.\n\nMany
-    have seen this rhino coming. It was standing there all along. As early as 2017,
-    [the Pentagon was aware of the risks](https://www.npr.org/2020/04/05/827692672/report-pentagon-aware-of-possible-coronavirus-threat-for-years),
-    and the film [Contagion](https://en.wikipedia.org/wiki/Contagion_(2011_film)),
-    shot in 2011 and depicting a global pandemic and its effects on common people
-    and institutions alike, feels eerily prescient but is only predictive because
-    it's based on solid science about pandemic risk.\n\nBut as I learn more about
-    the pandemic and the conditions that enabled it to spread so quickly---poor public
-    health systems, science denialism, and the steady encroachment of humans onto
-    animal environments, among other factors---I think another metaphor is more fitting:
-    the canary in the coal mine.\n\nConsider the words of health writer Sonia Shah
-    [in a recent cover story for The Nation](https://www.thenation.com/article/society/pandemic-definition-covid/):\n\n>
-    It's time for a new story, one that more accurately captures the reality of how
-    contagions unfold and why. In this story, pandemics would be cast as both a biological
-    reality and a social phenomenon shaped by human agency. And the coronavirus, if
-    cast as any kind of monster at all, would be a Frankenstein's monster: a creature
-    of our own making. We, after all, created the world in which SARS-Cov-2 evolved,
-    one in which our industry has swallowed up so much of the planet that microbes
-    from wild animals easily slip into livestock and humans. We created the society
-    of overcrowded prisons and nursing homes staffed by underpaid employees who must
-    work in multiple facilities to make ends meet; in which employers force their
-    workers to labor on meatpacking lines even if they're sick; in which asylum seekers
-    are crammed into detention centers; and in which people living in hard-hit cities
-    like Detroit lack access to clean water with which to wash their hands.\n> \n>
-    A narrative that elevates these realities would compel us to consider a much wider
-    range of policy responses to counter the threat of pandemics. Instead of blaming
-    outsiders and waiting for magic bullet cures, we could work to enhance our resilience
-    and reduce the probability of pathogens reaching us in the first place. Instead
-    of reflexively demanding that killing chemicals be slathered across the landscape
-    to destroy mosquitoes infected by the West Nile virus and ticks infected with
-    Lyme disease bacteria, we could restore the lost biodiversity that once prevented
-    their spread. We could protect the forests where bats roost, so that Ebola, SARS,
-    and other viruses stay in them and don't find their way into human populations.\n\nThe
-    phrase \"canary in a coal mine\" comes from an English-language metaphor based
-    on the fact that canaries--which are more susceptible to methane than human beings--were
-    brought to mines as a precaution. If the canary died, it meant methane was leaking,
-    and that people needed to evacuate immediately. The canary was a warning that
-    something was wrong with the mine, and that greater danger lay ahead.\n\nInstead
-    of a black swan or a gray rhino, we might call COVID-19 a yellow canary event
-    --- an event that warns of even greater dangers to come.  Like the real-world
-    canary in the coal mine, the death of something we like is a sign that something
-    is fundamentally wrong with the metaphorical mine we live in.\n\nWe might consider
-    yellow canary event as having some of the following characteristics:\n\n-   A
-    signal that is itself disturbing but to an expert is doubly so because of the
-    conditions it reveals;\n\n-   Hurts vulnerable populations and systems first,
-    in a highly visible way;\n\n-   Exposes a structural weakness that will cause
-    tremendous harm to everyone if allowed to continue\n\nThis is COVID-19: it is
-    a biological entity with sociological roots and geopolitical effects. And as it
-    harms black, indigenous and people of color and global south communities more
-    than others, as it strikes the elderly and the infirm and the underpaid and migrants,
-    and as the response becomes politicized, we are reaping the consequences of many
-    significant societal problems. It's not a coincidence that Black Lives Matter
-    and other social movements are rising now --- the pandemic is the yellow canary
-    for the fissures we've allowed to form in society that have generally been ignored.\n\nThe
-    misinfodemics around the pandemic are deeply intertwined with these challenges.
-    [In a 2018 article in The Atlantic](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/),
-    colleague Nat Gyenes and I looked at some of the underlying conditions that have
-    created a field of risk: search engine algorithms and social media feeds based
-    on attention, long-running distrust in science, the complexity with which science
-    is communicated. Much of public health, we wrote, \"remains focused on providing
-    communications guidelines and engaging in traditional broadcast-diffusion strategies,
-    but not search-engine optimization, viral marketing campaigns, and accessing populations
-    through social-diffusion approaches.\"\n\nCOVID-19 is a yellow canary event for
-    the kind of environmental destruction we should expect globally, the racial and
-    global inequalities we've allowed and encouraged to fester, the information ecosystems
-    we've funded through advertising, and a long-running denialism of both the social
-    and biological sciences. When miners see a dead canary, they know it's time to
-    evacuate. But in the context of a global pandemic, there's nowhere else to go.
-    We have to face it, understand the underlying causes, and do our best to change
-    them."
+        updated_at: !ruby/object:DateTime 2020-08-11 19:49:58.772000000 Z
+      title: This pandemic isn’t a swan—it’s a canary
+      description: Image CC-BY-NC Warrior Squirrel
+      url: "//images.ctfassets.net/g118h5yoccvd/591uU3S7qsOtaa1BD5aTe2/463ac186e49149dc4df23c533e0e2838/meedan_blog_canary.jpg"
+    description: Image CC-BY-NC Warrior Squirrel
+    title: This pandemic isn’t a swan—it’s a canary
+    url: "//images.ctfassets.net/g118h5yoccvd/591uU3S7qsOtaa1BD5aTe2/463ac186e49149dc4df23c533e0e2838/meedan_blog_canary.jpg"
+  body: |-
+    Early in the days of COVID-19, as it was just starting to leave the confines of East Asia, a number of people I know started calling the then-emergent pandemic a "black swan event." This is a metaphor for something very rare and difficult to predict. It would be a fitting one if COVID-19 was like the Spanish Flu---a once in a century event that wreaks havoc and then is quickly forgotten. It's become popular in finance circles thanks to the work of options trader Nassim Nicholas Taleb. As summarized in Wikipedia, [Black swan theory](https://en.wikipedia.org/wiki/Black_swan_theory) has three key charateristics:
+
+    1.  The disproportionate role of high-profile, hard-to-predict, and rare events that are beyond the realm of normal expectations in history, science, finance, and technology.
+
+    2.  The non-computability of the probability of the consequential rare events using scientific methods (owing to the very nature of small probabilities).
+
+    3.  The psychological biases that blind people, both individually and collectively, to uncertainty and to a rare event's massive role in historical affairs.
+
+    A striking image --- just because we've never seen a black swan doesn't mean it doesn't exist ---, it's wholly inadequate for understanding COVID-19. [An article in Fast Company](https://www.fastcompany.com/90475793/why-the-coronavirus-crisis-is-a-gray-rhino-and-not-a-black-swan) helped me understand and dispense with that metaphor pretty quickly:
+
+    > But true linguists say that the proper metaphor for the crisis is a "gray rhino," which refers to highly probable but neglected threats that have an enormous impact. It was coined by Michele Wucker, a policy analyst who came up with the term after the 2012 Greek financial crisis.
+
+    Indeed, nearly two years ago,[  Atlantic writer Ed Yong pointed out that the US](https://www.theatlantic.com/magazine/archive/2018/07/when-the-next-plague-hits/561734/)---and, as we've learned, the world---is simply not ready for a pandemic:
+
+    > Perhaps most important, the U.S. is prone to the same forgetfulness and shortsightedness that befall all nations, rich and poor---and the myopia has worsened considerably in recent years. Public-health programs are low on money; hospitals are stretched perilously thin; crucial funding is being slashed. And while we tend to think of science when we think of pandemic response, the worse the situation, the more the defense depends on political leadership.
+
+    > When Ebola flared in 2014, the science-minded President Barack Obama calmly and quickly took the reins. The White House is now home to a president who is neither calm nor science-minded. We should not underestimate what that may mean if risk becomes reality.
+
+    ![This pandemic isn’t a swan—it’s a canary](//images.ctfassets.net/g118h5yoccvd/6hTpSXjNGPRuVKV4KnuGZs/08f9b2b3458c7197cff220daed69a6f6/EF3E3911-3032-4865-AC7A-D096912D60ED.JPG)
+    <p class="caption">Image CC BY-NC-ND Rose Davies on Flickr</p>
+
+    Many have seen this rhino coming. It was standing there all along. As early as 2017, [the Pentagon was aware of the risks](https://www.npr.org/2020/04/05/827692672/report-pentagon-aware-of-possible-coronavirus-threat-for-years), and the film [Contagion](https://en.wikipedia.org/wiki/Contagion_(2011_film)), shot in 2011 and depicting a global pandemic and its effects on common people and institutions alike, feels eerily prescient but is only predictive because it's based on solid science about pandemic risk.
+
+    But as I learn more about the pandemic and the conditions that enabled it to spread so quickly---poor public health systems, science denialism, and the steady encroachment of humans onto animal environments, among other factors---I think another metaphor is more fitting: the canary in the coal mine.
+
+    Consider the words of health writer Sonia Shah [in a recent cover story for The Nation](https://www.thenation.com/article/society/pandemic-definition-covid/):
+
+    > It's time for a new story, one that more accurately captures the reality of how contagions unfold and why. In this story, pandemics would be cast as both a biological reality and a social phenomenon shaped by human agency. And the coronavirus, if cast as any kind of monster at all, would be a Frankenstein's monster: a creature of our own making. We, after all, created the world in which SARS-Cov-2 evolved, one in which our industry has swallowed up so much of the planet that microbes from wild animals easily slip into livestock and humans. We created the society of overcrowded prisons and nursing homes staffed by underpaid employees who must work in multiple facilities to make ends meet; in which employers force their workers to labor on meatpacking lines even if they're sick; in which asylum seekers are crammed into detention centers; and in which people living in hard-hit cities like Detroit lack access to clean water with which to wash their hands.
+
+    > A narrative that elevates these realities would compel us to consider a much wider range of policy responses to counter the threat of pandemics. Instead of blaming outsiders and waiting for magic bullet cures, we could work to enhance our resilience and reduce the probability of pathogens reaching us in the first place. Instead of reflexively demanding that killing chemicals be slathered across the landscape to destroy mosquitoes infected by the West Nile virus and ticks infected with Lyme disease bacteria, we could restore the lost biodiversity that once prevented their spread. We could protect the forests where bats roost, so that Ebola, SARS, and other viruses stay in them and don't find their way into human populations.
+
+    The phrase "canary in a coal mine" comes from an English-language metaphor based on the fact that canaries--which are more susceptible to methane than human beings--were brought to mines as a precaution. If the canary died, it meant methane was leaking, and that people needed to evacuate immediately. The canary was a warning that something was wrong with the mine, and that greater danger lay ahead.
+
+    Instead of a black swan or a gray rhino, we might call COVID-19 a yellow canary event --- an event that warns of even greater dangers to come.  Like the real-world canary in the coal mine, the death of something we like is a sign that something is fundamentally wrong with the metaphorical mine we live in.
+
+    We might consider yellow canary event as having some of the following characteristics:
+
+    -   A signal that is itself disturbing but to an expert is doubly so because of the conditions it reveals;
+
+    -   Hurts vulnerable populations and systems first, in a highly visible way;
+
+    -   Exposes a structural weakness that will cause tremendous harm to everyone if allowed to continue
+
+    This is COVID-19: it is a biological entity with sociological roots and geopolitical effects. And as it harms black, indigenous and people of color and global south communities more than others, as it strikes the elderly and the infirm and the underpaid and migrants, and as the response becomes politicized, we are reaping the consequences of many significant societal problems. It's not a coincidence that Black Lives Matter and other social movements are rising now --- the pandemic is the yellow canary for the fissures we've allowed to form in society that have generally been ignored.
+
+    The misinfodemics around the pandemic are deeply intertwined with these challenges. [In a 2018 article in The Atlantic](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/), colleague Nat Gyenes and I looked at some of the underlying conditions that have created a field of risk: search engine algorithms and social media feeds based on attention, long-running distrust in science, the complexity with which science is communicated. Much of public health, we wrote, "remains focused on providing communications guidelines and engaging in traditional broadcast-diffusion strategies, but not search-engine optimization, viral marketing campaigns, and accessing populations through social-diffusion approaches."
+
+    COVID-19 is a yellow canary event for the kind of environmental destruction we should expect globally, the racial and global inequalities we've allowed and encouraged to fester, the information ecosystems we've funded through advertising, and a long-running denialism of both the social and biological sciences. When miners see a dead canary, they know it's time to evacuate. But in the context of a global pandemic, there's nowhere else to go. We have to face it, understand the underlying causes, and do our best to change them.
   words_by:
     en-US:
     - sys:
@@ -4877,11 +4825,11 @@ story:
         en-US: An Xiao Mina
       staff:
         en-US: false
+  alt_date: !ruby/object:DateTime 2020-08-11 00:00:00.000000000 Z
   date: '2020-07-18'
-  image: 'https:'
+  image: https://images.ctfassets.net/g118h5yoccvd/591uU3S7qsOtaa1BD5aTe2/463ac186e49149dc4df23c533e0e2838/meedan_blog_canary.jpg
   title-en: This pandemic isn’t a swan—it’s a canary
-  alt_date: *20
-  alt_date_string: '2020-07-18'
+  alt_date_string: '2020-08-11'
 - sys:
     id: 7eInGgVDPjt1Ma95sdpG4A
     created_at: !ruby/object:DateTime 2020-07-23 19:29:11.835000000 Z

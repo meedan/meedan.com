@@ -3,11 +3,85 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-06 20:55:47.232000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-11 19:50:15.644000000 Z
     content_type_id: moduleStories
-    revision: 42
+    revision: 43
   title: Blog
   stories:
+  - sys:
+      id: 2OyCkY4x90BqvGy9RG4kN8
+      created_at: !ruby/object:DateTime 2020-07-18 20:08:51.154000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-11 19:50:11.894000000 Z
+      content_type_id: story
+      revision: 1
+    title: This pandemic isn’t a swan—it’s a canary
+    slug: this-pandemic-isnt-a-swan-its-a-canary
+    topic:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 591uU3S7qsOtaa1BD5aTe2
+        created_at: !ruby/object:DateTime 2020-08-06 18:12:57.248000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-11 19:49:58.772000000 Z
+      title: This pandemic isn’t a swan—it’s a canary
+      description: Image CC-BY-NC Warrior Squirrel
+      url: "//images.ctfassets.net/g118h5yoccvd/591uU3S7qsOtaa1BD5aTe2/463ac186e49149dc4df23c533e0e2838/meedan_blog_canary.jpg"
+    body: |-
+      Early in the days of COVID-19, as it was just starting to leave the confines of East Asia, a number of people I know started calling the then-emergent pandemic a "black swan event." This is a metaphor for something very rare and difficult to predict. It would be a fitting one if COVID-19 was like the Spanish Flu---a once in a century event that wreaks havoc and then is quickly forgotten. It's become popular in finance circles thanks to the work of options trader Nassim Nicholas Taleb. As summarized in Wikipedia, [Black swan theory](https://en.wikipedia.org/wiki/Black_swan_theory) has three key charateristics:
+
+      1.  The disproportionate role of high-profile, hard-to-predict, and rare events that are beyond the realm of normal expectations in history, science, finance, and technology.
+
+      2.  The non-computability of the probability of the consequential rare events using scientific methods (owing to the very nature of small probabilities).
+
+      3.  The psychological biases that blind people, both individually and collectively, to uncertainty and to a rare event's massive role in historical affairs.
+
+      A striking image --- just because we've never seen a black swan doesn't mean it doesn't exist ---, it's wholly inadequate for understanding COVID-19. [An article in Fast Company](https://www.fastcompany.com/90475793/why-the-coronavirus-crisis-is-a-gray-rhino-and-not-a-black-swan) helped me understand and dispense with that metaphor pretty quickly:
+
+      > But true linguists say that the proper metaphor for the crisis is a "gray rhino," which refers to highly probable but neglected threats that have an enormous impact. It was coined by Michele Wucker, a policy analyst who came up with the term after the 2012 Greek financial crisis.
+
+      Indeed, nearly two years ago,[  Atlantic writer Ed Yong pointed out that the US](https://www.theatlantic.com/magazine/archive/2018/07/when-the-next-plague-hits/561734/)---and, as we've learned, the world---is simply not ready for a pandemic:
+
+      > Perhaps most important, the U.S. is prone to the same forgetfulness and shortsightedness that befall all nations, rich and poor---and the myopia has worsened considerably in recent years. Public-health programs are low on money; hospitals are stretched perilously thin; crucial funding is being slashed. And while we tend to think of science when we think of pandemic response, the worse the situation, the more the defense depends on political leadership.
+
+      > When Ebola flared in 2014, the science-minded President Barack Obama calmly and quickly took the reins. The White House is now home to a president who is neither calm nor science-minded. We should not underestimate what that may mean if risk becomes reality.
+
+      ![This pandemic isn’t a swan—it’s a canary](//images.ctfassets.net/g118h5yoccvd/6hTpSXjNGPRuVKV4KnuGZs/08f9b2b3458c7197cff220daed69a6f6/EF3E3911-3032-4865-AC7A-D096912D60ED.JPG)
+      <p class="caption">Image CC BY-NC-ND Rose Davies on Flickr</p>
+
+      Many have seen this rhino coming. It was standing there all along. As early as 2017, [the Pentagon was aware of the risks](https://www.npr.org/2020/04/05/827692672/report-pentagon-aware-of-possible-coronavirus-threat-for-years), and the film [Contagion](https://en.wikipedia.org/wiki/Contagion_(2011_film)), shot in 2011 and depicting a global pandemic and its effects on common people and institutions alike, feels eerily prescient but is only predictive because it's based on solid science about pandemic risk.
+
+      But as I learn more about the pandemic and the conditions that enabled it to spread so quickly---poor public health systems, science denialism, and the steady encroachment of humans onto animal environments, among other factors---I think another metaphor is more fitting: the canary in the coal mine.
+
+      Consider the words of health writer Sonia Shah [in a recent cover story for The Nation](https://www.thenation.com/article/society/pandemic-definition-covid/):
+
+      > It's time for a new story, one that more accurately captures the reality of how contagions unfold and why. In this story, pandemics would be cast as both a biological reality and a social phenomenon shaped by human agency. And the coronavirus, if cast as any kind of monster at all, would be a Frankenstein's monster: a creature of our own making. We, after all, created the world in which SARS-Cov-2 evolved, one in which our industry has swallowed up so much of the planet that microbes from wild animals easily slip into livestock and humans. We created the society of overcrowded prisons and nursing homes staffed by underpaid employees who must work in multiple facilities to make ends meet; in which employers force their workers to labor on meatpacking lines even if they're sick; in which asylum seekers are crammed into detention centers; and in which people living in hard-hit cities like Detroit lack access to clean water with which to wash their hands.
+
+      > A narrative that elevates these realities would compel us to consider a much wider range of policy responses to counter the threat of pandemics. Instead of blaming outsiders and waiting for magic bullet cures, we could work to enhance our resilience and reduce the probability of pathogens reaching us in the first place. Instead of reflexively demanding that killing chemicals be slathered across the landscape to destroy mosquitoes infected by the West Nile virus and ticks infected with Lyme disease bacteria, we could restore the lost biodiversity that once prevented their spread. We could protect the forests where bats roost, so that Ebola, SARS, and other viruses stay in them and don't find their way into human populations.
+
+      The phrase "canary in a coal mine" comes from an English-language metaphor based on the fact that canaries--which are more susceptible to methane than human beings--were brought to mines as a precaution. If the canary died, it meant methane was leaking, and that people needed to evacuate immediately. The canary was a warning that something was wrong with the mine, and that greater danger lay ahead.
+
+      Instead of a black swan or a gray rhino, we might call COVID-19 a yellow canary event --- an event that warns of even greater dangers to come.  Like the real-world canary in the coal mine, the death of something we like is a sign that something is fundamentally wrong with the metaphorical mine we live in.
+
+      We might consider yellow canary event as having some of the following characteristics:
+
+      -   A signal that is itself disturbing but to an expert is doubly so because of the conditions it reveals;
+
+      -   Hurts vulnerable populations and systems first, in a highly visible way;
+
+      -   Exposes a structural weakness that will cause tremendous harm to everyone if allowed to continue
+
+      This is COVID-19: it is a biological entity with sociological roots and geopolitical effects. And as it harms black, indigenous and people of color and global south communities more than others, as it strikes the elderly and the infirm and the underpaid and migrants, and as the response becomes politicized, we are reaping the consequences of many significant societal problems. It's not a coincidence that Black Lives Matter and other social movements are rising now --- the pandemic is the yellow canary for the fissures we've allowed to form in society that have generally been ignored.
+
+      The misinfodemics around the pandemic are deeply intertwined with these challenges. [In a 2018 article in The Atlantic](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/), colleague Nat Gyenes and I looked at some of the underlying conditions that have created a field of risk: search engine algorithms and social media feeds based on attention, long-running distrust in science, the complexity with which science is communicated. Much of public health, we wrote, "remains focused on providing communications guidelines and engaging in traditional broadcast-diffusion strategies, but not search-engine optimization, viral marketing campaigns, and accessing populations through social-diffusion approaches."
+
+      COVID-19 is a yellow canary event for the kind of environmental destruction we should expect globally, the racial and global inequalities we've allowed and encouraged to fester, the information ecosystems we've funded through advertising, and a long-running denialism of both the social and biological sciences. When miners see a dead canary, they know it's time to evacuate. But in the context of a global pandemic, there's nowhere else to go. We have to face it, understand the underlying causes, and do our best to change them.
+    words_by:
+    - sys:
+        id: 3LwmNUnWdLGIZbvPisgSL5
+    alt_date: !ruby/object:DateTime 2020-08-11 00:00:00.000000000 Z
   - sys:
       id: 2uGeBfzRSJYn8qx2lzzQis
       created_at: !ruby/object:DateTime 2020-08-06 17:38:46.782000000 Z
@@ -276,166 +350,6 @@ moduleStories:
     - sys:
         id: 3LwmNUnWdLGIZbvPisgSL5
     alt_date: !ruby/object:DateTime 2020-08-05 00:00:00.000000000 Z
-  - sys:
-      id: 77XtZxUTMsilrHnbjbuVcW
-      created_at: !ruby/object:DateTime 2020-07-30 21:15:18.975000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-31 19:51:07.348000000 Z
-      content_type_id: story
-      revision: 8
-    title: In Calling for Equitable Information Access, Let’s Remember the Disability
-      Digital Divide
-    slug: in-calling-for-equitable-information-access-lets-remember-the-disability
-    lead_image:
-      sys:
-        id: 6gBmnjbZSRLEd8udOyil0x
-        created_at: !ruby/object:DateTime 2020-07-31 19:49:48.572000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-31 19:50:56.862000000 Z
-      title: Screen Shot 2020-07-31 at 3.49.15 PM
-      description: 'Four disability symbols used by the U.S. National Park Service '
-      url: "//images.ctfassets.net/g118h5yoccvd/6gBmnjbZSRLEd8udOyil0x/b5177e50cc43529c614abfe3157c1a4c/Disability_symbols.svg"
-    body: "Last week I was fortunate to receive corrective surgery on my disabled
-      arm, a remnant of an injury from over 9 months ago. When the COVID-19 pandemic
-      hit, changing all of our plans, it understandably delayed non-essential medical
-      procedures like the one I needed.\n \nJuly 2020 marks [30 years since the passage
-      of the Americans with Disabilities Act (ADA)](https://www.ada.gov/30th_anniversary/index.html).
-      Twelve years ago the [Convention on the Rights of Persons with Disabilities
-      (CRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)
-      came into effect, which was the first United Nations (UN) human rights treaty
-      of the 21st century, and also the UN convention with the largest number of signatories
-      in history on its opening day.  \n\nAs I recover, I am reflecting on what these
-      mean for my friends and colleagues with disabilities, including disabilities
-      that are permanent or longer-term than my own. \n\nWe have made progress through
-      high-level decisions and cultural shifts. For example, plans for people with
-      disabilities are now included in the UN’s Sustainable Development Goals, the
-      Paris Agreement on Global Climate Change, the Sendai Framework for Disaster
-      Risk Reduction, and the Addis Ababa Action Agenda on Financing for Development.
-      Yet there is much more to do  – we still have not achieved universal access,
-      and people with disabilities are being disproportionately affected by the COVID-19
-      pandemic in multiple ways.\n\n- People with disabilities are at a higher risk
-      of severe symptoms and death from COVID-19. A [study published in the *Disability
-      and Health Journal*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245650/)
-      found that there is a higher COVID-19 fatality rate among people with intellectual
-      and developmental disabilities (IDD). The researchers also found a higher concentration
-      of COVID-19 cases at younger ages for people with IDD. Last month, the American
-      Civil Liberties Union (ACLU) shared [devastating statistics](https://www.aclu.org/news/disability-rights/covid-19-deaths-in-nursing-homes-are-not-unavoidable-they-are-the-result-of-deadly-discrimination/)
-      on the anniversary of the landmark U.S. Supreme Court decision in Olmstead v.
-      L.C., which recognized that unjustified segregation of people with disabilities
-      is a form of discrimination: Nearly 50% of COVID-19 deaths have been among people
-      living in nursing homes, psychiatric hospitals, and other congregate settings
-      for people with disabilities, while this population only makes up less than
-      1% of the U.S. population. The ACLU warns us that these excess and inequitable
-      deaths are “not unavoidable – they are the result of deadly discrimination.”\n\n-
-      People with disabilities are also excluded as much of our world moves online
-      during the COVID-19 pandemic, impacting everything from education and employment
-      to essential services and social connection. There is [growing worldwide concern](https://unctad.org/en/pages/newsdetails.aspx?OriginalVersionID=2322)
-      about the digital divide, where many people still lack access to technologies
-      like computers and smartphones, not to mention affordable as well as reliable
-      internet and even electricity. The most affected tend to be [lower-income](https://www.pewresearch.org/fact-tank/2019/05/07/digital-divide-persists-even-as-lower-income-americans-make-gains-in-tech-adoption/),
-      [older generations](https://www.nytimes.com/2020/03/27/technology/virus-older-generation-digital-divide.html),
-      [racial and ethnic minorities](https://www.pewresearch.org/fact-tank/2019/08/20/smartphones-help-blacks-hispanics-bridge-some-but-not-all-digital-gaps-with-whites/),
-      [sexual and gender minorities](https://www.ohchr.org/Documents/Issues/Women/WRGS/GenderDigital/HRBDT_submission.pdf),
-      and [people with disabilities](https://www.pewresearch.org/fact-tank/2017/04/07/disabled-americans-are-less-likely-to-use-technology/),
-      with many intersectionalities. Exacerbating this, people with disabilities can
-      face additional barriers, such as:\n\n\n1.   Increased risks of online harassment
-      and discrimination\n\n2.   Lack of adaptations for limited abilities to see,
-      hear, and understand content\n\n3.  Lack of adaptations for limited physical
-      abilities to use devices (ex.    following my injury, I learned to type using
-      one hand supplemented with voice recognition software)\n\nIt is more crucial
-      than ever to mitigate barriers like these during a pandemic, where online access
-      to quality information and essential activities can directly influence health
-      outcomes.\n\nHere at Meedan, the Digital Health Lab is working to address “viral
-      misinformation that facilitates the spread of a particular health outcome or
-      disease,” also called a “misinfodemic,” by increasing access to expert-sourced
-      information about COVID-19. \n\nMeedan’s efforts to increase access include
-      avoiding jargon to make information readable by the general public, providing
-      a glossary with simplified definitions of scientific terms, translating information
-      for non-English speakers, and disseminating information across diverse media
-      channels. In this process, we cannot forget to include people with disabilities.
-      Leaving out people with disabilities means hurting a significant proportion
-      of humanity: The World Health Organization (WHO) [estimates that over 1 billion](https://www.who.int/news-room/fact-sheets/detail/disability-and-health)
-      people experience some form of disability. Additionally, the ADA and CRPD require
-      making online content, services, and systems accessible to people with disabilities.\n\nEquality
-      under the law does not automatically translate to equity in everyday practice.
-      We have to do the hard work of building the inclusive world we’d like to see,
-      and we need to continuously work on addressing ableism and centering disability
-      justice. Meedan’s Digital Health Lab is striving to increase access to COVID-19
-      information for all, including people with disabilities, and we invite you to
-      join us.\n\nResources:\n\n[ADA Best Practices Chapter 5 Website Accessibility](https://www.ada.gov/pcatoolkit/chap5toolkit.htm)\n[Federal
-      Social Media Accessibility Toolkit Hackpad](https://digital.gov/resources/federal-social-media-accessibility-toolkit-hackpad/)\n[W3C
-      Accessibility Standards Overview](https://www.w3.org/WAI/standards-guidelines/)\n
-      \n*Dr. Jessica Huang currently serves as a Pandemic Response and Recovery Fellow
-      with the Bloomberg City Leadership Initiative at Harvard University’s John F.
-      Kennedy School of Government, while working as a consultant for the COVID-19
-      Expert Database with Meedan’s Digital Health Lab. She is grateful to be part
-      of the Boston Inclusion Community convened by Partners for Youth with Disabilities.
-      Previously, she was an instructor with the Massachusetts Institute of Technology’s
-      D-Lab, where she collaborated on design projects in sustainable development,
-      global health and humanitarian innovation across five continents. She holds
-      a Doctorate of Public Health from Harvard University’s T.H. Chan School of Public
-      Health, and a Master’s in Learning, Design and Technology from Stanford University.*\n
-      \n"
-    words_by:
-    - sys:
-        id: 4EUKpNMRSgKZSSTJCyJxSW
-    alt_date: !ruby/object:DateTime 2020-07-30 00:00:00.000000000 Z
-  - sys:
-      id: 7pYCQNlkxln1QxndXVLuQw
-      created_at: !ruby/object:DateTime 2020-07-17 21:31:50.612000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-28 23:54:10.533000000 Z
-      content_type_id: story
-      revision: 1
-    title: 'Endorsement: Ecuadorian Journalists in the Health Emergency '
-    slug: endorsement-ecuadorian-journalists-in-the-health-emergency
-    topic:
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 1PwAmkuVJBwILQ6PSt4mKO
-        created_at: !ruby/object:DateTime 2020-07-28 23:42:49.821000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-29 00:41:39.043000000 Z
-      title: 'Image from the #SOSperiodistas (#SOSjournalists) campaign'
-      description: '"PRESS WORKERS NEED HELP," says this image in Spanish presenting
-        the campaign to support media workers during the pandemic. Image from the
-        Fundamedios website. '
-      url: "//images.ctfassets.net/g118h5yoccvd/1PwAmkuVJBwILQ6PSt4mKO/9efa3d73804dbee510982756c9eab143/Screen_Shot_2020-07-28_at_20.42.02.png"
-    body: "The city of Guayaquil was the epicenter of the pandemic in Ecuador with
-      scenes of [caskets and bodies laid out](https://www.washingtonpost.com/world/the_americas/coronavirus-guayaquil-ecuador-bodies-corpses-streets/2020/04/03/79c786c8-7522-11ea-ad9b-254ec99993bc_story.html
-      \"Bodies lie in the streets of Guayaquil, Ecuador, emerging epicenter of the
-      coronavirus in Latin America\") and abandoned by their families on the streets
-      moved by despair and lack of government infra-structure to handle the disease.
-      It was the first country in  Latin America to showcase how emerging countries
-      would look like when hit by COVID-19.\n\nMeedan supports the Ecuadorian journalism
-      community statement demanding [better working](https://twitter.com/ChicasPoderEC/status/1249746048827957251)
-      conditions for journalists covering COVID-19 in Ecuador from media news outlets
-      and the [Inter-institutional Committee for the Protection of Journalists and
-      Communication Workers](https://www.fundamedios.org.ec/comite-periodistas-ecuador-emergencia-pandemia/
-      \"Demandamos respuesta del Comité Interinstitucional para la Protección de Periodistas
-      frente a emergencia en Ecuador\"). \n\nIsabel Gonzales from Chicas Poderosas
-      introduces in her article [\"The risks of covering the pandemic in Ecuador\"](https://medium.com/chicas-poderosas/los-riesgos-de-cubrir-la-pandemia-en-ecuador-fad831054013
-      \"The risks of covering the pandemic in Ecuador\") the devastating impact COVID-19
-      is having in the journalism community in the country, resulting in 9 deaths,
-      16 infections and 18 workers in cuarentine according to Fundamedios (data gathered
-      in April). \n\n20 organizations such as Fundamedios, Nos Faltan Tres (We Are
-      Missing Three), Periodistas sin Cadenas (Journalists without Chains), SOS Familias
-      Guayaquil, and Chicas Poderosas are united in this initiative and have also
-      started a [solidarity campaign](https://www.fundamedios.org.ec/emergencia-pandemia-fundamedios-periodistas/
-      \"Solidarity campaign for the journalists and their families\") to raise funds
-      to help with the minimal expenses for food and medicine for those who are in
-      the worst conditions at the moment. At the time this post is published [500
-      media workers (journalists, administration and print personel) have been laid
-      off](https://www.fundamedios.org.ec/alertas/edison-despido-medios-publicos/)
-      because of the downsizing of the public media company of Ecuador.\n\nWithout
-      official data and knowing the labor risks that are implied in journalism work,
-      Isabel Gonzalez and the team from Chicas Poderosas Ecuador [conducted a community
-      a survey](https://www.fes-ecuador.org/news-list/e/como-hacemos-periodismo-durante-la-pandemia/)
-      that sought to know the conditions of journalists covering Covid-19 in Ecuador.\n\nMeedan
-      thanks this initiative on its fundamental role in demanding better working conditions,
-      life and the improvement of journalists affected by the pandemic. We invite
-      others working on the information ecosystem to join us in supporting this initiative."
-    words_by:
-    - sys:
-        id: 57swkb0x1YLvhHB31YFb3U
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
