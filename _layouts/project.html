@@ -25,13 +25,13 @@ custom_js: sticky
                 <div class="nav-header">
                     Jump to
                 </div>
-                <div class="nav">
+                <nav class="nav">
                     <ul>
                         {% for section in page.sections %}
                            <li><a href="#{{ section.section_class | slugify }}">{{ forloop.index }}. {{ section.title }}</a></li>
                         {% endfor %}
                     </ul>
-                </div>
+                </nav>
             </div>
             {% endif %}
         </section>
