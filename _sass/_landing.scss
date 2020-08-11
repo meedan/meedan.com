@@ -101,7 +101,7 @@
 }
 
 .page-section .nav-header {
-	padding-top: $space-small;
+	padding-top: $space-small/2;
 	text-transform: uppercase;
 	font-size: .8rem;
 	font-weight: 700;
@@ -109,12 +109,26 @@
 }
 
 .page-section .nav-wrapper {
-	background-color: rgba($g0, 0.3);
+	background-color: #F7F7F7;
 	border-top: 1px solid $g0;
 	border-bottom: 1px solid $g0;
 	padding-left: $space-small;
 	padding-right: $space-small;
-	padding-bottom: $space-small;
+	padding-bottom: $space-small/2;
+	z-index: 99;
+}
+
+
+@include responsive('min-width: #{$width-tablet}') {
+	/* The sticky class is added to the header with JS when it reaches its scroll position */
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%
+	}
+	html {
+		scroll-padding-top: 6rem;
+	}
 }
 
 .page-section .nav ul {
@@ -141,9 +155,14 @@
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	border-bottom: 8px solid $g0;
+	transition: border 100ms ease-in-out;
 	&:hover {
 		border-bottom: 8px solid $green;
 	}
+}
+
+.page-section .nav .active a {
+	border-bottom: 8px solid $green;
 }
 
 .page-section .about-report.columns {

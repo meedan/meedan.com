@@ -1,3 +1,6 @@
+---
+custom_js: sticky
+---
 <!DOCTYPE html>
 <html>
 {% include head_annual_report.html %}
@@ -18,17 +21,17 @@
         </div>
         <section class="precontent">
             {% if page.sections %}
-            <div class="nav-wrapper">
+            <div id="pageNav" class="nav-wrapper">
                 <div class="nav-header">
                     Jump to
                 </div>
-                <div class="nav">
+                <nav class="nav">
                     <ul>
                         {% for section in page.sections %}
                            <li><a href="#{{ section.section_class | slugify }}">{{ forloop.index }}. {{ section.title }}</a></li>
                         {% endfor %}
                     </ul>
-                </div>
+                </nav>
             </div>
             {% endif %}
         </section>

@@ -3,17 +3,30 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-10 21:16:33.741000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-11 22:34:59.905000000 Z
     content_type_id: moduleEvents
-    revision: 36
+    revision: 38
   title: Upcoming Events
   events:
   - sys:
       id: 1OJsbxLjUieBF80RqPgy3U
       created_at: !ruby/object:DateTime 2020-08-09 14:36:57.335000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-10 20:15:43.005000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-10 21:17:40.974000000 Z
       content_type_id: event
-      revision: 5
+      revision: 6
+      space:
+        sys:
+          id: g118h5yoccvd
+      type: Entry
+      content_type:
+        sys:
+          id: event
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      locale: en-US
     title: Misinfodemia on COVID-19 and women with Dr. Roopan Gill
     event_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
     event_end_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
@@ -27,12 +40,12 @@ moduleEvents:
       - *Manila* 2:30am (+1)
     images:
     - sys:
-        id: 4dleBNn9M44Ny3Qj19OVTS
-        created_at: !ruby/object:DateTime 2020-07-16 18:49:25.000000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-16 18:51:45.277000000 Z
-      title: Misinfodemia on IG Live
+        id: 6UM4uQWvHAOZKmqzyeveOv
+        created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4dleBNn9M44Ny3Qj19OVTS/821599e1f9d7f1663a66e75339df6dcc/meedan_iglive_july-9_01.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
     long_description: "Join Dr. Seema Yasmin in conversation with Dr. Roopan Gill.
       This episode of Misinfodemia is going to touch on COVID-19's specific impact
       on women around the world. Dr. Gill is a clinician-researcher that co-founded
@@ -41,12 +54,28 @@ moduleEvents:
       experience in Yemen and research work in Venezuela.\n\nJoin us [at @heymeedan](https://www.instagram.com/heymeedan/)
       on Instagram on Monday, Aug. 10, 2020! "
     slug: misinfodemia-with-dr-roopan-gill
+    event_date_string: '2020-08-10'
+    event_end_date_string: '2020-08-10'
+    image: https://images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png
   - sys:
       id: 5aPiXJnPHAmnOetCPdREJM
       created_at: !ruby/object:DateTime 2020-08-04 22:15:52.298000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-09 14:43:17.149000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-11 22:40:12.223000000 Z
       content_type_id: event
       revision: 2
+      space:
+        sys:
+          id: g118h5yoccvd
+      type: Entry
+      content_type:
+        sys:
+          id: event
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      locale: en-US
     title: 'AAJA Fest: Verification on a Deadline'
     event_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
     event_end_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
@@ -73,6 +102,7 @@ moduleEvents:
       title: 'AAJA Fest: Verification on a Deadline'
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/uRk3GYxGK5r9xdQnWIpQW/47a868dd3a9df90b2e89d97717272fb0/meedan_aaja_2020_2.jpg"
+    location_human_friendly: For conference registrants only
     register_link: https://www.aaja20.org/registration
     description: "This workshop will show attendees how to verify information quickly
       and accurately with actionable tips and tricks. \n"
@@ -82,13 +112,28 @@ moduleEvents:
       accurate information they can use. This workshop will show attendees how to
       verify information quickly and accurately with actionable tips and tricks. \n"
     slug: aaja-fest-verification-on-a-deadline
-    non_public: true
+    event_date_string: '2020-08-12'
+    event_end_date_string: '2020-08-12'
+    image: https://images.ctfassets.net/g118h5yoccvd/231TZ41ni7GM7g4ZTV4FpV/b18cb136aa4b35f0527ec5f1b2951cb7/meedan_aaja_2020.png
   - sys:
       id: 4cocA1h2WYBNGRigL5e4Dg
       created_at: !ruby/object:DateTime 2020-08-03 23:21:36.406000000 Z
       updated_at: !ruby/object:DateTime 2020-08-06 19:40:13.025000000 Z
       content_type_id: event
       revision: 1
+      space:
+        sys:
+          id: g118h5yoccvd
+      type: Entry
+      content_type:
+        sys:
+          id: event
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      locale: en-US
     title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
     event_date: !ruby/object:DateTime 2020-09-03 00:00:00.000000000 Z
     event_end_date: !ruby/object:DateTime 2020-09-03 00:00:00.000000000 Z
@@ -133,3 +178,6 @@ moduleEvents:
       Anika Gupta is a digital thought leader whose research on online communities spans several industries. A former science and technology journalist, she's currently a senior product manager at The Atlantic. In 2019, she was honored as a member of the Online News Association's Women's Leadership Accelerator, a program that finds and trains women media leaders for roles as leaders in the industry. She has a Master's degree in comparative media studies from the Massachusetts Institute of Technology and a bachelor's degree in journalism from the Medill School of Journalism at Northwestern University. Her journalistic work has appeared online in Smithsonian, Fortune, The Guardian, and elsewhere.
     slug: book-talk-how-to-handle-a-crowd-with-author-anika-gupta
     non_public: false
+    event_date_string: '2020-09-03'
+    event_end_date_string: '2020-09-03'
+    image: https://images.ctfassets.net/g118h5yoccvd/5T2jF057tCsfnFc8lNPtc9/6db9d459c3327f71d550ad5634717d0d/meedan_webinar_anika-gupta_book_01.jpg

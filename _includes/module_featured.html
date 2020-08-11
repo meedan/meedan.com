@@ -1,68 +1,74 @@
 {% capture current_date %}{{ site.time | convert_to_date }}{% endcapture %}
 <!-- Get list of handpicked events -->
-{% assign events = site.data.contentful.spaces.moduleEvents.moduleEvents 
+{% assign list = site.data.contentful.spaces.moduleEvents.moduleEvents 
     | where_exp: "item","item.sys.id == '8cg57tenBbCxgUBQxJYss'"
 %}
 
-{% if events[0].events.size != 0 %}
-<section class="module module-featured {% if events[0].events.size >= 2 %} module-featured-2 {% endif %}section-margin">
-    {% if events[0].title %}
-    <h3 class="section-title">● <a href="/events" title="{{ events[0].title }}">{{ events[0].title }}</a></h3>
+{% assign events = list[0].events 
+    | where_exp: "item","item.event_end_date_string >= current_date"
+%}
+
+{% if events.size != 0 %}
+<section class="module module-featured {% if events.size >= 2 %} module-featured-2 {% endif %}section-margin">
+    {% if list[0].title %}
+    <h3 class="section-title">● <a href="/events" title="{{ list[0].title }}">{{ list[0].title }}</a></h3>
     {% endif %}
     <div class="module-wrapper">
-        {% if events[0].events.size == 1 %}
-            {% for event in events[0].events %}
-            
-                <a href="/events/{{ event.slug }}" class="event-item event-item-wide event-item-featured">
-                    <div class="details">
-                        <div class="date">
-                            <span class="month">{{ event.event_date | date: '%B' }}</span>
-                            <span class="day">{{ event.event_date | date: '%d' }}</span>
-                        </div>
-                        <div class="event-title-wrapper">
-                            <div class="event-title">
-                                {{ event.title }}
-                            </div>
-                            <div class="event-meta">
-                                <span>{{ event.location_human_friendly }}</span>
-                            </div>
-                        </div>
-                    </div>
-                    {% if event.images.size != 0 %}
-                        {% for image in event.images %}
-                            <picture class="image-container">
-                                <img src="{{ image.url }}" alt="{{ image.title }}"/>
-                            </picture>
-                        {% endfor %}
-                    {% endif %}
-                </a>
-        
-            {% endfor %}
-        {% elsif events[0].events.size >= 2 %}
-            {% for event in events[0].events limit: 2 %}
-                
-                <a href="/events/{{ event.slug }}" class="event-item event-item-half">
-                    <div class="details">
-                        <div class="date">
-                            <span class="month">{{ event.event_date | date: '%B' }}</span>
-                            <span class="day">{{ event.event_date | date: '%d' }}</span>
-                        </div>
-                        <div class="event-title-wrapper">
-                            <div class="event-title">
-                                {{ event.title }}
-                            </div>
-                        </div>
-                    </div>
-                    <picture class="image-container">
-                        {% if event.images[1].url %}
-                            <img src="{{ event.images[1].url }}" alt="{{ image.title }}"/>
-                        {% elsif event.images[0].url %}
-                            <img src="{{ event.images[0].url }}" alt="{{ image.title }}"/>
-                        {% endif %}
-                    </picture>
-                </a>
+        {% if events.size == 1 %}
 
-            {% endfor %}    
+        {% for event in events %}
+
+        <a href="/events/{{ event.slug }}" class="event-item event-item-wide event-item-featured">
+            <div class="details">
+                <div class="date">
+                    <span class="month">{{ event.event_date | date: '%B' }}</span>
+                    <span class="day">{{ event.event_date | date: '%d' }}</span>
+                </div>
+                <div class="event-title-wrapper">
+                    <div class="event-title">
+                        {{ event.title }}
+                    </div>
+                    <div class="event-meta">
+                        <span>{{ event.location_human_friendly }}</span>
+                    </div>
+                </div>
+            </div>
+            {% if event.images.size != 0 %}
+            {% for image in event.images %}
+            <picture class="image-container">
+                <img src="{{ image.url }}" alt="{{ image.title }}" />
+            </picture>
+            {% endfor %}
+            {% endif %}
+        </a>
+
+        {% endfor %}
+        {% elsif events.size >= 2 %}
+
+        {% for event in events limit: 2 %}
+
+        <a href="/events/{{ event.slug }}" class="event-item event-item-half">
+            <div class="details">
+                <div class="date">
+                    <span class="month">{{ event.event_date | date: '%B' }}</span>
+                    <span class="day">{{ event.event_date | date: '%d' }}</span>
+                </div>
+                <div class="event-title-wrapper">
+                    <div class="event-title">
+                        {{ event.title }}
+                    </div>
+                </div>
+            </div>
+            <picture class="image-container">
+                {% if event.images[1].url %}
+                <img src="{{ event.images[1].url }}" alt="{{ image.title }}" />
+                {% elsif event.images[0].url %}
+                <img src="{{ event.images[0].url }}" alt="{{ image.title }}" />
+                {% endif %}
+            </picture>
+        </a>
+
+        {% endfor %}
         {% endif %}
     </div>
 </section>
