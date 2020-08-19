@@ -1543,9 +1543,9 @@ event:
 - sys:
     id: 5aPiXJnPHAmnOetCPdREJM
     created_at: !ruby/object:DateTime 2020-08-04 22:15:52.298000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-11 22:40:12.223000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-11 22:41:42.066000000 Z
     content_type_id: event
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -1647,3 +1647,117 @@ event:
   event_date_string: '2020-08-10'
   event_end_date_string: '2020-08-10'
   image: https://images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png
+- sys:
+    id: Jz1U7jRnnKjFuZoGI9sYV
+    created_at: !ruby/object:DateTime 2020-08-12 15:30:49.588000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-12 19:59:51.136000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Misinfodemia: Science communications expert Jessica Malaty Rivera'
+  event_date: !ruby/object:DateTime 2020-08-17 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-08-17 00:00:00.000000000 Z
+  time: |-
+    - *Los Angeles* 12:00 pm
+    - *New York* 3:00 pm
+    - *São Paulo* 4:00 pm
+    - *London* 8:00 pm
+    - *Nairobi* 10:00 pm
+    - *New Delhi* 12:30am (+1)
+    - *Manila* 3:00 am (+1)
+  images:
+  - sys:
+      id: 6UM4uQWvHAOZKmqzyeveOv
+      created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
+  description: Dr. Yasmin talks with Jessica Malaty Rivera.
+  long_description: Dr. Yasmin talks with Jessica Malaty Rivera. As a microbiologist
+    and science communication strategist, Jessica has dedicated the last 15 years
+    of her career to infectious disease epidemiology, public health policy, and vaccine
+    advocacy. She earned her MS in Emerging Infectious Diseases as well as a certificate
+    in Professional Management from Georgetown University. Her specialty is in translating
+    complex scientific concepts into impactful, judgement-free, and accessible information
+    for a diverse audience. Jessica has experience in science writing and editing,
+    digital engagement, brand marketing, grassroots campaigns, crisis communications,
+    regulatory milestones, and project management. With a diverse background in academia,
+    biotech, and healthcare public relations, Jessica has managed several teams and
+    multi-million dollar budgets.
+  slug: misinfodemia-science-communications-expert-jessica-malaty-rivera
+  event_date_string: '2020-08-17'
+  event_end_date_string: '2020-08-17'
+  image: https://images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png
+- sys:
+    id: 5ckTWJdeRaZny0zzrPT4pB
+    created_at: !ruby/object:DateTime 2020-08-12 19:35:58.143000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-12 19:55:29.738000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: '"Café com Quê" with Caio Almeida (Portuguese)'
+  event_date: !ruby/object:DateTime 2020-08-13 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-08-13 00:00:00.000000000 Z
+  time: |
+    - *San Francisco* 8am
+    - *New York* 11am
+    - *São Paolo* 12pm
+    - *London* 4pm
+    - *Nairobi* 6pm
+    - *Delhi* 8:30pm
+    - *Manila* 11pm
+  images:
+  - sys:
+      id: 7tA9DPuv3sZOnYkrjoFrGa
+      created_at: !ruby/object:DateTime 2020-08-12 19:37:40.439000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-12 19:38:36.446000000 Z
+    title: BláBláLogia 2020-08-12
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/7tA9DPuv3sZOnYkrjoFrGa/12a9bf88185723cabe9d161c63232c00/WhatsApp_Image_2020-08-12_at_15.46.03.jpeg"
+  social_card_image:
+    sys:
+      id: 7tA9DPuv3sZOnYkrjoFrGa
+      created_at: !ruby/object:DateTime 2020-08-12 19:37:40.439000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-12 19:38:36.446000000 Z
+    title: BláBláLogia 2020-08-12
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/7tA9DPuv3sZOnYkrjoFrGa/12a9bf88185723cabe9d161c63232c00/WhatsApp_Image_2020-08-12_at_15.46.03.jpeg"
+  location_human_friendly: https://www.youtube.com/channel/UC3Ooj_iDWELBumIEDejyNHQ
+  register_link: https://www.youtube.com/channel/UC3Ooj_iDWELBumIEDejyNHQ
+  description: At "Café com Quê" this Thursday, Meedan's Director of Engineering Caio
+    Almeida will talk about how fact-checking works, and how computing is helping
+    journalists worldwide. In Portuguese.
+  long_description: |-
+    At "Café com Quê" this Thursday, Meedan's Director of Engineering Caio Almeida will talk about how fact checking works, and how computing is helping journalists worldwide, from the Arab Spring to the COVID-19 pandemic (going through several elections), from India to Africa, from the Middle East to Brazil.
+
+    This event will be in Portuguese.
+  slug: cafe-com-que-com-2020
+  non_public: false
+  event_date_string: '2020-08-13'
+  event_end_date_string: '2020-08-13'
+  image: https://images.ctfassets.net/g118h5yoccvd/7tA9DPuv3sZOnYkrjoFrGa/12a9bf88185723cabe9d161c63232c00/WhatsApp_Image_2020-08-12_at_15.46.03.jpeg
