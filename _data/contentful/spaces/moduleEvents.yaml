@@ -3,118 +3,11 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-11 22:34:59.905000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-18 23:51:23.993000000 Z
     content_type_id: moduleEvents
-    revision: 38
+    revision: 41
   title: Upcoming Events
   events:
-  - sys:
-      id: 1OJsbxLjUieBF80RqPgy3U
-      created_at: !ruby/object:DateTime 2020-08-09 14:36:57.335000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-10 21:17:40.974000000 Z
-      content_type_id: event
-      revision: 6
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: Misinfodemia on COVID-19 and women with Dr. Roopan Gill
-    event_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
-    time: |-
-      - *Los Angeles* 12:00 pm
-      - *New York* 3:00pm
-      - *São Paulo* 3:00pm
-      - *London* 8:00 pm
-      - *Nairobi* 10:00 pm
-      - *New Delhi* 12:30am (+1)
-      - *Manila* 2:30am (+1)
-    images:
-    - sys:
-        id: 6UM4uQWvHAOZKmqzyeveOv
-        created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
-      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
-    long_description: "Join Dr. Seema Yasmin in conversation with Dr. Roopan Gill.
-      This episode of Misinfodemia is going to touch on COVID-19's specific impact
-      on women around the world. Dr. Gill is a clinician-researcher that co-founded
-      a not-for-profit Vitala Global, she is a technical consultant with WHO and a
-      field obstetrician and medical advisor with MSF Australia, she has clinical
-      experience in Yemen and research work in Venezuela.\n\nJoin us [at @heymeedan](https://www.instagram.com/heymeedan/)
-      on Instagram on Monday, Aug. 10, 2020! "
-    slug: misinfodemia-with-dr-roopan-gill
-    event_date_string: '2020-08-10'
-    event_end_date_string: '2020-08-10'
-    image: https://images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png
-  - sys:
-      id: 5aPiXJnPHAmnOetCPdREJM
-      created_at: !ruby/object:DateTime 2020-08-04 22:15:52.298000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-11 22:40:12.223000000 Z
-      content_type_id: event
-      revision: 2
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: 'AAJA Fest: Verification on a Deadline'
-    event_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
-    time: |-
-      - *Los Angeles* 11:30am
-      - *New York* 2:30pm
-      - *São Paulo* 3:30pm
-      - *London* 7:30pm
-      - *Nairobi* 9:30pm
-      - *New Delhi* 12:00am (+1)
-      - *Manila* 2:30am (+1)
-    images:
-    - sys:
-        id: 231TZ41ni7GM7g4ZTV4FpV
-        created_at: !ruby/object:DateTime 2020-08-06 19:40:55.726000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-06 19:43:01.858000000 Z
-      title: 'AAJA Fest: Verification on a Deadline'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/231TZ41ni7GM7g4ZTV4FpV/b18cb136aa4b35f0527ec5f1b2951cb7/meedan_aaja_2020.png"
-    - sys:
-        id: uRk3GYxGK5r9xdQnWIpQW
-        created_at: !ruby/object:DateTime 2020-08-06 19:42:48.407000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-06 19:42:59.810000000 Z
-      title: 'AAJA Fest: Verification on a Deadline'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/uRk3GYxGK5r9xdQnWIpQW/47a868dd3a9df90b2e89d97717272fb0/meedan_aaja_2020_2.jpg"
-    location_human_friendly: For conference registrants only
-    register_link: https://www.aaja20.org/registration
-    description: "This workshop will show attendees how to verify information quickly
-      and accurately with actionable tips and tricks. \n"
-    long_description: "The tactics and technology used by bad actors to misinform
-      the public are rapidly evolving. The growing volume of deepfakes, misinformation
-      and disinformation are challenging for journalists–and the public–to keep up
-      accurate information they can use. This workshop will show attendees how to
-      verify information quickly and accurately with actionable tips and tricks. \n"
-    slug: aaja-fest-verification-on-a-deadline
-    event_date_string: '2020-08-12'
-    event_end_date_string: '2020-08-12'
-    image: https://images.ctfassets.net/g118h5yoccvd/231TZ41ni7GM7g4ZTV4FpV/b18cb136aa4b35f0527ec5f1b2951cb7/meedan_aaja_2020.png
   - sys:
       id: 4cocA1h2WYBNGRigL5e4Dg
       created_at: !ruby/object:DateTime 2020-08-03 23:21:36.406000000 Z
@@ -181,3 +74,63 @@ moduleEvents:
     event_date_string: '2020-09-03'
     event_end_date_string: '2020-09-03'
     image: https://images.ctfassets.net/g118h5yoccvd/5T2jF057tCsfnFc8lNPtc9/6db9d459c3327f71d550ad5634717d0d/meedan_webinar_anika-gupta_book_01.jpg
+  - sys:
+      id: 3LM42KCh8jIEAxTk3fcyKF
+      created_at: !ruby/object:DateTime 2020-07-27 22:38:19.646000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-05 23:39:20.740000000 Z
+      content_type_id: event
+      revision: 4
+      space:
+        sys:
+          id: g118h5yoccvd
+      type: Entry
+      content_type:
+        sys:
+          id: event
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      locale: en-US
+    title: 'SwitchPoint 2020: The Global Fund Virtual Switchpoint Exchange'
+    event_date: !ruby/object:DateTime 2020-09-18 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-09-18 00:00:00.000000000 Z
+    time: 'We will update with more information soon! '
+    images:
+    - sys:
+        id: 6EM3DsbAAjda0dUqMVlfCW
+        created_at: !ruby/object:DateTime 2020-08-05 23:22:57.271000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-05 23:23:22.515000000 Z
+      title: meedan switchpoint 2020
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6EM3DsbAAjda0dUqMVlfCW/25b68da16d8f2499a81ab083a91384e0/meedan_switchpoint_2020.png"
+    - sys:
+        id: 4SJm0bhbsoCtrCKXekTBfC
+        created_at: !ruby/object:DateTime 2020-08-05 23:39:06.828000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-05 23:39:18.058000000 Z
+      title: meedan nat-nour
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4SJm0bhbsoCtrCKXekTBfC/39bcd37052de49921225c1c77da9a678/meedan_nat-nour.jpg"
+    location_human_friendly: 'On Zoom - Registration is open now! '
+    register_link: https://www.eventbrite.com/e/the-global-fund-virtual-switchpoint-exchange-the-future-we-want-tickets-112662271888
+    long_description: "IntraHealth International is reimagining SwitchPoint 2020,
+      a yearly global health, technology and innovation conference, in the wake of
+      COVID-19. Instead of in-person global events, we’re launching a series of Virtual
+      SwitchPoint Exchanges: online, creative, and highly interactive gatherings in
+      the style of SwitchPoint.\n\nThe first Virtual SwitchPoint Exchange will take
+      place September 18, 10am – 12:30pm EDT, in partnership with The Global Fund.
+      Youth Voices: The Future We Want will amplify the voices of young global health
+      leaders, including members of The Global Fund Youth Council, IntraHealth’s Family
+      Planning Youth Ambassador team, young advocacy and policy leaders, and extraordinary
+      artists such as Mikael Owunna, CJ Suitt, Culture Mill, and Kenyan acclaimed
+      musical artist Juliani. The Global Fund CEO Peter Sands, IntraHealth International
+      CEO Polly Dunford, and global specialists will join us as we focus on critical
+      global health needs even as countries respond to the COVID-19 pandemic. Registration
+      is free and open, though attendance will be capped to keep each section of the
+      event highly interactive. \n\nTwo members of the Meedan Digital Health Lab team,
+      Nat Gyenes and Nour Sharara, will be hosting a Misinfodemics workshop. "
+    slug: switchpoint-2020-the-global-fund-virtual-switchpoint-exchange
+    event_date_string: '2020-09-18'
+    event_end_date_string: '2020-09-18'
+    image: https://images.ctfassets.net/g118h5yoccvd/6EM3DsbAAjda0dUqMVlfCW/25b68da16d8f2499a81ab083a91384e0/meedan_switchpoint_2020.png
