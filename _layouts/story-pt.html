@@ -21,6 +21,7 @@ lang: pt
                     {{ page.updates.pt | markdownify }}
                 </div>
             {% endif %}
+            {% include story_actions.html %}
             {% include translations.html %}
             <div class="story-wrapper section-margin">
                 {{ page.body-pt | markdownify }}
