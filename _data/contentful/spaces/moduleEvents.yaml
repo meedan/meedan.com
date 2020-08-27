@@ -3,11 +3,71 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-18 23:51:23.993000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-25 22:37:08.416000000 Z
     content_type_id: moduleEvents
-    revision: 41
+    revision: 44
   title: Upcoming Events
   events:
+  - sys:
+      id: 8ld5rpcz8RSKdDqqudIBw
+      created_at: !ruby/object:DateTime 2020-08-24 23:13:56.980000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-24 23:28:01.483000000 Z
+      content_type_id: event
+      revision: 1
+      space:
+        sys:
+          id: g118h5yoccvd
+      type: Entry
+      content_type:
+        sys:
+          id: event
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      locale: en-US
+    title: 'Brazilian Free Software Association (ASLive Livre #4): Free software in
+      the context of misinformation'
+    event_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
+    time: |
+      - *San Francisco* 4:30pm
+      - *New York* 7:30pm
+      - *São Paulo* 8:30pm
+      - *London* 0:30am (+1)
+      - *Nairobi* 2:30am (+1)
+      - *Delhi* 5:00am (+1)
+      - *Manila* 7:30am (+1)
+    images:
+    - sys:
+        id: 3k1obMWRq41lCCS86LBXKC
+        created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
+      title: 'ASLive Livre #4'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
+    social_card_image:
+      sys:
+        id: 3k1obMWRq41lCCS86LBXKC
+        created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
+      title: 'ASLive Livre #4'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
+    location_human_friendly: 'YouTube: Lyseon Tech: https://www.youtube.com/watch?v=pV2WP9VZtf4'
+    register_link: https://www.youtube.com/watch?v=pV2WP9VZtf4
+    description: Meedan's Director of Engineering Caio Almeida joins live from Brazilian
+      Free Software Association to discuss the role of free software in the context
+      of misinformation (in Portuguese).
+    long_description: Meedan's Director of Engineering Caio Almeida joins live from
+      Brazilian Free Software Association to discuss the role of free software in
+      the context of misinformation (in Portuguese).
+    slug: brazilian-free-software-association-aslive-livre-4-free-software-in-the
+    non_public: false
+    event_date_string: '2020-08-25'
+    event_end_date_string: '2020-08-25'
+    image: https://images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg
   - sys:
       id: 4cocA1h2WYBNGRigL5e4Dg
       created_at: !ruby/object:DateTime 2020-08-03 23:21:36.406000000 Z

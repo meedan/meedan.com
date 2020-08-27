@@ -2019,9 +2019,9 @@ report:
 - sys:
     id: 7MQ5rF8CI1JCFyhvvfezeK
     created_at: !ruby/object:DateTime 2020-08-13 02:16:29.415000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-13 14:39:08.464000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-20 15:22:52.300000000 Z
     content_type_id: report
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -2043,7 +2043,7 @@ report:
     sys:
       id: 7xrAaHwf6cPc4M7OHn8gb4
       created_at: !ruby/object:DateTime 2020-08-13 03:38:18.725000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-13 05:55:05.272000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-20 15:22:26.697000000 Z
     title: Churches and the COVID-19 misinfodemic in South Korea
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/7xrAaHwf6cPc4M7OHn8gb4/84577e9813cb8df207e06da700227b75/south-korea.png"
@@ -2051,7 +2051,7 @@ report:
     sys:
       id: 79Qb4XpGv1rvoaxHnKfGC7
       created_at: !ruby/object:DateTime 2020-08-13 03:38:44.499000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-13 05:55:43.624000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-20 15:22:31.993000000 Z
     title: Churches and the COVID-19 misinfodemic in South Korea
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/79Qb4XpGv1rvoaxHnKfGC7/c00ec69f1c229d7e6efa026170aceaf3/meedan_report_covid-19-korea.png"
@@ -2147,14 +2147,37 @@ report:
     \"we are fully informing each religious facility about the dangers. We are asking
     them to recognize the severity of the situation and to adopt preventive measures
     as much as possible.\"\n"
+  alt_date: !ruby/object:DateTime 2020-08-20 00:00:00.000000000 Z
   author:
   - sys:
       id: 1SMJNVBnDuJPDRItwVdLrg
       created_at: !ruby/object:DateTime 2020-08-13 14:39:02.776000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-13 14:39:10.326000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-20 21:46:05.155000000 Z
       content_type_id: contributor
-      revision: 0
+      revision: 4
     name: Taeksoo Cho
+    bio: Mr. Cho is the news reporter at JTBC, which is one of the main broadcasting
+      companies in Korea. His coverage focuses on investigative reporting as well
+      as national disaster. After one year of the research in the University of Reno-Nevada,
+      he is currently working on the area of the digital strategy and coverage of
+      the media. Mr. Cho received his M.A. in Journalism and Mass Communication from
+      the University of Wisconsin, Madison. His undergraduate major is Education Sociology
+      from Korea University, Seoul, Korea.
+  - sys:
+      id: 3KjvkdV11QQA5ZylXuOkWu
+      created_at: !ruby/object:DateTime 2020-08-20 15:20:25.891000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-20 21:46:24.018000000 Z
+      content_type_id: contributor
+      revision: 3
+    name: Gi W Yun
+    staff: false
+    bio: Professor Yun is the director of Center for Advanced Media Studies at Reynolds
+      School of Journalism, University of Nevada, Reno. His research focuses on social
+      psychological aspects of media and communication. The topics of his publications
+      range from theories of communication, internet research methodology, social
+      media, health communication, agenda setting, newspaper’s community capital,
+      and social network analysis to big social media data analysis. He enjoys thinking
+      about tools and theories developed by media and communication scholars.
   publication:
   - sys:
       id: 2lQKVWqTIPTns0oj5UA78S
@@ -2210,9 +2233,9 @@ report:
     sys:
       id: 78KSqVjhG5uRVS8ckR7Sbu
       created_at: !ruby/object:DateTime 2020-08-13 03:39:44.551000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-13 03:40:15.732000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-20 15:22:46.457000000 Z
       content_type_id: color
-      revision: 0
+      revision: 1
     name: Light Navy
     value: "#7798FF"
     thumbnail:

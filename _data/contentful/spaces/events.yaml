@@ -1761,3 +1761,108 @@ event:
   event_date_string: '2020-08-13'
   event_end_date_string: '2020-08-13'
   image: https://images.ctfassets.net/g118h5yoccvd/7tA9DPuv3sZOnYkrjoFrGa/12a9bf88185723cabe9d161c63232c00/WhatsApp_Image_2020-08-12_at_15.46.03.jpeg
+- sys:
+    id: 7xehUgpnHSdiNztHs5juLD
+    created_at: !ruby/object:DateTime 2020-08-24 13:30:32.158000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-24 19:00:42.026000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Misinfodemia: Ershad Alijani'
+  event_date: !ruby/object:DateTime 2020-08-24 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-08-24 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 10am
+    - *New York* 1pm
+    - *São Paolo* 2pm
+    - *London* 6pm
+    - *Nairobi* 8pm
+    - *Delhi* 10:30pm
+    - *Manila* 1am
+  images:
+  - sys:
+      id: 6UM4uQWvHAOZKmqzyeveOv
+      created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
+  long_description: 'Ershad is an Iranian journalist and fact-checker living in Paris.
+    He works at France24 and  writes about the Middle East. Dr. Seema Yasmin will
+    interview Ershad about how COVID-19 misinformation impacts his reporting. '
+  slug: misinfodemia-ershad-alijani
+  event_date_string: '2020-08-24'
+  event_end_date_string: '2020-08-24'
+  image: https://images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png
+- sys:
+    id: 8ld5rpcz8RSKdDqqudIBw
+    created_at: !ruby/object:DateTime 2020-08-24 23:13:56.980000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-24 23:28:01.483000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Brazilian Free Software Association (ASLive Livre #4): Free software in
+    the context of misinformation'
+  event_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
+  time: |
+    - *San Francisco* 4:30pm
+    - *New York* 7:30pm
+    - *São Paulo* 8:30pm
+    - *London* 0:30am (+1)
+    - *Nairobi* 2:30am (+1)
+    - *Delhi* 5:00am (+1)
+    - *Manila* 7:30am (+1)
+  images:
+  - sys:
+      id: 3k1obMWRq41lCCS86LBXKC
+      created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
+    title: 'ASLive Livre #4'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
+  social_card_image:
+    sys:
+      id: 3k1obMWRq41lCCS86LBXKC
+      created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
+    title: 'ASLive Livre #4'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
+  location_human_friendly: 'YouTube: Lyseon Tech: https://www.youtube.com/watch?v=pV2WP9VZtf4'
+  register_link: https://www.youtube.com/watch?v=pV2WP9VZtf4
+  description: Meedan's Director of Engineering Caio Almeida joins live from Brazilian
+    Free Software Association to discuss the role of free software in the context
+    of misinformation (in Portuguese).
+  long_description: Meedan's Director of Engineering Caio Almeida joins live from
+    Brazilian Free Software Association to discuss the role of free software in the
+    context of misinformation (in Portuguese).
+  slug: brazilian-free-software-association-aslive-livre-4-free-software-in-the
+  non_public: false
+  event_date_string: '2020-08-25'
+  event_end_date_string: '2020-08-25'
+  image: https://images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg

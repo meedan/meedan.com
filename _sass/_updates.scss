@@ -1,0 +1,36 @@
+.module-updates .section-title {
+    margin-bottom: var(--space-2);
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    font-size: var(--scale-1);
+}
+
+.module-updates .module-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: var(--space-4);
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.update-grid-item a.tag {
+    display: inline-block;
+    font-family: $font-stack;
+    font-size: 0.778rem;
+    font-weight: 700;
+    letter-spacing: 0.044rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent);
+    background-color: var(--blackInk);
+    padding: 0.2rem 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.update-grid-item .title {
+    display: block;
+    font-size: var(--scale-0);
+}

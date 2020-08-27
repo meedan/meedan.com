@@ -1,0 +1,21 @@
+{% assign updates = site.data.contentful.spaces.moduleUpdates.moduleUpdates %}
+<section class="module module-updates section-margin">
+    <h3 class="section-title">● <a href="/events" title="{{ updates[0].title }}">{{ updates[0].title }}</a></h3>
+    <div class="module-wrapper">
+        {% for update in updates[0].updates | limit: 4 %}
+        <div class="update-grid-item">
+            <a href="{{ update.link }}" title="{{ update.title }}">
+                <picture class="image-container display--block">
+                    <img src="{{ update.image.url | url | append: '?fl=progressive&q=90' }}" alt="{{  update.image.title }}"/>
+                </picture>
+            </a>
+            <div class="title-container">
+                <a class="tag" href="{{ update.link }}">
+                    {{ update.tag }}
+                </a>
+                <a class="title" href="{{ update.link }}">{{ update.title }}</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
