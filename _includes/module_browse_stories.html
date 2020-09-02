@@ -12,15 +12,15 @@
     <div id="topic-{{topic.title | slugify }}">
     <div class="module-wrapper">
             {% assign stories = site.data.contentful.spaces.stories.story
-                | where_exp: "item","item.topic[0].sys.id == topic.sys.id" 
+                | where_exp: "item","item.topic.en-US[0].sys.id == topic.sys.id" 
                 | story_date_sort | reverse 
              %}
             {% for story in stories | limit: 3 %}
             <div class="story-grid-item">
                 <div class="title-container">
                     <a class="tag" href="/blog/{{ story.slug }}">
-                        {% for topic in story.topic %}
-                            {{ topic.title }} /
+                        {% for topic in story.topic.en-US %}
+                            {{ topic.title.en-US }} /
                         {% endfor %}
                     </a>
                     <a class="title" href="/blog/{{ story.slug }}">{{ story.title }}</a>

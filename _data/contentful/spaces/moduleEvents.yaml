@@ -3,75 +3,15 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-25 22:37:08.416000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-28 18:20:49.707000000 Z
     content_type_id: moduleEvents
     revision: 44
   title: Upcoming Events
   events:
   - sys:
-      id: 8ld5rpcz8RSKdDqqudIBw
-      created_at: !ruby/object:DateTime 2020-08-24 23:13:56.980000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-24 23:28:01.483000000 Z
-      content_type_id: event
-      revision: 1
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: 'Brazilian Free Software Association (ASLive Livre #4): Free software in
-      the context of misinformation'
-    event_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
-    time: |
-      - *San Francisco* 4:30pm
-      - *New York* 7:30pm
-      - *São Paulo* 8:30pm
-      - *London* 0:30am (+1)
-      - *Nairobi* 2:30am (+1)
-      - *Delhi* 5:00am (+1)
-      - *Manila* 7:30am (+1)
-    images:
-    - sys:
-        id: 3k1obMWRq41lCCS86LBXKC
-        created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
-      title: 'ASLive Livre #4'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
-    social_card_image:
-      sys:
-        id: 3k1obMWRq41lCCS86LBXKC
-        created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
-      title: 'ASLive Livre #4'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
-    location_human_friendly: 'YouTube: Lyseon Tech: https://www.youtube.com/watch?v=pV2WP9VZtf4'
-    register_link: https://www.youtube.com/watch?v=pV2WP9VZtf4
-    description: Meedan's Director of Engineering Caio Almeida joins live from Brazilian
-      Free Software Association to discuss the role of free software in the context
-      of misinformation (in Portuguese).
-    long_description: Meedan's Director of Engineering Caio Almeida joins live from
-      Brazilian Free Software Association to discuss the role of free software in
-      the context of misinformation (in Portuguese).
-    slug: brazilian-free-software-association-aslive-livre-4-free-software-in-the
-    non_public: false
-    event_date_string: '2020-08-25'
-    event_end_date_string: '2020-08-25'
-    image: https://images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg
-  - sys:
       id: 4cocA1h2WYBNGRigL5e4Dg
       created_at: !ruby/object:DateTime 2020-08-03 23:21:36.406000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-06 19:40:13.025000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-28 18:20:56.310000000 Z
       content_type_id: event
       revision: 1
       space:
@@ -113,6 +53,14 @@ moduleEvents:
       title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/jQN7vMI1reAShqXjpwrNw/cdbbedcdef4814fb81f3733afb84822d/meedan_webinar_anika-gupta_book_02.jpg"
+    social_card_image:
+      sys:
+        id: 216TSxxNfwOobx002hPyDd
+        created_at: !ruby/object:DateTime 2020-08-28 18:20:50.459000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-28 18:21:57.474000000 Z
+      title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/216TSxxNfwOobx002hPyDd/94b0acb90d315d429b6410dc5e942426/meedan_book-talk_sep-3_anita-gupta.jpg"
     location_human_friendly: Zoom Webinar
     register_link: https://meedan.zoom.us/webinar/register/WN_h26kTCHxRMCFPunBv-L8rg
     description: Join How to Handle a Crowd author Anika Gupta in conversation with
@@ -133,7 +81,7 @@ moduleEvents:
     non_public: false
     event_date_string: '2020-09-03'
     event_end_date_string: '2020-09-03'
-    image: https://images.ctfassets.net/g118h5yoccvd/5T2jF057tCsfnFc8lNPtc9/6db9d459c3327f71d550ad5634717d0d/meedan_webinar_anika-gupta_book_01.jpg
+    image: https://images.ctfassets.net/g118h5yoccvd/216TSxxNfwOobx002hPyDd/94b0acb90d315d429b6410dc5e942426/meedan_book-talk_sep-3_anita-gupta.jpg
   - sys:
       id: 3LM42KCh8jIEAxTk3fcyKF
       created_at: !ruby/object:DateTime 2020-07-27 22:38:19.646000000 Z

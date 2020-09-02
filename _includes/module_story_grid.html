@@ -1,7 +1,13 @@
 {% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse  %}
 {% assign count = include.count %}
 {% assign columns = include.columns | default: '2' %}
+
 <section class="module module-story-grid grid-template-columns--{{ columns }} section-margin">
+    {% if include.title %}
+        <h3 class="section-title">
+            {{ include.title }}
+        </h3>
+    {% endif %}
     <div class="module-wrapper">
         {% for story in stories | limit: count %}
         <div class="story-grid-item">
@@ -11,7 +17,9 @@
                         {{ topic.title.en-US }} /
                     {% endfor %}
                 </a>
-                <a class="title" href="/blog/{{ story.slug }}">{{ story.title-en }}</a>
+                <a class="title" href="/blog/{{ story.slug }}">
+                    {{ story.title-en }}
+                </a>
             </div>
             <a href="/blog/{{ story.slug }}">
                 <picture class="image-container display--block">

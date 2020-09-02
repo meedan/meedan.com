@@ -6286,10 +6286,10 @@ story:
   alt_date_string: '2020-08-26'
 - sys:
     id: 3ptFLVzVXiugIN7W5Pi89t
-    created_at: &21 !ruby/object:DateTime 2020-08-26 18:28:01.399000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-26 19:05:24.340000000 Z
+    created_at: !ruby/object:DateTime 2020-08-26 18:28:01.399000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-01 00:26:39.099000000 Z
     content_type_id: story
-    revision: 0
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -6304,46 +6304,56 @@ story:
         linkType: Environment
   title: 'A standard of care for health misinformation: lessons from Global Fact '
   slug: a-standard-of-care-for-health-misinformation-lessons-from-global-fact
-  body: "*__Foreword__*\n\nWritten by Peter Cunliffe-Jones \n\nWhen voters believe
-    false information about political events, they often have only one opportunity
-    every few years to act on it, and consequences can be hard to judge. When the
-    false information concerns health treatments or the conditions that cause a disease
-    to spread, the chances to act misguidedly can be unlimited and the consequences
-    can be life or death.\nWhen the International Fact-Checking Network (IFCN) agreed
-    last year to review our Code of Principles, we agreed the code should provide
-    a floor, not a ceiling, to standards in our field. In March 2020, the new and
-    updated code came into practice, agreed by IFCN signatories to subject our work
-    to assessment on the basis of a new raft of standards on methodology and use of
-    sources.\n\nThat is the floor. The IFCN of course wants our community to always
-    find ways to improve, and in no field does this matter more than health misinformation
-    – the topic that first fired my own interest in misinformation almost two decades
-    ago. Therefore we welcome this initiative to propose a set of best practices for
-    how we as fact-checkers can respond to health misinformation both effectively,
-    and safely, a standard of care, if you will, for those we serve: our readers,
-    viewers or listeners.\nThese proposed best practices are simply that. They are
-    not part of the IFCN Code but were developed following discussions at Global Fact
-    7, and we hope that fact-checkers everywhere will find ways to review, consider
-    and perhaps improve on them – reaching always to improve the important work we
-    do.\n\n\nA Standard of Care for Health Misinformation \n\nThe COVID-19 pandemic
-    sent rumour mills into a frenzy. The World Health Organization described it as
-    a massive infodemic, capable of drowning out reliable health guidance in an over-abundance
-    of opinion. From Argentina to South Africa we came across new home made remedies
-    about steam and salt water, and long-debunked allegations about vaccinations.
-    \n\nBut as fact-checkers know all too well, health misinformation is not a peculiarity
-    of the 2020s. From rumours in Northern Nigeria about polio vaccinations almost
-    two decades ago, to the more recent allegations that Zika and Ebola were made
-    by humans, there is a long history of health misinformation - in times of crises,
-    but also in the everyday. We all carry a myth passed down to us by a friend or
-    family member in the name of tradition, beauty, or propriety.\n\nThis year at
-    Global Fact, we (Olivia Vicol, Full Fact; Nat Gyenes, Meedan Digital Health Lab;
-    Eric Mugendi, PesaCheck, and Dr. Theresa Amobi, University of Lagos) brought our
-    reviews of academic evidence in conversation with fact checkers, with a view to
-    expand upon best practices for fact-checking Health Misinformation. We took main
-    lessons from psychology and health communication, and nuanced them with the insights
-    of over 30 fact checkers, journalists, and academics in attendance. The goal was
-    simple: develop a standard of care for health misinformation.\n\n((((((INSERT
-    IMAGE FROM BLOG DOC)\n\nCaption: Here is some of what participants brainstormed
-    together during the health misinformation workshop at Global Fact 7. \n\n__Production__\n\n__If
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
+  lead_image:
+    en-US:
+      sys:
+        id: 5phkcT9R6VtSwYibxGbUfJ
+        created_at: !ruby/object:DateTime 2020-08-31 20:19:31.323000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-31 21:43:20.317000000 Z
+      title: 'A standard of care for health misinformation: lessons from Global Fact '
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5phkcT9R6VtSwYibxGbUfJ/bf2aaabe0d2fbee5c55f73a2d11ca57f/meedan_standards-of-care.jpg"
+    description: 
+    title: 'A standard of care for health misinformation: lessons from Global Fact '
+    url: "//images.ctfassets.net/g118h5yoccvd/5phkcT9R6VtSwYibxGbUfJ/bf2aaabe0d2fbee5c55f73a2d11ca57f/meedan_standards-of-care.jpg"
+  body: "The COVID-19 pandemic sent rumour mills into a frenzy. The World Health Organization
+    described it as a massive infodemic, capable of drowning out reliable health guidance
+    in an over-abundance of opinion. From Argentina to South Africa we came across
+    new home made remedies about steam and salt water, and long-debunked allegations
+    about vaccinations. \n\nBut as fact-checkers know all too well, health misinformation
+    is not a peculiarity of the 2020s. From rumours in Northern Nigeria about polio
+    vaccinations almost two decades ago, to the more recent allegations that Zika
+    and Ebola were made by humans, there is a long history of health misinformation
+    - in times of crises, but also in the everyday. We all carry a myth passed down
+    to us by a friend or family member in the name of tradition, beauty, or propriety.\n\nThis
+    year at Global Fact, we (Olivia Vicol, Full Fact; Nat Gyenes, Meedan Digital Health
+    Lab; Eric Mugendi, PesaCheck, and Dr. Theresa Amobi, University of Lagos) brought
+    our reviews of academic evidence in conversation with fact checkers, with a view
+    to expand upon best practices for fact-checking Health Misinformation. We took
+    main lessons from psychology and health communication, and nuanced them with the
+    insights of over 30 fact checkers, journalists, and academics in attendance. The
+    goal was simple: develop a standard of care for health misinformation.\n\n![Global-Fact-7
+    brainstorm-on-misinformation](//images.ctfassets.net/g118h5yoccvd/1nHZhDB5dfrywS72JmodER/08d3cdce677407f39b763e4ff8196716/Global-Fact-7_brainstorm-on-misinformation.png)\n<p
+    class=\"caption\">Here is some of what participants brainstormed together during
+    the health misinformation workshop at Global Fact 7.</p>\n\n### Production\n\n__If
     a rumour is already in public debate, fact check it early to prevent it from getting
     traction through repetition.__ Ever since the 1940s psychologists have found that
     repetition contributes to belief. Our default is to trust, and in times of crisis
@@ -6373,13 +6383,13 @@ story:
     and public health guidelines shift based on the latest evidence. As much as you
     can communicate the fact that if something changes in a health context, it is
     actually a good thing, because it means that the public health community has stronger
-    evidence to point towards a more informed health policy decision.  \n\n__Headlines__\n\n__Phrase
+    evidence to point towards a more informed health policy decision.  \n\n### Headlines\n\n__Phrase
     your headlines as answers, not questions.__ In a time of incidental media consumption,
     headlines are often the only thing the public see. Simply phrasing a headline
     as a question risks having readers remember the inaccurate claim, instead of the
     debunk. This doesn’t just apply to health misinformation. It also applied to fact-checking
     more generally, and is of particular importance when the consequence of a fact-check
-    might be a change or modification in a health behavior.   \n\n__Content__\n\n__Don’t
+    might be a change or modification in a health behavior.   \n\n### Content\n\n__Don’t
     stop at saying what’s wrong.__ Tell the public what is right and why. The need
     to have an explanation for what happens and feel in control in our environment
     is part of human nature. Some of us find these explanations in science, religion,
@@ -6397,37 +6407,76 @@ story:
     Make sure that the context and imagery you include in your fact checks are necessary
     to your debunk. Remember that moving images (like gifs, videos, and sidebar adverts)
     are particularly distracting. If your fact check includes those details, ask yourself
-    what they add to the public’s understanding of the story.\n\n__Imagery__\n\n__Don’t
+    what they add to the public’s understanding of the story.\n\n### Imagery\n\n__Don’t
     use graphic imagery that may trigger fear or disgust__ of blood and needles. A
     study which looked at vaccine hesitancy around the world found that many people
     who experience this attitude towards vaccines are also disgusted by needles and
     blood. We haven’t come across research that looks specifically at how graphic
     imagery shapes the interpretation of health fact checks. But until we do, it seems
     wise to not make a case for vaccination, using the imagery associated with fear
-    of it.\n\n__Tone & Audience Engagement __\n\n__Emphasise high safety, not low
-    risk.__ Research reviewed by the WHO indicates that different framings of the
-    same fact can lead to very different risk perceptions and behaviours. Focusing
-    on the positive effects of an intervention, may be more effective than focusing
-    on the absence of negative effects. Think of the difference between saying: vaccines
-    save 3 million lives a year, and saying: only a very small number of people develop
-    side effects.\n\n__Don’t ridicule the claim.__ Provide a safe space for individuals
-    seeking health information or wanting to ask questions about health myths or beliefs.
-    It is essential for audiences to feel comfortable seeking information that might
-    correct long-standing beliefs related to their health or that of family members
-    - a deeply personal and important issue for us all. It’s essential that, as a
-    community of health information responders, we don’t use words like “crazy” or
-    “outlandish” to describe the myths that we correct. We need to reduce the stigma
-    of health information-seeking.  Further, even a completely inaccurate health claim
-    might have been shared with good intentions. It may have profound cultural or
-    religious implications. And most importantly, we don’t have any evidence that
-    humour is a more effective way of countering health misinformation than a neutral,
-    facts-based piece.\n\n\n____\n\nFor more information about research about effective
-    responses to health misinformation and building a standard of care: \n\nThe briefing
+    of it.\n\n### Tone & Audience Engagement\n\n__Emphasise high safety, not low risk.__
+    Research reviewed by the WHO indicates that different framings of the same fact
+    can lead to very different risk perceptions and behaviours. Focusing on the positive
+    effects of an intervention, may be more effective than focusing on the absence
+    of negative effects. Think of the difference between saying: vaccines save 3 million
+    lives a year, and saying: only a very small number of people develop side effects.\n\n__Don’t
+    ridicule the claim.__ Provide a safe space for individuals seeking health information
+    or wanting to ask questions about health myths or beliefs. It is essential for
+    audiences to feel comfortable seeking information that might correct long-standing
+    beliefs related to their health or that of family members - a deeply personal
+    and important issue for us all. It’s essential that, as a community of health
+    information responders, we don’t use words like “crazy” or “outlandish” to describe
+    the myths that we correct. We need to reduce the stigma of health information-seeking.
+    \ Further, even a completely inaccurate health claim might have been shared with
+    good intentions. It may have profound cultural or religious implications. And
+    most importantly, we don’t have any evidence that humour is a more effective way
+    of countering health misinformation than a neutral, facts-based piece.\n\n\n____\n\nFor
+    more information about research about effective responses to health misinformation
+    and building a standard of care: \n\n[The briefing](https://fullfact.org/media/uploads/en-tackling-health-misinfo.pdf)
     by Full Fact, Africa Check and Chequeado on the impacts of health misinformation
-    and solutions for addressing its impacts: https://fullfact.org/media/uploads/en-tackling-health-misinfo.pdf\n\nMeedan
-    Digital Health Lab’s primer on public health research frameworks and applying
-    health fact-checking to promote health equity: https://health.meedan.com/primer.pdf\n\n"
+    and solutions for addressing its impacts.\n\n[Meedan Digital Health Lab’s primer](https://health.meedan.com/primer.pdf)
+    on public health research frameworks and applying health fact-checking to promote
+    health equity."
+  words_by:
+    en-US:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+        created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Nat Gyenes
+      staff:
+        en-US: true
+      role:
+        en-US: Program Director, Digital Health Lab
+      location:
+        en-US: On the Road
+  alt_date: !ruby/object:DateTime 2020-08-31 00:00:00.000000000 Z
+  updates:
+    en-US: "__Foreword__\n\nWritten by Peter Cunliffe-Jones \n\nWhen voters believe
+      false information about political events, they often have only one opportunity
+      every few years to act on it, and consequences can be hard to judge. When the
+      false information concerns health treatments or the conditions that cause a
+      disease to spread, the chances to act misguidedly can be unlimited and the consequences
+      can be life or death.\nWhen the International Fact-Checking Network (IFCN) agreed
+      last year to review our Code of Principles, we agreed the code should provide
+      a floor, not a ceiling, to standards in our field. In March 2020, the new and
+      updated code came into practice, agreed by IFCN signatories to subject our work
+      to assessment on the basis of a new raft of standards on methodology and use
+      of sources.\n\nThat is the floor. The IFCN of course wants our community to
+      always find ways to improve, and in no field does this matter more than health
+      misinformation – the topic that first fired my own interest in misinformation
+      almost two decades ago. Therefore we welcome this initiative to propose a set
+      of best practices for how we as fact-checkers can respond to health misinformation
+      both effectively, and safely, a standard of care, if you will, for those we
+      serve: our readers, viewers or listeners.\n\nThese proposed best practices are
+      simply that. They are not part of the IFCN Code but were developed following
+      discussions at Global Fact 7, and we hope that fact-checkers everywhere will
+      find ways to review, consider and perhaps improve on them – reaching always
+      to improve the important work we do."
   date: '2020-08-26'
+  image: https://images.ctfassets.net/g118h5yoccvd/5phkcT9R6VtSwYibxGbUfJ/bf2aaabe0d2fbee5c55f73a2d11ca57f/meedan_standards-of-care.jpg
   title-en: 'A standard of care for health misinformation: lessons from Global Fact '
-  alt_date: *21
-  alt_date_string: '2020-08-26'
+  alt_date_string: '2020-08-31'
