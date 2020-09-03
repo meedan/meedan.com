@@ -1,42 +1,56 @@
 {% assign topics = site.data.contentful.spaces.topics.topic %}
+{% assign stories = site.data.contentful.spaces.stories.story
+    | story_date_sort | reverse 
+%}
+
+{% assign current_topic = stories[0].topic.en-US[0].title.en-US %}
+
+
 <section class="module module-story-grid module-browse grid-template-columns--3 section-margin">
     <div class="section-title">
         Stories about 
-        <select id="topic-select">
+        <select id="select-topic">
             {% for topic in topics %}
-                <option value="topic-{{topic.title | slugify }}">{{ topic.title }}</option>
+                {% if topic.title == current_topic %}
+                    <option value="topic-{{topic.title | slugify }}" data-id="{{ topic.title }}" selected>{{ topic.title }}</option>
+                {% else %}
+                    <option value="topic-{{topic.title | slugify }}" data-id="{{ topic.title }}">{{ topic.title }}</option>
+                {% endif %}
             {% endfor %}
+            <option value="topic-all">All topics</option>
         </select>
     </div>
-    {% for topic in topics %}
-    <div id="topic-{{topic.title | slugify }}">
-    <div class="module-wrapper">
-            {% assign stories = site.data.contentful.spaces.stories.story
-                | where_exp: "item","item.topic.en-US[0].sys.id == topic.sys.id" 
-                | story_date_sort | reverse 
-             %}
-            {% for story in stories | limit: 3 %}
-            <div class="story-grid-item">
-                <div class="title-container">
-                    <a class="tag" href="/blog/{{ story.slug }}">
-                        {% for topic in story.topic.en-US %}
-                            {{ topic.title.en-US }} /
+    <div class="topics">
+        {% for topic in topics %}
+            <div id="topic-{{topic.title | slugify }}" {% if topic.title == current_topic %} style="display:block"{% endif %}>
+                <div class="module-wrapper">
+                        {% assign stories = site.data.contentful.spaces.stories.story
+                            | where_exp: "item","item.topic.en-US[0].sys.id == topic.sys.id" 
+                            | story_date_sort | reverse 
+                         %}
+                        {% for story in stories | limit: 3 %}
+                        <div class="story-grid-item">
+                            <div class="title-container">
+                                <a class="tag" href="/blog/{{ story.slug }}">
+                                    {% for topic in story.topic.en-US %}
+                                        {{ topic.title.en-US }} /
+                                    {% endfor %}
+                                </a>
+                                <a class="title" href="/blog/{{ story.slug }}">{{ story.title-en }}</a>
+                            </div>
+                            <a href="/blog/{{ story.slug }}">
+                                <picture class="image-container">
+                                    <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+                                </picture>
+                            </a>
+                        </div>
                         {% endfor %}
-                    </a>
-                    <a class="title" href="/blog/{{ story.slug }}">{{ story.title }}</a>
+                    
                 </div>
-                <a href="/blog/{{ story.slug }}">
-                    <picture class="image-container">
-                        <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
-                    </picture>
-                </a>
             </div>
-            {% endfor %}
-        
+        {% endfor %}
     </div>
-</div>
-    {% endfor %}
     <div class="trail-wrapper">
-        <span class="trail"><hr /><a href="/blog" class="button no-margin">View all stories →</a></span>
+        <span class="trail"><hr /><a href="/blog/{{ current_topic }}" class="button no-margin">View all stories in {{ current_topic }} →</a></span>
     </div>
 </section>
