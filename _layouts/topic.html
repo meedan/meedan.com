@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="site blog topic">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include header.html %}
+        <section>
+            {% capture topic %}{{ page.topic }}{% endcapture %}
+            {% capture topic_id %}{{ page.sys.id }}{% endcapture %}
+            {% include module_story_grid.html columns="3" title=topic topic=topic_id %}
+            {% include footer_small.html %}
+        </section>
+    </div>
+    {% include js.html %}
+</body>
+
+</html>

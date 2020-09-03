@@ -1,4 +1,19 @@
-{% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse  %}
+{% if include.topic %}
+    {% 
+        assign stories = site.data.contentful.spaces.stories.story 
+        | where_exp: "item","item.topic.en-US[0].sys.id == include.topic" 
+        | sort: 'alt_date_string' 
+        | reverse  
+    %}
+{% else %}
+    {% 
+        assign stories = site.data.contentful.spaces.stories.story 
+        | sort: 'alt_date_string' 
+        | reverse  
+    %}
+{% endif %}
+
+
 {% assign count = include.count %}
 {% assign columns = include.columns | default: '2' %}
 

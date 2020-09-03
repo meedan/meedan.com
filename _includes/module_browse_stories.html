@@ -11,10 +11,10 @@
         Stories about 
         <select id="select-topic">
             {% for topic in topics %}
-                {% if topic.title == current_topic %}
-                    <option value="topic-{{topic.title | slugify }}" selected>{{ topic.title | downcase }}</option>
+                {% if topic.topic == current_topic %}
+                    <option value="topic-{{topic.topic | slugify }}" selected>{{ topic.topic | downcase }}</option>
                 {% else %}
-                    <option value="topic-{{topic.title | slugify }}">{{ topic.title | downcase }}</option>
+                    <option value="topic-{{topic.topic | slugify }}">{{ topic.topic | downcase }}</option>
                 {% endif %}
             {% endfor %}
             <option value="topic-all">All topics</option>
@@ -22,7 +22,7 @@
     </div>
     <div class="topics">
         {% for topic in topics %}
-            <div id="topic-{{topic.title | slugify }}" {% if topic.title == current_topic %} style="display:block"{% endif %}>
+            <div id="topic-{{topic.topic | slugify }}" {% if topic.topic == current_topic %} style="display:block"{% endif %}>
                 <div class="module-wrapper">
                         {% assign stories = site.data.contentful.spaces.stories.story
                             | where_exp: "item","item.topic.en-US[0].sys.id == topic.sys.id" 
@@ -51,6 +51,6 @@
         {% endfor %}
     </div>
     <div class="trail-wrapper">
-        <span class="trail"><hr /><a href="/blog/{{ current_topic }}" class="button no-margin">See more {{ current_topic | downcase }} stories →</a></span>
+        <span class="trail"><hr /><a href="/blog/{{ current_topic | downcase }}" class="button no-margin">See more {{ current_topic | downcase }} stories →</a></span>
     </div>
 </section>
