@@ -829,3 +829,97 @@ moduleStories:
     - sys:
         id: 4MK93CSrpmc3tFyE5MYEeh
     alt_date: !ruby/object:DateTime 2020-08-06 00:00:00.000000000 Z
+- sys:
+    id: 1qf28GnmtMod6WpWlpr68x
+    created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-03 05:08:24.204000000 Z
+    content_type_id: moduleStories
+    revision: 0
+  title: Featured Story
+  stories:
+  - sys:
+      id: 1yxbPy2yG6pcuiyVxbEwvk
+      created_at: !ruby/object:DateTime 2020-08-04 19:39:28.085000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-03 05:08:41.911000000 Z
+      content_type_id: story
+      revision: 2
+    title: Missing information, not just misinformation, is part of the problem
+    slug: missing-information-not-just-misinformation-is-part-of-the-problem
+    topic:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+    lead_image:
+      sys:
+        id: ibCBC7OBTotrdOgEn7qux
+        created_at: !ruby/object:DateTime 2020-08-04 19:43:11.394000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-05 22:59:08.256000000 Z
+      title: CC-BY Alexander von Halem
+      description: CC-BY Alexander von Halem
+      url: "//images.ctfassets.net/g118h5yoccvd/ibCBC7OBTotrdOgEn7qux/3ce5e93e765849a3acb553a640b2c969/8187244403_fca0d48f19_o.jpg"
+    description: 'As the world slowly starts to open up (or not), we''ve entered a
+      new pandemic stage: confusion.'
+    body: |-
+      As the world slowly starts to open up (or not), we've entered a new pandemic stage: confusion. Where once the most solid advice was simply to stay indoors and avoid others, we seem to be encountering a panoply of recommendations. Wash your hands. Masks aren't needed. Wear a mask. Stay six feet away. Actually, it might be airborne, so stay outside too. Take a test. Don't take a test, because supplies are limited.
+
+      In the world of public health, this liminal stage we find ourselves in --- moving past lockdown but nowhere near reaching either a social or medical endpoint to the pandemic --- is often the most dangerous for a disease's spread. In 1918, the city of San Francisco had the fewest reported cases of Spanish Flu in the country thanks to strict social distancing practices. The city and the people declared victory, emerged from lockdown, and returned to normal life. By the end of the year, the city had one of the worst infection and mortality rates in the US, [with 45,000 cases and more than 3,000 deaths](https://www.nbcnews.com/politics/politics-news/san-francisco-had-1918-flu-under-control-then-it-lifted-n1191141).
+
+      In the world of information trust, this liminal stage presents another threat: epistemic ambiguity. The usual model for misleading information is two fold: there's misinformation --- false information spread unintentionally --- and disinformation --- false information spread with the intent of harm. We've certainly seen this with COVID-19. [Misinfodemics](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/), the spread of false information that exacerbates the spread of disease, have erupted around [drinking bleach](https://arstechnica.com/science/2020/06/americans-are-drinking-bleach-and-dunking-food-in-it-to-prevent-covid-19/) or [methanol](https://www.aljazeera.com/news/2020/04/iran-700-dead-drinking-alcohol-cure-coronavirus-200427163529629.html), having immunity [based on race](https://www.bloomberg.com/news/articles/2020-03-14/no-black-people-aren-t-immune-to-covid-19), and countless other bits of misinformation, leading to hospitalizations and even deaths.
+
+      From a fact-checking perspective, this is relatively straightforward. Health professionals *know* bleach and methanol don't cure COVID-19. But the problem is in the murky areas, when fact-checking is being done in good faith but the extant body of knowledge is limited and evolving.
+
+      Take an example from this summer. In June, an official from the World Health Organization COVID-19 [caused significant public confusion](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/) by saying that asymptomatic spread of novel coronavirus is rare. [As Poynter's Al Tompkins wrote](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/), this statement could "light new fires among people who believe the entire COVID-19 pandemic has been overblown and that there was no need for stay-at-home orders that keep seemingly healthy people at home." The next day, the WHO issued a clarification: the researcher was referring to emergent data from a small set of studies.
+
+      So much more is being learned about the virus. We don't know right now if [people can be reinfected or not](https://learnaboutcovid19.org/questions/can-someone-get-reinfected-and-get-covid-19-a-second-time/#undefined). Experts are debating whether [there's airborne transmission](https://www.nature.com/articles/d41586-020-02058-1). We're still learning about [the role of vitamins](https://learnaboutcovid19.org/questions/does-vitamin-d-help-prevent-or-treat-covid-19/). And it's not just that we don't know --- it's that no one knows. Science hasn't caught up yet. Do we wear a mask or not wear a mask? It's obvious now that we should, but just a few months ago, even respected bodies like the WHO and CDC were [offering conflicting advice](https://abcnews.go.com/Health/cdc-offer-conflicting-advice-masks-expert-tells-us/story?id=70958380).
+
+      It turns out that the framework of mis- and disinformation has a basic assumption that doesn't always apply in the case of COVID-19: the idea that there might be a ground truth, somewhere, at some point, that someone might have in some situation. [As I've written before](https://www.niemanlab.org/2018/12/the-death-of-consensus-not-the-death-of-truth/), the process of consensus-making requires a negotiation of truth through trusted parties and sources (and therefore subject to the rules of trust, emotion and relatability).
+
+      But what if the information we're trying to discuss isn't known by anyone?
+
+
+      ## Midinformation: When knowledge stands in the middle, what do we do?
+
+      In the case of emerging knowledge, it might be helpful to think not just about misinformation but *mid*information. We know a little now, we'll know more later, and we may never know everything ever. In other words, information stands in the middle, and we're trying. Scientists are gaining some clarity, but it's going to take some time for scientific consensus to build, and for public understanding to catch up.
+
+      Midinformation, in other words, is the sort of information crisis that happens when not all the facts are known. In that vacuum of knowledge, all kinds of rumors, conspiracies, misunderstandings and misconceptions can emerge, because it's comforting to have an anchor that feels true and reliable.
+
+      **We might define midinformation as informational ambiguity based on scant or conflicting evidence, often about emerging scientific knowledge.** And the COVID-19 pandemic is rife with it. The usual media literacy course teaches basic things: vet your sources, look for corroborating evidence, [read laterally](https://webliteracy.pressbooks.com/chapter/what-reading-laterally-means/). But the phenomenon of midinformation requires new skills, for journalists, educators and all of us.
+
+      Here are some:
+
+      ### __Take a breather.__
+
+      This one's obvious, but in an attention economy, it's harder and harder to resist checking the news. Doomscrolling, as [WIRED writer Angela Watercutter](https://www.wired.com/story/stop-doomscrolling/) has pointed out, makes us *feel* better prepared for what's going on, but it might actually be hurting us.
+
+      > Right now, people are living at a time with no easy solutions, a moment with a lot of conflicting "facts" in a rapidly changing landscape. According to Nicole Ellison, who studies communication and social media at the University of Michigan's School of Information, that means there's a "lot of demand on cognitive processing to make sense of this. There's no overarching narrative that helps us." That, she adds, only compounds the stress and anxiety they're already feeling.
+
+      Watercutter points out that COVID-19 isn't a sprint; it's a marathon. We have to take care of our mental health, recognize when our attention to the news might be destructive, and to remember that resolution to the pandemic will take time, at the scale of years, not months or weeks. To curb my own doomscrolling habit, I've been reading books and putting my phone away before going to bed.
+
+      ### __We're doing science in public --- help people understand that.__
+
+      The experience of the WHO researcher reflects a reality for every public health researcher: there's often no data, and when there is data, it's not validated or vetted, and it might even be in conflict with other studies. The scientific method demands replicability of results, but this process can take months, if not years, far slower than a typical news cycle and certainly much slower than the lightning speed of viral media. "We're six months into a pandemic," she said in her public clarification. "There's a huge amount of research that is being done, but we don't have that full picture yet."
+
+      <p class="u-responsive-ratio">
+      <iframe class="youtube" src="https://www.youtube.com/embed/q89IUdracnw?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+      <p class="caption">Book Talk and Webinar: Keep Calm and Log On with author Gus Andrews</p>
+
+      In a recent conversation I had [with author Gus Andrews](https://www.keepcalmlogon.com/about-author-gillian-gus-andrews), I asked her about how we deal this. Because of significant scientific advances in the fields of physics, chemistry and astronomy, we're used to the idea of scientific consensus on key topics.
+
+      But this is a novel coronavirus, and we're doing science in public now, she said. That means heated debates, scant data, papers that haven't been subject to peer review, and all kinds of conversations usually limited to experts but now exposed to the public by the pandemic given the enormous interest in the topic. It's vital that we help each other along in understanding what a lack of scientific consensus looks like, and [how to navigate the waters of an infodemic](https://www.yalemedicine.org/stories/covid-19-infodemic/).
+
+      And remember to focus on what we do know: stay at home as much as possible, wear a mask if you go out, etc. It's important that we not let the inevitable confusion that arises from midinformation to in turn foster information nihilism.
+
+      ### __Bring audiences along on the journey.__
+
+      Here's what Gus had to say: "I wonder if we can give more people the feeling that they're part of the evolving discussion by encouraging them to keep listening and educating themselves on the latest narratives. Which maybe even unfolds like a podcast or other series, where there's value and a feeling of safety in becoming part of the community that keeps engaging. We're all learning, together, and we become stronger by doing so."
+
+      On the technical side, it's important to ensure our databases are updated regularly to ensure search results remain relevant not just by content but by time, that we have clear flags for emerging information that may change later by context or time, and that time stamps are clear and accurate. The [COVID-19 Expert Database team](https://learnaboutcovid19.org/) work regularly to ensure everything is up to date, circling back on key topics as the science evolves.
+
+      ### __Embrace ambiguity. It's what we've got.__
+
+      Medical doctors have a lot of perspective to offer during times of ambiguous and confusing situations. Many of us have personally received word from a doctor about a health condition that our doctor is still learning about, from a broken bone to cancer. Doctors have perfected the art of expressing uncertainty in a time when people seek certainty. Most cancer diagnoses come with caveats, qualifications and "we simply don't know."
+
+      Saying "I dont' know," as medical journalist Seema Yasmin regularly points out, is an important way for doctors to build trust. Somewhere between information nihilism and a blanket trust in unverified facts comes the harsh reality: we as a society have to accept and live with ambiguity for a significant amount of time. "We don't know yet, but check back in," is a tough pill to swallow, but it's the closest thing we have to truth right now for a lot of aspects of this disease, and it opens up audiences for an invitation to keeping checking in as we learn more.
+    words_by:
+    - sys:
+        id: 3LwmNUnWdLGIZbvPisgSL5
+    alt_date: !ruby/object:DateTime 2020-08-05 00:00:00.000000000 Z

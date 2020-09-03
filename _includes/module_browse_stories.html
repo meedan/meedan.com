@@ -12,9 +12,9 @@
         <select id="select-topic">
             {% for topic in topics %}
                 {% if topic.title == current_topic %}
-                    <option value="topic-{{topic.title | slugify }}" data-id="{{ topic.title }}" selected>{{ topic.title }}</option>
+                    <option value="topic-{{topic.title | slugify }}" selected>{{ topic.title | downcase }}</option>
                 {% else %}
-                    <option value="topic-{{topic.title | slugify }}" data-id="{{ topic.title }}">{{ topic.title }}</option>
+                    <option value="topic-{{topic.title | slugify }}">{{ topic.title | downcase }}</option>
                 {% endif %}
             {% endfor %}
             <option value="topic-all">All topics</option>
@@ -51,6 +51,6 @@
         {% endfor %}
     </div>
     <div class="trail-wrapper">
-        <span class="trail"><hr /><a href="/blog/{{ current_topic }}" class="button no-margin">View all stories in {{ current_topic }} →</a></span>
+        <span class="trail"><hr /><a href="/blog/{{ current_topic }}" class="button no-margin">See more {{ current_topic | downcase }} stories →</a></span>
     </div>
 </section>

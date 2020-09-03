@@ -5,7 +5,7 @@ $(document).ready(function() {
         var label = $('#select-topic option:selected').text().toLowerCase();
         $('.topics [id^="topic-"]').css('display', 'none');
         $('#'+target).css('display', 'block');
-        $('.module-browse .trail a').text('View all stories in ' + label + ' →');
+        $('.module-browse .trail a').text('See more ' + label + ' stories →');
         $('.module-browse .trail a').attr('href', '/blog/' + label);
     });
 
