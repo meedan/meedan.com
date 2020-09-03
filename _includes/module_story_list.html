@@ -3,14 +3,14 @@
 {% assign columns = include.columns | default: '2' %}
 <section class="module module-story-list section-margin">
     {% if include.title %}
-    <h3 class="section-title" id="calendar">
+    <h3 class="section-title no-margin">
         <a href="/blog/all">
             {{ include.title }}
         </a>
     </h3>
     {% endif %}
     <div class="module-wrapper">
-        {% for story in stories | limit: count %}
+        {% for story in stories | limit: count | offset: 4 %}
         <div class="story-list-item">
             <a class="tag" href="/blog/{{ story.slug }}">
                 {% for topic in story.topic.en-US | limit: 1 %}

@@ -430,6 +430,7 @@
 }
 
 .module-browse #select-topic {
+    font-family: 'Telegraf-Regular', Arial, Helvetica, sans-serif;
     appearance: none;
     background-color: transparent;
     background-image: url(/images/dropdown.svg);
@@ -444,6 +445,7 @@
     transition-property: background-image,color;
     transition-timing-function: ease-in-out;
     white-space: nowrap;
+    color: var(--blackInk);
     &:focus {
         min-width: 150px;
         width: auto;
@@ -483,6 +485,7 @@
     .date { 
         font-size: var(--scale-0);
         line-height: 1.2;
+        grid-column: span 2;
     }
 
     .title-container {
