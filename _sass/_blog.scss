@@ -424,7 +424,7 @@
     }
 }
 
-.module-browse #select-topic {
+#select-topic {
     font-family: 'Telegraf-Regular', Arial, Helvetica, sans-serif;
     appearance: none;
     background-color: transparent;
@@ -590,6 +590,10 @@
     direction: rtl;
 }
 
+// Topic pages
+
 .topic .section-title {
+    margin-top: var(--space-4);
     font-size: var(--scale-3);
+    text-align: center;
 }
