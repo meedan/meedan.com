@@ -832,94 +832,72 @@ moduleStories:
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
     created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-03 05:08:24.204000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-04 22:59:43.703000000 Z
     content_type_id: moduleStories
     revision: 0
   title: Featured Story
   stories:
   - sys:
-      id: 1yxbPy2yG6pcuiyVxbEwvk
-      created_at: !ruby/object:DateTime 2020-08-04 19:39:28.085000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-03 05:08:41.911000000 Z
+      id: 4Qi00kygRwhPWFHpbSGFp9
+      created_at: !ruby/object:DateTime 2020-06-16 12:51:20.313000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 15:56:10.835000000 Z
       content_type_id: story
-      revision: 2
-    title: Missing information, not just misinformation, is part of the problem
-    slug: missing-information-not-just-misinformation-is-part-of-the-problem
+      revision: 5
+    title: '25 grassroots projects awarded through the Check Global COVID-19 Fund '
+    slug: 25-grassroots-projects-awarded-through-the-check-global-covid-19-fund
     topic:
     - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
+        id: 2JV51Hja1BxcyGdNP5VID3
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
     lead_image:
       sys:
-        id: ibCBC7OBTotrdOgEn7qux
-        created_at: !ruby/object:DateTime 2020-08-04 19:43:11.394000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-05 22:59:08.256000000 Z
-      title: CC-BY Alexander von Halem
-      description: CC-BY Alexander von Halem
-      url: "//images.ctfassets.net/g118h5yoccvd/ibCBC7OBTotrdOgEn7qux/3ce5e93e765849a3acb553a640b2c969/8187244403_fca0d48f19_o.jpg"
-    description: 'As the world slowly starts to open up (or not), we''ve entered a
-      new pandemic stage: confusion.'
-    body: |-
-      As the world slowly starts to open up (or not), we've entered a new pandemic stage: confusion. Where once the most solid advice was simply to stay indoors and avoid others, we seem to be encountering a panoply of recommendations. Wash your hands. Masks aren't needed. Wear a mask. Stay six feet away. Actually, it might be airborne, so stay outside too. Take a test. Don't take a test, because supplies are limited.
+        id: 2WPIleyIUdrFnSOypreJGl
+        created_at: !ruby/object:DateTime 2020-06-16 12:52:09.463000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-16 23:52:28.354000000 Z
+      title: The floor of a farm full of ripen and unpicked pears
+      description: The floor of a farm full of ripen and unpicked pears and in the
+        middle of the picture the legs and feet of someone standing wearing pants
+        and sand. Photo courtesy of Ruda Coletiva. This picture is part of photographer
+        Wara Vargas's work related to the impact of COVID-19 in the food chain of
+        Latin America.
+      url: "//images.ctfassets.net/g118h5yoccvd/2WPIleyIUdrFnSOypreJGl/2cd5ed9de5f80ed8d24469555c204d10/Ruda05.jpg"
+    body: |
+      [As we've seen](https://misinforeview.hks.harvard.edu/article/using-misinformation-as-a-political-weapon-covid-19-and-bolsonaro-in-brazil/), health misinformation is escalating not only within Western democracies but also at a dangerous scale in emerging economies, where independent media workers and organizations have had to wade through financial, physical, and mental strain. As the Check Global team continued to monitor the ramifications of COVID-19 on emerging economies and independent media organizations, the need to act was undeniable.
 
-      In the world of public health, this liminal stage we find ourselves in --- moving past lockdown but nowhere near reaching either a social or medical endpoint to the pandemic --- is often the most dangerous for a disease's spread. In 1918, the city of San Francisco had the fewest reported cases of Spanish Flu in the country thanks to strict social distancing practices. The city and the people declared victory, emerged from lockdown, and returned to normal life. By the end of the year, the city had one of the worst infection and mortality rates in the US, [with 45,000 cases and more than 3,000 deaths](https://www.nbcnews.com/politics/politics-news/san-francisco-had-1918-flu-under-control-then-it-lifted-n1191141).
+      Meedan has engaged in a company-wide effort to address our partners' challenges, whether through building new technologies[ such as the COVID-19 Check Bot](https://meedan.com/blog/covid-19-whatsapp-bot-for-fact-checkers/), providing independent newsrooms and partners with [a database led by expert epidemiologists and public health workers](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/) to facilitate fact-checking and verification initiatives, or contributing to [global research](https://meedan.com/blog/global-misinfodemic-report/) about COVID-19-related misinformation. In the interest of reaching out to new organizations in need, the Check Global team announced on April 8 a call to [support media organizations and media workers in Asia-Pacific, in Africa, in Latin America and in the North Africa Western Asia region through a series of micro-grants.](https://meedan.com/blog/new-microgrants-for-covid-19-media-work-in-emerging-economies/) The microgrants projects ranged amongst fact-checking projects, media literacy campaigns and daily blogging reflecting on applicants' quarantine realities. We were blown away by the popularity of our call, receiving a whooping 298 applications in less than 30 days!
 
-      In the world of information trust, this liminal stage presents another threat: epistemic ambiguity. The usual model for misleading information is two fold: there's misinformation --- false information spread unintentionally --- and disinformation --- false information spread with the intent of harm. We've certainly seen this with COVID-19. [Misinfodemics](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/), the spread of false information that exacerbates the spread of disease, have erupted around [drinking bleach](https://arstechnica.com/science/2020/06/americans-are-drinking-bleach-and-dunking-food-in-it-to-prevent-covid-19/) or [methanol](https://www.aljazeera.com/news/2020/04/iran-700-dead-drinking-alcohol-cure-coronavirus-200427163529629.html), having immunity [based on race](https://www.bloomberg.com/news/articles/2020-03-14/no-black-people-aren-t-immune-to-covid-19), and countless other bits of misinformation, leading to hospitalizations and even deaths.
+      While overwhelming and heartening, the large pool of applications made the selection process challenging. A few criteria guided us in this process. Originality and the innovative nature of the application were  important factors in the selection. Some applications stood out for their creativity and clarity. Applications were also shortlisted on the basis of their achievability --- projects that proposed activities and outputs that could be realistically achieved during the current health crisis were prioritised. Finally, outreach and potential impact were also important factors. Projects that strengthened the involvement of underserved communities and represented issues of people in areas outside the radar of mainstream media made it to the final selection process. We had limited funding, but there are many applications that are deserving, and we hope to be able to support those projects at a later stage.
 
-      From a fact-checking perspective, this is relatively straightforward. Health professionals *know* bleach and methanol don't cure COVID-19. But the problem is in the murky areas, when fact-checking is being done in good faith but the extant body of knowledge is limited and evolving.
-
-      Take an example from this summer. In June, an official from the World Health Organization COVID-19 [caused significant public confusion](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/) by saying that asymptomatic spread of novel coronavirus is rare. [As Poynter's Al Tompkins wrote](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/), this statement could "light new fires among people who believe the entire COVID-19 pandemic has been overblown and that there was no need for stay-at-home orders that keep seemingly healthy people at home." The next day, the WHO issued a clarification: the researcher was referring to emergent data from a small set of studies.
-
-      So much more is being learned about the virus. We don't know right now if [people can be reinfected or not](https://learnaboutcovid19.org/questions/can-someone-get-reinfected-and-get-covid-19-a-second-time/#undefined). Experts are debating whether [there's airborne transmission](https://www.nature.com/articles/d41586-020-02058-1). We're still learning about [the role of vitamins](https://learnaboutcovid19.org/questions/does-vitamin-d-help-prevent-or-treat-covid-19/). And it's not just that we don't know --- it's that no one knows. Science hasn't caught up yet. Do we wear a mask or not wear a mask? It's obvious now that we should, but just a few months ago, even respected bodies like the WHO and CDC were [offering conflicting advice](https://abcnews.go.com/Health/cdc-offer-conflicting-advice-masks-expert-tells-us/story?id=70958380).
-
-      It turns out that the framework of mis- and disinformation has a basic assumption that doesn't always apply in the case of COVID-19: the idea that there might be a ground truth, somewhere, at some point, that someone might have in some situation. [As I've written before](https://www.niemanlab.org/2018/12/the-death-of-consensus-not-the-death-of-truth/), the process of consensus-making requires a negotiation of truth through trusted parties and sources (and therefore subject to the rules of trust, emotion and relatability).
-
-      But what if the information we're trying to discuss isn't known by anyone?
+      In this round, we awarded 25 projects with funding that ranged between $300 and $2,500, for a total of $52,000. From organisations involved in relief work around COVID-19 to individuals committed to tracking the impact of the pandemic on local communities, - the range of applications was wide, rich and diverse. Given the work they do, some of these grantees face risks of political repression, and we're not able to list all of them here. Here are some of the highlights from our work:
 
 
-      ## Midinformation: When knowledge stands in the middle, what do we do?
+      ### APAC: 7 Fact-checking projects targeting vulnerable groups
 
-      In the case of emerging knowledge, it might be helpful to think not just about misinformation but *mid*information. We know a little now, we'll know more later, and we may never know everything ever. In other words, information stands in the middle, and we're trying. Scientists are gaining some clarity, but it's going to take some time for scientific consensus to build, and for public understanding to catch up.
+      We received close to 40 applications from the Asia Pacific region.
 
-      Midinformation, in other words, is the sort of information crisis that happens when not all the facts are known. In that vacuum of knowledge, all kinds of rumors, conspiracies, misunderstandings and misconceptions can emerge, because it's comforting to have an anchor that feels true and reliable.
+      We selected seven applications for media work have been selected from the APAC region for the COVID-19 microgrants. These represent six countries in the region, with a particular focus on Southeast and South Asia --- Cambodia, the Philippines, Indonesia, Nepal, India and Sri Lanka. The creation of online content that is fact-checked and accurate has been an area around which a few groups have designed their projects. [Open Development Cambodia](https://opendevelopmentcambodia.net/) has designed a project to create an online information hub in order to provide fact-checked information to citizens and civil society organisations. In the Philippines, we are thrilled to support the work of an individual, Carol Dawonlay/[Lalang Hu Mga Laga](https://www.facebook.com/pg/storiesofwomencampaign/posts/) who will produce social media cards and videos to highlight violence against women during the pandemic. [BASAbali](https://basabali.org/) in Indonesia is in the process of designing a digital literacy campaign around COVID-19 with the underserved and minority communities in Bali.
 
-      **We might define midinformation as informational ambiguity based on scant or conflicting evidence, often about emerging scientific knowledge.** And the COVID-19 pandemic is rife with it. The usual media literacy course teaches basic things: vet your sources, look for corroborating evidence, [read laterally](https://webliteracy.pressbooks.com/chapter/what-reading-laterally-means/). But the phenomenon of midinformation requires new skills, for journalists, educators and all of us.
+      We're also happy to support [Disability Empowerment Society Nepal](https://www.facebook.com/DisabiltyEmp/); they have designed a project to create an accessible website to provide news and information on COVID-19 to people with disabilities. In India, [Sadbhavana Trust](http://sadbhavanatrust.org.in/) will strengthen the leadership and meaningful participation of young women from underserved communities in addressing the COVID-19 outbreak by creating online content from a feminist perspective. [International Youth Alliance for Peace](https://iyapsl.org/) in Sri Lanka will design a  blogging project to capture stories of frontline workers addressing the COVID-19 pandemic.
 
-      Here are some:
+      ### Africa: 6 efforts curbing the ramifications of the COVID-19 misinfodemic
 
-      ### __Take a breather.__
+      We were thrilled by the 170 applications we received from Africa, which made up the majority of our overall application pool. Due to our limited funds we were only able to support six  applications from Nigeria, Somalia, Kenya, Guinee, Tanzania, Zambia. Here are highlights from four of these.
 
-      This one's obvious, but in an attention economy, it's harder and harder to resist checking the news. Doomscrolling, as [WIRED writer Angela Watercutter](https://www.wired.com/story/stop-doomscrolling/) has pointed out, makes us *feel* better prepared for what's going on, but it might actually be hurting us.
+      [People's Check](http://www.peoplescheck.org/) in Nigeria is launching the 'Verify Nigeria' project to fact-check and verify viral health misinformation and disinformation that has affected people's health and life in Nigeria. People's Check will create different visual elements and participate in training students and citizen journalists on health fact-checking training. [Radio Daljir SOMALIA](https://www.daljir.com/) will support media literacy efforts in Somalia and design audio campaigns and radio reporting to bring health facts to the public, encourage COVID-19 prevention measures & make social distancing possible. Radio Daljir will target communities in Somalia's regions of Puntland and Galmudug States of Somalia with a focus on the situation of the nomads. [Zéro Pauvre Afrique (ZPA, "Zero Poor in Africa")](https://www.facebook.com/zeropauvreenafrique/) will track, deconstruct, disseminate misinfodemics with support of a network of volunteers in order to reduce their impact on the management of the COVID-19 crisis in Guinea.
 
-      > Right now, people are living at a time with no easy solutions, a moment with a lot of conflicting "facts" in a rapidly changing landscape. According to Nicole Ellison, who studies communication and social media at the University of Michigan's School of Information, that means there's a "lot of demand on cognitive processing to make sense of this. There's no overarching narrative that helps us." That, she adds, only compounds the stress and anxiety they're already feeling.
+      Family Welfare Foundation's project will contribute to ensuring engagement of human rights defenders and activists with local artists in documenting, information sharing, reporting and amplifying voices on injustice issues, human rights abuse and repressions associated to COVID-19 interventions in Tanzania.
 
-      Watercutter points out that COVID-19 isn't a sprint; it's a marathon. We have to take care of our mental health, recognize when our attention to the news might be destructive, and to remember that resolution to the pandemic will take time, at the scale of years, not months or weeks. To curb my own doomscrolling habit, I've been reading books and putting my phone away before going to bed.
+      We are building on the success of the COVID-19 microgrants to create different media funds in Africa that can support more innovative projects.
 
-      ### __We're doing science in public --- help people understand that.__
 
-      The experience of the WHO researcher reflects a reality for every public health researcher: there's often no data, and when there is data, it's not validated or vetted, and it might even be in conflict with other studies. The scientific method demands replicability of results, but this process can take months, if not years, far slower than a typical news cycle and certainly much slower than the lightning speed of viral media. "We're six months into a pandemic," she said in her public clarification. "There's a huge amount of research that is being done, but we don't have that full picture yet."
+      ### Latin America: Sustaining the work of 5 women-led independent media organizations
 
-      <p class="u-responsive-ratio">
-      <iframe class="youtube" src="https://www.youtube.com/embed/q89IUdracnw?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-      <p class="caption">Book Talk and Webinar: Keep Calm and Log On with author Gus Andrews</p>
+      We received 47 applications from Latin America in both Spanish and Portuguese. The majority of the 7 selected initiatives are led by women and are covering the impact of COVID-19 pandemic in their regions. [Coletivo Cirandeiras](https://www.instagram.com/cirandeiras/) will produce podcast episodes on the stories of women leaders in underrepresented and marginalized communities in Brazil. We will also be supporting the fact-checking work of an alliance of two independent media outlets in Cuba ([Periodismo de Barrio](https://www.periodismodebarrio.org/) and [elTOQUE](https://eltoque.com/)) to increase regional awareness in matters related to the pandemic. Another fact checking initiative [Eté Checagem](https://www.etechecagem.com/) agency works and specializes in human rights and guidelines relating to the women, youth and LGBTQIA population in Brazil. [Ruda Coletiva](https://rudacolectiva.com) a group of Latin America women photographers, will do a visual investigation of the impact that the pandemic has had in the food chain throughout the region. With the theme "From my window" [Coletivo Mulherias](https://mulherias.blogosfera.uol.com.br/) will coordinate a group of women journalists living in the slums of Brazil portraying their routine during the pandemic. In Ecuador we will hear [Isabel Gonzales and Chicas Poderosas ](https://www.instagram.com/chicaspoderosasec/)develop a new podcast that aims to inform and support the journalist community in Latin America suffering the consequences of COVID-19 in their work. And in El Salvador we will support the work of photographer [Giuzeppe Dezza](http://www.GDezza.net) and his work on documenting the impacts of the pandemic in the country.
 
-      In a recent conversation I had [with author Gus Andrews](https://www.keepcalmlogon.com/about-author-gillian-gus-andrews), I asked her about how we deal this. Because of significant scientific advances in the fields of physics, chemistry and astronomy, we're used to the idea of scientific consensus on key topics.
+      ### NAWA: Supporting 5 investigations and fact-checking initiatives
+      As for applications from the North Africa Western Asia region, we were lucky to receive 24 applications, both in English and Arabic.
 
-      But this is a novel coronavirus, and we're doing science in public now, she said. That means heated debates, scant data, papers that haven't been subject to peer review, and all kinds of conversations usually limited to experts but now exposed to the public by the pandemic given the enormous interest in the topic. It's vital that we help each other along in understanding what a lack of scientific consensus looks like, and [how to navigate the waters of an infodemic](https://www.yalemedicine.org/stories/covid-19-infodemic/).
+      We are pleased and excited to support five projects from the region, divided between media literacy campaigns, fact-checking initiatives and in-depth investigations. [Radio Medenine](http://radiomedenine.com/), a community radio project based in southern Tunisia, aims to create a digital health program interviewing health experts and providing pressing health information. Award-winning collaborative blog [Nawaat](http://nawaat.org/portail/) ("the core" in Arabic), also from Tunisia, will be sustaining its trilingual fact-checking efforts through our grant over the next month, while media platform [SyriaUntold](https://syriauntold.com/en/) will publish a series of investigative reports about health disparities in Syria. We were also happy to fund an investigation on the state of African refugees in Tangier and a health fact-checking campaign in Egypt.
 
-      And remember to focus on what we do know: stay at home as much as possible, wear a mask if you go out, etc. It's important that we not let the inevitable confusion that arises from midinformation to in turn foster information nihilism.
-
-      ### __Bring audiences along on the journey.__
-
-      Here's what Gus had to say: "I wonder if we can give more people the feeling that they're part of the evolving discussion by encouraging them to keep listening and educating themselves on the latest narratives. Which maybe even unfolds like a podcast or other series, where there's value and a feeling of safety in becoming part of the community that keeps engaging. We're all learning, together, and we become stronger by doing so."
-
-      On the technical side, it's important to ensure our databases are updated regularly to ensure search results remain relevant not just by content but by time, that we have clear flags for emerging information that may change later by context or time, and that time stamps are clear and accurate. The [COVID-19 Expert Database team](https://learnaboutcovid19.org/) work regularly to ensure everything is up to date, circling back on key topics as the science evolves.
-
-      ### __Embrace ambiguity. It's what we've got.__
-
-      Medical doctors have a lot of perspective to offer during times of ambiguous and confusing situations. Many of us have personally received word from a doctor about a health condition that our doctor is still learning about, from a broken bone to cancer. Doctors have perfected the art of expressing uncertainty in a time when people seek certainty. Most cancer diagnoses come with caveats, qualifications and "we simply don't know."
-
-      Saying "I dont' know," as medical journalist Seema Yasmin regularly points out, is an important way for doctors to build trust. Somewhere between information nihilism and a blanket trust in unverified facts comes the harsh reality: we as a society have to accept and live with ambiguity for a significant amount of time. "We don't know yet, but check back in," is a tough pill to swallow, but it's the closest thing we have to truth right now for a lot of aspects of this disease, and it opens up audiences for an invitation to keeping checking in as we learn more.
-    words_by:
-    - sys:
-        id: 3LwmNUnWdLGIZbvPisgSL5
-    alt_date: !ruby/object:DateTime 2020-08-05 00:00:00.000000000 Z
+      The above COVID-19 microgrants recipients have given Meedan consent to announce their projects publicly, while others have not been named for security reasons.

@@ -2,19 +2,21 @@
     | where_exp: "item","item.sys.id == '1qf28GnmtMod6WpWlpr68x'"
 %}
 {% for story in story_list[0].stories limit:1 %}
-    <a class="module module-featured-story section-margin" href="/blog/{{ story.slug }}">
+    <div class="module module-featured-story section-margin">
         <h2 class="title">
-            {{ story.title }}
+            <a class="" href="/blog/{{ story.slug }}">{{ story.title }}</a>
         </h2>
         <div class="lead">
             {% if story.description %}
-                {{ story.description }}
+                {{ story.description | markdownify }}
             {% else %}
-                {{ story.body | truncate: 200 }}
+                {{ story.body | truncate: 200 | markdownify }}
             {% endif %}
         </div>
         <picture class="image-container display--block">
-            <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+            <a class="" href="/blog/{{ story.slug }}">
+                <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+            </a>
         </picture>
-    </a>
+    </div>
 {% endfor %}

@@ -523,8 +523,8 @@
 }
 
 .module-featured-story .title {
-    grid-column: 4/10;
-    font-size: var(--scale-3);
+    grid-column: 3/11;
+    a { font-size: var(--scale-3); }
     margin-bottom: var(--space-1);
     align-self: center;
 }
