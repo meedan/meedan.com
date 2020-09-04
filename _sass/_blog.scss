@@ -414,8 +414,9 @@
 
 .module-browse .trail-wrapper {
     span {
-        margin: 0 auto;
+        
         @include responsive('min-width: #{$width-tablet}') {
+            margin: 0 auto;
             width: 40%;
         }
     }
@@ -594,6 +595,9 @@
 
 .topic .section-title {
     margin-top: var(--space-4);
-    font-size: var(--scale-3);
+    font-size: var(--scale-1);
+    @include responsive('min-width: #{$width-tablet}') {
+        font-size: var(--scale-3);
+    }
     text-align: center;
 }
