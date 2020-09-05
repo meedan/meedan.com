@@ -6,7 +6,7 @@ custom_js: topic
 <html dir="ltr" lang="en-US">
 {% include head.html %}
 
-<body class="site blog topic">
+<body class="site blog topic {{ page.topic | slugify }}">
     <a id="top"></a>
     <div class="page-wrapper">
         {% include post_header.html %}
