@@ -3,91 +3,11 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-16 18:28:40.555000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-16 19:07:11.545000000 Z
     content_type_id: moduleEvents
-    revision: 44
+    revision: 45
   title: Upcoming Events
   events:
-  - sys:
-      id: 4cocA1h2WYBNGRigL5e4Dg
-      created_at: !ruby/object:DateTime 2020-08-03 23:21:36.406000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-02 21:57:30.061000000 Z
-      content_type_id: event
-      revision: 4
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
-    event_date: !ruby/object:DateTime 2020-09-03 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-09-03 00:00:00.000000000 Z
-    time: |-
-      - *San Francisco* 8am
-      - *New York* 11am
-      - *São Paolo* 12pm
-      - *London* 4pm
-      - *Nairobi* 6pm
-      - *Delhi* 8:30pm
-      - *Manila* 11pm
-    images:
-    - sys:
-        id: 5T2jF057tCsfnFc8lNPtc9
-        created_at: !ruby/object:DateTime 2020-08-06 19:39:21.807000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-07 21:07:38.516000000 Z
-      title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5T2jF057tCsfnFc8lNPtc9/6db9d459c3327f71d550ad5634717d0d/meedan_webinar_anika-gupta_book_01.jpg"
-    - sys:
-        id: jQN7vMI1reAShqXjpwrNw
-        created_at: !ruby/object:DateTime 2020-08-06 19:39:36.920000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-06 19:40:06.838000000 Z
-      title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/jQN7vMI1reAShqXjpwrNw/cdbbedcdef4814fb81f3733afb84822d/meedan_webinar_anika-gupta_book_02.jpg"
-    social_card_image:
-      sys:
-        id: 216TSxxNfwOobx002hPyDd
-        created_at: !ruby/object:DateTime 2020-08-28 18:20:50.459000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-28 18:21:57.474000000 Z
-      title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/216TSxxNfwOobx002hPyDd/94b0acb90d315d429b6410dc5e942426/meedan_book-talk_sep-3_anita-gupta.jpg"
-    location_human_friendly: Zoom Webinar
-    register_link: https://meedan.zoom.us/webinar/register/WN_h26kTCHxRMCFPunBv-L8rg
-    description: Join How to Handle a Crowd author Anika Gupta in conversation with
-      Memes to Movements author An Xiao Mina about her new book, published by Tiller
-      Press.
-    long_description: |-
-      Don’t read the comments. Old advice, yet more relevant than ever. The tools we once hailed for their power to connect people and spark creativity can also be hotbeds of hate, harassment, and political division. Platforms like Facebook, YouTube, and Twitter are under fire for either too much or too little moderation. Creating and maintaining healthy online communities isn’t easy.
-
-      Over the course of two years of graduate research at MIT, former tech journalist and current product manager Anika Gupta interviewed moderators who’d worked on the sidelines of gamer forums and in the quagmires of online news comments sections. She’s spoken with professional and volunteer moderators for communities like Pantsuit Nation, Nextdoor, World of Warcraft guilds, Reddit, and FetLife.
-
-      [How to Handle a Crowd](https://bookshop.org/books/how-to-handle-a-crowd-the-art-of-creating-healthy-and-dynamic-online-communities/9781982132316) is the perfect book for anyone looking to take their small community group to the next level, start a career in online moderation, or tackle their own business’s comments section.
-
-      Join [How to Handle a Crowd](https://bookshop.org/books/how-to-handle-a-crowd-the-art-of-creating-healthy-and-dynamic-online-communities/9781982132316) author Anika Gupta in conversation with [Memes to Movements](https://www.penguinrandomhouse.com/books/567159/memes-to-movements-by-an-xiao-mina/) author An Xiao Mina about her new book, published by Tiller Press.
-
-      ### About the Author
-      Anika Gupta is a digital thought leader whose research on online communities spans several industries. A former science and technology journalist, she's currently a senior product manager at The Atlantic. In 2019, she was honored as a member of the Online News Association's Women's Leadership Accelerator, a program that finds and trains women media leaders for roles as leaders in the industry. She has a Master's degree in comparative media studies from the Massachusetts Institute of Technology and a bachelor's degree in journalism from the Medill School of Journalism at Northwestern University. Her journalistic work has appeared online in Smithsonian, Fortune, The Guardian, and elsewhere.
-
-      [Facebook Livestream](https://www.facebook.com/heymeedan)
-
-      [Twitter Livestream](https://www.periscope.tv/meedan/1eaKbzwrywBKX)
-
-      [YouTube Livestream](https://www.youtube.com/channel/UCKyn6nCR9fXFhDL-WeeyOzQ)
-    slug: book-talk-how-to-handle-a-crowd-with-author-anika-gupta
-    non_public: false
-    event_date_string: '2020-09-03'
-    event_end_date_string: '2020-09-03'
-    image: https://images.ctfassets.net/g118h5yoccvd/216TSxxNfwOobx002hPyDd/94b0acb90d315d429b6410dc5e942426/meedan_book-talk_sep-3_anita-gupta.jpg
   - sys:
       id: 3LM42KCh8jIEAxTk3fcyKF
       created_at: !ruby/object:DateTime 2020-07-27 22:38:19.646000000 Z
@@ -166,11 +86,11 @@ moduleEvents:
     event_end_date_string: '2020-09-18'
     image: https://images.ctfassets.net/g118h5yoccvd/6EM3DsbAAjda0dUqMVlfCW/25b68da16d8f2499a81ab083a91384e0/meedan_switchpoint_2020.png
   - sys:
-      id: 3In2LHDLyTwBG5gluWway3
-      created_at: !ruby/object:DateTime 2020-09-16 18:28:33.032000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-16 18:36:06.845000000 Z
+      id: 6PihB4DTbwNXChWKC7kyJu
+      created_at: !ruby/object:DateTime 2020-09-15 22:18:46.864000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 19:33:57.481000000 Z
       content_type_id: event
-      revision: 0
+      revision: 2
       space:
         sys:
           id: g118h5yoccvd
@@ -184,16 +104,101 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: Misinformation and Disinformation Regulation in the Context of a Public
-      Health Crisis
-    event_date: !ruby/object:DateTime 2020-09-04 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-09-06 00:00:00.000000000 Z
-    time: "Topic: Misinformation and Disinformation Regulation in the Context of a
-      Public Health Crisis\n\nDate: 19 Sep 2020 (Sat) - Day 2\n\nTime: 04:15-05:20
-      UTC\n\nParticipation Link: https://nma.asia/zoom\n\nMeeting ID: 823 170 951
-      \n\nModerator: Farhan Shahmi, NetMission Ambassador of class 2019-2020\n\nSpeakers:
-      \n- Prateek Waghre, The Takshashila Institution \n- Nat Gyenes, Meedan \n- Viviane
-      Vinagre, Uber Brasil (public policy intern) \n"
-    slug: misinformation-and-disinformation-regulation-in-the-context-of-a-public
-    event_date_string: '2020-09-04'
-    event_end_date_string: '2020-09-06'
+    title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access to
+      Information'
+    event_date: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
+    time: |-
+      - *Los Angeles* 7:00am
+      - *New York* 10:00am
+      - *São Paulo* 10:00am
+      - *London* 3:00pm
+      - *Cairo* 4:00pm
+      - *Delhi* 7:30pm
+      - *Manila* 10:00pm
+    images:
+    - sys:
+        id: 5dwxadh4LToVK5WnbMLxf3
+        created_at: !ruby/object:DateTime 2020-09-16 18:50:24.351000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-16 19:06:06.049000000 Z
+      title: Webinar Series Cover
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5dwxadh4LToVK5WnbMLxf3/3be3720e48aa0f46d6bb424f58b64a1f/meedan_webinar_three-newsrooms_01.jpg"
+    - sys:
+        id: 1Ii72yaRnM9oReD6QusQmi
+        created_at: !ruby/object:DateTime 2020-09-16 18:51:27.186000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-16 19:06:08.637000000 Z
+      title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access
+        to Information'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1Ii72yaRnM9oReD6QusQmi/3d97d8d7e10f80dc3b6c2d1ea96933ab/meedan_webinar_three-newsrooms_02.jpg"
+    social_card_image:
+      sys:
+        id: 2qkLFgEfWJc8Arj8qrAOs0
+        created_at: !ruby/object:DateTime 2020-09-16 19:04:00.817000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-16 19:06:11.569000000 Z
+      title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access
+        to Information'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg"
+    location_human_friendly: Online on Zoom
+    register_link: https://meedan.zoom.us/webinar/register/WN_FtwBvNJdTI6oFFbSYGkluQ
+    description: 'A Check Global Network Event: Join us as we bring together 3 independent
+      media organisations ensuring accessibility and diversity in their newsrooms
+      while working in challenging regional contexts.'
+    long_description: "Only when the cost of access to information is minimal in a
+      country can it give way to diverse and vibrant voices of the citizenry. Yet,
+      in many parts of the world, structural inequalities, opaque rules, lack of infrastructure
+      and resistance from authorities stand in the way. To understand this systemic
+      failure, it is important to break it down to a few key questions: Who seeks
+      information? Who is denied information? Which information is hidden or does
+      not exist? How costly and easy is the access?\n\nAs we observe the [International
+      Day for Universal Access to Information](https://en.unesco.org/commemorations/accesstoinformationday)
+      on September 28, it is important to acknowledge and learn from those who address
+      these questions on a daily basis. To mark this day, Meedan is hosting an online
+      event that brings together three innovative and independent newsrooms that are
+      led by women, are editorially independent and are uncovering stories of public
+      interest and importance in the emerging economies of Brazil, Egypt and India.\n\nThe
+      ability to scrutinise, hold power to account and provide a platform for debate
+      are roles that a free press and independent media can perform. Yet, governments
+      in several countries are stifling criticism by attacking independent media organisations.
+      These entities and media persons associated with them are at constant risk of
+      being persecuted for their reporting, harassed for holding power to account
+      and being starved of financial support. \n\nIn this context, we take a look
+      at how [Al-Manassa](https://almanassa.com/en) (Egypt), [Fiquem Sabendo](https://fiquemsabendo.com.br/)
+      (Brazil) and [Khabar Lahariya](https://khabarlahariya.org/) (India), three independent
+      media organisations are able to:\nensure independence, plurality and diversity
+      in their newsrooms while working in regions and contexts that are challenging\nbuild
+      trust with audiences and innovate constantly\nprovide access to information
+      for hard to reach communities\nbring a feminist voice and perspective to media
+      content \n\nJoin us in a conversation with the women who lead these organisations
+      — Nora Younis, Maria Vitoria Ramos and Disha Mullick — on September 28, 2020.
+      \n\n### About the Speakers \n__Disha Mullick__ is the CEO of [Chambal Media](https://chambalmedia.com/),
+      a company that produces media for rural audiences, with a unique rural feminist
+      voice. Chambal Media runs the iconic news brand, Khabar Lahariya, where women
+      from remote villages of north India are trained to be professional journalists
+      and produce local news in their languages, from their unique perspective. \n\n__Maria
+      Vitória Ramos__ is the co-founder and CEO of Fiquem Sabendo, a media startup
+      in Brazil keeping the powerful accountable. She was a reporter for Ponte Jornalismo,
+      exposing violations of Human Rights by the police and armed forces in Brazil
+      and is the author of \"Indigentes: the State that buries without warning\",
+      an investigative book that exposes the heartbreaking system that keeps families
+      looking for supposedly missing people for years when they have been buried by
+      the Brazilian government.\n\n__Nora Younis__ is the founder and chief editor
+      of Al-Manassa, a news outlet in Egypt. A rights activist and journalist, Younis
+      has also worked as managing editor at Al-Masry Al-Youm, a popular news daily
+      in Egypt. Recently Younis was at the receiving end of the government clamping
+      down on news organizations and was detained in the name of running a news website
+      without an operating license. \n\nThis event is part of the Check Global Network’s
+      series ‘Women, Media and the Pandemic’. Launched on May 5, 2020, Check Global
+      Network members are currently located in the Philippines, Indonesia, Pakistan,
+      Syria, Yemen, Western Sahara, Kenya, Zimbabwe and Mexico. As a community of
+      independent media, technology and human rights groups, the Check Global Network
+      plans to meet regularly to discuss solutions to challenges, to design collaborative
+      projects and to respond proactively to the needs of partners in emerging economies.\n\nFor
+      more information about joining the network, please write to us at <a href=\"checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
+      with a statement of interest."
+    slug: independent-innovative-and-feminist-three-newsrooms
+    event_date_string: '2020-09-28'
+    event_end_date_string: '2020-09-28'
+    image: https://images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg

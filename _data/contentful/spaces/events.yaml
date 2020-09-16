@@ -1900,9 +1900,9 @@ event:
 - sys:
     id: 6PihB4DTbwNXChWKC7kyJu
     created_at: !ruby/object:DateTime 2020-09-15 22:18:46.864000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-16 18:15:37.963000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-16 19:33:57.481000000 Z
     content_type_id: event
-    revision: 0
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -1929,12 +1929,30 @@ event:
     - *Manila* 10:00pm
   images:
   - sys:
-      id: 6tMZj2ch5bjK7FY9vV4P4u
-      created_at: !ruby/object:DateTime 2020-09-16 15:38:19.392000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-16 15:38:45.569000000 Z
-    title: nora+maria+disha
-    description: Our three speakers
-    url: "//images.ctfassets.net/g118h5yoccvd/6tMZj2ch5bjK7FY9vV4P4u/50cb37ef3c7bd0918d6f6aa5a6db70b1/nora_maria_disha.jpg"
+      id: 5dwxadh4LToVK5WnbMLxf3
+      created_at: !ruby/object:DateTime 2020-09-16 18:50:24.351000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 19:06:06.049000000 Z
+    title: Webinar Series Cover
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5dwxadh4LToVK5WnbMLxf3/3be3720e48aa0f46d6bb424f58b64a1f/meedan_webinar_three-newsrooms_01.jpg"
+  - sys:
+      id: 1Ii72yaRnM9oReD6QusQmi
+      created_at: !ruby/object:DateTime 2020-09-16 18:51:27.186000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 19:06:08.637000000 Z
+    title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access to
+      Information'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1Ii72yaRnM9oReD6QusQmi/3d97d8d7e10f80dc3b6c2d1ea96933ab/meedan_webinar_three-newsrooms_02.jpg"
+  social_card_image:
+    sys:
+      id: 2qkLFgEfWJc8Arj8qrAOs0
+      created_at: !ruby/object:DateTime 2020-09-16 19:04:00.817000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 19:06:11.569000000 Z
+    title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access to
+      Information'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg"
+  location_human_friendly: Online on Zoom
   register_link: https://meedan.zoom.us/webinar/register/WN_FtwBvNJdTI6oFFbSYGkluQ
   description: 'A Check Global Network Event: Join us as we bring together 3 independent
     media organisations ensuring accessibility and diversity in their newsrooms while
@@ -1945,15 +1963,15 @@ event:
     resistance from authorities stand in the way. To understand this systemic failure,
     it is important to break it down to a few key questions: Who seeks information?
     Who is denied information? Which information is hidden or does not exist? How
-    costly and easy is the access? \nAs we observe the [International Day for Universal
+    costly and easy is the access?\n\nAs we observe the [International Day for Universal
     Access to Information](https://en.unesco.org/commemorations/accesstoinformationday)
     on September 28, it is important to acknowledge and learn from those who address
     these questions on a daily basis. To mark this day, Meedan is hosting an online
     event that brings together three innovative and independent newsrooms that are
     led by women, are editorially independent and are uncovering stories of public
-    interest and importance in the emerging economies of Brazil, Egypt and India.
-    \nThe ability to scrutinise, hold power to account and provide a platform for
-    debate are roles that a free press and independent media can perform. Yet, governments
+    interest and importance in the emerging economies of Brazil, Egypt and India.\n\nThe
+    ability to scrutinise, hold power to account and provide a platform for debate
+    are roles that a free press and independent media can perform. Yet, governments
     in several countries are stifling criticism by attacking independent media organisations.
     These entities and media persons associated with them are at constant risk of
     being persecuted for their reporting, harassed for holding power to account and
@@ -1991,16 +2009,16 @@ event:
     in emerging economies.\n\nFor more information about joining the network, please
     write to us at <a href=\"checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
     with a statement of interest."
-  slug: independent-innovative-and-feminist-three-newsrooms-champion-access-to
+  slug: independent-innovative-and-feminist-three-newsrooms
   event_date_string: '2020-09-28'
   event_end_date_string: '2020-09-28'
-  image: https://images.ctfassets.net/g118h5yoccvd/6tMZj2ch5bjK7FY9vV4P4u/50cb37ef3c7bd0918d6f6aa5a6db70b1/nora_maria_disha.jpg
+  image: https://images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg
 - sys:
     id: 3In2LHDLyTwBG5gluWway3
     created_at: !ruby/object:DateTime 2020-09-16 18:28:33.032000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-16 18:36:06.845000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-16 18:37:51.724000000 Z
     content_type_id: event
-    revision: 0
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -2019,11 +2037,11 @@ event:
   event_date: !ruby/object:DateTime 2020-09-04 00:00:00.000000000 Z
   event_end_date: !ruby/object:DateTime 2020-09-06 00:00:00.000000000 Z
   time: "Topic: Misinformation and Disinformation Regulation in the Context of a Public
-    Health Crisis\n\nDate: 19 Sep 2020 (Sat) - Day 2\n\nTime: 04:15-05:20 UTC\n\nParticipation
-    Link: https://nma.asia/zoom\n\nMeeting ID: 823 170 951 \n\nModerator: Farhan Shahmi,
-    NetMission Ambassador of class 2019-2020\n\nSpeakers: \n- Prateek Waghre, The
-    Takshashila Institution \n- Nat Gyenes, Meedan \n- Viviane Vinagre, Uber Brasil
-    (public policy intern) \n"
+    Health Crisis\n\nDate: 19 Sep 2020 (Sat) - Day 2 of the Youth Internet Governance
+    Forum. \n\nTime: 04:15-05:20 UTC\n\nModerator: Farhan Shahmi, NetMission Ambassador
+    of class 2019-2020\n\nSpeakers: \n- Prateek Waghre, The Takshashila Institution
+    \n- Nat Gyenes, Meedan \n- Viviane Vinagre, Uber Brasil (public policy intern)
+    \n"
   slug: misinformation-and-disinformation-regulation-in-the-context-of-a-public
   event_date_string: '2020-09-04'
   event_end_date_string: '2020-09-06'

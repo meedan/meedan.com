@@ -18,6 +18,7 @@ custom_js: topic
             <div class="section-title">
                 Stories about 
                 <select id="select-topic" class="select-topic">
+                    <option value="topic-all" data-url="/blog/all" {% if page.slug == 'blog/all' %}selected{% endif %}>everything</option>
                     {% for topic in topics %}
                         {% if topic.topic == current_topic %}
                             <option value="topic-{{topic.topic | slugify }}" data-url="/blog/{{topic.topic | slugify }}" selected>{{ topic.topic | downcase }}</option>
@@ -25,7 +26,6 @@ custom_js: topic
                             <option value="topic-{{topic.topic | slugify }}" data-url="/blog/{{topic.topic | slugify }}">{{ topic.topic | downcase }}</option>
                         {% endif %}
                     {% endfor %}
-                    <!-- <option value="topic-all">All topics</option> -->
                 </select>
             </div>
             {% if page.path == 'pages/all_stories.html' %}
