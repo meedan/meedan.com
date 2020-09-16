@@ -15,6 +15,7 @@
                 </a>
                 <a class="title" href="{{ update.link }}">{{ update.title }}</a>
             </div>
+            <div class="date">{{ update.sys.created_at | date: "%-d %B %Y" }}</div>
         </div>
         {% endfor %}
     </div>

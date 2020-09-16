@@ -30,11 +30,6 @@
                         {% for story in stories | limit: 3 %}
                         <div class="story-grid-item">
                             <div class="title-container">
-                                <a class="tag" href="/blog/{{ story.slug }}">
-                                    {% for topic in story.topic.en-US %}
-                                        {{ topic.title.en-US }} /
-                                    {% endfor %}
-                                </a>
                                 <a class="title" href="/blog/{{ story.slug }}">{{ story.title-en }}</a>
                             </div>
                             <a href="/blog/{{ story.slug }}">
