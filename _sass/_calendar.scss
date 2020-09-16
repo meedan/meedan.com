@@ -117,8 +117,9 @@
 }
 
 .event-item-featured {
-    @include responsive('max-width: #{$width-mobile}') {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
