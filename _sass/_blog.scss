@@ -477,20 +477,38 @@
     }
     
     .tag,
-    a,
+    .title-container,
+    .image-container,
     .date { 
         font-size: var(--scale-0);
         line-height: 1.2;
         grid-column: span 2;
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            font-size: 1rem;
+        }
     }
 
     .title-container {
-        a { display: inline-block; }
-        grid-column: 3/10;
+        grid-column: 5/10;
+        a { 
+            font-size: var(--scale-0);
+            display: inline-block; 
+        }
+    }
+    .tag {
+        order: -1;
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            display: block;
+            margin-bottom: var(--space-1);
+        }
     }
 
     .date {
         grid-column: 11/-1;
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            margin-top: var(--space-1);
+            span { display: block; }
+        }
     }
 }
 

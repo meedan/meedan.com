@@ -29,9 +29,9 @@ custom_js: topic
                 </select>
             </div>
             {% if page.path == 'pages/all_stories.html' %}
-                {% include module_story_grid.html columns="3" %}
+                {% include module_story_list.html columns="3" %}
             {% else %}
-                {% include module_story_grid.html columns="3" topic=topic_id %}
+                {% include module_story_list.html columns="3" topic=topic_id %}
             {% endif %}
             {% include footer_small.html %}
         </section>

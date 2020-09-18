@@ -5118,9 +5118,9 @@ story:
 - sys:
     id: 77XtZxUTMsilrHnbjbuVcW
     created_at: !ruby/object:DateTime 2020-07-30 21:15:18.975000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-03 00:08:29.380000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 19:35:16.423000000 Z
     content_type_id: story
-    revision: 8
+    revision: 9
     space:
       sys:
         id: g118h5yoccvd
@@ -5514,9 +5514,9 @@ story:
 - sys:
     id: 2uGeBfzRSJYn8qx2lzzQis
     created_at: !ruby/object:DateTime 2020-08-06 17:38:46.782000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-03 00:06:53.335000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 19:36:17.568000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -6776,3 +6776,212 @@ story:
   image: https://images.ctfassets.net/g118h5yoccvd/7yu3pvm6ivohoCzFytmIdW/c4ac65e059f26ed6210af7c6f1c2effe/meedan_beirut-response-fund.jpg
   title-en: Meedan announces a Beirut Response Fund for independent media in Lebanon
   alt_date_string: '2020-09-14'
+- sys:
+    id: 2u4u08lDCEkeTriJ00cqfm
+    created_at: !ruby/object:DateTime 2020-09-18 18:53:15.848000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 21:58:34.301000000 Z
+    content_type_id: story
+    revision: 8
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Investigating civilian harm using open source intelligence on Meedan’s flagship
+    software, Check
+  slug: investigating-civilian-harm-using-open-source-intelligence-on-check
+  topic:
+    en-US:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Technology
+  lead_image:
+    en-US:
+      sys:
+        id: 5Yf1dxnpLLuuSUxOwykOsn
+        created_at: !ruby/object:DateTime 2020-09-18 19:29:55.361000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:34:48.241000000 Z
+      title: meedan tbji open-source-investigation
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5Yf1dxnpLLuuSUxOwykOsn/164691b8968de91e8b79a696cda9bea1/meedan_tbji_open-source-investigation.jpg"
+    description: 
+    title: meedan tbji open-source-investigation
+    url: "//images.ctfassets.net/g118h5yoccvd/5Yf1dxnpLLuuSUxOwykOsn/164691b8968de91e8b79a696cda9bea1/meedan_tbji_open-source-investigation.jpg"
+  description:
+    en-US: 'A collaboration on Check between The Bureau of Investigative Journalism
+      and Bellingcat''s open-source intelligence community leads to extensive public
+      interest reporting on the air war in Afghanistan. '
+  body: "In 2019, a reporter from The [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/)
+    in London reached out to Meedan. She needed help with an investigation into airstrikes
+    in Afghanistan, specifically, to document evidence of civilian harm from 21 alleged
+    airstrikes that in recent years had reportedly hit civilian homes and killed family
+    members.\n\n[Jess Purkiss](https://www.thebureauinvestigates.com/profile/jessicapurkiss)
+    and her team knew that using official information from U.S. and Afghan forces
+    would prove near impossible; the Bureau has been tracking strikes in Afghanistan
+    for more than five years and often, both sides of the conflict deny accountability
+    for harm inflicted on innocent citizens. \n\nTurning to the open web, the Bureau
+    first connected with Meedan partner [Bellingcat](https://www.bellingcat.com/),
+    an open source investigation community well known for its investigations that
+    [Meedan supports](https://www.bellingcat.com/resources/articles/2014/08/06/investigating-the-mh17-crash-site-with-meedans-checkdesk/)
+    through our open source verification software, Check. \n\nPurkiss set out to crowdsource
+    information about her list of suspected airstrikes. Were they indeed airstrikes?
+    Who was harmed by them? Where, specifically, did they happen? Whose homes were
+    destroyed? Who survived? Bellingcat’s community of internet sleuths searched the
+    expanses of Twitter, Facebook and other platforms for any evidence that might
+    answer those questions. They logged their findings and built large bodies of evidence
+    for each reported airstrike in Check, where the Bureau could review and verify
+    open source submissions, ask questions and prompt answers. \n\n![edit&ltmpl=docs](//images.ctfassets.net/g118h5yoccvd/6XZGBYzHQV9OKH9zCqkFZO/f0830d02a89f8d51658197e89a7ddb14/Check-Example__1_.jpg)\n<p
+    class=\"caption\">An image of the investigative workspace in Check</p>\n\nWorking
+    together, the team was able to piece together some definitive narratives behind
+    what happened, and to whom, as a result of these airstrikes. In a [brief of one
+    incident](https://www.thebureauinvestigates.com/stories/2020-06-03/finding-the-faces-of-afghanistans-slaughtered-civilians)
+    on the Bureau’s site, the team writes: \n\n> \"One of the strikes on the Bureau’s
+    list had hit a building – a home – in  Baghlan province, north of Kabul, on July
+    9, 2019. Early narratives around  this incident were conflicting. A few brief
+    lines in news reports at the   time said that the Afghan Ministry of Defence had
+    admitted civilians had died in a strike, but stopped short of taking responsibility.
+    And while the US denied carrying out strikes in the area, the governor of the
+    province was on camera blaming Nato forces – a common shorthand for the US, the
+    only Nato member still conducting air operations in Afghanistan.\n\n> Coordinating
+    an OSINT [Open Source Intelligence] operation involves setting priorities for
+    different strikes – what is known already, and what’s most important to find out?
+    Do we know for sure that a strike happened, or are we trying to pinpoint where
+    and when?\n\n> In the Baghlan case, the key information to find was the coordinates.
+    In incidents like this, where responsibility is not clear, finding the exact location
+    of the strike can make a huge difference. In the strike on Masih’s house, it was
+    this detail that had prompted a reversal of the US military’s initial denial.\"\n\nUsing
+    Check to collectively document findings, the team of OSINT volunteers searched
+    the internet to geolocate where the strike happened. One user even found evidence
+    that determined the location of the strike. Others were able to help the Bureau
+    build weights of information that detailed who strikes killed and when. \n\nIn
+    total, the Check-supported reporting led to [this piece](https://www.thebureauinvestigates.com/stories/2020-06-03/finding-the-faces-of-afghanistans-slaughtered-civilians)
+    examining two of the incidents and looking at how OSINT can help fill accountability
+    gaps and produce leads to follow up on the ground. Another [version of the piece](https://www.wired.co.uk/article/afghanistan-civilian-deaths-us-military)
+    appeared in WIRED. \n\nOne strike in particular, in Baghlan province on July 9,
+    outlined the technical process for verification in this Bellingcat [case study](https://www.bellingcat.com/news/rest-of-world/2020/06/04/investigating-one-case-of-civilian-harm-in-afghanistan/).
+    \n\nOSINT findings also [fed into this long read](https://www.thebureauinvestigates.com/stories/2020-06-03/the-families-paying-the-price-for-the-war-in-afghanistan),
+    examining accountability for the airwar in Afghanistan, which investigated strikes
+    that hit ten civilian compounds. A number of the cases came from the Check account,
+    while others are from investigations outside this project. Work on a Nangarhar
+    strike is featured in an [Al Jazeera Fault Lines documentary](https://www.aljazeera.com/programmes/faultlines/2020/06/afghanistan-civilian-loss-air-war-200602093444066.html).
+    The film crew journeyed to meet this family in Afghanistan, and others in partnership
+    with TBIJ. \n\nThis case study is an example of how the open source community
+    can use [Check](https://checkmedia.org/) to document important information, especially
+    when that information is not accessible due to lack of transparency or resource.
+    On the platform, volunteers from all walks of life, coupled with a rigorous layer
+    of verification by the Bureau, helped shine a light on murky incidents of war
+    that greatly impacted families, homes and livelihoods."
+  words_by:
+    en-US:
+    - sys:
+        id: dyeTaxL6zUN3ST8oyYpTC
+        created_at: !ruby/object:DateTime 2020-09-18 19:04:00.062000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:04:06.282000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Megan Marrelli
+      staff:
+        en-US: true
+  alt_date: !ruby/object:DateTime 2020-09-18 00:00:00.000000000 Z
+  date: '2020-09-18'
+  image: https://images.ctfassets.net/g118h5yoccvd/5Yf1dxnpLLuuSUxOwykOsn/164691b8968de91e8b79a696cda9bea1/meedan_tbji_open-source-investigation.jpg
+  title-en: Investigating civilian harm using open source intelligence on Meedan’s
+    flagship software, Check
+  alt_date_string: '2020-09-18'
+- sys:
+    id: 3V59udKx6j9vqmSiSXxYH2
+    created_at: &20 !ruby/object:DateTime 2020-09-18 19:17:58.464000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 20:26:29.226000000 Z
+    content_type_id: story
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meedan to train fact-checking fellows on health misinformation with Facebook
+    Journalism Project
+  slug: meedan-to-train-fact-checking-fellows-on-health-misinformation-with-facebook
+  topic:
+    en-US:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+        created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Training
+  lead_image:
+    en-US:
+      sys:
+        id: 2i7gAIurreScXtoFfX3lHG
+        created_at: !ruby/object:DateTime 2020-09-18 19:20:20.336000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:20:29.396000000 Z
+      title: meedan facebook-journalism-project
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg"
+    description: 
+    title: meedan facebook-journalism-project
+    url: "//images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg"
+  description:
+    en-US: 'Meedan is excited to announce a new collaboration with Facebook Journalism
+      Project that will train the next generation of fact-checkers to verify health
+      misinformation for their global audiences. '
+  body: "Meedan is excited to announce a new collaboration with Facebook Journalism
+    Project that will train the next generation of fact-checkers to verify health
+    misinformation for their global audiences. \n\nThe initiative, a year-long [global
+    health fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship)
+    facilitated by Facebook, will bring on new team members to 10 participating fact-checking
+    organizations. Fellows selected by the 10 participating fact-checking organizations
+    will take part in virtual training sessions provided by Meedan and Facebook. \n\nMeedan
+    will support these fact-checkers with critical training on the ethics, standards
+    and core practices for debunking health misinformation worldwide. \n\nThe COVID-19
+    pandemic shines a light on the critical need to support the capacity and skills
+    that are necessary to successfully fact-check claims about complex science surrounding
+    treatments, causes, cures, homeopathic remedies and vaccines. Health misinformation
+    is running rampant on online platforms and there is great need for the next generation
+    of journalists to understand how health literacy and health barriers contribute
+    to the spread of disease, and how responsible fact-checking and verification efforts
+    can be foundational pillars in the equalization of access to high quality health
+    news. \n\nMeedan will collaborate on the Facebook training by working with our
+    [in-house experts](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/)
+    on developing a curriculum that helps fact-checkers navigate complex health debunking
+    tasks in ways that are responsible. We’re so excited to be able to contribute
+    to this project and to work with organizations including: \n\n- Tempo, Indonesia\n-
+    Vera Files, Phillippines\n- Factly, India\n- The Quint, India\n- ColombiaCheck,
+    Colombia\n- La Silla Vacía, Colombia\n- Africa Check, South Africa\n- Teyit, Turkey\n-
+    Pagella Politica, Italy\n- Full Fact, UK\n\nThis training will be another addition
+    to our suite of COVID-19 resource-building, which already includes our public
+    health information tool, [learnaboutcovid19.org](https://learnaboutcovid19.org/).
+    It will also be our second training project this year, preceded by the roll out
+    of [Google News Initiative-supported curriculum](https://meedan.com/blog/training-the-next-workforce-to-field-dangerous-claims/)
+    that is being delivered across nine countries. \n\nMore details to come soon!
+    If you’re interested in learning more, contact <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>.
+    \n"
+  date: '2020-09-18'
+  image: https://images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg
+  title-en: Meedan to train fact-checking fellows on health misinformation with Facebook
+    Journalism Project
+  alt_date: *20
+  alt_date_string: '2020-09-18'
