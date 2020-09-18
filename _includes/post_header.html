@@ -22,6 +22,8 @@
         <h1><a href="/jobs">Jobs</a></h1>
     {% elsif page.sys.content_type_id == 'story' %}
         <h1><a href="/blog">Blog</a></h1>
+    {% elsif page.layout == 'topic' %}
+        <h1><a href="/blog">Blog</a></h1>
     {% elsif page.sys.content_type_id == 'event' %}
         <h1><a href="/events">Events</a></h1>
     {% elsif page.layout == 'legal_manual' or page.sys.content_type_id == 'legal' %}

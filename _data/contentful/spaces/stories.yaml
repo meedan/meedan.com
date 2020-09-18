@@ -5118,9 +5118,9 @@ story:
 - sys:
     id: 77XtZxUTMsilrHnbjbuVcW
     created_at: !ruby/object:DateTime 2020-07-30 21:15:18.975000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-31 19:51:07.348000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 19:35:16.423000000 Z
     content_type_id: story
-    revision: 8
+    revision: 9
     space:
       sys:
         id: g118h5yoccvd
@@ -5136,6 +5136,16 @@ story:
   title: In Calling for Equitable Information Access, Let’s Remember the Disability
     Digital Divide
   slug: in-calling-for-equitable-information-access-lets-remember-the-disability
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
   lead_image:
     en-US:
       sys:
@@ -5246,7 +5256,7 @@ story:
 - sys:
     id: 1yxbPy2yG6pcuiyVxbEwvk
     created_at: !ruby/object:DateTime 2020-08-04 19:39:28.085000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-06 05:31:59.948000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-03 05:08:41.911000000 Z
     content_type_id: story
     revision: 2
     space:
@@ -5285,6 +5295,9 @@ story:
     description: CC-BY Alexander von Halem
     title: CC-BY Alexander von Halem
     url: "//images.ctfassets.net/g118h5yoccvd/ibCBC7OBTotrdOgEn7qux/3ce5e93e765849a3acb553a640b2c969/8187244403_fca0d48f19_o.jpg"
+  description:
+    en-US: 'As the world slowly starts to open up (or not), we''ve entered a new pandemic
+      stage: confusion.'
   body: |-
     As the world slowly starts to open up (or not), we've entered a new pandemic stage: confusion. Where once the most solid advice was simply to stay indoors and avoid others, we seem to be encountering a panoply of recommendations. Wash your hands. Masks aren't needed. Wear a mask. Stay six feet away. Actually, it might be airborne, so stay outside too. Take a test. Don't take a test, because supplies are limited.
 
@@ -5501,9 +5514,9 @@ story:
 - sys:
     id: 2uGeBfzRSJYn8qx2lzzQis
     created_at: !ruby/object:DateTime 2020-08-06 17:38:46.782000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-06 20:44:53.121000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 19:36:17.568000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -5519,6 +5532,16 @@ story:
   title: 'World Breastfeeding Week 2020: Supporting Moms, Protecting Babies, and Preventing
     Misinformation'
   slug: world-breastfeeding-week-2020-supporting-moms-protecting-babies-and
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
   lead_image:
     en-US:
       sys:
@@ -5614,9 +5637,9 @@ story:
 - sys:
     id: Yiprz4bUNkkBGgE4ouLeC
     created_at: !ruby/object:DateTime 2020-08-17 21:00:44.979000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-19 19:59:10.550000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-27 22:16:16.790000000 Z
     content_type_id: story
-    revision: 0
+    revision: 6
     space:
       sys:
         id: g118h5yoccvd
@@ -5641,18 +5664,26 @@ story:
         revision: 1
       title:
         en-US: Ideas
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
   lead_image:
     en-US:
       sys:
-        id: 6eytsXJjtE0ihoayZpDDgt
-        created_at: !ruby/object:DateTime 2020-08-18 20:23:36.892000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-18 20:23:53.678000000 Z
+        id: OXzpBmXHQFOwdUNqk2sI0
+        created_at: !ruby/object:DateTime 2020-08-27 22:13:55.812000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-27 22:16:14.416000000 Z
       title: Preserving Latin American activist history on social media
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6eytsXJjtE0ihoayZpDDgt/2a97587c15673bc6d9bf91539883d387/Meedan_activist-history.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/OXzpBmXHQFOwdUNqk2sI0/efea62add5b8a90f9cf6924cad43a8a9/Meedan_activist-history.png"
     description: 
     title: Preserving Latin American activist history on social media
-    url: "//images.ctfassets.net/g118h5yoccvd/6eytsXJjtE0ihoayZpDDgt/2a97587c15673bc6d9bf91539883d387/Meedan_activist-history.jpg"
+    url: "//images.ctfassets.net/g118h5yoccvd/OXzpBmXHQFOwdUNqk2sI0/efea62add5b8a90f9cf6924cad43a8a9/Meedan_activist-history.png"
   body: "Meedan is leading this project that aims to mobilize the Latin American activist
     community around the [risks related](https://globalvoices.org/2019/05/01/envision-a-new-war-the-syrian-archive-corporate-censorship-and-the-struggle-to-preserve-public-history-online/)
     to corporate social media platforms becoming responsible for preserving the history
@@ -5664,90 +5695,96 @@ story:
     platforms? The idea here is to ensure that memories of resistance are preserved.\n\n###
     Erasing Latin American resistance history, now in the digital context\nThe history
     of Latin America is marked by the erasure of resistance. First with the genocides
-    of indigenous people that occurred across the continent and that decimated civilizations
-    that tried to resist European invaders over the centuries and later through military
-    dictatorships and racist eugenic policies.\n\nThis process extends to the present
-    day, in 2019 Latin America was considered the most dangerous region in the world
-    for human rights activists, according to Amnesty International, with 210 people
-    killed. This count includes LGBTQI +, women's rights and anti-corruption advocates.
-    It is the region that has killed most journalists this past year, twenty-two members
-    of the press have been murdered. 2020 marks a period in which the region has become
-    the epicenter of the COVID-19 pandemic, with worsening economic instability and
-    conservative governments that flirt with militarism in the region.\n\nThe pandemic
-    caused this activism that took the streets with the Feminist Spring to turn to
-    social networks and technologies, as is the case of indigenous leaders who organize
-    themselves in WhatsApp groups and use social media channels to hold events live
-    from inside their homes. It is essential given this scenario to understand that
-    social media platforms have a central role as disseminators of this content and
-    as a digital agora. However, they are corporate companies and not elected governments
-    and representative of democratic values responsible for guarding and ensuring
-    that these memories and narratives are preserved and have space to be communicated.\n\nActivism
-    content on social media remains at risk of exclusion, hacking or censorship this
-    has happened before, when YouTube's new algorithmic policies, launched in 2017,
-    led to the disappearance overnight of the documentation of human rights abuses
-    in Syria . According to the 2019 report by the EFF (Eletronic Frontier Foundation),
-    \"Stuck in the network: the impact of 'extremist' speech regulations on human
-    rights content\", in which YouTube used automatic signage with machine learning
-    to withdraw thousands of Syrian YouTube channels that were publishing videos documenting
-    human rights violations.\n\nThere is a constant tension between social media platforms
-    with their non-transparent content moderation policies and the presence of content
+    of indigenous people [that occurred](https://noticias.r7.com/prisma/nosso-mundo/brasil-e-lider-disparado-no-genocidio-de-indios-na-america-latina-24042018)
+    across the continent and that decimated civilizations that tried to resist European
+    invaders over the centuries and later through [military dictatorships](https://noticias.uol.com.br/colunas/leonardo-sakamoto/2020/07/15/militares-se-chocam-com-genocidio-apos-o-genocidio-indigena-na-ditadura.htm),
+    corrupt governaments, and [racist eugenic](https://www.almapreta.com/editorias/realidade/existe-genocidio-negro-no-brasil)
+    policies.\n\nThis process extends to the present day, in 2019 Latin America was
+    considered the most dangerous region in the world for human rights activists,
+    according to [Amnesty International](https://anistia.org.br/noticias/da-retorica-pratica-2019-foi-um-ano-marcado-por-retrocessos-para-os-direitos-humanos-brasil-mostra-relatorio/),
+    with 210 people killed. This count includes LGBTQI +, women's rights and anti-corruption
+    advocates. It is the region that has [killed most journalists](https://news.un.org/en/story/2020/01/1055601)
+    this past year, twenty-two members of the press have been murdered. 2020 marks
+    a period in which the region has become the epicenter of the [COVID-19 pandemic](https://g1.globo.com/mundo/noticia/2020/06/24/america-latina-supera-100-mil-mortes-por-covid-19.ghtml),
+    with worsening economic instability and [conservative governments](https://www1.folha.uol.com.br/mundo/2020/08/crise-multinivel-na-america-latina-esta-mais-complexa.shtml)
+    that flirt with militarism in the region.\n\nThe pandemic caused this activism
+    that took the streets with the [Feminist Spring](https://brasil.elpais.com/internacional/2020-03-09/milhares-de-mulheres-mostram-sua-forca-nas-ruas-da-america-latina.html)
+    to turn to social networks and technologies, as is the case of [indigenous leaders
+    ](https://revistamarieclaire.globo.com/Mulheres-do-Mundo/noticia/2020/08/unindo-tradicao-e-tecnologia-mulheres-indigenas-lideram-enfrentamento-pandemia.html)who
+    organize themselves in WhatsApp groups and use social media channels to hold events
+    live from inside their homes. It is essential given this scenario to understand
+    that social media platforms have a central role as disseminators of this content
+    and as a digital agora. However, they are corporate companies and not elected
+    governments and representative of democratic values responsible for guarding and
+    ensuring that these memories and narratives are preserved and have space to be
+    communicated.\n\nActivism content on social media remains at risk of exclusion,
+    hacking or censorship this has happened before, when YouTube's new algorithmic
+    policies, launched in 2017, led to the disappearance overnight of the documentation
+    of human rights abuses in Syria . According to the 2019 report by the [EFF (Eletronic
+    Frontier Foundation), \"Stuck in the network: the impact of 'extremist' speech
+    regulations on human rights content\"](https://www.eff.org/press/releases/caught-net-impact-extremist-speech-regulations-human-rights-content),
+    in which YouTube used automatic signage with machine learning to withdraw thousands
+    of Syrian YouTube channels that were publishing videos documenting human rights
+    violations.\n\nThere is a constant tension between social media platforms with
+    their non-transparent content moderation policies and the presence of content
     from communities considered diverse. We see content primarily related to freedom
     of expression and diversity being removed from these spaces, as identified by
-    research conducted by Salty (an American newsletter) with his readers on the bias
-    of algorithms, policing content by social media platforms when focused on race,
-    queer and gender content. This research is one example that shows how marginalized
-    communities are disproportionately affected by Instagram's content policies.\n\nThis
+    [research conducted by Salty](https://saltyworld.net/algorithmicbiasreport-2/)
+    (an American newsletter) with his readers on the bias of algorithms, policing
+    content by social media platforms when focused on race, queer and gender content.
+    This research is one example that shows how marginalized communities are disproportionately
+    affected by I[nstagram's content policies](https://www.theguardian.com/commentisfree/2019/nov/08/instagram-shadow-bans-marginalised-communities-queer-plus-sized-bodies-sexually-suggestive).\n\nThis
     project is being initiated based on the absence of data for research regarding
     the content of Latin American activists being removed from social media platforms.
     There are initiatives by institutions and civil organizations in the region that
-    are articulating conversations and recommendations on the lack of transparency
-    regarding the applied policies and the use of content moderation algorithms.\n\n###
-    Collaborating and dialoguing with the community\nWe had the opportunity to discuss
-    this issue and project with the Internet Freedom Festival Glitter Meetup community,
-    and at the international human rights event RighstCon 2020 - Recordkeepers of
-    the Resistance.\n\n### The project phases\n\n#### 1. Validation of the hypothesis\nResearch
-    with activist communities through a questionnaire and data collection to validate
-    the hypothesis: \"Activists are having their content removed from social networking
-    platforms in Latin America\".\n\n#### 2. Network working group\nCreate a working
-    group with representatives of civil human rights organizations to analyze the
-    data and organize the information;\n  \n#### 3. Content creation activities with
-    and for the activist community\nCreate a listening process with the communities,
-    map the needs and gather case studies, collaborate in contextualized toolkits
-    and workshops for the preservation of activist digital content;\n\n#### 4. Consortium
-    and code of ethics\nCreate a code of ethics for archiving social media content
-    and mediation with social media platforms.\n\n__Want to collaborate with us?__\nRespond
-    and share this [survey](https://forms.gle/mr4uGQU59ATuq9fAA) with Latin American
-    activists\n\n[<LINK TO SURVEY IN ESPANISH AND PORTUGUESE>](https://forms.gle/mr4uGQU59ATuq9fAA
-    \"Link to the survey \")\n\n#### Objective of the study\nThe purpose of this study
-    is to collect and analyze information about activists who use social networks
-    in Latin America to carry out their activism and preserve their history and memory.
+    are [articulating conversations and recommendations](https://tiinside.com.br/04/08/2020/organizacoes-brasileiras-e-latino-americanas-lancam-documento-sobre-regulacao-de-grandes-plataformas-online/)
+    on the lack of transparency regarding the applied policies and the use of content
+    moderation algorithms.\n\n### Collaborating and dialoguing with the community\nWe
+    had the opportunity to discuss this issue and project with the Internet [Freedom
+    Festival Glitter Meetup community](https://www.internetfreedomfestival.org/wiki/index.php/July_16_2020_GM),
+    and at the international human rights event [RightsCon 2020 - Recordkeepers of
+    the Resistance](https://rightscon.course.tc/2020/events/recordkeepers-of-the-resistance-do-you-trust-the-dark-force-to-save-your-activist-history-8bqf3iLHDWWpwxSnGzxBRB/).\n\n###
+    The project phases\n\n#### 1. Validation of the hypothesis\nResearch with activist
+    communities through a questionnaire and data collection to validate the hypothesis:
+    \"Activists are having their content removed from social networking platforms
+    in Latin America\".\n\n#### 2. Network working group\nCreate a working group with
+    representatives of civil human rights organizations to analyze the data and organize
+    the information;\n  \n#### 3. Content creation activities with and for the activist
+    community\nCreate a listening process with the communities, map the needs and
+    gather case studies, collaborate in contextualized toolkits and workshops for
+    the preservation of activist digital content;\n\n#### 4. Consortium and code of
+    ethics\nCreate a code of ethics for archiving social media content and mediation
+    with social media platforms.\n\n__Want to collaborate with us?__\nRespond and
+    share this [survey](https://forms.gle/mr4uGQU59ATuq9fAA) with Latin American activists\n\n[<LINK
+    TO SURVEY IN ESPANISH AND PORTUGUESE>](https://forms.gle/mr4uGQU59ATuq9fAA \"Link
+    to the survey \")\n\n#### Objective of this study\nThe purpose of this study is
+    to collect and analyze information about activists who use social networks in
+    Latin America to carry out their activism and preserve their history and memory.
     The survey will take approximately 8 minutes to complete. The results of this
     study will improve our understanding of activists and their practices to preserve
     the memory of their resistance movements in Latin America and how they are affected
-    by content moderation policies on social media platforms.\n\n#### Study Methodology\nYou
-    will receive a series of 15 questions and complete an anonymous online survey.
-    The questions are about your experiences using social media and how they affected
-    your activism and / or the organization of memory in your community, your movement
-    and activism. Answer the questions in the best possible way and feel free to ignore
-    the questions that you are not comfortable with answering.\n\n#### Questions about
-    gender, sexual orientation and ethnicity\nIt is necessary to understand whether
-    the policies implemented by the platforms affect differently the people who express
-    their diversity and resistance in these channels. All answers are optional, but
-    it is necessary to emphasize the importance of these markers in the analysis.\n\n####
-    Confidentiality\nThis is an anonymous survey, which means that your name and information
-    will not be collected in the survey.\n\nGiven the nature of this document, we
-    want you to feel safe when sharing information that may be sensitive in certain
-    contexts. We are collecting this information and anonymizing it as much as possible,
-    so that any data or analysis we collect is considered from a holistic point of
-    view and never compromises any individual in the group.\n\n#### Risks / Benefits\nYou
-    can choose to ignore all necessary questions or end the survey at any time.\n\nYou
-    will also be contributing to this research and may offer an opportunity to reflect
-    on your experiences with using social media in recent months and the need for
-    independent content preservation practices. The report created from this survey
-    will be shared with the community.\n\n#### Other information\nYou have rights
-    as a research volunteer. This survey is completely voluntary and can be stopped
-    at any time by exiting the browser.\n\n#### Disclosure\nIf you know an organization
-    that is doing similar work, share it and let's connect!\n"
+    by content moderation policies on social media platforms.\n\n#### Study Methodology
+    and Survey\nYou will receive a series of 15 questions and complete an anonymous
+    online survey. The questions are about your experiences using social media and
+    how they affected your activism and / or the organization of memory in your community,
+    your movement and activism practice. Answer the questions in the best possible
+    way and feel free to ignore all the questions that you are not comfortable answering.\n\n####
+    Questions about gender identity, sexual orientation, race and ethnicity\nIt is
+    necessary to understand whether the policies implemented by the platforms affect
+    differently the people who express their identity and resistance practices in
+    these channels. All answers are optional, but it is necessary to emphasize the
+    importance of these markers in the analysis.\n\n#### Privacy and Trust\nWe understand
+    that the information you will share might be of a sensitive and private nature,
+    that is why this is an anonymous survey, all data is anonymous and will be analysed
+    as such. If you have security concerns when filling out this survey we encorage
+    you to open the survey link in an anonymous tab on your browser as well as the
+    use of a VPN service.\n\n#### Risks / Benefits\nPlease, ignore any questions you
+    want or end the survey at any time. It's possible that through contributing to
+    this research you may have the opportunity to reflect on your experiences with
+    using social media in recent months and the need for independent content preservation
+    practices. \n\n#### Community\nThe materials and reports created from this survey
+    will be shared with the community. If you know an organization that is doing similar
+    work, share it and let's connect!\n"
   words_by:
     en-US:
     - sys:
@@ -5770,9 +5807,9 @@ story:
     - sys:
         id: 6phIsUJZOqaioWrC3tyvDQ
         created_at: !ruby/object:DateTime 2020-08-19 18:34:17.112000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-19 19:59:26.297000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-20 23:24:41.964000000 Z
         content_type_id: moduleCard
-        revision: 0
+        revision: 1
       title:
         en-US: Take the Recordkeepers of the Resistance Survey
       slug:
@@ -5782,47 +5819,39 @@ story:
       link:
         en-US: https://forms.gle/mr4uGQU59ATuq9fAA
   date: '2020-08-17'
-  image: https://images.ctfassets.net/g118h5yoccvd/6eytsXJjtE0ihoayZpDDgt/2a97587c15673bc6d9bf91539883d387/Meedan_activist-history.jpg
+  image: https://images.ctfassets.net/g118h5yoccvd/OXzpBmXHQFOwdUNqk2sI0/efea62add5b8a90f9cf6924cad43a8a9/Meedan_activist-history.png
   title-es: Proyecto - Guardianes de la Resistencia preservando la historia de los
     activistas latinoamericanos en las redes sociales
   title-pt: Projeto - Guardiões da Resistência preservando a história ativista latino-americana
     nas redes sociais
   title-en: Preserving Latin American activist history on social media
-  description-es: "### Guardianes de la Resistencia Proyecto para la preservación
-    de la narrativa de los movimientos de resistencia latinoamericanos en las redes
-    sociales __¿Quieres colaborar con nosotros?__ Responde y comparte esta"
-  description-pt: "### Guardiões da Resistência Projeto pela preservação da narrativa
-    de movimentos de resistência latino-americanos nas redes sociais __Quer colaborar
-    conosco?__ Responda e compartilhe esta [pesquisa](https://forms.gle/mr4uGQU59ATuq9fAA)
-    com ativistas da América Latina"
+  description-es: Meedan lidera este proyecto que tiene como objetivo movilizar a
+    la comunidad activista latinoamericana en torno a [los riesgos relacionados](https://globalvoices.org/2019/05/01/envision-a-new-war-the-syrian-archive-corporate-censorship-and-the-struggle-to-preserve-public-history-online/
+    "Una nueva guerra el archivo sirio y la censura corporativa
+  description-pt: Meedan está conduzindo este projeto que visa mobilizar a comunidade
+    de ativistas latino-americanos em torno dos [riscos relacionados](https://globalvoices.org/2019/05/01/envision-a-new-war-the-syrian-archive-corporate-censorship-and-the-struggle-to-preserve-public-history-online/
+    "O arquivo sírio e a censura corporativa uma luta para preservar a
   body-es: |-
-    ### Guardianes de la Resistencia
-    Proyecto para la preservación de la narrativa de los movimientos de resistencia latinoamericanos en las redes sociales
-
-    __¿Quieres colaborar con nosotros?__
-    Responde y comparte esta [encuesta](https://forms.gle/mr4uGQU59ATuq9fAA) con activistas latinoamericanos
-
-    ### Presentación
     Meedan lidera este proyecto que tiene como objetivo movilizar a la comunidad activista latinoamericana en torno a [los riesgos relacionados](https://globalvoices.org/2019/05/01/envision-a-new-war-the-syrian-archive-corporate-censorship-and-the-struggle-to-preserve-public-history-online/ "Una nueva guerra el archivo sirio y la censura corporativa una lucha por preservar la historia publica online") con que las plataformas de redes sociales corporativas se hagan responsables de preservar la historia y la memoria de los movimientos activistas, mientras aún existe una falta total de transparencia respecto sus políticas de moderación de contenidos e intereses privados.
 
     El objetivo de todo archivo debe ser compartir la memoria de los movimientos, crear pertenencia y vínculos con las comunidades y salvar la historia colectiva. Pero, ¿cómo asegurarse de que haya una historia que contar y estudiar en el futuro cuando estos registros estén en plataformas privadas? La idea aquí es garantizar que se conserven los recuerdos de resistencia.
 
     ### Borrando la resistencia latinoamericana ahora en el contexto digital
-    La historia de América Latina está marcada por el borrado de la resistencia. Primero con los genocidios de pueblos indígenas ocurridos en todo el continente y que diezmaron a lo largo de los siglos las civilizaciones que intentaron resistir a los invasores europeos y luego a través de dictaduras militares y políticas eugenésicas racistas.
+    La historia de América Latina está marcada por el borrado de la resistencia. Primero con los genocidios de [pueblos indígenas](https://noticias.r7.com/prisma/nosso-mundo/brasil-e-lider-disparado-no-genocidio-de-indios-na-america-latina-24042018) ocurridos en todo el continente y que diezmaron a lo largo de los siglos las civilizaciones que intentaron resistir a los invasores europeos y luego a través de [dictaduras militares](https://noticias.uol.com.br/colunas/leonardo-sakamoto/2020/07/15/militares-se-chocam-com-genocidio-apos-o-genocidio-indigena-na-ditadura.htm), gobiernos corruptos y políticas [eugenésicas racistas](https://www.almapreta.com/editorias/realidade/existe-genocidio-negro-no-brasil).
 
-    Este proceso se extiende hasta la actualidad, en 2019 América Latina fue considerada la región más peligrosa del mundo para los activistas de derechos humanos, según Amnistía Internacional, con 210 personas asesinadas. Este recuento incluye LGBTQI +, defensores de los derechos de las mujeres y anticorrupción. Es la región que más periodistas ha asesinado el año pasado, veintidós miembros de la prensa han sido asesinados. 2020 marca un período en el que la región se ha convertido en el epicentro de la pandemia COVID-19, con un empeoramiento de la inestabilidad económica y gobiernos conservadores que coquetean con el militarismo en la región.
+    Este proceso se extiende hasta la actualidad, en 2019 América Latina fue considerada la región más peligrosa del mundo para los activistas de derechos humanos, según[ Amnistía Internacional](https://anistia.org.br/noticias/da-retorica-pratica-2019-foi-um-ano-marcado-por-retrocessos-para-os-direitos-humanos-brasil-mostra-relatorio/), con 210 personas asesinadas. Este recuento incluye LGBTQI +, defensores de los derechos de las mujeres y anticorrupción. Es la región que más [periodistas ha asesinado](https://news.un.org/en/story/2020/01/1055601) el año pasado, veintidós miembros de la prensa han sido asesinados. 2020 marca un período en el que la región se ha convertido en el epicentro de la [pandemia COVID-19](https://g1.globo.com/mundo/noticia/2020/06/24/america-latina-supera-100-mil-mortes-por-covid-19.ghtml), con un empeoramiento de la inestabilidad económica y [gobiernos conservadores](https://www1.folha.uol.com.br/mundo/2020/08/crise-multinivel-na-america-latina-esta-mais-complexa.shtml) que coquetean con el militarismo en la región.
 
-    La pandemia provocó que este activismo que tomó las calles con la Primavera Feminista se volviera hacia las redes sociales y las tecnologías, como es el caso de líderes indígenas que se organizan en grupos de WhatsApp y utilizan los canales de las redes sociales para realizar eventos viven desde el interior de sus casas. Ante este escenario es fundamental entender que las plataformas de redes sociales tienen un papel central como difusores de este contenido y como ágora digital. Sin embargo, son empresas corporativas y no gobiernos electos y representantes de los valores democráticos responsables de velar y asegurar que
+    La pandemia provocó que este activismo que tomó las calles con la [Primavera Feminista](https://brasil.elpais.com/internacional/2020-03-09/milhares-de-mulheres-mostram-sua-forca-nas-ruas-da-america-latina.html) se volviera hacia las redes sociales y las tecnologías, como es el caso de [líderes indígenas](https://revistamarieclaire.globo.com/Mulheres-do-Mundo/noticia/2020/08/unindo-tradicao-e-tecnologia-mulheres-indigenas-lideram-enfrentamento-pandemia.html) que se organizan en grupos de WhatsApp y utilizan los canales de las redes sociales para realizar eventos viven desde el interior de sus casas. Ante este escenario es fundamental entender que las plataformas de redes sociales tienen un papel central como difusores de este contenido y como ágora digital. Sin embargo, son empresas corporativas y no gobiernos electos y representantes de los valores democráticos responsables de velar y asegurar que
     estos recuerdos y narrativas se conservan y tienen espacio para comunicarse.
 
-    El contenido de activismo en las redes sociales sigue en riesgo de exclusión, piratería o censura, esto ha sucedido antes, cuando las nuevas políticas algorítmicas de YouTube, lanzadas en 2017, llevaron a la desaparición de la noche a la mañana de la documentación de abusos de derechos humanos en Siria. . Según el informe de 2019 de la EFF (Eletronic Frontier Foundation), "Atrapado en la red: el impacto de las regulaciones del discurso 'extremista' en el contenido de derechos humanos", en el que YouTube utilizó la señalización automática con aprendizaje automático para retirar miles de canales de YouTube sirios que publicaban videos que documentaban violaciones de derechos humanos.
+    El contenido de activismo en las redes sociales sigue en riesgo de exclusión, piratería o censura, esto ha sucedido antes, cuando las nuevas políticas algorítmicas de YouTube, lanzadas en 2017, llevaron a la desaparición de la noche a la mañana de la documentación de abusos de derechos humanos en Siria. . Según el informe de 2019 de la [EFF (Eletronic Frontier Foundation), "Atrapado en la red: el impacto de las regulaciones del discurso 'extremista' en el contenido de derechos humanos"](https://www.eff.org/press/releases/caught-net-impact-extremist-speech-regulations-human-rights-content), en el que YouTube utilizó la señalización automática con aprendizaje automático para retirar miles de canales de YouTube sirios que publicaban videos que documentaban violaciones de derechos humanos.
 
-    Existe una tensión constante entre las plataformas de redes sociales con sus políticas de moderación de contenido no transparentes y la presencia de contenido de comunidades consideradas diversas. Vemos contenido principalmente relacionado con la libertad de expresión y la diversidad que se elimina de estos espacios, según lo identificado por una investigación realizada por Salty (un boletín de noticias estadounidense) con sus lectores sobre el sesgo de los algoritmos, controlando el contenido de las plataformas de redes sociales cuando se enfoca en la raza, contenido queer y de género. Esta investigación es un ejemplo que muestra cómo las comunidades marginadas se ven afectadas de manera desproporcionada por las políticas de contenido de Instagram.
+    Existe una tensión constante entre las plataformas de redes sociales con sus políticas de moderación de contenido no transparentes y la presencia de contenido de comunidades consideradas diversas. Vemos contenido principalmente relacionado con la libertad de expresión y la diversidad que se elimina de estos espacios, según lo identificado por una [investigación realizada por Salty ](https://saltyworld.net/algorithmicbiasreport-2/)(un boletín de noticias estadounidense) con sus lectores sobre el sesgo de los algoritmos, controlando el contenido de las plataformas de redes sociales cuando se enfoca en la raza, contenido queer y de género. Esta investigación es un ejemplo que muestra cómo las comunidades marginadas se ven afectadas de manera desproporcionada por las[ políticas de contenido de Instagram](https://www.theguardian.com/commentisfree/2019/nov/08/instagram-shadow-bans-marginalised-communities-queer-plus-sized-bodies-sexually-suggestive).
 
-    Este proyecto se inicia en base a la ausencia de datos para la investigación sobre el contenido de los activistas latinoamericanos que se retiran de las plataformas de redes sociales. Existen iniciativas de instituciones y organizaciones civiles de la región que están articulando conversaciones y recomendaciones sobre la falta de transparencia en cuanto a las políticas aplicadas y el uso de algoritmos de moderación de contenidos.
+    Este proyecto se inicia en base a la ausencia de datos para la investigación sobre el contenido de los activistas latinoamericanos que se retiran de las plataformas de redes sociales. Existen iniciativas de instituciones y organizaciones civiles de la región que están [articulando conversaciones y recomendaciones](https://tiinside.com.br/04/08/2020/organizacoes-brasileiras-e-latino-americanas-lancam-documento-sobre-regulacao-de-grandes-plataformas-online/) sobre la falta de transparencia en cuanto a las políticas aplicadas y el uso de algoritmos de moderación de contenidos.
 
     ### Colaborar y dialogar con la comunidad
-    Tuvimos la oportunidad de discutir este tema y proyecto con la comunidad de Meetup Glitter del Festival de la Libertad de Internet, y en el evento internacional de derechos humanos RighstCon 2020 - Recordkeepers of the Resistance.
+    Tuvimos la oportunidad de discutir este tema y proyecto con la comunidad de [ Glitter Meetup del Festival de la Libertad de Internet (Internet Freedom Festival)](https://www.internetfreedomfestival.org/wiki/index.php/July_16_2020_GM), y en el evento internacional de derechos humanos [RighstCon 2020 - Recordkeepers of the Resistance](https://rightscon.course.tc/2020/events/recordkeepers-of-the-resistance-do-you-trust-the-dark-force-to-save-your-activist-history-8bqf3iLHDWWpwxSnGzxBRB/).
 
     ### Las fases del proyecto
 
@@ -5840,36 +5869,25 @@ story:
     __¿Quieres colaborar con nosotros?__
     Responde y comparte esta [encuesta](https://forms.gle/mr4uGQU59ATuq9fAA) con activistas latinoamericanos
 
-    #### Objetivo del estudio
-    El propósito de este estudio es recopilar y analizar información sobre activistas que utilizan las redes sociales en América Latina para llevar a cabo su activismo y preservar su historia y memoria. La encuesta tardará aproximadamente 8 minutos en completarse. Los resultados de este estudio mejorarán nuestra comprensión de los activistas y sus prácticas para preservar la memoria de sus movimientos de resistencia en América Latina y cómo se ven afectados por las políticas de moderación de contenido en las plataformas de redes sociales.
+    #### Objetivo de este estudio
+    El propósito de este estudio es recolectar y analizar información sobre activistas que utilizan las redes sociales en América Latina para llevar a cabo su activismo y comprender mejor sus prácticas de preservación de su historia y memoria. La encuesta tardará aproximadamente 8 minutos en completarse. Los resultados de este estudio mejorarán nuestra comprensión de los activistas y sus prácticas para preservar la memoria de sus movimientos de resistencia en América Latina y cómo se ven afectados por las políticas de moderación de contenido en las plataformas de redes sociales.
 
-    #### Metodología de estudio
-    Recibirá una serie de 15 preguntas y completará una encuesta anónima en línea. Las preguntas son sobre sus experiencias usando las redes sociales y cómo afectaron su activismo y / o la organización de la memoria en su comunidad, su movimiento social y activismo. Responda las preguntas de la mejor manera posible y no dude en ignorar las preguntas con las que no se sienta cómodo respondiendo.
+    #### Metodología de estudio y encuesta
+    Recibirá una serie de 15 preguntas y completará una encuesta anónima en línea. Las preguntas son sobre sus experiencias usando las redes sociales y cómo afectaron su activismo y / o la organización de la memoria en su comunidad, su movimiento y práctica de activismo. Responda las preguntas de la mejor manera posible y no dude en ignorar todas las preguntas con las que no se sienta cómodo respondiendo.
 
-    #### Preguntas sobre género, orientación sexual y etnia
-    Es necesario comprender si las políticas implementadas por las plataformas afectan de manera diferente a las personas que expresan su diversidad y resistencia en estos canales. Todas las respuestas son opcionales, pero es necesario enfatizar la importancia de estos marcadores en el análisis.
+    #### Preguntas sobre identidad de género, orientación sexual, raza y etnia
+    Es necesario comprender si las políticas implementadas por las plataformas afectan de manera diferente a las personas que expresan su identidad y prácticas de resistencia en estos canales. Todas las respuestas son opcionales, pero es necesario enfatizar la importancia de estos marcadores en el análisis.
 
-    #### Confidencialidad
-    Esta es una encuesta anónima, lo que significa que su nombre e información no se recopilarán en la encuesta.
-
-    Dada la naturaleza de este documento, queremos que se sienta segura al compartir información que puede ser sensible en ciertos contextos. Estamos recopilando esta información y anonimizándola tanto como sea posible, de modo que cualquier dato o análisis que recopilemos se considere desde un punto de vista holístico y nunca comprometa a ninguna persona del grupo.
+    #### Privacidad y confianza
+    Entendemos que la información que compartirás puede ser de carácter sensible y privado, por eso esta es una encuesta anónima, todos los datos son anónimos y serán analizados como tal. Si tiene problemas de seguridad al completar esta encuesta, le recomendamos que abra el enlace de la encuesta en una pestaña anónima en su navegador, así como el uso de un servicio VPN.
 
     #### Riesgos / Beneficios
-    Puede optar por ignorar todas las preguntas necesarias o finalizar la encuesta en cualquier momento.
+    Por favor, ignore las preguntas que desee o finalice la encuesta en cualquier momento. Es posible que al contribuir a esta investigación tenga la oportunidad de reflexionar sobre sus experiencias con el uso de las redes sociales en los últimos meses y la necesidad de prácticas independientes de preservación de contenido.
 
-    Estará contribuyendo con esta investigación y puede brindarle la oportunidad de reflexionar sobre sus experiencias con el uso de las redes sociales en los últimos meses y la necesidad de prácticas independientes de preservación de contenido. El informe creado a partir de esta encuesta se compartirá con la comunidad.
-
-    #### Otras informaciones
-    Tiene derechos como voluntario de investigación. Esta encuesta es completamente voluntaria y se puede detener en cualquier momento saliendo del navegador.
-
-    #### Divulgar
-    Si conoce una organización que está haciendo un trabajo similar, ¡compártala y conectemos!
-  body-pt: "### Guardiões da Resistência\nProjeto pela preservação da narrativa de
-    movimentos de resistência latino-americanos nas redes sociais\n\n__Quer colaborar
-    conosco?__\nResponda e compartilhe esta [pesquisa](https://forms.gle/mr4uGQU59ATuq9fAA)
-    com ativistas da América Latina \n  \n### Apresentação\nMeedan está conduzindo
-    este projeto que visa mobilizar a comunidade de ativistas latino-americanos em
-    torno dos [riscos relacionados](https://globalvoices.org/2019/05/01/envision-a-new-war-the-syrian-archive-corporate-censorship-and-the-struggle-to-preserve-public-history-online/
+    #### Comunidad
+    Los materiales y los informes creados a partir de esta encuesta se compartirán con la comunidad. Si conoce una organización que está haciendo un trabajo similar, ¡compártala y conectemos!
+  body-pt: "Meedan está conduzindo este projeto que visa mobilizar a comunidade de
+    ativistas latino-americanos em torno dos [riscos relacionados](https://globalvoices.org/2019/05/01/envision-a-new-war-the-syrian-archive-corporate-censorship-and-the-struggle-to-preserve-public-history-online/
     \"O arquivo sírio e a censura corporativa uma luta para preservar a história pública
     online\") às plataformas corporativas de mídia social se tornarem responsáveis
     por preservar a história e memória dos movimentos ativistas, enquanto ainda existe
@@ -5880,93 +5898,1090 @@ story:
     quando estes registros estão em plataformas privadas? A idéia aqui é garantir
     que as memórias da resistência sejam preservadas.\n\n### Apagamento das resistências
     latino-americanas agora no contexto digital\nA história da América Latina é marcada
-    por apagamentos de resistências. Primeiro com os genocídios de indígenas que ocorreram
+    por apagamentos de resistências. Primeiro com os genocídios de indígenas [que
+    ocorreram](https://noticias.r7.com/prisma/nosso-mundo/brasil-e-lider-disparado-no-genocidio-de-indios-na-america-latina-24042018)
     por todo o continente e que dizimaram ao longo dos séculos as civilizações que
-    tentaram resistir aos invasores europeus e posteriormente através de ditaduras
-    militares e políticas eugênicas racistas. \n\nEste processo se estende aos dias
-    atuais,  em 2019 a América Latina foi considerada a região mais perigosa do mundo
-    para ativistas de direitos humanos, de acordo com a Anistia Internacional, com
-    210 pessoas mortas. Essa contagem inclui defensores LGBTQI +, dos direitos das
-    mulheres e anticorrupção. É a região que mais matou jornalistas neste último ano,
-    vinte e dois membros da imprensa foram assassinados. O ano de 2020 marca um período
-    em que a região se tornou o epicentro da pandemia do COVID-19, com agravamento
-    da instabilidade econômica e de governos conservadores que flertam com o militarismo
-    na região. \n\nA pandemia fez com que esse ativismo que tomou as ruas com a Primavera
-    Feminista se voltasse para as redes sociais e as tecnologias, como é o caso das
-    lideranças indígenas que se organizam em grupos de WhatsApp e se utilizam dos
-    canais de mídias sociais para fazerem eventos ao vivo de dentro de suas casas.
-    Se faz essencial dado esse cenário compreender que as plataformas de mídias sociais
-    passam a ter um papel central de disseminadores desse conteúdo e como uma ágora
-    digital. Entretanto, são empresas corporativas e não governos eleitos e representativos
-    de valores democráticos responsáveis por guardar e garantir que \nessas memórias
-    e narrativas sejam preservadas e tenham espaço para serem comunicadas. \n\nO conteúdo
-    de ativismo em redes sociais permanece sob risco de exclusão, hackeamento ou censura
-    isso já aconteceu antes, quando as novas políticas algorítmicas do YouTube, lançadas
+    tentaram resistir aos invasores europeus e posteriormente através de [ditaduras
+    militares](https://noticias.uol.com.br/colunas/leonardo-sakamoto/2020/07/15/militares-se-chocam-com-genocidio-apos-o-genocidio-indigena-na-ditadura.htm),
+    governos corruptos e políticas [eugênicas racistas](https://www.almapreta.com/editorias/realidade/existe-genocidio-negro-no-brasil).
+    \n\nEste processo se estende aos dias atuais,  em 2019 a América Latina foi considerada
+    a região mais perigosa do mundo para ativistas de direitos humanos, de acordo
+    com a [Anistia Internacional](https://anistia.org.br/noticias/da-retorica-pratica-2019-foi-um-ano-marcado-por-retrocessos-para-os-direitos-humanos-brasil-mostra-relatorio/),
+    com 210 pessoas mortas. Essa contagem inclui defensores LGBTQI +, dos direitos
+    das mulheres e anticorrupção. É a região que mais [matou jornalistas ](https://news.un.org/en/story/2020/01/1055601)neste
+    último ano, vinte e dois membros da imprensa foram assassinados. O ano de 2020
+    marca um período em que a região se tornou o epicentro da [pandemia do COVID-19](https://g1.globo.com/mundo/noticia/2020/06/24/america-latina-supera-100-mil-mortes-por-covid-19.ghtml),
+    com agravamento da instabilidade econômica e de [governos conservadores](https://www1.folha.uol.com.br/mundo/2020/08/crise-multinivel-na-america-latina-esta-mais-complexa.shtml)
+    que flertam com o militarismo na região. \n\nA pandemia fez com que esse ativismo
+    que tomou as ruas com a [Primavera Feminista](https://brasil.elpais.com/internacional/2020-03-09/milhares-de-mulheres-mostram-sua-forca-nas-ruas-da-america-latina.html)
+    se voltasse para as redes sociais e as tecnologias, como é o caso das [lideranças
+    indígenas ](https://revistamarieclaire.globo.com/Mulheres-do-Mundo/noticia/2020/08/unindo-tradicao-e-tecnologia-mulheres-indigenas-lideram-enfrentamento-pandemia.html)que
+    se organizam em grupos de WhatsApp e se utilizam dos canais de mídias sociais
+    para fazerem eventos ao vivo de dentro de suas casas. Se faz essencial dado esse
+    cenário compreender que as plataformas de mídias sociais passam a ter um papel
+    central de disseminadores desse conteúdo e como uma ágora digital. Entretanto,
+    são empresas corporativas e não governos eleitos e representativos de valores
+    democráticos responsáveis por guardar e garantir que \nessas memórias e narrativas
+    sejam preservadas e tenham espaço para serem comunicadas. \n\nO conteúdo de ativismo
+    em redes sociais permanece sob risco de exclusão, hackeamento ou censura isso
+    já aconteceu antes, quando as novas políticas algorítmicas do YouTube, lançadas
     em 2017, levaram ao desaparecimento da noite para o dia da documentação de abusos
-    de direitos humanos na Síria. De acordo com o relatório de 2019 da EFF (Eletronic
+    de direitos humanos na Síria. De acordo com o relatório de 2019 da [EFF (Eletronic
     Frontier Foundation),\"Preso na rede: o impacto das regulamentações 'extremistas'
-    de discurso sobre o conteúdo dos direitos humanos\", em que o YouTube usou a sinalização
-    automática com aprendizado de máquina para retirar milhares de canais sírios do
-    YouTube que estavam publicando vídeos documentando violações dos direitos humanos.\n\nExiste
-    uma constante tensão entre as plataformas de mídia social com suas políticas nada
-    transparentes de moderação de conteúdo e a presença de conteúdo de comunidades
-    consideradas diversas. Vemos conteúdo principalmente relacionado à liberdade de
-    expressão e diversidade sendo retirado desses espaços, como foi identificado pela
-    pesquisa conduzida por Salty (um newsletter americano) com seus leitores sobre
-    o viés de algoritmos o policiamento de conteúdo por plataformas de mídia social
-    quando focado em raça, conteúdo queer e de gênero. Essa pesquisa é um dos exemplos
-    que mostra como comunidades marginalizadas são desproporcionalmente afetadas pelas
-    políticas de conteúdo do Instagram. \n\nEste projeto está sendo iniciado baseado
-    na ausência de dados para pesquisa em relação ao conteúdo de ativistas da América
-    Latina que está sendo retirado das plataformas de redes sociais. Existem iniciativas
-    de instituições e organizações civis na região que estão articulando conversas
-    e recomendações sobre a falta de transparência quanto às políticas aplicadas e
-    o uso de algoritmos de moderação de conteúdo. \n\n### Colaborando e dialogando
-    com a comunidade\nTivemos a oportunidade de dialogar sobre este assunto e projeto
-    com a comunidade do Internet Freedom Festival Glitter Meetup, e no evento internacional
-    de direitos humanos RighstCon 2020 - Recordkeepers of the Resistance.\n\n### As
-    fases do projeto\n\n#### 1 - Validação da hipótese\nPesquisa com comunidades ativistas
-    através de questionário e coleta de dados para validação da hipótese: \"Ativistas
-    estão tendo seu conteúdo retirado das plataformas de redes socias na América Latina\".\n\n####
-    2 - Grupo de trabalho em rede\nCriar um grupo de trabalho com representantes de
-    organizações civis de direitos humanos para analisar os dados e organizar as informações;\n####
-    3 - Atividades de criação de conteúdo com e para a comunidade de ativistas\nCriar
-    um processo de escuta com as comunidades, mapear as necessidades e reunir caso
-    de estudos, colaborar em toolkits e workshops contextualizados para a preservação
-    de conteúdo digital ativista;\n\n#### 4 - Consortium e código de ética\nCriar
-    um código de ética para arquivamento de conteúdo ativista em redes sociais e mediação
-    com as plataformas de mídias sociais. \n\n__Quer colaborar conosco?__\nResponda
-    e compartilhe esta [pesquisa](https://forms.gle/mr4uGQU59ATuq9fAA) com ativistas
-    da América Latina \n\n\n#### Objetivo do estudo\nO objetivo deste estudo é coletar
-    e analisar informações sobre ativistas que utilizam as redes sociais na América
-    Latina para realizar seu ativismo e preservar sua história e memória. A pesquisa
-    levará aproximadamente 8 minutos para ser concluída. Os resultados deste estudo
-    irão melhorar nossa compreensão sobre os ativistas e suas práticas de preservação
-    da memória da memória de seus movimentos de resistência na América Latina e como
-    eles são afetados pelas políticas de moderação de conteúdo em plataformas de mídia
-    social.\n\n#### Metodologia do Estudo\nVocê receberá uma série de 15 perguntas
-    e preencherá uma pesquisa online anônima. As perguntas são sobre suas experiências
-    usando as redes sociais e como elas afetaram seu ativismo e / ou a organização
-    da memória em sua comunidade, no seu movimento e ativismo. Responda às perguntas
-    da melhor maneira possível e fique à vontade para ignorar as perguntas que você
-    não se sente confortável em responder.\n\n#### Perguntas sobre gênero, orientação
-    sexual e etnia\nÉ preciso entender se as políticas implantadas pelas plataformas
-    atingem de forma diferente as pessoas que expressam sua diversidade e resistência
-    nestes canais. Todas as respostas são opcionais mas, é preciso salientar a importância
-    destes marcadores na análise.\n\n#### Confidencialidade\nEsta é uma pesquisa anônima,
-    o que significa que seu nome e informações não serão coletados na pesquisa.\n\nDada
-    a natureza deste documento, queremos que você se sinta segura ao compartilhar
-    informações que possam ser sensíveis em determinados contextos. Estamos coletando
-    essas informações e as anonimizando o máximo possível, para que quaisquer dados
-    ou análises que coletamos sejam considerados de um ponto de vista holístico e
-    nunca comprometam nenhum indivíduo do grupo.\n\n#### Riscos / Benefícios\nVocê
-    pode optar por ignorar todas as perguntas necessárias ou encerrar a pesquisa a
-    qualquer momento.\n\nVocê também estará contribuindo com esta pesquisa e pode
-    oferecer uma oportunidade de refletir sobre suas experiências com o uso de mídia
-    social nos últimos meses e a necessidade de práticas independentes de preservação
-    de conteúdo. O relatório criado a partir desta pesquisa será compartilhado com
-    a comunidade.\n\n#### Outras informações\nVocê tem direitos como voluntário de
-    pesquisa. A realização desta pesquisa é totalmente voluntária e pode ser interrompida
-    a qualquer momento saindo do navegador.\n\n#### Divulgação\nSe você conhece uma
-    organização que está fazendo um trabalho semelhante, compartilhe e vamos nos conectar! "
+    de discurso sobre o conteúdo dos direitos humanos\"](https://www.eff.org/press/releases/caught-net-impact-extremist-speech-regulations-human-rights-content),
+    em que o YouTube usou a sinalização automática com aprendizado de máquina para
+    retirar milhares de canais sírios do YouTube que estavam publicando vídeos documentando
+    violações dos direitos humanos.\n\nExiste uma constante tensão entre as plataformas
+    de mídia social com suas políticas nada transparentes de moderação de conteúdo
+    e a presença de conteúdo de comunidades consideradas diversas. Vemos conteúdo
+    principalmente relacionado à liberdade de expressão e diversidade sendo retirado
+    desses espaços, como foi identificado pela [pesquisa conduzida por Salty](https://saltyworld.net/algorithmicbiasreport-2/)
+    (um newsletter americano) com seus leitores sobre o viés de algoritmos o policiamento
+    de conteúdo por plataformas de mídia social quando focado em raça, conteúdo queer
+    e de gênero. Essa pesquisa é um dos exemplos que mostra como comunidades marginalizadas
+    são desproporcionalmente afetadas pelas [políticas de conteúdo do Instagram.](https://www.theguardian.com/commentisfree/2019/nov/08/instagram-shadow-bans-marginalised-communities-queer-plus-sized-bodies-sexually-suggestive)
+    \n\nEste projeto está sendo iniciado baseado na ausência de dados para pesquisa
+    em relação ao conteúdo de ativistas da América Latina que está sendo retirado
+    das plataformas de redes sociais. Existem iniciativas de instituições e organizações
+    civis na região que estão [articulando conversas e recomendações](https://tiinside.com.br/04/08/2020/organizacoes-brasileiras-e-latino-americanas-lancam-documento-sobre-regulacao-de-grandes-plataformas-online/)
+    sobre a falta de transparência quanto às políticas aplicadas e o uso de algoritmos
+    de moderação de conteúdo. \n\n### Colaborando e dialogando com a comunidade\nTivemos
+    a oportunidade de dialogar sobre este assunto e projeto com a comunidade do [Internet
+    Freedom Festival Glitter Meetup](https://www.internetfreedomfestival.org/wiki/index.php/July_16_2020_GM),
+    e no evento internacional de direitos humanos[ RighstCon 2020 - Recordkeepers
+    of the Resistance](https://rightscon.course.tc/2020/events/recordkeepers-of-the-resistance-do-you-trust-the-dark-force-to-save-your-activist-history-8bqf3iLHDWWpwxSnGzxBRB/).\n\n###
+    As fases do projeto\n\n#### 1 - Validação da hipótese\nPesquisa com comunidades
+    ativistas através de questionário e coleta de dados para validação da hipótese:
+    \"Ativistas estão tendo seu conteúdo retirado das plataformas de redes socias
+    na América Latina\".\n\n#### 2 - Grupo de trabalho em rede\nCriar um grupo de
+    trabalho com representantes de organizações civis de direitos humanos para analisar
+    os dados e organizar as informações;\n#### 3 - Atividades de criação de conteúdo
+    com e para a comunidade de ativistas\nCriar um processo de escuta com as comunidades,
+    mapear as necessidades e reunir caso de estudos, colaborar em toolkits e workshops
+    contextualizados para a preservação de conteúdo digital ativista;\n\n#### 4 -
+    Consortium e código de ética\nCriar um código de ética para arquivamento de conteúdo
+    ativista em redes sociais e mediação com as plataformas de mídias sociais. \n\n__Quer
+    colaborar conosco?__\nResponda e compartilhe esta [pesquisa](https://forms.gle/mr4uGQU59ATuq9fAA)
+    com ativistas da América Latina \n\n#### Objetivo deste estudo\nO objetivo deste
+    estudo é coletar e analisar informações sobre ativistas que utilizam as redes
+    sociais na América Latina para realizar seu ativismo e compreender melhor suas
+    práticas de preservação de sua história e memória. A pesquisa levará aproximadamente
+    8 minutos para ser concluída. Os resultados deste estudo irão melhorar nossa compreensão
+    sobre ativistas e suas práticas para preservar a memória de seus movimentos de
+    resistência na América Latina e como eles são afetados pelas políticas de moderação
+    de conteúdo nas plataformas de mídia social.\n\n#### Metodologia de estudo e pesquisa\nVocê
+    receberá uma série de 15 perguntas e preencherá uma pesquisa online anônima. As
+    perguntas são sobre suas experiências usando as mídias sociais e como elas afetaram
+    seu ativismo e / ou a organização da memória em sua comunidade, seu movimento
+    e prática ativista. Responda às perguntas da melhor maneira possível e fique à
+    vontade para ignorar todas as perguntas para as quais não se sinta confortável
+    em responder.\n\n#### Perguntas sobre identidade de gênero, orientação sexual,
+    raça e etnia\nÉ necessário entender se as políticas implementadas pelas plataformas
+    afetam de forma diferenciada as pessoas que expressam sua identidade e as práticas
+    de resistência nesses canais. Todas as respostas são opcionais, mas é necessário
+    enfatizar a importância desses marcadores na análise.\n\n#### Privacidade e confiança\nEntendemos
+    que as informações que você vai compartilhar podem ser de natureza sensível e
+    privada, por isso esta é uma pesquisa anônima, todos os dados são anônimos e serão
+    analisados como tal. Se você tiver preocupações com a segurança ao preencher esta
+    pesquisa, recomendamos que você abra o link da pesquisa em uma guia anônima em
+    seu navegador, bem como o uso de um serviço VPN.\n\n#### Riscos / Benefícios\nPor
+    favor, ignore as perguntas que desejar ou encerre a pesquisa a qualquer momento.
+    É possível que, ao contribuir com esta pesquisa, você tenha a oportunidade de
+    refletir sobre suas experiências com o uso de mídias sociais nos últimos meses
+    e a necessidade de práticas independentes de preservação de conteúdo.\n\n####
+    Comunidade\nOs materiais e relatórios criados a partir desta pesquisa serão compartilhados
+    com a comunidade. Se você conhece uma organização que está fazendo um trabalho
+    semelhante, compartilhe e vamos nos conectar!"
   alt_date_string: '2020-08-18'
+- sys:
+    id: 65aZv1NdLpBSOPYo40kHci
+    created_at: !ruby/object:DateTime 2020-08-20 21:41:41.130000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-11 22:48:50.083000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: How we’re pursuing health equity at internet scale
+  slug: how-were-pursuing-health-equity-at-internet-scale
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
+  lead_image:
+    en-US:
+      sys:
+        id: 26wu7WXuhpoJO1HIAmWsKt
+        created_at: !ruby/object:DateTime 2020-09-10 20:58:11.735000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-10 21:31:02.966000000 Z
+      title: How we’re pursuing health equity at internet scale
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg"
+    description: 
+    title: How we’re pursuing health equity at internet scale
+    url: "//images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg"
+  body: "Today’s world has more internet users than people with access to essential
+    health services such as primary care, dental care, or surgery. We’ve reached 700,000
+    of them across 18 countries, but so much more remains to be done. \n\nMeedan’s
+    Digital Health Lab team have created a B2B fact-checking model for health content
+    based on syndication. We are testing a hypothesis that a rapid-response process
+    where a team of health experts distill scientific evidence based on requests made
+    by fact-checkers—requests that other communciators around the world may also have—
+    we can meet the needs of audiences searching for health information online more
+    efficiently, at larger scales, across regions, and directly where searching takes
+    place. \n\nHere are our top-level highlights:\n\n- Our incredible team of experts
+    __successfully responds to requests__ for contextualizing the scientific research
+    __in as little as 3 hours__\n- Our process has successfully reached an audience
+    of __over 700,000 people across Asia, Latin America, Africa, Europe and North
+    America__, with localization of both text and accompanying visuals (thanks, to
+    [Students Against COVID-19](https://www.studentsagainstcovid-19.com/) and [Localization
+    Lab](https://www.localizationlab.org/)) __in 8 languages__ prioritized by our
+    partners \n- The __public health community__, including health literacy practitioners,
+    __is eager and excited to get more involved__ in supporting local misinformation
+    response efforts\n\n![meedan covid-19-db-usage-reuters](//images.ctfassets.net/g118h5yoccvd/4xgsZVcR02vLjnusBejbyo/189a7297d4d3b38964e5219f5af26ee4/meedan_covid-19-db-usage-reuters.jpg)\n<p
+    class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+    content.</p>\n\nThrough the COVID-19 pandemic, online information searches serve
+    as a supplement to reduced availability and accessibility of in-person healthcare.
+    This coincides with public health authorities realizing the important role that
+    trusted fact-checking organizations with strong community ties play in minimizing
+    the impact of health misinformation, especially during a pandemic. At a presentation
+    our team participated in about health misinformation hosted by the [National Academies
+    of Science, Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
+    health fact-checking was identified as “the next frontier of health literacy”,
+    and, thanks to generous support from the Omidyar Foundation, Google, and the Robert
+    Wood Johnson Foundation, Meedan’s [Digital Health Lab gets to contribute](https://health.meedan.com/primer.pdf)
+    to the development of this new frontier. \n\nOver the last year and a half Meedan’s
+    Digital Health Lab has been developing and deploying a __rapid-response framework
+    for supporting fact-checking organizations, journalists and other community information
+    leaders__ that are working to address health misinformation online across literacy
+    levels and languages. \n\nOur COVID-19 rapid response, the [COVID-19 Expert Database](https://learnaboutcovid19.org/),
+    is focused on: \n- Collecting critical pandemic-related queries directly from
+    fact-checking organizations, community newsrooms and other community information
+    leaders\n- Triaging COVID-19 content to send to team members with specific public
+    health expertise to provide standardized responses\n- Designing visuals to address
+    disparities in health literacy\n- Conducting behavior science, machine learning
+    and rigorous user research to strengthen this rapid-response process as a replicable
+    and scalable framework \n\nThrough __three 48-hour weekly editorial sprints__,
+    as well as 3-hour turnarounds for urgent requests, the content produced by the
+    Digital Health Lab’s COVID-19 Expert DB & Toolkit has served three major purposes:
+    as a reliable source of information relating to rapidly evolving science; providing
+    explanations surrounding conflicting evidence and treatment recommendations; sharing
+    recommended additional resources for fact-checking organizations and journalists
+    to review as they produce the information their communities need. \n\nThis content
+    reaches global audiences through newsletters (Berkman Klein Center for Internet
+    & Society,  [Splice Media](https://splicelowres.com/), [Speak Up Africa](https://www.speakupafrica.org/program/stay-safe-africa/),
+    Suno India Daily Updates), podcasts ([Suno India](https://www.sunoindia.in/the-suno-india-show/how-scientists-and-public-health-experts-are-tackling-misinformation-amidst-a-pandemic/),
+    Misinfodemia), online forums such as Misinfodemia on Instagram Live, [National
+    Academies of Science, Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
+    [RightsCon](https://meedan.com/events/rightscon-2020-when-misinformation-hurts-our-fundamental-health-rights/),
+    [SwitchPoint](https://event.switchpointideas.com/global-fund-virtual-switchpoint-exchange),
+    [Global Fact](https://www.poynter.org/fact-checking/2020/watch-now-global-fact-7/),
+    and in content produced by fact-checkers including [Students Against COVID-19](https://www.studentsagainstcovid-19.com/),
+    [VERA Files](https://verafiles.org/articles/vera-files-fact-check-duterte-negates-spox-repeats-wrong-uns),
+    [Africa Check](https://africacheck.org/reports/can-coronavirus-only-live-up-to-9-days-on-objects-as-kenyan-traders-claim/),
+    [Nigeria Health Watch](https://nigeriahealthwatch.com/can-you-get-covid-19-twice/),
+    [BOOM Live](https://www.boomlive.in/fake-news/does-drinking-kashayam-cure-covid-19-a-factcheck-8661),
+    and [Reuters](https://www.reuters.com/article/uk-factcheck-herd-immunity-positive-rate/fact-check-rate-of-positive-covid-19-tests-doesnt-show-u-s-has-reached-herd-immunity-idUSKCN25327U).
+    \n\n![meedan covid-19-db-usage-boom](//images.ctfassets.net/g118h5yoccvd/6S86qFuSdrfMfvmuHJRfyb/b82dbb2b95ef61c41cd4978a9b3f0627/meedan_covid-19-db-usage-boom.jpg)\n<p
+    class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+    content.</p>\n\n### B2B Fact-Checking: Helping journalists check facts with health
+    expertise\n\nIn the digital health information ecosystem, building direct communication
+    channels involves developing interventions where target audiences spend time finding
+    answers to the health questions they have, which today means content easily encountered
+    through searches online and through social media. Of course, as any one organization,
+    this is really challenging to achieve. \n\nDuring this project, we developed a
+    process we call B2B fact-checking: we help the fact-checkers fact-check. It was
+    our hope that by building a model based on syndication, fact-checkers, journalists
+    and other community information leaders can use the content we create directly
+    for them *__as well as__* the content we have developed in response to questions
+    shared by other communicators. With this model, we can provide the needed health
+    expertise to reduce health misinformation more efficiently, at larger scales,
+    and directly where a users’ searching takes place. \n\n![meedan covid-19-db-usage-verafiles](//images.ctfassets.net/g118h5yoccvd/6vvZJnxxFjGSYprr9KVRM1/ea482f948fb66bbee0fb7760fdfd34f5/meedan_covid-19-db-usage-verafiles.jpg)\n<p
+    class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+    content.</p>\n\n![meedan covid-19-db-usage-google-results](//images.ctfassets.net/g118h5yoccvd/5qUOUJaItzpSXffMylT68I/04defe4ace25104d1dae34c237edfdef/meedan_covid-19-db-usage-google-results.jpg)\n<p
+    class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+    content.</p>\n\nSome examples include our contextualization of misinformation
+    about [COVID-19 and alkalinity](https://learnaboutcovid19.org/questions/what-do-we-know-so-far-about-covid-19-and-alkalinity/)
+    requested by VERA Files, which was also used by India Today in responding to misinformation
+    through their fact-checking tipline. The three responses including information
+    that we contextualized for Nigeria Health Watch related to mask safety and use
+    ([here](https://learnaboutcovid19.org/questions/is-it-safe-to-wear-a-mask/), [here](https://learnaboutcovid19.org/questions/does-wearing-a-mask-reduce-your-oxygen-level/)
+    and [here](https://learnaboutcovid19.org/questions/what-do-we-know-so-far-about-face-masks-and-their-ability-to-prevent-covid-19/)),
+    in addition to being a top search result, has been shared by Speak Up Africa in
+    their newsletter, was referenced the Misinfodemia Instagram Live series, and has
+    been used by Suno India in their podcasts and daily updates. \n\n![meedan covid-19-db-usage-nigeria-health-watch](//images.ctfassets.net/g118h5yoccvd/phsfOWWEM6rVu5V8Z6DNJ/53ec76a470a7097c2a65c8aad1b25229/meedan_covid-19-db-usage-nigeria-health-watch.jpg)\n<p
+    class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+    content.</p>\n\nOur research with these users has demonstrated how having access
+    to experts can increase the subject matter that fact-checkers can cover, and therefore
+    the content available online to the fact-checkers’ audiences. The examples of
+    where our collaboration with partners in different parts of the world have led
+    to first item or first-page search results on Google highlight the impact that
+    smaller health organizations can have on influencing the discourse online when
+    we can support the work of fact-checkers directly.\n\n### Data sprints for the
+    triple bottom line: Substance, Syndication and Speed\n\nOne of the biggest challenges
+    of achieving impact at the scale of the internet is moving at the speed of the
+    internet. We studied design sprint methodologies from Agile, Google Design, and
+    others to create what we call a Data Sprint: a rapid-response framework that ensures
+    the triple bottom line of substantive, quality content; syndicated, networked
+    impact; and speedy, responsive turnaround times.\n\n__Substance:__ To date, a
+    small team of scientists with expertise across infectious disease, nutritional
+    epidemiology, pandemic preparedness, vaccine adoption and health behavior change
+    have created over 110, 500-word science articles over 20 weeks. Each article or
+    database ‘entry’ responds  to questions submitted by fact-checkers and journalists,
+    with additional information to further distill  each topic’s historical and scientific
+    significance for health communicators. \n\nThis impact will soon be magnified
+    through a collaboration with Localization Lab, targeting 8 languages prioritized
+    by our current partners. We are currently working with SciLine to expand the global
+    reach of the resources that they have created by including them in the short articles
+    we produce for our partners. \n\n__Syndication:__ Through the syndication model
+    developed for this project, our partners have identified an audience of over 700,000
+    people in more than 18 countries across Asia, Latin America, Africa, Europe and
+    North America. This audience includes podcast listeners, website visitors and
+    newsletter subscribers, and does not include the social media followings of our
+    partner organizations. This level of impact was made possible through our syndication
+    model for content dissemination, enabling a small team of scientists, researchers
+    and communicators to influence diverse information spaces.\n\n__Speed:__ The turnaround
+    time for the content we produce is 48 hours or less, following the tight editorial
+    cycles of our journalism partners. Responses are often created in as few as 5
+    hours by team members on-call to meet urgent partner deadlines. This rapid response
+    directly targets midinformation: misunderstandings, misinterpretations and misrepresentations
+    based on scant or emerging scientific evidence. Midinformation happens often when
+    expert consensus changes over time, and it is distinct from more straightforward
+    misinformation. \n\nWe apply principles from Google’s Design Sprint methodology
+    into three weekly sprints, including problem mapping and prioritization, solution
+    sketching across text and visual responses, and feedback integration from partners.
+    Through consistent use of this model, we are able to optimize for the number of
+    requests we can address weekly, and can account for responding to a diverse set
+    of topics that require reviewing extensive scientific literature across a variety
+    of disciplines. \n\n### Key lessons our team has learned over the last 6 months\n\nAs
+    a team, we have distilled four key lessons to carry our project strategy forward:
+    \n\n1. __It is important to educate health professionals about the value of existing
+    approaches being taken by platforms to reduce the impact of misinformation.__
+    Influencing impacts of health misinformation at scale requires closer connections
+    between health scientists and communicators using tools already optimized for
+    easy online encounters with factual health information, such as Google’s ClaimReview
+    and MediaReview annotation frameworks,, and partnerships with third-party fact-checking
+    organizations. The health community is ready and excited to contribute to projects
+    like this one, and needs guidance about where time and effort is best spent.  \n\n2.
+    __Syndication models can maximize impact at the scale of the internet.__ Our partnerships
+    with e-newsletters, podcasts, communicators with their own syndication models,
+    and collaborations with fact-checking organizations and newsrooms have reached
+    over 700,000 people in just three months of collaboration. Our goal is to continue
+    supporting communicators with their own content development, know that while we
+    can distill the ever-changing science successfully, community information leaders
+    know their audiences best, and that maximizes the impact of any public health
+    message.  \n\n3. __A focus is needed on misinformation related to both vaccines
+    and treatment.__ While these represent the majority of the questions shared with
+    us by fact-checkers and journalists, the most common questions are not reflected
+    in resources provided by intergovernmental or government health institutions.
+    Further, while current public health officials estimate that a successful vaccine
+    will be developed by the end of 2020 and that vaccination campaigns will start
+    by early 2021, a vaccination campaigns’ success is determined by people’s willingness
+    to get vaccinated. Patterns in uneven distribution of vaccines globally, and thus
+    uneven eradication of certain illnesses, will likely yield inequalities in the
+    elimination of COVID-19 in different parts of the world. For this reason, it is
+    essential to not only address vaccine misinformation, but also misinformation
+    associated with COVID-19 treatments, which may emerge in successful forms earlier
+    than the release of a vaccine.\n\n4. __Localization conducted by various stakeholders
+    is required to reach & be accessible to community information leaders at a global
+    scale.__ Our partners have requested that local health experts, as well as users,
+    combine efforts to translate the database content and accompanying visuals into
+    local languages. We're grateful to the Localization Lab, and to our public health
+    expert translator team, for making this novel approach at localization possible!
+    This optimizes for accessibility (including factors related to availability, relevance,
+    and literacy), and ensures that fact-checkers and journalists operating in diverse
+    languages can all benefit from, and contribute to, improved health literacy where
+    their audiences already seek content.  \n\n### What’s next: expanding and diversifying
+    our impact\n\nWith these lessons in mind, here’s what’s next for our team: \n\n__Expanding
+    scope of response effort:__ Our experts have provided contextualization for over
+    120 topics related to COVID-19, moving at a rate of, on average, 10 database articles
+    or “entries” per week. Our collaborators are increasingly asking questions about
+    public health topics significant with respect to the pandemic, but are distinctly
+    relevant outside of COVID-19. These include questions about nutrition, non-communicable
+    diseases, antibiotic resistance and reproductive health. Our goal is to provide
+    additional public health expert contextualizations for topics outside of COVID-19.
+    \ \n\n__Engaging with community-based communications networks:__ Our goal is to
+    expand our offerings with a focus on rapid responses for community newsrooms,
+    freelance journalists, community  nonprofits and other information leaders within
+    communities. In collaboration with our partners, we’re working with the product
+    and development teams at Meedan to create more efficient pathways of information-sharing
+    between our experts and community information leaders, using dedicated helplines
+    through SMS, WhatsApp, Facebook and Twitter. We’re also sharing customizable bot
+    infrastructure so community newsrooms can more easily connect their audiences
+    with the health information that is directly relevant to their needs. We hope
+    to support these groups directly by providing the information that they can tailor
+    to the needs of their own communities that they know best. \n\n__Strengthening
+    relationships between public health experts, the health literacy community, local
+    newsrooms and fact-checking organizations:__ Given the important role community
+    newsrooms and fact-checking organizations play in responding to health misinformation
+    via social media and online search platforms, integrating more closely with the
+    public health community can serve to strengthen health literacy at scales larger
+    than ever before. \n\nTo learn more about work, please contact <a href=\"mailto:health@meedan.com\">health@meedan.com</a>.
+    \n"
+  alt_date: !ruby/object:DateTime 2020-09-10 00:00:00.000000000 Z
+  date: '2020-08-20'
+  image: https://images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg
+  title-en: How we’re pursuing health equity at internet scale
+  alt_date_string: '2020-09-10'
+- sys:
+    id: 56gqFfBfHhQL3HKHB49AR2
+    created_at: !ruby/object:DateTime 2020-08-25 02:35:52.817000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-26 19:03:31.208000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 4 Things We Learned from RightsCon 2020
+  slug: 4-things-we-learned-from-rightscon-2020
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 3LDNJKkf0lbkAuzYbIIiUA
+        created_at: !ruby/object:DateTime 2020-08-26 19:02:22.604000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-26 19:03:29.126000000 Z
+      title: 4 Things We Learned from RightsCon 2020
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3LDNJKkf0lbkAuzYbIIiUA/2c6bdb3618e702221b2eaca5a30c672e/Meedan_RightsCon_2020.jpg"
+    description: 
+    title: 4 Things We Learned from RightsCon 2020
+    url: "//images.ctfassets.net/g118h5yoccvd/3LDNJKkf0lbkAuzYbIIiUA/2c6bdb3618e702221b2eaca5a30c672e/Meedan_RightsCon_2020.jpg"
+  body: "__The fields of public health and human rights are inextricably linked.__
+    Increasingly, access to information is a mediator of access to health. The important
+    role that digital rights plays in protecting and promoting the right to health
+    was particularly pertinent this year, with panels addressing health data privacy,
+    access to medicines, mental health and digital first responders, and gendered
+    misinformation online. It is important to critically examine the pathways through
+    which any individual or community is able to encounter health information digitally,
+    and the barriers, limitations and challenges brought about by limited localization,
+    zero-rated mobile data plans, inconsistent or obtrusive content removals and moderation
+    decisions, especially through COVID-19, which has limited the ability of seeking
+    health care in-person.\n\n— Nat Gyenes, Program Director, Digital Health Lab\n\n__We
+    need to keep data about Latin America's activist memory safe.__ During this pandemic-infused
+    reality I focused my attention on panels that were contextualized for Latin America
+    on the subjects of censorship, content moderation and trust. I intended to create
+    a mental landscape of shared concerns in the region, such as COVID-19 data colonialism
+    practices and the importance of initiatives that take into account the country's
+    data governance and independence during these times instead of readily sharing
+    models that take national data into international service providers such as Amazon.
+    \n\nFrom the learnings and context from the community came the [Recordkepers of
+    the Resistance project](https://meedan.com/blog/preserving-latin-american-activist-history-on-social-media/),
+    which aims to initially map activist content in Latin America related to feminist
+    agendas, gender representation, race, sexual diversity and freedom of expression
+    that were removed from the main corporate social media platforms. Collecting these
+    data as a form of hypothesis testing is the first step. The future objective is
+    to publicize this issue with materials aimed at activists in Spanish and Portuguese,
+    uniting these issues in a coalition of organizations, sharing safe archiving and
+    memory conservation practices and creating a Code of Ethics for archival activism
+    in social networks. \n\n— Isabella Barroso, Program Manager, Latin America\n\n\n__Tech
+    solutionism is still with us.__ The temptation to answer problems with software
+    is often well-meaning, but the people who will be most affected are not always
+    part of the design process. There was a discussion about health passports during
+    pandemics. Reducing harm to vulnerable groups means any implementation would have
+    to be so narrow in scope and so well-regulated that skepticism is warranted. I
+    was encouraged by the sessions that were led by mental health researchers, because
+    while they were talking about apps to address social issues, they started with
+    recommending existing non–tech standards of care and the need to fill gaps in
+    our understanding of mental health. A panel on gender-based violence, and a panel
+    on trauma mitigation both addressed myths surrounding memory and resilience after
+    experiencing horrible things. Mental health experts should be a core part of software
+    design for human rights work.\n\n— Karen Reilly, Manager, Technology Partnerships\t\n\n__COVID-19
+    isn’t a black swan—it’s a canary in the coal mine for human rights abuses.__ There
+    was a distinct sense from the sessions about the stakes of this moment — at least
+    year’s RightsCon, we were very keen to bring health to the conversation around
+    rights, and the new context of this pandemic has made it absolutely a top priority.
+    It was encouraging to see how people recognized that COVID-19 intersected with
+    key human rights issues, such as content moderation and free expression, platform
+    governance and responsibility, and the ongoing repression of activists and journalists.
+    It made it really clear to me that the global trauma of [COVID-19 isn’t a black
+    swan but rather a canary in a coal mine](https://meedan.com/blog/this-pandemic-isnt-a-swan-its-a-canary/),
+    revealing the inherent weaknesses, fissures and dangers of our global digital
+    society.\n\n— An Xiao Mina, Operations\n"
+  alt_date: !ruby/object:DateTime 2020-08-26 00:00:00.000000000 Z
+  date: '2020-08-25'
+  image: https://images.ctfassets.net/g118h5yoccvd/3LDNJKkf0lbkAuzYbIIiUA/2c6bdb3618e702221b2eaca5a30c672e/Meedan_RightsCon_2020.jpg
+  title-en: 4 Things We Learned from RightsCon 2020
+  alt_date_string: '2020-08-26'
+- sys:
+    id: 3ptFLVzVXiugIN7W5Pi89t
+    created_at: !ruby/object:DateTime 2020-08-26 18:28:01.399000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-03 22:44:02.618000000 Z
+    content_type_id: story
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'A standard of care for health misinformation: lessons from Global Fact'
+  slug: a-standard-of-care-for-health-misinformation-lessons-from-global-fact
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
+  lead_image:
+    en-US:
+      sys:
+        id: 5phkcT9R6VtSwYibxGbUfJ
+        created_at: !ruby/object:DateTime 2020-08-31 20:19:31.323000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-31 21:43:20.317000000 Z
+      title: 'A standard of care for health misinformation: lessons from Global Fact '
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5phkcT9R6VtSwYibxGbUfJ/bf2aaabe0d2fbee5c55f73a2d11ca57f/meedan_standards-of-care.jpg"
+    description: 
+    title: 'A standard of care for health misinformation: lessons from Global Fact '
+    url: "//images.ctfassets.net/g118h5yoccvd/5phkcT9R6VtSwYibxGbUfJ/bf2aaabe0d2fbee5c55f73a2d11ca57f/meedan_standards-of-care.jpg"
+  body: "The COVID-19 pandemic sent rumour mills into a frenzy. The World Health Organization
+    described it as a massive infodemic, capable of drowning out reliable health guidance
+    in an over-abundance of opinion. From Argentina to South Africa we came across
+    new home made remedies about steam and salt water, and long-debunked allegations
+    about vaccinations. \n\nBut as fact-checkers know all too well, health misinformation
+    is not a peculiarity of the 2020s. From rumours in Northern Nigeria about polio
+    vaccinations almost two decades ago, to the more recent allegations that Zika
+    and Ebola were made by humans, there is a long history of health misinformation
+    - in times of crises, but also in the everyday. We all carry a myth passed down
+    to us by a friend or family member in the name of tradition, beauty, or propriety.\n\nThis
+    year at Global Fact, we (Olivia Vicol, Full Fact; Nat Gyenes, Meedan Digital Health
+    Lab; Eric Mugendi, PesaCheck, and Dr. Theresa Amobi, University of Lagos) brought
+    our reviews of academic evidence in conversation with fact checkers, with a view
+    to expand upon best practices for fact-checking Health Misinformation. We took
+    main lessons from psychology and health communication, and nuanced them with the
+    insights of over 30 fact checkers, journalists, and academics in attendance. The
+    goal was simple: develop a standard of care for health misinformation.\n\n![Global-Fact-7
+    brainstorm-on-misinformation](//images.ctfassets.net/g118h5yoccvd/1nHZhDB5dfrywS72JmodER/08d3cdce677407f39b763e4ff8196716/Global-Fact-7_brainstorm-on-misinformation.png)\n<p
+    class=\"caption\">Here is some of what participants brainstormed together during
+    the health misinformation workshop at Global Fact 7.</p>\n\n### Production\n\n__If
+    a rumour is already in public debate, fact check it early to prevent it from getting
+    traction through repetition.__ Ever since the 1940s psychologists have found that
+    repetition contributes to belief. Our default is to trust, and in times of crisis
+    in particular we tend to remember the first explanations we come across.\n\n__But
+    don’t give more oxygen to myths which would otherwise have remained unknown.__
+    Fact checking is key to the extent that it stops posts rated as false from traveling
+    further on social media. But think about whether every claim intercepted this
+    way is worth publicising further. Publicising every fact check on claims doubting
+    the safety of the flu vaccine, for instance, can unintentionally give those claims
+    much more exposure than if they had just been rated as false on social media.
+    This exposure matters, because seeing something in the public domain can lead
+    audiences to believe that the safety of the vaccine is doubted by a lot more people
+    than it reality is. Social Norms Theory tells us that what we think is happening
+    in society is a better predictor of our behaviors than what is actually happening.
+    Our health decisions and behaviors may be predicated more on our perceptions of
+    what dominant social norms are rather than what they actually are. \n\n__Talk
+    with public health experts__ where possible to determine whether it is necessary
+    to either a) fact check early, to prevent claims from getting traction through
+    repetition, or b) practice strategic silence.  And remember that public health
+    experts are also a source of trust. In times of uncertainty when rumours abound,
+    including trusted public health experts in the content and dissemination of a
+    fact check, can help good information stand out from the noise. \n\n__Publish
+    the sources of your information, and the last time they were updated, to account
+    for rapidly changing information.__ As global health scientist and vaccine uptake
+    specialist Nour Sharara phrased it, “science is the truth of today”. This is an
+    especially important concept in constantly changing health emergencies where treatments
+    and public health guidelines shift based on the latest evidence. As much as you
+    can communicate the fact that if something changes in a health context, it is
+    actually a good thing, because it means that the public health community has stronger
+    evidence to point towards a more informed health policy decision.  \n\n### Headlines\n\n__Phrase
+    your headlines as answers, not questions.__ In a time of incidental media consumption,
+    headlines are often the only thing the public see. Simply phrasing a headline
+    as a question risks having readers remember the inaccurate claim, instead of the
+    debunk. This doesn’t just apply to health misinformation. It also applied to fact-checking
+    more generally, and is of particular importance when the consequence of a fact-check
+    might be a change or modification in a health behavior.   \n\n### Content\n\n__Don’t
+    stop at saying what’s wrong.__ Tell the public what is right and why. The need
+    to have an explanation for what happens and feel in control in our environment
+    is part of human nature. Some of us find these explanations in science, religion,
+    or in personal experience - but there is always a why. Simply telling the public
+    that something they know is wrong, without updating their model of events, can
+    make it easy to fall back on past knowledge. Fill that gap. Clearly state what
+    is wrong, but also tell your audience what is right and why. For health misinformation,
+    finding resources that can assist with contextualizing the topic that you might
+    be fact-checking within the larger body of health research can make this process
+    easier. Participants in this workshop emphasized the importance of building strong
+    collaborations and projects directly with reliable health researchers for this
+    to be as effective as possible. \n\n__Keep unnecessary details to a minimum.__
+    No one has unlimited attention - and processing complex information is particularly
+    difficult in times of crisis, when readers are likely to be experiencing stress.
+    Make sure that the context and imagery you include in your fact checks are necessary
+    to your debunk. Remember that moving images (like gifs, videos, and sidebar adverts)
+    are particularly distracting. If your fact check includes those details, ask yourself
+    what they add to the public’s understanding of the story.\n\n### Imagery\n\n__Don’t
+    use graphic imagery that may trigger fear or disgust__ of blood and needles. A
+    study which looked at vaccine hesitancy around the world found that many people
+    who experience this attitude towards vaccines are also disgusted by needles and
+    blood. We haven’t come across research that looks specifically at how graphic
+    imagery shapes the interpretation of health fact checks. But until we do, it seems
+    wise to not make a case for vaccination, using the imagery associated with fear
+    of it.\n\n### Tone & Audience Engagement\n\n__Emphasise high safety, not low risk.__
+    Research reviewed by the WHO indicates that different framings of the same fact
+    can lead to very different risk perceptions and behaviours. Focusing on the positive
+    effects of an intervention, may be more effective than focusing on the absence
+    of negative effects. Think of the difference between saying: vaccines save 3 million
+    lives a year, and saying: only a very small number of people develop side effects.\n\n__Don’t
+    ridicule the claim.__ Provide a safe space for individuals seeking health information
+    or wanting to ask questions about health myths or beliefs. It is essential for
+    audiences to feel comfortable seeking information that might correct long-standing
+    beliefs related to their health or that of family members - a deeply personal
+    and important issue for us all. It’s essential that, as a community of health
+    information responders, we don’t use words like “crazy” or “outlandish” to describe
+    the myths that we correct. We need to reduce the stigma of health information-seeking.
+    \ Further, even a completely inaccurate health claim might have been shared with
+    good intentions. It may have profound cultural or religious implications. And
+    most importantly, we don’t have any evidence that humour is a more effective way
+    of countering health misinformation than a neutral, facts-based piece.\n\n\n____\n\nFor
+    more information about research about effective responses to health misinformation
+    and building a standard of care: \n\n[The briefing](https://fullfact.org/media/uploads/en-tackling-health-misinfo.pdf)
+    by Full Fact, Africa Check and Chequeado on the impacts of health misinformation
+    and solutions for addressing its impacts.\n\n[Meedan Digital Health Lab’s primer](https://health.meedan.com/primer.pdf)
+    on public health research frameworks and applying health fact-checking to promote
+    health equity."
+  words_by:
+    en-US:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+        created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Nat Gyenes
+      staff:
+        en-US: true
+      role:
+        en-US: Program Director, Digital Health Lab
+      location:
+        en-US: On the Road
+  alt_date: !ruby/object:DateTime 2020-08-31 00:00:00.000000000 Z
+  updates:
+    en-US: "__Foreword__\n\nWritten by Peter Cunliffe-Jones \n\nWhen voters believe
+      false information about political events, they often have only one opportunity
+      every few years to act on it, and consequences can be hard to judge. When the
+      false information concerns health treatments or the conditions that cause a
+      disease to spread, the chances to act misguidedly can be unlimited and the consequences
+      can be life or death.\nWhen the International Fact-Checking Network (IFCN) agreed
+      last year to review our Code of Principles, we agreed the code should provide
+      a floor, not a ceiling, to standards in our field. In March 2020, the new and
+      updated code came into practice, agreed by IFCN signatories to subject our work
+      to assessment on the basis of a new raft of standards on methodology and use
+      of sources.\n\nThat is the floor. The IFCN of course wants our community to
+      always find ways to improve, and in no field does this matter more than health
+      misinformation – the topic that first fired my own interest in misinformation
+      almost two decades ago. Therefore we welcome this initiative to propose a set
+      of best practices for how we as fact-checkers can respond to health misinformation
+      both effectively, and safely, a standard of care, if you will, for those we
+      serve: our readers, viewers or listeners.\n\nThese proposed best practices are
+      simply that. They are not part of the IFCN Code but were developed following
+      discussions at Global Fact 7, and we hope that fact-checkers everywhere will
+      find ways to review, consider and perhaps improve on them – reaching always
+      to improve the important work we do."
+  date: '2020-08-26'
+  image: https://images.ctfassets.net/g118h5yoccvd/5phkcT9R6VtSwYibxGbUfJ/bf2aaabe0d2fbee5c55f73a2d11ca57f/meedan_standards-of-care.jpg
+  title-en: 'A standard of care for health misinformation: lessons from Global Fact'
+  alt_date_string: '2020-08-31'
+- sys:
+    id: 1KD70kebuy8BZ1aSJaooKF
+    created_at: !ruby/object:DateTime 2020-09-08 12:46:22.017000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-16 22:21:17.409000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Meet Sneha Alexander: Meedan''s new Program Associate in APAC'
+  slug: meet-sneha-alexander-meedans-new-program-associate-in-apac
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: QdhOBPj5FQUFe0xwLWOKg
+        created_at: !ruby/object:DateTime 2020-09-08 12:55:49.324000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-16 22:21:13.692000000 Z
+      title: Sneha Alexander
+      description: 'Sneha Alexander '
+      url: "//images.ctfassets.net/g118h5yoccvd/QdhOBPj5FQUFe0xwLWOKg/41bee47f5e05fab732afb0ea70391158/259e3415-2ffc-4cea-8926-ef6574ca7044.jpg"
+    description: 'Sneha Alexander '
+    title: Sneha Alexander
+    url: "//images.ctfassets.net/g118h5yoccvd/QdhOBPj5FQUFe0xwLWOKg/41bee47f5e05fab732afb0ea70391158/259e3415-2ffc-4cea-8926-ef6574ca7044.jpg"
+  body: "In the last one year, Meedan has entered into new and exciting partnerships
+    with fact-checking groups, newsrooms and networks focusing on human rights in
+    the Asia Pacific region. With new partnerships and existing programs, we have
+    a team working closely with partners and supporting their work. As part of this
+    team, we're excited to welcome Sneha Alexander to Meedan. Sneha has joined us
+    as the Program Associate for the Asia Pacific region. Her background in journalism
+    and fact-checking will contribute to Meedan's work on these areas. \n\nCatch Sneha
+    in this short Q&A here where she talks about her background, interests and fun
+    facts that we're thrilled to learn about! \n\n### 1. What has been your experience
+    before you joined Meedan? \n\nI came to Mumbai to pursue a Masters in Public Policy.
+    During this time, I worked part-time with a travel company where I drafted itineraries
+    and helped organize study tours and adventure programmes for schools and college
+    students. Later I worked in the Indian news industry for 4 years. First, as a
+    policy analyst cum fact-checker with BOOM, one of India’s premier fact-checking
+    organizations. Later, I worked as a data journalist for the Plain Facts column
+    of Mint, one of India’s leading financial dailies.  \n\n### 2. Tell us about a
+    story/ assignment that you worked on that was exciting and insightful.\n\nThe
+    assignments that I enjoyed the most involved fact-checking claims of top officials
+    / leaders of the country, speaking to subject experts and had a direct impact
+    on people’s lives.\nAn example is a story in which my co-author and I questioned
+    the veracity of the government claim that Indian villages have become open defecation
+    free. We pointed to the contradiction in data provided by two wings of the government
+    - administrative data of Clean India Mission from the concerned ministry and [the
+    household survey data of the National Statistical Organizatio](https://www.livemint.com/news/india/india-s-toilet-stats-raise-a-stink-11576658602838.html)n.
+    Other than pointing to the discrepancy in data, we also reached out to subject
+    experts to put in perspective the government’s claim that beneficiaries may have
+    under-reported sanitation coverage. This article also attracted criticism from
+    the government [in a public information bureau release](https://pib.gov.in/Pressreleaseshare.aspx?PRID=1596964).
+    \n\n### 3. What is the Indian media and fact-checking ecosystem like? What are
+    the strengths and what gaps do you see?\n\nThe Indian media and fact-checking
+    ecosystem is an extremely competitive space, where organizations have the drive
+    to be first to report stories and flag misinformation. Thanks to the huge country
+    India is and thriving social media platforms, there is no dearth of content or
+    audience. Since there is space for everyone and great scope for adoption of technology
+    driven reporting, the focus should be on producing credible, non-partisan and
+    fact-driven content. There also needs to be greater coverage of rural and local
+    issues. \n\n### 4. What brought you to Meedan?\n\nHaving worked as a fact-checker
+    and a journalist, I felt it would be great to facilitate credible journalism.
+    Moreover, I was very excited by the prospect of working with the global fact-check
+    community and team members from across the world in making the web a more inclusive
+    and better place. \n\n### 5. What's a project you're excited about right now?\n\nI
+    am excited about [Meedan’s End-to-End Fact-Checking project](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact)
+    involving different Indian fact-check organizations using WhatsApp tiplines and
+    Check for fact-checking. Earlier, I was at the other end, a user of fact-check
+    technology. Switching to the role of facilitator will provide great insights in
+    understanding the intersection of technology and media. I am also very keen to
+    be part of projects like the COVID-19 microgrants which support the good work
+    of individuals and grassroot level media organizations that keep local issues
+    in perspective and integrate communities to the larger online community. \n\nIn
+    the long run, I also look forward to seeing a greater focus on data based fact-checks
+    in the global fact-check space. Many times, the claims of political leaders and
+    top officials are not backed by data and include misrepresentation of facts. This
+    later turns out to be the ‘truth’ on social media platforms and at dinner table
+    conversations giving way to hatred and other dangers. To tackle this, there needs
+    to be more conversation and greater use of credible data in fact-checking.  \n\n###
+    6. Tell us some fun facts about Sneha.\n\n- I enjoy following Indian politics
+    and would love to be part of election and political strategizing some time in
+    future\n- Acting in a film is on my bucket list. \n- A plate of chicken biriyani
+    can lift my mood. \n- I love spicy food and can nibble on green chilli with almost
+    anything!!\n"
+  alt_date: !ruby/object:DateTime 2020-09-16 00:00:00.000000000 Z
+  date: '2020-09-08'
+  image: https://images.ctfassets.net/g118h5yoccvd/QdhOBPj5FQUFe0xwLWOKg/41bee47f5e05fab732afb0ea70391158/259e3415-2ffc-4cea-8926-ef6574ca7044.jpg
+  title-en: 'Meet Sneha Alexander: Meedan''s new Program Associate in APAC'
+  alt_date_string: '2020-09-16'
+- sys:
+    id: rLaGq797KZZQk2jmEDgdT
+    created_at: !ruby/object:DateTime 2020-09-14 10:58:42.340000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-17 15:02:31.596000000 Z
+    content_type_id: story
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meedan announces a Beirut Response Fund for independent media in Lebanon
+  slug: beirut-response-fund-for-independent-media-in-lebanon
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 7yu3pvm6ivohoCzFytmIdW
+        created_at: !ruby/object:DateTime 2020-09-14 19:03:42.395000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-16 14:53:17.910000000 Z
+      title: Beirut Response Fund
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7yu3pvm6ivohoCzFytmIdW/c4ac65e059f26ed6210af7c6f1c2effe/meedan_beirut-response-fund.jpg"
+    description: 
+    title: Beirut Response Fund
+    url: "//images.ctfassets.net/g118h5yoccvd/7yu3pvm6ivohoCzFytmIdW/c4ac65e059f26ed6210af7c6f1c2effe/meedan_beirut-response-fund.jpg"
+  body: "It has taken us some time to get this post written and published. First,
+    because like most of our Lebanese friends, family members and colleagues based
+    in Beirut and in the diaspora, we needed time to process [what has actually happened
+    on August 4, 2020](https://www.wsj.com/articles/beirut-explosion-kills-at-least-100-injures-thousands-11596620481),
+    and allow ourselves the space to get past anger, frustration, pain and anxiety,
+    and write something that makes sense. Second, and probably more importantly, it
+    is because we have been talking with our partners in Beirut about the best things
+    to do, and the best ways to support independent media workers based on the ground
+    in the aftermath of the explosion.\n\nBeirut is our home town. It is also the
+    main regional base for all our Check Global programs and activities. It is where
+    we organised our [first CheckCon conference ](https://nawamedia.org/blog/2017/02/02/checkcon-2017-beirut/)in
+    2017, which brought together digital rights experts, journalists, and grassroots
+    activists from across the region and the world. It is also where we launched our
+    Check newsroom with [12 amazing journalism students from the Lebanese University](https://nawamedia.org/newsroom/teams/lebanese-newsroom/).
+    Our newsroom has today [expanded](https://nawamedia.org/blog/2019/12/18/expanding-to-a-nawa-newsroom/)
+    to include students from Egypt, Yemen and Syria; almost 30 journalism students
+    in the region are today trained on digital media literacy skills, open-source
+    investigations and fact-checking.\n\nLebanon has gone through a difficult 12 months.
+    Lebanese people, fed up with a consociational sectarian and clientelist political
+    system, revolted in [October 2019](https://www.theguardian.com/world/2019/oct/18/lebanon-brought-to-a-standstill-by-protests-over-economic-crisis)
+    as the country went through total economic collapse, further aggravated by the
+    spread of the COVID-19 pandemic. The local currency lost [more than 60% of its
+    value](https://www.reuters.com/article/us-lebanon-crisis-pound-idUSKBN23H1BS),
+    pushing more than half of the population below the poverty line. Independent media
+    workers and organizations, which covered the protests, also bore the brunt of
+    this economic crisis.\n\nSo when the Beirut port explosion rocked the city last
+    month, it hit very close to home for the entire Meedan team, in nine countries
+    and eight timezones -- not just because our students, team members and and many
+    of our partners were directly affected, but also because we owe Beirut credit
+    for many of the great things we have been able to achieve with the Check Global
+    project to date. The explosion further endangered Beirutis' work, as many lost
+    their homes, offices, equipment, and livelihoods.\n\nSo after consultation with
+    our Beirut-based partners and our funders at Sida, we have re-allocated our travel
+    budget for 2020 (one silver lining of the global pandemic? Maybe!) to set up the
+    Check Global Beirut Response Fund, a $26,000 fund to support independent media
+    organizations and workers on the ground. \n\nThrough the Check Global Beirut Response
+    Fund, we allocated $16,000 in unrestricted funds to three vetted independent media
+    organizations, which we can't name for security reasons, to support and sustain
+    their investigative journalistic work. The remaining $10,000 have gone toward
+    the Samir Kassir Foundation's [Media Recovery Fund](https://www.skeyesmedia.org/en/Media-Recovery-Fund)
+    to cater to independent media workers' tech and equipment needs. As a [state of
+    emergency was declared--and extended](https://www.dailystar.com.lb/News/Lebanon-News/2020/Aug-17/510442-state-of-emergency-extended-by-a-month.ashx)--in
+    Beirut, effectively giving all powers to the army, the fund provided in-kind support
+    in the form of a digital security training led by circumvention and privacy expert
+    [Sarah Aoun](https://twitter.com/sa0un) with 25 independent journalists to provide
+    protection from surveillance and censorship.\n\nBut we want to do more, and better.
+    We are currently trying to leverage our existing partnerships with [HURIDOCS](https://www.huridocs.org/),
+    [Syrian](https://www.syrianarchive.org/) and [Yemeni](https://yemeniarchive.org/)
+    Archives, [Bellingcat](https://www.bellingcat.com/) and others to support archiving,
+    verification and preservation of crowdsourced footage that documents the [ongoing
+    protests](https://www.bbc.com/news/topics/c8qy8zrj69et/lebanon-protests), and
+    the Lebanese government's [violent repression of the political movement](https://www.latimes.com/world-nation/story/2020-08-08/show-of-solidarity-after-blast-as-lebanon-braces-for-protest).\n\nLebanon's
+    independent journalists will be forced to adapt to an increasingly precarious
+    situation, as [electricity cuts intensify](https://www.washingtonpost.com/world/middle_east/lebanons-rising-power-cuts-add-to-gloom-of-economic-crisis/2020/07/07/95498db4-c05f-11ea-8908-68a2b9eae9e0_story.html),
+    affecting internet usage -- especially indispensable during a pandemic. As far
+    as Meedan goes, we are mobilizing and calling on our partners, donors, and friends
+    to support Lebanon's independent media workers in these difficult times. Please
+    do get in touch with us if you would like to know more about our efforts in Beirut,
+    if you think you can help, or if you have any ideas about how we can do all of
+    this better. You can reach the Check Global team at <a href=\"mailto:checkgrants@meedan.com\">checkgrants@meedan.com</a>."
+  words_by:
+    en-US:
+    - sys:
+        id: 2eNuMXzkTcgh2oBbYrT3Cx
+        created_at: !ruby/object:DateTime 2020-03-24 00:47:04.010000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:17:38.941000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Dima Saber
+      staff:
+        en-US: true
+      role:
+        en-US: Program and Impact Director, Check Global
+      location:
+        en-US: Birmingham, UK
+    - sys:
+        id: 26BnKkV6uNqzYWtFueaerv
+        created_at: !ruby/object:DateTime 2020-08-20 23:13:04.954000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-15 22:27:54.097000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Azza el Masri
+      staff:
+        en-US: true
+      role:
+        en-US: Pan-Arab Newsroom Coordinator
+      location:
+        en-US: Beirut
+  alt_date: !ruby/object:DateTime 2020-09-14 00:00:00.000000000 Z
+  date: '2020-09-14'
+  image: https://images.ctfassets.net/g118h5yoccvd/7yu3pvm6ivohoCzFytmIdW/c4ac65e059f26ed6210af7c6f1c2effe/meedan_beirut-response-fund.jpg
+  title-en: Meedan announces a Beirut Response Fund for independent media in Lebanon
+  alt_date_string: '2020-09-14'
+- sys:
+    id: 2u4u08lDCEkeTriJ00cqfm
+    created_at: !ruby/object:DateTime 2020-09-18 18:53:15.848000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 21:58:34.301000000 Z
+    content_type_id: story
+    revision: 8
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Investigating civilian harm using open source intelligence on Meedan’s flagship
+    software, Check
+  slug: investigating-civilian-harm-using-open-source-intelligence-on-check
+  topic:
+    en-US:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Technology
+  lead_image:
+    en-US:
+      sys:
+        id: 5Yf1dxnpLLuuSUxOwykOsn
+        created_at: !ruby/object:DateTime 2020-09-18 19:29:55.361000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:34:48.241000000 Z
+      title: meedan tbji open-source-investigation
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5Yf1dxnpLLuuSUxOwykOsn/164691b8968de91e8b79a696cda9bea1/meedan_tbji_open-source-investigation.jpg"
+    description: 
+    title: meedan tbji open-source-investigation
+    url: "//images.ctfassets.net/g118h5yoccvd/5Yf1dxnpLLuuSUxOwykOsn/164691b8968de91e8b79a696cda9bea1/meedan_tbji_open-source-investigation.jpg"
+  description:
+    en-US: 'A collaboration on Check between The Bureau of Investigative Journalism
+      and Bellingcat''s open-source intelligence community leads to extensive public
+      interest reporting on the air war in Afghanistan. '
+  body: "In 2019, a reporter from The [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/)
+    in London reached out to Meedan. She needed help with an investigation into airstrikes
+    in Afghanistan, specifically, to document evidence of civilian harm from 21 alleged
+    airstrikes that in recent years had reportedly hit civilian homes and killed family
+    members.\n\n[Jess Purkiss](https://www.thebureauinvestigates.com/profile/jessicapurkiss)
+    and her team knew that using official information from U.S. and Afghan forces
+    would prove near impossible; the Bureau has been tracking strikes in Afghanistan
+    for more than five years and often, both sides of the conflict deny accountability
+    for harm inflicted on innocent citizens. \n\nTurning to the open web, the Bureau
+    first connected with Meedan partner [Bellingcat](https://www.bellingcat.com/),
+    an open source investigation community well known for its investigations that
+    [Meedan supports](https://www.bellingcat.com/resources/articles/2014/08/06/investigating-the-mh17-crash-site-with-meedans-checkdesk/)
+    through our open source verification software, Check. \n\nPurkiss set out to crowdsource
+    information about her list of suspected airstrikes. Were they indeed airstrikes?
+    Who was harmed by them? Where, specifically, did they happen? Whose homes were
+    destroyed? Who survived? Bellingcat’s community of internet sleuths searched the
+    expanses of Twitter, Facebook and other platforms for any evidence that might
+    answer those questions. They logged their findings and built large bodies of evidence
+    for each reported airstrike in Check, where the Bureau could review and verify
+    open source submissions, ask questions and prompt answers. \n\n![edit&ltmpl=docs](//images.ctfassets.net/g118h5yoccvd/6XZGBYzHQV9OKH9zCqkFZO/f0830d02a89f8d51658197e89a7ddb14/Check-Example__1_.jpg)\n<p
+    class=\"caption\">An image of the investigative workspace in Check</p>\n\nWorking
+    together, the team was able to piece together some definitive narratives behind
+    what happened, and to whom, as a result of these airstrikes. In a [brief of one
+    incident](https://www.thebureauinvestigates.com/stories/2020-06-03/finding-the-faces-of-afghanistans-slaughtered-civilians)
+    on the Bureau’s site, the team writes: \n\n> \"One of the strikes on the Bureau’s
+    list had hit a building – a home – in  Baghlan province, north of Kabul, on July
+    9, 2019. Early narratives around  this incident were conflicting. A few brief
+    lines in news reports at the   time said that the Afghan Ministry of Defence had
+    admitted civilians had died in a strike, but stopped short of taking responsibility.
+    And while the US denied carrying out strikes in the area, the governor of the
+    province was on camera blaming Nato forces – a common shorthand for the US, the
+    only Nato member still conducting air operations in Afghanistan.\n\n> Coordinating
+    an OSINT [Open Source Intelligence] operation involves setting priorities for
+    different strikes – what is known already, and what’s most important to find out?
+    Do we know for sure that a strike happened, or are we trying to pinpoint where
+    and when?\n\n> In the Baghlan case, the key information to find was the coordinates.
+    In incidents like this, where responsibility is not clear, finding the exact location
+    of the strike can make a huge difference. In the strike on Masih’s house, it was
+    this detail that had prompted a reversal of the US military’s initial denial.\"\n\nUsing
+    Check to collectively document findings, the team of OSINT volunteers searched
+    the internet to geolocate where the strike happened. One user even found evidence
+    that determined the location of the strike. Others were able to help the Bureau
+    build weights of information that detailed who strikes killed and when. \n\nIn
+    total, the Check-supported reporting led to [this piece](https://www.thebureauinvestigates.com/stories/2020-06-03/finding-the-faces-of-afghanistans-slaughtered-civilians)
+    examining two of the incidents and looking at how OSINT can help fill accountability
+    gaps and produce leads to follow up on the ground. Another [version of the piece](https://www.wired.co.uk/article/afghanistan-civilian-deaths-us-military)
+    appeared in WIRED. \n\nOne strike in particular, in Baghlan province on July 9,
+    outlined the technical process for verification in this Bellingcat [case study](https://www.bellingcat.com/news/rest-of-world/2020/06/04/investigating-one-case-of-civilian-harm-in-afghanistan/).
+    \n\nOSINT findings also [fed into this long read](https://www.thebureauinvestigates.com/stories/2020-06-03/the-families-paying-the-price-for-the-war-in-afghanistan),
+    examining accountability for the airwar in Afghanistan, which investigated strikes
+    that hit ten civilian compounds. A number of the cases came from the Check account,
+    while others are from investigations outside this project. Work on a Nangarhar
+    strike is featured in an [Al Jazeera Fault Lines documentary](https://www.aljazeera.com/programmes/faultlines/2020/06/afghanistan-civilian-loss-air-war-200602093444066.html).
+    The film crew journeyed to meet this family in Afghanistan, and others in partnership
+    with TBIJ. \n\nThis case study is an example of how the open source community
+    can use [Check](https://checkmedia.org/) to document important information, especially
+    when that information is not accessible due to lack of transparency or resource.
+    On the platform, volunteers from all walks of life, coupled with a rigorous layer
+    of verification by the Bureau, helped shine a light on murky incidents of war
+    that greatly impacted families, homes and livelihoods."
+  words_by:
+    en-US:
+    - sys:
+        id: dyeTaxL6zUN3ST8oyYpTC
+        created_at: !ruby/object:DateTime 2020-09-18 19:04:00.062000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:04:06.282000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Megan Marrelli
+      staff:
+        en-US: true
+  alt_date: !ruby/object:DateTime 2020-09-18 00:00:00.000000000 Z
+  date: '2020-09-18'
+  image: https://images.ctfassets.net/g118h5yoccvd/5Yf1dxnpLLuuSUxOwykOsn/164691b8968de91e8b79a696cda9bea1/meedan_tbji_open-source-investigation.jpg
+  title-en: Investigating civilian harm using open source intelligence on Meedan’s
+    flagship software, Check
+  alt_date_string: '2020-09-18'
+- sys:
+    id: 3V59udKx6j9vqmSiSXxYH2
+    created_at: &20 !ruby/object:DateTime 2020-09-18 19:17:58.464000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 20:26:29.226000000 Z
+    content_type_id: story
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meedan to train fact-checking fellows on health misinformation with Facebook
+    Journalism Project
+  slug: meedan-to-train-fact-checking-fellows-on-health-misinformation-with-facebook
+  topic:
+    en-US:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+        created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Training
+  lead_image:
+    en-US:
+      sys:
+        id: 2i7gAIurreScXtoFfX3lHG
+        created_at: !ruby/object:DateTime 2020-09-18 19:20:20.336000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:20:29.396000000 Z
+      title: meedan facebook-journalism-project
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg"
+    description: 
+    title: meedan facebook-journalism-project
+    url: "//images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg"
+  description:
+    en-US: 'Meedan is excited to announce a new collaboration with Facebook Journalism
+      Project that will train the next generation of fact-checkers to verify health
+      misinformation for their global audiences. '
+  body: "Meedan is excited to announce a new collaboration with Facebook Journalism
+    Project that will train the next generation of fact-checkers to verify health
+    misinformation for their global audiences. \n\nThe initiative, a year-long [global
+    health fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship)
+    facilitated by Facebook, will bring on new team members to 10 participating fact-checking
+    organizations. Fellows selected by the 10 participating fact-checking organizations
+    will take part in virtual training sessions provided by Meedan and Facebook. \n\nMeedan
+    will support these fact-checkers with critical training on the ethics, standards
+    and core practices for debunking health misinformation worldwide. \n\nThe COVID-19
+    pandemic shines a light on the critical need to support the capacity and skills
+    that are necessary to successfully fact-check claims about complex science surrounding
+    treatments, causes, cures, homeopathic remedies and vaccines. Health misinformation
+    is running rampant on online platforms and there is great need for the next generation
+    of journalists to understand how health literacy and health barriers contribute
+    to the spread of disease, and how responsible fact-checking and verification efforts
+    can be foundational pillars in the equalization of access to high quality health
+    news. \n\nMeedan will collaborate on the Facebook training by working with our
+    [in-house experts](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/)
+    on developing a curriculum that helps fact-checkers navigate complex health debunking
+    tasks in ways that are responsible. We’re so excited to be able to contribute
+    to this project and to work with organizations including: \n\n- Tempo, Indonesia\n-
+    Vera Files, Phillippines\n- Factly, India\n- The Quint, India\n- ColombiaCheck,
+    Colombia\n- La Silla Vacía, Colombia\n- Africa Check, South Africa\n- Teyit, Turkey\n-
+    Pagella Politica, Italy\n- Full Fact, UK\n\nThis training will be another addition
+    to our suite of COVID-19 resource-building, which already includes our public
+    health information tool, [learnaboutcovid19.org](https://learnaboutcovid19.org/).
+    It will also be our second training project this year, preceded by the roll out
+    of [Google News Initiative-supported curriculum](https://meedan.com/blog/training-the-next-workforce-to-field-dangerous-claims/)
+    that is being delivered across nine countries. \n\nMore details to come soon!
+    If you’re interested in learning more, contact <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>.
+    \n"
+  date: '2020-09-18'
+  image: https://images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg
+  title-en: Meedan to train fact-checking fellows on health misinformation with Facebook
+    Journalism Project
+  alt_date: *20
+  alt_date_string: '2020-09-18'

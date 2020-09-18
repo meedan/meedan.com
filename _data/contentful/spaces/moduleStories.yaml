@@ -3,362 +3,707 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-11 19:50:15.644000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 19:28:27.702000000 Z
     content_type_id: moduleStories
-    revision: 43
+    revision: 48
   title: Blog
   stories:
   - sys:
-      id: 2OyCkY4x90BqvGy9RG4kN8
-      created_at: !ruby/object:DateTime 2020-07-18 20:08:51.154000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-11 19:50:11.894000000 Z
+      id: 3V59udKx6j9vqmSiSXxYH2
+      created_at: !ruby/object:DateTime 2020-09-18 19:17:58.464000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-18 20:26:29.226000000 Z
       content_type_id: story
-      revision: 1
-    title: This pandemic isn’t a swan—it’s a canary
-    slug: this-pandemic-isnt-a-swan-its-a-canary
-    topic:
-    - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
-    - sys:
-        id: 13HcGYCQHm8vDRW3EAkw6j
-    lead_image:
-      sys:
-        id: 591uU3S7qsOtaa1BD5aTe2
-        created_at: !ruby/object:DateTime 2020-08-06 18:12:57.248000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-13 02:15:59.458000000 Z
-      title: This pandemic isn’t a swan—it’s a canary
-      description: Image CC-BY-NC <a href="https://www.flickr.com/photos/squiddles/4921263291/i">Warrior
-        Squirrel</a>
-      url: "//images.ctfassets.net/g118h5yoccvd/591uU3S7qsOtaa1BD5aTe2/463ac186e49149dc4df23c533e0e2838/meedan_blog_canary.jpg"
-    body: |-
-      Early in the days of COVID-19, as it was just starting to leave the confines of East Asia, a number of people I know started calling the then-emergent pandemic a "black swan event." This is a metaphor for something very rare and difficult to predict. It would be a fitting one if COVID-19 was like the Spanish Flu---a once in a century event that wreaks havoc and then is quickly forgotten. It's become popular in finance circles thanks to the work of options trader Nassim Nicholas Taleb. As summarized in Wikipedia, [Black swan theory](https://en.wikipedia.org/wiki/Black_swan_theory) has three key charateristics:
-
-      1.  The disproportionate role of high-profile, hard-to-predict, and rare events that are beyond the realm of normal expectations in history, science, finance, and technology.
-
-      2.  The non-computability of the probability of the consequential rare events using scientific methods (owing to the very nature of small probabilities).
-
-      3.  The psychological biases that blind people, both individually and collectively, to uncertainty and to a rare event's massive role in historical affairs.
-
-      A striking image --- just because we've never seen a black swan doesn't mean it doesn't exist ---, it's wholly inadequate for understanding COVID-19. [An article in Fast Company](https://www.fastcompany.com/90475793/why-the-coronavirus-crisis-is-a-gray-rhino-and-not-a-black-swan) helped me understand and dispense with that metaphor pretty quickly:
-
-      > But true linguists say that the proper metaphor for the crisis is a "gray rhino," which refers to highly probable but neglected threats that have an enormous impact. It was coined by Michele Wucker, a policy analyst who came up with the term after the 2012 Greek financial crisis.
-
-      Indeed, nearly two years ago,[  Atlantic writer Ed Yong pointed out that the US](https://www.theatlantic.com/magazine/archive/2018/07/when-the-next-plague-hits/561734/)---and, as we've learned, the world---is simply not ready for a pandemic:
-
-      > Perhaps most important, the U.S. is prone to the same forgetfulness and shortsightedness that befall all nations, rich and poor---and the myopia has worsened considerably in recent years. Public-health programs are low on money; hospitals are stretched perilously thin; crucial funding is being slashed. And while we tend to think of science when we think of pandemic response, the worse the situation, the more the defense depends on political leadership.
-
-      > When Ebola flared in 2014, the science-minded President Barack Obama calmly and quickly took the reins. The White House is now home to a president who is neither calm nor science-minded. We should not underestimate what that may mean if risk becomes reality.
-
-      ![This pandemic isn’t a swan—it’s a canary](//images.ctfassets.net/g118h5yoccvd/6hTpSXjNGPRuVKV4KnuGZs/08f9b2b3458c7197cff220daed69a6f6/EF3E3911-3032-4865-AC7A-D096912D60ED.JPG)
-      <p class="caption">Image CC BY-NC-ND Rose Davies on Flickr</p>
-
-      Many have seen this rhino coming. It was standing there all along. As early as 2017, [the Pentagon was aware of the risks](https://www.npr.org/2020/04/05/827692672/report-pentagon-aware-of-possible-coronavirus-threat-for-years), and the film [Contagion](https://en.wikipedia.org/wiki/Contagion_(2011_film)), shot in 2011 and depicting a global pandemic and its effects on common people and institutions alike, feels eerily prescient but is only predictive because it's based on solid science about pandemic risk.
-
-      But as I learn more about the pandemic and the conditions that enabled it to spread so quickly---poor public health systems, science denialism, and the steady encroachment of humans onto animal environments, among other factors---I think another metaphor is more fitting: the canary in the coal mine.
-
-      Consider the words of health writer Sonia Shah [in a recent cover story for The Nation](https://www.thenation.com/article/society/pandemic-definition-covid/):
-
-      > It's time for a new story, one that more accurately captures the reality of how contagions unfold and why. In this story, pandemics would be cast as both a biological reality and a social phenomenon shaped by human agency. And the coronavirus, if cast as any kind of monster at all, would be a Frankenstein's monster: a creature of our own making. We, after all, created the world in which SARS-Cov-2 evolved, one in which our industry has swallowed up so much of the planet that microbes from wild animals easily slip into livestock and humans. We created the society of overcrowded prisons and nursing homes staffed by underpaid employees who must work in multiple facilities to make ends meet; in which employers force their workers to labor on meatpacking lines even if they're sick; in which asylum seekers are crammed into detention centers; and in which people living in hard-hit cities like Detroit lack access to clean water with which to wash their hands.
-
-      > A narrative that elevates these realities would compel us to consider a much wider range of policy responses to counter the threat of pandemics. Instead of blaming outsiders and waiting for magic bullet cures, we could work to enhance our resilience and reduce the probability of pathogens reaching us in the first place. Instead of reflexively demanding that killing chemicals be slathered across the landscape to destroy mosquitoes infected by the West Nile virus and ticks infected with Lyme disease bacteria, we could restore the lost biodiversity that once prevented their spread. We could protect the forests where bats roost, so that Ebola, SARS, and other viruses stay in them and don't find their way into human populations.
-
-      The phrase "canary in a coal mine" comes from an English-language metaphor based on the fact that canaries--which are more susceptible to methane than human beings--were brought to mines as a precaution. If the canary died, it meant methane was leaking, and that people needed to evacuate immediately. The canary was a warning that something was wrong with the mine, and that greater danger lay ahead.
-
-      Instead of a black swan or a gray rhino, we might call COVID-19 a yellow canary event --- an event that warns of even greater dangers to come.  Like the real-world canary in the coal mine, the death of something we like is a sign that something is fundamentally wrong with the metaphorical mine we live in.
-
-      We might consider yellow canary event as having some of the following characteristics:
-
-      -   A signal that is itself disturbing but to an expert is doubly so because of the conditions it reveals;
-
-      -   Hurts vulnerable populations and systems first, in a highly visible way;
-
-      -   Exposes a structural weakness that will cause tremendous harm to everyone if allowed to continue
-
-      This is COVID-19: it is a biological entity with sociological roots and geopolitical effects. And as it harms black, indigenous and people of color and global south communities more than others, as it strikes the elderly and the infirm and the underpaid and migrants, and as the response becomes politicized, we are reaping the consequences of many significant societal problems. It's not a coincidence that Black Lives Matter and other social movements are rising now --- the pandemic is the yellow canary for the fissures we've allowed to form in society that have generally been ignored.
-
-      The misinfodemics around the pandemic are deeply intertwined with these challenges. [In a 2018 article in The Atlantic](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/), colleague Nat Gyenes and I looked at some of the underlying conditions that have created a field of risk: search engine algorithms and social media feeds based on attention, long-running distrust in science, the complexity with which science is communicated. Much of public health, we wrote, "remains focused on providing communications guidelines and engaging in traditional broadcast-diffusion strategies, but not search-engine optimization, viral marketing campaigns, and accessing populations through social-diffusion approaches."
-
-      COVID-19 is a yellow canary event for the kind of environmental destruction we should expect globally, the racial and global inequalities we've allowed and encouraged to fester, the information ecosystems we've funded through advertising, and a long-running denialism of both the social and biological sciences. When miners see a dead canary, they know it's time to evacuate. But in the context of a global pandemic, there's nowhere else to go. We have to face it, understand the underlying causes, and do our best to change them.
-    words_by:
-    - sys:
-        id: 3LwmNUnWdLGIZbvPisgSL5
-    alt_date: !ruby/object:DateTime 2020-08-11 00:00:00.000000000 Z
-  - sys:
-      id: 2uGeBfzRSJYn8qx2lzzQis
-      created_at: !ruby/object:DateTime 2020-08-06 17:38:46.782000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-06 20:44:53.121000000 Z
-      content_type_id: story
-      revision: 2
-    title: 'World Breastfeeding Week 2020: Supporting Moms, Protecting Babies, and
-      Preventing Misinformation'
-    slug: world-breastfeeding-week-2020-supporting-moms-protecting-babies-and
-    lead_image:
-      sys:
-        id: 7cOrfWoPgbhOJOcA80mkx7
-        created_at: !ruby/object:DateTime 2020-08-06 20:42:54.689000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-06 22:10:58.798000000 Z
-      title: Breastfeeding-icon-med
-      description: Universal Breastfeeding Symbol by Fiona M. Jardine is licensed
-        under a Creative Commons Attribution-Non Commercial 4.0 International License
-      url: "//images.ctfassets.net/g118h5yoccvd/7cOrfWoPgbhOJOcA80mkx7/3540eae5f9a3fb33235e03e7962936b8/unibfsymbolblue"
-    body: "Breastfeeding promotes early childhood cognitive development, prevents
-      young child infections including pneumonia and diarrhea, and improves mental
-      and physical health in mothers. That’s why each year during the first week of
-      August, [World Breastfeeding Week](https://worldbreastfeedingweek.org) is celebrated
-      to raise awareness and promote breastfeeding as the best source of nutrition
-      for most babies. \n\nGeneral breastfeeding guidance from the World Health Organization
-      (WHO) and other leading health authorities includes breastfeeding for the first
-      six months of life all the way to two years of age and beyond.\n\nUnfortunately,
-      misinformation about breastfeeding is widespread. Claims often center around:\n\n-
-      Foods breastfeeding mothers should or should not eat (In general, [breastfeeding
-      moms](https://www.cdc.gov/breastfeeding/breastfeeding-special-circumstances/diet-and-micronutrients/maternal-diet.html)
-      should eat a varied diet and don’t need to include or avoid specific foods except
-      for some seafood that may be high in mercury.)\n\n- If exercise changes the
-      taste of breastmilk ([Exercise](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding)
-      is healthy and has not been shown to change the taste of breastmilk.)\n\n- Whether
-      negative emotions affect breastmilk quality (Breastmilk quality [doesn’t change](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding)
-      based on mom’s emotions.)\n\n- Whether it is okay for a mother to breastfeed
-      if she is ill ([In most cases](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding),
-      moms should continue to breastfeed even when they’re ill because breastmilk
-      passes on immune defense to the baby, but there are some exceptions so always
-      check with your or your baby’s doctor.)\n \nExacerbating the issue, early in
-      the coronavirus pandemic incomplete scientific consensus and confusion resulted
-      in brand new types of breastfeeding [misinformation](https://www.iol.co.za/lifestyle/family/baby/covid-19-moms-and-breastfeeding-separating-facts-from-fiction-add70b6c-9821-4471-8297-67e69947c5b1).
-      Because little was known about the virus, many feared that the virus would spread
-      from mothers to their infants through [breastmilk](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
-      and those concerns were shared widely in online communities. \n\nOffline challenges
-      of COVID-19 have also taken hold. Lockdown limits access to pre- and postnatal
-      lactation support [services](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(20)30327-2/fulltext)
-      leaving mothers vulnerable to online or familial misinformation in the absence
-      of professional breastfeeding support. Some women have been [advised](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7036629/)
-      by doctors not to breastfeed or to stop breastfeeding. \n\nIn some cases, babies
-      [were](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(20)30327-2/fulltext)
-      separated from mothers in hospitals, a practice known to make establishing breastfeeding
-      [difficult](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/pregnancy-breastfeeding.html),
-      decrease breastfeeding [success](https://trends.hms.harvard.edu/2020/03/31/covid-19-separating-infected-mothers-from-newborns-weighing-the-risks-and-benefits/),
-      inhibit [early bonding](https://pubmed.ncbi.nlm.nih.gov/27885658/) and attachment,
-      and [negatively impact maternal mental health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4842365/).
-      Finally, some reports have also suggested that formula companies began further
-      undermining breastfeeding messages by promoting formula as safer than breastmilk
-      during the pandemic.\n \nNow, eight months into the pandemic, we have improved
-      understanding and data, so breastfeeding recommendations for mothers infected
-      with COVID-19 are clearer. Despite misinformation, while studies of breastmilk
-      and breastfeeding are ongoing, current research shows that the risk of an infant
-      becoming infected with COVID-19 through breast milk is low. \nThe WHO [suggests](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
-      that “at this point, it appears that COVID-19 in infants and children represents
-      a much lower threat to survival and health than other infections that breastfeeding
-      is protective against.” Meanwhile the threat of poor health outcomes as a result
-      of not breastfeeding is [particularly true](https://www.bfmed.org/assets/DOCUMENTS/abm-position-breastfeeding.pdf)
-      in areas where access to clean water and medical care are limited.\n \nFor those
-      on the front lines who are supporting moms and babies everyday, providing encouragement,
-      addressing misinformation, and empowering mothers to make well-informed feeding
-      decisions, are a huge part of providing high-quality care. While babies are
-      not immune from contracting COVID-19, based on the current evidence the WHO
-      advises that even with suspected or confirmed maternal COVID-19, breastfeeding
-      is recommended for infants and young children. The U.S. Centers for Disease
-      Control and Prevention further advise mothers to further discuss breastfeeding
-      with their healthcare providers.\n \nResources:\n[World Alliance for Breastfeeding.
-      2020. ](https://waba.org.my)https://waba.org.my \n\n[World Health Organization.
-      Breastfeeding and COVID-19. June 2020.](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
-      https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19\n
-      \nWorld Health Organization. Pregnancy, Childbirth, Breastfeeding and COVID-19.
-      2020. [https://www.who.int/reproductivehealth/publications/emergencies/COVID-19-pregnancy-ipc-breastfeeding-infographics/en/](https://www.who.int/reproductivehealth/publications/emergencies/COVID-19-pregnancy-ipc-breastfeeding-infographics/en/)\n"
-    words_by:
-    - sys:
-        id: 4MK93CSrpmc3tFyE5MYEeh
-    alt_date: !ruby/object:DateTime 2020-08-06 00:00:00.000000000 Z
-  - sys:
-      id: 1j7pukiiIJLqM6BkVPEjes
-      created_at: !ruby/object:DateTime 2020-08-06 16:10:13.557000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-07 20:46:00.685000000 Z
-      content_type_id: story
-      revision: 16
-    title: Training the next generation of journalists to field dangerous claims
-    slug: training-the-next-workforce-to-field-dangerous-claims
+      revision: 4
+    title: Meedan to train fact-checking fellows on health misinformation with Facebook
+      Journalism Project
+    slug: meedan-to-train-fact-checking-fellows-on-health-misinformation-with-facebook
     topic:
     - sys:
         id: 4F5o79SqSBBaGKrc0IOhVe
     lead_image:
       sys:
-        id: 1qRNXY3kCrIJ47gtGnGtsn
-        created_at: !ruby/object:DateTime 2020-08-06 19:16:16.345000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-06 19:19:18.822000000 Z
-      title: Training the next workforce to field dangerous claims
+        id: 2i7gAIurreScXtoFfX3lHG
+        created_at: !ruby/object:DateTime 2020-09-18 19:20:20.336000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:20:29.396000000 Z
+      title: meedan facebook-journalism-project
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1qRNXY3kCrIJ47gtGnGtsn/77514c4b0bfdc694983edb17e2039e20/meedan_blog_training.png"
-    body: "In the 1300s during the Black Plague, before scientists could diagnose
-      the cause of the disease (a bacterium now called Yersinia pestis), [religious
-      cures, potions and bloodletting](https://www.ancient.eu/article/1540/medieval-cures-for-the-black-death/)
-      filled anxiety-inducing gaps in information that contemporary medical knowledge
-      could not. Generations later, during the Spanish Flu, before its true biology
-      was discovered, even[ many scientists](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2118275/)
-      believed wrongly that the disease came from the same bacterium that caused illnesses
-      like anthrax, cholera, and plague. Today, in the throes of this pandemic, we
-      see similar misinformation surrounding COVID-19 treatments, cures and preventions,
-      all spreading across the internet before they’ve been verified or refuted by
-      good science. \n\nIn each of these cases, the need or desire to know a truth
-      outpaces the discovery of that truth *(\"How much should we be testing? How
-      did the virus spread? What are the symptoms? What are the cures?\")*. So people
-      make stuff up. They latch onto theories, maybe because bad information and hasty
-      news is more comforting than no information at all. It's a problem we might
-      call [“midinformation,\"](https://meedan.com/blog/missing-information-not-just-misinformation-is-part-of-the-problem/),
-      or informational ambiguity based on scant or conflicting evidence, often about
-      emerging scientific knowledge.\n\nThere is a growing global need for a generation
-      of journalists who can help the public root through the noise of the internet
-      and get to the bottom of the chaos. More than just a baseline need for journalism
-      and high quality reporting (which is equally critical and proactive), the failures
-      of governments, platforms and information leaders during COVID-19, coupled with
-      the public's growing skepticism of science, call for more of us to be able to
-      spot midinformation and misinformation, discern its different manifestations,
-      debunk claims online, and spread the message. We are hoping to address these
-      challenges through Check U, a new vertical at Meedan that trains university
-      students to spot and verify misleading information. \n\nThis is important now
-      more than ever. Waning public trust in authorities, coupled with an evolving
-      disease in which research and science changes daily, is predictably sowing confusion,
-      and opening gaps for bad actors to manipulate online narratives. We’re seeing
-      this virtually everywhere. \n\n- In the Philippines, top leaders [spread misinformation](https://verafiles.org/articles/vera-files-fact-check-manila-vice-mayor-lacuna-demos-wrong-w)
-      about how to properly wear masks in public\n\n- In India, health misinformation
-      is [intertwined](https://meedan.com/reports/coronavirus-misinformation-in-india-is-not-limited-to-health-misinformation/)
-      with existing divided narratives between Hindus and Muslims and people are confused
-      by false information about ayurvedic “cures”\n\n- Governments around the world[
-      are not communicating health information](https://www.coe.int/en/web/portal/covid-19-minority-languages)
-      in minority languages\n\n- In Tribal regions in the United States and Canada,
-      government guidelines are [widely out of touch](https://www.hrw.org/news/2020/06/09/systemic-inequities-increase-covid-19-risk-indigenous-people-canada)
-      with the reality of indigenous, community-centered living\n\nThe gaps are slightly
-      different in every region, but the trend is observable across language, demographics
-      and other divides: people are in need of high quality health information, not
-      just because of the general and obvious importance of being able to discern
-      what’s true from what’s false, but because knowing things about health [leads
-      to doing things about health](https://www.tandfonline.com/doi/abs/10.1080/10810730.2013.768727).
-      Literally. Knowing the ground truth about vaccine safety [can lead to](https://www.sciencedirect.com/science/article/pii/S0264410X1500506X)
-      getting vaccinated. Knowing the public health benefits of mask wearing [has
-      been shown](https://www.clevelandfed.org/en/newsroom-and-events/publications/economic-commentary/2020-economic-commentaries/ec-202020-survey-results-on-mask-wearing-behaviors-and-beliefs.aspx)
-      to contribute to people wearing masks. If your information is wrong, unrealistic,
-      misleading, or inaccessible because of language or literacy, then the things
-      you’ll do with that information (or lack thereof it) [may be](https://www.healthypeople.gov/2020/topics-objectives/topic/social-determinants-health/interventions-resources/health-literacy)
-      incorrect and unsafe. Conspiracy theories about vaccination lead people I know
-      not only to not vaccinate, but to also spread those conspiracy theories so that
-      others don’t vaccinate either.\n\nThrough [Credibility Coalition](https://credibilitycoalition.org/credcatalog/),
-      our joint program with Hacks/Hackers, we’re launching a Google News Initiative-supported
-      series of Fall 2020 training programs in which students from Germany, Yemen,
-      Syria, Cairo, the United States and other places learn critical debunking skills
-      amid a century-defining pandemic. All together, we’ll be training more than
-      1,100 students from 14 universities. To this end, we’re doing the following:\n\n-
-      Developing a syllabus with Syracuse University’s [Jennifer Grygiel](https://newhouse.syr.edu/faculty-staff/jennifer-grygiel)
-      \n\n- Walking students through sourcing, screening, categorizing and debunking
-      claims\n\n- Using [Check](https://meedan.com/check), Meedan’s online verification
-      tool, as a collaborative education platform on which to train and evaluate students
-      \n\nToday’s online environment exacerbates the spread of all forms of misleading
-      content by amplifying false or understudied theories, leading to poor health
-      outcomes worldwide. The internet's decentralization of information, and ensuing
-      decentralization of information authority triggers a big chunk of the spread
-      of what's now known as [misinfodemics](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/).
-      It also calls for solutions that are as powerful and scaleable as the problem
-      itself.\n\nThis is just the beginning of our efforts to educate professionals
-      and students about responsible ways to debunk claims related to topics as critical
-      as our own health and well-being. It builds off many years of Meedan experience
-      in this realm, from our initial collaboration with the University of Hong Kong’s
-      Cyber Verification Lab to UC Berkeley’s Human Rights Center to our ONA Challenge
-      Grant project with the University of Nevada Reno’s Reynolds School of Journalism.
-      These lessons have taught us that the act of fact-checking and verification
-      is one of the best tools for learning about these processes, and we’re excited
-      to formalize this at a new level."
+      url: "//images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg"
+    description: 'Meedan is excited to announce a new collaboration with Facebook
+      Journalism Project that will train the next generation of fact-checkers to verify
+      health misinformation for their global audiences. '
+    body: "Meedan is excited to announce a new collaboration with Facebook Journalism
+      Project that will train the next generation of fact-checkers to verify health
+      misinformation for their global audiences. \n\nThe initiative, a year-long [global
+      health fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship)
+      facilitated by Facebook, will bring on new team members to 10 participating
+      fact-checking organizations. Fellows selected by the 10 participating fact-checking
+      organizations will take part in virtual training sessions provided by Meedan
+      and Facebook. \n\nMeedan will support these fact-checkers with critical training
+      on the ethics, standards and core practices for debunking health misinformation
+      worldwide. \n\nThe COVID-19 pandemic shines a light on the critical need to
+      support the capacity and skills that are necessary to successfully fact-check
+      claims about complex science surrounding treatments, causes, cures, homeopathic
+      remedies and vaccines. Health misinformation is running rampant on online platforms
+      and there is great need for the next generation of journalists to understand
+      how health literacy and health barriers contribute to the spread of disease,
+      and how responsible fact-checking and verification efforts can be foundational
+      pillars in the equalization of access to high quality health news. \n\nMeedan
+      will collaborate on the Facebook training by working with our [in-house experts](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/)
+      on developing a curriculum that helps fact-checkers navigate complex health
+      debunking tasks in ways that are responsible. We’re so excited to be able to
+      contribute to this project and to work with organizations including: \n\n- Tempo,
+      Indonesia\n- Vera Files, Phillippines\n- Factly, India\n- The Quint, India\n-
+      ColombiaCheck, Colombia\n- La Silla Vacía, Colombia\n- Africa Check, South Africa\n-
+      Teyit, Turkey\n- Pagella Politica, Italy\n- Full Fact, UK\n\nThis training will
+      be another addition to our suite of COVID-19 resource-building, which already
+      includes our public health information tool, [learnaboutcovid19.org](https://learnaboutcovid19.org/).
+      It will also be our second training project this year, preceded by the roll
+      out of [Google News Initiative-supported curriculum](https://meedan.com/blog/training-the-next-workforce-to-field-dangerous-claims/)
+      that is being delivered across nine countries. \n\nMore details to come soon!
+      If you’re interested in learning more, contact <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>.
+      \n"
+  - sys:
+      id: 2u4u08lDCEkeTriJ00cqfm
+      created_at: !ruby/object:DateTime 2020-09-18 18:53:15.848000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-18 21:58:34.301000000 Z
+      content_type_id: story
+      revision: 8
+    title: Investigating civilian harm using open source intelligence on Meedan’s
+      flagship software, Check
+    slug: investigating-civilian-harm-using-open-source-intelligence-on-check
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+    lead_image:
+      sys:
+        id: 5Yf1dxnpLLuuSUxOwykOsn
+        created_at: !ruby/object:DateTime 2020-09-18 19:29:55.361000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-18 19:34:48.241000000 Z
+      title: meedan tbji open-source-investigation
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5Yf1dxnpLLuuSUxOwykOsn/164691b8968de91e8b79a696cda9bea1/meedan_tbji_open-source-investigation.jpg"
+    description: 'A collaboration on Check between The Bureau of Investigative Journalism
+      and Bellingcat''s open-source intelligence community leads to extensive public
+      interest reporting on the air war in Afghanistan. '
+    body: "In 2019, a reporter from The [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/)
+      in London reached out to Meedan. She needed help with an investigation into
+      airstrikes in Afghanistan, specifically, to document evidence of civilian harm
+      from 21 alleged airstrikes that in recent years had reportedly hit civilian
+      homes and killed family members.\n\n[Jess Purkiss](https://www.thebureauinvestigates.com/profile/jessicapurkiss)
+      and her team knew that using official information from U.S. and Afghan forces
+      would prove near impossible; the Bureau has been tracking strikes in Afghanistan
+      for more than five years and often, both sides of the conflict deny accountability
+      for harm inflicted on innocent citizens. \n\nTurning to the open web, the Bureau
+      first connected with Meedan partner [Bellingcat](https://www.bellingcat.com/),
+      an open source investigation community well known for its investigations that
+      [Meedan supports](https://www.bellingcat.com/resources/articles/2014/08/06/investigating-the-mh17-crash-site-with-meedans-checkdesk/)
+      through our open source verification software, Check. \n\nPurkiss set out to
+      crowdsource information about her list of suspected airstrikes. Were they indeed
+      airstrikes? Who was harmed by them? Where, specifically, did they happen? Whose
+      homes were destroyed? Who survived? Bellingcat’s community of internet sleuths
+      searched the expanses of Twitter, Facebook and other platforms for any evidence
+      that might answer those questions. They logged their findings and built large
+      bodies of evidence for each reported airstrike in Check, where the Bureau could
+      review and verify open source submissions, ask questions and prompt answers.
+      \n\n![edit&ltmpl=docs](//images.ctfassets.net/g118h5yoccvd/6XZGBYzHQV9OKH9zCqkFZO/f0830d02a89f8d51658197e89a7ddb14/Check-Example__1_.jpg)\n<p
+      class=\"caption\">An image of the investigative workspace in Check</p>\n\nWorking
+      together, the team was able to piece together some definitive narratives behind
+      what happened, and to whom, as a result of these airstrikes. In a [brief of
+      one incident](https://www.thebureauinvestigates.com/stories/2020-06-03/finding-the-faces-of-afghanistans-slaughtered-civilians)
+      on the Bureau’s site, the team writes: \n\n> \"One of the strikes on the Bureau’s
+      list had hit a building – a home – in  Baghlan province, north of Kabul, on
+      July 9, 2019. Early narratives around  this incident were conflicting. A few
+      brief lines in news reports at the   time said that the Afghan Ministry of Defence
+      had admitted civilians had died in a strike, but stopped short of taking responsibility.
+      And while the US denied carrying out strikes in the area, the governor of the
+      province was on camera blaming Nato forces – a common shorthand for the US,
+      the only Nato member still conducting air operations in Afghanistan.\n\n> Coordinating
+      an OSINT [Open Source Intelligence] operation involves setting priorities for
+      different strikes – what is known already, and what’s most important to find
+      out? Do we know for sure that a strike happened, or are we trying to pinpoint
+      where and when?\n\n> In the Baghlan case, the key information to find was the
+      coordinates. In incidents like this, where responsibility is not clear, finding
+      the exact location of the strike can make a huge difference. In the strike on
+      Masih’s house, it was this detail that had prompted a reversal of the US military’s
+      initial denial.\"\n\nUsing Check to collectively document findings, the team
+      of OSINT volunteers searched the internet to geolocate where the strike happened.
+      One user even found evidence that determined the location of the strike. Others
+      were able to help the Bureau build weights of information that detailed who
+      strikes killed and when. \n\nIn total, the Check-supported reporting led to
+      [this piece](https://www.thebureauinvestigates.com/stories/2020-06-03/finding-the-faces-of-afghanistans-slaughtered-civilians)
+      examining two of the incidents and looking at how OSINT can help fill accountability
+      gaps and produce leads to follow up on the ground. Another [version of the piece](https://www.wired.co.uk/article/afghanistan-civilian-deaths-us-military)
+      appeared in WIRED. \n\nOne strike in particular, in Baghlan province on July
+      9, outlined the technical process for verification in this Bellingcat [case
+      study](https://www.bellingcat.com/news/rest-of-world/2020/06/04/investigating-one-case-of-civilian-harm-in-afghanistan/).
+      \n\nOSINT findings also [fed into this long read](https://www.thebureauinvestigates.com/stories/2020-06-03/the-families-paying-the-price-for-the-war-in-afghanistan),
+      examining accountability for the airwar in Afghanistan, which investigated strikes
+      that hit ten civilian compounds. A number of the cases came from the Check account,
+      while others are from investigations outside this project. Work on a Nangarhar
+      strike is featured in an [Al Jazeera Fault Lines documentary](https://www.aljazeera.com/programmes/faultlines/2020/06/afghanistan-civilian-loss-air-war-200602093444066.html).
+      The film crew journeyed to meet this family in Afghanistan, and others in partnership
+      with TBIJ. \n\nThis case study is an example of how the open source community
+      can use [Check](https://checkmedia.org/) to document important information,
+      especially when that information is not accessible due to lack of transparency
+      or resource. On the platform, volunteers from all walks of life, coupled with
+      a rigorous layer of verification by the Bureau, helped shine a light on murky
+      incidents of war that greatly impacted families, homes and livelihoods."
     words_by:
     - sys:
-        id: 5duhLnruShUUo31a7TR4vd
-    alt_date: !ruby/object:DateTime 2020-08-10 00:00:00.000000000 Z
+        id: dyeTaxL6zUN3ST8oyYpTC
+    alt_date: !ruby/object:DateTime 2020-09-18 00:00:00.000000000 Z
   - sys:
-      id: 1yxbPy2yG6pcuiyVxbEwvk
-      created_at: !ruby/object:DateTime 2020-08-04 19:39:28.085000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-06 05:31:59.948000000 Z
+      id: 1KD70kebuy8BZ1aSJaooKF
+      created_at: !ruby/object:DateTime 2020-09-08 12:46:22.017000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 22:21:17.409000000 Z
       content_type_id: story
-      revision: 2
-    title: Missing information, not just misinformation, is part of the problem
-    slug: missing-information-not-just-misinformation-is-part-of-the-problem
+      revision: 1
+    title: 'Meet Sneha Alexander: Meedan''s new Program Associate in APAC'
+    slug: meet-sneha-alexander-meedans-new-program-associate-in-apac
     topic:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: QdhOBPj5FQUFe0xwLWOKg
+        created_at: !ruby/object:DateTime 2020-09-08 12:55:49.324000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-16 22:21:13.692000000 Z
+      title: Sneha Alexander
+      description: 'Sneha Alexander '
+      url: "//images.ctfassets.net/g118h5yoccvd/QdhOBPj5FQUFe0xwLWOKg/41bee47f5e05fab732afb0ea70391158/259e3415-2ffc-4cea-8926-ef6574ca7044.jpg"
+    body: "In the last one year, Meedan has entered into new and exciting partnerships
+      with fact-checking groups, newsrooms and networks focusing on human rights in
+      the Asia Pacific region. With new partnerships and existing programs, we have
+      a team working closely with partners and supporting their work. As part of this
+      team, we're excited to welcome Sneha Alexander to Meedan. Sneha has joined us
+      as the Program Associate for the Asia Pacific region. Her background in journalism
+      and fact-checking will contribute to Meedan's work on these areas. \n\nCatch
+      Sneha in this short Q&A here where she talks about her background, interests
+      and fun facts that we're thrilled to learn about! \n\n### 1. What has been your
+      experience before you joined Meedan? \n\nI came to Mumbai to pursue a Masters
+      in Public Policy. During this time, I worked part-time with a travel company
+      where I drafted itineraries and helped organize study tours and adventure programmes
+      for schools and college students. Later I worked in the Indian news industry
+      for 4 years. First, as a policy analyst cum fact-checker with BOOM, one of India’s
+      premier fact-checking organizations. Later, I worked as a data journalist for
+      the Plain Facts column of Mint, one of India’s leading financial dailies.  \n\n###
+      2. Tell us about a story/ assignment that you worked on that was exciting and
+      insightful.\n\nThe assignments that I enjoyed the most involved fact-checking
+      claims of top officials / leaders of the country, speaking to subject experts
+      and had a direct impact on people’s lives.\nAn example is a story in which my
+      co-author and I questioned the veracity of the government claim that Indian
+      villages have become open defecation free. We pointed to the contradiction in
+      data provided by two wings of the government - administrative data of Clean
+      India Mission from the concerned ministry and [the household survey data of
+      the National Statistical Organizatio](https://www.livemint.com/news/india/india-s-toilet-stats-raise-a-stink-11576658602838.html)n.
+      Other than pointing to the discrepancy in data, we also reached out to subject
+      experts to put in perspective the government’s claim that beneficiaries may
+      have under-reported sanitation coverage. This article also attracted criticism
+      from the government [in a public information bureau release](https://pib.gov.in/Pressreleaseshare.aspx?PRID=1596964).
+      \n\n### 3. What is the Indian media and fact-checking ecosystem like? What are
+      the strengths and what gaps do you see?\n\nThe Indian media and fact-checking
+      ecosystem is an extremely competitive space, where organizations have the drive
+      to be first to report stories and flag misinformation. Thanks to the huge country
+      India is and thriving social media platforms, there is no dearth of content
+      or audience. Since there is space for everyone and great scope for adoption
+      of technology driven reporting, the focus should be on producing credible, non-partisan
+      and fact-driven content. There also needs to be greater coverage of rural and
+      local issues. \n\n### 4. What brought you to Meedan?\n\nHaving worked as a fact-checker
+      and a journalist, I felt it would be great to facilitate credible journalism.
+      Moreover, I was very excited by the prospect of working with the global fact-check
+      community and team members from across the world in making the web a more inclusive
+      and better place. \n\n### 5. What's a project you're excited about right now?\n\nI
+      am excited about [Meedan’s End-to-End Fact-Checking project](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact)
+      involving different Indian fact-check organizations using WhatsApp tiplines
+      and Check for fact-checking. Earlier, I was at the other end, a user of fact-check
+      technology. Switching to the role of facilitator will provide great insights
+      in understanding the intersection of technology and media. I am also very keen
+      to be part of projects like the COVID-19 microgrants which support the good
+      work of individuals and grassroot level media organizations that keep local
+      issues in perspective and integrate communities to the larger online community.
+      \n\nIn the long run, I also look forward to seeing a greater focus on data based
+      fact-checks in the global fact-check space. Many times, the claims of political
+      leaders and top officials are not backed by data and include misrepresentation
+      of facts. This later turns out to be the ‘truth’ on social media platforms and
+      at dinner table conversations giving way to hatred and other dangers. To tackle
+      this, there needs to be more conversation and greater use of credible data in
+      fact-checking.  \n\n### 6. Tell us some fun facts about Sneha.\n\n- I enjoy
+      following Indian politics and would love to be part of election and political
+      strategizing some time in future\n- Acting in a film is on my bucket list. \n-
+      A plate of chicken biriyani can lift my mood. \n- I love spicy food and can
+      nibble on green chilli with almost anything!!\n"
+    alt_date: !ruby/object:DateTime 2020-09-16 00:00:00.000000000 Z
+  - sys:
+      id: rLaGq797KZZQk2jmEDgdT
+      created_at: !ruby/object:DateTime 2020-09-14 10:58:42.340000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-17 15:02:31.596000000 Z
+      content_type_id: story
+      revision: 3
+    title: Meedan announces a Beirut Response Fund for independent media in Lebanon
+    slug: beirut-response-fund-for-independent-media-in-lebanon
+    topic:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: 7yu3pvm6ivohoCzFytmIdW
+        created_at: !ruby/object:DateTime 2020-09-14 19:03:42.395000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-16 14:53:17.910000000 Z
+      title: Beirut Response Fund
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7yu3pvm6ivohoCzFytmIdW/c4ac65e059f26ed6210af7c6f1c2effe/meedan_beirut-response-fund.jpg"
+    body: "It has taken us some time to get this post written and published. First,
+      because like most of our Lebanese friends, family members and colleagues based
+      in Beirut and in the diaspora, we needed time to process [what has actually
+      happened on August 4, 2020](https://www.wsj.com/articles/beirut-explosion-kills-at-least-100-injures-thousands-11596620481),
+      and allow ourselves the space to get past anger, frustration, pain and anxiety,
+      and write something that makes sense. Second, and probably more importantly,
+      it is because we have been talking with our partners in Beirut about the best
+      things to do, and the best ways to support independent media workers based on
+      the ground in the aftermath of the explosion.\n\nBeirut is our home town. It
+      is also the main regional base for all our Check Global programs and activities.
+      It is where we organised our [first CheckCon conference ](https://nawamedia.org/blog/2017/02/02/checkcon-2017-beirut/)in
+      2017, which brought together digital rights experts, journalists, and grassroots
+      activists from across the region and the world. It is also where we launched
+      our Check newsroom with [12 amazing journalism students from the Lebanese University](https://nawamedia.org/newsroom/teams/lebanese-newsroom/).
+      Our newsroom has today [expanded](https://nawamedia.org/blog/2019/12/18/expanding-to-a-nawa-newsroom/)
+      to include students from Egypt, Yemen and Syria; almost 30 journalism students
+      in the region are today trained on digital media literacy skills, open-source
+      investigations and fact-checking.\n\nLebanon has gone through a difficult 12
+      months. Lebanese people, fed up with a consociational sectarian and clientelist
+      political system, revolted in [October 2019](https://www.theguardian.com/world/2019/oct/18/lebanon-brought-to-a-standstill-by-protests-over-economic-crisis)
+      as the country went through total economic collapse, further aggravated by the
+      spread of the COVID-19 pandemic. The local currency lost [more than 60% of its
+      value](https://www.reuters.com/article/us-lebanon-crisis-pound-idUSKBN23H1BS),
+      pushing more than half of the population below the poverty line. Independent
+      media workers and organizations, which covered the protests, also bore the brunt
+      of this economic crisis.\n\nSo when the Beirut port explosion rocked the city
+      last month, it hit very close to home for the entire Meedan team, in nine countries
+      and eight timezones -- not just because our students, team members and and many
+      of our partners were directly affected, but also because we owe Beirut credit
+      for many of the great things we have been able to achieve with the Check Global
+      project to date. The explosion further endangered Beirutis' work, as many lost
+      their homes, offices, equipment, and livelihoods.\n\nSo after consultation with
+      our Beirut-based partners and our funders at Sida, we have re-allocated our
+      travel budget for 2020 (one silver lining of the global pandemic? Maybe!) to
+      set up the Check Global Beirut Response Fund, a $26,000 fund to support independent
+      media organizations and workers on the ground. \n\nThrough the Check Global
+      Beirut Response Fund, we allocated $16,000 in unrestricted funds to three vetted
+      independent media organizations, which we can't name for security reasons, to
+      support and sustain their investigative journalistic work. The remaining $10,000
+      have gone toward the Samir Kassir Foundation's [Media Recovery Fund](https://www.skeyesmedia.org/en/Media-Recovery-Fund)
+      to cater to independent media workers' tech and equipment needs. As a [state
+      of emergency was declared--and extended](https://www.dailystar.com.lb/News/Lebanon-News/2020/Aug-17/510442-state-of-emergency-extended-by-a-month.ashx)--in
+      Beirut, effectively giving all powers to the army, the fund provided in-kind
+      support in the form of a digital security training led by circumvention and
+      privacy expert [Sarah Aoun](https://twitter.com/sa0un) with 25 independent journalists
+      to provide protection from surveillance and censorship.\n\nBut we want to do
+      more, and better. We are currently trying to leverage our existing partnerships
+      with [HURIDOCS](https://www.huridocs.org/), [Syrian](https://www.syrianarchive.org/)
+      and [Yemeni](https://yemeniarchive.org/) Archives, [Bellingcat](https://www.bellingcat.com/)
+      and others to support archiving, verification and preservation of crowdsourced
+      footage that documents the [ongoing protests](https://www.bbc.com/news/topics/c8qy8zrj69et/lebanon-protests),
+      and the Lebanese government's [violent repression of the political movement](https://www.latimes.com/world-nation/story/2020-08-08/show-of-solidarity-after-blast-as-lebanon-braces-for-protest).\n\nLebanon's
+      independent journalists will be forced to adapt to an increasingly precarious
+      situation, as [electricity cuts intensify](https://www.washingtonpost.com/world/middle_east/lebanons-rising-power-cuts-add-to-gloom-of-economic-crisis/2020/07/07/95498db4-c05f-11ea-8908-68a2b9eae9e0_story.html),
+      affecting internet usage -- especially indispensable during a pandemic. As far
+      as Meedan goes, we are mobilizing and calling on our partners, donors, and friends
+      to support Lebanon's independent media workers in these difficult times. Please
+      do get in touch with us if you would like to know more about our efforts in
+      Beirut, if you think you can help, or if you have any ideas about how we can
+      do all of this better. You can reach the Check Global team at <a href=\"mailto:checkgrants@meedan.com\">checkgrants@meedan.com</a>."
+    words_by:
+    - sys:
+        id: 2eNuMXzkTcgh2oBbYrT3Cx
+    - sys:
+        id: 26BnKkV6uNqzYWtFueaerv
+    alt_date: !ruby/object:DateTime 2020-09-14 00:00:00.000000000 Z
+- sys:
+    id: 4hDOrsmcTmB60zhqrzF6Xp
+    created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-10 21:33:09.321000000 Z
+    content_type_id: moduleStories
+    revision: 3
+  title: Expert DB Blog
+  stories:
+  - sys:
+      id: 65aZv1NdLpBSOPYo40kHci
+      created_at: !ruby/object:DateTime 2020-08-20 21:41:41.130000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-11 22:48:50.083000000 Z
+      content_type_id: story
+      revision: 0
+    title: How we’re pursuing health equity at internet scale
+    slug: how-were-pursuing-health-equity-at-internet-scale
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 26wu7WXuhpoJO1HIAmWsKt
+        created_at: !ruby/object:DateTime 2020-09-10 20:58:11.735000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-10 21:31:02.966000000 Z
+      title: How we’re pursuing health equity at internet scale
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg"
+    body: "Today’s world has more internet users than people with access to essential
+      health services such as primary care, dental care, or surgery. We’ve reached
+      700,000 of them across 18 countries, but so much more remains to be done. \n\nMeedan’s
+      Digital Health Lab team have created a B2B fact-checking model for health content
+      based on syndication. We are testing a hypothesis that a rapid-response process
+      where a team of health experts distill scientific evidence based on requests
+      made by fact-checkers—requests that other communciators around the world may
+      also have— we can meet the needs of audiences searching for health information
+      online more efficiently, at larger scales, across regions, and directly where
+      searching takes place. \n\nHere are our top-level highlights:\n\n- Our incredible
+      team of experts __successfully responds to requests__ for contextualizing the
+      scientific research __in as little as 3 hours__\n- Our process has successfully
+      reached an audience of __over 700,000 people across Asia, Latin America, Africa,
+      Europe and North America__, with localization of both text and accompanying
+      visuals (thanks, to [Students Against COVID-19](https://www.studentsagainstcovid-19.com/)
+      and [Localization Lab](https://www.localizationlab.org/)) __in 8 languages__
+      prioritized by our partners \n- The __public health community__, including health
+      literacy practitioners, __is eager and excited to get more involved__ in supporting
+      local misinformation response efforts\n\n![meedan covid-19-db-usage-reuters](//images.ctfassets.net/g118h5yoccvd/4xgsZVcR02vLjnusBejbyo/189a7297d4d3b38964e5219f5af26ee4/meedan_covid-19-db-usage-reuters.jpg)\n<p
+      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+      content.</p>\n\nThrough the COVID-19 pandemic, online information searches serve
+      as a supplement to reduced availability and accessibility of in-person healthcare.
+      This coincides with public health authorities realizing the important role that
+      trusted fact-checking organizations with strong community ties play in minimizing
+      the impact of health misinformation, especially during a pandemic. At a presentation
+      our team participated in about health misinformation hosted by the [National
+      Academies of Science, Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
+      health fact-checking was identified as “the next frontier of health literacy”,
+      and, thanks to generous support from the Omidyar Foundation, Google, and the
+      Robert Wood Johnson Foundation, Meedan’s [Digital Health Lab gets to contribute](https://health.meedan.com/primer.pdf)
+      to the development of this new frontier. \n\nOver the last year and a half Meedan’s
+      Digital Health Lab has been developing and deploying a __rapid-response framework
+      for supporting fact-checking organizations, journalists and other community
+      information leaders__ that are working to address health misinformation online
+      across literacy levels and languages. \n\nOur COVID-19 rapid response, the [COVID-19
+      Expert Database](https://learnaboutcovid19.org/), is focused on: \n- Collecting
+      critical pandemic-related queries directly from fact-checking organizations,
+      community newsrooms and other community information leaders\n- Triaging COVID-19
+      content to send to team members with specific public health expertise to provide
+      standardized responses\n- Designing visuals to address disparities in health
+      literacy\n- Conducting behavior science, machine learning and rigorous user
+      research to strengthen this rapid-response process as a replicable and scalable
+      framework \n\nThrough __three 48-hour weekly editorial sprints__, as well as
+      3-hour turnarounds for urgent requests, the content produced by the Digital
+      Health Lab’s COVID-19 Expert DB & Toolkit has served three major purposes: as
+      a reliable source of information relating to rapidly evolving science; providing
+      explanations surrounding conflicting evidence and treatment recommendations;
+      sharing recommended additional resources for fact-checking organizations and
+      journalists to review as they produce the information their communities need.
+      \n\nThis content reaches global audiences through newsletters (Berkman Klein
+      Center for Internet & Society,  [Splice Media](https://splicelowres.com/), [Speak
+      Up Africa](https://www.speakupafrica.org/program/stay-safe-africa/), Suno India
+      Daily Updates), podcasts ([Suno India](https://www.sunoindia.in/the-suno-india-show/how-scientists-and-public-health-experts-are-tackling-misinformation-amidst-a-pandemic/),
+      Misinfodemia), online forums such as Misinfodemia on Instagram Live, [National
+      Academies of Science, Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
+      [RightsCon](https://meedan.com/events/rightscon-2020-when-misinformation-hurts-our-fundamental-health-rights/),
+      [SwitchPoint](https://event.switchpointideas.com/global-fund-virtual-switchpoint-exchange),
+      [Global Fact](https://www.poynter.org/fact-checking/2020/watch-now-global-fact-7/),
+      and in content produced by fact-checkers including [Students Against COVID-19](https://www.studentsagainstcovid-19.com/),
+      [VERA Files](https://verafiles.org/articles/vera-files-fact-check-duterte-negates-spox-repeats-wrong-uns),
+      [Africa Check](https://africacheck.org/reports/can-coronavirus-only-live-up-to-9-days-on-objects-as-kenyan-traders-claim/),
+      [Nigeria Health Watch](https://nigeriahealthwatch.com/can-you-get-covid-19-twice/),
+      [BOOM Live](https://www.boomlive.in/fake-news/does-drinking-kashayam-cure-covid-19-a-factcheck-8661),
+      and [Reuters](https://www.reuters.com/article/uk-factcheck-herd-immunity-positive-rate/fact-check-rate-of-positive-covid-19-tests-doesnt-show-u-s-has-reached-herd-immunity-idUSKCN25327U).
+      \n\n![meedan covid-19-db-usage-boom](//images.ctfassets.net/g118h5yoccvd/6S86qFuSdrfMfvmuHJRfyb/b82dbb2b95ef61c41cd4978a9b3f0627/meedan_covid-19-db-usage-boom.jpg)\n<p
+      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+      content.</p>\n\n### B2B Fact-Checking: Helping journalists check facts with
+      health expertise\n\nIn the digital health information ecosystem, building direct
+      communication channels involves developing interventions where target audiences
+      spend time finding answers to the health questions they have, which today means
+      content easily encountered through searches online and through social media.
+      Of course, as any one organization, this is really challenging to achieve. \n\nDuring
+      this project, we developed a process we call B2B fact-checking: we help the
+      fact-checkers fact-check. It was our hope that by building a model based on
+      syndication, fact-checkers, journalists and other community information leaders
+      can use the content we create directly for them *__as well as__* the content
+      we have developed in response to questions shared by other communicators. With
+      this model, we can provide the needed health expertise to reduce health misinformation
+      more efficiently, at larger scales, and directly where a users’ searching takes
+      place. \n\n![meedan covid-19-db-usage-verafiles](//images.ctfassets.net/g118h5yoccvd/6vvZJnxxFjGSYprr9KVRM1/ea482f948fb66bbee0fb7760fdfd34f5/meedan_covid-19-db-usage-verafiles.jpg)\n<p
+      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+      content.</p>\n\n![meedan covid-19-db-usage-google-results](//images.ctfassets.net/g118h5yoccvd/5qUOUJaItzpSXffMylT68I/04defe4ace25104d1dae34c237edfdef/meedan_covid-19-db-usage-google-results.jpg)\n<p
+      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+      content.</p>\n\nSome examples include our contextualization of misinformation
+      about [COVID-19 and alkalinity](https://learnaboutcovid19.org/questions/what-do-we-know-so-far-about-covid-19-and-alkalinity/)
+      requested by VERA Files, which was also used by India Today in responding to
+      misinformation through their fact-checking tipline. The three responses including
+      information that we contextualized for Nigeria Health Watch related to mask
+      safety and use ([here](https://learnaboutcovid19.org/questions/is-it-safe-to-wear-a-mask/),
+      [here](https://learnaboutcovid19.org/questions/does-wearing-a-mask-reduce-your-oxygen-level/)
+      and [here](https://learnaboutcovid19.org/questions/what-do-we-know-so-far-about-face-masks-and-their-ability-to-prevent-covid-19/)),
+      in addition to being a top search result, has been shared by Speak Up Africa
+      in their newsletter, was referenced the Misinfodemia Instagram Live series,
+      and has been used by Suno India in their podcasts and daily updates. \n\n![meedan
+      covid-19-db-usage-nigeria-health-watch](//images.ctfassets.net/g118h5yoccvd/phsfOWWEM6rVu5V8Z6DNJ/53ec76a470a7097c2a65c8aad1b25229/meedan_covid-19-db-usage-nigeria-health-watch.jpg)\n<p
+      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+      content.</p>\n\nOur research with these users has demonstrated how having access
+      to experts can increase the subject matter that fact-checkers can cover, and
+      therefore the content available online to the fact-checkers’ audiences. The
+      examples of where our collaboration with partners in different parts of the
+      world have led to first item or first-page search results on Google highlight
+      the impact that smaller health organizations can have on influencing the discourse
+      online when we can support the work of fact-checkers directly.\n\n### Data sprints
+      for the triple bottom line: Substance, Syndication and Speed\n\nOne of the biggest
+      challenges of achieving impact at the scale of the internet is moving at the
+      speed of the internet. We studied design sprint methodologies from Agile, Google
+      Design, and others to create what we call a Data Sprint: a rapid-response framework
+      that ensures the triple bottom line of substantive, quality content; syndicated,
+      networked impact; and speedy, responsive turnaround times.\n\n__Substance:__
+      To date, a small team of scientists with expertise across infectious disease,
+      nutritional epidemiology, pandemic preparedness, vaccine adoption and health
+      behavior change have created over 110, 500-word science articles over 20 weeks.
+      Each article or database ‘entry’ responds  to questions submitted by fact-checkers
+      and journalists, with additional information to further distill  each topic’s
+      historical and scientific significance for health communicators. \n\nThis impact
+      will soon be magnified through a collaboration with Localization Lab, targeting
+      8 languages prioritized by our current partners. We are currently working with
+      SciLine to expand the global reach of the resources that they have created by
+      including them in the short articles we produce for our partners. \n\n__Syndication:__
+      Through the syndication model developed for this project, our partners have
+      identified an audience of over 700,000 people in more than 18 countries across
+      Asia, Latin America, Africa, Europe and North America. This audience includes
+      podcast listeners, website visitors and newsletter subscribers, and does not
+      include the social media followings of our partner organizations. This level
+      of impact was made possible through our syndication model for content dissemination,
+      enabling a small team of scientists, researchers and communicators to influence
+      diverse information spaces.\n\n__Speed:__ The turnaround time for the content
+      we produce is 48 hours or less, following the tight editorial cycles of our
+      journalism partners. Responses are often created in as few as 5 hours by team
+      members on-call to meet urgent partner deadlines. This rapid response directly
+      targets midinformation: misunderstandings, misinterpretations and misrepresentations
+      based on scant or emerging scientific evidence. Midinformation happens often
+      when expert consensus changes over time, and it is distinct from more straightforward
+      misinformation. \n\nWe apply principles from Google’s Design Sprint methodology
+      into three weekly sprints, including problem mapping and prioritization, solution
+      sketching across text and visual responses, and feedback integration from partners.
+      Through consistent use of this model, we are able to optimize for the number
+      of requests we can address weekly, and can account for responding to a diverse
+      set of topics that require reviewing extensive scientific literature across
+      a variety of disciplines. \n\n### Key lessons our team has learned over the
+      last 6 months\n\nAs a team, we have distilled four key lessons to carry our
+      project strategy forward: \n\n1. __It is important to educate health professionals
+      about the value of existing approaches being taken by platforms to reduce the
+      impact of misinformation.__ Influencing impacts of health misinformation at
+      scale requires closer connections between health scientists and communicators
+      using tools already optimized for easy online encounters with factual health
+      information, such as Google’s ClaimReview and MediaReview annotation frameworks,,
+      and partnerships with third-party fact-checking organizations. The health community
+      is ready and excited to contribute to projects like this one, and needs guidance
+      about where time and effort is best spent.  \n\n2. __Syndication models can
+      maximize impact at the scale of the internet.__ Our partnerships with e-newsletters,
+      podcasts, communicators with their own syndication models, and collaborations
+      with fact-checking organizations and newsrooms have reached over 700,000 people
+      in just three months of collaboration. Our goal is to continue supporting communicators
+      with their own content development, know that while we can distill the ever-changing
+      science successfully, community information leaders know their audiences best,
+      and that maximizes the impact of any public health message.  \n\n3. __A focus
+      is needed on misinformation related to both vaccines and treatment.__ While
+      these represent the majority of the questions shared with us by fact-checkers
+      and journalists, the most common questions are not reflected in resources provided
+      by intergovernmental or government health institutions. Further, while current
+      public health officials estimate that a successful vaccine will be developed
+      by the end of 2020 and that vaccination campaigns will start by early 2021,
+      a vaccination campaigns’ success is determined by people’s willingness to get
+      vaccinated. Patterns in uneven distribution of vaccines globally, and thus uneven
+      eradication of certain illnesses, will likely yield inequalities in the elimination
+      of COVID-19 in different parts of the world. For this reason, it is essential
+      to not only address vaccine misinformation, but also misinformation associated
+      with COVID-19 treatments, which may emerge in successful forms earlier than
+      the release of a vaccine.\n\n4. __Localization conducted by various stakeholders
+      is required to reach & be accessible to community information leaders at a global
+      scale.__ Our partners have requested that local health experts, as well as users,
+      combine efforts to translate the database content and accompanying visuals into
+      local languages. We're grateful to the Localization Lab, and to our public health
+      expert translator team, for making this novel approach at localization possible!
+      This optimizes for accessibility (including factors related to availability,
+      relevance, and literacy), and ensures that fact-checkers and journalists operating
+      in diverse languages can all benefit from, and contribute to, improved health
+      literacy where their audiences already seek content.  \n\n### What’s next: expanding
+      and diversifying our impact\n\nWith these lessons in mind, here’s what’s next
+      for our team: \n\n__Expanding scope of response effort:__ Our experts have provided
+      contextualization for over 120 topics related to COVID-19, moving at a rate
+      of, on average, 10 database articles or “entries” per week. Our collaborators
+      are increasingly asking questions about public health topics significant with
+      respect to the pandemic, but are distinctly relevant outside of COVID-19. These
+      include questions about nutrition, non-communicable diseases, antibiotic resistance
+      and reproductive health. Our goal is to provide additional public health expert
+      contextualizations for topics outside of COVID-19.  \n\n__Engaging with community-based
+      communications networks:__ Our goal is to expand our offerings with a focus
+      on rapid responses for community newsrooms, freelance journalists, community
+      \ nonprofits and other information leaders within communities. In collaboration
+      with our partners, we’re working with the product and development teams at Meedan
+      to create more efficient pathways of information-sharing between our experts
+      and community information leaders, using dedicated helplines through SMS, WhatsApp,
+      Facebook and Twitter. We’re also sharing customizable bot infrastructure so
+      community newsrooms can more easily connect their audiences with the health
+      information that is directly relevant to their needs. We hope to support these
+      groups directly by providing the information that they can tailor to the needs
+      of their own communities that they know best. \n\n__Strengthening relationships
+      between public health experts, the health literacy community, local newsrooms
+      and fact-checking organizations:__ Given the important role community newsrooms
+      and fact-checking organizations play in responding to health misinformation
+      via social media and online search platforms, integrating more closely with
+      the public health community can serve to strengthen health literacy at scales
+      larger than ever before. \n\nTo learn more about work, please contact <a href=\"mailto:health@meedan.com\">health@meedan.com</a>.
+      \n"
+    alt_date: !ruby/object:DateTime 2020-09-10 00:00:00.000000000 Z
+  - sys:
+      id: 3ptFLVzVXiugIN7W5Pi89t
+      created_at: !ruby/object:DateTime 2020-08-26 18:28:01.399000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-03 22:44:02.618000000 Z
+      content_type_id: story
+      revision: 4
+    title: 'A standard of care for health misinformation: lessons from Global Fact'
+    slug: a-standard-of-care-for-health-misinformation-lessons-from-global-fact
+    topic:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
     - sys:
         id: 7ccIqYyl4GXxNC2agZbh8a
     lead_image:
       sys:
-        id: ibCBC7OBTotrdOgEn7qux
-        created_at: !ruby/object:DateTime 2020-08-04 19:43:11.394000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-05 22:59:08.256000000 Z
-      title: CC-BY Alexander von Halem
-      description: CC-BY Alexander von Halem
-      url: "//images.ctfassets.net/g118h5yoccvd/ibCBC7OBTotrdOgEn7qux/3ce5e93e765849a3acb553a640b2c969/8187244403_fca0d48f19_o.jpg"
-    body: |-
-      As the world slowly starts to open up (or not), we've entered a new pandemic stage: confusion. Where once the most solid advice was simply to stay indoors and avoid others, we seem to be encountering a panoply of recommendations. Wash your hands. Masks aren't needed. Wear a mask. Stay six feet away. Actually, it might be airborne, so stay outside too. Take a test. Don't take a test, because supplies are limited.
-
-      In the world of public health, this liminal stage we find ourselves in --- moving past lockdown but nowhere near reaching either a social or medical endpoint to the pandemic --- is often the most dangerous for a disease's spread. In 1918, the city of San Francisco had the fewest reported cases of Spanish Flu in the country thanks to strict social distancing practices. The city and the people declared victory, emerged from lockdown, and returned to normal life. By the end of the year, the city had one of the worst infection and mortality rates in the US, [with 45,000 cases and more than 3,000 deaths](https://www.nbcnews.com/politics/politics-news/san-francisco-had-1918-flu-under-control-then-it-lifted-n1191141).
-
-      In the world of information trust, this liminal stage presents another threat: epistemic ambiguity. The usual model for misleading information is two fold: there's misinformation --- false information spread unintentionally --- and disinformation --- false information spread with the intent of harm. We've certainly seen this with COVID-19. [Misinfodemics](https://www.theatlantic.com/technology/archive/2018/08/how-misinfodemics-spread-disease/568921/), the spread of false information that exacerbates the spread of disease, have erupted around [drinking bleach](https://arstechnica.com/science/2020/06/americans-are-drinking-bleach-and-dunking-food-in-it-to-prevent-covid-19/) or [methanol](https://www.aljazeera.com/news/2020/04/iran-700-dead-drinking-alcohol-cure-coronavirus-200427163529629.html), having immunity [based on race](https://www.bloomberg.com/news/articles/2020-03-14/no-black-people-aren-t-immune-to-covid-19), and countless other bits of misinformation, leading to hospitalizations and even deaths.
-
-      From a fact-checking perspective, this is relatively straightforward. Health professionals *know* bleach and methanol don't cure COVID-19. But the problem is in the murky areas, when fact-checking is being done in good faith but the extant body of knowledge is limited and evolving.
-
-      Take an example from this summer. In June, an official from the World Health Organization COVID-19 [caused significant public confusion](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/) by saying that asymptomatic spread of novel coronavirus is rare. [As Poynter's Al Tompkins wrote](https://www.poynter.org/fact-checking/2020/who-comments-on-asymptomatic-covid-19-transmission-is-lesson-in-research-and-context/), this statement could "light new fires among people who believe the entire COVID-19 pandemic has been overblown and that there was no need for stay-at-home orders that keep seemingly healthy people at home." The next day, the WHO issued a clarification: the researcher was referring to emergent data from a small set of studies.
-
-      So much more is being learned about the virus. We don't know right now if [people can be reinfected or not](https://learnaboutcovid19.org/questions/can-someone-get-reinfected-and-get-covid-19-a-second-time/#undefined). Experts are debating whether [there's airborne transmission](https://www.nature.com/articles/d41586-020-02058-1). We're still learning about [the role of vitamins](https://learnaboutcovid19.org/questions/does-vitamin-d-help-prevent-or-treat-covid-19/). And it's not just that we don't know --- it's that no one knows. Science hasn't caught up yet. Do we wear a mask or not wear a mask? It's obvious now that we should, but just a few months ago, even respected bodies like the WHO and CDC were [offering conflicting advice](https://abcnews.go.com/Health/cdc-offer-conflicting-advice-masks-expert-tells-us/story?id=70958380).
-
-      It turns out that the framework of mis- and disinformation has a basic assumption that doesn't always apply in the case of COVID-19: the idea that there might be a ground truth, somewhere, at some point, that someone might have in some situation. [As I've written before](https://www.niemanlab.org/2018/12/the-death-of-consensus-not-the-death-of-truth/), the process of consensus-making requires a negotiation of truth through trusted parties and sources (and therefore subject to the rules of trust, emotion and relatability).
-
-      But what if the information we're trying to discuss isn't known by anyone?
-
-
-      ## Midinformation: When knowledge stands in the middle, what do we do?
-
-      In the case of emerging knowledge, it might be helpful to think not just about misinformation but *mid*information. We know a little now, we'll know more later, and we may never know everything ever. In other words, information stands in the middle, and we're trying. Scientists are gaining some clarity, but it's going to take some time for scientific consensus to build, and for public understanding to catch up.
-
-      Midinformation, in other words, is the sort of information crisis that happens when not all the facts are known. In that vacuum of knowledge, all kinds of rumors, conspiracies, misunderstandings and misconceptions can emerge, because it's comforting to have an anchor that feels true and reliable.
-
-      **We might define midinformation as informational ambiguity based on scant or conflicting evidence, often about emerging scientific knowledge.** And the COVID-19 pandemic is rife with it. The usual media literacy course teaches basic things: vet your sources, look for corroborating evidence, [read laterally](https://webliteracy.pressbooks.com/chapter/what-reading-laterally-means/). But the phenomenon of midinformation requires new skills, for journalists, educators and all of us.
-
-      Here are some:
-
-      ### __Take a breather.__
-
-      This one's obvious, but in an attention economy, it's harder and harder to resist checking the news. Doomscrolling, as [WIRED writer Angela Watercutter](https://www.wired.com/story/stop-doomscrolling/) has pointed out, makes us *feel* better prepared for what's going on, but it might actually be hurting us.
-
-      > Right now, people are living at a time with no easy solutions, a moment with a lot of conflicting "facts" in a rapidly changing landscape. According to Nicole Ellison, who studies communication and social media at the University of Michigan's School of Information, that means there's a "lot of demand on cognitive processing to make sense of this. There's no overarching narrative that helps us." That, she adds, only compounds the stress and anxiety they're already feeling.
-
-      Watercutter points out that COVID-19 isn't a sprint; it's a marathon. We have to take care of our mental health, recognize when our attention to the news might be destructive, and to remember that resolution to the pandemic will take time, at the scale of years, not months or weeks. To curb my own doomscrolling habit, I've been reading books and putting my phone away before going to bed.
-
-      ### __We're doing science in public --- help people understand that.__
-
-      The experience of the WHO researcher reflects a reality for every public health researcher: there's often no data, and when there is data, it's not validated or vetted, and it might even be in conflict with other studies. The scientific method demands replicability of results, but this process can take months, if not years, far slower than a typical news cycle and certainly much slower than the lightning speed of viral media. "We're six months into a pandemic," she said in her public clarification. "There's a huge amount of research that is being done, but we don't have that full picture yet."
-
-      <p class="u-responsive-ratio">
-      <iframe class="youtube" src="https://www.youtube.com/embed/q89IUdracnw?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-      <p class="caption">Book Talk and Webinar: Keep Calm and Log On with author Gus Andrews</p>
-
-      In a recent conversation I had [with author Gus Andrews](https://www.keepcalmlogon.com/about-author-gillian-gus-andrews), I asked her about how we deal this. Because of significant scientific advances in the fields of physics, chemistry and astronomy, we're used to the idea of scientific consensus on key topics.
-
-      But this is a novel coronavirus, and we're doing science in public now, she said. That means heated debates, scant data, papers that haven't been subject to peer review, and all kinds of conversations usually limited to experts but now exposed to the public by the pandemic given the enormous interest in the topic. It's vital that we help each other along in understanding what a lack of scientific consensus looks like, and [how to navigate the waters of an infodemic](https://www.yalemedicine.org/stories/covid-19-infodemic/).
-
-      And remember to focus on what we do know: stay at home as much as possible, wear a mask if you go out, etc. It's important that we not let the inevitable confusion that arises from midinformation to in turn foster information nihilism.
-
-      ### __Bring audiences along on the journey.__
-
-      Here's what Gus had to say: "I wonder if we can give more people the feeling that they're part of the evolving discussion by encouraging them to keep listening and educating themselves on the latest narratives. Which maybe even unfolds like a podcast or other series, where there's value and a feeling of safety in becoming part of the community that keeps engaging. We're all learning, together, and we become stronger by doing so."
-
-      On the technical side, it's important to ensure our databases are updated regularly to ensure search results remain relevant not just by content but by time, that we have clear flags for emerging information that may change later by context or time, and that time stamps are clear and accurate. The [COVID-19 Expert Database team](https://learnaboutcovid19.org/) work regularly to ensure everything is up to date, circling back on key topics as the science evolves.
-
-      ### __Embrace ambiguity. It's what we've got.__
-
-      Medical doctors have a lot of perspective to offer during times of ambiguous and confusing situations. Many of us have personally received word from a doctor about a health condition that our doctor is still learning about, from a broken bone to cancer. Doctors have perfected the art of expressing uncertainty in a time when people seek certainty. Most cancer diagnoses come with caveats, qualifications and "we simply don't know."
-
-      Saying "I dont' know," as medical journalist Seema Yasmin regularly points out, is an important way for doctors to build trust. Somewhere between information nihilism and a blanket trust in unverified facts comes the harsh reality: we as a society have to accept and live with ambiguity for a significant amount of time. "We don't know yet, but check back in," is a tough pill to swallow, but it's the closest thing we have to truth right now for a lot of aspects of this disease, and it opens up audiences for an invitation to keeping checking in as we learn more.
+        id: 5phkcT9R6VtSwYibxGbUfJ
+        created_at: !ruby/object:DateTime 2020-08-31 20:19:31.323000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-31 21:43:20.317000000 Z
+      title: 'A standard of care for health misinformation: lessons from Global Fact '
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5phkcT9R6VtSwYibxGbUfJ/bf2aaabe0d2fbee5c55f73a2d11ca57f/meedan_standards-of-care.jpg"
+    body: "The COVID-19 pandemic sent rumour mills into a frenzy. The World Health
+      Organization described it as a massive infodemic, capable of drowning out reliable
+      health guidance in an over-abundance of opinion. From Argentina to South Africa
+      we came across new home made remedies about steam and salt water, and long-debunked
+      allegations about vaccinations. \n\nBut as fact-checkers know all too well,
+      health misinformation is not a peculiarity of the 2020s. From rumours in Northern
+      Nigeria about polio vaccinations almost two decades ago, to the more recent
+      allegations that Zika and Ebola were made by humans, there is a long history
+      of health misinformation - in times of crises, but also in the everyday. We
+      all carry a myth passed down to us by a friend or family member in the name
+      of tradition, beauty, or propriety.\n\nThis year at Global Fact, we (Olivia
+      Vicol, Full Fact; Nat Gyenes, Meedan Digital Health Lab; Eric Mugendi, PesaCheck,
+      and Dr. Theresa Amobi, University of Lagos) brought our reviews of academic
+      evidence in conversation with fact checkers, with a view to expand upon best
+      practices for fact-checking Health Misinformation. We took main lessons from
+      psychology and health communication, and nuanced them with the insights of over
+      30 fact checkers, journalists, and academics in attendance. The goal was simple:
+      develop a standard of care for health misinformation.\n\n![Global-Fact-7 brainstorm-on-misinformation](//images.ctfassets.net/g118h5yoccvd/1nHZhDB5dfrywS72JmodER/08d3cdce677407f39b763e4ff8196716/Global-Fact-7_brainstorm-on-misinformation.png)\n<p
+      class=\"caption\">Here is some of what participants brainstormed together during
+      the health misinformation workshop at Global Fact 7.</p>\n\n### Production\n\n__If
+      a rumour is already in public debate, fact check it early to prevent it from
+      getting traction through repetition.__ Ever since the 1940s psychologists have
+      found that repetition contributes to belief. Our default is to trust, and in
+      times of crisis in particular we tend to remember the first explanations we
+      come across.\n\n__But don’t give more oxygen to myths which would otherwise
+      have remained unknown.__ Fact checking is key to the extent that it stops posts
+      rated as false from traveling further on social media. But think about whether
+      every claim intercepted this way is worth publicising further. Publicising every
+      fact check on claims doubting the safety of the flu vaccine, for instance, can
+      unintentionally give those claims much more exposure than if they had just been
+      rated as false on social media. This exposure matters, because seeing something
+      in the public domain can lead audiences to believe that the safety of the vaccine
+      is doubted by a lot more people than it reality is. Social Norms Theory tells
+      us that what we think is happening in society is a better predictor of our behaviors
+      than what is actually happening. Our health decisions and behaviors may be predicated
+      more on our perceptions of what dominant social norms are rather than what they
+      actually are. \n\n__Talk with public health experts__ where possible to determine
+      whether it is necessary to either a) fact check early, to prevent claims from
+      getting traction through repetition, or b) practice strategic silence.  And
+      remember that public health experts are also a source of trust. In times of
+      uncertainty when rumours abound, including trusted public health experts in
+      the content and dissemination of a fact check, can help good information stand
+      out from the noise. \n\n__Publish the sources of your information, and the last
+      time they were updated, to account for rapidly changing information.__ As global
+      health scientist and vaccine uptake specialist Nour Sharara phrased it, “science
+      is the truth of today”. This is an especially important concept in constantly
+      changing health emergencies where treatments and public health guidelines shift
+      based on the latest evidence. As much as you can communicate the fact that if
+      something changes in a health context, it is actually a good thing, because
+      it means that the public health community has stronger evidence to point towards
+      a more informed health policy decision.  \n\n### Headlines\n\n__Phrase your
+      headlines as answers, not questions.__ In a time of incidental media consumption,
+      headlines are often the only thing the public see. Simply phrasing a headline
+      as a question risks having readers remember the inaccurate claim, instead of
+      the debunk. This doesn’t just apply to health misinformation. It also applied
+      to fact-checking more generally, and is of particular importance when the consequence
+      of a fact-check might be a change or modification in a health behavior.   \n\n###
+      Content\n\n__Don’t stop at saying what’s wrong.__ Tell the public what is right
+      and why. The need to have an explanation for what happens and feel in control
+      in our environment is part of human nature. Some of us find these explanations
+      in science, religion, or in personal experience - but there is always a why.
+      Simply telling the public that something they know is wrong, without updating
+      their model of events, can make it easy to fall back on past knowledge. Fill
+      that gap. Clearly state what is wrong, but also tell your audience what is right
+      and why. For health misinformation, finding resources that can assist with contextualizing
+      the topic that you might be fact-checking within the larger body of health research
+      can make this process easier. Participants in this workshop emphasized the importance
+      of building strong collaborations and projects directly with reliable health
+      researchers for this to be as effective as possible. \n\n__Keep unnecessary
+      details to a minimum.__ No one has unlimited attention - and processing complex
+      information is particularly difficult in times of crisis, when readers are likely
+      to be experiencing stress. Make sure that the context and imagery you include
+      in your fact checks are necessary to your debunk. Remember that moving images
+      (like gifs, videos, and sidebar adverts) are particularly distracting. If your
+      fact check includes those details, ask yourself what they add to the public’s
+      understanding of the story.\n\n### Imagery\n\n__Don’t use graphic imagery that
+      may trigger fear or disgust__ of blood and needles. A study which looked at
+      vaccine hesitancy around the world found that many people who experience this
+      attitude towards vaccines are also disgusted by needles and blood. We haven’t
+      come across research that looks specifically at how graphic imagery shapes the
+      interpretation of health fact checks. But until we do, it seems wise to not
+      make a case for vaccination, using the imagery associated with fear of it.\n\n###
+      Tone & Audience Engagement\n\n__Emphasise high safety, not low risk.__ Research
+      reviewed by the WHO indicates that different framings of the same fact can lead
+      to very different risk perceptions and behaviours. Focusing on the positive
+      effects of an intervention, may be more effective than focusing on the absence
+      of negative effects. Think of the difference between saying: vaccines save 3
+      million lives a year, and saying: only a very small number of people develop
+      side effects.\n\n__Don’t ridicule the claim.__ Provide a safe space for individuals
+      seeking health information or wanting to ask questions about health myths or
+      beliefs. It is essential for audiences to feel comfortable seeking information
+      that might correct long-standing beliefs related to their health or that of
+      family members - a deeply personal and important issue for us all. It’s essential
+      that, as a community of health information responders, we don’t use words like
+      “crazy” or “outlandish” to describe the myths that we correct. We need to reduce
+      the stigma of health information-seeking.  Further, even a completely inaccurate
+      health claim might have been shared with good intentions. It may have profound
+      cultural or religious implications. And most importantly, we don’t have any
+      evidence that humour is a more effective way of countering health misinformation
+      than a neutral, facts-based piece.\n\n\n____\n\nFor more information about research
+      about effective responses to health misinformation and building a standard of
+      care: \n\n[The briefing](https://fullfact.org/media/uploads/en-tackling-health-misinfo.pdf)
+      by Full Fact, Africa Check and Chequeado on the impacts of health misinformation
+      and solutions for addressing its impacts.\n\n[Meedan Digital Health Lab’s primer](https://health.meedan.com/primer.pdf)
+      on public health research frameworks and applying health fact-checking to promote
+      health equity."
     words_by:
     - sys:
-        id: 3LwmNUnWdLGIZbvPisgSL5
-    alt_date: !ruby/object:DateTime 2020-08-05 00:00:00.000000000 Z
-- sys:
-    id: 4hDOrsmcTmB60zhqrzF6Xp
-    created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-31 21:31:48.411000000 Z
-    content_type_id: moduleStories
-    revision: 1
-  title: Expert DB Blog
-  stories:
+        id: 4JqOrlVgCscDebeRwxYBu8
+    alt_date: !ruby/object:DateTime 2020-08-31 00:00:00.000000000 Z
+    updates: "__Foreword__\n\nWritten by Peter Cunliffe-Jones \n\nWhen voters believe
+      false information about political events, they often have only one opportunity
+      every few years to act on it, and consequences can be hard to judge. When the
+      false information concerns health treatments or the conditions that cause a
+      disease to spread, the chances to act misguidedly can be unlimited and the consequences
+      can be life or death.\nWhen the International Fact-Checking Network (IFCN) agreed
+      last year to review our Code of Principles, we agreed the code should provide
+      a floor, not a ceiling, to standards in our field. In March 2020, the new and
+      updated code came into practice, agreed by IFCN signatories to subject our work
+      to assessment on the basis of a new raft of standards on methodology and use
+      of sources.\n\nThat is the floor. The IFCN of course wants our community to
+      always find ways to improve, and in no field does this matter more than health
+      misinformation – the topic that first fired my own interest in misinformation
+      almost two decades ago. Therefore we welcome this initiative to propose a set
+      of best practices for how we as fact-checkers can respond to health misinformation
+      both effectively, and safely, a standard of care, if you will, for those we
+      serve: our readers, viewers or listeners.\n\nThese proposed best practices are
+      simply that. They are not part of the IFCN Code but were developed following
+      discussions at Global Fact 7, and we hope that fact-checkers everywhere will
+      find ways to review, consider and perhaps improve on them – reaching always
+      to improve the important work we do."
   - sys:
       id: 1RxTNJjApkdv7OvHSCTo70
       created_at: !ruby/object:DateTime 2020-07-23 22:26:53.602000000 Z
@@ -551,3 +896,267 @@ moduleStories:
     - sys:
         id: 4rDdPefIUGPezxEVMbHNyB
     alt_date: !ruby/object:DateTime 2020-06-25 00:00:00.000000000 Z
+  - sys:
+      id: 77XtZxUTMsilrHnbjbuVcW
+      created_at: !ruby/object:DateTime 2020-07-30 21:15:18.975000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-18 19:35:16.423000000 Z
+      content_type_id: story
+      revision: 9
+    title: In Calling for Equitable Information Access, Let’s Remember the Disability
+      Digital Divide
+    slug: in-calling-for-equitable-information-access-lets-remember-the-disability
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 6gBmnjbZSRLEd8udOyil0x
+        created_at: !ruby/object:DateTime 2020-07-31 19:49:48.572000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-31 19:50:56.862000000 Z
+      title: Screen Shot 2020-07-31 at 3.49.15 PM
+      description: 'Four disability symbols used by the U.S. National Park Service '
+      url: "//images.ctfassets.net/g118h5yoccvd/6gBmnjbZSRLEd8udOyil0x/b5177e50cc43529c614abfe3157c1a4c/Disability_symbols.svg"
+    body: "Last week I was fortunate to receive corrective surgery on my disabled
+      arm, a remnant of an injury from over 9 months ago. When the COVID-19 pandemic
+      hit, changing all of our plans, it understandably delayed non-essential medical
+      procedures like the one I needed.\n \nJuly 2020 marks [30 years since the passage
+      of the Americans with Disabilities Act (ADA)](https://www.ada.gov/30th_anniversary/index.html).
+      Twelve years ago the [Convention on the Rights of Persons with Disabilities
+      (CRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)
+      came into effect, which was the first United Nations (UN) human rights treaty
+      of the 21st century, and also the UN convention with the largest number of signatories
+      in history on its opening day.  \n\nAs I recover, I am reflecting on what these
+      mean for my friends and colleagues with disabilities, including disabilities
+      that are permanent or longer-term than my own. \n\nWe have made progress through
+      high-level decisions and cultural shifts. For example, plans for people with
+      disabilities are now included in the UN’s Sustainable Development Goals, the
+      Paris Agreement on Global Climate Change, the Sendai Framework for Disaster
+      Risk Reduction, and the Addis Ababa Action Agenda on Financing for Development.
+      Yet there is much more to do  – we still have not achieved universal access,
+      and people with disabilities are being disproportionately affected by the COVID-19
+      pandemic in multiple ways.\n\n- People with disabilities are at a higher risk
+      of severe symptoms and death from COVID-19. A [study published in the *Disability
+      and Health Journal*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245650/)
+      found that there is a higher COVID-19 fatality rate among people with intellectual
+      and developmental disabilities (IDD). The researchers also found a higher concentration
+      of COVID-19 cases at younger ages for people with IDD. Last month, the American
+      Civil Liberties Union (ACLU) shared [devastating statistics](https://www.aclu.org/news/disability-rights/covid-19-deaths-in-nursing-homes-are-not-unavoidable-they-are-the-result-of-deadly-discrimination/)
+      on the anniversary of the landmark U.S. Supreme Court decision in Olmstead v.
+      L.C., which recognized that unjustified segregation of people with disabilities
+      is a form of discrimination: Nearly 50% of COVID-19 deaths have been among people
+      living in nursing homes, psychiatric hospitals, and other congregate settings
+      for people with disabilities, while this population only makes up less than
+      1% of the U.S. population. The ACLU warns us that these excess and inequitable
+      deaths are “not unavoidable – they are the result of deadly discrimination.”\n\n-
+      People with disabilities are also excluded as much of our world moves online
+      during the COVID-19 pandemic, impacting everything from education and employment
+      to essential services and social connection. There is [growing worldwide concern](https://unctad.org/en/pages/newsdetails.aspx?OriginalVersionID=2322)
+      about the digital divide, where many people still lack access to technologies
+      like computers and smartphones, not to mention affordable as well as reliable
+      internet and even electricity. The most affected tend to be [lower-income](https://www.pewresearch.org/fact-tank/2019/05/07/digital-divide-persists-even-as-lower-income-americans-make-gains-in-tech-adoption/),
+      [older generations](https://www.nytimes.com/2020/03/27/technology/virus-older-generation-digital-divide.html),
+      [racial and ethnic minorities](https://www.pewresearch.org/fact-tank/2019/08/20/smartphones-help-blacks-hispanics-bridge-some-but-not-all-digital-gaps-with-whites/),
+      [sexual and gender minorities](https://www.ohchr.org/Documents/Issues/Women/WRGS/GenderDigital/HRBDT_submission.pdf),
+      and [people with disabilities](https://www.pewresearch.org/fact-tank/2017/04/07/disabled-americans-are-less-likely-to-use-technology/),
+      with many intersectionalities. Exacerbating this, people with disabilities can
+      face additional barriers, such as:\n\n\n1.   Increased risks of online harassment
+      and discrimination\n\n2.   Lack of adaptations for limited abilities to see,
+      hear, and understand content\n\n3.  Lack of adaptations for limited physical
+      abilities to use devices (ex.    following my injury, I learned to type using
+      one hand supplemented with voice recognition software)\n\nIt is more crucial
+      than ever to mitigate barriers like these during a pandemic, where online access
+      to quality information and essential activities can directly influence health
+      outcomes.\n\nHere at Meedan, the Digital Health Lab is working to address “viral
+      misinformation that facilitates the spread of a particular health outcome or
+      disease,” also called a “misinfodemic,” by increasing access to expert-sourced
+      information about COVID-19. \n\nMeedan’s efforts to increase access include
+      avoiding jargon to make information readable by the general public, providing
+      a glossary with simplified definitions of scientific terms, translating information
+      for non-English speakers, and disseminating information across diverse media
+      channels. In this process, we cannot forget to include people with disabilities.
+      Leaving out people with disabilities means hurting a significant proportion
+      of humanity: The World Health Organization (WHO) [estimates that over 1 billion](https://www.who.int/news-room/fact-sheets/detail/disability-and-health)
+      people experience some form of disability. Additionally, the ADA and CRPD require
+      making online content, services, and systems accessible to people with disabilities.\n\nEquality
+      under the law does not automatically translate to equity in everyday practice.
+      We have to do the hard work of building the inclusive world we’d like to see,
+      and we need to continuously work on addressing ableism and centering disability
+      justice. Meedan’s Digital Health Lab is striving to increase access to COVID-19
+      information for all, including people with disabilities, and we invite you to
+      join us.\n\nResources:\n\n[ADA Best Practices Chapter 5 Website Accessibility](https://www.ada.gov/pcatoolkit/chap5toolkit.htm)\n[Federal
+      Social Media Accessibility Toolkit Hackpad](https://digital.gov/resources/federal-social-media-accessibility-toolkit-hackpad/)\n[W3C
+      Accessibility Standards Overview](https://www.w3.org/WAI/standards-guidelines/)\n
+      \n*Dr. Jessica Huang currently serves as a Pandemic Response and Recovery Fellow
+      with the Bloomberg City Leadership Initiative at Harvard University’s John F.
+      Kennedy School of Government, while working as a consultant for the COVID-19
+      Expert Database with Meedan’s Digital Health Lab. She is grateful to be part
+      of the Boston Inclusion Community convened by Partners for Youth with Disabilities.
+      Previously, she was an instructor with the Massachusetts Institute of Technology’s
+      D-Lab, where she collaborated on design projects in sustainable development,
+      global health and humanitarian innovation across five continents. She holds
+      a Doctorate of Public Health from Harvard University’s T.H. Chan School of Public
+      Health, and a Master’s in Learning, Design and Technology from Stanford University.*\n
+      \n"
+    words_by:
+    - sys:
+        id: 4EUKpNMRSgKZSSTJCyJxSW
+    alt_date: !ruby/object:DateTime 2020-07-30 00:00:00.000000000 Z
+  - sys:
+      id: 2uGeBfzRSJYn8qx2lzzQis
+      created_at: !ruby/object:DateTime 2020-08-06 17:38:46.782000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-18 19:36:17.568000000 Z
+      content_type_id: story
+      revision: 3
+    title: 'World Breastfeeding Week 2020: Supporting Moms, Protecting Babies, and
+      Preventing Misinformation'
+    slug: world-breastfeeding-week-2020-supporting-moms-protecting-babies-and
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 7cOrfWoPgbhOJOcA80mkx7
+        created_at: !ruby/object:DateTime 2020-08-06 20:42:54.689000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-06 22:10:58.798000000 Z
+      title: Breastfeeding-icon-med
+      description: Universal Breastfeeding Symbol by Fiona M. Jardine is licensed
+        under a Creative Commons Attribution-Non Commercial 4.0 International License
+      url: "//images.ctfassets.net/g118h5yoccvd/7cOrfWoPgbhOJOcA80mkx7/3540eae5f9a3fb33235e03e7962936b8/unibfsymbolblue"
+    body: "Breastfeeding promotes early childhood cognitive development, prevents
+      young child infections including pneumonia and diarrhea, and improves mental
+      and physical health in mothers. That’s why each year during the first week of
+      August, [World Breastfeeding Week](https://worldbreastfeedingweek.org) is celebrated
+      to raise awareness and promote breastfeeding as the best source of nutrition
+      for most babies. \n\nGeneral breastfeeding guidance from the World Health Organization
+      (WHO) and other leading health authorities includes breastfeeding for the first
+      six months of life all the way to two years of age and beyond.\n\nUnfortunately,
+      misinformation about breastfeeding is widespread. Claims often center around:\n\n-
+      Foods breastfeeding mothers should or should not eat (In general, [breastfeeding
+      moms](https://www.cdc.gov/breastfeeding/breastfeeding-special-circumstances/diet-and-micronutrients/maternal-diet.html)
+      should eat a varied diet and don’t need to include or avoid specific foods except
+      for some seafood that may be high in mercury.)\n\n- If exercise changes the
+      taste of breastmilk ([Exercise](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding)
+      is healthy and has not been shown to change the taste of breastmilk.)\n\n- Whether
+      negative emotions affect breastmilk quality (Breastmilk quality [doesn’t change](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding)
+      based on mom’s emotions.)\n\n- Whether it is okay for a mother to breastfeed
+      if she is ill ([In most cases](https://www.unicef.org/parenting/food-nutrition/14-myths-about-breastfeeding),
+      moms should continue to breastfeed even when they’re ill because breastmilk
+      passes on immune defense to the baby, but there are some exceptions so always
+      check with your or your baby’s doctor.)\n \nExacerbating the issue, early in
+      the coronavirus pandemic incomplete scientific consensus and confusion resulted
+      in brand new types of breastfeeding [misinformation](https://www.iol.co.za/lifestyle/family/baby/covid-19-moms-and-breastfeeding-separating-facts-from-fiction-add70b6c-9821-4471-8297-67e69947c5b1).
+      Because little was known about the virus, many feared that the virus would spread
+      from mothers to their infants through [breastmilk](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
+      and those concerns were shared widely in online communities. \n\nOffline challenges
+      of COVID-19 have also taken hold. Lockdown limits access to pre- and postnatal
+      lactation support [services](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(20)30327-2/fulltext)
+      leaving mothers vulnerable to online or familial misinformation in the absence
+      of professional breastfeeding support. Some women have been [advised](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7036629/)
+      by doctors not to breastfeed or to stop breastfeeding. \n\nIn some cases, babies
+      [were](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(20)30327-2/fulltext)
+      separated from mothers in hospitals, a practice known to make establishing breastfeeding
+      [difficult](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/pregnancy-breastfeeding.html),
+      decrease breastfeeding [success](https://trends.hms.harvard.edu/2020/03/31/covid-19-separating-infected-mothers-from-newborns-weighing-the-risks-and-benefits/),
+      inhibit [early bonding](https://pubmed.ncbi.nlm.nih.gov/27885658/) and attachment,
+      and [negatively impact maternal mental health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4842365/).
+      Finally, some reports have also suggested that formula companies began further
+      undermining breastfeeding messages by promoting formula as safer than breastmilk
+      during the pandemic.\n \nNow, eight months into the pandemic, we have improved
+      understanding and data, so breastfeeding recommendations for mothers infected
+      with COVID-19 are clearer. Despite misinformation, while studies of breastmilk
+      and breastfeeding are ongoing, current research shows that the risk of an infant
+      becoming infected with COVID-19 through breast milk is low. \nThe WHO [suggests](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
+      that “at this point, it appears that COVID-19 in infants and children represents
+      a much lower threat to survival and health than other infections that breastfeeding
+      is protective against.” Meanwhile the threat of poor health outcomes as a result
+      of not breastfeeding is [particularly true](https://www.bfmed.org/assets/DOCUMENTS/abm-position-breastfeeding.pdf)
+      in areas where access to clean water and medical care are limited.\n \nFor those
+      on the front lines who are supporting moms and babies everyday, providing encouragement,
+      addressing misinformation, and empowering mothers to make well-informed feeding
+      decisions, are a huge part of providing high-quality care. While babies are
+      not immune from contracting COVID-19, based on the current evidence the WHO
+      advises that even with suspected or confirmed maternal COVID-19, breastfeeding
+      is recommended for infants and young children. The U.S. Centers for Disease
+      Control and Prevention further advise mothers to further discuss breastfeeding
+      with their healthcare providers.\n \nResources:\n[World Alliance for Breastfeeding.
+      2020. ](https://waba.org.my)https://waba.org.my \n\n[World Health Organization.
+      Breastfeeding and COVID-19. June 2020.](https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19)
+      https://www.who.int/news-room/commentaries/detail/breastfeeding-and-covid-19\n
+      \nWorld Health Organization. Pregnancy, Childbirth, Breastfeeding and COVID-19.
+      2020. [https://www.who.int/reproductivehealth/publications/emergencies/COVID-19-pregnancy-ipc-breastfeeding-infographics/en/](https://www.who.int/reproductivehealth/publications/emergencies/COVID-19-pregnancy-ipc-breastfeeding-infographics/en/)\n"
+    words_by:
+    - sys:
+        id: 4MK93CSrpmc3tFyE5MYEeh
+    alt_date: !ruby/object:DateTime 2020-08-06 00:00:00.000000000 Z
+- sys:
+    id: 1qf28GnmtMod6WpWlpr68x
+    created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 23:29:04.224000000 Z
+    content_type_id: moduleStories
+    revision: 0
+  title: Featured Story
+  stories:
+  - sys:
+      id: 4Qi00kygRwhPWFHpbSGFp9
+      created_at: !ruby/object:DateTime 2020-06-16 12:51:20.313000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 15:56:10.835000000 Z
+      content_type_id: story
+      revision: 5
+    title: '25 grassroots projects awarded through the Check Global COVID-19 Fund '
+    slug: 25-grassroots-projects-awarded-through-the-check-global-covid-19-fund
+    topic:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 2WPIleyIUdrFnSOypreJGl
+        created_at: !ruby/object:DateTime 2020-06-16 12:52:09.463000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-16 23:52:28.354000000 Z
+      title: The floor of a farm full of ripen and unpicked pears
+      description: The floor of a farm full of ripen and unpicked pears and in the
+        middle of the picture the legs and feet of someone standing wearing pants
+        and sand. Photo courtesy of Ruda Coletiva. This picture is part of photographer
+        Wara Vargas's work related to the impact of COVID-19 in the food chain of
+        Latin America.
+      url: "//images.ctfassets.net/g118h5yoccvd/2WPIleyIUdrFnSOypreJGl/2cd5ed9de5f80ed8d24469555c204d10/Ruda05.jpg"
+    body: |
+      [As we've seen](https://misinforeview.hks.harvard.edu/article/using-misinformation-as-a-political-weapon-covid-19-and-bolsonaro-in-brazil/), health misinformation is escalating not only within Western democracies but also at a dangerous scale in emerging economies, where independent media workers and organizations have had to wade through financial, physical, and mental strain. As the Check Global team continued to monitor the ramifications of COVID-19 on emerging economies and independent media organizations, the need to act was undeniable.
+
+      Meedan has engaged in a company-wide effort to address our partners' challenges, whether through building new technologies[ such as the COVID-19 Check Bot](https://meedan.com/blog/covid-19-whatsapp-bot-for-fact-checkers/), providing independent newsrooms and partners with [a database led by expert epidemiologists and public health workers](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/) to facilitate fact-checking and verification initiatives, or contributing to [global research](https://meedan.com/blog/global-misinfodemic-report/) about COVID-19-related misinformation. In the interest of reaching out to new organizations in need, the Check Global team announced on April 8 a call to [support media organizations and media workers in Asia-Pacific, in Africa, in Latin America and in the North Africa Western Asia region through a series of micro-grants.](https://meedan.com/blog/new-microgrants-for-covid-19-media-work-in-emerging-economies/) The microgrants projects ranged amongst fact-checking projects, media literacy campaigns and daily blogging reflecting on applicants' quarantine realities. We were blown away by the popularity of our call, receiving a whooping 298 applications in less than 30 days!
+
+      While overwhelming and heartening, the large pool of applications made the selection process challenging. A few criteria guided us in this process. Originality and the innovative nature of the application were  important factors in the selection. Some applications stood out for their creativity and clarity. Applications were also shortlisted on the basis of their achievability --- projects that proposed activities and outputs that could be realistically achieved during the current health crisis were prioritised. Finally, outreach and potential impact were also important factors. Projects that strengthened the involvement of underserved communities and represented issues of people in areas outside the radar of mainstream media made it to the final selection process. We had limited funding, but there are many applications that are deserving, and we hope to be able to support those projects at a later stage.
+
+      In this round, we awarded 25 projects with funding that ranged between $300 and $2,500, for a total of $52,000. From organisations involved in relief work around COVID-19 to individuals committed to tracking the impact of the pandemic on local communities, - the range of applications was wide, rich and diverse. Given the work they do, some of these grantees face risks of political repression, and we're not able to list all of them here. Here are some of the highlights from our work:
+
+
+      ### APAC: 7 Fact-checking projects targeting vulnerable groups
+
+      We received close to 40 applications from the Asia Pacific region.
+
+      We selected seven applications for media work have been selected from the APAC region for the COVID-19 microgrants. These represent six countries in the region, with a particular focus on Southeast and South Asia --- Cambodia, the Philippines, Indonesia, Nepal, India and Sri Lanka. The creation of online content that is fact-checked and accurate has been an area around which a few groups have designed their projects. [Open Development Cambodia](https://opendevelopmentcambodia.net/) has designed a project to create an online information hub in order to provide fact-checked information to citizens and civil society organisations. In the Philippines, we are thrilled to support the work of an individual, Carol Dawonlay/[Lalang Hu Mga Laga](https://www.facebook.com/pg/storiesofwomencampaign/posts/) who will produce social media cards and videos to highlight violence against women during the pandemic. [BASAbali](https://basabali.org/) in Indonesia is in the process of designing a digital literacy campaign around COVID-19 with the underserved and minority communities in Bali.
+
+      We're also happy to support [Disability Empowerment Society Nepal](https://www.facebook.com/DisabiltyEmp/); they have designed a project to create an accessible website to provide news and information on COVID-19 to people with disabilities. In India, [Sadbhavana Trust](http://sadbhavanatrust.org.in/) will strengthen the leadership and meaningful participation of young women from underserved communities in addressing the COVID-19 outbreak by creating online content from a feminist perspective. [International Youth Alliance for Peace](https://iyapsl.org/) in Sri Lanka will design a  blogging project to capture stories of frontline workers addressing the COVID-19 pandemic.
+
+      ### Africa: 6 efforts curbing the ramifications of the COVID-19 misinfodemic
+
+      We were thrilled by the 170 applications we received from Africa, which made up the majority of our overall application pool. Due to our limited funds we were only able to support six  applications from Nigeria, Somalia, Kenya, Guinee, Tanzania, Zambia. Here are highlights from four of these.
+
+      [People's Check](http://www.peoplescheck.org/) in Nigeria is launching the 'Verify Nigeria' project to fact-check and verify viral health misinformation and disinformation that has affected people's health and life in Nigeria. People's Check will create different visual elements and participate in training students and citizen journalists on health fact-checking training. [Radio Daljir SOMALIA](https://www.daljir.com/) will support media literacy efforts in Somalia and design audio campaigns and radio reporting to bring health facts to the public, encourage COVID-19 prevention measures & make social distancing possible. Radio Daljir will target communities in Somalia's regions of Puntland and Galmudug States of Somalia with a focus on the situation of the nomads. [Zéro Pauvre Afrique (ZPA, "Zero Poor in Africa")](https://www.facebook.com/zeropauvreenafrique/) will track, deconstruct, disseminate misinfodemics with support of a network of volunteers in order to reduce their impact on the management of the COVID-19 crisis in Guinea.
+
+      Family Welfare Foundation's project will contribute to ensuring engagement of human rights defenders and activists with local artists in documenting, information sharing, reporting and amplifying voices on injustice issues, human rights abuse and repressions associated to COVID-19 interventions in Tanzania.
+
+      We are building on the success of the COVID-19 microgrants to create different media funds in Africa that can support more innovative projects.
+
+
+      ### Latin America: Sustaining the work of 5 women-led independent media organizations
+
+      We received 47 applications from Latin America in both Spanish and Portuguese. The majority of the 7 selected initiatives are led by women and are covering the impact of COVID-19 pandemic in their regions. [Coletivo Cirandeiras](https://www.instagram.com/cirandeiras/) will produce podcast episodes on the stories of women leaders in underrepresented and marginalized communities in Brazil. We will also be supporting the fact-checking work of an alliance of two independent media outlets in Cuba ([Periodismo de Barrio](https://www.periodismodebarrio.org/) and [elTOQUE](https://eltoque.com/)) to increase regional awareness in matters related to the pandemic. Another fact checking initiative [Eté Checagem](https://www.etechecagem.com/) agency works and specializes in human rights and guidelines relating to the women, youth and LGBTQIA population in Brazil. [Ruda Coletiva](https://rudacolectiva.com) a group of Latin America women photographers, will do a visual investigation of the impact that the pandemic has had in the food chain throughout the region. With the theme "From my window" [Coletivo Mulherias](https://mulherias.blogosfera.uol.com.br/) will coordinate a group of women journalists living in the slums of Brazil portraying their routine during the pandemic. In Ecuador we will hear [Isabel Gonzales and Chicas Poderosas ](https://www.instagram.com/chicaspoderosasec/)develop a new podcast that aims to inform and support the journalist community in Latin America suffering the consequences of COVID-19 in their work. And in El Salvador we will support the work of photographer [Giuzeppe Dezza](http://www.GDezza.net) and his work on documenting the impacts of the pandemic in the country.
+
+      ### NAWA: Supporting 5 investigations and fact-checking initiatives
+      As for applications from the North Africa Western Asia region, we were lucky to receive 24 applications, both in English and Arabic.
+
+      We are pleased and excited to support five projects from the region, divided between media literacy campaigns, fact-checking initiatives and in-depth investigations. [Radio Medenine](http://radiomedenine.com/), a community radio project based in southern Tunisia, aims to create a digital health program interviewing health experts and providing pressing health information. Award-winning collaborative blog [Nawaat](http://nawaat.org/portail/) ("the core" in Arabic), also from Tunisia, will be sustaining its trilingual fact-checking efforts through our grant over the next month, while media platform [SyriaUntold](https://syriauntold.com/en/) will publish a series of investigative reports about health disparities in Syria. We were also happy to fund an investigation on the state of African refugees in Tangier and a health fact-checking campaign in Egypt.
+
+      The above COVID-19 microgrants recipients have given Meedan consent to announce their projects publicly, while others have not been named for security reasons.

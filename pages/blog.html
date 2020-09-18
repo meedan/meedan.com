@@ -3,9 +3,13 @@ title: Blog
 layout: landing_page
 class: blog
 permalink: blog
+slug: blog
 lang: en-US
+custom_js: blog
 ---
-{% include module_story_grid.html %}
-{% include module_recent_press.html %}
+{% include module_story_grid.html count="4" %}
+{% include module_featured_story.html %}
+{% include module_browse_stories.html %}
+{% include module_story_list.html title="More stories" count="4" offset="4" trail="true"%}
 {% include module_checklist.html %}
-{% include footer_small.html theme="dark" %}
+{% include footer_small.html theme="dark" %}    

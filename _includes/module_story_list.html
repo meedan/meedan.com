@@ -1,31 +1,66 @@
-{% assign stories = site.data.contentful.spaces.stories.story | sort: 'alt_date_string' | reverse  %}
-{% assign count = include.count %}
+{% if include.topic %}
+    {% 
+        assign stories = site.data.contentful.spaces.stories.story 
+        | where_exp: "item","item.topic.en-US[0].sys.id == include.topic" 
+        | sort: 'alt_date_string' 
+        | reverse  
+    %}
+{% else %}
+    {% 
+        assign stories = site.data.contentful.spaces.stories.story 
+        | sort: 'alt_date_string' 
+        | reverse  
+    %}
+{% endif %}
+
+{% assign count = include.count | default: '1000'%}
 {% assign columns = include.columns | default: '2' %}
+{% assign offset = include.offset | default: '0' %}
 <section class="module module-story-list section-margin">
     {% if include.title %}
-    <h3 class="section-title" id="calendar">
+    <h3 class="section-title no-margin">
         <a href="/blog/all">
             {{ include.title }}
         </a>
     </h3>
     {% endif %}
     <div class="module-wrapper">
-        {% for story in stories | limit: count %}
+        {% for story in stories | limit: count | offset: offset %}
         <div class="story-list-item">
+            <a href="/blog/{{ story.slug }}" class="image-container">
+                <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+            </a>
             <a class="tag" href="/blog/{{ story.slug }}">
                 {% for topic in story.topic.en-US | limit: 1 %}
                     {{ topic.title.en-US }}
                 {% endfor %}
             </a>
             <div class="title-container">
-                <a class="title" href="/blog/{{ story.slug }}">{{ story.title-en }}</a>
+                <a class="title" href="/blog/{{ story.slug }}">
+                    {{ story.title-en }}
+                </a>
+            </div>
+            <div class="date">
+                {% if story.alt_date %}
+                    {% assign published_on = story.alt_date %}
+                {% else %}
+                    {% assign published_on = story.sys.created_at %}
+                {% endif %}
+                    <span>
+                        {{ published_on | date: "%-d %b %Y" }}
+                    </span>
+                {% if story.words_by %}
+                    <span>
+                        {% include words_by.html data=story.words_by.en-US %}
+                    </span>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
     </div>
     {% if include.trail %}
         <div class="trail-wrapper">
-            <span class="trail"><hr /><a href="{% if include.link %}{{ include.link }}{% else %}/blog/all{% endif %}" class="button no-margin">View all stories →</a></span>
+            <span class="trail"><a href="{% if include.link %}{{ include.link }}{% else %}/blog/all{% endif %}" class="button no-margin">View all stories</a></span>
         </div>
     {% endif %}
 </section>

@@ -1,0 +1,32 @@
+{% assign story_list = site.data.contentful.spaces.moduleStories.moduleStories 
+    | where_exp: "item","item.sys.id == '1qf28GnmtMod6WpWlpr68x'"
+%}
+{% for story in story_list[0].stories limit:1 %}
+    <div class="module module-featured-story section-margin">
+        <h2 class="title">
+            <a href="/blog/{{ story.slug }}">{{ story.title }}</a>
+        </h2>
+        <div class="lead">
+            {% if story.description %}
+                {{ story.description | markdownify }}
+            {% else %}
+                {{ story.body | truncate: 250 | markdownify }}
+            {% endif %}
+        </div>
+        <div class="date">
+            {% if story.alt_date %}
+                {% assign published_on = story.alt_date %}
+            {% else %}
+                {% assign published_on = story.sys.created_at %}
+            {% endif %}
+            <span>
+                {{ published_on | date: "%-d %b %Y" }}
+            </span>
+        </div>
+        <picture class="image-container display--block">
+            <a href="/blog/{{ story.slug }}">
+                <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+            </a>
+        </picture>
+    </div>
+{% endfor %}

@@ -1,5 +1,16 @@
-{% for contributor in page.words_by.en-US %}
-    {% if forloop.first %}
+
+{% if include.data %}
+    {% assign contributors = include.data %}
+{% else %}
+    {% assign contributors = page.words_by.en-US %}
+{% endif %}
+
+{% if include.label %}
+    {% assign label = include.label %}
+{% endif %}
+
+{% for contributor in contributors %}
+    {% if forloop.first and label %}
         <span>Written by</span>
     {% endif %}
     {% if contributor.size == 1 %}

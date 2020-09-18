@@ -46,10 +46,13 @@
     <meta property="article:modified_time" content="{{ page.sys.updated_at }}" />
     {% if page.words_by.en-US %}
         <meta name="twitter:label1" content="Written by">
-        {% for contributor in page.words_by.en-US %}
-            <meta name="twitter:data{{ forloop.index }}" content="{{ contributor.name.en-US }}">
-            <meta name="author" content="{{ contributor.name.en-US }}" />
-        {% endfor %}
+        <meta name="twitter:data1" content="{% for contributor in page.words_by.en-US %}{% if page.words_by.en-US.size == 1 %}{{ contributor.name.en-US }}{% endif %}{% if page.words_by.en-US.size > 1 %}{% if forloop.last %}{{ contributor.name.en-US | append: "" }}{% else %}{{ contributor.name.en-US | append: ", " }}{% endif %}{% endif %}{% endfor %}">
+        <meta name="author" content="{% for contributor in page.words_by.en-US %}{% if page.words_by.en-US.size == 1 %}{{ contributor.name.en-US }}{% endif %}{% if page.words_by.en-US.size > 1 %}{% if forloop.last %}{{ contributor.name.en-US | append: "" }}{% else %}{{ contributor.name.en-US | append: ", " }}{% endif %}{% endif %}{% endfor %}" />
+    {% endif %}
+    {% if page.topic.en-US %}
+        <meta name="twitter:label2" content="Filed under">
+        <meta name="twitter:data2" content="{% for topic in page.topic.en-US %}{% if page.topic.en-US.size == 1 %}{{ topic.title.en-US }}{% endif %}{% if page.topic.en-US.size > 1 %}{% if forloop.last %}{{ topic.title.en-US | append: "" }}{% else %}{{ topic.title.en-US | append: ", " }}{% endif %}{% endif %}{% endfor %}">
+        <meta name="keywords" content="{% for topic in page.topic.en-US %}{% if page.topic.en-US.size == 1 %}{{ topic.title.en-US }}{% endif %}{% if page.topic.en-US.size > 1 %}{% if forloop.last %}{{ topic.title.en-US | append: "" }}{% else %}{{ topic.title.en-US | append: ", " }}{% endif %}{% endif %}{% endfor %}" />
     {% endif %}
 {% elsif page.path contains 'events/' %}
     <meta property="og:image:alt" content="{{ page.title }}" />

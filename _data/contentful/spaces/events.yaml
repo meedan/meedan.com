@@ -1290,9 +1290,9 @@ event:
 - sys:
     id: 3LM42KCh8jIEAxTk3fcyKF
     created_at: !ruby/object:DateTime 2020-07-27 22:38:19.646000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-05 23:39:20.740000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-17 22:41:18.489000000 Z
     content_type_id: event
-    revision: 4
+    revision: 7
     space:
       sys:
         id: g118h5yoccvd
@@ -1309,7 +1309,7 @@ event:
   title: 'SwitchPoint 2020: The Global Fund Virtual Switchpoint Exchange'
   event_date: !ruby/object:DateTime 2020-09-18 00:00:00.000000000 Z
   event_end_date: !ruby/object:DateTime 2020-09-18 00:00:00.000000000 Z
-  time: 'We will update with more information soon! '
+  time: "- *Eastern Daylight Time* 10:00am – 12:30pm"
   images:
   - sys:
       id: 6EM3DsbAAjda0dUqMVlfCW
@@ -1327,22 +1327,21 @@ event:
     url: "//images.ctfassets.net/g118h5yoccvd/4SJm0bhbsoCtrCKXekTBfC/39bcd37052de49921225c1c77da9a678/meedan_nat-nour.jpg"
   location_human_friendly: 'On Zoom - Registration is open now! '
   register_link: https://www.eventbrite.com/e/the-global-fund-virtual-switchpoint-exchange-the-future-we-want-tickets-112662271888
-  long_description: "IntraHealth International is reimagining SwitchPoint 2020, a
-    yearly global health, technology and innovation conference, in the wake of COVID-19.
-    Instead of in-person global events, we’re launching a series of Virtual SwitchPoint
-    Exchanges: online, creative, and highly interactive gatherings in the style of
-    SwitchPoint.\n\nThe first Virtual SwitchPoint Exchange will take place September
-    18, 10am – 12:30pm EDT, in partnership with The Global Fund. Youth Voices: The
-    Future We Want will amplify the voices of young global health leaders, including
-    members of The Global Fund Youth Council, IntraHealth’s Family Planning Youth
-    Ambassador team, young advocacy and policy leaders, and extraordinary artists
-    such as Mikael Owunna, CJ Suitt, Culture Mill, and Kenyan acclaimed musical artist
-    Juliani. The Global Fund CEO Peter Sands, IntraHealth International CEO Polly
-    Dunford, and global specialists will join us as we focus on critical global health
-    needs even as countries respond to the COVID-19 pandemic. Registration is free
-    and open, though attendance will be capped to keep each section of the event highly
-    interactive. \n\nTwo members of the Meedan Digital Health Lab team, Nat Gyenes
-    and Nour Sharara, will be hosting a Misinfodemics workshop. "
+  long_description: "IntraHealth International is reimagining SwitchPoint 2020 in
+    the wake of COVID-19. Instead of in-person global events, we’re launching a series
+    of Virtual SwitchPoint Exchanges: online, creative, and highly interactive gatherings
+    in the style of SwitchPoint.\n\nMeedan's Nat Gyenes, in collaboration with sexual
+    and reproductive health specialist Dr. Mariam Abdou will be discussing gendered
+    health misinformation challenges and responses with an interactive exercise.  \n\nThroughout
+    this Switchpoint 2020 Reimagined, Youth Voices: The Future We Want will amplify
+    the voices of young global health leaders, including members of The Global Fund
+    Youth Council, IntraHealth’s Family Planning Youth Ambassador team, young advocacy
+    and policy leaders, and extraordinary artists such as CJ Suitt, Culture Mill,
+    and Kenyan acclaimed musical artist Juliani. The Global Fund CEO Peter Sands,
+    IntraHealth International CEO Polly Dunford, and global specialists will join
+    us as we focus on critical global health needs even as countries respond to the
+    COVID-19 pandemic. Registration is free and open, though attendance will be capped
+    to keep each section of the event highly interactive."
   slug: switchpoint-2020-the-global-fund-virtual-switchpoint-exchange
   event_date_string: '2020-09-18'
   event_end_date_string: '2020-09-18'
@@ -1477,9 +1476,9 @@ event:
 - sys:
     id: 4cocA1h2WYBNGRigL5e4Dg
     created_at: !ruby/object:DateTime 2020-08-03 23:21:36.406000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-06 19:40:13.025000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-02 21:57:30.061000000 Z
     content_type_id: event
-    revision: 1
+    revision: 4
     space:
       sys:
         id: g118h5yoccvd
@@ -1519,6 +1518,14 @@ event:
     title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/jQN7vMI1reAShqXjpwrNw/cdbbedcdef4814fb81f3733afb84822d/meedan_webinar_anika-gupta_book_02.jpg"
+  social_card_image:
+    sys:
+      id: 216TSxxNfwOobx002hPyDd
+      created_at: !ruby/object:DateTime 2020-08-28 18:20:50.459000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-28 18:21:57.474000000 Z
+    title: 'Book Talk: How to Handle a Crowd with author Anika Gupta'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/216TSxxNfwOobx002hPyDd/94b0acb90d315d429b6410dc5e942426/meedan_book-talk_sep-3_anita-gupta.jpg"
   location_human_friendly: Zoom Webinar
   register_link: https://meedan.zoom.us/webinar/register/WN_h26kTCHxRMCFPunBv-L8rg
   description: Join How to Handle a Crowd author Anika Gupta in conversation with
@@ -1535,11 +1542,17 @@ event:
 
     ### About the Author
     Anika Gupta is a digital thought leader whose research on online communities spans several industries. A former science and technology journalist, she's currently a senior product manager at The Atlantic. In 2019, she was honored as a member of the Online News Association's Women's Leadership Accelerator, a program that finds and trains women media leaders for roles as leaders in the industry. She has a Master's degree in comparative media studies from the Massachusetts Institute of Technology and a bachelor's degree in journalism from the Medill School of Journalism at Northwestern University. Her journalistic work has appeared online in Smithsonian, Fortune, The Guardian, and elsewhere.
+
+    [Facebook Livestream](https://www.facebook.com/heymeedan)
+
+    [Twitter Livestream](https://www.periscope.tv/meedan/1eaKbzwrywBKX)
+
+    [YouTube Livestream](https://www.youtube.com/channel/UCKyn6nCR9fXFhDL-WeeyOzQ)
   slug: book-talk-how-to-handle-a-crowd-with-author-anika-gupta
   non_public: false
   event_date_string: '2020-09-03'
   event_end_date_string: '2020-09-03'
-  image: https://images.ctfassets.net/g118h5yoccvd/5T2jF057tCsfnFc8lNPtc9/6db9d459c3327f71d550ad5634717d0d/meedan_webinar_anika-gupta_book_01.jpg
+  image: https://images.ctfassets.net/g118h5yoccvd/216TSxxNfwOobx002hPyDd/94b0acb90d315d429b6410dc5e942426/meedan_book-talk_sep-3_anita-gupta.jpg
 - sys:
     id: 5aPiXJnPHAmnOetCPdREJM
     created_at: !ruby/object:DateTime 2020-08-04 22:15:52.298000000 Z
@@ -1761,3 +1774,256 @@ event:
   event_date_string: '2020-08-13'
   event_end_date_string: '2020-08-13'
   image: https://images.ctfassets.net/g118h5yoccvd/7tA9DPuv3sZOnYkrjoFrGa/12a9bf88185723cabe9d161c63232c00/WhatsApp_Image_2020-08-12_at_15.46.03.jpeg
+- sys:
+    id: 7xehUgpnHSdiNztHs5juLD
+    created_at: !ruby/object:DateTime 2020-08-24 13:30:32.158000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-24 19:00:42.026000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Misinfodemia: Ershad Alijani'
+  event_date: !ruby/object:DateTime 2020-08-24 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-08-24 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 10am
+    - *New York* 1pm
+    - *São Paolo* 2pm
+    - *London* 6pm
+    - *Nairobi* 8pm
+    - *Delhi* 10:30pm
+    - *Manila* 1am
+  images:
+  - sys:
+      id: 6UM4uQWvHAOZKmqzyeveOv
+      created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
+  long_description: 'Ershad is an Iranian journalist and fact-checker living in Paris.
+    He works at France24 and  writes about the Middle East. Dr. Seema Yasmin will
+    interview Ershad about how COVID-19 misinformation impacts his reporting. '
+  slug: misinfodemia-ershad-alijani
+  event_date_string: '2020-08-24'
+  event_end_date_string: '2020-08-24'
+  image: https://images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png
+- sys:
+    id: 8ld5rpcz8RSKdDqqudIBw
+    created_at: !ruby/object:DateTime 2020-08-24 23:13:56.980000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-24 23:28:01.483000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Brazilian Free Software Association (ASLive Livre #4): Free software in
+    the context of misinformation'
+  event_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
+  time: |
+    - *San Francisco* 4:30pm
+    - *New York* 7:30pm
+    - *São Paulo* 8:30pm
+    - *London* 0:30am (+1)
+    - *Nairobi* 2:30am (+1)
+    - *Delhi* 5:00am (+1)
+    - *Manila* 7:30am (+1)
+  images:
+  - sys:
+      id: 3k1obMWRq41lCCS86LBXKC
+      created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
+    title: 'ASLive Livre #4'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
+  social_card_image:
+    sys:
+      id: 3k1obMWRq41lCCS86LBXKC
+      created_at: !ruby/object:DateTime 2020-08-24 23:17:25.618000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-24 23:17:59.584000000 Z
+    title: 'ASLive Livre #4'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg"
+  location_human_friendly: 'YouTube: Lyseon Tech: https://www.youtube.com/watch?v=pV2WP9VZtf4'
+  register_link: https://www.youtube.com/watch?v=pV2WP9VZtf4
+  description: Meedan's Director of Engineering Caio Almeida joins live from Brazilian
+    Free Software Association to discuss the role of free software in the context
+    of misinformation (in Portuguese).
+  long_description: Meedan's Director of Engineering Caio Almeida joins live from
+    Brazilian Free Software Association to discuss the role of free software in the
+    context of misinformation (in Portuguese).
+  slug: brazilian-free-software-association-aslive-livre-4-free-software-in-the
+  non_public: false
+  event_date_string: '2020-08-25'
+  event_end_date_string: '2020-08-25'
+  image: https://images.ctfassets.net/g118h5yoccvd/3k1obMWRq41lCCS86LBXKC/b66c2d959272c341ea9670923f87bf17/Live_ASL_2020.jpg
+- sys:
+    id: 6PihB4DTbwNXChWKC7kyJu
+    created_at: !ruby/object:DateTime 2020-09-15 22:18:46.864000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 15:16:44.597000000 Z
+    content_type_id: event
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access to Information'
+  event_date: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
+  time: |-
+    - *Los Angeles* 7:00am
+    - *New York* 10:00am
+    - *São Paulo* 10:00am
+    - *London* 3:00pm
+    - *Cairo* 4:00pm
+    - *Delhi* 7:30pm
+    - *Manila* 10:00pm
+  images:
+  - sys:
+      id: 5dwxadh4LToVK5WnbMLxf3
+      created_at: !ruby/object:DateTime 2020-09-16 18:50:24.351000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 19:06:06.049000000 Z
+    title: Webinar Series Cover
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5dwxadh4LToVK5WnbMLxf3/3be3720e48aa0f46d6bb424f58b64a1f/meedan_webinar_three-newsrooms_01.jpg"
+  - sys:
+      id: 1Ii72yaRnM9oReD6QusQmi
+      created_at: !ruby/object:DateTime 2020-09-16 18:51:27.186000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 19:06:08.637000000 Z
+    title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access to
+      Information'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1Ii72yaRnM9oReD6QusQmi/3d97d8d7e10f80dc3b6c2d1ea96933ab/meedan_webinar_three-newsrooms_02.jpg"
+  social_card_image:
+    sys:
+      id: 2qkLFgEfWJc8Arj8qrAOs0
+      created_at: !ruby/object:DateTime 2020-09-16 19:04:00.817000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-16 19:06:11.569000000 Z
+    title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access to
+      Information'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg"
+  location_human_friendly: Online on Zoom
+  register_link: https://meedan.zoom.us/webinar/register/WN_FtwBvNJdTI6oFFbSYGkluQ
+  description: 'A Check Global Network Event: Join us as we bring together 3 independent
+    media organisations ensuring accessibility and diversity in their newsrooms while
+    working in challenging regional contexts.'
+  long_description: "Only when the cost of access to information is minimal in a country
+    can it give way to diverse and vibrant voices of the citizenry. Yet, in many parts
+    of the world, structural inequalities, opaque rules, lack of infrastructure and
+    resistance from authorities stand in the way. To understand this systemic failure,
+    it is important to break it down to a few key questions: Who seeks information?
+    Who is denied information? Which information is hidden or does not exist? How
+    costly and easy is the access?\n\nAs we observe the [International Day for Universal
+    Access to Information](https://en.unesco.org/commemorations/accesstoinformationday)
+    on September 28, it is important to acknowledge and learn from those who address
+    these questions on a daily basis. To mark this day, Meedan is hosting an online
+    event that brings together three innovative and independent newsrooms that are
+    led by women, are editorially independent and are uncovering stories of public
+    interest and importance in the emerging economies of Brazil, Egypt and India.\n\nThe
+    ability to scrutinise, hold power to account and provide a platform for debate
+    are roles that a free press and independent media can perform. Yet, governments
+    in several countries are stifling criticism by attacking independent media organisations.
+    These entities and media persons associated with them are at constant risk of
+    being persecuted for their reporting, harassed for holding power to account and
+    being starved of financial support. \n\nIn this context, we take a look at how
+    [Al-Manassa](https://almanassa.com/en) (Egypt), [Fiquem Sabendo](https://fiquemsabendo.com.br/)
+    (Brazil) and [Khabar Lahariya](https://khabarlahariya.org/) (India), three independent
+    media organisations are able to:\n- ensure independence, plurality and diversity
+    in their newsrooms while working in regions and contexts that are challenging\n-
+    build trust with audiences and innovate constantly\n- provide access to information
+    for hard to reach communities\n- bring a feminist voice and perspective to media
+    content \n\nJoin us in a conversation with the women who lead these organisations
+    — Nora Younis, Maria Vitoria Ramos and Disha Mullick — on September 28, 2020.
+    \n\n### About the Speakers \n__Disha Mullick__ is the CEO of [Chambal Media](https://chambalmedia.com/),
+    a company that produces media for rural audiences, with a unique rural feminist
+    voice. Chambal Media runs the iconic news brand, Khabar Lahariya, where women
+    from remote villages of north India are trained to be professional journalists
+    and produce local news in their languages, from their unique perspective. \n\n__Maria
+    Vitória Ramos__ is the co-founder and CEO of Fiquem Sabendo, a media startup in
+    Brazil keeping the powerful accountable. She was a reporter for Ponte Jornalismo,
+    exposing violations of Human Rights by the police and armed forces in Brazil and
+    is the author of \"Indigentes: the State that buries without warning\", an investigative
+    book that exposes the heartbreaking system that keeps families looking for supposedly
+    missing people for years when they have been buried by the Brazilian government.\n\n__Nora
+    Younis__ is the founder and chief editor of Al-Manassa, a news outlet in Egypt.
+    A rights activist and journalist, Younis has also worked as managing editor at
+    Al-Masry Al-Youm, a popular news daily in Egypt. Recently Younis was at the receiving
+    end of the government clamping down on news organizations and was detained in
+    the name of running a news website without an operating license. \n\nThis event
+    is part of the Check Global Network’s series ‘Women, Media and the Pandemic’.
+    Launched on May 5, 2020, Check Global Network members are currently located in
+    the Philippines, Indonesia, Pakistan, Syria, Yemen, Western Sahara, Kenya, Zimbabwe
+    and Mexico. As a community of independent media, technology and human rights groups,
+    the Check Global Network plans to meet regularly to discuss solutions to challenges,
+    to design collaborative projects and to respond proactively to the needs of partners
+    in emerging economies.\n\nFor more information about joining the network, please
+    write to us at <a href=\"checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
+    with a statement of interest."
+  slug: independent-innovative-and-feminist-three-newsrooms
+  event_date_string: '2020-09-28'
+  event_end_date_string: '2020-09-28'
+  image: https://images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg
+- sys:
+    id: 3In2LHDLyTwBG5gluWway3
+    created_at: !ruby/object:DateTime 2020-09-16 18:28:33.032000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-16 18:37:51.724000000 Z
+    content_type_id: event
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Misinformation and Disinformation Regulation in the Context of a Public Health
+    Crisis
+  event_date: !ruby/object:DateTime 2020-09-04 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-09-06 00:00:00.000000000 Z
+  time: "Topic: Misinformation and Disinformation Regulation in the Context of a Public
+    Health Crisis\n\nDate: 19 Sep 2020 (Sat) - Day 2 of the Youth Internet Governance
+    Forum. \n\nTime: 04:15-05:20 UTC\n\nModerator: Farhan Shahmi, NetMission Ambassador
+    of class 2019-2020\n\nSpeakers: \n- Prateek Waghre, The Takshashila Institution
+    \n- Nat Gyenes, Meedan \n- Viviane Vinagre, Uber Brasil (public policy intern)
+    \n"
+  slug: misinformation-and-disinformation-regulation-in-the-context-of-a-public
+  event_date_string: '2020-09-04'
+  event_end_date_string: '2020-09-06'

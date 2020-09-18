@@ -1,0 +1,42 @@
+---
+layout: topic
+custom_js: topic
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{% include head.html %}
+
+<body class="site blog topic {{ page.topic | slugify }}">
+    <a id="top"></a>
+    <div class="page-wrapper">
+        {% include post_header.html %}
+        <section>            
+            {% capture current_topic %}{{ page.topic }}{% endcapture %}
+            {% capture topic_id %}{{ page.sys.id }}{% endcapture %}
+            {% assign topics = site.data.contentful.spaces.topics.topic %}
+            {{ topic }}
+            <div class="section-title">
+                Stories about 
+                <select id="select-topic" class="select-topic">
+                    <option value="topic-all" data-url="/blog/all" {% if page.slug == 'blog/all' %}selected{% endif %}>everything</option>
+                    {% for topic in topics %}
+                        {% if topic.topic == current_topic %}
+                            <option value="topic-{{topic.topic | slugify }}" data-url="/blog/{{topic.topic | slugify }}" selected>{{ topic.topic | downcase }}</option>
+                        {% else %}
+                            <option value="topic-{{topic.topic | slugify }}" data-url="/blog/{{topic.topic | slugify }}">{{ topic.topic | downcase }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+            </div>
+            {% if page.path == 'pages/all_stories.html' %}
+                {% include module_story_list.html columns="3" %}
+            {% else %}
+                {% include module_story_list.html columns="3" topic=topic_id %}
+            {% endif %}
+            {% include footer_small.html %}
+        </section>
+    </div>
+    {% include js.html %}
+</body>
+
+</html>
