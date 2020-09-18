@@ -540,6 +540,12 @@
     }
 }
 
+.module-featured-story .tag {
+    grid-column: 3/11;
+    font-size: 1rem;
+    margin-bottom: var(--space-1);
+}
+
 .module-featured-story .title {
     grid-column: 3/11;
     a { font-size: var(--scale-3); }
@@ -549,7 +555,16 @@
 
 .module-featured-story .lead {
     grid-column: 3/11;
-    font-size: var(--scale-0);
+    margin-bottom: var(--space-1);
+    a, p {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+}
+
+.module-featured-story .date {
+    grid-column: 3/11;
+    font-size: 1rem;
     margin-bottom: var(--space-1);
 }
 
