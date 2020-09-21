@@ -483,6 +483,9 @@
         font-size: var(--scale-0);
         line-height: 1.2;
         grid-column: span 2;
+        span {
+            display: block;
+        }
         @media (min-width: 1px) and (max-width: #{$width-tablet}) {
             font-size: 1rem;
         }
