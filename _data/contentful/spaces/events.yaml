@@ -2027,3 +2027,48 @@ event:
   slug: misinformation-and-disinformation-regulation-in-the-context-of-a-public
   event_date_string: '2020-09-04'
   event_end_date_string: '2020-09-06'
+- sys:
+    id: 6uzzVadcFBx592jx6tJ9ZA
+    created_at: !ruby/object:DateTime 2020-09-20 20:01:41.495000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-20 20:25:00.960000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'CredCo: Fact-checking in the US'
+  event_date: !ruby/object:DateTime 2020-09-24 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-09-24 00:00:00.000000000 Z
+  time: |-
+    - *New York* 8am
+    - *Brasilia* 9am
+    - *London* 1pm
+    - *New Delhi* 5:30pm
+    - *Hong Kong* 8pm
+    - *Tokyo* 9pm
+  location_human_friendly: Online
+  description: 'Daniel Funke from PolitiFact will present at our next [Credibility
+    Coalition](https://www.credibilitycoalition.org/) meeting followed by a general
+    discussion how fact-checking vaires across countries
+
+    '
+  long_description: |-
+    __How US fact-checkers are covering COVID-19, protests, fires — and an election__
+    2020 has been a very busy year for fact-checkers — especially in the United States. Since January, PolitiFact has fact-checked about 600 claims about the coronavirus, most of them false or misleading, while also covering the presidential election and protests against police brutality. From live convention coverage to swatting down viral hoaxes about wildfires, this session will discuss how fact-checkers can juggle multiple major news stories at once and promote the truth on the internet.
+
+    Daniel Funke is a staff writer covering online misinformation for PolitiFact. He previously reported for Poynter as a fact-checking reporter and a Google News Lab Fellow, and has worked for the Los Angeles Times, USA Today and the Atlanta Journal-Constitution.
+
+    If you would like to join, please first read the [Credibility Coalition community guidelines](https://github.com/credcoalition/community-site/wiki/Code-of-Ethics-and-Participation) and then email hello\[at\]meedan.com for the video conferencing link. Please state in your email that you have read and agree to the guidelines.
+  slug: credco-politifact
+  event_date_string: '2020-09-24'
+  event_end_date_string: '2020-09-24'

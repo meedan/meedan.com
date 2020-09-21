@@ -329,9 +329,9 @@ moduleStories:
   - sys:
       id: 65aZv1NdLpBSOPYo40kHci
       created_at: !ruby/object:DateTime 2020-08-20 21:41:41.130000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-11 22:48:50.083000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-21 18:42:58.781000000 Z
       content_type_id: story
-      revision: 0
+      revision: 1
     title: How we’re pursuing health equity at internet scale
     slug: how-were-pursuing-health-equity-at-internet-scale
     topic:
@@ -364,14 +364,15 @@ moduleStories:
       prioritized by our partners \n- The __public health community__, including health
       literacy practitioners, __is eager and excited to get more involved__ in supporting
       local misinformation response efforts\n\n![meedan covid-19-db-usage-reuters](//images.ctfassets.net/g118h5yoccvd/4xgsZVcR02vLjnusBejbyo/189a7297d4d3b38964e5219f5af26ee4/meedan_covid-19-db-usage-reuters.jpg)\n<p
-      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
-      content.</p>\n\nThrough the COVID-19 pandemic, online information searches serve
-      as a supplement to reduced availability and accessibility of in-person healthcare.
-      This coincides with public health authorities realizing the important role that
-      trusted fact-checking organizations with strong community ties play in minimizing
-      the impact of health misinformation, especially during a pandemic. At a presentation
-      our team participated in about health misinformation hosted by the [National
-      Academies of Science, Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
+      class=\"caption\">Reporting done by Reuters about herd immunity and COVID-19
+      using Meedan Digital Health Lab's COVID-19 Expert Database content.</p>\n\nThrough
+      the COVID-19 pandemic, online information searches serve as a supplement to
+      reduced availability and accessibility of in-person healthcare. This coincides
+      with public health authorities realizing the important role that trusted fact-checking
+      organizations with strong community ties play in minimizing the impact of health
+      misinformation, especially during a pandemic. At a presentation our team participated
+      in about health misinformation hosted by the [National Academies of Science,
+      Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
       health fact-checking was identified as “the next frontier of health literacy”,
       and, thanks to generous support from the Omidyar Foundation, Google, and the
       Robert Wood Johnson Foundation, Meedan’s [Digital Health Lab gets to contribute](https://health.meedan.com/primer.pdf)
@@ -379,18 +380,20 @@ moduleStories:
       Digital Health Lab has been developing and deploying a __rapid-response framework
       for supporting fact-checking organizations, journalists and other community
       information leaders__ that are working to address health misinformation online
-      across literacy levels and languages. \n\nOur COVID-19 rapid response, the [COVID-19
-      Expert Database](https://learnaboutcovid19.org/), is focused on: \n- Collecting
-      critical pandemic-related queries directly from fact-checking organizations,
-      community newsrooms and other community information leaders\n- Triaging COVID-19
-      content to send to team members with specific public health expertise to provide
-      standardized responses\n- Designing visuals to address disparities in health
-      literacy\n- Conducting behavior science, machine learning and rigorous user
-      research to strengthen this rapid-response process as a replicable and scalable
-      framework \n\nThrough __three 48-hour weekly editorial sprints__, as well as
-      3-hour turnarounds for urgent requests, the content produced by the Digital
-      Health Lab’s COVID-19 Expert DB & Toolkit has served three major purposes: as
-      a reliable source of information relating to rapidly evolving science; providing
+      across literacy levels and languages. In addition to rapid response, we collaborate
+      with behavior scientists, fact-checking organizations to design workshops and
+      educational modules to strengthen the efficaciousness of health misinformation
+      response efforts. \n\nOur COVID-19 rapid response, the [COVID-19 Expert Database](https://learnaboutcovid19.org/),
+      is focused on: \n- Collecting critical pandemic-related queries directly from
+      fact-checking organizations, community newsrooms and other community information
+      leaders\n- Triaging COVID-19 content to send to team members with specific public
+      health expertise to provide standardized responses\n- Designing visuals to address
+      disparities in health literacy\n- Conducting behavior science, machine learning
+      and rigorous user research to strengthen this rapid-response process as a replicable
+      and scalable framework \n\nThrough __three 48-hour weekly editorial sprints__,
+      as well as 3-hour turnarounds for urgent requests, the content produced by the
+      Digital Health Lab’s COVID-19 Expert DB & Toolkit has served three major purposes:
+      as a reliable source of information relating to rapidly evolving science; providing
       explanations surrounding conflicting evidence and treatment recommendations;
       sharing recommended additional resources for fact-checking organizations and
       journalists to review as they produce the information their communities need.
@@ -410,7 +413,8 @@ moduleStories:
       [BOOM Live](https://www.boomlive.in/fake-news/does-drinking-kashayam-cure-covid-19-a-factcheck-8661),
       and [Reuters](https://www.reuters.com/article/uk-factcheck-herd-immunity-positive-rate/fact-check-rate-of-positive-covid-19-tests-doesnt-show-u-s-has-reached-herd-immunity-idUSKCN25327U).
       \n\n![meedan covid-19-db-usage-boom](//images.ctfassets.net/g118h5yoccvd/6S86qFuSdrfMfvmuHJRfyb/b82dbb2b95ef61c41cd4978a9b3f0627/meedan_covid-19-db-usage-boom.jpg)\n<p
-      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
+      class=\"caption\">Fact-check conducted by BOOM Live following a request through
+      their WhatsApp tipline using the Digital Health Lab's COVID-19 Expert Database
       content.</p>\n\n### B2B Fact-Checking: Helping journalists check facts with
       health expertise\n\nIn the digital health information ecosystem, building direct
       communication channels involves developing interventions where target audiences
@@ -425,10 +429,12 @@ moduleStories:
       this model, we can provide the needed health expertise to reduce health misinformation
       more efficiently, at larger scales, and directly where a users’ searching takes
       place. \n\n![meedan covid-19-db-usage-verafiles](//images.ctfassets.net/g118h5yoccvd/6vvZJnxxFjGSYprr9KVRM1/ea482f948fb66bbee0fb7760fdfd34f5/meedan_covid-19-db-usage-verafiles.jpg)\n<p
-      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
-      content.</p>\n\n![meedan covid-19-db-usage-google-results](//images.ctfassets.net/g118h5yoccvd/5qUOUJaItzpSXffMylT68I/04defe4ace25104d1dae34c237edfdef/meedan_covid-19-db-usage-google-results.jpg)\n<p
-      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
-      content.</p>\n\nSome examples include our contextualization of misinformation
+      class=\"caption\">Fact-checking organization VERA Files uses Digital Health
+      Lab's COVID-19 Expert Database content to respond to dangerous misinformation
+      spread in the Phillippines.</p>\n\n![meedan covid-19-db-usage-google-results](//images.ctfassets.net/g118h5yoccvd/5qUOUJaItzpSXffMylT68I/04defe4ace25104d1dae34c237edfdef/meedan_covid-19-db-usage-google-results.jpg)\n<p
+      class=\"caption\">Resources from the COVID-19 Expert Database influencing conversations
+      about complex COVID-19 health misinformation topics as early search results
+      on Google.</p>\n\nSome examples include our contextualization of misinformation
       about [COVID-19 and alkalinity](https://learnaboutcovid19.org/questions/what-do-we-know-so-far-about-covid-19-and-alkalinity/)
       requested by VERA Files, which was also used by India Today in responding to
       misinformation through their fact-checking tipline. The three responses including
@@ -440,8 +446,10 @@ moduleStories:
       in their newsletter, was referenced the Misinfodemia Instagram Live series,
       and has been used by Suno India in their podcasts and daily updates. \n\n![meedan
       covid-19-db-usage-nigeria-health-watch](//images.ctfassets.net/g118h5yoccvd/phsfOWWEM6rVu5V8Z6DNJ/53ec76a470a7097c2a65c8aad1b25229/meedan_covid-19-db-usage-nigeria-health-watch.jpg)\n<p
-      class=\"caption\">Some of the reporting done using the COVID-19 Expert Database
-      content.</p>\n\nOur research with these users has demonstrated how having access
+      class=\"caption\">Health communications organization Nigeria Health Watch uses
+      Digital Health Lab's COVID-19 Expert Database content to respond to health misinformation
+      topics that emerge in countries all over the world, with a localized response
+      focus.</p>\n\nOur research with these users has demonstrated how having access
       to experts can increase the subject matter that fact-checkers can cover, and
       therefore the content available online to the fact-checkers’ audiences. The
       examples of where our collaboration with partners in different parts of the
@@ -1091,9 +1099,9 @@ moduleStories:
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
     created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-18 23:29:04.224000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-18 23:46:27.071000000 Z
     content_type_id: moduleStories
-    revision: 0
+    revision: 1
   title: Featured Story
   stories:
   - sys:
