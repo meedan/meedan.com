@@ -76,6 +76,10 @@
     }
     padding-left: var(--space-3);
     padding-right: var(--space-3);
+    figcaption {
+        margin-top: 0;
+        text-align: left;
+    }
 }
 
 .time {

@@ -15,9 +15,10 @@ lang: en-US
             </div>
             <div class="event-image-grid">
             {% for image in page.images %}
-                <picture>
+                <figure>
                     <img src="{{ image.url }}" alt="{{ image.title }}"/>
-                </picture>
+                    <figcaption>{{ image.description | markdownify }}</figcaption>
+                </figure>
             {% endfor %}
             </div>
             <div class="story-wrapper section-margin">
