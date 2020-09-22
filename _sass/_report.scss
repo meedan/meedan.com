@@ -126,6 +126,7 @@
             grid-row: 1/-1;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
             @media (min-width: 1px) and (max-width: #{$width-tablet}) {
                 margin-top: var(--space-2);
             }

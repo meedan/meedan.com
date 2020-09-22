@@ -3,11 +3,248 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-18 19:28:27.702000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-21 20:26:18.497000000 Z
     content_type_id: moduleStories
-    revision: 48
+    revision: 49
   title: Blog
   stories:
+  - sys:
+      id: 65aZv1NdLpBSOPYo40kHci
+      created_at: !ruby/object:DateTime 2020-08-20 21:41:41.130000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-21 20:11:23.473000000 Z
+      content_type_id: story
+      revision: 2
+    title: How we’re pursuing health equity at internet scale
+    slug: how-were-pursuing-health-equity-at-internet-scale
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 26wu7WXuhpoJO1HIAmWsKt
+        created_at: !ruby/object:DateTime 2020-09-10 20:58:11.735000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-21 20:10:28.878000000 Z
+      title: How we’re pursuing health equity at internet scale
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg"
+    body: "Today’s world has more internet users than people with access to essential
+      health services such as primary care, dental care, or surgery. We’ve reached
+      700,000 of them across 18 countries, but so much more remains to be done. \n\nMeedan’s
+      Digital Health Lab team have created a B2B fact-checking model for health content
+      based on syndication. We are testing a hypothesis that a rapid-response process
+      where a team of health experts distill scientific evidence based on requests
+      made by fact-checkers—requests that other communciators around the world may
+      also have— we can meet the needs of audiences searching for health information
+      online more efficiently, at larger scales, across regions, and directly where
+      searching takes place. \n\nHere are our top-level highlights:\n\n- Our incredible
+      team of experts __successfully responds to requests__ for contextualizing the
+      scientific research __in as little as 3 hours__\n- Our process has successfully
+      reached an audience of __over 700,000 people across Asia, Latin America, Africa,
+      Europe and North America__, with localization of both text and accompanying
+      visuals (thanks, to [Students Against COVID-19](https://www.studentsagainstcovid-19.com/)
+      and [Localization Lab](https://www.localizationlab.org/)) __in 8 languages__
+      prioritized by our partners \n- The __public health community__, including health
+      literacy practitioners, __is eager and excited to get more involved__ in supporting
+      local misinformation response efforts\n\n![meedan covid-19-db-usage-reuters](//images.ctfassets.net/g118h5yoccvd/4xgsZVcR02vLjnusBejbyo/189a7297d4d3b38964e5219f5af26ee4/meedan_covid-19-db-usage-reuters.jpg)\n<p
+      class=\"caption\">Reporting done by Reuters about herd immunity and COVID-19
+      using Meedan Digital Health Lab's COVID-19 Expert Database content.</p>\n\nThrough
+      the COVID-19 pandemic, online information searches serve as a supplement to
+      reduced availability and accessibility of in-person healthcare. This coincides
+      with public health authorities realizing the important role that trusted fact-checking
+      organizations with strong community ties play in minimizing the impact of health
+      misinformation, especially during a pandemic. At a presentation our team participated
+      in about health misinformation hosted by the [National Academies of Science,
+      Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
+      health fact-checking was identified as “the next frontier of health literacy”,
+      and, thanks to generous support from the Omidyar Foundation, Google, and the
+      Robert Wood Johnson Foundation, Meedan’s [Digital Health Lab gets to contribute](https://health.meedan.com/primer.pdf)
+      to the development of this new frontier. \n\nOver the last year and a half Meedan’s
+      Digital Health Lab has been developing and deploying a __rapid-response framework
+      for supporting fact-checking organizations, journalists and other community
+      information leaders__ that are working to address health misinformation online
+      across literacy levels and languages. In addition to rapid response, we collaborate
+      with behavior scientists, fact-checking organizations to design workshops and
+      educational modules to strengthen the efficaciousness of health misinformation
+      response efforts. \n\nOur COVID-19 rapid response, the [COVID-19 Expert Database](https://learnaboutcovid19.org/),
+      is focused on: \n- Collecting critical pandemic-related queries directly from
+      fact-checking organizations, community newsrooms and other community information
+      leaders\n- Triaging COVID-19 content to send to team members with specific public
+      health expertise to provide standardized responses\n- Designing visuals to address
+      disparities in health literacy\n- Conducting behavior science, machine learning
+      and rigorous user research to strengthen this rapid-response process as a replicable
+      and scalable framework \n\nThrough __three 48-hour weekly editorial sprints__,
+      as well as 3-hour turnarounds for urgent requests, the content produced by the
+      Digital Health Lab’s COVID-19 Expert DB & Toolkit has served three major purposes:
+      as a reliable source of information relating to rapidly evolving science; providing
+      explanations surrounding conflicting evidence and treatment recommendations;
+      sharing recommended additional resources for fact-checking organizations and
+      journalists to review as they produce the information their communities need.
+      \n\nThis content reaches global audiences through newsletters (Berkman Klein
+      Center for Internet & Society,  [Splice Media](https://splicelowres.com/), [Speak
+      Up Africa](https://www.speakupafrica.org/program/stay-safe-africa/), Suno India
+      Daily Updates), podcasts ([Suno India](https://www.sunoindia.in/the-suno-india-show/how-scientists-and-public-health-experts-are-tackling-misinformation-amidst-a-pandemic/),
+      Misinfodemia), online forums such as Misinfodemia on Instagram Live, [National
+      Academies of Science, Engineering and Medicine](https://www.nationalacademies.org/our-work/addressing-health-misinformation-through-health-literacy-practices-a-workshop),
+      [RightsCon](https://meedan.com/events/rightscon-2020-when-misinformation-hurts-our-fundamental-health-rights/),
+      [SwitchPoint](https://event.switchpointideas.com/global-fund-virtual-switchpoint-exchange),
+      [Global Fact](https://www.poynter.org/fact-checking/2020/watch-now-global-fact-7/),
+      and in content produced by fact-checkers including [Students Against COVID-19](https://www.studentsagainstcovid-19.com/),
+      [VERA Files](https://verafiles.org/articles/vera-files-fact-check-duterte-negates-spox-repeats-wrong-uns),
+      [Africa Check](https://africacheck.org/reports/can-coronavirus-only-live-up-to-9-days-on-objects-as-kenyan-traders-claim/),
+      [Nigeria Health Watch](https://nigeriahealthwatch.com/can-you-get-covid-19-twice/),
+      [BOOM Live](https://www.boomlive.in/fake-news/does-drinking-kashayam-cure-covid-19-a-factcheck-8661),
+      and [Reuters](https://www.reuters.com/article/uk-factcheck-herd-immunity-positive-rate/fact-check-rate-of-positive-covid-19-tests-doesnt-show-u-s-has-reached-herd-immunity-idUSKCN25327U).
+      \n\n![meedan covid-19-db-usage-boom](//images.ctfassets.net/g118h5yoccvd/6S86qFuSdrfMfvmuHJRfyb/b82dbb2b95ef61c41cd4978a9b3f0627/meedan_covid-19-db-usage-boom.jpg)\n<p
+      class=\"caption\">Fact-check conducted by BOOM Live following a request through
+      their WhatsApp tipline using the Digital Health Lab's COVID-19 Expert Database
+      content.</p>\n\n### B2B Fact-Checking: Helping journalists check facts with
+      health expertise\n\nIn the digital health information ecosystem, building direct
+      communication channels involves developing interventions where target audiences
+      spend time finding answers to the health questions they have, which today means
+      content easily encountered through searches online and through social media.
+      Of course, as any one organization, this is really challenging to achieve. \n\nDuring
+      this project, we developed a process we call B2B fact-checking: we help the
+      fact-checkers fact-check. It was our hope that by building a model based on
+      syndication, fact-checkers, journalists and other community information leaders
+      can use the content we create directly for them *__as well as__* the content
+      we have developed in response to questions shared by other communicators. With
+      this model, we can provide the needed health expertise to reduce health misinformation
+      more efficiently, at larger scales, and directly where a users’ searching takes
+      place. \n\n![meedan covid-19-db-usage-verafiles](//images.ctfassets.net/g118h5yoccvd/6vvZJnxxFjGSYprr9KVRM1/ea482f948fb66bbee0fb7760fdfd34f5/meedan_covid-19-db-usage-verafiles.jpg)\n<p
+      class=\"caption\">Fact-checking organization VERA Files uses Digital Health
+      Lab's COVID-19 Expert Database content to respond to dangerous misinformation
+      spread in the Phillippines.</p>\n\n![meedan covid-19-db-usage-google-results](//images.ctfassets.net/g118h5yoccvd/5qUOUJaItzpSXffMylT68I/04defe4ace25104d1dae34c237edfdef/meedan_covid-19-db-usage-google-results.jpg)\n<p
+      class=\"caption\">Resources from the COVID-19 Expert Database influencing conversations
+      about complex COVID-19 health misinformation topics as early search results
+      on Google.</p>\n\nSome examples include our contextualization of misinformation
+      about [COVID-19 and alkalinity](https://learnaboutcovid19.org/questions/what-do-we-know-so-far-about-covid-19-and-alkalinity/)
+      requested by VERA Files, which was also used by India Today in responding to
+      misinformation through their fact-checking tipline. The three responses including
+      information that we contextualized for Nigeria Health Watch related to mask
+      safety and use ([here](https://learnaboutcovid19.org/questions/is-it-safe-to-wear-a-mask/),
+      [here](https://learnaboutcovid19.org/questions/does-wearing-a-mask-reduce-your-oxygen-level/)
+      and [here](https://learnaboutcovid19.org/questions/what-do-we-know-so-far-about-face-masks-and-their-ability-to-prevent-covid-19/)),
+      in addition to being a top search result, has been shared by Speak Up Africa
+      in their newsletter, was referenced the Misinfodemia Instagram Live series,
+      and has been used by Suno India in their podcasts and daily updates. \n\n![meedan
+      covid-19-db-usage-nigeria-health-watch](//images.ctfassets.net/g118h5yoccvd/phsfOWWEM6rVu5V8Z6DNJ/53ec76a470a7097c2a65c8aad1b25229/meedan_covid-19-db-usage-nigeria-health-watch.jpg)\n<p
+      class=\"caption\">Health communications organization Nigeria Health Watch uses
+      Digital Health Lab's COVID-19 Expert Database content to respond to health misinformation
+      topics that emerge in countries all over the world, with a localized response
+      focus.</p>\n\nOur research with these users has demonstrated how having access
+      to experts can increase the subject matter that fact-checkers can cover, and
+      therefore the content available online to the fact-checkers’ audiences. The
+      examples of where our collaboration with partners in different parts of the
+      world have led to first item or first-page search results on Google highlight
+      the impact that smaller health organizations can have on influencing the discourse
+      online when we can support the work of fact-checkers directly.\n\n### Data sprints
+      for the triple bottom line: Substance, Syndication and Speed\n\nOne of the biggest
+      challenges of achieving impact at the scale of the internet is moving at the
+      speed of the internet. We studied design sprint methodologies from Agile, Google
+      Design, and others to create what we call a Data Sprint: a rapid-response framework
+      that ensures the triple bottom line of substantive, quality content; syndicated,
+      networked impact; and speedy, responsive turnaround times.\n\n__Substance:__
+      To date, a small team of scientists with expertise across infectious disease,
+      nutritional epidemiology, pandemic preparedness, vaccine adoption and health
+      behavior change have created over 110, 500-word science articles over 20 weeks.
+      Each article or database ‘entry’ responds  to questions submitted by fact-checkers
+      and journalists, with additional information to further distill  each topic’s
+      historical and scientific significance for health communicators. \n\nThis impact
+      will soon be magnified through a collaboration with Localization Lab, targeting
+      8 languages prioritized by our current partners. We are currently working with
+      SciLine to expand the global reach of the resources that they have created by
+      including them in the short articles we produce for our partners. \n\n__Syndication:__
+      Through the syndication model developed for this project, our partners have
+      identified an audience of over 700,000 people in more than 18 countries across
+      Asia, Latin America, Africa, Europe and North America. This audience includes
+      podcast listeners, website visitors and newsletter subscribers, and does not
+      include the social media followings of our partner organizations. This level
+      of impact was made possible through our syndication model for content dissemination,
+      enabling a small team of scientists, researchers and communicators to influence
+      diverse information spaces.\n\n__Speed:__ The turnaround time for the content
+      we produce is 48 hours or less, following the tight editorial cycles of our
+      journalism partners. Responses are often created in as few as 5 hours by team
+      members on-call to meet urgent partner deadlines. This rapid response directly
+      targets midinformation: misunderstandings, misinterpretations and misrepresentations
+      based on scant or emerging scientific evidence. Midinformation happens often
+      when expert consensus changes over time, and it is distinct from more straightforward
+      misinformation. \n\nWe apply principles from Google’s Design Sprint methodology
+      into three weekly sprints, including problem mapping and prioritization, solution
+      sketching across text and visual responses, and feedback integration from partners.
+      Through consistent use of this model, we are able to optimize for the number
+      of requests we can address weekly, and can account for responding to a diverse
+      set of topics that require reviewing extensive scientific literature across
+      a variety of disciplines. \n\n### Key lessons our team has learned over the
+      last 6 months\n\nAs a team, we have distilled four key lessons to carry our
+      project strategy forward: \n\n1. __It is important to educate health professionals
+      about the value of existing approaches being taken by platforms to reduce the
+      impact of misinformation.__ Influencing impacts of health misinformation at
+      scale requires closer connections between health scientists and communicators
+      using tools already optimized for easy online encounters with factual health
+      information, such as Google’s ClaimReview and MediaReview annotation frameworks,,
+      and partnerships with third-party fact-checking organizations. The health community
+      is ready and excited to contribute to projects like this one, and needs guidance
+      about where time and effort is best spent.  \n\n2. __Syndication models can
+      maximize impact at the scale of the internet.__ Our partnerships with e-newsletters,
+      podcasts, communicators with their own syndication models, and collaborations
+      with fact-checking organizations and newsrooms have reached over 700,000 people
+      in just three months of collaboration. Our goal is to continue supporting communicators
+      with their own content development, know that while we can distill the ever-changing
+      science successfully, community information leaders know their audiences best,
+      and that maximizes the impact of any public health message.  \n\n3. __A focus
+      is needed on misinformation related to both vaccines and treatment.__ While
+      these represent the majority of the questions shared with us by fact-checkers
+      and journalists, the most common questions are not reflected in resources provided
+      by intergovernmental or government health institutions. Further, while current
+      public health officials estimate that a successful vaccine will be developed
+      by the end of 2020 and that vaccination campaigns will start by early 2021,
+      a vaccination campaigns’ success is determined by people’s willingness to get
+      vaccinated. Patterns in uneven distribution of vaccines globally, and thus uneven
+      eradication of certain illnesses, will likely yield inequalities in the elimination
+      of COVID-19 in different parts of the world. For this reason, it is essential
+      to not only address vaccine misinformation, but also misinformation associated
+      with COVID-19 treatments, which may emerge in successful forms earlier than
+      the release of a vaccine.\n\n4. __Localization conducted by various stakeholders
+      is required to reach & be accessible to community information leaders at a global
+      scale.__ Our partners have requested that local health experts, as well as users,
+      combine efforts to translate the database content and accompanying visuals into
+      local languages. We're grateful to the Localization Lab, and to our public health
+      expert translator team, for making this novel approach at localization possible!
+      This optimizes for accessibility (including factors related to availability,
+      relevance, and literacy), and ensures that fact-checkers and journalists operating
+      in diverse languages can all benefit from, and contribute to, improved health
+      literacy where their audiences already seek content.  \n\n### What’s next: expanding
+      and diversifying our impact\n\nWith these lessons in mind, here’s what’s next
+      for our team: \n\n__Expanding scope of response effort:__ Our experts have provided
+      contextualization for over 120 topics related to COVID-19, moving at a rate
+      of, on average, 10 database articles or “entries” per week. Our collaborators
+      are increasingly asking questions about public health topics significant with
+      respect to the pandemic, but are distinctly relevant outside of COVID-19. These
+      include questions about nutrition, non-communicable diseases, antibiotic resistance
+      and reproductive health. Our goal is to provide additional public health expert
+      contextualizations for topics outside of COVID-19.  \n\n__Engaging with community-based
+      communications networks:__ Our goal is to expand our offerings with a focus
+      on rapid responses for community newsrooms, freelance journalists, community
+      \ nonprofits and other information leaders within communities. In collaboration
+      with our partners, we’re working with the product and development teams at Meedan
+      to create more efficient pathways of information-sharing between our experts
+      and community information leaders, using dedicated helplines through SMS, WhatsApp,
+      Facebook and Twitter. We’re also sharing customizable bot infrastructure so
+      community newsrooms can more easily connect their audiences with the health
+      information that is directly relevant to their needs. We hope to support these
+      groups directly by providing the information that they can tailor to the needs
+      of their own communities that they know best. \n\n__Strengthening relationships
+      between public health experts, the health literacy community, local newsrooms
+      and fact-checking organizations:__ Given the important role community newsrooms
+      and fact-checking organizations play in responding to health misinformation
+      via social media and online search platforms, integrating more closely with
+      the public health community can serve to strengthen health literacy at scales
+      larger than ever before. \n\nTo learn more about work, please contact <a href=\"mailto:health@meedan.com\">health@meedan.com</a>.
+      \n"
+    words_by:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+    alt_date: !ruby/object:DateTime 2020-09-21 00:00:00.000000000 Z
   - sys:
       id: 3V59udKx6j9vqmSiSXxYH2
       created_at: !ruby/object:DateTime 2020-09-18 19:17:58.464000000 Z
@@ -233,105 +470,20 @@ moduleStories:
       A plate of chicken biriyani can lift my mood. \n- I love spicy food and can
       nibble on green chilli with almost anything!!\n"
     alt_date: !ruby/object:DateTime 2020-09-16 00:00:00.000000000 Z
-  - sys:
-      id: rLaGq797KZZQk2jmEDgdT
-      created_at: !ruby/object:DateTime 2020-09-14 10:58:42.340000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-17 15:02:31.596000000 Z
-      content_type_id: story
-      revision: 3
-    title: Meedan announces a Beirut Response Fund for independent media in Lebanon
-    slug: beirut-response-fund-for-independent-media-in-lebanon
-    topic:
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 7yu3pvm6ivohoCzFytmIdW
-        created_at: !ruby/object:DateTime 2020-09-14 19:03:42.395000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-16 14:53:17.910000000 Z
-      title: Beirut Response Fund
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/7yu3pvm6ivohoCzFytmIdW/c4ac65e059f26ed6210af7c6f1c2effe/meedan_beirut-response-fund.jpg"
-    body: "It has taken us some time to get this post written and published. First,
-      because like most of our Lebanese friends, family members and colleagues based
-      in Beirut and in the diaspora, we needed time to process [what has actually
-      happened on August 4, 2020](https://www.wsj.com/articles/beirut-explosion-kills-at-least-100-injures-thousands-11596620481),
-      and allow ourselves the space to get past anger, frustration, pain and anxiety,
-      and write something that makes sense. Second, and probably more importantly,
-      it is because we have been talking with our partners in Beirut about the best
-      things to do, and the best ways to support independent media workers based on
-      the ground in the aftermath of the explosion.\n\nBeirut is our home town. It
-      is also the main regional base for all our Check Global programs and activities.
-      It is where we organised our [first CheckCon conference ](https://nawamedia.org/blog/2017/02/02/checkcon-2017-beirut/)in
-      2017, which brought together digital rights experts, journalists, and grassroots
-      activists from across the region and the world. It is also where we launched
-      our Check newsroom with [12 amazing journalism students from the Lebanese University](https://nawamedia.org/newsroom/teams/lebanese-newsroom/).
-      Our newsroom has today [expanded](https://nawamedia.org/blog/2019/12/18/expanding-to-a-nawa-newsroom/)
-      to include students from Egypt, Yemen and Syria; almost 30 journalism students
-      in the region are today trained on digital media literacy skills, open-source
-      investigations and fact-checking.\n\nLebanon has gone through a difficult 12
-      months. Lebanese people, fed up with a consociational sectarian and clientelist
-      political system, revolted in [October 2019](https://www.theguardian.com/world/2019/oct/18/lebanon-brought-to-a-standstill-by-protests-over-economic-crisis)
-      as the country went through total economic collapse, further aggravated by the
-      spread of the COVID-19 pandemic. The local currency lost [more than 60% of its
-      value](https://www.reuters.com/article/us-lebanon-crisis-pound-idUSKBN23H1BS),
-      pushing more than half of the population below the poverty line. Independent
-      media workers and organizations, which covered the protests, also bore the brunt
-      of this economic crisis.\n\nSo when the Beirut port explosion rocked the city
-      last month, it hit very close to home for the entire Meedan team, in nine countries
-      and eight timezones -- not just because our students, team members and and many
-      of our partners were directly affected, but also because we owe Beirut credit
-      for many of the great things we have been able to achieve with the Check Global
-      project to date. The explosion further endangered Beirutis' work, as many lost
-      their homes, offices, equipment, and livelihoods.\n\nSo after consultation with
-      our Beirut-based partners and our funders at Sida, we have re-allocated our
-      travel budget for 2020 (one silver lining of the global pandemic? Maybe!) to
-      set up the Check Global Beirut Response Fund, a $26,000 fund to support independent
-      media organizations and workers on the ground. \n\nThrough the Check Global
-      Beirut Response Fund, we allocated $16,000 in unrestricted funds to three vetted
-      independent media organizations, which we can't name for security reasons, to
-      support and sustain their investigative journalistic work. The remaining $10,000
-      have gone toward the Samir Kassir Foundation's [Media Recovery Fund](https://www.skeyesmedia.org/en/Media-Recovery-Fund)
-      to cater to independent media workers' tech and equipment needs. As a [state
-      of emergency was declared--and extended](https://www.dailystar.com.lb/News/Lebanon-News/2020/Aug-17/510442-state-of-emergency-extended-by-a-month.ashx)--in
-      Beirut, effectively giving all powers to the army, the fund provided in-kind
-      support in the form of a digital security training led by circumvention and
-      privacy expert [Sarah Aoun](https://twitter.com/sa0un) with 25 independent journalists
-      to provide protection from surveillance and censorship.\n\nBut we want to do
-      more, and better. We are currently trying to leverage our existing partnerships
-      with [HURIDOCS](https://www.huridocs.org/), [Syrian](https://www.syrianarchive.org/)
-      and [Yemeni](https://yemeniarchive.org/) Archives, [Bellingcat](https://www.bellingcat.com/)
-      and others to support archiving, verification and preservation of crowdsourced
-      footage that documents the [ongoing protests](https://www.bbc.com/news/topics/c8qy8zrj69et/lebanon-protests),
-      and the Lebanese government's [violent repression of the political movement](https://www.latimes.com/world-nation/story/2020-08-08/show-of-solidarity-after-blast-as-lebanon-braces-for-protest).\n\nLebanon's
-      independent journalists will be forced to adapt to an increasingly precarious
-      situation, as [electricity cuts intensify](https://www.washingtonpost.com/world/middle_east/lebanons-rising-power-cuts-add-to-gloom-of-economic-crisis/2020/07/07/95498db4-c05f-11ea-8908-68a2b9eae9e0_story.html),
-      affecting internet usage -- especially indispensable during a pandemic. As far
-      as Meedan goes, we are mobilizing and calling on our partners, donors, and friends
-      to support Lebanon's independent media workers in these difficult times. Please
-      do get in touch with us if you would like to know more about our efforts in
-      Beirut, if you think you can help, or if you have any ideas about how we can
-      do all of this better. You can reach the Check Global team at <a href=\"mailto:checkgrants@meedan.com\">checkgrants@meedan.com</a>."
-    words_by:
-    - sys:
-        id: 2eNuMXzkTcgh2oBbYrT3Cx
-    - sys:
-        id: 26BnKkV6uNqzYWtFueaerv
-    alt_date: !ruby/object:DateTime 2020-09-14 00:00:00.000000000 Z
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-10 21:33:09.321000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-21 20:25:27.093000000 Z
     content_type_id: moduleStories
-    revision: 3
+    revision: 4
   title: Expert DB Blog
   stories:
   - sys:
       id: 65aZv1NdLpBSOPYo40kHci
       created_at: !ruby/object:DateTime 2020-08-20 21:41:41.130000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-21 18:42:58.781000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-21 20:11:23.473000000 Z
       content_type_id: story
-      revision: 1
+      revision: 2
     title: How we’re pursuing health equity at internet scale
     slug: how-were-pursuing-health-equity-at-internet-scale
     topic:
@@ -341,7 +493,7 @@ moduleStories:
       sys:
         id: 26wu7WXuhpoJO1HIAmWsKt
         created_at: !ruby/object:DateTime 2020-09-10 20:58:11.735000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-10 21:31:02.966000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-21 20:10:28.878000000 Z
       title: How we’re pursuing health equity at internet scale
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg"
@@ -559,7 +711,10 @@ moduleStories:
       the public health community can serve to strengthen health literacy at scales
       larger than ever before. \n\nTo learn more about work, please contact <a href=\"mailto:health@meedan.com\">health@meedan.com</a>.
       \n"
-    alt_date: !ruby/object:DateTime 2020-09-10 00:00:00.000000000 Z
+    words_by:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+    alt_date: !ruby/object:DateTime 2020-09-21 00:00:00.000000000 Z
   - sys:
       id: 3ptFLVzVXiugIN7W5Pi89t
       created_at: !ruby/object:DateTime 2020-08-26 18:28:01.399000000 Z

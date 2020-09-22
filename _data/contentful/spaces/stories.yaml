@@ -5996,9 +5996,9 @@ story:
 - sys:
     id: 65aZv1NdLpBSOPYo40kHci
     created_at: !ruby/object:DateTime 2020-08-20 21:41:41.130000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-21 18:42:58.781000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-21 20:11:23.473000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -6028,7 +6028,7 @@ story:
       sys:
         id: 26wu7WXuhpoJO1HIAmWsKt
         created_at: !ruby/object:DateTime 2020-09-10 20:58:11.735000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-10 21:31:02.966000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-21 20:10:28.878000000 Z
       title: How we’re pursuing health equity at internet scale
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg"
@@ -6242,11 +6242,27 @@ story:
     public health community can serve to strengthen health literacy at scales larger
     than ever before. \n\nTo learn more about work, please contact <a href=\"mailto:health@meedan.com\">health@meedan.com</a>.
     \n"
-  alt_date: !ruby/object:DateTime 2020-09-10 00:00:00.000000000 Z
+  words_by:
+    en-US:
+    - sys:
+        id: 4JqOrlVgCscDebeRwxYBu8
+        created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
+        content_type_id: contributor
+        revision: 2
+      name:
+        en-US: Nat Gyenes
+      staff:
+        en-US: true
+      role:
+        en-US: Program Director, Digital Health Lab
+      location:
+        en-US: On the Road
+  alt_date: !ruby/object:DateTime 2020-09-21 00:00:00.000000000 Z
   date: '2020-08-20'
   image: https://images.ctfassets.net/g118h5yoccvd/26wu7WXuhpoJO1HIAmWsKt/ba005e94bfc3ac711fcebf5ac9690820/meedan_health-equity.jpg
   title-en: How we’re pursuing health equity at internet scale
-  alt_date_string: '2020-09-10'
+  alt_date_string: '2020-09-21'
 - sys:
     id: 56gqFfBfHhQL3HKHB49AR2
     created_at: !ruby/object:DateTime 2020-08-25 02:35:52.817000000 Z
