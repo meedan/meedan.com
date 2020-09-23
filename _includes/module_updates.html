@@ -1,6 +1,6 @@
 {% assign updates = site.data.contentful.spaces.moduleUpdates.moduleUpdates %}
 <section class="module module-updates section-margin">
-    <h3 class="section-title">● <a href="/events" title="{{ updates[0].title }}">{{ updates[0].title }}</a></h3>
+    <h3 class="section-title">● {{ updates[0].title }}</h3>
     <div class="module-wrapper">
         {% for update in updates[0].updates | limit: 4 %}
         <div class="update-grid-item">

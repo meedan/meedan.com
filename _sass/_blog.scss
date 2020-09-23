@@ -416,7 +416,8 @@
     span {
         
         @include responsive('min-width: #{$width-tablet}') {
-            margin: 0 auto;
+            margin-left: auto;
+            margin-right: auto;
             width: 40%;
         }
     }
