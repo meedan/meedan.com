@@ -3,9 +3,9 @@ moduleUpdates:
 - sys:
     id: 27Qw2Hhvcls1IGlW80FPHL
     created_at: !ruby/object:DateTime 2020-08-27 20:58:33.402000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-23 18:13:59.424000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-23 19:51:25.787000000 Z
     content_type_id: moduleUpdates
-    revision: 2
+    revision: 3
   title: Latest from Meedan
   updates:
   - sys:
@@ -28,29 +28,51 @@ moduleUpdates:
     link: https://meedan.com/reports/bolsonaros-messaging-sows-misinformation-confusion-throughout-latin-america/
     published_on: !ruby/object:DateTime 2020-09-22 00:00:00.000000000 Z
   - sys:
-      id: HTA17vDTgBNUpP1bpnH8J
-      created_at: !ruby/object:DateTime 2020-09-09 18:29:27.247000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-18 23:48:40.615000000 Z
+      id: 44Ankdew9QBmGaFb7TPuOu
+      created_at: !ruby/object:DateTime 2020-09-23 19:47:59.656000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-23 19:51:19.213000000 Z
       content_type_id: update
       revision: 1
+    title: 'Book Talk and Webinar: How to Handle a Crowd with author Anika Gupta now
+      on Youtube'
+    image:
+      sys:
+        id: 5EeEVfLo3MBARXXZf2riO9
+        created_at: !ruby/object:DateTime 2020-09-23 19:50:24.382000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 19:51:15.789000000 Z
+      title: 'Book Talk and Webinar: How to Handle a Crowd with author Anika Gupta
+        now on Youtube'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5EeEVfLo3MBARXXZf2riO9/77b65e34b6e0a4da8074e913ec5b7da5/meedan_book-talk_anika-gupta.png"
+    tag: Video
+    link: https://www.youtube.com/watch?v=lR5g5YZd0ro
+    published_on: !ruby/object:DateTime 2020-09-03 00:00:00.000000000 Z
+  - sys:
+      id: HTA17vDTgBNUpP1bpnH8J
+      created_at: !ruby/object:DateTime 2020-09-09 18:29:27.247000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-23 20:22:41.409000000 Z
+      content_type_id: update
+      revision: 4
     title: Digital Health Lab Director Nat Gyenes spoke at a roundtable hosted by
       the National Academy of Sciences.
     image:
       sys:
-        id: 2uP8piXwVzrcFiR8paHXak
-        created_at: !ruby/object:DateTime 2020-06-22 21:33:14.177000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-22 21:44:43.112000000 Z
-      title: Nat Gyenes
+        id: 4xAswPLtbi3ohR2uJsuniM
+        created_at: !ruby/object:DateTime 2020-09-23 20:22:09.170000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 20:22:38.791000000 Z
+      title: Digital Health Lab Director Nat Gyenes spoke at a roundtable hosted by
+        the National Academy of Sciences.
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/2uP8piXwVzrcFiR8paHXak/c6c9487a8c6ebd540d418bb6764d98a4/meedan_webinar_nat_june-24_02.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/4xAswPLtbi3ohR2uJsuniM/2f2a16717deb617c5af3b9c0254d75c4/Addressing_Health_Misinformation_Through_Health_Literacy_Practices__A_workshop_-_YouTube_2.jpg"
     tag: Video
-    link: https://www.youtube.com/watch?v=4Rlv9Fumtk8
+    link: https://youtu.be/4Rlv9Fumtk8?t=1375
+    published_on: !ruby/object:DateTime 2020-07-29 00:00:00.000000000 Z
   - sys:
       id: RAz1ZXIfqmHuGLRaFBlMg
       created_at: !ruby/object:DateTime 2020-09-09 18:29:44.365000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-18 23:48:40.611000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-23 20:25:23.480000000 Z
       content_type_id: update
-      revision: 1
+      revision: 2
     title: Director of Engineering Caio Almeida spoke with the Brazilian Free Software
       Association on misinformation. (Portuguese)
     image:
@@ -67,6 +89,7 @@ moduleUpdates:
       url: "//images.ctfassets.net/g118h5yoccvd/4B2OKx6sL10bVZHj87I38t/8d09acce21eec3d68322d26242b64dd7/Tech___Check_2019.jpg"
     tag: Video
     link: https://www.youtube.com/watch?v=pV2WP9VZtf4
+    published_on: !ruby/object:DateTime 2020-08-25 00:00:00.000000000 Z
   - sys:
       id: 2CGo4fofkj5dwefUXVMJLY
       created_at: !ruby/object:DateTime 2020-08-27 22:17:44.183000000 Z
