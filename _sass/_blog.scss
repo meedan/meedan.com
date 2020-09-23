@@ -145,6 +145,10 @@
     padding-left: var(--space-3);
 }
 
+.story .title-container h3 {
+    display: inline;
+}
+
 .grid-template-columns--3 .title-container {
     margin-top: var(--space-1);
     padding-left: 0;

@@ -1882,7 +1882,7 @@ event:
 - sys:
     id: 6PihB4DTbwNXChWKC7kyJu
     created_at: !ruby/object:DateTime 2020-09-15 22:18:46.864000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-23 19:08:04.390000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-23 22:14:59.761000000 Z
     content_type_id: event
     revision: 4
     space:
@@ -1909,6 +1909,7 @@ event:
     - *Cairo* 4:00pm
     - *Delhi* 7:30pm
     - *Manila* 10:00pm
+  status: Live
   images:
   - sys:
       id: 5dwxadh4LToVK5WnbMLxf3
@@ -1936,6 +1937,7 @@ event:
     url: "//images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg"
   location_human_friendly: Online on Zoom
   register_link: https://meedan.zoom.us/webinar/register/WN_FtwBvNJdTI6oFFbSYGkluQ
+  video_link: https://www.youtube.com/channel/UCKyn6nCR9fXFhDL-WeeyOzQ
   description: 'A Check Global Network Event: Join us as we bring together 3 independent
     media organisations ensuring accessibility and diversity in their newsrooms while
     working in challenging regional contexts.'
