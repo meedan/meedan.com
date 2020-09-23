@@ -126,6 +126,7 @@
             grid-row: 1/-1;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
             @media (min-width: 1px) and (max-width: #{$width-tablet}) {
                 margin-top: var(--space-2);
             }
@@ -178,6 +179,7 @@
         font-family: $font-stack-d;
         font-size: var(--scale-1);
         color: var(--green);
+        a { color: var(--green); }
     }
 
     sup {
