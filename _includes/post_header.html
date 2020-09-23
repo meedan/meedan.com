@@ -41,7 +41,11 @@
     {% elsif page.sys.content_type_id == 'event' %}
         {% capture current_date %}{{ site.time | convert_to_date }}{% endcapture %}
         <div class="title-container main-grid__1--1">
-            <span class="title">{{ title }}</span>
+            <h3 class="section-title-live">{% if page.status == 'Live' %}<span>●</span> Live {% endif %}</h3>
+            <span class="title">
+                {{ title }}
+            </span>
+            {% if page.status != 'Live' %}
             <div class="event-meta">
                 <span>{% include event_date.html %}</span>
                 <span>{{ page.location_human_friendly }}</span>
@@ -51,7 +55,11 @@
                 {% if page.register_link %}
                     <span><a href="{{ page.register_link }}">Attend</a></span>
                 {% endif %}
+                {% if page.video_link %}
+                    <span><a href="{{ page.video_link }}">Watch Livestream</a></span>
+                {% endif %}
             </div>
+            {% endif %}
         </div>
     {% elsif page.sys.content_type_id == 'job' %}
         <div class="title-container main-grid__1--1">

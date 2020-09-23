@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="" />
 
-  <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.location.title %}{{ page.location.title | prepend: ', ' }}{% endif %}{{ site.title | escape | prepend: ' | ' }}</title>
+  <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.location.title %}{{ page.location.title | prepend: ', ' }}{% endif %}{% if page.layout != 'front' %}{{ site.title | escape | prepend: ' | ' }}{% endif %}</title>
   {% include seo_customizations.html %}
   {% seo %}
   <link rel="apple-touch-icon" href="apple-touch-icon.png"> 

@@ -10,17 +10,25 @@ lang: en-US
     <div class="page-wrapper">
         {% include post_header.html %}
         <section>
-            <div class="time">
-                {{ page.time | markdownify }}
-            </div>
-            <div class="event-image-grid">
-            {% for image in page.images %}
-                <figure>
-                    <img src="{{ image.url }}" alt="{{ image.title }}"/>
-                    <figcaption>{{ image.description | markdownify }}</figcaption>
-                </figure>
-            {% endfor %}
-            </div>
+            {% if page.status == 'Live' %}
+                <div class="event-image-grid">
+                    <div class="video-container u-responsive-ratio media-16by9">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/live_stream?channel=UCKyn6nCR9fXFhDL-WeeyOzQ&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            {% else %}
+                <div class="time">
+                    {{ page.time | markdownify }}
+                </div>
+                <div class="event-image-grid">
+                {% for image in page.images %}
+                    <figure>
+                        <img src="{{ image.url }}" alt="{{ image.title }}"/>
+                        <figcaption>{{ image.description | markdownify }}</figcaption>
+                    </figure>
+                {% endfor %}
+                </div>
+            {% endif %}
             <div class="story-wrapper section-margin">
                 {{ page.long_description | markdownify }}
                 {% if page.register_link %}

@@ -11,9 +11,9 @@ moduleEvents:
   - sys:
       id: 6uzzVadcFBx592jx6tJ9ZA
       created_at: !ruby/object:DateTime 2020-09-20 20:01:41.495000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-22 23:49:40.008000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-23 03:29:02.923000000 Z
       content_type_id: event
-      revision: 3
+      revision: 6
       space:
         sys:
           id: g118h5yoccvd
@@ -41,18 +41,17 @@ moduleEvents:
     - sys:
         id: 6DULfaerNg2a9RsxfHByAV
         created_at: !ruby/object:DateTime 2020-09-22 23:46:43.001000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-22 23:48:23.175000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 03:28:40.959000000 Z
       title: Credibility Coalition
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6DULfaerNg2a9RsxfHByAV/6704d9965f05b3cdfbfe4ef0d316953e/meedan_cc.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/6DULfaerNg2a9RsxfHByAV/713dd169d1e4632cb2bc2445fdaef303/meedan_cc.jpg"
     - sys:
-        id: 2p3ktQc1PVHhJhQtlXBkfN
-        created_at: !ruby/object:DateTime 2020-09-22 23:46:21.386000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-22 23:55:03.942000000 Z
-      title: 'Daniel Funke (Photo: Martin Kraft)'
-      description: 'Daniel Funke (Photo: <a href="http://photo.martinkraft.com/">Martin
-        Kraft</a>)'
-      url: "//images.ctfassets.net/g118h5yoccvd/2p3ktQc1PVHhJhQtlXBkfN/5b999d0556e7bbbb60dee10cdd539a09/meedan_cc_Daniel-Funke.jpg"
+        id: 4NljR2DwkgGAphYFNkRHN9
+        created_at: !ruby/object:DateTime 2020-09-23 03:28:45.204000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 03:29:00.033000000 Z
+      title: Daniel Funke
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4NljR2DwkgGAphYFNkRHN9/77d131741874735563106a859fb43241/meedan_cc_Daniel-Funke.jpg"
     location_human_friendly: Online
     description: 'Daniel Funke from PolitiFact will present at our next [Credibility
       Coalition](https://www.credibilitycoalition.org/) meeting followed by a discussion
@@ -70,13 +69,13 @@ moduleEvents:
     slug: credco-politifact
     event_date_string: '2020-09-24'
     event_end_date_string: '2020-09-24'
-    image: https://images.ctfassets.net/g118h5yoccvd/6DULfaerNg2a9RsxfHByAV/6704d9965f05b3cdfbfe4ef0d316953e/meedan_cc.jpg
+    image: https://images.ctfassets.net/g118h5yoccvd/6DULfaerNg2a9RsxfHByAV/713dd169d1e4632cb2bc2445fdaef303/meedan_cc.jpg
   - sys:
       id: 6PihB4DTbwNXChWKC7kyJu
       created_at: !ruby/object:DateTime 2020-09-15 22:18:46.864000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-18 15:16:44.597000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-23 22:14:59.761000000 Z
       content_type_id: event
-      revision: 3
+      revision: 4
       space:
         sys:
           id: g118h5yoccvd
@@ -102,6 +101,7 @@ moduleEvents:
       - *Cairo* 4:00pm
       - *Delhi* 7:30pm
       - *Manila* 10:00pm
+    status: Live
     images:
     - sys:
         id: 5dwxadh4LToVK5WnbMLxf3
@@ -129,6 +129,7 @@ moduleEvents:
       url: "//images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg"
     location_human_friendly: Online on Zoom
     register_link: https://meedan.zoom.us/webinar/register/WN_FtwBvNJdTI6oFFbSYGkluQ
+    video_link: https://www.youtube.com/channel/UCKyn6nCR9fXFhDL-WeeyOzQ
     description: 'A Check Global Network Event: Join us as we bring together 3 independent
       media organisations ensuring accessibility and diversity in their newsrooms
       while working in challenging regional contexts.'
@@ -171,7 +172,7 @@ moduleEvents:
       an investigative book that exposes the heartbreaking system that keeps families
       looking for supposedly missing people for years when they have been buried by
       the Brazilian government.\n\n__Nora Younis__ is the founder and chief editor
-      of Al-Manassa, a news outlet in Egypt. A rights activist and journalist, Younis
+      of Al-Manassa, a news outlet in Egypt. A rights advocate and journalist, Younis
       has also worked as managing editor at Al-Masry Al-Youm, a popular news daily
       in Egypt. Recently Younis was at the receiving end of the government clamping
       down on news organizations and was detained in the name of running a news website
