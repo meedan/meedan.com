@@ -686,7 +686,7 @@ event:
     like WhatsApp, hear about the obstacles fact-checkers have overcome to help users
     verify potential misinformation.
 
-    '
+'
   long_description: |-
     As communications and sharing increasingly shift to private services like WhatsApp, hear about the obstacles fact-checkers have overcome to help users verify potential misinformation.
 
@@ -1430,7 +1430,7 @@ event:
     MOOC the subject will be: employment, unemployment, freelance, funding opportunities
     during the pandemic.
 
-    '
+'
   long_description: |
     Show me the money!
 
@@ -2078,7 +2078,7 @@ event:
     Coalition](https://www.credibilitycoalition.org/) meeting followed by a discussion
     on how fact-checking varies across countries.
 
-    '
+'
   long_description: |-
     How US fact-checkers are covering COVID-19, protests, fires — and an election
 
@@ -2211,3 +2211,41 @@ event:
   event_date_string: '2020-10-05'
   event_end_date_string: '2020-10-05'
   image: https://images.ctfassets.net/g118h5yoccvd/5BQn8bsMbUUD1W1FetsVZ2/424d04721b211941fe8542577942ffc6/meedan_us-reporting-session_02.png
+- sys:
+    id: 273uOSO21tgmTB2FBNgCPl
+    created_at: !ruby/object:DateTime 2020-10-01 09:47:17.052000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-01 11:18:23.487000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Trusted Media Summit: Tiplines and Chatbots '
+  event_date: !ruby/object:DateTime 2020-10-02 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-10-02 00:00:00.000000000 Z
+  time: 12.45PM - 1.30PM SGT
+  status: Upcoming
+  description: 'Learn about new tech to tackle misinformation on messaging apps. '
+  long_description: "The third annual APAC Trusted Media Summit organised by First
+    Draft, the International Fact-Checking Network at Poynter and the Google News
+    Initiative brings together journalists, academics and NGOs involved in fact-checking
+    and fighting misinformation across the Asia-Pacific.\n\nThis event is for journalists,
+    fact-checkers, educators, researchers and others who work in the area of fact-checking,
+    verification, media literacy and otherwise fighting misinformation. \n\nBreakout
+    session on __Tipline and Chatbots__\n\nSpeakers:\n1) Pamposh Raina (Fathm)\n2)
+    Supinya Klangnarong (Cofacts Thailand)\n3) Summer Chen (Taiwan FactCheck Center)\n4)
+    Shalini Joshi (Meedan)"
+  slug: trusted-media-summit-tiplines-and-chatbots
+  non_public: true
+  event_date_string: '2020-10-02'
+  event_end_date_string: '2020-10-02'
