@@ -3,11 +3,29 @@ moduleUpdates:
 - sys:
     id: 27Qw2Hhvcls1IGlW80FPHL
     created_at: !ruby/object:DateTime 2020-08-27 20:58:33.402000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-23 19:51:25.787000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-01 01:44:33.210000000 Z
     content_type_id: moduleUpdates
-    revision: 3
+    revision: 4
   title: Latest from Meedan
   updates:
+  - sys:
+      id: 6sS6tvMd5SObievaBBMX5z
+      created_at: !ruby/object:DateTime 2020-10-01 01:28:24.820000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-01 01:39:52.084000000 Z
+      content_type_id: update
+      revision: 1
+    title: Contribute to our open source software and get exclusive swag
+    image:
+      sys:
+        id: 3NZ0LLaqweiVivTNegVG3H
+        created_at: !ruby/object:DateTime 2020-10-01 01:33:57.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-10-01 01:39:49.997000000 Z
+      title: HacktoberfestxMeedan
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3NZ0LLaqweiVivTNegVG3H/5484e67f5948fa98d5adf0ba404f03f2/HacktoberfestxMeedan.png"
+    tag: Hacktoberfest
+    link: https://meedan.com/hacktoberfest
+    published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
   - sys:
       id: UmYmT3bza0s1OiMc6uTbZ
       created_at: !ruby/object:DateTime 2020-09-23 18:02:00.044000000 Z

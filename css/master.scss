@@ -437,7 +437,8 @@ header.dark h1 {
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
     .callout {
-        top: var(--space-6);
+        display: none;
+        // top: var(--space-6);
     }
 }
 
