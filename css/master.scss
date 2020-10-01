@@ -432,6 +432,13 @@ header.dark h1 {
     white-space: nowrap;
     top: var(--space-4);
     right: var(--space-4);
+    overflow: visible;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .callout {
+        top: var(--space-6);
+    }
 }
 
 .callout text {
