@@ -3,17 +3,17 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-22 22:58:18.923000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-30 21:02:33.163000000 Z
     content_type_id: moduleEvents
-    revision: 46
+    revision: 48
   title: Upcoming Events
   events:
   - sys:
-      id: 6uzzVadcFBx592jx6tJ9ZA
-      created_at: !ruby/object:DateTime 2020-09-20 20:01:41.495000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-23 03:29:02.923000000 Z
+      id: 1hvA9WDD6zZOwioQphJvMW
+      created_at: !ruby/object:DateTime 2020-09-29 21:48:02.789000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-30 19:52:24.164000000 Z
       content_type_id: event
-      revision: 6
+      revision: 2
       space:
         sys:
           id: g118h5yoccvd
@@ -27,55 +27,52 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: 'Credibility Coalition: Fact-checking in the US with Daniel Funke'
-    event_date: !ruby/object:DateTime 2020-09-24 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-09-24 00:00:00.000000000 Z
-    time: |-
-      - *New York* 8am
-      - *Brasilia* 9am
-      - *London* 1pm
-      - *New Delhi* 5:30pm
-      - *Hong Kong* 8pm
-      - *Tokyo* 9pm
+    title: 'Closed door session: COVID-19 and local U.S. reporting'
+    event_date: !ruby/object:DateTime 2020-10-05 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-10-05 00:00:00.000000000 Z
+    time: |
+      - *Los Angeles* 9:30am
+      - *New York* 12:30pm
     images:
     - sys:
-        id: 6DULfaerNg2a9RsxfHByAV
-        created_at: !ruby/object:DateTime 2020-09-22 23:46:43.001000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-23 03:28:40.959000000 Z
-      title: Credibility Coalition
+        id: 5BQn8bsMbUUD1W1FetsVZ2
+        created_at: !ruby/object:DateTime 2020-09-30 19:49:11.532000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-30 19:52:21.675000000 Z
+      title: Meedan Event Cover
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6DULfaerNg2a9RsxfHByAV/713dd169d1e4632cb2bc2445fdaef303/meedan_cc.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/5BQn8bsMbUUD1W1FetsVZ2/424d04721b211941fe8542577942ffc6/meedan_us-reporting-session_02.png"
     - sys:
-        id: 4NljR2DwkgGAphYFNkRHN9
-        created_at: !ruby/object:DateTime 2020-09-23 03:28:45.204000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-23 03:29:00.033000000 Z
-      title: Daniel Funke
+        id: 4Yp8sv4ewLIOrPgSEFwYKl
+        created_at: !ruby/object:DateTime 2020-09-30 19:47:43.638000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-30 19:52:17.740000000 Z
+      title: 'Closed door session: COVID-19 and local U.S. reporting'
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4NljR2DwkgGAphYFNkRHN9/77d131741874735563106a859fb43241/meedan_cc_Daniel-Funke.jpg"
-    location_human_friendly: Online
-    description: 'Daniel Funke from PolitiFact will present at our next [Credibility
-      Coalition](https://www.credibilitycoalition.org/) meeting followed by a discussion
-      on how fact-checking varies across countries.
-
-      '
-    long_description: |-
-      How US fact-checkers are covering COVID-19, protests, fires — and an election
-
-      2020 has been a very busy year for fact-checkers — especially in the United States. Since January, PolitiFact has fact-checked about 600 claims about the coronavirus, most of them false or misleading, while also covering the presidential election and protests against police brutality. From live convention coverage to swatting down viral hoaxes about wildfires, this session will discuss how fact-checkers can juggle multiple major news stories at once and promote the truth on the internet.
-
-      Daniel Funke is a staff writer covering online misinformation for PolitiFact. He previously reported for Poynter as a fact-checking reporter and a Google News Lab Fellow, and has worked for the Los Angeles Times, USA Today and the Atlanta Journal-Constitution.
-
-      If you would like to join, please first read the [Credibility Coalition community guidelines](https://github.com/credcoalition/community-site/wiki/Code-of-Ethics-and-Participation) and then email hello\[at\]meedan.com for the video conferencing link. Please state in your email that you have read and agree to the guidelines.
-    slug: credco-politifact
-    event_date_string: '2020-09-24'
-    event_end_date_string: '2020-09-24'
-    image: https://images.ctfassets.net/g118h5yoccvd/6DULfaerNg2a9RsxfHByAV/713dd169d1e4632cb2bc2445fdaef303/meedan_cc.jpg
+      url: "//images.ctfassets.net/g118h5yoccvd/4Yp8sv4ewLIOrPgSEFwYKl/89ea488f8cfe128dd36963bffd979643/meedan_us-reporting-session_01.jpg"
+    description: 'Meedan is hosting a closed-door panel on COVID-19 and local news
+      on October 5, 2020. '
+    long_description: "Meedan is hosting a closed-door panel on COVID-19 and local
+      news on October 5, 2020.  It’s called *COVID-19 Local News Forum: What does
+      the second wave of COVID-19 reporting look like?*\n\n[Dr. Seema Yasmin](https://profiles.stanford.edu/seema-yasmin)
+      will facilitate a town-hall style forum between Meedan’s in-house team of scientists
+      and a variety of local news outlets across the United States. \n\nWith the first
+      nine months of the pandemic behind us, and in anticipation of a second wave
+      this fall, we are aiming for this discussion to serve as an opportunity to reflect
+      on how local news reporting fared during the early stages of this global crisis.
+      We’ll also work together to design new paths forward for scientists and journalists
+      as reporting needs increase around emerging treatments, vaccines and projected
+      upticks in transmission.\n\nThe event is scheduled for Monday October 5 from
+      12:30-2 PM ET (9:30-11AM PT)."
+    slug: closed-door-session-covid-19-and-local-u-s-reporting
+    non_public: true
+    event_date_string: '2020-10-05'
+    event_end_date_string: '2020-10-05'
+    image: https://images.ctfassets.net/g118h5yoccvd/5BQn8bsMbUUD1W1FetsVZ2/424d04721b211941fe8542577942ffc6/meedan_us-reporting-session_02.png
   - sys:
-      id: 6PihB4DTbwNXChWKC7kyJu
-      created_at: !ruby/object:DateTime 2020-09-15 22:18:46.864000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-23 23:35:41.693000000 Z
+      id: 2pbXEtiCezebbZtDCrQkI3
+      created_at: !ruby/object:DateTime 2020-09-22 23:01:24.687000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-30 21:02:07.275000000 Z
       content_type_id: event
-      revision: 5
+      revision: 1
       space:
         sys:
           id: g118h5yoccvd
@@ -89,102 +86,45 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access to
-      Information'
-    event_date: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
+    title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
+    event_date: !ruby/object:DateTime 2020-10-08 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-10-08 00:00:00.000000000 Z
     time: |-
-      - *Los Angeles* 7:00am
-      - *New York* 10:00am
-      - *São Paulo* 10:00am
-      - *London* 3:00pm
-      - *Cairo* 4:00pm
-      - *Delhi* 7:30pm
-      - *Manila* 10:00pm
+      - *San Francisco* 9:15 AM
+      - *New York* 12:15 PM
+      - *Brasilia* 1:15 PM
+      - *London* 5:15 PM
+      - *New Delhi* 9:45 PM
+      - *Manila* 12:15 AM
     images:
     - sys:
-        id: 5dwxadh4LToVK5WnbMLxf3
-        created_at: !ruby/object:DateTime 2020-09-16 18:50:24.351000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-16 19:06:06.049000000 Z
-      title: Webinar Series Cover
+        id: 5yDadevA1PuBhEt3Nfd1HW
+        created_at: !ruby/object:DateTime 2020-09-30 20:52:12.363000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-30 21:02:02.101000000 Z
+      title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5dwxadh4LToVK5WnbMLxf3/3be3720e48aa0f46d6bb424f58b64a1f/meedan_webinar_three-newsrooms_01.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/5yDadevA1PuBhEt3Nfd1HW/7147882dfcb1c371c1aa70df228e7291/meedan_ONA20_01.jpg"
     - sys:
-        id: 1Ii72yaRnM9oReD6QusQmi
-        created_at: !ruby/object:DateTime 2020-09-16 18:51:27.186000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-16 19:06:08.637000000 Z
-      title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access
-        to Information'
+        id: 5h0WCrXSSI5hAQZFTZZhMk
+        created_at: !ruby/object:DateTime 2020-09-30 20:52:31.007000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-30 21:02:04.931000000 Z
+      title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1Ii72yaRnM9oReD6QusQmi/3d97d8d7e10f80dc3b6c2d1ea96933ab/meedan_webinar_three-newsrooms_02.jpg"
-    social_card_image:
-      sys:
-        id: 2qkLFgEfWJc8Arj8qrAOs0
-        created_at: !ruby/object:DateTime 2020-09-16 19:04:00.817000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-16 19:06:11.569000000 Z
-      title: 'Independent, Innovative & Feminist: Three Newsrooms Champion Access
-        to Information'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg"
-    location_human_friendly: Online on Zoom
-    register_link: https://meedan.zoom.us/webinar/register/WN_FtwBvNJdTI6oFFbSYGkluQ
-    video_link: https://www.youtube.com/channel/UCKyn6nCR9fXFhDL-WeeyOzQ
-    description: 'A Check Global Network Event: Join us as we bring together 3 independent
-      media organisations ensuring accessibility and diversity in their newsrooms
-      while working in challenging regional contexts.'
-    long_description: "Only when the cost of access to information is minimal in a
-      country can it give way to diverse and vibrant voices of the citizenry. Yet,
-      in many parts of the world, structural inequalities, opaque rules, lack of infrastructure
-      and resistance from authorities stand in the way. To understand this systemic
-      failure, it is important to break it down to a few key questions: Who seeks
-      information? Who is denied information? Which information is hidden or does
-      not exist? How costly and easy is the access?\n\nAs we observe the [International
-      Day for Universal Access to Information](https://en.unesco.org/commemorations/accesstoinformationday)
-      on September 28, it is important to acknowledge and learn from those who address
-      these questions on a daily basis. To mark this day, Meedan is hosting an online
-      event that brings together three innovative and independent newsrooms that are
-      led by women, are editorially independent and are uncovering stories of public
-      interest and importance in the emerging economies of Brazil, Egypt and India.\n\nThe
-      ability to scrutinise, hold power to account and provide a platform for debate
-      are roles that a free press and independent media can perform. Yet, governments
-      in several countries are stifling criticism by attacking independent media organisations.
-      These entities and media persons associated with them are at constant risk of
-      being persecuted for their reporting, harassed for holding power to account
-      and being starved of financial support. \n\nIn this context, we take a look
-      at how [Al-Manassa](https://almanassa.com/en) (Egypt), [Fiquem Sabendo](https://fiquemsabendo.com.br/)
-      (Brazil) and [Khabar Lahariya](https://khabarlahariya.org/) (India), three independent
-      media organisations are able to:\n- ensure independence, plurality and diversity
-      in their newsrooms while working in regions and contexts that are challenging\n-
-      build trust with audiences and innovate constantly\n- provide access to information
-      for hard to reach communities\n- bring a feminist voice and perspective to media
-      content \n\nJoin us in a conversation with the women who lead these organisations
-      — Nora Younis, Maria Vitoria Ramos and Disha Mullick — on September 28, 2020.
-      \n\n### About the Speakers \n__Disha Mullick__ is the CEO of [Chambal Media](https://chambalmedia.com/),
-      a company that produces media for rural audiences, with a unique rural feminist
-      voice. Chambal Media runs the iconic news brand, Khabar Lahariya, where women
-      from remote villages of north India are trained to be professional journalists
-      and produce local news in their languages, from their unique perspective. \n\n__Maria
-      Vitória Ramos__ is the co-founder and CEO of Fiquem Sabendo, a media startup
-      in Brazil keeping the powerful accountable. She was a reporter for Ponte Jornalismo,
-      exposing violations of Human Rights by the police and armed forces in Brazil
-      and is the author of \"Indigentes: the State that buries without warning\",
-      an investigative book that exposes the heartbreaking system that keeps families
-      looking for supposedly missing people for years when they have been buried by
-      the Brazilian government.\n\n__Nora Younis__ is the founder and chief editor
-      of Al-Manassa, a news outlet in Egypt. A rights advocate and journalist, Younis
-      has also worked as managing editor at Al-Masry Al-Youm, a popular news daily
-      in Egypt. Recently Younis was at the receiving end of the government clamping
-      down on news organizations and was detained in the name of running a news website
-      without an operating license. \n\nThis event is part of the Check Global Network’s
-      series ‘Women, Media and the Pandemic’. Launched on May 5, 2020, Check Global
-      Network members are currently located in the Philippines, Indonesia, Pakistan,
-      Syria, Yemen, Western Sahara, Kenya, Zimbabwe and Mexico. As a community of
-      independent media, technology and human rights groups, the Check Global Network
-      plans to meet regularly to discuss solutions to challenges, to design collaborative
-      projects and to respond proactively to the needs of partners in emerging economies.\n\nFor
-      more information about joining the network, please write to us at <a href=\"checkglobalnetwork@meedan.com\">checkglobalnetwork@meedan.com</a>
-      with a statement of interest."
-    slug: independent-innovative-and-feminist-three-newsrooms
-    event_date_string: '2020-09-28'
-    event_end_date_string: '2020-09-28'
-    image: https://images.ctfassets.net/g118h5yoccvd/2qkLFgEfWJc8Arj8qrAOs0/f2ccea7c217f0bf0545eb4c84d64310a/meedan_webinar_three-newsrooms_03.jpg
+      url: "//images.ctfassets.net/g118h5yoccvd/5h0WCrXSSI5hAQZFTZZhMk/ce6152f48adecac5987a1b74d59b88f9/MOSHED-2020-9-30-13-51-25_b.gif"
+    register_link: https://ona20.journalists.org/sessions/combating-misinfo-disinfo-deepfakes/
+    description: Join this high-level discussion on the dangers of disinformation
+      and deepfakes to gain the tools and tactics you need to confront and push back
+      on these attacks.
+    long_description: |-
+      Each election cycle sees new tactics and technology used to misinform the public in the digital space. Join this high-level discussion on the dangers of disinformation and deepfakes to gain the tools and tactics you need to confront and push back on these attacks.
+
+      This session is designed for:
+
+      - Journalists finding it difficult to work in a space suffused with bad faith actors
+      - Editors, reporters and producers working to get on top of the unceasing spread of disinfo and misinformation
+      - Anyone who would like to better understand the state of play in disinfo and deepfakes
+    slug: ona20-election-2020-combating-misinformation-disinformation-and-deepfakes
+    non_public: true
+    event_date_string: '2020-10-08'
+    event_end_date_string: '2020-10-08'
+    image: https://images.ctfassets.net/g118h5yoccvd/5yDadevA1PuBhEt3Nfd1HW/7147882dfcb1c371c1aa70df228e7291/meedan_ONA20_01.jpg
