@@ -276,6 +276,10 @@ header.dark .meedan svg {
     fill: var(--blackInk);
 }
 
+.campaign[data-menu] header .meedan svg {
+    fill: var(--blackInk);
+}
+
 .publication[data-menu] header .meedan svg {
     fill: var(--blackInk);
 }
@@ -301,6 +305,10 @@ header .menu-icon svg {
 }
 
 .values[data-menu] .menu-icon svg {
+    stroke: var(--blackInk);
+}
+
+.campaign[data-menu] .menu-icon svg {
     stroke: var(--blackInk);
 }
 
@@ -440,6 +448,10 @@ header.dark h1 {
     fill: var(--sunDown);
 }
 
+.dark p a {
+    color: inherit;
+}
+
 // .front h4.callout {
 //     display: inline-block;
 //     transform-origin: right top;
@@ -473,7 +485,8 @@ header.dark h1 {
 .team .cursor,
 .report .cursor,
 .publication .cursor,
-.values .cursor {
+.values .cursor,
+.campaign .cursor {
     border-color: var(--sunDown);
 }
 
@@ -495,7 +508,8 @@ header.dark h1 {
 .team[data-menu] .cursor,
 .report[data-menu] .cursor,
 .publication[data-menu] .cursor,
-.values[data-menu] .cursor, {
+.values[data-menu] .cursor,
+.campaign[data-menu] .cursor {
     color: var(--blackInk);
     border-color: var(--blackInk);
 }

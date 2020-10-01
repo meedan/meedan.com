@@ -19,6 +19,11 @@ a.button:not(.no-margin) {
     margin-bottom: var(--space-5);
 }
 
+a.transparent {
+    background-color: transparent;
+    border-color: inherit !important;
+}
+
 .dark a.button:hover {
     background-color: var(--sunDown);
     color: var(--blackInk)

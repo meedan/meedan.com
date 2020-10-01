@@ -24,5 +24,20 @@
     }
     .description {
         font-size: var(--scale-0);
+        a:not(.button) {
+            text-decoration: underline;
+        }
+    }
+    a {
+        color: inherit;
+    }
+}
+
+.dark .key-point {
+    border-color: var(--sunDown);
+    @include responsive('min-width: #{$width-tablet}') {
+        &:nth-child(-n+3) {
+            border-color: var(--sunDown);
+        }
     }
 }

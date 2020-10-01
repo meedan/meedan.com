@@ -1882,9 +1882,9 @@ event:
 - sys:
     id: 6PihB4DTbwNXChWKC7kyJu
     created_at: !ruby/object:DateTime 2020-09-15 22:18:46.864000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-23 22:14:59.761000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-28 15:05:08.728000000 Z
     content_type_id: event
-    revision: 4
+    revision: 7
     space:
       sys:
         id: g118h5yoccvd
@@ -1909,7 +1909,7 @@ event:
     - *Cairo* 4:00pm
     - *Delhi* 7:30pm
     - *Manila* 10:00pm
-  status: Live
+  status: Past
   images:
   - sys:
       id: 5dwxadh4LToVK5WnbMLxf3
@@ -2094,9 +2094,9 @@ event:
 - sys:
     id: 2pbXEtiCezebbZtDCrQkI3
     created_at: !ruby/object:DateTime 2020-09-22 23:01:24.687000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-22 23:04:18.624000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-30 21:02:07.275000000 Z
     content_type_id: event
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -2112,6 +2112,7 @@ event:
     locale: en-US
   title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
   event_date: !ruby/object:DateTime 2020-10-08 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-10-08 00:00:00.000000000 Z
   time: |-
     - *San Francisco* 9:15 AM
     - *New York* 12:15 PM
@@ -2119,6 +2120,21 @@ event:
     - *London* 5:15 PM
     - *New Delhi* 9:45 PM
     - *Manila* 12:15 AM
+  images:
+  - sys:
+      id: 5yDadevA1PuBhEt3Nfd1HW
+      created_at: !ruby/object:DateTime 2020-09-30 20:52:12.363000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-30 21:02:02.101000000 Z
+    title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5yDadevA1PuBhEt3Nfd1HW/7147882dfcb1c371c1aa70df228e7291/meedan_ONA20_01.jpg"
+  - sys:
+      id: 5h0WCrXSSI5hAQZFTZZhMk
+      created_at: !ruby/object:DateTime 2020-09-30 20:52:31.007000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-30 21:02:04.931000000 Z
+    title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5h0WCrXSSI5hAQZFTZZhMk/ce6152f48adecac5987a1b74d59b88f9/MOSHED-2020-9-30-13-51-25_b.gif"
   register_link: https://ona20.journalists.org/sessions/combating-misinfo-disinfo-deepfakes/
   description: Join this high-level discussion on the dangers of disinformation and
     deepfakes to gain the tools and tactics you need to confront and push back on
@@ -2134,3 +2150,64 @@ event:
   slug: ona20-election-2020-combating-misinformation-disinformation-and-deepfakes
   non_public: true
   event_date_string: '2020-10-08'
+  event_end_date_string: '2020-10-08'
+  image: https://images.ctfassets.net/g118h5yoccvd/5yDadevA1PuBhEt3Nfd1HW/7147882dfcb1c371c1aa70df228e7291/meedan_ONA20_01.jpg
+- sys:
+    id: 1hvA9WDD6zZOwioQphJvMW
+    created_at: !ruby/object:DateTime 2020-09-29 21:48:02.789000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-30 19:52:24.164000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Closed door session: COVID-19 and local U.S. reporting'
+  event_date: !ruby/object:DateTime 2020-10-05 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-10-05 00:00:00.000000000 Z
+  time: |
+    - *Los Angeles* 9:30am
+    - *New York* 12:30pm
+  images:
+  - sys:
+      id: 5BQn8bsMbUUD1W1FetsVZ2
+      created_at: !ruby/object:DateTime 2020-09-30 19:49:11.532000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-30 19:52:21.675000000 Z
+    title: Meedan Event Cover
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5BQn8bsMbUUD1W1FetsVZ2/424d04721b211941fe8542577942ffc6/meedan_us-reporting-session_02.png"
+  - sys:
+      id: 4Yp8sv4ewLIOrPgSEFwYKl
+      created_at: !ruby/object:DateTime 2020-09-30 19:47:43.638000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-30 19:52:17.740000000 Z
+    title: 'Closed door session: COVID-19 and local U.S. reporting'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/4Yp8sv4ewLIOrPgSEFwYKl/89ea488f8cfe128dd36963bffd979643/meedan_us-reporting-session_01.jpg"
+  description: 'Meedan is hosting a closed-door panel on COVID-19 and local news on
+    October 5, 2020. '
+  long_description: "Meedan is hosting a closed-door panel on COVID-19 and local news
+    on October 5, 2020.  It’s called *COVID-19 Local News Forum: What does the second
+    wave of COVID-19 reporting look like?*\n\n[Dr. Seema Yasmin](https://profiles.stanford.edu/seema-yasmin)
+    will facilitate a town-hall style forum between Meedan’s in-house team of scientists
+    and a variety of local news outlets across the United States. \n\nWith the first
+    nine months of the pandemic behind us, and in anticipation of a second wave this
+    fall, we are aiming for this discussion to serve as an opportunity to reflect
+    on how local news reporting fared during the early stages of this global crisis.
+    We’ll also work together to design new paths forward for scientists and journalists
+    as reporting needs increase around emerging treatments, vaccines and projected
+    upticks in transmission.\n\nThe event is scheduled for Monday October 5 from 12:30-2
+    PM ET (9:30-11AM PT)."
+  slug: closed-door-session-covid-19-and-local-u-s-reporting
+  non_public: true
+  event_date_string: '2020-10-05'
+  event_end_date_string: '2020-10-05'
+  image: https://images.ctfassets.net/g118h5yoccvd/5BQn8bsMbUUD1W1FetsVZ2/424d04721b211941fe8542577942ffc6/meedan_us-reporting-session_02.png

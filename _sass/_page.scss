@@ -92,9 +92,21 @@
     color: #fff;
 }
 
+.dark .module p a:not(.button) {
+    color: inherit;
+    text-decoration: underline;
+}
+
 .module p, 
-.module a {
+.module p a {
     font-size: var(--scale-1);
+}
+
+.module h3 + p,
+.module p + p,
+.module p + p + p,
+.module p + p + p + p {
+    margin-bottom: var(--space-3);
 }
 
 .module .module-links {
@@ -106,6 +118,13 @@
         &:hover {
             opacity: 1;
         }
+    }
+}
+
+.module-details {
+    font-size: var(--scale-0);
+    h3, p, a, p a {
+        font-size: var(--scale-0);
     }
 }
 
