@@ -3,9 +3,9 @@ moduleUpdates:
 - sys:
     id: 27Qw2Hhvcls1IGlW80FPHL
     created_at: !ruby/object:DateTime 2020-08-27 20:58:33.402000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-01 01:44:33.210000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-01 21:59:24.423000000 Z
     content_type_id: moduleUpdates
-    revision: 4
+    revision: 6
   title: Latest from Meedan
   updates:
   - sys:
@@ -25,6 +25,44 @@ moduleUpdates:
       url: "//images.ctfassets.net/g118h5yoccvd/3NZ0LLaqweiVivTNegVG3H/5484e67f5948fa98d5adf0ba404f03f2/HacktoberfestxMeedan.png"
     tag: Hacktoberfest
     link: https://meedan.com/hacktoberfest
+    published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
+  - sys:
+      id: 3W0WSiwopx1z9cAwly9Zur
+      created_at: !ruby/object:DateTime 2020-10-01 21:46:22.991000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-01 21:59:10.326000000 Z
+      content_type_id: update
+      revision: 1
+    title: 3 Independent, Innovative & Feminist Newsrooms Champion Access to Information
+    image:
+      sys:
+        id: 4yQKKyXR7HkuPo57R9hbj
+        created_at: !ruby/object:DateTime 2020-10-01 21:49:13.983000000 Z
+        updated_at: !ruby/object:DateTime 2020-10-01 21:59:08.343000000 Z
+      title: 3 Independent, Innovative & Feminist Newsrooms Champion Access to Information
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4yQKKyXR7HkuPo57R9hbj/b80060cfebc2c609763026c9b159df76/maxresdefault.jpg"
+    tag: Conversation
+    link: https://www.youtube.com/watch?v=jJwBdZrGwuI
+    published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
+  - sys:
+      id: 2r1aKWSZeBarY1hhXRMu1t
+      created_at: !ruby/object:DateTime 2020-10-01 21:45:39.042000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-01 21:59:03.285000000 Z
+      content_type_id: update
+      revision: 1
+    title: Program Manager Megan Marrelli speaks with journalism.co.uk about our COVID-19
+      work
+    image:
+      sys:
+        id: nYaR6TffzmsqbQfh8ewlw
+        created_at: !ruby/object:DateTime 2020-10-01 21:58:00.033000000 Z
+        updated_at: !ruby/object:DateTime 2020-10-01 21:59:00.813000000 Z
+      title: Program Manager Megan Marrelli speaks with journalism.co.uk about our
+        COVID-19 work
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/nYaR6TffzmsqbQfh8ewlw/60a39dfc968b22fe42de537a129faccc/podcast.jpg"
+    tag: Podcast
+    link: https://www.journalism.co.uk/podcast/megan-marrelli-program-manager-of-meedan-on-fact-checking-mid-information-during-covid-19/s399/a761492/
     published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
   - sys:
       id: UmYmT3bza0s1OiMc6uTbZ
