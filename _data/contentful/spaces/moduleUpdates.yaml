@@ -3,35 +3,53 @@ moduleUpdates:
 - sys:
     id: 27Qw2Hhvcls1IGlW80FPHL
     created_at: !ruby/object:DateTime 2020-08-27 20:58:33.402000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-01 21:59:24.423000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-16 22:39:57.902000000 Z
     content_type_id: moduleUpdates
-    revision: 6
+    revision: 7
   title: Latest from Meedan
   updates:
   - sys:
-      id: 6sS6tvMd5SObievaBBMX5z
-      created_at: !ruby/object:DateTime 2020-10-01 01:28:24.820000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-01 01:39:52.084000000 Z
+      id: 5iGSs1Z1wivGxCImhiaYXt
+      created_at: !ruby/object:DateTime 2020-10-15 21:42:23.620000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-16 22:39:46.604000000 Z
       content_type_id: update
       revision: 1
+    title: Meedan's Eric Mugendi discusses the Tanzanian elections on Al Jazeera English
+    image:
+      sys:
+        id: 4oG87efDGTVf4WC8crVF21
+        created_at: !ruby/object:DateTime 2020-10-15 21:42:29.198000000 Z
+        updated_at: !ruby/object:DateTime 2020-10-16 22:39:44.292000000 Z
+      title: Eric Mugundi on Al Jazeera
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4oG87efDGTVf4WC8crVF21/df597c61353855b341e713f52e88c5b9/maxresdefault.jpg"
+    tag: Video
+    link: https://www.youtube.com/watch?v=FhoMdYX86JY
+    published_on: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
+  - sys:
+      id: 6sS6tvMd5SObievaBBMX5z
+      created_at: !ruby/object:DateTime 2020-10-01 01:28:24.820000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-01 22:16:34.706000000 Z
+      content_type_id: update
+      revision: 2
     title: Contribute to our open source software and get exclusive swag
     image:
       sys:
-        id: 3NZ0LLaqweiVivTNegVG3H
-        created_at: !ruby/object:DateTime 2020-10-01 01:33:57.726000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-01 01:39:49.997000000 Z
+        id: BqoxPCNxnEeI0M5eRkXTK
+        created_at: !ruby/object:DateTime 2020-10-01 22:15:48.793000000 Z
+        updated_at: !ruby/object:DateTime 2020-10-01 22:16:32.267000000 Z
       title: HacktoberfestxMeedan
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3NZ0LLaqweiVivTNegVG3H/5484e67f5948fa98d5adf0ba404f03f2/HacktoberfestxMeedan.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/BqoxPCNxnEeI0M5eRkXTK/511d0338e7529223dbe077f1ff63612c/HacktoberfestxMeedan.png"
     tag: Hacktoberfest
     link: https://meedan.com/hacktoberfest
     published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
   - sys:
       id: 3W0WSiwopx1z9cAwly9Zur
       created_at: !ruby/object:DateTime 2020-10-01 21:46:22.991000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-01 21:59:10.326000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-01 22:19:54.967000000 Z
       content_type_id: update
-      revision: 1
+      revision: 2
     title: 3 Independent, Innovative & Feminist Newsrooms Champion Access to Information
     image:
       sys:
@@ -43,13 +61,13 @@ moduleUpdates:
       url: "//images.ctfassets.net/g118h5yoccvd/4yQKKyXR7HkuPo57R9hbj/b80060cfebc2c609763026c9b159df76/maxresdefault.jpg"
     tag: Conversation
     link: https://www.youtube.com/watch?v=jJwBdZrGwuI
-    published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
+    published_on: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
   - sys:
       id: 2r1aKWSZeBarY1hhXRMu1t
       created_at: !ruby/object:DateTime 2020-10-01 21:45:39.042000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-01 21:59:03.285000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-01 22:20:11.867000000 Z
       content_type_id: update
-      revision: 1
+      revision: 2
     title: Program Manager Megan Marrelli speaks with journalism.co.uk about our COVID-19
       work
     image:
@@ -63,7 +81,7 @@ moduleUpdates:
       url: "//images.ctfassets.net/g118h5yoccvd/nYaR6TffzmsqbQfh8ewlw/60a39dfc968b22fe42de537a129faccc/podcast.jpg"
     tag: Podcast
     link: https://www.journalism.co.uk/podcast/megan-marrelli-program-manager-of-meedan-on-fact-checking-mid-information-during-covid-19/s399/a761492/
-    published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
+    published_on: !ruby/object:DateTime 2020-09-24 00:00:00.000000000 Z
   - sys:
       id: UmYmT3bza0s1OiMc6uTbZ
       created_at: !ruby/object:DateTime 2020-09-23 18:02:00.044000000 Z

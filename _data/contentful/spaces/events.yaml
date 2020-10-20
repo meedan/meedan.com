@@ -686,7 +686,7 @@ event:
     like WhatsApp, hear about the obstacles fact-checkers have overcome to help users
     verify potential misinformation.
 
-'
+    '
   long_description: |-
     As communications and sharing increasingly shift to private services like WhatsApp, hear about the obstacles fact-checkers have overcome to help users verify potential misinformation.
 
@@ -1430,7 +1430,7 @@ event:
     MOOC the subject will be: employment, unemployment, freelance, funding opportunities
     during the pandemic.
 
-'
+    '
   long_description: |
     Show me the money!
 
@@ -2078,7 +2078,7 @@ event:
     Coalition](https://www.credibilitycoalition.org/) meeting followed by a discussion
     on how fact-checking varies across countries.
 
-'
+    '
   long_description: |-
     How US fact-checkers are covering COVID-19, protests, fires — and an election
 
@@ -2094,9 +2094,9 @@ event:
 - sys:
     id: 2pbXEtiCezebbZtDCrQkI3
     created_at: !ruby/object:DateTime 2020-09-22 23:01:24.687000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-30 21:02:07.275000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-02 22:59:58.224000000 Z
     content_type_id: event
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -2135,6 +2135,7 @@ event:
     title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/5h0WCrXSSI5hAQZFTZZhMk/ce6152f48adecac5987a1b74d59b88f9/MOSHED-2020-9-30-13-51-25_b.gif"
+  location_human_friendly: Online
   register_link: https://ona20.journalists.org/sessions/combating-misinfo-disinfo-deepfakes/
   description: Join this high-level discussion on the dangers of disinformation and
     deepfakes to gain the tools and tactics you need to confront and push back on
@@ -2155,9 +2156,9 @@ event:
 - sys:
     id: 1hvA9WDD6zZOwioQphJvMW
     created_at: !ruby/object:DateTime 2020-09-29 21:48:02.789000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-01 22:06:09.559000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-07 15:09:09.142000000 Z
     content_type_id: event
-    revision: 3
+    revision: 5
     space:
       sys:
         id: g118h5yoccvd
@@ -2177,6 +2178,7 @@ event:
   time: |
     - *Los Angeles* 9:30am
     - *New York* 12:30pm
+  status: Past
   images:
   - sys:
       id: 5BQn8bsMbUUD1W1FetsVZ2
@@ -2192,6 +2194,7 @@ event:
     title: 'Closed door session: COVID-19 and local U.S. reporting'
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/4Yp8sv4ewLIOrPgSEFwYKl/89ea488f8cfe128dd36963bffd979643/meedan_us-reporting-session_01.jpg"
+  location_human_friendly: Online
   description: 'Meedan is hosting a closed-door panel on COVID-19 and local news on
     October 5, 2020. '
   long_description: "Meedan is hosting a closed-door panel on COVID-19 and local news
@@ -2219,9 +2222,9 @@ event:
 - sys:
     id: 273uOSO21tgmTB2FBNgCPl
     created_at: !ruby/object:DateTime 2020-10-01 09:47:17.052000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-01 11:18:23.487000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-02 22:44:54.945000000 Z
     content_type_id: event
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -2240,6 +2243,7 @@ event:
   event_end_date: !ruby/object:DateTime 2020-10-02 00:00:00.000000000 Z
   time: 12.45PM - 1.30PM SGT
   status: Upcoming
+  location_human_friendly: Online
   description: 'Learn about new tech to tackle misinformation on messaging apps. '
   long_description: "The third annual APAC Trusted Media Summit organised by First
     Draft, the International Fact-Checking Network at Poynter and the Google News
@@ -2247,10 +2251,91 @@ event:
     and fighting misinformation across the Asia-Pacific.\n\nThis event is for journalists,
     fact-checkers, educators, researchers and others who work in the area of fact-checking,
     verification, media literacy and otherwise fighting misinformation. \n\nBreakout
-    session on __Tipline and Chatbots__\n\nSpeakers:\n1) Pamposh Raina (Fathm)\n2)
-    Supinya Klangnarong (Cofacts Thailand)\n3) Summer Chen (Taiwan FactCheck Center)\n4)
-    Shalini Joshi (Meedan)"
+    session on __Tipline and Chatbots__\n\nSpeakers:\n- 1) Pamposh Raina (Fathm)\n-
+    2) Supinya Klangnarong (Cofacts Thailand)\n- 3) Summer Chen (Taiwan FactCheck
+    Center)\n- 4) Shalini Joshi (Meedan)"
   slug: trusted-media-summit-tiplines-and-chatbots
   non_public: true
   event_date_string: '2020-10-02'
   event_end_date_string: '2020-10-02'
+- sys:
+    id: 7dBNBw3PzmdoZ3bIYxXarn
+    created_at: !ruby/object:DateTime 2020-10-06 19:37:03.954000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-16 12:12:17.629000000 Z
+    content_type_id: event
+    revision: 19
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Election reporting during multiple crises: Insights from India, Taiwan,
+    Zimbabwe and the Philippines'
+  event_date: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 7:00 AM
+    - *New York* 10:00 AM
+    - *Brasilia* 11:00 AM
+    - *London* 3:00 PM
+    - *New Delhi* 7:30 PM
+    - *Manila* 10:00 PM
+  status: Upcoming
+  location_human_friendly: Online
+  register_link: 'https://meedan.zoom.us/meeting/register/tZAoc-2qpzMoHt3eJclfIXyGE97oxZFRSFFE '
+  long_description: "Journalists covering elections today face multiple converging
+    reporting challenges. In the U.S., the COVID-19 pandemic and the president’s own
+    diagnosis are shaping the current political news cycle, against a backdrop of
+    a year defined by police brutality, thousands of preventable deaths, the future
+    of the Supreme Court, historic wildfires and vaccines in development. Covering
+    just one of these topics would be a challenge in itself—but newsrooms are faced
+    with juggling all of them.\n\nThis isn’t the first time a nation of reporters
+    has had to balance many major, rapidly evolving stories. Journalists and fact-checkers
+    from India, Taiwan, Zimbabwe and the Philippines have all recently covered elections
+    amid massive social and political change. This event is an effort to learn from
+    them.\n\nHow can U.S. journalists cover such a challenging presidential race and
+    combat viral election misinformation in a way that innovates, but does not strain
+    newsroom coverage timelines and staffing resources?\n\nJoin our panelists and
+    our moderator:\n\n__Monika Bauerlein__ is Mother Jones’ chief executive officer
+    and previously served as co-editor (with Clara Jeffery) for nine years. Under
+    her tenure, Mother Jones has grown its audience twentyfold, doubled the size of
+    its staff, established bureaus in Washington and New York, won multiple awards,
+    and launched a campaign to establish a new media business model centered on reader
+    support for investigative and in-depth reporting.\n\n__Ellen T.Tordesillas__ is
+    trustee and writer of [VERA Files](https://verafiles.org/), a group that undertakes
+    in-depth reporting on current issues. VERA Files is a signatory of the International
+    Fact Checking Network and a third-party fact checker of Facebook in the Philippines.
+    As reporter, Ellen covered major beats  including the Presidency. She has covered
+    all Philippine elections since 1986.\n\n__Jency Jacob__ is the managing editor
+    of [BOOM](https://www.boomlive.in), India's premier fact checking digital initiative
+    based out of Mumbai. Jency manages a newsroom of enterprising fact checkers who
+    are striving to keep our social media and public space clear of misinformation
+    and communally sensitive disinformation that can result in real-life implications.
+    The fact checking initiative that began as a small team of 3 reporters has now
+    grown to 25 people, covering English and 3 Indian languages and also neighbouring
+    countries like Myanmar and Bangladesh. Jency is also a regular speaker at various
+    national and international conferences, speaking about the importance of battling
+    misinformation and the media's role in countering them with credible and factual
+    news stories. \n\n__Summer Chen__ is the Chief Editor of [Taiwan FactCheck Center](https://tfc-taiwan.org.tw/)
+    (TFC). Summer leads the TFC team to fight two battles against min/disinformation
+    in Taiwan. One was the Presidential Election, the other was the infodemic at the
+    outbreak of COVID-19. She has worked as a reporter for a daily newspaper before
+    starting TFC. She loves to join the International Fact Check Network community.
+    \n\n__Sean Ndlovu__ is the co-founder and innovation and research manager at [[CITE](https://www.cite.org.zw/)],
+    a  Zimbabwean community space and incubator for innovators, technologists and
+    journalists. Since the 2018 harmonised elections in Zimbabwe, Sean has led  [FactcheckZW](http://factcheck.cite.org.zw/),
+    a team of fact checkers at CITE that works to combat information disorder, fact-checking
+    claims made by elected officials and those in positions of influence, and speaking
+    truth to power in the process. \n\nPlease register at the link above to RSVP."
+  slug: election-integrity-amid-multiple-crises-insights-from-india-brazil-mexico
+  non_public: false
+  event_date_string: '2020-10-16'
+  event_end_date_string: '2020-10-16'

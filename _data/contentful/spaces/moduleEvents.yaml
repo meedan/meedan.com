@@ -11,9 +11,9 @@ moduleEvents:
   - sys:
       id: 1hvA9WDD6zZOwioQphJvMW
       created_at: !ruby/object:DateTime 2020-09-29 21:48:02.789000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-01 22:06:09.559000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-07 15:09:09.142000000 Z
       content_type_id: event
-      revision: 3
+      revision: 5
       space:
         sys:
           id: g118h5yoccvd
@@ -33,6 +33,7 @@ moduleEvents:
     time: |
       - *Los Angeles* 9:30am
       - *New York* 12:30pm
+    status: Past
     images:
     - sys:
         id: 5BQn8bsMbUUD1W1FetsVZ2
@@ -48,6 +49,7 @@ moduleEvents:
       title: 'Closed door session: COVID-19 and local U.S. reporting'
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/4Yp8sv4ewLIOrPgSEFwYKl/89ea488f8cfe128dd36963bffd979643/meedan_us-reporting-session_01.jpg"
+    location_human_friendly: Online
     description: 'Meedan is hosting a closed-door panel on COVID-19 and local news
       on October 5, 2020. '
     long_description: "Meedan is hosting a closed-door panel on COVID-19 and local
@@ -75,9 +77,9 @@ moduleEvents:
   - sys:
       id: 2pbXEtiCezebbZtDCrQkI3
       created_at: !ruby/object:DateTime 2020-09-22 23:01:24.687000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-30 21:02:07.275000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-02 22:59:58.224000000 Z
       content_type_id: event
-      revision: 1
+      revision: 2
       space:
         sys:
           id: g118h5yoccvd
@@ -116,6 +118,7 @@ moduleEvents:
       title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5h0WCrXSSI5hAQZFTZZhMk/ce6152f48adecac5987a1b74d59b88f9/MOSHED-2020-9-30-13-51-25_b.gif"
+    location_human_friendly: Online
     register_link: https://ona20.journalists.org/sessions/combating-misinfo-disinfo-deepfakes/
     description: Join this high-level discussion on the dangers of disinformation
       and deepfakes to gain the tools and tactics you need to confront and push back

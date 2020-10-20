@@ -31,6 +31,14 @@
                             <div class="title-container">
                                 <a class="title" href="/blog/{{ story.slug }}">{{ story.title-en }}</a>
                             </div>
+                            <div class="date">
+                                {% if story.alt_date %}
+                                    {% assign published_on = story.alt_date %}
+                                {% else %}
+                                    {% assign published_on = story.sys.created_at %}
+                                {% endif %}
+                                {{ published_on | date: "%-d %B %Y" }}
+                            </div>
                             <a href="/blog/{{ story.slug }}">
                                 <picture class="image-container">
                                     <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>

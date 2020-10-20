@@ -193,6 +193,16 @@
     overflow: visible;
 }
 
+.module-theory-of-change {
+    .key-point.term-01,
+    .key-point.term-03 {
+        grid-column: 5/9;
+    }
+    img {
+        width: 40%;
+    }
+}
+
 .sidebar {
     font-size: var(--scale-0);
     font-family: $font-stack;
