@@ -7336,9 +7336,9 @@ story:
 - sys:
     id: aWwx11wB2AIWlru8AbQga
     created_at: &23 !ruby/object:DateTime 2020-10-13 20:53:52.324000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-14 15:12:54.172000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-14 21:26:37.826000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -7353,6 +7353,16 @@ story:
         linkType: Environment
   title: Five takeaways from our local news and COVID-19 reporting event
   slug: five-takeaways-from-our-local-news-and-covid-19-reporting-event
+  topic:
+    en-US:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+        created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: COVID-19
   lead_image:
     en-US:
       sys:

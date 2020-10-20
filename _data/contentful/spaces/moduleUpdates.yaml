@@ -3,11 +3,29 @@ moduleUpdates:
 - sys:
     id: 27Qw2Hhvcls1IGlW80FPHL
     created_at: !ruby/object:DateTime 2020-08-27 20:58:33.402000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-01 21:59:24.423000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-16 22:39:57.902000000 Z
     content_type_id: moduleUpdates
-    revision: 6
+    revision: 7
   title: Latest from Meedan
   updates:
+  - sys:
+      id: 5iGSs1Z1wivGxCImhiaYXt
+      created_at: !ruby/object:DateTime 2020-10-15 21:42:23.620000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-16 22:39:46.604000000 Z
+      content_type_id: update
+      revision: 1
+    title: Meedan's Eric Mugendi discusses the Tanzanian elections on Al Jazeera English
+    image:
+      sys:
+        id: 4oG87efDGTVf4WC8crVF21
+        created_at: !ruby/object:DateTime 2020-10-15 21:42:29.198000000 Z
+        updated_at: !ruby/object:DateTime 2020-10-16 22:39:44.292000000 Z
+      title: Eric Mugundi on Al Jazeera
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4oG87efDGTVf4WC8crVF21/df597c61353855b341e713f52e88c5b9/maxresdefault.jpg"
+    tag: Video
+    link: https://www.youtube.com/watch?v=FhoMdYX86JY
+    published_on: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
   - sys:
       id: 6sS6tvMd5SObievaBBMX5z
       created_at: !ruby/object:DateTime 2020-10-01 01:28:24.820000000 Z
