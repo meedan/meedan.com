@@ -1,15 +1,16 @@
-{% assign cards = site.data.contentful.spaces.cards.moduleCard %}
-<div class="story-actions">
-{% for c in page.actions.en-US %}
-	{% for card in cards %}
-		{% if c.sys.id == card.sys.id %}
-			<a href="{{ card.link }}" class="card-wrapper">
-                <div class="action-tag">{{ card.tag }}</div>
-                <div class="action-title">{{ card.title }}</div>
-                <span>↗</span>
-            </a>
-		{% endif %}
+{% if page.actions.en-US %}
+	{% assign cards = site.data.contentful.spaces.cards.moduleCard %}
+	<div class="story-actions">
+	{% for c in page.actions.en-US %}
+		{% for card in cards %}
+			{% if c.sys.id == card.sys.id %}
+				<a href="{{ card.link }}" class="card-wrapper">
+					<div class="action-tag">{{ card.tag }}</div>
+					<div class="action-title">{{ card.title }}</div>
+					<span>↗</span>
+				</a>
+			{% endif %}
+		{% endfor %}
 	{% endfor %}
-
-{% endfor %}
-</div>
+	</div>
+{% endif %}
