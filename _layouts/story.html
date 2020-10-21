@@ -12,9 +12,11 @@ lang: en-US
         <section>
             <figure class="graphic">
                 <img class="main-grid__2-11 justify-self--center lead_image" alt="{{ page.lead_image.title }}" src="{{ page.lead_image.url }}" />
-                <figcaption class="main-grid__2-11">
-                    {{ page.lead_image.description }}
-                </figcaption>
+                {% if page.lead_image.description %}
+                    <figcaption class="main-grid__2-11">
+                        {{ page.lead_image.description }}
+                    </figcaption>
+                {% endif %}
             </figure>
             {% include story_actions.html %}
             {% include translations.html %}

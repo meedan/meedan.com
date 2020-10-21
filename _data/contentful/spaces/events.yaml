@@ -2339,3 +2339,52 @@ event:
   non_public: false
   event_date_string: '2020-10-16'
   event_end_date_string: '2020-10-16'
+- sys:
+    id: 6rowVQrs1jCRcJb8FWR3O0
+    created_at: !ruby/object:DateTime 2020-10-20 19:45:07.686000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-20 19:52:26.064000000 Z
+    content_type_id: event
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Credibility Coalition: Researching misinformation and making fact-checks
+    more engaging'
+  event_date: !ruby/object:DateTime 2020-10-22 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-10-22 00:00:00.000000000 Z
+  time: |-
+    - *New York* 8am
+    - *Brasilia* 9am
+    - *London* 1pm
+    - *New Delhi* 5:30pm
+    - *Hong Kong* 8pm
+    - *Tokyo* 9pm
+  status: Upcoming
+  location_human_friendly: Online
+  description: 'Dr Mohsen Mosleh (MIT and Exeter) will present at our next [Credibility
+    Coalition](https://www.credibilitycoalition.org/) meeting followed by an open
+    discussion on misinformation research.
+
+    '
+  long_description: |-
+    __Biased and inaccurate information on social media__
+
+    There has been a great deal of concern about the negative impacts of social media on democracy and society. In this talk, I provide an overview of my research on two ways in which social networks can negatively affect public discourse. First, I will discuss studies examining the spread of misinformation on Twitter. I begin by describing a hybrid lab-field study in which Twitter users complete a cognitive survey. I show that people who rely on intuitive gut responses over analytical thinking share lower quality content. I then build on this observation with a Twitter field experiment that uses a subtle intervention to nudge people to think about accuracy. I show the intervention significantly improve the quality of the news sources they shared subsequently. Our experimental design translates directly into an intervention that social media companies could deploy to fight misinformation online. Next, I will briefly discuss a set of large social network experiments in which human subjects play a voter game on an artificial social network I constructed. These experiments demonstrate how, even in the absence of misinformation, decisions can be heavily biased by the structure of the network via a phenomenon we call “information gerrymandering”. Finally, I will describe my ongoing work on effective fact-check delivery on social media.
+
+    Dr Mohsen Mosleh is a Lecturer (Assistant Professor) at University of Exeter Business School and a Research Affiliate at MIT. Mohsen has been a postdoctoral fellow in the Human Cooperation Lab at the MIT Sloan School of Management and the Department of Psychology at Yale University. Prior to his post-doctoral studies, Mohsen received his PhD from Stevens Institute of Technology in Systems Engineering with a minor in data science. He has five years of prior industry experience as a Software & Systems Integration Lead. Mohsen’s research interests lie at the intersection of computational/data science and cognitive/social science. In particular, he studies how information and misinformation spread on social media, collective decision-making, and cooperation.
+
+    If you would like to join, please first read the [Credibility Coalition community guidelines](https://github.com/credcoalition/community-site/wiki/Code-of-Ethics-and-Participation) and then email hello\[at\]meedan.com for the video conferencing link. Please state in your email that you have read and agree to the guidelines.
+  slug: credco-biased-inaccurate-information-social-media
+  non_public: false
+  event_date_string: '2020-10-22'
+  event_end_date_string: '2020-10-22'

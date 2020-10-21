@@ -3,11 +3,54 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-02 21:37:48.061000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-21 13:40:44.941000000 Z
     content_type_id: moduleStories
-    revision: 51
+    revision: 52
   title: Blog
   stories:
+  - sys:
+      id: 4dNRb3JY8VwKmfH5RzZWZY
+      created_at: !ruby/object:DateTime 2020-06-21 15:05:25.979000000 Z
+      updated_at: !ruby/object:DateTime 2020-10-20 02:03:26.255000000 Z
+      content_type_id: story
+      revision: 2
+    title: 2019 Meedan Annual Report Now Online
+    slug: 2019-meedan-annual-report-now-online
+    topic:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+    lead_image:
+      sys:
+        id: 5vL7mjBdgPuBsBSALVwGkw
+        created_at: !ruby/object:DateTime 2020-06-21 15:05:55.112000000 Z
+        updated_at: !ruby/object:DateTime 2020-10-20 02:03:12.911000000 Z
+      title: Locations Meedanis visited in 2019
+      description: Meedan greatly values engaging with the broader professional community
+        of journalists, fact-checkers, human-rights workers and technologists. This
+        map captures some of the locations our staff visited and presented at in 2019.
+      url: "//images.ctfassets.net/g118h5yoccvd/5vL7mjBdgPuBsBSALVwGkw/c853cfb0f862342d3854417ef136ba51/Screen_Shot_2020-06-18_at_4.26.03_PM.png"
+    body: "We are delighted to announce the launch of [our 2019 Meedan Annual Report](https://meedan.com/2019-annual-report/).
+      \n\n\nOur annual reports involve four main sections: \n\n[CEO’s Letter](https://meedan.com/2019-annual-report/#introduction)\n[In
+      Numbers](https://meedan.com/2019-annual-report/#in-numbers)\n[What People Are
+      Saying About Us](https://meedan.com/2019-annual-report/#reviews)\n[Financials](https://meedan.com/2019-annual-report/#financials)\n\nTaking
+      pride in being a global team, [the Meedan 2019 Annual Report](https://meedan.com/2019-annual-report/)
+      lists the cities and the countries we have traveled to in 2019, including global
+      events, sponsoring local events and/or talking about misinformation and presenting
+      the work we are doing.\n \nWe have always been, and will continue, developing
+      the technology and the programs that help with creating more equitable internet
+      with the aim of strengthening global journalism, digital literacy, and accessibility
+      of information through our projects [Check Global](https://meedan.com/projects),
+      [Digital Health Lab](https://health.meedan.com/), [Credibility Coalition](https://credibilitycoalition.org/),
+      [Pop-Up Newsroom](https://popup.news/) and [Content Moderation](https://meedan.com/projects).\n\n\nWhile
+      we are publishing our last year report today during a pandemic, it occurred
+      to us that our work in 2018 when we established [Digital Health Lab](https://health.meedan.com/)
+      for responding to misinfodemics has positioned us well to contribute to the
+      unfolding crisis of COVID-19.\n\n\nLooking at our [annual reports](https://meedan.com/about)
+      published through the past years reminds us of how far we have come with the
+      global contribution we have been always committed to. \n\nThis report and the
+      past annual reports of Meedan live in the [About](https://meedan.com/about)
+      page on our website. "
+    alt_date: !ruby/object:DateTime 2020-10-19 00:00:00.000000000 Z
   - sys:
       id: 6sow0jBp3Nvi9ofcelRoi3
       created_at: !ruby/object:DateTime 2020-10-02 20:22:28.160000000 Z
@@ -458,60 +501,6 @@ moduleStories:
     - sys:
         id: 4JqOrlVgCscDebeRwxYBu8
     alt_date: !ruby/object:DateTime 2020-09-21 00:00:00.000000000 Z
-  - sys:
-      id: 3V59udKx6j9vqmSiSXxYH2
-      created_at: !ruby/object:DateTime 2020-09-18 19:17:58.464000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-18 20:26:29.226000000 Z
-      content_type_id: story
-      revision: 4
-    title: Meedan to train fact-checking fellows on health misinformation with Facebook
-      Journalism Project
-    slug: meedan-to-train-fact-checking-fellows-on-health-misinformation-with-facebook
-    topic:
-    - sys:
-        id: 4F5o79SqSBBaGKrc0IOhVe
-    lead_image:
-      sys:
-        id: 2i7gAIurreScXtoFfX3lHG
-        created_at: !ruby/object:DateTime 2020-09-18 19:20:20.336000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-18 19:20:29.396000000 Z
-      title: meedan facebook-journalism-project
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/2i7gAIurreScXtoFfX3lHG/d46b65fbaba333149c95f4ffac164fd8/meedan_facebook-journalism-project.jpg"
-    description: 'Meedan is excited to announce a new collaboration with Facebook
-      Journalism Project that will train the next generation of fact-checkers to verify
-      health misinformation for their global audiences. '
-    body: "Meedan is excited to announce a new collaboration with Facebook Journalism
-      Project that will train the next generation of fact-checkers to verify health
-      misinformation for their global audiences. \n\nThe initiative, a year-long [global
-      health fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship)
-      facilitated by Facebook, will bring on new team members to 10 participating
-      fact-checking organizations. Fellows selected by the 10 participating fact-checking
-      organizations will take part in virtual training sessions provided by Meedan
-      and Facebook. \n\nMeedan will support these fact-checkers with critical training
-      on the ethics, standards and core practices for debunking health misinformation
-      worldwide. \n\nThe COVID-19 pandemic shines a light on the critical need to
-      support the capacity and skills that are necessary to successfully fact-check
-      claims about complex science surrounding treatments, causes, cures, homeopathic
-      remedies and vaccines. Health misinformation is running rampant on online platforms
-      and there is great need for the next generation of journalists to understand
-      how health literacy and health barriers contribute to the spread of disease,
-      and how responsible fact-checking and verification efforts can be foundational
-      pillars in the equalization of access to high quality health news. \n\nMeedan
-      will collaborate on the Facebook training by working with our [in-house experts](https://meedan.com/blog/database-of-expert-sourced-covid-19-information-for-fact-checkers/)
-      on developing a curriculum that helps fact-checkers navigate complex health
-      debunking tasks in ways that are responsible. We’re so excited to be able to
-      contribute to this project and to work with organizations including: \n\n- Tempo,
-      Indonesia\n- Vera Files, Phillippines\n- Factly, India\n- The Quint, India\n-
-      ColombiaCheck, Colombia\n- La Silla Vacía, Colombia\n- Africa Check, South Africa\n-
-      Teyit, Turkey\n- Pagella Politica, Italy\n- Full Fact, UK\n\nThis training will
-      be another addition to our suite of COVID-19 resource-building, which already
-      includes our public health information tool, [learnaboutcovid19.org](https://learnaboutcovid19.org/).
-      It will also be our second training project this year, preceded by the roll
-      out of [Google News Initiative-supported curriculum](https://meedan.com/blog/training-the-next-workforce-to-field-dangerous-claims/)
-      that is being delivered across nine countries. \n\nMore details to come soon!
-      If you’re interested in learning more, contact <a href=\"mailto:hello@meedan.com\">hello@meedan.com</a>.
-      \n"
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
