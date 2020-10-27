@@ -65,7 +65,7 @@
     .image-container.landscape {
         margin: var(--space-1) var(--space-2) var(--space-1);
         @include responsive('min-width: #{$width-wide}') {
-            margin: var(--space-3) var(--space-4) var(--space-2);
+            margin: var(--space-3) var(--space-2) var(--space-2);
         }
     }
     .image-container.portrait {
