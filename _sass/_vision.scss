@@ -9,7 +9,7 @@
     &:before {
         position: absolute;
         content: '';
-        width: 1px;
+        width: 2px;
         height: 156px;
         left: 50%;
         top: 0;
@@ -18,14 +18,15 @@
     &:after {
         position: absolute;
         content: '';
-        width: 1px;
+        width: 2px;
         height: 440px;
         left: 50%;
         bottom: 0;
         background-color: var(--blackInk);
     }
-    span {
+    p {
         display: block;
         margin-top: var(--space-3);
+        margin-bottom: var(--space-3);
     }
 }
