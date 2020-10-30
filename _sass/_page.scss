@@ -58,6 +58,12 @@
     }
 }
 
+@include responsive('min-width: #{$width-desktop}') {
+    .about .standfirst {
+        padding-right: var(--space-1);
+    }
+}
+
 .page-wrapper h3 {
     font-size: var(--scale-2);
     @include responsive('min-width: #{$width-desktop}') {
