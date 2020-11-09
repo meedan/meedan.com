@@ -22,6 +22,8 @@
 
 .about {
     background-color: var(--sunDown);
+    // background: linear-gradient(180deg, #FFB2B2 0%, #FFB2B2 10.51%, #EF7E7B 15.85%, #EF7E7B 37.6%, #9F82C4 42.67%, #9F82C4 67.36%, #14A6A9 74.17%);
+    background: linear-gradient(180deg, #FFB2B2 0%, #FFB2B2 7.38%, #EF7E7B 9.93%, #EF7E7B 16.87%, #9F82C4 19.75%, #9F82C4 28.32%, #14A6A9 31.14%);
 }
 
 .projects {
@@ -200,10 +202,43 @@
 }
 
 .module-theory-of-change {
+    @include responsive('min-width: #{$width-tablet}') {
+        .terms {
+            position: relative;
+            &:before {
+                position: absolute;
+                left: 30px;
+                content: '';
+                width: 2px;
+                height: 80%;
+                top: var(--space-3);
+                bottom: var(--space-4);
+                border-left: 2px solid var(--blackInk);
+                z-index: -1;
+            }
+        }
+    }
+    @include responsive('min-width: #{$width-tablet}') {
+        h3 {
+            padding-right: var(--space-5);
+        }
+    }
     .term {
-        font-size: var(--scale-0);
         padding-top: var(--space-2);
         padding-bottom: var(--space-2);
+        @include responsive('min-width: #{$width-tablet}') {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .term p {
+        font-size: var(--scale-0);
+    }
+    img {
+        margin-bottom: var(--space-1);
+        @include responsive('min-width: #{$width-tablet}') {
+            margin-right: var(--space-2);
+        }
     }
 }
 
