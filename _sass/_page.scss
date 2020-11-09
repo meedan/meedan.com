@@ -200,12 +200,10 @@
 }
 
 .module-theory-of-change {
-    .key-point.term-01,
-    .key-point.term-03 {
-        grid-column: 5/9;
-    }
-    img {
-        width: 40%;
+    .term {
+        font-size: var(--scale-0);
+        padding-top: var(--space-2);
+        padding-bottom: var(--space-2);
     }
 }
 

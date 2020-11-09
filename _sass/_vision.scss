@@ -1,11 +1,15 @@
 .module-vision {
-    
+    background-image: url('/images/about-vision-bg.png');
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
 }
 
 .module-vision .vision-statement {
     position: relative;
     padding-top: 156px;
     padding-bottom: 440px;
+
     &:before {
         position: absolute;
         content: '';

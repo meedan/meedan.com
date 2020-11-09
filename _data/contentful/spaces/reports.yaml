@@ -581,7 +581,7 @@ report:
   description: 'A surge in false claims linked to COVID-19 in Kenya follows existing
     misinformation trends in the country.
 
-    '
+'
   lead_image:
     sys:
       id: 2FaNwN7eNAIKR9NSFae2xD
@@ -2424,3 +2424,566 @@ report:
       url: "//images.ctfassets.net/g118h5yoccvd/5ECSDr31TvM3aZk10tnjDi/c32b3510cae5515eee03bcfbab17aa61/F2A7BE"
     text: "#262626"
   image: https://images.ctfassets.net/g118h5yoccvd/5GuNPCsu4xxtrJDuIZEtwg/209e6c685c16ab51b6c61b2c0d851bbe/meedan_report_covid-19-brazil.png
+- sys:
+    id: odqEjZ4nMa3Juk671k8wP
+    created_at: !ruby/object:DateTime 2020-11-09 16:37:00.535000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-09 20:47:12.713000000 Z
+    content_type_id: report
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: report
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Content Moderation & Vulnerable Populations: LGBTQ Communities'
+  slug: content-moderation-and-vulnerable-populations-lgbtq-communities
+  lead_image:
+    sys:
+      id: 7V6pLKsHl8oEzDvmpXodX
+      created_at: !ruby/object:DateTime 2020-11-09 17:01:26.688000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 20:39:37.551000000 Z
+    title: 'Content Moderation & Vulnerable Populations: LGBTQ Communities'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/7V6pLKsHl8oEzDvmpXodX/fb2b1a44173a9a915c0b0b500d6b7b97/content-moderation-_-vulnerable-populations_LGBTQ-communities_lead-image.png"
+  social_card_image:
+    sys:
+      id: 2KuL0ZHoxLnatKNzrugbpD
+      created_at: !ruby/object:DateTime 2020-11-09 17:02:32.502000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 17:03:08.615000000 Z
+    title: 'Content Moderation & Vulnerable Populations: LGBTQ Communities'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/6641e90380faed6b03d1d065d4bf1811/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png"
+  body: "Content moderation and platform policy adversely affect marginalized groups
+    of people on social media. For example, members of the LGBTQ community face challenges
+    such as risks to privacy and personal safety depending on how a platform manages
+    and displays their personal information. Furthermore, LGBTQ people face risks
+    in seeking out resources related to their identity if they are in the closet or
+    living and working in a hostile environment. When LGBTQ people encounter hate
+    crimes online, evidence shows that they are not likely to report the crime. These
+    findings are troubling, especially because online communities can often be the
+    only space where LGBTQ people have access to a like-minded community, mentors,
+    and resources specific to their identity. Keeping all of these challenges in mind,
+    how do we design online spaces and make policy decisions in a way that protects
+    our most vulnerable users?\n\nThis document seeks to shed light on this question
+    by reviewing the findings of recent literature. The document first examples the
+    tension between the need for privacy and the need to connect with community online
+    for LBGTQ people. It then discusses underlying anxieties and safety concerns that
+    drive user wants and needs before turning to explore proposed design solutions.
+    Interwoven are three short example cases—Pride Month & Twitch, Streamers & Community
+    Safety, and Fandom & Community Regulation—that serve to illustrate various points.\n\n###
+    Privacy Needs Versus Finding Community\n\nThere is often a tension between the
+    need for privacy and the need to connect with community online for LBGTQ people.
+    Alexander Cho (2018), Carrasco & Kerne (2018), and DeVito et al. (2018) discuss
+    how LGBTQ people navigate their identity from platform to platform. LGBTQ people
+    are more likely to create alternative accounts on social media sites where they
+    can comfortably present as LGBTQ, with their “official” account reserved for family
+    and offline connections where they might not be out or might not be comfortable
+    “acting” LGBTQ. Cho conceptualizes “default publicness,” a standard that many
+    social media platforms employ. By designing social media mechanisms to work best
+    in a “public” setting, or prioritize creating accounts using a “real” identity,
+    platforms favor types of interactions that LGBTQ people could consider risky such
+    as posting a photo from an LGBTQ event or with a romantic partner, commenting
+    on a public article, or interacting with LGBTQ content.\n\nLGBTQ identity, and
+    the presentation of that identity, changes across an ecosystem of social media
+    sites (DeVito et al., 2018). Primarily, this means that many LGBTQ people have
+    different expectations for how “gay” they can act on different social media sites.
+    DeVito et al. (2018) note that research participants did not identify missing
+    features that could be implemented to help with this. Instead, their findings
+    suggest that adding more privacy features at the account level might put more
+    burden on the user. Previous findings have suggested that an “opt-in” model might
+    lessen user burden and anxiety around privacy (Carrasco & Kerne, 2018). The authors
+    note that Facebook’s “Limit Past Posts” tool offers some of the reflexivity needed
+    around LGBTQ privacy concerns, though the tool certainly benefits more than just
+    LGBTQ users but, of course, does not solve all the challenges faced by these users.\n\n__Case
+    Study: Pride Month & Twitch\n\nSince 2018, Twitch has hosted Pride Month events
+    each June highlighting LGBTQ content creators. This has included daily highlighting
+    of one or more of these content creators on Twitch’s homepage, which drives traffic
+    to their livestreams, in some cases increasing their number of concurrent viewers
+    by a factor of as much as ten. While visibility is important for these communities,
+    the sudden influx of viewers and chatters presents significant moderation challenges.
+    New users aren’t familiar with how to behave, and the communities’ normal socialization
+    processes cannot handle so many newcomers at once. Malicious newcomers can also
+    be a problem. This influx can put content creators in a difficult situation; they
+    must decide how to balance welcoming new users with protecting themselves and
+    their communities.\n\nFurthermore, LGBTQ people fear that content amplification
+    might bring unwanted attention or recognition to their social media (Dym & Fiesler,
+    2018). Participants in Dym & Fiesler’s study described tension around participating
+    in online communities, especially people creating artistic content. They described
+    wanting to share their LGBTQ-themed art and stories in online communities like
+    Tumblr, but worried that if something got too popular or spread too far, people
+    who knew them offline would see the content and thus out the person as LGBTQ before
+    they were ready. Similar work in Blackwell et al. (2016) has found that LGBTQ
+    users on Facebook believed they had a right to privacy and control over their
+    information, but also believed sharing some information was necessary for the
+    benefit of the community. These findings point to a complex system of heuristics
+    that people rely on to determine when and how information is shareable, and to
+    whom, especially among vulnerable, marginalized populations.\n\nLGBTQ people have
+    also described finding community and valuable resources in online LGBTQ spaces
+    (Dym et al., 2019), making the cost of leaving social media platforms, despite
+    the risks, far too high. LGBTQ people are uniquely vulnerable in that they often
+    cannot afford to disengage with social media if they want to have access to a
+    community. People have described learning about their identity for the first time
+    online, with many people not even knowing what an LGBTQ identity was before finding
+    discussion about them online (Dym et al., 2019). Much like LGBTQ parents viewed
+    certain social media activities as advocacy work (Blackwell et al., 2016), LGBTQ
+    people in other social media circles described reaching a point where they felt
+    as though they owed mentorship and guidance to younger LGBTQ people entering social
+    media spaces for the first time.\n\nJean Hardy (2019) describes the information-seeking
+    habits of gay men as a type of *queer information literacy* that spans across
+    multiple social media platforms, with both online and offline sources complimenting
+    one another. These information seeking habits are informed by the risks accompanied
+    with seeking information from the wrong source, or a lack of information available
+    offline (Dym et al., 2019). Keeping these accounts in mind, it is necessary to
+    point out that many LGBTQ people suffer from a kind of information poverty (Lingel
+    & boyd, 2013). LGBTQ issues around *information poverty* are different from the
+    original definition of information poverty, in which socioeconomic status and
+    education informs access and ability to use technology. Instead, LGBTQ people
+    suffer from a type of information poverty in which they put themselves at risk
+    simply by accessing the information.\n\nThis research demonstrates that LGBTQ
+    people have varied and complex privacy needs on social media spaces. And, because
+    access to information about LGBTQ identity can be scarce, these online communities
+    and resources are sometimes a necessity to LGBTQ people, not a choice. People
+    strongly express a desire for tight privacy controls while also wanting to remain
+    discoverable under the “right” circumstances. Prior research has theorized that
+    online LGBTQ communities maintain an obscured or “selective” visibility that allows
+    them to be discoverable only by those seeking LGBTQ support, allowing bad actors
+    or unwitting parents to pass by (Dym et al., 2019). Alternatively, platforms can
+    design information sharing with personal visibility in mind, meaning that LGBTQ
+    people can easily select what characteristics about themselves are visible to
+    which audiences (Carrasco & Kerne, 2018).\n\n### These articles strongly recommend:
+    \n\n1. Enabling granular privacy controls that focus on how personal content is
+    spread or interacted with\n2. Prioritizing obscurity in online communities\n3.
+    Maintaining discoverability in non-threatening ways by giving community members
+    control to determine how and where their content is seen. \n\nThese sorts of design
+    principles can be enacted at an individual level, moderator’s level, or platform
+    policy level. The next section discusses underlying anxieties that drive user
+    wants and needs.\n\n### Safety Concerns\n\nOverwhelmingly, these findings speak
+    to user anxieties around safety. People want to remain safe from bad actors online
+    as well as from potentially harmful people in their offline lives. Because accessing
+    online LGBTQ spaces can be a vital resource, LGBTQ people might feel trapped into
+    using technology that otherwise puts them in danger. Because individual users
+    cannot always specify how they wish to control their content, technology platforms
+    might consider ways to enact these controls at a community level, thereby distributing
+    the burden of safety. By designing content moderation controls that speak to these
+    specific anxieties, platforms can empower community spaces to regulate themselves
+    and keep marginalized communities safe. Furthermore, platform policies can shift
+    their values to align better with user needs that emphasize privacy first.\n\nIn
+    order to understand exactly what those policies should support and how to design
+    better privacy and moderation controls, we must understand the specific safety
+    concerns and anxieties of LGBTQ people. Scheurerman et al. (2018) investigate
+    the safety concerns of transgender people in online spaces. In their findings,
+    they advocate for designers to amplify marginalized voices. In this particular
+    study, this meant talking to transgender people and understanding what parts of
+    the system make them feel unsafe or insecure. Prioritizing the concerns of marginalized
+    users ensures a design that protects the most vulnerable people as well as everyday
+    users.\n\nFurther research by Fernandez & Birnholtz (2019) demonstrates that transgender
+    people weigh tensions over whether or not to disclose their identity, especially
+    on dating sites. For example, transgender people stated that they did not want
+    to waste their time on anyone who would be unaccepting of their identity, but
+    also did not want to open themselves up to harassment by openly advertising their
+    status as a transgender person. Ultimately, their research indicates that transgender
+    people would rather not engage with transphobic people altogether. While participants
+    handled that through early self-disclosure, this tactic also exposed them to vitriolic
+    reactions. This design space is messy, and features to improve security might
+    be explored through group spaces with moderators.\n\n  #### Case Study: Streamers
+    & Community Safety\n  One interviewee in research by Seering et al. (2019) described
+    her goal in managing her Twitch community as first and foremost to provide a safe
+    space for transgender youth. For this reason, she said that she was very quick
+    to remove new users who gave even a hint of threatening this safety. She stated
+    that she would strongly prefer to falsely ban a potentially positive contributor
+    than to fail to remove a malicious user who ended up hurting her community. \n\nThe
+    research reviewed here all points toward solutions that could potentially reside
+    within small-community moderation, or encouraging the development of grassroots
+    communities. While not all of social media can or should be housed within small
+    communities, platform designers might consider ways in which LGBTQ people can
+    better regulate their own community spaces as top-down regulation and moderation
+    efforts can adversely affect LGBTQ communities (Fiesler & Dym, 2018). The privacy
+    and safety concerns that LGBTQ people face are not necessarily more complex from
+    the problems that anyone might encounter on the internet, but the context surrounding
+    these issues is underexplored and often too-little designed for. Viewed in connection
+    with work around privacy and community, these articles suggest: 1) Exploring privacy
+    and safety controls that prioritize “opt-in” mechanics and obscurity, especially
+    at a community level; 2) Communicating with stakeholders from marginalized populations
+    before implementing changes that will affect them; 3) Designing for community
+    building by providing robust moderation tools and flexibility in online group
+    spaces rather than providing top-down moderation solutions. The key component
+    to these recommendations is the emphasis on *community*. Challenges facing LGBTQ
+    people are often situated within a broader community. Designers can explore methods
+    for resolving these tensions around privacy and safety by building community-level
+    moderation tools that address these concerns. The next section explores proposed
+    design solutions that researchers have explored through various methodologies.\n\n###
+    Persisting Challenges in Design\n\nDespite researchers and designers working to
+    overcome these challenges, there are certain social and cultural barriers we must
+    keep in mind when working with vulnerable populations like LGBTQ people. For example,
+    LGBTQ people have a history of underreporting hate crimes and disturbances they
+    experience online (Gatehouse et al., 2018). Furthermore, online support spaces
+    designed for outreach and intervention for struggling LGBTQ youth can struggle
+    to identify at-risk people (Homan et al., 2014). Even proposed tools to assist
+    vulnerable LGBTQ people can occupy an ethical gray area and must be considered
+    carefully before implementation into a community (Saha et al., 2019). In addition
+    to these challenges, recent work illustrates the importance of understanding which
+    social media sites are best suited for supporting LGBTQ identity processes, such
+    as gender transition, and which ones need to remain separate from those processes
+    (Haimson, 2018).\n\nUnderstanding what kind of moderation tools can help, and
+    how, is a key part to improving the safety conditions and resilience of LGBTQ
+    communities online. However, content moderation tools mean very little to LGBTQ
+    people if they are discouraged from or ambivalent toward using them. One important
+    feature that enables moderation is reporting harmful content or encounters in
+    online spaces, especially to authority figures who are empowered to intervene.
+    Gatehouse et al. (2018) found that LGBTQ people can be ambivalent toward or distrusting
+    of the process of reporting hate crimes. They encouraged design that imbues LGBTQ
+    people with a sense of agency and power over harmful situations. For example,
+    design artifacts from their workshops focused on correcting or standing up to
+    aggressions against LGBTQ people, such as a “pronoun corrector” that magically
+    fixes misstated pronouns.\n\nAnother design challenge especially important to
+    vulnerable populations centers on identifying people who might be suicidal or
+    at risk of self-harm. In spaces dedicated to monitoring at-risk individuals, prior
+    research has found that monitoring people for warning signs only works when the
+    person participates in the group (Homan et al., 2014). Furthermore, tools such
+    as a classifier that can label posts and flag at-risk users should only be used
+    with the user’s consent, and can still make mistakes in identifying users or discourage
+    people from speaking up (Saha et al., 2019). Saha et al. suggest that their classifier
+    works best as an opt-in content moderation tool for large LGBTQ online communities.
+    However, tools like this raise the issue of what a content moderator’s role is.
+    As a community volunteer, a content moderator is not typically trained in crisis
+    response or other essential therapeutic techniques for assisting an at-risk person.
+    Professional content moderators might be able to receive that training, or be
+    able to connect an at-risk person to someone qualified to help, but these workflows
+    are currently under-explored in moderation communities that receive little oversight
+    or intervention from the platform itself.\n\nFurther research is needed to understand
+    1) how effective volunteer community moderators are and what their roles in moderation
+    should be as well as 2) what sort of content moderation the platform itself must
+    engage in. Currently, there is little research that explores the exact dividing
+    lines between work conducted by volunteer and paid moderators. Any work conducted
+    in this space should seek to understand *what active duties* they expect volunteers
+    to take on, the *responsibilities of the platform*, and the *desired autonomy
+    of the community* in online governance.\n\n  #### Case Study: Fandom & Community
+    Regulation\n  The online community known as “transformative fandom” is home to
+    a majority LGBTQ population of content creators and consumers, primarily of fanfiction
+    and fanart. The community houses its creative works primarily on the site *Archive
+    of Our Own* (AO3), a platform built by its own community, in service of its own
+    community. Organizing and tagging new content published to the site falls on the
+    shoulders of community volunteers, who then flag inappropriate content—along with
+    the help of everyday site visitors—for review by the site’s staff. In this case,
+    the community is hands-on in its moderation efforts, and would object to any automated
+    moderation techniques considering the highly contextual and expressive nature
+    of fanworks uploaded to the site. The community is willing to take on the responsibility
+    of reporting inappropriate content as it is uploaded through the appropriate channels.
+    This is possible on AO3 primarily because the traffic is not nearly as overwhelming
+    as other social media sites, the content uploaded is primarily text, and AO3’s
+    users primarily identify as all belonging to the broader community of “fandom.”
+    What AO3 demonstrates is the willingness of a community to self-regulate, and
+    what successful volunteer-run communities might look like. \n\nOne last challenge
+    that designers face when working with vulnerable communities is the perceived
+    homogeneity of marginalized groups and the harm this perception can cause. Hardy
+    and Lindtner (2017) explore how a gay dating app is designed to function for urban
+    gay men, missing design opportunities for men living in rural areas. Furthermore,
+    applications designed with certain perceptions of a population in mind can have
+    isolating or othering effects on the users when their experiences do not match
+    the application’s promise. For example, women seeking women on Tinder, whether
+    in remote areas or otherwise, have reported feeling isolated and alone from using
+    the app (Duguay, 2019). Neither of these articles necessarily offer design solutions
+    geared toward LGBTQ people and content moderation, but they point to how apps
+    designed to supposedly connect LGBTQ people can also misunderstand the design
+    space and cause feelings of isolation. \n\nThus, it’s important to recognize that
+    designers of content moderation tools for LGBTQ people and other vulnerable populations–
+    particularly for marginal populations that commonly evade identification– risk
+    designing for communities within that population whose needs are most clear to
+    them, at the cost of the needs of the population beyond those communities. Different
+    communities in a population have differing needs in how to group and manage their
+    own community spaces online and therefore require platforms that enable bespoke
+    solutions to accommodate a diversity of participation styles.\n\n### Conclusion\n\nWe
+    as researchers and designers need to work toward building content moderation tools
+    that work better with the needs of marginalized populations by seeking to understand
+    those complex and ever-evolving needs. We also need to explore methods to empower
+    marginalized communities with volunteer moderator tools that grant control back
+    to the community where they desire it. Moving forward, this two-pronged exploration
+    will hopefully help drive innovative solutions toward building safer and more
+    inclusive online communities.\n"
+  footnotes:
+  - sys:
+      id: 2bpmGhHQABxHUNzwU2Ap1y
+      created_at: !ruby/object:DateTime 2020-11-09 19:50:06.753000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:50:30.027000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Blackwell, L., Hardy, J., Ammari, T., Veinot, T., Lampe, C., & Schoenebeck,
+      S. (2016, May). LGBT parents and social media: Advocacy, privacy, and disclosure
+      during shifting social movements. In *Proceedings of the 2016 CHI conference
+      on human factors in computing systems* (pp. 610-622). ACM.
+
+'
+  - sys:
+      id: 4GnRGSOGwL9X0KZDR5vHXq
+      created_at: !ruby/object:DateTime 2020-11-09 19:50:44.348000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:51:08.489000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Carrasco, M., & Kerne, A. (2018, April). Queer Visibility: Supporting LGBT+
+      Selective Visibility on Social Media. In *Proceedings of the 2018 CHI Conference
+      on Human Factors in Computing Systems* (p. 250). ACM.
+
+'
+  - sys:
+      id: 5VNmtJFEyarezoakyjYcyQ
+      created_at: !ruby/object:DateTime 2020-11-09 19:51:10.969000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:51:31.311000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Cho, A. (2018). Default publicness: Queer youth of color, social media,
+      and being outed by the machine. *New Media & Society*, 20 (9), 3183-3200.
+
+'
+  - sys:
+      id: 15z17FUNUiKgeftkZiKZFr
+      created_at: !ruby/object:DateTime 2020-11-09 19:51:33.628000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:51:55.498000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'DeVito, M. A., Walker, A. M., & Birnholtz, J. (2018). ''Too Gay for Facebook'':
+      Presenting LGBTQ+ Identity Throughout the Personal Social Media Ecosystem. *Proceedings
+      of the ACM on Human-Computer Interaction, 2*(CSCW), 44.
+
+'
+  - sys:
+      id: 4XTzNpx5idtYVtST5rjEr3
+      created_at: !ruby/object:DateTime 2020-11-09 19:51:57.258000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:52:17.023000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Duguay, S. (2019). “There’s no one new around you”: Queer Women’s Experiences
+      of Scarcity in Geospatial Partner-Seeking on Tinder. In *The Geographies of
+      Digital Sexuality* (pp. 93-114). Palgrave Macmillan, Singapore.
+
+'
+  - sys:
+      id: DB3711l1Wy2DnR2brCrOe
+      created_at: !ruby/object:DateTime 2020-11-09 19:52:19.176000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:52:41.064000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Dym, B., & Fiesler, C. (2018, October). Vulnerable and Online: Fandom''s
+      Case for Stronger Privacy Norms and Tools. In *Companion of the 2018 ACM Conference
+      on Computer Supported Cooperative Work and Social Computing* (pp. 329-332).
+      ACM.
+
+'
+  - sys:
+      id: 4xOJck3ju40uumVxhYp7E1
+      created_at: !ruby/object:DateTime 2020-11-09 19:52:42.840000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:53:05.893000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Dym, B., Brubaker, J., Fiesler, C., & Semaan, B. (2019). “Coming Out Okay”:
+      Community Narratives for LGBTQ Identity Recovery Work. In *Proc. ACM Hum.-Comput.
+      Interact. 3, CSCW.* 29 pages. ACM.
+
+'
+  - sys:
+      id: 7kXNTwuzpU3U9S1Eqsz7fL
+      created_at: !ruby/object:DateTime 2020-11-09 19:53:11.929000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:53:26.642000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Fernandez, J., & Birnholtz, J. (2019). “I Don’t Want Them to Not Know”:
+      Investigating Decisions to Disclose Transgender Identity on Dating Platforms.  In
+      *Proc. ACM Hum.-Comput. Interact. 3, CSCW.*  21 pages. ACM.
+
+'
+  - sys:
+      id: 6S7G9X43qAoIRKkkQsNBU6
+      created_at: !ruby/object:DateTime 2020-11-09 19:53:28.381000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:54:27.080000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Fiesler, C., & Dym, B. (December 5, 2018). Fandom’s Fate is not Tied to
+      Tumblr. In *Slate*. [https://slate.com/technology/2018/12/tumblr-fandom-adult-content-ban-livejournal.html](https://slate.com/technology/2018/12/tumblr-fandom-adult-content-ban-livejournal.html
+      "slate: tumblr fandom adult content ban livejournal")'
+  - sys:
+      id: 4Hcv2FnFtXqnvVR2q564BS
+      created_at: !ruby/object:DateTime 2020-11-09 19:54:32.319000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:54:45.003000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Gatehouse, C., Wood, M., Briggs, J., Pickles, J., & Lawson, S. (2018, April).
+      Troubling Vulnerability: Designing with LGBT Young People''s Ambivalence Towards
+      Hate Crime Reporting. In *Proceedings of the 2018 CHI Conference on Human Factors
+      in Computing Systems* (p. 109). ACM.
+
+'
+  - sys:
+      id: 5bS6CK9YIjr4LWPGGYDvfF
+      created_at: !ruby/object:DateTime 2020-11-09 19:58:11.953000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:58:40.085000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: Haimson, O. (2018). Social media as social transition machinery. *Proceedings
+      of the ACM on Human-Computer Interaction, 2*(CSCW), 63.
+  - sys:
+      id: 40p9M18mYuIPUTloueZxHk
+      created_at: !ruby/object:DateTime 2020-11-09 19:55:29.600000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:55:46.469000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Hardy, J., & Lindtner, S. (2017, February). Constructing a desiring user:
+      Discourse, rurality, and design in location-based social networks. In *Proceedings
+      of the 2017 ACM Conference on Computer Supported Cooperative Work and Social
+      Computing* (pp. 13-25). ACM.
+
+'
+  - sys:
+      id: 1SFP0rJTDMOUn7VPjoLCQ1
+      created_at: !ruby/object:DateTime 2020-11-09 19:55:58.146000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:56:12.469000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Hardy, J. (2019). Queer information literacies: social and technological
+      circulation in the rural Midwestern United States. *Information, Communication
+      & Society*, 1-16.
+
+'
+  - sys:
+      id: 7Hg7vQglnpz1JsenqTUPB
+      created_at: !ruby/object:DateTime 2020-11-09 19:56:15.875000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:56:39.831000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Homan, C. M., Lu, N., Tu, X., Lytle, M. C., & Silenzio, V. (2014, February).
+      Social structure and depression in TrevorSpace. In *Proceedings of the 17th
+      ACM conference on Computer supported cooperative work & social computing* (pp.
+      615-625). ACM.
+
+'
+  - sys:
+      id: 7izItKfTc3JWhx3RFwwIgk
+      created_at: !ruby/object:DateTime 2020-11-09 19:56:46.624000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:56:58.915000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Lingel, J., & boyd, d. (2013). “Keep it secret, keep it safe”: Information
+      poverty, information norms, and stigma. *Journal of the American Society for
+      Information Science and Technology*, 64(5), 981-991.
+
+'
+  - sys:
+      id: 5e8SoZZyJXl5RmqjpnenPs
+      created_at: !ruby/object:DateTime 2020-11-09 19:57:00.265000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:57:21.323000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Saha, K., Kim, S.C., Reddy, M.D., Carter, A.J., Sharma, E., Haimson, O.,
+      & Choudhury, M. 2019. The Language of LGBTQ+ Minority Stress Experiences on
+      Social Media. *Proc. ACM Hum.-Comput. Interact. 3, CSCW*, Article 89 (November
+      2019), 22 pages.
+
+'
+  - sys:
+      id: 7pcLRMMtMUDIFb7zFreAG
+      created_at: !ruby/object:DateTime 2020-11-09 19:57:23.051000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:57:39.259000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Scheuerman, M. K., Branham, S. M., & Hamidi, F. (2018). Safe spaces and
+      safe places: Unpacking technology-mediated experiences of safety and harm with
+      transgender people. *Proceedings of the ACM on Human-Computer Interaction, 2*(CSCW),
+      155.
+
+'
+  - sys:
+      id: 1sgUW47iBN3G5LJ7Wb5RIM
+      created_at: !ruby/object:DateTime 2020-11-09 19:57:41.305000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 19:57:52.035000000 Z
+      content_type_id: footnote
+      revision: 0
+    body: 'Seering, J., Wang, T., Yoon, J., & Kaufman, G. (2019). Moderator engagement
+      and community development in the age of algorithms. *New Media & Society*, 1461444818821316.
+
+'
+  publication:
+  - sys:
+      id: 1EPFTrNepDeTMUR1FbT1LV
+      created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 20:44:44.124000000 Z
+      content_type_id: publication
+      revision: 0
+    title: Content Moderation Project
+    short_title: Content Moderation Project
+    kicker: A Check Global Report
+    slug: content-moderation-project
+    sections:
+    - sys:
+        id: 2ldDGlFH61yvNc2x9DF2ex
+    cover_image:
+      sys:
+        id: 6VYAFLYRLJnOVMBZSy1KD2
+        created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-09 16:30:16.581000000 Z
+      title: Content Moderation Project
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/bf0c6c3e8effe6a40138814cfc841fee/content-moderation-project_cover-image.png"
+    publication_promo_graphic:
+      sys:
+        id: 1DzzJ94lvtgdJnCaYLRegg
+        created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-09 16:30:54.620000000 Z
+      title: Content Moderation Project
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/dded5838f70632c0f58d4a4978d3efe8/content-moderation-project_publication-promo-graphic.png"
+    social_card_image:
+      sys:
+        id: 3vyuq1it0LYHCcb83GuwGf
+        created_at: !ruby/object:DateTime 2020-11-09 16:26:21.065000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-09 16:26:51.972000000 Z
+      title: Content Moderation Project
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3vyuq1it0LYHCcb83GuwGf/45abcf0966a9670025f431f60a2267f2/content-moderation-prohect_social-card-image.png"
+    publication_promo: This report is part of the [Content Moderation Project](https://meedan-dev.netlify.app/reports/content-moderation-project/)
+    color:
+      sys:
+        id: sw3ntNjhkQRzLXqLpNM2m
+  color:
+    sys:
+      id: 1BeoyOjqllQNlOfc4Zoyzv
+      created_at: !ruby/object:DateTime 2020-11-09 20:11:09.041000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-09 20:12:54.048000000 Z
+      content_type_id: color
+      revision: 0
+    name: Coral
+    value: "#ff864d"
+    thumbnail:
+      sys:
+        id: 1WuMP07zX7YYge7hfueHxK
+        created_at: !ruby/object:DateTime 2020-11-09 20:12:47.974000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-09 20:13:00.400000000 Z
+      title: Coral
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1WuMP07zX7YYge7hfueHxK/da948838120c932d430a071427a7aa2b/coral-01.png"
+  image: https://images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/6641e90380faed6b03d1d065d4bf1811/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png
+- sys:
+    id: 4u68N8i5XJdHR1idRXTjOu
+    created_at: !ruby/object:DateTime 2020-11-09 20:26:26.449000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-09 20:26:32.619000000 Z
+    content_type_id: report
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: report
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  slug: untitled-entry-2020-11-09-at-20-26-26
