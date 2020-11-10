@@ -3,11 +3,90 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-29 18:52:33.555000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-10 21:19:13.542000000 Z
     content_type_id: moduleStories
-    revision: 56
+    revision: 58
   title: Blog
   stories:
+  - sys:
+      id: 78xCvxi2mN0tlE4alTubK9
+      created_at: !ruby/object:DateTime 2020-10-28 10:56:02.594000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-10 21:18:49.360000000 Z
+      content_type_id: story
+      revision: 2
+    title: How our fact-checking partners promote their WhatsApp tiplines
+    slug: how-our-fact-checking-partners-promote-their-whatsapp-tiplines
+    topic:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+    lead_image:
+      sys:
+        id: 2daALb4cUpcUDE3WWUh5f
+        created_at: !ruby/object:DateTime 2020-11-04 02:02:46.822000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-04 02:05:08.763000000 Z
+      title: How our fact-checking partners promote their WhatsApp tip lines
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2daALb4cUpcUDE3WWUh5f/e188e58f4ad401fa4814294cdd16cea0/meedan_blog_tipline-promo.png"
+    description: |-
+      How do fact-checking groups running WhatsApp tiplines engage with users on WhatsApp?
+      How do independent fact-checkers inform audiences about their tipline service?
+      How do fact-checkers ensure that their WhatsApp tipline receives relevant queries from users?
+
+      These are questions that fact-checking groups operating WhatsApp tiplines have often encountered. The WhatsApp audience is different from the existing audience on other social media platforms. According to fact-checking groups, audiences on WhatsApp prioritise promptness of response and shareability of verification reports. So how do groups position and promote the tipline service which does just that? Here are some best practices and a few examples of campaigns to inform the WhatsApp audience and promote the tipline product. These have been launched by partners that Meedan works with as part of its pilot project that focuses on End-to-End Fact-Checking on WhatsApp using the WhatsApp Business API. The ad campaigns have been supported by Facebook Journalism Project.
+    body: "While ads are critical to building an audience, they have to be used strategically
+      in order to maximize their impact for an organization's fact-checking work while
+      reducing unactionable content. Ultimately, we’ve learned that ads combined with
+      a community engagement strategy yield the most impactful projects, balancing
+      the needs of both scale and quality. Here are a few things we learned through
+      previous ad campaigns:\n\n1. Images work well with ad campaigns. Keep images
+      that are compelling, related to the campaign and have a strong recall. Colours,
+      logos, symbols and branding should be consistent across each part of the campaign.\n\n2.
+      Make sure the organization's WhatsApp tipline number is prominently displayed,
+      both in text that accompanies the ad and in the image itself so that people
+      can catch the messaging. \n\n3. A focused call for action works well for ads
+      and it’s always a good idea to follow the news cycle while designing tipline
+      ad campaign. If an organization is focusing on the COVID-19 pandemic, it might
+      be useful for them to specify what part of the pandemic-related misinformation
+      can be verified - information related to vaccines, drugs, home remedies, lockdown
+      related measures, new research, etc. Other significant news events such as elections,
+      government announcements, and cyclones also result in more people sending queries
+      to WhatsApp tiplines. Designing ads around these will guide WhatsApp users to
+      send better and relevant submissions.  \n\n4. Ads with shorter descriptions
+      (between 100 and 250 characters) are likely to get more engagement than ones
+      that are more than 250 characters. So it’s best to have less text in an ad.
+      \n\n5. Multimedia ads work well on online platforms - fun GIFs, videos, engaging
+      visuals and memes with some text are all easily shareable and communicate clearly
+      with users. \n\n6. Cross promotion helps build community faster. Posting ads
+      on multiple online platforms, like Facebook and Instagram, is also likely to
+      direct audiences from these platforms to WhatsApp tiplines. Organizations should
+      also consider using similar graphics on Twitter, on their website, newsletter
+      and public Facebook page, and other channels to engage existing audiences.\n\n7.
+      Consistency in presentation helps users recall a brand. It’s a good idea for
+      an organization to make style, colour palette, logos and fonts consistent across
+      all their assets. For example, the WhatsApp profile photo of an organization's
+      tipline should be the same as the organization's profile photo on Facebook or
+      other online platforms. \n\n### Here are examples of some ad campaigns launched
+      by our partners in different regions:\n\n#### AFP Checamos \n[The ad gives a
+      focused call to WhatsApp users to send content related to the municipal election
+      taking place in November 2020.](https://twitter.com/AfpChecamos/status/1312074873582182400)\n\n####
+      AFP Fact Check \n[AFP Fact Check's ad gives a specific call to people to send
+      suspicious content related to COVID-19 and India’s COVID-19 lockdown. \n](https://www.facebook.com/ads/experience/confirmation/?experience_id=353354549043592)\n\n####
+      Africa Check\n[The ad reaches out to WhatsApp users in Kenya and asks them to
+      send suspicious messages related to COVID-19 to the Africa Check tipline.\n](https://www.facebook.com/AfricaCheck/photos/a.485010524863910/3326776397353961)\n\n####
+      BOOM\n[Helping people make informed choices online.](https://www.facebook.com/234722873389359/posts/1387291604799141)\n\n####
+      Factly \n[The ad appeals to people to pause before forwarding messages on WhatsApp.
+      ](https://www.facebook.com/factlyindia/photos/a.1563010497250704/2683455088539567/)\n\n####
+      India Today \n[India Today's ad alerts people about false knowledge being more
+      dangerous than ignorance. \n](https://www.facebook.com/23230437118/posts/10160233352767119/)\n\n####
+      WebQoof\n[WebQoof calls on people to send unconvincing content to the WebQoof
+      tipline for verification. \n](https://twitter.com/QuintFactCheck/status/1303958813679083523)\n\n####
+      Vishvas News \n[The first series of ads were launched by Vishvas News around
+      mid-August, in time with India’s independence day. The ads built on the theme
+      of independence from fake news.\n](https://www.facebook.com/vishvasnews/photos/a.2263616987212004/2719158628324502)"
+    words_by:
+    - sys:
+        id: o2SUkfpjcZYozMKy01Wis
+    alt_date: !ruby/object:DateTime 2020-11-04 00:00:00.000000000 Z
   - sys:
       id: 2w4fC9PEVkEtntinteF8Pd
       created_at: !ruby/object:DateTime 2020-10-28 17:38:33.821000000 Z
@@ -366,96 +445,6 @@ moduleStories:
     - sys:
         id: 57swkb0x1YLvhHB31YFb3U
     alt_date: !ruby/object:DateTime 2020-10-26 00:00:00.000000000 Z
-  - sys:
-      id: 1rPZG3xi6IL4k9VsB7IYLx
-      created_at: !ruby/object:DateTime 2020-10-21 13:23:28.818000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-22 19:19:15.665000000 Z
-      content_type_id: story
-      revision: 1
-    title: 5 takeaways from the APAC Trusted Media Summit 2020
-    slug: 5-takeaways-from-the-apac-trusted-media-summit-2020
-    topic:
-    - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
-    lead_image:
-      sys:
-        id: 5sKfHATRdmj3QGnE0XkGwz
-        created_at: !ruby/object:DateTime 2020-10-21 14:19:59.357000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-22 19:18:15.766000000 Z
-      title: APAC Trusted media summit
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5sKfHATRdmj3QGnE0XkGwz/95d07fdd49c0b660fabf668753bf1be2/meedan_apac_trusted-media-summit_2020.jpg"
-    body: |-
-      We recently attended the APAC Trusted Media Summit organised by First Draft, the International Fact-Checking Network at Poynter and the Google News Initiative on October 1-2, 2020. In the two-day virtual summit, fact-checkers, journalists and technologists shared their experiences and insights on combating misinformation amid a pandemic. The conference platform, Hopin, was in itself something new to grasp. Sessions, breakout sessions, comments and questions in the chat box, live booths for participant organizations, interaction with hundreds of people across time zones - everything from one's own home, made 'virtual' seem so real.
-
-      In this short post, we're sharing five items that caught our attention.
-
-      #### Responses to COVID-19 misinformation are responses to the ills in the society as well
-
-      COVID-19 certainly posed an enormous task for fact-checkers and journalists. The Trusted Media Summit itself began with a reminder that health misinformation can have harms ranging from no harm to risk to life. However, misinformation surrounding the pandemic is not just on account of a mysterious virus. The rot runs deep as the fault lines of race and religion, mistrust, divisive politics and inadequate state capacities all powered the [misinfodemic](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/). Fact-checkers from across Asia-Pacific flagged misinformation filled with hatred towards minorities, anti-Asian sentiments and political agendas. As the task in hand has become daunting, fact-checking is more needed than ever.
-
-      #### Cautious but hopeful! The fact-checking world will not be caught off guard with vaccine misinformation
-
-      Fact-checkers have already countered tonnes of vaccine-related misinformation. However, letting down our guard can result in a twin infodemic from misinformation on COVID and vaccines. The vaccination drive has to heed challenges such as politicized rollout, difficulties in vaccinating different age groups and communities and  dropout risks. Amid these challenges, an infodemic can prove costly. Greater vaccine awareness, reliable information channels, and trust are crucial.
-
-      #### Regulations on data protection often come at the cost of freedom of expression and transparency
-
-      Governments now understand the need to tackle misinformation, but focus only on misinformation by third-parties passing the buck on misinformation stemming from governments themselves. As more and more governments adopt regulations on data protection, internet content and digital security, lack of clear definitions can raise threats to freedom of expression and harassment of journalists. When platforms and governments adopt content moderation, there is a need for greater transparency and public records of the actions taken.
-
-      #### Trauma and mental health issues are real
-
-      Fact-checkers and journalists are at the receiving end of online harassment and trolling. They are also exposed to disturbing and graphic content. The pandemic has only added to the moral distress, work pressure and uncertainties. For some journalists, the pandemic has become very personal as it affected journalists and their families and friends directly. While many of us have the option of turning off the news or taking a break from social media, this isn't an option for fact-checkers. Apart from resilience strategies for individuals, organizations need legal support and training on online safety. As political pressures also mount, international networks and support are crucial.
-
-      #### Fact-checkers need to look out for misinformation in the digital marketing space
-
-      Misinformation keeps evolving in its tactics and forms. One heads up for the fact-check community is misinformation in the e-commerce and digital marketing space. E-commerce hoaxes, PR firms running pro and anti candidate campaigns for elections, crowdsourcing and renting Facebook accounts for running massive ad campaigns, were among the items discussed at the summit.
-
-      *Note: Information presented in this blog has not been attributed to the speakers as the Summit followed the Chatham House Rule.*
-    words_by:
-    - sys:
-        id: 5i0ZluvBzz6h4ashdZJIkH
-    alt_date: !ruby/object:DateTime 2020-10-22 00:00:00.000000000 Z
-  - sys:
-      id: 4dNRb3JY8VwKmfH5RzZWZY
-      created_at: !ruby/object:DateTime 2020-06-21 15:05:25.979000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-27 19:34:53.630000000 Z
-      content_type_id: story
-      revision: 3
-    title: 2019 Meedan Annual Report Now Online
-    slug: 2019-meedan-annual-report-now-online
-    topic:
-    - sys:
-        id: 32ogZlDIXFakgZXiZ8l3MT
-    lead_image:
-      sys:
-        id: 76Yp5trXSRUt0wo19LSBKc
-        created_at: !ruby/object:DateTime 2020-10-27 19:34:36.061000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-27 19:34:50.755000000 Z
-      title: 2019 Meedan Annual Report Now Online
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/76Yp5trXSRUt0wo19LSBKc/fdc52903c4d7891318096bb4cf79f916/meedan_blog_annual-report-2019.jpg"
-    body: "We are delighted to announce the launch of [our 2019 Meedan Annual Report](https://meedan.com/2019-annual-report/).
-      \n\n\nOur annual reports involve four main sections: \n\n[CEO’s Letter](https://meedan.com/2019-annual-report/#introduction)\n[In
-      Numbers](https://meedan.com/2019-annual-report/#in-numbers)\n[What People Are
-      Saying About Us](https://meedan.com/2019-annual-report/#reviews)\n[Financials](https://meedan.com/2019-annual-report/#financials)\n\nTaking
-      pride in being a global team, [the Meedan 2019 Annual Report](https://meedan.com/2019-annual-report/)
-      lists the cities and the countries we have traveled to in 2019, including global
-      events, sponsoring local events and/or talking about misinformation and presenting
-      the work we are doing.\n \nWe have always been, and will continue, developing
-      the technology and the programs that help with creating more equitable internet
-      with the aim of strengthening global journalism, digital literacy, and accessibility
-      of information through our projects [Check Global](https://meedan.com/projects),
-      [Digital Health Lab](https://health.meedan.com/), [Credibility Coalition](https://credibilitycoalition.org/),
-      [Pop-Up Newsroom](https://popup.news/) and [Content Moderation](https://meedan.com/projects).\n\n\nWhile
-      we are publishing our last year report today during a pandemic, it occurred
-      to us that our work in 2018 when we established [Digital Health Lab](https://health.meedan.com/)
-      for responding to misinfodemics has positioned us well to contribute to the
-      unfolding crisis of COVID-19.\n\n\nLooking at our [annual reports](https://meedan.com/about)
-      published through the past years reminds us of how far we have come with the
-      global contribution we have been always committed to. \n\nThis report and the
-      past annual reports of Meedan live in the [About](https://meedan.com/about)
-      page on our website. "
-    alt_date: !ruby/object:DateTime 2020-10-19 00:00:00.000000000 Z
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z

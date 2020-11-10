@@ -7761,9 +7761,9 @@ story:
 - sys:
     id: 78xCvxi2mN0tlE4alTubK9
     created_at: !ruby/object:DateTime 2020-10-28 10:56:02.594000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-04 07:37:20.628000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-10 21:18:49.360000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -7859,13 +7859,19 @@ story:
   words_by:
     en-US:
     - sys:
-        id: 3MgfrHlJ5sTl95SvlnRgzm
-        created_at: !ruby/object:DateTime 2020-11-04 07:37:12.009000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-04 07:37:24.051000000 Z
+        id: o2SUkfpjcZYozMKy01Wis
+        created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-22 20:16:40.972000000 Z
         content_type_id: contributor
-        revision: 0
+        revision: 3
       name:
         en-US: Shalini Joshi
+      staff:
+        en-US: true
+      role:
+        en-US: Program Director, APAC
+      location:
+        en-US: New Delhi
   alt_date: !ruby/object:DateTime 2020-11-04 00:00:00.000000000 Z
   date: '2020-10-28'
   image: https://images.ctfassets.net/g118h5yoccvd/2daALb4cUpcUDE3WWUh5f/e188e58f4ad401fa4814294cdd16cea0/meedan_blog_tipline-promo.png
@@ -8092,65 +8098,3 @@ story:
   title-en: Meet Kritika Goel, Associate Editor, the Quint
   alt_date: *24
   alt_date_string: '2020-10-28'
-- sys:
-    id: 2h1lnc5ZvB2VPJwL2sQiO9
-    created_at: &25 !ruby/object:DateTime 2020-11-02 13:35:25.450000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-02 13:47:01.234000000 Z
-    content_type_id: story
-    revision: 0
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: story
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-  title: 'This is a cool product '
-  slug: this-is-a-cool-product
-  lead_image:
-    en-US:
-      sys:
-        id: 356ibdqNGXr8MoHzp29K5
-        created_at: !ruby/object:DateTime 2020-11-02 13:38:26.947000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-02 13:40:09.531000000 Z
-      title: Street Fighter thingy
-      description: This is a very expensive product
-      url: "//images.ctfassets.net/g118h5yoccvd/356ibdqNGXr8MoHzp29K5/b93e70e4989950bc8ddcf9acaab41b27/Screen_Shot_2020-10-28_at_15.41.04.png"
-    description: This is a very expensive product
-    title: Street Fighter thingy
-    url: "//images.ctfassets.net/g118h5yoccvd/356ibdqNGXr8MoHzp29K5/b93e70e4989950bc8ddcf9acaab41b27/Screen_Shot_2020-10-28_at_15.41.04.png"
-  description:
-    en-US: "> \n> “Before 2017, no fact-checkers existed in India. If you would Google
-      a rumor, you would generally not have any reporting on it. Now, we have more
-      than 15 fact-checking organizations across the country. An ecosystem of fact-checkers
-      increases the potential for users to encounter quality information & fact-checks.”
-      - Jency Jacob\n"
-  body: 'Isabella
-
-    '
-  words_by:
-    en-US:
-    - sys:
-        id: 57swkb0x1YLvhHB31YFb3U
-        created_at: !ruby/object:DateTime 2020-03-24 00:41:40.973000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.056000000 Z
-        content_type_id: contributor
-        revision: 1
-      name:
-        en-US: Isabella Barroso
-      staff:
-        en-US: true
-      role:
-        en-US: Program Manager, Latin America
-      location:
-        en-US: Brazil
-  date: '2020-11-02'
-  image: https://images.ctfassets.net/g118h5yoccvd/356ibdqNGXr8MoHzp29K5/b93e70e4989950bc8ddcf9acaab41b27/Screen_Shot_2020-10-28_at_15.41.04.png
-  title-en: 'This is a cool product '
-  alt_date: *25
-  alt_date_string: '2020-11-02'

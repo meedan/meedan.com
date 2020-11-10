@@ -590,6 +590,14 @@
     }
 }
 
+.module-featured-story .video-container {
+    grid-column: 3/11;
+    align-self: center;
+    @include responsive('min-width: #{$width-tablet}') {
+        img { max-height: 40vw; }
+    }
+}
+
 .story .story-updates {
     font-family: $font-stack-mono;
     border: 1px solid var(--blackInk);
