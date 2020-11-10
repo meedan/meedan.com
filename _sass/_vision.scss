@@ -18,6 +18,8 @@
 .module-vision .vision-statement {
     @media (min-width: 1px) and (max-width: #{$width-tablet}) {
         grid-column: 2/12;
+        padding-top: 80px;
+        padding-bottom: 160px;
     }
     grid-column: 5/9;
     grid-row: 2/-1;
@@ -29,11 +31,12 @@
         position: absolute;
         content: '';
         width: 2px;
-        height: 156px;
+        height: 80px;
         left: 50%;
         top: 20px;
         @include responsive('min-width: #{$width-tablet}') {
             top: 40px;
+            height: 156px;
         }
         background-color: var(--blackInk);
     }
@@ -41,7 +44,10 @@
         position: absolute;
         content: '';
         width: 2px;
-        height: 460px;
+        height: 160px;
+        @include responsive('min-width: #{$width-tablet}') {
+            height: 460px;
+        }
         left: 50%;
         bottom: 0;
         background-color: var(--blackInk);
@@ -49,17 +55,35 @@
     p {
         display: block;
         margin-top: 50px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         @include responsive('min-width: #{$width-tablet}') {
             margin-top: 80px;
+            margin-bottom: 60px;
         }
     }
 }
 
-.module-vision .graphic {
-    display: none;
+
+.module-vision .one {
+    grid-column: 1/5;
+    grid-row: 2/4;
 }
 
+.module-vision .two {
+    grid-column: 8/12;
+    grid-row: 2/4;
+}
+
+.module-vision .three {
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+
+.module-vision .four {
+    grid-column: 8/13;
+    grid-row: 3/-1;
+    align-self: end;
+}
 
 @include responsive('min-width: #{$width-tablet}') {
     .module-vision .graphic {
