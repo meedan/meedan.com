@@ -7,8 +7,11 @@
 
 .press-item {
     display: block;
-    padding-top: var(--space-2);
     padding-bottom: var(--space-2);
+    &:not(:first-child)  {
+        padding-top: var(--space-2);
+        border-top: 1px solid var(--blackInk);
+    }
     .teaser {
         margin-bottom: var(--space-1);
     }
@@ -18,9 +21,6 @@
     .source {
         font-size: var(--scale-0);
         margin-top: var(--space-1);
-    }
-    &:not(:first-child)  {
-        border-top: 1px solid var(--blackInk);
     }
 }
 
