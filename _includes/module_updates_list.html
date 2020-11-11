@@ -1,0 +1,43 @@
+{% 
+    assign updates = site.data.contentful.spaces.moduleCards.moduleCards
+    | where_exp: "item","item.sys.id == '3Cutb2MWVxvltk9SkgWy9s'"
+
+%}
+
+{% assign count = include.count | default: '1000'%}
+{% assign columns = include.columns | default: '2' %}
+{% assign offset = include.offset | default: '0' %}
+<section class="module module-story-list section-margin">
+    {% if include.title %}
+    <h3 class="section-title no-margin">
+        <a href="/blog/all">
+            {{ include.title }}
+        </a>
+    </h3>
+    {% endif %}
+    <div class="module-wrapper">
+        {% for update in updates[0].cards | limit: count | offset: offset %}
+        <div class="story-list-item">
+            <a href="{{ update.link }}" class="image-container">
+                <img src="{{ update.image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ update.image.title }}"/>
+            </a>
+            <a class="tag" href="{{ update.link }}">
+                {{ update.tag }}
+            </a>
+            <div class="title-container">
+                <a class="title" href="{{ update.link }}">
+                    {{ update.title }}
+                </a>
+            </div>
+            <div class="date">
+                <div class="date">{{ update.published_on | date: "%-d %B %Y" }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% if include.trail %}
+        <div class="trail-wrapper">
+            <span class="trail"><a href="{% if include.link %}{{ include.link }}{% else %}/blog/all{% endif %}" class="button no-margin">View all stories</a></span>
+        </div>
+    {% endif %}
+</section>
