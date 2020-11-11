@@ -576,10 +576,12 @@
     }
 }
 
+
 .module-featured-story .date {
     grid-column: 3/11;
     font-size: 1rem;
     margin-bottom: var(--space-1);
+    opacity: 0.6;
 }
 
 .module-featured-story .image-container {

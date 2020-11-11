@@ -1,8 +1,12 @@
-{% assign updates = site.data.contentful.spaces.moduleUpdates.moduleUpdates %}
+{% 
+    assign updates = site.data.contentful.spaces.moduleCards.moduleCards
+    | where_exp: "item","item.sys.id == '3Cutb2MWVxvltk9SkgWy9s'"
+
+%}
 <section class="module module-updates section-margin">
     <h3 class="section-title">● {{ updates[0].title }}</h3>
     <div class="module-wrapper">
-        {% for update in updates[0].updates | limit: 4 %}
+        {% for update in updates[0].cards | limit: 4 %}
         <div class="update-grid-item">
             <a href="{{ update.link }}" title="{{ update.title }}">
                 <picture class="image-container display--block">
