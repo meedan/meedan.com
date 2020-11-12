@@ -3466,7 +3466,7 @@ report:
 - sys:
     id: 6B6HKhC8nkzrzqV2UKI34
     created_at: !ruby/object:DateTime 2020-11-10 10:57:47.836000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 01:11:26.183000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 01:51:47.009000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4040,17 +4040,17 @@ report:
     also dramatically increase moderator or reviewer burden for these platforms. \n\nOn
     the other hand, false negatives or having poor recall means that legitimate hate
     speech content stays on the platform. This can also have the effect of eroding
-    trust in the platform, and the harmful effects of hate speech to continue. \n\n##
-    Hate Speech Moderation in Practice\n\nIn many cases, such as on Reddit, Facebook
-    Pages and Groups, livestreaming applications such as Mixer and Twitch, and community
-    conversation platforms such as Discord, users (typically volunteer user moderators)
-    have a direct role in applying and managing algorithmically-based tools for moderation.
-    The level of control these moderators have over how the tools function varies,
-    and tools’ detection algorithms are variably transparent. For example, Reddit
-    has a history of formally adopting user-developed tools as official platform features,
-    and the popular AutoModerator tool is one of the most visible examples of this.
-    The functions of AutoModerator are extensively documented and fully controllable
-    by moderators (see [https://www.reddit.com/wiki/automoderator/full-documentation](https://www.reddit.com/wiki/automoderator/full-documentation
+    trust in the platform, and the harmful effects of hate speech to continue.\n"
+  additional_text: "## Hate Speech Moderation in Practice\n\nIn many cases, such as
+    on Reddit, Facebook Pages and Groups, livestreaming applications such as Mixer
+    and Twitch, and community conversation platforms such as Discord, users (typically
+    volunteer user moderators) have a direct role in applying and managing algorithmically-based
+    tools for moderation. The level of control these moderators have over how the
+    tools function varies, and tools’ detection algorithms are variably transparent.
+    For example, Reddit has a history of formally adopting user-developed tools as
+    official platform features, and the popular AutoModerator tool is one of the most
+    visible examples of this. The functions of AutoModerator are extensively documented
+    and fully controllable by moderators (see [https://www.reddit.com/wiki/automoderator/full-documentation](https://www.reddit.com/wiki/automoderator/full-documentation
     \"Reddit automoderator\")), though use of the tool requires a baseline level of
     technical knowledge because rules syntax is written in the YAML language. AutoModerator’s
     algorithms for parsing text of comments and posts are regex-based, meaning that
@@ -4072,38 +4072,37 @@ report:
     Twitch’s AutoMod and Reddit’s AutoModerator thus contrast on two dimensions—Reddit’s
     AutoModerator is fully transparent in its inner workings but requires a baseline
     level of technical knowledge to operate, while Twitch’s AutoMod is less transparent
-    but very user-friendly. <sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>"
-  additional_body_text: "On the dimension of technical complexity, however, these
-    two tools are both relatively simple. If we make the above assumptions about the
-    (less-transparent) way that Twitch’s AutoMod functions, neither tool has grappled
-    with the challenges in detection outlined above in this document. Technical simplicity
-    limits the usefulness of these tools primarily because filtering solely for strings
-    of text does not engage at all with context. In interviews with LGBTQ moderators
-    on Twitch, Seering and Kaufman found that some found AutoMod to be more trouble
-    than it was worth because it caught words that could be used as a slur in many
-    cases (e.g., “queer”) but that were used as self-affirming or simply as part of
-    a user’s identity description within this particular context. However, the simplicity
-    offered by the transparency in tools like Reddit’s AutoModerator allows moderators
-    to retain full control over the tool’s actions. Whereas machine learning driven
-    algorithms will in many cases be opaque to users in their decision-making processes
-    because of the complexity of the algorithms, moderators will know in every case
-    why a comment was flagged or removed by AutoModerator.\n\nThis leads to a broader
-    point that moves beyond just detection algorithms and into the space of moderation
-    as a whole. One of the major decisions that platforms have to make is where control
-    over moderation decisions resides (which may vary for different types of decisions).
-    The following examples show models ranging from mainly platform-driven moderation
-    to mainly user-driven moderation: \n\n- Twitter is one visible example of a platform
-    where most moderation decisions are made by the platform; Twitter has made it
-    clear that the moderation process typically begins with users reporting content,
-    which Twitter then reviews through various internal processes (likely including
-    some combination of algorithms and human review). Individual users’ moderation
-    tools are limited primarily to muting and blocking other users, which hides them
-    from their view individually but does not otherwise impact the offending user’s
-    capabilities. Note however that Twitter has been testing a “Hide Replies” feature
-    since July 2019 that allows users to hide tweets replying to their tweets from
-    public view, meaning that anyone else viewing the thread does not immediately
-    see these replies (though all hidden tweets are still viewable if a button is
-    clicked). See https://help.twitter.com/en/using-twitter/mentions-and-replies.
+    but very user-friendly. <sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>\n\nOn
+    the dimension of technical complexity, however, these two tools are both relatively
+    simple. If we make the above assumptions about the (less-transparent) way that
+    Twitch’s AutoMod functions, neither tool has grappled with the challenges in detection
+    outlined above in this document. Technical simplicity limits the usefulness of
+    these tools primarily because filtering solely for strings of text does not engage
+    at all with context. In interviews with LGBTQ moderators on Twitch, Seering and
+    Kaufman found that some found AutoMod to be more trouble than it was worth because
+    it caught words that could be used as a slur in many cases (e.g., “queer”) but
+    that were used as self-affirming or simply as part of a user’s identity description
+    within this particular context. However, the simplicity offered by the transparency
+    in tools like Reddit’s AutoModerator allows moderators to retain full control
+    over the tool’s actions. Whereas machine learning driven algorithms will in many
+    cases be opaque to users in their decision-making processes because of the complexity
+    of the algorithms, moderators will know in every case why a comment was flagged
+    or removed by AutoModerator.\n\nThis leads to a broader point that moves beyond
+    just detection algorithms and into the space of moderation as a whole. One of
+    the major decisions that platforms have to make is where control over moderation
+    decisions resides (which may vary for different types of decisions). The following
+    examples show models ranging from mainly platform-driven moderation to mainly
+    user-driven moderation: \n\n- Twitter is one visible example of a platform where
+    most moderation decisions are made by the platform; Twitter has made it clear
+    that the moderation process typically begins with users reporting content, which
+    Twitter then reviews through various internal processes (likely including some
+    combination of algorithms and human review). Individual users’ moderation tools
+    are limited primarily to muting and blocking other users, which hides them from
+    their view individually but does not otherwise impact the offending user’s capabilities.
+    Note however that Twitter has been testing a “Hide Replies” feature since July
+    2019 that allows users to hide tweets replying to their tweets from public view,
+    meaning that anyone else viewing the thread does not immediately see these replies
+    (though all hidden tweets are still viewable if a button is clicked). See https://help.twitter.com/en/using-twitter/mentions-and-replies.
     Instagram follows a similar platform-centric moderation model, and has a similar
     style of feature granting users limited moderation powers on their own posts.\n-
     Facebook uses a mixed model, with the platform driving most moderation of individuals’

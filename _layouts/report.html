@@ -22,8 +22,8 @@ lang: en-US
                     </div>
                 {% endif %}
                 {{ page.body | markdownify }}
-                {% if page.additionalBodyText %}
-                    {{ page.additionalBodyText | markdownify }}
+                {% if page.additional_text %}
+                    {{ page.additional_text | markdownify }}
                 {% endif %}
                 <div class="report-sidebar">
                     <div class="report-sidebar-item">
