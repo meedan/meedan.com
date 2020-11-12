@@ -3,7 +3,7 @@ report:
 - sys:
     id: 1vw9SWrQcyEyWtga37JUw6
     created_at: !ruby/object:DateTime 2020-06-15 20:05:48.745000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-26 21:18:05.177000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-11 22:19:47.551000000 Z
     content_type_id: report
     revision: 2
     space:
@@ -40,21 +40,21 @@ report:
     title: 'Trust, Religion, and Politics: Coronavirus Misinformation in Iran'
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/1TXTPQACmPJLvpvGpSNDPO/bee0b505859726cfeace88c3c4a15486/meedan_report_covid-19-iran_01.png"
-  body: "In early 2020, the introduction of COVID-19 in the MENA region found its
-    epicenter in Iran. The country’s outbreak preceded much of the rest of the world,
-    and during the outset of the crisis the Iranian government’s slow reaction and
-    delayed quarantines ignited ridicule internationally. Online and offline misinformation
+  introduction: In early 2020, the introduction of COVID-19 in the MENA region found
+    its epicenter in Iran. The country’s outbreak preceded much of the rest of the
+    world, and during the outset of the crisis the Iranian government’s slow reaction
+    and delayed quarantines ignited ridicule internationally. Online and offline misinformation
     were part of the country’s battle with the virus. In this chapter, we highlight
     three main aspects that have shaped the spread of coronavirus misinformation in
     Iran; a) the lack of public trust in officials, b) religiously charged narratives
     by unofficial fringe figures, c) political manipulation of the discourse around
     the virus. We end this chapter by focusing on the counter measures implemented
-    and the limitations that enabled the dissemination of the misleading content.\n\n###
-    Trust Crisis in Iran\n\n#### Political Turbulence and Trust\n\nIn the months leading
-    up to the COVID-19 crisis in Iran, there was an increase in distrust in Iran’s
-    official institutions. Following November 2019 protests that resulted in what
-    is suspected to have been thousands of deaths, Iran’s Revolutionary Guards, the
-    country’s wide-reaching military corps<sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>,
+    and the limitations that enabled the dissemination of the misleading content.
+  body: "\n### Trust Crisis in Iran\n\n#### Political Turbulence and Trust\n\nIn the
+    months leading up to the COVID-19 crisis in Iran, there was an increase in distrust
+    in Iran’s official institutions. Following November 2019 protests that resulted
+    in what is suspected to have been thousands of deaths, Iran’s Revolutionary Guards,
+    the country’s wide-reaching military corps<sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>,
     and the (semi) elected Iranian government faced a crisis of legitimacy. In addition,
     the downing and the subsequent coverup of the Ukraine Airlines passenger jet in
     January 2020 by the Guards led to a new round of protests ([Behravesh, Jan. 14,
@@ -560,7 +560,7 @@ report:
 - sys:
     id: 3FjVXrJAIvjk2zHMcvRxtq
     created_at: !ruby/object:DateTime 2020-06-17 23:32:00.982000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-22 22:57:55.564000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 01:14:07.229000000 Z
     content_type_id: report
     revision: 4
     space:
@@ -598,28 +598,29 @@ report:
     title: False health information in Kenya
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/3qrqeRUJmXadMqSKn51oaF/bfb84d389358017676bccf23d25d039f/meedan_report_covid-19-kenya_africa-check_01.png"
-  body: "In this paper, we focus on our experience of harmful false information about
-    health in Kenya. We identify major trends and discuss the contextual factors influencing
-    mis- and disinformation in the country. We show that while there has been a surge
-    in false information linked to Covid-19, this is not new to the country, with
-    health myths that lead to vaccine hesitancy having a long tail, for example. Finally,
-    we suggest areas that fact-checkers can look into to counter harmful health mis-
-    and disinformation.\n\n### Introduction\n\nFalse information about health causes
-    real harm to people’s lives. Africa Check has been fact-checking public statements
-    about health in Kenya since late 2016. \n\nIn our first two years of operation
-    in the country we focused on claims made by public figures, institutions or the
-    media that we judged would cause the most harm if left unchallenged. In that period
-    our experience was mainly of **misinformation**, with many journalists, people
-    and entities publicly sharing content that they likely did not know was false.\n\nThis
-    ranged from government officials making inaccurate claims about the prevalence
-    of HIV/AIDS in adolescents at major international meetings<sup><a id=\"fnref1\"
-    href=\"#fn1\">[1]</a></sup> to poor fact-checking by both local and international
-    media, with cited statistics often being either deficient<sup><a id=\"fnref2\"
-    href=\"#fn2\">[2]</a></sup> or non-existent<sup><a id=\"fnref3\" href=\"#fn3\">[3]</a></sup>.\n\nOur
-    experience of **disinformation** (deliberately falsified information) in that
-    period included dangerous claims about vaccines, with significant opposition fanned
-    by conservative groups to tetanus vaccines<sup><a id=\"fnref4\" href=\"#fn4\">[4]</a></sup>
-    for example. Churches play a major role in Kenyan society and were quite instrumental
+  introduction: In this paper, we focus on our experience of harmful false information
+    about health in Kenya. We identify major trends and discuss the contextual factors
+    influencing mis- and disinformation in the country. We show that while there has
+    been a surge in false information linked to Covid-19, this is not new to the country,
+    with health myths that lead to vaccine hesitancy having a long tail, for example.
+    Finally, we suggest areas that fact-checkers can look into to counter harmful
+    health mis- and disinformation.
+  body: "### Introduction\n\nFalse information about health causes real harm to people’s
+    lives. Africa Check has been fact-checking public statements about health in Kenya
+    since late 2016. \n\nIn our first two years of operation in the country we focused
+    on claims made by public figures, institutions or the media that we judged would
+    cause the most harm if left unchallenged. In that period our experience was mainly
+    of **misinformation**, with many journalists, people and entities publicly sharing
+    content that they likely did not know was false.\n\nThis ranged from government
+    officials making inaccurate claims about the prevalence of HIV/AIDS in adolescents
+    at major international meetings<sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>
+    to poor fact-checking by both local and international media, with cited statistics
+    often being either deficient<sup><a id=\"fnref2\" href=\"#fn2\">[2]</a></sup>
+    or non-existent<sup><a id=\"fnref3\" href=\"#fn3\">[3]</a></sup>.\n\nOur experience
+    of **disinformation** (deliberately falsified information) in that period included
+    dangerous claims about vaccines, with significant opposition fanned by conservative
+    groups to tetanus vaccines<sup><a id=\"fnref4\" href=\"#fn4\">[4]</a></sup> for
+    example. Churches play a major role in Kenyan society and were quite instrumental
     in seeding this. We have seen a resurgence of disinformation around vaccines due
     to the Covid-19 pandemic, including claims<sup><a id=\"fnref5\" href=\"#fn5\">[5]</a></sup>
     that the continent would be used for trials.\n\nThere has also been broader public
@@ -708,11 +709,11 @@ report:
     Since March 2020 we have maintained an updated “[live guide](https://africacheck.org/reports/live-guide-all-our-coronavirus-fact-checks-in-one-place/)”,
     with decontextualized content — imagery and articles — forming the bulk of the
     entries for Kenya, for reasons discussed elsewhere in this report, key being the
-    low barriers to entry. \n\n\n**Hoaxes**, fabricated content about non-existent
-    events and entities, **half-truths,** where truths swim in the same waters as
-    misleading claims, and **scams** with a financial motive are also key players
-    in the Kenyan false information ecosystem. The prevalence of half-truths is especially
-    effective — infusing false claims with plausible ones adds to the overall believability.
+    low barriers to entry. \n\n**Hoaxes**, fabricated content about non-existent events
+    and entities, **half-truths,** where truths swim in the same waters as misleading
+    claims, and **scams** with a financial motive are also key players in the Kenyan
+    false information ecosystem. The prevalence of half-truths is especially effective
+    — infusing false claims with plausible ones adds to the overall believability.
     \n\n**Cures and vaccines** are the next main types of pandemic disinformation.
     Many claims about cures come with a profit element in the background, such as
     buying a “natural” product or visiting a practitioner. Claims about vaccines are
@@ -961,7 +962,7 @@ report:
 - sys:
     id: 4hNlM6eXCZG6w43fIoHUPY
     created_at: !ruby/object:DateTime 2020-07-07 21:18:34.780000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-28 23:12:18.084000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-11 22:24:02.329000000 Z
     content_type_id: report
     revision: 1
     space:
@@ -996,57 +997,57 @@ report:
     title: COVID-19 and China’s Information Control Policy
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/7wPWaFfbDhTZVmGH9LXmPr/ef5d6c56d9173c83fefd70eeabe6464c/meedan_report_covid-19-china_02.png"
-  body: "On March 12, 2020 China’s deputy director of its Ministry of Foreign Affairs,
-    Zhao Lijian published an unusual tweet. It claimed that the United States army
-    brought COVID-19 to China when the country participated in the October 2019 Military
-    Olympic Games.<sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup> The claim, if
-    not a conspiracy, was not supported by any evidence. It spread like wildfire,
-    becoming a global piece of misinformation about the origin of the pandemic.\n\nA
-    few days later, disinformation messages arrived on the cell phones and social
-    media feeds of individual American citizens. One post read, “The Trump administration
-    is about to lock down the entire country,\" which was later confirmed to be false.
-    United States officials considered the tactic an unprecedented move by Chinese
-    agents<sup><a id=\"fnref2\" href=\"#fn2\">[2]</a></sup>.\n\nThe University of
-    Hong Kong’s censorship monitoring project, Weiboscope, monitors the Chinese social
-    platform Weibo for disinformation, misinformation and censorship. Weibo is China's
-    equivalent to Twitter, and Weiboscope offers key insights into how information
-    control manifests on one of China's most prominent social networks. As the Chinese
-    government exerts information control over COVID-19 narratives inside China, the
-    international impact of state censorship becomes a significant global issue. \n\nOn
-    the afternoon of December 31, 2019 a Weibo post read, “Wuhan pneumonia cannot
-    be judged to be SARS. Wuhan has the only virus laboratory in the country and is
-    also a world-class virology laboratory. There are ways to deal with the virus.
-    If Wuhan can't figure it out, no one can handle it.” It was swiftly censored within
-    an hour. \n\nThe post mentioned both the SARS-like nature of the virus, suggesting
-    its high infection rate, and the Wuhan laboratory, signalling the origin of the
-    virus. Based on our knowledge of the government’s censorship system, both of these
-    characteristics seem to be attributable to the decision to remove the post from
-    the social platform. \n\nAt the time, social media was already circulating speculations
-    that an unknown pneumonia was linked to a SARS-like disease, according to Weiboscope
-    data. Ophthalmologist Dr. Li Wenliang, who learned about the then-mysterious illness
-    in a hospital, had sent a message in the popular Chinese private messaging app
-    WeChat, to warn other medical doctors about the unnamed illness. Wenliang was
-    then accused, with another six people, of disturbance of public order by the local
-    authority (Green, 2020).\n\nOn December 31, 2019, the same day the post was removed
-    from Weibo and shortly after Wenliang's warning, the Chinese government claimed
-    the “viral pneumonia cases” had “no apparent pattern of human-to-human transmission”
-    and were “preventable and controllable” (Wuhan Municipal Health Commission, 2019).
-    The Chinese government then also informed the World Health Organization and the
-    United States of its position.\n\nLess than a month later on January 20th, the
-    Chinese central government announced the COVID-19 epidemic to the public (Phillips
-    et al., 2020). A group of leading Chinese virologists appeared on a state television
-    program and confirmed that the virus is transmissible between humans (National
-    Health Commission, 2020). A group of Chinese Center for Disease Control and Prevention
-    scientists  published a paper in the New England Journal of Medicine on January
-    29, 2020 concluding that “human-to-human transmission among close contacts has
-    occurred since the middle of December and spread out gradually within a month
-    after that” (Li et. al., 2020).\n\nCensoring virus-related messages in late December
-    and early January may have put countless Chinese people unknowingly at risk of
-    \ infection, depriving them of receiving early warning from media and  social
-    media about the highly transmissible disease (Fu and Zhu, 2020). The censorship
-    and information control may have also delayed the general public’s response to
-    make necessary and timely protective measures. \n\n### How does China control
-    information in general?\n\nInternet and digital technology have been profoundly
+  introduction: On March 12, 2020 China’s deputy director of its Ministry of Foreign
+    Affairs, Zhao Lijian published an unusual tweet. It claimed that the United States
+    army brought COVID-19 to China when the country participated in the October 2019
+    Military Olympic Games.<sup><a id="fnref1" href="#fn1">[1]</a></sup> The claim,
+    if not a conspiracy, was not supported by any evidence. It spread like wildfire,
+    becoming a global piece of misinformation about the origin of the pandemic.
+  body: "A few days later, disinformation messages arrived on the cell phones and
+    social media feeds of individual American citizens. One post read, “The Trump
+    administration is about to lock down the entire country,\" which was later confirmed
+    to be false. United States officials considered the tactic an unprecedented move
+    by Chinese agents<sup><a id=\"fnref2\" href=\"#fn2\">[2]</a></sup>.\n\nThe University
+    of Hong Kong’s censorship monitoring project, Weiboscope, monitors the Chinese
+    social platform Weibo for disinformation, misinformation and censorship. Weibo
+    is China's equivalent to Twitter, and Weiboscope offers key insights into how
+    information control manifests on one of China's most prominent social networks.
+    As the Chinese government exerts information control over COVID-19 narratives
+    inside China, the international impact of state censorship becomes a significant
+    global issue. \n\nOn the afternoon of December 31, 2019 a Weibo post read, “Wuhan
+    pneumonia cannot be judged to be SARS. Wuhan has the only virus laboratory in
+    the country and is also a world-class virology laboratory. There are ways to deal
+    with the virus. If Wuhan can't figure it out, no one can handle it.” It was swiftly
+    censored within an hour. \n\nThe post mentioned both the SARS-like nature of the
+    virus, suggesting its high infection rate, and the Wuhan laboratory, signalling
+    the origin of the virus. Based on our knowledge of the government’s censorship
+    system, both of these characteristics seem to be attributable to the decision
+    to remove the post from the social platform. \n\nAt the time, social media was
+    already circulating speculations that an unknown pneumonia was linked to a SARS-like
+    disease, according to Weiboscope data. Ophthalmologist Dr. Li Wenliang, who learned
+    about the then-mysterious illness in a hospital, had sent a message in the popular
+    Chinese private messaging app WeChat, to warn other medical doctors about the
+    unnamed illness. Wenliang was then accused, with another six people, of disturbance
+    of public order by the local authority (Green, 2020).\n\nOn December 31, 2019,
+    the same day the post was removed from Weibo and shortly after Wenliang's warning,
+    the Chinese government claimed the “viral pneumonia cases” had “no apparent pattern
+    of human-to-human transmission” and were “preventable and controllable” (Wuhan
+    Municipal Health Commission, 2019). The Chinese government then also informed
+    the World Health Organization and the United States of its position.\n\nLess than
+    a month later on January 20th, the Chinese central government announced the COVID-19
+    epidemic to the public (Phillips et al., 2020). A group of leading Chinese virologists
+    appeared on a state television program and confirmed that the virus is transmissible
+    between humans (National Health Commission, 2020). A group of Chinese Center for
+    Disease Control and Prevention scientists  published a paper in the New England
+    Journal of Medicine on January 29, 2020 concluding that “human-to-human transmission
+    among close contacts has occurred since the middle of December and spread out
+    gradually within a month after that” (Li et. al., 2020).\n\nCensoring virus-related
+    messages in late December and early January may have put countless Chinese people
+    unknowingly at risk of  infection, depriving them of receiving early warning from
+    media and  social media about the highly transmissible disease (Fu and Zhu, 2020).
+    The censorship and information control may have also delayed the general public’s
+    response to make necessary and timely protective measures. \n\n### How does China
+    control information in general?\n\nInternet and digital technology have been profoundly
     shaping China’s social, economic, and even political domains. Even though the
     Internet is known to serve as an enabler for citizen activism in China, the state’s
     repressive power is remarkably strengthened by means of digital technologies<sup><a
@@ -1407,7 +1408,7 @@ report:
 - sys:
     id: 2sKzBmA7npYvPuvjnkYitv
     created_at: !ruby/object:DateTime 2020-07-22 23:21:35.597000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-27 13:39:39.069000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-11 22:20:02.572000000 Z
     content_type_id: report
     revision: 1
     space:
@@ -1442,9 +1443,9 @@ report:
     title: Coronavirus Misinformation in India Is Not Limited to Health Misinformation
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/3hrpvLcTanPaFxcvRbFt9Z/d9d8be34291410f327211d270292ace5/meedan_report_covid-19-india_01.png"
-  body: "BOOM is an India-based fact checking organization that began actively debunking
-    fake news about the COVID-19 pandemic since January 25, 2020, one week after China
-    declared the spread of the virus. In an [analysis](https://www.boomlive.in/fact-file/fake-news-in-the-time-of-coronavirus-a-boom-study-8008)
+  introduction: BOOM is an India-based fact checking organization that began actively
+    debunking fake news about the COVID-19 pandemic since January 25, 2020, one week
+    after China declared the spread of the virus. In an [analysis](https://www.boomlive.in/fact-file/fake-news-in-the-time-of-coronavirus-a-boom-study-8008)
     of around 178 fact checks that were purely related to COVID-19 information between
     January to May 2020, we found evidence of a phased ‘misinfodemic’ of misinformation
     spreading across online platforms in India. We found that COVID-19 misinformation
@@ -1452,14 +1453,15 @@ report:
     country. In this period, COVID-19 dominated the news cycle which also contributed
     to the increase in misinformation about the disease. While in February, BOOM fact-checked
     13 misinformation pieces about COVID-19, in March, this number had increased to
-    69 articles. \n\nMost of the false or misleading claims we found were circulated
-    with videos (35%). There was also a significant number of text messages (29.4%)
-    being shared with fake cures, treatments or quotes from celebrities, along with
-    images (29.4%) that were either misrepresented or doctored. We also noticed a
-    small number of audio clips (2.2%) going viral with false context.  \n\nOur investigation
-    classifies two waves of COVID-19 misinformation on social platforms such as WhatsApp,
-    Facebook, Twitter – medical and communal. Medical misinformation that we found
-    focused on theemergence, origin, spread, and cures of the virus. Communal misinformation
+    69 articles.
+  body: "Most of the false or misleading claims we found were circulated with videos
+    (35%). There was also a significant number of text messages (29.4%) being shared
+    with fake cures, treatments or quotes from celebrities, along with images (29.4%)
+    that were either misrepresented or doctored. We also noticed a small number of
+    audio clips (2.2%) going viral with false context.  \n\nOur investigation classifies
+    two waves of COVID-19 misinformation on social platforms such as WhatsApp, Facebook,
+    Twitter – medical and communal. Medical misinformation that we found focused on
+    theemergence, origin, spread, and cures of the virus. Communal misinformation
     emerged as the number of patients testing positive for COVID-19 increased, and
     the disease spread across the country. This type of misinformation leaned on and
     exacerbated existing tensions in the country, particularly long-standing rifts
@@ -1662,7 +1664,7 @@ report:
     washing and [quarantine centres](https://www.boomlive.in/fake-news/video-of-an-agitated-woman-at-a-quarantine-centre-in-pakistan-shared-as-india-7661)
     were circulating as India.\n\nIndia is currently not only battling COVID-19 and
     health misinformation but also is tackling many different narratives of misinformation.
-    \ \n\n\n"
+    \ \n"
   author:
   - sys:
       id: 4kgyss6jtjX7WbUbXMCVE3
@@ -1749,7 +1751,7 @@ report:
 - sys:
     id: 4exEvSWgwUB4VuB5ECE5zV
     created_at: !ruby/object:DateTime 2020-08-11 20:01:15.624000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-13 20:24:29.356000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-11 22:24:14.693000000 Z
     content_type_id: report
     revision: 1
     space:
@@ -1784,18 +1786,18 @@ report:
     title: How a volcanic eruption frames the pandemic in the Philippines
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/4RvRYJ3u3RXqT5J2FzGfez/398d73327d9e2f776a071e6be32e3bd4/meedan_report_covid-19-Philippines.png"
-  body: "Shortly before the COVID-19 pandemic took hold in the Philippines, a volcano
-    about 31 miles south of Manila erupted on a quiet Sunday afternoon in January
-    2020, after 47 years of fitful rest. The Philippine Institute of Volcanology and
-    Seismology (Phivolcs) immediately raised risk levels and informed the public of
-    a moderate level of volcanic activity. When the volcano’s ash explosions became
+  introduction: Shortly before the COVID-19 pandemic took hold in the Philippines,
+    a volcano about 31 miles south of Manila erupted on a quiet Sunday afternoon in
+    January 2020, after 47 years of fitful rest. The Philippine Institute of Volcanology
+    and Seismology (Phivolcs) immediately raised risk levels and informed the public
+    of a moderate level of volcanic activity. When the volcano’s ash explosions became
     stronger, the organization warned “of imminent hazardous eruption.” The government
     immediately undertook forced evacuation of thousands of families from the volcano
     island and villages surrounding Taal lake, as it declared those ashfall-covered
-    areas surrounding the volcano as no man’s land.\n\nDuring the emergency, scientists
-    at Phivolcs were near precise with their news bulletins and firm with warnings,
-    even when some residents and local government officials complained of the restrictions
-    imposed. Philvolcs [did not lack defenders](https://news.abs-cbn.com/news/01/21/20/sila-ang-dalubhasa-govt-execs-defend-phivolcs-after-vice-mayors-tirade)
+    areas surrounding the volcano as no man’s land.
+  body: "During the emergency, scientists at Phivolcs were near precise with their
+    news bulletins and firm with warnings, even when some residents and local government
+    officials complained of the restrictions imposed. Philvolcs [did not lack defenders](https://news.abs-cbn.com/news/01/21/20/sila-ang-dalubhasa-govt-execs-defend-phivolcs-after-vice-mayors-tirade)
     when a [popular broadcaster](https://verafiles.org/articles/vera-files-fact-check-mon-tulfo-falsely-claims-phivolcs-fail)
     and some lawmakers[ accused](about:blank) the agency of failing to warn the public
     about Taal volcano’s eruption. In general, the emergency science communication
@@ -1934,7 +1936,7 @@ report:
     the names of those arrested.\n\nThe Commission on Human Rights (CHR) has reminded
     the government that public service requires a higher tolerance for opinions and
     criticisms, especially that a democracy works best when there are healthy discourses
-    on governance; thereby, allowing greater accountability from our public officials.\n\n"
+    on governance; thereby, allowing greater accountability from our public officials.\n"
   author:
   - sys:
       id: 1jp9N5eXr3trjtTIHAMq1k
@@ -2019,7 +2021,7 @@ report:
 - sys:
     id: 7MQ5rF8CI1JCFyhvvfezeK
     created_at: !ruby/object:DateTime 2020-08-13 02:16:29.415000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-20 15:22:52.300000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 01:04:11.043000000 Z
     content_type_id: report
     revision: 1
     space:
@@ -2055,24 +2057,24 @@ report:
     title: Churches and the COVID-19 misinfodemic in South Korea
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/79Qb4XpGv1rvoaxHnKfGC7/c00ec69f1c229d7e6efa026170aceaf3/meedan_report_covid-19-korea.png"
-  body: "South Korea is lauded globally for its early and swift response to the COVID-19
-    pandemic, but online and offline misinformation in some of the country’s religious
-    groups played an outsize role in the spread of disease. The majority of South
-    Korea’s “group infections”—which are defined as epidemics in specific areas, such
-    as schools, companies, churches, or factories—originated in the country’s religious
-    institutions. Churches [accounted for](https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015)
+  introduction: South Korea is lauded globally for its early and swift response to
+    the COVID-19 pandemic, but online and offline misinformation in some of the country’s
+    religious groups played an outsize role in the spread of disease. The majority
+    of South Korea’s “group infections”—which are defined as epidemics in specific
+    areas, such as schools, companies, churches, or factories—originated in the country’s
+    religious institutions. Churches [accounted for](https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015)
     nearly 40 per cent of the country’s total cases  since Jan. 20, when the first
     confirmed case of the coronavirus came out. The most widely reported example of
     this phenomenon was the Shincheonji Church of Jesus, but misinformation amongst
     other religious leaders also contributed to the spread of COVID-19 in the country.
     This report is an effort to outline group infections in religious centers in South
     Korea, and analyze the role that misinformation played in how the virus spread
-    amongst members of some of the country’s churches.\n\n### Shincheonji Church of
-    Jesus\n\nOn February 18, 2020 a 61-year-old woman living in Daegu, South Korea
-    was diagnosed as the country’s 31st COVID-19 patient. She was a member of the
-    Shincheonji Church of Jesus, a secretive Christian group in South Korea. Lee Man-Hee,
-    the founder of the church, calls himself as the Messiah and has been [accused
-    of brainwashing members](https://www.nytimes.com/2020/03/10/world/asia/south-korea-coronavirus-shincheonji.html).
+    amongst members of some of the country’s churches.
+  body: "### Shincheonji Church of Jesus\n\nOn February 18, 2020 a 61-year-old woman
+    living in Daegu, South Korea was diagnosed as the country’s 31st COVID-19 patient.
+    She was a member of the Shincheonji Church of Jesus, a secretive Christian group
+    in South Korea. Lee Man-Hee, the founder of the church, calls himself as the Messiah
+    and has been [accused of brainwashing members](https://www.nytimes.com/2020/03/10/world/asia/south-korea-coronavirus-shincheonji.html).
     Many South Koreans have called for the church to be disbanded, as it is widely
     perceived to be a cult. The 31st diagnosis in South Korea was a ‘super spreader’
     event, and it changed the trajectory of the disease in the country significantly.
@@ -2108,7 +2110,7 @@ report:
     co-head of the Covid-19 emergency team in Gyeonggi Province. Closed circuit surveillance
     tape showed that the Eunhye River Church sprayed salt water [on] members, according
     an investigation by Ms. Hee-young’s team. She identified the spread of the misinformation
-    as an ‘infodemic.’ \n\n\n### Manmin Central Church\n\nA ended up infecting a number
+    as an ‘infodemic.’ \n\n### Manmin Central Church\n\nA ended up infecting a number
     of people in different workplaces, according to the [Korean ](https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015)[CDC](https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015).
     Another former pastor of Manmin Central church confirmed the church’s position
     on the virus, saying that “church members were told not to be afraid of the illness.”\n\n###
@@ -2251,7 +2253,7 @@ report:
 - sys:
     id: 6ZJdYXyGDsYe5mgSIzXsoP
     created_at: !ruby/object:DateTime 2020-09-21 22:38:49.519000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-25 18:20:04.294000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 01:04:34.147000000 Z
     content_type_id: report
     revision: 2
     space:
@@ -2286,16 +2288,16 @@ report:
     title: Bolsonaro’s Messaging Sows Misinformation, Confusion Throughout Latin America
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/5GuNPCsu4xxtrJDuIZEtwg/209e6c685c16ab51b6c61b2c0d851bbe/meedan_report_covid-19-brazil.png"
-  body: "At the beginning of the COVID-19 pandemic, Brazilian president Jair Bolsonaro
-    told the public without evidence that the now-disproven treatment hydroxychloroquine
-    [could “cure COVID-19](https://br.reuters.com/article/idUSKBN249396).\" That misinformation,
+  introduction: At the beginning of the COVID-19 pandemic, Brazilian president Jair
+    Bolsonaro told the public without evidence that the now-disproven treatment hydroxychloroquine
+    [could “cure COVID-19](https://br.reuters.com/article/idUSKBN249396)." That misinformation,
     delivered definitively by the country’s leader, provoked the Brazlian public to
     try to [gain access to the medicine](https://www.nytimes.com/2020/06/13/world/americas/virus-brazil-bolsonaro-chloroquine.html).
     People with critical diseases like lupus, who need the drug for scientifically-backed
     treatment purposes were hospitalized after being unable[ to access the medication](https://noticias.r7.com/saude/falta-de-cloroquina-causa-internacao-de-pacientes-com-lupus-08062020),
-    due to hoarding by misinformed citizens. \n\nOn July 9, 2020 Bolsonaro appeared
-    in public claiming he had contracted the disease, and said that he would take
-    [hydroxychloroquine](https://learnaboutcovid19.org/questions/what-does-the-scientific-literature-say-about-using-hydroxychloroquine-to-prevent-treat-or-cure-covid-19/)
+    due to hoarding by misinformed citizens.
+  body: "On July 9, 2020 Bolsonaro appeared in public claiming he had contracted the
+    disease, and said that he would take [hydroxychloroquine](https://learnaboutcovid19.org/questions/what-does-the-scientific-literature-say-about-using-hydroxychloroquine-to-prevent-treat-or-cure-covid-19/)
     as a treatment. The president then falsely sold the medicine, again, as a \"savior.”
     When Bolsonaro’s Minister of Health Henrique Mandetta rejected [hydroxychloroquine](https://www.hindustantimes.com/world-news/bolsonaro-s-love-for-hydroxychloroquine-costs-brazil-another-health-minister/story-jkEFmRFR4sZYneLZxQjb1J.html)
     as a drug for the virus, Bolsonaro replaced him with another Minister, who left
@@ -2748,13 +2750,14 @@ report:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-12 22:37:53.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
       content_type_id: contributor
       revision: 2
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
+    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
@@ -3005,13 +3008,14 @@ report:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-12 22:37:53.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
       content_type_id: contributor
       revision: 2
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
+    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
@@ -3376,13 +3380,14 @@ report:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-12 22:37:53.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
       content_type_id: contributor
       revision: 2
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
+    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
@@ -3461,7 +3466,7 @@ report:
 - sys:
     id: 6B6HKhC8nkzrzqV2UKI34
     created_at: !ruby/object:DateTime 2020-11-10 10:57:47.836000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 20:18:00.127000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 01:11:26.183000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3495,34 +3500,34 @@ report:
     title: 'Hate Speech and Machine Learning: A Review of the Literature'
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/1Ne7vr9DQQebfWXlj69zXL/142b83d6841aa6f2748eae02f9fa5391/content-moderation-project_hate-speech_social-card.png"
-  body: "Warning: This report contains offensive language.\n\n## Executive Summary\n\nThis
-    document tackles three major topics: (1) definitions of hate speech, (2) technical
-    issues in the automated identification of hate speech, and (3) the experience
-    of hate speech moderation in practice. In each part, there are clear challenges
-    but also opportunities for platforms, academics, NGOs, and users to deepen cooperation.
-    \n\nResearchers, civil society, and platforms have all defined hate speech in
-    subtly different ways, which often leads to confusion about what is or is not
-    hate speech. In particular, the definitions differ in the protected groups or
-    characteristics they list. Most definitions specifically call attention to gender
-    and race, but some include other characteristics such as “veteran status” or no
-    characteristics at all. Agreeing on a common concept is a major, but often overlooked,
-    element of effectively detecting and countering hate speech online.\n\nOnce a
-    definition is chosen, the challenges shift towards the technical issues in detecting
-    hate speech content. Among others, there are issues in operationalizing concepts
-    (Is hate speech binary or continuous?), issues in obtaining data (Where does the
-    data come from? Who has annotated it?), and issues in algorithmic implementation
-    (What features? What algorithms?).\n\nIn practice, moderators are concerned about
-    overly broad or narrow systems as well as a lack of transparency. These issues
-    have different manifestations depending on the context (live-streaming or not)
-    and who is doing the moderation (community members or employees/contractors of
-    the platforms). This document only briefly touches upon this final issue, which
-    is treated in-depth in a document of its own.\n\n## What is Hate Speech?\n\nThe
-    definition of hate speech is a fundamental aspect of moderation, but one on which
-    there is little legal or cultural agreement. The United States with its first
-    amendment protections on freedom of speech represents one end of the spectrum.
-    In contrast, other governments (including liberal democracies) have criminalized
-    speech that attacks individuals on the basis of various characteristics. What
-    these characteristics are vary from country to country and often depend heavily
+  note: 'Warning: This report contains offensive language.'
+  body: "## Executive Summary\n\nThis document tackles three major topics: (1) definitions
+    of hate speech, (2) technical issues in the automated identification of hate speech,
+    and (3) the experience of hate speech moderation in practice. In each part, there
+    are clear challenges but also opportunities for platforms, academics, NGOs, and
+    users to deepen cooperation. \n\nResearchers, civil society, and platforms have
+    all defined hate speech in subtly different ways, which often leads to confusion
+    about what is or is not hate speech. In particular, the definitions differ in
+    the protected groups or characteristics they list. Most definitions specifically
+    call attention to gender and race, but some include other characteristics such
+    as “veteran status” or no characteristics at all. Agreeing on a common concept
+    is a major, but often overlooked, element of effectively detecting and countering
+    hate speech online.\n\nOnce a definition is chosen, the challenges shift towards
+    the technical issues in detecting hate speech content. Among others, there are
+    issues in operationalizing concepts (Is hate speech binary or continuous?), issues
+    in obtaining data (Where does the data come from? Who has annotated it?), and
+    issues in algorithmic implementation (What features? What algorithms?).\n\nIn
+    practice, moderators are concerned about overly broad or narrow systems as well
+    as a lack of transparency. These issues have different manifestations depending
+    on the context (live-streaming or not) and who is doing the moderation (community
+    members or employees/contractors of the platforms). This document only briefly
+    touches upon this final issue, which is treated in-depth in a document of its
+    own.\n\n## What is Hate Speech?\n\nThe definition of hate speech is a fundamental
+    aspect of moderation, but one on which there is little legal or cultural agreement.
+    The United States with its first amendment protections on freedom of speech represents
+    one end of the spectrum. In contrast, other governments (including liberal democracies)
+    have criminalized speech that attacks individuals on the basis of various characteristics.
+    What these characteristics are vary from country to country and often depend heavily
     on context. Social media platforms operate, however, in a global environment and
     often seek policies that can be applied across multiple jurisdictions. This section
     discusses the ways researchers, civil society organizations, and platforms deal
@@ -4067,7 +4072,87 @@ report:
     Twitch’s AutoMod and Reddit’s AutoModerator thus contrast on two dimensions—Reddit’s
     AutoModerator is fully transparent in its inner workings but requires a baseline
     level of technical knowledge to operate, while Twitch’s AutoMod is less transparent
-    but very user-friendly. <sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>\n"
+    but very user-friendly. <sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>"
+  additional_body_text: "On the dimension of technical complexity, however, these
+    two tools are both relatively simple. If we make the above assumptions about the
+    (less-transparent) way that Twitch’s AutoMod functions, neither tool has grappled
+    with the challenges in detection outlined above in this document. Technical simplicity
+    limits the usefulness of these tools primarily because filtering solely for strings
+    of text does not engage at all with context. In interviews with LGBTQ moderators
+    on Twitch, Seering and Kaufman found that some found AutoMod to be more trouble
+    than it was worth because it caught words that could be used as a slur in many
+    cases (e.g., “queer”) but that were used as self-affirming or simply as part of
+    a user’s identity description within this particular context. However, the simplicity
+    offered by the transparency in tools like Reddit’s AutoModerator allows moderators
+    to retain full control over the tool’s actions. Whereas machine learning driven
+    algorithms will in many cases be opaque to users in their decision-making processes
+    because of the complexity of the algorithms, moderators will know in every case
+    why a comment was flagged or removed by AutoModerator.\n\nThis leads to a broader
+    point that moves beyond just detection algorithms and into the space of moderation
+    as a whole. One of the major decisions that platforms have to make is where control
+    over moderation decisions resides (which may vary for different types of decisions).
+    The following examples show models ranging from mainly platform-driven moderation
+    to mainly user-driven moderation: \n\n- Twitter is one visible example of a platform
+    where most moderation decisions are made by the platform; Twitter has made it
+    clear that the moderation process typically begins with users reporting content,
+    which Twitter then reviews through various internal processes (likely including
+    some combination of algorithms and human review). Individual users’ moderation
+    tools are limited primarily to muting and blocking other users, which hides them
+    from their view individually but does not otherwise impact the offending user’s
+    capabilities. Note however that Twitter has been testing a “Hide Replies” feature
+    since July 2019 that allows users to hide tweets replying to their tweets from
+    public view, meaning that anyone else viewing the thread does not immediately
+    see these replies (though all hidden tweets are still viewable if a button is
+    clicked). See https://help.twitter.com/en/using-twitter/mentions-and-replies.
+    Instagram follows a similar platform-centric moderation model, and has a similar
+    style of feature granting users limited moderation powers on their own posts.\n-
+    Facebook uses a mixed model, with the platform driving most moderation of individuals’
+    posts on timelines while granting users much more authority within Groups and
+    Pages. Timeline moderation functions in a form that is, at least to first order,
+    conceptually similar to the way in which Twitter and Instagram are moderated,
+    with users’ abilities to moderate their feed being limited mainly to reporting,
+    unfollowing, unfriending, and blocking. Within Groups and Pages, however, moderators,
+    “admins”, and page owners have significantly more autonomy in removing comments,
+    and blocking, kicking, or temporarily muting users from posting on their Groups
+    or Pages. Groups can also be set to require moderator permission to join. Facebook
+    as a platform still monitors posts in these spaces and removes them not infrequently
+    without communicating with moderators, and in some cases removes entire Groups
+    or Pages for rule violations. It is also worth noting that Facebook has generally
+    been less open to allowing third-party tools to access content, meaning that user-created
+    moderation tools are much less common than on, e.g., Twitch, Discord, or Reddit.\n-
+    A third category of platforms places authority for the vast majority of basic
+    moderation decisions in the hands of volunteer user moderators. For example, Reddit
+    very rarely intervenes to remove or edit individual posts or comments within subreddits,
+    and interviewed moderators and livestreamers on Twitch were not aware of Twitch
+    ever intervening to remove comments on an individual stream or to ban users from
+    a particular stream. Instead, these platforms act primarily at the community-level,
+    temporarily or permanently removing or restricting entire communities (i.e., “quarantining”
+    on Reddit) when content is visibly rule-breaking and/or when moderators do not
+    display willingness or ability to moderate these communities. Note that both platforms
+    still do reserve the right to ban single users from the platform, e.g., Reddit’s
+    recent ban waves of Russian spam accounts.\n\nBroadly, the above models have two
+    dimensions—where the platform situates itself in the moderation process, and where
+    the platform situates users in the moderation process. The platform can focus
+    primarily on moderating individual users and individual pieces of content, as
+    on Twitter and Instagram, on moderating full communities like on Reddit and Twitch,
+    or on a mixture of the two. Similarly, the platform can grant users authority
+    to moderate what they see themselves and/or to moderate what their communities
+    see via the ability to become community moderators. A third dimension that is
+    often not explicitly visible or consciously decided is what moderation decisions
+    are delegated to algorithms. This decision is made both by platforms in their
+    internal processes and in what tools they design for users and by community moderators
+    in how they use available algorithmically-driven tools. As noted by Seering et
+    al. (2019), both communities and platforms evolve through conversations about
+    what types of content to permit, and delegation of authority to algorithms can
+    impact how these conversations unfold. On one extreme, the choice not to involve
+    any algorithms can result in an impossibly high workload for human moderators
+    in some cases but allows them to see and discuss every decision, which can naturally
+    lead to evolution of moderation philosophies over time. On the other extreme,
+    algorithms can detect problematic content at scale, but when humans are less involved
+    in moderation decisions, the ability to evolve in response to changing norms is
+    hindered. Many researchers in recent years have advocated for keeping humans actively
+    in the loop in algorithmic processes, developing tools that “support, rather than
+    supplant” users’ judgment (Seering et al., 2019).\n"
   footnotes:
   - sys:
       id: 1UVnaJ9b87EtY4vMJ5wtbP
@@ -4143,13 +4228,14 @@ report:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-12 22:37:53.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
       content_type_id: contributor
       revision: 2
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
+    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
@@ -4591,13 +4677,14 @@ report:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-12 22:37:53.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
       content_type_id: contributor
       revision: 2
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
+    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
@@ -5137,13 +5224,14 @@ report:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-12 22:37:53.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
       content_type_id: contributor
       revision: 2
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
+    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV

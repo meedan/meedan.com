@@ -11,7 +11,20 @@ lang: en-US
         {% include report_header.html theme="dark" %}
         <section>
             <div class="story-wrapper section-margin">
+                {% if page.note %}
+                    <div class="report-note">
+                        {{ page.note | markdownify }}
+                    </div>
+                {% endif %}
+                {% if page.introduction %}
+                    <div class="report-introduction">
+                        {{ page.introduction | markdownify }}
+                    </div>
+                {% endif %}
                 {{ page.body | markdownify }}
+                {% if page.additionalBodyText %}
+                    {{ page.additionalBodyText | markdownify }}
+                {% endif %}
                 <div class="report-sidebar">
                     <div class="report-sidebar-item">
                         <a href="/reports/{{ page.publication[0].slug}}" title="{{ page.publication[0].title }}">

@@ -169,19 +169,6 @@
         margin-bottom: var(--space-3);
     }
 
-    > p:first-child {
-        @include responsive('min-width: #{$width-tablet}') {
-            grid-column: 4/-1;
-        }
-        @include responsive('min-width: #{$width-desktop}') {
-            grid-column: 4/12;
-        }
-        font-family: $font-stack-d;
-        font-size: var(--scale-1);
-        color: var(--green);
-        a { color: var(--green); }
-    }
-
     sup {
         top: -.5rem;
         font-size: .8rem;
@@ -190,6 +177,34 @@
         }
     }
 
+}
+
+.report .report-note {
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-column: 4/-1;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        grid-column: 4/12;
+    }
+    font-family: $font-stack-mono;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--sunSet);
+    margin-bottom: var(--space-3);
+}
+
+.report .report-introduction {
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-column: 4/-1;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        grid-column: 4/12;
+    }
+    font-family: $font-stack-d;
+    font-size: var(--scale-1);
+    color: var(--green);
+    a { color: var(--green); }
+    margin-bottom: var(--space-3);
 }
 
 .report .story-wrapper ul,
@@ -211,6 +226,7 @@
 .report-sidebar {
     order: -1;
     grid-column: 1/4;
+    grid-row: span 6;
     margin-bottom: var(--space-6);
     font-size: 1.222rem;
 }
