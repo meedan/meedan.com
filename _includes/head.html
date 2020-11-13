@@ -20,9 +20,14 @@
     <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
     {% endfor %}
   {% endif %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" media="screen" type="text/css">
   {% if page.lang == 'ar' or page.body-ar %}
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  {% endif %}
+
+  {% if page.sys.content_type_id == 'report' %}
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
   {% endif %}
 
 </head>

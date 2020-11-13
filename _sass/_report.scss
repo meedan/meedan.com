@@ -147,6 +147,15 @@
 }
 
 .report .story-wrapper {
+    font-family: $font-stack-e;
+    font-size: 1.2rem;
+    line-height: 1.275;
+    em, strong {
+        font-family: $font-stack-e;
+    }
+    em {
+        font-style: italic;
+    }
     > p,
     a,
     ul,
@@ -160,13 +169,20 @@
             grid-column: 4/-1;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            grid-column: 4/11;
+            grid-column: 4/10;
         }
     }
     > p,
     > ul,
     > ol {
         margin-bottom: var(--space-3);
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-family: $font-stack-e;
+        font-weight: 700;
     }
 
     sup {
@@ -186,7 +202,6 @@
     @include responsive('min-width: #{$width-desktop}') {
         grid-column: 4/12;
     }
-    font-family: $font-stack-mono;
     font-size: 1rem;
     font-weight: 700;
     color: var(--sunSet);
@@ -272,6 +287,7 @@
 
 
 .report-footer {
+    font-family: $font-stack-e;
     padding-left: var(--space-3);
     padding-right: var(--space-3);
     font-size: 1rem;
@@ -315,6 +331,7 @@
 
 .report-references,
 .report-authors {
+    
     ul {
         list-style-type: none;
     }
