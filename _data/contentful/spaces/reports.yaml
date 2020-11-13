@@ -2429,7 +2429,7 @@ report:
 - sys:
     id: odqEjZ4nMa3Juk671k8wP
     created_at: !ruby/object:DateTime 2020-11-09 16:37:00.535000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 20:16:33.542000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 16:13:29.011000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -2463,24 +2463,25 @@ report:
     title: 'Content Moderation & Vulnerable Populations: LGBTQ Communities'
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/6641e90380faed6b03d1d065d4bf1811/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png"
-  body: "Content moderation and platform policy adversely affect marginalized groups
-    of people on social media. For example, members of the LGBTQ community face challenges
-    such as risks to privacy and personal safety depending on how a platform manages
-    and displays their personal information. Furthermore, LGBTQ people face risks
-    in seeking out resources related to their identity if they are in the closet or
-    living and working in a hostile environment. When LGBTQ people encounter hate
-    crimes online, evidence shows that they are not likely to report the crime. These
-    findings are troubling, especially because online communities can often be the
-    only space where LGBTQ people have access to a like-minded community, mentors,
-    and resources specific to their identity. Keeping all of these challenges in mind,
-    how do we design online spaces and make policy decisions in a way that protects
-    our most vulnerable users?\n\nThis document seeks to shed light on this question
-    by reviewing the findings of recent literature. The document first examples the
-    tension between the need for privacy and the need to connect with community online
-    for LBGTQ people. It then discusses underlying anxieties and safety concerns that
-    drive user wants and needs before turning to explore proposed design solutions.
-    Interwoven are three short example cases—Pride Month & Twitch, Streamers & Community
-    Safety, and Fandom & Community Regulation—that serve to illustrate various points.\n\n###
+  introduction: Content moderation and platform policy adversely affect marginalized
+    groups of people on social media. For example, members of the LGBTQ community
+    face challenges such as risks to privacy and personal safety depending on how
+    a platform manages and displays their personal information. Furthermore, LGBTQ
+    people face risks in seeking out resources related to their identity if they are
+    in the closet or living and working in a hostile environment. When LGBTQ people
+    encounter hate crimes online, evidence shows that they are not likely to report
+    the crime. These findings are troubling, especially because online communities
+    can often be the only space where LGBTQ people have access to a like-minded community,
+    mentors, and resources specific to their identity. Keeping all of these challenges
+    in mind, how do we design online spaces and make policy decisions in a way that
+    protects our most vulnerable users?
+  body: "This document seeks to shed light on this question by reviewing the findings
+    of recent literature. The document first examples the tension between the need
+    for privacy and the need to connect with community online for LBGTQ people. It
+    then discusses underlying anxieties and safety concerns that drive user wants
+    and needs before turning to explore proposed design solutions. Interwoven are
+    three short example cases—Pride Month & Twitch, Streamers & Community Safety,
+    and Fandom & Community Regulation—that serve to illustrate various points.\n\n##
     Privacy Needs Versus Finding Community\n\nThere is often a tension between the
     need for privacy and the need to connect with community online for LBGTQ people.
     Alexander Cho (2018), Carrasco & Kerne (2018), and DeVito et al. (2018) discuss
@@ -2505,7 +2506,7 @@ report:
     note that Facebook’s “Limit Past Posts” tool offers some of the reflexivity needed
     around LGBTQ privacy concerns, though the tool certainly benefits more than just
     LGBTQ users but, of course, does not solve all the challenges faced by these users.\n\n**Case
-    Study: Pride Month & Twitch**\n*Since 2018, Twitch has hosted Pride Month events
+    Study: Pride Month & Twitch**\n\n*Since 2018, Twitch has hosted Pride Month events
     each June highlighting LGBTQ content creators. This has included daily highlighting
     of one or more of these content creators on Twitch’s homepage, which drives traffic
     to their livestreams, in some cases increasing their number of concurrent viewers
@@ -2836,7 +2837,7 @@ report:
 - sys:
     id: 4u68N8i5XJdHR1idRXTjOu
     created_at: !ruby/object:DateTime 2020-11-09 20:26:26.449000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 21:02:38.048000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 15:07:55.095000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -2852,8 +2853,8 @@ report:
         type: Link
         linkType: Environment
     locale: en-US
-  title: 'Content Moderation Project: Executive Summary'
-  slug: content-moderation-project-executive-summary
+  title: Executive Summary
+  slug: executive-summary
   lead_image:
     sys:
       id: JypirkuzlbP67jl1FB2Sg
@@ -2870,49 +2871,51 @@ report:
     title: 'Content Moderation project: Executive Summary'
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/3fL3lWxf94GUPPrcSmJga7/f28cc5d945e6c95d7c356c39b3e2f928/Content_Moderation_project_Graphics-03.png"
-  body: "In the current digital media ecosystem, content moderation has become central
-    to conversations about managing violations of human rights on and through technology
-    platforms. Solutions for effective and equitable content moderation cannot be
-    led by any one sector but, at the same time, challenges in coordination among
-    stakeholders and disciplines complicate efforts for effective change. \n\nIn order
-    to address these challenges, Meedan’s Content Moderation Project has developed
-    a working group as an ongoing collaboration between stakeholders across industry,
-    academia, policy, and civil society groups to develop clear pathways to responsible
-    content moderation for technology platforms. Our goal is to standardize knowledge
-    across sectors by developing vocabularies, taxonomies, and a body of research
-    to enable informed, actionable discussions between different disciplines, stakeholders,
-    and the public.\n\nThrough this working group, Meedan’s work focused on three
-    central themes: \n\n- *pertinent content moderation challenges*, summarized into
-    a literature review and stakeholder report; \n- *content moderation in practice*,
+  introduction: 'In the current digital media ecosystem, content moderation has become
+    central to conversations about managing violations of human rights on and through
+    technology platforms. Solutions for effective and equitable content moderation
+    cannot be led by any one sector but, at the same time, challenges in coordination
+    among stakeholders and disciplines complicate efforts for effective change. '
+  body: "In order to address these challenges, Meedan’s Content Moderation Project
+    has developed a working group as an ongoing collaboration between stakeholders
+    across industry, academia, policy, and civil society groups to develop clear pathways
+    to responsible content moderation for technology platforms. Our goal is to standardize
+    knowledge across sectors by developing vocabularies, taxonomies, and a body of
+    research to enable informed, actionable discussions between different disciplines,
+    stakeholders, and the public.\n\nThrough this working group, Meedan’s work focused
+    on three central themes: \n\n- *pertinent content moderation challenges*, summarized
+    into a literature review and stakeholder report; \n- *content moderation in practice*,
     which culminated into an applied toolkit useful for civil society organizations;
     \n- and *applied research* through the 2019 Housing and Population Census in Kenya,
     where frameworks for how to both standardize and contextualize responses to hate
-    speech and harassment were developed and tested. \n\n### Outputs\n\nTo meet these
+    speech and harassment were developed and tested. \n\n## Outputs\n\nTo meet these
     objectives, we have developed four documents that contribute to improved research
     and practice at the intersection of product development, resource development,
-    content moderation, and hate speech. \n\n#### 1. A report covering our requirements
-    gathering research on the state of content moderation issues identified by different
-    affected stakeholders. \n\nThis research paid particular attention to the needs
-    of industry as they intersect with those of other stakeholder groups, with an
-    eye toward facilitating more productive and impactful conversations between industry,
-    external organizations, and advocates raising issues and questions around content
-    moderation practices and policies.\n\nFindings from this research demonstrated
-    an absence of baseline expertise in content moderation (and its externalities)
-    as a domain, inconsistent vocabulary within and between sectors, ill-defined benchmarks
-    for accountability, and instability in the maintenance of working relationships
-    across industry, civil society, regulatory bodies, and academia.\n\nAs a result,
-    we emphasize the importance of the Content Moderation Project serving as a bridge
-    amongst industry, academia, and civil society, connecting policy decisions and
-    conversations with practical experience from industry, building data collection
-    and case study opportunities to inform practical applications of content moderation
-    approaches that are standardized and scalable, but allow for contextualization
-    across languages and regions. \n\nThis research enabled us to successfully implement
-    an applied research initiative in Nairobi, Kenya, focused on the tools and processes
-    needed to address content moderation challenges in multi-language and unique digital
-    media ecosystems. \n\n#### 2. A review of literature on topic-specific content
-    moderation issues, summarizing important insights from the academic research field
-    for industry stakeholders. Our findings are focused on two key thematic areas:
-    \n\n**Hate Speech and Machine Learning**\nIn this section, we focus on the importance
+    content moderation, and hate speech. \n\n### 1. A report covering our requirements
+    gathering research on the [state of content moderation issues](https://meedan-dev.netlify.app/reports/working-group-and-literature-review-report/
+    \"Working Group and Literature Review Report\") identified by different affected
+    stakeholders. \n\nThis research paid particular attention to the needs of industry
+    as they intersect with those of other stakeholder groups, with an eye toward facilitating
+    more productive and impactful conversations between industry, external organizations,
+    and advocates raising issues and questions around content moderation practices
+    and policies.\n\nFindings from this research demonstrated an absence of baseline
+    expertise in content moderation (and its externalities) as a domain, inconsistent
+    vocabulary within and between sectors, ill-defined benchmarks for accountability,
+    and instability in the maintenance of working relationships across industry, civil
+    society, regulatory bodies, and academia.\n\nAs a result, we emphasize the importance
+    of the Content Moderation Project serving as a bridge amongst industry, academia,
+    and civil society, connecting policy decisions and conversations with practical
+    experience from industry, building data collection and case study opportunities
+    to inform practical applications of content moderation approaches that are standardized
+    and scalable, but allow for contextualization across languages and regions. \n\nThis
+    research enabled us to successfully implement an applied research initiative in
+    Nairobi, Kenya, focused on the tools and processes needed to address content moderation
+    challenges in multi-language and unique digital media ecosystems. \n\n### 2. A
+    review of literature on topic-specific content moderation issues, summarizing
+    important insights from the academic research field for industry stakeholders.
+    Our findings are focused on two key thematic areas: \n\n**[Hate Speech and Machine
+    Learning](https://meedan-dev.netlify.app/reports/hate-speech-and-machine-learning-a-review-of-the-literature/
+    \"Hate Speech and Machine Learning\")**\nIn this section, we focus on the importance
     of and challenges associated with different definitions of hate speech, identify
     technical issues in the automated identification of hate speech, and examine the
     experience of hate speech moderation in practice. In each part, we summarize the
@@ -2924,32 +2927,34 @@ report:
     the underlying anxieties and safety concerns that drive user wants and needs before
     turning to explore proposed design solutions. We explore this through three short
     example cases—Pride Month & Twitch, Streamers & Community Safety, and Fandom &
-    Community Regulation—that serve to illustrate various points.\n\n#### 3. A content
-    moderation toolkit for civil society that articulates a common vocabulary for
-    stakeholders in civil society, academia, and policy to have meaningful, practical
-    conversations with industry, through the development of a methodology for classifying
-    moderation methods and an inventory of moderation tools.\n\nThe methodology for
-    classifying moderation methods distinguishes components of the process that underlies
-    a ‘content moderation decision,’ and defines critical properties (contexts, operators,
-    and orientations) that characterize moderation product features. This toolkit
-    inventory applies the above  methodology by cataloguing the main moderation product
-    features, or tools, used to enforce content moderation decisions on social media
-    platforms. \n\nIn order to enable discussions of moderation features across platforms,
-    this inventory applies a proposed set of **classes of tools** that correspond
-    to content moderation actions as they are understood and named by the public,
-    and articulates variations of how platforms implement tools in these classes.
-    \n\nThis toolkit and inventory aim to inform stakeholders outside of industry
-    how to advocate for product or policy changes in an actionable language that is
-    informed by industry practices. This includes having a more intricate, nuanced
-    understanding of the different types of moderation and the types of actions they
-    perform, and how these actions can connect to the change stakeholders desire to
-    see. At the same time we aim to allow stakeholders to better understand the infrastructure/tooling
-    needed to support the implementation and enforcement of those policies (or their
-    goals/needs). \n\nUltimately, content moderation sits at the intersection of a
-    balance between harms to individuals and harms to society overall, with no easy
-    solutions. Our intent is for the vocabulary that emerges from this report to enable
-    more robust discussions around the trade-offs inherent in these topics.\n\n####
-    4. A case study from the Kenyan Election and Census along with a draft set of
+    Community Regulation—that serve to illustrate various points.\n\n### 3. [A content
+    moderation toolkit for civil society](https://meedan-dev.netlify.app/reports/toolkit-for-civil-society-and-moderation-inventory/
+    \"A content moderation toolkit for civil society\") that articulates a common
+    vocabulary for stakeholders in civil society, academia, and policy to have meaningful,
+    practical conversations with industry, through the development of a methodology
+    for classifying moderation methods and an inventory of moderation tools.\n\nThe
+    methodology for classifying moderation methods distinguishes components of the
+    process that underlies a ‘content moderation decision,’ and defines critical properties
+    (contexts, operators, and orientations) that characterize moderation product features.
+    This toolkit inventory applies the above  methodology by cataloguing the main
+    moderation product features, or tools, used to enforce content moderation decisions
+    on social media platforms. \n\nIn order to enable discussions of moderation features
+    across platforms, this inventory applies a proposed set of **classes of tools**
+    that correspond to content moderation actions as they are understood and named
+    by the public, and articulates variations of how platforms implement tools in
+    these classes. \n\nThis toolkit and inventory aim to inform stakeholders outside
+    of industry how to advocate for product or policy changes in an actionable language
+    that is informed by industry practices. This includes having a more intricate,
+    nuanced understanding of the different types of moderation and the types of actions
+    they perform, and how these actions can connect to the change stakeholders desire
+    to see. At the same time we aim to allow stakeholders to better understand the
+    infrastructure/tooling needed to support the implementation and enforcement of
+    those policies (or their goals/needs). \n\nUltimately, content moderation sits
+    at the intersection of a balance between harms to individuals and harms to society
+    overall, with no easy solutions. Our intent is for the vocabulary that emerges
+    from this report to enable more robust discussions around the trade-offs inherent
+    in these topics.\n\n### 4. [A case study from the Kenyan Election and Census](https://meedan-dev.netlify.app/reports/a-case-study-from-the-kenyan-election-and-census/
+    \"A case study from the Kenyan Election and Census\") along with a draft set of
     indicators. \n\nIn August of 2019, the Meedan team, in collaboration with Article19
     and the National Democratic Institute, held a coworking pop-up in Nairobi on the
     topics of hate speech, content moderation and disinformation, focused on collaboration
@@ -2971,29 +2976,30 @@ report:
     standardized annotation efforts to address hate speech and harassment online.
     \n\nWe generated our initial insights from two pre-workshop surveys, participatory
     design activities, workshop outputs and informal semi-structured interviews conducted
-    over the course of the week.\n\n### Key findings:\n\n- **Social media global standards
-    for content moderation do not represent how hate speech, misinformation, and disinformation
-    manifest in the Kenyan context.**\nSocial media posts that had been reported and
-    remained visible on social media platforms were reviewed by workshop participants;
-    they identified many of these posts as false propaganda, overt hate speech, harassment,
-    and incitement of violence. We developed a set of indicators (e.g., Incitement
-    to violence) that mapped to a subset of global standards for social media content
-    moderation policies. We translated these indicators into questions (e.g., Does
-    the post use a call to action?) to annotate social media posts. Participants struggled
-    to annotate content that expressed ethnic hate, violent misogyny, and anti-LGBTQI
-    sentiment through contemporary cultural or political references on social media;
-    some additionally noted a limited ability to articulate what the gaps in the indicators
-    were. \n\n- **Standard definitions and precise cues to identify hate speech and
-    disinformation are a critical step for enabling interoperability between CSO initiatives.**\nCivil
-    society stakeholders in our workshops used different cues to determine whether
-    an article or social media post contained hate speech, harassment, and disinformation.
-    Throughout the workshops, participants collaboratively reconciled different Kenyan
-    perspectives to work towards functional common definitions and regional cues that
-    are able to represent diverse cultures within Kenya. Through the process of developing
+    over the course of the week.\n\n## Key findings:\n\n- **1. Social media global
+    standards for content moderation do not represent how hate speech, misinformation,
+    and disinformation manifest in the Kenyan context.**\nSocial media posts that
+    had been reported and remained visible on social media platforms were reviewed
+    by workshop participants; they identified many of these posts as false propaganda,
+    overt hate speech, harassment, and incitement of violence. We developed a set
+    of indicators (e.g., Incitement to violence) that mapped to a subset of global
+    standards for social media content moderation policies. We translated these indicators
+    into questions (e.g., Does the post use a call to action?) to annotate social
+    media posts. Participants struggled to annotate content that expressed ethnic
+    hate, violent misogyny, and anti-LGBTQI sentiment through contemporary cultural
+    or political references on social media; some additionally noted a limited ability
+    to articulate what the gaps in the indicators were. \n\n- **2. Standard definitions
+    and precise cues to identify hate speech and disinformation are a critical step
+    for enabling interoperability between CSO initiatives.**\nCivil society stakeholders
+    in our workshops used different cues to determine whether an article or social
+    media post contained hate speech, harassment, and disinformation. Throughout the
+    workshops, participants collaboratively reconciled different Kenyan perspectives
+    to work towards functional common definitions and regional cues that are able
+    to represent diverse cultures within Kenya. Through the process of developing
     these definitions and cues, participants identified types of instances where social
     media global standards for content moderation fail in the Kenyan context, and
     organized around systematically investigating and documenting these gaps. \n\n-
-    **Identifying interventions for hate speech, misinformation, and disinformation
+    **3. Identifying interventions for hate speech, misinformation, and disinformation
     in Kenya requires ongoing collaboration with local stakeholders embedded in the
     Kenyan context.** \nAssessing the impact of social media posts and articles requires
     deep contextual knowledge of cultural discussion around current events, historical
@@ -3095,7 +3101,7 @@ report:
 - sys:
     id: 5ZXTHAj2Ovrzx3PfcuiEtF
     created_at: !ruby/object:DateTime 2020-11-09 21:56:38.417000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 20:16:50.422000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 23:51:19.894000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3129,36 +3135,37 @@ report:
     title: Working Group and Literature Review Report
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/2luEbAjp3A5AGPfyLaMUMk/6cdab82b9cb05e61ac5ac12aa56c9b53/content-moderation-project_working-group-and-literature-review-report_social-card.png"
-  body: "Advancements in content moderation on any platform strengthens the safety
-    and wellbeing of people across the current ecosystem of platforms and beyond.
+  introduction: Advancements in content moderation on any platform strengthens the
+    safety and wellbeing of people across the current ecosystem of platforms and beyond.
     We see an urgent need to develop consensus and shared collective knowledge among
     industry members and outside stakeholders to collectively identify and codify
     moderation solutions to work towards transparency and accountability of content
-    moderation systems.\n\nRegulatory response increasingly demands modes of transparency
-    that do not sufficiently engage with the complexity of content moderation systems
-    and subsequently do not produce desired outcomes in implementation. In order to
-    move towards responsible accountability of content moderation decisions, there
-    is a need to identify models of transparency and clarity for content decisions,
-    in concert with stakeholders across industry and the public, that recognize the
-    trade-offs and intricacies inherent in content moderation work.\n\nThe Content
-    Moderation Project (CMP) seeks to enable dialogue between the multiple platforms
-    engaged in content moderation and also enable dialogue and shared understandings
-    between platforms, academics, and civil society organizations. The project focused
-    on four key questions:\n\n1. How do we define content moderation?\n2. What are
-    the barriers to transparency in moderation decisions? (e.g., proprietary information,
-    obligations to investors, adversarial use, compromising user privacy, inconsistent
-    definition of transparency outcomes)\n3. How can collaboration across public and
-    industry stakeholders be improved?\n4. What are the professional standards of
-    the field of content moderation?\n\nIn order to explore these questions, CMP established
-    a working group of industry experts and academics. A key goal of the working group
-    was to identify processes by which the industry can work with outside stakeholders
-    to increase accountability in moderation decisions. The project has also sought
-    to identify differences in terminology and create a shared vocabulary and consistent
-    frameworks to assess and increase clarity about the operations of content moderation
-    systems. Finally, CMP has strengthened public discourse and clarity around content
-    moderation by fostering communication across policy-makers, media, academia, industry,
-    and civil society that is grounded in the operational intricacies of content moderation
-    enforcement.\n\n### The State of Content Moderation Issues: Requirements Gathering\n\nIn
+    moderation systems.
+  body: "Regulatory response increasingly demands modes of transparency that do not
+    sufficiently engage with the complexity of content moderation systems and subsequently
+    do not produce desired outcomes in implementation. In order to move towards responsible
+    accountability of content moderation decisions, there is a need to identify models
+    of transparency and clarity for content decisions, in concert with stakeholders
+    across industry and the public, that recognize the trade-offs and intricacies
+    inherent in content moderation work.\n\nThe Content Moderation Project (CMP) seeks
+    to enable dialogue between the multiple platforms engaged in content moderation
+    and also enable dialogue and shared understandings between platforms, academics,
+    and civil society organizations. The project focused on four key questions:\n\n1.
+    How do we define content moderation?\n2. What are the barriers to transparency
+    in moderation decisions? (e.g., proprietary information, obligations to investors,
+    adversarial use, compromising user privacy, inconsistent definition of transparency
+    outcomes)\n3. How can collaboration across public and industry stakeholders be
+    improved?\n4. What are the professional standards of the field of content moderation?\n\nIn
+    order to explore these questions, CMP established a working group of industry
+    experts and academics. A key goal of the working group was to identify processes
+    by which the industry can work with outside stakeholders to increase accountability
+    in moderation decisions. The project has also sought to identify differences in
+    terminology and create a shared vocabulary and consistent frameworks to assess
+    and increase clarity about the operations of content moderation systems. Finally,
+    CMP has strengthened public discourse and clarity around content moderation by
+    fostering communication across policy-makers, media, academia, industry, and civil
+    society that is grounded in the operational intricacies of content moderation
+    enforcement.\n\n## The State of Content Moderation Issues: Requirements Gathering\n\nIn
     order to better meet the challenges of achieving transparency and accountability
     of content moderation decisions, the first phase of CMP was dedicated to requirements
     gathering with stakeholders across industry, civil society, regulators, and research
@@ -3176,7 +3183,7 @@ report:
     and impactful conversations between industry, external organizations, and advocates
     raising issues and questions around content moderation practices and policies.
     Over the course of the conversation, we found that stakeholders had a range of
-    varying concerns:\n\n#### Industry\n\n- *Lack of a baseline expertise for content
+    varying concerns:\n\n### Industry\n\n- *Lack of a baseline expertise for content
     moderation as a singular discipline:* Disciplinary challenges arise in coordinating
     around solutions for content moderation; practitioners expressed difficulty in
     communicating between multiple industry members with differential knowledge or
@@ -3205,17 +3212,17 @@ report:
     impractical. Industry practitioners considered many external recommendations too
     broad to translate to product features or policy changes or unrealistic to implement
     in practice across many populations and use cases. These recommendations typically
-    failed to engage with three prominent categories of knowledge: \n• The affordances
+    failed to engage with three prominent categories of knowledge: \n\t- The affordances
     and limitations of current technology in developing solutions to online harms–
     in many cases, external organizations overestimated the capability of algorithmic
-    systems to detect harassment or hate speech.\n\n• Policy and design trade-offs
+    systems to detect harassment or hate speech.\n\t- Policy and design trade-offs
     inherent in decisions to prioritize certain outcomes or populations over others.
     One instance repeated almost uniformly across industry members was the negotiation
     of trade-offs between privacy and equitable participation online. In one high
     profile example, social media platforms are facing challenges in reducing the
     collection of user data and increasing encryption of user activities while minimizing
     the restrictions they impose on improving measures to monitor, verify, and moderate
-    harmful activity on the platform.\n\n• Operational limitations of changing content
+    harmful activity on the platform.\n\t- Operational limitations of changing content
     moderation processes, re-training content moderators, and gathering contextual
     information, and the need for standardized processes and data to operate at scale
     and maximize consistency.\n\n- *Limited opportunities to translate research into
@@ -3231,71 +3238,72 @@ report:
     of the relevant literature. Further constraints expressed were a need for specialized
     disciplinary training to interpret and curate the research, a lack of familiarity
     or patience with academic writing, and the absence of best practices for evaluating
-    the generalizability of findings from different methodologies for product implications.\n\n####
+    the generalizability of findings from different methodologies for product implications.\n\n###
     Civil Society Organizations (CSOs)\n- *Insufficient resources*: The demands of
     researching, verifying, archiving and mitigating harmful impacts of social media
     platforms require significantly more support. This includes the following key
-    challenges:\n\n• Limited funding sources: CSO stakeholders express anxiety about
-    “limited oxygen” among organizations doing similar work (e.g., finite funding,
+    challenges:\n\n\t- __Limited funding sources:__ CSO stakeholders express anxiety
+    about “limited oxygen” among organizations doing similar work (e.g., finite funding,
     partnerships, and publicity that organizations must compete for to continue operating).
     CSOs in the Global South reported knowing very few funding organizations in their
     country and identified social media companies as their most promising source of
-    funding.\n• Limited access to platform data: In the absence of access to detailed
-    platform data, CSOs must pursue alternative methods to identify patterns of disinformation,
-    misinformation, abuse, propaganda, and other sources of harm towards their target
-    populations. These methods are frequently more resource-intensive and frequently
-    yield fragmented or very local data with few options for validating that data.
-    They may also require actions (e.g., scraping data from a platform) that violate
-    platform terms of service, causing concerns among CSO stakeholders about putting
-    existing or prospective relationships with the social media company at risk. \n\n-
-    Knowledge gaps with industry: CSOs report having limited knowledge of content
-    moderation processes, operations, technical challenges, enforcement standards,
-    and factors in decision-making within a social media company.\n\n- Difficulty
-    establishing and maintaining relationships at social media companies with clear
-    impact (and lacking agency in sustaining those relationships):\n\n• CSO stakeholders
-    expressed frustration with the difficulty of maintaining and further developing
-    impactful relationships with platform representatives in the long term, describing
-    precarious relationships with companies even after establishing contact, holding
-    meetings, and working with that company on topic or region-specific issues. Some
-    perceived a bottleneck in CSO access to social media companies as a result of
-    a limited number or platform representatives dedicated to their region or issue.
-    These concerns were strongly featured in discussions at events convening activists
-    and CSOs, which included sharing strategies for establishing contact with effective
-    employees at social media companies, finding employees to advocate for their organization
-    within a company (the term “champion” was featured across multiple contexts),
-    and how to recover from a champion leaving a social media platform.\n\n• Several
-    advocates mentioned seeing higher impact from engaging directly with certain employees
-    at social media companies over others. In particular, they emphasized the importance
-    of communicating with product designers and engineers over policy representatives,
-    who were often perceived as interventions by the company to manage public relations
-    with external organizations. \n\n#### Regulatory Bodies (Government and Private)\n\n-
-    *Informing the public:* Development of an informed public can drive responsible
-    and timely legislation towards platform accountability.\n\n- *Lack of clear definitions:*
-    Grounding and refining inconsistent and vague definitions around key issues are
-    necessary before instituting concrete, measurable, and enforceable outcomes through
-    regulation. Professionals working in EU and US regulation highlighted Transparency,
-    Accountability, Online harms, Radicalization, Harmful speech and Hate speech as
-    key terms that were ill-defined for social media regulation.\n\n- *Anticipating
-    and mitigating externalities of social media regulation:* This includes increasing
-    risk of harms towards vulnerable populations, enabling the identification and
-    suppression of dissidents by violent or authoritarian regimes, and obstructing
-    the documentation of human rights violations captured through citizen journalism
-    methods using social media platforms for dissemination. \n\n- *Knowledge transfer:*
-    Validating and contextualizing metrics released in social media transparency reports
-    supports organizations’ aims.\n\n#### Research Institutions\n\n- *Difficulty in
-    building integrated, sustained research partnerships with technology platforms.*\n\n-
-    *Communicating the implications of their research:* This especially includes communications
-    to industry practitioners and facilitating productive applications of their research
-    findings.\n\n- *Data collection:* Collecting data becomes difficult with decreasing
-    access to information from platform APIs and limited public datasets.\n\n- *Knowledge
-    gaps with industry:* Researchers lack insight into the challenges of online content
-    moderation due to opacity in how public platform policies (or community standards)
-    are implemented in algorithmic systems, content moderator work, and platform design
-    at social media companies. \n\nIn addition, we identified key adjacent public
-    efforts, including the [Dangerous Speech Project](https://dangerousspeech.org
-    \"Dangerous Speech Project\"), the [Change the Terms](https://www.changetheterms.org
-    \"Change the Terms\") initiative, the [Trust and Safety Professional Association](https://www.tspa.info
-    \"Trust and Safety Professional Association\"), the [Santa Clara Principles](https://www.santaclaraprinciples.org
+    funding.\n\t- __Limited access to platform data:__ In the absence of access to
+    detailed platform data, CSOs must pursue alternative methods to identify patterns
+    of disinformation, misinformation, abuse, propaganda, and other sources of harm
+    towards their target populations. These methods are frequently more resource-intensive
+    and frequently yield fragmented or very local data with few options for validating
+    that data. They may also require actions (e.g., scraping data from a platform)
+    that violate platform terms of service, causing concerns among CSO stakeholders
+    about putting existing or prospective relationships with the social media company
+    at risk. \n\n- *Knowledge gaps with industry:* CSOs report having limited knowledge
+    of content moderation processes, operations, technical challenges, enforcement
+    standards, and factors in decision-making within a social media company.\n\n-
+    *Difficulty establishing and maintaining relationships at social media companies
+    with clear impact (and lacking agency in sustaining those relationships):*\n\t-
+    CSO stakeholders expressed frustration with the difficulty of maintaining and
+    further developing impactful relationships with platform representatives in the
+    long term, describing precarious relationships with companies even after establishing
+    contact, holding meetings, and working with that company on topic or region-specific
+    issues. Some perceived a bottleneck in CSO access to social media companies as
+    a result of a limited number or platform representatives dedicated to their region
+    or issue. These concerns were strongly featured in discussions at events convening
+    activists and CSOs, which included sharing strategies for establishing contact
+    with effective employees at social media companies, finding employees to advocate
+    for their organization within a company (the term “champion” was featured across
+    multiple contexts), and how to recover from a champion leaving a social media
+    platform.\n\t- Several advocates mentioned seeing higher impact from engaging
+    directly with certain employees at social media companies over others. In particular,
+    they emphasized the importance of communicating with product designers and engineers
+    over policy representatives, who were often perceived as interventions by the
+    company to manage public relations with external organizations. \n\n### Regulatory
+    Bodies (Government and Private)\n\n- *Informing the public:* Development of an
+    informed public can drive responsible and timely legislation towards platform
+    accountability.\n\n- *Lack of clear definitions:* Grounding and refining inconsistent
+    and vague definitions around key issues are necessary before instituting concrete,
+    measurable, and enforceable outcomes through regulation. Professionals working
+    in EU and US regulation highlighted Transparency, Accountability, Online harms,
+    Radicalization, Harmful speech and Hate speech as key terms that were ill-defined
+    for social media regulation.\n\n- *Anticipating and mitigating externalities of
+    social media regulation:* This includes increasing risk of harms towards vulnerable
+    populations, enabling the identification and suppression of dissidents by violent
+    or authoritarian regimes, and obstructing the documentation of human rights violations
+    captured through citizen journalism methods using social media platforms for dissemination.
+    \n\n- *Knowledge transfer:* Validating and contextualizing metrics released in
+    social media transparency reports supports organizations’ aims.\n\n### Research
+    Institutions\n\n- *Difficulty in building integrated, sustained research partnerships
+    with technology platforms.*\n\n- *Communicating the implications of their research:*
+    This especially includes communications to industry practitioners and facilitating
+    productive applications of their research findings.\n\n- *Data collection:* Collecting
+    data becomes difficult with decreasing access to information from platform APIs
+    and limited public datasets.\n\n- *Knowledge gaps with industry:* Researchers
+    lack insight into the challenges of online content moderation due to opacity in
+    how public platform policies (or community standards) are implemented in algorithmic
+    systems, content moderator work, and platform design at social media companies.
+    \n\nIn addition, we identified key adjacent public efforts, including the [Dangerous
+    Speech Project](https://dangerousspeech.org \"Dangerous Speech Project\"), the
+    [Change the Terms](https://www.changetheterms.org \"Change the Terms\") initiative,
+    the [Trust and Safety Professional Association](https://www.tspa.info \"Trust
+    and Safety Professional Association\"), the [Santa Clara Principles](https://www.santaclaraprinciples.org
     \"Santa Clara Principles\") working group, [Content Moderation at Scale](https://comoatscale.com
     \"Content Moderation at Scale\") series, and the ongoing development of experimental
     course on [Trust and Safety Engineering](https://online.stanford.edu/courses/cs152-trust-and-safety-engineering?courseId=93512631&method=load
@@ -3304,8 +3312,8 @@ report:
     efforts and responding to the needs finding research in the following key ways:\n1.
     Serving as a bridge amongst industry, academia and civil society\n2. Connecting
     policy decisions and conversations with practical experience from industry\n3.
-    Collecting data and developing case studies to inform this work\n\n### Description
-    and Structure and Participants of Working Group\n\n#### Academic Working Group
+    Collecting data and developing case studies to inform this work\n\n## Description
+    and Structure and Participants of Working Group\n\n### Academic Working Group
     Composition\n\nA key objective in convening an academic research working group
     is to meet the needs of industry practitioners who must balance investigating
     relevant internal and external research with the demanding, and often urgent,
@@ -3329,18 +3337,18 @@ report:
     Foundation)\n5. Grace Mutung’u (Kenya ICT Action Network)\n6. Fayika Nova (Marquette
     University)\n7. Priscilla Regina Da Silva (Institute for Technology and Society
     of Rio de Janeiro)\n8. Joseph Seering (Carnegie Mellon University)\n9. Principle
-    Investigator: Katherine Lo (Meedan and UC Irvine)*\n\n#### Advisors\n1. Sarah
-    Roberts (UCLA Center for Critical Internet Inquiry)\n2. Alice Marwick (University
-    of North Carolina at Chapel Hill, Data & Society)\n3. Casey Fiesler (University
-    of Colorado Boulder)\n4. Amy Hasinoff (University of Colorado Denver)\n5. Sean
-    Li (Discord)\n\n#### Organizational Partners\n1. UCLA Center for Critical Internet
-    Inquiry (C2I2) \n2. Article 19\n3. Lawyers Hub Kenya\n4. The International Association
-    of Women in Radio & Television (IAWRT), Kenya\n\n### Literature Reviews\n\n####
-    Hate Speech and Machine Learning: A Review of the Literature\n\nThis output tackles
-    three major topics: (1) definitions of hate speech, (2) technical issues in the
-    automated identification of hate speech, and (3) the experience of hate speech
-    moderation in practice. In each part, there are clear challenges but also opportunities
-    for platforms, academics, NGOs, and users to deepen cooperation. \n\nResearchers,
+    Investigator: Katherine Lo (Meedan and UC Irvine)*\n\n### Advisors\n1. Sarah Roberts
+    (UCLA Center for Critical Internet Inquiry)\n2. Alice Marwick (University of North
+    Carolina at Chapel Hill, Data & Society)\n3. Casey Fiesler (University of Colorado
+    Boulder)\n4. Amy Hasinoff (University of Colorado Denver)\n5. Sean Li (Discord)\n\n###
+    Organizational Partners\n1. UCLA Center for Critical Internet Inquiry (C2I2) \n2.
+    Article 19\n3. Lawyers Hub Kenya\n4. The International Association of Women in
+    Radio & Television (IAWRT), Kenya\n\n## Literature Reviews\n\n### Hate Speech
+    and Machine Learning: A Review of the Literature\n\nThis output tackles three
+    major topics: (1) definitions of hate speech, (2) technical issues in the automated
+    identification of hate speech, and (3) the experience of hate speech moderation
+    in practice. In each part, there are clear challenges but also opportunities for
+    platforms, academics, NGOs, and users to deepen cooperation. \n\nResearchers,
     civil society, and platforms have all defined hate speech in subtly different
     ways, which often leads to confusion about what is or is not hate speech. In particular,
     the definitions differ in the protected groups or characteristics they list. Most
@@ -3357,7 +3365,7 @@ report:
     on the context (live-streaming or not) and who is doing the moderation (community
     members or employees/contractors of the platforms). This document only briefly
     touches upon this final issue, which is treated in-depth in a document of its
-    own.\n\n#### Content Moderation & Vulnerable Populations: LGBTQ Communities\n\nContent
+    own.\n\n### Content Moderation & Vulnerable Populations: LGBTQ Communities\n\nContent
     moderation and platform policy adversely affect marginalized groups of people
     on social media. For example, members of the LGBTQ community face challenges such
     as risks to privacy and personal safety depending on how a platform manages and
@@ -3466,7 +3474,7 @@ report:
 - sys:
     id: 6B6HKhC8nkzrzqV2UKI34
     created_at: !ruby/object:DateTime 2020-11-10 10:57:47.836000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 01:51:47.009000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 15:31:30.650000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3501,33 +3509,34 @@ report:
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/1Ne7vr9DQQebfWXlj69zXL/142b83d6841aa6f2748eae02f9fa5391/content-moderation-project_hate-speech_social-card.png"
   note: 'Warning: This report contains offensive language.'
-  body: "## Executive Summary\n\nThis document tackles three major topics: (1) definitions
-    of hate speech, (2) technical issues in the automated identification of hate speech,
-    and (3) the experience of hate speech moderation in practice. In each part, there
+  introduction: 'This document tackles three major topics: (1) definitions of hate
+    speech, (2) technical issues in the automated identification of hate speech, and
+    (3) the experience of hate speech moderation in practice. In each part, there
     are clear challenges but also opportunities for platforms, academics, NGOs, and
-    users to deepen cooperation. \n\nResearchers, civil society, and platforms have
-    all defined hate speech in subtly different ways, which often leads to confusion
-    about what is or is not hate speech. In particular, the definitions differ in
-    the protected groups or characteristics they list. Most definitions specifically
-    call attention to gender and race, but some include other characteristics such
-    as “veteran status” or no characteristics at all. Agreeing on a common concept
-    is a major, but often overlooked, element of effectively detecting and countering
-    hate speech online.\n\nOnce a definition is chosen, the challenges shift towards
-    the technical issues in detecting hate speech content. Among others, there are
-    issues in operationalizing concepts (Is hate speech binary or continuous?), issues
-    in obtaining data (Where does the data come from? Who has annotated it?), and
-    issues in algorithmic implementation (What features? What algorithms?).\n\nIn
-    practice, moderators are concerned about overly broad or narrow systems as well
-    as a lack of transparency. These issues have different manifestations depending
-    on the context (live-streaming or not) and who is doing the moderation (community
-    members or employees/contractors of the platforms). This document only briefly
-    touches upon this final issue, which is treated in-depth in a document of its
-    own.\n\n## What is Hate Speech?\n\nThe definition of hate speech is a fundamental
-    aspect of moderation, but one on which there is little legal or cultural agreement.
-    The United States with its first amendment protections on freedom of speech represents
-    one end of the spectrum. In contrast, other governments (including liberal democracies)
-    have criminalized speech that attacks individuals on the basis of various characteristics.
-    What these characteristics are vary from country to country and often depend heavily
+    users to deepen cooperation. '
+  body: "Researchers, civil society, and platforms have all defined hate speech in
+    subtly different ways, which often leads to confusion about what is or is not
+    hate speech. In particular, the definitions differ in the protected groups or
+    characteristics they list. Most definitions specifically call attention to gender
+    and race, but some include other characteristics such as “veteran status” or no
+    characteristics at all. Agreeing on a common concept is a major, but often overlooked,
+    element of effectively detecting and countering hate speech online.\n\nOnce a
+    definition is chosen, the challenges shift towards the technical issues in detecting
+    hate speech content. Among others, there are issues in operationalizing concepts
+    (Is hate speech binary or continuous?), issues in obtaining data (Where does the
+    data come from? Who has annotated it?), and issues in algorithmic implementation
+    (What features? What algorithms?).\n\nIn practice, moderators are concerned about
+    overly broad or narrow systems as well as a lack of transparency. These issues
+    have different manifestations depending on the context (live-streaming or not)
+    and who is doing the moderation (community members or employees/contractors of
+    the platforms). This document only briefly touches upon this final issue, which
+    is treated in-depth in a document of its own.\n\n## What is Hate Speech?\n\nThe
+    definition of hate speech is a fundamental aspect of moderation, but one on which
+    there is little legal or cultural agreement. The United States with its first
+    amendment protections on freedom of speech represents one end of the spectrum.
+    In contrast, other governments (including liberal democracies) have criminalized
+    speech that attacks individuals on the basis of various characteristics. What
+    these characteristics are vary from country to country and often depend heavily
     on context. Social media platforms operate, however, in a global environment and
     often seek policies that can be applied across multiple jurisdictions. This section
     discusses the ways researchers, civil society organizations, and platforms deal
@@ -3615,52 +3624,55 @@ report:
     as one’s race, ethnicity, gender identity, religion, sexual orientation, or disability.
     Hateful speech online often takes the form of ad hominem attacks, which invoke
     prejudicial feelings over intellectual arguments in order to avoid discussion
-    of the topic at hand by attacking a person’s character or attributes.”\n[https://onlineharassmentfieldmanual.pen.org/defining-online-harassment-a-glossary-of-terms/
-    ](https://onlineharassmentfieldmanual.pen.org/defining-online-harassment-a-glossary-of-terms/
-    \"Online Harassment Field Manual\")\n\n#### Women’s Media Center Speech Project\n\n“Hate
-    speech has no uniform legal definition. Online, this means that every social media
-    platform has its own unique definition . As a baseline, however, hate speech is
-    language or imagery that denigrates, insults, threatens, or targets and individual
-    or groups of people on the basis of their identity – gender, based on race, color,
-    religion, national origin, sexual orientation, disability, or other traits. There
-    is no hate speech exception to the First Amendment. Hate speech usually has specific,
-    discriminatory harms rooted in history and usually employs words, action and the
-    use of images meant to deliberately shame, annoy, scare, embarrass, humiliate,
-    denigrate, or threaten another person. Most legal definitions of harassment take
-    into consideration the intent of the harasser. This, however, fails to translate
-    usefully in the case of cyberharassment, the use of the Internet, electronic and
-    mobile applications for these purposes. In the case of technology enabled harassment
-    and abuse, intent can be difficult to prove and diffuse. For example, most laws
-    do not currently consider third party communications to be harassing. So, whereas
-    the law understands sending someone a threatening message for the purposes of
-    extortion, it does not understand the non-consensual sharing of sexual images
-    to someone other than the subject of the photograph illegal or hateful.” [https://www.womensmediacenter.com/speech-project/online-abuse-101#hateSpeech](https://www.womensmediacenter.com/speech-project/online-abuse-101#hateSpeech
-    \"Womens Media Center\")\n\n#### Dangerous Speech: A Practical Guide\n\n“Most
-    definitions specify that to be considered hate speech, messages must be directed
-    at particular types of groups, such as people of the same religion, race, or ethnicity.
-    Some definitions also add disability, sexual orientation, gender, sex, age culture,
-    belief, or life stance. For example section 135a of Norway’s penal code defines
-    hate speech as “threatening or insulting anyone, or inciting hatred or persecution
-    of or contempt for anyone because of his or her a) skin color or national or ethnic
-    origin, b) religion or life stance, or c) homosexuality, lifestyle or orientation”
-    (Norwegian Penal Code). South Africa’s hate speech law is one of the most detailed
-    and comprehensive, specifying groups and attributes that are absent from other
-    countries’ laws such as pregnancy, marital status, conscience, language, color,
-    and “any other group where discrimination based on that other ground (i) causes
-    or perpetuates systemic disadvantage; (ii) undermines human dignity; or (iii)
-    adversely affects the equal enjoyment of a person’s rights and freedoms in a serious
-    manner that is comparable to discrimination […]” (Promotion of Equality, 2000,
-    pp. 3-5). Most countries’ laws don’t prohibit hate speech at all, instead criminalizing
-    other related forms of speech such as incitement to hatred.\n\nBroad or vague
-    definitions of hate speech and related crimes can jeopardize freedom of speech,
-    since vagueness allows for subjective application. *Indeed, laws against hate
-    speech or hateful speech are often misused to punish and silence journalists,
-    dissenters, and minorities, recently in countries as varied as Hungary, India,
-    Rwanda, Kazakhstan, and Bahrain.*\n\nWe focus instead on Dangerous Speech since
-    it is a narrower, more specific category, defined not by a subjective emotion
-    such as hatred, but by its capacity to inspire a harm that is all too easy to
-    identify – mass violence – and that almost everyone can agree on wanting to prevent.”\n[https://dangerousspeech.org/guide/
-    ](https://dangerousspeech.org/guide/ \"Dangerous Speech\")\n\n### Platform Perspectives\n\nMany,
+    of the topic at hand by attacking a person’s character or attributes.”\n[Defining
+    “Online Abuse”: A Glossary of Terms](https://onlineharassmentfieldmanual.pen.org/defining-online-harassment-a-glossary-of-terms/
+    \"Defining “Online Abuse”: A Glossary of Terms\")\n\n#### Women’s Media Center
+    Speech Project\n\n“Hate speech has no uniform legal definition. Online, this means
+    that every social media platform has its own unique definition . As a baseline,
+    however, hate speech is language or imagery that denigrates, insults, threatens,
+    or targets and individual or groups of people on the basis of their identity –
+    gender, based on race, color, religion, national origin, sexual orientation, disability,
+    or other traits. There is no hate speech exception to the First Amendment. Hate
+    speech usually has specific, discriminatory harms rooted in history and usually
+    employs words, action and the use of images meant to deliberately shame, annoy,
+    scare, embarrass, humiliate, denigrate, or threaten another person. Most legal
+    definitions of harassment take into consideration the intent of the harasser.
+    This, however, fails to translate usefully in the case of cyberharassment, the
+    use of the Internet, electronic and mobile applications for these purposes. In
+    the case of technology enabled harassment and abuse, intent can be difficult to
+    prove and diffuse. For example, most laws do not currently consider third party
+    communications to be harassing. So, whereas the law understands sending someone
+    a threatening message for the purposes of extortion, it does not understand the
+    non-consensual sharing of sexual images to someone other than the subject of the
+    photograph illegal or hateful.” \n[Women's Media Centre, Speech Project, Online
+    Abuse 101](https://www.womensmediacenter.com/speech-project/online-abuse-101#hateSpeech
+    \"Women's Media Centre, Speech Project, Online Abuse 101\")\n\n#### Dangerous
+    Speech: A Practical Guide\n\n“Most definitions specify that to be considered hate
+    speech, messages must be directed at particular types of groups, such as people
+    of the same religion, race, or ethnicity. Some definitions also add disability,
+    sexual orientation, gender, sex, age culture, belief, or life stance. For example
+    section 135a of Norway’s penal code defines hate speech as “threatening or insulting
+    anyone, or inciting hatred or persecution of or contempt for anyone because of
+    his or her a) skin color or national or ethnic origin, b) religion or life stance,
+    or c) homosexuality, lifestyle or orientation” (Norwegian Penal Code). South Africa’s
+    hate speech law is one of the most detailed and comprehensive, specifying groups
+    and attributes that are absent from other countries’ laws such as pregnancy, marital
+    status, conscience, language, color, and “any other group where discrimination
+    based on that other ground (i) causes or perpetuates systemic disadvantage; (ii)
+    undermines human dignity; or (iii) adversely affects the equal enjoyment of a
+    person’s rights and freedoms in a serious manner that is comparable to discrimination
+    […]” (Promotion of Equality, 2000, pp. 3-5). Most countries’ laws don’t prohibit
+    hate speech at all, instead criminalizing other related forms of speech such as
+    incitement to hatred.\n\nBroad or vague definitions of hate speech and related
+    crimes can jeopardize freedom of speech, since vagueness allows for subjective
+    application. *Indeed, laws against hate speech or hateful speech are often misused
+    to punish and silence journalists, dissenters, and minorities, recently in countries
+    as varied as Hungary, India, Rwanda, Kazakhstan, and Bahrain.*\n\nWe focus instead
+    on Dangerous Speech since it is a narrower, more specific category, defined not
+    by a subjective emotion such as hatred, but by its capacity to inspire a harm
+    that is all too easy to identify – mass violence – and that almost everyone can
+    agree on wanting to prevent.”\n[Dangerous Speech: A Practical guide](https://dangerousspeech.org/guide/
+    \"Dangerous Speech: A Practical guide\")\n\n### Platform Perspectives\n\nMany,
     though not all, major social platforms define hate speech or content that may
     be associated with violent language or attacks on people based on protected characteristics.
     These are typically found in the community guidelines.\n\nOne unifying characteristic
@@ -3691,22 +3703,24 @@ report:
     terms by communities in automated systems and hate speech? For example, \n- How
     do they operationalize across different cultural contexts, such as hateful terms
     for political protestors in certain regions, and emerging hateful terms (such
-    as the “ok” hand sign now being associated with white supremacy?):  [https://www.npr.org/2019/09/26/764728163/the-ok-hand-gesture-is-now-listed-as-a-symbol-of-hate](https://www.npr.org/2019/09/26/764728163/the-ok-hand-gesture-is-now-listed-as-a-symbol-of-hate
-    \"the ok hand gesture is now listed as a symbol of hate\")\n\nGlobal contexts
-    complicate definitions of hate speech for platforms to cleanly adopt a policy.
-    As Facebook stated in a blog post about the issue: “Although a number of countries
-    have laws against hate speech, their definitions of it vary significantly. In
-    Germany, for example, laws forbid incitement to hatred; you could find yourself
+    as [the “ok” hand sign now being associated with white supremacy?](https://www.npr.org/2019/09/26/764728163/the-ok-hand-gesture-is-now-listed-as-a-symbol-of-hate
+    \"the “ok” hand sign now being associated with white supremacy?\")):  \n\nGlobal
+    contexts complicate definitions of hate speech for platforms to cleanly adopt
+    a policy. As Facebook stated in a blog post about the issue: “Although a number
+    of countries have laws against hate speech, their definitions of it vary significantly.
+    In Germany, for example, laws forbid incitement to hatred; you could find yourself
     the subject of a police raid if you post such content online. In the US, on the
     other hand, even the most vile kinds of speech are legally protected under the
     US Constitution. People who live in the same country — or next door — often have
-    different levels of tolerance for speech about protected characteristics.” ([https://newsroom.fb.com/news/2017/06/hard-questions-hate-speech/](https://newsroom.fb.com/news/2017/06/hard-questions-hate-speech/
-    \"Hard questions hate speech\"))\n\nIt is also unclear whether platforms should
-    operate in isolation or consider the wider societal context or actions of people
-    on other platforms. Twitch notably writes that the platform, “will now consider
-    verifiable harassing conduct that takes place off-Twitch when making moderation
-    decisions for actions that occur on Twitch. ([https://blog.twitch.tv/en/2018/02/08/twitch-community-guidelines-updates-f2e82d87ae58/](https://blog.twitch.tv/en/2018/02/08/twitch-community-guidelines-updates-f2e82d87ae58/
-    \"Twitch community guidelines updates\")). This is a statement that we did not
+    different levels of tolerance for speech about protected characteristics.” \n[Hard
+    Questions: Who Should Decide What Is Hate Speech in an Online Global Community?](https://about.fb.com/news/2017/06/hard-questions-hate-speech/
+    \"Hard Questions: Who Should Decide What Is Hate Speech in an Online Global Community?\")\n\nIt
+    is also unclear whether platforms should operate in isolation or consider the
+    wider societal context or actions of people on other platforms. Twitch notably
+    writes that the platform, “[will now consider verifiable harassing conduct that
+    takes place off-Twitch when making moderation decisions for actions that occur
+    on Twitch](https://blog.twitch.tv/en/2018/02/08/twitch-community-guidelines-updates-f2e82d87ae58/
+    \"Twitch Community Guidelines Updates\")\".\nThis is a statement that we did not
     see explicitly by other platforms.\n\n### Formal Platform Definitions\n\nIn addition
     to gathering details about academic definitions, we also went through major platforms
     and found their content policies on hate speech.\n\nWhen not available, we captured
@@ -3729,99 +3743,102 @@ report:
     helps us better understand why they shared it. Where the intention is unclear,
     we may remove the content.\n\nWe allow humor and social commentary related to
     these topics. In addition, we believe that people are more responsible when they
-    share this kind of commentary using their authentic identity.”\n\nBlog post about
-    this definition here: [https://newsroom.fb.com/news/2017/06/hard-questions-hate-speech/](https://newsroom.fb.com/news/2017/06/hard-questions-hate-speech/
-    \"Hard questions hate speech/\")\n\n([https://www.facebook.com/communitystandards/objectionable_content](https://www.facebook.com/communitystandards/objectionable_content
-    \"objectionable content\") on 8/9/19)\n\n#### Twitter\n“__Hateful conduct__ [https://help.twitter.com/en/rules-and-policies/twitter-rules#hateful-conduct](https://help.twitter.com/en/rules-and-policies/twitter-rules#hateful-conduct
-    \"Twitter rules and policies: hateful conduct\"): You may not promote violence
-    against or directly attack or threaten other people on the basis of race, ethnicity,
-    national origin, sexual orientation, gender, gender identity, religious affiliation,
-    age, disability, or serious disease.” ([https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy](https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy
-    \"Twitter rules: hateful conduct policy\") on 8/9/19)\n\n#### Tumblr\n“__Hate
-    Speech__. Don't encourage violence or hatred. Don't post content for the purpose
-    of promoting or inciting the hatred of, or dehumanizing, individuals or groups
-    based on race, ethnic or national origin, religion, gender, gender identity, age,
-    veteran status, sexual orientation, disability or disease. If you encounter content
-    that violates our hate speech policies, please report it.\n\nKeep in mind that
-    a post might be mean, tasteless, or offensive without necessarily encouraging
-    violence or hatred. In cases like that, you can always block the person who made
-    the post—or, if you're up for it, you can express your concerns to them directly,
-    or use Tumblr to speak up, challenge ideas, raise awareness or generate discussion
-    and debate.”\n([https://www.tumblr.com/policy/en/community](https://www.tumblr.com/policy/en/community
-    \"Tumblr community\") as of 8/9/19)\n\n#### Twitch\n\n“Hateful conduct is any
-    content or activity that promotes, encourages, or facilitates discrimination,
-    denigration, objectification, harassment, or violence based on the following characteristics,
-    and is strictly prohibited: \n- Race, ethnicity, or national origin\n- Religion\n-
-    Sex, Gender, or Gender Identity\n- Sexual Orientation\n- Age\n- Disability or
-    Medical Condition\n- Physical Characteristics\n- Veteran Status\n\nTwitch will
-    consider a number of factors to determine the intent and context of any reported
-    hateful conduct. Hateful conduct is a zero-tolerance violation. We will take action
-    on all accounts associated with such conduct with a range of enforcement actions,
-    including and up to indefinite suspension.”\n\n[https://www.twitch.tv/p/legal/community-guidelines/harassment/](https://www.twitch.tv/p/legal/community-guidelines/harassment/
-    \"Twitch community guidelines\")\n[https://blog.twitch.tv/en/2018/02/08/twitch-community-guidelines-updates-f2e82d87ae58/](https://blog.twitch.tv/en/2018/02/08/twitch-community-guidelines-updates-f2e82d87ae58/
-    \"Twitch community guidelines updates\")\n\n#### Reddit\n\nThe platform has no
-    explicit mention of hate speech specifically, which isn’t surprising given Reddit’s
-    ethos of open expression. There were two related concepts, however:\n\n*Content
-    cannot incite violence:* “Do not post content that encourages, glorifies, incites,
-    or calls for violence or physical harm against an individual or a group of people”\n\n([https://www.reddithelp.com/en/categories/rules-reporting/account-and-community-restrictions/do-not-post-violent-content](https://www.reddithelp.com/en/categories/rules-reporting/account-and-community-restrictions/do-not-post-violent-content
-    \"Reddit Help\")):\n\n*Content cannot harass other people:*\n“We do not tolerate
-    the harassment of people on our site, nor do we tolerate communities dedicated
-    to fostering harassing behavior.\n\n- Harassment on Reddit is defined as systematic
-    and/or continued actions to torment or demean someone in a way that would make
-    a reasonable person conclude that Reddit is not a safe platform to express their
-    ideas or participate in the conversation, or fear for their safety or the safety
-    of those around them.\n\nBeing annoying, vote brigading, or participating in a
-    heated argument is not harassment, but following an individual or group of users,
-    online or off, to the point where they no longer feel that it's safe to post online
-    or are in fear of their real life safety is.”\n\n([https://www.reddithelp.com/en/categories/rules-reporting/account-and-community-restrictions/do-not-threaten-harass-or-bully](https://www.reddithelp.com/en/categories/rules-reporting/account-and-community-restrictions/do-not-threaten-harass-or-bully
-    \"Reddit Help: Rules and reporting\") as of 8/9/19): \n\n#### YouTube\n\n “Hate
+    share this kind of commentary using their authentic identity.”\n\n([Facebook Blog
+    post](https://newsroom.fb.com/news/2017/06/hard-questions-hate-speech/) about
+    this defintion.)\n\n([Source on 8/9/19](https://www.facebook.com/communitystandards/objectionable_content))\n\n####
+    Twitter\n“__[Hateful conduct](https://help.twitter.com/en/rules-and-policies/twitter-rules#hateful-conduct
+    \"Hateful conduct\")__: You may not promote violence against or directly attack
+    or threaten other people on the basis of race, ethnicity, national origin, sexual
+    orientation, gender, gender identity, religious affiliation, age, disability,
+    or serious disease.” \n\n([Twitter: Hateful conduct policy](https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy
+    \"Hateful conduct policy\") on 8/9/19)\n\n#### Tumblr\n“__Hate Speech__. Don't
+    encourage violence or hatred. Don't post content for the purpose of promoting
+    or inciting the hatred of, or dehumanizing, individuals or groups based on race,
+    ethnic or national origin, religion, gender, gender identity, age, veteran status,
+    sexual orientation, disability or disease. If you encounter content that violates
+    our hate speech policies, please report it.\n\nKeep in mind that a post might
+    be mean, tasteless, or offensive without necessarily encouraging violence or hatred.
+    In cases like that, you can always block the person who made the post—or, if you're
+    up for it, you can express your concerns to them directly, or use Tumblr to speak
+    up, challenge ideas, raise awareness or generate discussion and debate.”\n\n([Tumbler:
+    Community Guidelines](https://www.tumblr.com/policy/en/community \"Tumbler Community\")
+    as of 8/9/19)\n\n#### Twitch\n\n“Hateful conduct is any content or activity that
+    promotes, encourages, or facilitates discrimination, denigration, objectification,
+    harassment, or violence based on the following characteristics, and is strictly
+    prohibited: \n- Race, ethnicity, or national origin\n- Religion\n- Sex, Gender,
+    or Gender Identity\n- Sexual Orientation\n- Age\n- Disability or Medical Condition\n-
+    Physical Characteristics\n- Veteran Status\n\nTwitch will consider a number of
+    factors to determine the intent and context of any reported hateful conduct. Hateful
+    conduct is a zero-tolerance violation. We will take action on all accounts associated
+    with such conduct with a range of enforcement actions, including and up to indefinite
+    suspension.”\n\n([Twitch: Hateful Conduct and Harassment](https://www.twitch.tv/p/legal/community-guidelines/harassment/
+    \"Twitch: Hateful Conduct and Harassment\"))\n\n([Blog post](https://blog.twitch.tv/en/2018/02/08/twitch-community-guidelines-updates-f2e82d87ae58/
+    \"Twitch community guidelines\") to the Twitch community.)\n\n#### Reddit\n\nThe
+    platform has no explicit mention of hate speech specifically, which isn’t surprising
+    given Reddit’s ethos of open expression. There were two related concepts, however:\n\n*Content
+    cannot incite violence:* “[Do not post content that encourages, glorifies, incites,
+    or calls for violence or physical harm against an individual or a group of people](https://www.reddithelp.com/hc/en-us/articles/360043513151
+    \"Do not post violent content\")”\n\n*Content cannot harass other people:*\n“We
+    do not tolerate the harassment of people on our site, nor do we tolerate communities
+    dedicated to fostering harassing behavior.\n\n- Harassment on Reddit is defined
+    as systematic and/or continued actions to torment or demean someone in a way that
+    would make a reasonable person conclude that Reddit is not a safe platform to
+    express their ideas or participate in the conversation, or fear for their safety
+    or the safety of those around them.\n\nBeing annoying, vote brigading, or participating
+    in a heated argument is not harassment, but following an individual or group of
+    users, online or off, to the point where they no longer feel that it's safe to
+    post online or are in fear of their real life safety is.”\n\n([Reddit: Do not
+    threaten, harass, or bully](https://www.reddithelp.com/hc/en-us/articles/360043071072
+    \"Do not threaten, harass, or bully\") as of 8/9/19) \n\n#### YouTube\n\n “Hate
     speech is not allowed on YouTube. We remove content promoting violence or hatred
     against individuals or groups based on any of the following attributes:\n- Age;
     Caste; Disability; Ethnicity; Gender Identity; Nationality; Race; Immigration
     Status; Religion; Sex/Gender; Sexual Orientation; Victims of a major violent event
-    and their kin; Veteran Status”\n\n([https://support.google.com/youtube/answer/2801939?hl=en](https://support.google.com/youtube/answer/2801939?hl=en
-    \"Youtube Support\") on 8/9/19)\n\n#### Wikimedia\n\n“Certain activities, whether
+    and their kin; Veteran Status”\n\n([YouTube: Hate Speech Policy](https://support.google.com/youtube/answer/2801939?hl=en
+    \"Hate speech policy\") on 8/9/19)\n\n#### Wikimedia\n\n“Certain activities, whether
     legal or illegal, may be harmful to other users and violate our rules, and some
     activities may also subject you to liability. Therefore, for your own protection
     and for that of other users, you may not engage in such activities on our sites.
     These activities include:\n\n- Harassing and Abusing Others \n- Engaging in harassment,
     threats, stalking, spamming, or vandalism; and Transmitting chain mail, junk mail,
-    or spam to other users.”\n\n([https://foundation.wikimedia.org/wiki/Terms_of_Use/en#4._Refraining_from_Certain_Activities](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#4._Refraining_from_Certain_Activities
-    \"Wikimedia: Refraining from Certain Activities\")) \n\n#### Instagram \n\n“We
-    want to foster a positive, diverse community. We remove content that contains
-    credible threats or hate speech, content that targets private individuals to degrade
-    or shame them, personal information meant to blackmail or harass someone, and
-    repeated unwanted messages. We do generally allow stronger conversation around
-    people who are featured in the news or have a large public audience due to their
-    profession or chosen activities.\nIt's never OK to encourage violence or attack
-    anyone based on their race, ethnicity, national origin, sex, gender, gender identity,
-    sexual orientation, religious affiliation, disabilities, or diseases. When hate
-    speech is being shared to challenge it or to raise awareness, we may allow it.
-    In those instances, we ask that you express your intent clearly.”\n\n([https://help.instagram.com/477434105621119](https://help.instagram.com/477434105621119
-    \"Instagram help\") on 8/9/19)\n\n#### Pinterest \n\n“Content attacking vulnerable
-    groups based on their race, ethnicity, national origin, religion, sex, gender,
-    sexual orientation, age, disability, or medical condition, among others, is not
-    allowed on Pinterest.\n\nUnkind language targeted at governments, public figures,
-    or other groups does not violate our policies.\n\nIf you see hate speech on Pinterest,
-    report it to us. If you see a Pin or comment indicating a real threat of violence,
-    let us know. If necessary, contact your local authorities.”\n\n([https://help.pinterest.com/en/article/report-hate-speech](https://help.pinterest.com/en/article/report-hate-speech
+    or spam to other users.”\n\n([Wikimedia: Refraining from Certain Activities](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#4._Refraining_from_Certain_Activities
+    \"https://foundation.wikimedia.org/wiki/Terms_of_Use/en#4._Refraining_from_Certain_Activities\"))
+    \n\n#### Instagram \n\n“We want to foster a positive, diverse community. We remove
+    content that contains credible threats or hate speech, content that targets private
+    individuals to degrade or shame them, personal information meant to blackmail
+    or harass someone, and repeated unwanted messages. We do generally allow stronger
+    conversation around people who are featured in the news or have a large public
+    audience due to their profession or chosen activities.\nIt's never OK to encourage
+    violence or attack anyone based on their race, ethnicity, national origin, sex,
+    gender, gender identity, sexual orientation, religious affiliation, disabilities,
+    or diseases. When hate speech is being shared to challenge it or to raise awareness,
+    we may allow it. In those instances, we ask that you express your intent clearly.”\n\n([Instagram:
+    Community Guidelines](https://help.instagram.com/477434105621119 \"Community Guidelines\")
+    on 8/9/19) \n\n#### Pinterest \n\n“Content attacking vulnerable groups based on
+    their race, ethnicity, national origin, religion, sex, gender, sexual orientation,
+    age, disability, or medical condition, among others, is not allowed on Pinterest.\n\nUnkind
+    language targeted at governments, public figures, or other groups does not violate
+    our policies.\n\nIf you see hate speech on Pinterest, report it to us. If you
+    see a Pin or comment indicating a real threat of violence, let us know. If necessary,
+    contact your local authorities.”\n\n([Pinterest help](https://help.pinterest.com/en/article/report-hate-speech
     \"Pinterest help\"))\n\n#### TikTok\n\n“TikTok is an inclusive community. It is
     not ok to attack or incite violence against other users.\n\n- DO NOT post, share,
     or send any content that incites hatred against a group of people based on their
     race, ethnicity, religion, nationality, culture, disability, sexual orientation,
     gender, gender identity, age, or any other discrimination.\n- DO NOT post, share,
     or send contents that may trigger hostility, including trolling or provocative
-    remarks.”\n\n([http://support.tiktok.com/en/privacy-safety/community-policy-en](http://support.tiktok.com/en/privacy-safety/community-policy-en
-    \"Tiktok Community policy\"))\n\n#### LinkedIn\n\n“We do not allow hate speech
-    acts like attacking people because of their race, ethnicity, national origin,
-    gender, sexual orientation, political or religious affiliations, or medical or
-    physical condition. Also, hate groups, terrorists, and those who engage in violent
-    crimes are not welcome and not permitted on the Services.”\n\n([https://www.linkedin.com/help/linkedin/answer/89880](https://www.linkedin.com/help/linkedin/answer/89880
-    \"LinkedIn help\"))\n\n#### WhatsApp \n\nIn the ToS, not a community guideline...\n\n“You
-    will not use (or assist others in using) our Services in ways that:...(b) are
-    illegal, obscene, defamatory, threatening, intimidating, harassing, hateful, racially,
-    or ethnically offensive, or instigate or encourage conduct that would be illegal,
-    or otherwise inappropriate, including promoting violent crimes”\n\n([https://www.whatsapp.com/legal/#terms-of-service](https://www.whatsapp.com/legal/#terms-of-service
+    remarks.”\n\n([TikTok: Community Guidelines](https://www.tiktok.com/community-guidelines?lang=en
+    \"Community Guidelines\"))\n\n#### LinkedIn\n\n“We do not allow hate speech acts
+    like attacking people because of their race, ethnicity, national origin, gender,
+    sexual orientation, political or religious affiliations, or medical or physical
+    condition. Also, hate groups, terrorists, and those who engage in violent crimes
+    are not welcome and not permitted on the Services.”\n\n([LinkedIn help](https://www.linkedin.com/help/linkedin/answer/89880
+    \"LinkedIn Professional Community Policies\"))\n\n#### WhatsApp \n\nIn the ToS,
+    not a community guideline...\n\n“You will not use (or assist others in using)
+    our Services in ways that:...(b) are illegal, obscene, defamatory, threatening,
+    intimidating, harassing, hateful, racially, or ethnically offensive, or instigate
+    or encourage conduct that would be illegal, or otherwise inappropriate, including
+    promoting violent crimes”\n\n([Whats App: Terms of service](https://www.whatsapp.com/legal/terms-of-service-eea
     \"Whats App: terms of service\"))\n\n#### WeChat\n\n“We are not responsible for
     and we do not endorse, support or guarantee the lawfulness, accuracy or reliability
     of any content submitted to, transmitted or displayed by or linked by WeChat,
@@ -3837,16 +3854,16 @@ report:
     We may remove or refuse to make available or link to certain content or third
     party programs or services if they infringe intellectual property rights, are
     obscene, defamatory or abusive, violate any rights or pose any risk to the security
-    or performance of WeChat.”\n\n([https://www.wechat.com/en/service_terms.html](https://www.wechat.com/en/service_terms.html
+    or performance of WeChat.”\n\n([WeChat: Service terms](https://www.wechat.com/en/service_terms.html
     \"WeChat: Service terms\"))\n\n#### Viber\n\n“Loving Vibes Prevail - We defend
     a person’s right to express unpopular points of view, but we do not allow speech
     which attacks or demeans a group based on ethnic or national origin, race, religion,
-    disability, gender, gender identity, age or sexual orientation.”\n\nPublic Content
-    Policy ([https://www.viber.com/terms/viber-public-content-policy/](https://www.viber.com/terms/viber-public-content-policy/
-    \"Viber: Public content policy\")) \n\n#### Snapchat\n\n“Hate Speech & False Information:
+    disability, gender, gender identity, age or sexual orientation.”\n\n([Viber: Public
+    content policy](https://www.viber.com/en/terms/viber-public-content-policy/ \"Viber:
+    Public content policy\")) \n\n#### Snapchat\n\n“Hate Speech & False Information:
     Don't post any content that demeans, defames, or promotes discrimination or violence
     on the basis of race, ethnicity, national origin, religion, sexual orientation,
-    gender identity, disability, or veteran status.”\n\n([https://www.snap.com/en-US/community-guidelines/](https://www.snap.com/en-US/community-guidelines/
+    gender identity, disability, or veteran status.”\n\n([Snapchat: Community guidelines](https://www.snap.com/en-US/community-guidelines/
     \"Snapchat: Community guidelines\"))\n\n## Technical Issues in Automated Identification
     of Hate Speech\n\nMost automated hate speech detection is being accomplished with
     supervised machine learning (ML) techniques. Simply put, ML builds a statistical
@@ -3856,7 +3873,7 @@ report:
     of hate speech -> data -> model -> outcome dramatically impacts how hate speech
     will be understood by an algorithm. \n\nML essentially learns patterns from example/annotated
     data. so, the ML cannot detect things that are very different from all examples
-    it has seen\n\n### Annotation and Data Issues\n\n__Because ML learns its patterns
+    it has seen.\n\n### Annotation and Data Issues\n\n__Because ML learns its patterns
     from the data, ML cannot detect things that are very different from all examples
     it has seen.__\n\n__This means the quality and performance of these algorithms
     is directly impacted by who is annotating, their personal contexts, and their
@@ -3871,7 +3888,7 @@ report:
     and the evaluation of their reliability, accuracy, and generalizability (drawn
     from Shadish, Cook, and Cambell, 2002).\n\nThere are many kinds of validity that
     are important within the spectrum of understanding hate speech, but here, we will
-    focus on construct validity, or how effectively and accurately have you translated
+    focus on __construct validity__, or how effectively and accurately have you translated
     a high-level meta concept to a pragmatic implementation (e.g. *measuring depression
     with a specific screening technology*). First, we’ll talk about coming to consensus
     on the meta-concept of hate speech, then we’ll talk about operationalizing that
@@ -3920,7 +3937,7 @@ report:
     on the new platform\n\n#### Pragmatic Implications of Annotations\n\nEven if annotations
     were easy to accomplish and could be perfectly aligned with definitions and concepts
     around hate speech, there are pragmatic limitations of getting more data for teams
-    to use to identify hate speech.\n\nCosts: One is cost. It is expensive to source
+    to use to identify hate speech.\n\n*Costs:* One is cost. It is expensive to source
     different data, labeled by experts. This is both measured in dollar costs as well
     as time costs. Having data annotated by people is expensive, and teams with limited
     resources or tight deadlines may not practically be able to source this kind of
@@ -3933,11 +3950,11 @@ report:
     cultural perceptions of what is considered hateful, as well as temporal standards
     for appropriate conduct as language use evolves over time. Recall the example
     of the term “gypsy” from earlier, which is deeply rooted in cultural and geographic
-    constraints\n\n### Model Updates and Changing Perspectives/Topic Drift\n\nIt is
-    a mistake to assume a static and unchanging relationship between independent and
-    dependent variables for machine learning. Concept or topic drift is a known problem
-    within ML models, where the data coming into the model changes over time, and
-    therefore, the model performance will change and likely degrade over time.\n\nOn
+    constraints.\n\n### Model Updates and Changing Perspectives/Topic Drift\n\nIt
+    is a mistake to assume a static and unchanging relationship between independent
+    and dependent variables for machine learning. Concept or topic drift is a known
+    problem within ML models, where the data coming into the model changes over time,
+    and therefore, the model performance will change and likely degrade over time.\n\nOn
     social platforms, concept drift can be caused by many different factors:\n\n-
     Natural language drift\n- Behavior drifts\n- Exogenous events (like crises, platform
     instability, etc)\n- Political events that change national conversations\n- Changes
@@ -4015,8 +4032,9 @@ report:
     correct metric and evaluation technique for hate speech detection? What is the
     definition of a “good” hate speech algorithm, and can you benchmark an algorithm
     against another dataset? This depends on how a platform wants to implement it,
-    and the criteria for performance that could be applied ([https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
-    \"Kaggle: Toxic comment classification challenge\"))\n\nIn machine learning, performance
+    and the criteria for performance that could be applied \n\n([Toxic comment classification
+    challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
+    \"Toxic comment classification challenge\"))\n\nIn machine learning, performance
     tends to be evaluated primary metrics like accuracy, precision, recall, and F1.
     Other common metrics are also RMSE (root mean squared error), RAE (root average
     error), average precision, and occasionally false negative rates.These can also
@@ -4050,18 +4068,19 @@ report:
     For example, Reddit has a history of formally adopting user-developed tools as
     official platform features, and the popular AutoModerator tool is one of the most
     visible examples of this. The functions of AutoModerator are extensively documented
-    and fully controllable by moderators (see [https://www.reddit.com/wiki/automoderator/full-documentation](https://www.reddit.com/wiki/automoderator/full-documentation
-    \"Reddit automoderator\")), though use of the tool requires a baseline level of
-    technical knowledge because rules syntax is written in the YAML language. AutoModerator’s
-    algorithms for parsing text of comments and posts are regex-based, meaning that
-    they only identify explicitly-defined strings of characters, though regex allows
-    some flexibility that can catch small variations on commonly problematic strings.
-    AutoModerator does not currently employ machine learning driven algorithms, though
-    recent academic research has explored the possibility of deploying these as a
-    third-party tool. \n\nTwitch’s “AutoMod” is a built-in moderation tool that is
-    designed to be easily accessible to users. Livestreamers and Moderators simply
-    select a general all-purpose setting from 0-4 that defines how “strict” they want
-    the filter to be, where 4 is very strict and 0 turns filtering off ([https://help.twitch.tv/s/article/how-to-use-automod?language=en_US](https://help.twitch.tv/s/article/how-to-use-automod?language=en_US
+    and fully controllable by moderators (see [Reddit Full AutoModerator Documentation](https://www.reddit.com/wiki/automoderator/full-documentation
+    \"Reddit Full AutoModerator Documentation\")), though use of the tool requires
+    a baseline level of technical knowledge because rules syntax is written in the
+    YAML language. AutoModerator’s algorithms for parsing text of comments and posts
+    are regex-based, meaning that they only identify explicitly-defined strings of
+    characters, though regex allows some flexibility that can catch small variations
+    on commonly problematic strings. AutoModerator does not currently employ machine
+    learning driven algorithms, though recent academic research has explored the possibility
+    of deploying these as a third-party tool. \n\nTwitch’s “AutoMod” is a built-in
+    moderation tool that is designed to be easily accessible to users. Livestreamers
+    and Moderators simply select a general all-purpose setting from 0-4 that defines
+    how “strict” they want the filter to be, where 4 is very strict and 0 turns filtering
+    off (See [Twitch: How to use automod](https://help.twitch.tv/s/article/how-to-use-automod?language=en_US
     \"Twitch: How to use automod\")). The default setting is a “Identity language”
     (which includes hate speech), “Sexually explicit language”, “Aggressive language”,
     and “Profanity”. The specific algorithms used in detection are not visible to
@@ -4102,56 +4121,58 @@ report:
     Note however that Twitter has been testing a “Hide Replies” feature since July
     2019 that allows users to hide tweets replying to their tweets from public view,
     meaning that anyone else viewing the thread does not immediately see these replies
-    (though all hidden tweets are still viewable if a button is clicked). See https://help.twitter.com/en/using-twitter/mentions-and-replies.
-    Instagram follows a similar platform-centric moderation model, and has a similar
-    style of feature granting users limited moderation powers on their own posts.\n-
-    Facebook uses a mixed model, with the platform driving most moderation of individuals’
-    posts on timelines while granting users much more authority within Groups and
-    Pages. Timeline moderation functions in a form that is, at least to first order,
-    conceptually similar to the way in which Twitter and Instagram are moderated,
-    with users’ abilities to moderate their feed being limited mainly to reporting,
-    unfollowing, unfriending, and blocking. Within Groups and Pages, however, moderators,
-    “admins”, and page owners have significantly more autonomy in removing comments,
-    and blocking, kicking, or temporarily muting users from posting on their Groups
-    or Pages. Groups can also be set to require moderator permission to join. Facebook
-    as a platform still monitors posts in these spaces and removes them not infrequently
-    without communicating with moderators, and in some cases removes entire Groups
-    or Pages for rule violations. It is also worth noting that Facebook has generally
-    been less open to allowing third-party tools to access content, meaning that user-created
-    moderation tools are much less common than on, e.g., Twitch, Discord, or Reddit.\n-
-    A third category of platforms places authority for the vast majority of basic
-    moderation decisions in the hands of volunteer user moderators. For example, Reddit
-    very rarely intervenes to remove or edit individual posts or comments within subreddits,
-    and interviewed moderators and livestreamers on Twitch were not aware of Twitch
-    ever intervening to remove comments on an individual stream or to ban users from
-    a particular stream. Instead, these platforms act primarily at the community-level,
-    temporarily or permanently removing or restricting entire communities (i.e., “quarantining”
-    on Reddit) when content is visibly rule-breaking and/or when moderators do not
-    display willingness or ability to moderate these communities. Note that both platforms
-    still do reserve the right to ban single users from the platform, e.g., Reddit’s
-    recent ban waves of Russian spam accounts.\n\nBroadly, the above models have two
-    dimensions—where the platform situates itself in the moderation process, and where
-    the platform situates users in the moderation process. The platform can focus
-    primarily on moderating individual users and individual pieces of content, as
-    on Twitter and Instagram, on moderating full communities like on Reddit and Twitch,
-    or on a mixture of the two. Similarly, the platform can grant users authority
-    to moderate what they see themselves and/or to moderate what their communities
-    see via the ability to become community moderators. A third dimension that is
-    often not explicitly visible or consciously decided is what moderation decisions
-    are delegated to algorithms. This decision is made both by platforms in their
-    internal processes and in what tools they design for users and by community moderators
-    in how they use available algorithmically-driven tools. As noted by Seering et
-    al. (2019), both communities and platforms evolve through conversations about
-    what types of content to permit, and delegation of authority to algorithms can
-    impact how these conversations unfold. On one extreme, the choice not to involve
-    any algorithms can result in an impossibly high workload for human moderators
-    in some cases but allows them to see and discuss every decision, which can naturally
-    lead to evolution of moderation philosophies over time. On the other extreme,
-    algorithms can detect problematic content at scale, but when humans are less involved
-    in moderation decisions, the ability to evolve in response to changing norms is
-    hindered. Many researchers in recent years have advocated for keeping humans actively
-    in the loop in algorithmic processes, developing tools that “support, rather than
-    supplant” users’ judgment (Seering et al., 2019).\n"
+    (though all hidden tweets are still viewable if a button is clicked). See [Using
+    Twitter, mentions and replies](https://help.twitter.com/en/using-twitter/mentions-and-replies
+    \"Using Twitter, mentions and replies\"). Instagram follows a similar platform-centric
+    moderation model, and has a similar style of feature granting users limited moderation
+    powers on their own posts.\n- Facebook uses a mixed model, with the platform driving
+    most moderation of individuals’ posts on timelines while granting users much more
+    authority within Groups and Pages. Timeline moderation functions in a form that
+    is, at least to first order, conceptually similar to the way in which Twitter
+    and Instagram are moderated, with users’ abilities to moderate their feed being
+    limited mainly to reporting, unfollowing, unfriending, and blocking. Within Groups
+    and Pages, however, moderators, “admins”, and page owners have significantly more
+    autonomy in removing comments, and blocking, kicking, or temporarily muting users
+    from posting on their Groups or Pages. Groups can also be set to require moderator
+    permission to join. Facebook as a platform still monitors posts in these spaces
+    and removes them not infrequently without communicating with moderators, and in
+    some cases removes entire Groups or Pages for rule violations. It is also worth
+    noting that Facebook has generally been less open to allowing third-party tools
+    to access content, meaning that user-created moderation tools are much less common
+    than on, e.g., Twitch, Discord, or Reddit.\n- A third category of platforms places
+    authority for the vast majority of basic moderation decisions in the hands of
+    volunteer user moderators. For example, Reddit very rarely intervenes to remove
+    or edit individual posts or comments within subreddits, and interviewed moderators
+    and livestreamers on Twitch were not aware of Twitch ever intervening to remove
+    comments on an individual stream or to ban users from a particular stream. Instead,
+    these platforms act primarily at the community-level, temporarily or permanently
+    removing or restricting entire communities (i.e., “quarantining” on Reddit) when
+    content is visibly rule-breaking and/or when moderators do not display willingness
+    or ability to moderate these communities. Note that both platforms still do reserve
+    the right to ban single users from the platform, e.g., Reddit’s recent ban waves
+    of Russian spam accounts.\n\nBroadly, the above models have two dimensions—where
+    the platform situates itself in the moderation process, and where the platform
+    situates users in the moderation process. The platform can focus primarily on
+    moderating individual users and individual pieces of content, as on Twitter and
+    Instagram, on moderating full communities like on Reddit and Twitch, or on a mixture
+    of the two. Similarly, the platform can grant users authority to moderate what
+    they see themselves and/or to moderate what their communities see via the ability
+    to become community moderators. A third dimension that is often not explicitly
+    visible or consciously decided is what moderation decisions are delegated to algorithms.
+    This decision is made both by platforms in their internal processes and in what
+    tools they design for users and by community moderators in how they use available
+    algorithmically-driven tools. As noted by Seering et al. (2019), both communities
+    and platforms evolve through conversations about what types of content to permit,
+    and delegation of authority to algorithms can impact how these conversations unfold.
+    On one extreme, the choice not to involve any algorithms can result in an impossibly
+    high workload for human moderators in some cases but allows them to see and discuss
+    every decision, which can naturally lead to evolution of moderation philosophies
+    over time. On the other extreme, algorithms can detect problematic content at
+    scale, but when humans are less involved in moderation decisions, the ability
+    to evolve in response to changing norms is hindered. Many researchers in recent
+    years have advocated for keeping humans actively in the loop in algorithmic processes,
+    developing tools that “support, rather than supplant” users’ judgment (Seering
+    et al., 2019).\n"
   footnotes:
   - sys:
       id: 1UVnaJ9b87EtY4vMJ5wtbP
@@ -4313,7 +4334,7 @@ report:
 - sys:
     id: 1Q7LLqUAyLZefSMra2NRKZ
     created_at: !ruby/object:DateTime 2020-11-10 14:12:55.148000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 20:18:18.577000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 23:04:43.018000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4347,49 +4368,49 @@ report:
     title: 'Kenyan Election and Census '
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/3CuWZ27QualPFqW9aInWe4/c55e1acfe93d8fb4e243fcd868035b63/content-moderation-project_kenyan-election-and-census_social-card.png"
-  body: "Our primary concern here is around hate speech and disinformation as they
-    relate to interference with the Kenyan elections and census. This document outlines
-    the list of different indicators that will be assessed during the annotation process
-    (Indicators for Kenya CSO Annotation), developed in concert with Article 19 and
-    local Kenyan CSOs after a review of relevant content online.\n\nThis is not a
-    comprehensive representation of indicators for measuring hate speech and disinformation;
-    these are indicators that we suggest can be used for evaluation where there is
-    limited access to context around the articles or pieces of content that are being
-    evaluated, and which are relevant to the Kenyan elections of 2017 and the 2019
-    Housing and Population Census, with potential for impact in the 2022 elections
-    as well. The intention is not to identify content that should be taken down, but
-    to examine how this speech is used to bolster election/census interference, misinformation,
-    hate, and incitement to violence. \n\n## Indicator Taxonomy\n\n### Category 1:
-    Hate Speech\n\n#### Project Definition\n\nAny form of expression, language or
-    imagery, that incites violence and discrimination towards an individual or group
-    of people based on race, ethnicity, religious affiliation, sexual orientation,
-    caste, sex, gender, serious disease or disability, immigration status, political
-    affiliation, social class, culture, tribal affiliation, or regional affiliation.
-    \n\nWe operationalize the types of people targeted by hate speech as “categories.”
-    Several categories are broken down to clarify more directly how they may apply
-    in Kenya:\n\n- __Race:__ skin, eye or hair color, bone structure\n- __Religious
-    Affiliation:__ Christianity, Buddhism, Islam, Hinduism, indigenous African religions,
-    mix\n- __Ethnicity:__ national origin, ancestry, language\n- __Culture:__ In Kenya
-    this is recognised as a basis for discrimination. Examples of cultural customs
-    that attract vilification from within the group or outside include: male circumcision-
-    valued as a right of passage to adulthood in most communities. Luo community does
-    not practice circumcision and are often vilified by being referred to as “boys”
-    or “kihii” in Kikuyu language. \n- Maasai and other pastoralist communities- women
-    are classified together with children and property. It is therefore vilifying
-    to be referred to as “woman” or behaving like a woman\n- Luo community used to
-    practice wife inheritance where widows were taken up by their late husband’s relatives.
-    Those who prefer to remain widowed are vilified and a reference to someone as
-    a widow is quite demeaning.\n\n#### Definitions of Hate Speech\n\nHate speech
-    is defined differently across different contexts by cultural norms, governing
-    bodies and human rights groups. Hate speech is also politically and culturally
-    situated regionally, and thus we must take care in understanding hate speech in
-    and across the Kenyan context. We present these definitions to engage directly
-    with the assumptions annotators and organizations may be predisposed to in their
-    own definitions of hate speech, as well as to identify how human right violations
-    amplified or caused by hate speech may be identified and acted upon by local governing
-    bodies, social media platform operators, and global organizations.\n\nThe Content
-    Moderation Project has assembled a literature review that explores definitions
-    of hate speech from social media platforms, civil society organizations, and law.\n\n####
+  introduction: Our primary concern here is around hate speech and disinformation
+    as they relate to interference with the Kenyan elections and census. This document
+    outlines the list of different indicators that will be assessed during the annotation
+    process (Indicators for Kenya CSO Annotation), developed in concert with Article
+    19 and local Kenyan CSOs after a review of relevant content online.
+  body: "This is not a comprehensive representation of indicators for measuring hate
+    speech and disinformation; these are indicators that we suggest can be used for
+    evaluation where there is limited access to context around the articles or pieces
+    of content that are being evaluated, and which are relevant to the Kenyan elections
+    of 2017 and the 2019 Housing and Population Census, with potential for impact
+    in the 2022 elections as well. The intention is not to identify content that should
+    be taken down, but to examine how this speech is used to bolster election/census
+    interference, misinformation, hate, and incitement to violence. \n\n## Indicator
+    Taxonomy\n## Category 1: Hate Speech\n\n### Project Definition\n\nAny form of
+    expression, language or imagery, that incites violence and discrimination towards
+    an individual or group of people based on race, ethnicity, religious affiliation,
+    sexual orientation, caste, sex, gender, serious disease or disability, immigration
+    status, political affiliation, social class, culture, tribal affiliation, or regional
+    affiliation. \n\nWe operationalize the types of people targeted by hate speech
+    as “categories.” Several categories are broken down to clarify more directly how
+    they may apply in Kenya:\n\n- __Race:__ skin, eye or hair color, bone structure\n-
+    __Religious Affiliation:__ Christianity, Buddhism, Islam, Hinduism, indigenous
+    African religions, mix\n- __Ethnicity:__ national origin, ancestry, language\n-
+    __Culture:__ In Kenya this is recognised as a basis for discrimination. Examples
+    of cultural customs that attract vilification from within the group or outside
+    include: male circumcision- valued as a right of passage to adulthood in most
+    communities. Luo community does not practice circumcision and are often vilified
+    by being referred to as “boys” or “kihii” in Kikuyu language. \n- Maasai and other
+    pastoralist communities- women are classified together with children and property.
+    It is therefore vilifying to be referred to as “woman” or behaving like a woman\n-
+    Luo community used to practice wife inheritance where widows were taken up by
+    their late husband’s relatives. Those who prefer to remain widowed are vilified
+    and a reference to someone as a widow is quite demeaning.\n\n### Definitions of
+    Hate Speech\n\nHate speech is defined differently across different contexts by
+    cultural norms, governing bodies and human rights groups. Hate speech is also
+    politically and culturally situated regionally, and thus we must take care in
+    understanding hate speech in and across the Kenyan context. We present these definitions
+    to engage directly with the assumptions annotators and organizations may be predisposed
+    to in their own definitions of hate speech, as well as to identify how human right
+    violations amplified or caused by hate speech may be identified and acted upon
+    by local governing bodies, social media platform operators, and global organizations.\n\nThe
+    Content Moderation Project has assembled a literature review that explores definitions
+    of hate speech from social media platforms, civil society organizations, and law.\n\n###
     Context for Legal Definitions\n\nSocial media companies attempt to govern their
     platforms based on generalized global norms, but operate from primarily from US-based
     perspectives. They additionally face limitations adjusting to national and regional
@@ -4419,74 +4440,74 @@ report:
     of expression under the Kenyan Constitution. This legislation on speech around
     ethnic hatred has been ambiguously defined, and thus bears the risk of abuse by
     the government to suppress dissenters while simultaneously making it difficult
-    to successfully prosecute hate speech at all. \n\n#### Construct 1.1: Discriminatory
-    hatred directed towards a category of people\n\n__Explanation:__ The goal of this
+    to successfully prosecute hate speech at all. \n\n### Construct 1.1: Discriminatory
+    hatred directed towards a category of people\n\nExplanation: The goal of this
     construct is to assess articles, posts, and comments that contribute to discrimination
     towards categories of people. \n\n#### Indicators for Construct 1.1 \n\nWe can
-    operationalize this construct by measuring the following __indicators__:\n\n1.
-    __An article or piece of content contains non-consensual slurs, epithets, stereotypes,
+    operationalize this construct by measuring the following indicators:\n\n**I. An
+    article or piece of content contains non-consensual slurs, epithets, stereotypes,
     and other statement meant to degrade or dehumanize a group or an individual based
-    on their membership in a category of people.\nExamples:__ \nA social media post
-    calling Luos people “Jaluo” after a violent incident eg fights after a football
-    match. \n__Targets:__ an individual in that category, people within that category
-    more broadly, a gathering or organization of people within that category.\n\n1.
-    __An expression of desire for hardship, discrimination, removal of rights for
-    a category or an individual in a category__. In this case, a slur, epithet, or
-    stereotype does not necessarily need to be used. A statement of support or affirmation
-    of association or membership with a hate group known for inciting violence and
-    cultivating fear or grievances falls under this category.\n__Examples__: \nHomophobic
+    on their membership in a category of people.**\n\n**Examples:** A social media
+    post calling Luos people “Jaluo” after a violent incident eg fights after a football
+    match. \n\n**Targets:** an individual in that category, people within that category
+    more broadly, a gathering or organization of people within that category.\n\n**II.
+    An expression of desire for hardship, discrimination, removal of rights for a
+    category or an individual in a category**. In this case, a slur, epithet, or stereotype
+    does not necessarily need to be used. A statement of support or affirmation of
+    association or membership with a hate group known for inciting violence and cultivating
+    fear or grievances falls under this category.\n\n__Examples:__ \n1. Homophobic
     statements about an LBGTQ author who had recently died, that he deserved to die
-    and that he is going to hell for his homosexuality.\nAdvocating for homosexuality
-    to remain criminalized and that there cannot legally be registered LGBTQI NGOs.\nClaiming
-    to be “Uthamaki” and supporting Kikuyu supremacy.\n__Targets__: an individual
-    in that category, broadcasted generally to an audience, towards people vocally
-    supporting that category of people, towards organizations of people in that category
-    or advocating for people in that category.\n\n#### Secondary Indicators for Construct
-    1.1\n\n1. The article or piece of content is made as a __response to more clear
-    or radical forms of hate speech__.\n2. There is __coded language__ about people
-    in a category, or a history around and between people in particular categories,
-    that is known to the audience. An example of this is the phrase \"go to work,\"
-    used as code for killing during the Rwandan genocide.\n3. __Strong in-group identification__,
-    specifically identify “us” language for groups of people. Here, in identifying
-    strong in-group identities and the “exaltation of the [in group] above other groups”,
-    we use this indicator to identify language that promotes strong within-group dynamics
-    and promotion. This language can also be embedded within requests that readers
-    share ‘if they agree’ with a particular group.\n\n#### Construct 1.2: Inciting,
-    encouraging, or lauding physical violence towards a category of people\n\n__Explanation__:
-    The goal of this construct is to identify clear instances of hate speech that
-    inspire or incite physical violence towards a category of people. The [Dangerous
-    Speech Project](https://dangerousspeech.org/guide/ \"Dangerous Speech Project\")
-    proposes the term “dangerous speech” as an alternative to hate speech, which engages
-    with potential for physical violence, rather than the more typically ambiguous
-    terms “hate” or “harms.” They formally define dangerous speech as expression that
-    increases the risk that its audience will condone violence against members of
-    another category, where the severity of dangerous speech is determined by the
-    extent to which five variables are maximized: \n\n- *a powerful speaker with a
-    high degree of influence over the audience.*\n- *the audience has grievances and
-    fear that the speaker can cultivate.*\n- *a speech act that is clearly understood
-    as a call to violence,*\n- *a social or historical context that is propitious
-    for violence, for any of a variety of reasons, including longstanding competition
-    between groups for resources, lack of efforts to solve grievances, or previous
-    episodes of violence.*\n- *a means of dissemination that is influential in itself,
-    for example because it is the sole or primary source of news for the relevant
-    audience.*\n\n##### Benesch, Susan. \"Dangerous speech: A proposal to prevent
-    group violence.\" Voices That Poison: Dangerous Speech Project (2012).\n\nGiven
-    that annotators and moderators may have a limited ability to investigate the direct
+    and that he is going to hell for his homosexuality.\n2. Advocating for homosexuality
+    to remain criminalized and that there cannot legally be registered LGBTQI NGOs.\n3.
+    Claiming to be “Uthamaki” and supporting Kikuyu supremacy.\n\n__Targets:__ An
+    individual in that category, broadcasted generally to an audience, towards people
+    vocally supporting that category of people, towards organizations of people in
+    that category or advocating for people in that category.\n\n#### Secondary Indicators
+    for Construct 1.1\n\n1. The article or piece of content is made as a __response
+    to more clear or radical forms of hate speech__.\n2. There is __coded language__
+    about people in a category, or a history around and between people in particular
+    categories, that is known to the audience. An example of this is the phrase \"go
+    to work,\" used as code for killing during the Rwandan genocide.\n3. __Strong
+    in-group identification__, specifically identify “us” language for groups of people.
+    Here, in identifying strong in-group identities and the “exaltation of the [in
+    group] above other groups”, we use this indicator to identify language that promotes
+    strong within-group dynamics and promotion. This language can also be embedded
+    within requests that readers share ‘if they agree’ with a particular group.\n\n###
+    Construct 1.2: Inciting, encouraging, or lauding physical violence towards a category
+    of people\n\nExplanation: The goal of this construct is to identify clear instances
+    of hate speech that inspire or incite physical violence towards a category of
+    people. The [Dangerous Speech Project](https://dangerousspeech.org/guide/ \"Dangerous
+    Speech Project\") proposes the term “dangerous speech” as an alternative to hate
+    speech, which engages with potential for physical violence, rather than the more
+    typically ambiguous terms “hate” or “harms.” They formally define dangerous speech
+    as expression that increases the risk that its audience will condone violence
+    against members of another category, where the severity of dangerous speech is
+    determined by the extent to which five variables are maximized: \n\n- *a powerful
+    speaker with a high degree of influence over the audience.*\n- *the audience has
+    grievances and fear that the speaker can cultivate.*\n- *a speech act that is
+    clearly understood as a call to violence,*\n- *a social or historical context
+    that is propitious for violence, for any of a variety of reasons, including longstanding
+    competition between groups for resources, lack of efforts to solve grievances,
+    or previous episodes of violence.*\n- *a means of dissemination that is influential
+    in itself, for example because it is the sole or primary source of news for the
+    relevant audience. Benesch, Susan. \"Dangerous speech: A proposal to prevent group
+    violence.\" Voices That Poison: Dangerous Speech Project (2012).*\n\nGiven that
+    annotators and moderators may have a limited ability to investigate the direct
     context around an article or piece of content (e.g., surrounding social media
     posts, responses to or preceding social media posts or articles), we focus on
     identifying clear calls to violence, and encouragement of violence through cultivation
     of fear and grievances. We have formed indicator questions to enable CSOs to provide
     information on the social and historical context of articles and pieces of content
     that may foster an environment for violence.\n\n#### Indicators for Construct
-    1.2\n\nWe can operationalize this construct by measuring the following __indicators__:\n\n-
+    1.2\n\nWe can operationalize this construct by measuring the following indicators:\n\n**I.
     A call for violence or an expression of desire (wishing or hoping) for physical
     violence to be perpetrated against a group or a gathering of people from a protected
-    group. This includes laudatory references towards or depictions of historical,
-    systematic, current, or ongoing violence towards protected groups.  \n__Examples__:
-    \nReligious social media posts saying that gay people are abominations against
-    god and they must die or deserve to be killed.\nA post containing imagery depicting
+    group.** This includes laudatory references towards or depictions of historical,
+    systematic, current, or ongoing violence towards protected groups.\n\n__Examples:__
+    \n1. Religious social media posts saying that gay people are abominations against
+    god and they must die or deserve to be killed.\n2. A post containing imagery depicting
     graphic targeted ethnic violence towards Kikuyu people during the 2007 Kenyan
-    crisis presented in a positive light.\n__Targets__: An individual in that category,
+    crisis presented in a positive light.\n\n__Targets:__ An individual in that category,
     people who are vocally supporting people in that category, a broader audience
     that can see the post.\n\n#### Secondary Indicators for Construct 1.2\n\n1. [Identifying
     potential of direct harm by author] The author has posted additional content or
@@ -4499,12 +4520,12 @@ report:
     violence.\n4. [Identifying influence] The author has a high number of followers,
     is known to be a public figure, making a claim to authority, or other signifiers
     of having high influence\n5. [Identifying influence] The content is widely circulated
-    through a high number of retweets, likes, shares and other forms of engagement.\n\n####
+    through a high number of retweets, likes, shares and other forms of engagement.\n\n###
     Construct 1.3: Threats of direct violence towards an identifiable target or multiple
-    targets based on their membership in a protected group\n\n__Explanation__: The
-    goal of this construct is to identify and assess content that directly threatens
-    the physical safety of a person in a category. Defining, identifying, and acting
-    on threats is difficult to formalize because of the distributed nature of threats
+    targets based on their membership in a protected group\n\nExplanation: The goal
+    of this construct is to identify and assess content that directly threatens the
+    physical safety of a person in a category. Defining, identifying, and acting on
+    threats is difficult to formalize because of the distributed nature of threats
     and harassment, and the inability to predict when a threat will manifest as offline
     action. Given this ambiguity, online threats casts the safety of targets in doubt
     regardless of outcome and contributes to suppression of their speech. Distributed
@@ -4532,22 +4553,22 @@ report:
     (1) An individual and people related to the individual or (2) Members of an organization
     or a group of people (particularly at an event or location).\n\n#### Indicators
     for Construct 1.3 \n\nWe can operationalize this construct by measuring the following
-    __indicator__:\n\n1. Statement of intention to harm an individual or multiple
-    people based on their membership in a category.\n__Examples__: \nA tweet that
-    states the perpetrator knows where the target lives and that they will find them.\nA
-    statement that a group of people going to or organization an event will come into
-    serious harm if they attend.\nA Whatsapp message to a group claiming to know where
-    certain lesbians live/sharing the address of LGBTI people in a discussion thread
-    opposing decriminalisation of homosexuality /Repeal 165\n__Targets__: Journalists,
-    activists, people in that category, vocal supporters of people in a category.\n\n####
-    Secondary Indicators for Construct 1.3\n\n1. The perpetrator has previously made,
-    or continues to make, harassing comments and oblique threats to the target.\n2.
-    The perpetrator has made inciting comments, dehumanizing comments, or references
-    to violence or lauding a history of violence against members of the protected
-    group the target is a part of, or towards the group generally.\n3. The perpetrator
-    is part of a network, group, organization, or campaign of other accounts that
-    have had similar conduct.\n\n#### Secondary indicator types to investigate for
-    all hate speech constructs\n\nA challenge in identifying speech that suppresses
+    indicator:\n\n**I. Statement of intention to harm an individual or multiple people
+    based on their membership in a category.**\n\n__Examples:__ \n1. A tweet that
+    states the perpetrator knows where the target lives and that they will find them.\n2.
+    A statement that a group of people going to or organization an event will come
+    into serious harm if they attend.\n3. A Whatsapp message to a group claiming to
+    know where certain lesbians live/sharing the address of LGBTI people in a discussion
+    thread opposing decriminalisation of homosexuality /Repeal 165\n\n__Targets:__
+    Journalists, activists, people in that category, vocal supporters of people in
+    a category.\n\n#### Secondary Indicators for Construct 1.3\n\n1. The perpetrator
+    has previously made, or continues to make, harassing comments and oblique threats
+    to the target.\n2. The perpetrator has made inciting comments, dehumanizing comments,
+    or references to violence or lauding a history of violence against members of
+    the protected group the target is a part of, or towards the group generally.\n3.
+    The perpetrator is part of a network, group, organization, or campaign of other
+    accounts that have had similar conduct.\n\n#### Secondary indicator types to investigate
+    for all hate speech constructs\n\nA challenge in identifying speech that suppresses
     freedom of expression and contributes to human rights violations is grappling
     with the presence of a historical, pervasive threat of violence or discrimination
     towards marginalized groups and the chilling effect that comes with it. These
@@ -4558,26 +4579,26 @@ report:
     author or within the community of that author\n2. The use of hashtags and terms
     associated with hate campaigns\n3. Affiliation or networked with perpetrators
     of hate speech, misinformation, harassment.\n4. The positionality of the speaker--
-    specifically ethnic identity, gender, etc\n\n### Category 2: Disinformation\n\n####
+    specifically ethnic identity, gender, etc\n\n## Category 2: Disinformation\n\n###
     Project Definitions\n\nWe have operationalized disinformation as campaigns or
     content that are ‘inauthentic,’ ‘geopolitically strategic,’ and ‘coordinated.’
-    We define these terms in the following ways:\n\n1. __Inauthentic__: content is
+    We define these terms in the following ways:\n\n1. __Inauthentic:__ content is
     inaccurate according to a clear consensus of experts in fields or makes a claim
     that is spurious; or that the author or publisher of content is counterfeit (misrepresented).\n2.
-    __Geopolitically strategic__: the attempt to achieve specific “real-world” objectives,
+    __Geopolitically strategic:__ the attempt to achieve specific “real-world” objectives,
     by motivating the behaviors of large numbers of people to take individual actions
-    with geopolitical outcomes.\n3. __Coordinated__: online content and themes have
+    with geopolitical outcomes.\n3. __Coordinated:__ online content and themes have
     been replicated and amplified across multiple sources across days, weeks, and
     months to give the appearance of greater interest and/or support in a topic than
     would be typical without assistance (manual or automated).\n\nWe have isolated
     two constructs for disinformation that annotators from local civil society groups
-    will be best positioned to answer within the scope of a local workshop event.\n\n####
-    Construct 2.1: Polarizing, Emotional, and Exaggerated Language\n\n__Explanation__:
+    will be best positioned to answer within the scope of a local workshop event.\n\n###
+    Construct 2.1: Polarizing, Emotional, and Exaggerated Language\n\nExplanation:
     Polarizing, emotional, and exaggerated language can be used to bias or mislead
     audiences towards inauthentic content or away from authentic content, particularly
-    in the absence of verified claims.  \n\n#### Indicators for Construct 2.1 \n\n1.
-    __Polarizing Language__. The Oxford living dictionary defines polarization as
-    the “division into two sharply contrasting groups or sets of opinions or beliefs.”
+    in the absence of verified claims.  \n\n#### Indicators for Construct 2.1 \n\n__I.
+    Polarizing Language.__ The Oxford living dictionary defines polarization as the
+    “division into two sharply contrasting groups or sets of opinions or beliefs.”
     This indicator can refer to topics or ideas in addition to groups of people. In
     examining how articles and posts polarize issues, here we ask annotators to look
     for linguistic qualifiers that divide on specific issues. In general, a division
@@ -4587,90 +4608,91 @@ report:
     language may be contested across different disciplines. For example, while the
     terms “pro-vaccine” and “anti-vaccine” may be used by public health information
     authorities, they are in some ways an inauthentic classification of what is, in
-    actuality, a range of beliefs. \n__Example__:\nA tweet creating a division between
+    actuality, a range of beliefs.\n\n__Example:__ A tweet creating a division between
     Luo and Kamba people: “Millie Odhiambo is a pure luo while Sonko is a pure kamba
-    \nThere is no any day in our lifetime Mike Sonko will match Hon Millie Odhiambo,
-    unless he starts it at class seven where Oscar Kipchumba Sudi left it!!!”\n__Target__:
-    Broader audience of article or post, audience on the author’s side of the issue,
-    undecided audiences vulnerable to polarizing language.\n\n1. Emotional Language.
+    \n\nThere is no any day in our lifetime Mike Sonko will match Hon Millie Odhiambo,
+    unless he starts it at class seven where Oscar Kipchumba Sudi left it!!!”\n\n__Target:__
+    \nBroader audience of article or post, audience on the author’s side of the issue,
+    undecided audiences vulnerable to polarizing language.\n\n__II. Emotional Language.__
     Readers can be misled by the emotional tone of articles and posts. Such language
     is common in opinion pieces and social media posts, which readers may parse as
     straight news or authentic representation of current events. Emotional tone can
-    sometimes be indicated through the positivity or negativity of the language.\n__Example__:
-    \nA social media post saying: “I feel for Monica Okoth. She was busy taking care
-    of Ken while he was busy cheating behind her back. Men are thrash.”\n__Target__:
+    sometimes be indicated through the positivity or negativity of the language.\n\n__Example:__
+    A social media post saying: “I feel for Monica Okoth. She was busy taking care
+    of Ken while he was busy cheating behind her back. Men are thrash.”\n\n__Target:__
     Broader audience of article or post, audience on the author’s side of the issue,
-    undecided audiences vulnerable to emotional language.\n\n1. __Exaggerations or
-    minimizations related to the central claims of the article or post__. In news
+    undecided audiences vulnerable to emotional language.\n\n__III. Exaggerations
+    or minimizations related to the central claims of the article or post.__ In news
     articles and social media posts, the language used determines whether events or
     situations are represented in a proportional manner. In some cases, an article
     or post may over-emphasize something, making it seem much better or worse than
     it may be in reality. An article or post may also minimize something, making it
-    seem much less important than it is in reality. \na: __Example__: \nAn article
-    states that there is “a tsunami of immigrations” if there has been an increase
-    in immigration.\nb: __Target__: Broader audience of article or post, audience
-    on the author’s side of the issue, undecided audiences vulnerable to exaggerated
-    language.\n\n#### Secondary Indicators for Construct 2.1\n\n1. __Presence of key
-    terms surrounding geopolitical topics/events.__ Some key themes or terms, identified
-    as ‘trigger words’, represent issues that are politically contentious, divisive
-    and/or politically polarizing. It is important that this secondary indicator be
-    understood as a library of key terms that is country specific and dynamic overtime,
-    changing depending on geopolitically strategic topics for a given context.\n2.
-    __Presence of key term hashtagged posts.__ This indicator seeks to examine the
-    presence of a trending hashtag on social media on a particular key term surrounding
-    geopolitical topics/events. This would require the same understanding that these
-    key terms may evolve overtime.\n3. __Othering.__ This indicator can be used to
-    specifically identify “them” language for groups of people - blanket statements
-    and generalities about specific groups, whether those statements are positive
-    or negative. This can also include vocabulary specific to how a given group is
-    different. Of course, the conditions that define a particular instance of othering
-    can be renegotiated if societal conditions change, so context and timing specificity
-    apply here as well. \n4. __Humor.__ The use of humor can be used both in order
-    to be critical of hate speech or to disguise the intention of hate speech. Identifying
-    if a piece of content is using humor is important for understanding the intended
-    impact and message it is communicating to its audience, as distinct from how a
-    post could be taken literally.\n5. __Influence.__ Is the speaker highly influential
-    or speaking on behalf of an influential institution? The potential for harm from
-    a piece of content is contingent on how widely it spreads, to whom, and how audiences
-    perceive it. Potential signals of influence on social media could be having many
-    followers or being verified on social media. Formal sources of influence could
-    be political or religious leadership, which may be especially influential towards
-    followers of their institutions.\n\n#### Construct 2.2: (Mis)alignment with expert
-    consensus\n\n__Explanation__: The goal of this construct is to assess an article
-    or post’s misalignment with the most up-to-date expert knowledge. Within the article,
-    findings, conclusions, and recommendations are based on the best available data.
-    This data, which may surface within an article as in-text citations, hyperlinks,
-    references to key sources or experts and quotes, should be cited properly, referencing
-    experts with relevant and credible expertise that validate the conclusions drawn,
-    and should be produced by non-stakeholders.\n\n#### Indicators for Construct 2.2\n\n1.
-    __Explicitly Unverified Claims__. Any references to explicitly unverified claims
-    and language used to describe the fact that they haven’t yet been verified, validated,
-    or proven to be true.\n\nFor evaluating explicitly unverified claims, we will
-    be asking annotators to identify any references to explicitly unverified claims
-    and the language used to describe the fact that they haven’t yet been verified,
-    validated or proven to be true or false by a trusted source such as an IFCN-verified
-    signatory. This includes language in an article explicitly referencing that a
-    claim has not yet been verified to date but the claim is being mentioned in the
-    article nonetheless, such as: “charges have not been proven true,” or “there’s
-    no red ‘false’ text to clearly point to the rumors as works of fiction,” or “
-    it isn’t clear if the talk about [...] is true or the stuff of conspiracy theory
-    fantasies.” \nc: __Examples__: \nA politician tweets out to his followers that
-    he estimates that a particular tribe is approximately a certain percentage of
-    the population of a region, but doesn’t substantiate it or say where that number
-    came from.\nd: __Targets__: Broader audience of article or post, audience on the
-    author’s side of the issue, undecided audiences, audiences with lower education
-    level.\n\n1. __Context for Fact-checked Claims__. There are organizations that
-    seek to verify or debunk claims appearing in articles. A prominent example is
-    Snopes.com. And in particular, International Fact Checking Network signatories
-    are organizations that have publicly made five commitments in their work, including
-    principles of nonpartisanship, transparency, and an open corrections policy. Other
-    fact-checking or verification organizations may also follow these guidelines,
-    without having become a signatory. For our purposes, the IFCN provides a useful
-    baseline through which to make analyses and observations. \ne: __Examples__: \nA
-    South African charity made the claim that “You are four times more likely to have
-    your gun used against you than be able to use it successfully in self-defence.”
-    There is an Africa Check article on this claim, which concludes that it is Unproven:
-    “There is no recent, reliable data on the topic.”\nf: __Targets__: N/A\n"
+    seem much less important than it is in reality. \n\n__Example:__ An article states
+    that there is “a tsunami of immigrations” if there has been an increase in immigration.\n\n__Target:__
+    Broader audience of article or post, audience on the author’s side of the issue,
+    undecided audiences vulnerable to exaggerated language.\n\n#### Secondary Indicators
+    for Construct 2.1\n\n1. __Presence of key terms surrounding geopolitical topics/events.__
+    Some key themes or terms, identified as ‘trigger words’, represent issues that
+    are politically contentious, divisive and/or politically polarizing. It is important
+    that this secondary indicator be understood as a library of key terms that is
+    country specific and dynamic overtime, changing depending on geopolitically strategic
+    topics for a given context.\n2. __Presence of key term hashtagged posts.__ This
+    indicator seeks to examine the presence of a trending hashtag on social media
+    on a particular key term surrounding geopolitical topics/events. This would require
+    the same understanding that these key terms may evolve overtime.\n3. __Othering.__
+    This indicator can be used to specifically identify “them” language for groups
+    of people - blanket statements and generalities about specific groups, whether
+    those statements are positive or negative. This can also include vocabulary specific
+    to how a given group is different. Of course, the conditions that define a particular
+    instance of othering can be renegotiated if societal conditions change, so context
+    and timing specificity apply here as well. \n4. __Humor.__ The use of humor can
+    be used both in order to be critical of hate speech or to disguise the intention
+    of hate speech. Identifying if a piece of content is using humor is important
+    for understanding the intended impact and message it is communicating to its audience,
+    as distinct from how a post could be taken literally.\n5. __Influence.__ Is the
+    speaker highly influential or speaking on behalf of an influential institution?
+    The potential for harm from a piece of content is contingent on how widely it
+    spreads, to whom, and how audiences perceive it. Potential signals of influence
+    on social media could be having many followers or being verified on social media.
+    Formal sources of influence could be political or religious leadership, which
+    may be especially influential towards followers of their institutions.\n\n###
+    Construct 2.2: (Mis)alignment with expert consensus\n\nExplanation: The goal of
+    this construct is to assess an article or post’s misalignment with the most up-to-date
+    expert knowledge. Within the article, findings, conclusions, and recommendations
+    are based on the best available data. This data, which may surface within an article
+    as in-text citations, hyperlinks, references to key sources or experts and quotes,
+    should be cited properly, referencing experts with relevant and credible expertise
+    that validate the conclusions drawn, and should be produced by non-stakeholders.\n\n####
+    Indicators for Construct 2.2\n\n**I. Explicitly Unverified Claims.** \nAny references
+    to explicitly unverified claims and language used to describe the fact that they
+    haven’t yet been verified, validated, or proven to be true.\n\nFor evaluating
+    explicitly unverified claims, we will be asking annotators to identify any references
+    to explicitly unverified claims and the language used to describe the fact that
+    they haven’t yet been verified, validated or proven to be true or false by a trusted
+    source such as an IFCN-verified signatory. This includes language in an article
+    explicitly referencing that a claim has not yet been verified to date but the
+    claim is being mentioned in the article nonetheless, such as: “charges have not
+    been proven true,” or “there’s no red ‘false’ text to clearly point to the rumors
+    as works of fiction,” or “ it isn’t clear if the talk about [...] is true or the
+    stuff of conspiracy theory fantasies.” \n\n__Examples:__ A politician tweets out
+    to his followers that he estimates that a particular tribe is approximately a
+    certain percentage of the population of a region, but doesn’t substantiate it
+    or say where that number came from.\n\n__Targets:__ Broader audience of article
+    or post, audience on the author’s side of the issue, undecided audiences, audiences
+    with lower education level.\n\n**II. Context for Fact-checked Claims.** \n\nThere
+    are organizations that seek to verify or debunk claims appearing in articles.
+    A prominent example is Snopes.com. And in particular, International Fact Checking
+    Network signatories are organizations that have publicly made [five commitments
+    in their work](https://ifcncodeofprinciples.poynter.org/know-more/the-commitments-of-the-code-of-principles),
+    including principles of nonpartisanship, transparency, and an open corrections
+    policy. Other fact-checking or verification organizations may also follow these
+    guidelines, without having become a signatory. For our purposes, the IFCN provides
+    a useful baseline through which to make analyses and observations. \n\n__Examples:__
+    \nA South African charity made the claim that “You are four times more likely
+    to have your gun used against you than be able to use it successfully in self-defence.”
+    There is an [Africa Check article](https://africacheck.org/reports/no-research-backs-widely-shared-statistic-about-gun-ownership-risk-in-south-africa/
+    \"Africa Check \") on this claim, which concludes that it is Unproven: “There
+    is no recent, reliable data on the topic.”\n\n__Targets:__ N/A\n"
   alt_date: !ruby/object:DateTime 2020-11-09 00:00:00.000000000 Z
   author:
   - sys:
@@ -4762,7 +4784,7 @@ report:
 - sys:
     id: 5HPWXq1exdySB1EdnYQvTB
     created_at: !ruby/object:DateTime 2020-11-10 15:03:40.089000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 20:18:39.000000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-12 15:39:34.883000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4796,31 +4818,31 @@ report:
     title: Toolkit for Civil Society and Moderation Inventory
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/5a5wRF4afli4T8FNKDSNgZ/3fac8ceed13d3e1a2499568421a47e71/content-moderation-project_toolkit-for-civil-society-and-moderation-inventory_social-card.png"
-  body: "Content moderation is a process, not a solution in and of itself. With the
-    increasing complexity of content on the internet and norms around governance,
+  introduction: 'Content moderation is a process, not a solution in and of itself.
+    With the increasing complexity of content on the internet and norms around governance,
     new standards are needed to help bridge the gap between industry and those seeking
     to engage with industry. Developed by a multistakeholder working group, the Content
     Moderation Toolkit for Civil Society articulates a common vocabulary and methodology
-    for content moderation. \n\nThe Content Moderation Project developed this inventory
-    through systematic documentation of moderation tools that are common on popular
-    social media platforms (e.g., Facebook, WhatsApp, Twitter, Reddit, YouTube) to
-    the extent they are available to the public, informed by interviews with industry
-    practitioners. We developed categories of tools through a content analysis of
-    the tools documented and discussions with members of the working group.\n\nWe
-    don’t see this as being completely comprehensive per se, but as the beginning
-    of a model that can be used for an ongoing inventory in an effort to develop standards.
-    Indeed, this toolkit serves as a proof of concept for a fuller model that would
-    be developed collaboratively with stakeholders from different industries. In the
-    long term, we believe that articulating this inventory will help civil society
-    actors provide more informed opinions in their conversations with platforms, while
-    serving platforms in cross-industry conversation about these core issues.\n\n###
-    Why develop an inventory? \n\nDuring our needs finding research, we identified
-    a critical gap between how industry stakeholders discussed moderation decisions
-    and how those outside industry—especially those in civil society, academia, and
-    policymaking—understood these decisions. In that light, the Content Moderation
+    for content moderation. '
+  body: "The Content Moderation Project developed this inventory through systematic
+    documentation of moderation tools that are common on popular social media platforms
+    (e.g., Facebook, WhatsApp, Twitter, Reddit, YouTube) to the extent they are available
+    to the public, informed by interviews with industry practitioners. We developed
+    categories of tools through a content analysis of the tools documented and discussions
+    with members of the working group.\n\nWe don’t see this as being completely comprehensive
+    per se, but as the beginning of a model that can be used for an ongoing inventory
+    in an effort to develop standards. Indeed, this toolkit serves as a proof of concept
+    for a fuller model that would be developed collaboratively with stakeholders from
+    different industries. In the long term, we believe that articulating this inventory
+    will help civil society actors provide more informed opinions in their conversations
+    with platforms, while serving platforms in cross-industry conversation about these
+    core issues.\n\n### Why develop an inventory? \n\nDuring our needs finding research,
+    we identified a critical gap between how industry stakeholders discussed moderation
+    decisions and how those outside industry—especially those in civil society, academia,
+    and policymaking—understood these decisions. In that light, the Content Moderation
     Toolkit is designed with the following core goals in mind:\n\n1. __Develop a common
     vocabulary__ for stakeholders in civil society, academia, and policy to have meaningful,
-    practical conversations with industry.\nThis toolkit and inventory aims to inform
+    practical conversations with industry.\n• This toolkit and inventory aims to inform
     stakeholders outside of industry how to advocate for product or policy changes
     in an actionable language that is informed by industry practices. This includes
     having a more intricate, nuanced understanding of the different types of moderation
@@ -4829,9 +4851,9 @@ report:
     to better understand the infrastructure/tooling needed to support the implementation
     and enforcement of those policies (or their goals/needs).\n\n1. __Compile research
     insights__ in practical, searchable literature databases and summaries tailored
-    for industry.\nLiterature reviews of key academic papers\nConstruct an ongoing
+    for industry.\n• Literature reviews of key academic papers.\n• Construct an ongoing
     database developed by a working group of academic and civil society experts in
-    the field\n\n1. __Develop an evidence-based model__ for making policy recommendations
+    the field.\n\n1. __Develop an evidence-based model__ for making policy recommendations
     by collecting and auditing moderation-related data.\n\n## Defining Content Moderation
     and its Properties\n\n### What is this inventory?\n\nThis inventory is a proposed
     method of classification for developing a taxonomy of content moderation enforcement
@@ -4863,9 +4885,9 @@ report:
     this inventory is designed to help standardize a vocabulary across these systems,
     to help build a meaningful way for civil society actors and platforms to engage.\n\nWe
     see three properties of content moderation enforcement tools that influence how
-    they are implemented and used:\n\n1. __Context__: How interaction between users
-    is structured on a platform\n2. __Ownership__: Who is doing the moderation enforcement
-    through each tool \n3. __Orientation__: What temporal dimension each tool is meant
+    they are implemented and used:\n\n1. __Context:__ How interaction between users
+    is structured on a platform\n2. __Ownership:__ Who is doing the moderation enforcement
+    through each tool \n3. __Orientation:__ What temporal dimension each tool is meant
     to support. \n\nVariance in execution of enforcement between platforms can occur
     for a variety of reasons including:\n\n- How tools are designed and operate\n-
     What is possible in a technical or operational capacity\n- Policy limitations\n-
@@ -4915,15 +4937,15 @@ report:
     articulated as being solely under the purview of moderation conducted by platforms.
     However, the work and responsibility of monitoring, judging, and acting on user-generated
     content is often offloaded onto platform users and community moderators.\n\n###
-    What is content moderation “enforcement”?\n\n![What is content moderation “enforcement”?](//images.ctfassets.net/g118h5yoccvd/27fHVmGxfCALXyAmo83UpA/fb5dc4b2f4a6a4242d883c803153f0d5/What_is_content_moderation____enforcement___)\n\nThis
+    What is content moderation “enforcement”?\n\n![What is content moderation “enforcement”?](//images.ctfassets.net/g118h5yoccvd/20RPqGvjppn2HxFGwONv0X/9ed730130b0aba1988716761584d0a63/What_is_content_moderation____enforcement___.png)\n\nThis
     document specifically focuses on __enforcement tools__, while recognizing the
     multi-layered nature of content moderation. That said, it’s important to recognize
     that content moderation is a process that can be articulated with five distinct
-    components:\n\n1. __Detection__: Locating and identifying content that may violate
-    platform policy\n2. __Adjudication__: Determining if the content is in violation
-    of platform policy\n3. __Enforcement__: Acting on content based on the consequence
-    determined by platform policy\n4. __Appeal__: Returning to the adjudication stage
-    if a user contests or appeals a platform judgment\n5. __Policy__: The set of principles,
+    components:\n\n1. __Detection:__ Locating and identifying content that may violate
+    platform policy\n2. __Adjudication:__ Determining if the content is in violation
+    of platform policy\n3. __Enforcement:__ Acting on content based on the consequence
+    determined by platform policy\n4. __Appeal:__ Returning to the adjudication stage
+    if a user contests or appeals a platform judgment\n5. __Policy:__ The set of principles,
     rules, or guidelines that determine what content is acceptable on a platform.
     In practice these guidelines are reviewed and updated based on other components
     of the content moderation process.\n\n## Properties of a Content Moderation Enforcement
@@ -5044,16 +5066,16 @@ report:
     users. Such preventative measures, however, also carry a risk of disincentivizing
     legitimate speech (this parallels the idea of a ‘chilling effect’ in legal contexts).\n\n-
     __Reactive moderation__ acts on content *after* content has been posted to the
-    platform.\n__Example__: A moderator of a chatroom on Twitch.tv can [clear (remove)
+    platform.\n__Example:__ A moderator of a chatroom on Twitch.tv can [clear (remove)
     all of the messages in a chatroom](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#CleartheChat
     \"Twitch: how to manage harassment in chat\") if there is an influx of messages
     harassing users in the chatroom.\n\n- __Proactive moderation__ acts on content
-    after it is submitted by a user, but before it is posted to the platform\n__Example__:
+    after it is submitted by a user, but before it is posted to the platform\n__Example:__
     The [Automod feature on Twitch.tv](https://blog.twitch.tv/en/2016/12/12/moderators-are-the-sword-now-automod-is-the-shield-df3d8aae32a9/
     \"Automod feature on Twitch.tv\") enables chat room moderators to review a chat
     message after it’s submitted by a user but before the message is posted to the
     chat room. \n\n- __Preventative moderation__ *prevents* content from being submitted
-    by a user.\n__Example__: The owner of a chatroom on Twitch.tv can [require that
+    by a user.\n__Example:__ The owner of a chatroom on Twitch.tv can [require that
     users view and agree to their chatroom rules](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#RequireUserstoAgreetoChannelRules
     \"Twitch: how-to-manage-harassment-in-chat\") before the user can send messages
     to the chatroom, which has been shown to [reduce the amount of reactive moderation
@@ -5071,85 +5093,85 @@ report:
     “graphic,” “inappropriate,” and others do not have consistent definitions across
     platforms, and may variably be used to describe content that displays or depicts
     nudity, sexual activity, sexual abuse, child exploitation, gore, and violent imagery.\n\n###
-    Block\n\n__Description__: A block is broadly defined as a feature that enables
+    Block\n\n__Description:__ A block is broadly defined as a feature that enables
     a user to 1) restrict the access that an account has to that user’s content and
     profile and 2) make content made by the blocked account no longer visible to that
     user.\n\n__Owner:__ User\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
-    Reactive, Proactive\n__Example:__\n\n- __Tumblr__: Once a user blocks an account,
-    neither the user nor the blocked account see one another aside from threaded posts
-    where someone can make a comment and another account reblogs and adds to it. Because
+    Reactive, Proactive\n\n- __Example: Tumblr:__ Once a user blocks an account, neither
+    the user nor the blocked account see one another aside from threaded posts where
+    someone can make a comment and another account reblogs and adds to it. Because
     of Tumblr’s design, these reblogs with added comments offer some level of visibility
     on what a user is saying or doing if another person reblogs that user’s content
-    with a comment.\n- __Twitter__: A user can individually block an account. The
-    user no longer sees the account’s tweets and the blocked account no longer can
-    see the user’s. Neither party can send a direct message (DM) to the other. The
-    user can still navigate to the profile of the account they have blocked to opt
-    into seeing the tweets only when navigating directly that account’s profile.\n-
-    __Discord__: A user can individually block an account. Once an account is blocked,
-    the blocked account can see the user’s contributions to a conversation in a group
-    chat they are both in, but the user cannot see the contributions of the blocked
-    account in a group chat.\n- __Facebook__: A user can block individual accounts.
-    Blocked accounts cannot see the user’s profile, post on their profile, tag them
-    in posts, see links to their profile, send invites to groups, pages, or events,
-    or send a friend request. This block does not include apps, games, or groups that
-    both the user and the blocked account participate in. \n\n### Mute\n\n__Description__:
-    Mute is a feature that enables a user to remove a specific piece of content, user,
-    or keyword from their feed and/or notifications so it is no longer visible to
-    them by default. This feature may still enable users to seek out muted posts,
-    profiles, or keywords proactively, or will hide them entirely. Different types
-    of mutes can happen on:\n\n- Notifications from comment threads\n- Global content\n-
-    Direct or private messages\n\n__Owner__: User\n__Context__: Feed, Forum, Direct
-    Message\n__Orientation__: Reactive, Proactive\n__Example__: \n- __Facebook__:
-    A user can choose the “Snooze for 30 days” for an account so that posts made by
-    that account do not show up in the user’s newsfeed for 30 days.\n\n### Hide Post\n\n__Description__:
-    An *individual* post or message is no longer visible to the user, but is still
-    viewable by other users. In direct messages, a user may be able to hide a message
-    by choosing a “delete for me” option but they will not be able to retrieve it
-    once deleted for them.\n\n__Owner:__ User\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
-    Reactive, Proactive\n__Example:__\n- __Reddit:__ A user can choose to hide a post;
-    it won’t show up in their feed or in the subreddit where it was posted. The user
-    can find the hidden post by navigating to their account profile and selecting
-    the “hidden” posts section.\n\n### Remove Post\n\nDescription: The user can remove
-    content that has been posted by an account on a user’s post or profile so that
-    it is no longer viewable by any account where it was posted. Post removals through
-    platform moderation are also commonly called content takedowns. \n\nRemoving the
-    posted content may result in:\n\n- the content being deleted from the platform,
-    \n- remaining on the profile of the account that posted the content, or \n- moved
-    to a less visible location (See: Twitter “[Hide reply](https://blog.twitter.com/en_us/topics/product/2019/more-control-over-your-conversations-globally.html
-    \"Twitter: More control over your conversations\")”) \n\n__Owner__: User, Community
-    Moderator, Platform\n__Context__: Feed, Forum, Direct Message\n__Orientation__:
-    Reactive, Proactive\n__Example__: \n- __Discord__: A Discord moderator can select
+    with a comment.\n- __Example: Twitter:__ A user can individually block an account.
+    The user no longer sees the account’s tweets and the blocked account no longer
+    can see the user’s. Neither party can send a direct message (DM) to the other.
+    The user can still navigate to the profile of the account they have blocked to
+    opt into seeing the tweets only when navigating directly that account’s profile.\n-
+    __Example: Discord:__ A user can individually block an account. Once an account
+    is blocked, the blocked account can see the user’s contributions to a conversation
+    in a group chat they are both in, but the user cannot see the contributions of
+    the blocked account in a group chat.\n- __Example: Facebook:__ A user can block
+    individual accounts. Blocked accounts cannot see the user’s profile, post on their
+    profile, tag them in posts, see links to their profile, send invites to groups,
+    pages, or events, or send a friend request. This block does not include apps,
+    games, or groups that both the user and the blocked account participate in. \n\n###
+    Mute\n\n__Description:__ Mute is a feature that enables a user to remove a specific
+    piece of content, user, or keyword from their feed and/or notifications so it
+    is no longer visible to them by default. This feature may still enable users to
+    seek out muted posts, profiles, or keywords proactively, or will hide them entirely.
+    Different types of mutes can happen on:\n\n- Notifications from comment threads\n-
+    Global content\n- Direct or private messages\n\n__Owner:__ User\n__Context:__
+    Feed, Forum, Direct Message\n__Orientation:__ Reactive, Proactive\n\n- __Example:
+    Facebook:__ A user can choose the “Snooze for 30 days” for an account so that
+    posts made by that account do not show up in the user’s newsfeed for 30 days.\n\n###
+    Hide Post\n\n__Description:__ An *individual* post or message is no longer visible
+    to the user, but is still viewable by other users. In direct messages, a user
+    may be able to hide a message by choosing a “delete for me” option but they will
+    not be able to retrieve it once deleted for them.\n\n__Owner:__ User\n__Context:__
+    Feed, Forum, Direct Message\n__Orientation:__ Reactive, Proactive\n\n- __Example:
+    Reddit:__ A user can choose to hide a post; it won’t show up in their feed or
+    in the subreddit where it was posted. The user can find the hidden post by navigating
+    to their account profile and selecting the “hidden” posts section.\n\n### Remove
+    Post\n\nDescription: The user can remove content that has been posted by an account
+    on a user’s post or profile so that it is no longer viewable by any account where
+    it was posted. Post removals through platform moderation are also commonly called
+    content takedowns. \n\nRemoving the posted content may result in:\n\n- the content
+    being deleted from the platform, \n- remaining on the profile of the account that
+    posted the content, or \n- moved to a less visible location (See: Twitter “[Hide
+    reply](https://blog.twitter.com/en_us/topics/product/2019/more-control-over-your-conversations-globally.html
+    \"Twitter: More control over your conversations\")”) \n\n__Owner:__ User, Community
+    Moderator, Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
+    Reactive, Proactive\n\n- __Example: Discord:__ A Discord moderator can select
     “Delete” from the overflow menu (which appears as “•••”) of a chat message, which
-    will remove the message from the chat entirely.\n\n### Unfollow/Unfriend\n\n__Description__:
+    will remove the message from the chat entirely.\n\n### Unfollow/Unfriend\n\n__Description:__
     The user removes an account from their social network, reducing the visibility
     of the account to the user or the ability of the account to act on the user, where
     the account may:\n\n- no longer appear in the feed of the user\n- lose access
     to non-public content posted by the user\n- lose the ability to send the user
-    a direct message\n\n__Owner__: User\n__Context__: Feed, Forum, Direct Message\n__Orientation__:
-    Reactive, Proactive\n__Example__: \n- __LinkedIn__: A user can select “Remove
-    Connection” on another account, which will remove that account from their Connections.
-    That account will no longer show up as a Connection and the account will only
-    be able to see the user’s profile details and content posted by the user that
-    are available to the public.\n\n### Personal Filter\n\nDescription: Features of
-    this type modify what type of content or behavior is visible to the user, typically
-    in their feeds, notifications, or direct messages. Direct messages that are filtered
-    may be directed to a separate inbox or deleted. A personal filter is distinct
-    from mute, which hides content explicitly based on user-chosen keywords or users.
-    \n\n__Owner__: User\n__Context__: Feed, Forum, Direct Message\n__Orientation__:
-    Reactive, Proactive\n__Example__: \n- __Twitter__: Users can choose to turn on
-    a [quality filter](https://help.twitter.com/en/managing-your-account/understanding-the-notifications-timeline
+    a direct message\n\n__Owner:__ User\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
+    Reactive, Proactive\n\n- __Example: LinkedIn:__ A user can select “Remove Connection”
+    on another account, which will remove that account from their Connections. That
+    account will no longer show up as a Connection and the account will only be able
+    to see the user’s profile details and content posted by the user that are available
+    to the public.\n\n### Personal Filter\n\nDescription: Features of this type modify
+    what type of content or behavior is visible to the user, typically in their feeds,
+    notifications, or direct messages. Direct messages that are filtered may be directed
+    to a separate inbox or deleted. A personal filter is distinct from mute, which
+    hides content explicitly based on user-chosen keywords or users. \n\n__Owner:__
+    User\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__ Reactive, Proactive\n\n-
+    __Example: Twitter:__ Users can choose to turn on a [quality filter](https://help.twitter.com/en/managing-your-account/understanding-the-notifications-timeline
     \"Twitter: Understanding the notifications timeline\"), which prevents tweets
     with “low-quality” content from appearing in their notifications.\n\n### Restrict
-    Personal Audience\n\n__Description__: Content posted by the user or users within
+    Personal Audience\n\n__Description:__ Content posted by the user or users within
     a community is restricted to the audiences designated by the user or community
-    moderator.\n\n__Owner__: User, Community Moderator\n__Context__: Feed, Forum\n__Orientation__:
-    Preventative\n__Example__: \n- __YouTube__: A user can set a video they upload
-    to their channel to “Private,” which removes the video from the “Videos” tab on
-    their channel (i.e. the user’s profile), YouTube’s search results, and recommendations.
+    moderator.\n\n__Owner:__ User, Community Moderator\n__Context:__ Feed, Forum\n__Orientation:__
+    Preventative\n\n- __Example: YouTube:__ A user can set a video they upload to
+    their channel to “Private,” which removes the video from the “Videos” tab on their
+    channel (i.e. the user’s profile), YouTube’s search results, and recommendations.
     Comments are automatically disabled for the video and the video cannot be shared
     by a link. The user can choose to send an invitation to view the video to other
     user emails, but the video is unviewable otherwise.\n\n### Restrict Participation
-    on Content\n\n__Description__: A user, community moderator, or platform moderator
+    on Content\n\n__Description:__ A user, community moderator, or platform moderator
     can prevent multiple accounts from making posts or interacting with posts in a
     designated space (e.g., posts in a forum space, the comments section of a post,
     edits on a wiki article)\n\nThis can include:\n- Turning off comments\n- Turning
@@ -5157,63 +5179,63 @@ report:
     posts containing slurs)\n- Filtering posting by user characteristics (e.g., A
     Reddit moderator may make a filter that removes posts made by all accounts less
     than 10 days old)\n- Tagging\n- Turning off or filtering content edits (e.g.,
-    editing wiki pages)\n\n__Owner__: User, Community Moderator, Platform\n__Context__:
-    Feed, Forum\n__Orientation__: Reactive, Proactive, Preventative\n__Example__:
-    \n- __Wikipedia__: Unregistered users can edit most but not all articles, and
-    they cannot create new articles on the English edition without an account.\n\n###
-    Content Screen\n\n__Description__: A screen that blocks a type of content partially
-    or entirely with warning about the nature of the content—typically by hiding or
-    blurring the content. When encountering screened content, the user is given the
-    ability to choose whether to view that content or not. Common content types for
-    when the platform screens content by default are graphic sexual or violent content.\n\n__Owner__:
-    User, Community Moderator, Platform\n__Context__: Feed, Forum, Direct Message\n__Orientation__:
-    Reactive, Proactive\n__Example__: \n- __Reddit__: Puts a screen in front of content
+    editing wiki pages)\n\n__Owner:__ User, Community Moderator, Platform\n__Context:__
+    Feed, Forum\n__Orientation:__ Reactive, Proactive, Preventative\n\n- __Example:
+    Wikipedia:__ Unregistered users can edit most but not all articles, and they cannot
+    create new articles on the English edition without an account.\n\n### Content
+    Screen\n\n__Description:__ A screen that blocks a type of content partially or
+    entirely with warning about the nature of the content—typically by hiding or blurring
+    the content. When encountering screened content, the user is given the ability
+    to choose whether to view that content or not. Common content types for when the
+    platform screens content by default are graphic sexual or violent content.\n\n__Owner:__
+    User, Community Moderator, Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
+    Reactive, Proactive\n\n- __Example: Reddit:__ Puts a screen in front of content
     that is labeled NSFW (not safe for work), which blurs the thumbnails and media
     preview for users who are using the “Safe browsing mode” setting. Users can choose
-    to click on the content screen to view that content.\n\n### Limit Account\n__Description__:
+    to click on the content screen to view that content.\n\n### Limit Account\n__Description:__
     The range of actions otherwise available to a designated account is restricted.
     Actions that can be restricted for that account include:\n- Posting on the platform
     or community space\n- Commenting on other user posts\n- Sending direct messages\n-
     Interacting with a post (e.g., “Like,” “Favorite,” votes)\n- Sharing other user
     posts\n- Reducing or removing the ability to monetize content that is produced
     by the account\n- Reducing or removing the ability to post advertisements on the
-    platform\n\n__Owner__: Community Moderator, Platform\n__Context__: Feed, Forum,
-    Direct Message\n__Orientation__: Reactive\n__Example__: \n- __YouTube__: YouTube
-    videos that do not follow guidelines for “ad-friendly” content may be demonetized,
-    removing the video creator’s ability to host paid advertisements on their video
-    and by extension their ability to generate revenue from that video through advertisements.\n\n###
-    Account Suspension/Ban\n\n__Description__: Removes the account from the platform
-    or forum.\n- __Forum__: An account banned from a forum will not be able to rejoin
+    platform\n\n__Owner:__ Community Moderator, Platform\n__Context:__ Feed, Forum,
+    Direct Message\n__Orientation:__ Reactive\n\n- __Example: YouTube:__ YouTube videos
+    that do not follow guidelines for “ad-friendly” content may be demonetized, removing
+    the video creator’s ability to host paid advertisements on their video and by
+    extension their ability to generate revenue from that video through advertisements.\n\n###
+    Account Suspension/Ban\n\n__Description:__ Removes the account from the platform
+    or forum.\n- __Forum:__ An account banned from a forum will not be able to rejoin
     that forum, and possibly will be restricted from viewing the contents of that
-    forum. \n- __Platform__: The account suspended by the platform can no longer be
+    forum. \n- __Platform:__ The account suspended by the platform can no longer be
     accessed, and the account profile will no longer be visible to other users. \nA
     suspension or ban may be lifted if the account owner performs requested actions
     or a set amount of time has passed. An account may be suspended permanently if
-    it has received multiple conditional or temporary suspensions.\n\n__Owner__: Community
-    Moderator, Platform\n__Context__: Feed, Forum, Direct Message\n__Orientation__:
-    Reactive\n__Example__: \n- __Facebook__: A Facebook Group Admin or Moderator can
-    remove a Facebook account from the Group and then choose to “Block” that account
-    from the group. An account blocked from the group won't be able to find, see or
-    join that group.\n\n### Sanction\n\n__Description__: The platform warns a user
-    about content or actions that have violated platform policy. A warning may result
-    in:\n\n- __An account strike__: A strike on an account where the account faces
-    further moderation actions (e.g., account suspension or ban) once a certain number
-    of strikes have been acquired within an allotted time period.\n- __Requiring action
-    from the user__: The platform may require that the user remove a post, alter their
+    it has received multiple conditional or temporary suspensions.\n\n__Owner:__ Community
+    Moderator, Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
+    Reactive\n\n- __Example: Facebook:__ A Facebook Group Admin or Moderator can remove
+    a Facebook account from the Group and then choose to “Block” that account from
+    the group. An account blocked from the group won't be able to find, see or join
+    that group.\n\n### Sanction\n\n__Description:__ The platform warns a user about
+    content or actions that have violated platform policy. A warning may result in:\n\n-
+    __An account strike:__ A strike on an account where the account faces further
+    moderation actions (e.g., account suspension or ban) once a certain number of
+    strikes have been acquired within an allotted time period.\n- __Requiring action
+    from the user:__ The platform may require that the user remove a post, alter their
     content or profile, or take other measures within a certain period of time to
     avoid further moderation actions or reduce, e.g., to lift an account suspension.\n\nPlease
     note that some sanctions are reflective of cumulative flags against the user that
-    may not be visible immediately but are logged.\n\n__Owner__: Community Moderator,
-    Platform\n__Context__: Feed, Forum, Direct Message\n__Orientation__: Reactive\n__Example__:
-    \n- __Instagram__: An account may receive an account warning when they have made
-    multiple posts that violate Instagram community guidelines, notifying them that
-    their account will be deleted if they continue to violate policy. The warning
-    includes a list of previous policy violations the account has made.\n\n### Downrank\n\n__Description__:
+    may not be visible immediately but are logged.\n\n__Owner:__ Community Moderator,
+    Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__ Reactive\n\n-
+    __Example: Instagram:__ An account may receive an account warning when they have
+    made multiple posts that violate Instagram community guidelines, notifying them
+    that their account will be deleted if they continue to violate policy. The warning
+    includes a list of previous policy violations the account has made.\n\n### Downrank\n\n__Description:__
     Content from a particular account, accounts with particular characteristics, or
     content with particular characteristics will be ranked lower in user feeds, recommended
     content, home screens, or front pages of social media platforms, making it less
-    visible to users.\n\n__Owner__: Platform\n__Context__: Feed, Forum\n__Orientation__:
-    Reactive, Proactive\n__Example__: \n- __Twitter__: [Twitter announced July 2018](https://blog.twitter.com/en_us/topics/company/2018/Setting-the-record-straight-on-shadow-banning.html
+    visible to users.\n\n__Owner:__ Platform\n__Context:__ Feed, Forum\n__Orientation:__
+    Reactive, Proactive\n\n- __Example: Twitter:__ [Twitter announced July 2018](https://blog.twitter.com/en_us/topics/company/2018/Setting-the-record-straight-on-shadow-banning.html
     \"Twitter: Setting the record straight on shadow banning\") that tweets associated
     with bad actors were ranked lower with bad actors determined based on signals
     like account age, others accounts in its network (i.e., followers), and the moderation
