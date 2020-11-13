@@ -2837,7 +2837,7 @@ report:
 - sys:
     id: 4u68N8i5XJdHR1idRXTjOu
     created_at: !ruby/object:DateTime 2020-11-09 20:26:26.449000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 15:07:55.095000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 03:58:47.559000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -2976,7 +2976,7 @@ report:
     standardized annotation efforts to address hate speech and harassment online.
     \n\nWe generated our initial insights from two pre-workshop surveys, participatory
     design activities, workshop outputs and informal semi-structured interviews conducted
-    over the course of the week.\n\n## Key findings:\n\n- **1. Social media global
+    over the course of the week.\n\n## Key findings\n\n- **1. Social media global
     standards for content moderation do not represent how hate speech, misinformation,
     and disinformation manifest in the Kenyan context.**\nSocial media posts that
     had been reported and remained visible on social media platforms were reviewed
@@ -4334,7 +4334,7 @@ report:
 - sys:
     id: 1Q7LLqUAyLZefSMra2NRKZ
     created_at: !ruby/object:DateTime 2020-11-10 14:12:55.148000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 23:04:43.018000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 01:43:05.697000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4482,25 +4482,25 @@ report:
     typically ambiguous terms “hate” or “harms.” They formally define dangerous speech
     as expression that increases the risk that its audience will condone violence
     against members of another category, where the severity of dangerous speech is
-    determined by the extent to which five variables are maximized: \n\n- *a powerful
-    speaker with a high degree of influence over the audience.*\n- *the audience has
-    grievances and fear that the speaker can cultivate.*\n- *a speech act that is
-    clearly understood as a call to violence,*\n- *a social or historical context
-    that is propitious for violence, for any of a variety of reasons, including longstanding
-    competition between groups for resources, lack of efforts to solve grievances,
-    or previous episodes of violence.*\n- *a means of dissemination that is influential
-    in itself, for example because it is the sole or primary source of news for the
-    relevant audience. Benesch, Susan. \"Dangerous speech: A proposal to prevent group
-    violence.\" Voices That Poison: Dangerous Speech Project (2012).*\n\nGiven that
-    annotators and moderators may have a limited ability to investigate the direct
-    context around an article or piece of content (e.g., surrounding social media
-    posts, responses to or preceding social media posts or articles), we focus on
-    identifying clear calls to violence, and encouragement of violence through cultivation
-    of fear and grievances. We have formed indicator questions to enable CSOs to provide
-    information on the social and historical context of articles and pieces of content
-    that may foster an environment for violence.\n\n#### Indicators for Construct
-    1.2\n\nWe can operationalize this construct by measuring the following indicators:\n\n**I.
-    A call for violence or an expression of desire (wishing or hoping) for physical
+    determined by the extent to which five variables are maximized: \n\n- a powerful
+    speaker with a high degree of influence over the audience.\n- the audience has
+    grievances and fear that the speaker can cultivate.\n- a speech act that is clearly
+    understood as a call to violence,\n- a social or historical context that is propitious
+    for violence, for any of a variety of reasons, including longstanding competition
+    between groups for resources, lack of efforts to solve grievances, or previous
+    episodes of violence.\n- a means of dissemination that is influential in itself,
+    for example because it is the sole or primary source of news for the relevant
+    audience. *Benesch, Susan. \"Dangerous speech: A proposal to prevent group violence.\"
+    Voices That Poison: Dangerous Speech Project (2012).*\n\nGiven that annotators
+    and moderators may have a limited ability to investigate the direct context around
+    an article or piece of content (e.g., surrounding social media posts, responses
+    to or preceding social media posts or articles), we focus on identifying clear
+    calls to violence, and encouragement of violence through cultivation of fear and
+    grievances. We have formed indicator questions to enable CSOs to provide information
+    on the social and historical context of articles and pieces of content that may
+    foster an environment for violence.\n\n#### Indicators for Construct 1.2\n\nWe
+    can operationalize this construct by measuring the following indicators:\n\n**A
+    call for violence or an expression of desire (wishing or hoping) for physical
     violence to be perpetrated against a group or a gathering of people from a protected
     group.** This includes laudatory references towards or depictions of historical,
     systematic, current, or ongoing violence towards protected groups.\n\n__Examples:__
@@ -4553,7 +4553,7 @@ report:
     (1) An individual and people related to the individual or (2) Members of an organization
     or a group of people (particularly at an event or location).\n\n#### Indicators
     for Construct 1.3 \n\nWe can operationalize this construct by measuring the following
-    indicator:\n\n**I. Statement of intention to harm an individual or multiple people
+    indicator:\n\n**Statement of intention to harm an individual or multiple people
     based on their membership in a category.**\n\n__Examples:__ \n1. A tweet that
     states the perpetrator knows where the target lives and that they will find them.\n2.
     A statement that a group of people going to or organization an event will come
@@ -4784,7 +4784,7 @@ report:
 - sys:
     id: 5HPWXq1exdySB1EdnYQvTB
     created_at: !ruby/object:DateTime 2020-11-10 15:03:40.089000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 15:39:34.883000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 04:10:04.088000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4842,58 +4842,59 @@ report:
     and policymaking—understood these decisions. In that light, the Content Moderation
     Toolkit is designed with the following core goals in mind:\n\n1. __Develop a common
     vocabulary__ for stakeholders in civil society, academia, and policy to have meaningful,
-    practical conversations with industry.\n• This toolkit and inventory aims to inform
-    stakeholders outside of industry how to advocate for product or policy changes
-    in an actionable language that is informed by industry practices. This includes
-    having a more intricate, nuanced understanding of the different types of moderation
-    and the types of actions they perform, and how these actions can connect to the
-    change stakeholders desire to see. At the same time we aim to allow stakeholders
-    to better understand the infrastructure/tooling needed to support the implementation
-    and enforcement of those policies (or their goals/needs).\n\n1. __Compile research
-    insights__ in practical, searchable literature databases and summaries tailored
-    for industry.\n• Literature reviews of key academic papers.\n• Construct an ongoing
-    database developed by a working group of academic and civil society experts in
-    the field.\n\n1. __Develop an evidence-based model__ for making policy recommendations
-    by collecting and auditing moderation-related data.\n\n## Defining Content Moderation
-    and its Properties\n\n### What is this inventory?\n\nThis inventory is a proposed
-    method of classification for developing a taxonomy of content moderation enforcement
-    tools. This inventory catalogues the main moderation product features used to
-    enforce content moderation decisions on social media platforms. We classify these
-    moderation features as __tools__.\n\nDifferent social media platforms use different
-    terms to describe similar or identical moderation features, and conversely, use
-    the same terms to describe moderation features that are implemented differently
-    across platforms (e.g., unfollow on Twitter vs. unfollow on Facebook). Moreover,
-    platforms continue to change these features or release new features to address
-    current and ever-emerging challenges in content moderation. \n\nUsers and organizations
-    external to social media companies thus have limited, confusing, and inconsistent
-    insight into how content moderation features operate within the systems underlying
-    platform governance, from both technical and platform policy perspectives.\n\nRather
-    than documenting the current versions of how each tool is designed and implemented
-    on each platform, it’s important to develop consistent terminology that describes
-    the functions of these tools to make moderation enforcement comprehensible and
-    develop a vocabulary to differentiate between approaches or impacts of the ways
-    social media companies deploy these tools.\n\nIn order to enable discussions of
-    moderation features across platforms, this inventory proposes a set of __classes
-    of tools__ that correspond to content moderation actions as they are understood
-    and named by the public, and articulates variations of how platforms implement
-    tools in these classes. \n\nFor each tool, the inventory lists a range of common
-    implementations of that class of tool as it has been deployed on popular social
-    media platforms. Each platform’s implementation of a moderation enforcement tool
-    emerges from a differential sets of resources, priorities, and trade-offs, audiences,
-    and structures of interaction on the platform. Therefore, the goal is not to impose
-    a standard of how these tools should be articulated or labeled on platforms; rather,
-    this inventory is designed to help standardize a vocabulary across these systems,
-    to help build a meaningful way for civil society actors and platforms to engage.\n\nWe
-    see three properties of content moderation enforcement tools that influence how
-    they are implemented and used:\n\n1. __Context:__ How interaction between users
-    is structured on a platform\n2. __Ownership:__ Who is doing the moderation enforcement
-    through each tool \n3. __Orientation:__ What temporal dimension each tool is meant
-    to support. \n\nVariance in execution of enforcement between platforms can occur
-    for a variety of reasons including:\n\n- How tools are designed and operate\n-
-    What is possible in a technical or operational capacity\n- Policy limitations\n-
-    Relationship with other stages of the moderation process\n- Concerns expressed
-    by users and public stakeholders\n\nAccording to [a recent report](https://lab.witness.org/ticks-or-it-didnt-happen/
-    \"Witness: ticks or it didn't happen\") developed by human rights and media organization
+    practical conversations with industry.\n\t- This toolkit and inventory aims to
+    inform stakeholders outside of industry how to advocate for product or policy
+    changes in an actionable language that is informed by industry practices. This
+    includes having a more intricate, nuanced understanding of the different types
+    of moderation and the types of actions they perform, and how these actions can
+    connect to the change stakeholders desire to see. At the same time we aim to allow
+    stakeholders to better understand the infrastructure/tooling needed to support
+    the implementation and enforcement of those policies (or their goals/needs).\n\n1.
+    \ __Compile research insights__ in practical, searchable literature databases
+    and summaries tailored for industry.\n\t- Literature reviews of key academic papers.\n\t-
+    Construct an ongoing database developed by a working group of academic and civil
+    society experts in the field.\n\n1. __Develop an evidence-based model__ for making
+    policy recommendations by collecting and auditing moderation-related data.\n\n##
+    Defining Content Moderation and its Properties\n\n### What is this inventory?\n\nThis
+    inventory is a proposed method of classification for developing a taxonomy of
+    content moderation enforcement tools. This inventory catalogues the main moderation
+    product features used to enforce content moderation decisions on social media
+    platforms. We classify these moderation features as __tools__.\n\nDifferent social
+    media platforms use different terms to describe similar or identical moderation
+    features, and conversely, use the same terms to describe moderation features that
+    are implemented differently across platforms (e.g., unfollow on Twitter vs. unfollow
+    on Facebook). Moreover, platforms continue to change these features or release
+    new features to address current and ever-emerging challenges in content moderation.
+    \n\nUsers and organizations external to social media companies thus have limited,
+    confusing, and inconsistent insight into how content moderation features operate
+    within the systems underlying platform governance, from both technical and platform
+    policy perspectives.\n\nRather than documenting the current versions of how each
+    tool is designed and implemented on each platform, it’s important to develop consistent
+    terminology that describes the functions of these tools to make moderation enforcement
+    comprehensible and develop a vocabulary to differentiate between approaches or
+    impacts of the ways social media companies deploy these tools.\n\nIn order to
+    enable discussions of moderation features across platforms, this inventory proposes
+    a set of __classes of tools__ that correspond to content moderation actions as
+    they are understood and named by the public, and articulates variations of how
+    platforms implement tools in these classes. \n\nFor each tool, the inventory lists
+    a range of common implementations of that class of tool as it has been deployed
+    on popular social media platforms. Each platform’s implementation of a moderation
+    enforcement tool emerges from a differential sets of resources, priorities, and
+    trade-offs, audiences, and structures of interaction on the platform. Therefore,
+    the goal is not to impose a standard of how these tools should be articulated
+    or labeled on platforms; rather, this inventory is designed to help standardize
+    a vocabulary across these systems, to help build a meaningful way for civil society
+    actors and platforms to engage.\n\nWe see three properties of content moderation
+    enforcement tools that influence how they are implemented and used:\n\n1. __Context:__
+    How interaction between users is structured on a platform\n2. __Ownership:__ Who
+    is doing the moderation enforcement through each tool \n3. __Orientation:__ What
+    temporal dimension each tool is meant to support. \n\nVariance in execution of
+    enforcement between platforms can occur for a variety of reasons including:\n\n-
+    How tools are designed and operate\n- What is possible in a technical or operational
+    capacity\n- Policy limitations\n- Relationship with other stages of the moderation
+    process\n- Concerns expressed by users and public stakeholders\n\nAccording to
+    [a recent report](https://lab.witness.org/ticks-or-it-didnt-happen/ \"Witness:
+    ticks or it didn't happen\") developed by human rights and media organization
     WITNESS, society stands at a precipice of opportunities and challenges around
     online content:\n\n- The opportunity: In today’s world, digital tools have the
     potential to increase civic engagement and participation—particularly for marginalized
@@ -4922,9 +4923,9 @@ report:
     at the intersection of a balance between harms to individuals and harms to society
     overall, with no easy solutions. This report seeks to create a vocabulary to enable
     more robust discussions around this topic.\n\n__What is content moderation?__\nThere
-    is no authoritative definition of “__content moderation__,” but the term broadly
-    refers to the process of monitoring, judging, and acting on user-generated content
-    to enforce policies, rules, or guidelines (often called community standards) determined
+    is no authoritative definition of “content moderation,” but the term broadly refers
+    to the process of monitoring, judging, and acting on user-generated content to
+    enforce policies, rules, or guidelines (often called community standards) determined
     by a governing body. Public engagement with content moderation most prominently
     centers the role of social media companies in moderating content on their platforms.
     Therefore, social media companies are most commonly the assumed governing bodies.
@@ -5065,18 +5066,18 @@ report:
     posting harmful content or defuse the impact of harmful content that does reach
     users. Such preventative measures, however, also carry a risk of disincentivizing
     legitimate speech (this parallels the idea of a ‘chilling effect’ in legal contexts).\n\n-
-    __Reactive moderation__ acts on content *after* content has been posted to the
-    platform.\n__Example:__ A moderator of a chatroom on Twitch.tv can [clear (remove)
+    **Reactive moderation** acts on content *after* content has been posted to the
+    platform. Example: A moderator of a chatroom on Twitch.tv can [clear (remove)
     all of the messages in a chatroom](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#CleartheChat
     \"Twitch: how to manage harassment in chat\") if there is an influx of messages
     harassing users in the chatroom.\n\n- __Proactive moderation__ acts on content
-    after it is submitted by a user, but before it is posted to the platform\n__Example:__
+    after it is submitted by a user, but before it is posted to the platform. Example:
     The [Automod feature on Twitch.tv](https://blog.twitch.tv/en/2016/12/12/moderators-are-the-sword-now-automod-is-the-shield-df3d8aae32a9/
     \"Automod feature on Twitch.tv\") enables chat room moderators to review a chat
     message after it’s submitted by a user but before the message is posted to the
     chat room. \n\n- __Preventative moderation__ *prevents* content from being submitted
-    by a user.\n__Example:__ The owner of a chatroom on Twitch.tv can [require that
-    users view and agree to their chatroom rules](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#RequireUserstoAgreetoChannelRules
+    by a user. Example: The owner of a chatroom on Twitch.tv can [require that users
+    view and agree to their chatroom rules](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#RequireUserstoAgreetoChannelRules
     \"Twitch: how-to-manage-harassment-in-chat\") before the user can send messages
     to the chatroom, which has been shown to [reduce the amount of reactive moderation
     measures](https://speakerdeck.com/out_of_toner/moderation-tools-and-user-safety-data-driven-approaches-at-twitch?slide=23
@@ -5096,10 +5097,10 @@ report:
     Block\n\n__Description:__ A block is broadly defined as a feature that enables
     a user to 1) restrict the access that an account has to that user’s content and
     profile and 2) make content made by the blocked account no longer visible to that
-    user.\n\n__Owner:__ User\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
-    Reactive, Proactive\n\n- __Example: Tumblr:__ Once a user blocks an account, neither
-    the user nor the blocked account see one another aside from threaded posts where
-    someone can make a comment and another account reblogs and adds to it. Because
+    user.\n\n__Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
+    Reactive, Proactive<br />\n\n- __Example: Tumblr:__ Once a user blocks an account,
+    neither the user nor the blocked account see one another aside from threaded posts
+    where someone can make a comment and another account reblogs and adds to it. Because
     of Tumblr’s design, these reblogs with added comments offer some level of visibility
     on what a user is saying or doing if another person reblogs that user’s content
     with a comment.\n- __Example: Twitter:__ A user can individually block an account.
@@ -5120,122 +5121,124 @@ report:
     is no longer visible to them by default. This feature may still enable users to
     seek out muted posts, profiles, or keywords proactively, or will hide them entirely.
     Different types of mutes can happen on:\n\n- Notifications from comment threads\n-
-    Global content\n- Direct or private messages\n\n__Owner:__ User\n__Context:__
-    Feed, Forum, Direct Message\n__Orientation:__ Reactive, Proactive\n\n- __Example:
-    Facebook:__ A user can choose the “Snooze for 30 days” for an account so that
-    posts made by that account do not show up in the user’s newsfeed for 30 days.\n\n###
-    Hide Post\n\n__Description:__ An *individual* post or message is no longer visible
-    to the user, but is still viewable by other users. In direct messages, a user
-    may be able to hide a message by choosing a “delete for me” option but they will
-    not be able to retrieve it once deleted for them.\n\n__Owner:__ User\n__Context:__
-    Feed, Forum, Direct Message\n__Orientation:__ Reactive, Proactive\n\n- __Example:
-    Reddit:__ A user can choose to hide a post; it won’t show up in their feed or
-    in the subreddit where it was posted. The user can find the hidden post by navigating
-    to their account profile and selecting the “hidden” posts section.\n\n### Remove
-    Post\n\nDescription: The user can remove content that has been posted by an account
-    on a user’s post or profile so that it is no longer viewable by any account where
-    it was posted. Post removals through platform moderation are also commonly called
-    content takedowns. \n\nRemoving the posted content may result in:\n\n- the content
-    being deleted from the platform, \n- remaining on the profile of the account that
-    posted the content, or \n- moved to a less visible location (See: Twitter “[Hide
-    reply](https://blog.twitter.com/en_us/topics/product/2019/more-control-over-your-conversations-globally.html
+    Global content\n- Direct or private messages\n\n__Owner:__ User<br />\n__Context:__
+    Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive, Proactive<br />\n\n-
+    __Example: Facebook:__ A user can choose the “Snooze for 30 days” for an account
+    so that posts made by that account do not show up in the user’s newsfeed for 30
+    days.\n\n### Hide Post\n\n**Description:** An *individual* post or message is
+    no longer visible to the user, but is still viewable by other users. In direct
+    messages, a user may be able to hide a message by choosing a “delete for me” option
+    but they will not be able to retrieve it once deleted for them.\n\n__Owner:__
+    User<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive,
+    Proactive\n\n- __Example: Reddit:__ A user can choose to hide a post; it won’t
+    show up in their feed or in the subreddit where it was posted. The user can find
+    the hidden post by navigating to their account profile and selecting the “hidden”
+    posts section.\n\n### Remove Post\n\n**Description:** The user can remove content
+    that has been posted by an account on a user’s post or profile so that it is no
+    longer viewable by any account where it was posted. Post removals through platform
+    moderation are also commonly called content takedowns. \n\nRemoving the posted
+    content may result in:\n\n- the content being deleted from the platform, \n- remaining
+    on the profile of the account that posted the content, or \n- moved to a less
+    visible location (See: Twitter “[Hide reply](https://blog.twitter.com/en_us/topics/product/2019/more-control-over-your-conversations-globally.html
     \"Twitter: More control over your conversations\")”) \n\n__Owner:__ User, Community
-    Moderator, Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
-    Reactive, Proactive\n\n- __Example: Discord:__ A Discord moderator can select
+    Moderator, Platform<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
+    Reactive, Proactive<br />\n\n- __Example: Discord:__ A Discord moderator can select
     “Delete” from the overflow menu (which appears as “•••”) of a chat message, which
     will remove the message from the chat entirely.\n\n### Unfollow/Unfriend\n\n__Description:__
     The user removes an account from their social network, reducing the visibility
     of the account to the user or the ability of the account to act on the user, where
     the account may:\n\n- no longer appear in the feed of the user\n- lose access
     to non-public content posted by the user\n- lose the ability to send the user
-    a direct message\n\n__Owner:__ User\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
-    Reactive, Proactive\n\n- __Example: LinkedIn:__ A user can select “Remove Connection”
-    on another account, which will remove that account from their Connections. That
-    account will no longer show up as a Connection and the account will only be able
-    to see the user’s profile details and content posted by the user that are available
-    to the public.\n\n### Personal Filter\n\nDescription: Features of this type modify
-    what type of content or behavior is visible to the user, typically in their feeds,
-    notifications, or direct messages. Direct messages that are filtered may be directed
-    to a separate inbox or deleted. A personal filter is distinct from mute, which
-    hides content explicitly based on user-chosen keywords or users. \n\n__Owner:__
-    User\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__ Reactive, Proactive\n\n-
-    __Example: Twitter:__ Users can choose to turn on a [quality filter](https://help.twitter.com/en/managing-your-account/understanding-the-notifications-timeline
+    a direct message\n\n__Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br
+    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: LinkedIn:__ A user
+    can select “Remove Connection” on another account, which will remove that account
+    from their Connections. That account will no longer show up as a Connection and
+    the account will only be able to see the user’s profile details and content posted
+    by the user that are available to the public.\n\n### Personal Filter\n\n**Description:**
+    Features of this type modify what type of content or behavior is visible to the
+    user, typically in their feeds, notifications, or direct messages. Direct messages
+    that are filtered may be directed to a separate inbox or deleted. A personal filter
+    is distinct from mute, which hides content explicitly based on user-chosen keywords
+    or users. \n\n__Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br
+    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: Twitter:__ Users
+    can choose to turn on a [quality filter](https://help.twitter.com/en/managing-your-account/understanding-the-notifications-timeline
     \"Twitter: Understanding the notifications timeline\"), which prevents tweets
     with “low-quality” content from appearing in their notifications.\n\n### Restrict
     Personal Audience\n\n__Description:__ Content posted by the user or users within
     a community is restricted to the audiences designated by the user or community
-    moderator.\n\n__Owner:__ User, Community Moderator\n__Context:__ Feed, Forum\n__Orientation:__
-    Preventative\n\n- __Example: YouTube:__ A user can set a video they upload to
-    their channel to “Private,” which removes the video from the “Videos” tab on their
-    channel (i.e. the user’s profile), YouTube’s search results, and recommendations.
-    Comments are automatically disabled for the video and the video cannot be shared
-    by a link. The user can choose to send an invitation to view the video to other
-    user emails, but the video is unviewable otherwise.\n\n### Restrict Participation
-    on Content\n\n__Description:__ A user, community moderator, or platform moderator
-    can prevent multiple accounts from making posts or interacting with posts in a
-    designated space (e.g., posts in a forum space, the comments section of a post,
-    edits on a wiki article)\n\nThis can include:\n- Turning off comments\n- Turning
-    off voting\n- Filtering posts by a characteristic (e.g., automatically removes
-    posts containing slurs)\n- Filtering posting by user characteristics (e.g., A
-    Reddit moderator may make a filter that removes posts made by all accounts less
+    moderator.\n\n__Owner:__ User, Community Moderator<br />\n__Context:__ Feed, Forum<br
+    />\n__Orientation:__ Preventative<br />\n\n- __Example: YouTube:__ A user can
+    set a video they upload to their channel to “Private,” which removes the video
+    from the “Videos” tab on their channel (i.e. the user’s profile), YouTube’s search
+    results, and recommendations. Comments are automatically disabled for the video
+    and the video cannot be shared by a link. The user can choose to send an invitation
+    to view the video to other user emails, but the video is unviewable otherwise.\n\n###
+    Restrict Participation on Content\n\n__Description:__ A user, community moderator,
+    or platform moderator can prevent multiple accounts from making posts or interacting
+    with posts in a designated space (e.g., posts in a forum space, the comments section
+    of a post, edits on a wiki article)\n\nThis can include:\n- Turning off comments\n-
+    Turning off voting\n- Filtering posts by a characteristic (e.g., automatically
+    removes posts containing slurs)\n- Filtering posting by user characteristics (e.g.,
+    A Reddit moderator may make a filter that removes posts made by all accounts less
     than 10 days old)\n- Tagging\n- Turning off or filtering content edits (e.g.,
-    editing wiki pages)\n\n__Owner:__ User, Community Moderator, Platform\n__Context:__
-    Feed, Forum\n__Orientation:__ Reactive, Proactive, Preventative\n\n- __Example:
-    Wikipedia:__ Unregistered users can edit most but not all articles, and they cannot
-    create new articles on the English edition without an account.\n\n### Content
-    Screen\n\n__Description:__ A screen that blocks a type of content partially or
-    entirely with warning about the nature of the content—typically by hiding or blurring
-    the content. When encountering screened content, the user is given the ability
-    to choose whether to view that content or not. Common content types for when the
-    platform screens content by default are graphic sexual or violent content.\n\n__Owner:__
-    User, Community Moderator, Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
-    Reactive, Proactive\n\n- __Example: Reddit:__ Puts a screen in front of content
-    that is labeled NSFW (not safe for work), which blurs the thumbnails and media
-    preview for users who are using the “Safe browsing mode” setting. Users can choose
-    to click on the content screen to view that content.\n\n### Limit Account\n__Description:__
-    The range of actions otherwise available to a designated account is restricted.
-    Actions that can be restricted for that account include:\n- Posting on the platform
-    or community space\n- Commenting on other user posts\n- Sending direct messages\n-
-    Interacting with a post (e.g., “Like,” “Favorite,” votes)\n- Sharing other user
-    posts\n- Reducing or removing the ability to monetize content that is produced
-    by the account\n- Reducing or removing the ability to post advertisements on the
-    platform\n\n__Owner:__ Community Moderator, Platform\n__Context:__ Feed, Forum,
-    Direct Message\n__Orientation:__ Reactive\n\n- __Example: YouTube:__ YouTube videos
-    that do not follow guidelines for “ad-friendly” content may be demonetized, removing
-    the video creator’s ability to host paid advertisements on their video and by
-    extension their ability to generate revenue from that video through advertisements.\n\n###
-    Account Suspension/Ban\n\n__Description:__ Removes the account from the platform
-    or forum.\n- __Forum:__ An account banned from a forum will not be able to rejoin
-    that forum, and possibly will be restricted from viewing the contents of that
-    forum. \n- __Platform:__ The account suspended by the platform can no longer be
-    accessed, and the account profile will no longer be visible to other users. \nA
-    suspension or ban may be lifted if the account owner performs requested actions
-    or a set amount of time has passed. An account may be suspended permanently if
-    it has received multiple conditional or temporary suspensions.\n\n__Owner:__ Community
-    Moderator, Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__
-    Reactive\n\n- __Example: Facebook:__ A Facebook Group Admin or Moderator can remove
-    a Facebook account from the Group and then choose to “Block” that account from
-    the group. An account blocked from the group won't be able to find, see or join
-    that group.\n\n### Sanction\n\n__Description:__ The platform warns a user about
-    content or actions that have violated platform policy. A warning may result in:\n\n-
-    __An account strike:__ A strike on an account where the account faces further
-    moderation actions (e.g., account suspension or ban) once a certain number of
-    strikes have been acquired within an allotted time period.\n- __Requiring action
-    from the user:__ The platform may require that the user remove a post, alter their
-    content or profile, or take other measures within a certain period of time to
-    avoid further moderation actions or reduce, e.g., to lift an account suspension.\n\nPlease
-    note that some sanctions are reflective of cumulative flags against the user that
-    may not be visible immediately but are logged.\n\n__Owner:__ Community Moderator,
-    Platform\n__Context:__ Feed, Forum, Direct Message\n__Orientation:__ Reactive\n\n-
-    __Example: Instagram:__ An account may receive an account warning when they have
-    made multiple posts that violate Instagram community guidelines, notifying them
-    that their account will be deleted if they continue to violate policy. The warning
-    includes a list of previous policy violations the account has made.\n\n### Downrank\n\n__Description:__
+    editing wiki pages)\n\n__Owner:__ User, Community Moderator, Platform<br />\n__Context:__
+    Feed, Forum<br />\n__Orientation:__ Reactive, Proactive, Preventative<br />\n\n-
+    __Example: Wikipedia:__ Unregistered users can edit most but not all articles,
+    and they cannot create new articles on the English edition without an account.\n\n###
+    Content Screen\n\n__Description:__ A screen that blocks a type of content partially
+    or entirely with warning about the nature of the content—typically by hiding or
+    blurring the content. When encountering screened content, the user is given the
+    ability to choose whether to view that content or not. Common content types for
+    when the platform screens content by default are graphic sexual or violent content.\n\n__Owner:__
+    User, Community Moderator, Platform<br />\n__Context:__ Feed, Forum, Direct Message<br
+    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: Reddit:__ Puts
+    a screen in front of content that is labeled NSFW (not safe for work), which blurs
+    the thumbnails and media preview for users who are using the “Safe browsing mode”
+    setting. Users can choose to click on the content screen to view that content.\n\n###
+    Limit Account\n__Description:__ The range of actions otherwise available to a
+    designated account is restricted. Actions that can be restricted for that account
+    include:\n- Posting on the platform or community space\n- Commenting on other
+    user posts\n- Sending direct messages\n- Interacting with a post (e.g., “Like,”
+    “Favorite,” votes)\n- Sharing other user posts\n- Reducing or removing the ability
+    to monetize content that is produced by the account\n- Reducing or removing the
+    ability to post advertisements on the platform\n\n__Owner:__ Community Moderator,
+    Platform<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
+    Reactive<br />\n\n- __Example: YouTube:__ YouTube videos that do not follow guidelines
+    for “ad-friendly” content may be demonetized, removing the video creator’s ability
+    to host paid advertisements on their video and by extension their ability to generate
+    revenue from that video through advertisements.\n\n### Account Suspension/Ban\n\n__Description:__
+    Removes the account from the platform or forum.\n- __Forum:__ An account banned
+    from a forum will not be able to rejoin that forum, and possibly will be restricted
+    from viewing the contents of that forum. \n- __Platform:__ The account suspended
+    by the platform can no longer be accessed, and the account profile will no longer
+    be visible to other users. \nA suspension or ban may be lifted if the account
+    owner performs requested actions or a set amount of time has passed. An account
+    may be suspended permanently if it has received multiple conditional or temporary
+    suspensions.\n\n__Owner:__ Community Moderator, Platform<br />\n__Context:__ Feed,
+    Forum, Direct Message<br />\n__Orientation:__ Reactive<br />\n\n- __Example: Facebook:__
+    A Facebook Group Admin or Moderator can remove a Facebook account from the Group
+    and then choose to “Block” that account from the group. An account blocked from
+    the group won't be able to find, see or join that group.\n\n### Sanction\n\n__Description:__
+    The platform warns a user about content or actions that have violated platform
+    policy. A warning may result in:\n\n- __An account strike:__ A strike on an account
+    where the account faces further moderation actions (e.g., account suspension or
+    ban) once a certain number of strikes have been acquired within an allotted time
+    period.\n- __Requiring action from the user:__ The platform may require that the
+    user remove a post, alter their content or profile, or take other measures within
+    a certain period of time to avoid further moderation actions or reduce, e.g.,
+    to lift an account suspension.\n\nPlease note that some sanctions are reflective
+    of cumulative flags against the user that may not be visible immediately but are
+    logged.\n\n__Owner:__ Community Moderator, Platform<br />\n__Context:__ Feed,
+    Forum, Direct Message<br />\n__Orientation:__ Reactive<br />\n\n- __Example: Instagram:__
+    An account may receive an account warning when they have made multiple posts that
+    violate Instagram community guidelines, notifying them that their account will
+    be deleted if they continue to violate policy. The warning includes a list of
+    previous policy violations the account has made.\n\n### Downrank\n\n__Description:__
     Content from a particular account, accounts with particular characteristics, or
     content with particular characteristics will be ranked lower in user feeds, recommended
     content, home screens, or front pages of social media platforms, making it less
-    visible to users.\n\n__Owner:__ Platform\n__Context:__ Feed, Forum\n__Orientation:__
-    Reactive, Proactive\n\n- __Example: Twitter:__ [Twitter announced July 2018](https://blog.twitter.com/en_us/topics/company/2018/Setting-the-record-straight-on-shadow-banning.html
+    visible to users.\n\n__Owner:__ Platform<br />\n__Context:__ Feed, Forum<br />\n__Orientation:__
+    Reactive, Proactive<br />\n\n- __Example: Twitter:__ [Twitter announced July 2018](https://blog.twitter.com/en_us/topics/company/2018/Setting-the-record-straight-on-shadow-banning.html
     \"Twitter: Setting the record straight on shadow banning\") that tweets associated
     with bad actors were ranked lower with bad actors determined based on signals
     like account age, others accounts in its network (i.e., followers), and the moderation

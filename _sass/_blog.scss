@@ -250,10 +250,13 @@
 
 .story-wrapper ul,
 .story-wrapper ol {
-    margin-left: var(--space-4);
+    padding-left: 1rem;
+    margin-left: 2.2rem;
     li {
-        padding-left: var(--space-1);
-        margin-bottom: var(--space-1);
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+        padding-left: 0.25rem;
     }
 }
 
