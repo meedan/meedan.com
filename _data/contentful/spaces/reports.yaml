@@ -2837,7 +2837,7 @@ report:
 - sys:
     id: 4u68N8i5XJdHR1idRXTjOu
     created_at: !ruby/object:DateTime 2020-11-09 20:26:26.449000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 03:58:47.559000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 13:23:02.720000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -2882,15 +2882,15 @@ report:
     to responsible content moderation for technology platforms. Our goal is to standardize
     knowledge across sectors by developing vocabularies, taxonomies, and a body of
     research to enable informed, actionable discussions between different disciplines,
-    stakeholders, and the public.\n\nThrough this working group, Meedan’s work focused
-    on three central themes: \n\n- *pertinent content moderation challenges*, summarized
-    into a literature review and stakeholder report; \n- *content moderation in practice*,
+    stakeholders, and the public.\n\n- Through this working group, Meedan’s work focused
+    on three central themes: \n  - *pertinent content moderation challenges*, summarized
+    into a literature review and stakeholder report;\n  - *content moderation in practice*,
     which culminated into an applied toolkit useful for civil society organizations;
-    \n- and *applied research* through the 2019 Housing and Population Census in Kenya,
-    where frameworks for how to both standardize and contextualize responses to hate
-    speech and harassment were developed and tested. \n\n## Outputs\n\nTo meet these
-    objectives, we have developed four documents that contribute to improved research
-    and practice at the intersection of product development, resource development,
+    \n  - and *applied research* through the 2019 Housing and Population Census in
+    Kenya, where frameworks for how to both standardize and contextualize responses
+    to hate speech and harassment were developed and tested. \n\n## Outputs\n\nTo
+    meet these objectives, we have developed four documents that contribute to improved
+    research and practice at the intersection of product development, resource development,
     content moderation, and hate speech. \n\n### 1. A report covering our requirements
     gathering research on the [state of content moderation issues](https://meedan-dev.netlify.app/reports/working-group-and-literature-review-report/
     \"Working Group and Literature Review Report\") identified by different affected
@@ -3101,7 +3101,7 @@ report:
 - sys:
     id: 5ZXTHAj2Ovrzx3PfcuiEtF
     created_at: !ruby/object:DateTime 2020-11-09 21:56:38.417000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 01:03:48.502000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 14:01:03.492000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3474,7 +3474,7 @@ report:
 - sys:
     id: 6B6HKhC8nkzrzqV2UKI34
     created_at: !ruby/object:DateTime 2020-11-10 10:57:47.836000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 15:31:30.650000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 13:28:52.550000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3582,12 +3582,12 @@ report:
     sexual orientation, disability or disease.\"*\n\nThe authors then go onto distinguish
     between directed hate and generalized hate against a group broadly:\n\n> *“We
     adopt the same typology and define the following in the context of hate speech:*
-    \n\n> *• Directed hate: hate language towards a specific individual or entity.
-    An example is: “@usr4 your a f•cking queer f•gg•t b•tch”.*\n\n> *• Generalized
-    hate: hate language towards a general group of individuals who share a common
-    protected characteristic, e.g., ethnicity or sexual orientation. An example is:
-    “— was born a racist and — will die a racist! — will not rest until every worthless
-    n•gger is rounded up and hung, n•ggers are the scum ofthe earth!! wPww WHITE America.”*\n\nSome
+    \n\n> *Directed hate: hate language towards a specific individual or entity. An
+    example is: “@usr4 your a f•cking queer f•gg•t b•tch”.*\n\n> *Generalized hate:
+    hate language towards a general group of individuals who share a common protected
+    characteristic, e.g., ethnicity or sexual orientation. An example is: “— was born
+    a racist and — will die a racist! — will not rest until every worthless n•gger
+    is rounded up and hung, n•ggers are the scum ofthe earth!! wPww WHITE America.”*\n\nSome
     researchers refer to hate speech as a “crime,” confounding hate speech with hate
     crimes (which is culturally and legally situated construct that we’ll talk about
     below):\n\n> *“Hate speech is a crime that has been growing in recent years…not
@@ -3608,7 +3608,7 @@ report:
     outside CS when establishing their definitions of hate speech.\n- No definitional
     management of context: There is a lack of distinguishing between profanity detection
     and other examples (most of the examples used are profanity/slurs against racial
-    groups, but hateful content comes in more subtle forms)\n• It is worth noting
+    groups, but hateful content comes in more subtle forms)\n  - It is worth noting
     that profanity or even racial slurs do not always constitute hateful content.
     For example, in some African American communities the N. word is used between
     two black individuals without a hateful connotation. In general, context is very
@@ -3689,21 +3689,21 @@ report:
     the 2nd point, platform guidelines place a stronger emphasis on protected groups
     or categories. They often will define what groups or identities are covered. We
     believe this may allow for better operationalizing when certain slurs and comments
-    would be about hate speech.\n\n- Possibilities of protected category (extracted
+    would be about hate speech.\n\n*Possibilities of protected category (extracted
     from the platform guidelines): race, gender identity, age, caste, ethnicity, national
     origin, religious affiliation, sexual orientation, sex, disease/disability status,
     immigrant status, veteran status, victims of major violent events and their kin,
-    culture, political affiliation, physical condition\n\nNo one platform protects
+    culture, political affiliation, physical condition*\n\nNo one platform protects
     all these categories. In some cases, these protected categories are listed, whereas
     in others, platforms say “acts of discrimination” as a broader umbrella for hateful
-    behavior. \n\nFrom this, a few questions emerge:\n\n- Why the selection of certain
+    behavior. \n\n- From this, a few questions emerge:\n  - Why the selection of certain
     protected categories? Some appear to be related to legal precedents but others
     do not. How do platforms determine what protected categories appear in their definitions
-    and what does not?\n- How do platforms distinguish between the reclamation of
-    terms by communities in automated systems and hate speech? For example, \n- How
-    do they operationalize across different cultural contexts, such as hateful terms
-    for political protestors in certain regions, and emerging hateful terms (such
-    as [the “ok” hand sign now being associated with white supremacy?](https://www.npr.org/2019/09/26/764728163/the-ok-hand-gesture-is-now-listed-as-a-symbol-of-hate
+    and what does not?\n  - How do platforms distinguish between the reclamation of
+    terms by communities in automated systems and hate speech? For example, \n  -
+    How do they operationalize across different cultural contexts, such as hateful
+    terms for political protestors in certain regions, and emerging hateful terms
+    (such as [the “ok” hand sign now being associated with white supremacy?](https://www.npr.org/2019/09/26/764728163/the-ok-hand-gesture-is-now-listed-as-a-symbol-of-hate
     \"the “ok” hand sign now being associated with white supremacy?\")):  \n\nGlobal
     contexts complicate definitions of hate speech for platforms to cleanly adopt
     a policy. As Facebook stated in a blog post about the issue: “Although a number
@@ -3762,16 +3762,16 @@ report:
     up for it, you can express your concerns to them directly, or use Tumblr to speak
     up, challenge ideas, raise awareness or generate discussion and debate.”\n\n([Tumbler:
     Community Guidelines](https://www.tumblr.com/policy/en/community \"Tumbler Community\")
-    as of 8/9/19)\n\n#### Twitch\n\n“Hateful conduct is any content or activity that
-    promotes, encourages, or facilitates discrimination, denigration, objectification,
+    as of 8/9/19)\n\n#### Twitch\n\n- “Hateful conduct is any content or activity
+    that promotes, encourages, or facilitates discrimination, denigration, objectification,
     harassment, or violence based on the following characteristics, and is strictly
-    prohibited: \n- Race, ethnicity, or national origin\n- Religion\n- Sex, Gender,
-    or Gender Identity\n- Sexual Orientation\n- Age\n- Disability or Medical Condition\n-
-    Physical Characteristics\n- Veteran Status\n\nTwitch will consider a number of
-    factors to determine the intent and context of any reported hateful conduct. Hateful
-    conduct is a zero-tolerance violation. We will take action on all accounts associated
-    with such conduct with a range of enforcement actions, including and up to indefinite
-    suspension.”\n\n([Twitch: Hateful Conduct and Harassment](https://www.twitch.tv/p/legal/community-guidelines/harassment/
+    prohibited: \n  - Race, ethnicity, or national origin\n  - Religion\n  - Sex,
+    Gender, or Gender Identity\n  - Sexual Orientation\n  - Age\n  - Disability or
+    Medical Condition\n  - Physical Characteristics\n  - Veteran Status\n\nTwitch
+    will consider a number of factors to determine the intent and context of any reported
+    hateful conduct. Hateful conduct is a zero-tolerance violation. We will take action
+    on all accounts associated with such conduct with a range of enforcement actions,
+    including and up to indefinite suspension.”\n\n([Twitch: Hateful Conduct and Harassment](https://www.twitch.tv/p/legal/community-guidelines/harassment/
     \"Twitch: Hateful Conduct and Harassment\"))\n\n([Blog post](https://blog.twitch.tv/en/2018/02/08/twitch-community-guidelines-updates-f2e82d87ae58/
     \"Twitch community guidelines\") to the Twitch community.)\n\n#### Reddit\n\nThe
     platform has no explicit mention of hate speech specifically, which isn’t surprising
@@ -3795,13 +3795,14 @@ report:
     Caste; Disability; Ethnicity; Gender Identity; Nationality; Race; Immigration
     Status; Religion; Sex/Gender; Sexual Orientation; Victims of a major violent event
     and their kin; Veteran Status”\n\n([YouTube: Hate Speech Policy](https://support.google.com/youtube/answer/2801939?hl=en
-    \"Hate speech policy\") on 8/9/19)\n\n#### Wikimedia\n\n“Certain activities, whether
-    legal or illegal, may be harmful to other users and violate our rules, and some
-    activities may also subject you to liability. Therefore, for your own protection
-    and for that of other users, you may not engage in such activities on our sites.
-    These activities include:\n\n- Harassing and Abusing Others \n- Engaging in harassment,
-    threats, stalking, spamming, or vandalism; and Transmitting chain mail, junk mail,
-    or spam to other users.”\n\n([Wikimedia: Refraining from Certain Activities](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#4._Refraining_from_Certain_Activities
+    \"Hate speech policy\") on 8/9/19)\n\n#### Wikimedia\n\n- “Certain activities,
+    whether legal or illegal, may be harmful to other users and violate our rules,
+    and some activities may also subject you to liability. Therefore, for your own
+    protection and for that of other users, you may not engage in such activities
+    on our sites. These activities include:\n\n  - Harassing and Abusing Others \n
+    \ - Engaging in harassment, threats, stalking, spamming, or vandalism; and Transmitting
+    chain mail, junk mail, or spam to other users.”\n\n([Wikimedia: Refraining from
+    Certain Activities](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#4._Refraining_from_Certain_Activities
     \"https://foundation.wikimedia.org/wiki/Terms_of_Use/en#4._Refraining_from_Certain_Activities\"))
     \n\n#### Instagram \n\n“We want to foster a positive, diverse community. We remove
     content that contains credible threats or hate speech, content that targets private
@@ -3821,11 +3822,11 @@ report:
     our policies.\n\nIf you see hate speech on Pinterest, report it to us. If you
     see a Pin or comment indicating a real threat of violence, let us know. If necessary,
     contact your local authorities.”\n\n([Pinterest help](https://help.pinterest.com/en/article/report-hate-speech
-    \"Pinterest help\"))\n\n#### TikTok\n\n“TikTok is an inclusive community. It is
-    not ok to attack or incite violence against other users.\n\n- DO NOT post, share,
-    or send any content that incites hatred against a group of people based on their
-    race, ethnicity, religion, nationality, culture, disability, sexual orientation,
-    gender, gender identity, age, or any other discrimination.\n- DO NOT post, share,
+    \"Pinterest help\"))\n\n#### TikTok\n\n- “TikTok is an inclusive community. It
+    is not ok to attack or incite violence against other users.\n\n  - DO NOT post,
+    share, or send any content that incites hatred against a group of people based
+    on their race, ethnicity, religion, nationality, culture, disability, sexual orientation,
+    gender, gender identity, age, or any other discrimination.\n  - DO NOT post, share,
     or send contents that may trigger hostility, including trolling or provocative
     remarks.”\n\n([TikTok: Community Guidelines](https://www.tiktok.com/community-guidelines?lang=en
     \"Community Guidelines\"))\n\n#### LinkedIn\n\n“We do not allow hate speech acts
@@ -3954,49 +3955,49 @@ report:
     is a mistake to assume a static and unchanging relationship between independent
     and dependent variables for machine learning. Concept or topic drift is a known
     problem within ML models, where the data coming into the model changes over time,
-    and therefore, the model performance will change and likely degrade over time.\n\nOn
-    social platforms, concept drift can be caused by many different factors:\n\n-
-    Natural language drift\n- Behavior drifts\n- Exogenous events (like crises, platform
-    instability, etc)\n- Political events that change national conversations\n- Changes
-    in cultural standards for slurs and offensive language\n- Changes in platform
-    affordances\n- Changes in platform policy and enforcement mechanisms\n- Responses
-    to algorithmic systems (changing language behaviors to avoid detection)\n\nFor
+    and therefore, the model performance will change and likely degrade over time.\n\n-
+    On social platforms, concept drift can be caused by many different factors:\n\n
+    \ - Natural language drift\n  - Behavior drifts\n  - Exogenous events (like crises,
+    platform instability, etc)\n  - Political events that change national conversations\n
+    \ - Changes in cultural standards for slurs and offensive language\n  - Changes
+    in platform affordances\n  - Changes in platform policy and enforcement mechanisms\n
+    \ - Responses to algorithmic systems (changing language behaviors to avoid detection)\n\nFor
     hate speech detection, all of these factors can cause models to drift away from
     the conceptualized/meta-definition of hate speech. This means that a model to
     detect hate speech will need to be updated.\n\nBecause of concept drift, there
-    are some important factors to consider:\n\n- How can concept drift be detected?\n•
-    Performance measures against newer data\n• Dissatisfaction of moderation decisions
-    with a model\n• Poor performance of the model in automatic triaging/more posts
-    having to be adjusted or disputed with human moderators\n- How often do you update
-    the model to reflect against this drift? Pragmatics come into play here, because
-    updating a model requires new data, engineering cycles, and some kind of evaluation
-    for testing.\n- Should models reflect the sentiments of current political trends
-    or adhere to a larger concept of drift?\n- Should new models be deployed with
-    or without “beta” testing, to be reactive to issues in automated identification?
-    \n\n### Feature engineering\n\nFeature engineering/identifying relevant independent
-    variables is an essential component of machine learning development and insights.
-    Feature engineering bounds the problem detection space of what is an appropriate
-    signal, and instructs the algorithm on the insights it may draw from the data
-    to make its inferences. \n\nIn the research, we see researchers grappling with
-    how to determine appropriate features based on the definitions of hate speech.
-    Most of the literature uses linguistic features (such as LIWC (Linguistic Inquiry
-    and Word Count) or sentiment, or detection of a dictionary of “hateful” words
-    to identify hate speech). These can get as complex as neural network representations
-    of language or other behavioral signals.\n\nHowever, as we’ve noted before in
-    the annotation section, hate speech is inherently contextual, especially when
-    considering targeted hate speech towards someone (their protected categories matter
-    in these scenarios, well at least it’s not clear if they should matter based on
-    the difficulty of the definitions above). \n\n*Example: take the example of “bitch”
-    - describing a woman as a bitch is very different than describing a man as a bitch,
-    and one may be more likely to be hate speech. However, without the context of
-    the situation, it is hard to know if “bitch” is universally a hateful term or
-    if it has situational aspect of emasculating men, describing aggressive women,
-    or being used in other contexts.*\n\nThis gets at a fundamental question related
-    to operationalizing hate speech for developing features—__should feature engineering
-    to detect hate speech be based on just the offending post/comment itself or be
-    made aware of the surrounding context of hate speech?__ Said another way, what
-    is hate speech without being aware of who is speaking it, who the targets are
-    (if there are any), and the cultural issues? \n\nMost research does not grapple
+    are some important factors to consider:\n\n- How can concept drift be detected?\n
+    \ - Performance measures against newer data\n  - Dissatisfaction of moderation
+    decisions with a model\n  - Poor performance of the model in automatic triaging/more
+    posts having to be adjusted or disputed with human moderators\n- How often do
+    you update the model to reflect against this drift? Pragmatics come into play
+    here, because updating a model requires new data, engineering cycles, and some
+    kind of evaluation for testing.\n- Should models reflect the sentiments of current
+    political trends or adhere to a larger concept of drift?\n- Should new models
+    be deployed with or without “beta” testing, to be reactive to issues in automated
+    identification? \n\n### Feature engineering\n\nFeature engineering/identifying
+    relevant independent variables is an essential component of machine learning development
+    and insights. Feature engineering bounds the problem detection space of what is
+    an appropriate signal, and instructs the algorithm on the insights it may draw
+    from the data to make its inferences. \n\nIn the research, we see researchers
+    grappling with how to determine appropriate features based on the definitions
+    of hate speech. Most of the literature uses linguistic features (such as LIWC
+    (Linguistic Inquiry and Word Count) or sentiment, or detection of a dictionary
+    of “hateful” words to identify hate speech). These can get as complex as neural
+    network representations of language or other behavioral signals.\n\nHowever, as
+    we’ve noted before in the annotation section, hate speech is inherently contextual,
+    especially when considering targeted hate speech towards someone (their protected
+    categories matter in these scenarios, well at least it’s not clear if they should
+    matter based on the difficulty of the definitions above). \n\n*Example: take the
+    example of “bitch” - describing a woman as a bitch is very different than describing
+    a man as a bitch, and one may be more likely to be hate speech. However, without
+    the context of the situation, it is hard to know if “bitch” is universally a hateful
+    term or if it has situational aspect of emasculating men, describing aggressive
+    women, or being used in other contexts.*\n\nThis gets at a fundamental question
+    related to operationalizing hate speech for developing features—__should feature
+    engineering to detect hate speech be based on just the offending post/comment
+    itself or be made aware of the surrounding context of hate speech?__ Said another
+    way, what is hate speech without being aware of who is speaking it, who the targets
+    are (if there are any), and the cultural issues? \n\nMost research does not grapple
     with this problem of targets and generalized hate speech. An exception is El Sherief
     et al. (2018) who focus on two kinds of hate speech (directed and generalized)
     to get at some of this contextual awareness. In contrast, most approaches in the
@@ -4334,7 +4335,7 @@ report:
 - sys:
     id: 1Q7LLqUAyLZefSMra2NRKZ
     created_at: !ruby/object:DateTime 2020-11-10 14:12:55.148000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 01:43:05.697000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 14:49:52.814000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4474,7 +4475,7 @@ report:
     strong within-group dynamics and promotion. This language can also be embedded
     within requests that readers share ‘if they agree’ with a particular group.\n\n###
     Construct 1.2: Inciting, encouraging, or lauding physical violence towards a category
-    of people\n\nExplanation: The goal of this construct is to identify clear instances
+    of people\n\n- Explanation: The goal of this construct is to identify clear instances
     of hate speech that inspire or incite physical violence towards a category of
     people. The [Dangerous Speech Project](https://dangerousspeech.org/guide/ \"Dangerous
     Speech Project\") proposes the term “dangerous speech” as an alternative to hate
@@ -4482,24 +4483,24 @@ report:
     typically ambiguous terms “hate” or “harms.” They formally define dangerous speech
     as expression that increases the risk that its audience will condone violence
     against members of another category, where the severity of dangerous speech is
-    determined by the extent to which five variables are maximized: \n\n- a powerful
-    speaker with a high degree of influence over the audience.\n- the audience has
-    grievances and fear that the speaker can cultivate.\n- a speech act that is clearly
-    understood as a call to violence,\n- a social or historical context that is propitious
-    for violence, for any of a variety of reasons, including longstanding competition
-    between groups for resources, lack of efforts to solve grievances, or previous
-    episodes of violence.\n- a means of dissemination that is influential in itself,
-    for example because it is the sole or primary source of news for the relevant
-    audience. *Benesch, Susan. \"Dangerous speech: A proposal to prevent group violence.\"
-    Voices That Poison: Dangerous Speech Project (2012).*\n\nGiven that annotators
-    and moderators may have a limited ability to investigate the direct context around
-    an article or piece of content (e.g., surrounding social media posts, responses
-    to or preceding social media posts or articles), we focus on identifying clear
-    calls to violence, and encouragement of violence through cultivation of fear and
-    grievances. We have formed indicator questions to enable CSOs to provide information
-    on the social and historical context of articles and pieces of content that may
-    foster an environment for violence.\n\n#### Indicators for Construct 1.2\n\nWe
-    can operationalize this construct by measuring the following indicators:\n\n**A
+    determined by the extent to which five variables are maximized: \n\n  - a powerful
+    speaker with a high degree of influence over the audience.\n  - the audience has
+    grievances and fear that the speaker can cultivate.\n  - a speech act that is
+    clearly understood as a call to violence,\n  - a social or historical context
+    that is propitious for violence, for any of a variety of reasons, including longstanding
+    competition between groups for resources, lack of efforts to solve grievances,
+    or previous episodes of violence.\n  - a means of dissemination that is influential
+    in itself, for example because it is the sole or primary source of news for the
+    relevant audience. *Benesch, Susan. \"Dangerous speech: A proposal to prevent
+    group violence.\" Voices That Poison: Dangerous Speech Project (2012).*\n\nGiven
+    that annotators and moderators may have a limited ability to investigate the direct
+    context around an article or piece of content (e.g., surrounding social media
+    posts, responses to or preceding social media posts or articles), we focus on
+    identifying clear calls to violence, and encouragement of violence through cultivation
+    of fear and grievances. We have formed indicator questions to enable CSOs to provide
+    information on the social and historical context of articles and pieces of content
+    that may foster an environment for violence.\n\n#### Indicators for Construct
+    1.2\n\nWe can operationalize this construct by measuring the following indicators:\n\n**A
     call for violence or an expression of desire (wishing or hoping) for physical
     violence to be perpetrated against a group or a gathering of people from a protected
     group.** This includes laudatory references towards or depictions of historical,
@@ -4784,7 +4785,7 @@ report:
 - sys:
     id: 5HPWXq1exdySB1EdnYQvTB
     created_at: !ruby/object:DateTime 2020-11-10 15:03:40.089000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 04:10:04.088000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-13 15:08:28.709000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4888,12 +4889,12 @@ report:
     enforcement tools that influence how they are implemented and used:\n\n1. __Context:__
     How interaction between users is structured on a platform\n2. __Ownership:__ Who
     is doing the moderation enforcement through each tool \n3. __Orientation:__ What
-    temporal dimension each tool is meant to support. \n\nVariance in execution of
-    enforcement between platforms can occur for a variety of reasons including:\n\n-
-    How tools are designed and operate\n- What is possible in a technical or operational
-    capacity\n- Policy limitations\n- Relationship with other stages of the moderation
-    process\n- Concerns expressed by users and public stakeholders\n\nAccording to
-    [a recent report](https://lab.witness.org/ticks-or-it-didnt-happen/ \"Witness:
+    temporal dimension each tool is meant to support. \n\n- Variance in execution
+    of enforcement between platforms can occur for a variety of reasons including:\n\n
+    \ - How tools are designed and operate \n  - What is possible in a technical or
+    operational capacity\n  - Policy limitations\n  - Relationship with other stages
+    of the moderation process\n  - Concerns expressed by users and public stakeholders\n\nAccording
+    to [a recent report](https://lab.witness.org/ticks-or-it-didnt-happen/ \"Witness:
     ticks or it didn't happen\") developed by human rights and media organization
     WITNESS, society stands at a precipice of opportunities and challenges around
     online content:\n\n- The opportunity: In today’s world, digital tools have the
@@ -4905,40 +4906,41 @@ report:
     hate speech, and put individual rights defenders and journalists at risk. AI-generated
     media in particular has the potential to amplify, expand, and alter existing problems
     around trust in information, verification of media, and weaponization of online
-    spaces.\n\nThe report highlights the following core dilemmas:\n- Who might be
-    included and excluded from participating?\n- The tools being built could be used
-    to surveil people\n- Voices could be both chilled and enhanced\n- Authenticity
-    infrastructure will both help and hinder access to justice and trust in legal
-    systems\n- Technical restraints might stop these tools from working in places
-    they are needed the most.\n- News outlets face pressure to authenticate media\n-
-    Social media platforms will introduce their own authenticity measures\n- Data
-    storage, access and ownership: Who controls what?\n- The technology and science
-    is complex, emerging and, at times, misleading\n- How to decode, understand, and
-    appeal the information being given\n- Those using older or niche hardware might
-    be left behind\n- Jailbroken devices will not be able to capture verifiable audio
-    visual material \n- If people can no longer be trusted, can blockchain be?\n\nWhile
-    these dilemmas reflect the challenges of authenticating media, many apply equally
-    well to the competing rights and responsibilities for content moderation in the
-    context of free expression and user safety. Ultimately, content moderation sits
-    at the intersection of a balance between harms to individuals and harms to society
-    overall, with no easy solutions. This report seeks to create a vocabulary to enable
-    more robust discussions around this topic.\n\n__What is content moderation?__\nThere
-    is no authoritative definition of “content moderation,” but the term broadly refers
-    to the process of monitoring, judging, and acting on user-generated content to
-    enforce policies, rules, or guidelines (often called community standards) determined
-    by a governing body. Public engagement with content moderation most prominently
-    centers the role of social media companies in moderating content on their platforms.
-    Therefore, social media companies are most commonly the assumed governing bodies.
-    In reality, there are many intersecting layers of governance.\n\nA few key working
-    assumptions should be noted:\n\n- Content moderation is distinct from moderation
-    more broadly. Moderation may include regulation of broader patterns of behavior,
-    networks, or collaboration, in addition to the production of content. Content
-    moderation acts on content that is produced or posted on technology platforms,
-    including media, comments, messages, and others.\n- Content moderation is widely
-    articulated as being solely under the purview of moderation conducted by platforms.
-    However, the work and responsibility of monitoring, judging, and acting on user-generated
-    content is often offloaded onto platform users and community moderators.\n\n###
-    What is content moderation “enforcement”?\n\n![What is content moderation “enforcement”?](//images.ctfassets.net/g118h5yoccvd/20RPqGvjppn2HxFGwONv0X/9ed730130b0aba1988716761584d0a63/What_is_content_moderation____enforcement___.png)\n\nThis
+    spaces.\n\n- The report highlights the following core dilemmas:\n  - Who might
+    be included and excluded from participating?\n  - The tools being built could
+    be used to surveil people\n  - Voices could be both chilled and enhanced\n  -
+    Authenticity infrastructure will both help and hinder access to justice and trust
+    in legal systems\n  - Technical restraints might stop these tools from working
+    in places they are needed the most.\n  - News outlets face pressure to authenticate
+    media\n  - Social media platforms will introduce their own authenticity measures\n
+    \ - Data storage, access and ownership: Who controls what?\n  - The technology
+    and science is complex, emerging and, at times, misleading\n  - How to decode,
+    understand, and appeal the information being given\n  - Those using older or niche
+    hardware might be left behind\n  - Jailbroken devices will not be able to capture
+    verifiable audio visual material \n  - If people can no longer be trusted, can
+    blockchain be?\n\nWhile these dilemmas reflect the challenges of authenticating
+    media, many apply equally well to the competing rights and responsibilities for
+    content moderation in the context of free expression and user safety. Ultimately,
+    content moderation sits at the intersection of a balance between harms to individuals
+    and harms to society overall, with no easy solutions. This report seeks to create
+    a vocabulary to enable more robust discussions around this topic.\n\n__What is
+    content moderation?__\nThere is no authoritative definition of “content moderation,”
+    but the term broadly refers to the process of monitoring, judging, and acting
+    on user-generated content to enforce policies, rules, or guidelines (often called
+    community standards) determined by a governing body. Public engagement with content
+    moderation most prominently centers the role of social media companies in moderating
+    content on their platforms. Therefore, social media companies are most commonly
+    the assumed governing bodies. In reality, there are many intersecting layers of
+    governance.\n\n- A few key working assumptions should be noted:\n\n  - Content
+    moderation is distinct from moderation more broadly. Moderation may include regulation
+    of broader patterns of behavior, networks, or collaboration, in addition to the
+    production of content. Content moderation acts on content that is produced or
+    posted on technology platforms, including media, comments, messages, and others.\n
+    \ - Content moderation is widely articulated as being solely under the purview
+    of moderation conducted by platforms. However, the work and responsibility of
+    monitoring, judging, and acting on user-generated content is often offloaded onto
+    platform users and community moderators.\n\n### What is content moderation “enforcement”?\n\n![What
+    is content moderation “enforcement”?](//images.ctfassets.net/g118h5yoccvd/20RPqGvjppn2HxFGwONv0X/9ed730130b0aba1988716761584d0a63/What_is_content_moderation____enforcement___.png)\n\nThis
     document specifically focuses on __enforcement tools__, while recognizing the
     multi-layered nature of content moderation. That said, it’s important to recognize
     that content moderation is a process that can be articulated with five distinct
@@ -4986,34 +4988,35 @@ report:
     which tools. Clarifying the question of “Who can moderate the content on a social
     media platform?” enables stakeholders beyond social media companies to investigate
     who is responsible for moderation and how to propose who should have power over
-    content moderation and to what extent.\n\nNaming who is wielding the tools of
+    content moderation and to what extent.\n\n- Naming who is wielding the tools of
     moderation and which tools they’re wielding (or, what kind of moderation they’re
-    empowered to do) enables intervening stakeholders to:\n\n- See what options they
-    have to grant different actors different levels of power to moderate (and the
-    resulting trade-offs)\n- Imagine more sophisticated and distributed models of
-    detection and adjudication\n- Recognize that all of these actors intersect in
-    key ways and do not operate in silos\n\nIn order to accomplish this, key questions
-    must be asked of these actors.\n\n- What moderation tools are available to them?\n-
-    What, or who, are they allowed to moderate?\n- At what scale must they moderate?\n-
-    What are the limits of their ability to moderate (or moderate effectively)?\n-
-    Who is the moderator accountable to?\n- Who is influenced by their moderation?\n-
-    What set of trade-offs must the moderator balance?\n- What are the goals or obligations
-    of the moderator?\n- Who does the moderator want to protect?\n- What measures
-    is the moderator willing to take?\n\nOn a technical level, any particular attribute
-    of a category of owner is not necessarily mutually exclusive with the other categories.
-    Rather, these categories articulate profiles of moderators that have emerged on
-    social media platforms. Each has distinct characteristics that afford different
-    modes of interaction and moderation.\n\n__User-centered content moderation__ typically
-    targets the experience of the individual who is deploying moderation measures,
-    with limited impact on the experience of other users on the platform. \n\nUser-centered
-    moderation tools are not typically thought of as “content moderation,” but they
-    figure centrally into how decision-makers at social media companies balance their
-    desire to enable free expression on their platforms with their responsibility
-    to minimize harm towards their users. Social media companies reduce their roles
-    as singular arbiters of content by distributing control of how content is experienced
-    on platforms by offering tools that enable users to moderate what content they
-    experience. Resources on abuse offered by social media companies often encourage
-    platform users to [employ user-centered moderation tools before flagging content](https://help.twitter.com/en/safety-and-security/cyber-bullying-and-online-abuse
+    empowered to do) enables intervening stakeholders to:\n\n  - See what options
+    they have to grant different actors different levels of power to moderate (and
+    the resulting trade-offs)\n  - Imagine more sophisticated and distributed models
+    of detection and adjudication\n  - Recognize that all of these actors intersect
+    in key ways and do not operate in silos\n\n- In order to accomplish this, key
+    questions must be asked of these actors.\n\n  - What moderation tools are available
+    to them?\n  - What, or who, are they allowed to moderate?\n  - At what scale must
+    they moderate?\n  - What are the limits of their ability to moderate (or moderate
+    effectively)?\n  - Who is the moderator accountable to?\n  - Who is influenced
+    by their moderation?\n  - What set of trade-offs must the moderator balance?\n
+    \ - What are the goals or obligations of the moderator?\n  - Who does the moderator
+    want to protect?\n  - What measures is the moderator willing to take?\n\nOn a
+    technical level, any particular attribute of a category of owner is not necessarily
+    mutually exclusive with the other categories. Rather, these categories articulate
+    profiles of moderators that have emerged on social media platforms. Each has distinct
+    characteristics that afford different modes of interaction and moderation.\n\n__User-centered
+    content moderation__ typically targets the experience of the individual who is
+    deploying moderation measures, with limited impact on the experience of other
+    users on the platform. \n\nUser-centered moderation tools are not typically thought
+    of as “content moderation,” but they figure centrally into how decision-makers
+    at social media companies balance their desire to enable free expression on their
+    platforms with their responsibility to minimize harm towards their users. Social
+    media companies reduce their roles as singular arbiters of content by distributing
+    control of how content is experienced on platforms by offering tools that enable
+    users to moderate what content they experience. Resources on abuse offered by
+    social media companies often encourage platform users to [employ user-centered
+    moderation tools before flagging content](https://help.twitter.com/en/safety-and-security/cyber-bullying-and-online-abuse
     \"Twitter: cyber-bullying-and-online-abuse\") for platform moderation—however,
     whether the user or the platform should be taking moderation measures is a point
     of contention. Distinguishing and building a vocabulary around the distinct tools
@@ -5094,151 +5097,154 @@ report:
     “graphic,” “inappropriate,” and others do not have consistent definitions across
     platforms, and may variably be used to describe content that displays or depicts
     nudity, sexual activity, sexual abuse, child exploitation, gore, and violent imagery.\n\n###
-    Block\n\n__Description:__ A block is broadly defined as a feature that enables
+    Block\n\n- __Description:__ A block is broadly defined as a feature that enables
     a user to 1) restrict the access that an account has to that user’s content and
     profile and 2) make content made by the blocked account no longer visible to that
-    user.\n\n__Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
-    Reactive, Proactive<br />\n\n- __Example: Tumblr:__ Once a user blocks an account,
-    neither the user nor the blocked account see one another aside from threaded posts
-    where someone can make a comment and another account reblogs and adds to it. Because
-    of Tumblr’s design, these reblogs with added comments offer some level of visibility
-    on what a user is saying or doing if another person reblogs that user’s content
-    with a comment.\n- __Example: Twitter:__ A user can individually block an account.
-    The user no longer sees the account’s tweets and the blocked account no longer
-    can see the user’s. Neither party can send a direct message (DM) to the other.
-    The user can still navigate to the profile of the account they have blocked to
-    opt into seeing the tweets only when navigating directly that account’s profile.\n-
-    __Example: Discord:__ A user can individually block an account. Once an account
-    is blocked, the blocked account can see the user’s contributions to a conversation
-    in a group chat they are both in, but the user cannot see the contributions of
-    the blocked account in a group chat.\n- __Example: Facebook:__ A user can block
-    individual accounts. Blocked accounts cannot see the user’s profile, post on their
-    profile, tag them in posts, see links to their profile, send invites to groups,
-    pages, or events, or send a friend request. This block does not include apps,
-    games, or groups that both the user and the blocked account participate in. \n\n###
-    Mute\n\n__Description:__ Mute is a feature that enables a user to remove a specific
-    piece of content, user, or keyword from their feed and/or notifications so it
-    is no longer visible to them by default. This feature may still enable users to
-    seek out muted posts, profiles, or keywords proactively, or will hide them entirely.
-    Different types of mutes can happen on:\n\n- Notifications from comment threads\n-
-    Global content\n- Direct or private messages\n\n__Owner:__ User<br />\n__Context:__
-    Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive, Proactive<br />\n\n-
-    __Example: Facebook:__ A user can choose the “Snooze for 30 days” for an account
-    so that posts made by that account do not show up in the user’s newsfeed for 30
-    days.\n\n### Hide Post\n\n**Description:** An *individual* post or message is
-    no longer visible to the user, but is still viewable by other users. In direct
-    messages, a user may be able to hide a message by choosing a “delete for me” option
-    but they will not be able to retrieve it once deleted for them.\n\n__Owner:__
-    User<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive,
-    Proactive\n\n- __Example: Reddit:__ A user can choose to hide a post; it won’t
-    show up in their feed or in the subreddit where it was posted. The user can find
-    the hidden post by navigating to their account profile and selecting the “hidden”
-    posts section.\n\n### Remove Post\n\n**Description:** The user can remove content
-    that has been posted by an account on a user’s post or profile so that it is no
-    longer viewable by any account where it was posted. Post removals through platform
-    moderation are also commonly called content takedowns. \n\nRemoving the posted
-    content may result in:\n\n- the content being deleted from the platform, \n- remaining
-    on the profile of the account that posted the content, or \n- moved to a less
-    visible location (See: Twitter “[Hide reply](https://blog.twitter.com/en_us/topics/product/2019/more-control-over-your-conversations-globally.html
-    \"Twitter: More control over your conversations\")”) \n\n__Owner:__ User, Community
+    user.\n\n- __Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br
+    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: Tumblr:__ Once
+    a user blocks an account, neither the user nor the blocked account see one another
+    aside from threaded posts where someone can make a comment and another account
+    reblogs and adds to it. Because of Tumblr’s design, these reblogs with added comments
+    offer some level of visibility on what a user is saying or doing if another person
+    reblogs that user’s content with a comment.\n- __Example: Twitter:__ A user can
+    individually block an account. The user no longer sees the account’s tweets and
+    the blocked account no longer can see the user’s. Neither party can send a direct
+    message (DM) to the other. The user can still navigate to the profile of the account
+    they have blocked to opt into seeing the tweets only when navigating directly
+    that account’s profile.\n- __Example: Discord:__ A user can individually block
+    an account. Once an account is blocked, the blocked account can see the user’s
+    contributions to a conversation in a group chat they are both in, but the user
+    cannot see the contributions of the blocked account in a group chat.\n- __Example:
+    Facebook:__ A user can block individual accounts. Blocked accounts cannot see
+    the user’s profile, post on their profile, tag them in posts, see links to their
+    profile, send invites to groups, pages, or events, or send a friend request. This
+    block does not include apps, games, or groups that both the user and the blocked
+    account participate in. \n\n### Mute\n\n- __Description:__ Mute is a feature that
+    enables a user to remove a specific piece of content, user, or keyword from their
+    feed and/or notifications so it is no longer visible to them by default. This
+    feature may still enable users to seek out muted posts, profiles, or keywords
+    proactively, or will hide them entirely. Different types of mutes can happen on:\n
+    \ - Notifications from comment threads\n  - Global content\n  - Direct or private
+    messages\n\n- __Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br
+    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: Facebook:__ A user
+    can choose the “Snooze for 30 days” for an account so that posts made by that
+    account do not show up in the user’s newsfeed for 30 days.\n\n### Hide Post\n\n-
+    **Description:** An *individual* post or message is no longer visible to the user,
+    but is still viewable by other users. In direct messages, a user may be able to
+    hide a message by choosing a “delete for me” option but they will not be able
+    to retrieve it once deleted for them.\n\n- __Owner:__ User<br />\n__Context:__
+    Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive, Proactive\n\n- __Example:
+    Reddit:__ A user can choose to hide a post; it won’t show up in their feed or
+    in the subreddit where it was posted. The user can find the hidden post by navigating
+    to their account profile and selecting the “hidden” posts section.\n\n### Remove
+    Post\n\n- **Description:** The user can remove content that has been posted by
+    an account on a user’s post or profile so that it is no longer viewable by any
+    account where it was posted. Post removals through platform moderation are also
+    commonly called content takedowns. Removing the posted content may result in:\n
+    \ - the content being deleted from the platform, \n  - remaining on the profile
+    of the account that posted the content, or \n  - moved to a less visible location
+    (See: Twitter “[Hide reply](https://blog.twitter.com/en_us/topics/product/2019/more-control-over-your-conversations-globally.html
+    \"Twitter: More control over your conversations\")”) \n\n- __Owner:__ User, Community
     Moderator, Platform<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
     Reactive, Proactive<br />\n\n- __Example: Discord:__ A Discord moderator can select
     “Delete” from the overflow menu (which appears as “•••”) of a chat message, which
-    will remove the message from the chat entirely.\n\n### Unfollow/Unfriend\n\n__Description:__
-    The user removes an account from their social network, reducing the visibility
-    of the account to the user or the ability of the account to act on the user, where
-    the account may:\n\n- no longer appear in the feed of the user\n- lose access
-    to non-public content posted by the user\n- lose the ability to send the user
-    a direct message\n\n__Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br
-    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: LinkedIn:__ A user
-    can select “Remove Connection” on another account, which will remove that account
-    from their Connections. That account will no longer show up as a Connection and
-    the account will only be able to see the user’s profile details and content posted
-    by the user that are available to the public.\n\n### Personal Filter\n\n**Description:**
-    Features of this type modify what type of content or behavior is visible to the
-    user, typically in their feeds, notifications, or direct messages. Direct messages
-    that are filtered may be directed to a separate inbox or deleted. A personal filter
-    is distinct from mute, which hides content explicitly based on user-chosen keywords
-    or users. \n\n__Owner:__ User<br />\n__Context:__ Feed, Forum, Direct Message<br
-    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: Twitter:__ Users
-    can choose to turn on a [quality filter](https://help.twitter.com/en/managing-your-account/understanding-the-notifications-timeline
+    will remove the message from the chat entirely.\n\n### Unfollow/Unfriend\n\n-
+    __Description:__ The user removes an account from their social network, reducing
+    the visibility of the account to the user or the ability of the account to act
+    on the user, where the account may:\n  - no longer appear in the feed of the user\n
+    \ - lose access to non-public content posted by the user\n  - lose the ability
+    to send the user a direct message\n\n- __Owner:__ User<br />\n__Context:__ Feed,
+    Forum, Direct Message<br />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example:
+    LinkedIn:__ A user can select “Remove Connection” on another account, which will
+    remove that account from their Connections. That account will no longer show up
+    as a Connection and the account will only be able to see the user’s profile details
+    and content posted by the user that are available to the public.\n\n### Personal
+    Filter\n\n- **Description:** Features of this type modify what type of content
+    or behavior is visible to the user, typically in their feeds, notifications, or
+    direct messages. Direct messages that are filtered may be directed to a separate
+    inbox or deleted. A personal filter is distinct from mute, which hides content
+    explicitly based on user-chosen keywords or users. \n\n- __Owner:__ User<br />\n__Context:__
+    Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive, Proactive<br />\n\n-
+    __Example: Twitter:__ Users can choose to turn on a [quality filter](https://help.twitter.com/en/managing-your-account/understanding-the-notifications-timeline
     \"Twitter: Understanding the notifications timeline\"), which prevents tweets
     with “low-quality” content from appearing in their notifications.\n\n### Restrict
-    Personal Audience\n\n__Description:__ Content posted by the user or users within
+    Personal Audience\n\n- __Description:__ Content posted by the user or users within
     a community is restricted to the audiences designated by the user or community
-    moderator.\n\n__Owner:__ User, Community Moderator<br />\n__Context:__ Feed, Forum<br
-    />\n__Orientation:__ Preventative<br />\n\n- __Example: YouTube:__ A user can
-    set a video they upload to their channel to “Private,” which removes the video
-    from the “Videos” tab on their channel (i.e. the user’s profile), YouTube’s search
-    results, and recommendations. Comments are automatically disabled for the video
-    and the video cannot be shared by a link. The user can choose to send an invitation
-    to view the video to other user emails, but the video is unviewable otherwise.\n\n###
-    Restrict Participation on Content\n\n__Description:__ A user, community moderator,
-    or platform moderator can prevent multiple accounts from making posts or interacting
-    with posts in a designated space (e.g., posts in a forum space, the comments section
-    of a post, edits on a wiki article)\n\nThis can include:\n- Turning off comments\n-
-    Turning off voting\n- Filtering posts by a characteristic (e.g., automatically
-    removes posts containing slurs)\n- Filtering posting by user characteristics (e.g.,
-    A Reddit moderator may make a filter that removes posts made by all accounts less
-    than 10 days old)\n- Tagging\n- Turning off or filtering content edits (e.g.,
-    editing wiki pages)\n\n__Owner:__ User, Community Moderator, Platform<br />\n__Context:__
-    Feed, Forum<br />\n__Orientation:__ Reactive, Proactive, Preventative<br />\n\n-
-    __Example: Wikipedia:__ Unregistered users can edit most but not all articles,
-    and they cannot create new articles on the English edition without an account.\n\n###
-    Content Screen\n\n__Description:__ A screen that blocks a type of content partially
-    or entirely with warning about the nature of the content—typically by hiding or
-    blurring the content. When encountering screened content, the user is given the
-    ability to choose whether to view that content or not. Common content types for
-    when the platform screens content by default are graphic sexual or violent content.\n\n__Owner:__
-    User, Community Moderator, Platform<br />\n__Context:__ Feed, Forum, Direct Message<br
-    />\n__Orientation:__ Reactive, Proactive<br />\n\n- __Example: Reddit:__ Puts
-    a screen in front of content that is labeled NSFW (not safe for work), which blurs
-    the thumbnails and media preview for users who are using the “Safe browsing mode”
-    setting. Users can choose to click on the content screen to view that content.\n\n###
-    Limit Account\n__Description:__ The range of actions otherwise available to a
-    designated account is restricted. Actions that can be restricted for that account
-    include:\n- Posting on the platform or community space\n- Commenting on other
-    user posts\n- Sending direct messages\n- Interacting with a post (e.g., “Like,”
-    “Favorite,” votes)\n- Sharing other user posts\n- Reducing or removing the ability
-    to monetize content that is produced by the account\n- Reducing or removing the
-    ability to post advertisements on the platform\n\n__Owner:__ Community Moderator,
-    Platform<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
-    Reactive<br />\n\n- __Example: YouTube:__ YouTube videos that do not follow guidelines
-    for “ad-friendly” content may be demonetized, removing the video creator’s ability
+    moderator.\n\n- __Owner:__ User, Community Moderator<br />\n__Context:__ Feed,
+    Forum<br />\n__Orientation:__ Preventative<br />\n\n- __Example: YouTube:__ A
+    user can set a video they upload to their channel to “Private,” which removes
+    the video from the “Videos” tab on their channel (i.e. the user’s profile), YouTube’s
+    search results, and recommendations. Comments are automatically disabled for the
+    video and the video cannot be shared by a link. The user can choose to send an
+    invitation to view the video to other user emails, but the video is unviewable
+    otherwise.\n\n### Restrict Participation on Content\n\n- __Description:__ A user,
+    community moderator, or platform moderator can prevent multiple accounts from
+    making posts or interacting with posts in a designated space (e.g., posts in a
+    forum space, the comments section of a post, edits on a wiki article). This can
+    include:\n  - Turning off comments\n  - Turning off voting\n  - Filtering posts
+    by a characteristic (e.g., automatically removes posts containing slurs)\n  -
+    Filtering posting by user characteristics (e.g., A Reddit moderator may make a
+    filter that removes posts made by all accounts less than 10 days old)\n  - Tagging\n
+    \ - Turning off or filtering content edits (e.g., editing wiki pages)\n\n- __Owner:__
+    User, Community Moderator, Platform<br />\n__Context:__ Feed, Forum<br />\n__Orientation:__
+    Reactive, Proactive, Preventative<br />\n\n- __Example: Wikipedia:__ Unregistered
+    users can edit most but not all articles, and they cannot create new articles
+    on the English edition without an account.\n\n### Content Screen\n\n- __Description:__
+    A screen that blocks a type of content partially or entirely with warning about
+    the nature of the content—typically by hiding or blurring the content. When encountering
+    screened content, the user is given the ability to choose whether to view that
+    content or not. Common content types for when the platform screens content by
+    default are graphic sexual or violent content.\n\n- __Owner:__ User, Community
+    Moderator, Platform<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
+    Reactive, Proactive<br />\n\n- __Example: Reddit:__ Puts a screen in front of
+    content that is labeled NSFW (not safe for work), which blurs the thumbnails and
+    media preview for users who are using the “Safe browsing mode” setting. Users
+    can choose to click on the content screen to view that content.\n\n### Limit Account\n-
+    __Description:__ The range of actions otherwise available to a designated account
+    is restricted. Actions that can be restricted for that account include:\n  - Posting
+    on the platform or community space\n  - Commenting on other user posts\n  - Sending
+    direct messages\n  - Interacting with a post (e.g., “Like,” “Favorite,” votes)\n
+    \ - Sharing other user posts\n  - Reducing or removing the ability to monetize
+    content that is produced by the account\n  - Reducing or removing the ability
+    to post advertisements on the platform\n\n- __Owner:__ Community Moderator, Platform<br
+    />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive<br
+    />\n\n- __Example: YouTube:__ YouTube videos that do not follow guidelines for
+    “ad-friendly” content may be demonetized, removing the video creator’s ability
     to host paid advertisements on their video and by extension their ability to generate
-    revenue from that video through advertisements.\n\n### Account Suspension/Ban\n\n__Description:__
-    Removes the account from the platform or forum.\n- __Forum:__ An account banned
-    from a forum will not be able to rejoin that forum, and possibly will be restricted
-    from viewing the contents of that forum. \n- __Platform:__ The account suspended
-    by the platform can no longer be accessed, and the account profile will no longer
-    be visible to other users. \nA suspension or ban may be lifted if the account
-    owner performs requested actions or a set amount of time has passed. An account
-    may be suspended permanently if it has received multiple conditional or temporary
-    suspensions.\n\n__Owner:__ Community Moderator, Platform<br />\n__Context:__ Feed,
-    Forum, Direct Message<br />\n__Orientation:__ Reactive<br />\n\n- __Example: Facebook:__
-    A Facebook Group Admin or Moderator can remove a Facebook account from the Group
-    and then choose to “Block” that account from the group. An account blocked from
-    the group won't be able to find, see or join that group.\n\n### Sanction\n\n__Description:__
-    The platform warns a user about content or actions that have violated platform
-    policy. A warning may result in:\n\n- __An account strike:__ A strike on an account
-    where the account faces further moderation actions (e.g., account suspension or
-    ban) once a certain number of strikes have been acquired within an allotted time
-    period.\n- __Requiring action from the user:__ The platform may require that the
-    user remove a post, alter their content or profile, or take other measures within
-    a certain period of time to avoid further moderation actions or reduce, e.g.,
-    to lift an account suspension.\n\nPlease note that some sanctions are reflective
-    of cumulative flags against the user that may not be visible immediately but are
-    logged.\n\n__Owner:__ Community Moderator, Platform<br />\n__Context:__ Feed,
-    Forum, Direct Message<br />\n__Orientation:__ Reactive<br />\n\n- __Example: Instagram:__
-    An account may receive an account warning when they have made multiple posts that
-    violate Instagram community guidelines, notifying them that their account will
-    be deleted if they continue to violate policy. The warning includes a list of
-    previous policy violations the account has made.\n\n### Downrank\n\n__Description:__
-    Content from a particular account, accounts with particular characteristics, or
-    content with particular characteristics will be ranked lower in user feeds, recommended
-    content, home screens, or front pages of social media platforms, making it less
-    visible to users.\n\n__Owner:__ Platform<br />\n__Context:__ Feed, Forum<br />\n__Orientation:__
-    Reactive, Proactive<br />\n\n- __Example: Twitter:__ [Twitter announced July 2018](https://blog.twitter.com/en_us/topics/company/2018/Setting-the-record-straight-on-shadow-banning.html
+    revenue from that video through advertisements.\n\n### Account Suspension/Ban\n\n-
+    __Description:__ Removes the account from the platform or forum.\n\n- __Forum:__
+    An account banned from a forum will not be able to rejoin that forum, and possibly
+    will be restricted from viewing the contents of that forum. \n\n- __Platform:__
+    The account suspended by the platform can no longer be accessed, and the account
+    profile will no longer be visible to other users. \nA suspension or ban may be
+    lifted if the account owner performs requested actions or a set amount of time
+    has passed. An account may be suspended permanently if it has received multiple
+    conditional or temporary suspensions.\n\n- __Owner:__ Community Moderator, Platform<br
+    />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__ Reactive<br
+    />\n\n- __Example: Facebook:__ A Facebook Group Admin or Moderator can remove
+    a Facebook account from the Group and then choose to “Block” that account from
+    the group. An account blocked from the group won't be able to find, see or join
+    that group.\n\n### Sanction\n\n- __Description:__ The platform warns a user about
+    content or actions that have violated platform policy. A warning may result in:\n\n-
+    __An account strike:__ A strike on an account where the account faces further
+    moderation actions (e.g., account suspension or ban) once a certain number of
+    strikes have been acquired within an allotted time period.\n\n- __Requiring action
+    from the user:__ The platform may require that the user remove a post, alter their
+    content or profile, or take other measures within a certain period of time to
+    avoid further moderation actions or reduce, e.g., to lift an account suspension.\n\nPlease
+    note that some sanctions are reflective of cumulative flags against the user that
+    may not be visible immediately but are logged.\n\n- __Owner:__ Community Moderator,
+    Platform<br />\n__Context:__ Feed, Forum, Direct Message<br />\n__Orientation:__
+    Reactive<br />\n\n- __Example: Instagram:__ An account may receive an account
+    warning when they have made multiple posts that violate Instagram community guidelines,
+    notifying them that their account will be deleted if they continue to violate
+    policy. The warning includes a list of previous policy violations the account
+    has made.\n\n### Downrank\n\n- __Description:__ Content from a particular account,
+    accounts with particular characteristics, or content with particular characteristics
+    will be ranked lower in user feeds, recommended content, home screens, or front
+    pages of social media platforms, making it less visible to users.\n\n- __Owner:__
+    Platform<br />\n__Context:__ Feed, Forum<br />\n__Orientation:__ Reactive, Proactive<br
+    />\n\n- __Example: Twitter:__ [Twitter announced July 2018](https://blog.twitter.com/en_us/topics/company/2018/Setting-the-record-straight-on-shadow-banning.html
     \"Twitter: Setting the record straight on shadow banning\") that tweets associated
     with bad actors were ranked lower with bad actors determined based on signals
     like account age, others accounts in its network (i.e., followers), and the moderation
