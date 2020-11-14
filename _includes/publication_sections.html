@@ -1,16 +1,18 @@
 <div class="publication-wrapper">
     {% for section in page.sections %}
-        <div class="section-meta main-grid">
-            <span class="section-number" style="color: {{ page.color.value }}">
-                {% include section_number.html %}
-            </span>
-            <span class="section-name" style="color: {{ page.color.value }}">
-                {{ section.title }}
-            </span>
-            <span class="section-intro" style="color: {{ page.color.value }}">
-                {{ section.section_description | markdownify }}
-            </span>
-        </div>
+        {% if page.sections.size > 1 %}
+            <div class="section-meta main-grid">
+                <span class="section-number" style="color: {{ page.color.value }}">
+                    {% include section_number.html %}
+                </span>
+                <span class="section-name" style="color: {{ page.color.value }}">
+                    {{ section.title }}
+                </span>
+                <span class="section-intro" style="color: {{ page.color.value }}">
+                    {{ section.section_description | markdownify }}
+                </span>
+            </div>
+        {% endif %}
 
         {% assign sections = site.data.contentful.spaces.sections.section %}
         {% for s in section.modules %}
