@@ -30,4 +30,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
   {% endif %}
 
+  {% if page.path == 'pages/donate.html' %} %}
+    <!-- Load Stripe.js for donation page -->
+    <script src="https://js.stripe.com/v3/"></script>
+  {% endif %}
+
 </head>
