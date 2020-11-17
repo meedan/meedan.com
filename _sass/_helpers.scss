@@ -61,6 +61,9 @@
         width: var(--scale-2);
         border-top: 1px solid var(--blackInk);
     } 
+    p:first-child {
+        padding-top: var(--space-2);
+    }
     h3,
     .story-footer-item {
         padding-top: var(--space-2);
@@ -120,13 +123,20 @@
 .color--east-side { color: var(--eastSide); border-color: var(--eastSide) !important; }
 .color--deep-sea { color: var(--deepSea); border-color: var(--deepSea) !important; }
 .color--black-ink { color: var(--blackInk) }
+.color--white { color: #fff; border-color: #fff !important;}
+.color--silver { color: var(--silver); border-color: var(--silver) !important;}
 
 
 .module-bg-color--coral {
     background-color: var(--coral);
 }
 .module-bg-color--texas-rose {
+    color: var(--blackInk);
     background-color: var(--texasRose);
+}
+.module-bg-color--light-navy {
+    color: var(--lightNavy);
+    background-color: var(--lightNavy);
 }
 .module-bg-color--east-side {
     background-color: var(--eastSide);

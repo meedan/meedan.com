@@ -11,9 +11,9 @@ moduleEvents:
   - sys:
       id: 3fGBeLe0aWtOMrdYHvYAti
       created_at: !ruby/object:DateTime 2020-11-11 16:11:29.617000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 20:13:19.954000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-16 10:38:42.690000000 Z
       content_type_id: event
-      revision: 1
+      revision: 2
       space:
         sys:
           id: g118h5yoccvd
@@ -31,20 +31,8 @@ moduleEvents:
       the Blast'
     event_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
     event_end_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-    time: |-
-      - *Mexico City*: 10:00am UTC-6
-
-      - *London*: 4:00pm UTC+0
-
-      - *Amsterdam*: 5:00pm UTC+1
-
-      - *Kampala*: 7:00pm UTC+3
-
-      - *Delhi*: 9:30pm UTC+5:30
-
-      - *Jakarta*: 11:00pm UTC+7
-
-      - *Taipei*: 00:0am UTC+8 (November 21, 2020)
+    time: "- *San Francisco* 8am\n- *New York* 11am\n- *São Paolo* 12pm\n- *London*
+      4pm \n- *Nairobi* 7pm\n- *Delhi* 9:30pm\n- *Manila* 11pm\n"
     status: Upcoming
     images:
     - sys:
