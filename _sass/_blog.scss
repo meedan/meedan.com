@@ -65,7 +65,7 @@
     .image-container.landscape {
         margin: var(--space-1) var(--space-2) var(--space-1);
         @include responsive('min-width: #{$width-wide}') {
-            margin: var(--space-3) var(--space-4) var(--space-2);
+            margin: var(--space-3) var(--space-2) var(--space-2);
         }
     }
     .image-container.portrait {
@@ -122,7 +122,6 @@
         }    
     }
 }
-
 
 // Story page
 
@@ -229,12 +228,12 @@
 }
 
 .page-wrapper .story-wrapper h2 {
-    font-size: var(--scale-3);
+    font-size: var(--scale-2);
     margin-bottom: var(--space-1);
 }
 
 .page-wrapper .story-wrapper h3 {
-    font-size: var(--scale-2);
+    font-size: var(--scale-1);
     margin-top: var(--space-1);
     margin-bottom: var(--space-1);
 }
@@ -251,10 +250,13 @@
 
 .story-wrapper ul,
 .story-wrapper ol {
-    margin-left: var(--space-4);
+    padding-left: 1rem;
+    margin-left: 2.2rem;
     li {
-        padding-left: var(--space-1);
-        margin-bottom: var(--space-1);
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+        padding-left: 0.25rem;
     }
 }
 
@@ -576,13 +578,23 @@
     }
 }
 
+
 .module-featured-story .date {
     grid-column: 3/11;
     font-size: 1rem;
     margin-bottom: var(--space-1);
+    opacity: 0.6;
 }
 
 .module-featured-story .image-container {
+    grid-column: 3/11;
+    align-self: center;
+    @include responsive('min-width: #{$width-tablet}') {
+        img { max-height: 40vw; }
+    }
+}
+
+.module-featured-story .video-container {
     grid-column: 3/11;
     align-self: center;
     @include responsive('min-width: #{$width-tablet}') {
@@ -647,4 +659,19 @@
         font-size: var(--scale-3);
     }
     text-align: center;
+}
+
+// Section with header
+
+.module .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+    margin-bottom: var(--space-2);
+    .section-title {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
 }

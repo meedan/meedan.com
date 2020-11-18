@@ -27,11 +27,16 @@
             {{ page.description }}
         </span>
         {% if page.author %}
-        <span>writes {% 
-            include authors.html 
-            data=page.author 
-        %}</span>
+            {% capture byline %}{% include authors.html data=page.author %}{% endcapture %}
+            {% if page.additional_attribution %}
+                {% assign additional_byline = page.additional_attribution %}
+            {% endif %}
         {% endif %}
+        {% if byline %}
+            <span class="byline">{{ byline | append: ', ' | append: additional_byline | prepend: 'writes ' }}</span>
+        {% endif %}
+
+
     </div>
     {% endif %}
     {% include nav_overlay.html %}

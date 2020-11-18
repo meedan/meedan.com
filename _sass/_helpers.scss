@@ -195,3 +195,17 @@
 .margin-bottom--5 {
     margin-bottom: var(--space-5);
 }
+
+.rectangle {
+    display: inline-block;
+    font-family: $font-stack;
+    font-size: 0.778rem;
+    font-weight: 700;
+    letter-spacing: 0.044rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent);
+    background-color: var(--blackInk);
+    padding: 0.2rem 0.4rem;
+    margin-bottom: var(--space-1);
+}

@@ -3,30 +3,49 @@
 %}
 {% for story in story_list[0].stories limit:1 %}
     <div class="module module-featured-story section-margin">
-        <h2 class="title">
-            <a href="/blog/{{ story.slug }}">{{ story.title }}</a>
-        </h2>
-        <div class="lead">
-            {% if story.description %}
-                {{ story.description | markdownify }}
-            {% else %}
-                {{ story.body | truncate: 250 | markdownify }}
-            {% endif %}
-        </div>
-        <div class="date">
-            {% if story.alt_date %}
-                {% assign published_on = story.alt_date %}
-            {% else %}
-                {% assign published_on = story.sys.created_at %}
-            {% endif %}
-            <span>
-                {{ published_on | date: "%-d %b %Y" }}
-            </span>
-        </div>
-        <picture class="image-container display--block">
-            <a href="/blog/{{ story.slug }}">
-                <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
-            </a>
-        </picture>
+        {% if story.sys.content_type_id == "moduleCard"  %}
+            <div class="tag">
+                <span class="rectangle">{{ story.tag }}</span>
+            </div>
+            <h2 class="title">
+                <a href="{{ story.link }}">{{ story.title }}</a>
+            </h2>
+            <div class="date">
+                <span>
+                    {{ story.published_on | date: "%-d %b %Y" }}
+                </span>
+            </div>
+            <div class="video-container">
+                <div class="u-responsive-ratio media-16by9">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ story.youtube_video_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        {% else %}
+            <h2 class="title">
+                <a href="/blog/{{ story.slug }}">{{ story.title }}</a>
+            </h2>
+            <div class="lead">
+                {% if story.description %}
+                    {{ story.description | markdownify }}
+                {% else %}
+                    {{ story.body | truncate: 250 | markdownify }}
+                {% endif %}
+            </div>
+            <div class="date">
+                {% if story.alt_date %}
+                    {% assign published_on = story.alt_date %}
+                {% else %}
+                    {% assign published_on = story.sys.created_at %}
+                {% endif %}
+                <span>
+                    {{ published_on | date: "%-d %b %Y" }}
+                </span>
+            </div>
+            <picture class="image-container display--block">
+                <a href="/blog/{{ story.slug }}">
+                    <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
+                </a>
+            </picture>
+        {% endif %}
     </div>
 {% endfor %}

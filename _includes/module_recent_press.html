@@ -7,13 +7,13 @@
     | where_exp: "item","item.sys.id == '4ytDksEIifiBOFrxcoIUll'"
 %}
 <div class="module module-recent-press section-margin small-hr">
-    <div class="main-grid">
+    <!-- <div class="main-grid">
         <div class="main-grid__1--1">
             <div class="main-grid bleed">
                 <h3 class="main-grid__1-12 flex justify-content--space-between"><span>Recent</span> <span>Press</span></h3>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="main-grid">
         {% if quotes %}
         <div class="main-grid__1-5 quotes">
@@ -30,6 +30,10 @@
                 <a class="press-item" href="{{ link.link }}">
                     {% if forloop.first and link.image.url and link.logo %}
                         <div class="card-graphic logo" style="background-image:url({{ link.image.url }})"></div>
+                    {% elsif forloop.first and link.youtube_video_id %}
+                        <div class="card-video-container u-responsive-ratio media-16by9">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ link.youtube_video_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     {% endif %}
                     <div class="title">
                         {{ link.title }}

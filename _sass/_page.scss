@@ -22,6 +22,10 @@
 
 .about {
     background-color: var(--sunDown);
+    // background: linear-gradient(180deg, #FFB2B2 0%, #FFB2B2 10.51%, #EF7E7B 15.85%, #EF7E7B 37.6%, #9F82C4 42.67%, #9F82C4 67.36%, #14A6A9 74.17%);
+    // background: linear-gradient(180deg, #FFB2B2 0%, #FFB2B2 7.38%, #EF7E7B 9.93%, #EF7E7B 16.87%, #9F82C4 19.75%, #9F82C4 28.32%, #14A6A9 31.14%);
+    // background: linear-gradient(180deg, #FFB2B2 0%, #FFB2B2 9.51%, #EF7E7B 12.12%, #EF7E7B 20.43%, #9F82C4 23.31%, #9F82C4 33.89%, #14A6A9 37.22%, #14A6A9 51.17%, #EF7E7B 54.57%);
+    background: linear-gradient(180deg, #FFB2B2 0%, #FFB2B2 9.6%, #EF7E7B 12.32%, #EF7E7B 21.29%, #9F82C4 24.07%, #9F82C4 35.2%, #14A6A9 38.34%, #14A6A9 51.03%, #5F9EE5 54.57%, #5F9EE5 72.37%, #979797 75.02%);
 }
 
 .projects {
@@ -55,6 +59,12 @@
     @media (min-width: 1px) and (max-width: #{$width-tablet}) {
         padding-right: var(--space-5);
         padding-left: var(--space-3);
+    }
+}
+
+@include responsive('min-width: #{$width-desktop}') {
+    .about .standfirst {
+        padding-right: var(--space-1);
     }
 }
 
@@ -194,12 +204,43 @@
 }
 
 .module-theory-of-change {
-    .key-point.term-01,
-    .key-point.term-03 {
-        grid-column: 5/9;
+    @include responsive('min-width: #{$width-tablet}') {
+        .terms {
+            position: relative;
+            &:before {
+                position: absolute;
+                left: 30px;
+                content: '';
+                width: 2px;
+                height: 80%;
+                top: var(--space-3);
+                bottom: var(--space-4);
+                border-left: 2px solid var(--blackInk);
+                z-index: -1;
+            }
+        }
+    }
+    @include responsive('min-width: #{$width-tablet}') {
+        h3 {
+            padding-right: var(--space-5);
+        }
+    }
+    .term {
+        padding-top: var(--space-2);
+        padding-bottom: var(--space-2);
+        @include responsive('min-width: #{$width-tablet}') {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .term p {
+        font-size: var(--scale-0);
     }
     img {
-        width: 40%;
+        margin-bottom: var(--space-1);
+        @include responsive('min-width: #{$width-tablet}') {
+            margin-right: var(--space-2);
+        }
     }
 }
 

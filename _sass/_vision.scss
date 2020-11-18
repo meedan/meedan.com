@@ -1,0 +1,114 @@
+.main-grid.module-vision {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 0.15fr 0.9fr 1fr 1fr;
+    grid-gap: 0;
+    grid-column-gap: var(--space-2);
+    grid-row-gap: 0;
+}
+
+.module-vision .icon-wrapper {
+    @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+        grid-column: 2/12;
+    }
+    grid-column: 5/9;
+    margin: 0 auto;
+}
+
+.module-vision .vision-statement {
+    @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+        grid-column: 2/12;
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+    grid-column: 5/9;
+    grid-row: 2/-1;
+    position: relative;
+    padding-top: 156px;
+    padding-bottom: 440px;
+
+    &:before {
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 80px;
+        left: 50%;
+        top: 20px;
+        @include responsive('min-width: #{$width-tablet}') {
+            top: 40px;
+            height: 156px;
+        }
+        background-color: var(--blackInk);
+    }
+    &:after {
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 160px;
+        @include responsive('min-width: #{$width-tablet}') {
+            height: 460px;
+        }
+        left: 50%;
+        bottom: 0;
+        background-color: var(--blackInk);
+    }
+    p {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        @include responsive('min-width: #{$width-tablet}') {
+            margin-top: 80px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+
+.module-vision .one {
+    grid-column: 1/5;
+    grid-row: 2/4;
+}
+
+.module-vision .two {
+    grid-column: 8/12;
+    grid-row: 2/4;
+}
+
+.module-vision .three {
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+
+.module-vision .four {
+    grid-column: 8/13;
+    grid-row: 3/-1;
+    align-self: end;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+    .module-vision .graphic {
+        display: block;
+    }
+
+    .module-vision .one {
+        // order: 1;
+        grid-column: 1/5;
+        padding-right: var(--space-5);
+        grid-row: 2/4;
+    }
+
+    .module-vision .two {
+        grid-column: 9/12;
+        grid-row: 2/4;
+    }
+
+    .module-vision .three {
+        grid-column: 3/6;
+        grid-row: 4/5;
+    }
+
+    .module-vision .four {
+        grid-column: 9/13;
+        grid-row: 3/-1;
+    }
+}

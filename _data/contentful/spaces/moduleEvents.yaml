@@ -3,81 +3,15 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-30 21:02:33.163000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-11 23:55:02.945000000 Z
     content_type_id: moduleEvents
-    revision: 48
+    revision: 49
   title: Upcoming Events
   events:
   - sys:
-      id: 1hvA9WDD6zZOwioQphJvMW
-      created_at: !ruby/object:DateTime 2020-09-29 21:48:02.789000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-07 15:09:09.142000000 Z
-      content_type_id: event
-      revision: 5
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: 'Closed door session: COVID-19 and local U.S. reporting'
-    event_date: !ruby/object:DateTime 2020-10-05 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-10-05 00:00:00.000000000 Z
-    time: |
-      - *Los Angeles* 9:30am
-      - *New York* 12:30pm
-    status: Past
-    images:
-    - sys:
-        id: 5BQn8bsMbUUD1W1FetsVZ2
-        created_at: !ruby/object:DateTime 2020-09-30 19:49:11.532000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-30 19:52:21.675000000 Z
-      title: Meedan Event Cover
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5BQn8bsMbUUD1W1FetsVZ2/424d04721b211941fe8542577942ffc6/meedan_us-reporting-session_02.png"
-    - sys:
-        id: 4Yp8sv4ewLIOrPgSEFwYKl
-        created_at: !ruby/object:DateTime 2020-09-30 19:47:43.638000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-30 19:52:17.740000000 Z
-      title: 'Closed door session: COVID-19 and local U.S. reporting'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4Yp8sv4ewLIOrPgSEFwYKl/89ea488f8cfe128dd36963bffd979643/meedan_us-reporting-session_01.jpg"
-    location_human_friendly: Online
-    description: 'Meedan is hosting a closed-door panel on COVID-19 and local news
-      on October 5, 2020. '
-    long_description: "Meedan is hosting a closed-door panel on COVID-19 and local
-      news on October 5, 2020.  It’s called *COVID-19 Local News Forum: What does
-      the second wave of COVID-19 reporting look like?*\n\n[Dr. Seema Yasmin](https://profiles.stanford.edu/seema-yasmin)
-      will facilitate a town-hall style forum between Meedan’s in-house team of scientists
-      and a variety of local news outlets across the United States. \n\nWith the first
-      nine months of the pandemic behind us, and in anticipation of a second wave
-      this fall, we are aiming for this discussion to serve as an opportunity to reflect
-      on how local news reporting fared during the early stages of this global crisis.
-      We’ll also work together to design new paths forward for scientists and journalists
-      as reporting needs increase around emerging treatments, vaccines and projected
-      upticks in transmission.\n\nOur panelists include: \n\n- Anna Kuchment, science
-      reporter at Dallas Morning News and contributing editor at Scientific American
-      \n\n- Jiquanda Johnson, founder and publisher of Flint Beat and Brown Impact\n\n-
-      Dr. Christin Gilmer, global health expert and science lead of learnaboutcovid19.org
-      \n\n- Dr. Jessica Huang, COVID-19 response and recovery fellow, Harvard Kennedy
-      School, and health literacy researcher for learnaboutcovid19.org \n\nThe event
-      is scheduled for Monday October 5 from 12:30-2 PM ET (9:30-11AM PT)."
-    slug: closed-door-session-covid-19-and-local-u-s-reporting
-    non_public: true
-    event_date_string: '2020-10-05'
-    event_end_date_string: '2020-10-05'
-    image: https://images.ctfassets.net/g118h5yoccvd/5BQn8bsMbUUD1W1FetsVZ2/424d04721b211941fe8542577942ffc6/meedan_us-reporting-session_02.png
-  - sys:
-      id: 2pbXEtiCezebbZtDCrQkI3
-      created_at: !ruby/object:DateTime 2020-09-22 23:01:24.687000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-02 22:59:58.224000000 Z
+      id: 3fGBeLe0aWtOMrdYHvYAti
+      created_at: !ruby/object:DateTime 2020-11-11 16:11:29.617000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-16 10:38:42.690000000 Z
       content_type_id: event
       revision: 2
       space:
@@ -93,46 +27,47 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
-    event_date: !ruby/object:DateTime 2020-10-08 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-10-08 00:00:00.000000000 Z
-    time: |-
-      - *San Francisco* 9:15 AM
-      - *New York* 12:15 PM
-      - *Brasilia* 1:15 PM
-      - *London* 5:15 PM
-      - *New Delhi* 9:45 PM
-      - *Manila* 12:15 AM
+    title: 'IFF MENA Community Knowledge Session: Independent Media in Lebanon After
+      the Blast'
+    event_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
+    time: "- *San Francisco* 8am\n- *New York* 11am\n- *São Paolo* 12pm\n- *London*
+      4pm \n- *Nairobi* 7pm\n- *Delhi* 9:30pm\n- *Manila* 11pm\n"
+    status: Upcoming
     images:
     - sys:
-        id: 5yDadevA1PuBhEt3Nfd1HW
-        created_at: !ruby/object:DateTime 2020-09-30 20:52:12.363000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-30 21:02:02.101000000 Z
-      title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
+        id: 7osdXlMczm9SkZHYMIqnQy
+        created_at: !ruby/object:DateTime 2020-07-15 21:41:59.795000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-15 21:42:32.806000000 Z
+      title: Internet Freedom Festival Glitter Meetup – Recordkeepers of the Resistance
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5yDadevA1PuBhEt3Nfd1HW/7147882dfcb1c371c1aa70df228e7291/meedan_ONA20_01.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg"
     - sys:
-        id: 5h0WCrXSSI5hAQZFTZZhMk
-        created_at: !ruby/object:DateTime 2020-09-30 20:52:31.007000000 Z
-        updated_at: !ruby/object:DateTime 2020-09-30 21:02:04.931000000 Z
-      title: "#ONA20: Election 2020: Combating Misinformation, Disinformation & Deepfakes"
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5h0WCrXSSI5hAQZFTZZhMk/ce6152f48adecac5987a1b74d59b88f9/MOSHED-2020-9-30-13-51-25_b.gif"
-    location_human_friendly: Online
-    register_link: https://ona20.journalists.org/sessions/combating-misinfo-disinfo-deepfakes/
-    description: Join this high-level discussion on the dangers of disinformation
-      and deepfakes to gain the tools and tactics you need to confront and push back
-      on these attacks.
+        id: 4IchgAvVUkRE4qWYB4njsu
+        created_at: !ruby/object:DateTime 2020-11-11 20:10:23.744000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-11 20:13:15.722000000 Z
+      title: 'IFF MENA Community Knowledge Session: Independent Media in Lebanon After
+        the Blast'
+      description: Azza El Masri, Meedan
+      url: "//images.ctfassets.net/g118h5yoccvd/4IchgAvVUkRE4qWYB4njsu/6184743c2e5c7781dea5b6f533bde437/meedan_beirut.jpg"
+    location_human_friendly: Online on Zoom
+    register_link: https://internetfreedomfestival.formstack.com/forms/mena3
+    description: 'NAWA Program Coordinator Azza El Masri will discuss the economic,
+      political, and mental health challenges experienced by independent media workers
+      in Lebanon after the Beirut Blast. '
     long_description: |-
-      Each election cycle sees new tactics and technology used to misinform the public in the digital space. Join this high-level discussion on the dangers of disinformation and deepfakes to gain the tools and tactics you need to confront and push back on these attacks.
+      On August 4, 2,700 tons of ammonium nitrate stored in Beirut's port ripped through half of the capital, taking 200 lives, injuring thousands and rendering 300,000 homeless. The impact of the blast was also felt by independent media workers, who'd had -- over the years -- taken up headquarters in the neighborhoods that had been hit the most. In the midst of an economic collapse and a crippling pandemic, independent media workers have had to also adapt in the midst of a state of emergency, acknowledge the limitations of the current donor-based business model as well as deal with the trauma incurred by the blast.
 
-      This session is designed for:
+      This MENA Community Knowledge session (MENA CKS) will focus on:
 
-      - Journalists finding it difficult to work in a space suffused with bad faith actors
-      - Editors, reporters and producers working to get on top of the unceasing spread of disinfo and misinformation
-      - Anyone who would like to better understand the state of play in disinfo and deepfakes
-    slug: ona20-election-2020-combating-misinformation-disinformation-and-deepfakes
-    non_public: true
-    event_date_string: '2020-10-08'
-    event_end_date_string: '2020-10-08'
-    image: https://images.ctfassets.net/g118h5yoccvd/5yDadevA1PuBhEt3Nfd1HW/7147882dfcb1c371c1aa70df228e7291/meedan_ONA20_01.jpg
+      -   The impact of the martial law on the security and freedom of independent journos after the blast
+      -   How the blast affected the business model of independent media outlets and the role of  emergency funding for media
+      -   What kind of regional cooperation is needed in terms of archiving and journalistic collaboration and training
+      -   The impact of trauma on independent journalists
+
+      **Azza El Masri** is [Meedan](https://meedan.com/)'s NAWA Program Coordinator and a Lebanese investigative journalist. She also conducts research on political misinformation online.
+    slug: iff-mena-community-knowledge-session-independent-media-in-lebanon-after-the
+    non_public: false
+    event_date_string: '2020-11-20'
+    event_end_date_string: '2020-11-20'
+    image: https://images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg

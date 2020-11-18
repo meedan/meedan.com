@@ -147,6 +147,15 @@
 }
 
 .report .story-wrapper {
+    font-family: $font-stack-e;
+    font-size: 1.111rem;
+    line-height: 1.275;
+    em, strong {
+        font-family: $font-stack-e;
+    }
+    em {
+        font-style: italic;
+    }
     > p,
     a,
     ul,
@@ -166,20 +175,29 @@
     > p,
     > ul,
     > ol {
-        margin-bottom: var(--space-3);
+        margin-bottom: var(--space-2);
     }
 
-    > p:first-child {
-        @include responsive('min-width: #{$width-tablet}') {
-            grid-column: 4/-1;
-        }
-        @include responsive('min-width: #{$width-desktop}') {
-            grid-column: 4/12;
-        }
-        font-family: $font-stack-d;
-        font-size: var(--scale-1);
-        color: var(--green);
-        a { color: var(--green); }
+    h2,
+    h3,
+    h4 {
+        font-family: $font-stack-e;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 2.222rem;
+        margin-top: var(--space-3);
+    }
+
+    h3 {
+        font-size: 1.778rem;
+        margin-top: var(--space-2);
+    }
+
+    h4 {
+        font-size: 1.333rem;
+        margin-top: var(--space-1);
     }
 
     sup {
@@ -192,31 +210,122 @@
 
 }
 
-.report .story-wrapper ul,
-.report  .story-wrapper ol {
+.report .report-note {
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-column: 4/-1;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        grid-column: 4/12;
+    }
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--sunSet);
+    margin-bottom: var(--space-3);
+}
+
+.report .report-introduction {
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-column: 4/-1;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        grid-column: 4/12;
+    }
+    font-family: $font-stack-d;
+    font-size: var(--scale-1);
+    color: var(--green);
+    a { color: var(--green); }
+    margin-bottom: var(--space-3);
+}
+
+.report .story-wrapper ul {
     margin-left: 0;
+    padding-left: 0;
     list-style: none;
     li {
         padding-left: 0;
         margin-bottom: var(--space-1);
-        padding-bottom: var(--space-1);
-        border-bottom: 1px solid var(--blackInk);
+        border-top: 1px solid var(--blackInk);
+        &:not(:first-child) { padding-top: var(--space-1); }
         &:first-child {
-            border-top: 1px solid var(--blackInk);
-            padding-top: var(--space-1);
+            border-top: 0;
         }
     }
+    // nested lists
+    ul, ol {
+        margin-left: 2.2rem;
+        li { 
+            border: 0;
+            padding-left: 0.25rem;
+            &:not(:first-child) { padding-top: 0; }
+            &:first-child {
+                margin-top: var(--space-1);
+            }
+        }
+    }
+    ul {
+        margin-top: 1rem;
+        list-style: disc;
+    }
+    ol {
+        margin-top: 1rem;
+        list-style: decimal;
+    }
+}
+
+.report  .story-wrapper ol {
+    padding-left: 1rem;
+    margin-left: 2.2rem;
+    // nested lists
+    ul, ol {
+        margin-left: 2.2rem;
+        li { 
+            border: 0;
+            padding-left: 0.25rem;
+            &:not(:first-child) { padding-top: 0; }
+            &:first-child {
+                margin-top: var(--space-1);
+            }
+        }
+    }
+    ul {
+        margin-top: 1rem;
+        list-style: disc;
+    }
+    ol {
+        margin-top: 1rem;
+        list-style: decimal;
+    }
+}
+
+.report .story-wrapper ol li { 
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+    padding-left: 0.25rem;
+}
+
+.report  .story-wrapper ol li p { display: inline; }
+.report  .story-wrapper ol li a { display: inline; }
+
+.report-sidebar {
+    order: -1;
+    grid-column: 1/4;
+    grid-row: span 6;
+    margin-bottom: var(--space-6);
+    font-size: 1.222rem;
 }
 
 .report-sidebar {
     order: -1;
     grid-column: 1/4;
+    grid-row: span 6;
     margin-bottom: var(--space-6);
     font-size: 1.222rem;
 }
 
 
 .report-footer {
+    font-family: $font-stack-e;
     padding-left: var(--space-3);
     padding-right: var(--space-3);
     font-size: 1rem;
@@ -249,7 +358,7 @@
     }
     ol li { 
         margin-bottom: 1rem; 
-        padding-left: var(--space-3);
+        // padding-left: var(--space-3);
     }
     ol li p { display: inline; }
     ol li a { display: inline; }
@@ -260,6 +369,7 @@
 
 .report-references,
 .report-authors {
+    
     ul {
         list-style-type: none;
     }
