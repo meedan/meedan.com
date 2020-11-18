@@ -33,7 +33,7 @@
     text-align: center;
     font-family: $font-stack-d;
     font-size: var(--scale-1);
-    color: #fff;
+    color: var(--sunDown);
     margin-top: 0;
     @media (min-width: 1px) and (max-width: #{$width-tablet}) {
         margin-top: var(--space-1);
@@ -42,6 +42,9 @@
     }
     span {
         display: block;
+    }
+    .byline {
+        color: #fff;
     }
 }
 

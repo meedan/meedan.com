@@ -2548,9 +2548,9 @@ event:
 - sys:
     id: 3RizYpDobPLKnpxW4GGha1
     created_at: !ruby/object:DateTime 2020-11-03 07:28:33.430000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-04 10:13:18.377000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 16:39:23.812000000 Z
     content_type_id: event
-    revision: 2
+    revision: 6
     space:
       sys:
         id: g118h5yoccvd
@@ -2574,7 +2574,15 @@ event:
     - *Nairobi* 11:00am
     - *Mogadishu* 11:00am
     - *Dar es Salaam* 11:00am
-  status: Upcoming
+  status: Past
+  images:
+  - sys:
+      id: 2O80ER32L22S8aFaV3jkOa
+      created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
+    title: meedan check-global-micro-grants
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
   location_human_friendly: Online on Zoom
   description: This is the closing event for six grassroot African organizations from
     Guinea, Kenya, Nigeria, Somalia, Tanzania and Zambia, which received funding to
@@ -2605,12 +2613,13 @@ event:
   non_public: true
   event_date_string: '2020-11-17'
   event_end_date_string: '2020-11-17'
+  image: https://images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png
 - sys:
     id: 6X3Flh8pYxjuyZkkm7Sedn
     created_at: !ruby/object:DateTime 2020-11-03 07:47:56.812000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-05 11:21:14.680000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-17 07:46:30.195000000 Z
     content_type_id: event
-    revision: 4
+    revision: 5
     space:
       sys:
         id: g118h5yoccvd
@@ -2624,7 +2633,8 @@ event:
         type: Link
         linkType: Environment
     locale: en-US
-  title: Check Global COVID-19 Microgrant Closing Ceremony - Asia-Pacific
+  title: Check Global COVID-19 Microgrant Closing Ceremony and Networking Event -
+    Asia-Pacific
   event_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
   event_end_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
   time: |-
@@ -2807,9 +2817,9 @@ event:
 - sys:
     id: 3fGBeLe0aWtOMrdYHvYAti
     created_at: !ruby/object:DateTime 2020-11-11 16:11:29.617000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 20:13:19.954000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-16 10:38:42.690000000 Z
     content_type_id: event
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -2827,20 +2837,8 @@ event:
     the Blast'
   event_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
   event_end_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-  time: |-
-    - *Mexico City*: 10:00am UTC-6
-
-    - *London*: 4:00pm UTC+0
-
-    - *Amsterdam*: 5:00pm UTC+1
-
-    - *Kampala*: 7:00pm UTC+3
-
-    - *Delhi*: 9:30pm UTC+5:30
-
-    - *Jakarta*: 11:00pm UTC+7
-
-    - *Taipei*: 00:0am UTC+8 (November 21, 2020)
+  time: "- *San Francisco* 8am\n- *New York* 11am\n- *São Paolo* 12pm\n- *London*
+    4pm \n- *Nairobi* 7pm\n- *Delhi* 9:30pm\n- *Manila* 11pm\n"
   status: Upcoming
   images:
   - sys:
