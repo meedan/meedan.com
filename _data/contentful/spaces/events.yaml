@@ -2548,9 +2548,9 @@ event:
 - sys:
     id: 3RizYpDobPLKnpxW4GGha1
     created_at: !ruby/object:DateTime 2020-11-03 07:28:33.430000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-17 12:13:20.264000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 16:39:23.812000000 Z
     content_type_id: event
-    revision: 4
+    revision: 6
     space:
       sys:
         id: g118h5yoccvd
@@ -2575,6 +2575,14 @@ event:
     - *Mogadishu* 11:00am
     - *Dar es Salaam* 11:00am
   status: Past
+  images:
+  - sys:
+      id: 2O80ER32L22S8aFaV3jkOa
+      created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
+    title: meedan check-global-micro-grants
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
   location_human_friendly: Online on Zoom
   description: This is the closing event for six grassroot African organizations from
     Guinea, Kenya, Nigeria, Somalia, Tanzania and Zambia, which received funding to
@@ -2605,6 +2613,7 @@ event:
   non_public: true
   event_date_string: '2020-11-17'
   event_end_date_string: '2020-11-17'
+  image: https://images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png
 - sys:
     id: 6X3Flh8pYxjuyZkkm7Sedn
     created_at: !ruby/object:DateTime 2020-11-03 07:47:56.812000000 Z

@@ -3,9 +3,9 @@ report:
 - sys:
     id: 1vw9SWrQcyEyWtga37JUw6
     created_at: !ruby/object:DateTime 2020-06-15 20:05:48.745000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 22:19:47.551000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.596000000 Z
     content_type_id: report
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -560,9 +560,9 @@ report:
 - sys:
     id: 3FjVXrJAIvjk2zHMcvRxtq
     created_at: !ruby/object:DateTime 2020-06-17 23:32:00.982000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 01:14:07.229000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.222000000 Z
     content_type_id: report
-    revision: 4
+    revision: 5
     space:
       sys:
         id: g118h5yoccvd
@@ -962,9 +962,9 @@ report:
 - sys:
     id: 4hNlM6eXCZG6w43fIoHUPY
     created_at: !ruby/object:DateTime 2020-07-07 21:18:34.780000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 22:24:02.329000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.194000000 Z
     content_type_id: report
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -1408,9 +1408,9 @@ report:
 - sys:
     id: 2sKzBmA7npYvPuvjnkYitv
     created_at: !ruby/object:DateTime 2020-07-22 23:21:35.597000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 22:20:02.572000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.209000000 Z
     content_type_id: report
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -1751,9 +1751,9 @@ report:
 - sys:
     id: 4exEvSWgwUB4VuB5ECE5zV
     created_at: !ruby/object:DateTime 2020-08-11 20:01:15.624000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 22:24:14.693000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.220000000 Z
     content_type_id: report
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -2021,9 +2021,9 @@ report:
 - sys:
     id: 7MQ5rF8CI1JCFyhvvfezeK
     created_at: !ruby/object:DateTime 2020-08-13 02:16:29.415000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 01:04:11.043000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.184000000 Z
     content_type_id: report
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -2253,9 +2253,9 @@ report:
 - sys:
     id: 6ZJdYXyGDsYe5mgSIzXsoP
     created_at: !ruby/object:DateTime 2020-09-21 22:38:49.519000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-12 01:04:34.147000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.249000000 Z
     content_type_id: report
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -2429,7 +2429,7 @@ report:
 - sys:
     id: odqEjZ4nMa3Juk671k8wP
     created_at: !ruby/object:DateTime 2020-11-09 16:37:00.535000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-15 19:42:02.268000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-17 20:15:15.493000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -2459,10 +2459,10 @@ report:
     sys:
       id: 2KuL0ZHoxLnatKNzrugbpD
       created_at: !ruby/object:DateTime 2020-11-09 17:02:32.502000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 17:03:08.615000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-17 20:00:37.092000000 Z
     title: 'Content Moderation & Vulnerable Populations: LGBTQ Communities'
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/6641e90380faed6b03d1d065d4bf1811/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/730a179c111581e4a85ddc59443eb109/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png"
   introduction: Content moderation and platform policy adversely affect marginalized
     groups of people on social media. For example, members of the LGBTQ community
     face challenges such as risks to privacy and personal safety depending on how
@@ -2760,77 +2760,97 @@ report:
     2*(CSCW), 155.\n\n- Seering, J., Wang, T., Yoon, J., & Kaufman, G. (2019). Moderator
     engagement and community development in the age of algorithms.* New Media & Society*,
     1461444818821316.\n"
+  alt_date: !ruby/object:DateTime 2020-11-17 00:00:00.000000000 Z
   author:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
       content_type_id: contributor
-      revision: 2
+      revision: 3
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
-    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
+    bio: |-
+      Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+      Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
       created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-15 18:23:29.852000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
       content_type_id: publication
-      revision: 0
-    title: Content Moderation Project
-    short_title: Content Moderation Project
-    kicker: Report
+      revision: 2
+    title: Content Moderation Toolkit
+    short_title: Content Moderation Toolkit
     description: Content moderation is a process, not a solution in and of itself.
       With the increasing complexity of content on the internet and norms around governance,
       new standards are needed to help bridge the gap between industry and those seeking
-      to engage with industry. Meedan presents this work toward a common vocabulary
-      and methodology for content moderation as a toolkit for civil society and platforms
-      alike grappling with these issues.
-    slug: content-moderation-project
+      to engage with industry. With support from the Swedish International Development
+      Agency and the Facebook Journalism Project, Meedan presents this work toward
+      a common vocabulary and methodology for content moderation as a toolkit for
+      civil society and platforms alike grappling with these issues.
+    slug: content-moderation-toolkit
     sections:
     - sys:
         id: 2ldDGlFH61yvNc2x9DF2ex
+    author:
+    - sys:
+        id: 55lvpa6OODrYw65JImLBDO
+        created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
+        content_type_id: contributor
+        revision: 3
+      name: Kat Lo
+      staff: true
+      role: Product Strategy Researcher<br>Content Moderation Lead
+      location: Los Angeles
+      bio: |-
+        Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+        Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
+    additional_attribution: Lead, Meedan Content Moderation Project
     cover_image:
       sys:
         id: 6VYAFLYRLJnOVMBZSy1KD2
         created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:16.581000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/bf0c6c3e8effe6a40138814cfc841fee/content-moderation-project_cover-image.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/4e40e178f196d8b024f0964ac95051e9/content-moderation-toolkit_cover-image.png"
     publication_promo_graphic:
       sys:
         id: 1DzzJ94lvtgdJnCaYLRegg
         created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:54.620000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/dded5838f70632c0f58d4a4978d3efe8/content-moderation-project_publication-promo-graphic.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
     social_card_image:
       sys:
-        id: 3vyuq1it0LYHCcb83GuwGf
-        created_at: !ruby/object:DateTime 2020-11-09 16:26:21.065000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:26:51.972000000 Z
-      title: Content Moderation Project
+        id: 2biBznblY8VQEDW3NaheSe
+        created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3vyuq1it0LYHCcb83GuwGf/45abcf0966a9670025f431f60a2267f2/content-moderation-prohect_social-card-image.png"
-    publication_promo: This report is part of the [Content Moderation Project](https://meedan-dev.netlify.app/reports/content-moderation-project/)
+      url: "//images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg"
+    publication_promo: This report is part of the [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)
     color:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:10:11.879000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
         content_type_id: color
-        revision: 0
+        revision: 1
       name: Magenta
       value: "#ff4d7e"
       thumbnail:
         sys:
           id: ewZMwgt0xilyUB6umRuQs
           created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
-          updated_at: !ruby/object:DateTime 2020-11-09 16:09:34.195000000 Z
+          updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
         title: Magenta
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
@@ -2852,13 +2872,13 @@ report:
       title: Coral
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/1WuMP07zX7YYge7hfueHxK/da948838120c932d430a071427a7aa2b/coral-01.png"
-  image: https://images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/6641e90380faed6b03d1d065d4bf1811/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png
+  image: https://images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/730a179c111581e4a85ddc59443eb109/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png
 - sys:
     id: 4u68N8i5XJdHR1idRXTjOu
     created_at: !ruby/object:DateTime 2020-11-09 20:26:26.449000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 13:23:02.720000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:23:38.947000000 Z
     content_type_id: report
-    revision: 0
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -2878,18 +2898,18 @@ report:
     sys:
       id: JypirkuzlbP67jl1FB2Sg
       created_at: !ruby/object:DateTime 2020-11-09 21:29:20.057000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 21:29:40.033000000 Z
-    title: 'Content Moderation project: Executive Summary'
+      updated_at: !ruby/object:DateTime 2020-11-18 20:05:11.475000000 Z
+    title: 'Content Moderation Toolkit: Executive Summary'
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/JypirkuzlbP67jl1FB2Sg/b52119c921868e1a70dd135326f3d017/content-moderation-project_executive-summary_lead-image.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/JypirkuzlbP67jl1FB2Sg/d08503deaaef1e5e56129ef61eb56e04/content-moderation-toolkit_executive-summary_lead-image.png"
   social_card_image:
     sys:
-      id: 3fL3lWxf94GUPPrcSmJga7
-      created_at: !ruby/object:DateTime 2020-11-09 21:26:45.673000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 21:27:38.069000000 Z
-    title: 'Content Moderation project: Executive Summary'
+      id: 6VbhMR40LZhGSOE0WQaOku
+      created_at: !ruby/object:DateTime 2020-11-18 20:44:57.695000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:45:33.737000000 Z
+    title: Executive Summary
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/3fL3lWxf94GUPPrcSmJga7/f28cc5d945e6c95d7c356c39b3e2f928/Content_Moderation_project_Graphics-03.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/6VbhMR40LZhGSOE0WQaOku/3ee9430c9d51655b7dbee9fdc12161e4/Content-moderation-toolkit_executive-summary_social-card.png"
   introduction: 'In the current digital media ecosystem, content moderation has become
     central to conversations about managing violations of human rights on and through
     technology platforms. Solutions for effective and equitable content moderation
@@ -2911,43 +2931,40 @@ report:
     meet these objectives, we have developed four documents that contribute to improved
     research and practice at the intersection of product development, resource development,
     content moderation, and hate speech. \n\n### 1. A report covering our requirements
-    gathering research on the [state of content moderation issues](https://meedan-dev.netlify.app/reports/working-group-and-literature-review-report/
-    \"Working Group and Literature Review Report\") identified by different affected
-    stakeholders. \n\nThis research paid particular attention to the needs of industry
-    as they intersect with those of other stakeholder groups, with an eye toward facilitating
-    more productive and impactful conversations between industry, external organizations,
-    and advocates raising issues and questions around content moderation practices
-    and policies.\n\nFindings from this research demonstrated an absence of baseline
-    expertise in content moderation (and its externalities) as a domain, inconsistent
-    vocabulary within and between sectors, ill-defined benchmarks for accountability,
-    and instability in the maintenance of working relationships across industry, civil
-    society, regulatory bodies, and academia.\n\nAs a result, we emphasize the importance
-    of the Content Moderation Project serving as a bridge amongst industry, academia,
-    and civil society, connecting policy decisions and conversations with practical
-    experience from industry, building data collection and case study opportunities
-    to inform practical applications of content moderation approaches that are standardized
-    and scalable, but allow for contextualization across languages and regions. \n\nThis
-    research enabled us to successfully implement an applied research initiative in
-    Nairobi, Kenya, focused on the tools and processes needed to address content moderation
-    challenges in multi-language and unique digital media ecosystems. \n\n### 2. A
-    review of literature on topic-specific content moderation issues, summarizing
-    important insights from the academic research field for industry stakeholders.
-    Our findings are focused on two key thematic areas: \n\n**[Hate Speech and Machine
-    Learning](https://meedan-dev.netlify.app/reports/hate-speech-and-machine-learning-a-review-of-the-literature/
-    \"Hate Speech and Machine Learning\")**\nIn this section, we focus on the importance
+    gathering research on the state of content moderation issues identified by different
+    affected stakeholders. \n\nThis research paid particular attention to the needs
+    of industry as they intersect with those of other stakeholder groups, with an
+    eye toward facilitating more productive and impactful conversations between industry,
+    external organizations, and advocates raising issues and questions around content
+    moderation practices and policies.\n\nFindings from this research demonstrated
+    an absence of baseline expertise in content moderation (and its externalities)
+    as a domain, inconsistent vocabulary within and between sectors, ill-defined benchmarks
+    for accountability, and instability in the maintenance of working relationships
+    across industry, civil society, regulatory bodies, and academia.\n\nAs a result,
+    we emphasize the importance of the Content Moderation Toolkit serving as a bridge
+    amongst industry, academia, and civil society, connecting policy decisions and
+    conversations with practical experience from industry, building data collection
+    and case study opportunities to inform practical applications of content moderation
+    approaches that are standardized and scalable, but allow for contextualization
+    across languages and regions. \n\nThis research enabled us to successfully implement
+    an applied research initiative in Nairobi, Kenya, focused on the tools and processes
+    needed to address content moderation challenges in multi-language and unique digital
+    media ecosystems. \n\n### 2. A review of literature on topic-specific content
+    moderation issues, summarizing important insights from the academic research field
+    for industry stakeholders. Our findings are focused on two key thematic areas:
+    \n\n**Hate Speech and Machine Learning**\nIn this section, we focus on the importance
     of and challenges associated with different definitions of hate speech, identify
     technical issues in the automated identification of hate speech, and examine the
     experience of hate speech moderation in practice. In each part, we summarize the
     challenges faced by platforms, academics, NGOs, and users in addressing hate speech,
-    and propose opportunities to deepen cooperation.\n\n**[Content Moderation & Vulnerable
-    Populations: LGBTQ Communities](https://meedan-dev.netlify.app/reports/content-moderation-and-vulnerable-populations-lgbtq-communities/)**\nWe
-    first examine the tension between the need for privacy and the need to connect
-    with community online for LBGTQ people, and follow this with a discussion about
-    the underlying anxieties and safety concerns that drive user wants and needs before
-    turning to explore proposed design solutions. We explore this through three short
-    example cases—Pride Month & Twitch, Streamers & Community Safety, and Fandom &
-    Community Regulation—that serve to illustrate various points.\n\n### 3. [A content
-    moderation toolkit for civil society](https://meedan-dev.netlify.app/reports/toolkit-for-civil-society-and-moderation-inventory/
+    and propose opportunities to deepen cooperation.\n\n**Content Moderation & Vulnerable
+    Populations: LGBTQ Communities**\nWe first examine the tension between the need
+    for privacy and the need to connect with community online for LBGTQ people, and
+    follow this with a discussion about the underlying anxieties and safety concerns
+    that drive user wants and needs before turning to explore proposed design solutions.
+    We explore this through three short example cases—Pride Month & Twitch, Streamers
+    & Community Safety, and Fandom & Community Regulation—that serve to illustrate
+    various points.\n\n### 3. [A content moderation toolkit for civil society](https://meedan.com/reports/toolkit-for-civil-society-and-moderation-inventory/
     \"A content moderation toolkit for civil society\") that articulates a common
     vocabulary for stakeholders in civil society, academia, and policy to have meaningful,
     practical conversations with industry, through the development of a methodology
@@ -2972,49 +2989,48 @@ report:
     at the intersection of a balance between harms to individuals and harms to society
     overall, with no easy solutions. Our intent is for the vocabulary that emerges
     from this report to enable more robust discussions around the trade-offs inherent
-    in these topics.\n\n### 4. [A case study from the Kenyan Election and Census](https://meedan-dev.netlify.app/reports/a-case-study-from-the-kenyan-election-and-census/
-    \"A case study from the Kenyan Election and Census\") along with a draft set of
-    indicators. \n\nIn August of 2019, the Meedan team, in collaboration with Article19
-    and the National Democratic Institute, held a coworking pop-up in Nairobi on the
-    topics of hate speech, content moderation and disinformation, focused on collaboration
-    and skill-sharing, with specific case examples through Kenya’s 2019 Population
-    and Housing Census. The goal of this coworking space pop-up was to create a shared
-    gathering area where CSOs could share ideas and collaborate, gain and share skills,
-    and explore together how tools and resources can best support organizational work
-    in addressing disinformation challenges during key large-scale events, including
-    the Census, and through the implementation of the new digital identification system,
-    Huduma Namba. \n\nDuring this event, participating Civil Society Organizations
-    (CSOs) political activists and human rights groups used the space to conduct their
-    work as usual, with opportunities to attend workshop sessions and presentations
-    surrounding hate speech modalities in the Kenyan context, how memes intersected
-    with hate speech through the 2019 Census, an efforts of various platforms to address
-    and mitigate the impacts of harassment and hate speech online in the Kenyan digital
-    media ecosystem. Kenyan thought leaders and organizations presented on their own
-    work, including fact-checking organizations Pesa Check, Defy Hate Now and AfricaCheck,
-    and conducted training workshops on applying Meedan’s Check tool for building
-    standardized annotation efforts to address hate speech and harassment online.
-    \n\nWe generated our initial insights from two pre-workshop surveys, participatory
-    design activities, workshop outputs and informal semi-structured interviews conducted
-    over the course of the week.\n\n## Key findings\n\n- **1. Social media global
-    standards for content moderation do not represent how hate speech, misinformation,
-    and disinformation manifest in the Kenyan context.**\nSocial media posts that
-    had been reported and remained visible on social media platforms were reviewed
-    by workshop participants; they identified many of these posts as false propaganda,
-    overt hate speech, harassment, and incitement of violence. We developed a set
-    of indicators (e.g., Incitement to violence) that mapped to a subset of global
-    standards for social media content moderation policies. We translated these indicators
-    into questions (e.g., Does the post use a call to action?) to annotate social
-    media posts. Participants struggled to annotate content that expressed ethnic
-    hate, violent misogyny, and anti-LGBTQI sentiment through contemporary cultural
-    or political references on social media; some additionally noted a limited ability
-    to articulate what the gaps in the indicators were. \n\n- **2. Standard definitions
-    and precise cues to identify hate speech and disinformation are a critical step
-    for enabling interoperability between CSO initiatives.**\nCivil society stakeholders
-    in our workshops used different cues to determine whether an article or social
-    media post contained hate speech, harassment, and disinformation. Throughout the
-    workshops, participants collaboratively reconciled different Kenyan perspectives
-    to work towards functional common definitions and regional cues that are able
-    to represent diverse cultures within Kenya. Through the process of developing
+    in these topics.\n\n### 4. A case study from the Kenyan Election and Census along
+    with a draft set of indicators. \n\nIn August of 2019, the Meedan team, in collaboration
+    with Article19 and the National Democratic Institute, held a coworking pop-up
+    in Nairobi on the topics of hate speech, content moderation and disinformation,
+    focused on collaboration and skill-sharing, with specific case examples through
+    Kenya’s 2019 Population and Housing Census. The goal of this coworking space pop-up
+    was to create a shared gathering area where CSOs could share ideas and collaborate,
+    gain and share skills, and explore together how tools and resources can best support
+    organizational work in addressing disinformation challenges during key large-scale
+    events, including the Census, and through the implementation of the new digital
+    identification system, Huduma Namba. \n\nDuring this event, participating Civil
+    Society Organizations (CSOs) political activists and human rights groups used
+    the space to conduct their work as usual, with opportunities to attend workshop
+    sessions and presentations surrounding hate speech modalities in the Kenyan context,
+    how memes intersected with hate speech through the 2019 Census, an efforts of
+    various platforms to address and mitigate the impacts of harassment and hate speech
+    online in the Kenyan digital media ecosystem. Kenyan thought leaders and organizations
+    presented on their own work, including fact-checking organizations Pesa Check,
+    Defy Hate Now and AfricaCheck, and conducted training workshops on applying Meedan’s
+    Check tool for building standardized annotation efforts to address hate speech
+    and harassment online. \n\nWe generated our initial insights from two pre-workshop
+    surveys, participatory design activities, workshop outputs and informal semi-structured
+    interviews conducted over the course of the week.\n\n## Key findings\n\n- **1.
+    Social media global standards for content moderation do not represent how hate
+    speech, misinformation, and disinformation manifest in the Kenyan context.**\nSocial
+    media posts that had been reported and remained visible on social media platforms
+    were reviewed by workshop participants; they identified many of these posts as
+    false propaganda, overt hate speech, harassment, and incitement of violence. We
+    developed a set of indicators (e.g., Incitement to violence) that mapped to a
+    subset of global standards for social media content moderation policies. We translated
+    these indicators into questions (e.g., Does the post use a call to action?) to
+    annotate social media posts. Participants struggled to annotate content that expressed
+    ethnic hate, violent misogyny, and anti-LGBTQI sentiment through contemporary
+    cultural or political references on social media; some additionally noted a limited
+    ability to articulate what the gaps in the indicators were. \n\n- **2. Standard
+    definitions and precise cues to identify hate speech and disinformation are a
+    critical step for enabling interoperability between CSO initiatives.**\nCivil
+    society stakeholders in our workshops used different cues to determine whether
+    an article or social media post contained hate speech, harassment, and disinformation.
+    Throughout the workshops, participants collaboratively reconciled different Kenyan
+    perspectives to work towards functional common definitions and regional cues that
+    are able to represent diverse cultures within Kenya. Through the process of developing
     these definitions and cues, participants identified types of instances where social
     media global standards for content moderation fail in the Kenyan context, and
     organized around systematically investigating and documenting these gaps. \n\n-
@@ -3028,78 +3044,97 @@ report:
     Kenya, but extensive knowledge on the ways marginalized and vulnerable populations
     were disproportionately affected by hate speech, misinformation, and disinformation
     online and offline. \n"
-  alt_date: !ruby/object:DateTime 2020-11-09 00:00:00.000000000 Z
+  alt_date: !ruby/object:DateTime 2020-11-18 00:00:00.000000000 Z
   author:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
       content_type_id: contributor
-      revision: 2
+      revision: 3
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
-    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
+    bio: |-
+      Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+      Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
       created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-15 18:23:29.852000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
       content_type_id: publication
-      revision: 0
-    title: Content Moderation Project
-    short_title: Content Moderation Project
-    kicker: Report
+      revision: 2
+    title: Content Moderation Toolkit
+    short_title: Content Moderation Toolkit
     description: Content moderation is a process, not a solution in and of itself.
       With the increasing complexity of content on the internet and norms around governance,
       new standards are needed to help bridge the gap between industry and those seeking
-      to engage with industry. Meedan presents this work toward a common vocabulary
-      and methodology for content moderation as a toolkit for civil society and platforms
-      alike grappling with these issues.
-    slug: content-moderation-project
+      to engage with industry. With support from the Swedish International Development
+      Agency and the Facebook Journalism Project, Meedan presents this work toward
+      a common vocabulary and methodology for content moderation as a toolkit for
+      civil society and platforms alike grappling with these issues.
+    slug: content-moderation-toolkit
     sections:
     - sys:
         id: 2ldDGlFH61yvNc2x9DF2ex
+    author:
+    - sys:
+        id: 55lvpa6OODrYw65JImLBDO
+        created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
+        content_type_id: contributor
+        revision: 3
+      name: Kat Lo
+      staff: true
+      role: Product Strategy Researcher<br>Content Moderation Lead
+      location: Los Angeles
+      bio: |-
+        Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+        Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
+    additional_attribution: Lead, Meedan Content Moderation Project
     cover_image:
       sys:
         id: 6VYAFLYRLJnOVMBZSy1KD2
         created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:16.581000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/bf0c6c3e8effe6a40138814cfc841fee/content-moderation-project_cover-image.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/4e40e178f196d8b024f0964ac95051e9/content-moderation-toolkit_cover-image.png"
     publication_promo_graphic:
       sys:
         id: 1DzzJ94lvtgdJnCaYLRegg
         created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:54.620000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/dded5838f70632c0f58d4a4978d3efe8/content-moderation-project_publication-promo-graphic.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
     social_card_image:
       sys:
-        id: 3vyuq1it0LYHCcb83GuwGf
-        created_at: !ruby/object:DateTime 2020-11-09 16:26:21.065000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:26:51.972000000 Z
-      title: Content Moderation Project
+        id: 2biBznblY8VQEDW3NaheSe
+        created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3vyuq1it0LYHCcb83GuwGf/45abcf0966a9670025f431f60a2267f2/content-moderation-prohect_social-card-image.png"
-    publication_promo: This report is part of the [Content Moderation Project](https://meedan-dev.netlify.app/reports/content-moderation-project/)
+      url: "//images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg"
+    publication_promo: This report is part of the [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)
     color:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:10:11.879000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
         content_type_id: color
-        revision: 0
+        revision: 1
       name: Magenta
       value: "#ff4d7e"
       thumbnail:
         sys:
           id: ewZMwgt0xilyUB6umRuQs
           created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
-          updated_at: !ruby/object:DateTime 2020-11-09 16:09:34.195000000 Z
+          updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
         title: Magenta
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
@@ -3108,25 +3143,25 @@ report:
     sys:
       id: sw3ntNjhkQRzLXqLpNM2m
       created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 16:10:11.879000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
       content_type_id: color
-      revision: 0
+      revision: 1
     name: Magenta
     value: "#ff4d7e"
     thumbnail:
       sys:
         id: ewZMwgt0xilyUB6umRuQs
         created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:09:34.195000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
       title: Magenta
       description: "#ff4d7e"
       url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
     text: "#262626"
-  image: https://images.ctfassets.net/g118h5yoccvd/3fL3lWxf94GUPPrcSmJga7/f28cc5d945e6c95d7c356c39b3e2f928/Content_Moderation_project_Graphics-03.png
+  image: https://images.ctfassets.net/g118h5yoccvd/6VbhMR40LZhGSOE0WQaOku/3ee9430c9d51655b7dbee9fdc12161e4/Content-moderation-toolkit_executive-summary_social-card.png
 - sys:
     id: 5ZXTHAj2Ovrzx3PfcuiEtF
     created_at: !ruby/object:DateTime 2020-11-09 21:56:38.417000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 14:01:03.492000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-17 20:14:17.461000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3148,18 +3183,18 @@ report:
     sys:
       id: 1h296Opl5S4e3LWCjCp3Lj
       created_at: !ruby/object:DateTime 2020-11-09 22:00:54.302000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 22:01:03.878000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-17 19:50:58.209000000 Z
     title: Working Group and Literature Review Report
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/1h296Opl5S4e3LWCjCp3Lj/90423a4df38cd71807ee4300996f65db/content-moderation-project_working-group-and-literature-review-report_lead-image.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/1h296Opl5S4e3LWCjCp3Lj/7e6b3c07020142f842ed1538a1e93a9b/content-moderation-toolkit_working-group-and-literature-review-report_lead-image.png"
   social_card_image:
     sys:
-      id: 2luEbAjp3A5AGPfyLaMUMk
-      created_at: !ruby/object:DateTime 2020-11-09 21:58:12.422000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 22:00:05.361000000 Z
+      id: 4EFqJXtvJSMQkzMcVINrNN
+      created_at: !ruby/object:DateTime 2020-11-17 19:49:02.503000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-17 19:50:26.853000000 Z
     title: Working Group and Literature Review Report
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/2luEbAjp3A5AGPfyLaMUMk/6cdab82b9cb05e61ac5ac12aa56c9b53/content-moderation-project_working-group-and-literature-review-report_social-card.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/4EFqJXtvJSMQkzMcVINrNN/835d8659984c28b6097a54512536b8cf/content-moderation-toolkit_working-group-and-literature-review-report_social-card.png"
   introduction: Advancements in content moderation on any platform strengthens the
     safety and wellbeing of people across the current ecosystem of platforms and beyond.
     We see an urgent need to develop consensus and shared collective knowledge among
@@ -3409,77 +3444,97 @@ report:
     turning to explore proposed design solutions. Interwoven are three short example
     cases—Pride Month & Twitch, Streamers & Community Safety, and Fandom & Community
     Regulation—that serve to illustrate various points.\n"
+  alt_date: !ruby/object:DateTime 2020-11-17 00:00:00.000000000 Z
   author:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
       content_type_id: contributor
-      revision: 2
+      revision: 3
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
-    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
+    bio: |-
+      Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+      Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
       created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-15 18:23:29.852000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
       content_type_id: publication
-      revision: 0
-    title: Content Moderation Project
-    short_title: Content Moderation Project
-    kicker: Report
+      revision: 2
+    title: Content Moderation Toolkit
+    short_title: Content Moderation Toolkit
     description: Content moderation is a process, not a solution in and of itself.
       With the increasing complexity of content on the internet and norms around governance,
       new standards are needed to help bridge the gap between industry and those seeking
-      to engage with industry. Meedan presents this work toward a common vocabulary
-      and methodology for content moderation as a toolkit for civil society and platforms
-      alike grappling with these issues.
-    slug: content-moderation-project
+      to engage with industry. With support from the Swedish International Development
+      Agency and the Facebook Journalism Project, Meedan presents this work toward
+      a common vocabulary and methodology for content moderation as a toolkit for
+      civil society and platforms alike grappling with these issues.
+    slug: content-moderation-toolkit
     sections:
     - sys:
         id: 2ldDGlFH61yvNc2x9DF2ex
+    author:
+    - sys:
+        id: 55lvpa6OODrYw65JImLBDO
+        created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
+        content_type_id: contributor
+        revision: 3
+      name: Kat Lo
+      staff: true
+      role: Product Strategy Researcher<br>Content Moderation Lead
+      location: Los Angeles
+      bio: |-
+        Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+        Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
+    additional_attribution: Lead, Meedan Content Moderation Project
     cover_image:
       sys:
         id: 6VYAFLYRLJnOVMBZSy1KD2
         created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:16.581000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/bf0c6c3e8effe6a40138814cfc841fee/content-moderation-project_cover-image.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/4e40e178f196d8b024f0964ac95051e9/content-moderation-toolkit_cover-image.png"
     publication_promo_graphic:
       sys:
         id: 1DzzJ94lvtgdJnCaYLRegg
         created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:54.620000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/dded5838f70632c0f58d4a4978d3efe8/content-moderation-project_publication-promo-graphic.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
     social_card_image:
       sys:
-        id: 3vyuq1it0LYHCcb83GuwGf
-        created_at: !ruby/object:DateTime 2020-11-09 16:26:21.065000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:26:51.972000000 Z
-      title: Content Moderation Project
+        id: 2biBznblY8VQEDW3NaheSe
+        created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3vyuq1it0LYHCcb83GuwGf/45abcf0966a9670025f431f60a2267f2/content-moderation-prohect_social-card-image.png"
-    publication_promo: This report is part of the [Content Moderation Project](https://meedan-dev.netlify.app/reports/content-moderation-project/)
+      url: "//images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg"
+    publication_promo: This report is part of the [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)
     color:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:10:11.879000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
         content_type_id: color
-        revision: 0
+        revision: 1
       name: Magenta
       value: "#ff4d7e"
       thumbnail:
         sys:
           id: ewZMwgt0xilyUB6umRuQs
           created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
-          updated_at: !ruby/object:DateTime 2020-11-09 16:09:34.195000000 Z
+          updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
         title: Magenta
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
@@ -3501,11 +3556,11 @@ report:
       title: Texas Rose
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/4lcFjuaSsFT8K6Pq2qm3pb/d40d402f26f23af61ed9c46de7745e5d/texas_rose-01.png"
-  image: https://images.ctfassets.net/g118h5yoccvd/2luEbAjp3A5AGPfyLaMUMk/6cdab82b9cb05e61ac5ac12aa56c9b53/content-moderation-project_working-group-and-literature-review-report_social-card.png
+  image: https://images.ctfassets.net/g118h5yoccvd/4EFqJXtvJSMQkzMcVINrNN/835d8659984c28b6097a54512536b8cf/content-moderation-toolkit_working-group-and-literature-review-report_social-card.png
 - sys:
     id: 6B6HKhC8nkzrzqV2UKI34
     created_at: !ruby/object:DateTime 2020-11-10 10:57:47.836000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-15 20:28:15.263000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-17 20:14:35.427000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3527,18 +3582,18 @@ report:
     sys:
       id: 36RVlpSAcCIiLehrfeBCwW
       created_at: !ruby/object:DateTime 2020-11-10 11:02:47.401000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 11:03:17.489000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-17 19:55:44.685000000 Z
     title: 'Hate Speech and Machine Learning: A Review of the Literature'
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/36RVlpSAcCIiLehrfeBCwW/9561d231f0ba770a97d32360b64b2eb8/content-moderation-project_hate-speech_lead-image.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/36RVlpSAcCIiLehrfeBCwW/062f1e76ccd9ce7ea3e71fdad5fd3840/content-moderation-toolkit_hate-speech_lead-image.png"
   social_card_image:
     sys:
       id: 1Ne7vr9DQQebfWXlj69zXL
       created_at: !ruby/object:DateTime 2020-11-10 11:03:25.870000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 11:03:37.881000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-17 19:56:14.429000000 Z
     title: 'Hate Speech and Machine Learning: A Review of the Literature'
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/1Ne7vr9DQQebfWXlj69zXL/142b83d6841aa6f2748eae02f9fa5391/content-moderation-project_hate-speech_social-card.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/1Ne7vr9DQQebfWXlj69zXL/f0704bf859f2a7ae40ba8f645c6759a8/content-moderation-toolkit_hate-speech_social-card.png"
   note: 'Warning: This report contains offensive language.'
   introduction: 'This document tackles three major topics: (1) definitions of hate
     speech, (2) technical issues in the automated identification of hate speech, and
@@ -4289,78 +4344,97 @@ report:
     \"Hateful Symbols or Hateful People? \")” In NAACL, 88–93.\n\n- Wulczyn, Ellery,
     Nithum Thain, and Lucas Dixon. 2016. “[Ex Machina: Personal Attacks Seen at Scale,](http://arxiv.org/abs/1610.08914
     \"Ex Machina: Personal Attacks Seen at Scale\")” 1391–99."
-  alt_date: !ruby/object:DateTime 2020-11-09 00:00:00.000000000 Z
+  alt_date: !ruby/object:DateTime 2020-11-17 00:00:00.000000000 Z
   author:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
       content_type_id: contributor
-      revision: 2
+      revision: 3
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
-    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
+    bio: |-
+      Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+      Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
       created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-15 18:23:29.852000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
       content_type_id: publication
-      revision: 0
-    title: Content Moderation Project
-    short_title: Content Moderation Project
-    kicker: Report
+      revision: 2
+    title: Content Moderation Toolkit
+    short_title: Content Moderation Toolkit
     description: Content moderation is a process, not a solution in and of itself.
       With the increasing complexity of content on the internet and norms around governance,
       new standards are needed to help bridge the gap between industry and those seeking
-      to engage with industry. Meedan presents this work toward a common vocabulary
-      and methodology for content moderation as a toolkit for civil society and platforms
-      alike grappling with these issues.
-    slug: content-moderation-project
+      to engage with industry. With support from the Swedish International Development
+      Agency and the Facebook Journalism Project, Meedan presents this work toward
+      a common vocabulary and methodology for content moderation as a toolkit for
+      civil society and platforms alike grappling with these issues.
+    slug: content-moderation-toolkit
     sections:
     - sys:
         id: 2ldDGlFH61yvNc2x9DF2ex
+    author:
+    - sys:
+        id: 55lvpa6OODrYw65JImLBDO
+        created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
+        content_type_id: contributor
+        revision: 3
+      name: Kat Lo
+      staff: true
+      role: Product Strategy Researcher<br>Content Moderation Lead
+      location: Los Angeles
+      bio: |-
+        Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+        Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
+    additional_attribution: Lead, Meedan Content Moderation Project
     cover_image:
       sys:
         id: 6VYAFLYRLJnOVMBZSy1KD2
         created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:16.581000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/bf0c6c3e8effe6a40138814cfc841fee/content-moderation-project_cover-image.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/4e40e178f196d8b024f0964ac95051e9/content-moderation-toolkit_cover-image.png"
     publication_promo_graphic:
       sys:
         id: 1DzzJ94lvtgdJnCaYLRegg
         created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:54.620000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/dded5838f70632c0f58d4a4978d3efe8/content-moderation-project_publication-promo-graphic.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
     social_card_image:
       sys:
-        id: 3vyuq1it0LYHCcb83GuwGf
-        created_at: !ruby/object:DateTime 2020-11-09 16:26:21.065000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:26:51.972000000 Z
-      title: Content Moderation Project
+        id: 2biBznblY8VQEDW3NaheSe
+        created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3vyuq1it0LYHCcb83GuwGf/45abcf0966a9670025f431f60a2267f2/content-moderation-prohect_social-card-image.png"
-    publication_promo: This report is part of the [Content Moderation Project](https://meedan-dev.netlify.app/reports/content-moderation-project/)
+      url: "//images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg"
+    publication_promo: This report is part of the [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)
     color:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:10:11.879000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
         content_type_id: color
-        revision: 0
+        revision: 1
       name: Magenta
       value: "#ff4d7e"
       thumbnail:
         sys:
           id: ewZMwgt0xilyUB6umRuQs
           created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
-          updated_at: !ruby/object:DateTime 2020-11-09 16:09:34.195000000 Z
+          updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
         title: Magenta
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
@@ -4382,11 +4456,11 @@ report:
       title: Red
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/3pSfK3R13BCVEeAavHEKXU/8c613347f65a00791b5f01b3c29d86ec/red-01.png"
-  image: https://images.ctfassets.net/g118h5yoccvd/1Ne7vr9DQQebfWXlj69zXL/142b83d6841aa6f2748eae02f9fa5391/content-moderation-project_hate-speech_social-card.png
+  image: https://images.ctfassets.net/g118h5yoccvd/1Ne7vr9DQQebfWXlj69zXL/f0704bf859f2a7ae40ba8f645c6759a8/content-moderation-toolkit_hate-speech_social-card.png
 - sys:
     id: 1Q7LLqUAyLZefSMra2NRKZ
     created_at: !ruby/object:DateTime 2020-11-10 14:12:55.148000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-15 20:18:44.776000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-17 20:14:54.109000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -4408,18 +4482,18 @@ report:
     sys:
       id: 1TJgZsRZ4CrVL0tkRl9zRB
       created_at: !ruby/object:DateTime 2020-11-10 14:59:45.221000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 15:00:13.136000000 Z
-    title: 'kenyan election and census '
+      updated_at: !ruby/object:DateTime 2020-11-17 19:57:36.016000000 Z
+    title: A Case Study from the Kenyan Election and Census
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/1TJgZsRZ4CrVL0tkRl9zRB/326daf209292256bbda00b4df15681da/content-moderation-project_kenyan-election-and-census_lead-image.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/1TJgZsRZ4CrVL0tkRl9zRB/be1ba5a9928daaf0cc68ad46ed0669e0/content-moderation-toolkit_kenyan-election-and-census_lead-image.png"
   social_card_image:
     sys:
       id: 3CuWZ27QualPFqW9aInWe4
       created_at: !ruby/object:DateTime 2020-11-10 15:00:17.132000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 15:01:10.092000000 Z
-    title: 'Kenyan Election and Census '
+      updated_at: !ruby/object:DateTime 2020-11-17 19:58:38.060000000 Z
+    title: A Case Study from the Kenyan Election and Census
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/3CuWZ27QualPFqW9aInWe4/c55e1acfe93d8fb4e243fcd868035b63/content-moderation-project_kenyan-election-and-census_social-card.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/3CuWZ27QualPFqW9aInWe4/9fbe19707584bfdbc1882f5127f5c4fe/content-moderation-toolkit_kenyan-election-and-census_social-card.png"
   introduction: Our primary concern here is around hate speech and disinformation
     as they relate to interference with the Kenyan elections and census. This document
     outlines the list of different indicators that will be assessed during the annotation
@@ -4745,78 +4819,97 @@ report:
     There is an [Africa Check article](https://africacheck.org/reports/no-research-backs-widely-shared-statistic-about-gun-ownership-risk-in-south-africa/
     \"Africa Check \") on this claim, which concludes that it is Unproven: “There
     is no recent, reliable data on the topic.”\n\n__Targets:__ N/A\n"
-  alt_date: !ruby/object:DateTime 2020-11-09 00:00:00.000000000 Z
+  alt_date: !ruby/object:DateTime 2020-11-17 00:00:00.000000000 Z
   author:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
       content_type_id: contributor
-      revision: 2
+      revision: 3
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
-    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
+    bio: |-
+      Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+      Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
       created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-15 18:23:29.852000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
       content_type_id: publication
-      revision: 0
-    title: Content Moderation Project
-    short_title: Content Moderation Project
-    kicker: Report
+      revision: 2
+    title: Content Moderation Toolkit
+    short_title: Content Moderation Toolkit
     description: Content moderation is a process, not a solution in and of itself.
       With the increasing complexity of content on the internet and norms around governance,
       new standards are needed to help bridge the gap between industry and those seeking
-      to engage with industry. Meedan presents this work toward a common vocabulary
-      and methodology for content moderation as a toolkit for civil society and platforms
-      alike grappling with these issues.
-    slug: content-moderation-project
+      to engage with industry. With support from the Swedish International Development
+      Agency and the Facebook Journalism Project, Meedan presents this work toward
+      a common vocabulary and methodology for content moderation as a toolkit for
+      civil society and platforms alike grappling with these issues.
+    slug: content-moderation-toolkit
     sections:
     - sys:
         id: 2ldDGlFH61yvNc2x9DF2ex
+    author:
+    - sys:
+        id: 55lvpa6OODrYw65JImLBDO
+        created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
+        content_type_id: contributor
+        revision: 3
+      name: Kat Lo
+      staff: true
+      role: Product Strategy Researcher<br>Content Moderation Lead
+      location: Los Angeles
+      bio: |-
+        Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+        Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
+    additional_attribution: Lead, Meedan Content Moderation Project
     cover_image:
       sys:
         id: 6VYAFLYRLJnOVMBZSy1KD2
         created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:16.581000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/bf0c6c3e8effe6a40138814cfc841fee/content-moderation-project_cover-image.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/4e40e178f196d8b024f0964ac95051e9/content-moderation-toolkit_cover-image.png"
     publication_promo_graphic:
       sys:
         id: 1DzzJ94lvtgdJnCaYLRegg
         created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:54.620000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/dded5838f70632c0f58d4a4978d3efe8/content-moderation-project_publication-promo-graphic.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
     social_card_image:
       sys:
-        id: 3vyuq1it0LYHCcb83GuwGf
-        created_at: !ruby/object:DateTime 2020-11-09 16:26:21.065000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:26:51.972000000 Z
-      title: Content Moderation Project
+        id: 2biBznblY8VQEDW3NaheSe
+        created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3vyuq1it0LYHCcb83GuwGf/45abcf0966a9670025f431f60a2267f2/content-moderation-prohect_social-card-image.png"
-    publication_promo: This report is part of the [Content Moderation Project](https://meedan-dev.netlify.app/reports/content-moderation-project/)
+      url: "//images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg"
+    publication_promo: This report is part of the [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)
     color:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:10:11.879000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
         content_type_id: color
-        revision: 0
+        revision: 1
       name: Magenta
       value: "#ff4d7e"
       thumbnail:
         sys:
           id: ewZMwgt0xilyUB6umRuQs
           created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
-          updated_at: !ruby/object:DateTime 2020-11-09 16:09:34.195000000 Z
+          updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
         title: Magenta
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
@@ -4838,13 +4931,13 @@ report:
       title: Green 30
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/50qfPG44YZUymq2QpfFI0r/e93449394eac79f1271240bac2d91335/green_30-01.png"
-  image: https://images.ctfassets.net/g118h5yoccvd/3CuWZ27QualPFqW9aInWe4/c55e1acfe93d8fb4e243fcd868035b63/content-moderation-project_kenyan-election-and-census_social-card.png
+  image: https://images.ctfassets.net/g118h5yoccvd/3CuWZ27QualPFqW9aInWe4/9fbe19707584bfdbc1882f5127f5c4fe/content-moderation-toolkit_kenyan-election-and-census_social-card.png
 - sys:
     id: 5HPWXq1exdySB1EdnYQvTB
     created_at: !ruby/object:DateTime 2020-11-10 15:03:40.089000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-15 20:14:41.014000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 20:06:15.370000000 Z
     content_type_id: report
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -4864,18 +4957,18 @@ report:
     sys:
       id: 7tI71PoW9pidpHhiGlbrxG
       created_at: !ruby/object:DateTime 2020-11-10 15:08:40.642000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 15:09:14.866000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:18.935000000 Z
     title: Toolkit for Civil Society and Moderation Inventory
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/7tI71PoW9pidpHhiGlbrxG/9039c970d3df76f54c682f7b14249dd1/content-moderation-project_toolkit-for-civil-society-and-moderation-inventory_lead-image.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/7tI71PoW9pidpHhiGlbrxG/be6852a22c1f817fde016e07d731ce9f/content-moderation-toolkit_toolkit-for-civil-society-and-moderation-inventory_lead-image.png"
   social_card_image:
     sys:
       id: 5a5wRF4afli4T8FNKDSNgZ
       created_at: !ruby/object:DateTime 2020-11-10 15:06:49.533000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 15:08:21.660000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:15.060000000 Z
     title: Toolkit for Civil Society and Moderation Inventory
     description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/5a5wRF4afli4T8FNKDSNgZ/3fac8ceed13d3e1a2499568421a47e71/content-moderation-project_toolkit-for-civil-society-and-moderation-inventory_social-card.png"
+    url: "//images.ctfassets.net/g118h5yoccvd/5a5wRF4afli4T8FNKDSNgZ/5e95538384c6c6dd7dbee6fb4fe9c63d/content-moderation-toolkit_toolkit-for-civil-society-and-moderation-inventory_social-card.png"
   introduction: 'Content moderation is a process, not a solution in and of itself.
     With the increasing complexity of content on the internet and norms around governance,
     new standards are needed to help bridge the gap between industry and those seeking
@@ -5306,78 +5399,97 @@ report:
     with bad actors were ranked lower with bad actors determined based on signals
     like account age, others accounts in its network (i.e., followers), and the moderation
     actions that users took against that account.\n"
-  alt_date: !ruby/object:DateTime 2020-11-09 00:00:00.000000000 Z
+  alt_date: !ruby/object:DateTime 2020-11-18 00:00:00.000000000 Z
   author:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 21:20:18.258000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
       content_type_id: contributor
-      revision: 2
+      revision: 3
     name: Kat Lo
     staff: true
     role: Product Strategy Researcher<br>Content Moderation Lead
     location: Los Angeles
-    bio: Product Strategy Researcher<br>Content Moderation Lead at Meedan
+    bio: |-
+      Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+      Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
       created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-15 18:23:29.852000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
       content_type_id: publication
-      revision: 0
-    title: Content Moderation Project
-    short_title: Content Moderation Project
-    kicker: Report
+      revision: 2
+    title: Content Moderation Toolkit
+    short_title: Content Moderation Toolkit
     description: Content moderation is a process, not a solution in and of itself.
       With the increasing complexity of content on the internet and norms around governance,
       new standards are needed to help bridge the gap between industry and those seeking
-      to engage with industry. Meedan presents this work toward a common vocabulary
-      and methodology for content moderation as a toolkit for civil society and platforms
-      alike grappling with these issues.
-    slug: content-moderation-project
+      to engage with industry. With support from the Swedish International Development
+      Agency and the Facebook Journalism Project, Meedan presents this work toward
+      a common vocabulary and methodology for content moderation as a toolkit for
+      civil society and platforms alike grappling with these issues.
+    slug: content-moderation-toolkit
     sections:
     - sys:
         id: 2ldDGlFH61yvNc2x9DF2ex
+    author:
+    - sys:
+        id: 55lvpa6OODrYw65JImLBDO
+        created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
+        content_type_id: contributor
+        revision: 3
+      name: Kat Lo
+      staff: true
+      role: Product Strategy Researcher<br>Content Moderation Lead
+      location: Los Angeles
+      bio: |-
+        Kat Lo serves as Content Moderation Lead and a product researcher at Meedan. Drawing from more than ten years of experience running online communities, Kat works with researchers, industry professionals, and community leaders to develop resources for fostering healthy social environments in games and social media. She has spent the past 5 years working with Intel, Microsoft Research, Instagram, Southern Poverty Law Center, AnyKey, and other organizations to study issues around diversity, inclusion and trust & safety. She has won fellowships from the National Science Foundation, Google, and the UC Berkeley Center for Technology, Society & Policy for her research on diversity and inclusion in technology.
+
+        Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
+    additional_attribution: Lead, Meedan Content Moderation Project
     cover_image:
       sys:
         id: 6VYAFLYRLJnOVMBZSy1KD2
         created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:16.581000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/bf0c6c3e8effe6a40138814cfc841fee/content-moderation-project_cover-image.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/4e40e178f196d8b024f0964ac95051e9/content-moderation-toolkit_cover-image.png"
     publication_promo_graphic:
       sys:
         id: 1DzzJ94lvtgdJnCaYLRegg
         created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:30:54.620000000 Z
-      title: Content Moderation Project
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/dded5838f70632c0f58d4a4978d3efe8/content-moderation-project_publication-promo-graphic.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
     social_card_image:
       sys:
-        id: 3vyuq1it0LYHCcb83GuwGf
-        created_at: !ruby/object:DateTime 2020-11-09 16:26:21.065000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:26:51.972000000 Z
-      title: Content Moderation Project
+        id: 2biBznblY8VQEDW3NaheSe
+        created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
+      title: Content Moderation Toolkit
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3vyuq1it0LYHCcb83GuwGf/45abcf0966a9670025f431f60a2267f2/content-moderation-prohect_social-card-image.png"
-    publication_promo: This report is part of the [Content Moderation Project](https://meedan-dev.netlify.app/reports/content-moderation-project/)
+      url: "//images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg"
+    publication_promo: This report is part of the [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)
     color:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 16:10:11.879000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
         content_type_id: color
-        revision: 0
+        revision: 1
       name: Magenta
       value: "#ff4d7e"
       thumbnail:
         sys:
           id: ewZMwgt0xilyUB6umRuQs
           created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
-          updated_at: !ruby/object:DateTime 2020-11-09 16:09:34.195000000 Z
+          updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
         title: Magenta
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
@@ -5386,17 +5498,17 @@ report:
     sys:
       id: 4Esqafv6LMFgmVypNRiAhZ
       created_at: !ruby/object:DateTime 2020-11-10 15:05:33.283000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 15:05:51.560000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:05:41.107000000 Z
       content_type_id: color
-      revision: 0
+      revision: 1
     name: Pale Blue
     value: "#5f9ee5"
     thumbnail:
       sys:
         id: 5WLCyMDUUBatdR50t5xMEF
         created_at: !ruby/object:DateTime 2020-11-10 15:05:45.916000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-10 17:02:00.995000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:05:36.787000000 Z
       title: Pale Blue
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5WLCyMDUUBatdR50t5xMEF/b0f5e09a365f8a1c2a3663060c974f23/pale_blue-01.png"
-  image: https://images.ctfassets.net/g118h5yoccvd/5a5wRF4afli4T8FNKDSNgZ/3fac8ceed13d3e1a2499568421a47e71/content-moderation-project_toolkit-for-civil-society-and-moderation-inventory_social-card.png
+  image: https://images.ctfassets.net/g118h5yoccvd/5a5wRF4afli4T8FNKDSNgZ/5e95538384c6c6dd7dbee6fb4fe9c63d/content-moderation-toolkit_toolkit-for-civil-society-and-moderation-inventory_social-card.png
