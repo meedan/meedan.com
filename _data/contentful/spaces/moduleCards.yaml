@@ -248,17 +248,17 @@ moduleCards:
 - sys:
     id: 4CWa8UN1MMrhDX1XEoq5XT
     created_at: !ruby/object:DateTime 2020-03-21 00:17:29.632000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-10 22:51:58.270000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 20:34:32.612000000 Z
     content_type_id: moduleCards
-    revision: 1
+    revision: 2
   title: Recent Press
   cards:
   - sys:
       id: 59PDoQADQSN2K8pylUeUlL
       created_at: !ruby/object:DateTime 2020-11-10 22:50:50.365000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 02:31:05.190000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.171000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Meedan's Eric Mugendi discusses the Tanzanian elections on Al Jazeera English
     slug: meedans-eric-mugendi-discusses-the-tanzanian-elections-on-al-jazeera-english
     published_on: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
@@ -276,9 +276,9 @@ moduleCards:
   - sys:
       id: 5ZfJLR0tCqBfrriKyf7TX1
       created_at: !ruby/object:DateTime 2020-11-10 22:49:48.051000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:50:23.162000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.789000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Program Manager Megan Marrelli speaks with journalism.co.uk about our COVID-19
       work
     slug: program-manager-megan-marrelli-speaks-with-journalism-co-uk-about-our-covid
@@ -1169,17 +1169,36 @@ moduleCards:
 - sys:
     id: 3Cutb2MWVxvltk9SkgWy9s
     created_at: !ruby/object:DateTime 2020-11-10 21:53:33.096000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 02:29:28.561000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 20:36:41.045000000 Z
     content_type_id: moduleCards
-    revision: 0
+    revision: 2
   title: Updates
   cards:
   - sys:
+      id: 4QWw0ydoMavm734x9DYlUB
+      created_at: !ruby/object:DateTime 2020-11-18 20:34:48.795000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:36:34.335000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Content Moderation Toolkit
+    slug: content-moderation-toolkit
+    published_on: !ruby/object:DateTime 2020-11-18 00:00:00.000000000 Z
+    image:
+      sys:
+        id: 1DzzJ94lvtgdJnCaYLRegg
+        created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
+    tag: Toolkit
+    link: https://meedan.com/reports/content-moderation-toolkit/
+  - sys:
       id: 59PDoQADQSN2K8pylUeUlL
       created_at: !ruby/object:DateTime 2020-11-10 22:50:50.365000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 02:31:05.190000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.171000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Meedan's Eric Mugendi discusses the Tanzanian elections on Al Jazeera English
     slug: meedans-eric-mugendi-discusses-the-tanzanian-elections-on-al-jazeera-english
     published_on: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
@@ -1197,9 +1216,9 @@ moduleCards:
   - sys:
       id: 2ZUKqAR2HjBVLtZbExS8Ko
       created_at: !ruby/object:DateTime 2020-11-10 22:48:10.902000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:48:54.124000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.500000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Contribute to our open source software and get exclusive swag
     slug: contribute-to-our-open-source-software-and-get-exclusive-swag
     published_on: !ruby/object:DateTime 2020-10-01 00:00:00.000000000 Z
@@ -1216,9 +1235,9 @@ moduleCards:
   - sys:
       id: 1MP1Zt7Nj2f0KwJUWubCOg
       created_at: !ruby/object:DateTime 2020-11-10 22:48:55.689000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:49:28.399000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.526000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: 3 Independent, Innovative & Feminist Newsrooms Champion Access to Information
     slug: 3-independent-innovative-and-feminist-newsrooms-champion-access-to
     published_on: !ruby/object:DateTime 2020-09-28 00:00:00.000000000 Z
@@ -1235,9 +1254,9 @@ moduleCards:
   - sys:
       id: 5ZfJLR0tCqBfrriKyf7TX1
       created_at: !ruby/object:DateTime 2020-11-10 22:49:48.051000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:50:23.162000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.789000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Program Manager Megan Marrelli speaks with journalism.co.uk about our COVID-19
       work
     slug: program-manager-megan-marrelli-speaks-with-journalism-co-uk-about-our-covid
@@ -1256,9 +1275,9 @@ moduleCards:
   - sys:
       id: 5qU1lvb0q9U7eceSikrDG
       created_at: !ruby/object:DateTime 2020-11-10 22:47:09.772000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:57:09.593000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.143000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Director of Engineering Caio Almeida spoke with the Brazilian Free Software
       Association on misinformation. (Portuguese)
     slug: director-of-engineering-caio-almeida-spoke-with-the-brazilian-free-software
@@ -1281,9 +1300,9 @@ moduleCards:
   - sys:
       id: 5NVK2KrfEg0W3HlhCskxPe
       created_at: !ruby/object:DateTime 2020-11-10 22:45:24.078000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:57:01.211000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.124000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Digital Health Lab Director Nat Gyenes spoke at a roundtable hosted by
       the National Academy of Sciences.
     slug: digital-health-lab-director-nat-gyenes-spoke-at-a-roundtable-hosted-by-the
@@ -1303,9 +1322,9 @@ moduleCards:
   - sys:
       id: 6xvCAsTZ223BhRO2Z8fxNi
       created_at: !ruby/object:DateTime 2020-11-10 22:34:17.368000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:57:27.969000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.151000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: 'Book Talk and Webinar: How to Handle a Crowd with author Anika Gupta now
       on Youtube'
     slug: book-talk-and-webinar-how-to-handle-a-crowd-with-author-anika-gupta-now-on
@@ -1325,9 +1344,9 @@ moduleCards:
   - sys:
       id: 28zazVpV4zbvmnzT6mzGQ6
       created_at: !ruby/object:DateTime 2020-11-10 21:55:36.241000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:43:56.147000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.479000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Bolsonaro’s Messaging Sows Misinformation, Confusion Throughout Latin America
     slug: bolsonaros-messaging-sows-misinformation-confusion-throughout-latin-america
     image:
@@ -1345,9 +1364,9 @@ moduleCards:
   - sys:
       id: 4zFeEYwcjOjYIHymz6jKjW
       created_at: !ruby/object:DateTime 2020-11-10 21:55:03.589000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 22:57:18.305000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.161000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: 'Book Talk and Webinar: Keep Calm and Log On with author Gus Andrews now
       on Youtube'
     slug: book-talk-and-webinar-keep-calm-and-log-on-with-author-gus-andrews-now-on
@@ -1365,9 +1384,9 @@ moduleCards:
   - sys:
       id: Fn5s9dOLpHjY43wsBHU6R
       created_at: !ruby/object:DateTime 2020-11-10 21:44:58.741000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 21:52:45.402000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.476000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: How a volcanic eruption frames the pandemic in the Philippines
     slug: how-a-volcanic-eruption-frames-the-pandemic-in-the-philippines
     image:
@@ -1383,9 +1402,9 @@ moduleCards:
   - sys:
       id: 3N4TpYFzKuWWkAVtiTdaAp
       created_at: !ruby/object:DateTime 2020-11-10 21:44:09.888000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 21:44:53.102000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.515000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Churches and the COVID-19 misinfodemic in South Korea
     slug: churches-and-the-covid-19-misinfodemic-in-south-korea
     image:
@@ -1401,9 +1420,9 @@ moduleCards:
   - sys:
       id: KkqilgeHdBUUwR6m68SWA
       created_at: !ruby/object:DateTime 2020-11-10 21:43:11.317000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 21:43:38.012000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 20:34:07.506000000 Z
       content_type_id: moduleCard
-      revision: 0
+      revision: 1
     title: Reporting Barriers During COVID-19 with Maria Ressa
     slug: reporting-barriers-during-covid-19-with-maria-ressa
     image:
