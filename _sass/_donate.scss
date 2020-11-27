@@ -98,6 +98,15 @@
     margin-top: auto;
 }
 
+.annual .donate-options {
+    margin-top: var(--space-2);
+}
+
+.annual h2 span {
+    color: var(--blackInk);
+    background-color: var(--coral);
+}
+
 .capsules {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,6 +124,32 @@
     outline: 0;
     
     &:hover {
+        cursor: pointer;
+        color: var(--blackInk);
+        background-color: var(--sunDown);
+    }
+}
+
+.dots {
+    display: flex;
+}
+
+.dots button {
+    &:not(:last-child) {
+        margin-right: var(--space-1);
+    }
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: inherit;
+    font-size: var(--scale-0);
+    font-family: 'Telegraf-Regular', Arial, Helvetica, sans-serif;
+    outline: 0;
+    
+    &:hover {
+        cursor: pointer;
         color: var(--blackInk);
         background-color: var(--sunDown);
     }
