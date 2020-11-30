@@ -8101,7 +8101,149 @@ story:
 - sys:
     id: 1oezcGv5wPsj4CCnIvQpPV
     created_at: &25 !ruby/object:DateTime 2020-11-13 20:58:40.593000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 21:59:42.553000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-24 18:50:17.570000000 Z
+    content_type_id: story
+    revision: 8
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 3 new Brazilian partners fact-checking on WhatsApp
+  slug: meedan-welcomes-3-new-brazilian-partners
+  topic:
+    en-US:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Technology
+  lead_image:
+    en-US:
+      sys:
+        id: 6E4xUDVdNg64NowaKnYj34
+        created_at: !ruby/object:DateTime 2020-11-13 21:25:27.361000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-13 21:26:07.381000000 Z
+      title: meedan new partners brazil
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png"
+    description: 
+    title: meedan new partners brazil
+    url: "//images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png"
+  body: |
+    In time for the municipal elections across Brazil this past weekend, Meedan is pleased to announce three new Brazilian partners using our Check software for fact-checking on WhatsApp. They are: [Estadão Verifica](https://politica.estadao.com.br/noticias/geral,estadao-verifica-lanca-novo-servico-por-whatsapp,70003506752 "Estadão Verifica"), an initiative of Estadão; [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/ "Agência Lupa"), and [Fato ou Fake ](https://g1.globo.com/fato-ou-fake/noticia/2020/11/11/fato-ou-fake-lanca-bot-exclusivo-para-checar-conteudos-duvidosos.ghtml "Fato ou Fake"), by Globo Group. The latter initiative brings together journalists from G1, O Globo, Extra, Época, Valor, CBN, GloboNews and TV Globo.
+
+    Check is a tool for collaborative verification and annotation of digital media, with new features customized specifically for global fact-checking organizations. It's been deployed by  AFP (in Brazil and India), Africa Check, BOOM and India Today. These organization have been using Check since October 2019 across 4 languages and more than 180,000 submissions, including ongoing submissions today. Our case study on this program, called [End-to-End Fact-Checking](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact), details the insights, field research and product features that maximized the value of the WhatsApp API for fact checkers around the world; it’s name is a reference to the program’s ability to successfully fact-check on WhatsApp's end-to-end encrypted platform.
+
+    Natália Leal, content director at Lupa agency explains the importance of Check, “This tool expands the scope of Lupa's work, while at the same time bringing the agency closer to the public. It strengthens our monitoring of the false information environment and allows our reader another channel of communication with us. Thus, he has more access to verified information when making decisions that impact his life and society."
+
+    And for Estadão's, editor-in-chief David Friedlander, “Fake news deceives, misinforms and creates an atmosphere of confusion. That's why professional journalism is so important. With it's checking services, Estadão is dedicated to restoring the value of correct and reliable information”.
+
+    The new partners joined AFP Checamos, a pioneer in Brazil in the use of Check in their verification process on WhatsApp. “The tool has greatly improved the way we communicate with our WhatsApp audience,” said Maria Clara Pestre, AFP fact checker Checamos (Brazil). “Now, we can be sure that anyone who contacts us through the app will have an immediate and consistent response. At the same time, we have time to dedicate ourselves to the other steps in the verification process. ”
+
+    We adapted our toolkit to help fact-checkers focus on their work, not on technical tasks. This allowed teams to create their own workflows inside Check.
+
+    The platform has these main features:
+
+    - It allows the verification teams, based on the demand of the newsroom, to create menus of interactive content (bots) using their messaging channels;
+    - It imports the database of fact-checks from a journalistic organization, allowing them to send reports directly to the user of content that has already been verified.
+    - It also allows the public to send content suggestion to be checked by journalists;
+
+    For our partner organizations, the bot is an essential communication channel to engage their audience, understand and scale the demand for specific topics and distribute important information in other messaging networks. When building these relationships, it is also an opportunity to develop interactive monitoring and evaluation surveys with end users to assess the behavioral impacts of fact checks.
+
+    Check enables a publishing system to send fact verification reports to users of direct channels (tiplines) who send duplicate or similar requests. “Our goal with Check,” explained Meedan's Product Director, Pierre Conti, “is to build a human and AI system so that fact checkers can efficiently scale the demand for verification directly from the public, cut whatever just noise and thus maximize the impact of the checks. We do this to help verifiers prioritize the most relevant misinformation. ”
+  words_by:
+    en-US:
+    - sys:
+        id: 57swkb0x1YLvhHB31YFb3U
+        created_at: !ruby/object:DateTime 2020-03-24 00:41:40.973000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.056000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Isabella Barroso
+      staff:
+        en-US: true
+      role:
+        en-US: Program Manager, Latin America
+      location:
+        en-US: Brazil
+  date: '2020-11-13'
+  image: https://images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png
+  title-pt: 3 novos parceiros brasileiros checando fatos no WhatsApp
+  title-en: 3 new Brazilian partners fact-checking on WhatsApp
+  description-pt: 'Meedan tem o prazer de anunciar três novos parceiros brasileiros
+    que estão utilizando nosso software Check para verificação de fatos durante as
+    eleições municipais de 2020 no WhatsApp, são eles:'
+  body-pt: "Meedan tem o prazer de anunciar três novos parceiros brasileiros que estão
+    utilizando nosso software Check para verificação de fatos durante as eleições
+    municipais de 2020 no WhatsApp, são eles: o [Estadão Verifica](https://politica.estadao.com.br/noticias/geral,estadao-verifica-lanca-novo-servico-por-whatsapp,70003506752
+    \"Estadão Verifica\"), uma iniciativa do núcleo de checagem do Estadão; o [Fato
+    ou Fake](https://g1.globo.com/fato-ou-fake/noticia/2020/11/11/fato-ou-fake-lanca-bot-exclusivo-para-checar-conteudos-duvidosos.ghtml
+    \"Fato ou Fake\") do Grupo Globo e a [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/
+    \"Agência Lupa\").\n\nCheck é um sistema web de código aberto para jornalistas,
+    utilizado para verificar e anotar informações on-line em investigações de fatos.
+    Foi projetado especialmente para organizações globalmente distribuídas de verificação.
+    Utilizando a API Comercial do WhatsApp (WhatsApp Business API), Meedan desenvolveu
+    uma série de funcionalidades no software implementando uma mistura de inteligência
+    artificial, interface e inovações multilíngues. O nosso bot no WhatsApp é totalmente
+    personalizável e projetado para checadores e jornalistas executarem canais de
+    verificação no Whatsapp (tiplines), Facebook messenger, Twitter DM e muito mais.
+    \n\nA iniciativa de verificação do Grupo Globo, O Fato ou Fake, reúne jornalistas
+    do G1, O Globo, Extra, Época, Valor, CBN, GloboNews e TV Globo.\n\nPara Natália
+    Leal, diretora de conteúdo da agência Lupa, “Essa ferramenta amplia o alcance
+    do trabalho da Lupa, e, ao mesmo tempo, aproxima a agência do público. Ela fortalece
+    nosso monitoramento do ambiente de informações falsas e permite ao nosso leitor
+    mais um canal de comunicação conosco. Assim, ele tem mais acesso a informações
+    verificadas na hora de tomar decisões que impactam a sua vida e a sociedade”.
+    \n\nJá para o editor-chefe do Estadão, David Friedlander, “As fake news enganam,
+    desinformam e criam um ambiente de confusão. Por isso o jornalismo profissional
+    é tão importante. Com seus serviços de checagem, ele se dedica a restabelecer
+    o valor da informação correta e confiável”. \n\nOs novos parceiros se juntam a
+    AFP Checamos, pioneira no Brasil a utilizar Check como ferramenta. “A ferramenta
+    melhorou muito a maneira como nos comunicamos com nossa audiência no WhatsApp”,
+    disse Maria Clara Pestre, verificadora de fatos da AFP Checamos (Brasil). “Agora,
+    podemos ter certeza de que qualquer pessoa que entrar em contato conosco por meio
+    do aplicativo terá uma resposta imediata e coerente. Ao mesmo tempo, dispomos
+    de tempo para nos dedicarmos às outras etapas do processo de verificação.”\n\nUma
+    redação sem preocupação com códigos de programação: nós adaptamos nosso kit de
+    ferramentas para ajudar verificadores de fatos a se concentrarem no trabalho de
+    checagem, e não em tarefas técnicas. Isso permitiu que as equipes criassem seus
+    próprios fluxos de trabalho. A plataforma possui os seguintes recursos principais:\n\n-
+    Permite que as equipes de verificação, baseadas na demanda da redação, criem menus
+    de conteúdo interativo (bots) nos canais de comunicação;\n- Importa o banco de
+    dados de checagens de uma organização jornalística, permitindo-lhes enviar relatórios
+    a respeito de conteúdo já verificado direto ao usuário;\n- Permite que o público
+    envie sugestões de conteúdo para serem checadas pelos jornalistas;\n\nPara nossas
+    organizações parceiras, o bot é um canal de comunicação essencial para envolver
+    seu público, dimensionar a demanda por tópicos específicos e distribuir informações
+    importantes em redes de mensagens próximas. Ao construir essas relações, é também
+    a oportunidade de desenvolver pesquisas interativas de monitoramento e avaliação
+    com usuários finais para avaliar os impactos comportamentais das checagens de
+    fatos.\n\nCheck possibilita um sistema de publicação para enviar relatórios de
+    verificação de fatos aos usuários de canais diretos (tiplines) que enviarem solicitações
+    duplicadas ou semelhantes. “Nosso objetivo com o Check”, explicou o Diretor de
+    Produto da Meedan, Pierre Conti, “é construir um sistema humano e de IA para que
+    os verificadores de fatos possam dimensionar com eficiência a demanda por verificação
+    diretamente do público, cortar o que for apenas ruído e maximizar assim o impacto
+    das verificações. Fazemos isso para ajudar os verificadores a priorizarem as desinformações
+    mais relevantes.”\n"
+  alt_date: *25
+  alt_date_string: '2020-11-13'
+- sys:
+    id: 3wlb6GwlJvY6vdGkjWktL0
+    created_at: &26 !ruby/object:DateTime 2020-11-27 15:53:08.156000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-28 00:04:09.721000000 Z
     content_type_id: story
     revision: 0
     space:
@@ -8116,69 +8258,64 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Meedan dá as boas vindas a 3 novos parceiros brasileiros
-  slug: meedan-da-as-boas-vindas-a-3-novos-parceiros-brasileiros
-  lead_image:
+  title: 'Promoting WhatsApp tiplines: Questions to answer before and after you launch
+    an ad campaign'
+  slug: promoting-whatsapp-tiplines-questions-to-answer-before-and-after-you-launch
+  topic:
     en-US:
-      sys:
-        id: 6E4xUDVdNg64NowaKnYj34
-        created_at: !ruby/object:DateTime 2020-11-13 21:25:27.361000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-13 21:26:07.381000000 Z
-      title: meedan new partners brazil
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png"
-    description: 
-    title: meedan new partners brazil
-    url: "//images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png"
-  body: "Meedan tem o prazer de anunciar três novos parceiros brasileiros que estão
-    utilizando nosso software Check para verificação de fatos, são eles: o Estadão
-    Verifica, uma iniciativa do núcleo de checagem do Estadão; o Fato ou Fake do Grupo
-    Globo e a Agência Lupa.\n\nCheck é um sistema web de código aberto para jornalistas,
-    utilizado para verificar e anotar informações on-line em investigações de fatos.
-    Foi projetado especialmente para organizações globalmente distribuídas de verificação.
-    Utilizando a API Comercial do WhatsApp (WhatsApp Business API), Meedan desenvolveu
-    uma série de funcionalidades no software implementando uma mistura de inteligência
-    artificial, interface e inovações multilíngues. O nosso bot no WhatsApp é totalmente
-    personalizável e projetado para checadores e jornalistas executarem canais de
-    verificação no Whatsapp (tiplines), Facebook Messenger, Twitter DM e muito mais.
-    \n\nOs novos parceiros se juntam a AFP Checamos, pioneira no Brasil a utilizar
-    Check como ferramenta. “A ferramenta melhorou muito a maneira como nos comunicamos
-    com nossa audiência no WhatsApp”, disse Maria Clara Pestre, verificadora de fatos
-    da AFP Checamos (Brasil). “Agora, podemos ter certeza de que qualquer pessoa que
-    entrar em contato conosco por meio do aplicativo terá uma resposta imediata e
-    coerente. Ao mesmo tempo, dispomos de tempo para nos dedicarmos às outras etapas
-    do processo de verificação.”\n\nUma redação sem preocupação com códigos de programação:
-    nós adaptamos nosso kit de ferramentas para ajudar verificadores de fatos a se
-    concentrarem no trabalho de checagem, e não em tarefas técnicas. Isso permitiu
-    que as equipes criassem seus próprios fluxos de trabalho.\n\nA plataforma possui
-    os seguintes recursos principais:\n\n- Permite que as equipes de verificação,
-    baseado na demanda da redação, criem menus de conteúdo interativo (bots) nos canais
-    de comunicação;\n- \n- Importa o banco de dados de checagens de uma organização
-    jornalística, permitindo-lhes enviar relatórios a respeito de conteúdo já verificado
-    direto ao usuário.\n- \n- Permite que o público envie sugestões de conteúdo para
-    serem checadas pelos jornalistas;\n\nPara nossas organizações parceiras, o bot
-    é um canal de comunicação essencial para envolver seu público, dimensionar a demanda
-    por tópicos específicos e distribuir informações importantes em redes de mensagens
-    próximas. Ao construir essas relações, é também a oportunidade de desenvolver
-    pesquisas interativas de monitoramento e avaliação com usuários finais para avaliar
-    os impactos comportamentais das checagens de fatos.\n\n“Estamos entusiasmados
-    em trabalhar com parceiros como a Meedan para ajudar a enfrentar o desafio da
-    desinformação em mensagens privadas. A nossa intenção é oferecer aos usuários
-    ferramentas para que eles acessem, de maneira fácil, informações precisas e dar
-    suporte à verificação de fatos”, disse Ben Supple, chefe de engajamento cívico
-    do WhatsApp.\n\n“Agradecemos e valorizamos o trabalho realizado para maximizar
-    o valor da API Comercial do WhatsApp (WhatsApp Business API) para verificadores
-    de fatos e, assim, garantir que mais pessoas tenham acesso a informações precisas
-    com o clique de um botão.”\n\nCheck possibilita um sistema de publicação para
-    enviar relatórios de verificação de fatos aos usuários de canais diretos (tiplines)
-    que enviarem solicitações duplicadas ou semelhantes.\n“Nosso objetivo com o Check”,
-    explicou o Diretor de Produto da Meedan, Pierre Conti, “é construir um sistema
-    humano e de IA para que os verificadores de fatos possam dimensionar com eficiência
-    a demanda por verificação diretamente do público, cortar o que for apenas ruído
-    e maximizar assim o impacto das verificações. Fazemos isso para ajudar os verificadores
-    a priorizarem as desinformações mais relevantes.”"
-  date: '2020-11-13'
-  image: https://images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png
-  title-en: Meedan dá as boas vindas a 3 novos parceiros brasileiros
-  alt_date: *25
-  alt_date_string: '2020-11-13'
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
+  body: "Every effort to promote your tipline is introducing your brand and tipline
+    to new users and building your audience. [Previous ad campaigns] (https://meedan.com/blog/how-our-fact-checking-partners-promote-their-whatsapp-tiplines/)
+    ran by our partner fact-check organizations showed that a strong community engagement
+    strategy, branding and a focussed call for action can prove useful. The latest
+    campaign launched in November was another chance to figure out best strategies
+    for each organization through trial and error methods. While there is no blueprint
+    and ad strategies depend on organizational goals and audience, here are few questions
+    to ask while implementing an ad campaign for promoting your tipline:\n\n### What
+    is the theme? \nThe theme of your ad depends on the news cycle, misinformation
+    trends in countries and regions, your expertise and target audience. Be it generic
+    or a focussed call for action, it is important to strike a chord with users. Some
+    themes in the recent campaign were Bihar elections, fake schemes and COVID-19
+    vaccines. \n\n### Who is your target audience? \nBased on the theme, you can target
+    your core audience or the audience you want to attract, certain cities, a whole
+    country and different age groups. \n\n### Is your ad clear and relatable? \nThe
+    ad content and images need to resonate with your target audience. Have you considered
+    using the local language of the area that you're reaching out to? Also, do not
+    assume that your audience is aware of misinformation and fact-checking. Your ad
+    has to be self-explanatory.\n\n### What do you aim to achieve? \nAfrica Check
+    optimized the ad for engagement and saw an increase in conversation. However,
+    the submissions were often not potential leads. As media literacy is a key objective
+    of the organization, they decided to engage with users who reached their tipline
+    and inform them of the work they do and their tipline service. \n\n### When do
+    you want to run or pause it? \nMost of our Indian partners chose to pause the
+    ad during the Diwali week, when festivities extend for a week and the news cycle
+    slows down. However, some saw it best to run the ad for two straight weeks rather
+    than just one. \n\n### What happens when the user finally decides to test your
+    tipline? \nWhen users reach your tipline, they may or may not have a fact-check
+    request to submit. It is important that the user has clear instructions on how
+    to submit a request or to access a bot resource. Some partners chose to update
+    their bot script and add a relevant resource in sync with their ad content. \n\n###
+    What if your ad strategy has not worked? \nThe first two days gives you an idea
+    of whether the tipline is receiving more conversations than usual. If not, it
+    is useful to revisit the ad settings and make quick changes in a trial and error
+    method. \n\n### Has your social media and editorial teams vetted or discussed
+    the strategy\nInsights from both teams can help in devising a solid strategy.
+    Creation of ad content, choosing your audience and making quick changes in ad
+    settings and bot menu require both teams to work in tandem. \n\n### Are you promoting
+    your ad outside of Facebook? \nCross platform promotion is a strategy that most
+    of our partners have adopted. This helps in bringing your audience from all platforms
+    to your tipline. Posts or tweets by your team members promoting the tipline can
+    also be a big push for the ads. This is helpful as the audience also identifies
+    with the people who make the brand.  \n"
+  date: '2020-11-27'
+  title-en: 'Promoting WhatsApp tiplines: Questions to answer before and after you
+    launch an ad campaign'
+  alt_date: *26
+  alt_date_string: '2020-11-27'

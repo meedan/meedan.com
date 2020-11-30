@@ -3,17 +3,17 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 23:55:02.945000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-26 22:10:21.883000000 Z
     content_type_id: moduleEvents
-    revision: 49
+    revision: 50
   title: Upcoming Events
   events:
   - sys:
-      id: 3fGBeLe0aWtOMrdYHvYAti
-      created_at: !ruby/object:DateTime 2020-11-11 16:11:29.617000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-16 10:38:42.690000000 Z
+      id: txtEEozwe6Gp38udmg2gK
+      created_at: !ruby/object:DateTime 2020-11-05 17:00:32.334000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-26 16:02:16.733000000 Z
       content_type_id: event
-      revision: 2
+      revision: 1
       space:
         sys:
           id: g118h5yoccvd
@@ -27,47 +27,54 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: 'IFF MENA Community Knowledge Session: Independent Media in Lebanon After
-      the Blast'
-    event_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-    time: "- *San Francisco* 8am\n- *New York* 11am\n- *São Paolo* 12pm\n- *London*
-      4pm \n- *Nairobi* 7pm\n- *Delhi* 9:30pm\n- *Manila* 11pm\n"
+    title: 'Book Talk: Destroy the Internet Advertising Economy With This One Weird
+      Trick'
+    event_date: !ruby/object:DateTime 2020-12-02 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-12-02 00:00:00.000000000 Z
+    time: |-
+      - *San Francisco* 8:00am
+      - *New York* 11:00am
+      - *Brasilia* 1:00pm
+      - *London* 4:00pm
+      - *New Delhi* 9:30pm
+      - *Manila* 12:00am (+1)
+      - *Tokyo* 1:00am (+1)
     status: Upcoming
     images:
     - sys:
-        id: 7osdXlMczm9SkZHYMIqnQy
-        created_at: !ruby/object:DateTime 2020-07-15 21:41:59.795000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-15 21:42:32.806000000 Z
-      title: Internet Freedom Festival Glitter Meetup – Recordkeepers of the Resistance
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg"
+        id: 2e8NPm0MSplkDCPPxCddzi
+        created_at: !ruby/object:DateTime 2020-11-05 17:00:56.090000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-26 16:02:03.882000000 Z
+      title: Subprime Attention Crisis
+      description: Subprime Attention Crisis Book Cover
+      url: "//images.ctfassets.net/g118h5yoccvd/2e8NPm0MSplkDCPPxCddzi/4edadf0f7caa29371d6e3c17a109223e/meedan_webinar_tim-hwang_book_01.jpg"
     - sys:
-        id: 4IchgAvVUkRE4qWYB4njsu
-        created_at: !ruby/object:DateTime 2020-11-11 20:10:23.744000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-11 20:13:15.722000000 Z
-      title: 'IFF MENA Community Knowledge Session: Independent Media in Lebanon After
-        the Blast'
-      description: Azza El Masri, Meedan
-      url: "//images.ctfassets.net/g118h5yoccvd/4IchgAvVUkRE4qWYB4njsu/6184743c2e5c7781dea5b6f533bde437/meedan_beirut.jpg"
-    location_human_friendly: Online on Zoom
-    register_link: https://internetfreedomfestival.formstack.com/forms/mena3
-    description: 'NAWA Program Coordinator Azza El Masri will discuss the economic,
-      political, and mental health challenges experienced by independent media workers
-      in Lebanon after the Beirut Blast. '
+        id: 7fCVoxC8x01R4lvXoUKgNE
+        created_at: !ruby/object:DateTime 2020-11-05 17:01:34.366000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-26 16:02:09.845000000 Z
+      title: Tim Hwang Headshot
+      description: Headshot of author Tim Hwang
+      url: "//images.ctfassets.net/g118h5yoccvd/7fCVoxC8x01R4lvXoUKgNE/4bfc753ea6d59d151a940528b9937329/meedan_webinar_tim-hwang_book_02.jpg"
+    social_card_image:
+      sys:
+        id: 1kJHXqeNbXxb6uD0mrh4fK
+        created_at: !ruby/object:DateTime 2020-11-26 15:58:44.218000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-26 15:59:33.001000000 Z
+      title: 'Tim Hwang: Destroy the Internet Advertising Economy'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1kJHXqeNbXxb6uD0mrh4fK/844ad27bf2bf14a2e96fdf8a22dc35fe/WWW_-_OII_wk_8_V3.jpg"
+    register_link: https://oii.zoom.us/webinar/register/5616063833332/WN_M8iAW8myTCG24W9Oal9jWg
+    description: 'Oxford Internet Institute Visiting Policy Fellow and Meedan Board
+      Member Tim Hwang in a book talk with Dr Scott A. Hale, a Senior Research Fellow
+      at the OII and Director of Resarch at Meedan. '
     long_description: |-
-      On August 4, 2,700 tons of ammonium nitrate stored in Beirut's port ripped through half of the capital, taking 200 lives, injuring thousands and rendering 300,000 homeless. The impact of the blast was also felt by independent media workers, who'd had -- over the years -- taken up headquarters in the neighborhoods that had been hit the most. In the midst of an economic collapse and a crippling pandemic, independent media workers have had to also adapt in the midst of a state of emergency, acknowledge the limitations of the current donor-based business model as well as deal with the trauma incurred by the blast.
+      The Oxford Internet Institute (OII) and Meedan welcome OII Visiting Policy Fellow and Meedan Board Member Tim Hwang, discussing his new book ‘Subprime Attention Crisis’ with Dr Scott A. Hale, a Senior Research Fellow at the OII and Director of Resarch at Meedan. Tim is a writer and researcher focusing on public policy and emerging technologies. This session will be a deep-dive conversation exploring how the modern online advertising economy really works, how fragile it may be in reality, and how we might move the internet towards a more sustainable future.
 
-      This MENA Community Knowledge session (MENA CKS) will focus on:
+      Programmatic advertising—high-speed, algorithmically-facilitated, data-driven advertising—is the cornerstone of the modern internet. It has produced untold wealth for major companies like Facebook and Google, and is the predominant way that online media is made financially sustainable. At its heart, it is based in the idea that the vast trove of data available about people online enables hyper-targeted, hyper-effective persuasion. This promise has driven huge financial gains for businesses, and inspired countless op-eds from technology critics and commentators concerned about the influence of message microtargeting on individuals and society at large. But, much of what we know about online advertising suggests that these visions of an omnipotent persuasion engine are far from reality. In 2014, Google estimated that nearly 60% of ads on the internet are never seen. In 2017, Proctor and Gamble—one of the world’s largest advertisers—cut nearly $200M from its online advertising budget, to little effect.
 
-      -   The impact of the martial law on the security and freedom of independent journos after the blast
-      -   How the blast affected the business model of independent media outlets and the role of  emergency funding for media
-      -   What kind of regional cooperation is needed in terms of archiving and journalistic collaboration and training
-      -   The impact of trauma on independent journalists
-
-      **Azza El Masri** is [Meedan](https://meedan.com/)'s NAWA Program Coordinator and a Lebanese investigative journalist. She also conducts research on political misinformation online.
-    slug: iff-mena-community-knowledge-session-independent-media-in-lebanon-after-the
+      The ostensible strength of online advertising is in reality, likely to be a bubble. The market has been sustainable in part through the economic destruction of traditional media, the perverse incentives of buyers and sellers of advertising, and the surprising opacity of the digital marketplace for attention. Even as attention online is increasingly “subprime”, these dynamics push the market towards new heights.
+    slug: book-talk-destroy-the-internet-advertising-economy-with-this-one-weird-trick
     non_public: false
-    event_date_string: '2020-11-20'
-    event_end_date_string: '2020-11-20'
-    image: https://images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg
+    event_date_string: '2020-12-02'
+    event_end_date_string: '2020-12-02'
+    image: https://images.ctfassets.net/g118h5yoccvd/1kJHXqeNbXxb6uD0mrh4fK/844ad27bf2bf14a2e96fdf8a22dc35fe/WWW_-_OII_wk_8_V3.jpg
