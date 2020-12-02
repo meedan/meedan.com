@@ -84,6 +84,7 @@
 
     .smallprint p {
         color: var(--silver);
+        font-size: 0.8rem;
     }
 
 }
@@ -98,6 +99,9 @@
         line-height: 1.2;
     }
     margin-top: var(--space-1);
+    & + p {
+        margin-top: 0.8rem;
+    }
 }
 
 .donate-options {
