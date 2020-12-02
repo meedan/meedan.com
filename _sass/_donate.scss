@@ -84,13 +84,20 @@
 
     .smallprint p {
         color: var(--silver);
-        font-size: 0.8rem;
-        @include responsive('min-width: #{$width-desktop}') {
-            line-height: 1.2;
-        }
-        margin-top: var(--space-1);
     }
 
+}
+
+.smallprint p {
+    font-size: 0.8rem;
+    a {
+        font-size: inherit;
+        color: inherit;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        line-height: 1.2;
+    }
+    margin-top: var(--space-1);
 }
 
 .donate-options {
@@ -149,22 +156,70 @@
     }
 }
 
+// Annual Campaign
+
 body.annual {
     color: var(--vividBlue);
     background: linear-gradient(180deg, #ADD9F7 0%, #ADD9F7 15.03%, #E2DFC4 25.94%, #E7E2B2 38.28%, #A2A7FF 48.13%, #A3A8FF 79.71%, #EE82F3 86.87%);
+
     .callout text {
         fill: var(--vividBlue);
     }
+
+    h2 {
+        font-family: $font-stack-d;
+        font-size: var(--scale-3);
+        letter-spacing: -0.1rem;
+        line-height: 0.95;
+        color: var(--vividBlue);
+    }
 }
 
-body.annual h2 {
-    font-family: $font-stack-d;
-    font-size: var(--scale-3);
-    letter-spacing: -0.1rem;
-    line-height: 0.95;
-    color: var(--vividBlue);
+.annual header .meedan svg {
+    fill: var(--vividBlue);
 }
 
-body.annual .standfirst {
-    font-family: $font-stack-d;
+.annual header .menu-icon svg {
+    stroke: var(--vividBlue);
+}
+
+.annual header .cursor {
+    border-color: var(--vividBlue);
+}
+
+body.annual .page-wrapper {
+
+    .standfirst {
+        font-family: $font-stack-d;
+    }
+    
+    .key-point {
+        border-color: var(--vividBlue);
+    }
+    
+    .donate-options button {
+        &:hover {
+            background-color: var(--vividBlue);
+            border-color: var(--vividBlue);
+            color: #fff;
+        }
+    }
+
+    .small-hr:before {
+        border-color: var(--vividBlue);
+    }
+
+    a.transparent {
+        color: var(--vividBlue);
+        border-color: var(--vividBlue);
+        &:hover {
+            background-color: var(--vividBlue);
+            color: #fff;
+        }
+    }
+
+    .smallprint a { 
+        text-decoration: underline;
+        color: var(--vividBlue); 
+    }
 }

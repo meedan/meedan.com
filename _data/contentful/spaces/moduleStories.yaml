@@ -3,11 +3,55 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-10 21:19:13.542000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-01 03:10:18.243000000 Z
     content_type_id: moduleStories
-    revision: 58
+    revision: 59
   title: Blog
   stories:
+  - sys:
+      id: 1oezcGv5wPsj4CCnIvQpPV
+      created_at: !ruby/object:DateTime 2020-11-13 20:58:40.593000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-24 18:50:17.570000000 Z
+      content_type_id: story
+      revision: 8
+    title: 3 new Brazilian partners fact-checking on WhatsApp
+    slug: meedan-welcomes-3-new-brazilian-partners
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+    lead_image:
+      sys:
+        id: 6E4xUDVdNg64NowaKnYj34
+        created_at: !ruby/object:DateTime 2020-11-13 21:25:27.361000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-13 21:26:07.381000000 Z
+      title: meedan new partners brazil
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png"
+    body: |
+      In time for the municipal elections across Brazil this past weekend, Meedan is pleased to announce three new Brazilian partners using our Check software for fact-checking on WhatsApp. They are: [Estadão Verifica](https://politica.estadao.com.br/noticias/geral,estadao-verifica-lanca-novo-servico-por-whatsapp,70003506752 "Estadão Verifica"), an initiative of Estadão; [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/ "Agência Lupa"), and [Fato ou Fake ](https://g1.globo.com/fato-ou-fake/noticia/2020/11/11/fato-ou-fake-lanca-bot-exclusivo-para-checar-conteudos-duvidosos.ghtml "Fato ou Fake"), by Globo Group. The latter initiative brings together journalists from G1, O Globo, Extra, Época, Valor, CBN, GloboNews and TV Globo.
+
+      Check is a tool for collaborative verification and annotation of digital media, with new features customized specifically for global fact-checking organizations. It's been deployed by  AFP (in Brazil and India), Africa Check, BOOM and India Today. These organization have been using Check since October 2019 across 4 languages and more than 180,000 submissions, including ongoing submissions today. Our case study on this program, called [End-to-End Fact-Checking](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact), details the insights, field research and product features that maximized the value of the WhatsApp API for fact checkers around the world; it’s name is a reference to the program’s ability to successfully fact-check on WhatsApp's end-to-end encrypted platform.
+
+      Natália Leal, content director at Lupa agency explains the importance of Check, “This tool expands the scope of Lupa's work, while at the same time bringing the agency closer to the public. It strengthens our monitoring of the false information environment and allows our reader another channel of communication with us. Thus, he has more access to verified information when making decisions that impact his life and society."
+
+      And for Estadão's, editor-in-chief David Friedlander, “Fake news deceives, misinforms and creates an atmosphere of confusion. That's why professional journalism is so important. With it's checking services, Estadão is dedicated to restoring the value of correct and reliable information”.
+
+      The new partners joined AFP Checamos, a pioneer in Brazil in the use of Check in their verification process on WhatsApp. “The tool has greatly improved the way we communicate with our WhatsApp audience,” said Maria Clara Pestre, AFP fact checker Checamos (Brazil). “Now, we can be sure that anyone who contacts us through the app will have an immediate and consistent response. At the same time, we have time to dedicate ourselves to the other steps in the verification process. ”
+
+      We adapted our toolkit to help fact-checkers focus on their work, not on technical tasks. This allowed teams to create their own workflows inside Check.
+
+      The platform has these main features:
+
+      - It allows the verification teams, based on the demand of the newsroom, to create menus of interactive content (bots) using their messaging channels;
+      - It imports the database of fact-checks from a journalistic organization, allowing them to send reports directly to the user of content that has already been verified.
+      - It also allows the public to send content suggestion to be checked by journalists;
+
+      For our partner organizations, the bot is an essential communication channel to engage their audience, understand and scale the demand for specific topics and distribute important information in other messaging networks. When building these relationships, it is also an opportunity to develop interactive monitoring and evaluation surveys with end users to assess the behavioral impacts of fact checks.
+
+      Check enables a publishing system to send fact verification reports to users of direct channels (tiplines) who send duplicate or similar requests. “Our goal with Check,” explained Meedan's Product Director, Pierre Conti, “is to build a human and AI system so that fact checkers can efficiently scale the demand for verification directly from the public, cut whatever just noise and thus maximize the impact of the checks. We do this to help verifiers prioritize the most relevant misinformation. ”
+    words_by:
+    - sys:
+        id: 57swkb0x1YLvhHB31YFb3U
   - sys:
       id: 78xCvxi2mN0tlE4alTubK9
       created_at: !ruby/object:DateTime 2020-10-28 10:56:02.594000000 Z
@@ -367,84 +411,6 @@ moduleStories:
     words_by:
     - sys:
         id: 5i0ZluvBzz6h4ashdZJIkH
-  - sys:
-      id: 67ZjVi4T5sZUL6HHNAjZUp
-      created_at: !ruby/object:DateTime 2020-10-23 18:27:18.858000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-26 21:23:28.270000000 Z
-      content_type_id: story
-      revision: 3
-    title: Hacktoberfest 2020 & Meedan
-    slug: hacktoberfest-2020-meedan
-    topic:
-    - sys:
-        id: 3YteOu0dCPeNZKQlFMQNwF
-    lead_image:
-      sys:
-        id: '01493vayIHj3NiM7MDB7sE'
-        created_at: !ruby/object:DateTime 2020-10-23 19:59:50.143000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-26 20:50:31.229000000 Z
-      title: meedan hacktoberfest-2020
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/01493vayIHj3NiM7MDB7sE/da9c63d156cf173c74cf9a58c67eb162/meedan_hacktoberfest-2020.png"
-    body: "We are in the last days of October, there is still time to contribute.
-      \ Join our Check developer community and help build the future of journalism
-      + earn cool swag!\n\n[Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-      is an annual global hackathon event hosted by DigitalOcean and GitHub to bring
-      developers together and contribute to open source software.\n\nAs part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-      2020, here at [Meedan](https://meedan.com/) we'd like to expand our developer
-      community and we are welcoming and inviting everyone to contribute to any of
-      the services that support the [Check](https://github.com/meedan/check) platform.\n\n###
-      How to get swag?\n\n- __Hacktoberfest swag:__ create at least 4 pull requests
-      in any open source project.\n\n- __Meedan swag:__ one valid PR accepted and
-      merged on[ any of our open source](https://github.com/meedan/check/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)
-      projects. After your PR is merged we'll contact you to get your address information
-      to send you your swag.\n\n![meedan hacktoberfest tshirt 3](//images.ctfassets.net/g118h5yoccvd/4dhsjZ4KnKIygwYwYZuSta/78634cc633776aa840ced877e7080665/meedan_hacktoberfest_tshirt_3.jpg)\n\n###
-      What is Check?\n\n[Check](https://meedan.com/check) is an open source platform
-      for collaborative fact-checking and media annotation. Journalists, activists
-      and organizations use Check to conduct their investigations and debunk misinformation.\n\nIt's
-      built in React and Rails, we strive for 100% test coverage and a 4.0 GPA on
-      Code Climate. \n\nAnd runs the following services:\n\n-   [Alegre](https://github.com/meedan/alegre/):
-      Language identification, text similarity and others text an media analysis\n-
-      \  [Check API](https://github.com/meedan/check-api/): The core API and CMS\n-
-      \  [Check Mark](https://github.com/meedan/check-mark/): A browser extension
-      for content annotation\n-   [Check Slack Bot](https://github.com/meedan/check-slack-bot/):
-      A Slack bot to interact with Check\n-   [Check Web](https://github.com/meedan/check-web/):
-      Front-end web application\n-   [Fetch](https://github.com/meedan/fetch/): A
-      FactCheck / Claim Review aggregation service\n-   [Pender](https://github.com/meedan/pender/):
-      Link parsing, archiving and rendering service\n-   [Narcissus](https://github.com/meedan/narcissus/):
-      Webpage screenshotting\n\nAlso, Check is extensible by creating custom bots
-      and integrations that aim to facilitate the workflow of journalists and activists.
-      We maintain a repository with [bot examples](https://github.com/meedan/check-bots/)
-      and encourage developers to create bots to enrich Check's functionality.\n\n###
-      How to start? \n\nEvery contribution is important for us, even if it's not merged.
-      We may ask some questions about the issues, suggestions and pull requests you
-      create, and we hope you accept them in a friendly way. We want your quality
-      contribution!\n\n- You can contribute to any of Check's submodule repositories
-      by opening a pull request in line with[  Hacktoberfest's quality standards.](https://hacktoberfest.digitalocean.com/details/#quality)\n-
-      Contributing to a new open source project can seem confusing or difficult.[
-      \ Check's documentation](https://github.com/meedan/check/wiki) will help you
-      understand the software and codebase and orient you in your first steps.\n\n###
-      How to contribute?\n\nAre you a programmer interested in verification or fact-checking?
-      Do you want to start contributing to an open source project that has supported
-      some of the largest collaborative reporting initiatives on the internet?\n\n__Contributions
-      we appreciate:__ We are interested in contributions for improving features,
-      creating bots to extend Check functionality, fixing bugs, translations / localizations,
-      technical documentation.\n\n__Contributions we like but won't get you swag this
-      time:__ During Hacktoberfest, we are not accepting PRs for small changes on
-      documentation, like adding links or a table of contents. We hope you can find
-      a nice issue to work on!\n\n__Our issues:__ We created some[  GitHub issues
-      for Hacktoberfest](https://github.com/meedan/check/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest).
-      All the issues have labels identifying the Check component it is related to,
-      the difficulty level and the technology knowledge needed to work with the issue.
-      Choose one issue to work on or suggest a new issue. \n\n### More info\n\n__Check
-      out:__ <https://meedan.com/hacktoberfest> and get in touch with us on our [forum](https://meedan.discourse.group/).
-      \n\nHappy coding!"
-    words_by:
-    - sys:
-        id: 6l5fy3yE4I2Y380PLobxla
-    - sys:
-        id: 57swkb0x1YLvhHB31YFb3U
-    alt_date: !ruby/object:DateTime 2020-10-26 00:00:00.000000000 Z
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
@@ -1229,28 +1195,28 @@ moduleStories:
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
     created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-18 20:34:19.954000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-30 22:57:42.984000000 Z
     content_type_id: moduleStories
-    revision: 4
+    revision: 5
   title: Featured Story
   stories:
   - sys:
-      id: 59PDoQADQSN2K8pylUeUlL
-      created_at: !ruby/object:DateTime 2020-11-10 22:50:50.365000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.171000000 Z
+      id: 1WgpyJbJSV48IWEG2W44QH
+      created_at: !ruby/object:DateTime 2020-11-30 22:24:21.198000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-01 02:29:16.659000000 Z
       content_type_id: moduleCard
-      revision: 1
-    title: Meedan's Eric Mugendi discusses the Tanzanian elections on Al Jazeera English
-    slug: meedans-eric-mugendi-discusses-the-tanzanian-elections-on-al-jazeera-english
-    published_on: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
+      revision: 3
+    title: Meedan CEO speaks on Credder podcast
+    slug: meedan-ceo-speaks-on-credder-podcast
+    published_on: !ruby/object:DateTime 2020-11-30 00:00:00.000000000 Z
     image:
       sys:
-        id: 4oG87efDGTVf4WC8crVF21
-        created_at: !ruby/object:DateTime 2020-10-15 21:42:29.198000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-16 22:39:44.292000000 Z
-      title: Eric Mugundi on Al Jazeera
+        id: 3GvoWV940lWC7axDImMMVT
+        created_at: !ruby/object:DateTime 2020-11-30 22:55:39.673000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-30 22:56:01.329000000 Z
+      title: Ed Podcast
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4oG87efDGTVf4WC8crVF21/df597c61353855b341e713f52e88c5b9/maxresdefault.jpg"
-    tag: Al Jazeera English
-    link: https://www.youtube.com/watch?v=FhoMdYX86JY
-    youtube_video_id: FhoMdYX86JY
+      url: "//images.ctfassets.net/g118h5yoccvd/3GvoWV940lWC7axDImMMVT/7b97bda4b7b6f2f651593cab861bbde0/podcast.jpg"
+    tag: Podcast
+    link: https://www.youtube.com/watch?v=SOaudM-4pcU
+    youtube_video_id: SOaudM-4pcU

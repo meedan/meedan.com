@@ -8243,7 +8243,7 @@ story:
 - sys:
     id: 3wlb6GwlJvY6vdGkjWktL0
     created_at: &26 !ruby/object:DateTime 2020-11-27 15:53:08.156000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-28 00:04:09.721000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-30 17:33:37.576000000 Z
     content_type_id: story
     revision: 0
     space:
@@ -8258,9 +8258,9 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'Promoting WhatsApp tiplines: Questions to answer before and after you launch
-    an ad campaign'
-  slug: promoting-whatsapp-tiplines-questions-to-answer-before-and-after-you-launch
+  title: 'Promoting WhatsApp tiplines: Questions to answer before and after launching
+    promotional campaigns'
+  slug: promoting-whatsapp-tiplines-questions-to-answer-before-and-after-launching
   topic:
     en-US:
     - sys:
@@ -8271,51 +8271,227 @@ story:
         revision: 1
       title:
         en-US: Ideas
-  body: "Every effort to promote your tipline is introducing your brand and tipline
-    to new users and building your audience. [Previous ad campaigns] (https://meedan.com/blog/how-our-fact-checking-partners-promote-their-whatsapp-tiplines/)
-    ran by our partner fact-check organizations showed that a strong community engagement
-    strategy, branding and a focussed call for action can prove useful. The latest
-    campaign launched in November was another chance to figure out best strategies
-    for each organization through trial and error methods. While there is no blueprint
-    and ad strategies depend on organizational goals and audience, here are few questions
-    to ask while implementing an ad campaign for promoting your tipline:\n\n### What
-    is the theme? \nThe theme of your ad depends on the news cycle, misinformation
-    trends in countries and regions, your expertise and target audience. Be it generic
-    or a focussed call for action, it is important to strike a chord with users. Some
-    themes in the recent campaign were Bihar elections, fake schemes and COVID-19
-    vaccines. \n\n### Who is your target audience? \nBased on the theme, you can target
-    your core audience or the audience you want to attract, certain cities, a whole
-    country and different age groups. \n\n### Is your ad clear and relatable? \nThe
-    ad content and images need to resonate with your target audience. Have you considered
-    using the local language of the area that you're reaching out to? Also, do not
-    assume that your audience is aware of misinformation and fact-checking. Your ad
-    has to be self-explanatory.\n\n### What do you aim to achieve? \nAfrica Check
-    optimized the ad for engagement and saw an increase in conversation. However,
-    the submissions were often not potential leads. As media literacy is a key objective
-    of the organization, they decided to engage with users who reached their tipline
-    and inform them of the work they do and their tipline service. \n\n### When do
-    you want to run or pause it? \nMost of our Indian partners chose to pause the
-    ad during the Diwali week, when festivities extend for a week and the news cycle
+  body: "Every effort to promote WhatsApp tiplines introduces the organization’s brand
+    and content to new users and builds the audience. [Previous ad campaigns] (https://meedan.com/blog/how-our-fact-checking-partners-promote-their-whatsapp-tiplines/)
+    run by our partner fact-checking organizations have demonstrated that a strong
+    community engagement strategy, branding and a focussed call for action can be
+    extremely useful. There are new insights from the latest round of campaigns launched
+    in November 2020. Here are few questions to ask while implementing ad campaigns
+    for promoting WhatsApp tiplines:\n\n### What is the theme? \nThe theme of the
+    ad being launched can depend on the news cycle, misinformation trends in the region,
+    the partner organization’s expertise and target audience. Be it generic or a focussed
+    call for action, it is important to strike a chord with users. Some themes followed
+    by partners in the recent campaign included local elections, credible information
+    on government schemes especially for the poor and COVID-19 vaccine related misinformation.
+    \n\n### Who is the target audience? \nBased on the theme, target the core audience
+    or the audience the organization would like to attract. The targeting can include
+    certain cities or states, people with specific interests or different age groups.
+    \n\n#### Is the ad clear and relatable? \nThe ad content and images need to resonate
+    with the target audience. Consider using the local language of the area and images
+    that are local. Ask people to send in queries, suspicious messages or misleading
+    information that they would like verified. \n\n### What is the objective of the
+    campaign? \nIs the objective to get queries for fact-checking or engage the audience
+    and inform them about the tipline service and the organization? The organization
+    needs to ask these questions and design its campaign accordingly. \n\n### Run
+    or pause it? \nMost of our Indian fact-checking partners chose to pause the ad
+    during the Diwali week, when festivities extend for a week and the news cycle
     slows down. However, some saw it best to run the ad for two straight weeks rather
-    than just one. \n\n### What happens when the user finally decides to test your
-    tipline? \nWhen users reach your tipline, they may or may not have a fact-check
-    request to submit. It is important that the user has clear instructions on how
-    to submit a request or to access a bot resource. Some partners chose to update
-    their bot script and add a relevant resource in sync with their ad content. \n\n###
-    What if your ad strategy has not worked? \nThe first two days gives you an idea
-    of whether the tipline is receiving more conversations than usual. If not, it
-    is useful to revisit the ad settings and make quick changes in a trial and error
-    method. \n\n### Has your social media and editorial teams vetted or discussed
-    the strategy\nInsights from both teams can help in devising a solid strategy.
-    Creation of ad content, choosing your audience and making quick changes in ad
-    settings and bot menu require both teams to work in tandem. \n\n### Are you promoting
-    your ad outside of Facebook? \nCross platform promotion is a strategy that most
-    of our partners have adopted. This helps in bringing your audience from all platforms
-    to your tipline. Posts or tweets by your team members promoting the tipline can
-    also be a big push for the ads. This is helpful as the audience also identifies
-    with the people who make the brand.  \n"
+    than just one. \n\n### What happens when users finally decide to test the tipline?
+    \nIt is important that the users have  clear instructions on how to submit a request
+    or to access a bot resource. It is also important for organizations to have resources,
+    both human and bot, ready, in order to respond to submissions and engage with
+    users.\n\n### What if the ad strategy has not worked? \nThe first two days of
+    ad campaigns can give organizations a feel of whether the tipline is receiving
+    more conversations than usual. If not, it is useful to revisit the ad settings
+    and make quick changes in a trial and error method. \n\n### Has the social media
+    and editorial teams vetted / discussed the strategy? \nInsights from both teams
+    can help in designing a solid strategy. Creation of ad content, choosing the audience
+    and making quick changes in ad settings and bot menu require both teams to work
+    in tandem. \n\n### Is the ad being promoted across different platforms? \nCross
+    platform promotion is a great strategy to adopt. This helps in bringing the audience
+    from all platforms to the WhatsApp tipline. Posts or tweets by the organization’s
+    team members promoting the tipline can also be a big push for the ads. This can
+    be helpful as the audience often identifies with the people who make the brand.\n"
   date: '2020-11-27'
-  title-en: 'Promoting WhatsApp tiplines: Questions to answer before and after you
-    launch an ad campaign'
+  title-en: 'Promoting WhatsApp tiplines: Questions to answer before and after launching
+    promotional campaigns'
   alt_date: *26
   alt_date_string: '2020-11-27'
+- sys:
+    id: 5NrvRonMjWubHGjWahK6FI
+    created_at: &27 !ruby/object:DateTime 2020-12-02 15:59:29.298000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-02 16:05:17.840000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meet Cecila Sorgine and Maria Clara Pestre, fact-checkers with AFP Checamos
+  slug: meet-cecila-sorgine-and-maria-clara-pestre-fact-checkers-with-afp-checamos
+  body: |-
+    Since October 2019, Meedan has run a [global fact-checking project ](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact)using the WhatsApp Business API and powered by [Check](https://meedan.com/check), an open-source platform built by Meedan. During the year, we entered into new and exciting partnerships with fact-checking groups and newsrooms across the globe to combat misinformation. As a community, we have made huge strides and learned from each other.
+
+    In November 2020, we launched an interview series to present insights from individual fact-checkers and editors who are members of our partner organizations. The interviews capture our partners' experiences related to fact-checking and their vision for the future. We interviewed [Kritika Goel, Associate Editor at the Quint](https://meedan.com/blog/meet-kritika-goel-associate-editor-the-quint/) in the first part of the interview series.
+
+    This time we have Cecilia Sorgine and Maria Clara Pestre, two young fact checkers with [AFP Checamos](https://checamos.afp.com/list) who have just covered the municipal elections in Brazil. As our Phase I partner, AFP Checamos has provided us great inputs in building features for Check to suit the needs of fact-checkers. In this interview, we learn more about their journey and experience as fact-checkers in Brazil, one of the leading democracies in the world.
+
+    ### How long have you been a fact-checker? What has been your experience before becoming one? What brought you to this?
+
+    Maria Clara: I've been a fact-checker at AFP for almost two years. Before that, I worked at the Reuters' bureau in Rio translating and adapting international news to the Brazilian audience. A few years before that, I worked at Globo.com, writing technology articles based on SEO metrics.
+
+    In 2018, seeing an expressive increase in online misinformation, especially regarding that year's presidential election, I started studying fact-checking and its methods. That's when I decided to research the impact of fact-checking organizations on the Brazilian 2018 elections as my final college essay. Soon after that I started fact-checking myself.
+
+    Cecília Sorgine: I've been working as a fact-checker since February 2018. Before that I already worked at AFP for two years with international news, translating and editing texts for the Brazilian public. My professional career has been built at AFP, as I started as an intern taking care of social networks and the multimedia part of the website accessed by agency's clients.
+
+    While at university, I became familiar with fact-checking as a niche that was beginning to develop in journalism and I became interested in it. I took a course and soon after came the opportunity to work within the agency itself as a fact-checker.
+
+    ### What is the Brazilian media and fact-checking ecosystem like? What strengths and what gaps do you see?
+
+    The Brazilian fact-checking ecosystem is still relatively new, as in most places, but we see a rich and diverse scenario, with clever and engaged fact-checkers. As a result, collaborative fact-check initiatives are on the rise such as the [Comprova Project](https://projetocomprova.com.br/), that brings together around 30 Brazilian media outlets, and a [special project run by Brazil's Superior Electoral Court](https://www.poynter.org/fact-checking/2020/brazilian-election-fact-checkers-detected-16-electoral-hoaxes-in-48-hours-a-third-of-the-total-registered-in-2018/) to fight misinformation in elections in 2020. AFP is  part of both the initiatives.
+
+    We would like to see more of such collaborations with political bodies, especially before the 2022 presidential election.  
+
+    ### You just covered Brazil municipal elections - what kind of misinformation and trends did you see in this election and how did you address them?
+
+    This year's election saw a different misinformation flow than in the past years: much more focused on the electoral process than on the candidates themselves. As a whole, the electronic ballot remained a target, with multiple posts questioning the safety of the system and the legitimacy of the official results.
+
+    In that context, it was even more important to act quickly as a small local complaint could jeopardize the entire electoral integrity. With that in mind, we worked on almost 30 claims and are still closely monitoring the subject.
+
+    The above-mentioned fact-checking coalition formed by the Superior Electoral Court was also a big help this year, making it easier for us to access official information and helping us increase our content's reach.
+
+    ### What are the kind of challenges you face while fact-checking misinformation and engaging with users on social media?
+
+    The biggest challenge of fact-checking is being able to handle the amount of misinformation circulating on social media and checking it before it causes serious damage.
+
+    Besides that, depending on what is being verified, in a country which has been experiencing intense polarization, the audience shows resistance to fact-check articles as in many cases it challenges their core beliefs. But we still notice more willingness among users in wanting to refute false content and sending it to us so that we can verify it.
+
+    ### How has been your experience of using Check? What else would you like the tool to do for you?
+
+    Check has been very useful, enabling us to automatically interact with our readers, while we still have time to identify and verify misleading posts.
+
+    Specifically, we're happy with the way we can easily adapt the bot responses to our needs. This has proven helpful during the whole coronavirus pandemic, but also for specific events such as the municipal elections. In both cases, we were able to create tailored menu options, allowing our users to filter content depending on their interest.
+
+    To make it even better for our readers, we'd love it if they could search for specific debunks using keywords directly on WhatsApp.
+
+    ### What is your vision and hopes for journalism and the world in a post- pandemic world?
+
+    The COVID-19 pandemic has exposed a very worrying scenario of discrediting science and verified information, with conspiracy theories and miracle cures gaining a larger number of followers.
+
+    On the other hand, and possibly due to the large number of false allegations that have circulated since the new coronavirus was detected, the audience is trying to protect themselves from misleading content, becoming more aware and less tolerant with misinformation.
+
+    In this context, journalists and fact-checkers have an even more important role in raising awareness about what people are publishing on the internet and flagging statements, which are deceptive, specifically from politicians and prominent figures.
+  date: '2020-12-02'
+  title-en: Meet Cecila Sorgine and Maria Clara Pestre, fact-checkers with AFP Checamos
+  alt_date: *27
+  alt_date_string: '2020-12-02'
+- sys:
+    id: 7MrKLynHPvTGAgLUo1Vkn2
+    created_at: &28 !ruby/object:DateTime 2020-12-02 18:05:20.762000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-02 18:21:31.418000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: One of year of running the End-End to Fact-Checking project
+  slug: one-of-year-of-running-the-end-end-to-fact-checking-project
+  body: |-
+    In December 2020, Meedan completes one year of running a [global fact-checking project](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact) using the WhatsApp Business API. Meedan worked with WhatsApp, Facebook and Facebook's third party fact-checking organizations (3PFCs) from India, Brazil and Africa to run the end-end fact-checking project on WhatsApp tiplines and [Check](https://meedan.com/check), an open-source platform built by Meedan.
+
+    During this period, the fact-checking community addressed misinformation around elections, current news events and a pandemic which is yet to recede.The pandemic and resulting lockdowns, induced a greater reliance on digital technologies to remain connected. Simultaneously, misinformation soared and our partners' tiplines saw a surge in submissions. Amid this major upheaval, the gritty and relentless work of fact-checkers and our team is in itself a huge accomplishment.
+
+    In this post, we reflect on the lessons learned and document the insights gathered through this partnership.
+
+    ### What have we accomplished?
+
+    **From five partners in Phase I to ten in Phase II**
+
+    Our collaboration with five global fact-checkers - [BOOM](https://www.boomlive.in/), [India Today](https://www.indiatoday.in/fact-check), [Africa Check](https://africacheck.org/) and [AFP](https://factcheck.afp.com/) (Brazil and India), were key to further customizing Check  to meet the needs and demands of fact-checking misinformation in closed messaging networks.
+
+    *"We are amazed with the progress with the tool. If you look at the tool from the beginning to now, you can see how much it's made customizable. You really want to know our needs and you try hard to do your best to make the tool fit with our needs"* -- Elodie Martinez, Coordinator AFP Latin America
+
+    In the second phase, five news partners - [Factly](https://factly.in/), [Vishvas news](https://www.vishvasnews.com/), [Estadão Verifica](https://politica.estadao.com.br/blogs/estadao-verifica/) - an initiative of Estadão; [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/), and [Webqoof](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/) - the fact-check wing of The Quint joined the project.
+
+    *"In just that last two months we have already found that It has really been a force multiplier in being able to track down fake posts."* -- Ritu Kapur, Founder and CEO, The Quint
+
+    **More collaborations and focussed efforts have scaled up fact-checking**
+
+    As of November 2020, all ten tiplines received ... submissions and distributed ... fact-checks. Within 5 months of launching the Phase I tiplines, Check saw around 180,000 submissions and distributed 5,700 fact-check reports. Altogether, we were able to reach XXXX WhatsApp users and engage in XXXX conversations.
+
+    Chart : monthly data of each partner - cumulative number unique fact-checks
+
+    **Check has become an integral part of partners' workflow**
+
+    The progress we made is most evident in Check, the tool that powers this project. "Our goal with Check," explained Meedan's Director of Product Pierre Conti, "is to build a scalable human and AI system for fact-checkers to efficiently size the demand for verification directly from their audience, cut through the noise, and maximize impact by helping them to prioritize their response to the most pressing misinformation."
+
+    Week by week and by round the clock service, hinging on a global team and input from our partners, the product now has adopted more innovations. We started with features for multi-lingual bots, workflow automation, similarity analysis and response at scale. While we improved on these features, our new features range from RSS feed, data integration from partner websites are key changes in user interface to streamline workflow.
+
+    *"Partnering with such diverse organizations and maintaining a constant stream of feedback and ideas flowing has helped us improve the platform tremendously, shaping it to fit the specific needs of our growing community. As a result, our 2021 roadmap is both precise and ambitious, with a focus on automation and new bot features with the goals of scaling audiences."* - Pierre Conti, Director of Product, Meedan
+
+    *"In 2020 we had an exciting set of new features and scalability improvements in order to accommodate the needs of all the different partners that came onboard. It's great to see how the software evolved.  I hope we can keep evolving together in 2021."* - Caio Almeida, Director of Engineering, Meedan
+
+    **Program and Product support**
+
+    At Meedan, we believe that ideas, people and vision give purpose to technology. As a result, we have integrated strong programmatic elements in our service. Some of the program elements are listed below:
+
+    -   Recognizing the need for expert advice and knowledge to address misinformation around a newly emerged disease - COVID-19, **Meedan's [Digital Health Lab](https://health.meedan.com/) set up the [COVID-19 database](https://learnaboutcovid19.org/)**. Our experts proactively identify potential misinformation and address queries from fact-checkers within a 24-48 hours timespan. This has expanded to cover other health misinformation as well. All our partners can submit a query directly from the workspace through an integrated intercom service.
+
+    -   In November 2020 we introduced a newsletter, **CheckPost** with the aim of sharing best practices & insights from the WhatsApp end-to-end fact-checking project with all our partners.
+
+    -   The team worked with partners to implement **[advertising campaigns](https://meedan.com/blog/how-our-fact-checking-partners-promote-their-whatsapp-tiplines/)** supported by Facebook in order to promote tiplines. Based on our weekly analysis of data and insights from all partners, we have provided regular feedback on the bot menu and advertisement content to partners. This has increased conversations and resulted in more submissions to the tiplines.
+
+    -   Meedan's program and product teams **regularly test tiplines and inspect Check workspaces** to identify bugs and the need for new features.
+
+    -   By integrating **intercom service in the workspace**, partners are able to reach out to us with bug reports or any other technical difficulties round the clock.
+
+    -   Data is key to understanding what works, since September we provide **weekly data updates** to partners and discuss Key Performance Indicators in the weekly check-ins.
+
+    *"Close coordination among fact-checkers, public health institutions and other communications stakeholders is essential for addressing the unique midinformation challenges we face today, where informational ambiguity based on scant or conflicting evidence, or emerging scientific knowledge can exacerbate the spread of disease. Tiplines offering localized, relevant and up-to-date health information is a new frontier of health communications and health literacy, and fact-checkers are at the forefront."* --Nat Gynes, Program Director, Digital Health Lab, Meedan
+
+    ### Key insights from the project
+
+    -   Bots can engage WhatsApp users; they are the new audience engagement paradigm. Designing effective bots with clear and unambiguous scripts and updated menus can generate quality submissions for WhatsApp tiplines.  
+
+    -   Following the news cycle is important for tiplines. Large events have generated more misinformation and have resulted in more submissions for the tiplines.
+
+    -   Fact-checkers need no-nonsense, no-code interfaces in multiple languages.
+
+    -   With well devised plans, machines in the loop augment quality human efforts 
+
+    -   Analysis of workspace data and agility in adopting new strategies are important for building WhatsApp audience and staying ahead of the curve.
+
+    *"Working in regions where WhatsApp is among the most popular messaging platforms, the tiplines are a great strategy to engage with WhatsApp users and provide credible and verified information. By making available information and resources in local languages on the tiplines, our partners have been able to provide high quality content to WhatsApp users. This year COVID-19 misinformation has shown us how important it is to follow the news cycle to address misinformation. This helps us prepare for 2021 and get ready to address COVID-19 vaccine misinformation through the tiplines."* - Shalini Joshi, Program Director - APAC, Meedan
+
+    ### Future plans
+
+    The fight against misinformation is a continuous process and fact-checking more than ever needs to stay ahead of the curve. As the world witnessed a misinfodemic, narratives that challenge the integrity of elections and institutions in democracies, there is a need to scale up the work of fact-checkers.
+
+    In the coming year we hope to: 
+
+    -   Continue sharing insights and best practices across all partners and build collective knowledge
+
+    -   Improve Check for greater automation for scaling up fact-checking and optimizing the time of fact-checkers
+
+    -   Support media literacy campaigns and fact-check training programmes
+  date: '2020-12-02'
+  title-en: One of year of running the End-End to Fact-Checking project
+  alt_date: *28
+  alt_date_string: '2020-12-02'
