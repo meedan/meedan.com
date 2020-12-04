@@ -3,11 +3,82 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-12-01 03:10:18.243000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-03 22:45:29.957000000 Z
     content_type_id: moduleStories
-    revision: 59
+    revision: 61
   title: Blog
   stories:
+  - sys:
+      id: 2gMzQXi8ze1WfZOdtEmzT2
+      created_at: !ruby/object:DateTime 2020-12-03 20:32:11.826000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 22:44:19.197000000 Z
+      content_type_id: story
+      revision: 1
+    title: Landmark alliance launches in Africa to fight COVID-19 misinformation
+    slug: landmark-alliance-launches-in-africa-to-fight-covid-19-misinformation
+    topic:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+    lead_image:
+      sys:
+        id: 2Z9oVr9JrnYW0lykn3omGT
+        created_at: !ruby/object:DateTime 2020-12-03 22:41:26.456000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 22:44:13.054000000 Z
+      title: Landmark alliance launches in Africa to fight COVID-19 misinformation
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2Z9oVr9JrnYW0lykn3omGT/d21ca066322f82d35287e112b27598ea/meedan_africa-infodemic-response-alliance.png"
+    description: The World Health Organization (WHO) today launched a new alliance,
+      the Africa Infodemic Response Alliance (AIRA), to coordinate actions and pool
+      resources in combating misinformation around COVID-19 pandemic and other health
+      emergencies in Africa.
+    body: "Digital platforms have been inundated with COVID-19-related information
+      since the pandemic began in late 2019. Information about the virus has been
+      shared and viewed over 270 billion times online and mentioned almost 40 million
+      times on Twitter and web-based news sites in the 47 countries of the WHO African
+      Region between February and November 2020, according to UN Global Pulse, the
+      United Nations’ Secretary-General’s initiative on big data and artificial intelligence.
+      \n\nA large proportion of this information is inaccurate and misleading and
+      continues to be shared by social media users intentionally or unknowingly everyday.
+      The COVID-19 infodemic is amplified online through social media but health misinformation
+      is also circulating offline.  \n\nMeasuring precisely how much of what is circulating
+      is misinformation is difficult, but fact-checking organizations in Africa say
+      they have debunked more than 1000 of such misleading reports since the onset
+      of the pandemic. Some of the widely shared misinformation include conspiracies
+      around unproven treatments, false cures and anti-vaccine messages. \n\n> “In
+      health emergencies, misinformation can kill and ensure diseases continue to
+      spread. People need proven, science-based facts to make informed decisions about
+      their health and well-being, and a glut of information - an infodemic - with
+      misinformation in the mix makes it hard to know what is right and real. This
+      crucial new alliance brings unique reach, knowledge and skills to help stop
+      the impact of dangerous misinformation,” said Dr Matshidiso Moet, WHO Regional
+      Director for Africai.\n\nAmong others, the  Africa Infodemic Response Alliance
+      \ will work collaboratively to counter false information around COVID-19 vaccines
+      and complement on the ground public health awareness raising and community engagement
+      efforts by creating demand for vaccines in the region.\n\nThe network is the
+      first initiative of its kind and it brings together 13 international and regional
+      organizations and fact-checking groups with expertise in data and behavioural
+      science, epidemiology, research, digital health, and communications to detect,
+      disrupt and counter damaging misinformation on public health issues in Africa.
+      \n\nThe Alliance will encourage proactive disclosure by data holders and support
+      journalists and media outlets to effectively share lifesaving information based
+      on scientific evidence and debunk disinformation on health issues. It also aims
+      to support individual African countries in developing tailored infodemic management
+      strategies, including analysing trends and behaviours, recruiting specialists
+      and refining systematic engagement strategies rooted in research and analytics.\n\nThis
+      initiative puts into practice key recommendations on infodemic management that
+      were developed by over 1300 experts from across disciplines in early 2020 under
+      the auspices of WHO’s global Information Network for Epidemics (EPI-WIN).\n\nThe
+      Alliance members are Africa CDC, the International Federation of the Red Cross
+      and Red Crescent Societies (IFRC), the United Nations Verified initiative, the
+      United Nations Children’s Fund (UNICEF), The United Nations Educational, Scientific
+      and Cultural Organization (UNESCO) and United Nations Global Pulse. Participating
+      and supporting bodies include Africa Check, Agence France-Presse Fact Check,
+      PesaCheck, Dubawa and Meedan.\n\n> \"Close coordination among fact-checkers,
+      public health institutions and other communications stakeholders is essential
+      for addressing the unique midinformation challenges we face today, where informational
+      ambiguity based on scant or conflicting evidence, or emerging scientific knowledge
+      can exacerbate the spread of disease,\" said Nat Gyenes, Director Meedan's Digital
+      Health Lab."
   - sys:
       id: 1oezcGv5wPsj4CCnIvQpPV
       created_at: !ruby/object:DateTime 2020-11-13 20:58:40.593000000 Z
@@ -328,89 +399,6 @@ moduleStories:
       gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n\nWatch this
       video from July 2020 where Kritika Goel discussed with Meedan's Shalini Joshi
       and other speakers about India's fight against COVID-19 related misinformation. "
-  - sys:
-      id: 8uNg1zwgWmXgTHQGAcS56
-      created_at: !ruby/object:DateTime 2020-10-23 15:57:34.763000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-30 18:00:40.855000000 Z
-      content_type_id: story
-      revision: 2
-    title: Why fact-checkers matter in elections
-    slug: why-fact-checkers-matter-in-elections
-    topic:
-    - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 4bUcaQNKTusZQEpk3LBIOz
-        created_at: !ruby/object:DateTime 2020-10-27 19:12:55.501000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-27 19:13:09.517000000 Z
-      title: Why fact-checkers matter in elections
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4bUcaQNKTusZQEpk3LBIOz/ac4495c523f3320ae6c7ba92da58a0c6/meedan_fact-checking-elections-2020.jpg"
-    body: "On October 16, 2020, Meedan organized an event to discuss election reporting
-      and integrity in the backdrop of upcoming elections in the United States on
-      November 3 and in Myanmar on November 8, 2020. Journalists from these countries
-      face  enormous challenges of reporting amidst multiple crises of COVID-19 pandemic,
-      internet shutdown, misuse of popular social media platforms, historic wildfires
-      and vaccines in development. \n\nThough not under the same circumstances, elections
-      in other countries in 2018 and 2019 saw journalists and fact-checkers report
-      amid massive social and political change. To learn from the experiences of journalists
-      who have covered elections recently, we were joined by \n\n- [Ellen T.Tordesillas](https://twitter.com/tordesillas),
-      Trustee and writer at[ VERA Files](https://verafiles.org/), a group that undertakes
-      in-depth reporting on current issues.and is a third-party fact-checker for Facebook
-      in the Philippines\n- [Jency Jacob](https://twitter.com/jencyjac), Managing
-      Editor of [BOOM](https://www.boomlive.in/), India's premier fact-checking digital
-      initiative\n- [Summer Chen](https://twitter.com/SummerLake), Chief Editor of[
-      Taiwan FactCheck Center](https://tfc-taiwan.org.tw/) (TFC). TFC has been leading
-      the battle against misinformation related to COVID-19 and the presidential elections
-      in Taiwan.\n- [Sean Ndlovu](https://twitter.com/seanndlovu), co-founder and
-      innovation and research manager at [[CITE](https://cite.org.zw/)],  a Zimbabwean
-      community space and incubator for innovators, technologists and journalists. \n\nThe
-      session was moderated by [Monika Bauerlein](https://twitter.com/MonikaBauerlein),
-      [Mother Jones](https://www.motherjones.com/)' chief executive officer. \nThe
-      session was organized by Shalini Joshi, Megan Marrelli and Nat Gyenes. \n\n<p
-      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/tWnMc3qIVJ0?rel=0\"
-      frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media;
-      gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n\nHere are some
-      insights from the discussion: \n\n#### Misinformation and disinformation campaigns
-      are attacks on democracy. \n\nElection misinformation poses serious threats
-      to the integrity of elections and legitimacy of institutions in countries. Unproven
-      claims on electronic voting machines being tampered in India, false claims of
-      polling booths shut down in Zimbabwe and wrong claims of election fraud in Taiwan
-      - election integrity has come under threat repeatedly in the past few years. \n\n>
-      \"During this year's Taiwan election, their biggest challenge was misinformation
-      about election fraud, especially through LINE, raising doubt in voting systems.\"
-      - Summer Chen\n\n#### Multiple crises amid elections made combating election
-      misinformation more challenging.  \n\nFact-checkers were prepared to combat
-      election misinformation, but did not anticipate the scale of which it struck
-      due to the multiple crises that emerged. If in India it was a terrorist attack,
-      in Taiwan it was the COVID-19 pandemic. \n\n> \"We were always working towards
-      the 2019 general elections in India. But none of us bargained for what was going
-      to happen in the months prior to the election. The Pulwama terrorist attack
-      that killed over 40 paramilitary personnel and a near war situation between
-      India and Pakistan completely changed the tone of the election.\" - Jency Jacob\n\n####
-      Misinformation comes from multiple sources and often in orchestrated manners.\n\nAs
-      more and more people become part of the digital world, elections are not determined
-      solely by ground politics. Social media wings of political parties engage in
-      virtual battles to swing votes and conduct smear campaigns with the aid of faceless
-      users running Twitter profiles and Facebook pages.  Countries also face orchestrated
-      misinformation attacks which can be traced to external actors attempting to
-      destabilize governments and elections. \n\n#### Elections are trying times for
-      fact-checkers, but commitment and the impact of their work keep them going. \n\n>
-      \"Through the challenge of disinformation, we're positive, because audiences
-      have noticed it is an issue. They care.\" - Summer Chen\n\n> \"The fact that
-      there's so much to do is what keeps us going.\" - Ellen Tordesillas\n\n> \"We
-      need collaboration, collaboration and collaboration to address election disinformation.\"
-      - Sean Ndlovu\n\n> \"Before 2017, no fact-checkers existed in India. If you
-      would Google a rumor, you would generally not have any reporting on it. Now,
-      we have more than 15 fact-checking organizations across the country. An ecosystem
-      of fact-checkers increases the potential for users to encounter quality information
-      & fact-checks.\" - Jency Jacob"
-    words_by:
-    - sys:
-        id: 5i0ZluvBzz6h4ashdZJIkH
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z

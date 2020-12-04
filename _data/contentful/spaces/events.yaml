@@ -3039,3 +3039,128 @@ event:
   non_public: true
   event_date_string: '2020-08-12'
   event_end_date_string: '2020-08-12'
+- sys:
+    id: 302ZOXlWubrynf1z1Jnw1D
+    created_at: !ruby/object:DateTime 2020-12-03 19:49:39.146000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-04 19:38:07.603000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'PRISM Health Symposium: Ethics Panel'
+  event_date: !ruby/object:DateTime 2020-12-03 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-12-03 00:00:00.000000000 Z
+  time: |
+    - *San Francisco* 12:10pm
+    - *New York* 3:10pm
+    - *São Paolo* 4:10pm
+    - *London* 8:10pm
+    - *Nairobi* 10:10pm
+    - *Delhi* 12:40am (+1)
+    - *Manila* 3:10am(+1)
+  images:
+  - sys:
+      id: 6MF7dol5lIQtYX5djhbmjD
+      created_at: !ruby/object:DateTime 2020-12-04 19:07:03.333000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-04 19:07:20.716000000 Z
+    title: 'PRISM Health Symposium: Ethics Panel'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6MF7dol5lIQtYX5djhbmjD/2d1aaf3487b9e07d0db7b5664bc54236/meedan_PRISM_01.jpg"
+  - sys:
+      id: 2M8H0xU8U95cRImFUm7cI5
+      created_at: !ruby/object:DateTime 2020-12-04 19:07:24.665000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-04 19:07:46.560000000 Z
+    title: 'PRISM Health Symposium: Ethics Panel'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2M8H0xU8U95cRImFUm7cI5/ba13078e9301e6efd0a6a12027f6768e/meedan_PRISM_02.jpg"
+  location_human_friendly: Online
+  register_link: https://prism.ucsf.edu/
+  description: PRISM fosters a collaborative learning community for researchers in
+    social media and health.
+  long_description: |-
+    This year's Promoting Research in Social Media and Health Symposium (PRISM) will be a two-day virtual research symposium. PRISM fosters a collaborative learning community for researchers in social media and health. The burgeoning field of social media and health research is broad but distinct from health information technology and mobile health. The PRISM planning committee does far-ranging research on health and social media. Prior work presented at PRISM includes vaccination attitudes, infectious disease outbreaks, tobacco cessation, and tanning bed use, all using online communication.
+
+    PRISM provides a one-of-a-kind opportunity for participants to meet, collaborate, and advance their work. Now in its fifth year, PRISM has hosted academic researchers, industry partners, patients, and advocates from over 40 unique institutions. PRISM is one of the few symposiums dedicated to social media and health research.
+  slug: prism-health-symposium-ethics-panel
+  non_public: true
+  event_date_string: '2020-12-03'
+  event_end_date_string: '2020-12-03'
+  image: https://images.ctfassets.net/g118h5yoccvd/6MF7dol5lIQtYX5djhbmjD/2d1aaf3487b9e07d0db7b5664bc54236/meedan_PRISM_01.jpg
+- sys:
+    id: 5XPiogE9edIx8pNGBiuOLm
+    created_at: !ruby/object:DateTime 2020-12-03 20:48:48.867000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-03 21:23:43.172000000 Z
+    content_type_id: event
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr. Seema
+    Yasmin'
+  event_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 8:00am
+    - *New York* 4:00pm
+    - *Brasilia* 6:00pm
+    - *London* 9:00pm
+    - *New Delhi* 2:30am +1
+    - *Manila* 5:00am (+1)
+    - *Tokyo* 6:00am (+1)
+  images:
+  - sys:
+      id: 6UM4uQWvHAOZKmqzyeveOv
+      created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
+  - sys:
+      id: 2d8CcybuZXrgFj1Y6NbcK2
+      created_at: !ruby/object:DateTime 2020-12-03 21:09:51.038000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 21:11:33.972000000 Z
+    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+      Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png"
+  social_card_image:
+    sys:
+      id: 6BTzT0amLYu1A1Bm1O9tMx
+      created_at: !ruby/object:DateTime 2020-12-03 21:11:08.712000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 21:11:41.656000000 Z
+    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+      Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png"
+  location_human_friendly: Instagram Live
+  long_description: |
+    The United Kingdom has become the first Western nation to approve a COVID-19 vaccine, setting the stage for the first doses to be delivered to citizens next week. Join Meedan's in-house medical specialist and Instagram Live host, Dr. Seema Yasmin, for a discussion with pediatric doctor Dr. Amile Inusa. The two specialists will discuss the world's first COVID-19 vaccine rollout, with a special focus on fears about the politicisation of the vaccine approval process and the safety of this first vaccine.
+
+    __Dr. Amile Inusa__ completed her training in the competitive North Central Thames Deanery and also worked as a locum doctor for two years primarily in Paediatrics & Emergency Medicine. She studied Medicine at The University of Manchester and holds a Masters (MSc) degree in Healthcare Ethics and Law. With a wide range of medical interests from Paediatrics and Global Health to Medical Education and Genetics, she has sought research opportunities in these areas. In 2017, she founded a podcast called 'Life After The Letters'. She has since transitioned her podcast into a media company in 2020 called 'circa1948' - aimed at serving the healthcare industry. Through this, she is able to pursue her interests and unique understanding of healthcare communication and partner management.
+
+    __Dr. Seema Yasmin__ is an Emmy Award-winning medical journalist, poet, physican and author. Yasmin served as an officer in the Epidemic Intelligence Service at the U.S. Centers for Disease Control and Prevention where she investigated disease outbreaks. She trained in journalism at the University of Toronto and in medicine at the University of Cambridge. Yasmin was a finalist for the Pulitzer Prize in breaking news in 2017 with a team from The Dallas Morning News and received an Emmy Award for her reporting on neglected diseases. She received two grants from the Pulitzer Center on Crisis Reporting and was selected as a John S. Knight Fellow in Journalism at Stanford University iin 2017 where she investigated the spread of health misinformation and disinformation during epidemics.
+  slug: the-first-covid-19-vaccine-rollout-instagram-live-discussion-with-dr-seema
+  event_date_string: '2020-12-08'
+  event_end_date_string: '2020-12-08'
+  image: https://images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png

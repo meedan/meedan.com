@@ -3,17 +3,17 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-26 22:10:21.883000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-04 19:08:42.194000000 Z
     content_type_id: moduleEvents
-    revision: 50
+    revision: 51
   title: Upcoming Events
   events:
   - sys:
-      id: txtEEozwe6Gp38udmg2gK
-      created_at: !ruby/object:DateTime 2020-11-05 17:00:32.334000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-26 16:02:16.733000000 Z
+      id: 5XPiogE9edIx8pNGBiuOLm
+      created_at: !ruby/object:DateTime 2020-12-03 20:48:48.867000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 21:23:43.172000000 Z
       content_type_id: event
-      revision: 1
+      revision: 3
       space:
         sys:
           id: g118h5yoccvd
@@ -27,54 +27,51 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: 'Book Talk: Destroy the Internet Advertising Economy With This One Weird
-      Trick'
-    event_date: !ruby/object:DateTime 2020-12-02 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-12-02 00:00:00.000000000 Z
+    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+      Seema Yasmin'
+    event_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
     time: |-
       - *San Francisco* 8:00am
-      - *New York* 11:00am
-      - *Brasilia* 1:00pm
-      - *London* 4:00pm
-      - *New Delhi* 9:30pm
-      - *Manila* 12:00am (+1)
-      - *Tokyo* 1:00am (+1)
-    status: Upcoming
+      - *New York* 4:00pm
+      - *Brasilia* 6:00pm
+      - *London* 9:00pm
+      - *New Delhi* 2:30am +1
+      - *Manila* 5:00am (+1)
+      - *Tokyo* 6:00am (+1)
     images:
     - sys:
-        id: 2e8NPm0MSplkDCPPxCddzi
-        created_at: !ruby/object:DateTime 2020-11-05 17:00:56.090000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-26 16:02:03.882000000 Z
-      title: Subprime Attention Crisis
-      description: Subprime Attention Crisis Book Cover
-      url: "//images.ctfassets.net/g118h5yoccvd/2e8NPm0MSplkDCPPxCddzi/4edadf0f7caa29371d6e3c17a109223e/meedan_webinar_tim-hwang_book_01.jpg"
+        id: 6UM4uQWvHAOZKmqzyeveOv
+        created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
     - sys:
-        id: 7fCVoxC8x01R4lvXoUKgNE
-        created_at: !ruby/object:DateTime 2020-11-05 17:01:34.366000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-26 16:02:09.845000000 Z
-      title: Tim Hwang Headshot
-      description: Headshot of author Tim Hwang
-      url: "//images.ctfassets.net/g118h5yoccvd/7fCVoxC8x01R4lvXoUKgNE/4bfc753ea6d59d151a940528b9937329/meedan_webinar_tim-hwang_book_02.jpg"
+        id: 2d8CcybuZXrgFj1Y6NbcK2
+        created_at: !ruby/object:DateTime 2020-12-03 21:09:51.038000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 21:11:33.972000000 Z
+      title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+        Seema Yasmin'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png"
     social_card_image:
       sys:
-        id: 1kJHXqeNbXxb6uD0mrh4fK
-        created_at: !ruby/object:DateTime 2020-11-26 15:58:44.218000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-26 15:59:33.001000000 Z
-      title: 'Tim Hwang: Destroy the Internet Advertising Economy'
+        id: 6BTzT0amLYu1A1Bm1O9tMx
+        created_at: !ruby/object:DateTime 2020-12-03 21:11:08.712000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 21:11:41.656000000 Z
+      title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+        Seema Yasmin'
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/1kJHXqeNbXxb6uD0mrh4fK/844ad27bf2bf14a2e96fdf8a22dc35fe/WWW_-_OII_wk_8_V3.jpg"
-    register_link: https://oii.zoom.us/webinar/register/5616063833332/WN_M8iAW8myTCG24W9Oal9jWg
-    description: 'Oxford Internet Institute Visiting Policy Fellow and Meedan Board
-      Member Tim Hwang in a book talk with Dr Scott A. Hale, a Senior Research Fellow
-      at the OII and Director of Resarch at Meedan. '
-    long_description: |-
-      The Oxford Internet Institute (OII) and Meedan welcome OII Visiting Policy Fellow and Meedan Board Member Tim Hwang, discussing his new book ‘Subprime Attention Crisis’ with Dr Scott A. Hale, a Senior Research Fellow at the OII and Director of Resarch at Meedan. Tim is a writer and researcher focusing on public policy and emerging technologies. This session will be a deep-dive conversation exploring how the modern online advertising economy really works, how fragile it may be in reality, and how we might move the internet towards a more sustainable future.
+      url: "//images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png"
+    location_human_friendly: Instagram Live
+    long_description: |
+      The United Kingdom has become the first Western nation to approve a COVID-19 vaccine, setting the stage for the first doses to be delivered to citizens next week. Join Meedan's in-house medical specialist and Instagram Live host, Dr. Seema Yasmin, for a discussion with pediatric doctor Dr. Amile Inusa. The two specialists will discuss the world's first COVID-19 vaccine rollout, with a special focus on fears about the politicisation of the vaccine approval process and the safety of this first vaccine.
 
-      Programmatic advertising—high-speed, algorithmically-facilitated, data-driven advertising—is the cornerstone of the modern internet. It has produced untold wealth for major companies like Facebook and Google, and is the predominant way that online media is made financially sustainable. At its heart, it is based in the idea that the vast trove of data available about people online enables hyper-targeted, hyper-effective persuasion. This promise has driven huge financial gains for businesses, and inspired countless op-eds from technology critics and commentators concerned about the influence of message microtargeting on individuals and society at large. But, much of what we know about online advertising suggests that these visions of an omnipotent persuasion engine are far from reality. In 2014, Google estimated that nearly 60% of ads on the internet are never seen. In 2017, Proctor and Gamble—one of the world’s largest advertisers—cut nearly $200M from its online advertising budget, to little effect.
+      __Dr. Amile Inusa__ completed her training in the competitive North Central Thames Deanery and also worked as a locum doctor for two years primarily in Paediatrics & Emergency Medicine. She studied Medicine at The University of Manchester and holds a Masters (MSc) degree in Healthcare Ethics and Law. With a wide range of medical interests from Paediatrics and Global Health to Medical Education and Genetics, she has sought research opportunities in these areas. In 2017, she founded a podcast called 'Life After The Letters'. She has since transitioned her podcast into a media company in 2020 called 'circa1948' - aimed at serving the healthcare industry. Through this, she is able to pursue her interests and unique understanding of healthcare communication and partner management.
 
-      The ostensible strength of online advertising is in reality, likely to be a bubble. The market has been sustainable in part through the economic destruction of traditional media, the perverse incentives of buyers and sellers of advertising, and the surprising opacity of the digital marketplace for attention. Even as attention online is increasingly “subprime”, these dynamics push the market towards new heights.
-    slug: book-talk-destroy-the-internet-advertising-economy-with-this-one-weird-trick
-    non_public: false
-    event_date_string: '2020-12-02'
-    event_end_date_string: '2020-12-02'
-    image: https://images.ctfassets.net/g118h5yoccvd/1kJHXqeNbXxb6uD0mrh4fK/844ad27bf2bf14a2e96fdf8a22dc35fe/WWW_-_OII_wk_8_V3.jpg
+      __Dr. Seema Yasmin__ is an Emmy Award-winning medical journalist, poet, physican and author. Yasmin served as an officer in the Epidemic Intelligence Service at the U.S. Centers for Disease Control and Prevention where she investigated disease outbreaks. She trained in journalism at the University of Toronto and in medicine at the University of Cambridge. Yasmin was a finalist for the Pulitzer Prize in breaking news in 2017 with a team from The Dallas Morning News and received an Emmy Award for her reporting on neglected diseases. She received two grants from the Pulitzer Center on Crisis Reporting and was selected as a John S. Knight Fellow in Journalism at Stanford University iin 2017 where she investigated the spread of health misinformation and disinformation during epidemics.
+    slug: the-first-covid-19-vaccine-rollout-instagram-live-discussion-with-dr-seema
+    event_date_string: '2020-12-08'
+    event_end_date_string: '2020-12-08'
+    image: https://images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png
