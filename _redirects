@@ -20,3 +20,6 @@
 
 # Domain Redirects
 https://next.meedan.com/*                 https://meedan.com/:splat     301!
+
+# Verfication
+/.well-known/*                           /well-known/*                  200
