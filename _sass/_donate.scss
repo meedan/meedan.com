@@ -1,0 +1,229 @@
+.module-tabs-donate .slick-initialized {
+
+    .tab {
+        color: var(--sunDown);
+        border-color: var(--sunDown);
+        padding-left: var(--space-1);
+        display: flex;
+        align-items: center;
+        &:hover {
+            border-bottom-color: $active-tab-color;
+            color: $active-tab-color;
+            background-color: rgba(#000, 0.2);
+        }
+
+        &.active-tab {
+            border-bottom-width: 8px;
+            border-bottom-color: $active-tab-color;
+            color: $active-tab-color;
+            background-color: rgba(#000, 0.5);
+        }
+    }
+
+    .single {
+        &:hover {
+            color: var(--coral);
+            border-bottom-color: var(--coral);
+        }
+        &.active-tab {
+            border-bottom-color: var(--coral);
+            color: var(--coral);
+        }
+    }
+
+    .monthly {
+        &:hover {
+            color: var(--lightNavy);
+            border-bottom-color: var(--lightNavy);
+        }
+        &.active-tab {
+            border-bottom-color: var(--lightNavy);
+            color: var(--lightNavy);
+        }
+    }
+
+    .annual {
+        &:hover {
+            color: var(--deepSea);
+            border-bottom-color: var(--deepSea);
+        }
+        &.active-tab {
+            border-bottom-color: var(--deepSea);
+            color: var(--deepSea);
+        }
+    }
+
+    h4 {
+        color: var(--sunDown);
+    }
+
+    .tab-text {
+        padding-left: 0;
+        padding-bottom: 0;
+        @include responsive('min-width: #{$width-tablet}') {
+            height: 60vw;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            height: 45vw;
+        }
+    }
+
+    .tab-image img {
+        height: 60vw;
+        @include responsive('min-width: #{$width-tablet}') {
+            height: 60vw;
+        }
+        @include responsive('min-width: #{$width-desktop}') {
+            height: 45vw;
+        }
+    }
+
+    .tab-content-wrapper {
+        color: var(--sunDown);
+    }
+
+    .smallprint p {
+        color: var(--silver);
+        font-size: 0.8rem;
+    }
+
+}
+
+.smallprint p {
+    font-size: 0.8rem;
+    a {
+        font-size: inherit;
+        color: inherit;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        line-height: 1.2;
+    }
+    margin-top: var(--space-1);
+    & + p {
+        margin-top: 0.8rem;
+    }
+}
+
+.donate-options {
+    margin-top: auto;
+}
+
+.annual .donate-options {
+    margin-top: var(--space-2);
+}
+
+.capsules {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--space-1);
+}
+
+.capsules button {
+    display: inline-block;
+    background-color: transparent;
+    padding: 1rem 0.5rem;
+    border: 1px solid var(--sunDown);
+    color: var(--sunDown);
+    font-size: var(--scale-0);
+    font-family: 'Telegraf-Regular', Arial, Helvetica, sans-serif;
+    outline: 0;
+    
+    &:hover {
+        cursor: pointer;
+        color: var(--blackInk);
+        background-color: var(--sunDown);
+    }
+}
+
+.dots {
+    display: flex;
+}
+
+.dots button {
+    &:not(:last-child) {
+        margin-right: var(--space-1);
+    }
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: inherit;
+    font-size: var(--scale-0);
+    font-family: 'Telegraf-Regular', Arial, Helvetica, sans-serif;
+    outline: 0;
+    
+    &:hover {
+        cursor: pointer;
+        color: var(--blackInk);
+        background-color: var(--sunDown);
+    }
+}
+
+// Annual Campaign
+
+body.annual {
+    color: var(--vividBlue);
+    background: linear-gradient(180deg, #ADD9F7 0%, #ADD9F7 15.03%, #E2DFC4 25.94%, #E7E2B2 38.28%, #A2A7FF 48.13%, #A3A8FF 79.71%, #EE82F3 86.87%);
+
+    .callout text {
+        fill: var(--vividBlue);
+    }
+
+    h2 {
+        font-family: $font-stack-d;
+        font-size: var(--scale-3);
+        letter-spacing: -0.1rem;
+        line-height: 0.95;
+        color: var(--vividBlue);
+    }
+}
+
+.annual header .meedan svg {
+    fill: var(--vividBlue);
+}
+
+.annual header .menu-icon svg {
+    stroke: var(--vividBlue);
+}
+
+.annual header .cursor {
+    border-color: var(--vividBlue);
+}
+
+body.annual .page-wrapper {
+
+    .standfirst {
+        font-family: $font-stack-d;
+    }
+    
+    .key-point {
+        border-color: var(--vividBlue);
+    }
+    
+    .donate-options button {
+        &:hover {
+            background-color: var(--vividBlue);
+            border-color: var(--vividBlue);
+            color: #fff;
+        }
+    }
+
+    .small-hr:before {
+        border-color: var(--vividBlue);
+    }
+
+    a.transparent {
+        color: var(--vividBlue);
+        border-color: var(--vividBlue);
+        &:hover {
+            background-color: var(--vividBlue);
+            color: #fff;
+        }
+    }
+
+    .smallprint a { 
+        text-decoration: underline;
+        color: var(--vividBlue); 
+    }
+}

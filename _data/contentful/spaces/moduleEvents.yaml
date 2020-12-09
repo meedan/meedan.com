@@ -3,17 +3,17 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-11 23:55:02.945000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-04 19:08:42.194000000 Z
     content_type_id: moduleEvents
-    revision: 49
+    revision: 51
   title: Upcoming Events
   events:
   - sys:
-      id: 3fGBeLe0aWtOMrdYHvYAti
-      created_at: !ruby/object:DateTime 2020-11-11 16:11:29.617000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-16 10:38:42.690000000 Z
+      id: 5XPiogE9edIx8pNGBiuOLm
+      created_at: !ruby/object:DateTime 2020-12-03 20:48:48.867000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-07 15:25:45.420000000 Z
       content_type_id: event
-      revision: 2
+      revision: 4
       space:
         sys:
           id: g118h5yoccvd
@@ -27,47 +27,51 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: 'IFF MENA Community Knowledge Session: Independent Media in Lebanon After
-      the Blast'
-    event_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-    time: "- *San Francisco* 8am\n- *New York* 11am\n- *São Paolo* 12pm\n- *London*
-      4pm \n- *Nairobi* 7pm\n- *Delhi* 9:30pm\n- *Manila* 11pm\n"
-    status: Upcoming
+    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+      Seema Yasmin'
+    event_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+    time: |-
+      - *San Francisco* 8:00am
+      - *New York* 4:00pm
+      - *Brasilia* 6:00pm
+      - *London* 9:00pm
+      - *New Delhi* 2:30am +1
+      - *Manila* 5:00am (+1)
+      - *Tokyo* 6:00am (+1)
     images:
     - sys:
-        id: 7osdXlMczm9SkZHYMIqnQy
-        created_at: !ruby/object:DateTime 2020-07-15 21:41:59.795000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-15 21:42:32.806000000 Z
-      title: Internet Freedom Festival Glitter Meetup – Recordkeepers of the Resistance
+        id: 6UM4uQWvHAOZKmqzyeveOv
+        created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg"
+      url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
     - sys:
-        id: 4IchgAvVUkRE4qWYB4njsu
-        created_at: !ruby/object:DateTime 2020-11-11 20:10:23.744000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-11 20:13:15.722000000 Z
-      title: 'IFF MENA Community Knowledge Session: Independent Media in Lebanon After
-        the Blast'
-      description: Azza El Masri, Meedan
-      url: "//images.ctfassets.net/g118h5yoccvd/4IchgAvVUkRE4qWYB4njsu/6184743c2e5c7781dea5b6f533bde437/meedan_beirut.jpg"
-    location_human_friendly: Online on Zoom
-    register_link: https://internetfreedomfestival.formstack.com/forms/mena3
-    description: 'NAWA Program Coordinator Azza El Masri will discuss the economic,
-      political, and mental health challenges experienced by independent media workers
-      in Lebanon after the Beirut Blast. '
-    long_description: |-
-      On August 4, 2,700 tons of ammonium nitrate stored in Beirut's port ripped through half of the capital, taking 200 lives, injuring thousands and rendering 300,000 homeless. The impact of the blast was also felt by independent media workers, who'd had -- over the years -- taken up headquarters in the neighborhoods that had been hit the most. In the midst of an economic collapse and a crippling pandemic, independent media workers have had to also adapt in the midst of a state of emergency, acknowledge the limitations of the current donor-based business model as well as deal with the trauma incurred by the blast.
+        id: 2d8CcybuZXrgFj1Y6NbcK2
+        created_at: !ruby/object:DateTime 2020-12-03 21:09:51.038000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 21:11:33.972000000 Z
+      title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+        Seema Yasmin'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png"
+    social_card_image:
+      sys:
+        id: 6BTzT0amLYu1A1Bm1O9tMx
+        created_at: !ruby/object:DateTime 2020-12-03 21:11:08.712000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 21:11:41.656000000 Z
+      title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+        Seema Yasmin'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png"
+    location_human_friendly: Instagram Live
+    long_description: |
+      People in the UK began receiving a newly-authorized COVID-19 vaccine on Monday December 7, making the UK the first Western country to issue emergency approval of a vaccine and to launch a COVID-19 vaccination campaign. Was approval of the vaccine a political decision? Were scientists rushed by lawmakers? Who will receive the vaccine first and who is next in line? Join Dr. Seema Yasmin and Dr. Amile Inusa for an IG Live on Tuesday December (1 pm PT/ 8 pm GMT) to discuss these questions and more.
 
-      This MENA Community Knowledge session (MENA CKS) will focus on:
+      __Dr. Amile Inusa__ completed her training in the competitive North Central Thames Deanery and also worked as a locum doctor for two years primarily in Paediatrics & Emergency Medicine. She studied Medicine at The University of Manchester and holds a Masters (MSc) degree in Healthcare Ethics and Law. With a wide range of medical interests from Paediatrics and Global Health to Medical Education and Genetics, she has sought research opportunities in these areas. In 2017, she founded a podcast called 'Life After The Letters'. She has since transitioned her podcast into a media company in 2020 called 'circa1948' - aimed at serving the healthcare industry. Through this, she is able to pursue her interests and unique understanding of healthcare communication and partner management.
 
-      -   The impact of the martial law on the security and freedom of independent journos after the blast
-      -   How the blast affected the business model of independent media outlets and the role of  emergency funding for media
-      -   What kind of regional cooperation is needed in terms of archiving and journalistic collaboration and training
-      -   The impact of trauma on independent journalists
-
-      **Azza El Masri** is [Meedan](https://meedan.com/)'s NAWA Program Coordinator and a Lebanese investigative journalist. She also conducts research on political misinformation online.
-    slug: iff-mena-community-knowledge-session-independent-media-in-lebanon-after-the
-    non_public: false
-    event_date_string: '2020-11-20'
-    event_end_date_string: '2020-11-20'
-    image: https://images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg
+      __Dr. Seema Yasmin__ is an Emmy Award-winning medical journalist, poet, physican and author. Yasmin served as an officer in the Epidemic Intelligence Service at the U.S. Centers for Disease Control and Prevention where she investigated disease outbreaks. She trained in journalism at the University of Toronto and in medicine at the University of Cambridge. Yasmin was a finalist for the Pulitzer Prize in breaking news in 2017 with a team from The Dallas Morning News and received an Emmy Award for her reporting on neglected diseases. She received two grants from the Pulitzer Center on Crisis Reporting and was selected as a John S. Knight Fellow in Journalism at Stanford University iin 2017 where she investigated the spread of health misinformation and disinformation during epidemics.
+    slug: the-first-covid-19-vaccine-rollout-instagram-live-discussion-with-dr-seema
+    event_date_string: '2020-12-08'
+    event_end_date_string: '2020-12-08'
+    image: https://images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png

@@ -25,12 +25,12 @@ a.button.no-bottom-margin {
 
 a.transparent {
     background-color: transparent;
-    border-color: inherit !important;
+    border-color: inherit;
 }
 
 .dark a.button:hover {
     background-color: var(--sunDown);
-    color: var(--blackInk)
+    color: var(--blackInk);
 }
 
 .trail {

@@ -3,11 +3,126 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-10 21:19:13.542000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-03 22:45:29.957000000 Z
     content_type_id: moduleStories
-    revision: 58
+    revision: 61
   title: Blog
   stories:
+  - sys:
+      id: 2gMzQXi8ze1WfZOdtEmzT2
+      created_at: !ruby/object:DateTime 2020-12-03 20:32:11.826000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 22:44:19.197000000 Z
+      content_type_id: story
+      revision: 1
+    title: Landmark alliance launches in Africa to fight COVID-19 misinformation
+    slug: landmark-alliance-launches-in-africa-to-fight-covid-19-misinformation
+    topic:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+    lead_image:
+      sys:
+        id: 2Z9oVr9JrnYW0lykn3omGT
+        created_at: !ruby/object:DateTime 2020-12-03 22:41:26.456000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 22:44:13.054000000 Z
+      title: Landmark alliance launches in Africa to fight COVID-19 misinformation
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2Z9oVr9JrnYW0lykn3omGT/d21ca066322f82d35287e112b27598ea/meedan_africa-infodemic-response-alliance.png"
+    description: The World Health Organization (WHO) today launched a new alliance,
+      the Africa Infodemic Response Alliance (AIRA), to coordinate actions and pool
+      resources in combating misinformation around COVID-19 pandemic and other health
+      emergencies in Africa.
+    body: "Digital platforms have been inundated with COVID-19-related information
+      since the pandemic began in late 2019. Information about the virus has been
+      shared and viewed over 270 billion times online and mentioned almost 40 million
+      times on Twitter and web-based news sites in the 47 countries of the WHO African
+      Region between February and November 2020, according to UN Global Pulse, the
+      United Nations’ Secretary-General’s initiative on big data and artificial intelligence.
+      \n\nA large proportion of this information is inaccurate and misleading and
+      continues to be shared by social media users intentionally or unknowingly everyday.
+      The COVID-19 infodemic is amplified online through social media but health misinformation
+      is also circulating offline.  \n\nMeasuring precisely how much of what is circulating
+      is misinformation is difficult, but fact-checking organizations in Africa say
+      they have debunked more than 1000 of such misleading reports since the onset
+      of the pandemic. Some of the widely shared misinformation include conspiracies
+      around unproven treatments, false cures and anti-vaccine messages. \n\n> “In
+      health emergencies, misinformation can kill and ensure diseases continue to
+      spread. People need proven, science-based facts to make informed decisions about
+      their health and well-being, and a glut of information - an infodemic - with
+      misinformation in the mix makes it hard to know what is right and real. This
+      crucial new alliance brings unique reach, knowledge and skills to help stop
+      the impact of dangerous misinformation,” said Dr Matshidiso Moet, WHO Regional
+      Director for Africai.\n\nAmong others, the  Africa Infodemic Response Alliance
+      \ will work collaboratively to counter false information around COVID-19 vaccines
+      and complement on the ground public health awareness raising and community engagement
+      efforts by creating demand for vaccines in the region.\n\nThe network is the
+      first initiative of its kind and it brings together 13 international and regional
+      organizations and fact-checking groups with expertise in data and behavioural
+      science, epidemiology, research, digital health, and communications to detect,
+      disrupt and counter damaging misinformation on public health issues in Africa.
+      \n\nThe Alliance will encourage proactive disclosure by data holders and support
+      journalists and media outlets to effectively share lifesaving information based
+      on scientific evidence and debunk disinformation on health issues. It also aims
+      to support individual African countries in developing tailored infodemic management
+      strategies, including analysing trends and behaviours, recruiting specialists
+      and refining systematic engagement strategies rooted in research and analytics.\n\nThis
+      initiative puts into practice key recommendations on infodemic management that
+      were developed by over 1300 experts from across disciplines in early 2020 under
+      the auspices of WHO’s global Information Network for Epidemics (EPI-WIN).\n\nThe
+      Alliance members are Africa CDC, the International Federation of the Red Cross
+      and Red Crescent Societies (IFRC), the United Nations Verified initiative, the
+      United Nations Children’s Fund (UNICEF), The United Nations Educational, Scientific
+      and Cultural Organization (UNESCO) and United Nations Global Pulse. Participating
+      and supporting bodies include Africa Check, Agence France-Presse Fact Check,
+      PesaCheck, Dubawa and Meedan.\n\n> \"Close coordination among fact-checkers,
+      public health institutions and other communications stakeholders is essential
+      for addressing the unique midinformation challenges we face today, where informational
+      ambiguity based on scant or conflicting evidence, or emerging scientific knowledge
+      can exacerbate the spread of disease,\" said Nat Gyenes, Director Meedan's Digital
+      Health Lab."
+  - sys:
+      id: 1oezcGv5wPsj4CCnIvQpPV
+      created_at: !ruby/object:DateTime 2020-11-13 20:58:40.593000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-24 18:50:17.570000000 Z
+      content_type_id: story
+      revision: 8
+    title: 3 new Brazilian partners fact-checking on WhatsApp
+    slug: meedan-welcomes-3-new-brazilian-partners
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+    lead_image:
+      sys:
+        id: 6E4xUDVdNg64NowaKnYj34
+        created_at: !ruby/object:DateTime 2020-11-13 21:25:27.361000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-13 21:26:07.381000000 Z
+      title: meedan new partners brazil
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png"
+    body: |
+      In time for the municipal elections across Brazil this past weekend, Meedan is pleased to announce three new Brazilian partners using our Check software for fact-checking on WhatsApp. They are: [Estadão Verifica](https://politica.estadao.com.br/noticias/geral,estadao-verifica-lanca-novo-servico-por-whatsapp,70003506752 "Estadão Verifica"), an initiative of Estadão; [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/ "Agência Lupa"), and [Fato ou Fake ](https://g1.globo.com/fato-ou-fake/noticia/2020/11/11/fato-ou-fake-lanca-bot-exclusivo-para-checar-conteudos-duvidosos.ghtml "Fato ou Fake"), by Globo Group. The latter initiative brings together journalists from G1, O Globo, Extra, Época, Valor, CBN, GloboNews and TV Globo.
+
+      Check is a tool for collaborative verification and annotation of digital media, with new features customized specifically for global fact-checking organizations. It's been deployed by  AFP (in Brazil and India), Africa Check, BOOM and India Today. These organization have been using Check since October 2019 across 4 languages and more than 180,000 submissions, including ongoing submissions today. Our case study on this program, called [End-to-End Fact-Checking](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact), details the insights, field research and product features that maximized the value of the WhatsApp API for fact checkers around the world; it’s name is a reference to the program’s ability to successfully fact-check on WhatsApp's end-to-end encrypted platform.
+
+      Natália Leal, content director at Lupa agency explains the importance of Check, “This tool expands the scope of Lupa's work, while at the same time bringing the agency closer to the public. It strengthens our monitoring of the false information environment and allows our reader another channel of communication with us. Thus, he has more access to verified information when making decisions that impact his life and society."
+
+      And for Estadão's, editor-in-chief David Friedlander, “Fake news deceives, misinforms and creates an atmosphere of confusion. That's why professional journalism is so important. With it's checking services, Estadão is dedicated to restoring the value of correct and reliable information”.
+
+      The new partners joined AFP Checamos, a pioneer in Brazil in the use of Check in their verification process on WhatsApp. “The tool has greatly improved the way we communicate with our WhatsApp audience,” said Maria Clara Pestre, AFP fact checker Checamos (Brazil). “Now, we can be sure that anyone who contacts us through the app will have an immediate and consistent response. At the same time, we have time to dedicate ourselves to the other steps in the verification process. ”
+
+      We adapted our toolkit to help fact-checkers focus on their work, not on technical tasks. This allowed teams to create their own workflows inside Check.
+
+      The platform has these main features:
+
+      - It allows the verification teams, based on the demand of the newsroom, to create menus of interactive content (bots) using their messaging channels;
+      - It imports the database of fact-checks from a journalistic organization, allowing them to send reports directly to the user of content that has already been verified.
+      - It also allows the public to send content suggestion to be checked by journalists;
+
+      For our partner organizations, the bot is an essential communication channel to engage their audience, understand and scale the demand for specific topics and distribute important information in other messaging networks. When building these relationships, it is also an opportunity to develop interactive monitoring and evaluation surveys with end users to assess the behavioral impacts of fact checks.
+
+      Check enables a publishing system to send fact verification reports to users of direct channels (tiplines) who send duplicate or similar requests. “Our goal with Check,” explained Meedan's Product Director, Pierre Conti, “is to build a human and AI system so that fact checkers can efficiently scale the demand for verification directly from the public, cut whatever just noise and thus maximize the impact of the checks. We do this to help verifiers prioritize the most relevant misinformation. ”
+    words_by:
+    - sys:
+        id: 57swkb0x1YLvhHB31YFb3U
   - sys:
       id: 78xCvxi2mN0tlE4alTubK9
       created_at: !ruby/object:DateTime 2020-10-28 10:56:02.594000000 Z
@@ -284,167 +399,6 @@ moduleStories:
       gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n\nWatch this
       video from July 2020 where Kritika Goel discussed with Meedan's Shalini Joshi
       and other speakers about India's fight against COVID-19 related misinformation. "
-  - sys:
-      id: 8uNg1zwgWmXgTHQGAcS56
-      created_at: !ruby/object:DateTime 2020-10-23 15:57:34.763000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-30 18:00:40.855000000 Z
-      content_type_id: story
-      revision: 2
-    title: Why fact-checkers matter in elections
-    slug: why-fact-checkers-matter-in-elections
-    topic:
-    - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 4bUcaQNKTusZQEpk3LBIOz
-        created_at: !ruby/object:DateTime 2020-10-27 19:12:55.501000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-27 19:13:09.517000000 Z
-      title: Why fact-checkers matter in elections
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4bUcaQNKTusZQEpk3LBIOz/ac4495c523f3320ae6c7ba92da58a0c6/meedan_fact-checking-elections-2020.jpg"
-    body: "On October 16, 2020, Meedan organized an event to discuss election reporting
-      and integrity in the backdrop of upcoming elections in the United States on
-      November 3 and in Myanmar on November 8, 2020. Journalists from these countries
-      face  enormous challenges of reporting amidst multiple crises of COVID-19 pandemic,
-      internet shutdown, misuse of popular social media platforms, historic wildfires
-      and vaccines in development. \n\nThough not under the same circumstances, elections
-      in other countries in 2018 and 2019 saw journalists and fact-checkers report
-      amid massive social and political change. To learn from the experiences of journalists
-      who have covered elections recently, we were joined by \n\n- [Ellen T.Tordesillas](https://twitter.com/tordesillas),
-      Trustee and writer at[ VERA Files](https://verafiles.org/), a group that undertakes
-      in-depth reporting on current issues.and is a third-party fact-checker for Facebook
-      in the Philippines\n- [Jency Jacob](https://twitter.com/jencyjac), Managing
-      Editor of [BOOM](https://www.boomlive.in/), India's premier fact-checking digital
-      initiative\n- [Summer Chen](https://twitter.com/SummerLake), Chief Editor of[
-      Taiwan FactCheck Center](https://tfc-taiwan.org.tw/) (TFC). TFC has been leading
-      the battle against misinformation related to COVID-19 and the presidential elections
-      in Taiwan.\n- [Sean Ndlovu](https://twitter.com/seanndlovu), co-founder and
-      innovation and research manager at [[CITE](https://cite.org.zw/)],  a Zimbabwean
-      community space and incubator for innovators, technologists and journalists. \n\nThe
-      session was moderated by [Monika Bauerlein](https://twitter.com/MonikaBauerlein),
-      [Mother Jones](https://www.motherjones.com/)' chief executive officer. \nThe
-      session was organized by Shalini Joshi, Megan Marrelli and Nat Gyenes. \n\n<p
-      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/tWnMc3qIVJ0?rel=0\"
-      frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media;
-      gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n\nHere are some
-      insights from the discussion: \n\n#### Misinformation and disinformation campaigns
-      are attacks on democracy. \n\nElection misinformation poses serious threats
-      to the integrity of elections and legitimacy of institutions in countries. Unproven
-      claims on electronic voting machines being tampered in India, false claims of
-      polling booths shut down in Zimbabwe and wrong claims of election fraud in Taiwan
-      - election integrity has come under threat repeatedly in the past few years. \n\n>
-      \"During this year's Taiwan election, their biggest challenge was misinformation
-      about election fraud, especially through LINE, raising doubt in voting systems.\"
-      - Summer Chen\n\n#### Multiple crises amid elections made combating election
-      misinformation more challenging.  \n\nFact-checkers were prepared to combat
-      election misinformation, but did not anticipate the scale of which it struck
-      due to the multiple crises that emerged. If in India it was a terrorist attack,
-      in Taiwan it was the COVID-19 pandemic. \n\n> \"We were always working towards
-      the 2019 general elections in India. But none of us bargained for what was going
-      to happen in the months prior to the election. The Pulwama terrorist attack
-      that killed over 40 paramilitary personnel and a near war situation between
-      India and Pakistan completely changed the tone of the election.\" - Jency Jacob\n\n####
-      Misinformation comes from multiple sources and often in orchestrated manners.\n\nAs
-      more and more people become part of the digital world, elections are not determined
-      solely by ground politics. Social media wings of political parties engage in
-      virtual battles to swing votes and conduct smear campaigns with the aid of faceless
-      users running Twitter profiles and Facebook pages.  Countries also face orchestrated
-      misinformation attacks which can be traced to external actors attempting to
-      destabilize governments and elections. \n\n#### Elections are trying times for
-      fact-checkers, but commitment and the impact of their work keep them going. \n\n>
-      \"Through the challenge of disinformation, we're positive, because audiences
-      have noticed it is an issue. They care.\" - Summer Chen\n\n> \"The fact that
-      there's so much to do is what keeps us going.\" - Ellen Tordesillas\n\n> \"We
-      need collaboration, collaboration and collaboration to address election disinformation.\"
-      - Sean Ndlovu\n\n> \"Before 2017, no fact-checkers existed in India. If you
-      would Google a rumor, you would generally not have any reporting on it. Now,
-      we have more than 15 fact-checking organizations across the country. An ecosystem
-      of fact-checkers increases the potential for users to encounter quality information
-      & fact-checks.\" - Jency Jacob"
-    words_by:
-    - sys:
-        id: 5i0ZluvBzz6h4ashdZJIkH
-  - sys:
-      id: 67ZjVi4T5sZUL6HHNAjZUp
-      created_at: !ruby/object:DateTime 2020-10-23 18:27:18.858000000 Z
-      updated_at: !ruby/object:DateTime 2020-10-26 21:23:28.270000000 Z
-      content_type_id: story
-      revision: 3
-    title: Hacktoberfest 2020 & Meedan
-    slug: hacktoberfest-2020-meedan
-    topic:
-    - sys:
-        id: 3YteOu0dCPeNZKQlFMQNwF
-    lead_image:
-      sys:
-        id: '01493vayIHj3NiM7MDB7sE'
-        created_at: !ruby/object:DateTime 2020-10-23 19:59:50.143000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-26 20:50:31.229000000 Z
-      title: meedan hacktoberfest-2020
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/01493vayIHj3NiM7MDB7sE/da9c63d156cf173c74cf9a58c67eb162/meedan_hacktoberfest-2020.png"
-    body: "We are in the last days of October, there is still time to contribute.
-      \ Join our Check developer community and help build the future of journalism
-      + earn cool swag!\n\n[Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-      is an annual global hackathon event hosted by DigitalOcean and GitHub to bring
-      developers together and contribute to open source software.\n\nAs part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-      2020, here at [Meedan](https://meedan.com/) we'd like to expand our developer
-      community and we are welcoming and inviting everyone to contribute to any of
-      the services that support the [Check](https://github.com/meedan/check) platform.\n\n###
-      How to get swag?\n\n- __Hacktoberfest swag:__ create at least 4 pull requests
-      in any open source project.\n\n- __Meedan swag:__ one valid PR accepted and
-      merged on[ any of our open source](https://github.com/meedan/check/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)
-      projects. After your PR is merged we'll contact you to get your address information
-      to send you your swag.\n\n![meedan hacktoberfest tshirt 3](//images.ctfassets.net/g118h5yoccvd/4dhsjZ4KnKIygwYwYZuSta/78634cc633776aa840ced877e7080665/meedan_hacktoberfest_tshirt_3.jpg)\n\n###
-      What is Check?\n\n[Check](https://meedan.com/check) is an open source platform
-      for collaborative fact-checking and media annotation. Journalists, activists
-      and organizations use Check to conduct their investigations and debunk misinformation.\n\nIt's
-      built in React and Rails, we strive for 100% test coverage and a 4.0 GPA on
-      Code Climate. \n\nAnd runs the following services:\n\n-   [Alegre](https://github.com/meedan/alegre/):
-      Language identification, text similarity and others text an media analysis\n-
-      \  [Check API](https://github.com/meedan/check-api/): The core API and CMS\n-
-      \  [Check Mark](https://github.com/meedan/check-mark/): A browser extension
-      for content annotation\n-   [Check Slack Bot](https://github.com/meedan/check-slack-bot/):
-      A Slack bot to interact with Check\n-   [Check Web](https://github.com/meedan/check-web/):
-      Front-end web application\n-   [Fetch](https://github.com/meedan/fetch/): A
-      FactCheck / Claim Review aggregation service\n-   [Pender](https://github.com/meedan/pender/):
-      Link parsing, archiving and rendering service\n-   [Narcissus](https://github.com/meedan/narcissus/):
-      Webpage screenshotting\n\nAlso, Check is extensible by creating custom bots
-      and integrations that aim to facilitate the workflow of journalists and activists.
-      We maintain a repository with [bot examples](https://github.com/meedan/check-bots/)
-      and encourage developers to create bots to enrich Check's functionality.\n\n###
-      How to start? \n\nEvery contribution is important for us, even if it's not merged.
-      We may ask some questions about the issues, suggestions and pull requests you
-      create, and we hope you accept them in a friendly way. We want your quality
-      contribution!\n\n- You can contribute to any of Check's submodule repositories
-      by opening a pull request in line with[  Hacktoberfest's quality standards.](https://hacktoberfest.digitalocean.com/details/#quality)\n-
-      Contributing to a new open source project can seem confusing or difficult.[
-      \ Check's documentation](https://github.com/meedan/check/wiki) will help you
-      understand the software and codebase and orient you in your first steps.\n\n###
-      How to contribute?\n\nAre you a programmer interested in verification or fact-checking?
-      Do you want to start contributing to an open source project that has supported
-      some of the largest collaborative reporting initiatives on the internet?\n\n__Contributions
-      we appreciate:__ We are interested in contributions for improving features,
-      creating bots to extend Check functionality, fixing bugs, translations / localizations,
-      technical documentation.\n\n__Contributions we like but won't get you swag this
-      time:__ During Hacktoberfest, we are not accepting PRs for small changes on
-      documentation, like adding links or a table of contents. We hope you can find
-      a nice issue to work on!\n\n__Our issues:__ We created some[  GitHub issues
-      for Hacktoberfest](https://github.com/meedan/check/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest).
-      All the issues have labels identifying the Check component it is related to,
-      the difficulty level and the technology knowledge needed to work with the issue.
-      Choose one issue to work on or suggest a new issue. \n\n### More info\n\n__Check
-      out:__ <https://meedan.com/hacktoberfest> and get in touch with us on our [forum](https://meedan.discourse.group/).
-      \n\nHappy coding!"
-    words_by:
-    - sys:
-        id: 6l5fy3yE4I2Y380PLobxla
-    - sys:
-        id: 57swkb0x1YLvhHB31YFb3U
-    alt_date: !ruby/object:DateTime 2020-10-26 00:00:00.000000000 Z
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
@@ -1229,28 +1183,28 @@ moduleStories:
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
     created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-18 20:34:19.954000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-30 22:57:42.984000000 Z
     content_type_id: moduleStories
-    revision: 4
+    revision: 5
   title: Featured Story
   stories:
   - sys:
-      id: 59PDoQADQSN2K8pylUeUlL
-      created_at: !ruby/object:DateTime 2020-11-10 22:50:50.365000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-18 20:34:08.171000000 Z
+      id: 1WgpyJbJSV48IWEG2W44QH
+      created_at: !ruby/object:DateTime 2020-11-30 22:24:21.198000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-01 02:29:16.659000000 Z
       content_type_id: moduleCard
-      revision: 1
-    title: Meedan's Eric Mugendi discusses the Tanzanian elections on Al Jazeera English
-    slug: meedans-eric-mugendi-discusses-the-tanzanian-elections-on-al-jazeera-english
-    published_on: !ruby/object:DateTime 2020-10-16 00:00:00.000000000 Z
+      revision: 3
+    title: Meedan CEO speaks on Credder podcast
+    slug: meedan-ceo-speaks-on-credder-podcast
+    published_on: !ruby/object:DateTime 2020-11-30 00:00:00.000000000 Z
     image:
       sys:
-        id: 4oG87efDGTVf4WC8crVF21
-        created_at: !ruby/object:DateTime 2020-10-15 21:42:29.198000000 Z
-        updated_at: !ruby/object:DateTime 2020-10-16 22:39:44.292000000 Z
-      title: Eric Mugundi on Al Jazeera
+        id: 3GvoWV940lWC7axDImMMVT
+        created_at: !ruby/object:DateTime 2020-11-30 22:55:39.673000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-30 22:56:01.329000000 Z
+      title: Ed Podcast
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4oG87efDGTVf4WC8crVF21/df597c61353855b341e713f52e88c5b9/maxresdefault.jpg"
-    tag: Al Jazeera English
-    link: https://www.youtube.com/watch?v=FhoMdYX86JY
-    youtube_video_id: FhoMdYX86JY
+      url: "//images.ctfassets.net/g118h5yoccvd/3GvoWV940lWC7axDImMMVT/7b97bda4b7b6f2f651593cab861bbde0/podcast.jpg"
+    tag: Podcast
+    link: https://www.youtube.com/watch?v=SOaudM-4pcU
+    youtube_video_id: SOaudM-4pcU

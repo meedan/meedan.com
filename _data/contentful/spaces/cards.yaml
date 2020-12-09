@@ -1214,10 +1214,10 @@ moduleCard:
 - sys:
     id: 4QWw0ydoMavm734x9DYlUB
     created_at: !ruby/object:DateTime 2020-11-18 20:34:48.795000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-18 20:36:34.335000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-18 21:16:11.934000000 Z
     content_type_id: moduleCard
-    revision: 1
-  title: Content Moderation Toolkit
+    revision: 2
+  title: A toolkit for civil society to navigate content moderation
   slug: content-moderation-toolkit
   published_on: !ruby/object:DateTime 2020-11-18 00:00:00.000000000 Z
   image:
@@ -1230,3 +1230,42 @@ moduleCard:
     url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
   tag: Toolkit
   link: https://meedan.com/reports/content-moderation-toolkit/
+- sys:
+    id: 1WgpyJbJSV48IWEG2W44QH
+    created_at: !ruby/object:DateTime 2020-11-30 22:24:21.198000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-01 02:29:16.659000000 Z
+    content_type_id: moduleCard
+    revision: 3
+  title: Meedan CEO speaks on Credder podcast
+  slug: meedan-ceo-speaks-on-credder-podcast
+  published_on: !ruby/object:DateTime 2020-11-30 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 3GvoWV940lWC7axDImMMVT
+      created_at: !ruby/object:DateTime 2020-11-30 22:55:39.673000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-30 22:56:01.329000000 Z
+    title: Ed Podcast
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3GvoWV940lWC7axDImMMVT/7b97bda4b7b6f2f651593cab861bbde0/podcast.jpg"
+  tag: Podcast
+  link: https://www.youtube.com/watch?v=SOaudM-4pcU
+  youtube_video_id: SOaudM-4pcU
+- sys:
+    id: 1x3LjkfSfHL5MqqiRk0Eod
+    created_at: !ruby/object:DateTime 2020-12-03 00:24:16.311000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-03 21:16:40.261000000 Z
+    content_type_id: moduleCard
+    revision: 2
+  title: Social science or computer science? Scott Hale argues for both in The Commons
+  slug: social-science-or-computer-science-scott-hale-argues-for-both-in-the-commons
+  published_on: !ruby/object:DateTime 2020-12-03 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 7xZrky8USdtBkUTKwRZPB
+      created_at: !ruby/object:DateTime 2020-12-03 21:00:21.135000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 21:02:13.664000000 Z
+    title: Scott Hale
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/7xZrky8USdtBkUTKwRZPB/fb6974d70ecb12989401ca6301bd011b/Scott.png"
+  tag: Research
+  link: https://wearecommons.us/2020/11/30/human-or-machine-social-science-or-computer-science-yes-we-need-them-all/

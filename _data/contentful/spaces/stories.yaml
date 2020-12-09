@@ -8101,9 +8101,9 @@ story:
 - sys:
     id: 1oezcGv5wPsj4CCnIvQpPV
     created_at: &25 !ruby/object:DateTime 2020-11-13 20:58:40.593000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-13 21:59:42.553000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-24 18:50:17.570000000 Z
     content_type_id: story
-    revision: 0
+    revision: 8
     space:
       sys:
         id: g118h5yoccvd
@@ -8116,8 +8116,18 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Meedan dá as boas vindas a 3 novos parceiros brasileiros
-  slug: meedan-da-as-boas-vindas-a-3-novos-parceiros-brasileiros
+  title: 3 new Brazilian partners fact-checking on WhatsApp
+  slug: meedan-welcomes-3-new-brazilian-partners
+  topic:
+    en-US:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Technology
   lead_image:
     en-US:
       sys:
@@ -8130,55 +8140,554 @@ story:
     description: 
     title: meedan new partners brazil
     url: "//images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png"
-  body: "Meedan tem o prazer de anunciar três novos parceiros brasileiros que estão
-    utilizando nosso software Check para verificação de fatos, são eles: o Estadão
-    Verifica, uma iniciativa do núcleo de checagem do Estadão; o Fato ou Fake do Grupo
-    Globo e a Agência Lupa.\n\nCheck é um sistema web de código aberto para jornalistas,
+  body: |
+    In time for the municipal elections across Brazil this past weekend, Meedan is pleased to announce three new Brazilian partners using our Check software for fact-checking on WhatsApp. They are: [Estadão Verifica](https://politica.estadao.com.br/noticias/geral,estadao-verifica-lanca-novo-servico-por-whatsapp,70003506752 "Estadão Verifica"), an initiative of Estadão; [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/ "Agência Lupa"), and [Fato ou Fake ](https://g1.globo.com/fato-ou-fake/noticia/2020/11/11/fato-ou-fake-lanca-bot-exclusivo-para-checar-conteudos-duvidosos.ghtml "Fato ou Fake"), by Globo Group. The latter initiative brings together journalists from G1, O Globo, Extra, Época, Valor, CBN, GloboNews and TV Globo.
+
+    Check is a tool for collaborative verification and annotation of digital media, with new features customized specifically for global fact-checking organizations. It's been deployed by  AFP (in Brazil and India), Africa Check, BOOM and India Today. These organization have been using Check since October 2019 across 4 languages and more than 180,000 submissions, including ongoing submissions today. Our case study on this program, called [End-to-End Fact-Checking](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact), details the insights, field research and product features that maximized the value of the WhatsApp API for fact checkers around the world; it’s name is a reference to the program’s ability to successfully fact-check on WhatsApp's end-to-end encrypted platform.
+
+    Natália Leal, content director at Lupa agency explains the importance of Check, “This tool expands the scope of Lupa's work, while at the same time bringing the agency closer to the public. It strengthens our monitoring of the false information environment and allows our reader another channel of communication with us. Thus, he has more access to verified information when making decisions that impact his life and society."
+
+    And for Estadão's, editor-in-chief David Friedlander, “Fake news deceives, misinforms and creates an atmosphere of confusion. That's why professional journalism is so important. With it's checking services, Estadão is dedicated to restoring the value of correct and reliable information”.
+
+    The new partners joined AFP Checamos, a pioneer in Brazil in the use of Check in their verification process on WhatsApp. “The tool has greatly improved the way we communicate with our WhatsApp audience,” said Maria Clara Pestre, AFP fact checker Checamos (Brazil). “Now, we can be sure that anyone who contacts us through the app will have an immediate and consistent response. At the same time, we have time to dedicate ourselves to the other steps in the verification process. ”
+
+    We adapted our toolkit to help fact-checkers focus on their work, not on technical tasks. This allowed teams to create their own workflows inside Check.
+
+    The platform has these main features:
+
+    - It allows the verification teams, based on the demand of the newsroom, to create menus of interactive content (bots) using their messaging channels;
+    - It imports the database of fact-checks from a journalistic organization, allowing them to send reports directly to the user of content that has already been verified.
+    - It also allows the public to send content suggestion to be checked by journalists;
+
+    For our partner organizations, the bot is an essential communication channel to engage their audience, understand and scale the demand for specific topics and distribute important information in other messaging networks. When building these relationships, it is also an opportunity to develop interactive monitoring and evaluation surveys with end users to assess the behavioral impacts of fact checks.
+
+    Check enables a publishing system to send fact verification reports to users of direct channels (tiplines) who send duplicate or similar requests. “Our goal with Check,” explained Meedan's Product Director, Pierre Conti, “is to build a human and AI system so that fact checkers can efficiently scale the demand for verification directly from the public, cut whatever just noise and thus maximize the impact of the checks. We do this to help verifiers prioritize the most relevant misinformation. ”
+  words_by:
+    en-US:
+    - sys:
+        id: 57swkb0x1YLvhHB31YFb3U
+        created_at: !ruby/object:DateTime 2020-03-24 00:41:40.973000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.056000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Isabella Barroso
+      staff:
+        en-US: true
+      role:
+        en-US: Program Manager, Latin America
+      location:
+        en-US: Brazil
+  date: '2020-11-13'
+  image: https://images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png
+  title-pt: 3 novos parceiros brasileiros checando fatos no WhatsApp
+  title-en: 3 new Brazilian partners fact-checking on WhatsApp
+  description-pt: 'Meedan tem o prazer de anunciar três novos parceiros brasileiros
+    que estão utilizando nosso software Check para verificação de fatos durante as
+    eleições municipais de 2020 no WhatsApp, são eles:'
+  body-pt: "Meedan tem o prazer de anunciar três novos parceiros brasileiros que estão
+    utilizando nosso software Check para verificação de fatos durante as eleições
+    municipais de 2020 no WhatsApp, são eles: o [Estadão Verifica](https://politica.estadao.com.br/noticias/geral,estadao-verifica-lanca-novo-servico-por-whatsapp,70003506752
+    \"Estadão Verifica\"), uma iniciativa do núcleo de checagem do Estadão; o [Fato
+    ou Fake](https://g1.globo.com/fato-ou-fake/noticia/2020/11/11/fato-ou-fake-lanca-bot-exclusivo-para-checar-conteudos-duvidosos.ghtml
+    \"Fato ou Fake\") do Grupo Globo e a [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/
+    \"Agência Lupa\").\n\nCheck é um sistema web de código aberto para jornalistas,
     utilizado para verificar e anotar informações on-line em investigações de fatos.
     Foi projetado especialmente para organizações globalmente distribuídas de verificação.
     Utilizando a API Comercial do WhatsApp (WhatsApp Business API), Meedan desenvolveu
     uma série de funcionalidades no software implementando uma mistura de inteligência
     artificial, interface e inovações multilíngues. O nosso bot no WhatsApp é totalmente
     personalizável e projetado para checadores e jornalistas executarem canais de
-    verificação no Whatsapp (tiplines), Facebook Messenger, Twitter DM e muito mais.
-    \n\nOs novos parceiros se juntam a AFP Checamos, pioneira no Brasil a utilizar
-    Check como ferramenta. “A ferramenta melhorou muito a maneira como nos comunicamos
-    com nossa audiência no WhatsApp”, disse Maria Clara Pestre, verificadora de fatos
-    da AFP Checamos (Brasil). “Agora, podemos ter certeza de que qualquer pessoa que
-    entrar em contato conosco por meio do aplicativo terá uma resposta imediata e
-    coerente. Ao mesmo tempo, dispomos de tempo para nos dedicarmos às outras etapas
-    do processo de verificação.”\n\nUma redação sem preocupação com códigos de programação:
-    nós adaptamos nosso kit de ferramentas para ajudar verificadores de fatos a se
-    concentrarem no trabalho de checagem, e não em tarefas técnicas. Isso permitiu
-    que as equipes criassem seus próprios fluxos de trabalho.\n\nA plataforma possui
-    os seguintes recursos principais:\n\n- Permite que as equipes de verificação,
-    baseado na demanda da redação, criem menus de conteúdo interativo (bots) nos canais
-    de comunicação;\n- \n- Importa o banco de dados de checagens de uma organização
-    jornalística, permitindo-lhes enviar relatórios a respeito de conteúdo já verificado
-    direto ao usuário.\n- \n- Permite que o público envie sugestões de conteúdo para
-    serem checadas pelos jornalistas;\n\nPara nossas organizações parceiras, o bot
-    é um canal de comunicação essencial para envolver seu público, dimensionar a demanda
-    por tópicos específicos e distribuir informações importantes em redes de mensagens
-    próximas. Ao construir essas relações, é também a oportunidade de desenvolver
-    pesquisas interativas de monitoramento e avaliação com usuários finais para avaliar
-    os impactos comportamentais das checagens de fatos.\n\n“Estamos entusiasmados
-    em trabalhar com parceiros como a Meedan para ajudar a enfrentar o desafio da
-    desinformação em mensagens privadas. A nossa intenção é oferecer aos usuários
-    ferramentas para que eles acessem, de maneira fácil, informações precisas e dar
-    suporte à verificação de fatos”, disse Ben Supple, chefe de engajamento cívico
-    do WhatsApp.\n\n“Agradecemos e valorizamos o trabalho realizado para maximizar
-    o valor da API Comercial do WhatsApp (WhatsApp Business API) para verificadores
-    de fatos e, assim, garantir que mais pessoas tenham acesso a informações precisas
-    com o clique de um botão.”\n\nCheck possibilita um sistema de publicação para
-    enviar relatórios de verificação de fatos aos usuários de canais diretos (tiplines)
-    que enviarem solicitações duplicadas ou semelhantes.\n“Nosso objetivo com o Check”,
-    explicou o Diretor de Produto da Meedan, Pierre Conti, “é construir um sistema
-    humano e de IA para que os verificadores de fatos possam dimensionar com eficiência
-    a demanda por verificação diretamente do público, cortar o que for apenas ruído
-    e maximizar assim o impacto das verificações. Fazemos isso para ajudar os verificadores
-    a priorizarem as desinformações mais relevantes.”"
-  date: '2020-11-13'
-  image: https://images.ctfassets.net/g118h5yoccvd/6E4xUDVdNg64NowaKnYj34/29ac1d76089a74a4b4767d53e44d6121/meedan_new_partners_brazil.png
-  title-en: Meedan dá as boas vindas a 3 novos parceiros brasileiros
+    verificação no Whatsapp (tiplines), Facebook messenger, Twitter DM e muito mais.
+    \n\nA iniciativa de verificação do Grupo Globo, O Fato ou Fake, reúne jornalistas
+    do G1, O Globo, Extra, Época, Valor, CBN, GloboNews e TV Globo.\n\nPara Natália
+    Leal, diretora de conteúdo da agência Lupa, “Essa ferramenta amplia o alcance
+    do trabalho da Lupa, e, ao mesmo tempo, aproxima a agência do público. Ela fortalece
+    nosso monitoramento do ambiente de informações falsas e permite ao nosso leitor
+    mais um canal de comunicação conosco. Assim, ele tem mais acesso a informações
+    verificadas na hora de tomar decisões que impactam a sua vida e a sociedade”.
+    \n\nJá para o editor-chefe do Estadão, David Friedlander, “As fake news enganam,
+    desinformam e criam um ambiente de confusão. Por isso o jornalismo profissional
+    é tão importante. Com seus serviços de checagem, ele se dedica a restabelecer
+    o valor da informação correta e confiável”. \n\nOs novos parceiros se juntam a
+    AFP Checamos, pioneira no Brasil a utilizar Check como ferramenta. “A ferramenta
+    melhorou muito a maneira como nos comunicamos com nossa audiência no WhatsApp”,
+    disse Maria Clara Pestre, verificadora de fatos da AFP Checamos (Brasil). “Agora,
+    podemos ter certeza de que qualquer pessoa que entrar em contato conosco por meio
+    do aplicativo terá uma resposta imediata e coerente. Ao mesmo tempo, dispomos
+    de tempo para nos dedicarmos às outras etapas do processo de verificação.”\n\nUma
+    redação sem preocupação com códigos de programação: nós adaptamos nosso kit de
+    ferramentas para ajudar verificadores de fatos a se concentrarem no trabalho de
+    checagem, e não em tarefas técnicas. Isso permitiu que as equipes criassem seus
+    próprios fluxos de trabalho. A plataforma possui os seguintes recursos principais:\n\n-
+    Permite que as equipes de verificação, baseadas na demanda da redação, criem menus
+    de conteúdo interativo (bots) nos canais de comunicação;\n- Importa o banco de
+    dados de checagens de uma organização jornalística, permitindo-lhes enviar relatórios
+    a respeito de conteúdo já verificado direto ao usuário;\n- Permite que o público
+    envie sugestões de conteúdo para serem checadas pelos jornalistas;\n\nPara nossas
+    organizações parceiras, o bot é um canal de comunicação essencial para envolver
+    seu público, dimensionar a demanda por tópicos específicos e distribuir informações
+    importantes em redes de mensagens próximas. Ao construir essas relações, é também
+    a oportunidade de desenvolver pesquisas interativas de monitoramento e avaliação
+    com usuários finais para avaliar os impactos comportamentais das checagens de
+    fatos.\n\nCheck possibilita um sistema de publicação para enviar relatórios de
+    verificação de fatos aos usuários de canais diretos (tiplines) que enviarem solicitações
+    duplicadas ou semelhantes. “Nosso objetivo com o Check”, explicou o Diretor de
+    Produto da Meedan, Pierre Conti, “é construir um sistema humano e de IA para que
+    os verificadores de fatos possam dimensionar com eficiência a demanda por verificação
+    diretamente do público, cortar o que for apenas ruído e maximizar assim o impacto
+    das verificações. Fazemos isso para ajudar os verificadores a priorizarem as desinformações
+    mais relevantes.”\n"
   alt_date: *25
   alt_date_string: '2020-11-13'
+- sys:
+    id: 3wlb6GwlJvY6vdGkjWktL0
+    created_at: &26 !ruby/object:DateTime 2020-11-27 15:53:08.156000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-07 07:58:04.272000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Promoting WhatsApp tiplines: Insights from our fact-checking partner''s
+    promotional campaigns '
+  slug: promoting-whatsapp-tiplines-insights-from-our-fact-checking-partners
+  topic:
+    en-US:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
+  lead_image:
+    en-US:
+      sys:
+        id: 2NcgQOhQP0pfGBqKhGJrpZ
+        created_at: !ruby/object:DateTime 2020-12-03 12:54:20.770000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-07 08:09:09.427000000 Z
+      title: Promoting tiplines
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2NcgQOhQP0pfGBqKhGJrpZ/a91998b648a0cf62547a78e62652e3a0/Promoting_tiplines.png"
+    description: 
+    title: Promoting tiplines
+    url: "//images.ctfassets.net/g118h5yoccvd/2NcgQOhQP0pfGBqKhGJrpZ/a91998b648a0cf62547a78e62652e3a0/Promoting_tiplines.png"
+  body: "Every effort to promote WhatsApp tiplines introduces the organization’s brand
+    and content to new users and builds the audience. [Previous ad campaigns](https://meedan.com/blog/how-our-fact-checking-partners-promote-their-whatsapp-tiplines/)
+    run by our partner fact-checking organizations have demonstrated that a strong
+    community engagement strategy, branding and a focussed call for action can be
+    extremely useful. \n\nWe now have new insights from the latest round of campaigns
+    launched in November 2020. Here are few to consider while implementing ad campaigns
+    for promoting WhatsApp tiplines:\n\n#### 1. Identify a theme tied to the news
+    cycle or audience needs\nThe theme of the ad being launched can depend on the
+    news cycle, misinformation trends in the region, the partner organization’s expertise
+    and target audience. Be it generic or a focussed call for action, it is important
+    to strike a chord with users. Some themes followed by partners in the recent campaign
+    included local elections, credible information on government schemes especially
+    for the poor and COVID-19 vaccine related misinformation. \n\n#### 2. Know your
+    audience \nBased on the theme, target the core audience or the audience the organization
+    would like to attract. The targeting can include certain cities or states, people
+    with specific interests or different age groups. \n\n#### 3. Put yourself in the
+    shoes of the audience\nThe ad content and images need to resonate with the target
+    audience. Consider using the local language of the area and images that are local.
+    Ask people to send in queries, suspicious messages or misleading information that
+    they would like verified. \n\n#### 4. The campaign needs to align with organizational
+    goals\nIs the objective to get queries for fact-checking or engage the audience
+    and inform them about the tipline service and the organization? The organization
+    needs to ask these questions and design its campaign accordingly. \n\n#### 5.
+    Plan in advance whether and when to pause \nMost of our Indian fact-checking partners
+    chose to pause the ad during the Diwali week, when festivities extend for a week
+    and the news cycle slows down. However, some saw it best to run the ad for two
+    straight weeks rather than just one. \n\n#### 6. Have the bot and team ready to
+    engage with audience\nIt is important that the users have  clear instructions
+    on how to submit a request or to access a bot resource. It is also important for
+    organizations to have resources, both human and bot, ready, in order to respond
+    to submissions and engage with users.\n\n#### 7. Monitor results and adapt\nThe
+    first two days of ad campaigns can give organizations a feel of whether the tipline
+    is receiving more conversations than usual. If not, it is useful to revisit the
+    ad settings and make quick changes in a trial and error method. \n\n#### 8. Get
+    the strategy vetted by social media and editorial teams \nInsights from both teams
+    can help in designing a solid strategy. Creation of ad content, choosing the audience
+    and making quick changes in ad settings and bot menu require both teams to work
+    in tandem. \n\n#### 9. Develop a multichannel promotion strategy\nCross platform
+    promotion is a great strategy to adopt. This helps in bringing the audience from
+    all platforms to the WhatsApp tipline. Posts or tweets by the organization’s team
+    members promoting the tipline can also be a big push for the ads. This can be
+    helpful as the audience often identifies with the people who make the brand.\n"
+  date: '2020-11-27'
+  image: https://images.ctfassets.net/g118h5yoccvd/2NcgQOhQP0pfGBqKhGJrpZ/a91998b648a0cf62547a78e62652e3a0/Promoting_tiplines.png
+  title-en: 'Promoting WhatsApp tiplines: Insights from our fact-checking partner''s
+    promotional campaigns '
+  alt_date: *26
+  alt_date_string: '2020-11-27'
+- sys:
+    id: 5NrvRonMjWubHGjWahK6FI
+    created_at: &27 !ruby/object:DateTime 2020-12-02 15:59:29.298000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-07 09:31:40.236000000 Z
+    content_type_id: story
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meet Cecília Sorgine and Maria Clara Pestre, fact-checkers with AFP Checamos
+  slug: meet-cecila-sorgine-and-maria-clara-pestre-fact-checkers-with-afp-checamos
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 3HeAcm0n6MSuXHudJZlz4K
+        created_at: !ruby/object:DateTime 2020-12-03 13:30:39.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-07 08:05:38.136000000 Z
+      title: Meet Cecila Sorgine and Maria Clara Pestre, fact-checkers with AFP Checamos
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3HeAcm0n6MSuXHudJZlz4K/f24ecf31afa05473c7a466c4ae5a8e1e/AFP_checamos_interview.png"
+    description: 
+    title: Meet Cecila Sorgine and Maria Clara Pestre, fact-checkers with AFP Checamos
+    url: "//images.ctfassets.net/g118h5yoccvd/3HeAcm0n6MSuXHudJZlz4K/f24ecf31afa05473c7a466c4ae5a8e1e/AFP_checamos_interview.png"
+  body: |-
+    Since October 2019, Meedan has run a [global fact-checking project ](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact)using the WhatsApp Business API and powered by [Check](https://meedan.com/check), an open-source platform built by Meedan. During the year, we entered into new and exciting partnerships with fact-checking groups and newsrooms across the globe to combat misinformation. As a community, we have made huge strides and learned from each other.
+
+    In November 2020, we launched an interview series to present insights from individual fact-checkers and editors who are members of our partner organizations. The interviews capture our partners' experiences related to fact-checking and their vision for the future. We interviewed [Kritika Goel, Associate Editor at the Quint](https://meedan.com/blog/meet-kritika-goel-associate-editor-the-quint/) in the first part of the interview series.
+
+    This time we have Cecília Sorgine and Maria Clara Pestre, two young fact checkers with [AFP Checamos](https://checamos.afp.com/list) who have just covered the municipal elections in Brazil. As our Phase I partner, AFP Checamos has provided us great inputs in building features for Check to suit the needs of fact-checkers. In this interview, we learn more about their journey and experience as fact-checkers in Brazil, one of the leading democracies in the world.
+
+    ### How long have you been a fact-checker? What has been your experience before becoming one? What brought you to this?
+
+    Maria Clara: I've been a fact-checker at AFP for almost two years. Before that, I worked at the Reuters' bureau in Rio translating and adapting international news to the Brazilian audience. A few years before that, I worked at Globo.com, writing technology articles based on SEO metrics.
+
+    In 2018, seeing an expressive increase in online misinformation, especially regarding that year's presidential election, I started studying fact-checking and its methods. That's when I decided to research the impact of fact-checking organizations on the Brazilian 2018 elections as my final college essay. Soon after that I started fact-checking myself.
+
+    Cecília Sorgine: I've been working as a fact-checker since February 2018. Before that I already worked at AFP for two years with international news, translating and editing texts for the Brazilian public. My professional career has been built at AFP, as I started as an intern taking care of social networks and the multimedia part of the website accessed by agency's clients.
+
+    While at university, I became familiar with fact-checking as a niche that was beginning to develop in journalism and I became interested in it. I took a course and soon after came the opportunity to work within the agency itself as a fact-checker.
+
+    ### What is the Brazilian media and fact-checking ecosystem like? What strengths and what gaps do you see?
+
+    The Brazilian fact-checking ecosystem is still relatively new, as in most places, but we see a rich and diverse scenario, with clever and engaged fact-checkers. As a result, collaborative fact-check initiatives are on the rise such as the [Comprova Project](https://projetocomprova.com.br/), that brings together around 30 Brazilian media outlets, and a [special project run by Brazil's Superior Electoral Court](https://www.poynter.org/fact-checking/2020/brazilian-election-fact-checkers-detected-16-electoral-hoaxes-in-48-hours-a-third-of-the-total-registered-in-2018/) to fight misinformation in elections in 2020. AFP is  part of both the initiatives.
+
+    We would like to see more of such collaborations with political bodies, especially before the 2022 presidential election.  
+
+    ### You just covered Brazil municipal elections - what kind of misinformation and trends did you see in this election and how did you address them?
+
+    This year's election saw a different misinformation flow than in the past years: much more focused on the electoral process than on the candidates themselves. As a whole, the electronic ballot remained a target, with multiple posts questioning the safety of the system and the legitimacy of the official results.
+
+    In that context, it was even more important to act quickly as a small local complaint could jeopardize the entire electoral integrity. With that in mind, we worked on almost 30 claims and are still closely monitoring the subject.
+
+    The above-mentioned fact-checking coalition formed by the Superior Electoral Court was also a big help this year, making it easier for us to access official information and helping us increase our content's reach.
+
+    ### What are the kind of challenges you face while fact-checking misinformation and engaging with users on social media?
+
+    The biggest challenge of fact-checking is being able to handle the amount of misinformation circulating on social media and checking it before it causes serious damage.
+
+    Besides that, depending on what is being verified, in a country which has been experiencing intense polarization, the audience shows resistance to fact-check articles as in many cases it challenges their core beliefs. But we still notice more willingness among users in wanting to refute false content and sending it to us so that we can verify it.
+
+    ### How has been your experience of using Check? What else would you like the tool to do for you?
+
+    Check has been very useful, enabling us to automatically interact with our readers, while we still have time to identify and verify misleading posts.
+
+    Specifically, we're happy with the way we can easily adapt the bot responses to our needs. This has proven helpful during the whole coronavirus pandemic, but also for specific events such as the municipal elections. In both cases, we were able to create tailored menu options, allowing our users to filter content depending on their interest.
+
+    To make it even better for our readers, we'd love it if they could search for specific debunks using keywords directly on WhatsApp.
+
+    ### What is your vision and hopes for journalism and the world in a post- pandemic world?
+
+    The COVID-19 pandemic has exposed a very worrying scenario of discrediting science and verified information, with conspiracy theories and miracle cures gaining a larger number of followers.
+
+    On the other hand, and possibly due to the large number of false allegations that have circulated since the new coronavirus was detected, the audience is trying to protect themselves from misleading content, becoming more aware and less tolerant with misinformation.
+
+    In this context, journalists and fact-checkers have an even more important role in raising awareness about what people are publishing on the internet and flagging statements, which are deceptive, specifically from politicians and prominent figures.
+  date: '2020-12-02'
+  image: https://images.ctfassets.net/g118h5yoccvd/3HeAcm0n6MSuXHudJZlz4K/f24ecf31afa05473c7a466c4ae5a8e1e/AFP_checamos_interview.png
+  title-en: Meet Cecília Sorgine and Maria Clara Pestre, fact-checkers with AFP Checamos
+  alt_date: *27
+  alt_date_string: '2020-12-02'
+- sys:
+    id: 7MrKLynHPvTGAgLUo1Vkn2
+    created_at: &28 !ruby/object:DateTime 2020-12-02 18:05:20.762000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-07 08:50:23.496000000 Z
+    content_type_id: story
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: One of year of running the WhatsApp End-to-End Fact-Checking project
+  slug: one-of-year-of-running-the-end-end-to-fact-checking-project
+  topic:
+    en-US:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Technology
+  lead_image:
+    en-US:
+      sys:
+        id: 7ybS0j2KIRf8LVSurkbQev
+        created_at: !ruby/object:DateTime 2020-12-03 12:45:11.792000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-07 07:47:14.002000000 Z
+      title: blog post
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7ybS0j2KIRf8LVSurkbQev/bb08963b5f42bf7cb54175b9ac6448d1/3pfc_blogpost.jpg"
+    description: 
+    title: blog post
+    url: "//images.ctfassets.net/g118h5yoccvd/7ybS0j2KIRf8LVSurkbQev/bb08963b5f42bf7cb54175b9ac6448d1/3pfc_blogpost.jpg"
+  body: "In December 2020, Meedan completes one year of running a [global fact-checking
+    project](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact)
+    using the WhatsApp Business API. Meedan worked with WhatsApp, Facebook and Facebook's
+    third party fact-checking organizations (3PFCs) from India, Brazil and Africa
+    to run the end-to-end fact-checking project on WhatsApp tiplines and [Check](https://meedan.com/check),
+    an open-source platform built by Meedan. Our fact-checking partners include [BOOM](https://www.boomlive.in/),
+    [India Today](https://www.indiatoday.in/fact-check), [Africa Check](https://africacheck.org/)
+    and [AFP](https://factcheck.afp.com/) (Brazil and India),  [Factly](https://factly.in/),
+    [Vishvas News](https://www.vishvasnews.com/), [Estadão Verifica](https://politica.estadao.com.br/blogs/estadao-verifica/),
+    [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/),
+    and [Webqoof](https://www.thequint.com/news/webqoof). \n\nDuring this period,
+    the fact-checking community addressed misinformation around elections, current
+    news events and a pandemic which is yet to recede.The pandemic and resulting lockdowns,
+    induced a greater reliance on digital technologies to remain connected. Simultaneously,
+    misinformation soared and our partners' tiplines saw a surge in submissions. Amid
+    this major upheaval, the gritty and relentless work of fact-checkers and our team
+    is a huge accomplishment.\n\nIn this post, we discuss the highlights of the project
+    and document the insights gathered through this partnership.\n\n### Highlights
+    of the project \n\n#### Doubling our partnerships in one year\n\nOur collaboration
+    with five global fact-checkers - [BOOM](https://www.boomlive.in/), [India Today](https://www.indiatoday.in/fact-check),
+    [Africa Check](https://africacheck.org/) and [AFP](https://factcheck.afp.com/)
+    (Brazil and India), in phase I of the project was key to further customizing Check
+    to meet the needs and demands of fact-checking misinformation in closed messaging
+    networks.\n\n> \"We are amazed with the progress with the tool. If you look at
+    the tool from the beginning to now, you can see how much it's made customizable.
+    You really want to know our needs and you try hard to do your best to make the
+    tool fit with our needs\" -- Elodie Martinez, Coordinator AFP Latin America\n\nIn
+    the second phase, five news partners - [Factly](https://factly.in/), [Vishvas
+    News](https://www.vishvasnews.com/), [Estadão Verifica](https://politica.estadao.com.br/blogs/estadao-verifica/)
+    - an initiative of Estadão; [Agência Lupa](https://piaui.folha.uol.com.br/lupa/2020/10/22/lupa-canal-whatsapp/),
+    and [Webqoof](https://www.thequint.com/news/webqoof) - the fact-check wing of
+    The Quint joined the project.\n\n> \"In just that last two months we have already
+    found that it has really been a force multiplier in being able to track down fake
+    posts.\" -- Ritu Kapur, Founder and CEO, The Quint\n\nWith more collaborations
+    and focussed efforts we have been able to scale up distribution of fact-checks.
+    As of November 2020, all ten tiplines interacted with over 600,000 unique users
+    and distributed over 15,000 fact-checks across India, Brazil, South Africa, Kenya
+    and Nigeria. Within 5 months of launching the Phase I tiplines, Check had distributed
+    around 5,800 fact-check reports. \n\n> \"Partnering with such diverse organizations
+    and maintaining a constant stream of feedback and ideas flowing has helped us
+    improve the platform tremendously, shaping it to fit the specific needs of our
+    growing community of fact-checkers. As a result, our 2021 roadmap is both precise
+    and ambitious, with a focus on more automation, integration and new bot features
+    with the goals of scaling audiences.\" - Pierre Conti, Director of Product, Meedan\n\n####
+    Check has become an integral part of partners' workflow\n\nThe progress we made
+    is most evident in Check, the tool that powers this project. \"Our goal with Check,\"
+    explained Meedan's Director of Product Pierre Conti, \"is to build a scalable
+    human and AI system for fact-checkers to efficiently size the demand for verification
+    directly from their audience, cut through the noise, and maximize impact by helping
+    them to prioritize their response to the most pressing misinformation.\"\n\nWeek
+    after week, hinging on a global team and constant input from our partners, Check
+    matured into a robust platform for fact-checking and information crisis response.
+    We redesigned interfaces and experience from the ground up, created an easy-to-deploy
+    multilingual bot system to collect claims from users and publish content, and
+    added new layers of  automation to content triage and algorithmically match similar
+    claims, making it easier and faster for journalists to focus on emerging yet viral
+    claims and respond at scale.\n\n> \"In 2020 we had an exciting set of new features
+    and scalability improvements in order to accommodate the needs of different partners
+    that came onboard. It's great to see how the software has evolved.  I hope we
+    can keep evolving together in 2021.\" - Caio Almeida, Director of Engineering,
+    Meedan\n\n### Program and product support: We provided critical health expertise
+    and developed strategic guidance for each partner\n\nAt Meedan, we believe that
+    ideas, people and vision give purpose to technology. As a result, we have integrated
+    strong programmatic elements in our service. Some of the program elements are
+    listed below:\n\n- Recognizing the need for expert advice and knowledge to address
+    misinformation around a newly emerged disease - COVID-19, **Meedan's [Digital
+    Health Lab](https://health.meedan.com/) set up the [COVID-19 database](https://learnaboutcovid19.org/)**.
+    Our expert panel proactively identify potential misinformation and address queries
+    from fact-checkers within a 24-48 hours timespan. This has expanded to cover other
+    health misinformation as well. All our partners can submit a query directly from
+    the Check workspace through an integrated intercom service.\n- In November 2020
+    we introduced a newsletter, **CheckPost** with the aim of sharing best practices
+    & insights from the WhatsApp end-to-end fact-checking project with all our partners.\n-
+    The team worked with partners to implement **[advertising campaigns](https://meedan.com/blog/how-our-fact-checking-partners-promote-their-whatsapp-tiplines/)**
+    supported by Facebook in order to promote tiplines. Based on our weekly analysis
+    of data and insights from all partners, we have provided regular feedback on the
+    bot menu and advertisement content to each partner. This has increased conversations
+    and resulted in more submissions to the tiplines.\n- Meedan's program and product
+    teams **regularly test tiplines and inspect Check workspaces** to identify bugs
+    and the need for new features.\n- By integrating **intercom service in the workspace**,
+    partners are able to reach out to us with bug reports or any other technical difficulties
+    round the clock.\n- Data is key to understanding what works, since September we
+    provide **weekly data updates** to partners and discuss Key Performance Indicators
+    during weekly check-ins.\n\n> \"Close coordination among fact-checkers, public
+    health institutions and other communications stakeholders is essential for addressing
+    the unique midinformation challenges we face today, where informational ambiguity
+    based on scant or conflicting evidence, or emerging scientific knowledge can exacerbate
+    the spread of disease. Tiplines offering localized, relevant and up-to-date health
+    information is a new frontier of health communications and health literacy, and
+    fact-checkers are at the forefront.\" --Nat Gyenes, Program Director, Digital
+    Health Lab, Meedan\n\n### Key insights from the project\n\n- Bots can engage WhatsApp
+    users; they are the new audience engagement paradigm. Designing effective bots
+    with clear and unambiguous scripts and updated menus can generate quality submissions
+    for WhatsApp tiplines.  \n- Following the news cycle is important for tiplines.
+    Large events have generated more misinformation and have resulted in more submissions
+    for the tiplines.\n- Fact-checkers need no-nonsense, no-code interfaces in multiple
+    languages.\n- With well devised plans, machines in the loop augment quality human
+    efforts \n- Analysis of workspace data and agility in adopting new strategies
+    are important for building WhatsApp audience and staying ahead of the curve.\n\n>
+    \"Working in regions where WhatsApp is among the most popular messaging platforms,
+    the tiplines are a great strategy to engage with WhatsApp users and provide credible
+    and verified information. By making available information and resources in local
+    languages on the tiplines, our partners have been able to provide high quality
+    content to WhatsApp users. This year COVID-19 misinformation has shown us how
+    important it is to follow the news cycle to address misinformation. This helps
+    us prepare for 2021 and get ready to address COVID-19 vaccine related misinformation
+    through the tiplines.\" - Shalini Joshi, Program Director - APAC, Meedan\n\n###
+    Future plans\n\nThe fight against misinformation is a continuous process and fact-checking
+    more than ever needs to stay ahead of the curve. As the world witnessed a misinfodemic,
+    narratives that challenge the integrity of elections and institutions in democracies,
+    there is a need to scale up the work of fact-checkers.\n\nIn the coming year we
+    will: \n\n- Continue to share insights and best practices across all partners
+    and build collective knowledge\n- Improve Check for greater automation for scaling
+    up fact-checking and optimizing the time of fact-checkers\n- Support media literacy
+    campaigns and training programmes to srengthen the skills of fact-checkers "
+  date: '2020-12-02'
+  image: https://images.ctfassets.net/g118h5yoccvd/7ybS0j2KIRf8LVSurkbQev/bb08963b5f42bf7cb54175b9ac6448d1/3pfc_blogpost.jpg
+  title-en: One of year of running the WhatsApp End-to-End Fact-Checking project
+  alt_date: *28
+  alt_date_string: '2020-12-02'
+- sys:
+    id: 2gMzQXi8ze1WfZOdtEmzT2
+    created_at: &29 !ruby/object:DateTime 2020-12-03 20:32:11.826000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-03 22:44:19.197000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Landmark alliance launches in Africa to fight COVID-19 misinformation
+  slug: landmark-alliance-launches-in-africa-to-fight-covid-19-misinformation
+  topic:
+    en-US:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+        created_at: !ruby/object:DateTime 2020-09-23 18:41:44.956000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 22:53:41.322000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Organization
+  lead_image:
+    en-US:
+      sys:
+        id: 2Z9oVr9JrnYW0lykn3omGT
+        created_at: !ruby/object:DateTime 2020-12-03 22:41:26.456000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 22:44:13.054000000 Z
+      title: Landmark alliance launches in Africa to fight COVID-19 misinformation
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2Z9oVr9JrnYW0lykn3omGT/d21ca066322f82d35287e112b27598ea/meedan_africa-infodemic-response-alliance.png"
+    description: 
+    title: Landmark alliance launches in Africa to fight COVID-19 misinformation
+    url: "//images.ctfassets.net/g118h5yoccvd/2Z9oVr9JrnYW0lykn3omGT/d21ca066322f82d35287e112b27598ea/meedan_africa-infodemic-response-alliance.png"
+  description:
+    en-US: The World Health Organization (WHO) today launched a new alliance, the
+      Africa Infodemic Response Alliance (AIRA), to coordinate actions and pool resources
+      in combating misinformation around COVID-19 pandemic and other health emergencies
+      in Africa.
+  body: "Digital platforms have been inundated with COVID-19-related information since
+    the pandemic began in late 2019. Information about the virus has been shared and
+    viewed over 270 billion times online and mentioned almost 40 million times on
+    Twitter and web-based news sites in the 47 countries of the WHO African Region
+    between February and November 2020, according to UN Global Pulse, the United Nations’
+    Secretary-General’s initiative on big data and artificial intelligence. \n\nA
+    large proportion of this information is inaccurate and misleading and continues
+    to be shared by social media users intentionally or unknowingly everyday. The
+    COVID-19 infodemic is amplified online through social media but health misinformation
+    is also circulating offline.  \n\nMeasuring precisely how much of what is circulating
+    is misinformation is difficult, but fact-checking organizations in Africa say
+    they have debunked more than 1000 of such misleading reports since the onset of
+    the pandemic. Some of the widely shared misinformation include conspiracies around
+    unproven treatments, false cures and anti-vaccine messages. \n\n> “In health emergencies,
+    misinformation can kill and ensure diseases continue to spread. People need proven,
+    science-based facts to make informed decisions about their health and well-being,
+    and a glut of information - an infodemic - with misinformation in the mix makes
+    it hard to know what is right and real. This crucial new alliance brings unique
+    reach, knowledge and skills to help stop the impact of dangerous misinformation,”
+    said Dr Matshidiso Moet, WHO Regional Director for Africai.\n\nAmong others, the
+    \ Africa Infodemic Response Alliance  will work collaboratively to counter false
+    information around COVID-19 vaccines and complement on the ground public health
+    awareness raising and community engagement efforts by creating demand for vaccines
+    in the region.\n\nThe network is the first initiative of its kind and it brings
+    together 13 international and regional organizations and fact-checking groups
+    with expertise in data and behavioural science, epidemiology, research, digital
+    health, and communications to detect, disrupt and counter damaging misinformation
+    on public health issues in Africa. \n\nThe Alliance will encourage proactive disclosure
+    by data holders and support journalists and media outlets to effectively share
+    lifesaving information based on scientific evidence and debunk disinformation
+    on health issues. It also aims to support individual African countries in developing
+    tailored infodemic management strategies, including analysing trends and behaviours,
+    recruiting specialists and refining systematic engagement strategies rooted in
+    research and analytics.\n\nThis initiative puts into practice key recommendations
+    on infodemic management that were developed by over 1300 experts from across disciplines
+    in early 2020 under the auspices of WHO’s global Information Network for Epidemics
+    (EPI-WIN).\n\nThe Alliance members are Africa CDC, the International Federation
+    of the Red Cross and Red Crescent Societies (IFRC), the United Nations Verified
+    initiative, the United Nations Children’s Fund (UNICEF), The United Nations Educational,
+    Scientific and Cultural Organization (UNESCO) and United Nations Global Pulse.
+    Participating and supporting bodies include Africa Check, Agence France-Presse
+    Fact Check, PesaCheck, Dubawa and Meedan.\n\n> \"Close coordination among fact-checkers,
+    public health institutions and other communications stakeholders is essential
+    for addressing the unique midinformation challenges we face today, where informational
+    ambiguity based on scant or conflicting evidence, or emerging scientific knowledge
+    can exacerbate the spread of disease,\" said Nat Gyenes, Director Meedan's Digital
+    Health Lab."
+  date: '2020-12-03'
+  image: https://images.ctfassets.net/g118h5yoccvd/2Z9oVr9JrnYW0lykn3omGT/d21ca066322f82d35287e112b27598ea/meedan_africa-infodemic-response-alliance.png
+  title-en: Landmark alliance launches in Africa to fight COVID-19 misinformation
+  alt_date: *29
+  alt_date_string: '2020-12-03'

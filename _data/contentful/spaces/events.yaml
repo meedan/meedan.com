@@ -2755,9 +2755,9 @@ event:
 - sys:
     id: txtEEozwe6Gp38udmg2gK
     created_at: !ruby/object:DateTime 2020-11-05 17:00:32.334000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-05 17:09:39.316000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-26 16:02:16.733000000 Z
     content_type_id: event
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -2776,44 +2776,52 @@ event:
   event_date: !ruby/object:DateTime 2020-12-02 00:00:00.000000000 Z
   event_end_date: !ruby/object:DateTime 2020-12-02 00:00:00.000000000 Z
   time: |-
-    - *San Francisco* 8:30am
-    - *New York* 11:30am
-    - *Brasilia* 1:30pm
-    - *London* 4:30pm
-    - *New Delhi* 10pm
-    - *Manila* 12:30am (+1)
-    - *Tokyo* 1:30am (+1)
+    - *San Francisco* 8:00am
+    - *New York* 11:00am
+    - *Brasilia* 1:00pm
+    - *London* 4:00pm
+    - *New Delhi* 9:30pm
+    - *Manila* 12:00am (+1)
+    - *Tokyo* 1:00am (+1)
   status: Upcoming
   images:
   - sys:
       id: 2e8NPm0MSplkDCPPxCddzi
       created_at: !ruby/object:DateTime 2020-11-05 17:00:56.090000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-05 17:01:28.423000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-26 16:02:03.882000000 Z
     title: Subprime Attention Crisis
     description: Subprime Attention Crisis Book Cover
     url: "//images.ctfassets.net/g118h5yoccvd/2e8NPm0MSplkDCPPxCddzi/4edadf0f7caa29371d6e3c17a109223e/meedan_webinar_tim-hwang_book_01.jpg"
   - sys:
       id: 7fCVoxC8x01R4lvXoUKgNE
       created_at: !ruby/object:DateTime 2020-11-05 17:01:34.366000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-05 17:02:05.302000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-26 16:02:09.845000000 Z
     title: Tim Hwang Headshot
     description: Headshot of author Tim Hwang
     url: "//images.ctfassets.net/g118h5yoccvd/7fCVoxC8x01R4lvXoUKgNE/4bfc753ea6d59d151a940528b9937329/meedan_webinar_tim-hwang_book_02.jpg"
-  register_link: https://oii.zoom.us/webinar/register/6016008626969/WN_M8iAW8myTCG24W9Oal9jWg
+  social_card_image:
+    sys:
+      id: 1kJHXqeNbXxb6uD0mrh4fK
+      created_at: !ruby/object:DateTime 2020-11-26 15:58:44.218000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-26 15:59:33.001000000 Z
+    title: 'Tim Hwang: Destroy the Internet Advertising Economy'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1kJHXqeNbXxb6uD0mrh4fK/844ad27bf2bf14a2e96fdf8a22dc35fe/WWW_-_OII_wk_8_V3.jpg"
+  register_link: https://oii.zoom.us/webinar/register/5616063833332/WN_M8iAW8myTCG24W9Oal9jWg
   description: 'Oxford Internet Institute Visiting Policy Fellow and Meedan Board
     Member Tim Hwang in a book talk with Dr Scott A. Hale, a Senior Research Fellow
     at the OII and Director of Resarch at Meedan. '
   long_description: |-
-    The Oxford Internet Institute and Meedan welcome Visiting Policy Fellow and Meedan Board Member Tim Hwang, discussing his new book ‘Subprime Attention Crisis’ with Dr Scott A. Hale, a Senior Research Fellow at the OII and Director of Resarch at Meedan. Tim is a writer and researcher focusing on public policy and emerging technologies. This session will be a deep-dive conversation exploring how the modern online advertising economy really works, how fragile it may be in reality, and how we might move the internet towards a more sustainable future.
+    The Oxford Internet Institute (OII) and Meedan welcome OII Visiting Policy Fellow and Meedan Board Member Tim Hwang, discussing his new book ‘Subprime Attention Crisis’ with Dr Scott A. Hale, a Senior Research Fellow at the OII and Director of Resarch at Meedan. Tim is a writer and researcher focusing on public policy and emerging technologies. This session will be a deep-dive conversation exploring how the modern online advertising economy really works, how fragile it may be in reality, and how we might move the internet towards a more sustainable future.
 
-    Programmatic advertising – high-speed, algorithmically-facilitated, data-driven advertising – is the cornerstone of the modern internet. It has produced untold wealth for major companies like Facebook and Google, and is the predominant way that online media is made financially sustainable. At its heart, it is based in the idea that the vast trove of data available about people online enables hyper-targeted, hyper-effective persuasion. This promise has driven huge financial gains for businesses, and inspired countless op-eds from technology critics and commentators concerned about the influence of message microtargeting on individuals and society at large. But, much of what we know about online advertising suggests that these visions of an omnipotent persuasion engine are far from reality. In 2014, Google estimated that nearly 60% of ads on the internet are never seen. In 2017, Proctor and Gamble – one of the world’s largest advertisers – cut nearly $200M from its online advertising budget, to little effect.
+    Programmatic advertising—high-speed, algorithmically-facilitated, data-driven advertising—is the cornerstone of the modern internet. It has produced untold wealth for major companies like Facebook and Google, and is the predominant way that online media is made financially sustainable. At its heart, it is based in the idea that the vast trove of data available about people online enables hyper-targeted, hyper-effective persuasion. This promise has driven huge financial gains for businesses, and inspired countless op-eds from technology critics and commentators concerned about the influence of message microtargeting on individuals and society at large. But, much of what we know about online advertising suggests that these visions of an omnipotent persuasion engine are far from reality. In 2014, Google estimated that nearly 60% of ads on the internet are never seen. In 2017, Proctor and Gamble—one of the world’s largest advertisers—cut nearly $200M from its online advertising budget, to little effect.
 
     The ostensible strength of online advertising is in reality, likely to be a bubble. The market has been sustainable in part through the economic destruction of traditional media, the perverse incentives of buyers and sellers of advertising, and the surprising opacity of the digital marketplace for attention. Even as attention online is increasingly “subprime”, these dynamics push the market towards new heights.
   slug: book-talk-destroy-the-internet-advertising-economy-with-this-one-weird-trick
   non_public: false
   event_date_string: '2020-12-02'
   event_end_date_string: '2020-12-02'
-  image: https://images.ctfassets.net/g118h5yoccvd/2e8NPm0MSplkDCPPxCddzi/4edadf0f7caa29371d6e3c17a109223e/meedan_webinar_tim-hwang_book_01.jpg
+  image: https://images.ctfassets.net/g118h5yoccvd/1kJHXqeNbXxb6uD0mrh4fK/844ad27bf2bf14a2e96fdf8a22dc35fe/WWW_-_OII_wk_8_V3.jpg
 - sys:
     id: 3fGBeLe0aWtOMrdYHvYAti
     created_at: !ruby/object:DateTime 2020-11-11 16:11:29.617000000 Z
@@ -2877,3 +2885,282 @@ event:
   event_date_string: '2020-11-20'
   event_end_date_string: '2020-11-20'
   image: https://images.ctfassets.net/g118h5yoccvd/7osdXlMczm9SkZHYMIqnQy/e3306fdd9a2936112b3d5ae2554df53b/meedan_isa_internet-freedom-festival-glitter-meetup.jpg
+- sys:
+    id: 4cVrpWcBDT5Bn0WREiwVXi
+    created_at: !ruby/object:DateTime 2020-11-19 15:57:12.693000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-19 16:11:35.872000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Challenging Euro-Centric Conceptions of Feminism in the Asia-Pacific region
+  event_date: !ruby/object:DateTime 2020-11-25 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-11-25 00:00:00.000000000 Z
+  time: |-
+    New Delhi: 9:30 PM
+
+    London: 4 PM
+
+    Sao Paulo: 1 PM
+  status: Upcoming
+  location_human_friendly: Online on Zoom
+  register_link: https://bcmcr.org/event/panel-discussion-challenging-euro-centric-conceptions-of-feminism-in-the-asia-pacific-region/
+  long_description: |-
+    While definitions and experiences of feminism vary across different parts of the world, structural gender inequalities and resistance from local authorities to legislate in ways which favour the enhancement of women rights are arguably common challenges anywhere we look. But while there seems to be a consensus on the urgent need to address these inequalities, experiences of feminism(s) across countries of the Global South continue to be looked at through a Western lens, which results in tensions with Western and Euro-centric conceptions of feminism and undermines efforts for real impact and social change.
+
+    Working within the framework of BCMCR’s research theme ‘Alternativity’ and drawing on perspectives from India and the South-Asia region, this panel brings together three women who have been at the forefront of the battle for gender equality and women rights across non-Western academic, media and activist circles. Srila Roy will share with us her reading of what feminist and queer politics look like in a globalised India today, Disha Mullick will explore the journey of an independent rural women-only publication from print to online, and Shalini Joshi will present her research on the impact of COVID19 on women in the APAC region, in the light of State crackdowns against women activists, journalists, and freedom fighters.
+
+    The panel will be followed by a Q&A session moderated by Yemisi Akinbobola.
+
+    Panelists:
+
+    Prof Srila Roy is Associate Professor of Sociology, and heads Development Studies at the University of the Witwatersrand, South Africa. She is the author of Remembering Revolution: Gender, Violence and Subjectivity in India’s Naxalbari Movement (Oxford, 2012), editor of New South Asian Feminisms (Zed, 2012) and co-editor of New Subaltern Politics (Oxford 2015). She is currently writing a monograph on feminist and queer politics in globalised India and co-editing a volume of essays on MeToo in India and South Africa. At Wits, she leads the Andrew W. Mellon funded Governing Intimacies project, which promotes new scholarship on gender and sexuality in Southern Africa and India.
+
+    Disha Mullick is the CEO of Chambal Media, a company that produces media for rural audiences. Chambal Media runs Khabar Lahariya, India’s only all-women rural news channel, which recently went digital and video-first. Disha trains and mentors disadvantaged women from remote villages of North India to be professional journalists and produce local news in their languages, from their unique perspective. She has an MA in Gender studies from the University of Warwick and is an Acumen Fellow. She has also worked in publishing and as a journalist before her journey with Khabar Lahariya.
+
+    Shalini Joshi is the Program Director for the Asia-Pacific region at Meedan where she provides support to fact-checkers, newsrooms, activists and academics involved in addressing and researching misinformation. She started her professional journey with the Nirantar Centre for Gender Education where she trained and mentored rural women from underrepresented communities to come into new and professional roles, often breaking gender stereotypes. She is also the co-founder of Khabar Lahariya, and has been a TruthBuzz Fellow with the International Center for Journalists (ICFJ) where she led Checkpoint – a research project focused on misinformation in the Indian elections in 2019.
+
+    Chair:
+
+    Dr Yemisi Akinbobola is Senior Lecturer and International Research Partnerships lead for the Faculty of Arts, Design and Media. Her research is focused on gender, media and African feminism. She is also cofounder of the nongovernmental organisation, African Women in Media. She was recipient of the CNN African Journalism Award (Sports Reporting) in 2016.
+  slug: challenging-euro-centric-conceptions-of-feminism-in-the-asia-pacific-region
+  non_public: true
+  event_date_string: '2020-11-25'
+  event_end_date_string: '2020-11-25'
+- sys:
+    id: 5sNRZ2AE13aUCjz77EHQYj
+    created_at: !ruby/object:DateTime 2020-11-25 22:37:51.404000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-25 22:45:27.123000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Online Community Management in Human Rights
+  event_date: !ruby/object:DateTime 2020-11-24 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-11-24 00:00:00.000000000 Z
+  time: 8:00am-9:30am PST; 11:00am-12:30pm EDT; 4:00pm-5:30pm UK; 5:00pm-6:30pm CET;
+    8:30pm-10:00pm India
+  status: Past
+  long_description: |-
+    A panel of community organizers at the intersection of human rights and design explore issues around online communities management in an online community environment (e.g. Mastodon, WhatsApp groups, Telegram, Facebook groups, Discords, Slacks), including content and conflicts management, community members’ safety and wellbeing, and making work sustainable for community managers themselves.
+
+    This panel is a part of the monthly community calls hosted by the Human Rights Centered Design group. Join the mailing list to attend future events at [hrcd.pubpub.org](https://hrcd.pubpub.org/ "Human Rights Centered Design Community Site").
+  slug: online-community-management-in-human-rights
+  non_public: true
+  event_date_string: '2020-11-24'
+  event_end_date_string: '2020-11-24'
+- sys:
+    id: 7L6vsCDhEJzPRRP3uR7JcN
+    created_at: !ruby/object:DateTime 2020-11-25 22:45:36.515000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-25 22:50:18.540000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Designing in trauma scenarios (IxDD 2020)
+  event_date: !ruby/object:DateTime 2020-09-29 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-09-29 00:00:00.000000000 Z
+  time: 13:15 - 14:00 GMT
+  status: Past
+  location_human_friendly: Zoom/London, UK
+  long_description: |
+    World Interaction Design Day (IxDD) 2020
+    Why only when we deal with communities that are traumatised do we think about how technology and design can harm people, and why is this not something we consider in other designing for other services or products?Eriol and Kat will take you through how centring human rights in humanitarian technology contexts led to the expansion of what we consider a ‘humanitarian context’.
+  slug: designing-in-trauma-scenarios-ixdd-2020
+  non_public: false
+  event_date_string: '2020-09-29'
+  event_end_date_string: '2020-09-29'
+- sys:
+    id: 1Z4ayfr9hawB3fgjrvTsrb
+    created_at: !ruby/object:DateTime 2020-11-25 22:50:50.511000000 Z
+    updated_at: !ruby/object:DateTime 2020-11-25 22:58:01.708000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Trauma and Design in Human Rights-Centered Work
+  event_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
+  time: "Session 1:  \n2pm PST / 9pm UTC / 11pm CET (Wednesday, August 12)\n2:30am
+    Delhi / 7am Melbourne (Thursday, August 13)\n\nSession 2: \n8am PST / 11am EDT
+    / 3pm UTC / 5pm CET / 8:30pm Delhi (Thursday, August 20)\n1am Melbourne (Friday,
+    August 21)"
+  status: Past
+  long_description: |-
+    HRCD community members find ourselves encountering trauma at some point in our design careers—in people served through designs, in the settings we worked in, and in ourselves. This is our first set of community calls on the topic.
+
+    Blog post summarizing these sessions: [Trauma and Design: Community call round-up
+    ](https://hrcd.pubpub.org/pub/traumaanddesign-082020communitycall/)
+  slug: trauma-and-design-in-human-rights-centered-work
+  non_public: true
+  event_date_string: '2020-08-12'
+  event_end_date_string: '2020-08-12'
+- sys:
+    id: 302ZOXlWubrynf1z1Jnw1D
+    created_at: !ruby/object:DateTime 2020-12-03 19:49:39.146000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-04 19:38:07.603000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'PRISM Health Symposium: Ethics Panel'
+  event_date: !ruby/object:DateTime 2020-12-03 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-12-03 00:00:00.000000000 Z
+  time: |
+    - *San Francisco* 12:10pm
+    - *New York* 3:10pm
+    - *São Paolo* 4:10pm
+    - *London* 8:10pm
+    - *Nairobi* 10:10pm
+    - *Delhi* 12:40am (+1)
+    - *Manila* 3:10am(+1)
+  images:
+  - sys:
+      id: 6MF7dol5lIQtYX5djhbmjD
+      created_at: !ruby/object:DateTime 2020-12-04 19:07:03.333000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-04 19:07:20.716000000 Z
+    title: 'PRISM Health Symposium: Ethics Panel'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6MF7dol5lIQtYX5djhbmjD/2d1aaf3487b9e07d0db7b5664bc54236/meedan_PRISM_01.jpg"
+  - sys:
+      id: 2M8H0xU8U95cRImFUm7cI5
+      created_at: !ruby/object:DateTime 2020-12-04 19:07:24.665000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-04 19:07:46.560000000 Z
+    title: 'PRISM Health Symposium: Ethics Panel'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2M8H0xU8U95cRImFUm7cI5/ba13078e9301e6efd0a6a12027f6768e/meedan_PRISM_02.jpg"
+  location_human_friendly: Online
+  register_link: https://prism.ucsf.edu/
+  description: PRISM fosters a collaborative learning community for researchers in
+    social media and health.
+  long_description: |-
+    This year's Promoting Research in Social Media and Health Symposium (PRISM) will be a two-day virtual research symposium. PRISM fosters a collaborative learning community for researchers in social media and health. The burgeoning field of social media and health research is broad but distinct from health information technology and mobile health. The PRISM planning committee does far-ranging research on health and social media. Prior work presented at PRISM includes vaccination attitudes, infectious disease outbreaks, tobacco cessation, and tanning bed use, all using online communication.
+
+    PRISM provides a one-of-a-kind opportunity for participants to meet, collaborate, and advance their work. Now in its fifth year, PRISM has hosted academic researchers, industry partners, patients, and advocates from over 40 unique institutions. PRISM is one of the few symposiums dedicated to social media and health research.
+  slug: prism-health-symposium-ethics-panel
+  non_public: true
+  event_date_string: '2020-12-03'
+  event_end_date_string: '2020-12-03'
+  image: https://images.ctfassets.net/g118h5yoccvd/6MF7dol5lIQtYX5djhbmjD/2d1aaf3487b9e07d0db7b5664bc54236/meedan_PRISM_01.jpg
+- sys:
+    id: 5XPiogE9edIx8pNGBiuOLm
+    created_at: !ruby/object:DateTime 2020-12-03 20:48:48.867000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-07 15:25:45.420000000 Z
+    content_type_id: event
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr. Seema
+    Yasmin'
+  event_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 8:00am
+    - *New York* 4:00pm
+    - *Brasilia* 6:00pm
+    - *London* 9:00pm
+    - *New Delhi* 2:30am +1
+    - *Manila* 5:00am (+1)
+    - *Tokyo* 6:00am (+1)
+  images:
+  - sys:
+      id: 6UM4uQWvHAOZKmqzyeveOv
+      created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
+    title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
+  - sys:
+      id: 2d8CcybuZXrgFj1Y6NbcK2
+      created_at: !ruby/object:DateTime 2020-12-03 21:09:51.038000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 21:11:33.972000000 Z
+    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+      Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png"
+  social_card_image:
+    sys:
+      id: 6BTzT0amLYu1A1Bm1O9tMx
+      created_at: !ruby/object:DateTime 2020-12-03 21:11:08.712000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 21:11:41.656000000 Z
+    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+      Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png"
+  location_human_friendly: Instagram Live
+  long_description: |
+    People in the UK began receiving a newly-authorized COVID-19 vaccine on Monday December 7, making the UK the first Western country to issue emergency approval of a vaccine and to launch a COVID-19 vaccination campaign. Was approval of the vaccine a political decision? Were scientists rushed by lawmakers? Who will receive the vaccine first and who is next in line? Join Dr. Seema Yasmin and Dr. Amile Inusa for an IG Live on Tuesday December (1 pm PT/ 8 pm GMT) to discuss these questions and more.
+
+    __Dr. Amile Inusa__ completed her training in the competitive North Central Thames Deanery and also worked as a locum doctor for two years primarily in Paediatrics & Emergency Medicine. She studied Medicine at The University of Manchester and holds a Masters (MSc) degree in Healthcare Ethics and Law. With a wide range of medical interests from Paediatrics and Global Health to Medical Education and Genetics, she has sought research opportunities in these areas. In 2017, she founded a podcast called 'Life After The Letters'. She has since transitioned her podcast into a media company in 2020 called 'circa1948' - aimed at serving the healthcare industry. Through this, she is able to pursue her interests and unique understanding of healthcare communication and partner management.
+
+    __Dr. Seema Yasmin__ is an Emmy Award-winning medical journalist, poet, physican and author. Yasmin served as an officer in the Epidemic Intelligence Service at the U.S. Centers for Disease Control and Prevention where she investigated disease outbreaks. She trained in journalism at the University of Toronto and in medicine at the University of Cambridge. Yasmin was a finalist for the Pulitzer Prize in breaking news in 2017 with a team from The Dallas Morning News and received an Emmy Award for her reporting on neglected diseases. She received two grants from the Pulitzer Center on Crisis Reporting and was selected as a John S. Knight Fellow in Journalism at Stanford University iin 2017 where she investigated the spread of health misinformation and disinformation during epidemics.
+  slug: the-first-covid-19-vaccine-rollout-instagram-live-discussion-with-dr-seema
+  event_date_string: '2020-12-08'
+  event_end_date_string: '2020-12-08'
+  image: https://images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png

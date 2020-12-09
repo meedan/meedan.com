@@ -119,6 +119,10 @@
     margin-bottom: var(--space-3);
 }
 
+.module p + p {
+    margin-top: var(--space-3);
+}
+
 .module .module-links {
     margin-top: var(--space-6);
     font-size: var(--scale-0);
