@@ -12,11 +12,7 @@ description: |
 <div class="main-grid section-margin">
     <div class="main-grid__5-12">
         {% include icon_checklist.html %}
-        <form name="meedan-checklist" id="meedan-checklist" class="checklist-signup" netlify-honeypot="bot" netlify>
-            <label style="display: none;">Don’t fill this out: <input name="bot"></label>
-            <label for="email"><span>Email</span> <input type="email" name="email" placeholder="Sign up for our newsletter" required></label>
-            <button type="submit">→</button>
-        </form>
+        {% include module_checklist_signup.html %}
     </div>
     <div class="main-grid__5-12 section-margin">
         <h3>Latest issue and archive</h3>
