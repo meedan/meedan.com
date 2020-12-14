@@ -13,7 +13,7 @@ lang: pt
             {% if page.lead_video.en-US %}
                 <div class="main-grid lead_video">
                     <div class="main-grid__2-11">
-                        <p class="u-responsive-ratio"><iframe class="youtube" src="https://www.youtube.com/embed/{{ lead_video.en-US }}?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+                        <p class="u-responsive-ratio"><iframe src="https://www.youtube.com/embed/{{ page.lead_video.en-US }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
                     </div>
                 </div>
             {% elsif page.lead_image %}

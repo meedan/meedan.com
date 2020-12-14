@@ -3164,3 +3164,54 @@ event:
   event_date_string: '2020-12-08'
   event_end_date_string: '2020-12-08'
   image: https://images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png
+- sys:
+    id: 6QZUpY7B41IIOgWS1r9Bhp
+    created_at: !ruby/object:DateTime 2020-12-13 17:29:00.270000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-13 18:00:58.672000000 Z
+    content_type_id: event
+    revision: 5
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Dr. Seema Yasmin talks mental health with Dr. Tyler Black
+  event_date: !ruby/object:DateTime 2020-12-14 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2020-12-14 00:00:00.000000000 Z
+  time: |
+    - *San Francisco* 3:00pm
+    - *New York* 6:00pm
+    - *London* 11:00pm
+  status: Upcoming
+  images:
+  - sys:
+      id: 2d8CcybuZXrgFj1Y6NbcK2
+      created_at: !ruby/object:DateTime 2020-12-03 21:09:51.038000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 21:11:33.972000000 Z
+    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
+      Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png"
+  - sys:
+      id: 2rxqKQCvu6j4TCV6ZOT0W9
+      created_at: !ruby/object:DateTime 2020-06-25 20:08:57.750000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-25 20:09:39.934000000 Z
+    title: 'Instagram Live: Dr. Saskia Popescu and Dr. Seema Yasmin'
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/2rxqKQCvu6j4TCV6ZOT0W9/b9c19b75335ee96ded5a1c2957dd9362/meedan_iglive_june-26_02.png"
+  long_description: 'Join our resident public health expert, Dr. Seema Yasmin and
+    psychiatrist and suicidologist, Dr. Tyler Black for a discussion on suicide myths,
+    the impact of the pandemic on mental health, and strategies for parenting children
+    who are stressed and distressed. Tune in at @drseemayasmin on Instagram! '
+  slug: instagram-live-dr-seema-yasmin-talks-mental-health-with-dr-tyler-black
+  event_date_string: '2020-12-14'
+  event_end_date_string: '2020-12-14'
+  image: https://images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png
