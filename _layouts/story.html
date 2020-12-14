@@ -10,6 +10,13 @@ lang: en-US
     <div class="page-wrapper">
         {% include post_header.html %}
         <section>
+            {% if page.lead_video.en-US %}
+                <div class="main-grid lead_video">
+                    <div class="main-grid__2-11">
+                        <p class="u-responsive-ratio"><iframe class="youtube" src="https://www.youtube.com/embed/{{ lead_video.en-US }}?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+                    </div>
+                </div>
+            {% elsif page.lead_image %}
             <figure class="graphic">
                 <img class="main-grid__2-11 justify-self--center lead_image" alt="{{ page.lead_image.title }}" src="{{ page.lead_image.url }}" />
                 {% if page.lead_image.description %}
@@ -18,6 +25,7 @@ lang: en-US
                     </figcaption>
                 {% endif %}
             </figure>
+            {% endif %}
             {% include story_actions.html %}
             {% include translations.html %}
             {% if page.updates.en-US %}
