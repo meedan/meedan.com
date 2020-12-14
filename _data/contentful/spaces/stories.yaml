@@ -8800,9 +8800,9 @@ story:
 - sys:
     id: 4cabGMvYgIjWkZR53tnFBC
     created_at: &31 !ruby/object:DateTime 2020-12-11 21:56:56.393000000 Z
-    updated_at: !ruby/object:DateTime 2020-12-11 23:23:12.637000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-14 22:15:14.163000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -8827,18 +8827,209 @@ story:
         revision: 1
       title:
         en-US: Training
+  lead_image:
+    en-US:
+      sys:
+        id: 5EbryUux1NaYaWqodGtpGx
+        created_at: !ruby/object:DateTime 2020-12-14 21:48:53.616000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-14 21:49:13.576000000 Z
+      title: How health misinformation spreads disease
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5EbryUux1NaYaWqodGtpGx/77ebc97cfc1f5caf75f94c679f20e627/maxresdefault.jpg"
+    description: 
+    title: How health misinformation spreads disease
+    url: "//images.ctfassets.net/g118h5yoccvd/5EbryUux1NaYaWqodGtpGx/77ebc97cfc1f5caf75f94c679f20e627/maxresdefault.jpg"
   description:
-    en-US: In this video training series for Facebook Journalism Project's Global
-      Health Fellowship, Dr. Christin Gilmer discusses everything from pandemic profiteering
-      to the current COVID-19 crisis, outlining how throughout history, health misinformation
-      has spread real world disease.
-  body: In this video training series for Facebook Journalism Project's Global Health
-    Fellowship, Dr. Christin Gilmer discusses everything from pandemic profiteering
-    to the current COVID-19 crisis, outlining how throughout history, health misinformation
-    has spread real world disease.
+    en-US: In this video training series for F[acebook Journalism Project's Global
+      Health Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+      Dr. Christin Gilmer discusses everything from pandemic profiteering to the current
+      COVID-19 crisis, outlining how throughout history, health misinformation has
+      spread real world disease.
+  body: In this video training series for [Facebook Journalism Project's Global Health
+    Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+    Dr. Christin Gilmer discusses everything from pandemic profiteering to the current
+    COVID-19 crisis, outlining how throughout history, health misinformation has spread
+    real world disease.
   lead_video:
     en-US: BKdyZq4ELcY
   date: '2020-12-11'
+  image: https://images.ctfassets.net/g118h5yoccvd/5EbryUux1NaYaWqodGtpGx/77ebc97cfc1f5caf75f94c679f20e627/maxresdefault.jpg
   title-en: How health misinformation spreads disease
   alt_date: *31
+  alt_date_string: '2020-12-11'
+- sys:
+    id: 4MGBMdaeda8SjNixhuZjyl
+    created_at: &32 !ruby/object:DateTime 2020-12-11 23:42:02.644000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-14 22:47:24.709000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Public health tools for fact-checking health information
+  slug: public-health-tools-for-fact-checking-health-information
+  topic:
+    en-US:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+        created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Training
+  lead_image:
+    en-US:
+      sys:
+        id: 5QHgamKI4YfxslGvcWEIoq
+        created_at: !ruby/object:DateTime 2020-12-14 21:52:33.316000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-14 21:53:58.327000000 Z
+      title: Public health tools for fact-checking health information
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5QHgamKI4YfxslGvcWEIoq/7e83438d02227accde9bb4ea86cf285b/maxresdefault.jpg"
+    description: 
+    title: Public health tools for fact-checking health information
+    url: "//images.ctfassets.net/g118h5yoccvd/5QHgamKI4YfxslGvcWEIoq/7e83438d02227accde9bb4ea86cf285b/maxresdefault.jpg"
+  description:
+    en-US: In this video training series for [Facebook Journalism Project's Global
+      Health Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+      Digital Health Lab Director Natalie Gyenes outlines some of the key techniques
+      that fact-checkers and journalists can use to support public health while they’re
+      verifying and debunking health misinformation online.
+  body: In this video training series for [Facebook Journalism Project's Global Health
+    Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+    Digital Health Lab Director Natalie Gyenes outlines some of the key techniques
+    that fact-checkers and journalists can use to support public health while they’re
+    verifying and debunking health misinformation online.
+  lead_video:
+    en-US: HJIYhSA84Sc
+  date: '2020-12-11'
+  image: https://images.ctfassets.net/g118h5yoccvd/5QHgamKI4YfxslGvcWEIoq/7e83438d02227accde9bb4ea86cf285b/maxresdefault.jpg
+  title-en: Public health tools for fact-checking health information
+  alt_date: *32
+  alt_date_string: '2020-12-11'
+- sys:
+    id: 2i4FAU6yUI8supQmTzEXab
+    created_at: &33 !ruby/object:DateTime 2020-12-11 23:44:21.082000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-14 22:15:13.665000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Fact-checking and mental health
+  slug: fact-checking-and-mental-health
+  topic:
+    en-US:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+        created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Training
+  lead_image:
+    en-US:
+      sys:
+        id: 6ZdFGhHDc09plxve0uc6tc
+        created_at: !ruby/object:DateTime 2020-12-14 21:52:00.415000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-14 21:52:15.546000000 Z
+      title: Fact-checking and mental health
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6ZdFGhHDc09plxve0uc6tc/7cccb40b79c9367992dda1651b086054/maxresdefault.jpg"
+    description: 
+    title: Fact-checking and mental health
+    url: "//images.ctfassets.net/g118h5yoccvd/6ZdFGhHDc09plxve0uc6tc/7cccb40b79c9367992dda1651b086054/maxresdefault.jpg"
+  description:
+    en-US: In this video training series for [Facebook Journalism Project's Global
+      Health Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+      content moderation expert Kat Lo dives into the signs that fact-checking is
+      taking a toll on your mental health.
+  body: In this video training series for [Facebook Journalism Project's Global Health
+    Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+    content moderation expert Kat Lo dives into the signs that fact-checking is taking
+    a toll on your mental health.
+  lead_video:
+    en-US: e_u0PMKAvN0
+  date: '2020-12-11'
+  image: https://images.ctfassets.net/g118h5yoccvd/6ZdFGhHDc09plxve0uc6tc/7cccb40b79c9367992dda1651b086054/maxresdefault.jpg
+  title-en: Fact-checking and mental health
+  alt_date: *33
+  alt_date_string: '2020-12-11'
+- sys:
+    id: 53eFkDIN33U1aGpR9U6BGG
+    created_at: &34 !ruby/object:DateTime 2020-12-11 23:45:18.999000000 Z
+    updated_at: !ruby/object:DateTime 2020-12-14 22:15:13.670000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Safe solutions for fact-checking health information
+  slug: safe-solutions-for-fact-checking-health-information
+  topic:
+    en-US:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+        created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Training
+  lead_image:
+    en-US:
+      sys:
+        id: 7nKd6u8LX4BGXLwuTDJgRr
+        created_at: !ruby/object:DateTime 2020-12-14 21:49:32.750000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-14 21:51:19.573000000 Z
+      title: Safe solutions for fact-checking health information
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7nKd6u8LX4BGXLwuTDJgRr/45ddb691d555b25e9af28d2fade3a02f/Facebook_Journalism_Project_Global_Health_Fellowship_Training_.png"
+    description: 
+    title: Safe solutions for fact-checking health information
+    url: "//images.ctfassets.net/g118h5yoccvd/7nKd6u8LX4BGXLwuTDJgRr/45ddb691d555b25e9af28d2fade3a02f/Facebook_Journalism_Project_Global_Health_Fellowship_Training_.png"
+  description:
+    en-US: In this video training series for [Facebook Journalism Project's Global
+      Health Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+      content moderation expert Kat Lo discusses tips and tricks for prioritizing
+      mental health while fact-checking health misinformation.
+  body: In this video training series for [Facebook Journalism Project's Global Health
+    Fellowship](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/global-health-fellowship),
+    content moderation expert Kat Lo discusses tips and tricks for prioritizing mental
+    health while fact-checking health misinformation.
+  lead_video:
+    en-US: aspx2KEldB6Qg
+  date: '2020-12-11'
+  image: https://images.ctfassets.net/g118h5yoccvd/7nKd6u8LX4BGXLwuTDJgRr/45ddb691d555b25e9af28d2fade3a02f/Facebook_Journalism_Project_Global_Health_Fellowship_Training_.png
+  title-en: Safe solutions for fact-checking health information
+  alt_date: *34
   alt_date_string: '2020-12-11'
