@@ -3,17 +3,17 @@ moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
     created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
-    updated_at: !ruby/object:DateTime 2020-12-04 19:08:42.194000000 Z
+    updated_at: !ruby/object:DateTime 2021-01-28 06:39:43.131000000 Z
     content_type_id: moduleEvents
-    revision: 51
+    revision: 52
   title: Upcoming Events
   events:
   - sys:
-      id: 5XPiogE9edIx8pNGBiuOLm
-      created_at: !ruby/object:DateTime 2020-12-03 20:48:48.867000000 Z
-      updated_at: !ruby/object:DateTime 2020-12-07 15:25:45.420000000 Z
+      id: 6TAxOEDonpJOFHA2WTlQFk
+      created_at: !ruby/object:DateTime 2021-01-28 03:02:03.096000000 Z
+      updated_at: !ruby/object:DateTime 2021-01-28 04:48:39.523000000 Z
       content_type_id: event
-      revision: 4
+      revision: 2
       space:
         sys:
           id: g118h5yoccvd
@@ -27,51 +27,48 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
-      Seema Yasmin'
-    event_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-12-08 00:00:00.000000000 Z
+    title: 'Algorithmic Inequity and Big Tech: Check Global Twitter Chat with "Coded
+      Bias"'
+    event_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
     time: |-
-      - *San Francisco* 8:00am
-      - *New York* 4:00pm
-      - *Brasilia* 6:00pm
-      - *London* 9:00pm
-      - *New Delhi* 2:30am +1
-      - *Manila* 5:00am (+1)
-      - *Tokyo* 6:00am (+1)
+      - *Los Angeles* 7:00am
+      - *New York* 10:00am
+      - *Salvador* 12:00pm
+      - *London* 3:00pm
+      - *Cairo* 4:00pm
+      - *Delhi* 7:30pm
+    status: Upcoming
     images:
     - sys:
-        id: 6UM4uQWvHAOZKmqzyeveOv
-        created_at: !ruby/object:DateTime 2020-07-08 01:03:54.421000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-08 18:36:48.086000000 Z
-      title: 'Instagram Live: Dr. Arghavan Salles on COVID-19 and healthcare workers'
+        id: wicy40JnxsZPUz9cqxnDg
+        created_at: !ruby/object:DateTime 2021-01-28 03:06:31.795000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-28 04:22:06.461000000 Z
+      title: Coded Bias poster
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6UM4uQWvHAOZKmqzyeveOv/9a6cc2c47077ec49c403e93756de3aba/meedan_iglive_july-9_01.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png"
     - sys:
-        id: 2d8CcybuZXrgFj1Y6NbcK2
-        created_at: !ruby/object:DateTime 2020-12-03 21:09:51.038000000 Z
-        updated_at: !ruby/object:DateTime 2020-12-03 21:11:33.972000000 Z
-      title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
-        Seema Yasmin'
+        id: 7fRKxSoaMtlZHxocdgMwxl
+        created_at: !ruby/object:DateTime 2021-01-28 04:22:10.057000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-28 04:45:10.034000000 Z
+      title: Isa and Azza
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png"
-    social_card_image:
-      sys:
-        id: 6BTzT0amLYu1A1Bm1O9tMx
-        created_at: !ruby/object:DateTime 2020-12-03 21:11:08.712000000 Z
-        updated_at: !ruby/object:DateTime 2020-12-03 21:11:41.656000000 Z
-      title: 'The first COVID-19 vaccine rollout: Instagram Live discussion with Dr.
-        Seema Yasmin'
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png"
-    location_human_friendly: Instagram Live
-    long_description: |
-      People in the UK began receiving a newly-authorized COVID-19 vaccine on Monday December 7, making the UK the first Western country to issue emergency approval of a vaccine and to launch a COVID-19 vaccination campaign. Was approval of the vaccine a political decision? Were scientists rushed by lawmakers? Who will receive the vaccine first and who is next in line? Join Dr. Seema Yasmin and Dr. Amile Inusa for an IG Live on Tuesday December (1 pm PT/ 8 pm GMT) to discuss these questions and more.
+      url: "//images.ctfassets.net/g118h5yoccvd/7fRKxSoaMtlZHxocdgMwxl/77a41f84a1f25c9b096a25000d2e58cb/updated_meedan_azza_isa.png"
+    location_human_friendly: Online on Twitter
+    description: Check Global Program Associate Azza El-Masri and Program Manager
+      Isabella B. Oliveira speak with the team behind the film "Coded Bias" about
+      tech inequities around the world.
+    long_description: |-
+      With the implementation of big tech's algorithms worldwide, who gets equitable access to information and who doesn't?
 
-      __Dr. Amile Inusa__ completed her training in the competitive North Central Thames Deanery and also worked as a locum doctor for two years primarily in Paediatrics & Emergency Medicine. She studied Medicine at The University of Manchester and holds a Masters (MSc) degree in Healthcare Ethics and Law. With a wide range of medical interests from Paediatrics and Global Health to Medical Education and Genetics, she has sought research opportunities in these areas. In 2017, she founded a podcast called 'Life After The Letters'. She has since transitioned her podcast into a media company in 2020 called 'circa1948' - aimed at serving the healthcare industry. Through this, she is able to pursue her interests and unique understanding of healthcare communication and partner management.
+      <p class="u-responsive-ratio">
+      <iframe class="youtube" src="https://www.youtube.com/embed/jZl55PsfZJQ?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
-      __Dr. Seema Yasmin__ is an Emmy Award-winning medical journalist, poet, physican and author. Yasmin served as an officer in the Epidemic Intelligence Service at the U.S. Centers for Disease Control and Prevention where she investigated disease outbreaks. She trained in journalism at the University of Toronto and in medicine at the University of Cambridge. Yasmin was a finalist for the Pulitzer Prize in breaking news in 2017 with a team from The Dallas Morning News and received an Emmy Award for her reporting on neglected diseases. She received two grants from the Pulitzer Center on Crisis Reporting and was selected as a John S. Knight Fellow in Journalism at Stanford University iin 2017 where she investigated the spread of health misinformation and disinformation during epidemics.
-    slug: the-first-covid-19-vaccine-rollout-instagram-live-discussion-with-dr-seema
-    event_date_string: '2020-12-08'
-    event_end_date_string: '2020-12-08'
-    image: https://images.ctfassets.net/g118h5yoccvd/6BTzT0amLYu1A1Bm1O9tMx/99ba36be921aafa6d8ef72e9fc1f7976/meedan_iglive_dec-8_01.png
+      Join Azza El-Masri and Isabella Barrosso Oliveira as they speak with the team behind the film *Coded Bias* via live Twitter chat about the intersection of automated systems and access to information. They share their work supporting journalists, media workers and technologists within the NAWA region and throughout Latin America, and how big tech both helps and harms communities.
+
+      Go to Meedan's [Twitter profile](https://twitter.com/meedan) to attend the chat, and learn more about Coded Bias [on their website](https://www.codedbias.com/).
+    slug: algorithmic-inequity-and-big-tech-check-global-twitter-chat-with-coded-bias
+    non_public: false
+    event_date_string: '2021-01-28'
+    event_end_date_string: '2021-01-28'
+    image: https://images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png
