@@ -52,6 +52,12 @@
     font-size: var(--scale-1);
 }
 
+.digital-health-lab {
+    // background: linear-gradient(180deg, #FFB34D 37.58%, #9F82C4 51.36%);
+    // background: linear-gradient(180deg, #FFB34D 29.91%, #9F82C4 34.53%, #9F82C4 53.54%, #FFB2B2 65.91%, #FFB2B2 71.58%, #E5E5E5 81.87%, #E5E5E5 85.53%, #9F82C4 100%);
+    background: linear-gradient(180deg, #FFB34D 25.03%, #9F82C4 35.41%, #9F82C4 53.54%, #EF7E7B 65.91%, #EF7E7B 71.58%, #979797 81.87%, #979797 88.58%, #9F82C4 100%);
+}
+
 .page-wrapper .standfirst {
     grid-column: 5 / 12;
     font-size: var(--scale-2);
