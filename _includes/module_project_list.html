@@ -1,19 +1,40 @@
-{% assign projects = site.data.contentful.spaces.projects.project | sort: 'order' %}
-<div class="module module-project-list">
+{% if include.program %}
+    {%
+        assign projects = site.data.contentful.spaces.projects.project 
+        | where_exp: "item","item.program[0].sys.id == include.program"
+        | sort: 'order' 
+    %}
+{% else %}
+    {%
+        assign projects = site.data.contentful.spaces.projects.project 
+        | sort: 'order' 
+    %}
+{% endif %}
+
+<div class="module module-project-list section-bottom-margin">
+    <div class="main-grid projects">
     {% for project in projects %}
-        <div class="main-grid section-margin projects">
-            <div class="main-grid__1-5 bleed project-story">
-                <img src="{{ project.hero_image.url }}" />
-            </div>
-            <div class="main-grid__6-12 project-teaser">
-                <h3>{{ project.title }}</h3>
-                {{ project.short_description | markdownify }}
-                {% if project.links %}
-                    <div class="plain-list">
-                        {{ project.links | markdownify }}
+        <a class="project" href="{{ project.slug }}">
+            
+                <div class="project-header">
+                    <div class="title"><h4>{{ project.title }}</h3></div>
+                    <!-- <div class="description">
+                        {{ project.short_description | markdownify }}
+                    </div> -->
+                </div>
+                <div class="project-details">
+                    {% if project.tags %}
+                        <div class="tags">
+                            {% for tag in project.tags %}
+                                <span class="tag">{{ tag.title }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    <div class="project-image">
+                        <img src="{{ project.hero_image.url }}" alt="{{ project.title }}" />
                     </div>
-                {% endif %}
-            </div>
-        </div>
+                </div>
+        </a>
     {% endfor %}
+    </div>
 </div>

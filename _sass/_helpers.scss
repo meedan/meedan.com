@@ -179,6 +179,15 @@
     }
 }
 
+.plain-list.with-border ul li {
+    display: block;
+    font-size: var(--scale-0);
+    padding: var(--space-1) 0;
+    border-bottom: 1px solid var(--blackInk);
+    color: var(--blackInk);
+    text-decoration: none;
+}
+
 .list-with-header ul {
     list-style-type: none;
     margin-bottom: var(--space-4);
@@ -186,6 +195,33 @@
 
 .list-with-header ul li:first-child {
     margin-bottom: var(--space-1);
+}
+
+.tags {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-1);
+}
+
+.tags .tag {
+    flex: 0 0 auto;
+    font-size: 1rem;
+    border: 1px solid var(--blackInk);
+    border-radius: 1.111rem;
+    padding: 0.333rem 0.889rem;
+    position: relative;
+    left: -.05em;
+    top: -.21em;
+}
+
+.tags .tag:not(:last-child) {
+    margin-right: 0.556rem;
+}
+
+.dark span.tag {
+    border-color: var(--accent);
 }
 
 .credit {

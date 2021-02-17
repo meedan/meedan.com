@@ -198,3 +198,25 @@ topic:
   title: Fact-checking
   slug: fact-checking
   topic: Fact-checking
+- sys:
+    id: 6L2oMEajsxBDbYLWz1l6Bb
+    created_at: !ruby/object:DateTime 2021-02-17 06:04:37.278000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-17 06:04:51.771000000 Z
+    content_type_id: topic
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: topic
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Elections
+  slug: elections
+  topic: Elections

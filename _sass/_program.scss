@@ -1,0 +1,31 @@
+.module-program-list {
+    // margin-bottom: var(--space-4);
+    @include responsive('min-width: #{$width-tablet}') {
+        .programs {
+            padding-left: 0;
+        }
+    }
+    .program-teaser {
+        margin-top: var(--space-1);
+    }
+    h3 {
+        margin-bottom: var(--space-1);
+        text-transform: uppercase;
+    }
+
+    .program-story a {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        img {
+            grid-column: 1/-1;
+        }
+        h4 {
+            grid-column: 2/8;
+            margin-top: var(--space-2);
+        }
+        .arrow {
+            margin-top: var(--space-3);
+            grid-column: 2/2;
+        }
+    }
+}
