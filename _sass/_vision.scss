@@ -63,6 +63,10 @@
     }
 }
 
+.program .module-vision .vision-statement {
+    grid-column: 3/11;
+}
+
 
 .module-vision .one {
     grid-column: 1/5;
@@ -72,6 +76,10 @@
 .module-vision .two {
     grid-column: 8/12;
     grid-row: 2/4;
+}
+
+.program .module-vision .two {
+    grid-row: 1/3;
 }
 
 .module-vision .three {
