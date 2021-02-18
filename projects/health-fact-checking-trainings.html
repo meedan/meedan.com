@@ -1,0 +1,35 @@
+---
+title: Health Fact-checking Trainings
+short_title: Projects
+layout: landing_page
+class: campaign project
+permalink: /projects/health-fact-checking-trainings
+h2: <span class="">Health Fact-checking Trainings</span>
+description: | 
+    We are training fact-checkers at all levels on how to responsibly handle health misinformation. 
+---
+{%
+    assign project = site.data.contentful.spaces.projects.project 
+    | where_exp: "item","item.sys.id == '6wYzTb5q9VfeVAfgCbyc61'" 
+%}
+<div class="main-grid">
+    {% if project[0].tags %}
+        <div class="tags">
+            {% for tag in project[0].tags %}
+                <span class="tag ">{{ tag.title }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+<div class="module section-margin">
+    <div class="main-grid">
+        <div class="main-grid__6-12">
+            <p class="font-size--scale-2">We are training fact-checkers at all levels on how to responsibly handle health misinformation.</p>
+            <p>From India to Indonesia to Colombia to Nigeria, our training programs are co-designed with participants, tackling health topics and fact-checking challenges that are defined by the journalists and communicators we work with.</p>
+            <p>2020, we trained emerging fact-checkers from eight countries on topics including:</p>
+        </div>
+    </div>
+</div>
+<div class="main-grid section-margin">
+</div>
+{% include footer_small.html %}
