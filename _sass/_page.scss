@@ -57,6 +57,10 @@
     background: linear-gradient(180deg, #FFB34D 29.91%, #9F82C4 34.53%, #9F82C4 53.54%, #FFB2B2 65.91%, #FFB2B2 71.58%, #C4C4C4 81.87%, #C4C4C4 85.53%, #9F82C4 100%);
 }
 
+.project .page-wrapper header h2 {
+    padding-top: 0;
+}
+
 .page-wrapper .standfirst {
     grid-column: 5 / 12;
     font-size: var(--scale-2);
@@ -120,16 +124,26 @@
 .module h3 + p,
 .module p + p,
 .module p + p + p,
-.module p + p + p + p,
-.module [class^="grid-column--span-"] + [class^="grid-column--span-"],
-.module [class^="grid-column--span-"] + [class^="grid-column--span-"] 
-+ [class^="grid-column--span-"] {
+.module p + p + p + p {
     margin-bottom: var(--space-3);
 }
 
-.module p + p,
-.module [class^="grid-column--span-"] + [class^="grid-column--span-"] {
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .module [class^="grid-column--span-"] + [class^="grid-column--span-"],
+    .module [class^="grid-column--span-"] + [class^="grid-column--span-"] 
+    + [class^="grid-column--span-"] {
+        margin-bottom: var(--space-3);
+    }
+}
+
+.module p + p {
     margin-top: var(--space-3);
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .module [class^="grid-column--span-"] + [class^="grid-column--span-"] {
+        margin-top: var(--space-3);
+    }
 }
 
 .module .module-links {

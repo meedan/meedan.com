@@ -1,0 +1,68 @@
+---
+title: Health Equity through Health Fact-checking
+short_title: Projects
+layout: landing_page
+class: campaign dark project color--east-side
+permalink: /projects/health-equity-through-health-fact-checking
+h2: <span class="color--east-side">Health Equity through Health Fact-checking</span>
+description: | 
+    Misinfodemics, the idea that viral misinformation can facilitate the spread of a particular health outcome or disease, are a public health issue with significant momentum, bringing together interdisciplinary organizations and researchers, media producers and distributors, technology companies, social media platforms, and academic institutions around the world.
+callout: |
+    Information equity is a public health issue.
+---
+{%
+    assign project = site.data.contentful.spaces.projects.project 
+    | where_exp: "item","item.sys.id == '1ZsxA2Kjtcjm6YJ35BFveH'" 
+%}
+<div class="main-grid">
+    {% if project[0].tags %}
+        <div class="tags">
+            {% for tag in project[0].tags %}
+                <span class="tag color--east-side">{{ tag.title }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+<div id="details" class="module module-details section-margin">
+    <div class="main-grid">
+        <div class="grid-column--span-6 flex flex-direction--column justify-content--space-between">
+            <p class="color--east-side margin-bottom--3">
+                Misinfodemics, the idea that viral misinformation can facilitate the spread of a particular health outcome or disease, are a public health issue with significant momentum, bringing together interdisciplinary organizations and researchers, media producers and distributors, technology companies, social media platforms, and academic institutions around the world.
+            </p>
+            <a href="/files/Meedan_Health-Equity-through-health-fact-checking.pdf" class="cta-button color--east-side">
+                <div class="action-tag">PDF Document</div>
+                <div class="action-title">Download the Report</div>
+                <span>↗</span>
+            </a>
+        </div>
+        <div class="grid-column--span-6">
+            <img class="display--block" src="https://images.ctfassets.net/g118h5yoccvd/211CRpGUK9n5JKJRV0yGk3/6e82e45d4c559e44aa9e4b1d562def38/Primer_Graphic_1256x1588.png" alt="Health Equity through Health Fact-checking" />
+        </div>
+    </div>
+</div>
+
+<div id="details" class="module module-details section-margin">
+    <div class="main-grid">
+        <div class="grid-column--span-6">
+            <p>As these groups attempt to address challenges surrounding the credibility, amplification and equitable accessibility of quality online content - while reducing the impact of problematic health misinformation - fact-checking is an increasingly central part of the conversation. But can current fact-checking processes and outputs actually work for a topic as complex as health? Do fact-checking outputs reach the most vulnerable? Are these initiatives in their current form meeting the needs of individuals disproportionately affected by health misinformation, including populations in low socioeconomic environments, queer communities, and communities of color? And if not, what are alternative solutions to addressing digital misinformation in a topic area as critical as health?
+            </p>
+        </div>
+        <div class="grid-column--span-6">
+            <p>Our research highlights four key takeaways for the public health advocacy, fact-checking and communications communities: 
+            </p>
+            <p>
+                <div class="plain-list with-border">
+                    <ul>
+                        <li>Fact-checking health topics requires adherence to and creation of public health standards of care that differ from dominant fact-checking frameworks.</li>
+                        <li>Biases in what gets selected for fact-checked content reflects limited newsroom and organizational resources.</li>
+                        <li>Already vulnerable communities stand at greatest risk of further marginalization and compromised safety.</li>
+                        <li>Health audiences need a new fact-checking workflow that requires more targeted, tailored and practical information without compromising their safety or privacy.</li>
+                    </ul>
+                </div>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="main-grid section-margin">
+</div>
+{% include footer_small.html theme="dark" %}
