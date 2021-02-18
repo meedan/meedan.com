@@ -1,0 +1,116 @@
+---
+title: Health Desk
+short_title: Projects
+layout: landing_page
+class: campaign dark texas-rose
+permalink: /projects/health-desk
+h2: <span class="">Health Desk</span>
+description: | 
+    We rapidly respond to questions from fact-checkers and newsrooms around the world, in order to support their reporting on complex health topics.
+---
+{%
+    assign project = site.data.contentful.spaces.projects.project 
+    | where_exp: "item","item.sys.id == '1ocGDebupyPHiU9k1EowNB'" 
+%}
+<div class="main-grid">
+    {% if project[0].tags %}
+        <div class="tags">
+            {% for tag in project[0].tags %}
+                <span class="tag ">{{ tag.title }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+<div class="main-grid">
+    <div class="main-grid__1-8">
+        <p class="font-size--scale-2 ">
+            We rapidly respond to questions from fact-checkers and newsrooms around the world, in order to support their reporting on complex health topics.
+        </p>
+    </div>
+    <div class="main-grid__9-12">
+        <a href="//health-desk.org" class="cta-button">
+            <div class="action-tag">Website</div>
+            <div class="action-title">health-desk.org</div>
+            <span>↗</span>
+        </a>
+    </div>
+</div>
+
+<div class="main-grid">
+    <div class="main-grid__1-6">
+        <figure>
+            <img src="//images.ctfassets.net/g118h5yoccvd/4a5EHFfQaRd7CStjAL6OVY/afae02191f681c22c812b15d4b5b4aee/Health_Desk_1_1230x1036.png" alt="Your team of health experts on speed dial" width="660" height="540" />
+        </figure>
+    </div>
+    <div class="main-grid__7-12">
+        <figure>
+            <img src="//images.ctfassets.net/g118h5yoccvd/13zA2x7bQpVJmwD0lx7eCW/24ba225e77d1305077e2bf7463f6c671/Health_Desk_2_1230x1036.jpg" alt="Health Desk Team" width="660" height="540" />
+            <figcaption class="main-grid__1-4 credit align-self--end">▲ Health Desk Team on Zoom.</figcaption>
+        </figure>
+    </div>
+</div>
+<div id="details" class="module module-details section-margin">
+    <div class="main-grid">
+        <div class="grid-column--span-4">
+            <p>Meedan’s public health team has been supporting fact-checkers, community organizations and local media in their coverage of the COVID-19 pandemic. As health information is constantly emerging and changing, fact-checkers and journalists want to stay up-to-date with the latest science, to determine which articles (pre-print and peer-review) are reliable, and how to synthesize complex medical research. We help them do that.</p>
+        </div>
+        <div class="grid-column--span-4">
+            <p>Our experts receive questions from fact-checkers and journalists covering health misinformation topics, and rapidly respond with:</p>
+            <p>
+                <div class="plain-list with-border">
+                    <ul>
+                        <li>an expert science explainer on the topic requested, with background and context about the subject</li>
+                        <li>a set of glossary terms and definitions to understand the science in greater detail</li>
+                        <li>a recommended source list that the fact-checker can consult for more information</li>
+                    </ul>
+                </div>
+            </p>
+        </div>
+        <div class="grid-column--span-4">
+            <p>
+                We are also collaborating with the global network of Science Media Centres, led by the Australian Media Centre, on the Vaccine Media Hub, a collection of content on Health Desk where public health experts from around the world respond to questions from journalists and fact-checkers about the COVID-19 vaccine.</p>
+        </div>
+    </div>
+</div>
+<div class="main-grid section-margin module">
+    <div class="main-grid__1-12 module-bg module-bg-color--texas-rose">
+        <div class="main-grid section-top-margin">
+            <div class="main-grid__1-5">
+                <h3>In numbers</h3>
+            </div>
+        </div>
+        <div class="module module-in-numbers section-bottom-margin">
+            <div class="main-grid">
+                <div class="stat grid-column--span-6">
+                    <div class="stat-title">We have created over</div>
+                    <div class="stat-number">160</div>
+                    <div class="stat-description">articles of 500 words each.</div>
+                </div>
+                <div class="stat grid-column--span-6">
+                    <div class="stat-title">By creating a standardized health data model designed for easy syndication, We’re reaching an audience of over </div>
+                    <div class="stat-number">700K</div>
+                    <div class="stat-description">people in more than 18 countries across Asia, Latin America, Africa, Europe and North America.</div>
+                </div>
+                <div class="stat grid-column--span-6">
+                    <div class="stat-title">A content impact audit highlighted</div>
+                    <div class="stat-number">81%</div>
+                    <div class="stat-description">of the pieces that we have supported are on the front-page of Google search results for the topic for the region covered.</div>
+                </div>
+                <div class="stat grid-column--span-6">
+                    <div class="stat-title">Our on-call team members respond to reporters and fact -checkers in </div>
+                    <div class="stat-number">48 hrs</div>
+                    <div class="stat-description">or less, with responses created in as little as 5 hours.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-grid section-margin small-hr">
+    <div class="main-grid__1-5">
+        <h3>Recent Press</h3>
+    </div>
+</div>
+{% include module_recent_press.html press_items_id="3J50ilmXl6l5gr3dFC3tIT" press_quotes_id="5UAShCwwhs9M55mDQ7IcAs" %}
+<div class="main-grid section-margin">
+</div>
+{% include footer_small.html theme="dark" %}

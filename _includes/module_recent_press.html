@@ -1,12 +1,23 @@
-<!-- Get recent press -->
-{% assign links = site.data.contentful.spaces.moduleCards.moduleCards 
-    | where_exp: "item","item.sys.id == '4CWa8UN1MMrhDX1XEoq5XT'"
-%}
-<!-- Get quotes -->
-{% assign quotes = site.data.contentful.spaces.moduleList.moduleList
-    | where_exp: "item","item.sys.id == '4ytDksEIifiBOFrxcoIUll'"
-%}
-<div class="module module-recent-press section-margin small-hr">
+{% if include.press_items_id and include.press_quotes_id %}
+    <!-- Get recent press -->
+    {% assign links = site.data.contentful.spaces.moduleCards.moduleCards 
+        | where_exp: "item","item.sys.id == include.press_items_id"
+    %}
+    <!-- Get quotes -->
+    {% assign quotes = site.data.contentful.spaces.moduleList.moduleList
+        | where_exp: "item","item.sys.id == include.press_quotes_id"
+    %}
+{% else %}
+    <!-- Get recent press -->
+    {% assign links = site.data.contentful.spaces.moduleCards.moduleCards 
+        | where_exp: "item","item.sys.id == '4CWa8UN1MMrhDX1XEoq5XT'"
+    %}
+    <!-- Get quotes -->
+    {% assign quotes = site.data.contentful.spaces.moduleList.moduleList
+        | where_exp: "item","item.sys.id == '4ytDksEIifiBOFrxcoIUll'"
+    %}
+{% endif %}
+<div class="module module-recent-press section-margin">
     <!-- <div class="main-grid">
         <div class="main-grid__1--1">
             <div class="main-grid bleed">
@@ -20,7 +31,7 @@
             {% include icon_quotes.html %}
             {% for quote in quotes[0].items | limit: 1 %}
                 <a href="{{ quote.link }}" class="press-item-quote">
-                    <span class="quote">{{ quote.pullquote }}</span> <span class="quote-by"></span>–{{ quote.pullquote_by }}, {{ quote.source }}</span>
+                    <span class="quote">{{ quote.pullquote }}</span> <span class="quote-by"></span>–{{ quote.pullquote_by }}{% if quote.source %}, {{ quote.source }}{% endif %}</span>
                 </a>
             {% endfor %}
         </div>

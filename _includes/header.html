@@ -8,7 +8,11 @@
             {% include icon_menu.html %}
         </span>
     </a>
-    {% if page.short_title %}
+    {% if page.short_title == 'Programs' %}
+        <h1><a href="/programs">Programs</a></h1>
+    {% elsif page.short_title == 'Projects' %}
+        <h1><a href="/projects">Projects</a></h1>
+    {% elsif page.short_title %}
         {% assign custom_title = page.short_title %}
     {% else %}
         {% assign custom_title = page.title %}

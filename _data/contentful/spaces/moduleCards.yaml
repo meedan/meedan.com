@@ -248,7 +248,7 @@ moduleCards:
 - sys:
     id: 4CWa8UN1MMrhDX1XEoq5XT
     created_at: !ruby/object:DateTime 2020-03-21 00:17:29.632000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-11 21:11:26.734000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-18 01:03:52.051000000 Z
     content_type_id: moduleCards
     revision: 4
   title: Recent Press
@@ -407,13 +407,6 @@ moduleCards:
     slug: to-free-themselves-from-lies-journalists-are-using-new-tools-and-techniques
     tag: Editor & Publisher Magazine
     link: https://www.editorandpublisher.com/feature/to-free-themselves-from-lies-journalists-are-using-new-tools-and-techniques-to-check-facts/
-  - sys:
-      id: 76QQ3dmU71M5kWpysgP6BL
-      created_at: !ruby/object:DateTime 2021-02-11 21:11:20.954000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-11 21:11:27.734000000 Z
-      content_type_id: moduleCard
-      revision: 0
-    slug: untitled-entry-2021-02-11-at-21-11-20
 - sys:
     id: 5mOfhdkjqmah8gnXxVxAe9
     created_at: !ruby/object:DateTime 2020-04-30 21:01:48.939000000 Z
@@ -1520,3 +1513,21 @@ moduleCards:
       url: "//images.ctfassets.net/g118h5yoccvd/2ghvnEzDQWzyOqMUsq4Ikk/114b257bbe25b6990d1dfdccacffd375/meedan_video_reporting_barriers_covid-19.jpg"
     tag: Video
     link: https://www.youtube.com/watch?v=qAogQrF7NFs
+- sys:
+    id: 3J50ilmXl6l5gr3dFC3tIT
+    created_at: !ruby/object:DateTime 2021-02-18 01:04:00.288000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-18 01:04:37.077000000 Z
+    content_type_id: moduleCards
+    revision: 0
+  title: Health Desk Press
+  cards:
+  - sys:
+      id: 3zNeG7f3zf7u8xmJtrQNFQ
+      created_at: !ruby/object:DateTime 2021-02-18 01:04:31.428000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-18 01:05:54.803000000 Z
+      content_type_id: moduleCard
+      revision: 0
+    title: Your COVID-19 Vaccine Questions Answered
+    slug: your-covid-19-vaccine-questions-answered
+    tag: WABE
+    link: https://www.wabe.org/your-covid-19-vaccine-questions-answered/

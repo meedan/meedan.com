@@ -263,10 +263,6 @@ header .meedan svg {
     fill: var(--blackInk);
 }
 
-header.dark .meedan svg {
-    fill: var(--sunDown);
-}
-
 .front:not([data-menu]) header .meedan svg {
     fill: var(--sunDown);
 }
@@ -363,7 +359,7 @@ header h1 {
     }
 }
 
-header.dark h1 {
+.dark h1 {
     a { 
         color: var(--sunDown);
     }

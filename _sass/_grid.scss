@@ -149,6 +149,12 @@
     .grid-template-columns--4 {
         grid-template-columns: repeat(4, 1fr);
     }
+    .grid-column--span-4 {
+        grid-column: span 4;
+    }
+    .grid-column--span-6 {
+        grid-column: span 6;
+    }
 }
 
 .display--block {
