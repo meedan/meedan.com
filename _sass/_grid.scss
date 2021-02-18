@@ -155,6 +155,9 @@
     .grid-column--span-6 {
         grid-column: span 6;
     }
+    .grid-column--span-all {
+        grid-column: 1/-1;
+    }
 }
 
 .display--block {

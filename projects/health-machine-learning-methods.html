@@ -1,0 +1,52 @@
+---
+title: Machine Learning Methods for Understanding Health Information Disparities
+short_title: Projects
+layout: landing_page
+class: campaign project
+permalink: /projects/machine-learning-methods-for-understanding-health-information-disparities
+h2: <span class="">Machine Learning Methods for Understanding Health Information Disparities</span>
+description: | 
+    Evaluating the Proliferation of Health Misinformation using Word Semantics 
+callout: |
+    Information equity is a public health issue.
+---
+{%
+    assign project = site.data.contentful.spaces.projects.project 
+    | where_exp: "item","item.sys.id == '13RV7p73rnnw2wyRkX9Peu'" 
+%}
+<div class="main-grid">
+    {% if project[0].tags %}
+        <div class="tags">
+            {% for tag in project[0].tags %}
+                <span class="tag ">{{ tag.title }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+<div id="details" class="module module-details section-margin">
+    <div class="main-grid">
+        <div class="grid-column--span-6">
+            <span class="large-em-dash">1</span>
+            <p>How humans use words reveals a lot about their biases and implicit associations. Modern national language processing techniques such as neural word embeddings for the representation of words capture the implicit meaning of words based on how words co-occur together in large volumes of text. Word embeddings have been successfully used to capture semantic change, or change in a words’ meanings (e.g., Shoemark et al. 2019, Hamilton et al., 2016a,b), as well as reveal implicit biases associated with words. Garg et al. (2018), for instance, show how certain professions (e.g., the word “teacher” or “doctor”) are more or less associated with gender pronouns and related terms (e.g., he/him/man and she/her/woman).</p>
+        </div>
+        <div class="grid-column--span-6">
+            <span class="large-em-dash">2</span>
+            <p>In this research, we apply similar techniques to study the associations between various health terms and alleged symptoms, contraindications, and outcomes. We will examine the strength of the association between known misinformation pairs such as “HPV” and “autism,” and “abortion” and “cancer.” We focus on word pairings within the context of reproductive health both in order to narrow scope and due to the fact that stigma surrounding reproductive health and a hesitancy to discuss these topics in person  can contribute to online misinformation. 
+            </p>
+        </div>
+        <div class="grid-column--span-all text-align--center section-margin">
+            <img src="//images.ctfassets.net/g118h5yoccvd/hCO6cfk5psP8mKApUozPD/e4d14ee5d9aa15fa60bdefca220e91d2/Machine_Learning_Methods_Illustration_1248x1248.png" alt="Machine Learning Methods for Understanding Health Information Disparities" width="660" height="540" />
+        </div>
+        <div class="grid-column--span-6">
+            <span class="large-em-dash">3</span>
+            <p>Understanding how word associations can serve as proxies for health misinformation is crucial given that online health misinformation is becoming increasingly ubiquitous, in turn yielding adverse health impacts globally. The World Health Organization lists ‘vaccine hesitancy’ as one of the top ten threats to global health in 2019 (WHO, 2019), measles rates in the U.S. are highest since 1992—after declared eradication in 2000—due to a lack of vaccination compounded by misinformation about the measles, mumps, and rubella (MMR) vaccine (CDC, 2019), and the spread of substandard or false information amid health crises has been shown to increase fatality rates, such as in West Africa amidst the 2013-2016 Ebola epidemic (Allgaier, Svalastog, 2015). While the public health community has identified the proliferation of online health misinformation as a public health threat, what has yet to be thoroughly researched and developed are clear modes to identify, track, and mitigate such misinformation that continues to lead to increased morbidity and mortality.</p>
+        </div>
+        <div class="grid-column--span-6">
+            <span class="large-em-dash">4</span>
+            <p>This paper aims to address the challenges around identifying and tracking health misinformation by (i) elucidating the current ecosystem of health information and (ii) exploring a potential new framework for surveilling the proliferation of online health information across digital contexts. By training our word embeddings on different corpora—including text from Twitter, Wikipedia, news media, and scientific abstracts—and in different languages—including at least English and Spanish—, we will be able to compare the strength of associations across languages and platforms. We will further investigate how the strength of associations has changed over time on Twitter using temporal data from Shoemark et al. (2019), which may shed light on whether word embeddings and techniques from semantic change detection can identify new associations indicative of health misinformation.</p>
+        </div>
+    </div>
+</div>
+<div class="main-grid section-margin">
+</div>
+{% include footer_small.html %}

@@ -301,3 +301,19 @@
     padding: 0.2rem 0.4rem;
     margin-bottom: var(--space-1);
 }
+
+.large-em-dash {
+    display: block;
+    position: relative;
+    padding-left: 4rem;
+    margin-bottom: var(--space-2);
+    &:before {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        content: '';
+        width: 3rem;
+        border: 1px solid var(--blackInk);
+        color: var(--blackInk);
+    }
+}
