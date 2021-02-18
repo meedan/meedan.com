@@ -1,0 +1,61 @@
+---
+title: Midinformation Response
+short_title: Projects
+layout: landing_page
+class: campaign project
+permalink: /projects/midinformation-response
+h2: <span class="">Midinformation Response</span>
+description: | 
+    MidInformation: Informational ambiguity based on scant or conflicting evidence, often about emerging scientific knowledge. Missing information, not just misinformation, is part of the problem.
+---
+{%
+    assign project = site.data.contentful.spaces.projects.project 
+    | where_exp: "item","item.sys.id == '7m0bbw1XWqF9gW5wU7rQWI'" 
+%}
+<div class="main-grid">
+    {% if project[0].tags %}
+        <div class="tags">
+            {% for tag in project[0].tags %}
+                <span class="tag ">{{ tag.title }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+<div class="module section-margin">
+    <div class="main-grid">
+        <div class="grid-column--span-6 flex flex-direction--column justify-content--space-between">
+            <div>
+                <p class="font-size--scale-2 margin-bottom--3">
+                    MidInformation: Informational ambiguity based on scant or conflicting evidence, often about emerging scientific knowledge.
+                </p>
+                <p class="font-size--scale-2">Missing information, not just misinformation, is part of the problem.</p>
+            </div>
+            <a href="/blog/missing-information-not-just-misinformation-is-part-of-the-problem/" class="cta-button">
+                <div class="action-tag">BLOG POST</div>
+                <div class="action-title">Missing information, not just misinformation, is part of the problem</div>
+                <span>↗</span>
+            </a>
+        </div>
+        <div class="grid-column--span-6">
+            <img class="display--block" src="//images.ctfassets.net/g118h5yoccvd/2VMfAs4i8KuVfTrsxgaaTH/b8f63190382640722a89e76aef231c66/meedan_project_midinformation-response.png" alt="Midinformation Response" width="660" height="540" />
+        </div>
+    </div>
+</div>
+<div id="details" class="module module-blockquote section-margin">
+    <div class="main-grid">
+        <div class="main-grid__2-11">
+            <blockquote>
+                <p>“It turns out that the framework of mis- and disinformation has a basic assumption that doesn’t always apply in the case of COVID-19: the idea that there might be a ground truth, somewhere, at some point, that someone might have in some situation. As I’ve written before, the process of consensus-making requires a negotiation of truth through trusted parties and sources (and therefore subject to the rules of trust, emotion and relatability). But what if the information we’re trying to discuss isn’t known by anyone?</p>
+
+                <p><span class="module-bg-color--texas-rose">Midinformation: When knowledge stands in the middle, what do we do? In the case of emerging knowledge, it might be helpful to think not just about misinformation but midinformation. We know a little now, we’ll know more later, and we may never know everything ever. In other words, information stands in the middle, and we’re trying. Scientists are gaining some clarity, but it’s going to take some time for scientific consensus to build, and for public understanding to catch up.</span></p>
+
+                <p>Midinformation, in other words, is the sort of information crisis that happens when not all the facts are known. In that vacuum of knowledge, all kinds of rumors, conspiracies, misunderstandings and misconceptions can emerge, because it’s comforting to have an anchor that feels true and reliable.</p>
+
+                <p>We might define midinformation as informational ambiguity based on scant or conflicting evidence, often about emerging scientific knowledge. And the COVID-19 pandemic is rife with it. The usual media literacy course teaches basic things: vet your sources, look for corroborating evidence, read laterally. But the phenomenon of midinformation requires new skills, for journalists, educators and all of us.”</p>
+            </blockquote>
+        </div>
+    </div>
+</div>
+<div class="main-grid section-margin">
+</div>
+{% include footer_small.html %}

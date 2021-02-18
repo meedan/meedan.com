@@ -98,9 +98,9 @@ a.cta-button {
         top: 0.5rem;
     }
     &:hover {
-        border-color: #fff;
-        background-color: #fff;
-        color: var(--blackInk);
+        border-color: var(--blackInk);
+        background-color: var(--blackInk);
+        color: #fff;
     }
 }
 
