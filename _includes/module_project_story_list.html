@@ -1,26 +1,11 @@
-{% if include.topic %}
-    {% 
-        assign stories = site.data.contentful.spaces.stories.story 
-        | where_exp: "item","item.topic.en-US[0].sys.id == include.topic" 
-        | sort: 'alt_date_string' 
-        | reverse  
+{% if include.story_list %}
+    {% assign story_list = site.data.contentful.spaces.moduleStories.moduleStories 
+        | where_exp: "item","item.sys.id == include.story_list"
     %}
-{% elsif include.stories %}
-    {% 
-        assign stories = include.stories[0].stories
-    %}
-{% else %}
-    {% 
-        assign stories = site.data.contentful.spaces.stories.story 
-        | sort: 'alt_date_string' 
-        | reverse  
-    %}
+    {% assign stories = story_list[0].stories %}
 {% endif %}
 
-{% assign count = include.count | default: '1000'%}
-{% assign columns = include.columns | default: '2' %}
-{% assign offset = include.offset | default: '0' %}
-<section class="module module-story-list section-margin">
+<section class="module module-project-story-list section-margin">
     {% if include.title %}
     <h3 class="section-title no-margin">
         <a href="/blog/all">
@@ -29,19 +14,15 @@
     </h3>
     {% endif %}
     <div class="module-wrapper">
-        {% for story in stories | limit: count | offset: offset %}
-        <div class="story-list-item">
-            <a href="/blog/{{ story.slug }}" class="image-container">
-                <img src="{{ story.lead_image.url | url | append: '?fl=progressive&q=90' }}" alt="{{ story.lead_image.title }}"/>
-            </a>
+        {% for story in stories %}
+        {% assign i = forloop.index %}
+        <div class="project-story-list-item">
             <a class="tag" href="/blog/{{ story.slug }}">
-                {% for topic in story.topic.en-US | limit: 1 %}
-                    {{ topic.title.en-US }}
-                {% endfor %}
+                0{{ i }}
             </a>
             <div class="title-container">
                 <a class="title" href="/blog/{{ story.slug }}">
-                    {{ story.title-en }}
+                    {{ story.title }}
                 </a>
             </div>
             <div class="date">
