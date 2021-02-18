@@ -14,7 +14,14 @@
 <div class="module module-project-list section-bottom-margin">
     <div class="main-grid projects">
     {% for project in projects %}
-        <a class="project" href="/projects/{{ project.slug }}">
+        {% if project.project_link %}
+            {% assign link = project.project_link %}
+        {% elsif project.publication %}
+            {% assign link = project.publication[0].slug | prepend: '/reports/'  %}
+        {% else %}
+            {% assign link = project.slug | | prepend: '/projects/' %}
+        {% endif %}
+        <a class="project" href="{{ link }}">
             
                 <div class="project-header">
                     <div class="title"><h4>{{ project.title }}</h3></div>

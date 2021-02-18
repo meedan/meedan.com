@@ -222,7 +222,7 @@ project:
 - sys:
     id: 3cCWgjiaPDeRHUen8SeClJ
     created_at: !ruby/object:DateTime 2020-06-23 20:47:57.852000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 03:29:03.995000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-18 01:59:59.154000000 Z
     content_type_id: project
     revision: 1
   title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
@@ -254,6 +254,57 @@ project:
       content_type_id: tag
       revision: 0
     title: Report
+  publication:
+  - sys:
+      id: 2lQKVWqTIPTns0oj5UA78S
+      created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-28 23:12:32.900000000 Z
+      content_type_id: publication
+      revision: 6
+    title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+    short_title: 2020 Misinfodemic Report
+    kicker: A Check Global Report
+    description: 'Misinfodemic: when online misinformation contributes to real-world
+      disease. In the coming months, Meedan will publish eight pieces of reporting
+      and analysis in an effort to map the anatomy of the global COVID-19 information
+      ecosystem.'
+    slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
+    sections:
+    - sys:
+        id: 6K6TuAvZBDXdJATv8SynCi
+    - sys:
+        id: 1jkEcTAbvK0Y7O1NmysvKT
+    - sys:
+        id: 3ixzizcKVwnSXEFRRyVuxL
+    cover_image:
+      sys:
+        id: Tu2ovEuxh8gztQD9kuF0G
+        created_at: !ruby/object:DateTime 2020-06-23 05:08:56.807000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/Tu2ovEuxh8gztQD9kuF0G/0f5da326dfe06869775caf1002c330e6/meedan_report_2020-infodemic-report_01.png"
+    publication_promo_graphic:
+      sys:
+        id: 5wkwfNNTjvV1Cgf2FAQFD4
+        created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5wkwfNNTjvV1Cgf2FAQFD4/fbdc448905c4b9240944587574577654/Meedan_global-misinfodemic-report.png"
+    social_card_image:
+      sys:
+        id: 5L7KfUhYU7lqikodPkJoQQ
+        created_at: !ruby/object:DateTime 2020-06-22 23:00:20.044000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
+      title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png"
+    publication_promo: This report is part of a Check Global Report about [COVID-19
+      in Emerging Economies](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/).
+    color:
+      sys:
+        id: 43kw5bcVj1xtfe7ua88F6V
 - sys:
     id: 1ocGDebupyPHiU9k1EowNB
     created_at: !ruby/object:DateTime 2021-02-17 06:46:26.775000000 Z
