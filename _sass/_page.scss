@@ -120,11 +120,15 @@
 .module h3 + p,
 .module p + p,
 .module p + p + p,
-.module p + p + p + p {
+.module p + p + p + p,
+.module [class^="grid-column--span-"] + [class^="grid-column--span-"],
+.module [class^="grid-column--span-"] + [class^="grid-column--span-"] 
++ [class^="grid-column--span-"] {
     margin-bottom: var(--space-3);
 }
 
-.module p + p {
+.module p + p,
+.module [class^="grid-column--span-"] + [class^="grid-column--span-"] {
     margin-top: var(--space-3);
 }
 

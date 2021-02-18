@@ -17,6 +17,13 @@
         | where_exp: "item","item.sys.id == '4ytDksEIifiBOFrxcoIUll'"
     %}
 {% endif %}
+{% if include.title %}
+<div class="main-grid section-top-margin small-hr">
+    <div class="main-grid__1-5">
+        <h3>{{ include.title }}</h3>
+    </div>
+</div>
+{% endif %}
 <div class="module module-recent-press section-margin">
     <!-- <div class="main-grid">
         <div class="main-grid__1--1">
