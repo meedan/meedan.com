@@ -47,6 +47,8 @@
     --blackInk: #262626;
     --sunDown: #FFB2B2;
     --sunSet: #E74640;
+    --brightRed: #FF4D7E;
+    --paleRed: #F2A7BE;
     --accent: #F2DEDC;
     --checkBlue: #2D77FC;
     --vividBlue: #0055DD;
@@ -58,11 +60,12 @@
     --deepSea: #008D5E;
     --green: #04733B;
     --brightGreen: #36B687;
+    --green30: #3DCA86;
     --silver: #A7A7A7;
     --softOrange: #DAA06D;
     --brightGreen:#36B687;
     --brightNavy: #3358d5;
-    --lightNavy: #6F89E2;
+    --lightNavy: #7798FF;
     --paleNavy: #C1CCF4;
     --paleBlue: #BBD6F4;
     --brightYellow: #FDEA51;
@@ -339,10 +342,8 @@ header h1 {
     }
 }
 
-.dark h1 {
-    a { 
-        color: var(--sunDown);
-    }
+.dark h1 a { 
+    color: var(--sunDown);
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
@@ -474,7 +475,6 @@ header h1 {
 
 .front .cursor,
 .team .cursor,
-.report .cursor,
 .publication .cursor,
 .values .cursor {
     border-color: var(--sunDown);
@@ -506,28 +506,4 @@ header h1 {
 .program[data-menu] .cursor {
     color: var(--blackInk);
     border-color: var(--blackInk);
-}
-
-.cursor-link {
-    visibility: hidden;
-    opacity: 0;
-    width: var(--space-6);
-    height: var(--space-6);
-    border: 2px solid var(--blackInk);
-    background-color: var(--blackInk);
-    border-radius: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    z-index: 111;
-    transition: opacity 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: var(--scale-0);
-    color: #fff;
-    .close {
-        display: none;
-    }
 }

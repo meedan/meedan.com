@@ -129,6 +129,9 @@
 .color--light-navy { 
     @include set-color(#{var(--lightNavy)});
 }
+.color--cornflower-blue { 
+    @include set-color(#{var(--cornflowerBlue)});
+}
 .color--east-side { 
     @include set-color(#{var(--eastSide)});
 }
@@ -152,6 +155,18 @@
 }
 .color--bright-green {
     @include set-color(#{var(--brightGreen)});
+}
+.color--green-30 {
+    @include set-color(#{var(--green30)});
+}
+.color--bright-red {
+    @include set-color(#{var(--brightRed)});
+}
+.color--pale-red {
+    @include set-color(#{var(--paleRed)});
+}
+.color--sun-set {
+    @include set-color(#{var(--sunSet)});
 }
 
 
