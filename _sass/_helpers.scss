@@ -150,6 +150,9 @@
 .color--accent { 
     @include set-color(#{var(--accent)});
 }
+.color--bright-green {
+    @include set-color(#{var(--brightGreen)});
+}
 
 
 .module-bg-color--coral {
@@ -196,6 +199,10 @@
 
 .bg-color--pale-purple {
     background-color: var(--palePurple);
+}
+
+.bg-color--bright-green {
+    background-color: var(--brightGreen);
 }
 
 .plain-list ul {

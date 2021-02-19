@@ -84,6 +84,7 @@ a.cta-button {
     padding: 1rem var(--space-1);
     position: relative;
     border: 1px solid var(--blackInk);
+    color: inherit;
     .action-tag {
         font-family: $font-stack;
         font-size: 0.778rem;

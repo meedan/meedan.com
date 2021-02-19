@@ -7,6 +7,12 @@
     }
 }
 
+body.project {
+    .tags {
+        grid-column: 1/6;
+    }
+}
+
 .module-project-list .projects {
     margin-top: var(--space-3);
     grid-row-gap: 0;
