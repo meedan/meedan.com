@@ -268,27 +268,16 @@ header .meedan svg {
     fill: var(--sunDown);
 }
 
-.front[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.team[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.values[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.campaign[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.publication[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.report[data-menu] header .meedan svg {
+.front[data-menu] header .meedan svg,
+.team[data-menu] header .meedan svg,
+.values[data-menu] header .meedan svg,
+.campaign[data-menu] header .meedan svg,
+.publication[data-menu] header .meedan svg,
+.report[data-menu] header .meedan svg,
+.project[data-menu] header .meedan svg,
+.projects[data-menu] header .meedan svg,
+.programs[data-menu] header .meedan svg,
+.program[data-menu] header .meedan svg {
     fill: var(--blackInk);
 }
 
@@ -300,27 +289,15 @@ header .menu-icon svg {
     stroke: var(--sunDown);
 }
 
-.front[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.team[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.values[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.campaign[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.report[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.publication[data-menu] .menu-icon svg {
+.front[data-menu] .menu-icon svg,
+.team[data-menu] .menu-icon svg,
+.campaign[data-menu] .menu-icon svg,
+.report[data-menu] .menu-icon svg,
+.publication[data-menu] .menu-icon svg,
+.projects[data-menu] .menu-icon svg,
+.project[data-menu] .menu-icon svg,
+.programs[data-menu] .menu-icon svg,
+.program[data-menu] .menu-icon svg, {
     stroke: var(--blackInk);
 }
 
@@ -522,6 +499,8 @@ header h1 {
 .values[data-menu] .cursor,
 .campaign[data-menu] .cursor,
 .project[data-menu] .cursor,
+.projects[data-menu] .cursor,
+.programs[data-menu] .cursor,
 .program[data-menu] .cursor {
     color: var(--blackInk);
     border-color: var(--blackInk);
