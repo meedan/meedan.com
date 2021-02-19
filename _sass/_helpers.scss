@@ -144,6 +144,12 @@
 .color--silver { 
     @include set-color(#{var(--silver)});
 }
+.color--sun-down { 
+    @include set-color(#{var(--sunDown)});
+}
+.color--accent { 
+    @include set-color(#{var(--accent)});
+}
 
 
 .module-bg-color--coral {

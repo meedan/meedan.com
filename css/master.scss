@@ -497,8 +497,7 @@ header h1 {
 .team .cursor,
 .report .cursor,
 .publication .cursor,
-.values .cursor,
-.campaign .cursor {
+.values .cursor {
     border-color: var(--sunDown);
 }
 
@@ -521,7 +520,9 @@ header h1 {
 .report[data-menu] .cursor,
 .publication[data-menu] .cursor,
 .values[data-menu] .cursor,
-.campaign[data-menu] .cursor {
+.campaign[data-menu] .cursor,
+.project[data-menu] .cursor,
+.program[data-menu] .cursor {
     color: var(--blackInk);
     border-color: var(--blackInk);
 }

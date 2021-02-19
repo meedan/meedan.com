@@ -63,17 +63,20 @@
   header .menu-icon svg {
     stroke: $color;
   }
-  &[data-menu] .menu-icon svg {
-    stroke: $color;
-  }
+  
   h1,
-  h1 a {
-    color: $color !important;
+  h1 a,
+  &.dark h1,
+  &.dark h1 a {
+    color: $color;
   }
-  .cursor {
-    border-color: $color !important; 
+  .cursor,
+  &.dark .cursor,
+  &.campaign .cursor {
+    border-color: $color; 
   }
-  .callout text {
-    fill: $color !important;
+  .callout text,
+  &.dark .callout text {
+    fill: $color;
   }
 }
