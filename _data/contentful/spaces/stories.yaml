@@ -10733,9 +10733,9 @@ story:
 - sys:
     id: 1OJZVlyeeGpU5BqNkYTrxx
     created_at: &42 !ruby/object:DateTime 2021-02-17 05:51:13.072000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 10:10:24.072000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-18 22:56:26.328000000 Z
     content_type_id: story
-    revision: 7
+    revision: 11
     space:
       sys:
         id: g118h5yoccvd
@@ -10748,8 +10748,8 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'Elections in 2021: How our Indian and African partners plan to combat misinformation'
-  slug: elections-in-2021-how-our-indian-and-african-partners-plan-to-combat
+  title: 'Elections in 2021: How Our Indian and African Partners Combat Misinformation'
+  slug: elections-in-2021-how-our-indian-and-african-partners-combat-misinfo
   topic:
     en-US:
     - sys:
@@ -10760,30 +10760,26 @@ story:
         revision: 1
       title:
         en-US: Fact-checking
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
   lead_image:
     en-US:
       sys:
-        id: 3srRvVzWxz6EZtjj5LbE59
-        created_at: !ruby/object:DateTime 2021-02-17 09:34:54.665000000 Z
-        updated_at: !ruby/object:DateTime 2021-02-17 10:41:27.986000000 Z
-      title: " Malians Vote in 2013 Presidential Election "
-      description: "Malians vote at a polling station in the Ecole de la République
-        in Bamako, Mali, during the presidential election. The UN Multidimensional
-        Integrated Stabilization Mission in Mali (MINUSMA) has helped with the transportation
-        and setup of election materials in the weeks leading up to election day. \n\nBamako,
-        Mali 28/07/2013\n\nPhoto ID 557522 UN Photo/Marco Dormino.\n\nSource: Flickr
-        (https://www.flickr.com/photos/un_photo/9401854364). Used under Creative Commons
-        license"
-      url: "//images.ctfassets.net/g118h5yoccvd/3srRvVzWxz6EZtjj5LbE59/502ef2f71eaacf5036179891b3ac6d21/9401854364_3822c5dd97_o.jpg"
-    description: "Malians vote at a polling station in the Ecole de la République
-      in Bamako, Mali, during the presidential election. The UN Multidimensional Integrated
-      Stabilization Mission in Mali (MINUSMA) has helped with the transportation and
-      setup of election materials in the weeks leading up to election day. \n\nBamako,
-      Mali 28/07/2013\n\nPhoto ID 557522 UN Photo/Marco Dormino.\n\nSource: Flickr
-      (https://www.flickr.com/photos/un_photo/9401854364). Used under Creative Commons
-      license"
-    title: " Malians Vote in 2013 Presidential Election "
-    url: "//images.ctfassets.net/g118h5yoccvd/3srRvVzWxz6EZtjj5LbE59/502ef2f71eaacf5036179891b3ac6d21/9401854364_3822c5dd97_o.jpg"
+        id: 7HZv6A4k7POD2ElsnHW3yi
+        created_at: !ruby/object:DateTime 2021-02-18 22:54:58.000000000 Z
+        updated_at: !ruby/object:DateTime 2021-02-18 22:55:19.369000000 Z
+      title: Elections in 2021 India and Africa
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7HZv6A4k7POD2ElsnHW3yi/dd8db448a50193319ea1369ccf0f6996/Elections_in_2021_04.png"
+    description: 
+    title: Elections in 2021 India and Africa
+    url: "//images.ctfassets.net/g118h5yoccvd/7HZv6A4k7POD2ElsnHW3yi/dd8db448a50193319ea1369ccf0f6996/Elections_in_2021_04.png"
   body: |-
     ### Elections can be a challenging time for fact-checkers, given the potential impact of false and misleading political information on democratic processes. Our fact-checking partners have already braced themselves for fierce and difficult elections in the months to come. 
 
@@ -10835,8 +10831,7 @@ story:
       location:
         en-US: Nairobi
   date: '2021-02-17'
-  image: https://images.ctfassets.net/g118h5yoccvd/3srRvVzWxz6EZtjj5LbE59/502ef2f71eaacf5036179891b3ac6d21/9401854364_3822c5dd97_o.jpg
-  title-en: 'Elections in 2021: How our Indian and African partners plan to combat
-    misinformation'
+  image: https://images.ctfassets.net/g118h5yoccvd/7HZv6A4k7POD2ElsnHW3yi/dd8db448a50193319ea1369ccf0f6996/Elections_in_2021_04.png
+  title-en: 'Elections in 2021: How Our Indian and African Partners Combat Misinformation'
   alt_date: *42
   alt_date_string: '2021-02-17'
