@@ -17,10 +17,12 @@
 # /en/bridge/bridge_tos.html              /bridge/bridge_tos.html
 # /en/copyright/                          /copyright/
 /files/Meedan_Global-Fact_Whatsapp-Pilot-Case-Study.pdf             /files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf
+/projects/check-global                    /check-global
 
 # Verfication
 /.well-known/*                           /well-known/:splat                 200
 
 # Domain Redirects
 https://next.meedan.com/*                 https://meedan.com/:splat     301!
-
+https://health.meedan.com/*               https://meedan.com/digital-health-lab:splat     301!
+https://health.meedan.com/primer.pdf*     https://meedan.com/files/Meedan_Health-Equity-through-health-fact-checking:splat     301!
