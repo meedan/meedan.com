@@ -178,6 +178,26 @@
     color: var(--paleBlue);
 }
 
+.bg-color--light-navy {
+    background-color: var(--lightNavy);
+}
+
+.bg-color--pale-navy {
+    background-color: var(--paleNavy);
+}
+
+.bg-color--texas-rose {
+    background-color: var(--texasRose);
+}
+
+.bg-color--east-side {
+    background-color: var(--eastSide);
+}
+
+.bg-color--pale-purple {
+    background-color: var(--palePurple);
+}
+
 .plain-list ul {
     list-style-type: none;
     margin-top: var(--space-1);
@@ -229,6 +249,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap-reverse;
     margin-top: var(--space-2);
     margin-bottom: var(--space-1);
 }
@@ -242,6 +263,7 @@
     position: relative;
     left: -.05em;
     top: -.21em;
+    margin-top: 0.556rem;
 }
 
 .tags .tag:not(:last-child) {

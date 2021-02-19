@@ -52,6 +52,7 @@
     --vividBlue: #0055DD;
     --coral: #FF864D;
     --eastSide: #9F82C4;
+    --palePurple: #BAA5D4;
     --cornflowerBlue: #5F9EE5;
     --texasRose: #FFB34D;
     --deepSea: #008D5E;
@@ -504,4 +505,28 @@ header h1 {
 .program[data-menu] .cursor {
     color: var(--blackInk);
     border-color: var(--blackInk);
+}
+
+.cursor-link {
+    visibility: hidden;
+    opacity: 0;
+    width: var(--space-6);
+    height: var(--space-6);
+    border: 2px solid var(--blackInk);
+    background-color: var(--blackInk);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 111;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--scale-0);
+    color: #fff;
+    .close {
+        display: none;
+    }
 }

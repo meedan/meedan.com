@@ -37,9 +37,15 @@
                             {% endfor %}
                         </div>
                     {% endif %}
-                    <div class="project-image">
-                        <img src="{{ project.hero_image.url }}" alt="{{ project.title }}" />
+                    <div class="project-image-container">
+                        <div class="project-image">
+                            <img src="{{ project.hero_image.url }}" alt="{{ project.title }}" />
+                        </div>
+                        <div class="project-link-container">
+                            <div class="project-link">View project</div>
+                        </div>
                     </div>
+                    
                 </div>
         </a>
     {% endfor %}
