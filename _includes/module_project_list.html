@@ -19,7 +19,7 @@
         {% elsif project.publication %}
             {% assign link = project.publication[0].slug | prepend: '/reports/'  %}
         {% else %}
-            {% assign link = project.slug | | prepend: '/projects/' %}
+            {% assign link = project.slug | | prepend: '/project/' %}
         {% endif %}
         <a class="project" href="{{ link }}">
             
