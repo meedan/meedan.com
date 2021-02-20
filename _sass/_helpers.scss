@@ -259,6 +259,21 @@
     border-color: inherit;
 }
 
+.plain-list.with-vertical-border ul li {
+    display: block;
+    font-size: var(--scale-0);
+    padding-left: var(--space-1);
+    border-left: 4px solid var(--blackInk);
+    text-decoration: none;
+    &:not(:last-child) {
+        margin-bottom: var(--space-1);
+    }
+}
+
+.dark .plain-list.with-vertical-border ul li {
+    border-color: inherit;
+}
+
 .list-with-header ul {
     list-style-type: none;
     margin-bottom: var(--space-4);
