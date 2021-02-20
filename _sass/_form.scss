@@ -1,0 +1,109 @@
+// ======================================================================
+// Form
+.contact-form {
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-2);
+}
+
+.form-group {
+	border-top: 1px solid var(--blackInk);
+	&:last-child {
+		border-bottom: 1px solid var(--blackInk);	
+	}
+}
+
+.contact-form .form-group-last {
+	border-bottom: 1px solid var(--blackInk);
+}
+
+.contact-form label {
+	display: block;
+	text-transform: uppercase;
+	font-size: 1vw;
+	font-weight: 500;
+	line-height: 4vw;
+	height: 4vw;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form label {
+		font-size: 3vw;
+		line-height: 8vw;
+		height: 8vw;
+	}
+}
+
+.contact-form input, 
+.contact-form textarea {
+	display: block;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	line-height: 5vw;
+	height: 5vw;
+	outline: 0;
+	width: 100%;
+    background-color: transparent;
+	font-weight: 400;
+	font-size: 2vw;
+	color: var(--blackInk);
+	&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	    color: var(--blackInk);
+	    opacity: 1; /* Firefox */
+	}
+
+	&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	    color: var(--blackInk);
+	}
+
+	&::-ms-input-placeholder { /* Microsoft Edge */
+	    color: var(--blackInk);
+	}
+}
+
+.contact-form textarea {
+	padding-top: 1vw;
+	line-height: 1;
+}
+
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form input,
+	.contact-form textarea {
+		font-size: 4vw;
+		line-height: 16vw;
+		height: 16vw;
+	}
+
+
+	.contact-form textarea {
+		line-height: 1;
+	}
+}
+
+.contact-form button {
+	background-color: var(--blackInk);
+	color: #fff;
+	display: block;
+	border: 0;
+	margin: var(--space-1) 0 var(--space-2) 0;
+	padding: 0;
+	line-height: 5vw;
+	height: 5vw;
+	outline: 0;
+	width: 100%;
+	font-size: 2vw;
+	cursor: pointer;
+	&:hover {
+        color: var(--blackInk);
+		background-color: var(--sunDown);
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form button {
+		font-size: 6vw;
+		line-height: 12vw;
+		height: 12vw;
+	}
+}

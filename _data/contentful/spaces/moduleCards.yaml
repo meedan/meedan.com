@@ -248,7 +248,7 @@ moduleCards:
 - sys:
     id: 4CWa8UN1MMrhDX1XEoq5XT
     created_at: !ruby/object:DateTime 2020-03-21 00:17:29.632000000 Z
-    updated_at: !ruby/object:DateTime 2020-12-03 21:03:25.329000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-18 01:03:52.051000000 Z
     content_type_id: moduleCards
     revision: 4
   title: Recent Press
@@ -935,7 +935,7 @@ moduleCards:
       an occasional “Fancy Friday” or Mario Kart tournament, or just being excellent
       to each other in drop-in virtual coffees with staff and partners.
 
-      '
+'
   - sys:
       id: 6Q0iQnk5X79YRY7gU5y0OK
       created_at: !ruby/object:DateTime 2020-05-18 23:24:55.972000000 Z
@@ -1107,7 +1107,7 @@ moduleCards:
       doing historical investigations; so much content from the Arab Spring, for instance,
       is uploaded onto YouTube."
 
-      '
+'
     logo: true
     link: https://gijn.org/2019/11/25/my-favorite-tools-malachy-browne/
   - sys:
@@ -1513,3 +1513,44 @@ moduleCards:
       url: "//images.ctfassets.net/g118h5yoccvd/2ghvnEzDQWzyOqMUsq4Ikk/114b257bbe25b6990d1dfdccacffd375/meedan_video_reporting_barriers_covid-19.jpg"
     tag: Video
     link: https://www.youtube.com/watch?v=qAogQrF7NFs
+- sys:
+    id: 3J50ilmXl6l5gr3dFC3tIT
+    created_at: !ruby/object:DateTime 2021-02-18 01:04:00.288000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-19 06:53:45.126000000 Z
+    content_type_id: moduleCards
+    revision: 0
+  title: Health Desk Press
+  cards:
+  - sys:
+      id: 3zNeG7f3zf7u8xmJtrQNFQ
+      created_at: !ruby/object:DateTime 2021-02-18 01:04:31.428000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-18 01:05:54.803000000 Z
+      content_type_id: moduleCard
+      revision: 0
+    title: Your COVID-19 Vaccine Questions Answered
+    slug: your-covid-19-vaccine-questions-answered
+    tag: WABE
+    link: https://www.wabe.org/your-covid-19-vaccine-questions-answered/
+  - sys:
+      id: 3l3aNuHNratrhwHtTrL8EZ
+      created_at: !ruby/object:DateTime 2021-02-19 06:53:06.699000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:53:36.095000000 Z
+      content_type_id: moduleCard
+      revision: 0
+    title: 'Fact check: Autoridades sanitarias y especialistas no recomiendan el uso
+      de dióxido de cloro para el tratamiento o prevención del COVID-19 (o de ninguna
+      enfermedad)'
+    slug: fact-check-autoridades-sanitarias-y-especialistas-no-recomiendan-el-uso-de
+    tag: Reuters
+    link: https://www.reuters.com/article/uk-factcheck-espanol-dioxido-de-cloro-idUKKBN28X2OI
+  - sys:
+      id: 7FPZ4RqqUGRKhOrZETO6s6
+      created_at: !ruby/object:DateTime 2021-02-19 06:53:38.812000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:54:10.142000000 Z
+      content_type_id: moduleCard
+      revision: 0
+    title: 'VERA FILES FACT CHECK: Miriam Quiambao-Roberto shares misleading, inaccurate
+      claims on copper face masks, COVID virus'
+    slug: vera-files-fact-check-miriam-quiambao-roberto-shares-misleading-inaccurate
+    tag: VERA Files
+    link: https://verafiles.org/articles/vera-files-fact-check-miriam-quiambao-roberto-shares-mislead

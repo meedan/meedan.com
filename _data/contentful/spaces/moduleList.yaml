@@ -429,9 +429,9 @@ moduleList:
 - sys:
     id: 5nrulC97yc41kgWt557cSL
     created_at: !ruby/object:DateTime 2020-03-24 00:42:55.249000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-19 17:08:43.539000000 Z
+    updated_at: !ruby/object:DateTime 2021-01-21 05:06:09.644000000 Z
     content_type_id: moduleList
-    revision: 6
+    revision: 8
   title: We are the Meedanis
   items:
   - sys:
@@ -555,16 +555,6 @@ moduleList:
     role: Creative Director
     location: Vancouver
   - sys:
-      id: 26BnKkV6uNqzYWtFueaerv
-      created_at: !ruby/object:DateTime 2020-08-20 23:13:04.954000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-15 22:27:54.097000000 Z
-      content_type_id: contributor
-      revision: 2
-    name: Azza el Masri
-    staff: true
-    role: Pan-Arab Newsroom Coordinator
-    location: Beirut
-  - sys:
       id: 55lvpa6OODrYw65JImLBDO
       created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
       updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
@@ -579,26 +569,6 @@ moduleList:
 
       Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
   - sys:
-      id: 1tmlbKKzfWSfejPphmGRcH
-      created_at: !ruby/object:DateTime 2020-03-24 00:44:42.751000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.980000000 Z
-      content_type_id: contributor
-      revision: 1
-    name: Mina Xiao
-    staff: true
-    role: COO
-    location: On the Road
-  - sys:
-      id: 4VT8PPJaVZaFtzeJ2wfC1N
-      created_at: !ruby/object:DateTime 2020-03-24 00:45:42.081000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.444000000 Z
-      content_type_id: contributor
-      revision: 1
-    name: Mohamed El-Sawy
-    staff: true
-    role: Senior Software Engineer
-    location: Cairo
-  - sys:
       id: 1uaMTril4FB8NxxRTKwLDH
       created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
       updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
@@ -609,6 +579,26 @@ moduleList:
     location: New York
     role: Program Manager
   - sys:
+      id: 26BnKkV6uNqzYWtFueaerv
+      created_at: !ruby/object:DateTime 2020-08-20 23:13:04.954000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-15 22:27:54.097000000 Z
+      content_type_id: contributor
+      revision: 2
+    name: Azza el Masri
+    staff: true
+    role: Pan-Arab Newsroom Coordinator
+    location: Beirut
+  - sys:
+      id: 6Dl95BGU4mnP7XrSmhHPTN
+      created_at: !ruby/object:DateTime 2021-01-21 05:03:15.243000000 Z
+      updated_at: !ruby/object:DateTime 2021-01-21 05:03:37.016000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Fiona Mati
+    staff: true
+    role: Customer Success Manager
+    location: Nairobi
+  - sys:
       id: 743LskFWWSzxyLGgleigM0
       created_at: !ruby/object:DateTime 2020-03-24 00:48:17.569000000 Z
       updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.525000000 Z
@@ -618,6 +608,36 @@ moduleList:
     staff: true
     role: Bookkeeper
     location: San Francisco
+  - sys:
+      id: 1tmlbKKzfWSfejPphmGRcH
+      created_at: !ruby/object:DateTime 2020-03-24 00:44:42.751000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.980000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Mina Xiao
+    staff: true
+    role: COO
+    location: On the Road
+  - sys:
+      id: 18FtmHTul8o99S7bphXZGX
+      created_at: !ruby/object:DateTime 2021-01-20 01:23:10.538000000 Z
+      updated_at: !ruby/object:DateTime 2021-01-20 01:23:34.565000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Eric Mugendi
+    staff: true
+    role: Program Manager, East Africa
+    location: Nairobi
+  - sys:
+      id: 4VT8PPJaVZaFtzeJ2wfC1N
+      created_at: !ruby/object:DateTime 2020-03-24 00:45:42.081000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.444000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Mohamed El-Sawy
+    staff: true
+    role: Senior Software Engineer
+    location: Cairo
   - sys:
       id: 2eNuMXzkTcgh2oBbYrT3Cx
       created_at: !ruby/object:DateTime 2020-03-24 00:47:04.010000000 Z
@@ -693,3 +713,21 @@ moduleList:
     name: Hanan Heikal
     staff: true
     role: Board Member
+- sys:
+    id: 5UAShCwwhs9M55mDQ7IcAs
+    created_at: !ruby/object:DateTime 2021-02-18 01:06:24.869000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-18 01:07:17.784000000 Z
+    content_type_id: moduleList
+    revision: 0
+  title: Health Desk Recent Press Quotes
+  items:
+  - sys:
+      id: cYLfdJSyPOIA6KhXWPTsu
+      created_at: !ruby/object:DateTime 2021-02-18 01:07:11.999000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:51:48.962000000 Z
+      content_type_id: modulePullQuote
+      revision: 0
+    pullquote_by: Africa Check
+    pullquote: 'New York Times gets it wrong: South Africa doesn’t have fifth highest
+      Covid-19 infection rate'
+    link: https://africacheck.org/fact-checks/reports/new-york-times-gets-it-wrong-south-africa-doesnt-have-fifth-highest-covid-19

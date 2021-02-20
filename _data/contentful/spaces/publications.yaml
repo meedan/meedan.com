@@ -94,10 +94,10 @@ publication:
     sys:
       id: 43kw5bcVj1xtfe7ua88F6V
       created_at: !ruby/object:DateTime 2020-06-15 23:52:33.585000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-24 01:05:50.629000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 04:50:59.654000000 Z
       content_type_id: color
       revision: 1
-    name: Pale Pink
+    name: Sun Down
     value: "#FFB2B2"
     thumbnail:
       sys:
@@ -108,6 +108,7 @@ publication:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/6audU50SjICTVxbrdWcY8s/b440cade936973205487d25e7914cd33/ffb2b2.png"
     text: "#262626"
+    class_name: color--sun-down
   image: https://images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png
 - sys:
     id: 1EPFTrNepDeTMUR1FbT1LV
@@ -194,7 +195,7 @@ publication:
     sys:
       id: sw3ntNjhkQRzLXqLpNM2m
       created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
       content_type_id: color
       revision: 1
     name: Magenta
@@ -208,4 +209,5 @@ publication:
       description: "#ff4d7e"
       url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
     text: "#262626"
+    class_name: color--bright-red
   image: https://images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg

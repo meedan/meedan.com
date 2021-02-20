@@ -62,3 +62,52 @@ a.button.with-logo {
 }
 
 .dark .trail hr { color: #fff }
+
+a.big-button {
+    cursor: pointer;
+    img {
+        transform: scale(0.8) rotate(45deg);
+        transition: all 0.2s ease-out;
+        &:hover {
+            transform: scale(0.9) rotate(0deg);
+            svg {
+                fill: var(--sunDown);
+            }
+        }
+    }
+}
+
+
+a.cta-button {
+    display: block;
+    text-decoration: none;
+    padding: 1rem var(--space-1);
+    position: relative;
+    border: 1px solid var(--blackInk);
+    color: inherit;
+    .action-tag {
+        font-family: $font-stack;
+        font-size: 0.778rem;
+        font-weight: 700;
+        letter-spacing: 0.044rem;
+        text-transform: uppercase;
+        margin-bottom: 0.8rem;
+    }
+    span {
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+    }
+    &:hover {
+        border-color: var(--blackInk);
+        background-color: var(--blackInk);
+        color: #fff;
+    }
+}
+
+.dark a.cta-button {
+    border-color: var(--sunDown);
+    &:hover {
+        border-color: #fff;
+    }
+}

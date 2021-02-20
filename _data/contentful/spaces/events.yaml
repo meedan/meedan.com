@@ -686,7 +686,7 @@ event:
     like WhatsApp, hear about the obstacles fact-checkers have overcome to help users
     verify potential misinformation.
 
-    '
+'
   long_description: |-
     As communications and sharing increasingly shift to private services like WhatsApp, hear about the obstacles fact-checkers have overcome to help users verify potential misinformation.
 
@@ -1430,7 +1430,7 @@ event:
     MOOC the subject will be: employment, unemployment, freelance, funding opportunities
     during the pandemic.
 
-    '
+'
   long_description: |
     Show me the money!
 
@@ -2079,7 +2079,7 @@ event:
     Coalition](https://www.credibilitycoalition.org/) meeting followed by a discussion
     on how fact-checking varies across countries.
 
-    '
+'
   long_description: |-
     How US fact-checkers are covering COVID-19, protests, fires — and an election
 
@@ -2376,7 +2376,7 @@ event:
     Coalition](https://www.credibilitycoalition.org/) meeting followed by an open
     discussion on misinformation research.
 
-    '
+'
   long_description: |-
     __Biased and inaccurate information on social media__
 
@@ -3167,7 +3167,7 @@ event:
 - sys:
     id: 6QZUpY7B41IIOgWS1r9Bhp
     created_at: !ruby/object:DateTime 2020-12-13 17:29:00.270000000 Z
-    updated_at: !ruby/object:DateTime 2020-12-13 18:00:58.672000000 Z
+    updated_at: !ruby/object:DateTime 2021-01-28 03:01:43.468000000 Z
     content_type_id: event
     revision: 5
     space:
@@ -3215,3 +3215,113 @@ event:
   event_date_string: '2020-12-14'
   event_end_date_string: '2020-12-14'
   image: https://images.ctfassets.net/g118h5yoccvd/2d8CcybuZXrgFj1Y6NbcK2/36ddb487bf3f66f4ee57256a3ab1c229/meedan_iglive_dec-8_02.png
+- sys:
+    id: 6TAxOEDonpJOFHA2WTlQFk
+    created_at: !ruby/object:DateTime 2021-01-28 03:02:03.096000000 Z
+    updated_at: !ruby/object:DateTime 2021-01-28 04:48:39.523000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Algorithmic Inequity and Big Tech: Check Global Twitter Chat with "Coded
+    Bias"'
+  event_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
+  time: |-
+    - *Los Angeles* 7:00am
+    - *New York* 10:00am
+    - *Salvador* 12:00pm
+    - *London* 3:00pm
+    - *Cairo* 4:00pm
+    - *Delhi* 7:30pm
+  status: Upcoming
+  images:
+  - sys:
+      id: wicy40JnxsZPUz9cqxnDg
+      created_at: !ruby/object:DateTime 2021-01-28 03:06:31.795000000 Z
+      updated_at: !ruby/object:DateTime 2021-01-28 04:22:06.461000000 Z
+    title: Coded Bias poster
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png"
+  - sys:
+      id: 7fRKxSoaMtlZHxocdgMwxl
+      created_at: !ruby/object:DateTime 2021-01-28 04:22:10.057000000 Z
+      updated_at: !ruby/object:DateTime 2021-01-28 04:45:10.034000000 Z
+    title: Isa and Azza
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/7fRKxSoaMtlZHxocdgMwxl/77a41f84a1f25c9b096a25000d2e58cb/updated_meedan_azza_isa.png"
+  location_human_friendly: Online on Twitter
+  description: Check Global Program Associate Azza El-Masri and Program Manager Isabella
+    B. Oliveira speak with the team behind the film "Coded Bias" about tech inequities
+    around the world.
+  long_description: |-
+    With the implementation of big tech's algorithms worldwide, who gets equitable access to information and who doesn't?
+
+    <p class="u-responsive-ratio">
+    <iframe class="youtube" src="https://www.youtube.com/embed/jZl55PsfZJQ?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+    Join Azza El-Masri and Isabella Barrosso Oliveira as they speak with the team behind the film *Coded Bias* via live Twitter chat about the intersection of automated systems and access to information. They share their work supporting journalists, media workers and technologists within the NAWA region and throughout Latin America, and how big tech both helps and harms communities.
+
+    Go to Meedan's [Twitter profile](https://twitter.com/meedan) to attend the chat, and learn more about Coded Bias [on their website](https://www.codedbias.com/).
+  slug: algorithmic-inequity-and-big-tech-check-global-twitter-chat-with-coded-bias
+  non_public: false
+  event_date_string: '2021-01-28'
+  event_end_date_string: '2021-01-28'
+  image: https://images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png
+- sys:
+    id: 2LiWs71yiqjzYiaKJCnihN
+    created_at: !ruby/object:DateTime 2021-02-16 14:15:33.005000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-16 14:21:12.286000000 Z
+    content_type_id: event
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Insights From The End-to-End Fact-Checking Project On Whatsapp Tiplines
+  event_date: !ruby/object:DateTime 2021-03-04 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2021-03-04 00:00:00.000000000 Z
+  time: |-
+    7:30pm New Delhi
+    6:00am San Fransisco
+  status: Upcoming
+  register_link: Online on Zoom
+  video_link: 'By invitation only '
+  description: 'Town Hall With Facebook’s Third-Party Fact-checkers In India '
+  long_description: "Meedan is hosting a town hall that brings together our fact-checking
+    partners from India. These are Facebook’s third-party fact-checkers who have been
+    running tiplines using the WhatsApp Business API. Meedan’s software Check has
+    been customized specifically for global fact-checkers running WhatsApp tiplines.
+    In India our partners include AFP Fact-Check, BOOM, Factly, India Today, Vishvas
+    News and WebQoof. The six fact-checking groups have been receiving submissions,
+    responding to users and sending out fact-checked reports on WhatsApp tiplines.
+    The partnership has also contributed to the process of development of Check and
+    its features since the implementation of the project in October 2019.  \n\nThe
+    town hall provides an opportunity to Meedan and its partners to set shared goals
+    for the Indian region. It is also a forum to share insights and best practices
+    on promoting tiplines to WhatsApp users, designing editorial strategies to respond
+    at scale to users, and sharing the product roadmap for 2021. \n"
+  slug: insights-from-the-end-to-end-fact-checking-project-on-whatsapp-tiplines
+  non_public: true
+  event_date_string: '2021-03-04'
+  event_end_date_string: '2021-03-04'

@@ -52,3 +52,34 @@
     clear: both;
   }
 }
+
+@mixin set-color($color) {
+  color: $color; 
+  border-color: $color !important; 
+  a { color: $color; }
+  header .meedan svg {
+    fill: $color;
+  }
+  header .menu-icon svg {
+    stroke: $color;
+  }
+  
+  .dark,
+  h1,
+  h1 a,
+  &.dark h1,
+  &.dark h1 a,
+  & .dark h1,
+  & .dark h1 a {
+    color: $color;
+  }
+  .cursor,
+  &.dark .cursor,
+  &.campaign .cursor {
+    border-color: $color; 
+  }
+  .callout text,
+  &.dark .callout text {
+    fill: $color;
+  }
+}

@@ -18,6 +18,7 @@
 @import "text-list.scss";
 @import "text-links.scss";
 @import "buttons.scss";
+@import "program.scss";
 @import "project.scss";
 @import "checklist.scss";
 @import "product.scss";
@@ -36,6 +37,8 @@
 @import "report.scss";
 @import "values.scss";
 @import "donate.scss";
+@import "partners.scss";
+@import "form.scss";
 
 // @import "slick.scss";
 
@@ -44,20 +47,25 @@
     --blackInk: #262626;
     --sunDown: #FFB2B2;
     --sunSet: #E74640;
+    --brightRed: #FF4D7E;
+    --paleRed: #F2A7BE;
     --accent: #F2DEDC;
     --checkBlue: #2D77FC;
     --vividBlue: #0055DD;
     --coral: #FF864D;
     --eastSide: #9F82C4;
+    --palePurple: #BAA5D4;
     --cornflowerBlue: #5F9EE5;
     --texasRose: #FFB34D;
     --deepSea: #008D5E;
     --green: #04733B;
+    --brightGreen: #36B687;
+    --green30: #3DCA86;
     --silver: #A7A7A7;
     --softOrange: #DAA06D;
     --brightGreen:#36B687;
     --brightNavy: #3358d5;
-    --lightNavy: #6F89E2;
+    --lightNavy: #7798FF;
     --paleNavy: #C1CCF4;
     --paleBlue: #BBD6F4;
     --brightYellow: #FDEA51;
@@ -128,6 +136,7 @@ html {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 figure {
@@ -260,35 +269,20 @@ header .meedan svg {
     fill: var(--blackInk);
 }
 
-header.dark .meedan svg {
-    fill: var(--sunDown);
-}
-
 .front:not([data-menu]) header .meedan svg {
     fill: var(--sunDown);
 }
 
-.front[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.team[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.values[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.campaign[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.publication[data-menu] header .meedan svg {
-    fill: var(--blackInk);
-}
-
-.report[data-menu] header .meedan svg {
+.front[data-menu] header .meedan svg,
+.team[data-menu] header .meedan svg,
+.values[data-menu] header .meedan svg,
+.campaign[data-menu] header .meedan svg,
+.publication[data-menu] header .meedan svg,
+.report[data-menu] header .meedan svg,
+.project[data-menu] header .meedan svg,
+.projects[data-menu] header .meedan svg,
+.programs[data-menu] header .meedan svg,
+.program[data-menu] header .meedan svg {
     fill: var(--blackInk);
 }
 
@@ -300,27 +294,15 @@ header .menu-icon svg {
     stroke: var(--sunDown);
 }
 
-.front[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.team[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.values[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.campaign[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.report[data-menu] .menu-icon svg {
-    stroke: var(--blackInk);
-}
-
-.publication[data-menu] .menu-icon svg {
+.front[data-menu] .menu-icon svg,
+.team[data-menu] .menu-icon svg,
+.campaign[data-menu] .menu-icon svg,
+.report[data-menu] .menu-icon svg,
+.publication[data-menu] .menu-icon svg,
+.projects[data-menu] .menu-icon svg,
+.project[data-menu] .menu-icon svg,
+.programs[data-menu] .menu-icon svg,
+.program[data-menu] .menu-icon svg, {
     stroke: var(--blackInk);
 }
 
@@ -360,10 +342,8 @@ header h1 {
     }
 }
 
-header.dark h1 {
-    a { 
-        color: var(--sunDown);
-    }
+.dark h1 a { 
+    color: var(--sunDown);
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
@@ -495,10 +475,8 @@ header.dark h1 {
 
 .front .cursor,
 .team .cursor,
-.report .cursor,
 .publication .cursor,
-.values .cursor,
-.campaign .cursor {
+.values .cursor {
     border-color: var(--sunDown);
 }
 
@@ -521,7 +499,11 @@ header.dark h1 {
 .report[data-menu] .cursor,
 .publication[data-menu] .cursor,
 .values[data-menu] .cursor,
-.campaign[data-menu] .cursor {
+.campaign[data-menu] .cursor,
+.project[data-menu] .cursor,
+.projects[data-menu] .cursor,
+.programs[data-menu] .cursor,
+.program[data-menu] .cursor {
     color: var(--blackInk);
     border-color: var(--blackInk);
 }

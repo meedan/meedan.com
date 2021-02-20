@@ -28,7 +28,7 @@
     background: linear-gradient(180deg, #FFB2B2 0%, #FFB2B2 9.6%, #EF7E7B 12.32%, #EF7E7B 21.29%, #9F82C4 24.07%, #9F82C4 35.2%, #14A6A9 38.34%, #14A6A9 51.03%, #5F9EE5 54.57%, #5F9EE5 72.37%, #979797 75.02%);
 }
 
-.projects {
+.programs {
     background-color: var(--eastSide);
 }
 
@@ -51,6 +51,16 @@
 .page-wrapper {
     font-size: var(--scale-1);
 }
+
+.digital-health-lab {
+    // background: linear-gradient(180deg, #FFB34D 37.58%, #9F82C4 51.36%);
+    background: linear-gradient(180deg, #FFB34D 29.91%, #9F82C4 34.53%, #9F82C4 53.54%, #FFB2B2 65.91%, #FFB2B2 71.58%, #C4C4C4 81.87%, #C4C4C4 85.53%, #9F82C4 100%);
+    // background: linear-gradient(180deg, #FFB34D 11.72%, #9F82C4 16%, #9F82C4 31.07%, #FFB2B2 43.2%, #FFB2B2 58.99%, #C4C4C4 65.95%, #C4C4C4 77.19%, #9F82C4 100%)
+}
+
+// .project .page-wrapper header h2 {
+//     padding-top: 0;
+// }
 
 .page-wrapper .standfirst {
     grid-column: 5 / 12;
@@ -94,7 +104,7 @@
 }
 
 .module a:not(.button) {
-    color: var(--blackInk);
+    color: inherit;
     text-decoration: none;
 }
 
@@ -119,8 +129,22 @@
     margin-bottom: var(--space-3);
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .module [class^="grid-column--span-"] + [class^="grid-column--span-"],
+    .module [class^="grid-column--span-"] + [class^="grid-column--span-"] 
+    + [class^="grid-column--span-"] {
+        margin-bottom: var(--space-3);
+    }
+}
+
 .module p + p {
     margin-top: var(--space-3);
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .module [class^="grid-column--span-"] + [class^="grid-column--span-"] {
+        margin-top: var(--space-3);
+    }
 }
 
 .module .module-links {
@@ -137,8 +161,24 @@
 
 .module-details {
     font-size: var(--scale-0);
+    line-height: 1.2;
     h3, p, a, p a {
         font-size: var(--scale-0);
+    }
+}
+
+.module-blockquote {
+    font-size: var(--scale-0);
+    line-height: 1.2;
+    h3, p, a, p a {
+        font-size: var(--scale-0);
+    }
+    blockquote {
+        position: relative;
+        margin-top: var(--space-2);
+        margin-bottom: var(--space-4);
+        padding-left: var(--space-1);
+        border-left: 2px solid var(--blackInk);
     }
 }
 
@@ -149,6 +189,11 @@
 
 .module-bg-half {
     padding: var(--space-2) var(--space-3);
+}
+
+.module-with-padding {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
 }
 
 .slideshow {

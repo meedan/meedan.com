@@ -3,7 +3,7 @@ report:
 - sys:
     id: 1vw9SWrQcyEyWtga37JUw6
     created_at: !ruby/object:DateTime 2020-06-15 20:05:48.745000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-18 21:06:56.596000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-19 04:51:34.222000000 Z
     content_type_id: report
     revision: 3
     space:
@@ -542,20 +542,21 @@ report:
     sys:
       id: 1TCGlH6d0n4BiXTMpDB7Y7
       created_at: !ruby/object:DateTime 2020-06-15 23:44:13.060000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-24 01:10:30.292000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 04:49:17.667000000 Z
       content_type_id: color
       revision: 1
-    name: Orange
+    name: Coral
     value: "#FF864D"
     thumbnail:
       sys:
-        id: 6ioZnbN9f9SjY2XZfp46QG
-        created_at: !ruby/object:DateTime 2020-06-15 23:50:31.815000000 Z
-        updated_at: !ruby/object:DateTime 2020-06-24 01:10:27.575000000 Z
-      title: ffb34d
+        id: 1WuMP07zX7YYge7hfueHxK
+        created_at: !ruby/object:DateTime 2020-11-09 20:12:47.974000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-09 20:13:00.400000000 Z
+      title: Coral
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6ioZnbN9f9SjY2XZfp46QG/28488ebd1d9e4b4cd2dbc9ba34074735/ffb34d.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1WuMP07zX7YYge7hfueHxK/da948838120c932d430a071427a7aa2b/coral-01.png"
     text: "#262626"
+    class_name: color--coral
   image: https://images.ctfassets.net/g118h5yoccvd/1TXTPQACmPJLvpvGpSNDPO/bee0b505859726cfeace88c3c4a15486/meedan_report_covid-19-iran_01.png
 - sys:
     id: 3FjVXrJAIvjk2zHMcvRxtq
@@ -581,7 +582,7 @@ report:
   description: 'A surge in false claims linked to COVID-19 in Kenya follows existing
     misinformation trends in the country.
 
-    '
+'
   lead_image:
     sys:
       id: 2FaNwN7eNAIKR9NSFae2xD
@@ -944,7 +945,7 @@ report:
     sys:
       id: 3VU0jnxwp2VUwfdpUQb35X
       created_at: !ruby/object:DateTime 2020-06-19 03:25:05.797000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-24 01:09:11.259000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:47:42.592000000 Z
       content_type_id: color
       revision: 1
     name: Bright Red
@@ -958,6 +959,7 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/6DFxyXxmFWXQ8Eq5QdgVl3/25dc83caf2981ab55b5b35e3c59f2467/FF4D7E"
     text: "#262626"
+    class_name: color--bright-red
   image: https://images.ctfassets.net/g118h5yoccvd/3qrqeRUJmXadMqSKn51oaF/bfb84d389358017676bccf23d25d039f/meedan_report_covid-19-kenya_africa-check_01.png
 - sys:
     id: 4hNlM6eXCZG6w43fIoHUPY
@@ -1390,10 +1392,10 @@ report:
     sys:
       id: 2TZKWffUJGg1qZc3rFIxTk
       created_at: !ruby/object:DateTime 2020-07-22 22:49:35.988000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-28 23:12:16.059000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 15:46:31.544000000 Z
       content_type_id: color
-      revision: 1
-    name: Bright Orange
+      revision: 2
+    name: Texas Rose
     value: "#FFB34D"
     thumbnail:
       sys:
@@ -1404,6 +1406,7 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5zPJST9f1Y3hLceo562134/757cd636c9b462e5bd1f4a9bdb0416bf/FFB34D"
     text: "#262626"
+    class_name: color--texas-rose
   image: https://images.ctfassets.net/g118h5yoccvd/7wPWaFfbDhTZVmGH9LXmPr/ef5d6c56d9173c83fefd70eeabe6464c/meedan_report_covid-19-china_02.png
 - sys:
     id: 2sKzBmA7npYvPuvjnkYitv
@@ -1733,10 +1736,10 @@ report:
     sys:
       id: 5JDZYN12fQYOkyNmPTQBff
       created_at: !ruby/object:DateTime 2020-06-18 00:00:55.264000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-27 13:39:33.113000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 04:47:52.060000000 Z
       content_type_id: color
       revision: 1
-    name: Strong Cyan
+    name: Deep Sea
     value: "#008D5E"
     thumbnail:
       sys:
@@ -1747,6 +1750,7 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/4t2hYWT1aLyVQkXkWQ9lkB/5200e3453163a18e91698f955c3fa075/008D5E"
     text: "#262626"
+    class_name: color--deep-sea
   image: https://images.ctfassets.net/g118h5yoccvd/3hrpvLcTanPaFxcvRbFt9Z/d9d8be34291410f327211d270292ace5/meedan_report_covid-19-india_01.png
 - sys:
     id: 4exEvSWgwUB4VuB5ECE5zV
@@ -2003,10 +2007,10 @@ report:
     sys:
       id: 3GR3UkNztTEVBUahEh1b7q
       created_at: !ruby/object:DateTime 2020-08-11 20:11:35.807000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-13 20:24:18.585000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:44:49.406000000 Z
       content_type_id: color
       revision: 1
-    name: light grayish purple
+    name: East Side
     value: "#9F82C4"
     thumbnail:
       sys:
@@ -2017,6 +2021,7 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5PxhPIyIf2tkF04WlosZJl/b9b7b671f6d28a99a9bbb5d4db8671b7/9F82C4"
     text: "#262626"
+    class_name: color--east-side
   image: https://images.ctfassets.net/g118h5yoccvd/4RvRYJ3u3RXqT5J2FzGfez/398d73327d9e2f776a071e6be32e3bd4/meedan_report_covid-19-Philippines.png
 - sys:
     id: 7MQ5rF8CI1JCFyhvvfezeK
@@ -2235,7 +2240,7 @@ report:
     sys:
       id: 78KSqVjhG5uRVS8ckR7Sbu
       created_at: !ruby/object:DateTime 2020-08-13 03:39:44.551000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-20 15:22:46.457000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:47:32.288000000 Z
       content_type_id: color
       revision: 1
     name: Light Navy
@@ -2249,6 +2254,7 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5OujIFDf4DXlhZXZqrSlof/a3a7daaba6a5bd053f88913b71553693/7798FF"
     text: "#262626"
+    class_name: color--light-navy
   image: https://images.ctfassets.net/g118h5yoccvd/79Qb4XpGv1rvoaxHnKfGC7/c00ec69f1c229d7e6efa026170aceaf3/meedan_report_covid-19-korea.png
 - sys:
     id: 6ZJdYXyGDsYe5mgSIzXsoP
@@ -2411,7 +2417,7 @@ report:
     sys:
       id: 2LJYKjp37UnCuU6jPxjatl
       created_at: !ruby/object:DateTime 2020-09-21 22:39:54.901000000 Z
-      updated_at: !ruby/object:DateTime 2020-09-25 17:26:05.916000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:41:39.068000000 Z
       content_type_id: color
       revision: 1
     name: Pale Red
@@ -2425,11 +2431,12 @@ report:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5ECSDr31TvM3aZk10tnjDi/c32b3510cae5515eee03bcfbab17aa61/F2A7BE"
     text: "#262626"
+    class_name: color--pale-red
   image: https://images.ctfassets.net/g118h5yoccvd/5GuNPCsu4xxtrJDuIZEtwg/209e6c685c16ab51b6c61b2c0d851bbe/meedan_report_covid-19-brazil.png
 - sys:
     id: odqEjZ4nMa3Juk671k8wP
     created_at: !ruby/object:DateTime 2020-11-09 16:37:00.535000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-17 20:15:15.493000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-19 04:51:37.260000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -2841,7 +2848,7 @@ report:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+        updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
         content_type_id: color
         revision: 1
       name: Magenta
@@ -2855,15 +2862,16 @@ report:
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
       text: "#262626"
+      class_name: color--bright-red
   color:
     sys:
-      id: 1BeoyOjqllQNlOfc4Zoyzv
-      created_at: !ruby/object:DateTime 2020-11-09 20:11:09.041000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 20:12:54.048000000 Z
+      id: 1TCGlH6d0n4BiXTMpDB7Y7
+      created_at: !ruby/object:DateTime 2020-06-15 23:44:13.060000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 04:49:17.667000000 Z
       content_type_id: color
-      revision: 0
+      revision: 1
     name: Coral
-    value: "#ff864d"
+    value: "#FF864D"
     thumbnail:
       sys:
         id: 1WuMP07zX7YYge7hfueHxK
@@ -2872,6 +2880,8 @@ report:
       title: Coral
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/1WuMP07zX7YYge7hfueHxK/da948838120c932d430a071427a7aa2b/coral-01.png"
+    text: "#262626"
+    class_name: color--coral
   image: https://images.ctfassets.net/g118h5yoccvd/2KuL0ZHoxLnatKNzrugbpD/730a179c111581e4a85ddc59443eb109/content-moderation-_-vulnerable-populations_LGBTQ-communities_social-card.png
 - sys:
     id: 4u68N8i5XJdHR1idRXTjOu
@@ -3125,7 +3135,7 @@ report:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+        updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
         content_type_id: color
         revision: 1
       name: Magenta
@@ -3139,11 +3149,12 @@ report:
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
       text: "#262626"
+      class_name: color--bright-red
   color:
     sys:
       id: sw3ntNjhkQRzLXqLpNM2m
       created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
       content_type_id: color
       revision: 1
     name: Magenta
@@ -3157,11 +3168,12 @@ report:
       description: "#ff4d7e"
       url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
     text: "#262626"
+    class_name: color--bright-red
   image: https://images.ctfassets.net/g118h5yoccvd/6VbhMR40LZhGSOE0WQaOku/3ee9430c9d51655b7dbee9fdc12161e4/Content-moderation-toolkit_executive-summary_social-card.png
 - sys:
     id: 5ZXTHAj2Ovrzx3PfcuiEtF
     created_at: !ruby/object:DateTime 2020-11-09 21:56:38.417000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-17 20:14:17.461000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-19 04:47:25.639000000 Z
     content_type_id: report
     revision: 0
     space:
@@ -3525,7 +3537,7 @@ report:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+        updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
         content_type_id: color
         revision: 1
       name: Magenta
@@ -3539,23 +3551,26 @@ report:
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
       text: "#262626"
+      class_name: color--bright-red
   color:
     sys:
-      id: 1dTLqYx4mJGbkisd6tJHvu
-      created_at: !ruby/object:DateTime 2020-11-09 22:02:06.734000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-09 22:02:20.212000000 Z
+      id: 2TZKWffUJGg1qZc3rFIxTk
+      created_at: !ruby/object:DateTime 2020-07-22 22:49:35.988000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 15:46:31.544000000 Z
       content_type_id: color
-      revision: 0
+      revision: 2
     name: Texas Rose
-    value: "#ffb34d"
+    value: "#FFB34D"
     thumbnail:
       sys:
-        id: 4lcFjuaSsFT8K6Pq2qm3pb
-        created_at: !ruby/object:DateTime 2020-11-09 22:02:17.550000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-09 22:03:03.129000000 Z
-      title: Texas Rose
+        id: 5zPJST9f1Y3hLceo562134
+        created_at: !ruby/object:DateTime 2020-07-22 22:50:13.469000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-28 23:12:13.304000000 Z
+      title: FFB34D
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/4lcFjuaSsFT8K6Pq2qm3pb/d40d402f26f23af61ed9c46de7745e5d/texas_rose-01.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/5zPJST9f1Y3hLceo562134/757cd636c9b462e5bd1f4a9bdb0416bf/FFB34D"
+    text: "#262626"
+    class_name: color--texas-rose
   image: https://images.ctfassets.net/g118h5yoccvd/4EFqJXtvJSMQkzMcVINrNN/835d8659984c28b6097a54512536b8cf/content-moderation-toolkit_working-group-and-literature-review-report_social-card.png
 - sys:
     id: 6B6HKhC8nkzrzqV2UKI34
@@ -4273,7 +4288,7 @@ report:
       each other by sharing settings and answering questions. See also Jhaver et al.’s
       interview work on how large subreddits use AutoModerator.
 
-      '
+'
   references: "- *Note: this is not a comprehensive lit review of all hate speech
     research. For such a list, please see, Fortuna and Nunes.*\n\n- Badjatiya, Pinkesh,
     Shashank Gupta, Manish Gupta, and Vasudeva Varma. 2017. “[Deep Learning for Hate
@@ -4425,7 +4440,7 @@ report:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+        updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
         content_type_id: color
         revision: 1
       name: Magenta
@@ -4439,15 +4454,16 @@ report:
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
       text: "#262626"
+      class_name: color--bright-red
   color:
     sys:
       id: 2rZsEVEEflN7PBITyTo5g0
       created_at: !ruby/object:DateTime 2020-11-10 10:58:48.574000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 10:59:19.578000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:25:50.655000000 Z
       content_type_id: color
       revision: 0
-    name: Red
-    value: "#ff5f4d"
+    name: Sun Set
+    value: "#E74640"
     thumbnail:
       sys:
         id: 3pSfK3R13BCVEeAavHEKXU
@@ -4456,6 +4472,7 @@ report:
       title: Red
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/3pSfK3R13BCVEeAavHEKXU/8c613347f65a00791b5f01b3c29d86ec/red-01.png"
+    class_name: color--sun-set
   image: https://images.ctfassets.net/g118h5yoccvd/1Ne7vr9DQQebfWXlj69zXL/f0704bf859f2a7ae40ba8f645c6759a8/content-moderation-toolkit_hate-speech_social-card.png
 - sys:
     id: 1Q7LLqUAyLZefSMra2NRKZ
@@ -4900,7 +4917,7 @@ report:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+        updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
         content_type_id: color
         revision: 1
       name: Magenta
@@ -4914,11 +4931,12 @@ report:
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
       text: "#262626"
+      class_name: color--bright-red
   color:
     sys:
       id: 23y8AbmbWJctVzskwqwMA2
       created_at: !ruby/object:DateTime 2020-11-10 14:57:53.317000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-10 14:58:11.656000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:22:32.709000000 Z
       content_type_id: color
       revision: 0
     name: Green 30
@@ -4931,6 +4949,7 @@ report:
       title: Green 30
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/50qfPG44YZUymq2QpfFI0r/e93449394eac79f1271240bac2d91335/green_30-01.png"
+    class_name: color--green-30
   image: https://images.ctfassets.net/g118h5yoccvd/3CuWZ27QualPFqW9aInWe4/9fbe19707584bfdbc1882f5127f5c4fe/content-moderation-toolkit_kenyan-election-and-census_social-card.png
 - sys:
     id: 5HPWXq1exdySB1EdnYQvTB
@@ -5480,7 +5499,7 @@ report:
       sys:
         id: sw3ntNjhkQRzLXqLpNM2m
         created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
+        updated_at: !ruby/object:DateTime 2021-02-19 04:45:27.285000000 Z
         content_type_id: color
         revision: 1
       name: Magenta
@@ -5494,14 +5513,15 @@ report:
         description: "#ff4d7e"
         url: "//images.ctfassets.net/g118h5yoccvd/ewZMwgt0xilyUB6umRuQs/68b8db4246a336ad25a4c7658c0fafd8/magenta-01.png"
       text: "#262626"
+      class_name: color--bright-red
   color:
     sys:
       id: 4Esqafv6LMFgmVypNRiAhZ
       created_at: !ruby/object:DateTime 2020-11-10 15:05:33.283000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-18 20:05:41.107000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-19 06:18:32.336000000 Z
       content_type_id: color
       revision: 1
-    name: Pale Blue
+    name: Cornflower Blue
     value: "#5f9ee5"
     thumbnail:
       sys:
@@ -5511,4 +5531,5 @@ report:
       title: Pale Blue
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/5WLCyMDUUBatdR50t5xMEF/b0f5e09a365f8a1c2a3663060c974f23/pale_blue-01.png"
+    class_name: color--cornflower-blue
   image: https://images.ctfassets.net/g118h5yoccvd/5a5wRF4afli4T8FNKDSNgZ/5e95538384c6c6dd7dbee6fb4fe9c63d/content-moderation-toolkit_toolkit-for-civil-society-and-moderation-inventory_social-card.png

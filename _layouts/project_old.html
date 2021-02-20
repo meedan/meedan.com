@@ -1,0 +1,44 @@
+---
+custom_js: sticky
+---
+<!DOCTYPE html>
+<html>
+{% include head_annual_report.html %}
+
+<body class="site page-section">
+    <div class="site-wrapper">
+        {% include header_legacy.html %}
+        <div class="p-header">
+            <div class="p-header-container">
+                <h1>{{ page.title }}</h1>
+                <h2>{{ page.summary | markdownify }}</h2>
+                {% if page.intro %}
+                <div class="p-header-body">
+                    {{ page.intro | markdownify }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <section class="precontent">
+            {% if page.sections %}
+            <div id="pageNav" class="nav-wrapper">
+                <div class="nav-header">
+                    Jump to
+                </div>
+                <nav class="nav">
+                    <ul>
+                        {% for section in page.sections %}
+                           <li><a href="#{{ section.section_class | slugify }}">{{ forloop.index }}. {{ section.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+            {% endif %}
+        </section>
+        {% include render_sections.html %}
+        {% include footer_annual_report.html %}
+    </div>
+    {% include js.html %}
+</body>
+
+</html>

@@ -14,7 +14,6 @@ custom_js: topic
             {% capture current_topic %}{{ page.topic }}{% endcapture %}
             {% capture topic_id %}{{ page.sys.id }}{% endcapture %}
             {% assign topics = site.data.contentful.spaces.topics.topic %}
-            {{ topic }}
             <div class="section-title">
                 Stories about 
                 <select id="select-topic" class="select-topic">

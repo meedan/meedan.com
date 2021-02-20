@@ -1,0 +1,19 @@
+{% assign programs = site.data.contentful.spaces.programs.program | sort: 'order' %}
+<div class="module module-program-list">
+    {% for program in programs %}
+        <div class="main-grid section-margin programs">
+            <div class="main-grid__1-5 bleed program-story">
+                <a href="{{ program.primary_link }}"><img src="{{ program.hero_image.url }}" /></a>
+            </div>
+            <div class="main-grid__6-12 program-teaser">
+                <h3><a href="{{ program.primary_link }}">{{ program.title }}</a></h3>
+                {{ program.short_description | markdownify }}
+                {% if program.links %}
+                    <div class="plain-list">
+                        {{ program.links | markdownify }}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

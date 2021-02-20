@@ -5,6 +5,10 @@
         | sort: 'alt_date_string' 
         | reverse  
     %}
+{% elsif include.stories %}
+    {% 
+        assign stories = include.stories[0].stories
+    %}
 {% else %}
     {% 
         assign stories = site.data.contentful.spaces.stories.story 

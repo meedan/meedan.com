@@ -31,6 +31,16 @@
     a {
         color: inherit;
     }
+    .graphic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: var(--space-2);
+        img {
+            display: block;
+            width: 50%;
+        }
+    }
 }
 
 .dark .key-point {

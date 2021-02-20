@@ -1,31 +1,93 @@
-.module-project-list {
-    // margin-bottom: var(--space-4);
-    @include responsive('min-width: #{$width-tablet}') {
-        .projects {
-            padding-left: 0;
-        }
+@include responsive('min-width: #{$width-tablet}') {
+    body.projects {
+        background-image: url('/images/purple-orange-magenta.svg');
+        background-size: 28%;
+        background-repeat: no-repeat;
+        background-position: 95% 1%;
     }
-    .project-teaser {
-        margin-top: var(--space-1);
-    }
-    h3 {
-        margin-bottom: var(--space-1);
-        text-transform: uppercase;
-    }
+}
 
-    .project-story a {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        img {
-            grid-column: 1/-1;
-        }
-        h4 {
-            grid-column: 2/8;
-            margin-top: var(--space-2);
-        }
-        .arrow {
-            margin-top: var(--space-3);
-            grid-column: 2/2;
+body.project {
+    .page-wrapper header h2 {
+        font-size: var(--scale-5);
+        hyphens: none;
+    }
+    .tags {
+        grid-column: 1/6;
+    }
+}
+
+.module-project-list .projects {
+    margin-top: var(--space-3);
+    grid-row-gap: 0;
+}
+
+.projects .project {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-2);
+    border-bottom: 1px solid var(--blackInk);
+    @include responsive('min-width: #{$width-tablet}') {
+        &:nth-child(-n+3) {
+            border-top: 1px solid var(--blackInk);
         }
     }
+    .title h3 {
+        font-size: var(--scale-1);
+    }
+    .title {
+        display: block;
+    }
+    .description p {
+        font-size: var(--scale-0);
+        a:not(.button) {
+            text-decoration: underline;
+        }
+    }
+    a {
+        color: inherit;
+    }
+    .tags {
+        margin-top: var(--space-2);
+    }
+    .project-details {
+        margin-top: auto;
+    }
+    .project-image-container {
+        margin-top: var(--space-1);
+        position: relative;
+        overflow: hidden;
+    }
+    .project-link-container {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--sunDown);
+        font-size: var(--scale-0);
+        // height: 58px;
+        opacity: 0;
+    }
+    .project-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.8rem 0;
+        color: var(--blackInk);
+    }
+    .project-image img {
+        display: block;
+    }
+    transition: opacity 0.3s ease-out;
+    &:hover {
+        .project-link-container {
+            display: block;   
+            opacity: 1;
+        }
+    }
+}
+
+.dark.projects .project {
+    border-color: inherit;
 }
