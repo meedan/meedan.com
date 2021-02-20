@@ -349,7 +349,7 @@ job:
 - sys:
     id: 56rk6EIfGewB4WYMyuhEDM
     created_at: !ruby/object:DateTime 2020-07-16 19:03:08.286000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-29 22:04:30.785000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-19 21:01:02.274000000 Z
     content_type_id: job
     revision: 4
     space:
@@ -500,3 +500,25 @@ job:
     including women, people of color, people with disabilities and those who identify
     as LGBTQ.\n\n__Please send CV and statement of interest to jobs@meedan.com.__\n"
   date: '2020-08-04'
+- sys:
+    id: 5xuZ0h0k4mUsR30JwyilCY
+    created_at: !ruby/object:DateTime 2021-02-19 21:03:02.525000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-19 23:02:32.068000000 Z
+    content_type_id: job
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Blank
+  slug: blank
+  date: '2021-02-19'

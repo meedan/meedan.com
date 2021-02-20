@@ -11,6 +11,9 @@
     h3 {
         margin-bottom: var(--space-1);
         text-transform: uppercase;
+        a:hover {
+            border-bottom: 3px solid var(--blackInk);
+        }
     }
 
     .program-story a {

@@ -3,7 +3,7 @@ program:
 - sys:
     id: 4gC7nijW83RgFx3ylv05gq
     created_at: !ruby/object:DateTime 2021-02-17 01:50:02.647000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 01:51:37.444000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:10:11.229000000 Z
     content_type_id: program
     revision: 0
   title: Check Global
@@ -19,6 +19,7 @@ program:
     rights research in the developing world. We provide software, training and support
     to an international group of independent media organizations, journalism schools
     and human rights researchers.
+  primary_link: https://meedan.com/projects/check-global
   links: "- [Learn more](https://meedan.com/projects/check-global)"
   summary: 'Check Global is a program run by [Meedan](https://meedan.com/about) in
     partnership with [Birmingham City University](https://www.bcu.ac.uk/), with funding
@@ -133,7 +134,7 @@ program:
 - sys:
     id: 6a0h9zSAl0xrtqnFzXrqCx
     created_at: !ruby/object:DateTime 2021-02-17 01:51:57.001000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 01:52:20.299000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:10:27.024000000 Z
     content_type_id: program
     revision: 0
   title: Credibility Coalition
@@ -148,13 +149,14 @@ program:
   short_description: 'An interdisciplinary research incubator founded in partnership
     with Hacks/Hackers. We facilitate working groups that think through misinformation
     problems using design, health, economic and many other lenses. '
+  primary_link: https://credibilitycoalition.org/
   links: "- [Website](https://credibilitycoalition.org/)\n"
   slug: credibility-coalition
   order: 3
 - sys:
     id: 1zpC5ejJrfSTK2vDdHzIUE
     created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-18 21:28:09.525000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:08:45.480000000 Z
     content_type_id: program
     revision: 1
   title: Digital Health Lab
@@ -169,6 +171,7 @@ program:
   short_description: 'Researching, designing and testing the impact of the internet
     on public health. We are building a framework for addressing health misinformation,
     and it is centered around more equitable access to quality health content. '
+  primary_link: https://meedan.com/digital-health-lab
   links: |
     - [Learn more](https://meedan.com/digital-health-lab)
     - [Health Desk](http://health-desk.org/)
@@ -177,7 +180,7 @@ program:
 - sys:
     id: 4xTPtdOyqM7fyx8sblrvm
     created_at: !ruby/object:DateTime 2021-02-17 01:53:24.793000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 01:53:46.731000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:09:56.402000000 Z
     content_type_id: program
     revision: 0
   title: Pop-Up Newsroom
@@ -193,6 +196,7 @@ program:
     the world. Our job is to generate large-scale ideas, supply the collaborative
     technology and execute complex workflows between different news outlets. This
     is a joint project with London-based news consultancy Fathm. '
+  primary_link: https://popup.news
   links: "- [Website](https://popup.news/)"
   slug: pop-up-newsroom
   order: 4
