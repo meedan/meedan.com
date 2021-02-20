@@ -3,9 +3,9 @@ program:
 - sys:
     id: 4gC7nijW83RgFx3ylv05gq
     created_at: !ruby/object:DateTime 2021-02-17 01:50:02.647000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 00:10:11.229000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.044000000 Z
     content_type_id: program
-    revision: 0
+    revision: 1
   title: Check Global
   hero_image:
     sys:
@@ -134,9 +134,9 @@ program:
 - sys:
     id: 6a0h9zSAl0xrtqnFzXrqCx
     created_at: !ruby/object:DateTime 2021-02-17 01:51:57.001000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 00:10:27.024000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.042000000 Z
     content_type_id: program
-    revision: 0
+    revision: 1
   title: Credibility Coalition
   hero_image:
     sys:
@@ -156,9 +156,9 @@ program:
 - sys:
     id: 1zpC5ejJrfSTK2vDdHzIUE
     created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 00:08:45.480000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
     content_type_id: program
-    revision: 1
+    revision: 2
   title: Digital Health Lab
   hero_image:
     sys:
@@ -180,9 +180,9 @@ program:
 - sys:
     id: 4xTPtdOyqM7fyx8sblrvm
     created_at: !ruby/object:DateTime 2021-02-17 01:53:24.793000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 00:09:56.402000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.042000000 Z
     content_type_id: program
-    revision: 0
+    revision: 1
   title: Pop-Up Newsroom
   hero_image:
     sys:
@@ -200,3 +200,26 @@ program:
   links: "- [Website](https://popup.news/)"
   slug: pop-up-newsroom
   order: 4
+- sys:
+    id: 5Rsdz3XijqeW2cquqxjdnn
+    created_at: !ruby/object:DateTime 2021-02-20 01:02:20.121000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:02:57.381000000 Z
+    content_type_id: program
+    revision: 1
+  title: Content Moderation Project
+  hero_image:
+    sys:
+      id: 6TfRuAKJj6golgGhzEl8eS
+      created_at: !ruby/object:DateTime 2020-02-27 02:37:40.031000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
+    title: Content Moderation Project
+    description: Kat Lo
+    url: "//images.ctfassets.net/g118h5yoccvd/6TfRuAKJj6golgGhzEl8eS/a92c80a091313c5bce69f571dc5bd7d7/projects-content-moderation-project-3.png"
+  short_description: Collaborating with stakeholders in academia, policy, and civil
+    society groups to develop clear pathways to responsible content moderation for
+    technology platforms. Applied research with civil society organizations and human
+    rights responders help us better understand varying experiences with content moderation
+    and allow us to identify points of intervention.
+  links: "- [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)"
+  slug: content-moderation-project
+  order: 5
