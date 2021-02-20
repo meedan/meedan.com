@@ -10,6 +10,7 @@
 body.project {
     .page-wrapper header h2 {
         font-size: var(--scale-5);
+        hyphens: none;
     }
     .tags {
         grid-column: 1/6;
