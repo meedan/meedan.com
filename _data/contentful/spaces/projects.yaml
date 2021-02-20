@@ -1,216 +1,20 @@
 ---
 project:
 - sys:
-    id: ZrRI71jL8H3THqYYM98j8
-    created_at: !ruby/object:DateTime 2020-02-06 20:33:55.642000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-18 22:53:03.291000000 Z
-    content_type_id: project
-    revision: 8
-  title: 'Check Global  '
-  hero_image:
-    sys:
-      id: 6NUsv6oRkYob4fiImP6S2W
-      created_at: !ruby/object:DateTime 2020-02-26 06:03:55.325000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:49:14.895000000 Z
-    title: Check Global
-    description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/6NUsv6oRkYob4fiImP6S2W/096be2ca061cf06f4322410b2d593ba0/project-check-global.png"
-  short_description: Check Global is an initiative that supports journalism and human
-    rights research in the developing world. We provide software, training and support
-    to an international group of independent media organizations, journalism schools
-    and human rights researchers.
-  links: "- [Learn more](https://meedan.com/projects/check-global)\n"
-  summary: 'Check Global is a program run by [Meedan](https://meedan.com/about) in
-    partnership with [Birmingham City University](https://www.bcu.ac.uk/), with funding
-    from Swedish International Development Agency (Sida). '
-  intro: "The project aims to improve digital literacy, community-building and political
-    engagement skills for citizen journalists, activists, journalism students, civil
-    society organisations and human rights defenders, thus strengthening their role
-    as investigators and contributors to the public sphere.\n\nWe provide training,
-    develop software, run programming, and conduct research with a global network
-    of independent media and human rights organizations, fact-checking initiatives
-    and journalism schools in Latin America, East Africa, Asia-Pacific (APAC) and
-    the North Africa/West Asia (NAWA) region.\n\nWe are committed to strengthening
-    the capacities of our partners to use media and technology to:\n\n- Counter the
-    rise of misinformation and disinformation\n- Provide credible information and
-    address inequalities in access to information \n- Develop media literacy skills
-    so they, and the communities they work with, are better equipped to hold public
-    figures to account\n"
-  slug: check-global
-  sections:
-  - sys:
-      id: 3zpdrjZeBGOlkTvFrchEYa
-      created_at: !ruby/object:DateTime 2020-04-30 19:57:35.775000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-18 03:16:45.425000000 Z
-      content_type_id: section
-      revision: 1
-    title: What We Do
-    cover_graphic:
-      sys:
-        id: 3qY0ei2Bg7SMahDkxnxMgi
-        created_at: !ruby/object:DateTime 2020-06-17 22:43:16.721000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-10 23:00:09.617000000 Z
-      title: Check Global – What We Do
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3qY0ei2Bg7SMahDkxnxMgi/241c67fb53e383f6682fc2ad1a32b127/graphic_1.png"
-    background_color: "#262626"
-    section_class: introduction
-    modules:
-    - sys:
-        id: 1cqeAIgr19kVkBT5QbZxy0
-    - sys:
-        id: 5We3ntoM1jzUyVyn1vHRk7
-    - sys:
-        id: 6mAQ6I7zlp8zTFOfdJRNGP
-    - sys:
-        id: V0GFjO8JqQ7GWhhd3O4bI
-    - sys:
-        id: G131BSJzfGF7m1buiMyH0
-  - sys:
-      id: 3KKLPp1gaZFn8DA2991hai
-      created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-18 05:57:23.347000000 Z
-      content_type_id: section
-      revision: 2
-    title: The Five Pillars of  Check Global
-    cover_graphic:
-      sys:
-        id: 5z0rhk7t6MEUnGdvNYQyo6
-        created_at: !ruby/object:DateTime 2020-06-17 22:44:14.497000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-10 23:00:09.826000000 Z
-      title: Check Global – The Five Pillars of Check Global
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/5z0rhk7t6MEUnGdvNYQyo6/eee7fe3181a31b613981af0f5d92b712/graphic_3.png"
-    background_color: "#D4D4D4"
-    section_class: reviews
-    modules:
-    - sys:
-        id: 7mjrsI2HIn9NjvAuChgfuM
-    - sys:
-        id: 7ud4Hr06UvT7C1mFT0S9WR
-    - sys:
-        id: 3gPNPngJyHbMKzJzTsUf6B
-    - sys:
-        id: 5mOfhdkjqmah8gnXxVxAe9
-    - sys:
-        id: 1x0YoYn3i7CiCnerRfcdOr
-    - sys:
-        id: 5Xq0f0IkRYyLZpvNOstMRr
-    - sys:
-        id: 30IO6Cc2Dlw6TwXEMDAWBe
-    - sys:
-        id: 1iH7GYfJYJVcTPWofrt1cK
-    - sys:
-        id: 63dXTMUG8Uh9LGQPs07J1V
-    - sys:
-        id: 7arDY41aBzRnduCpH2vJpc
-    - sys:
-        id: 4KUDgS2JKNuwtuhgb33HHB
-    - sys:
-        id: 2CsSGl5GzJpKdc3H2DB6e5
-  - sys:
-      id: EqEniIFDbF8HASu0rKCJh
-      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-18 05:57:51.230000000 Z
-      content_type_id: section
-      revision: 2
-    title: Who we are
-    cover_graphic:
-      sys:
-        id: 46wwHwBQpDhqhNqup0reBS
-        created_at: !ruby/object:DateTime 2020-06-17 22:43:49.492000000 Z
-        updated_at: !ruby/object:DateTime 2020-08-10 23:00:09.833000000 Z
-      title: Check Global – Who We Are
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/46wwHwBQpDhqhNqup0reBS/5a70e4f22ea09734cca13a7947f753b5/graphic_2.png"
-    section_class: financials
-    modules:
-    - sys:
-        id: 5bPjLADdiXEy7wgvf0SonW
-    - sys:
-        id: 1i4LKxNS2Ha1LF0MGWwyzp
-  order: 1
-- sys:
-    id: UJfyuXyQXasahqsdKIV07
-    created_at: !ruby/object:DateTime 2020-02-25 22:27:11.772000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-06 01:31:29.665000000 Z
-    content_type_id: project
-    revision: 4
-  title: Credibility Coalition
-  hero_image:
-    sys:
-      id: 7sQg1C3EdlTzklL3YulGY7
-      created_at: !ruby/object:DateTime 2020-02-26 06:03:14.316000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
-    title: Credibility Coalition
-    description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/7sQg1C3EdlTzklL3YulGY7/33897c950f96cf8bc93c8353d6d81aa2/project-credibility-coalition.png"
-  short_description: 'An interdisciplinary research incubator founded in partnership
-    with Hacks/Hackers. We facilitate working groups that think through misinformation
-    problems using design, health, economic and many other lenses. '
-  links: "- [Website](https://credibilitycoalition.org/)\n"
-  slug: credibility-coalition
-  order: 3
-- sys:
-    id: 2IpXGBWrltynhplbhkfG6D
-    created_at: !ruby/object:DateTime 2020-02-25 22:41:35.752000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-06 01:31:39.497000000 Z
-    content_type_id: project
-    revision: 4
-  title: Pop-Up Newsroom
-  hero_image:
-    sys:
-      id: 1JitRMENSazZqLtnMzC31C
-      created_at: !ruby/object:DateTime 2020-02-26 06:01:31.050000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-10 23:10:00.215000000 Z
-    title: Pop-Up Newsroom
-    description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/1JitRMENSazZqLtnMzC31C/2c263547a930ac2f6dd0a78bcd9a71fa/project-pop-up-newsroom.png"
-  short_description: 'We develop collaborative editorial projects with newsrooms around
-    the world. Our job is to generate large-scale ideas, supply the collaborative
-    technology and execute complex workflows between different news outlets. This
-    is a joint project with London-based news consultancy Fathm. '
-  links: "- [Website](https://popup.news/)\n"
-  slug: pop-up-newsroom
-  order: 4
-- sys:
-    id: 4ZJUuixM4DCL7IrvAbgd4P
-    created_at: !ruby/object:DateTime 2020-02-25 22:46:30.279000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-16 22:34:40.971000000 Z
-    content_type_id: project
-    revision: 5
-  title: Digital Health Lab
-  hero_image:
-    sys:
-      id: 2nW6GqFf50AHuJI42McaGY
-      created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
-    title: 'Digital Health: Fact-checking in an era of misinfodemics'
-    description: 'Digital Health: Fact-checking in an era of misinfodemics'
-    url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"
-  short_description: 'Researching, designing and testing the impact of the internet
-    on public health. We are building a framework for addressing health misinformation,
-    and it is centered around more equitable access to quality health content. '
-  links: |
-    - [Website](https://health.meedan.com/)
-    - [COVID-19 Expert Database](http://learnaboutcovid19.org/)
-  slug: digital-health-lab
-  order: 2
-- sys:
     id: 1qNyYdbk1y7nt1zzo18Yyl
     created_at: !ruby/object:DateTime 2020-02-25 22:47:23.980000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-18 20:32:01.873000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:28:11.998000000 Z
     content_type_id: project
-    revision: 3
+    revision: 6
   title: Content Moderation Project
   hero_image:
     sys:
-      id: 6TfRuAKJj6golgGhzEl8eS
-      created_at: !ruby/object:DateTime 2020-02-27 02:37:40.031000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
+      id: bdmzBHEMtEctV0OL0xijv
+      created_at: !ruby/object:DateTime 2021-02-20 01:22:54.791000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 01:23:50.731000000 Z
     title: Content Moderation Project
-    description: Kat Lo
-    url: "//images.ctfassets.net/g118h5yoccvd/6TfRuAKJj6golgGhzEl8eS/a92c80a091313c5bce69f571dc5bd7d7/projects-content-moderation-project-3.png"
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/bdmzBHEMtEctV0OL0xijv/f4cc635a6f8c7ea3c9b5283aff075af5/meedan_project_content-moderation.png"
   short_description: Collaborating with stakeholders in academia, policy, and civil
     society groups to develop clear pathways to responsible content moderation for
     technology platforms. Applied research with civil society organizations and human
@@ -218,19 +22,86 @@ project:
     and allow us to identify points of intervention.
   links: "- [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)"
   slug: content-moderation-project
-  order: 5
+  order: 8
+  tags:
+  - sys:
+      id: 36eMQgzcN0CinKgnj4UQ2O
+      created_at: !ruby/object:DateTime 2021-02-19 04:33:04.176000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:28.798000000 Z
+      content_type_id: tag
+      revision: 1
+    title: Civil society
+  - sys:
+      id: u1TFaTHTOgagGek7olcEJ
+      created_at: !ruby/object:DateTime 2021-02-19 04:33:17.372000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:28.818000000 Z
+      content_type_id: tag
+      revision: 1
+    title: Social media
+  publication:
+  - sys:
+      id: 1EPFTrNepDeTMUR1FbT1LV
+      created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
+      updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
+      content_type_id: publication
+      revision: 2
+    title: Content Moderation Toolkit
+    short_title: Content Moderation Toolkit
+    description: Content moderation is a process, not a solution in and of itself.
+      With the increasing complexity of content on the internet and norms around governance,
+      new standards are needed to help bridge the gap between industry and those seeking
+      to engage with industry. With support from the Swedish International Development
+      Agency and the Facebook Journalism Project, Meedan presents this work toward
+      a common vocabulary and methodology for content moderation as a toolkit for
+      civil society and platforms alike grappling with these issues.
+    slug: content-moderation-toolkit
+    sections:
+    - sys:
+        id: 2ldDGlFH61yvNc2x9DF2ex
+    author:
+    - sys:
+        id: 55lvpa6OODrYw65JImLBDO
+    additional_attribution: Lead, Meedan Content Moderation Project
+    cover_image:
+      sys:
+        id: 6VYAFLYRLJnOVMBZSy1KD2
+        created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
+      title: Content Moderation Toolkit
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6VYAFLYRLJnOVMBZSy1KD2/4e40e178f196d8b024f0964ac95051e9/content-moderation-toolkit_cover-image.png"
+    publication_promo_graphic:
+      sys:
+        id: 1DzzJ94lvtgdJnCaYLRegg
+        created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
+      title: Content Moderation Toolkit
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1DzzJ94lvtgdJnCaYLRegg/c3690f778b91576bebf6d62b5a14091f/content-moderation-toolkit_publication-promo-graphic.png"
+    social_card_image:
+      sys:
+        id: 2biBznblY8VQEDW3NaheSe
+        created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+        updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
+      title: Content Moderation Toolkit
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2biBznblY8VQEDW3NaheSe/38c1e68f5cac057233c5c312582bd7ec/_meedan_report_content-moderation-project_illustrations_02.jpg"
+    publication_promo: This report is part of the [Content Moderation Toolkit](https://meedan.com/reports/content-moderation-toolkit/)
+    color:
+      sys:
+        id: sw3ntNjhkQRzLXqLpNM2m
 - sys:
     id: 3cCWgjiaPDeRHUen8SeClJ
     created_at: !ruby/object:DateTime 2020-06-23 20:47:57.852000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-19 06:34:06.879000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:28:12.555000000 Z
     content_type_id: project
-    revision: 1
+    revision: 3
   title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
   hero_image:
     sys:
       id: wGTikr6DCPylnThLLQUak
       created_at: !ruby/object:DateTime 2020-06-22 22:31:36.142000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-22 22:50:57.554000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:59:59.552000000 Z
     title: Meedan report 2020-misinfodemic-report
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/wGTikr6DCPylnThLLQUak/61b1677b6954cfebaf9428092ea7b3ed/Meedan_report_2020-misinfodemic-report.png"
@@ -239,6 +110,7 @@ project:
     and analysis seeks to map the anatomy of the COVID-19 misinfodemic. '
   links: "- [Read the report](https://meedan.com/reports/2020-misinfodemic-report-covid-19-in-emerging-economies/)\n"
   slug: 2020-misinfodemic-report-covid-19-in-emerging-economies
+  order: 4
   tags:
   - sys:
       id: 13HcGYCQHm8vDRW3EAkw6j
@@ -250,9 +122,9 @@ project:
   - sys:
       id: 5ugBQ53teVb3jBc1BFNrAh
       created_at: !ruby/object:DateTime 2021-02-17 03:27:44.575000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 03:28:10.457000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:29.002000000 Z
       content_type_id: tag
-      revision: 0
+      revision: 1
     title: Report
   publication:
   - sys:
@@ -308,26 +180,27 @@ project:
 - sys:
     id: 1ocGDebupyPHiU9k1EowNB
     created_at: !ruby/object:DateTime 2021-02-17 06:46:26.775000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 06:51:54.620000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:28:12.561000000 Z
     content_type_id: project
-    revision: 0
+    revision: 2
   title: Health Desk
   hero_image:
     sys:
       id: 5GoRThnxnKiRIU9ezc7CBV
       created_at: !ruby/object:DateTime 2021-02-17 06:46:45.820000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 06:47:24.018000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:55:43.573000000 Z
     title: Health Desk
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/5GoRThnxnKiRIU9ezc7CBV/f3904ed3e05bc734f5877bd04b77ba3a/meedan_project_health-desk.png"
   slug: health-desk
+  order: 1
   program:
   - sys:
       id: 1zpC5ejJrfSTK2vDdHzIUE
       created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-20 00:08:45.480000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
       content_type_id: program
-      revision: 1
+      revision: 2
     title: Digital Health Lab
     hero_image:
       sys:
@@ -350,9 +223,9 @@ project:
   - sys:
       id: 5dSdRALD61bJeILOJwSh4j
       created_at: !ruby/object:DateTime 2021-02-17 06:47:51.049000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 06:47:56.601000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:28.809000000 Z
       content_type_id: tag
-      revision: 0
+      revision: 1
     title: Practice
   - sys:
       id: 13HcGYCQHm8vDRW3EAkw6j
@@ -371,26 +244,27 @@ project:
 - sys:
     id: 6wYzTb5q9VfeVAfgCbyc61
     created_at: !ruby/object:DateTime 2021-02-17 07:02:52.348000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 07:04:30.015000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:28:11.616000000 Z
     content_type_id: project
-    revision: 0
+    revision: 2
   title: Health Fact-checking Trainings
   hero_image:
     sys:
       id: 5Wfz0Q8Zhm2FdacxIsQLuC
       created_at: !ruby/object:DateTime 2021-02-17 07:04:24.272000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-18 08:35:37.522000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:55:42.766000000 Z
     title: Health Fact-checking Trainings
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/5Wfz0Q8Zhm2FdacxIsQLuC/dbd6f458cb27611277c8a6b910182c0e/meedan_project_health-fact-checking-trainings.png"
   slug: health-fact-checking-trainings
+  order: 3
   program:
   - sys:
       id: 1zpC5ejJrfSTK2vDdHzIUE
       created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-20 00:08:45.480000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
       content_type_id: program
-      revision: 1
+      revision: 2
     title: Digital Health Lab
     hero_image:
       sys:
@@ -435,7 +309,7 @@ project:
     sys:
       id: 3UxbV1TSH5mKcTj0CGC8on
       created_at: !ruby/object:DateTime 2021-02-17 07:08:30.200000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 07:08:47.037000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:55:43.578000000 Z
     title: Machine Learning Methods for Understanding Health Information Disparities
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/3UxbV1TSH5mKcTj0CGC8on/6d12c7d4d89c0576db1bd34be8cc729c/meedan_project_machine-learning-methods.png"
@@ -444,9 +318,9 @@ project:
   - sys:
       id: 1zpC5ejJrfSTK2vDdHzIUE
       created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-20 00:08:45.480000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
       content_type_id: program
-      revision: 1
+      revision: 2
     title: Digital Health Lab
     hero_image:
       sys:
@@ -476,9 +350,9 @@ project:
   - sys:
       id: 5KzLhRAHJ8RNben67Hnsh4
       created_at: !ruby/object:DateTime 2021-02-17 07:09:24.191000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 07:09:31.765000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:29.001000000 Z
       content_type_id: tag
-      revision: 0
+      revision: 1
     title: Paper
 - sys:
     id: 7m0bbw1XWqF9gW5wU7rQWI
@@ -491,7 +365,7 @@ project:
     sys:
       id: 2VMfAs4i8KuVfTrsxgaaTH
       created_at: !ruby/object:DateTime 2021-02-17 07:09:53.718000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 07:10:10.912000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:55:43.526000000 Z
     title: Midinformation Response
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/2VMfAs4i8KuVfTrsxgaaTH/b8f63190382640722a89e76aef231c66/meedan_project_midinformation-response.png"
@@ -500,9 +374,9 @@ project:
   - sys:
       id: 1zpC5ejJrfSTK2vDdHzIUE
       created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-20 00:08:45.480000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
       content_type_id: program
-      revision: 1
+      revision: 2
     title: Digital Health Lab
     hero_image:
       sys:
@@ -539,26 +413,27 @@ project:
 - sys:
     id: 1ZsxA2Kjtcjm6YJ35BFveH
     created_at: !ruby/object:DateTime 2021-02-17 07:10:39.380000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-19 22:44:01.197000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:14:09.194000000 Z
     content_type_id: project
-    revision: 0
+    revision: 2
   title: Health Equity Through Health Fact-Checking
   hero_image:
     sys:
       id: 3VoNYVGkTfXv9sVbzOiDDB
       created_at: !ruby/object:DateTime 2021-02-17 07:11:27.299000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 07:11:57.135000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:55:42.972000000 Z
     title: Health Equity through Health-Fact-checking
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/3VoNYVGkTfXv9sVbzOiDDB/bd45389cf2661fa61ef7803dc83c4987/meedan_project_health-primer.png"
   slug: health-equity-through-health-fact-checking
+  order: 6
   program:
   - sys:
       id: 1zpC5ejJrfSTK2vDdHzIUE
       created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-20 00:08:45.480000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
       content_type_id: program
-      revision: 1
+      revision: 2
     title: Digital Health Lab
     hero_image:
       sys:
@@ -595,16 +470,16 @@ project:
   - sys:
       id: 5ugBQ53teVb3jBc1BFNrAh
       created_at: !ruby/object:DateTime 2021-02-17 03:27:44.575000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-17 03:28:10.457000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:29.002000000 Z
       content_type_id: tag
-      revision: 0
+      revision: 1
     title: Report
 - sys:
     id: 3KUJK9c2bExA32VW1h0qr1
     created_at: !ruby/object:DateTime 2021-02-19 04:30:48.634000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-19 04:35:34.909000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:28:11.622000000 Z
     content_type_id: project
-    revision: 0
+    revision: 2
   title: Content Moderation Toolkit
   hero_image:
     sys:
@@ -620,24 +495,25 @@ project:
   - sys:
       id: 1Mx4IKSRFeo238qGymnaf3
       created_at: !ruby/object:DateTime 2021-02-19 04:32:53.776000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-19 04:32:59.320000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:28.797000000 Z
       content_type_id: tag
-      revision: 0
+      revision: 1
     title: Toolkit
   - sys:
       id: 36eMQgzcN0CinKgnj4UQ2O
       created_at: !ruby/object:DateTime 2021-02-19 04:33:04.176000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-19 04:33:11.436000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:28.798000000 Z
       content_type_id: tag
-      revision: 0
+      revision: 1
     title: Civil society
   - sys:
       id: u1TFaTHTOgagGek7olcEJ
       created_at: !ruby/object:DateTime 2021-02-19 04:33:17.372000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-19 04:33:24.195000000 Z
+      updated_at: !ruby/object:DateTime 2021-02-20 00:57:28.818000000 Z
       content_type_id: tag
-      revision: 0
+      revision: 1
     title: Social media
+  project_link: '2'
   publication:
   - sys:
       id: 1EPFTrNepDeTMUR1FbT1LV
