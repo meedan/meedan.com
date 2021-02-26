@@ -1,30 +1,8 @@
 ---
 topic:
 - sys:
-    id: 45nimjOpv2SeOkdHJOLQlx
-    created_at: !ruby/object:DateTime 2020-02-24 21:57:27.025000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-05 18:47:31.792000000 Z
-    content_type_id: topic
-    revision: 1
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: topic
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    locale: en-US
-  title: Data
-  slug: data
-  topic: Data
-- sys:
     id: 2JV51Hja1BxcyGdNP5VID3
-    created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+    created_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
     updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
     content_type_id: topic
     revision: 1
@@ -32,43 +10,43 @@ topic:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
   title: Network
   slug: network
   topic: Network
 - sys:
-    id: 6TvSKHc0JwGsaZxHUrYc5M
-    created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+    id: 45nimjOpv2SeOkdHJOLQlx
+    created_at: !ruby/object:DateTime 2020-03-05 18:47:31.792000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-05 18:47:31.792000000 Z
     content_type_id: topic
     revision: 1
     space:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
-  title: Research
-  slug: research
-  topic: Research
+  title: Data
+  slug: data
+  topic: Data
 - sys:
     id: 3YteOu0dCPeNZKQlFMQNwF
-    created_at: !ruby/object:DateTime 2020-02-24 21:58:14.933000000 Z
+    created_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
     updated_at: !ruby/object:DateTime 2020-03-05 18:47:48.346000000 Z
     content_type_id: topic
     revision: 1
@@ -76,21 +54,43 @@ topic:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
   title: Technology
   slug: technology
   topic: Technology
 - sys:
+    id: 6TvSKHc0JwGsaZxHUrYc5M
+    created_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+    content_type_id: topic
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    content_type:
+      sys:
+        id: topic
+    locale: en-US
+  title: Research
+  slug: research
+  topic: Research
+- sys:
     id: 13HcGYCQHm8vDRW3EAkw6j
-    created_at: !ruby/object:DateTime 2020-03-26 23:10:06.726000000 Z
+    created_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
     updated_at: !ruby/object:DateTime 2020-03-27 13:07:17.557000000 Z
     content_type_id: topic
     revision: 1
@@ -98,21 +98,21 @@ topic:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
   title: COVID-19
   slug: covid-19
   topic: COVID-19
 - sys:
     id: 7ccIqYyl4GXxNC2agZbh8a
-    created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+    created_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
     updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
     content_type_id: topic
     revision: 1
@@ -120,21 +120,21 @@ topic:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
   title: Ideas
   slug: ideas
   topic: Ideas
 - sys:
     id: 4F5o79SqSBBaGKrc0IOhVe
-    created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+    created_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
     updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
     content_type_id: topic
     revision: 1
@@ -142,21 +142,21 @@ topic:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
   title: Training
   slug: training
   topic: Training
 - sys:
     id: 32ogZlDIXFakgZXiZ8l3MT
-    created_at: !ruby/object:DateTime 2020-09-23 18:41:44.956000000 Z
+    created_at: !ruby/object:DateTime 2020-09-23 22:53:41.322000000 Z
     updated_at: !ruby/object:DateTime 2020-09-23 22:53:41.322000000 Z
     content_type_id: topic
     revision: 1
@@ -164,21 +164,21 @@ topic:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
   title: Organization
   slug: organization
   topic: Organization
 - sys:
     id: 7jQKmsQvOs6pjAjLth5gsA
-    created_at: !ruby/object:DateTime 2021-01-12 23:39:58.897000000 Z
+    created_at: !ruby/object:DateTime 2021-01-12 23:40:06.622000000 Z
     updated_at: !ruby/object:DateTime 2021-01-12 23:40:06.622000000 Z
     content_type_id: topic
     revision: 1
@@ -186,37 +186,15 @@ topic:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: topic
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: topic
     locale: en-US
   title: Fact-checking
   slug: fact-checking
   topic: Fact-checking
-- sys:
-    id: 6L2oMEajsxBDbYLWz1l6Bb
-    created_at: !ruby/object:DateTime 2021-02-17 06:04:37.278000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-17 06:04:51.771000000 Z
-    content_type_id: topic
-    revision: 0
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: topic
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    locale: en-US
-  title: Elections
-  slug: elections
-  topic: Elections
