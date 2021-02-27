@@ -1,18 +1,8 @@
 ---
 contributor:
 - sys:
-    id: 1uaMTril4FB8NxxRTKwLDH
-    created_at: !ruby/object:DateTime 2020-02-25 04:43:38.922000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
-    content_type_id: contributor
-    revision: 2
-  name: Megan Marrelli
-  staff: true
-  location: New York
-  role: Program Manager
-- sys:
     id: o2SUkfpjcZYozMKy01Wis
-    created_at: !ruby/object:DateTime 2020-02-25 05:54:37.049000000 Z
+    created_at: !ruby/object:DateTime 2020-03-05 18:47:36.827000000 Z
     updated_at: !ruby/object:DateTime 2020-05-22 20:16:40.972000000 Z
     content_type_id: contributor
     revision: 3
@@ -22,34 +12,44 @@ contributor:
   location: New Delhi
 - sys:
     id: 1LO43iZQgk754PxET3q581
-    created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
+    created_at: !ruby/object:DateTime 2020-03-05 18:47:52.119000000 Z
     updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
     content_type_id: contributor
     revision: 2
   name: Caio Almeida
   staff: true
-  location: Salvador
   role: Director of Engineering
+  location: Salvador
 - sys:
     id: KqWGUp2L3YoBZP00nuZYv
-    created_at: !ruby/object:DateTime 2020-02-25 22:44:45.076000000 Z
+    created_at: !ruby/object:DateTime 2020-03-05 18:48:04.337000000 Z
     updated_at: !ruby/object:DateTime 2020-03-05 18:48:04.337000000 Z
     content_type_id: contributor
     revision: 1
   name: Tom Trewinnard
 - sys:
+    id: 1uaMTril4FB8NxxRTKwLDH
+    created_at: !ruby/object:DateTime 2020-03-05 18:48:44.838000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.268000000 Z
+    content_type_id: contributor
+    revision: 2
+  name: Megan Marrelli
+  staff: true
+  role: Program Manager
+  location: New York
+- sys:
     id: 7xM8QfuAFGFURUXRBNLBtX
-    created_at: !ruby/object:DateTime 2020-03-17 23:59:51.580000000 Z
+    created_at: !ruby/object:DateTime 2020-03-18 00:45:45.106000000 Z
     updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.291000000 Z
     content_type_id: contributor
     revision: 2
   name: Ed Bice
   staff: true
-  location: San Francisco
   role: CEO
+  location: San Francisco
 - sys:
     id: 4xcMBMqtwEeYps68iqYofV
-    created_at: !ruby/object:DateTime 2020-03-19 18:36:57.777000000 Z
+    created_at: !ruby/object:DateTime 2020-03-19 19:05:12.110000000 Z
     updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.299000000 Z
     content_type_id: contributor
     revision: 2
@@ -57,25 +57,104 @@ contributor:
   staff: true
   location: Berlin
 - sys:
-    id: 7JIwO7govlJW5ID7v226Rz
-    created_at: !ruby/object:DateTime 2020-03-19 23:44:00.907000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 23:09:45.614000000 Z
+    id: CKdujPfhbxlNNcC5777MY
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.476000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.476000000 Z
     content_type_id: contributor
     revision: 1
-  name: Ahmed Medien
-- sys:
-    id: 57swkb0x1YLvhHB31YFb3U
-    created_at: !ruby/object:DateTime 2020-03-24 00:41:40.973000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.056000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Isabella Barroso
+  name: Maria Ressa
   staff: true
-  role: Program Manager, Latin America
-  location: Brazil
+  role: Board Member
+- sys:
+    id: 6HkzY2kT1xoYTIZRt2lYVr
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.482000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.482000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Hanan Heikal
+  staff: true
+  role: Board Member
+- sys:
+    id: 4Yw0MHLEu4lhtAQ63hLgBq
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.484000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.484000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Jon Corshen
+  staff: true
+  role: Board Member
+- sys:
+    id: 6ZCRhgB6eOS5yMa11H5BK
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.489000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.489000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Zeynep Tufekci
+  staff: true
+  role: Board Member
+- sys:
+    id: 743LskFWWSzxyLGgleigM0
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.525000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.525000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Pat Motte
+  staff: true
+  role: Bookkeeper
+  location: San Francisco
+- sys:
+    id: 2cRNRL36vo5k6BJIOnCEpE
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.558000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.558000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Daniele Valverde
+  staff: true
+  role: Software Engineering Intern
+  location: Salvador
+- sys:
+    id: 4m6zg2VMFdUhAFcpRR7K4Y
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.732000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.732000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Aaron Huslage
+  staff: true
+  role: Senior Systems Engineer
+  location: Durham
+- sys:
+    id: 7GBgz4me5el4l34ZCpaXS6
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.735000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.735000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Alexandre Amoedo Amorim
+  staff: true
+  role: Software Engineer
+  location: Salvador
+- sys:
+    id: 1LVT3JDdg1NFieUHtwdRaF
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.737000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-22 20:16:20.947000000 Z
+    content_type_id: contributor
+    revision: 2
+  name: Pierre Conti
+  staff: true
+  role: Director of Product
+  location: San Francisco
+- sys:
+    id: 2eNuMXzkTcgh2oBbYrT3Cx
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:34.740000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-22 20:17:38.940000000 Z
+    content_type_id: contributor
+    revision: 2
+  name: Dima Saber
+  staff: true
+  role: Program and Impact Director, Check Global
+  location: Birmingham, UK
 - sys:
     id: 2DcM4qE9xRzIVHYT6noOsA
-    created_at: !ruby/object:DateTime 2020-03-24 00:41:57.837000000 Z
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:35.031000000 Z
     updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.031000000 Z
     content_type_id: contributor
     revision: 1
@@ -84,28 +163,57 @@ contributor:
   role: Director of Research
   location: Oxford / Okinawa
 - sys:
-    id: 1XYHHdxdSwFl6uHAU0lDYs
-    created_at: !ruby/object:DateTime 2020-03-24 00:42:12.305000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:39.189000000 Z
+    id: 57swkb0x1YLvhHB31YFb3U
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:35.056000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.056000000 Z
     content_type_id: contributor
     revision: 1
-  name: Abdul Rehman Khawar
+  name: Isabella Barroso
   staff: true
-  role: Creative Director
-  location: Vancouver
+  role: Program Manager, Latin America
+  location: Brazil
 - sys:
-    id: 5RAhIbkGFCzRWLiEMbezs9
-    created_at: !ruby/object:DateTime 2020-03-24 00:44:15.811000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-13 17:21:47.131000000 Z
+    id: 4JqOrlVgCscDebeRwxYBu8
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
     content_type_id: contributor
     revision: 2
-  name: Wafaa Heikal
-  staff: false
-  role: Former Program Manager, East Africa
-  location: Berlin
+  name: Nat Gyenes
+  staff: true
+  role: Program Director, Digital Health Lab
+  location: On the Road
+- sys:
+    id: 6l5fy3yE4I2Y380PLobxla
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:35.465000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.465000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Daniela Feitosa
+  staff: true
+  role: Software Engineer
+  location: Salvador
+- sys:
+    id: pI98snvVMZVTfrncQLF3G
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:35.560000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.560000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Tim Hwang
+  staff: true
+  role: Board Member
+- sys:
+    id: 4VT8PPJaVZaFtzeJ2wfC1N
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:36.444000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.444000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Mohamed El-Sawy
+  staff: true
+  role: Senior Software Engineer
+  location: Cairo
 - sys:
     id: 1tmlbKKzfWSfejPphmGRcH
-    created_at: !ruby/object:DateTime 2020-03-24 00:44:42.751000000 Z
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:36.980000000 Z
     updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.980000000 Z
     content_type_id: contributor
     revision: 1
@@ -114,8 +222,18 @@ contributor:
   role: COO
   location: On the Road
 - sys:
+    id: 59qMGiMhoyzyJPFN1El2PV
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:36.985000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.985000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Karim Ratib
+  staff: true
+  role: CTO
+  location: Vancouver
+- sys:
     id: 55lvpa6OODrYw65JImLBDO
-    created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:37.131000000 Z
     updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
     content_type_id: contributor
     revision: 3
@@ -128,169 +246,43 @@ contributor:
 
     Kat is currently an industry consultant and researcher at the University of California Irvine, where she studies moderation practices in online spaces. Drawing from methods across user experience research and data science, her work focuses on the development of tools and community management best practices to mitigate toxic online environments. She advises non-profit organizations in mental health and online harassment, and assists in crisis support for targets of online harassment.
 - sys:
-    id: 59qMGiMhoyzyJPFN1El2PV
-    created_at: !ruby/object:DateTime 2020-03-24 00:45:16.697000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.985000000 Z
+    id: 5RAhIbkGFCzRWLiEMbezs9
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:37.821000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-13 17:21:47.131000000 Z
+    content_type_id: contributor
+    revision: 2
+  name: Wafaa Heikal
+  staff: false
+  role: Former Program Manager, East Africa
+  location: Berlin
+- sys:
+    id: 1XYHHdxdSwFl6uHAU0lDYs
+    created_at: !ruby/object:DateTime 2020-03-24 00:56:39.189000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 00:56:39.189000000 Z
     content_type_id: contributor
     revision: 1
-  name: Karim Ratib
+  name: Abdul Rehman Khawar
   staff: true
-  role: CTO
+  role: Creative Director
   location: Vancouver
 - sys:
-    id: 6l5fy3yE4I2Y380PLobxla
-    created_at: !ruby/object:DateTime 2020-03-24 00:45:28.030000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.465000000 Z
+    id: 7JIwO7govlJW5ID7v226Rz
+    created_at: !ruby/object:DateTime 2020-03-24 23:09:45.614000000 Z
+    updated_at: !ruby/object:DateTime 2020-03-24 23:09:45.614000000 Z
     content_type_id: contributor
     revision: 1
-  name: Daniela Feitosa
-  staff: true
-  role: Software Engineer
-  location: Salvador
-- sys:
-    id: 4VT8PPJaVZaFtzeJ2wfC1N
-    created_at: !ruby/object:DateTime 2020-03-24 00:45:42.081000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:36.444000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Mohamed El-Sawy
-  staff: true
-  role: Senior Software Engineer
-  location: Cairo
-- sys:
-    id: 1LVT3JDdg1NFieUHtwdRaF
-    created_at: !ruby/object:DateTime 2020-03-24 00:46:11.797000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-22 20:16:20.947000000 Z
-    content_type_id: contributor
-    revision: 2
-  name: Pierre Conti
-  staff: true
-  role: Director of Product
-  location: San Francisco
-- sys:
-    id: 4JqOrlVgCscDebeRwxYBu8
-    created_at: !ruby/object:DateTime 2020-03-24 00:46:30.424000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-22 20:17:09.989000000 Z
-    content_type_id: contributor
-    revision: 2
-  name: Nat Gyenes
-  staff: true
-  role: Program Director, Digital Health Lab
-  location: On the Road
-- sys:
-    id: 7GBgz4me5el4l34ZCpaXS6
-    created_at: !ruby/object:DateTime 2020-03-24 00:46:50.483000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.735000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Alexandre Amoedo Amorim
-  staff: true
-  role: Software Engineer
-  location: Salvador
-- sys:
-    id: 2eNuMXzkTcgh2oBbYrT3Cx
-    created_at: !ruby/object:DateTime 2020-03-24 00:47:04.010000000 Z
-    updated_at: !ruby/object:DateTime 2020-05-22 20:17:38.941000000 Z
-    content_type_id: contributor
-    revision: 2
-  name: Dima Saber
-  staff: true
-  role: Program and Impact Director, Check Global
-  location: Birmingham, UK
-- sys:
-    id: 4m6zg2VMFdUhAFcpRR7K4Y
-    created_at: !ruby/object:DateTime 2020-03-24 00:47:49.363000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.732000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Aaron Huslage
-  staff: true
-  role: Senior Systems Engineer
-  location: Durham
-- sys:
-    id: 2cRNRL36vo5k6BJIOnCEpE
-    created_at: !ruby/object:DateTime 2020-03-24 00:48:00.745000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.558000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Daniele Valverde
-  staff: true
-  role: Software Engineering Intern
-  location: Salvador
-- sys:
-    id: 743LskFWWSzxyLGgleigM0
-    created_at: !ruby/object:DateTime 2020-03-24 00:48:17.569000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.525000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Pat Motte
-  staff: true
-  role: Bookkeeper
-  location: San Francisco
-- sys:
-    id: 6ZCRhgB6eOS5yMa11H5BK
-    created_at: !ruby/object:DateTime 2020-03-24 00:48:29.462000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.489000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Zeynep Tufekci
-  staff: true
-  role: Board Member
-- sys:
-    id: CKdujPfhbxlNNcC5777MY
-    created_at: !ruby/object:DateTime 2020-03-24 00:48:41.791000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.476000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Maria Ressa
-  staff: true
-  role: Board Member
-- sys:
-    id: 4Yw0MHLEu4lhtAQ63hLgBq
-    created_at: !ruby/object:DateTime 2020-03-24 00:48:53.693000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.484000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Jon Corshen
-  staff: true
-  role: Board Member
-- sys:
-    id: pI98snvVMZVTfrncQLF3G
-    created_at: !ruby/object:DateTime 2020-03-24 00:49:06.808000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.560000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Tim Hwang
-  staff: true
-  role: Board Member
-- sys:
-    id: 6HkzY2kT1xoYTIZRt2lYVr
-    created_at: !ruby/object:DateTime 2020-03-24 00:49:16.501000000 Z
-    updated_at: !ruby/object:DateTime 2020-03-24 00:56:34.482000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Hanan Heikal
-  staff: true
-  role: Board Member
+  name: Ahmed Medien
 - sys:
     id: 3LwmNUnWdLGIZbvPisgSL5
-    created_at: !ruby/object:DateTime 2020-05-12 17:16:35.911000000 Z
+    created_at: !ruby/object:DateTime 2020-05-12 17:17:24.247000000 Z
     updated_at: !ruby/object:DateTime 2020-05-12 17:17:35.131000000 Z
     content_type_id: contributor
     revision: 2
   name: An Xiao Mina
   staff: false
 - sys:
-    id: 9F1HC5T8a0McVXMz0YNM0
-    created_at: !ruby/object:DateTime 2020-06-05 16:24:22.963000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 20:21:55.633000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Learning Lab
-  staff: false
-- sys:
     id: 1FyUNasGkYsSW1TC4x8vcJ
-    created_at: !ruby/object:DateTime 2020-06-15 17:53:31.436000000 Z
+    created_at: !ruby/object:DateTime 2020-06-15 17:55:21.931000000 Z
     updated_at: !ruby/object:DateTime 2020-06-15 17:55:21.931000000 Z
     content_type_id: contributor
     revision: 1
@@ -298,7 +290,7 @@ contributor:
   staff: true
 - sys:
     id: pBXwSnwaN2YJp4KJc9uRg
-    created_at: !ruby/object:DateTime 2020-06-16 00:03:57.410000000 Z
+    created_at: !ruby/object:DateTime 2020-06-24 01:05:23.069000000 Z
     updated_at: !ruby/object:DateTime 2020-08-10 20:16:34.986000000 Z
     content_type_id: contributor
     revision: 3
@@ -309,7 +301,7 @@ contributor:
     Senior Information Control Fellow for the Open Technology Fund (OTF).
 - sys:
     id: 3dw2wNKNhNmWlCRxSpvQ0y
-    created_at: !ruby/object:DateTime 2020-06-16 00:04:03.128000000 Z
+    created_at: !ruby/object:DateTime 2020-06-24 01:05:26.777000000 Z
     updated_at: !ruby/object:DateTime 2020-06-24 01:05:26.777000000 Z
     content_type_id: contributor
     revision: 1
@@ -323,7 +315,7 @@ contributor:
     Diploma in public policy.
 - sys:
     id: 7A5mBS9Hmf7Dc9GNo6NOO9
-    created_at: !ruby/object:DateTime 2020-06-18 00:03:21.562000000 Z
+    created_at: !ruby/object:DateTime 2020-06-24 01:08:52.862000000 Z
     updated_at: !ruby/object:DateTime 2020-06-24 01:08:52.862000000 Z
     content_type_id: contributor
     revision: 1
@@ -338,40 +330,23 @@ contributor:
     outcomes."
 - sys:
     id: 4rDdPefIUGPezxEVMbHNyB
-    created_at: !ruby/object:DateTime 2020-06-26 00:36:39.598000000 Z
+    created_at: !ruby/object:DateTime 2020-06-26 00:36:53.909000000 Z
     updated_at: !ruby/object:DateTime 2020-06-26 00:36:53.909000000 Z
     content_type_id: contributor
     revision: 1
   name: Jenna Sherman
   role: Students Against COVID-19
 - sys:
-    id: 2eP3SnlKPgADI7bCE5bbjr
-    created_at: !ruby/object:DateTime 2020-07-22 20:14:47.896000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-28 23:11:20.719000000 Z
+    id: 9F1HC5T8a0McVXMz0YNM0
+    created_at: !ruby/object:DateTime 2020-06-29 20:21:55.633000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-29 20:21:55.633000000 Z
     content_type_id: contributor
     revision: 1
-  name: King-wa Fu
-  bio: Dr. King-wa FU is an Associate Professor at the JMSC. His research interests
-    cover political participation and media use, computational media studies, health
-    and the media, and younger generation’s Internet use. He is a visiting Associate
-    Professor at the MIT Media Lab and was a Fulbright-RGC Hong Kong Senior Research
-    Scholar in 2016-2017. He has a PhD from the JMSC, a master’s degree in Social
-    Sciences and a MPhil in Engineering. He was a journalist at the Hong Kong Economic
-    Journal before turning to academia.
-- sys:
-    id: 4kgyss6jtjX7WbUbXMCVE3
-    created_at: !ruby/object:DateTime 2020-07-22 23:22:14.908000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-27 13:38:38.097000000 Z
-    content_type_id: contributor
-    revision: 1
-  name: Shachi Sutaria
-  bio: Shachi Sutaria is a fact-checker at BOOM. She has previously worked as a health
-    research analyst at AMS Consulting, Lucknow for various national and international
-    clients. She is a post- graduate in Public Health- Health administration from
-    Tata Institute of Social Sciences, Mumbai.
+  name: Learning Lab
+  staff: false
 - sys:
     id: 7CBpK5YT4WAGbnE7Eq3BAL
-    created_at: !ruby/object:DateTime 2020-07-23 19:31:28.190000000 Z
+    created_at: !ruby/object:DateTime 2020-07-23 20:08:16.839000000 Z
     updated_at: !ruby/object:DateTime 2020-07-23 20:08:16.839000000 Z
     content_type_id: contributor
     revision: 1
@@ -385,14 +360,39 @@ contributor:
     Michigan''s department of Computer Science and Engineering.'
 - sys:
     id: 4BsflHAQBlW6KrNVf6NWEW
-    created_at: !ruby/object:DateTime 2020-07-23 22:31:31.441000000 Z
+    created_at: !ruby/object:DateTime 2020-07-23 22:31:37.647000000 Z
     updated_at: !ruby/object:DateTime 2020-07-23 22:31:37.647000000 Z
     content_type_id: contributor
     revision: 1
   name: Mohit Nair
 - sys:
+    id: 4kgyss6jtjX7WbUbXMCVE3
+    created_at: !ruby/object:DateTime 2020-07-27 13:38:38.097000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-27 13:38:38.097000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Shachi Sutaria
+  bio: Shachi Sutaria is a fact-checker at BOOM. She has previously worked as a health
+    research analyst at AMS Consulting, Lucknow for various national and international
+    clients. She is a post- graduate in Public Health- Health administration from
+    Tata Institute of Social Sciences, Mumbai.
+- sys:
+    id: 2eP3SnlKPgADI7bCE5bbjr
+    created_at: !ruby/object:DateTime 2020-07-28 23:11:20.719000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-28 23:11:20.719000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: King-wa Fu
+  bio: Dr. King-wa FU is an Associate Professor at the JMSC. His research interests
+    cover political participation and media use, computational media studies, health
+    and the media, and younger generation’s Internet use. He is a visiting Associate
+    Professor at the MIT Media Lab and was a Fulbright-RGC Hong Kong Senior Research
+    Scholar in 2016-2017. He has a PhD from the JMSC, a master’s degree in Social
+    Sciences and a MPhil in Engineering. He was a journalist at the Hong Kong Economic
+    Journal before turning to academia.
+- sys:
     id: 4EUKpNMRSgKZSSTJCyJxSW
-    created_at: !ruby/object:DateTime 2020-07-30 21:27:30.965000000 Z
+    created_at: !ruby/object:DateTime 2020-07-30 21:27:40.987000000 Z
     updated_at: !ruby/object:DateTime 2020-07-30 21:27:46.872000000 Z
     content_type_id: contributor
     revision: 2
@@ -400,7 +400,7 @@ contributor:
   staff: false
 - sys:
     id: 4MK93CSrpmc3tFyE5MYEeh
-    created_at: !ruby/object:DateTime 2020-08-06 17:41:56.490000000 Z
+    created_at: !ruby/object:DateTime 2020-08-06 17:42:09.070000000 Z
     updated_at: !ruby/object:DateTime 2020-08-06 17:42:09.070000000 Z
     content_type_id: contributor
     revision: 1
@@ -408,7 +408,7 @@ contributor:
   staff: false
 - sys:
     id: 1jp9N5eXr3trjtTIHAMq1k
-    created_at: !ruby/object:DateTime 2020-08-12 19:45:33.837000000 Z
+    created_at: !ruby/object:DateTime 2020-08-12 19:45:52.288000000 Z
     updated_at: !ruby/object:DateTime 2020-08-13 20:24:11.871000000 Z
     content_type_id: contributor
     revision: 2
@@ -416,22 +416,8 @@ contributor:
   bio: VERA Files is a media nonprofit that probes Philippine issues and fact-checks
     false and misleading claims.
 - sys:
-    id: 1SMJNVBnDuJPDRItwVdLrg
-    created_at: !ruby/object:DateTime 2020-08-13 14:39:02.776000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-20 21:46:05.155000000 Z
-    content_type_id: contributor
-    revision: 4
-  name: Taeksoo Cho
-  bio: Mr. Cho is the news reporter at JTBC, which is one of the main broadcasting
-    companies in Korea. His coverage focuses on investigative reporting as well as
-    national disaster. After one year of the research in the University of Reno-Nevada,
-    he is currently working on the area of the digital strategy and coverage of the
-    media. Mr. Cho received his M.A. in Journalism and Mass Communication from the
-    University of Wisconsin, Madison. His undergraduate major is Education Sociology
-    from Korea University, Seoul, Korea.
-- sys:
     id: 3KjvkdV11QQA5ZylXuOkWu
-    created_at: !ruby/object:DateTime 2020-08-20 15:20:25.891000000 Z
+    created_at: !ruby/object:DateTime 2020-08-20 15:21:07.123000000 Z
     updated_at: !ruby/object:DateTime 2020-08-20 21:46:24.018000000 Z
     content_type_id: contributor
     revision: 3
@@ -445,8 +431,22 @@ contributor:
     network analysis to big social media data analysis. He enjoys thinking about tools
     and theories developed by media and communication scholars.
 - sys:
+    id: 1SMJNVBnDuJPDRItwVdLrg
+    created_at: !ruby/object:DateTime 2020-08-20 15:21:12.729000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-20 21:46:05.155000000 Z
+    content_type_id: contributor
+    revision: 4
+  name: Taeksoo Cho
+  bio: Mr. Cho is the news reporter at JTBC, which is one of the main broadcasting
+    companies in Korea. His coverage focuses on investigative reporting as well as
+    national disaster. After one year of the research in the University of Reno-Nevada,
+    he is currently working on the area of the digital strategy and coverage of the
+    media. Mr. Cho received his M.A. in Journalism and Mass Communication from the
+    University of Wisconsin, Madison. His undergraduate major is Education Sociology
+    from Korea University, Seoul, Korea.
+- sys:
     id: 26BnKkV6uNqzYWtFueaerv
-    created_at: !ruby/object:DateTime 2020-08-20 23:13:04.954000000 Z
+    created_at: !ruby/object:DateTime 2020-09-15 22:27:46.281000000 Z
     updated_at: !ruby/object:DateTime 2020-09-15 22:27:54.097000000 Z
     content_type_id: contributor
     revision: 2
@@ -456,7 +456,7 @@ contributor:
   location: Beirut
 - sys:
     id: 4h6BuKbk1d9fXmcm4ybfAz
-    created_at: !ruby/object:DateTime 2020-09-21 22:39:38.933000000 Z
+    created_at: !ruby/object:DateTime 2020-09-23 14:02:31.239000000 Z
     updated_at: !ruby/object:DateTime 2020-09-23 14:02:31.239000000 Z
     content_type_id: contributor
     revision: 1
@@ -465,7 +465,7 @@ contributor:
     rights, feminism, health, education and the environment.
 - sys:
     id: 5i0ZluvBzz6h4ashdZJIkH
-    created_at: !ruby/object:DateTime 2020-09-25 18:28:40.641000000 Z
+    created_at: !ruby/object:DateTime 2020-09-25 18:30:22.740000000 Z
     updated_at: !ruby/object:DateTime 2020-09-25 18:30:22.740000000 Z
     content_type_id: contributor
     revision: 1
@@ -475,8 +475,8 @@ contributor:
   location: Kerala
 - sys:
     id: 25xGrGNMOnalaiZEH8CS2n
-    created_at: !ruby/object:DateTime 2020-09-25 18:29:45.196000000 Z
-    updated_at: !ruby/object:DateTime 2020-09-25 18:30:27.131000000 Z
+    created_at: !ruby/object:DateTime 2020-09-25 18:30:27.130000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-25 18:30:27.130000000 Z
     content_type_id: contributor
     revision: 1
   name: Gisela Zuniga
@@ -485,7 +485,7 @@ contributor:
   location: On the Road
 - sys:
     id: 1dNkwe60tZossSyZ5PbDbB
-    created_at: !ruby/object:DateTime 2020-12-18 15:50:27.720000000 Z
+    created_at: !ruby/object:DateTime 2020-12-18 15:51:03.551000000 Z
     updated_at: !ruby/object:DateTime 2020-12-18 15:51:03.551000000 Z
     content_type_id: contributor
     revision: 1
@@ -495,21 +495,21 @@ contributor:
   location: Nairobi, Kenya
 - sys:
     id: 4MJa80vnKu35yjoHOcdVsd
-    created_at: !ruby/object:DateTime 2021-01-12 06:07:03.776000000 Z
+    created_at: !ruby/object:DateTime 2021-01-12 06:08:15.158000000 Z
     updated_at: !ruby/object:DateTime 2021-01-12 06:08:15.158000000 Z
     content_type_id: contributor
     revision: 1
   name: Sneha Alexander
 - sys:
     id: 34GfX508qO9Enb7OvLi7DA
-    created_at: !ruby/object:DateTime 2021-01-13 05:07:26.677000000 Z
+    created_at: !ruby/object:DateTime 2021-01-13 05:07:39.895000000 Z
     updated_at: !ruby/object:DateTime 2021-01-13 05:07:39.895000000 Z
     content_type_id: contributor
     revision: 1
   name: Shalini Joshi
 - sys:
     id: 18FtmHTul8o99S7bphXZGX
-    created_at: !ruby/object:DateTime 2021-01-20 01:23:10.538000000 Z
+    created_at: !ruby/object:DateTime 2021-01-20 01:23:34.565000000 Z
     updated_at: !ruby/object:DateTime 2021-01-20 01:23:34.565000000 Z
     content_type_id: contributor
     revision: 1
@@ -519,7 +519,7 @@ contributor:
   location: Nairobi
 - sys:
     id: 6Dl95BGU4mnP7XrSmhHPTN
-    created_at: !ruby/object:DateTime 2021-01-21 05:03:15.243000000 Z
+    created_at: !ruby/object:DateTime 2021-01-21 05:03:37.016000000 Z
     updated_at: !ruby/object:DateTime 2021-01-21 05:03:37.016000000 Z
     content_type_id: contributor
     revision: 1

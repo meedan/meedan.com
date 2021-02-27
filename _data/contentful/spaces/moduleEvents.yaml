@@ -2,7 +2,7 @@
 moduleEvents:
 - sys:
     id: 8cg57tenBbCxgUBQxJYss
-    created_at: !ruby/object:DateTime 2020-04-30 23:32:53.779000000 Z
+    created_at: !ruby/object:DateTime 2020-05-05 01:19:52.216000000 Z
     updated_at: !ruby/object:DateTime 2021-01-28 06:39:43.131000000 Z
     content_type_id: moduleEvents
     revision: 52
@@ -10,7 +10,7 @@ moduleEvents:
   events:
   - sys:
       id: 6TAxOEDonpJOFHA2WTlQFk
-      created_at: !ruby/object:DateTime 2021-01-28 03:02:03.096000000 Z
+      created_at: !ruby/object:DateTime 2021-01-28 04:23:27.040000000 Z
       updated_at: !ruby/object:DateTime 2021-01-28 04:48:39.523000000 Z
       content_type_id: event
       revision: 2
@@ -18,14 +18,14 @@ moduleEvents:
         sys:
           id: g118h5yoccvd
       type: Entry
-      content_type:
-        sys:
-          id: event
       environment:
         sys:
           id: master
           type: Link
           linkType: Environment
+      content_type:
+        sys:
+          id: event
       locale: en-US
     title: 'Algorithmic Inequity and Big Tech: Check Global Twitter Chat with "Coded
       Bias"'
@@ -42,14 +42,14 @@ moduleEvents:
     images:
     - sys:
         id: wicy40JnxsZPUz9cqxnDg
-        created_at: !ruby/object:DateTime 2021-01-28 03:06:31.795000000 Z
+        created_at: !ruby/object:DateTime 2021-01-28 03:07:08.832000000 Z
         updated_at: !ruby/object:DateTime 2021-01-28 04:22:06.461000000 Z
       title: Coded Bias poster
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png"
     - sys:
         id: 7fRKxSoaMtlZHxocdgMwxl
-        created_at: !ruby/object:DateTime 2021-01-28 04:22:10.057000000 Z
+        created_at: !ruby/object:DateTime 2021-01-28 04:22:28.137000000 Z
         updated_at: !ruby/object:DateTime 2021-01-28 04:45:10.034000000 Z
       title: Isa and Azza
       description: 

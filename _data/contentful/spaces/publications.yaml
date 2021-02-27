@@ -2,7 +2,7 @@
 publication:
 - sys:
     id: 2lQKVWqTIPTns0oj5UA78S
-    created_at: !ruby/object:DateTime 2020-06-15 19:58:33.906000000 Z
+    created_at: !ruby/object:DateTime 2020-06-24 01:11:36.208000000 Z
     updated_at: !ruby/object:DateTime 2020-07-28 23:12:32.900000000 Z
     content_type_id: publication
     revision: 6
@@ -10,14 +10,14 @@ publication:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: publication
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: publication
     locale: en-US
   title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
   short_title: 2020 Misinfodemic Report
@@ -29,7 +29,7 @@ publication:
   sections:
   - sys:
       id: 6K6TuAvZBDXdJATv8SynCi
-      created_at: !ruby/object:DateTime 2020-06-15 20:42:10.413000000 Z
+      created_at: !ruby/object:DateTime 2020-06-24 01:11:04.378000000 Z
       updated_at: !ruby/object:DateTime 2020-06-24 01:11:04.378000000 Z
       content_type_id: section
       revision: 1
@@ -41,7 +41,7 @@ publication:
         id: 5zfSBJOSEBW5bT7Zt7Sh6m
   - sys:
       id: 1jkEcTAbvK0Y7O1NmysvKT
-      created_at: !ruby/object:DateTime 2020-06-15 20:05:11.826000000 Z
+      created_at: !ruby/object:DateTime 2020-06-24 01:11:18.395000000 Z
       updated_at: !ruby/object:DateTime 2020-06-24 01:11:18.395000000 Z
       content_type_id: section
       revision: 1
@@ -54,7 +54,7 @@ publication:
         id: 1pgnNHzGfRTq0Mzq5PkaYA
   - sys:
       id: 3ixzizcKVwnSXEFRRyVuxL
-      created_at: !ruby/object:DateTime 2020-07-22 22:46:50.121000000 Z
+      created_at: !ruby/object:DateTime 2020-07-28 23:12:30.735000000 Z
       updated_at: !ruby/object:DateTime 2020-09-22 23:00:04.351000000 Z
       content_type_id: section
       revision: 2
@@ -67,7 +67,7 @@ publication:
   cover_image:
     sys:
       id: Tu2ovEuxh8gztQD9kuF0G
-      created_at: !ruby/object:DateTime 2020-06-23 05:08:56.807000000 Z
+      created_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
       updated_at: !ruby/object:DateTime 2020-06-24 01:05:33.955000000 Z
     title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
     description: 
@@ -75,7 +75,7 @@ publication:
   publication_promo_graphic:
     sys:
       id: 5wkwfNNTjvV1Cgf2FAQFD4
-      created_at: !ruby/object:DateTime 2020-04-16 20:11:43.061000000 Z
+      created_at: !ruby/object:DateTime 2020-04-16 20:12:01.178000000 Z
       updated_at: !ruby/object:DateTime 2020-06-24 01:05:37.263000000 Z
     title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
     description: 
@@ -83,7 +83,7 @@ publication:
   social_card_image:
     sys:
       id: 5L7KfUhYU7lqikodPkJoQQ
-      created_at: !ruby/object:DateTime 2020-06-22 23:00:20.044000000 Z
+      created_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
       updated_at: !ruby/object:DateTime 2020-06-24 01:05:39.651000000 Z
     title: '2020 Misinfodemic Report: COVID-19 in Emerging Economies'
     description: 
@@ -93,7 +93,7 @@ publication:
   color:
     sys:
       id: 43kw5bcVj1xtfe7ua88F6V
-      created_at: !ruby/object:DateTime 2020-06-15 23:52:33.585000000 Z
+      created_at: !ruby/object:DateTime 2020-06-24 01:05:50.629000000 Z
       updated_at: !ruby/object:DateTime 2021-02-20 00:58:30.131000000 Z
       content_type_id: color
       revision: 2
@@ -102,7 +102,7 @@ publication:
     thumbnail:
       sys:
         id: 6audU50SjICTVxbrdWcY8s
-        created_at: !ruby/object:DateTime 2020-06-15 23:53:10.219000000 Z
+        created_at: !ruby/object:DateTime 2020-06-24 01:05:47.220000000 Z
         updated_at: !ruby/object:DateTime 2020-06-24 01:05:47.220000000 Z
       title: ffb2b2
       description: 
@@ -112,7 +112,7 @@ publication:
   image: https://images.ctfassets.net/g118h5yoccvd/5L7KfUhYU7lqikodPkJoQQ/7e82797cad59e546a8fc7e5f4cb23a87/meedan_report_2020-misinfodemic-report_01.png
 - sys:
     id: 1EPFTrNepDeTMUR1FbT1LV
-    created_at: !ruby/object:DateTime 2020-11-09 15:59:09.591000000 Z
+    created_at: !ruby/object:DateTime 2020-11-18 20:06:32.246000000 Z
     updated_at: !ruby/object:DateTime 2020-11-18 21:22:45.237000000 Z
     content_type_id: publication
     revision: 2
@@ -120,14 +120,14 @@ publication:
       sys:
         id: g118h5yoccvd
     type: Entry
-    content_type:
-      sys:
-        id: publication
     environment:
       sys:
         id: master
         type: Link
         linkType: Environment
+    content_type:
+      sys:
+        id: publication
     locale: en-US
   title: Content Moderation Toolkit
   short_title: Content Moderation Toolkit
@@ -142,7 +142,7 @@ publication:
   sections:
   - sys:
       id: 2ldDGlFH61yvNc2x9DF2ex
-      created_at: !ruby/object:DateTime 2020-11-09 20:23:23.301000000 Z
+      created_at: !ruby/object:DateTime 2020-11-18 20:06:25.403000000 Z
       updated_at: !ruby/object:DateTime 2020-11-18 20:06:25.403000000 Z
       content_type_id: section
       revision: 1
@@ -153,7 +153,7 @@ publication:
   author:
   - sys:
       id: 55lvpa6OODrYw65JImLBDO
-      created_at: !ruby/object:DateTime 2020-03-24 00:44:57.806000000 Z
+      created_at: !ruby/object:DateTime 2020-03-24 00:56:37.131000000 Z
       updated_at: !ruby/object:DateTime 2020-11-18 20:04:55.247000000 Z
       content_type_id: contributor
       revision: 3
@@ -169,7 +169,7 @@ publication:
   cover_image:
     sys:
       id: 6VYAFLYRLJnOVMBZSy1KD2
-      created_at: !ruby/object:DateTime 2020-11-09 16:18:18.284000000 Z
+      created_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
       updated_at: !ruby/object:DateTime 2020-11-18 20:04:49.395000000 Z
     title: Content Moderation Toolkit
     description: 
@@ -177,7 +177,7 @@ publication:
   publication_promo_graphic:
     sys:
       id: 1DzzJ94lvtgdJnCaYLRegg
-      created_at: !ruby/object:DateTime 2020-11-09 16:22:38.136000000 Z
+      created_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
       updated_at: !ruby/object:DateTime 2020-11-18 20:04:45.742000000 Z
     title: Content Moderation Toolkit
     description: 
@@ -185,7 +185,7 @@ publication:
   social_card_image:
     sys:
       id: 2biBznblY8VQEDW3NaheSe
-      created_at: !ruby/object:DateTime 2020-11-17 19:26:39.227000000 Z
+      created_at: !ruby/object:DateTime 2020-11-18 20:04:41.047000000 Z
       updated_at: !ruby/object:DateTime 2020-11-18 20:41:55.431000000 Z
     title: Content Moderation Toolkit
     description: 
@@ -194,7 +194,7 @@ publication:
   color:
     sys:
       id: sw3ntNjhkQRzLXqLpNM2m
-      created_at: !ruby/object:DateTime 2020-11-09 16:06:32.559000000 Z
+      created_at: !ruby/object:DateTime 2020-11-18 20:04:35.341000000 Z
       updated_at: !ruby/object:DateTime 2021-02-20 00:58:30.569000000 Z
       content_type_id: color
       revision: 2
@@ -203,7 +203,7 @@ publication:
     thumbnail:
       sys:
         id: ewZMwgt0xilyUB6umRuQs
-        created_at: !ruby/object:DateTime 2020-11-09 16:07:07.170000000 Z
+        created_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
         updated_at: !ruby/object:DateTime 2020-11-18 20:04:32.936000000 Z
       title: Magenta
       description: "#ff4d7e"

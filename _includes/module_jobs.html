@@ -1,14 +1,6 @@
 {% assign jobs = site.data.contentful.spaces.jobs.job %}
 
-{% for job in jobs | date_sort %}
-    {% if job.sys.id == '5xuZ0h0k4mUsR30JwyilCY' %}
-        {% assign blank_job_posting = 'yes' %}
-    {% else %}
-        {% assign blank_job_posting = 'no' %}
-    {% endif %}
-{% endfor %}
-
-{% if jobs.size >= 2 and blank_job_posting == 'yes'  %}
+{% if jobs.size >= 2  %}
     <h3>Open positions</h3>
     <div class="plain-list">
         <ul>
@@ -23,6 +15,6 @@
             {% endfor %}
         </ul>
     </div>
-{% elsif jobs.size == 1 and blank_job_posting == 'yes' %}
+{% elsif jobs.size == 1 %}
     <p>There are currently no opportunities open at Meedan.</p>
 {% endif %}
