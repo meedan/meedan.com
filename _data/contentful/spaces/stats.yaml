@@ -758,11 +758,12 @@ stat:
 - sys:
     id: 5Xpo4TjhBNbUeHsrroLqJb
     created_at: !ruby/object:DateTime 2021-05-04 15:08:32.152000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:08:42.200000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-27 20:56:53.834000000 Z
     content_type_id: stat
     revision: 0
   label: NPS
   number: '71'
+  note: "(NPS of https://learnaboutcovid19.org/ - now health-desk.org)"
 - sys:
     id: 1tIZRfDsw3P0sx9Tg8sOo1
     created_at: !ruby/object:DateTime 2021-05-04 15:08:50.904000000 Z
@@ -790,12 +791,15 @@ stat:
 - sys:
     id: 7iIA2q0tCFrlMzkD0So7ch
     created_at: !ruby/object:DateTime 2021-05-04 15:18:00.246000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:24:32.040000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-24 00:07:20.386000000 Z
     content_type_id: stat
     revision: 0
-  label: Conversations
+  label: Conversations*
   number: '221,932'
-  note: "(Regardless of how fruitful they were)"
+  note: "*A conversation is defined as a unique interaction between an end user and
+    a tipline bot.  A conversation leads to one of three possible outcomes: A bot
+    resource is consumed by the user after exploring the bot menus, the user submitted
+    a fact-check query or the user remains inactive."
 - sys:
     id: XyTaUj6OEA6FuTRwg4iXi
     created_at: !ruby/object:DateTime 2021-05-04 15:18:29.073000000 Z
@@ -861,11 +865,11 @@ stat:
 - sys:
     id: 7k3VPPbw2K7r3ifaSZZzt0
     created_at: !ruby/object:DateTime 2021-05-04 15:27:42.777000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:27:51.411000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-13 22:20:28.098000000 Z
     content_type_id: stat
     revision: 0
-  label: Students
-  number: '200'
+  label: People Trained
+  number: '2824'
 - sys:
     id: 1vXulXb2vwkve8bAMBemAU
     created_at: !ruby/object:DateTime 2021-05-04 15:27:54.156000000 Z
@@ -960,11 +964,11 @@ stat:
 - sys:
     id: 5EF0sQb4B3N1DZBXesJhDR
     created_at: !ruby/object:DateTime 2021-05-04 17:09:43.904000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-11 12:53:44.147000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-27 19:36:03.168000000 Z
     content_type_id: stat
     revision: 0
   label: 'Other revenue  '
-  number: "$10,853"
+  number: "$10,927"
 - sys:
     id: 2WYZAknVKXxlVt1BYhlxyl
     created_at: !ruby/object:DateTime 2021-05-04 17:10:02.108000000 Z
@@ -1125,3 +1129,11 @@ stat:
     revision: 0
   label: Portuguese / Korean / Mandarin / German
   number: 1 mention each
+- sys:
+    id: avuzM9XI1DNZgAKGTPOQh
+    created_at: !ruby/object:DateTime 2021-05-27 19:29:58.578000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-27 20:30:09.515000000 Z
+    content_type_id: stat
+    revision: 0
+  label: Other
+  number: "($74)"

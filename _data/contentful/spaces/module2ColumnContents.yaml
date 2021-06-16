@@ -2150,14 +2150,14 @@ module2ColumnContent:
   - sys:
       id: 4sZIYiFQeeo6W6phGrKvpV
       created_at: !ruby/object:DateTime 2021-05-04 14:16:07.376000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 14:17:45.239000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:12:15.811000000 Z
       content_type_id: moduleTex
       revision: 0
     content: |-
       - [Check Global](https://meedan.com/check-global "Check Global")
       - [Digital Health Lab](https://meedan.com/digital-health-lab "Digital Health Lab")
       - [Content Moderation Project](https://meedan.com/reports/content-moderation-toolkit/ "Content Moderation Project")
-      - CheckU
+      - Training
 - sys:
     id: 2n5XS3s7XYyqdeHECgZq2O
     created_at: !ruby/object:DateTime 2021-05-04 14:19:57.485000000 Z
@@ -2187,13 +2187,11 @@ module2ColumnContent:
   - sys:
       id: 2OHYdaQ1pBHPQbKLayxm7m
       created_at: !ruby/object:DateTime 2021-05-04 14:24:57.170000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 15:30:52.307000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-14 18:38:52.535000000 Z
       content_type_id: moduleStats
       revision: 0
     title: Check Global Stats
     stats:
-    - sys:
-        id: EfKduOVM0IM2tUiNXIbvs
     - sys:
         id: 1tUibyOHmtPRzAlaxVaa8n
     - sys:
@@ -2206,7 +2204,7 @@ module2ColumnContent:
 - sys:
     id: 2zBPM7BjjoLGlgP2YgNOLn
     created_at: !ruby/object:DateTime 2021-05-04 15:06:22.548000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-16 23:19:13.130000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-24 00:23:25.303000000 Z
     content_type_id: module2ColumnContent
     revision: 0
   title: Digital Health Lab
@@ -2239,49 +2237,61 @@ module2ColumnContent:
   - sys:
       id: 3rzckNqOFGnfZGGWwTQvr8
       created_at: !ruby/object:DateTime 2021-05-16 23:15:25.667000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-16 23:19:02.622000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-24 00:24:34.737000000 Z
       content_type_id: moduleTex
       revision: 0
     content: |-
       ## Can someone be infected with COVID-19 more than once?
 
-      We are still learning a lot about what kind of immunity a person has after being infected with COVID-19, and how long that immunity lasts. A a small number of people have reportedly become reinfected with virus following an initial infection and research is ongoing. According to the US Centers fo Disease Control and Prevention (CDC), "reinfection means a person was infected (got sick) once, recovered, and then later became infected again. Based on what we know from similar viruses, some reinfections are expected. We are still learning more about COVID-19."
-
-      In a press conference on December 4th, 2020, the World Health Organization acknowledged emerging evidence that suggests that COVID-19 immunity is unlikely to be lifelong, which suggests reinfection may be possible.
-
-      The most reliable way to measure immunity to COVID-19 is unclear, and, whether from infection or vaccination, scientists still do not know how long immunity to COVID-19 may last.
-
-      Though reinfection has been documented, there are many ongoing questions about whether or not reinfection poses an ongoing risk, how common it is, and what kind of immunity to the virus people might obtain once they have been infected. Currently researchers believe that most people will be protected from reinfection for up to six months following infection, but research is ongoing.
-
-      There are multiple pre-print studies with large participant groups that suggest immunity does last for up to six months but decreases over time. Antibodies decrease more quickly in young adults who have had an asymptomatic infection.
-
-      Pre-print studies have also suggested that reinfection is possible. It is important to note that there is a shortage of peer-reviewed papers (so other scientific experts are not yet able to rigorously study the data or full results). It is also important to note that antibody levels may not be a strong indicator of immunity against the virus and likelihood of reinfection.
-
-      To prevent infection, reinfection, and spread of COVID-19, experts recommend frequent hand washing, social distancing (6 feet/2 meters apart), avoidance of crowded areas (especially indoors), wearing a face mask (though the U.S. CDC now suggests wearing a cloth mask over a surgical mask or a high grade respirator), and staying home when you are sick or know that you have been exposed to COVID-19.
+      [https://health-desk.org/articles/can-someone-be-infected-with-covid-19-more-than-once](https://health-desk.org/articles/can-someone-be-infected-with-covid-19-more-than-once)
   - sys:
       id: 3oeP9IRNmU66LTR569uiLu
       created_at: !ruby/object:DateTime 2021-05-04 15:12:29.153000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-16 23:15:17.358000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-24 00:24:49.727000000 Z
       content_type_id: moduleTex
       revision: 0
-    content: |
+    content: |-
       ## “How does COVID-19 differ from malaria?”
 
-      COVID-19 and malaria are two different diseases with different ways of being spread and caught. Malaria is spread by mosquitoes, and humans become infected by mosquito bites. COVID-19 is spread by respiratory droplets that we inhale through our nose or our mouth.
+      [https://health-desk.org/articles/how-does-covid-19-differ-from-malaria](https://health-desk.org/articles/how-does-covid-19-differ-from-malaria)
+  - sys:
+      id: 7vWUtClh3LjVUGjxuAs46Y
+      created_at: !ruby/object:DateTime 2021-05-24 00:17:54.670000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-24 00:25:05.302000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |-
+      ## Does wearing a mask reduce your oxygen level?
 
-      COVID-19 and malaria have been incorrectly linked for several reasons. Firstly, around the world, hydroxychloroquine, a drug used to treat malaria, received extensive news coverage because there were claims that the drug was effective against COVID-19. A few clinical trials and studies investigated hydroxychloroquine and found no evidence that the drug was effective against COVID-19. In some unfortunate cases, adverse events occurred in people taking this medication.
+      [https://health-desk.org/articles/does-wearing-a-mask-reduce-your-oxygen-level](https://health-desk.org/articles/does-wearing-a-mask-reduce-your-oxygen-level)
+  - sys:
+      id: BI2zEBQpNELmWWEugstRD
+      created_at: !ruby/object:DateTime 2021-05-24 00:22:27.158000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-24 00:25:29.925000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |-
+      ## Does wearing gloves protect against or stop the spread of COVID-19?
+      [
+      https://health-desk.org/articles/does-wearing-gloves-protect-against-or-stop-the-spread-of-covid-19](https://health-desk.org/articles/does-wearing-gloves-protect-against-or-stop-the-spread-of-covid-19)
+  - sys:
+      id: 5GMOS57iqTyrAX671q1yZa
+      created_at: !ruby/object:DateTime 2021-05-24 00:21:58.030000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-24 00:25:47.639000000 Z
+      content_type_id: moduleTex
+      revision: 0
+    content: |-
+      ## How long is a person infected with COVID-19 contagious?
 
-      Secondly, malaria and COVID-19 share some symptoms, although the list of COVID-19 symptoms currently grows and changes every day. Malaria symptoms usually appear 10-15 days after the infective mosquito bite and the first symptoms a patient feels are fever, headache, and chills. On the other hand, people infected with COVID-19 usually develop symptoms within 5 days and, in some cases, infected people never develop symptoms at all.
-
-      Finally, there is a difference between fevers caused by malaria and those caused by COVID-19. Often malarial fevers are cyclical, reoccurring at predictable times based on which strain of malaria was contracted. In comparison, fevers caused by COVID-19 do not appear to occur in cycles. The most common COVID-19 symptoms are: fever, dry cough and tiredness. Less common symptoms include: aches and pains, sore throat, diarrhea, conjunctivitis, headache, loss of taste or smell, a rash on skin, or discoloration of fingers or toes.
+      [https://health-desk.org/articles/how-long-is-a-person-infected-with-covid-19-contagious](https://health-desk.org/articles/how-long-is-a-person-infected-with-covid-19-contagious)
   top_border: true
 - sys:
     id: 3hIORs6TH6nAfMgpCpsbDn
     created_at: !ruby/object:DateTime 2021-05-04 15:17:12.478000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:17:43.151000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-27 20:18:03.524000000 Z
     content_type_id: module2ColumnContent
     revision: 0
-  title: Third-party Fact Checking
+  title: WhatsApp Third-Party Fact-Checking Program
   content:
   - sys:
       id: 1dh3SDLjRDrVjUKvT5TMsf
@@ -2311,23 +2321,21 @@ module2ColumnContent:
 - sys:
     id: 3in3leHfACtdcxFbz81hWH
     created_at: !ruby/object:DateTime 2021-05-04 15:27:18.445000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:27:35.903000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-27 20:12:32.798000000 Z
     content_type_id: module2ColumnContent
     revision: 0
-  title: CheckU
+  title: Training
   content:
   - sys:
       id: 6B57X2SR2XMSO4XarO2O4B
       created_at: !ruby/object:DateTime 2021-05-04 15:27:29.152000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 15:28:00.325000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-13 22:20:09.836000000 Z
       content_type_id: moduleStats
       revision: 0
-    title: CheckU Stats
+    title: Training Stats
     stats:
     - sys:
         id: 7k3VPPbw2K7r3ifaSZZzt0
-    - sys:
-        id: 1vXulXb2vwkve8bAMBemAU
   top_border: true
 - sys:
     id: 56RCYEJNdM3p2xudbtJk7N
@@ -2340,7 +2348,7 @@ module2ColumnContent:
   - sys:
       id: u8Ez4o2M4YTlLSfPjscgm
       created_at: !ruby/object:DateTime 2021-05-04 15:32:49.463000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 15:34:08.044000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-03 21:53:39.633000000 Z
       content_type_id: moduleStats
       revision: 0
     title: Dev Analytics Stats
@@ -2349,8 +2357,6 @@ module2ColumnContent:
         id: 24UHdy7nXl1ZVy1VJsAmOJ
     - sys:
         id: 5vilaCzmpRWGfZfTJc3hUH
-    - sys:
-        id: IRki5MXecFJnBkXiwoP5c
   top_border: true
 - sys:
     id: 2ZmiLgO8pBOFgcq8LtDLXs
@@ -2600,7 +2606,7 @@ module2ColumnContent:
   - sys:
       id: 1yX5lD585SsV3yhfoj1Fsn
       created_at: !ruby/object:DateTime 2021-05-04 17:08:59.556000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 17:10:08.595000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 19:30:24.438000000 Z
       content_type_id: moduleStats
       revision: 0
     title: Revenues Stats
@@ -2611,6 +2617,8 @@ module2ColumnContent:
         id: 4TM6K2j2ji1ff8oq0gY0za
     - sys:
         id: 5EF0sQb4B3N1DZBXesJhDR
+    - sys:
+        id: avuzM9XI1DNZgAKGTPOQh
     - sys:
         id: 2WYZAknVKXxlVt1BYhlxyl
   top_border: true

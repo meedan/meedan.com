@@ -343,6 +343,11 @@ header h1 {
     top: var(--space-4);
     right: var(--space-4);
     overflow: visible;
+    pointer-events: none;
+}
+
+#text-path {
+    pointer-events: visible;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {

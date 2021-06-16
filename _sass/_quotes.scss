@@ -4,7 +4,7 @@
     grid-template-columns: repeat(12, 1fr);
 }
 
-.quotes {
+.module-user-quotes .quotes {
     grid-column: 2/12;
     margin-top: var(--space-4);
     margin-bottom: var(--section-space);

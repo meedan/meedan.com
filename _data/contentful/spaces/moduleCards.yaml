@@ -1419,11 +1419,49 @@ moduleCards:
 - sys:
     id: 3Cutb2MWVxvltk9SkgWy9s
     created_at: !ruby/object:DateTime 2020-11-10 21:53:33.096000000 Z
-    updated_at: !ruby/object:DateTime 2021-04-28 18:03:34.477000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-10 00:30:39.672000000 Z
     content_type_id: moduleCards
-    revision: 14
+    revision: 16
   title: Updates
   cards:
+  - sys:
+      id: 35AUjbGHagTfMzp399sdzr
+      created_at: !ruby/object:DateTime 2021-06-09 23:50:51.723000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-10 00:19:37.160000000 Z
+      content_type_id: moduleCard
+      revision: 2
+    title: Eric Mugendi speaks on the psychology of misinformation
+    slug: eric-mugendi-speaks-on-the-psychology-of-misinformation
+    published_on: !ruby/object:DateTime 2021-06-09 00:00:00.000000000 Z
+    image:
+      sys:
+        id: 6lPoxDX40zqmEi5GG2SPst
+        created_at: !ruby/object:DateTime 2021-06-10 00:18:48.240000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-10 00:19:33.808000000 Z
+      title: Mugendi 2circles
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6lPoxDX40zqmEi5GG2SPst/7d5b742ab750060c91986943d51ce816/Mugendi_2circles.png"
+    tag: Guest Speaking
+    link: https://www.youtube.com/watch?v=95uKrBowIOk
+  - sys:
+      id: 1FtAuqnUFayKLQklutF03M
+      created_at: !ruby/object:DateTime 2021-06-10 00:25:48.029000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-10 00:30:33.166000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Nat Gyenes talks about midinformation with VERA Files
+    slug: nat-gyenes-talks-about-midinformation-with-vera-files
+    published_on: !ruby/object:DateTime 2021-06-08 00:00:00.000000000 Z
+    image:
+      sys:
+        id: 6J7VRRrKWqstdKdOqEBnKa
+        created_at: !ruby/object:DateTime 2021-06-10 00:25:57.298000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-10 00:34:59.732000000 Z
+      title: Nat Gyenes 2 bars
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6J7VRRrKWqstdKdOqEBnKa/3f398ee93e75a353adff4d2f5531424c/nat_11.png"
+    tag: Podcast
+    link: https://twitter.com/verafiles/status/1402176722112450574
   - sys:
       id: 2wgThsPH4f2u0A5cnFhkcb
       created_at: !ruby/object:DateTime 2021-04-28 15:01:18.464000000 Z
@@ -1463,25 +1501,6 @@ moduleCards:
     tag: Guest Speaking
     link: https://meedan.com/events/political-economy-of-disinformation-in-lebanon-with-azza-el-masri-at/
   - sys:
-      id: 1rEa6EEpc6Ska5p1qwVvaJ
-      created_at: !ruby/object:DateTime 2021-04-28 17:55:07.495000000 Z
-      updated_at: !ruby/object:DateTime 2021-04-28 18:15:58.901000000 Z
-      content_type_id: moduleCard
-      revision: 6
-    title: Eric Mugendi Speaks at TAFFD's Virtual Africa Town Hall
-    slug: taaffd-virtual-africa-town-hall-on-policy-and-r-and-d
-    published_on: !ruby/object:DateTime 2021-04-23 00:00:00.000000000 Z
-    image:
-      sys:
-        id: DK0sHDPXVmLoWm6RxnWAi
-        created_at: !ruby/object:DateTime 2021-04-28 17:55:45.366000000 Z
-        updated_at: !ruby/object:DateTime 2021-04-28 17:56:02.855000000 Z
-      title: Eric Mugendi circle
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/DK0sHDPXVmLoWm6RxnWAi/8444c9d48ec99b3c1518f868c3a9248a/Mugendi_circle.png"
-    tag: Guest Speaking
-    link: https://www.youtube.com/watch?v=Y2nFPmbswxc
-  - sys:
       id: 4nE0fsWqXWJk5fXm2oZtCP
       created_at: !ruby/object:DateTime 2021-04-07 03:44:09.439000000 Z
       updated_at: !ruby/object:DateTime 2021-04-10 01:15:15.120000000 Z
@@ -1500,6 +1519,25 @@ moduleCards:
       url: "//images.ctfassets.net/g118h5yoccvd/wBUP5nH2iHSh1axv4nYRp/a698bff74efc44b1bd1a2c64e46c9630/meedan_joins_ekta_17.png"
     tag: Media Release
     link: https://meedan.com/blog/launching-ekta-a-new-fact-checking-consortium-for-india/
+  - sys:
+      id: 1rEa6EEpc6Ska5p1qwVvaJ
+      created_at: !ruby/object:DateTime 2021-04-28 17:55:07.495000000 Z
+      updated_at: !ruby/object:DateTime 2021-04-28 18:15:58.901000000 Z
+      content_type_id: moduleCard
+      revision: 6
+    title: Eric Mugendi Speaks at TAFFD's Virtual Africa Town Hall
+    slug: taaffd-virtual-africa-town-hall-on-policy-and-r-and-d
+    published_on: !ruby/object:DateTime 2021-04-23 00:00:00.000000000 Z
+    image:
+      sys:
+        id: DK0sHDPXVmLoWm6RxnWAi
+        created_at: !ruby/object:DateTime 2021-04-28 17:55:45.366000000 Z
+        updated_at: !ruby/object:DateTime 2021-04-28 17:56:02.855000000 Z
+      title: Eric Mugendi circle
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/DK0sHDPXVmLoWm6RxnWAi/8444c9d48ec99b3c1518f868c3a9248a/Mugendi_circle.png"
+    tag: Guest Speaking
+    link: https://www.youtube.com/watch?v=Y2nFPmbswxc
   - sys:
       id: 7qFUqckLLnMpQdNgmeDDh7
       created_at: !ruby/object:DateTime 2021-04-08 16:49:21.008000000 Z

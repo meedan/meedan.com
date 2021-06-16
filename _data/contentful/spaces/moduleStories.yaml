@@ -3,230 +3,267 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-13 19:23:36.904000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-10 14:51:25.002000000 Z
     content_type_id: moduleStories
-    revision: 71
+    revision: 73
   title: Blog
   stories:
   - sys:
-      id: 2bRWHc9TkhTQmbqQL6b57q
-      created_at: !ruby/object:DateTime 2021-04-09 23:46:54.192000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-13 19:13:50.479000000 Z
+      id: hJzg1USgBbdCXadavVs21
+      created_at: !ruby/object:DateTime 2021-05-27 13:48:02.614000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 16:08:14.514000000 Z
       content_type_id: story
-      revision: 1
-    title: Welcome Martin Peck, Our Systems Engineer
-    slug: welcome-martin-peck-our-systems-engineer
+      revision: 5
+    title: 'What Spreads on WhatsApp?: A Snapshot of Tipline Content from India and
+      Brazil'
+    slug: what-spreads-on-whatsapp-a-snapshot-of-tipline-content-from-india-and-brazil
     topic:
-    - sys:
-        id: 32ogZlDIXFakgZXiZ8l3MT
-    lead_image:
-      sys:
-        id: 1ywFIyo6RpS76C1ROwuvTy
-        created_at: !ruby/object:DateTime 2021-05-13 19:07:01.820000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-13 19:07:20.241000000 Z
-      title: Martin Peck and Moss the cat
-      description: Martin Peck and Moss the cat
-      url: "//images.ctfassets.net/g118h5yoccvd/1ywFIyo6RpS76C1ROwuvTy/73c59707cdbde011f353333ffb4fd8d8/martin-n-moss.jpeg"
-    body: "Meedan is excited to have Martin Peck on board as our Systems Engineer!
-      As Meedan's software development and IT operations grow, Martin will ensure
-      that all systems are truly go. Learn more about him in the short Q&A below.\n\n###
-      1. What has been your experience before you joined Meedan? \n\nI have worked
-      in a number of industries, including telecommunications, healthcare, even mobile
-      gaming! Being a part of businesses large and small has taught me that I especially
-      enjoy the challenges associated with younger companies developing new technologies.\n\nWhile
-      I started off in software development, over the years I have applied these skills
-      toward test automation and high performance computing, systems and application
-      security, and technical operations.\n\nI find that DevOps utilizes a number
-      of these interdisciplinary talents, and these experiences in turn make me a
-      more effective operations engineer.\n\n### 2. Tell us about an exciting and
-      insightful experience that has shaped your perspective and work.\n\nA few years
-      ago I travelled to Sierra Leone to study their [aid benefit programs and technical
-      solutions for the Ebola crisis.](https://www.theguardian.com/world/2015/dec/30/software-developers-helped-end-ebola-epidemic-sierra-leone
-      \"Software developers helped end ebola epidemic\") It was a real eye opener
-      for me to see how lack of infrastructure and technical literacy complicated
-      efforts to build functional and accessible technology.\n\n### 3. What is the
-      DevOps ecosystem like in the southwest? What are the strengths and what gaps
-      do you see?\n\nI live in the northwest corner of Phoenix, Arizona. My parents
-      grew up here, and when they were young this was all farmland.\n\nOver the past
-      decade technology employment has really grown, and there is a healthy tech scene
-      in the city. The diversity of talent here is a strength, but the rapid growth
-      has also left businesses struggling to find people with the right skills.\n\nWith
-      Intel and TSMC building new chip fabs here, I expect this talent crunch to continue.
-      The governor of Arizona recently announced a collaboration among government,
-      industry, and academia to bolster Arizona’s workforce called [Drive48](https://www.signalsaz.com/articles/arizona-launches-state-of-the-art-advanced-manufacturing-training-center/
-      \"Arizona launches Drive48 program\") which will help educate and train people
-      for these careers.\n\n### 4. What brought you to Meedan?\n\nA friend referred
-      me to Meedan, and I was impressed with the positive social mission behind the
-      company. As I get older, meaningful work is more and more important to me, and
-      I appreciate that my efforts at Meedan contribute to a better world. :)\n\n###
-      5. What's a project you're excited about right now?\n\nIt's not public yet,
-      but there are some developments which will greatly scale up Meedan's services
-      and infrastructure. The challenges associated with deploying new features and
-      scaling them up are both interesting and rewarding!\n\nAnother aspect of my
-      work involves securing the applications and systems used by Meedan. Information
-      security is a complex and dynamic field; I enjoy that the challenges never end.
-      It has been enlightening and fulfilling to tackle these issues for Meedan.\n\n###
-      6. Tell us some fun facts about Martin.\n\n- Many years ago I learned to code
-      [PASCAL](https://en.wikipedia.org/wiki/Pascal_(programming_language) \"Pascal
-      programming language\") on an IBM PC compatible my dad used for work. It had
-      a TURBO button that boosted the CPU to 12Mhz!\n- My wife and I raised horses,
-      goats, and chickens on a farm in Oregon for 13 years. I miss the animals, but
-      I don't miss mucking stalls or bucking hay bales.\n- When I was young and invincible
-      I loved to free climb in [Eldorado Canyon, Colorado.](https://cpw.state.co.us/placestogo/parks/EldoradoCanyon
-      \"Eldorado Canyon State Park website\") I still enjoy rappelling (with a rope)
-      :)"
-    alt_date: !ruby/object:DateTime 2021-05-13 00:00:00.000000000 Z
-  - sys:
-      id: 3bBg1UPXNmE5PFh9LYp8Pk
-      created_at: !ruby/object:DateTime 2021-04-22 21:17:11.487000000 Z
-      updated_at: !ruby/object:DateTime 2021-04-26 20:03:59.021000000 Z
-      content_type_id: story
-      revision: 4
-    title: Welcome Fiona Mati, Our Customer Success Manager
-    slug: welcome-fiona-mati-our-customer-success-manager
-    topic:
-    - sys:
-        id: 32ogZlDIXFakgZXiZ8l3MT
-    lead_image:
-      sys:
-        id: 3txk52HRzHP3G2e7zMdvXd
-        created_at: !ruby/object:DateTime 2021-04-22 21:17:28.502000000 Z
-        updated_at: !ruby/object:DateTime 2021-04-22 21:29:00.752000000 Z
-      title: Fiona headshot
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3txk52HRzHP3G2e7zMdvXd/c9411eaa5e6ead8c636c17493708bcd3/Fiona_edited.jpeg"
-    body: "Meedan is excited to have Fiona Mati on board as our Customer Success Manager!
-      Learn more about her in the short Q&A below.\n\n### 1. What has been your experience
-      before you joined Meedan? \n\nI have been fortunate enough to work in startup
-      spaces that linked technology to consumers in the Global South, mainly in renewable
-      energy. My earliest similar role was as a Product Support Manager for a B2B
-      technology company that enabled unbanked customers to purchase solar energy
-      products using mobile money, incrementally. This was at a time when [solar products
-      were new](https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/off-grid-solar-power-comes-of-age-in-kenya-2237258#:~:text=grid%20solar%20industry.-,Market%20penetration%20of%20off%2Dgrid%20solar%20in%20Kenya%20has%20increased,financing%20from%20the%20World%20Bank.
-      \"Solar power comes to Kenya\") and also [M-Pesa mobile payments were not widely
-      available to all.](https://www.vox.com/future-perfect/21420357/kenya-mobile-banking-unbanked-cellphone-money
-      \"M-Pesa mobile payments not accessible in Kenya\") Creating and managing the
-      Knowledge Base for sales agents and end-users was a steep learning curve for
-      me. I realised that knowledge can either make or break consumer acceptance of
-      new technologies.\n\n### 2. Tell us about an exciting and insightful experience
-      that has shaped your perspective and work.\n\nSeveral years ago, I worked at
-      a [biotech startup that developed and launched East and Central Africa’s first
-      locally manufactured organic mosquito repellent candle.](https://khn.org/morning-breakout/dr00032222/
-      \"New organic mosquito repellant\") We had many challenges, first regulatory
-      and then convincing retailers to stock the product. The first product did not
-      pass all tests, so we had to go back to the lab and rework the product formula.
-      By then, we had run out of money so it was not possible to hire someone to carry
-      out the tests. I wound up doing the tests at the University of Nairobi Bio-chem
-      lab myself - even though in school chemistry was my worst subject! Eventually
-      we got certified, thankfully. \n\nSomehow, such experiences have been a running
-      theme in my career, having to deal with new challenges while maintaining composure.
-      I have learned that bugs are actually a good thing, as technology cannot progress
-      otherwise. Tenacity is also important.\n\n### 3. What is the startup ecosystem
-      like in Nairobi? What are the strengths and what gaps do you see?\n\nApart from
-      South Africa, I would say that [Nairobi is the tech hub of sub-saharan Africa.](https://www.businessdailyafrica.com/bd/corporate/technology/kenya-ranked-top-tech-hub-in-sub-saharan-africa-2261046
-      \"Kenya ranked top tech hub in Africa\") This has also been enhanced by the
-      proliferation of mobile phones and money. I think M-Pesa was the first mobile
-      money tool made widely available to all, which has also made things much easier.\n\nIn
-      terms of gaps, I would name the [social inequalities that still exist, particularly
-      to do with access to quality education.](https://theconversation.com/how-to-keep-kenyan-children-in-school-longer-its-not-only-about-money-157461
-      \"Inequitable access to education in Kenya\") \n\n### 4. What brought you to
-      Meedan?\n\nWhen I applied to Meedan, I actually wrote: ‘*If there was ever a
-      time that fact-checking was required, it is most definitely now!*’\n\nWith COVID-19
-      locking us down, even before I saw the ad for this role, I was actually getting
-      very concerned about the volumes of misinformation being shared on WhatsApp
-      groups. At the time it was all about fake-cures or COVID-19 denialism, and this
-      was being shared by people that I respected. I realised that until we solve
-      how to manage misinformation, anything else cannot work. The way to do that
-      is to ensure that we are knowledgeable about these issues, and are enabled to
-      make informed decisions about the content we share.\n\n### 5. What's a project
-      you're excited about right now?\n\nI am excited about how we are making [Check’s
-      Knowledge Base](https://help.checkmedia.org/en/collections/1929125-check \"Knowledge
-      base for Check product\") and support communications more accessible. Firstly,
-      translations will have a net positive impact on our partners' use of [Check.](https://meedan.com/check
-      \"Check product page\") We have also been experimenting with new ways on how
-      to keep everyone updated on what's happening, not just with newsletters which
-      also exciting. As we grow, I am also extremely enthusiastic about how we can
-      make the onboarding experience more seamless for new [Check](https://meedan.com/check
-      \"Check Produce page\") users. \n\n### 6. Tell us some fun facts about Fiona.\n\nBefore
-      the pandemic, I really enjoyed travelling and can't wait until everything gets
-      back to normal. During the pandemic, I have become a balcony gardener and nothing
-      excites me more than eating what I harvest. A great thing about being a Meedani
-      is that with our distributed colleagues, I have been trying out different recipes!\n"
-    alt_date: !ruby/object:DateTime 2021-04-23 00:00:00.000000000 Z
-  - sys:
-      id: 20YwmCo8RiTDozi8V2Gqkp
-      created_at: !ruby/object:DateTime 2021-04-16 01:22:22.223000000 Z
-      updated_at: !ruby/object:DateTime 2021-04-28 18:22:51.454000000 Z
-      content_type_id: story
-      revision: 6
-    title: Learning from Tsek.ph, the 2019 Philippines Election Monitoring Project
-    slug: learnings-from-tsek-ph-the-2019-election-monitoring-project-in-the
-    topic:
-    - sys:
-        id: 4EQkvqY2qaU6CLx6YaUiyg
     - sys:
         id: 7jQKmsQvOs6pjAjLth5gsA
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
     lead_image:
       sys:
-        id: 7G9VJUgCfAWrRjXjpfS8fN
-        created_at: !ruby/object:DateTime 2021-04-16 01:23:42.773000000 Z
-        updated_at: !ruby/object:DateTime 2021-04-19 03:02:24.282000000 Z
-      title: 'learnings from Tsek.ph '
+        id: JfOvf1tfZt4aIMGHiZeOo
+        created_at: !ruby/object:DateTime 2021-05-27 15:21:09.176000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-27 15:21:49.869000000 Z
+      title: Brazil & India Tipline Factchecks
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/7G9VJUgCfAWrRjXjpfS8fN/e33ab4b7589178e8a901084a5c546672/learnings_from_Tsek.ph__2_.png"
-    description: 'In 2019 Meedan supported  Tsek.ph, a collaborative fact-checking
-      initiative in the Philippines which saw three journalism schools and 11 media
-      partners join hands to address misinformation in the country’s midterm elections.
-      Tsek.ph brought together media partners such as Verafiles, Rappler and ABS-CBN
-      News and academic partners such as University of the Philippines and Ateneo
-      de Manila University. This collaboration between fact-checkers, regional media,
-      academicians and researchers was an attempt to pool limited resources and expertise,
-      address misinformation at speed and scale and plug the gap between fact-checking
-      and research at a crucial event such as an election. To bring together a diverse
-      group of entities with different working styles and goals was no easy task.
-      Despite the challenges, Tsek.ph produced over 100 fact-checks and is a reference
-      case study for other collaborative fact-checking initiatives. '
+      url: "//images.ctfassets.net/g118h5yoccvd/JfOvf1tfZt4aIMGHiZeOo/b53bea1c6ab734afbd7a06989d6cb2b9/Brazil___India_Tipline_Factchecks.png"
+    description: Information and misinformation spread like wildfire on social media
+      networks. While there are ways of tracking viral information on platforms like
+      Facebook and Twitter, encrypted networks like WhatsApp, Viber and Telegram are
+      often beyond the reach of investigation. Fact-checkers have started using tiplines
+      to understand and address misinformation spreading in these networks. Tiplines
+      are accounts on these platforms to which users are encouraged to send any potential
+      misleading information they see.
     body: |-
-      In 2019 Meedan [supported](https://meedan.com/blog/how-meedan-supported-three-reporting-initiatives-in-asia/) [Tsek.ph](https://tsek.ph/about), a [collaborative fact-checking initiative in the Philippines](https://medium.com/meedan-updates/tsek-ph-new-fact-checking-collaboration-in-the-philippines-491f3bfdb1f9) which saw three journalism schools and 11 media partners join hands to address misinformation in the country's midterm elections.
+      Information and misinformation spread like wildfire on social media networks. While there are ways of tracking viral information on platforms like Facebook and Twitter, encrypted networks like WhatsApp, Viber and Telegram are often beyond the reach of investigation. Fact-checkers have started using tiplines to understand and address misinformation spreading in these networks. Tiplines are accounts on these platforms to which users are encouraged to send any potential misleading information they see.
 
-      Tsek.ph brought together media partners such as [Verafiles](https://verafiles.org/), [Rappler ](https://www.rappler.com/)and [ABS-CBN News](https://news.abs-cbn.com/news) and academic partners such as [University of the Philippines](https://up.edu.ph/) and [Ateneo de Manila University](http://www.ateneo.edu/about). This collaboration between fact-checkers, regional media, academicians and researchers was an attempt to pool limited resources and expertise, address misinformation at speed and scale and plug the gap between fact-checking and research at a crucial event such as an election. To bring together a diverse group of entities with different working styles and goals was no easy task. Despite the challenges, Tsek.ph produced over 100 fact-checks and is a reference case-study for other collaborative fact-checking initiatives.
+      In this blogpost, we look at the top requests received on WhatsApp tiplines of our partners in India and Brazil. The insights are based on a preliminary analysis of the most requested items on tiplines of two Braziilian and six Indian partners between April 1 and May 15, 2021. Our goal is to understand the major themes, topics and nature of fact-check requests received  by fact-checkers on their tiplines and to compare content across regions for variations and overlaps. All items analyzed were requests in text and image formats. (Please note that not all requests are misinformation; while some viral messages are false, misleading and partly false, there are also messages which are true and those calling for action and advising caution.)
 
-      In 2021, Meedan is supporting yet another consortium of fact-checkers.[ Ekta - a consortium of six fact-checking groups](https://ekta-facts.com/) in India has come together to address misinformation around the Legislative Assembly elections at the state level and other issues. As we embarked on this endeavour, we spoke to [Yvonne Chua](https://www.linkedin.com/in/yvonne-chua-60/?originalSubdomain=ph), Associate Professor at University of the Philippines and a leading participant of Tsek.ph, to revisit the lessons learned out of the experience. Here are the key takeaways.
+      __COVID related misinformation dominated tipline content received by Indian fact-checkers__
 
-      __1.  Assigning neutral parties to leadership is key to successful collaboration__
+      Amid a busy election season in the country, India saw a surge in COVID-19 cases. While fact-checkers expected a surge in election related misinformation, the COVID-19 crisis resulted in the resurfacing of pieces of information and misinformation which were viral back in 2020, during the initial stages of the pandemic. The analysis of the top requests across Indian tiplines shows that home remedies for COVID-19, conspiracy theories around the disease and vaccine with a political undertone and misleading political narratives around the handling of the pandemic dominated tipline content. Right after the election results were declared the tiplines also received viral content on post-poll violence in the state of West Bengal. Here are examples of the top requests and content received on the tiplines. *Please note again that many of these items may be false.*
 
-      Media partnerships are rare. It is natural for newsrooms to look for non-competitors as partners. Thus, for successful collaborations among newsrooms and fact-checkers in projects such as election monitoring, it is important to manage rivalry. Tsek.ph chose to assign neutral parties such as academics and universities to take the lead.
+      1.  Claims about autopsy conducted in Italy and Russia revealed that deaths were falsely attributed to COVID-19 when the real cause of the deaths were due to 5G radiation, an issue that governments are trying to cover up. 
 
-      __2.  Build consensus on targets, the degree and duration of collaboration__
+      2.  Claims with home remedies for COVID-19 using honey, pepper and ginger developed by an Indian student and other other recommendations such as steam kills coronavirus in the nose and newspaper clipping claiming alum water to be useful for treating COVID-19
 
-      For groups chasing tight deadlines and following different working and editorial styles, it is very important to set the scope of the collaboration and to have some common guidelines and standards. Tsek.ph agreed on producing one fact-check per partner per week for 12 weeks during the election period and to share content on the common website, but not necessarily to cross check each other's work. The common ground was the International Fact Checking Network's guidelines, same rating systems and synchronised promotion on social media.
+      3.  Claims with warnings by medical and health bodies like the ICMR and WHO that the next 72-108 hours are crucial, alleged claim from a representative of Serum Institute of India discrediting COVID-19 and cautionary messages from leading doctors 
 
-      __3.  Regular check-ins for coordination and dedicated teams for conflict disputes__ 
+      4.  Claims in a nationalistic tone  listing donations by corporates and individuals toward COVID-19 management funds
 
-      To strengthen coordination, Tsek.ph had project and editorial coordinators and conducted regular meetings. The initiative also had a technical committee for running the website and an oversight committee comprising academics to address internal disputes. A dedicated lawyer was also present to address any concerns of copyright, protection of fact-checkers and enforcement of MOU and protocols.
+      5.  Claim about hospital facilities of armed forces in India to have been dedicated to COVID-19 treatment for civilians 
 
-      __4.  Collaboration enhances collective credibility__ 
+      6.  Claims promoting alternative treatment for COVID-19 - such as homeopathic Aspidosperma as a substitute for a fall in oxygen levels in COVID-19 patients
 
-      Though the participating groups held varying reputations and acceptance among different communities, Tsek.ph was able to build a collective credibility. Here is a statement from a reader: 
+      7.  A call to install CCTV cameras in COVID-19 wards of Indian hospitals to monitor how hospitals are treating patients 
 
-      *'I noticed that when I am able to refer to the source as Tsek.ph, the response is quiet acceptance. When the fact-check bears certain organizations' names that the President (Duterte) has overtly attacked..., the diehard supporters immediately disparage the result of such fact-check. Attaching the Tsek URL [to] the fact-check...done by [a specific partner] seemed to be all that was needed to give credence to the results.'*
+      8.  Anti -vaccination messages such as those warning women not to get vaccinated during menstruation and claims of vaccination of adults resulting in infertility
 
-      __5.  Start early and dedicate one or two team members from each group to the collective__
+      9.  Message to editors allegedly from employees of Times of India demanding the government be held accountable for the mismanagement of the COVID-19 crisis
 
-      In its post-election assessment, participating newsrooms pointed out drawbacks and scope for improvement. They felt the project started late, it lacked people capacity and election coverage of newsrooms in the social media age was still traditional. They also found that not having dedicated team members from each newsroom affected the degree of involvement of groups and when decision making rested on uninvolved newsroom editors, the practical issues of running the initiative was often ignored. For future collaborations Tsek.ph considered it important to cross-check collective content, have a pool of full-time editors for the initiative and conduct pre-trainings for all participants.
+      10. Message about lockdown restriction guidelines in Lucknow and other cities 
 
-      Tsek.ph concluded its effort with a pop-up newsroom on the day of the election. That day saw greater degree and smoother collaboration than what was observed in previous weeks, indicating that focused and unified goals can enhance collaboration and traverse differences.
+      11. Claims about black fungus causing deaths in recovered COVID-19 patients and linking deaths of known figures such as journalist Rohit Sardana to this
+
+      12. Image of a murdered woman shared as that of post-poll violence in West Bengal
+
+      13. Alleged government document showing approval for oxygen plants to negate claims that government has been impervious to oxygen shortage for COVID-19 treatment
+
+      14. Manipulated images of oxygen tanks bearing the logo of Reliance industries amid a oxygen crisis faced by hospitals
+
+      15. Pictorial representation of the number of All India Institute Medical Science (AIIMS) set up under each Prime Minister
+
+      16. Message along with a link to an article and quotes from doctors which say India has entered the third wave of the pandemic
+
+      __Pró-Bolsonaro messages topped tipline content in Brazil__
+
+      In the run up to the general election in 2022,  political messages dominated tipline content among Brazilian partners. Amid a  pandemic which has battered the country, viral content related to COVID-19 and its handling is intertwined with a strong political narrative and propaganda. Messages are heavily skewed towards supporting and glorifying President Bolsonaro's government while slandering the opposition. There seems to be a deliberate attempt in creating panic and despair, cautioning people against the [ghost of communism's presence](https://www.theatlantic.com/ideas/archive/2020/09/how-anti-communist-conspiracies-haunt-brazil/614665/)in the country and pointing to Bolsonaro as the only answer in these dire times. Though fewer in number, there are messages which are anti-Bolsonaro and on other topics such as vaccine hesitancy and the WhatsApp privacy policy update. Here are a few examples of the top themes taken from messages received on tiplines of Brazilian partners. *Please note again that many of these items may be false.*
+
+      1.  Allegations that media group Globo is exaggerating the grimness of the COVID situation in Brazil - 
+
+      2.  Messages supposedly linking COVID-19 deaths and faulty vaccines to Governor João Doria, who may also [run for office](https://www.reuters.com/world/americas/sao-paulo-governor-doria-wants-run-president-brazils-2022-vote-2021-04-20/) in the 2022 election.
+
+      3.  Posts seeking to discredit family members of victims of police brutality [during illegal raids](https://www.theguardian.com/world/2021/may/06/rio-de-janeiro-police-raid-favela-jacarezinho) in the Rio de Janeiro favelas.
+
+      4.  A fake New York Times clipping showing huge gatherings in support of President Bolsonaro. 
+
+      5.  Resurfacing message that the wife of revolutionist Che Guevara received retirement benefits under the administration of the Workers Party, leading opposition and socialist party in Brazil. 
+
+      6.  Claims of leading journalists being paid for speaking against Bolsonaro
+
+      7.  Fake claim attributed to WHO endorsing the use of Ivermectin for COVID treatment, supporting [Bolsonaro'e government](https://apublica.org/2020/11/brazil-politicians-distribute-fake-covid-19-cures/) strategy to distribute fake cures to COVID-19
+
+      8.  Claims of Bolsonaro paying people to protest against the Supreme Court and the Worker's party 
+
+      9.  Claims about the successful sourcing of ultrasound beds for cancer treatment under Bolsonaro in partnership with Israel
+
+      10. A call to spread a message about WhatsApp having access to personal photos from users' phones and financial fraud using WhatsApp facial recognition technology
+
+      11. Claims of vaccines not providing the desired immunity even after two jabs, supporting Bolsonaro's [open distrust](https://www.bloomberg.com/news/articles/2021-01-08/bolsonaro-mistrusts-covid-vaccines-and-brazil-is-falling-behind) of its efficacy
+
+      12. Posts undermining the work of municipal administrations in dealing with COVID-19 and giving credit to Bolsonaro administration for their good work
+
+      13. Messages praising Bolsonaro's astute move of setting up vaccine factories in Brazil, sourcing 5G technology of Huawei  and giving orders to create a new constitutional court in Brazil
+
+      14. Warning against hackers circulating 'Mexico made' virus on social media
+
+      15. Messages disputing the claims that Bolsonaro administration blocked federal funding to states
+
+      16. Conspiracy theories about how the spread of COVID-19 is linked to pharmaceutical companies associated with China, [a claim ](https://www1.folha.uol.com.br/internacional/en/world/2021/05/in-a-new-attack-bolsonaro-suggests-that-china-is-waging-a-biological-war-with-covid.shtml)Bolsonaro has made publicly
+
+      17. Dubious facts and figures to endorse COVID-19 strategy of the Bolsonaro administration to buy [large stocks ](https://www1.folha.uol.com.br/internacional/en/scienceandhealth/2021/02/nobody-is-doing-anything-wrong-says-bolsonaro-about-brazils-chloroquine-production.shtml)of Hydroxychloroquine and Ivermectin.
+
+      __Some preliminary insights from the analysis__ 
+
+      The analysis was conducted on clusters of messages received at least five times on either six tiplines in India or two tiplines in Brazil. These included 235 messages requested over 3000 times and 75 messages requested around 1000 times, respectively. Not all examples mentioned in this blogpost had that many requests, but all of them were among the top items for the time period. 
+
+      -   The surge of COVID-19 related queries when India witnessed the second wave and the political messages in Brazil ahead of presidential elections show how content circulating on WhatsApp is an offshoot of what is in the news and the larger events at hand.However, there are also indications that content trending on WhatsApp is also ahead of the newscycle and a prelude to major incidents and events such as the push for Bolsonaro as president in the 2022 elections. 
+
+      -   Viral claims are often recycled and reappear on WhatsApp. This was witnessed in the second wave of COVID in India as home remedies and other COVID related claims, which were debunked earlier when the pandemic first hit India, reappeared this year during the second wave of the pandemic. 
+
+      -   The goodwill messages of asking people to take precautions and remain cautious of the pandemic are often linked to recent incidents of deaths of known public figures and unfortunate events to create a sense of urgency and fear.  
+
+      -   Not all messages received on tiplines are fact-checkable as they tend to be appeal to emotions, propaganda and voicing of biased opinions
+
+      -   Visual representations are used in abundance to mislead users
+
+      -   In our analysis, we saw many variations of the same messages---including claims being repeated in different languages. The hyperlocal nature of content, multiple languages and contextual tweaks to viral messages point to the need for robust contextual understanding and a constant look out for the different forms misinformation takes during episodes of events. 
+
+      -   The analysis also points to similar claims circulating across the two regions. For instance, alleged claims by the World Health Organization on cure for COVID, claims about heads of states managing the crisis successfully in India and Brazil, messages fueling distrust on media outlets such as Globo in Brazil and Times of India in India, the alleged claims of how 5G technology is responsible for the deaths and not COVID.
+
+      __Methods__: The data used for the analysis was prepared by Meedan's research team using a new, state-of-the-art embedding model to group messages making similar claims across languages. We will be sharing the model and details of its creation in the next week. The contextual analysis and findings were written by program managers located in Brazil and India.
+
+      __Privacy and data governance__: The privacy of WhatsApp users is our top priority. This analysis was done on anonymous, aggregated data containing only the raw text of messages sent to the tiplines by users. The dataset had no information about the users whatsoever. The lists included in this blogpost are themes and paraphrases from clusters of messages. They do not directly duplicate the message content.
+
+      All data is owned by our partners. This blog post only includes data from partners who agreed to allow for anonymous, aggregate analysis of the messages sent to their tiplines.
     words_by:
     - sys:
         id: 5i0ZluvBzz6h4ashdZJIkH
+    - sys:
+        id: 57swkb0x1YLvhHB31YFb3U
   - sys:
-      id: 2fh5vrN5UPFIRPtBreKA6D
-      created_at: !ruby/object:DateTime 2021-04-10 07:40:28.159000000 Z
-      updated_at: !ruby/object:DateTime 2021-04-27 01:09:00.632000000 Z
+      id: 1Uxm3ZoC7FMzE0HivRS7zf
+      created_at: !ruby/object:DateTime 2021-05-25 16:42:56.472000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-10 12:33:16.668000000 Z
       content_type_id: story
-      revision: 8
-    title: Morphed Images, Fake Election Surveys and more in the Indian Elections
-    slug: morphed-images-old-videos-fake-election-surveys-what-weve-seen-so-far-during
+      revision: 1
+    title: We have a right to information. But in a pandemic, many of us can't read
+      the information.
+    slug: we-have-a-right-to-information-but-in-a-pandemic-many-of-us-cant-read-the
+    topic:
+    - sys:
+        id: 13HcGYCQHm8vDRW3EAkw6j
+    lead_image:
+      sys:
+        id: 3UAQWNilLEpmrbOXR47hC3
+        created_at: !ruby/object:DateTime 2021-05-25 22:38:50.301000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-10 12:33:13.158000000 Z
+      title: We have a right to information. But in a pandemic, many of us can't read
+        the information.
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/3UAQWNilLEpmrbOXR47hC3/8c4c8e55e98983fc229e161d29a7e252/meedan_blog_right-to-information.jpg"
+    body: "The pandemic has left us all trying to untangle new and complicated COVID-19
+      information. It’s been an overwhelming and continuous part of the pandemic,
+      and it’s not one that’s just in our heads. New research suggests that few websites
+      are publishing COVID-19 content at a reading level that works for the general
+      population. \n\nEveryone has the [right to information](https://hhi.harvard.edu/files/humanitarianinitiative/files/signalcode_final.pdf?m=1607469621)
+      during a crisis. Unavailable, unclear, or inaccessible communications can increase
+      anxiety, especially during times of uncertainty and ambiguity. Complex messages
+      are also prone to misunderstandings. Misinterpretation or misapplication of
+      complex topics like COVID-19 can result in the spread of misinformation and
+      midinformation.\n\nOver the past year, researchers have studied the “readability”
+      of COVID-19 information published online. What’s readability, you ask? Reading
+      level tools that give “readability scores” estimate the number of years of education
+      needed to understand a piece of content. In the U.S., many newspapers publish
+      content to accommodate people who read between an eighth- and tenth-grade level.
+      However, the average American reading level is around grade five or six. For
+      [low-literacy](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple)
+      readers, experts recommend creating materials at a reading level between third
+      and fifth grade. \n\nThe recent studies found that most COVID-19 information
+      websites aren’t meeting us where we’re at:\n\n- [Worrall and colleagues](https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-020-09710-5.pdf)
+      assessed the readability of COVID-19-related content for a total of 240 English
+      language webpage URLs from Ireland, the United Kingdom, Canada, and the United
+      States. Using four tools, the team found that only 17.2% (n=165) of all readability
+      scores analyzed were at a universally readable level. They also found that government
+      and public health organization websites scored better than academic or scientific
+      institutions, digital media, or others.\n\n- [Basch and colleagues](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/public-health-communication-in-time-of-crisis-readability-of-online-covid19-information/E1B32CF9E602F287902AD91F1D10DA7D)
+      conducted a similar study of COVID-19 online search results from 100 English
+      language websites. They also found that most websites were above a tenth-grade
+      reading level target. In their sample, only four websites had content at less
+      than a sixth-grade reading level.\n\n- [Mishra and Dexter](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2769382?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamanetworkopen.2020.18033)
+      compared COVID-19 information readability from official public health agencies
+      and governments of 15 countries. They found that all 18 websites scored above
+      a sixth to eighth-grade reading level. They also found that 95% (n=141) scored
+      above grade eight for all five readability metrics.\n\n- Additional COVID-19-related
+      readability studies by [Szmuda and colleagues](https://www.sciencedirect.com/science/article/abs/pii/S0033350620302031?via%3Dihub),
+      [Garcia and colleagues](http://link.springer.com/10.1007/s10900-021-00973-6),
+      and [Ferguson and colleagues](https://onlinelibrary.wiley.com/doi/10.1111/1753-6405.13066)
+      suggested that the reading ease of COVID-19-related health information online
+      is a major problem. \n\nIn a recent reflection on our Health-Desk work, we conducted
+      a series of semi-structured qualitative interviews (n=6) with partner journalists
+      and fact-checkers from six different countries. The partners we interviewed
+      endorsed the quality, readability, and applicability of our content in supporting
+      their fact-checking efforts. \n\nTo further our evaluation, we conducted a readability
+      audit. We chose 27 COVID-19-related Health Desk explainers written between June
+      and December 2020. All of the audited entries were ones submitted by our media
+      partners. The queries covered a variety of key topics, including nutrition,
+      vaccines, testing, masks, treatment, and statistics.\n\nLike many similar studies
+      from the past year, we used an [online readability tool](https://readable.com/)
+      to score our content. By our measurements, like so many COVID-19 communication
+      websites out there today, we also failed to meet the recommended targets for
+      readability at the sixth or tenth-grade targets. Our sample reading score was
+      around a grade 15 (95%CI: 14.61, 15.63), which is considered difficult to read
+      and appropriate for college students.\n\nThere’s some nuance to this. While
+      readability is important, using [reading ease alone](https://www.cms.gov/Outreach-and-Education/Outreach/WrittenMaterialsToolkit/ToolkitPart07)
+      to determine how well the public will understand health messaging is problematic.
+      [Health literacy](https://www.cdc.gov/healthliteracy/learn/index.html) efforts
+      focus on how well individuals can find, understand, and use information to make
+      health-related decisions. Readability scores should be considered together with
+      clear communications tools to promote accessibility, actionability, and health
+      literacy.\n\nThere are many tools available through the [U.S. Centers for Disease
+      Control and Prevention (CDC)](https://www.cdc.gov/healthliteracy/developmaterials/plainlanguage.html),
+      [U.S. National Institutes of Health](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple),
+      the [World Health Organization](https://www.who.int/about/communications), and
+      others to improve health communications. These leading health organizations
+      all suggest that plain language principles should be used in all general communications:
+      \n\n- Engage the reader by organizing content to answer their questions. Include
+      a main message (or messages) at the beginning of the piece.\n- Use short sentences.\n-
+      Keep the readability grade level as low as possible to ensure that more people
+      can understand the content.\n- Use an active voice so that readers understand
+      what to do with the information provided.\n- Use everyday, plain, or common
+      language.\n\nOur Health Desk editorial team and public health experts are continuing
+      to evaluate where and how to improve communications to support health literacy
+      and equity. We have used an adapted clear communications tool from the [CDC](https://www.cdc.gov/ccindex/index.html)
+      to assess our explainers further, and we will apply our learnings to improve
+      our Health Desk content. We will integrate more action statements, begin using
+      simpler text, and adjust formatting. In the coming weeks, we will also implement
+      new editorial standards. Our new standards employ principles from journalism,
+      crisis communications, education, and health literacy. These are actions that
+      we encourage all health communicators to adopt, because readability is an important
+      fixture of our health information ecosystems. \n\nThe COVID-19 pandemic has
+      highlighted the need for resource investment in preparedness planning. It has
+      also highlighted the need for improved communications. We must ensure that the
+      public has the information needed to make safe and informed health decisions
+      to protect their health and the health of their families, friends, and communities.
+      The findings from studies of government, academic, and public-health-focused
+      COVID-19-related websites should serve as a call to action. To prevent the spread
+      of misinformation, health communicators must take responsibility for creating
+      more understandable and accessible content.\n"
+    words_by:
+    - sys:
+        id: 4MK93CSrpmc3tFyE5MYEeh
+    alt_date: !ruby/object:DateTime 2021-05-25 00:00:00.000000000 Z
+  - sys:
+      id: 10B2Pr9aLlD7d9MVWis6Mi
+      created_at: !ruby/object:DateTime 2021-05-21 16:40:37.758000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-28 13:00:11.989000000 Z
+      content_type_id: story
+      revision: 2
+    title: Over a Month Of Ekta's Collaborative Fact-checks in India
+    slug: over-a-month-of-ektas-collaborative-fact-checks-in-india
     topic:
     - sys:
         id: 7jQKmsQvOs6pjAjLth5gsA
@@ -234,76 +271,143 @@ moduleStories:
         id: 2JV51Hja1BxcyGdNP5VID3
     lead_image:
       sys:
-        id: 3NuaSj3XEn5T2gKYTrDcEc
-        created_at: !ruby/object:DateTime 2021-04-10 07:41:19.501000000 Z
-        updated_at: !ruby/object:DateTime 2021-04-10 08:27:10.530000000 Z
-      title: Misinformation trends, patterns and formats in the current assembly elections
+        id: ajYtELvpS099e4SnSboQc
+        created_at: !ruby/object:DateTime 2021-05-21 16:41:37.805000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 16:42:10.408000000 Z
+      title: Round up of Ekta's work
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3NuaSj3XEn5T2gKYTrDcEc/54f4fd12c763be885c2d14f68b54c422/Misinformation_trends__patterns_and_formats_in_the_current_assembly_elections.png"
-    description: 'Fact-checkers in India have been on guard against misinformation
-      long before the 2021 Legislative Assembly election schedules were announced
-      in West Bengal, Assam, Kerala, Tamil Nadu and Puducherry. Over the past few
-      months, they have observed a plethora of misinformation coming back in different
-      forms and languages. Some claims, images and videos gain more traction than
-      others and are often ones with communal misinformation and which denigrate political
-      opponents.
-
-      '
-    body: |-
-      Fact-checkers in India have been on guard against misinformation long before the 2021 Legislative Assembly election schedules were announced in West Bengal, Assam, Kerala, Tamil Nadu and Puducherry. Over the past few months, they have observed a plethora of misinformation coming back in different forms and languages. Some claims, images and videos gain more traction than others and are often ones with communal misinformation and which denigrate political opponents.
-
-      In this blogpost, members of the Ekta consortium share their insights from the experience of addressing misinformation around the 2021 Assembly elections and strategies adopted to make fact-checking efforts more effective during this time.
-
-      __1.  What kind of misinformation have you tackled so far in relation to the ongoing Assembly elections in India? What is the most viral election story you've addressed so far?__
-
-      Misinformation related to the Assembly elections started circulating even before the election schedule was declared. For fact-checkers addressing misinformation, most of the stories came from West Bengal. Old images of protests and rallies, unrelated and doctored videos, videos from India's neighbouring country Bangladesh, [fake election surveys](https://factcheck.afp.com/fake-survey-falsely-purports-project-winners-west-bengal-elections) and false news of Electronic Voting Machines (EVMs) being hacked that had already been debunked in the past --- misinformation took different forms and appeared in different formats. Fact-checkers have also debunked [claims of political leaders](https://www.thequint.com/news/webqoof/rahul-gandhi-highest-unemployment-in-assam-fact-check) in which they misrepresent data or quote wrong figures to present a picture of a particular state which is not entirely true.
-
-      Some content garnered more attention than others. Members of Ekta also observed a rise in communal twists to the misinformation that went viral online. Here are the most viral pieces of misinformation, according to Ekta members.
-
-      __AFP Fact Check__: A [deceptively edited video](https://factcheck.afp.com/clip-indian-politicians-campaign-speech-2019-has-been-deceptively-edited) of Assam politician Badruddin Ajmal's alongside a claim to turn the state of Assam into an Islamic state if his coalition comes to power.
-
-      __BOOM Live__: After West Bengal Chief Minister Mamata Banerjee allegedly injured her foot during campaigning in Nandigram, several images went viral with claims that she faked her injury. The narrative was supported with [flipped ](https://www.boomlive.in/fact-check/no-mamata-banerjee-did-not-fake-her-injury-viral-pic-is-flipped-12387)and [edited ](https://www.boomlive.in/fact-check/west-bengal-assembly-election-2021-fake-image-fact-check-nandigram-incident-morphed-image-viral-as-mamata-banerjee-faking-injury-12347)images, [old](https://www.boomlive.in/fact-check/old-image-peddled-as-mamata-banerjees-injured-leg-12312), [unrelated ](https://www.boomlive.in/fact-check/mamata-banerjee-west-bengal-old-image-soumitra-chatterjee-funeral-bandaged-foot-west-bengal-assembly-elections-2021-nandigram-12302)photos of leg injury and images of Banerjee during old campaigns.
-
-      __Factly__: Though there were no major elections in Telangana, the most viral piece of misinformation in the state was about an [alleged promise of financial assistance to Rohingya refugees](https://ekta-facts.com/blog-posts/morphed-images-unrelated-videos-and-fake-election-surveys-what-weve-seen-so-far-during-2021-state-elections-in-india#) in West Bengal BJP Manifesto.
-
-      __Vishvas News__: [A morphed image ](https://www.vishvasnews.com/politics/narendra-modi-and-amit-shah-did-not-wear-islamic-skull-caps-viral-image-is-morphed/)of Prime Minister Narendra Modi and Bharatiya Janata Party leader Amit Shah wearing skull caps was shared widely on social media in relation to West Bengal elections.
-
-      __WebQoof__: Trending Twitter hashtags such as #StandWithBengalHindus were often used to push misinformation. There were also [pictures from Bangladesh and Pakistan](https://www.thequint.com/news/webqoof/images-from-pakistan-bangladesh-viral-as-atrocities-on-hindus-in-bengal) to claim that Hindus were not safe in West Bengal.
-
-      __2.  Are there certain trends, patterns or formats of election-related misinformation that you're seeing across states and languages?__
-
-      __AFP Fact Check__: The disinformation pattern has been largely from one party targeting another, with edited and morphed images, doctored video clips and[ fake opinion polls](https://factcheck.afp.com/fake-survey-falsely-purports-project-winners-west-bengal-elections). We've been monitoring fan pages of the ruling party as well as the opposition party, but we've been seeing many trends of false news in the right-wing pages.
-
-      __BOOM Live__: We observed a trend (in case of West Bengal) of [fake opinion polls](https://www.boomlive.in/fact-check/west-bengal-election-2021-bjp-tmc-ipac-leaked-survey-mamata-banerjee-nandigram-suvendu-adhikari-dilip-ghosh-letter-jp-nadda-intelligence-bureau-fake-news-12570), [surveys ](https://www.boomlive.in/fact-check/fake-kolkatatv-opinion-poll-claims-suvendu-adhikaris-win-in-nandigram-12579)and [letters ](https://www.boomlive.in/fact-check/bengal-polls-morphed-abp-clipping-claims-tmcs-win-12626)attributed to prominent party leaders being passed off as genuine.
-
-      __Factly__: During any major election, misinformation, especially those related to either the prominent leaders or parties, is usually shared across states in multiple languages. Even though there is no major election in the Telangana state except for an assembly by-election, most of the viral election misinformation from poll-bound states has surfaced here as well. In fact we observed that a few stories went more viral here than in the poll bound states. One certain trend we have seen across the states is a constant rise in communal misinformation and that one party is favouring one particular religion over the other.
-
-      __WebQoof__: We have noticed that there is a lot of [communal misinformation](https://www.thequint.com/news/webqoof/posts-falsely-claiming-brahmin-man-thrashed-by-muslims-west-bengal-resurface) around the elections. We have debunked several claims which involves blame games for [appeasement politics ](https://www.thequint.com/news/webqoof/bjp-shares-clipped-video-of-mamata-reciting-islamic-verses)by certain parties.
-
-      __3.  Do you see any impact of the COVID-19 pandemic on election-related misinformation?__
-
-      __AFP Fact Check__: We've seen COVID-related misinformation, but haven't come across its impact on election-related misinformation.
-
-      __BOOM Live__: While election-related misinformation covers the major chunk of misinformation, several [myths of COVID-19](https://www.boomlive.in/coronavirus-outbreak/fake-message-of-covid-19-cure-found-by-pondicherry-student-revived-12603) and [lockdown ](https://www.boomlive.in/fact-check/fake-news-fact-check-yogi-adityanath-uttar-pradesh-lockdown-covid-19-old-video-12409)that were debunked earlier made a comeback amid the raging second wave.
-
-      __Factly__: While there was constant misinformation related to the COVID-19 pandemic, we haven't seen much of its impact on election-related misinformation, except that there was misinformation on the prices and availability of the vaccine which was used either to credit or discredit the government. With the recent surge in the COVID-19 cases, we are coming across allegations against few states on their failure to handle the surge in cases and the distribution of vaccines.
-
-      __WebQoof__: We haven't seen a direct impact of the pandemic on election-related misinformation, per se. However, there have been a lot of old claims around COVID-19, which are now recirculating in the light of the current surge. We have also noticed misinformation around vaccines.
-
-      __4.  Are there any new strategies that you've adopted to tackle misinformation in the election season?__
-
-      __AFP Fact Check__:  We've been monitoring hashtags on Twitter and surveiling political fan pages and groups on Facebook of both opposition and ruling parties through CrowdTangle.
-
-      __BOOM Live__: We are monitoring hashtags on Twitter for election-related narratives that are often led by misinformation.
-
-      __Factly__: Except for keeping a constant eye out towards trends across various states, there hasn't been much of a change in our strategies.
-
-      __WebQoof__: Other than monitoring trends on Twitter and monitoring CrowdTangle, we are trying to identify pieces of misinformation on Telegram.
-
-      *__This content was produced by Ekta, a consortium of Indian fact-checking groups supported by Meedan. Visit https://ekta-facts.com/ for more information.__*
+      url: "//images.ctfassets.net/g118h5yoccvd/ajYtELvpS099e4SnSboQc/3429074d878b03833acf1d25efca56e9/Roundup_of_Ekta_content_1__1_.png"
+    description: "Ekta is a consortium of  six Indian fact-checking groups to address
+      misinformation in a collaborative manner. All the groups which include, AFP
+      Fact Check, BOOM Live, Factly, India Today Fact Check, Vishvas Newsw and WebQoof,
+      have also been running WhatsApp tiplines as part of the platform's third party
+      fact-checking program. All six groups came together in April 2021 during state
+      elections in five states in India to share verified information, insights and
+      trends related to the elections. \n"
+    body: "### [Ekta](https://ekta-facts.com/) is a consortium of  six Indian fact-checking
+      groups to address misinformation in a collaborative manner. All the groups which
+      include, [AFP Fact Check](https://factcheck.afp.com/), [BOOM Live](https://www.boomlive.in/),
+      [Factly](https://factly.in/), [India Today Fact Check](https://www.indiatoday.in/fact-check),
+      [Vishvas News](https://www.vishvasnews.com/) and [WebQoof](https://www.thequint.com/news/webqoof),
+      have also been running WhatsApp tiplines as part of the platform's third party
+      fact-checking program. \n\nAll six groups came together in April 2021 during
+      state elections in five states in India to share verified information, insights
+      and trends related to the elections. Meedan is also a partner in the Ekta consortium
+      and provides strategic inputs along with access to its technology platform,
+      Check, to Ekta partners. In mid-April-May 2021, when India witnessed a surge
+      in COVID-19 cases, Ekta diversified its focus to address misinformation around
+      the pandemic and vaccination drives.\n\nSince its launch in April, members of
+      Ekta meet every Monday to discuss the most viral misinformation  and potential
+      stories for collaboration. Meedan provides insights on the most requested items
+      - text and images, received on the tiplines. Input and intelligence is then
+      shared on fact-checks and explainers — evidence from the ground, quotes from
+      experts and government officials and regional insights.  Content developed in
+      a collaborative manner is published on partners' websites with the Ekta branding.
+      \ \n\nThe pooling of resources and intelligence is meant to reduce the time
+      taken by participating newsrooms in  fact-checking a viral piece of misinformation.
+      The aim is to collaboratively work on a minimum of one story a week. All the
+      reports produced by members of Ekta through the collaboration are curated as
+      weekly blog posts on Ekta's website. [Meedan's Health Desk](https://health-desk.org/)
+      shares inputs from subject experts on misinformation related to COVID-19 and
+      health related topics.\n\nOver the past weeks, Ekta has covered misinformation
+      around the West Bengal election, post-poll violence, COVID-19, oxygen shortage
+      in hospitals during the current surge in viral infections, alternative treatments
+      of COVID-19, vaccines and conspiracy theories about the pandemic. Till date
+      Ekta has published ten collaborative blogposts and collaboratively worked on
+      five viral claims. Here are a few blog posts from Ekta showcasing the work of
+      the coalition.\n\n1.  [Ekta Flags Video From Bangladesh Which Has Been Falsely
+      Linked to Post Poll Violence & Alleged Rape in West Bengal](https://ekta-facts.com/blog-posts/ekta-flags-video-from-bangladesh-which-has-been-falsely-linked-to-post-poll-violence-alleged-rape-in-west-bengal)\n\n2.
+      \ [Ekta Counters Misleading Posts Prescribing Homeopathic Aspidosperma As a
+      Substitute for Oxygen in COVID-19 Patients](https://ekta-facts.com/blog-posts/ekta-counters-misleading-posts-prescribing-homeopathic-aspidosperma-as-a-substitute-for-oxygen-in-covid-19-patients)\n\n3.
+      \ [Viral Posts Blaming State Governments for Delayed Installation of Oxygen
+      Plants Are Misleading, Finds Ekta](https://ekta-facts.com/blog-posts/viral-posts-blaming-state-governments-for-delayed-installation-of-oxygen-plants-are-misleading-finds-ekta)\n\n4.
+      \ [The Come-back of a Fallacy: Read Ekta's Debunks of Claims Linking COVID-19
+      and 5G](https://ekta-facts.com/blog-posts/the-come-back-of-a-fallacy-read-ektas-debunks-of-claims-linking-covid-19-and-5g)\n\n5.
+      \ [Ekta Flags Unrelated and Old Images Used to Claim Oxygen Shortage in India](https://ekta-facts.com/blog-posts/ekta-flags-unrelated-and-old-images-used-to-claim-oxygen-shortage-in-india)\n\n6.
+      \ [Morphed Images, Old Videos & Fake Election Surveys: What We've Seen So Far
+      During 2021 State Elections in India](https://ekta-facts.com/blog-posts/morphed-images-unrelated-videos-and-fake-election-surveys-what-weve-seen-so-far-during-2021-state-elections-in-india)\n\nFor
+      more information about the consortium, visit <https://ekta-facts.com/> or drop
+      an email to <editors@ekta-facts.com>."
     words_by:
     - sys:
-        id: 63aDI74CtzeFHW0hZ3xPH6
+        id: 5i0ZluvBzz6h4ashdZJIkH
+  - sys:
+      id: 45Wg5Qo4drwECLbukXc7U1
+      created_at: !ruby/object:DateTime 2021-05-18 16:52:50.419000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-22 01:45:30.524000000 Z
+      content_type_id: story
+      revision: 1
+    title: Welcome Darius Kazemi, Our Senior Frontend Developer
+    slug: welcome-darius-kazemi-our-senior-frontend-developer
+    topic:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+    lead_image:
+      sys:
+        id: 6esU5LYXt6OEYgOEtUYfwg
+        created_at: !ruby/object:DateTime 2021-05-18 17:00:05.734000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-18 17:00:22.653000000 Z
+      title: Darius Kazemi square headshot
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6esU5LYXt6OEYgOEtUYfwg/ec740708a13716dd2d5f1ac84236888f/Darius-Kazemi.jpeg"
+    body: "Meedan is excited to have Darius Kazemi on board as our Senior Frontend
+      Developer! Check out his work on Check :-) and learn more about him in the short
+      Q&A below.\n\n### 1. What has been your experience before you joined Meedan?
+      \n\nMy first career was as a video game developer. I got interested in open
+      source games technology, and specifically browser-based game engines. This opened
+      the door to web technology more broadly and before I knew it I became a full-stack
+      developer. I developed [a creative coding practice](http://tinysubversions.com/projects/
+      \"Darius' creative coding practice\") focused primarily on social media bots
+      and cofounded a [creative technology cooperative](https://feeltrain.com/ \"Feel
+      Train creative tech cooperative\"). In 2018, I was awarded a [Mozilla Open Web
+      Fellowship](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/
+      \"Mozilla Open Web fellowship\") embedded with [Code for Science & Society](https://codeforscience.org/
+      \"Code for Science & Society website\"), researching and building decentralized
+      social media software. That culminated in a guide called [Run Your Own Social](https://runyourown.social/
+      \"Run Your Own social network, built by Darius\"). I did some work for [Center
+      for Digital Resilience](https://digiresilience.org/ \"Center for Digital Resilience\"),
+      and then spent the pandemic being a full time therapeutic foster dad (with some
+      [fact-checking on the side](https://www.nytimes.com/2020/06/16/science/social-media-bots-kazemi.html
+      \"Social Media bots feature from the NY Times\")).\n\n### 2. Tell us about an
+      exciting and insightful experience that has shaped your perspective and work.\n\nI
+      would point to spending a year of my fellowship traveling around the world and
+      talking to people in different countries with extremely different needs for
+      what they want to get out of their internet experience. It was incredibly formative
+      for me and really helped me reset my baseline expectations for what people want
+      from technology. Some people in remote areas have massive external bandwidth
+      limitations and anything that requires talking to a cloud service is a no-go
+      for them. For some groups of indigenous people, knowledge is tied to geographic
+      location and it actually really matters to them physically where that knowledge
+      is stored. It’s enabled me to do much better work when thinking about communication
+      systems from the ground up.\n\n### 3. What is the bot making community like
+      online? What are the strengths and what gaps do you see?\n\nI think bots used
+      to be a more specific definable practice but ever since the 2016 election, “bot”
+      has [become a really over-loaded term](https://tinysubversions.com/notes/the-bot-scare/
+      \"how the term \"bot\" has become overloaded\") that actually has a lot more
+      to do with disinformation than fun art projects or useful tools. Platforms are
+      (rightly) cracking down on malicious bots, but non-malicious bots tend to get
+      swept up in the same crackdowns so what we end up with is a more hostile environment
+      for our bot makers. It’s one of the reasons I was driven to running my own social
+      media platforms. Ultimately I think that's led to a “cooling off” of the bot
+      making community as something concrete. It seems like less of an identity these
+      days (“I’m a bot artist”) and more like just another piece of people's practices
+      within creative coding. Frankly I think that’s natural and good, for a medium
+      to not lose its luster when it loses its novelty, but just to become something
+      “normal” that people do.\n\n### 4. What brought you to Meedan?\n\nI was wrapping
+      up a year of foster parenting and was looking for meaningful work as a programmer.
+      My time as a Mozilla Fellow introduced me to the [Internet Freedom Festival](https://internetfreedomfestival.org/
+      \"Internet Freedom Festival\"). They have a job board and Meedan was listed
+      there. I loved the mission so I applied!\n\n### 5. What's a project you're excited
+      about right now?\n\nWe have a new search feature that we’re going to be rolling
+      out that I’ve been working on for the last month. I’m excited to see how it
+      helps our users get their work done more effectively. In particular, searching
+      for similar images could be really powerful when trying to search for similar
+      instances of reported disinformation!\n\n### 6. Tell us some fun facts about
+      Darius.\n\n- I’m a published author of a [book on video game history](https://bossfightbooks.com/products/jagged-alliance-2-by-darius-kazemi
+      \"Darius' book on video game history\").\n- I spent the year 2019 reading one
+      internet RFC every day in chronological order [and blogging about it](https://write.as/365-rfcs/365-ietf-rfcs-a-50th-anniversary-dive
+      \"A year in blog posts about internet Request For Comments\").\n- Muhammad Ali
+      kissed me (when I was a baby)"
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z

@@ -3179,7 +3179,7 @@ section:
 - sys:
     id: MOmb1Ov4ZDqBYYmm4gxUU
     created_at: !ruby/object:DateTime 2021-04-29 18:34:42.793000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-10 17:31:22.090000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-14 22:16:48.673000000 Z
     content_type_id: section
     revision: 0
   title: CEO's Note
@@ -3219,6 +3219,26 @@ section:
         id: 5wP67EdCcnAW0RGzQuIN1A
     top_border: false
   - sys:
+      id: WxL3bEyLxinkekI46fOGY
+      created_at: !ruby/object:DateTime 2021-05-21 22:26:51.522000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-21 22:39:01.836000000 Z
+      content_type_id: moduleUserQuote
+      revision: 0
+    quote_by: Maria Ressa
+    quote: The enabling factor is something that all of us have to deal with as fact
+      checkers, and that factor is technology. We need to fight technology with technology.
+      That’s the reason we’re here with Meedan.
+    source: Founder and CEO Rappler, Board Member Meedan
+    link: https://www.rappler.com/
+    avatar:
+      sys:
+        id: 3FbDYWemkCyaXqxkTXcPXy
+        created_at: !ruby/object:DateTime 2021-05-21 22:38:56.122000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 22:39:23.295000000 Z
+      title: Maria Ressa
+      description: Founder and CEO Rappler, Board Member Meedan
+      url: "//images.ctfassets.net/g118h5yoccvd/3FbDYWemkCyaXqxkTXcPXy/2666fd933fe42c9fca9e165e4de763a6/meedan_network_rappler-maria-ressa.png"
+  - sys:
       id: 6JP45XyMvXbtaJ1tcN6dHl
       created_at: !ruby/object:DateTime 2021-05-04 13:25:34.437000000 Z
       updated_at: !ruby/object:DateTime 2021-05-04 13:40:19.997000000 Z
@@ -3229,10 +3249,10 @@ section:
       sys:
         id: 43Fb4bcX5jRbAOIjMI5mHw
         created_at: !ruby/object:DateTime 2021-05-04 13:37:21.176000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-04 13:37:59.589000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-27 20:23:16.591000000 Z
       title: Programme Maps
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/43Fb4bcX5jRbAOIjMI5mHw/307fd84fe84dc88594085dd31e2911e8/Annual-Report_Programme_Maps.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/43Fb4bcX5jRbAOIjMI5mHw/e34a4242f3557fe44c65bf5c4bcbc192/meedan_2020-annual-report_program-regions.png"
     top_border: true
   - sys:
       id: 1KUZvKrCFC1mXNPRWCD34R
@@ -3271,10 +3291,75 @@ section:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/6uyNP0gJMcNtuFY6M86Nrr/1160a4d2b6dbb42078a15da419e2521f/meedani_plant_group_shot.jpg"
     top_border: true
+  - sys:
+      id: 3Eflprh0Bn3brn91N4Dt4X
+      created_at: !ruby/object:DateTime 2021-05-24 00:09:41.428000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-24 00:09:59.252000000 Z
+      content_type_id: moduleLeadText
+      revision: 0
+    content: Event Highlights
+  - sys:
+      id: 1WGDxV6UL254llTZgJb5EK
+      created_at: !ruby/object:DateTime 2021-05-24 00:10:20.138000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:10:58.169000000 Z
+      content_type_id: moduleListItem
+      revision: 0
+    title: " Digital Humanities and NLP Workshop"
+    date: March 02
+  - sys:
+      id: 7Et7vpkfGfhrxBB8JoAUbu
+      created_at: !ruby/object:DateTime 2021-05-26 22:03:40.351000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:11:30.791000000 Z
+      content_type_id: moduleListItem
+      revision: 0
+    title: Tech and Check 2020
+    date: April 03
+  - sys:
+      id: 3OsEwzbUCQFbjikjA1kKdv
+      created_at: !ruby/object:DateTime 2021-05-24 00:11:22.671000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:09:24.733000000 Z
+      content_type_id: moduleListItem
+      revision: 0
+    title: Check Global Network Launch
+    date: May 05
+  - sys:
+      id: 2DRBHpbCKIJr18kk6GsMdM
+      created_at: !ruby/object:DateTime 2021-05-24 00:12:09.978000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:09:14.499000000 Z
+      content_type_id: moduleListItem
+      revision: 0
+    title: 'Maria Ressa & Seema Yasmin: Reporting Barriers During COVID'
+    date: June 18
+  - sys:
+      id: 2NqbfdUqOivDg9tSMrPoZW
+      created_at: !ruby/object:DateTime 2021-05-24 00:12:46.731000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:04:46.479000000 Z
+      content_type_id: moduleListItem
+      revision: 0
+    title: Countering the COVID-19 Misinfodemic with Text Similarity and Social Data
+      Science
+    date: June 24
+  - sys:
+      id: 2LSCNI92UKMQgUv2PdItRs
+      created_at: !ruby/object:DateTime 2021-05-24 00:13:29.664000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:08:08.403000000 Z
+      content_type_id: moduleListItem
+      revision: 0
+    title: 'National Academy of Sciences Presents: Addressing Health Misinformation
+      Through Health Literacy Practices'
+    date: July 29
+  - sys:
+      id: 5HFjn0yGnqU9F2093xn4hB
+      created_at: !ruby/object:DateTime 2021-05-24 00:14:15.069000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:20:14.216000000 Z
+      content_type_id: moduleListItem
+      revision: 0
+    title: 'SwitchPoint 2020: The Global Fund Virtual Switchpoint Exchange'
+    date: September 18
 - sys:
     id: GMFi41nJfmLsWSU1yKMoR
     created_at: !ruby/object:DateTime 2021-04-29 18:39:47.848000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-16 23:55:46.115000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-14 22:17:42.422000000 Z
     content_type_id: section
     revision: 0
   title: In Numbers
@@ -3307,9 +3392,28 @@ section:
         id: 2OHYdaQ1pBHPQbKLayxm7m
     top_border: false
   - sys:
+      id: G0t382GbtHlINbFmJQf0S
+      created_at: !ruby/object:DateTime 2021-05-21 22:39:53.341000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-21 22:41:59.924000000 Z
+      content_type_id: moduleUserQuote
+      revision: 0
+    quote_by: Kate Wilkinson
+    quote: The Health Desk is helpful and trustworthy “because we have the opportunity
+      to get answers from credible experts. This is very important for our work.
+    source: Deputy Chief Editor,<br /> Africa Check
+    link: https://africacheck.org/
+    avatar:
+      sys:
+        id: ZKv20toLU5pPAvcHb0hkn
+        created_at: !ruby/object:DateTime 2021-05-21 22:41:57.415000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 22:43:21.496000000 Z
+      title: Kate Wilkinson
+      description: Deputy Chief Editor, Africa Check
+      url: "//images.ctfassets.net/g118h5yoccvd/ZKv20toLU5pPAvcHb0hkn/a4ca2c9568fe71bc5fed93cfba55b200/meedan_network_africa-check-kate-wilkinson.png"
+  - sys:
       id: 2zBPM7BjjoLGlgP2YgNOLn
       created_at: !ruby/object:DateTime 2021-05-04 15:06:22.548000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-16 23:19:13.130000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-24 00:23:25.303000000 Z
       content_type_id: module2ColumnContent
       revision: 0
     title: Digital Health Lab
@@ -3322,25 +3426,94 @@ section:
         id: 3rzckNqOFGnfZGGWwTQvr8
     - sys:
         id: 3oeP9IRNmU66LTR569uiLu
+    - sys:
+        id: 7vWUtClh3LjVUGjxuAs46Y
+    - sys:
+        id: BI2zEBQpNELmWWEugstRD
+    - sys:
+        id: 5GMOS57iqTyrAX671q1yZa
     top_border: true
+  - sys:
+      id: 5ONY41WqBfoAg8qDATETlt
+      created_at: !ruby/object:DateTime 2021-06-14 22:01:07.287000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-14 22:02:09.893000000 Z
+      content_type_id: moduleUserQuote
+      revision: 0
+    quote_by: Sean Ndlovu
+    quote: If there is a question that comes, my team would jump on the database and
+      trying to figure out. Of course, Google helps but Google, sometimes it does
+      not have an authoritative voice... It’s the nice thing about[the COVID-19 Expert
+      Database] instead of just picking up from Google because half the time, you
+      know, some people write some articles [that appear on Google searches], you
+      do not know how trusted they are.
+    source: Innovation and Research Manager at CITE
+    link: https://cite.org.zw/
+    avatar:
+      sys:
+        id: 4shookzdWIo5CINYncuZxU
+        created_at: !ruby/object:DateTime 2021-06-14 22:02:07.701000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-14 22:07:29.237000000 Z
+      title: CITE ZIMBABWE Sean Ndlovu
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/4shookzdWIo5CINYncuZxU/593dacf75868e883d375ebb64dafa5e1/CITE_ZIMBABWE_Sean-Ndlovu.png"
+  - sys:
+      id: 3iukWcQ28hZnWgkeuStNpL
+      created_at: !ruby/object:DateTime 2021-05-21 22:43:28.263000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-21 22:44:28.090000000 Z
+      content_type_id: moduleUserQuote
+      revision: 0
+    quote_by: Jency Jacobs
+    quote: We’ve been running a tipline for two years, and this is the tool we have
+      been waiting for. One that can make the newsroom process of finding misinformation
+      more efficient and automate the responses.
+    source: Newsroom Editor <br/> BOOM
+    link: https://www.boomlive.in/
+    avatar:
+      sys:
+        id: 2uMaFL7610NFNfBKi0zF9Z
+        created_at: !ruby/object:DateTime 2021-05-21 22:44:24.881000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 22:45:20.699000000 Z
+      title: Jency Jacobs
+      description: Newsroom Editor, BOOM
+      url: "//images.ctfassets.net/g118h5yoccvd/2uMaFL7610NFNfBKi0zF9Z/2c9fca5bd28a1f20c0f3035206160529/meedan_network_boom-jency-jacob.png"
   - sys:
       id: 3hIORs6TH6nAfMgpCpsbDn
       created_at: !ruby/object:DateTime 2021-05-04 15:17:12.478000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 15:17:43.151000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:18:03.524000000 Z
       content_type_id: module2ColumnContent
       revision: 0
-    title: Third-party Fact Checking
+    title: WhatsApp Third-Party Fact-Checking Program
     content:
     - sys:
         id: 1dh3SDLjRDrVjUKvT5TMsf
     top_border: true
   - sys:
+      id: 2OJnCDessClupMZGRnwTYo
+      created_at: !ruby/object:DateTime 2021-06-11 22:48:51.322000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-11 22:51:57.599000000 Z
+      content_type_id: moduleUserQuote
+      revision: 0
+    quote_by: Merinette Retona
+    quote: We actually highly recommend the database to our trainees whenever we conduct
+      fact-check trainings and talks, since we know that they won’t find the information
+      in there hard to understand.
+    source: Merinette Retona <br/> VERA Files
+    link: https://verafiles.org/
+    avatar:
+      sys:
+        id: 2hdHtidDc91frekuJ1xCfR
+        created_at: !ruby/object:DateTime 2021-06-11 22:51:51.511000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-11 22:54:47.412000000 Z
+      title: VERA files Merinette Retona
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2hdHtidDc91frekuJ1xCfR/22fcc447b21ade5a9d8a67bc5b0c3675/VERA_files_Merinette-Retona.png"
+  - sys:
       id: 3in3leHfACtdcxFbz81hWH
       created_at: !ruby/object:DateTime 2021-05-04 15:27:18.445000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 15:27:35.903000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:12:32.798000000 Z
       content_type_id: module2ColumnContent
       revision: 0
-    title: CheckU
+    title: Training
     content:
     - sys:
         id: 6B57X2SR2XMSO4XarO2O4B
@@ -3357,52 +3530,24 @@ section:
         id: u8Ez4o2M4YTlLSfPjscgm
     top_border: true
   - sys:
-      id: 2ZmiLgO8pBOFgcq8LtDLXs
-      created_at: !ruby/object:DateTime 2021-05-04 15:38:11.647000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-16 23:53:51.274000000 Z
-      content_type_id: module2ColumnContent
+      id: 6DbW8KoS6dFx2f03V7YSim
+      created_at: !ruby/object:DateTime 2021-05-21 22:45:26.374000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-21 22:46:16.339000000 Z
+      content_type_id: moduleUserQuote
       revision: 0
-    title: Press Mentions
-    content:
-    - sys:
-        id: 1xjFtl8Rj7lWayIqJcYUHz
-    - sys:
-        id: 7pI35O8aw6llTRlSoQywiE
-    - sys:
-        id: 28XQd2A5o3dI6VAISrZrZS
-    - sys:
-        id: 5HdZVcZsbiW4hPOdWNj6HU
-    - sys:
-        id: 5ysOEb5N7LQTwIE7qu15r7
-    - sys:
-        id: 69T3VZCqNm1UXbdS7zHU9B
-    - sys:
-        id: zJHHz3bdy8cvE9KZ5QKAl
-    - sys:
-        id: 7yG2laD2BgXKFvTZEBTGoS
-    - sys:
-        id: 6vwmNv6rqqK6n4bnEcvFyt
-    - sys:
-        id: 4nVdzK4PvMQy4R4azASWMZ
-    - sys:
-        id: 6yJfPSJkGtXp2PZDHZdTMj
-    - sys:
-        id: 5c7JTAkXhkp0o9Ft7qbPxw
-    - sys:
-        id: 4WdL3uJUSGG5RUD5PP9deY
-    - sys:
-        id: lCsixEwE2NCxuINUiaHZT
-    - sys:
-        id: 2wxMjelJUxjWcyZDphqNqk
-    - sys:
-        id: 6p1oxeK8ECz8BHKHkZIM2t
-    - sys:
-        id: 74zZKUzDgh1ddauJ2XI6hx
-    - sys:
-        id: 4pthAaNfo5YmcxtCKO1gmv
-    - sys:
-        id: 3cb9LYuAlzEbAc9kynx2ev
-    top_border: true
+    quote_by: Ritu Kapur
+    quote: In just that last two months we have already found that Check has really
+      been a force multiplier in being able to track down fake posts.
+    source: Founder and CEO <br/> The Quint
+    link: https://www.thequint.com/
+    avatar:
+      sys:
+        id: 7BLpiNo0QTPysA2tyHaZJm
+        created_at: !ruby/object:DateTime 2021-05-21 22:46:13.784000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 22:47:14.251000000 Z
+      title: Ritu Kapur
+      description: Founder and CEO, The Quint
+      url: "//images.ctfassets.net/g118h5yoccvd/7BLpiNo0QTPysA2tyHaZJm/6f899e68ad23d59feea4bea72c2f457b/meedan_network_the-quint-ritu-kapur.png"
   - sys:
       id: sxKSNNHwvhjaCXwMDVK7O
       created_at: !ruby/object:DateTime 2021-05-04 15:48:56.770000000 Z
@@ -3414,15 +3559,15 @@ section:
       sys:
         id: 3xlMITRuAhgYkQWft74xnn
         created_at: !ruby/object:DateTime 2021-05-04 15:49:38.920000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-04 15:50:51.627000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-27 20:20:51.390000000 Z
       title: Geographic Areas Served in 2020
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3xlMITRuAhgYkQWft74xnn/c4d3ab1da57f628091e675c761ae9562/Annual-Report_2020_map.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/3xlMITRuAhgYkQWft74xnn/b73ddcba5978271b35bfa33a634bb8e9/meedan_2020_annual-report_geographic-areas-served.png"
     top_border: true
 - sys:
     id: 1rVh7IjKY42jkmUO52nban
     created_at: !ruby/object:DateTime 2021-04-29 18:40:22.930000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-21 22:45:31.975000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-03 23:34:04.059000000 Z
     content_type_id: section
     revision: 0
   title: What are people saying
@@ -3446,47 +3591,27 @@ section:
     content: We are humbled by these quotes from our partners using Meedan’s tools
       in 2020.
   - sys:
-      id: 78APp2k1Fo3i1X9duh8vGg
-      created_at: !ruby/object:DateTime 2021-05-04 16:15:06.651000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 16:15:25.874000000 Z
-      content_type_id: modulePullQuote
+      id: nFDhiQK5bkwahUzxXMnQT
+      created_at: !ruby/object:DateTime 2021-05-21 22:11:56.418000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-21 22:17:16.445000000 Z
+      content_type_id: moduleUserQuote
       revision: 0
-    pullquote_by: VERA FILES
-    pullquote: We actually highly recommend the database to our trainees whenever
-      we conduct fact-check trainings and talks, since we know that they won’t find
-      the information in there hard to understand.
-  - sys:
-      id: 4XH6fatZMzQjbJjSdjeHEg
-      created_at: !ruby/object:DateTime 2021-05-04 16:15:51.005000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 16:16:09.256000000 Z
-      content_type_id: modulePullQuote
-      revision: 0
-    pullquote_by: CITE ZIMBABWE
-    pullquote: If there is a question that comes, my team would jump on the database
-      and trying to figure out. Of course, Google helps but Google, sometimes it does
-      not have an authoritative voice... It’s the nice thing about[the COVID-19 Expert
-      Database] instead of just picking up from Google because half the time, you
-      know, some people write some articles [that appear on Google searches], you
-      do not know how trusted they are.
-  - sys:
-      id: 7nITkt4UJXaKRNQ3G8zx4v
-      created_at: !ruby/object:DateTime 2021-05-16 23:57:44.393000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-16 23:58:38.308000000 Z
-      content_type_id: modulePullQuote
-      revision: 0
-    pullquote_by: REUTERS
-    pullquote: We love you guys… we think you’ve been super, super helpful in the
-      last year. We’ve used you so much, I’m sure we’ll be using you more as well.
-      We’re really grateful to have you to help us.
-  - sys:
-      id: 24K5j2Qn6rGrIwZxxR4fRz
-      created_at: !ruby/object:DateTime 2021-05-16 23:58:46.018000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-16 23:59:07.453000000 Z
-      content_type_id: modulePullQuote
-      revision: 0
-    pullquote_by: AFRICA CHECK
-    pullquote: The Health Desk is helpful and trustworthy “because we have the opportunity
-      to get answers from credible experts. This is very important for our work
+    quote_by: Balkrishna
+    quote: We used to get inundated by the thousands of messages that people would
+      send us on Whatsapp. Check haws not only made it possible for us to sift through
+      the fact check requests quickly, it also helped deliver most of our readers
+      with fast and personalized responses. This helps us build a direct bond of trust
+      with our audience.
+    source: India Today
+    link: https://www.indiatoday.in/
+    avatar:
+      sys:
+        id: WBO9BBo7LrNrm2KFI9df5
+        created_at: !ruby/object:DateTime 2021-05-21 22:17:10.759000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 22:25:26.506000000 Z
+      title: Balkrishna
+      description: Fact-checking Editor India Today
+      url: "//images.ctfassets.net/g118h5yoccvd/WBO9BBo7LrNrm2KFI9df5/f2363a6bc1923b062d103c68b421df25/meedan_network_india-today-balkrishna.png"
   - sys:
       id: 71FFA8rTtq7RH2PBEDPSqb
       created_at: !ruby/object:DateTime 2021-05-04 16:17:44.798000000 Z
@@ -3520,106 +3645,6 @@ section:
         id: 5UPNwGRNaug6npBuR7pAjV
     - sys:
         id: 1NRfXDRHaYWBZLSv5idYJ4
-  - sys:
-      id: nFDhiQK5bkwahUzxXMnQT
-      created_at: !ruby/object:DateTime 2021-05-21 22:11:56.418000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-21 22:17:16.445000000 Z
-      content_type_id: moduleUserQuote
-      revision: 0
-    quote_by: Balkrishna
-    quote: We used to get inundated by the thousands of messages that people would
-      send us on Whatsapp. Check haws not only made it possible for us to sift through
-      the fact check requests quickly, it also helped deliver most of our readers
-      with fast and personalized responses. This helps us build a direct bond of trust
-      with our audience.
-    source: India Today
-    link: https://www.indiatoday.in/
-    avatar:
-      sys:
-        id: WBO9BBo7LrNrm2KFI9df5
-        created_at: !ruby/object:DateTime 2021-05-21 22:17:10.759000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-21 22:25:26.506000000 Z
-      title: Balkrishna
-      description: Fact-checking Editor India Today
-      url: "//images.ctfassets.net/g118h5yoccvd/WBO9BBo7LrNrm2KFI9df5/f2363a6bc1923b062d103c68b421df25/meedan_network_india-today-balkrishna.png"
-  - sys:
-      id: WxL3bEyLxinkekI46fOGY
-      created_at: !ruby/object:DateTime 2021-05-21 22:26:51.522000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-21 22:39:01.836000000 Z
-      content_type_id: moduleUserQuote
-      revision: 0
-    quote_by: Maria Ressa
-    quote: The enabling factor is something that all of us have to deal with as fact
-      checkers, and that factor is technology. We need to fight technology with technology.
-      That’s the reason we’re here with Meedan.
-    source: Founder and CEO Rappler, Board Member Meedan
-    link: https://www.rappler.com/
-    avatar:
-      sys:
-        id: 3FbDYWemkCyaXqxkTXcPXy
-        created_at: !ruby/object:DateTime 2021-05-21 22:38:56.122000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-21 22:39:23.295000000 Z
-      title: Maria Ressa
-      description: Founder and CEO Rappler, Board Member Meedan
-      url: "//images.ctfassets.net/g118h5yoccvd/3FbDYWemkCyaXqxkTXcPXy/2666fd933fe42c9fca9e165e4de763a6/meedan_network_rappler-maria-ressa.png"
-  - sys:
-      id: G0t382GbtHlINbFmJQf0S
-      created_at: !ruby/object:DateTime 2021-05-21 22:39:53.341000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-21 22:41:59.924000000 Z
-      content_type_id: moduleUserQuote
-      revision: 0
-    quote_by: Kate Wilkinson
-    quote: The Health Desk is helpful and trustworthy “because we have the opportunity
-      to get answers from credible experts. This is very important for our work.
-    source: Deputy Chief Editor,<br /> Africa Check
-    link: https://africacheck.org/
-    avatar:
-      sys:
-        id: ZKv20toLU5pPAvcHb0hkn
-        created_at: !ruby/object:DateTime 2021-05-21 22:41:57.415000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-21 22:43:21.496000000 Z
-      title: Kate Wilkinson
-      description: Deputy Chief Editor, Africa Check
-      url: "//images.ctfassets.net/g118h5yoccvd/ZKv20toLU5pPAvcHb0hkn/a4ca2c9568fe71bc5fed93cfba55b200/meedan_network_africa-check-kate-wilkinson.png"
-  - sys:
-      id: 3iukWcQ28hZnWgkeuStNpL
-      created_at: !ruby/object:DateTime 2021-05-21 22:43:28.263000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-21 22:44:28.090000000 Z
-      content_type_id: moduleUserQuote
-      revision: 0
-    quote_by: Jency Jacobs
-    quote: We’ve been running a tipline for two years, and this is the tool we have
-      been waiting for. One that can make the newsroom process of finding misinformation
-      more efficient and automate the responses.
-    source: Newsroom Editor <br/> BOOM
-    link: https://www.boomlive.in/
-    avatar:
-      sys:
-        id: 2uMaFL7610NFNfBKi0zF9Z
-        created_at: !ruby/object:DateTime 2021-05-21 22:44:24.881000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-21 22:45:20.699000000 Z
-      title: Jency Jacobs
-      description: Newsroom Editor, BOOM
-      url: "//images.ctfassets.net/g118h5yoccvd/2uMaFL7610NFNfBKi0zF9Z/2c9fca5bd28a1f20c0f3035206160529/meedan_network_boom-jency-jacob.png"
-  - sys:
-      id: 6DbW8KoS6dFx2f03V7YSim
-      created_at: !ruby/object:DateTime 2021-05-21 22:45:26.374000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-21 22:46:16.339000000 Z
-      content_type_id: moduleUserQuote
-      revision: 0
-    quote_by: Ritu Kapur
-    quote: In just that last two months we have already found that Check has really
-      been a force multiplier in being able to track down fake posts.
-    source: Founder and CEO <br/> The Quint
-    link: https://www.thequint.com/
-    avatar:
-      sys:
-        id: 7BLpiNo0QTPysA2tyHaZJm
-        created_at: !ruby/object:DateTime 2021-05-21 22:46:13.784000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-21 22:47:14.251000000 Z
-      title: Ritu Kapur
-      description: Founder and CEO, The Quint
-      url: "//images.ctfassets.net/g118h5yoccvd/7BLpiNo0QTPysA2tyHaZJm/6f899e68ad23d59feea4bea72c2f457b/meedan_network_the-quint-ritu-kapur.png"
 - sys:
     id: 7fTJxUcpN5NKLZA6JeepA
     created_at: !ruby/object:DateTime 2021-04-29 18:40:53.176000000 Z
