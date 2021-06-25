@@ -3359,7 +3359,7 @@ section:
 - sys:
     id: GMFi41nJfmLsWSU1yKMoR
     created_at: !ruby/object:DateTime 2021-04-29 18:39:47.848000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-14 22:17:42.422000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-15 22:39:33.221000000 Z
     content_type_id: section
     revision: 0
   title: In Numbers
@@ -3457,6 +3457,17 @@ section:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/4shookzdWIo5CINYncuZxU/593dacf75868e883d375ebb64dafa5e1/CITE_ZIMBABWE_Sean-Ndlovu.png"
   - sys:
+      id: 3hIORs6TH6nAfMgpCpsbDn
+      created_at: !ruby/object:DateTime 2021-05-04 15:17:12.478000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:18:03.524000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: WhatsApp Third-Party Fact-Checking Program
+    content:
+    - sys:
+        id: 1dh3SDLjRDrVjUKvT5TMsf
+    top_border: true
+  - sys:
       id: 3iukWcQ28hZnWgkeuStNpL
       created_at: !ruby/object:DateTime 2021-05-21 22:43:28.263000000 Z
       updated_at: !ruby/object:DateTime 2021-05-21 22:44:28.090000000 Z
@@ -3477,15 +3488,44 @@ section:
       description: Newsroom Editor, BOOM
       url: "//images.ctfassets.net/g118h5yoccvd/2uMaFL7610NFNfBKi0zF9Z/2c9fca5bd28a1f20c0f3035206160529/meedan_network_boom-jency-jacob.png"
   - sys:
-      id: 3hIORs6TH6nAfMgpCpsbDn
-      created_at: !ruby/object:DateTime 2021-05-04 15:17:12.478000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-27 20:18:03.524000000 Z
+      id: 6B1CamKxzzWNRCbVJa3xVO
+      created_at: !ruby/object:DateTime 2021-06-15 22:38:41.465000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-15 22:38:56.148000000 Z
       content_type_id: module2ColumnContent
       revision: 0
-    title: WhatsApp Third-Party Fact-Checking Program
+    title: Research
     content:
     - sys:
-        id: 1dh3SDLjRDrVjUKvT5TMsf
+        id: 23gPXhx5NJ93u6pWDydkjn
+  - sys:
+      id: 6DbW8KoS6dFx2f03V7YSim
+      created_at: !ruby/object:DateTime 2021-05-21 22:45:26.374000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-21 22:46:16.339000000 Z
+      content_type_id: moduleUserQuote
+      revision: 0
+    quote_by: Ritu Kapur
+    quote: In just that last two months we have already found that Check has really
+      been a force multiplier in being able to track down fake posts.
+    source: Founder and CEO <br/> The Quint
+    link: https://www.thequint.com/
+    avatar:
+      sys:
+        id: 7BLpiNo0QTPysA2tyHaZJm
+        created_at: !ruby/object:DateTime 2021-05-21 22:46:13.784000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 22:47:14.251000000 Z
+      title: Ritu Kapur
+      description: Founder and CEO, The Quint
+      url: "//images.ctfassets.net/g118h5yoccvd/7BLpiNo0QTPysA2tyHaZJm/6f899e68ad23d59feea4bea72c2f457b/meedan_network_the-quint-ritu-kapur.png"
+  - sys:
+      id: 3in3leHfACtdcxFbz81hWH
+      created_at: !ruby/object:DateTime 2021-05-04 15:27:18.445000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 20:12:32.798000000 Z
+      content_type_id: module2ColumnContent
+      revision: 0
+    title: Training
+    content:
+    - sys:
+        id: 6B57X2SR2XMSO4XarO2O4B
     top_border: true
   - sys:
       id: 2OJnCDessClupMZGRnwTYo
@@ -3508,46 +3548,16 @@ section:
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/2hdHtidDc91frekuJ1xCfR/22fcc447b21ade5a9d8a67bc5b0c3675/VERA_files_Merinette-Retona.png"
   - sys:
-      id: 3in3leHfACtdcxFbz81hWH
-      created_at: !ruby/object:DateTime 2021-05-04 15:27:18.445000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-27 20:12:32.798000000 Z
-      content_type_id: module2ColumnContent
-      revision: 0
-    title: Training
-    content:
-    - sys:
-        id: 6B57X2SR2XMSO4XarO2O4B
-    top_border: true
-  - sys:
       id: 56RCYEJNdM3p2xudbtJk7N
       created_at: !ruby/object:DateTime 2021-05-04 15:32:36.907000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 15:32:56.424000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-24 23:50:20.187000000 Z
       content_type_id: module2ColumnContent
       revision: 0
-    title: Dev Analytics
+    title: Engineering
     content:
     - sys:
         id: u8Ez4o2M4YTlLSfPjscgm
     top_border: true
-  - sys:
-      id: 6DbW8KoS6dFx2f03V7YSim
-      created_at: !ruby/object:DateTime 2021-05-21 22:45:26.374000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-21 22:46:16.339000000 Z
-      content_type_id: moduleUserQuote
-      revision: 0
-    quote_by: Ritu Kapur
-    quote: In just that last two months we have already found that Check has really
-      been a force multiplier in being able to track down fake posts.
-    source: Founder and CEO <br/> The Quint
-    link: https://www.thequint.com/
-    avatar:
-      sys:
-        id: 7BLpiNo0QTPysA2tyHaZJm
-        created_at: !ruby/object:DateTime 2021-05-21 22:46:13.784000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-21 22:47:14.251000000 Z
-      title: Ritu Kapur
-      description: Founder and CEO, The Quint
-      url: "//images.ctfassets.net/g118h5yoccvd/7BLpiNo0QTPysA2tyHaZJm/6f899e68ad23d59feea4bea72c2f457b/meedan_network_the-quint-ritu-kapur.png"
   - sys:
       id: sxKSNNHwvhjaCXwMDVK7O
       created_at: !ruby/object:DateTime 2021-05-04 15:48:56.770000000 Z

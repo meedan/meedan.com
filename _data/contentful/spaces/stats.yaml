@@ -881,38 +881,40 @@ stat:
 - sys:
     id: 1tUibyOHmtPRzAlaxVaa8n
     created_at: !ruby/object:DateTime 2021-05-04 15:29:09.934000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:29:30.235000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:07:59.690000000 Z
     content_type_id: stat
     revision: 0
   label: Integrations
   number: '4'
-  note: "(Workbench, Facebook Engagement API, Crowdtangle API and Cloud Vision API)"
+  note: Workbench, Facebook Engagement API, Crowdtangle API and Cloud Vision API
 - sys:
     id: 5jTwXRKPItuZ1XLuKbkbSh
     created_at: !ruby/object:DateTime 2021-05-04 15:29:31.746000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:29:49.086000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:08:11.042000000 Z
     content_type_id: stat
     revision: 0
   label: New languages
   number: '6'
-  note: "(Bengali, Filipino, Hindi, Malayalam, Swahili and Telugu)"
+  note: Bengali, Filipino, Hindi, Malayalam, Swahili and Telugu
 - sys:
     id: 57KiKARPiuxzBqTX267KvS
     created_at: !ruby/object:DateTime 2021-05-04 15:29:49.555000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:29:59.093000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:08:32.438000000 Z
     content_type_id: stat
     revision: 0
   label: Check reports
-  number: '23,545'
+  number: '290,319'
 - sys:
     id: 5CDaenzM4cjfkV9qd5RRXH
     created_at: !ruby/object:DateTime 2021-05-04 15:30:05.908000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:30:35.329000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:09:02.568000000 Z
     content_type_id: stat
     revision: 0
   label: Total number of countries where Check is used so far on projects
   number: '24'
-  note: "(At least 24, 9 countries used Check during elections and democratic transition)\n"
+  note: 'At least 24, 9 countries used Check during elections and democratic transition
+
+    '
 - sys:
     id: 24UHdy7nXl1ZVy1VJsAmOJ
     created_at: !ruby/object:DateTime 2021-05-04 15:33:07.846000000 Z
@@ -1137,3 +1139,54 @@ stat:
     revision: 0
   label: Other
   number: "($74)"
+- sys:
+    id: LRnpLYyEhfExRjKliUdae
+    created_at: !ruby/object:DateTime 2021-06-15 22:39:51.442000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-15 22:40:20.001000000 Z
+    content_type_id: stat
+    revision: 0
+  label: Papers Published
+  number: '8'
+- sys:
+    id: 62ICdWCsBzvBh6WmQODFkp
+    created_at: !ruby/object:DateTime 2021-06-15 22:40:20.513000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-15 22:40:33.918000000 Z
+    content_type_id: stat
+    revision: 0
+  label: Papers under Review
+  number: '5'
+- sys:
+    id: 7iKw1S3uamp11nWnQYcQoa
+    created_at: !ruby/object:DateTime 2021-06-25 01:09:37.134000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:09:57.848000000 Z
+    content_type_id: stat
+    revision: 0
+  label: Open-source MOOCs created
+  number: '3'
+- sys:
+    id: 1siZNMDTKHZyPb66KCDXAI
+    created_at: !ruby/object:DateTime 2021-06-25 01:10:03.005000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:10:29.848000000 Z
+    content_type_id: stat
+    revision: 0
+  label: People trained by Check Global partners
+  number: '3,545'
+- sys:
+    id: 4qvVOmrOkNqzkY8DYKvmdY
+    created_at: !ruby/object:DateTime 2021-06-25 01:10:33.721000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:12:21.389000000 Z
+    content_type_id: stat
+    revision: 0
+  label: Number of organisations supported through NAWA Investigative Fund
+  number: '10'
+  note: Total funding of $49,650
+- sys:
+    id: 6MXxDlMB3ZRRo0hVjkTVaH
+    created_at: !ruby/object:DateTime 2021-06-25 01:12:31.820000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-25 01:13:00.856000000 Z
+    content_type_id: stat
+    revision: 0
+  label: Number of grassroot projects awarded
+  number: '24'
+  note: Through the Check Global Covid-19 Fund in NAWA, Latin America, East and Western
+    Africa and the APAC region

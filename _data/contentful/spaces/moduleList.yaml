@@ -429,9 +429,9 @@ moduleList:
 - sys:
     id: 5nrulC97yc41kgWt557cSL
     created_at: !ruby/object:DateTime 2020-03-24 00:42:55.249000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-07 21:17:11.557000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-15 20:19:22.298000000 Z
     content_type_id: moduleList
-    revision: 10
+    revision: 11
   title: We are the Meedanis
   items:
   - sys:
@@ -677,6 +677,16 @@ moduleList:
     staff: true
     role: Program and Impact Director, Check Global
     location: Birmingham, UK
+  - sys:
+      id: 5ae0P5OHR0m1xEjrlXd4ef
+      created_at: !ruby/object:DateTime 2021-06-15 20:17:21.573000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-15 20:17:50.030000000 Z
+      content_type_id: contributor
+      revision: 1
+    name: Jenna Sherman
+    staff: true
+    role: Program Manager, Digital Health Lab
+    location: Boston
   - sys:
       id: 2cRNRL36vo5k6BJIOnCEpE
       created_at: !ruby/object:DateTime 2020-03-24 00:48:00.745000000 Z

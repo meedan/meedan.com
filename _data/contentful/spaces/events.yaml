@@ -4089,3 +4089,88 @@ event:
   non_public: false
   event_date_string: '2021-06-09'
   event_end_date_string: '2021-06-09'
+- sys:
+    id: 6w1E1yZ3tVKIvBaEqp0HLi
+    created_at: !ruby/object:DateTime 2021-06-17 11:02:32.805000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-17 12:13:20.799000000 Z
+    content_type_id: event
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'ONA21: Save Resources by *Not Building* The Software You Need'
+  event_date: !ruby/object:DateTime 2021-06-22 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2021-06-22 00:00:00.000000000 Z
+  time: |-
+    - *San Francisco* 11:45AM
+    - *New York* 2:45PM
+    - *Salvador* 3:45PM
+    - *London* 7:45PM
+  status: Upcoming
+  location_human_friendly: Online on Zoom
+  register_link: https://ona21.journalists.org/sessions/save-by-not-building/
+  long_description: |-
+    Sometimes the best path is to *not build* the software you need, and to instead leverage existing useful and affordable software tools to both produce engaging programs and maintain the development resources you’ll need elsewhere.
+
+    Join this fascinating conversation, led by Meedan Director of Engineering Caio Almeida and Director of Product Pierre Conti, at Online News Association's 2021 virtual conference to learn more about how to develop the software infrastructures and test new ideas with scarce resources using the tools you have on hand.
+
+    This session is for:
+    - Product professionals looking for a survey of useful and affordable technologies
+    - Newsrooms leaders interested in low-cost, low-lift ideas and solutions
+    - Anyone who values testing new ideas and experimenting with available tools
+  slug: ona21-save-resources-by-not-building-the-software-you-need
+  non_public: true
+  event_date_string: '2021-06-22'
+  event_end_date_string: '2021-06-22'
+- sys:
+    id: 6lyfz7Qo1vavdBIf1tCeSt
+    created_at: !ruby/object:DateTime 2021-06-17 12:30:48.071000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-17 13:58:30.507000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Vifaa Tech Fest: Working From Home and Tech Enabling It'
+  event_date: !ruby/object:DateTime 2021-06-11 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2021-06-11 00:00:00.000000000 Z
+  time: |-
+    - *Accra* 7:00AM
+    - *Lagos* 8:00AM
+    - *Cairo* 9:00AM
+    - *Nairobi* 10:00AM
+  status: Past
+  register_link: https://gadgets-africa.com/vifaa-tech-festival/
+  long_description: "Meedan's Program Manager for East Africa, Eric Mugendi, leads
+    workshop \"The Work From Home Era and the Tech that Enables It\" at Vifaa Tech
+    Fest 2021.\n\n[Vifaa Tech Festival](https://gadgets-africa.com/vifaa-tech-festival/
+    \"Vifaa Tech Festival website\") is a two-day virtual festival that brings together
+    industry stakeholders and consumers onto one platform. The festival features conversations
+    around consumer technologies and products with the aim of connecting technology
+    creators and consumers in the continent. \nThe expo’s name has been derived from
+    the Swahili word, Vifaa, which means equipment or gear, representing the industry’s
+    gadgets."
+  slug: vifaa-tech-fest-working-from-home-and-tech-enabling-it
+  non_public: false
+  event_date_string: '2021-06-11'
+  event_end_date_string: '2021-06-11'
