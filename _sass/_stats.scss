@@ -19,7 +19,7 @@
 
 @include responsive('min-width: #{$width-tablet}') {
 	.stat .label {
-		width: 30%;
+		width: 40%;
 	}
 }
 
