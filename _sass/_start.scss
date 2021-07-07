@@ -1,0 +1,76 @@
+// @import "slick.scss";
+
+:root {
+    --black: #1A1A1A;
+    --blackInk: #262626;
+    --sunDown: #FFB2B2;
+    --sunSet: #E74640;
+    --brightRed: #FF4D7E;
+    --paleRed: #F2A7BE;
+    --accent: #F2DEDC;
+    --checkBlue: #2D77FC;
+    --vividBlue: #0055DD;
+    --coral: #FF864D;
+    --eastSide: #9F82C4;
+    --palePurple: #BAA5D4;
+    --cornflowerBlue: #5F9EE5;
+    --texasRose: #FFB34D;
+    --deepSea: #008D5E;
+    --green: #04733B;
+    --brightGreen: #36B687;
+    --green30: #3DCA86;
+    --silver: #A7A7A7;
+    --softOrange: #DAA06D;
+    --brightGreen:#36B687;
+    --brightNavy: #3358d5;
+    --lightNavy: #7798FF;
+    --paleNavy: #C1CCF4;
+    --paleBlue: #BBD6F4;
+    --brightYellow: #FDEA51;
+    
+    // type scale
+    --int: 1.333;
+    --scale-0: 4vw;
+    @include responsive('min-width: #{$width-tablet}') {
+        --scale-0: 2.4vw;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        --scale-0: 1.8vw;
+    }
+    --scale--1: calc(var(--scale-0) / var(--int));
+    --scale--2: calc(var(--scale-1) / var(--int));
+    // testing vw based scale
+    --scale-1: calc(var(--scale-0) * var(--int));
+    --scale-2: calc(var(--scale-1) * var(--int));
+    --scale-2-5: calc(var(--scale-1) * 1.18 * var(--int));
+    --scale-3: calc(var(--scale-2) * var(--int));
+    --scale-4: calc(var(--scale-3) * var(--int));
+    --scale-5: calc(var(--scale-4) * var(--int));
+    --scale-6: calc(var(--scale-5) * var(--int));
+    --scale-7: calc(var(--scale-6) * var(--int));
+    --scale-8: calc(var(--scale-7) * var(--int));
+    --scale-9: calc(var(--scale-8) * var(--int));
+    --scale-10: calc(var(--scale-9) * var(--int));
+    
+    --font-size-1: 1.4vw;
+    --space-1: 1rem; // ?
+    --space-2: 1.250rem; // 20px
+    --space-3: 1.667rem; // 30px
+    --space-4: 2.222rem; // 40px
+    --space-5: 3.333rem; // 60px
+    --space-6: 4.444rem; // 80px
+    --space-7: 5.556rem; // 100px
+    --space-8: 5.556rem; // 120px
+    --section-space: var(--space-6);
+    @include responsive('min-width: #{$width-tablet}') {
+        --space-1: 1.250rem; // 20px
+        --space-2: 1.667rem; // 30px
+        --space-3: 2.222rem; // 40px
+        --space-4: 3.333rem; // 60px
+        --space-5: 4.444rem; // 80px
+        --space-6: 5.556rem; // 100px
+        --space-7: 5.556rem; // 120px
+        --section-space: var(--space-7); // 120px
+        --space-8: 7.778rem; // 140px
+    }
+}

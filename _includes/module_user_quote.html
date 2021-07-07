@@ -1,0 +1,15 @@
+<div class="module module-user-quotes">
+    <div class="quotes">
+        {% include icon_quotes.html %}
+        <div class="user-quotes-wrapper">
+            <div class="user-quote">
+                <span class="quote">{{ module.quote | markdownify }}</span>
+                <span class="avatar">
+                    <img src="{{ module.avatar.url }}" alt="{{ module.quote_by }}" />
+                </span>
+                <span class="quote-by">{{ module.quote_by }}</span>
+                <span class="quote-by-title"><a href="{{ module.source_link }}">{{ module.source }}</a></span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,77 +1,8 @@
 ---
 program:
 - sys:
-    id: 1zpC5ejJrfSTK2vDdHzIUE
-    created_at: !ruby/object:DateTime 2021-02-18 21:28:09.525000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
-    content_type_id: program
-    revision: 2
-  title: Digital Health Lab
-  hero_image:
-    sys:
-      id: 2nW6GqFf50AHuJI42McaGY
-      created_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
-    title: 'Digital Health: Fact-checking in an era of misinfodemics'
-    description: 'Digital Health: Fact-checking in an era of misinfodemics'
-    url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"
-  short_description: 'Researching, designing and testing the impact of the internet
-    on public health. We are building a framework for addressing health misinformation,
-    and it is centered around more equitable access to quality health content. '
-  primary_link: https://meedan.com/digital-health-lab
-  links: |
-    - [Learn more](https://meedan.com/digital-health-lab)
-    - [Health Desk](http://health-desk.org/)
-  slug: digital-health-lab
-  order: 2
-- sys:
-    id: 6a0h9zSAl0xrtqnFzXrqCx
-    created_at: !ruby/object:DateTime 2021-02-20 00:57:15.041000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.042000000 Z
-    content_type_id: program
-    revision: 1
-  title: Credibility Coalition
-  hero_image:
-    sys:
-      id: 7sQg1C3EdlTzklL3YulGY7
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
-    title: Credibility Coalition
-    description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/7sQg1C3EdlTzklL3YulGY7/33897c950f96cf8bc93c8353d6d81aa2/project-credibility-coalition.png"
-  short_description: 'An interdisciplinary research incubator founded in partnership
-    with Hacks/Hackers. We facilitate working groups that think through misinformation
-    problems using design, health, economic and many other lenses. '
-  primary_link: https://credibilitycoalition.org/
-  links: "- [Website](https://credibilitycoalition.org/)\n"
-  slug: credibility-coalition
-  order: 3
-- sys:
-    id: 4xTPtdOyqM7fyx8sblrvm
-    created_at: !ruby/object:DateTime 2021-02-20 00:57:15.042000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.042000000 Z
-    content_type_id: program
-    revision: 1
-  title: Pop-Up Newsroom
-  hero_image:
-    sys:
-      id: 1JitRMENSazZqLtnMzC31C
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:55.970000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-10 23:10:00.215000000 Z
-    title: Pop-Up Newsroom
-    description: 
-    url: "//images.ctfassets.net/g118h5yoccvd/1JitRMENSazZqLtnMzC31C/2c263547a930ac2f6dd0a78bcd9a71fa/project-pop-up-newsroom.png"
-  short_description: 'We develop collaborative editorial projects with newsrooms around
-    the world. Our job is to generate large-scale ideas, supply the collaborative
-    technology and execute complex workflows between different news outlets. This
-    is a joint project with London-based news consultancy Fathm. '
-  primary_link: https://popup.news
-  links: "- [Website](https://popup.news/)"
-  slug: pop-up-newsroom
-  order: 4
-- sys:
     id: 4gC7nijW83RgFx3ylv05gq
-    created_at: !ruby/object:DateTime 2021-02-20 00:57:15.044000000 Z
+    created_at: !ruby/object:DateTime 2021-02-17 01:50:02.647000000 Z
     updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.044000000 Z
     content_type_id: program
     revision: 1
@@ -79,7 +10,7 @@ program:
   hero_image:
     sys:
       id: 6NUsv6oRkYob4fiImP6S2W
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:14.895000000 Z
+      created_at: !ruby/object:DateTime 2020-02-26 06:03:55.325000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:49:14.895000000 Z
     title: Check Global
     description: 
@@ -110,7 +41,7 @@ program:
   sections:
   - sys:
       id: 3zpdrjZeBGOlkTvFrchEYa
-      created_at: !ruby/object:DateTime 2020-06-18 03:16:45.425000000 Z
+      created_at: !ruby/object:DateTime 2020-04-30 19:57:35.775000000 Z
       updated_at: !ruby/object:DateTime 2020-06-18 03:16:45.425000000 Z
       content_type_id: section
       revision: 1
@@ -118,7 +49,7 @@ program:
     cover_graphic:
       sys:
         id: 3qY0ei2Bg7SMahDkxnxMgi
-        created_at: !ruby/object:DateTime 2020-06-18 03:16:34.398000000 Z
+        created_at: !ruby/object:DateTime 2020-06-17 22:43:16.721000000 Z
         updated_at: !ruby/object:DateTime 2020-08-10 23:00:09.617000000 Z
       title: Check Global – What We Do
       description: 
@@ -138,7 +69,7 @@ program:
         id: G131BSJzfGF7m1buiMyH0
   - sys:
       id: 3KKLPp1gaZFn8DA2991hai
-      created_at: !ruby/object:DateTime 2020-06-18 03:23:30.599000000 Z
+      created_at: !ruby/object:DateTime 2020-02-06 20:37:06.034000000 Z
       updated_at: !ruby/object:DateTime 2020-06-18 05:57:23.347000000 Z
       content_type_id: section
       revision: 2
@@ -146,7 +77,7 @@ program:
     cover_graphic:
       sys:
         id: 5z0rhk7t6MEUnGdvNYQyo6
-        created_at: !ruby/object:DateTime 2020-06-18 03:16:56.474000000 Z
+        created_at: !ruby/object:DateTime 2020-06-17 22:44:14.497000000 Z
         updated_at: !ruby/object:DateTime 2020-08-10 23:00:09.826000000 Z
       title: Check Global – The Five Pillars of Check Global
       description: 
@@ -180,20 +111,19 @@ program:
         id: 2CsSGl5GzJpKdc3H2DB6e5
   - sys:
       id: EqEniIFDbF8HASu0rKCJh
-      created_at: !ruby/object:DateTime 2020-06-18 03:23:45.136000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-18 05:57:19.675000000 Z
+      created_at: !ruby/object:DateTime 2020-05-01 18:38:40.201000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 05:57:51.230000000 Z
       content_type_id: section
       revision: 2
     title: Who we are
     cover_graphic:
       sys:
         id: 46wwHwBQpDhqhNqup0reBS
-        created_at: !ruby/object:DateTime 2020-06-18 03:23:40.862000000 Z
+        created_at: !ruby/object:DateTime 2020-06-17 22:43:49.492000000 Z
         updated_at: !ruby/object:DateTime 2020-08-10 23:00:09.833000000 Z
       title: Check Global – Who We Are
       description: 
       url: "//images.ctfassets.net/g118h5yoccvd/46wwHwBQpDhqhNqup0reBS/5a70e4f22ea09734cca13a7947f753b5/graphic_2.png"
-    background_color: "#fff"
     section_class: financials
     modules:
     - sys:
@@ -202,8 +132,77 @@ program:
         id: 1i4LKxNS2Ha1LF0MGWwyzp
   order: 1
 - sys:
+    id: 6a0h9zSAl0xrtqnFzXrqCx
+    created_at: !ruby/object:DateTime 2021-02-17 01:51:57.001000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.042000000 Z
+    content_type_id: program
+    revision: 1
+  title: Credibility Coalition
+  hero_image:
+    sys:
+      id: 7sQg1C3EdlTzklL3YulGY7
+      created_at: !ruby/object:DateTime 2020-02-26 06:03:14.316000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:49:43.136000000 Z
+    title: Credibility Coalition
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/7sQg1C3EdlTzklL3YulGY7/33897c950f96cf8bc93c8353d6d81aa2/project-credibility-coalition.png"
+  short_description: 'An interdisciplinary research incubator founded in partnership
+    with Hacks/Hackers. We facilitate working groups that think through misinformation
+    problems using design, health, economic and many other lenses. '
+  primary_link: https://credibilitycoalition.org/
+  links: "- [Website](https://credibilitycoalition.org/)\n"
+  slug: credibility-coalition
+  order: 3
+- sys:
+    id: 1zpC5ejJrfSTK2vDdHzIUE
+    created_at: !ruby/object:DateTime 2021-02-17 01:52:26.756000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.149000000 Z
+    content_type_id: program
+    revision: 2
+  title: Digital Health Lab
+  hero_image:
+    sys:
+      id: 2nW6GqFf50AHuJI42McaGY
+      created_at: !ruby/object:DateTime 2020-02-25 07:39:20.559000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-05 18:48:18.073000000 Z
+    title: 'Digital Health: Fact-checking in an era of misinfodemics'
+    description: 'Digital Health: Fact-checking in an era of misinfodemics'
+    url: "//images.ctfassets.net/g118h5yoccvd/2nW6GqFf50AHuJI42McaGY/bfe01ae5511a231cf646b547b8c5a1d6/project-digital-health-lab.png"
+  short_description: 'Researching, designing and testing the impact of the internet
+    on public health. We are building a framework for addressing health misinformation,
+    and it is centered around more equitable access to quality health content. '
+  primary_link: https://meedan.com/digital-health-lab
+  links: |
+    - [Learn more](https://meedan.com/digital-health-lab)
+    - [Health Desk](http://health-desk.org/)
+  slug: digital-health-lab
+  order: 2
+- sys:
+    id: 4xTPtdOyqM7fyx8sblrvm
+    created_at: !ruby/object:DateTime 2021-02-17 01:53:24.793000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 00:57:15.042000000 Z
+    content_type_id: program
+    revision: 1
+  title: Pop-Up Newsroom
+  hero_image:
+    sys:
+      id: 1JitRMENSazZqLtnMzC31C
+      created_at: !ruby/object:DateTime 2020-02-26 06:01:31.050000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-10 23:10:00.215000000 Z
+    title: Pop-Up Newsroom
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/1JitRMENSazZqLtnMzC31C/2c263547a930ac2f6dd0a78bcd9a71fa/project-pop-up-newsroom.png"
+  short_description: 'We develop collaborative editorial projects with newsrooms around
+    the world. Our job is to generate large-scale ideas, supply the collaborative
+    technology and execute complex workflows between different news outlets. This
+    is a joint project with London-based news consultancy Fathm. '
+  primary_link: https://popup.news
+  links: "- [Website](https://popup.news/)"
+  slug: pop-up-newsroom
+  order: 4
+- sys:
     id: 5Rsdz3XijqeW2cquqxjdnn
-    created_at: !ruby/object:DateTime 2021-02-20 01:02:57.381000000 Z
+    created_at: !ruby/object:DateTime 2021-02-20 01:02:20.121000000 Z
     updated_at: !ruby/object:DateTime 2021-02-20 01:02:57.381000000 Z
     content_type_id: program
     revision: 1
@@ -211,7 +210,7 @@ program:
   hero_image:
     sys:
       id: 6TfRuAKJj6golgGhzEl8eS
-      created_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
+      created_at: !ruby/object:DateTime 2020-02-27 02:37:40.031000000 Z
       updated_at: !ruby/object:DateTime 2020-03-05 18:49:02.614000000 Z
     title: Content Moderation Project
     description: Kat Lo

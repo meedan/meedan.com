@@ -2,316 +2,415 @@
 moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
-    created_at: !ruby/object:DateTime 2020-03-10 04:34:12.209000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-02 21:31:49.552000000 Z
+    created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-10 14:51:25.002000000 Z
     content_type_id: moduleStories
-    revision: 67
+    revision: 73
   title: Blog
   stories:
   - sys:
-      id: Qjmc87D7iZGsdoUOLWkgc
-      created_at: !ruby/object:DateTime 2021-02-02 20:19:11.094000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-04 19:20:15.764000000 Z
+      id: hJzg1USgBbdCXadavVs21
+      created_at: !ruby/object:DateTime 2021-05-27 13:48:02.614000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-27 16:08:14.514000000 Z
       content_type_id: story
-      revision: 6
-    title: 'Vaccine Media Hub: Our in-house scientists are supporting COVID-19 vaccine
-      response efforts for newsrooms & fact-checkers'
-    slug: meedan-digital-health-labs-all-women-team-of-in-house-scientists-public
+      revision: 5
+    title: 'What Spreads on WhatsApp?: A Snapshot of Tipline Content from India and
+      Brazil'
+    slug: what-spreads-on-whatsapp-a-snapshot-of-tipline-content-from-india-and-brazil
+    topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+    lead_image:
+      sys:
+        id: JfOvf1tfZt4aIMGHiZeOo
+        created_at: !ruby/object:DateTime 2021-05-27 15:21:09.176000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-27 15:21:49.869000000 Z
+      title: Brazil & India Tipline Factchecks
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/JfOvf1tfZt4aIMGHiZeOo/b53bea1c6ab734afbd7a06989d6cb2b9/Brazil___India_Tipline_Factchecks.png"
+    description: Information and misinformation spread like wildfire on social media
+      networks. While there are ways of tracking viral information on platforms like
+      Facebook and Twitter, encrypted networks like WhatsApp, Viber and Telegram are
+      often beyond the reach of investigation. Fact-checkers have started using tiplines
+      to understand and address misinformation spreading in these networks. Tiplines
+      are accounts on these platforms to which users are encouraged to send any potential
+      misleading information they see.
+    body: |-
+      Information and misinformation spread like wildfire on social media networks. While there are ways of tracking viral information on platforms like Facebook and Twitter, encrypted networks like WhatsApp, Viber and Telegram are often beyond the reach of investigation. Fact-checkers have started using tiplines to understand and address misinformation spreading in these networks. Tiplines are accounts on these platforms to which users are encouraged to send any potential misleading information they see.
+
+      In this blogpost, we look at the top requests received on WhatsApp tiplines of our partners in India and Brazil. The insights are based on a preliminary analysis of the most requested items on tiplines of two Braziilian and six Indian partners between April 1 and May 15, 2021. Our goal is to understand the major themes, topics and nature of fact-check requests received  by fact-checkers on their tiplines and to compare content across regions for variations and overlaps. All items analyzed were requests in text and image formats. (Please note that not all requests are misinformation; while some viral messages are false, misleading and partly false, there are also messages which are true and those calling for action and advising caution.)
+
+      __COVID related misinformation dominated tipline content received by Indian fact-checkers__
+
+      Amid a busy election season in the country, India saw a surge in COVID-19 cases. While fact-checkers expected a surge in election related misinformation, the COVID-19 crisis resulted in the resurfacing of pieces of information and misinformation which were viral back in 2020, during the initial stages of the pandemic. The analysis of the top requests across Indian tiplines shows that home remedies for COVID-19, conspiracy theories around the disease and vaccine with a political undertone and misleading political narratives around the handling of the pandemic dominated tipline content. Right after the election results were declared the tiplines also received viral content on post-poll violence in the state of West Bengal. Here are examples of the top requests and content received on the tiplines. *Please note again that many of these items may be false.*
+
+      1.  Claims about autopsy conducted in Italy and Russia revealed that deaths were falsely attributed to COVID-19 when the real cause of the deaths were due to 5G radiation, an issue that governments are trying to cover up. 
+
+      2.  Claims with home remedies for COVID-19 using honey, pepper and ginger developed by an Indian student and other other recommendations such as steam kills coronavirus in the nose and newspaper clipping claiming alum water to be useful for treating COVID-19
+
+      3.  Claims with warnings by medical and health bodies like the ICMR and WHO that the next 72-108 hours are crucial, alleged claim from a representative of Serum Institute of India discrediting COVID-19 and cautionary messages from leading doctors 
+
+      4.  Claims in a nationalistic tone  listing donations by corporates and individuals toward COVID-19 management funds
+
+      5.  Claim about hospital facilities of armed forces in India to have been dedicated to COVID-19 treatment for civilians 
+
+      6.  Claims promoting alternative treatment for COVID-19 - such as homeopathic Aspidosperma as a substitute for a fall in oxygen levels in COVID-19 patients
+
+      7.  A call to install CCTV cameras in COVID-19 wards of Indian hospitals to monitor how hospitals are treating patients 
+
+      8.  Anti -vaccination messages such as those warning women not to get vaccinated during menstruation and claims of vaccination of adults resulting in infertility
+
+      9.  Message to editors allegedly from employees of Times of India demanding the government be held accountable for the mismanagement of the COVID-19 crisis
+
+      10. Message about lockdown restriction guidelines in Lucknow and other cities 
+
+      11. Claims about black fungus causing deaths in recovered COVID-19 patients and linking deaths of known figures such as journalist Rohit Sardana to this
+
+      12. Image of a murdered woman shared as that of post-poll violence in West Bengal
+
+      13. Alleged government document showing approval for oxygen plants to negate claims that government has been impervious to oxygen shortage for COVID-19 treatment
+
+      14. Manipulated images of oxygen tanks bearing the logo of Reliance industries amid a oxygen crisis faced by hospitals
+
+      15. Pictorial representation of the number of All India Institute Medical Science (AIIMS) set up under each Prime Minister
+
+      16. Message along with a link to an article and quotes from doctors which say India has entered the third wave of the pandemic
+
+      __Pró-Bolsonaro messages topped tipline content in Brazil__
+
+      In the run up to the general election in 2022,  political messages dominated tipline content among Brazilian partners. Amid a  pandemic which has battered the country, viral content related to COVID-19 and its handling is intertwined with a strong political narrative and propaganda. Messages are heavily skewed towards supporting and glorifying President Bolsonaro's government while slandering the opposition. There seems to be a deliberate attempt in creating panic and despair, cautioning people against the [ghost of communism's presence](https://www.theatlantic.com/ideas/archive/2020/09/how-anti-communist-conspiracies-haunt-brazil/614665/)in the country and pointing to Bolsonaro as the only answer in these dire times. Though fewer in number, there are messages which are anti-Bolsonaro and on other topics such as vaccine hesitancy and the WhatsApp privacy policy update. Here are a few examples of the top themes taken from messages received on tiplines of Brazilian partners. *Please note again that many of these items may be false.*
+
+      1.  Allegations that media group Globo is exaggerating the grimness of the COVID situation in Brazil - 
+
+      2.  Messages supposedly linking COVID-19 deaths and faulty vaccines to Governor João Doria, who may also [run for office](https://www.reuters.com/world/americas/sao-paulo-governor-doria-wants-run-president-brazils-2022-vote-2021-04-20/) in the 2022 election.
+
+      3.  Posts seeking to discredit family members of victims of police brutality [during illegal raids](https://www.theguardian.com/world/2021/may/06/rio-de-janeiro-police-raid-favela-jacarezinho) in the Rio de Janeiro favelas.
+
+      4.  A fake New York Times clipping showing huge gatherings in support of President Bolsonaro. 
+
+      5.  Resurfacing message that the wife of revolutionist Che Guevara received retirement benefits under the administration of the Workers Party, leading opposition and socialist party in Brazil. 
+
+      6.  Claims of leading journalists being paid for speaking against Bolsonaro
+
+      7.  Fake claim attributed to WHO endorsing the use of Ivermectin for COVID treatment, supporting [Bolsonaro'e government](https://apublica.org/2020/11/brazil-politicians-distribute-fake-covid-19-cures/) strategy to distribute fake cures to COVID-19
+
+      8.  Claims of Bolsonaro paying people to protest against the Supreme Court and the Worker's party 
+
+      9.  Claims about the successful sourcing of ultrasound beds for cancer treatment under Bolsonaro in partnership with Israel
+
+      10. A call to spread a message about WhatsApp having access to personal photos from users' phones and financial fraud using WhatsApp facial recognition technology
+
+      11. Claims of vaccines not providing the desired immunity even after two jabs, supporting Bolsonaro's [open distrust](https://www.bloomberg.com/news/articles/2021-01-08/bolsonaro-mistrusts-covid-vaccines-and-brazil-is-falling-behind) of its efficacy
+
+      12. Posts undermining the work of municipal administrations in dealing with COVID-19 and giving credit to Bolsonaro administration for their good work
+
+      13. Messages praising Bolsonaro's astute move of setting up vaccine factories in Brazil, sourcing 5G technology of Huawei  and giving orders to create a new constitutional court in Brazil
+
+      14. Warning against hackers circulating 'Mexico made' virus on social media
+
+      15. Messages disputing the claims that Bolsonaro administration blocked federal funding to states
+
+      16. Conspiracy theories about how the spread of COVID-19 is linked to pharmaceutical companies associated with China, [a claim ](https://www1.folha.uol.com.br/internacional/en/world/2021/05/in-a-new-attack-bolsonaro-suggests-that-china-is-waging-a-biological-war-with-covid.shtml)Bolsonaro has made publicly
+
+      17. Dubious facts and figures to endorse COVID-19 strategy of the Bolsonaro administration to buy [large stocks ](https://www1.folha.uol.com.br/internacional/en/scienceandhealth/2021/02/nobody-is-doing-anything-wrong-says-bolsonaro-about-brazils-chloroquine-production.shtml)of Hydroxychloroquine and Ivermectin.
+
+      __Some preliminary insights from the analysis__ 
+
+      The analysis was conducted on clusters of messages received at least five times on either six tiplines in India or two tiplines in Brazil. These included 235 messages requested over 3000 times and 75 messages requested around 1000 times, respectively. Not all examples mentioned in this blogpost had that many requests, but all of them were among the top items for the time period. 
+
+      -   The surge of COVID-19 related queries when India witnessed the second wave and the political messages in Brazil ahead of presidential elections show how content circulating on WhatsApp is an offshoot of what is in the news and the larger events at hand.However, there are also indications that content trending on WhatsApp is also ahead of the newscycle and a prelude to major incidents and events such as the push for Bolsonaro as president in the 2022 elections. 
+
+      -   Viral claims are often recycled and reappear on WhatsApp. This was witnessed in the second wave of COVID in India as home remedies and other COVID related claims, which were debunked earlier when the pandemic first hit India, reappeared this year during the second wave of the pandemic. 
+
+      -   The goodwill messages of asking people to take precautions and remain cautious of the pandemic are often linked to recent incidents of deaths of known public figures and unfortunate events to create a sense of urgency and fear.  
+
+      -   Not all messages received on tiplines are fact-checkable as they tend to be appeal to emotions, propaganda and voicing of biased opinions
+
+      -   Visual representations are used in abundance to mislead users
+
+      -   In our analysis, we saw many variations of the same messages---including claims being repeated in different languages. The hyperlocal nature of content, multiple languages and contextual tweaks to viral messages point to the need for robust contextual understanding and a constant look out for the different forms misinformation takes during episodes of events. 
+
+      -   The analysis also points to similar claims circulating across the two regions. For instance, alleged claims by the World Health Organization on cure for COVID, claims about heads of states managing the crisis successfully in India and Brazil, messages fueling distrust on media outlets such as Globo in Brazil and Times of India in India, the alleged claims of how 5G technology is responsible for the deaths and not COVID.
+
+      __Methods__: The data used for the analysis was prepared by Meedan's research team using a new, state-of-the-art embedding model to group messages making similar claims across languages. We will be sharing the model and details of its creation in the next week. The contextual analysis and findings were written by program managers located in Brazil and India.
+
+      __Privacy and data governance__: The privacy of WhatsApp users is our top priority. This analysis was done on anonymous, aggregated data containing only the raw text of messages sent to the tiplines by users. The dataset had no information about the users whatsoever. The lists included in this blogpost are themes and paraphrases from clusters of messages. They do not directly duplicate the message content.
+
+      All data is owned by our partners. This blog post only includes data from partners who agreed to allow for anonymous, aggregate analysis of the messages sent to their tiplines.
+    words_by:
+    - sys:
+        id: 5i0ZluvBzz6h4ashdZJIkH
+    - sys:
+        id: 57swkb0x1YLvhHB31YFb3U
+  - sys:
+      id: 1Uxm3ZoC7FMzE0HivRS7zf
+      created_at: !ruby/object:DateTime 2021-05-25 16:42:56.472000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-10 12:33:16.668000000 Z
+      content_type_id: story
+      revision: 1
+    title: We have a right to information. But in a pandemic, many of us can't read
+      the information.
+    slug: we-have-a-right-to-information-but-in-a-pandemic-many-of-us-cant-read-the
     topic:
     - sys:
         id: 13HcGYCQHm8vDRW3EAkw6j
     lead_image:
       sys:
-        id: WSi8YqOhA0XSAzy3mUC0s
-        created_at: !ruby/object:DateTime 2021-02-02 20:19:05.700000000 Z
-        updated_at: !ruby/object:DateTime 2021-02-02 20:19:05.700000000 Z
-      title: 'Responding to COVID-19: Reflections on year one'
+        id: 3UAQWNilLEpmrbOXR47hC3
+        created_at: !ruby/object:DateTime 2021-05-25 22:38:50.301000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-10 12:33:13.158000000 Z
+      title: We have a right to information. But in a pandemic, many of us can't read
+        the information.
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/WSi8YqOhA0XSAzy3mUC0s/a73a48f7297d24c4e027e38209e94f09/meedan_1year_hd.png"
-    description: "Since 2018, the priority at Meedan's Health Desk has been to alleviate
-      the information bottlenecks between critical emerging scientific research and
-      the journalism and fact-checking communities that need to get the information
-      accurately and quickly.\n\nTo our community, we appreciate you, we are grateful
-      for you, and our team of scientists is on-call for you as public health information
-      response priorities shift and expand in 2021.   \n\nOver the last year, we have
-      developed scientific collaborations with communicators reaching millions around
-      the world, and now with our brilliant collaborators at the Australian Science
-      Media Centre, we also have a dedicated support service to specifically help
-      with reporting on COVID-19 vaccines. The includes a global alliance of Science
-      Media Centres and Meedan Digital Health Lab’s in-house team of public health
-      scientists and pandemic response experts, supported by the Google News Initiative."
-    body: "To our incredible community of journalists, fact-checkers, podcasters,
-      artists, and designers, and to the supporters that believed in the importance
-      of collaborative responses to public health information inequities,\n\nThank
-      you for making it possible to continue our public health response work. \n\nSince
-      2018, the priority at Meedan's Health Desk has been to alleviate the information
-      bottlenecks between critical emerging scientific research and the journalism
-      and fact-checking communities that need to get the information accurately and
-      quickly. \n\nAs part of Meedan's Digital Health Lab, we are entering the second
-      year of Health Desk project. Journalists and public health experts are continuing
-      to work together in a time of crisis to get fast, reliable information to newsrooms
-      and fact-checking organizations around the world. With a rapid-response publishing
-      process that borrows from two distinct industries—computer engineering and television
-      news—our all-women team has written more than 200 explainers on COVID-19 topics
-      for journalists and fact-checkers. \n\nIn local newsrooms from Delhi to Indianapolis,
-      our work means that journalists do not have to scramble to find experts for
-      comment every time COVID-19 news breaks. This alleviates an information bottleneck
-      between critical emerging scientific research and public audiences that need
-      to get the information accurately and quickly. \n\nOver the last year, we have
-      developed scientific collaborations with communicators reaching millions around
-      the world, and now with our brilliant collaborators at the Australian Science
-      Media Centre, we also have a dedicated support service to specifically help
-      with reporting on COVID-19 vaccines. The includes a global alliance of Science
-      Media Centres and Meedan Digital Health Lab’s in-house team of public health
-      scientists and pandemic response experts, supported by the Google News Initiative.
-      For updates, check out https://health-desk.org/vaccines/. \n\nWorking with you
-      all over the last year has been an honor. The explainers, glossary terms and
-      resources that our scientists have created to support communicators reaches
-      audiences in more than 18 countries across Asia, Latin America, Africa, Europe
-      and North America. A sample content impact audit recently highlighted that 81%
-      of the public health pieces that we have supported are on the front-page of
-      Google search results for that topic in the region covered. That is such an
-      essential metric as we think about the health information data voids that exist
-      online, and how your work fills the information gaps that might otherwise largely
-      contain problematic health misinformation.  \n\nWith a small team of scientists,
-      researchers and communicators to influence diverse information spaces, these
-      collaborations have shown the level of scale that can be made possible through
-      syndication models for content dissemination, and strong collaborations across
-      the public health and journalism fields. \n\nConversations with partner organizations
-      have demonstrated how having access to experts can increase the subject matter
-      that fact-checkers can cover, and therefore the content available online to
-      the fact-checkers’and journalists' audiences. How can we work together to continue
-      to fill public health information gaps across a variety of topics, ranging from
-      vaccinations to infectious disease, from nutrition to reproductive health care?
-      \n\nAt a presentation our team participated in about health misinformation hosted
-      by the National Academies of Science, Engineering and Medicine, health fact-checking
-      was identified as “the next frontier of health literacy”, and this is in direct
-      response to the public health efforts of innovative communicators around the
-      world. This includes our amazing partners: VERA Files, India Today, Nigeria
-      Health Watch, Speak Up Africa, Boom Live, Africa Check, Animal Politico, and
-      many more. We're grateful for your dedication to untangling complex questions
-      related to the COVID-19 pandemic, fact-checking in an era of evolving science
-      and moments of uncertainty. Your response to the misinfodemic is vital.  \n\nWe
-      have also started to serve local community media outlets in the United States,
-      including public broadcasters such as the Atlanta NPR-affiliate, WABE, and Indianapolis’
-      public radio station WFYI, as well as large media organizations like the New
-      York Times and Reuters. Through a broader network of public broadcasters in
-      the United States, called America Amplified, COVID-19 questions answered by
-      Meedan scientists are brought to local audiences across the country. Our media
-      partnerships also include Tayo Help Desk, a resource that offers American Filipinos
-      localized insights into COVID-19 information. \n\nWe thank each and every one
-      of the journalists, fact-checkers, and communicators that have come to us for
-      support, and are looking forward to continuing collaborations in 2021. \n\nHere's
-      where you can find more information about the Vaccine Media Hub collaboration:
-      https://meedan.com/blog/questions-about-covid-19-vaccines-the-vaccine-media-hub-is-coming-soon/ "
+      url: "//images.ctfassets.net/g118h5yoccvd/3UAQWNilLEpmrbOXR47hC3/8c4c8e55e98983fc229e161d29a7e252/meedan_blog_right-to-information.jpg"
+    body: "The pandemic has left us all trying to untangle new and complicated COVID-19
+      information. It’s been an overwhelming and continuous part of the pandemic,
+      and it’s not one that’s just in our heads. New research suggests that few websites
+      are publishing COVID-19 content at a reading level that works for the general
+      population. \n\nEveryone has the [right to information](https://hhi.harvard.edu/files/humanitarianinitiative/files/signalcode_final.pdf?m=1607469621)
+      during a crisis. Unavailable, unclear, or inaccessible communications can increase
+      anxiety, especially during times of uncertainty and ambiguity. Complex messages
+      are also prone to misunderstandings. Misinterpretation or misapplication of
+      complex topics like COVID-19 can result in the spread of misinformation and
+      midinformation.\n\nOver the past year, researchers have studied the “readability”
+      of COVID-19 information published online. What’s readability, you ask? Reading
+      level tools that give “readability scores” estimate the number of years of education
+      needed to understand a piece of content. In the U.S., many newspapers publish
+      content to accommodate people who read between an eighth- and tenth-grade level.
+      However, the average American reading level is around grade five or six. For
+      [low-literacy](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple)
+      readers, experts recommend creating materials at a reading level between third
+      and fifth grade. \n\nThe recent studies found that most COVID-19 information
+      websites aren’t meeting us where we’re at:\n\n- [Worrall and colleagues](https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-020-09710-5.pdf)
+      assessed the readability of COVID-19-related content for a total of 240 English
+      language webpage URLs from Ireland, the United Kingdom, Canada, and the United
+      States. Using four tools, the team found that only 17.2% (n=165) of all readability
+      scores analyzed were at a universally readable level. They also found that government
+      and public health organization websites scored better than academic or scientific
+      institutions, digital media, or others.\n\n- [Basch and colleagues](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/public-health-communication-in-time-of-crisis-readability-of-online-covid19-information/E1B32CF9E602F287902AD91F1D10DA7D)
+      conducted a similar study of COVID-19 online search results from 100 English
+      language websites. They also found that most websites were above a tenth-grade
+      reading level target. In their sample, only four websites had content at less
+      than a sixth-grade reading level.\n\n- [Mishra and Dexter](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2769382?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamanetworkopen.2020.18033)
+      compared COVID-19 information readability from official public health agencies
+      and governments of 15 countries. They found that all 18 websites scored above
+      a sixth to eighth-grade reading level. They also found that 95% (n=141) scored
+      above grade eight for all five readability metrics.\n\n- Additional COVID-19-related
+      readability studies by [Szmuda and colleagues](https://www.sciencedirect.com/science/article/abs/pii/S0033350620302031?via%3Dihub),
+      [Garcia and colleagues](http://link.springer.com/10.1007/s10900-021-00973-6),
+      and [Ferguson and colleagues](https://onlinelibrary.wiley.com/doi/10.1111/1753-6405.13066)
+      suggested that the reading ease of COVID-19-related health information online
+      is a major problem. \n\nIn a recent reflection on our Health-Desk work, we conducted
+      a series of semi-structured qualitative interviews (n=6) with partner journalists
+      and fact-checkers from six different countries. The partners we interviewed
+      endorsed the quality, readability, and applicability of our content in supporting
+      their fact-checking efforts. \n\nTo further our evaluation, we conducted a readability
+      audit. We chose 27 COVID-19-related Health Desk explainers written between June
+      and December 2020. All of the audited entries were ones submitted by our media
+      partners. The queries covered a variety of key topics, including nutrition,
+      vaccines, testing, masks, treatment, and statistics.\n\nLike many similar studies
+      from the past year, we used an [online readability tool](https://readable.com/)
+      to score our content. By our measurements, like so many COVID-19 communication
+      websites out there today, we also failed to meet the recommended targets for
+      readability at the sixth or tenth-grade targets. Our sample reading score was
+      around a grade 15 (95%CI: 14.61, 15.63), which is considered difficult to read
+      and appropriate for college students.\n\nThere’s some nuance to this. While
+      readability is important, using [reading ease alone](https://www.cms.gov/Outreach-and-Education/Outreach/WrittenMaterialsToolkit/ToolkitPart07)
+      to determine how well the public will understand health messaging is problematic.
+      [Health literacy](https://www.cdc.gov/healthliteracy/learn/index.html) efforts
+      focus on how well individuals can find, understand, and use information to make
+      health-related decisions. Readability scores should be considered together with
+      clear communications tools to promote accessibility, actionability, and health
+      literacy.\n\nThere are many tools available through the [U.S. Centers for Disease
+      Control and Prevention (CDC)](https://www.cdc.gov/healthliteracy/developmaterials/plainlanguage.html),
+      [U.S. National Institutes of Health](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple),
+      the [World Health Organization](https://www.who.int/about/communications), and
+      others to improve health communications. These leading health organizations
+      all suggest that plain language principles should be used in all general communications:
+      \n\n- Engage the reader by organizing content to answer their questions. Include
+      a main message (or messages) at the beginning of the piece.\n- Use short sentences.\n-
+      Keep the readability grade level as low as possible to ensure that more people
+      can understand the content.\n- Use an active voice so that readers understand
+      what to do with the information provided.\n- Use everyday, plain, or common
+      language.\n\nOur Health Desk editorial team and public health experts are continuing
+      to evaluate where and how to improve communications to support health literacy
+      and equity. We have used an adapted clear communications tool from the [CDC](https://www.cdc.gov/ccindex/index.html)
+      to assess our explainers further, and we will apply our learnings to improve
+      our Health Desk content. We will integrate more action statements, begin using
+      simpler text, and adjust formatting. In the coming weeks, we will also implement
+      new editorial standards. Our new standards employ principles from journalism,
+      crisis communications, education, and health literacy. These are actions that
+      we encourage all health communicators to adopt, because readability is an important
+      fixture of our health information ecosystems. \n\nThe COVID-19 pandemic has
+      highlighted the need for resource investment in preparedness planning. It has
+      also highlighted the need for improved communications. We must ensure that the
+      public has the information needed to make safe and informed health decisions
+      to protect their health and the health of their families, friends, and communities.
+      The findings from studies of government, academic, and public-health-focused
+      COVID-19-related websites should serve as a call to action. To prevent the spread
+      of misinformation, health communicators must take responsibility for creating
+      more understandable and accessible content.\n"
     words_by:
     - sys:
-        id: 1uaMTril4FB8NxxRTKwLDH
-    - sys:
-        id: 4JqOrlVgCscDebeRwxYBu8
-    alt_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
+        id: 4MK93CSrpmc3tFyE5MYEeh
+    alt_date: !ruby/object:DateTime 2021-05-25 00:00:00.000000000 Z
   - sys:
-      id: 26UTRE8IT5sUBil9h7y32U
-      created_at: !ruby/object:DateTime 2021-01-14 19:29:15.176000000 Z
-      updated_at: !ruby/object:DateTime 2021-01-14 19:29:15.176000000 Z
+      id: 10B2Pr9aLlD7d9MVWis6Mi
+      created_at: !ruby/object:DateTime 2021-05-21 16:40:37.758000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-28 13:00:11.989000000 Z
       content_type_id: story
-      revision: 1
-    title: Inoculating against misinformation
-    slug: inoculating-against-misinformation
+      revision: 2
+    title: Over a Month Of Ekta's Collaborative Fact-checks in India
+    slug: over-a-month-of-ektas-collaborative-fact-checks-in-india
     topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
     - sys:
         id: 2JV51Hja1BxcyGdNP5VID3
     lead_image:
       sys:
-        id: 2TZr0rckkBE1F6qRNzwLZP
-        created_at: !ruby/object:DateTime 2021-01-14 19:28:54.797000000 Z
-        updated_at: !ruby/object:DateTime 2021-01-14 19:28:54.797000000 Z
-      title: Melisa Basol
+        id: ajYtELvpS099e4SnSboQc
+        created_at: !ruby/object:DateTime 2021-05-21 16:41:37.805000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-21 16:42:10.408000000 Z
+      title: Round up of Ekta's work
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/2TZr0rckkBE1F6qRNzwLZP/56e4c41ade3eead86fd9ef3105761eff/meedan_misinfodemia_ep2_melisa-basol_b.png"
-    description: |-
-      Melisa is a Gates scholar and received an MPhil in Social and Developmental Psychology (Distinction) from Cambridge. We caught up with Melisa a few weeks ago to talk about a theory that suggests we might be able to inoculate people against misinformation the same way we inoculate them against disease.
-
-      Originally from Germany, Melisa has a Bachelor of Science (Hons) in Psychology from Aberystwyth University. With a focus on complex societal and political decisions, she's interested in the formation, polarisation, and ‘immunisation’ of attitudes where the spread of misinformation poses a threat to science & society.
-    body: "Melisa is a Gates scholar and received an MPhil in Social and Developmental
-      Psychology (Distinction) from Cambridge. We caught up with Melisa a few weeks
-      ago to talk about a theory that suggests we might be able to inoculate people
-      against misinformation the same way we inoculate them against disease.\n\nOriginally
-      from Germany, Melisa has a Bachelor of Science (Hons) in Psychology from Aberystwyth
-      University. With a focus on complex societal and political decisions, she's
-      interested in the formation, polarisation, and ‘immunisation’ of attitudes where
-      the spread of misinformation poses a threat to science & society. \n\n<p class=\"u-responsive-ratio\">\n<iframe
-      height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless
-      src=\"https://player.simplecast.com/46757cac-9c08-438f-9c5f-6ed889f5578b?dark=true\"></iframe></p>"
-    alt_date: !ruby/object:DateTime 2021-01-14 00:00:00.000000000 Z
-  - sys:
-      id: 523hdNZaVJVnzqmC6YIed
-      created_at: !ruby/object:DateTime 2021-01-12 04:47:19.857000000 Z
-      updated_at: !ruby/object:DateTime 2021-01-13 06:46:23.241000000 Z
-      content_type_id: story
-      revision: 12
-    title: 'What to expect in 2021?  Misinformation forecasts from our fact-checking
-      partners '
-    slug: what-to-expect-in-2021-misinformation-forecasts-from-our-fact-checking
-    topic:
-    - sys:
-        id: 7jQKmsQvOs6pjAjLth5gsA
-    - sys:
-        id: 7ccIqYyl4GXxNC2agZbh8a
-    lead_image:
-      sys:
-        id: 3i4N7pSS8kF4tu3nxZpFCo
-        created_at: !ruby/object:DateTime 2021-01-12 04:46:53.194000000 Z
-        updated_at: !ruby/object:DateTime 2021-01-12 04:46:53.194000000 Z
-      title: What to expect in 2021? Misinformation forecasts from our fact-checking
-        partners
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3i4N7pSS8kF4tu3nxZpFCo/2c8253f3ee0f8dc5c208cfc66eb1b2ad/meedan_2021_misinformation_forecasts.png"
-    body: |-
-      In 2020, online misinformation was one of the most daunting obstacles in the world's battle against the COVID-19 pandemic. 2021 is already witnessing a wave of COVID-19 vaccine related misinformation. In order to find out more about the nuances and the complexities of the misinformation landscape ahead of us, we decided to turn to our fact-checking partners for their expert opinions on what we should expect in 2021. In this blogpost, we present to you some regional and global forecasts from our partners in the Asia-Pacific region.
-
-      __1. COVID-19 misinformation will challenge each step of vaccination campaigns.__
-
-      Trust would be the most essential factor in running successful vaccination drives in countries. As more vaccines get the final go-aheads and countries start their vaccination drives, we can expect misinformation and conspiracy theories posing challenges at every step of the campaign. 
-
-      > "We expect COVID-19 vaccine related misinformation, but more in terms of availability, distribution, and black-market deals in India" - Bharath Guniganti, Data Analyst and Fact-checker, [Factly](https://factly.in/)
-
-      > "Globally I think sadly we will continue to see a growing wave of conspiracy theories and misinformation about COVID-19 vaccines and how they are being administered. This will likely present governments around the world with significant challenges as they attempt to launch mass vaccination schemes. Unfortunately, world leaders and their governments will probably need to work harder to gain the trust of local populations in order to reassure them that the vaccines are safe. Until a large proportion of the world has been vaccinated, I fear we face many more months of local lockdowns." - [Rachel Blundy](https://twitter.com/rachelblundy), Senior Editor, [AFP Fact Check](https://factcheck.afp.com/)
-
-      __2. With high-stake polls in the charts, political and election misinformation will be rampant.__
-
-      Across the globe, mis/disinformation has become a deciding factor of outcomes of national and provincial elections. This trend can no longer be ignored. In India, fact-checkers are already preparing for a deluge of misinformation around the state elections to be held in 2021. As the stakes are high, we can also expect religion being used to flare emotions and misinform people during elections in India. 
-
-      > "COVID-19 and vaccines (positive & negative effects) in the form of misinformation should dominate the charts along with massive elections in the state of West Bengal as the ruling party  (Bharatiya Janata Party)  is trying hard to make inroads in the state." - [Uzair Rizvi](https://twitter.com/RizviUzair), Fact-Check Journalist , [AFP Fact Check](https://factcheck.afp.com/)
-
-      > "We foresee misinformation ahead of elections in the states of Tamil Nadu, West Bengal, Assam, and others. Particularly in Bengal, going by the news analysis and trends, we envisage an uptick in religious misinformation which is also because of the political landscape and the power dynamics in the state. We certainly feel as the election date nears, we will see political mudslinging which might rely heavily on false narratives pertaining to the current state government's (All India Trinamool Congress) performance and political misinformation." - [Kritika Goel](https://twitter.com/kritikagoel27), Associate Editor, [The Quint](https://www.thequint.com/news/webqoof)
-
-      __3. Misinformation on protests and riots will see a fundamentalist spin.__
-
-      Sweeping policy changes and the pandemic induced economic downturns have given way to dissatisfaction and protests in different parts of the Global South. For instance, the ongoing farmers protests in India will be a talking point in all the elections that are scheduled for the year.
-
-      > "I think new variants of COVID-19 and vaccines would continue to be a dominant issue globally, but the ongoing farmers protest and upcoming state assembly elections in West Bengal, Assam, Kerala, Pondicherry and Tamil Nadu are going to be the main theme of misinformation in India." - [Akhil Ranjan](https://twitter.com/akhilr23), Fact-check Reporter, [AFP Fact Check](https://factcheck.afp.com/)
-
-      > "If the government rolls out the Citizenship Amendment Act or the National Register of Citizens to other states in India, we can also expect a rise in misinformation that poses a threat to religious and communal harmony." - [Balkrishna](https://twitter.com/bala3047), Editor- Fact Check, [India Today](https://www.indiatoday.in/fact-check)
-
-      __4. Misinformation during calamities and sporadic events can make fact-checking more complex.__
-
-      Fact-checkers have often reported a surge in misinformation during natural calamities, pandemic and other sporadic events. These are not often isolated and unrelated pieces of misinformation, but get entangled with other issues making fact-checking more complex. 
-
-      > "There has been a trend about misinformation on government schemes, and this has seen an increase during COVID-19 times. We expect this to continue for 2021 in some or the other forms. There is also an increase in misinformation usually around natural calamities, and the same was seen this year during cyclone Nivar, Hyderabad floods etc. The same trend is expected for 2021 at places that could see heavy rainfall, or some kind of natural calamity."  - Bharath Guniganti, Data Analyst and Fact-checker, [Factly](https://factly.in/)
-
-      Experiences of global fact-checkers have helped us anticipate the challenges ahead of us. But they have often reminded us that we need to factor in unforeseen challenges that may come our way. While we dread those days, it is the preparedness and persistence of the fact-checking community that offers us hope.
+      url: "//images.ctfassets.net/g118h5yoccvd/ajYtELvpS099e4SnSboQc/3429074d878b03833acf1d25efca56e9/Roundup_of_Ekta_content_1__1_.png"
+    description: "Ekta is a consortium of  six Indian fact-checking groups to address
+      misinformation in a collaborative manner. All the groups which include, AFP
+      Fact Check, BOOM Live, Factly, India Today Fact Check, Vishvas Newsw and WebQoof,
+      have also been running WhatsApp tiplines as part of the platform's third party
+      fact-checking program. All six groups came together in April 2021 during state
+      elections in five states in India to share verified information, insights and
+      trends related to the elections. \n"
+    body: "### [Ekta](https://ekta-facts.com/) is a consortium of  six Indian fact-checking
+      groups to address misinformation in a collaborative manner. All the groups which
+      include, [AFP Fact Check](https://factcheck.afp.com/), [BOOM Live](https://www.boomlive.in/),
+      [Factly](https://factly.in/), [India Today Fact Check](https://www.indiatoday.in/fact-check),
+      [Vishvas News](https://www.vishvasnews.com/) and [WebQoof](https://www.thequint.com/news/webqoof),
+      have also been running WhatsApp tiplines as part of the platform's third party
+      fact-checking program. \n\nAll six groups came together in April 2021 during
+      state elections in five states in India to share verified information, insights
+      and trends related to the elections. Meedan is also a partner in the Ekta consortium
+      and provides strategic inputs along with access to its technology platform,
+      Check, to Ekta partners. In mid-April-May 2021, when India witnessed a surge
+      in COVID-19 cases, Ekta diversified its focus to address misinformation around
+      the pandemic and vaccination drives.\n\nSince its launch in April, members of
+      Ekta meet every Monday to discuss the most viral misinformation  and potential
+      stories for collaboration. Meedan provides insights on the most requested items
+      - text and images, received on the tiplines. Input and intelligence is then
+      shared on fact-checks and explainers — evidence from the ground, quotes from
+      experts and government officials and regional insights.  Content developed in
+      a collaborative manner is published on partners' websites with the Ekta branding.
+      \ \n\nThe pooling of resources and intelligence is meant to reduce the time
+      taken by participating newsrooms in  fact-checking a viral piece of misinformation.
+      The aim is to collaboratively work on a minimum of one story a week. All the
+      reports produced by members of Ekta through the collaboration are curated as
+      weekly blog posts on Ekta's website. [Meedan's Health Desk](https://health-desk.org/)
+      shares inputs from subject experts on misinformation related to COVID-19 and
+      health related topics.\n\nOver the past weeks, Ekta has covered misinformation
+      around the West Bengal election, post-poll violence, COVID-19, oxygen shortage
+      in hospitals during the current surge in viral infections, alternative treatments
+      of COVID-19, vaccines and conspiracy theories about the pandemic. Till date
+      Ekta has published ten collaborative blogposts and collaboratively worked on
+      five viral claims. Here are a few blog posts from Ekta showcasing the work of
+      the coalition.\n\n1.  [Ekta Flags Video From Bangladesh Which Has Been Falsely
+      Linked to Post Poll Violence & Alleged Rape in West Bengal](https://ekta-facts.com/blog-posts/ekta-flags-video-from-bangladesh-which-has-been-falsely-linked-to-post-poll-violence-alleged-rape-in-west-bengal)\n\n2.
+      \ [Ekta Counters Misleading Posts Prescribing Homeopathic Aspidosperma As a
+      Substitute for Oxygen in COVID-19 Patients](https://ekta-facts.com/blog-posts/ekta-counters-misleading-posts-prescribing-homeopathic-aspidosperma-as-a-substitute-for-oxygen-in-covid-19-patients)\n\n3.
+      \ [Viral Posts Blaming State Governments for Delayed Installation of Oxygen
+      Plants Are Misleading, Finds Ekta](https://ekta-facts.com/blog-posts/viral-posts-blaming-state-governments-for-delayed-installation-of-oxygen-plants-are-misleading-finds-ekta)\n\n4.
+      \ [The Come-back of a Fallacy: Read Ekta's Debunks of Claims Linking COVID-19
+      and 5G](https://ekta-facts.com/blog-posts/the-come-back-of-a-fallacy-read-ektas-debunks-of-claims-linking-covid-19-and-5g)\n\n5.
+      \ [Ekta Flags Unrelated and Old Images Used to Claim Oxygen Shortage in India](https://ekta-facts.com/blog-posts/ekta-flags-unrelated-and-old-images-used-to-claim-oxygen-shortage-in-india)\n\n6.
+      \ [Morphed Images, Old Videos & Fake Election Surveys: What We've Seen So Far
+      During 2021 State Elections in India](https://ekta-facts.com/blog-posts/morphed-images-unrelated-videos-and-fake-election-surveys-what-weve-seen-so-far-during-2021-state-elections-in-india)\n\nFor
+      more information about the consortium, visit <https://ekta-facts.com/> or drop
+      an email to <editors@ekta-facts.com>."
     words_by:
     - sys:
-        id: 4MJa80vnKu35yjoHOcdVsd
+        id: 5i0ZluvBzz6h4ashdZJIkH
   - sys:
-      id: 4d3o8rWcz4ETRXXxPX8L0y
-      created_at: !ruby/object:DateTime 2021-01-12 04:48:14.986000000 Z
-      updated_at: !ruby/object:DateTime 2021-01-13 06:44:51.448000000 Z
+      id: 45Wg5Qo4drwECLbukXc7U1
+      created_at: !ruby/object:DateTime 2021-05-18 16:52:50.419000000 Z
+      updated_at: !ruby/object:DateTime 2021-05-22 01:45:30.524000000 Z
       content_type_id: story
-      revision: 6
-    title: 'India Today Fact Check: Impact, vision and challenges'
-    slug: india-today-fact-check-impact-vision-and-challenges
+      revision: 1
+    title: Welcome Darius Kazemi, Our Senior Frontend Developer
+    slug: welcome-darius-kazemi-our-senior-frontend-developer
     topic:
     - sys:
-        id: 7jQKmsQvOs6pjAjLth5gsA
+        id: 32ogZlDIXFakgZXiZ8l3MT
     lead_image:
       sys:
-        id: 6uSovc1KL6ktFdApr2bNRu
-        created_at: !ruby/object:DateTime 2021-01-06 17:13:52.250000000 Z
-        updated_at: !ruby/object:DateTime 2021-01-06 17:13:52.251000000 Z
-      title: P 20191103 164909 1-02
+        id: 6esU5LYXt6OEYgOEtUYfwg
+        created_at: !ruby/object:DateTime 2021-05-18 17:00:05.734000000 Z
+        updated_at: !ruby/object:DateTime 2021-05-18 17:00:22.653000000 Z
+      title: Darius Kazemi square headshot
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6uSovc1KL6ktFdApr2bNRu/8c80e92de9ef9f0420faf7f638983343/P_20191103_164909_1-02.jpeg"
-    description: "*In 2019 Meedan launched the [End-to-end fact-checking project](https://meedan.com/blog/one-of-year-of-running-the-end-end-to-fact-checking-project/)
-      using the WhatsApp Business API. We partnered with WhatsApp, Facebook and Facebook’s
-      third party fact-checking organizations (3PFCs) from India, Brazil and Africa
-      to run WhatsApp tiplines that are serviced by Check, Meedan’s open-source platform
-      that supports fact-checking and annotation. We've launched a series to share
-      insights on program and product innovations from the end-to-end fact-checking
-      project. We also have interviews that capture our partners' experiences. This
-      post is part of the interview series.*\n\nAmong our largest 3PFC partners in
-      the project is India Today Fact Check, located in India. They are part of TV
-      Today Network Ltd, a network that consists of several news channels. [The India
-      Today Fact Check](https://www.indiatoday.in/fact-check) section is managed independently
-      from the editorial operations of the India Today Group. \n\nBalkrishna leads
-      the Fact Check team at the India Today Group. Bala, as he is popularly called,
-      tells us about India Today Fact Check’s vision, impact and challenges in this
-      interview. "
-    body: "*In 2019 Meedan launched the [End-to-end fact-checking project](https://meedan.com/blog/one-of-year-of-running-the-end-end-to-fact-checking-project/)
-      using the WhatsApp Business API. We partnered with WhatsApp, Facebook and Facebook’s
-      third party fact-checking organizations (3PFCs) from India, Brazil and Africa
-      to run WhatsApp tiplines that are serviced by Check, Meedan’s open-source platform
-      that supports fact-checking and annotation. We've launched a series to share
-      insights on program and product innovations from the end-to-end fact-checking
-      project. We also have interviews that capture our partners' experiences. This
-      post is part of the interview series.*\n\nAmong our largest 3PFC partners in
-      the project is India Today Fact Check, located in India. They are part of TV
-      Today Network Ltd, a network that consists of several news channels. [The India
-      Today Fact Check](https://www.indiatoday.in/fact-check) section is managed independently
-      from the editorial operations of the India Today Group. \n\nBalkrishna leads
-      the Fact Check team at the India Today Group. Bala, as he is popularly called,
-      tells us about India Today Fact Check’s vision, impact and challenges in this
-      interview. \n\n__1. When did India Today start its fact-checking section and
-      what was the reason for setting up a separate fact-check section?__\n\nThe purpose
-      of creating a separate fact-check department was two-fold. First, to create
-      awareness among the entire editorial staff of the group about the serious problem
-      of misinformation and fake news being dished out, mostly through social media.
-      In some media verticals such as television channels, journalists have to work
-      under tremendous pressure of cutthroat competition, deadlines and breaking news.
-      The idea was to sensitize them about the menace of fake news so that the number
-      of mistakes could be reduced.\n\nThe second motive was to capitalize on the
-      huge reach of our brands, India Today and Aaj Tak, two of India’s most popular
-      news channels, and fight misinformation circulating on social media. We wanted
-      to live up to the expectations of our readers and viewers who not only want
-      credible information from us, but also expect us to warn them about hoaxes and
-      fake news that they could possibly believe.\n\n__2. How does the work of the
-      fact-check team impact or influence India Today’s larger work as a media group?__\n\nIndia
-      Today Fact Check is mostly insulated from the overall editorial operations of
-      the Group and works independently on a day to day basis. It directly reports
-      to the vice-chairperson of the India Today Group. However, we help in verification
-      of viral content if there is any specific request from any editorial team that
-      is part of the Group. We also conduct in-house trainings on fact-checking.\n\n__3.
-      As someone who has witnessed large- scale misinformation storms, which storm
-      was the most turbulent and why (ref: election, terror attacks, pandemic, protests).__\n\nMisinformation
-      related to the COVID-19 pandemic was the most challenging. The reason being,
-      COVID-19 misinformation directly affects the lives of every individual. It was
-      a matter of life and death in a true sense. Things became even more tricky when
-      misinformation related to the pandemic took a communal colour in India and minority
-      communities were being targeted for the spread of the virus.\n\n__4. 2020 has
-      been a challenging year for fact-checkers. What was the most challenging fact-check
-      for you and which one was the most effective?__\n\nWe did a story on the most
-      talked about and bizarre fact checks of 2020. [Fake, lies & photoshop: Curious
-      cures, horny sheep and other stories you tripped upon](https://www.indiatoday.in/india/story/fake-lies-photoshop-curious-cures-horny-sheep-other-stories-you-tripped-upon-fake-news-1754861-2020-12-31).
-      If we have to pick up just one, we would choose the story about the mistaken
-      identity of the Hathras rape victim. This was an incident that took place in
-      September 2020 when a 19-year-old Dalit woman was gang-raped in Hathras district,
-      Uttar Pradesh, India, allegedly by four upper caste men. After fighting for
-      her life for two weeks, the girl died in a Delhi hospital. The story we worked
-      on was challenging as well as impactful because even senior ministers were paying
-      tribute to the wrong girl while the entire country was engrossed in the tragic
-      case.\n\n__5. In what ways has Check supported your fact-checking work? In 2021,
-      what else would you like Check to do for you?__\n\nChecking misinformation in
-      closed messaging groups is the biggest challenge the world over and India is
-      no exception. In India, almost everyone uses WhatsApp. Check is our window into
-      the world of closed groups of WhatsApp without invading people's privacy. It
-      not only helps us in tracking misinformation but also gives us an opportunity
-      to build a direct rapport and trust with our readers and viewers. Automation
-      within the tool makes it possible to deal with volume which is difficult if
-      we fact-check messages on WhatsApp manually. The best part is that Check is
-      getting better by the day and has evolved by taking into account our feedback.
-      The bot resources have also helped us to get quality content for fact-checks
-      while filtering out the spam. In 2021, we would like the tool to bring in some
-      more features to make it faster and more powerful.\n\n__6. What are your plans
-      for expansion to other languages and areas outside urban centres?__\n\nWe plan
-      to scale up our fact check in Bangla language in the light of elections in West
-      Bengal and also expand into some regional languages in southern India. \n"
-    words_by:
-    - sys:
-        id: 34GfX508qO9Enb7OvLi7DA
+      url: "//images.ctfassets.net/g118h5yoccvd/6esU5LYXt6OEYgOEtUYfwg/ec740708a13716dd2d5f1ac84236888f/Darius-Kazemi.jpeg"
+    body: "Meedan is excited to have Darius Kazemi on board as our Senior Frontend
+      Developer! Check out his work on Check :-) and learn more about him in the short
+      Q&A below.\n\n### 1. What has been your experience before you joined Meedan?
+      \n\nMy first career was as a video game developer. I got interested in open
+      source games technology, and specifically browser-based game engines. This opened
+      the door to web technology more broadly and before I knew it I became a full-stack
+      developer. I developed [a creative coding practice](http://tinysubversions.com/projects/
+      \"Darius' creative coding practice\") focused primarily on social media bots
+      and cofounded a [creative technology cooperative](https://feeltrain.com/ \"Feel
+      Train creative tech cooperative\"). In 2018, I was awarded a [Mozilla Open Web
+      Fellowship](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/
+      \"Mozilla Open Web fellowship\") embedded with [Code for Science & Society](https://codeforscience.org/
+      \"Code for Science & Society website\"), researching and building decentralized
+      social media software. That culminated in a guide called [Run Your Own Social](https://runyourown.social/
+      \"Run Your Own social network, built by Darius\"). I did some work for [Center
+      for Digital Resilience](https://digiresilience.org/ \"Center for Digital Resilience\"),
+      and then spent the pandemic being a full time therapeutic foster dad (with some
+      [fact-checking on the side](https://www.nytimes.com/2020/06/16/science/social-media-bots-kazemi.html
+      \"Social Media bots feature from the NY Times\")).\n\n### 2. Tell us about an
+      exciting and insightful experience that has shaped your perspective and work.\n\nI
+      would point to spending a year of my fellowship traveling around the world and
+      talking to people in different countries with extremely different needs for
+      what they want to get out of their internet experience. It was incredibly formative
+      for me and really helped me reset my baseline expectations for what people want
+      from technology. Some people in remote areas have massive external bandwidth
+      limitations and anything that requires talking to a cloud service is a no-go
+      for them. For some groups of indigenous people, knowledge is tied to geographic
+      location and it actually really matters to them physically where that knowledge
+      is stored. It’s enabled me to do much better work when thinking about communication
+      systems from the ground up.\n\n### 3. What is the bot making community like
+      online? What are the strengths and what gaps do you see?\n\nI think bots used
+      to be a more specific definable practice but ever since the 2016 election, “bot”
+      has [become a really over-loaded term](https://tinysubversions.com/notes/the-bot-scare/
+      \"how the term \"bot\" has become overloaded\") that actually has a lot more
+      to do with disinformation than fun art projects or useful tools. Platforms are
+      (rightly) cracking down on malicious bots, but non-malicious bots tend to get
+      swept up in the same crackdowns so what we end up with is a more hostile environment
+      for our bot makers. It’s one of the reasons I was driven to running my own social
+      media platforms. Ultimately I think that's led to a “cooling off” of the bot
+      making community as something concrete. It seems like less of an identity these
+      days (“I’m a bot artist”) and more like just another piece of people's practices
+      within creative coding. Frankly I think that’s natural and good, for a medium
+      to not lose its luster when it loses its novelty, but just to become something
+      “normal” that people do.\n\n### 4. What brought you to Meedan?\n\nI was wrapping
+      up a year of foster parenting and was looking for meaningful work as a programmer.
+      My time as a Mozilla Fellow introduced me to the [Internet Freedom Festival](https://internetfreedomfestival.org/
+      \"Internet Freedom Festival\"). They have a job board and Meedan was listed
+      there. I loved the mission so I applied!\n\n### 5. What's a project you're excited
+      about right now?\n\nWe have a new search feature that we’re going to be rolling
+      out that I’ve been working on for the last month. I’m excited to see how it
+      helps our users get their work done more effectively. In particular, searching
+      for similar images could be really powerful when trying to search for similar
+      instances of reported disinformation!\n\n### 6. Tell us some fun facts about
+      Darius.\n\n- I’m a published author of a [book on video game history](https://bossfightbooks.com/products/jagged-alliance-2-by-darius-kazemi
+      \"Darius' book on video game history\").\n- I spent the year 2019 reading one
+      internet RFC every day in chronological order [and blogging about it](https://write.as/365-rfcs/365-ietf-rfcs-a-50th-anniversary-dive
+      \"A year in blog posts about internet Request For Comments\").\n- Muhammad Ali
+      kissed me (when I was a baby)"
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
-    created_at: !ruby/object:DateTime 2020-07-31 21:31:48.411000000 Z
+    created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
     updated_at: !ruby/object:DateTime 2021-02-02 21:31:33.777000000 Z
     content_type_id: moduleStories
     revision: 7
@@ -319,7 +418,7 @@ moduleStories:
   stories:
   - sys:
       id: Qjmc87D7iZGsdoUOLWkgc
-      created_at: !ruby/object:DateTime 2021-02-02 20:19:11.094000000 Z
+      created_at: !ruby/object:DateTime 2021-01-27 17:54:49.289000000 Z
       updated_at: !ruby/object:DateTime 2021-02-04 19:20:15.764000000 Z
       content_type_id: story
       revision: 6
@@ -332,7 +431,7 @@ moduleStories:
     lead_image:
       sys:
         id: WSi8YqOhA0XSAzy3mUC0s
-        created_at: !ruby/object:DateTime 2021-02-02 20:19:05.700000000 Z
+        created_at: !ruby/object:DateTime 2021-01-28 01:13:02.710000000 Z
         updated_at: !ruby/object:DateTime 2021-02-02 20:19:05.700000000 Z
       title: 'Responding to COVID-19: Reflections on year one'
       description: 
@@ -421,8 +520,8 @@ moduleStories:
     alt_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
   - sys:
       id: rJhpizn9eHW9xLCFzl6Ct
-      created_at: !ruby/object:DateTime 2020-12-16 19:45:57.593000000 Z
-      updated_at: !ruby/object:DateTime 2020-12-16 19:45:57.593000000 Z
+      created_at: !ruby/object:DateTime 2020-12-16 03:18:52.189000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-18 19:49:57.807000000 Z
       content_type_id: story
       revision: 1
     title: Meedan interviews Renee DiResta, Research Manager at the Stanford Internet
@@ -434,7 +533,7 @@ moduleStories:
     lead_image:
       sys:
         id: 7kKFWn5DMYTYIaWLxfp2Cx
-        created_at: !ruby/object:DateTime 2020-12-16 03:33:23.814000000 Z
+        created_at: !ruby/object:DateTime 2020-12-16 03:33:12.035000000 Z
         updated_at: !ruby/object:DateTime 2020-12-16 03:37:38.188000000 Z
       title: meedan misinfodemia ep1 renee-diresta
       description: 
@@ -453,7 +552,7 @@ moduleStories:
     alt_date: !ruby/object:DateTime 2020-12-15 00:00:00.000000000 Z
   - sys:
       id: nlKMpK9Ub9TiOXhiFSDiD
-      created_at: !ruby/object:DateTime 2020-12-10 23:07:12.738000000 Z
+      created_at: !ruby/object:DateTime 2020-12-10 22:38:12.700000000 Z
       updated_at: !ruby/object:DateTime 2020-12-10 23:07:12.738000000 Z
       content_type_id: story
       revision: 1
@@ -465,7 +564,7 @@ moduleStories:
     lead_image:
       sys:
         id: 6AICvFnvyvzZVDW8gYOPdp
-        created_at: !ruby/object:DateTime 2020-12-10 22:56:38.011000000 Z
+        created_at: !ruby/object:DateTime 2020-12-10 22:56:20.786000000 Z
         updated_at: !ruby/object:DateTime 2020-12-10 22:56:38.011000000 Z
       title: Questions about COVID-19 Vaccines? The Vaccine Media Hub is coming soon
       description: 
@@ -530,7 +629,7 @@ moduleStories:
       \n"
   - sys:
       id: 2gMzQXi8ze1WfZOdtEmzT2
-      created_at: !ruby/object:DateTime 2020-12-03 22:44:19.197000000 Z
+      created_at: !ruby/object:DateTime 2020-12-03 20:32:11.826000000 Z
       updated_at: !ruby/object:DateTime 2020-12-03 22:44:19.197000000 Z
       content_type_id: story
       revision: 1
@@ -542,7 +641,7 @@ moduleStories:
     lead_image:
       sys:
         id: 2Z9oVr9JrnYW0lykn3omGT
-        created_at: !ruby/object:DateTime 2020-12-03 22:44:13.054000000 Z
+        created_at: !ruby/object:DateTime 2020-12-03 22:41:26.456000000 Z
         updated_at: !ruby/object:DateTime 2020-12-03 22:44:13.054000000 Z
       title: Landmark alliance launches in Africa to fight COVID-19 misinformation
       description: 
@@ -601,7 +700,7 @@ moduleStories:
       Health Lab."
   - sys:
       id: 65aZv1NdLpBSOPYo40kHci
-      created_at: !ruby/object:DateTime 2020-09-21 18:42:58.781000000 Z
+      created_at: !ruby/object:DateTime 2020-08-20 21:41:41.130000000 Z
       updated_at: !ruby/object:DateTime 2020-09-21 20:11:23.473000000 Z
       content_type_id: story
       revision: 2
@@ -613,7 +712,7 @@ moduleStories:
     lead_image:
       sys:
         id: 26wu7WXuhpoJO1HIAmWsKt
-        created_at: !ruby/object:DateTime 2020-09-21 20:10:28.878000000 Z
+        created_at: !ruby/object:DateTime 2020-09-10 20:58:11.735000000 Z
         updated_at: !ruby/object:DateTime 2020-09-21 20:10:28.878000000 Z
       title: How we’re pursuing health equity at internet scale
       description: 
@@ -838,7 +937,7 @@ moduleStories:
     alt_date: !ruby/object:DateTime 2020-09-21 00:00:00.000000000 Z
   - sys:
       id: 3ptFLVzVXiugIN7W5Pi89t
-      created_at: !ruby/object:DateTime 2020-08-31 21:43:27.722000000 Z
+      created_at: !ruby/object:DateTime 2020-08-26 18:28:01.399000000 Z
       updated_at: !ruby/object:DateTime 2020-09-03 22:44:02.618000000 Z
       content_type_id: story
       revision: 4
@@ -852,7 +951,7 @@ moduleStories:
     lead_image:
       sys:
         id: 5phkcT9R6VtSwYibxGbUfJ
-        created_at: !ruby/object:DateTime 2020-08-31 21:43:20.317000000 Z
+        created_at: !ruby/object:DateTime 2020-08-31 20:19:31.323000000 Z
         updated_at: !ruby/object:DateTime 2020-08-31 21:43:20.317000000 Z
       title: 'A standard of care for health misinformation: lessons from Global Fact '
       description: 
@@ -990,7 +1089,7 @@ moduleStories:
       to improve the important work we do."
   - sys:
       id: 1RxTNJjApkdv7OvHSCTo70
-      created_at: !ruby/object:DateTime 2020-07-23 22:31:50.420000000 Z
+      created_at: !ruby/object:DateTime 2020-07-23 22:26:53.602000000 Z
       updated_at: !ruby/object:DateTime 2020-07-24 23:48:08.720000000 Z
       content_type_id: story
       revision: 6
@@ -1002,7 +1101,7 @@ moduleStories:
     lead_image:
       sys:
         id: 24ehga8wO59zAd3uSRGQMg
-        created_at: !ruby/object:DateTime 2020-07-24 00:19:37.579000000 Z
+        created_at: !ruby/object:DateTime 2020-07-24 00:19:06.573000000 Z
         updated_at: !ruby/object:DateTime 2020-07-24 01:46:58.947000000 Z
       title: Meedan covid19 misinfol
       description: 
@@ -1105,7 +1204,7 @@ moduleStories:
     alt_date: !ruby/object:DateTime 2020-07-23 00:00:00.000000000 Z
   - sys:
       id: 6kOm9RDBNPyry1Z1Ez0yTU
-      created_at: !ruby/object:DateTime 2020-06-26 00:31:01.595000000 Z
+      created_at: !ruby/object:DateTime 2020-06-26 00:26:36.101000000 Z
       updated_at: !ruby/object:DateTime 2020-06-29 19:46:54.015000000 Z
       content_type_id: story
       revision: 7
@@ -1117,7 +1216,7 @@ moduleStories:
     lead_image:
       sys:
         id: qDdbO3MgaZZujxTqDl0LG
-        created_at: !ruby/object:DateTime 2020-06-26 03:30:05.532000000 Z
+        created_at: !ruby/object:DateTime 2020-06-26 03:29:40.847000000 Z
         updated_at: !ruby/object:DateTime 2020-06-26 03:30:05.532000000 Z
       title: Leveraging the COVID-19 Expert Database to visualize pandemic information
       description: 
@@ -1182,7 +1281,7 @@ moduleStories:
     alt_date: !ruby/object:DateTime 2020-06-25 00:00:00.000000000 Z
   - sys:
       id: 77XtZxUTMsilrHnbjbuVcW
-      created_at: !ruby/object:DateTime 2020-07-30 21:24:17.522000000 Z
+      created_at: !ruby/object:DateTime 2020-07-30 21:15:18.975000000 Z
       updated_at: !ruby/object:DateTime 2020-09-18 19:35:16.423000000 Z
       content_type_id: story
       revision: 9
@@ -1195,7 +1294,7 @@ moduleStories:
     lead_image:
       sys:
         id: 6gBmnjbZSRLEd8udOyil0x
-        created_at: !ruby/object:DateTime 2020-07-31 19:50:56.862000000 Z
+        created_at: !ruby/object:DateTime 2020-07-31 19:49:48.572000000 Z
         updated_at: !ruby/object:DateTime 2020-07-31 19:50:56.862000000 Z
       title: Screen Shot 2020-07-31 at 3.49.15 PM
       description: 'Four disability symbols used by the U.S. National Park Service '
@@ -1287,7 +1386,7 @@ moduleStories:
     alt_date: !ruby/object:DateTime 2020-07-30 00:00:00.000000000 Z
   - sys:
       id: 2uGeBfzRSJYn8qx2lzzQis
-      created_at: !ruby/object:DateTime 2020-08-06 17:42:18.849000000 Z
+      created_at: !ruby/object:DateTime 2020-08-06 17:38:46.782000000 Z
       updated_at: !ruby/object:DateTime 2020-09-18 19:36:17.568000000 Z
       content_type_id: story
       revision: 3
@@ -1300,7 +1399,7 @@ moduleStories:
     lead_image:
       sys:
         id: 7cOrfWoPgbhOJOcA80mkx7
-        created_at: !ruby/object:DateTime 2020-08-06 20:44:50.165000000 Z
+        created_at: !ruby/object:DateTime 2020-08-06 20:42:54.689000000 Z
         updated_at: !ruby/object:DateTime 2020-08-06 22:10:58.798000000 Z
       title: Breastfeeding-icon-med
       description: Universal Breastfeeding Symbol by Fiona M. Jardine is licensed
@@ -1374,7 +1473,7 @@ moduleStories:
     alt_date: !ruby/object:DateTime 2020-08-06 00:00:00.000000000 Z
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
-    created_at: !ruby/object:DateTime 2020-09-18 23:46:27.071000000 Z
+    created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
     updated_at: !ruby/object:DateTime 2020-11-30 22:57:42.984000000 Z
     content_type_id: moduleStories
     revision: 5
@@ -1382,7 +1481,7 @@ moduleStories:
   stories:
   - sys:
       id: 1WgpyJbJSV48IWEG2W44QH
-      created_at: !ruby/object:DateTime 2020-11-30 22:56:11.094000000 Z
+      created_at: !ruby/object:DateTime 2020-11-30 22:24:21.198000000 Z
       updated_at: !ruby/object:DateTime 2020-12-01 02:29:16.659000000 Z
       content_type_id: moduleCard
       revision: 3
@@ -1392,7 +1491,7 @@ moduleStories:
     image:
       sys:
         id: 3GvoWV940lWC7axDImMMVT
-        created_at: !ruby/object:DateTime 2020-11-30 22:56:01.329000000 Z
+        created_at: !ruby/object:DateTime 2020-11-30 22:55:39.673000000 Z
         updated_at: !ruby/object:DateTime 2020-11-30 22:56:01.329000000 Z
       title: Ed Podcast
       description: 
@@ -1402,15 +1501,15 @@ moduleStories:
     youtube_video_id: SOaudM-4pcU
 - sys:
     id: 7vZmYZOfdCLUa1e3mQyNZw
-    created_at: !ruby/object:DateTime 2021-02-20 01:46:31.240000000 Z
-    updated_at: !ruby/object:DateTime 2021-02-20 01:46:31.240000000 Z
+    created_at: !ruby/object:DateTime 2021-02-18 07:48:18.360000000 Z
+    updated_at: !ruby/object:DateTime 2021-04-28 18:36:27.772000000 Z
     content_type_id: moduleStories
-    revision: 1
+    revision: 2
   title: Health Fact-checking Trainings
   stories:
   - sys:
       id: 53eFkDIN33U1aGpR9U6BGG
-      created_at: !ruby/object:DateTime 2020-12-14 21:51:23.763000000 Z
+      created_at: !ruby/object:DateTime 2020-12-11 23:45:18.999000000 Z
       updated_at: !ruby/object:DateTime 2020-12-14 23:22:12.980000000 Z
       content_type_id: story
       revision: 3
@@ -1422,7 +1521,7 @@ moduleStories:
     lead_image:
       sys:
         id: 7nKd6u8LX4BGXLwuTDJgRr
-        created_at: !ruby/object:DateTime 2020-12-14 21:51:19.573000000 Z
+        created_at: !ruby/object:DateTime 2020-12-14 21:49:32.750000000 Z
         updated_at: !ruby/object:DateTime 2020-12-14 21:51:19.573000000 Z
       title: Safe solutions for fact-checking health information
       description: 
@@ -1438,7 +1537,7 @@ moduleStories:
     lead_video: px2KEldB6Qg
   - sys:
       id: 4cabGMvYgIjWkZR53tnFBC
-      created_at: !ruby/object:DateTime 2020-12-14 21:49:18.546000000 Z
+      created_at: !ruby/object:DateTime 2020-12-11 21:56:56.393000000 Z
       updated_at: !ruby/object:DateTime 2020-12-14 22:58:21.633000000 Z
       content_type_id: story
       revision: 2
@@ -1450,7 +1549,7 @@ moduleStories:
     lead_image:
       sys:
         id: 5EbryUux1NaYaWqodGtpGx
-        created_at: !ruby/object:DateTime 2020-12-14 21:49:13.576000000 Z
+        created_at: !ruby/object:DateTime 2020-12-14 21:48:53.616000000 Z
         updated_at: !ruby/object:DateTime 2020-12-14 21:49:13.576000000 Z
       title: How health misinformation spreads disease
       description: 
@@ -1468,7 +1567,7 @@ moduleStories:
     lead_video: BKdyZq4ELcY
   - sys:
       id: 2i4FAU6yUI8supQmTzEXab
-      created_at: !ruby/object:DateTime 2020-12-14 21:52:22.311000000 Z
+      created_at: !ruby/object:DateTime 2020-12-11 23:44:21.082000000 Z
       updated_at: !ruby/object:DateTime 2020-12-14 22:58:09.953000000 Z
       content_type_id: story
       revision: 2
@@ -1480,7 +1579,7 @@ moduleStories:
     lead_image:
       sys:
         id: 6ZdFGhHDc09plxve0uc6tc
-        created_at: !ruby/object:DateTime 2020-12-14 21:52:15.546000000 Z
+        created_at: !ruby/object:DateTime 2020-12-14 21:52:00.415000000 Z
         updated_at: !ruby/object:DateTime 2020-12-14 21:52:15.546000000 Z
       title: Fact-checking and mental health
       description: 
@@ -1496,7 +1595,7 @@ moduleStories:
     lead_video: e_u0PMKAvN0
   - sys:
       id: 4MGBMdaeda8SjNixhuZjyl
-      created_at: !ruby/object:DateTime 2020-12-14 21:54:01.841000000 Z
+      created_at: !ruby/object:DateTime 2020-12-11 23:42:02.644000000 Z
       updated_at: !ruby/object:DateTime 2020-12-14 22:58:05.323000000 Z
       content_type_id: story
       revision: 2
@@ -1508,7 +1607,7 @@ moduleStories:
     lead_image:
       sys:
         id: 5QHgamKI4YfxslGvcWEIoq
-        created_at: !ruby/object:DateTime 2020-12-14 21:53:58.327000000 Z
+        created_at: !ruby/object:DateTime 2020-12-14 21:52:33.316000000 Z
         updated_at: !ruby/object:DateTime 2020-12-14 21:53:58.327000000 Z
       title: Public health tools for fact-checking health information
       description: 
