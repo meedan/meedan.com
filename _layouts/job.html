@@ -9,9 +9,15 @@
         <section>
             <div class="story-wrapper section-margin">
                 <div class="story-sidebar">
+                    {% if page.link_to_external_job_posting %}
+                        {% assign link_to_apply = page.link_to_external_job_posting %}
+                    {% else %}
+                        {% assign job_posted_on = page.sys.created_at | date: '%-d %B %Y' %}
+                        {% assign link_to_apply = "mailto:jobs@meedan.com?subject=" | append: page.title | append:  "(" | append: job_posted_on | append: ")" %}
+                    {% endif %}
                     <div class="story-sidebar-item">
                         Please send CV and statement of interest
-                        <a href="mailto:jobs@meedan.com?subject={{ page.title }} ({{ page.sys.created_at | date: '%-d %B %Y' }})" class="button">
+                        <a href="{{ link_to_apply }}" class="button">
                             Apply ↗
                         </a>
                     </div>
