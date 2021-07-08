@@ -3,11 +3,161 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-10 14:51:25.002000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-29 19:59:22.135000000 Z
     content_type_id: moduleStories
-    revision: 73
+    revision: 74
   title: Blog
   stories:
+  - sys:
+      id: 5e3fClpb9fAiRMTq1walWj
+      created_at: !ruby/object:DateTime 2021-06-25 15:16:37.059000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-29 05:09:59.684000000 Z
+      content_type_id: story
+      revision: 3
+    title: 'A network of community fact-checkers: the Mafindo strategy'
+    slug: a-network-of-community-fact-checkers-the-mafindo-strategy
+    topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+    lead_image:
+      sys:
+        id: 5LrhlF92Y82cSoUZNjxjJb
+        created_at: !ruby/object:DateTime 2021-06-29 04:50:59.525000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-29 04:51:39.209000000 Z
+      title: Mafindo
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5LrhlF92Y82cSoUZNjxjJb/178652b607dbd625466cedbb803efdbc/Mafindo.jpg"
+    description: From a grassroots Facebook community to one of Indonesia's largest
+      fact-checking outlets, [Mafindo](https://www.mafindo.or.id/) (Masyarakat Anti
+      Fitnah Indonesia / Indonesian Anti Hoax Community) is a growing network of community
+      fact-checkers including teachers, government employees, farmers, entrepreneurs
+      and a wide range of people. In June 2021, Mafindo joined Meedan's global fact-checking
+      project using the WhatsApp Business API that is powered by Check, an open-source
+      platform built by Meedan. In this blogpost, we speak to [Harry Sufehmi](https://twitter.com/hsuf),
+      founder of Mafindo, about misinformation in Indonesia and Mafindo's role in
+      addressing it.
+    body: |-
+      From a grassroots Facebook community to one of Indonesia's largest fact-checking outlets, [Mafindo](https://www.mafindo.or.id/) (Masyarakat Anti Fitnah Indonesia / Indonesian Anti Hoax Community) is a growing network of community fact-checkers including teachers, government employees, farmers, entrepreneurs and a wide range of people. In June 2021, Mafindo joined Meedan's global fact-checking project using the WhatsApp Business API that is powered by Check, an open-source platform built by Meedan. In this blogpost, we speak to [Harry Sufehmi](https://twitter.com/hsuf), founder of Mafindo, about misinformation in Indonesia and Mafindo's role in addressing it.
+
+      **1. Harry, could you give us a background of how Mafindo was formed and the work you have been doing in addressing misinformation in Indonesia?**
+
+      We began as a grassroots community on Facebook, <https://facebook.com/groups/fafhh>. I created the group in September 2015 just as a way to educate my children (they are the first members of the group) about online hoaxes and ways to fact-check them. Before I knew it, people were joining in droves. Now we have about 85,000  members and it keeps increasing everyday.\
+
+      By 2016 we registered Mafindo as an institution. And it just took off from there. Thanks to our huge community base, we were able to cover a lot of ground in addressing misinformation through public education, government advocacy, academic research, public speaking in various conferences, and of course, fact-checking; both with our professional fact-checker team and with the community. The community comprises around 500 members belonging to 17 Mafindo chapters in various cities, and 85,000 members in our online forum who engage in crowdsourced hoax busting. Crowdsourced hoax busting means we enable people to do the fact-checking, therefore increasing our fact-checking capacity significantly, not just relying on our professional fact-checkers. These fact-checking efforts are guided by the Mafindo's rules to ensure quality. 
+
+      **2. How is the fact-checking and misinformation space in Indonesia? What is the main source of misinformation in the country?**
+
+      The misinformation space is pretty serious, especially with the current low level of literacy in Indonesia, people are easily tricked by online hoaxes.\
+      These hoaxes spread via various social media platforms such as Facebook, Twitter, Instagram and TikTok. The hoax actors actually began spreading hoaxes on their own websites. But they quickly realized that it's faster to do it on social media platforms. So they began on Facebook, later on WhatsApp, and then also on Twitter. Most of the hoaxes are detected on Twitter, but this is also because it's the most open platform. We suspect that a lot are also on Facebook, especially on the private forums, and on Whatsapp.
+
+      But we think these actors' main aim is actually WhatsApp, because from then it's usually only one step away from mouth-to-mouth / grassroots level spread of misinformation. So we consider it very important to have a presence and useful hoax-busting facility on this platform (WhatsApp).
+
+      Hoax actors are usually motivated financially. An investigative TV show once managed to get confession from one of the actors, he claimed a profit of about USD 150.000 each month (from web ads) from each website that he manages, and he owns several websites. Now on social media, they are usually paid by their sponsors. Some operations are so big that they can occupy a whole office building.
+
+      **3. How has it been to address COVID-19 related misinformation in the country over the past year?**
+
+      It has been a lot of hard work. Now a lot of hoax actors are switching to Covid-related hoaxes. Some of the hoaxes are even "recycled" - old hoaxes resent and redistributed, and causing uproar again. Hence, we are working towards a centralized fact-check database.
+
+      But we're very surprised to [find people are revolting against hoaxes](https://memorandum.co.id/wakapolda-jatim-terbantu-netizen-melawan-hoax/). It's so cool!
+
+      At the beginning of the pandemic and when hoaxes started emerging, we felt so alone combating these hoaxes. Now in a lot of cases, the hoax actors are swarmed by people and debunked en masse. What a sight! We felt we have reached quite a successful milestone in our effort to educate the public. And the sight of this indeed reinvigorates our team & volunteers' morale.
+
+      **4. You recently partnered with Meedan in setting up a WhatsApp tipline powered by Check. In what ways do you think Check will support your fact-checking work?**
+
+      It will enable us to support communities on the WhatsApp platform to combat hoaxes in their circles.There are a lot of people, we call them the "silent majority", who are not happy with the current situation (a lot hoaxes circulating in their WhatsApp groups) - but they don't know what to do about it. By providing the tipline, we hope to empower them to tackle this problem and support them in the process.
+
+      **5. What are your plans to promote the tipline in the country and to widen your audience?**
+
+      We have a lot of activities all over Indonesia including training and workshops on fact-checking and media literacy. We'll promote the tipline in these events, and also later launch a press release. We also have a lot of friends in the journalist community, we'll reach out to them to help promote this. And of course we'll inform our own community and also our friends in other communities, so they'll in turn be able to help spread the information as well.
+  - sys:
+      id: JpJEFzIiJVUCodFNEKrs6
+      created_at: !ruby/object:DateTime 2021-06-25 13:48:25.739000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-01 04:07:26.234000000 Z
+      content_type_id: story
+      revision: 10
+    title: The case for collaborations of fact-checkers and grassroots newsrooms
+    slug: the-case-for-collaborations-of-fact-checkers-and-grassroots-newsrooms
+    topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+    lead_image:
+      sys:
+        id: 5TsmskWB68eddKCke3wt22
+        created_at: !ruby/object:DateTime 2021-06-29 04:46:20.206000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-29 04:48:13.729000000 Z
+      title: Collaboration of fact-checkers and local newsrooms
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/5TsmskWB68eddKCke3wt22/5ba57a89d1aa87e49d419031fc4b1e71/Collaboration.jpg"
+    description: |
+      Through tiplines, crowdsourcing and monitoring social media, fact-checkers get hold of a wide range of misinformation circulating online and on private messaging platforms. Despite building corresponding fact-check reports for false and misleading claims, the biggest challenge is the reach of these fact-checks to counter the harm done by false claims. [Studies](https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308) show that false news travels faster and more broadly than facts.
+
+      In a recent effort to address this gap in reach of facts, [the Quint](https://www.thequint.com/) an English and Hindi language Indian general news and opinion website,  came up with a brilliant initiative. Their fact-check team [WebQoof](https://www.thequint.com/news/webqoof) resorted to offline collaborations with grassroots level newsrooms and media organizations in gathering misinformation circulating in rural areas and among underserved communities in India. We spoke to [Kritika Goel](https://meedan.com/blog/meet-kritika-goel-associate-editor-the-quint/), Associate Editor with the Quint for insights on how the collaboration works and the responses in the community. This blogpost shares highlights from the conversation with Kritika.
+    body: "Through tiplines, crowdsourcing and monitoring social media, fact-checkers
+      get hold of a wide range of misinformation circulating online and on private
+      messaging platforms. Despite building corresponding fact-check reports for false
+      and misleading claims, the biggest challenge is the reach of these fact-checks
+      to counter the harm done by false claims. [Studies](https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308)
+      show that false news travels faster and more broadly than facts.\n\nIn a recent
+      effort to address this gap in reach of facts, [the Quint](https://www.thequint.com/)
+      an English and Hindi language Indian general news and opinion website,  came
+      up with a brilliant initiative. Their fact-check team [WebQoof](https://www.thequint.com/news/webqoof)
+      resorted to offline collaborations with grassroots level newsrooms and media
+      organizations in gathering misinformation circulating in rural areas and among
+      underserved communities in India. We spoke to [Kritika Goel](https://meedan.com/blog/meet-kritika-goel-associate-editor-the-quint/),
+      Associate Editor with the Quint for insights on how the collaboration works
+      and the responses in the community. This blogpost shares highlights from the
+      conversation with Kritika.\n\n**1. Partnering with local newsrooms to reach
+      fact-checks to underserved communities**\n\nThe initiative involved urban based
+      fact-checkers to partner with local and grassroots level newsrooms such as the
+      women-led [Khabar Lahariya](https://khabarlahariya.org/), [Video Volunteers](https://www.videovolunteers.org/)
+      and [Center for North East Studies and Policy Research ](https://www.c-nes.org/),
+      who work in rural areas in the states of Uttar Pradesh, Madhya Pradesh, Bihar
+      and Assam.\n\n**2. A two-fold agenda of misinformation gathering and dissemination
+      of facts in the community**\n\nThe idea of the collaboration is to circulate
+      fact-checks and disseminate fact-checked, verified information though local
+      partners to  ensure that people in rural areas have access to the right information
+      related to COVID-19 and vaccines. The team is also trying to reach out to rural
+      women through this initiative and address issues such as vaccine hesitancy.
+      \n\n**3. Formats that the community can easily access and connect to are  important**\n\nThe
+      initiative is experimenting with creative formats in disseminating debunks and
+      facts in the community. In order to make content relatable, the campaign has
+      a character named Janaki as the face of it. Janaki's character represents other
+      women from  small towns. Janaki runs a tea stall next to one of the country's
+      most prestigious medical institutes in India, the All India Institute Of Medical
+      Science in Delhi. This gives her access to credible information around the pandemic
+      from doctors, nurses and even journalists who visit her stall. Janaki speaks
+      to the rural audience and debunks misinformation that she receives on WhatsApp
+      through [videos](https://www.youtube.com/watch?v=jIyPxy8K058) and [visual cards](https://thequint-vaccine-fact-check.com/wp-content/uploads/2021/06/4.-Aspidosperma-Q20.png). \n\n**4.
+      Content in local languages is key to addressing misinformation in local communities**\n\nVideos
+      and [visual cards](https://thequint-vaccine-fact-check.com/wp-content/uploads/2021/06/3.-Fertility.png)
+      with facts and debunks are disseminated by the local groups back to the community
+      through WhatsApp, the same  platform on which they crowdsource misinformation.
+      Content, which includes debunks and [video explainers](https://www.youtube.com/watch?v=BjXcPsjJziE)
+      of COVID-19 related issues and concepts is translated into the local languages
+      such as Hindi, Bhojpuri and Assamese. The Quint team is also exploring the dissemination
+      of content via [podcasts](https://fit.thequint.com/hindi/health-news-update/covid-19-vaccination-during-periods-yes-you-can-get-vaccinated-during-period#read-more)
+      which are narrowcasted by local radio stations. Some of the videos are also
+      being played up by the local channels to amplify the reach of fact-checks. \n\n**5.
+      Digital misinformation in urban areas finally reaches rural areas as well**\n\nThe
+      team observed that misinformation that circulates in urban areas ultimately
+      reaches rural areas. However, there is region-specific misinformation as well.
+      For instance, in the state of Assam where the central government is implementing
+      the [National Register of Citizens](https://scroll.in/article/930482/explainer-what-exactly-is-the-national-register-of-citizens#:~:text=The%20register%20is%20meant%20to,Indian%20citizens%20living%20in%20Assam.&text=One%20of%20the%20stated%20aims,the%20Bangladesh%20War%20of%201971.),
+      people hesitated to be taken for COVID treatment as they feared of being put
+      in detention centers. \n\n**6. Media literacy and awareness campaigns complement
+      fact-checking **\n\nOverall, the project aimed at catching hold of rumours and
+      misinformation circulating in areas where the reach of fact-checkers is less
+      and circling back with facts and credible information by partnering with local
+      newsrooms who have access to the community. The goal was to create awareness
+      and to educate people to exercise caution while consuming information shared
+      on closed groups and social media.\n\nRefer to the following for examples of
+      visual cards and videos used by the team.\n\n![Webqoof visual card 2](//images.ctfassets.net/g118h5yoccvd/15NlG6eKeE8s4wJcYHxuSO/53dca62eca78560490a9865b19d22c54/4.-Aspidosperma-Q20.png)\n\n<p
+      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/BjXcPsjJziE?rel=0\"
+      title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay;
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n"
+    words_by:
+    - sys:
+        id: 5i0ZluvBzz6h4ashdZJIkH
   - sys:
       id: hJzg1USgBbdCXadavVs21
       created_at: !ruby/object:DateTime 2021-05-27 13:48:02.614000000 Z
@@ -256,158 +406,6 @@ moduleStories:
     - sys:
         id: 4MK93CSrpmc3tFyE5MYEeh
     alt_date: !ruby/object:DateTime 2021-05-25 00:00:00.000000000 Z
-  - sys:
-      id: 10B2Pr9aLlD7d9MVWis6Mi
-      created_at: !ruby/object:DateTime 2021-05-21 16:40:37.758000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-28 13:00:11.989000000 Z
-      content_type_id: story
-      revision: 2
-    title: Over a Month Of Ekta's Collaborative Fact-checks in India
-    slug: over-a-month-of-ektas-collaborative-fact-checks-in-india
-    topic:
-    - sys:
-        id: 7jQKmsQvOs6pjAjLth5gsA
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: ajYtELvpS099e4SnSboQc
-        created_at: !ruby/object:DateTime 2021-05-21 16:41:37.805000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-21 16:42:10.408000000 Z
-      title: Round up of Ekta's work
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/ajYtELvpS099e4SnSboQc/3429074d878b03833acf1d25efca56e9/Roundup_of_Ekta_content_1__1_.png"
-    description: "Ekta is a consortium of  six Indian fact-checking groups to address
-      misinformation in a collaborative manner. All the groups which include, AFP
-      Fact Check, BOOM Live, Factly, India Today Fact Check, Vishvas Newsw and WebQoof,
-      have also been running WhatsApp tiplines as part of the platform's third party
-      fact-checking program. All six groups came together in April 2021 during state
-      elections in five states in India to share verified information, insights and
-      trends related to the elections. \n"
-    body: "### [Ekta](https://ekta-facts.com/) is a consortium of  six Indian fact-checking
-      groups to address misinformation in a collaborative manner. All the groups which
-      include, [AFP Fact Check](https://factcheck.afp.com/), [BOOM Live](https://www.boomlive.in/),
-      [Factly](https://factly.in/), [India Today Fact Check](https://www.indiatoday.in/fact-check),
-      [Vishvas News](https://www.vishvasnews.com/) and [WebQoof](https://www.thequint.com/news/webqoof),
-      have also been running WhatsApp tiplines as part of the platform's third party
-      fact-checking program. \n\nAll six groups came together in April 2021 during
-      state elections in five states in India to share verified information, insights
-      and trends related to the elections. Meedan is also a partner in the Ekta consortium
-      and provides strategic inputs along with access to its technology platform,
-      Check, to Ekta partners. In mid-April-May 2021, when India witnessed a surge
-      in COVID-19 cases, Ekta diversified its focus to address misinformation around
-      the pandemic and vaccination drives.\n\nSince its launch in April, members of
-      Ekta meet every Monday to discuss the most viral misinformation  and potential
-      stories for collaboration. Meedan provides insights on the most requested items
-      - text and images, received on the tiplines. Input and intelligence is then
-      shared on fact-checks and explainers — evidence from the ground, quotes from
-      experts and government officials and regional insights.  Content developed in
-      a collaborative manner is published on partners' websites with the Ekta branding.
-      \ \n\nThe pooling of resources and intelligence is meant to reduce the time
-      taken by participating newsrooms in  fact-checking a viral piece of misinformation.
-      The aim is to collaboratively work on a minimum of one story a week. All the
-      reports produced by members of Ekta through the collaboration are curated as
-      weekly blog posts on Ekta's website. [Meedan's Health Desk](https://health-desk.org/)
-      shares inputs from subject experts on misinformation related to COVID-19 and
-      health related topics.\n\nOver the past weeks, Ekta has covered misinformation
-      around the West Bengal election, post-poll violence, COVID-19, oxygen shortage
-      in hospitals during the current surge in viral infections, alternative treatments
-      of COVID-19, vaccines and conspiracy theories about the pandemic. Till date
-      Ekta has published ten collaborative blogposts and collaboratively worked on
-      five viral claims. Here are a few blog posts from Ekta showcasing the work of
-      the coalition.\n\n1.  [Ekta Flags Video From Bangladesh Which Has Been Falsely
-      Linked to Post Poll Violence & Alleged Rape in West Bengal](https://ekta-facts.com/blog-posts/ekta-flags-video-from-bangladesh-which-has-been-falsely-linked-to-post-poll-violence-alleged-rape-in-west-bengal)\n\n2.
-      \ [Ekta Counters Misleading Posts Prescribing Homeopathic Aspidosperma As a
-      Substitute for Oxygen in COVID-19 Patients](https://ekta-facts.com/blog-posts/ekta-counters-misleading-posts-prescribing-homeopathic-aspidosperma-as-a-substitute-for-oxygen-in-covid-19-patients)\n\n3.
-      \ [Viral Posts Blaming State Governments for Delayed Installation of Oxygen
-      Plants Are Misleading, Finds Ekta](https://ekta-facts.com/blog-posts/viral-posts-blaming-state-governments-for-delayed-installation-of-oxygen-plants-are-misleading-finds-ekta)\n\n4.
-      \ [The Come-back of a Fallacy: Read Ekta's Debunks of Claims Linking COVID-19
-      and 5G](https://ekta-facts.com/blog-posts/the-come-back-of-a-fallacy-read-ektas-debunks-of-claims-linking-covid-19-and-5g)\n\n5.
-      \ [Ekta Flags Unrelated and Old Images Used to Claim Oxygen Shortage in India](https://ekta-facts.com/blog-posts/ekta-flags-unrelated-and-old-images-used-to-claim-oxygen-shortage-in-india)\n\n6.
-      \ [Morphed Images, Old Videos & Fake Election Surveys: What We've Seen So Far
-      During 2021 State Elections in India](https://ekta-facts.com/blog-posts/morphed-images-unrelated-videos-and-fake-election-surveys-what-weve-seen-so-far-during-2021-state-elections-in-india)\n\nFor
-      more information about the consortium, visit <https://ekta-facts.com/> or drop
-      an email to <editors@ekta-facts.com>."
-    words_by:
-    - sys:
-        id: 5i0ZluvBzz6h4ashdZJIkH
-  - sys:
-      id: 45Wg5Qo4drwECLbukXc7U1
-      created_at: !ruby/object:DateTime 2021-05-18 16:52:50.419000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-22 01:45:30.524000000 Z
-      content_type_id: story
-      revision: 1
-    title: Welcome Darius Kazemi, Our Senior Frontend Developer
-    slug: welcome-darius-kazemi-our-senior-frontend-developer
-    topic:
-    - sys:
-        id: 32ogZlDIXFakgZXiZ8l3MT
-    lead_image:
-      sys:
-        id: 6esU5LYXt6OEYgOEtUYfwg
-        created_at: !ruby/object:DateTime 2021-05-18 17:00:05.734000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-18 17:00:22.653000000 Z
-      title: Darius Kazemi square headshot
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/6esU5LYXt6OEYgOEtUYfwg/ec740708a13716dd2d5f1ac84236888f/Darius-Kazemi.jpeg"
-    body: "Meedan is excited to have Darius Kazemi on board as our Senior Frontend
-      Developer! Check out his work on Check :-) and learn more about him in the short
-      Q&A below.\n\n### 1. What has been your experience before you joined Meedan?
-      \n\nMy first career was as a video game developer. I got interested in open
-      source games technology, and specifically browser-based game engines. This opened
-      the door to web technology more broadly and before I knew it I became a full-stack
-      developer. I developed [a creative coding practice](http://tinysubversions.com/projects/
-      \"Darius' creative coding practice\") focused primarily on social media bots
-      and cofounded a [creative technology cooperative](https://feeltrain.com/ \"Feel
-      Train creative tech cooperative\"). In 2018, I was awarded a [Mozilla Open Web
-      Fellowship](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/
-      \"Mozilla Open Web fellowship\") embedded with [Code for Science & Society](https://codeforscience.org/
-      \"Code for Science & Society website\"), researching and building decentralized
-      social media software. That culminated in a guide called [Run Your Own Social](https://runyourown.social/
-      \"Run Your Own social network, built by Darius\"). I did some work for [Center
-      for Digital Resilience](https://digiresilience.org/ \"Center for Digital Resilience\"),
-      and then spent the pandemic being a full time therapeutic foster dad (with some
-      [fact-checking on the side](https://www.nytimes.com/2020/06/16/science/social-media-bots-kazemi.html
-      \"Social Media bots feature from the NY Times\")).\n\n### 2. Tell us about an
-      exciting and insightful experience that has shaped your perspective and work.\n\nI
-      would point to spending a year of my fellowship traveling around the world and
-      talking to people in different countries with extremely different needs for
-      what they want to get out of their internet experience. It was incredibly formative
-      for me and really helped me reset my baseline expectations for what people want
-      from technology. Some people in remote areas have massive external bandwidth
-      limitations and anything that requires talking to a cloud service is a no-go
-      for them. For some groups of indigenous people, knowledge is tied to geographic
-      location and it actually really matters to them physically where that knowledge
-      is stored. It’s enabled me to do much better work when thinking about communication
-      systems from the ground up.\n\n### 3. What is the bot making community like
-      online? What are the strengths and what gaps do you see?\n\nI think bots used
-      to be a more specific definable practice but ever since the 2016 election, “bot”
-      has [become a really over-loaded term](https://tinysubversions.com/notes/the-bot-scare/
-      \"how the term \"bot\" has become overloaded\") that actually has a lot more
-      to do with disinformation than fun art projects or useful tools. Platforms are
-      (rightly) cracking down on malicious bots, but non-malicious bots tend to get
-      swept up in the same crackdowns so what we end up with is a more hostile environment
-      for our bot makers. It’s one of the reasons I was driven to running my own social
-      media platforms. Ultimately I think that's led to a “cooling off” of the bot
-      making community as something concrete. It seems like less of an identity these
-      days (“I’m a bot artist”) and more like just another piece of people's practices
-      within creative coding. Frankly I think that’s natural and good, for a medium
-      to not lose its luster when it loses its novelty, but just to become something
-      “normal” that people do.\n\n### 4. What brought you to Meedan?\n\nI was wrapping
-      up a year of foster parenting and was looking for meaningful work as a programmer.
-      My time as a Mozilla Fellow introduced me to the [Internet Freedom Festival](https://internetfreedomfestival.org/
-      \"Internet Freedom Festival\"). They have a job board and Meedan was listed
-      there. I loved the mission so I applied!\n\n### 5. What's a project you're excited
-      about right now?\n\nWe have a new search feature that we’re going to be rolling
-      out that I’ve been working on for the last month. I’m excited to see how it
-      helps our users get their work done more effectively. In particular, searching
-      for similar images could be really powerful when trying to search for similar
-      instances of reported disinformation!\n\n### 6. Tell us some fun facts about
-      Darius.\n\n- I’m a published author of a [book on video game history](https://bossfightbooks.com/products/jagged-alliance-2-by-darius-kazemi
-      \"Darius' book on video game history\").\n- I spent the year 2019 reading one
-      internet RFC every day in chronological order [and blogging about it](https://write.as/365-rfcs/365-ietf-rfcs-a-50th-anniversary-dive
-      \"A year in blog posts about internet Request For Comments\").\n- Muhammad Ali
-      kissed me (when I was a baby)"
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
@@ -419,9 +417,9 @@ moduleStories:
   - sys:
       id: Qjmc87D7iZGsdoUOLWkgc
       created_at: !ruby/object:DateTime 2021-01-27 17:54:49.289000000 Z
-      updated_at: !ruby/object:DateTime 2021-02-04 19:20:15.764000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-29 16:39:41.703000000 Z
       content_type_id: story
-      revision: 6
+      revision: 8
     title: 'Vaccine Media Hub: Our in-house scientists are supporting COVID-19 vaccine
       response efforts for newsrooms & fact-checkers'
     slug: meedan-digital-health-labs-all-women-team-of-in-house-scientists-public
@@ -472,32 +470,32 @@ moduleStories:
       with reporting on COVID-19 vaccines. The includes a global alliance of Science
       Media Centres and Meedan Digital Health Lab’s in-house team of public health
       scientists and pandemic response experts, supported by the Google News Initiative.
-      For updates, check out https://health-desk.org/vaccines/. \n\nWorking with you
-      all over the last year has been an honor. The explainers, glossary terms and
-      resources that our scientists have created to support communicators reaches
-      audiences in more than 18 countries across Asia, Latin America, Africa, Europe
-      and North America. A sample content impact audit recently highlighted that 81%
-      of the public health pieces that we have supported are on the front-page of
-      Google search results for that topic in the region covered. That is such an
-      essential metric as we think about the health information data voids that exist
-      online, and how your work fills the information gaps that might otherwise largely
-      contain problematic health misinformation.  \n\nWith a small team of scientists,
-      researchers and communicators to influence diverse information spaces, these
-      collaborations have shown the level of scale that can be made possible through
-      syndication models for content dissemination, and strong collaborations across
-      the public health and journalism fields. \n\nConversations with partner organizations
-      have demonstrated how having access to experts can increase the subject matter
-      that fact-checkers can cover, and therefore the content available online to
-      the fact-checkers’and journalists' audiences. How can we work together to continue
-      to fill public health information gaps across a variety of topics, ranging from
-      vaccinations to infectious disease, from nutrition to reproductive health care?
-      \n\nAt a presentation our team participated in about health misinformation hosted
-      by the National Academies of Science, Engineering and Medicine, health fact-checking
-      was identified as “the next frontier of health literacy”, and this is in direct
-      response to the public health efforts of innovative communicators around the
-      world. This includes our amazing partners: VERA Files, India Today, Nigeria
-      Health Watch, Speak Up Africa, Boom Live, Africa Check, Animal Politico, and
-      many more. We're grateful for your dedication to untangling complex questions
+      For updates, check out [https://health-desk.org/vaccines/](https://health-desk.org/vaccines/).
+      \n\nWorking with you all over the last year has been an honor. The explainers,
+      glossary terms and resources that our scientists have created to support communicators
+      reaches audiences in more than 18 countries across Asia, Latin America, Africa,
+      Europe and North America. A sample content impact audit recently highlighted
+      that 81% of the public health pieces that we have supported are on the front-page
+      of Google search results for that topic in the region covered. That is such
+      an essential metric as we think about the health information data voids that
+      exist online, and how your work fills the information gaps that might otherwise
+      largely contain problematic health misinformation.  \n\nWith a small team of
+      scientists, researchers and communicators to influence diverse information spaces,
+      these collaborations have shown the level of scale that can be made possible
+      through syndication models for content dissemination, and strong collaborations
+      across the public health and journalism fields. \n\nConversations with partner
+      organizations have demonstrated how having access to experts can increase the
+      subject matter that fact-checkers can cover, and therefore the content available
+      online to the fact-checkers’and journalists' audiences. How can we work together
+      to continue to fill public health information gaps across a variety of topics,
+      ranging from vaccinations to infectious disease, from nutrition to reproductive
+      health care? \n\nAt a presentation our team participated in about health misinformation
+      hosted by the National Academies of Science, Engineering and Medicine, health
+      fact-checking was identified as “the next frontier of health literacy”, and
+      this is in direct response to the public health efforts of innovative communicators
+      around the world. This includes our amazing partners: VERA Files, India Today,
+      Nigeria Health Watch, Speak Up Africa, Boom Live, Africa Check, Animal Politico,
+      and many more. We're grateful for your dedication to untangling complex questions
       related to the COVID-19 pandemic, fact-checking in an era of evolving science
       and moments of uncertainty. Your response to the misinfodemic is vital.  \n\nWe
       have also started to serve local community media outlets in the United States,
@@ -511,7 +509,8 @@ moduleStories:
       of the journalists, fact-checkers, and communicators that have come to us for
       support, and are looking forward to continuing collaborations in 2021. \n\nHere's
       where you can find more information about the Vaccine Media Hub collaboration:
-      https://meedan.com/blog/questions-about-covid-19-vaccines-the-vaccine-media-hub-is-coming-soon/ "
+      [https://meedan.com/blog/questions-about-covid-19-vaccines-the-vaccine-media-hub-is-coming-soon/
+      ](https://meedan.com/blog/questions-about-covid-19-vaccines-the-vaccine-media-hub-is-coming-soon/)"
     words_by:
     - sys:
         id: 1uaMTril4FB8NxxRTKwLDH
@@ -1474,31 +1473,45 @@ moduleStories:
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
     created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
-    updated_at: !ruby/object:DateTime 2020-11-30 22:57:42.984000000 Z
+    updated_at: !ruby/object:DateTime 2021-06-29 20:00:48.180000000 Z
     content_type_id: moduleStories
-    revision: 5
+    revision: 6
   title: Featured Story
   stories:
   - sys:
-      id: 1WgpyJbJSV48IWEG2W44QH
-      created_at: !ruby/object:DateTime 2020-11-30 22:24:21.198000000 Z
-      updated_at: !ruby/object:DateTime 2020-12-01 02:29:16.659000000 Z
-      content_type_id: moduleCard
-      revision: 3
-    title: Meedan CEO speaks on Credder podcast
-    slug: meedan-ceo-speaks-on-credder-podcast
-    published_on: !ruby/object:DateTime 2020-11-30 00:00:00.000000000 Z
-    image:
+      id: 26UTRE8IT5sUBil9h7y32U
+      created_at: !ruby/object:DateTime 2021-01-14 01:12:45.176000000 Z
+      updated_at: !ruby/object:DateTime 2021-01-14 19:29:15.176000000 Z
+      content_type_id: story
+      revision: 1
+    title: Inoculating against misinformation
+    slug: inoculating-against-misinformation
+    topic:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
       sys:
-        id: 3GvoWV940lWC7axDImMMVT
-        created_at: !ruby/object:DateTime 2020-11-30 22:55:39.673000000 Z
-        updated_at: !ruby/object:DateTime 2020-11-30 22:56:01.329000000 Z
-      title: Ed Podcast
+        id: 2TZr0rckkBE1F6qRNzwLZP
+        created_at: !ruby/object:DateTime 2021-01-14 01:14:27.964000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-14 19:28:54.797000000 Z
+      title: Melisa Basol
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3GvoWV940lWC7axDImMMVT/7b97bda4b7b6f2f651593cab861bbde0/podcast.jpg"
-    tag: Podcast
-    link: https://www.youtube.com/watch?v=SOaudM-4pcU
-    youtube_video_id: SOaudM-4pcU
+      url: "//images.ctfassets.net/g118h5yoccvd/2TZr0rckkBE1F6qRNzwLZP/56e4c41ade3eead86fd9ef3105761eff/meedan_misinfodemia_ep2_melisa-basol_b.png"
+    description: |-
+      Melisa is a Gates scholar and received an MPhil in Social and Developmental Psychology (Distinction) from Cambridge. We caught up with Melisa a few weeks ago to talk about a theory that suggests we might be able to inoculate people against misinformation the same way we inoculate them against disease.
+
+      Originally from Germany, Melisa has a Bachelor of Science (Hons) in Psychology from Aberystwyth University. With a focus on complex societal and political decisions, she's interested in the formation, polarisation, and ‘immunisation’ of attitudes where the spread of misinformation poses a threat to science & society.
+    body: "Melisa is a Gates scholar and received an MPhil in Social and Developmental
+      Psychology (Distinction) from Cambridge. We caught up with Melisa a few weeks
+      ago to talk about a theory that suggests we might be able to inoculate people
+      against misinformation the same way we inoculate them against disease.\n\nOriginally
+      from Germany, Melisa has a Bachelor of Science (Hons) in Psychology from Aberystwyth
+      University. With a focus on complex societal and political decisions, she's
+      interested in the formation, polarisation, and ‘immunisation’ of attitudes where
+      the spread of misinformation poses a threat to science & society. \n\n<p class=\"u-responsive-ratio\">\n<iframe
+      height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless
+      src=\"https://player.simplecast.com/46757cac-9c08-438f-9c5f-6ed889f5578b?dark=true\"></iframe></p>"
+    alt_date: !ruby/object:DateTime 2021-01-14 00:00:00.000000000 Z
 - sys:
     id: 7vZmYZOfdCLUa1e3mQyNZw
     created_at: !ruby/object:DateTime 2021-02-18 07:48:18.360000000 Z
