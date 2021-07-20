@@ -3,9 +3,9 @@ moduleList:
 - sys:
     id: MJXbtCDpyQ0oRzW3rTabs
     created_at: !ruby/object:DateTime 2020-03-20 22:42:53.229000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-09 20:21:28.386000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-13 00:36:41.811000000 Z
     content_type_id: moduleList
-    revision: 2
+    revision: 3
   title: Our supporters
   description: Since 2006, Meedan has worked with a network of extraordinary sponsors,
     clients, and partners.
@@ -406,6 +406,15 @@ moduleList:
     title: Animal Politico
     list_only: true
     link: https://www.animalpolitico.com/
+  - sys:
+      id: 6JlHNTSAbkOpIlyi8BIhAS
+      created_at: !ruby/object:DateTime 2021-07-13 00:13:20.069000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-13 00:13:59.225000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: National Science Foundation
+    list_only: true
+    link: https://www.nsf.gov/
 - sys:
     id: 4ytDksEIifiBOFrxcoIUll
     created_at: !ruby/object:DateTime 2020-03-21 00:47:51.866000000 Z

@@ -9,8 +9,8 @@
             <a href="/blog/updates">View all updates →</a>
         </div>
     </div>
-    <div class="module-wrapper">
-        {% for update in updates[0].cards | limit: 4 %}
+    <div class="module-wrapper {% if include.count %} grid-template-columns--{{ include.count }}{% endif %}">
+        {% for update in updates[0].cards | limit: include.count %}
         <div class="update-grid-item">
             <a href="{{ update.link }}" title="{{ update.title }}">
                 <picture class="image-container display--block">

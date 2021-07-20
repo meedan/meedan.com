@@ -10,7 +10,8 @@ a.button {
     border: 1px solid var(--blackInk);
     &:hover {
         background-color: var(--blackInk);
-        color: var(--sunDown);
+        border-color: var(--blackInk);
+        color: #fff;
     }
 }
 
@@ -110,4 +111,12 @@ a.cta-button {
     &:hover {
         border-color: #fff;
     }
+}
+
+.circle.button {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
 }

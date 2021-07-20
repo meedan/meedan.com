@@ -7,13 +7,13 @@
 
 .module-updates .module-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    // grid-template-columns: repeat(2, 1fr);
     grid-gap: var(--space-4);
     padding-left: var(--space-3);
     padding-right: var(--space-3);
-    @include responsive('min-width: #{$width-tablet}') {
-        grid-template-columns: repeat(4, 1fr);
-    }
+    // @include responsive('min-width: #{$width-tablet}') {
+    //     grid-template-columns: repeat(4, 1fr);
+    // }
 }
 
 .update-grid-item a.tag {

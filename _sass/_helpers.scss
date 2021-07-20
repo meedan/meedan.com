@@ -179,7 +179,6 @@
     border-color: var(--blackInk);
 }
 .module-bg-color--light-navy {
-    color: var(--lightNavy);
     background-color: var(--lightNavy);
 }
 .module-bg-color--east-side {
@@ -272,6 +271,11 @@
 
 .dark .plain-list.with-vertical-border ul li {
     border-color: inherit;
+}
+
+.clickable.with-icon a {
+    display: flex;
+    justify-content: space-between;
 }
 
 .list-with-header ul {
