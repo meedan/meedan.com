@@ -79,3 +79,15 @@
         justify-content: space-between;
     }
 }
+
+.key-point.clickable {
+    padding-right: var(--space-1);
+    will-change: padding;
+    transition: padding 500ms  cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.key-point.clickable:hover {
+    background-color: var(--blackInk);
+    color: #fff;
+    padding-left: var(--space-2);
+}

@@ -7,6 +7,11 @@
     }
 }
 
+.section-margin-2x {
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-8);
+}
+
 .section-margin {
     margin-top: var(--space-4);
     margin-bottom: var(--section-space);
@@ -16,8 +21,16 @@
     margin-top: var(--space-4);
 }
 
+.section-top-margin-2x {
+    margin-top: var(--space-8);
+}
+
 .section-bottom-margin {
     margin-bottom: var(--section-space);
+}
+
+.section-bottom-margin-2x {
+    margin-bottom: var(--space-8);
 }
 
 .about {
