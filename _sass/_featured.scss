@@ -53,6 +53,7 @@
 
 
 .module-featued-media-cta {
+    will-change: transform;
     .description {
         margin-top: var(--space-1);
         margin-bottom: var(--space-1);
@@ -61,4 +62,21 @@
     .cta a {
         font-size: var(--scale-1);
     }
+    &:hover .cta a {
+        color: #fff;
+        border-color: var(--blackInk);
+        background-color: var(--blackInk);
+        .icon {
+            animation: bounce 500ms ease infinite;
+        }
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px); }
+    50% {
+        transform: translateY(8px); }
+    100% {
+        transform: translateY(0px); }
 }

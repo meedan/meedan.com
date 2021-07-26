@@ -120,4 +120,8 @@ a.cta-button {
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
+    .icon {
+        display: flex;
+        align-items: center;
+    }
 }

@@ -1,18 +1,20 @@
-.module-calendar {
+.module-calendar .module-wrapper {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
 }
 
 .module-calendar .section-title {
-    a { font-size: var(--scale-3); }
-    padding-bottom: var(--space-2);
+    a { font-size: var(--scale-1); }
     margin-bottom: var(--space-2);
-    border-bottom: 1px solid var(--blackInk);
-    text-align: center;
+    font-size: var(--scale-1);
 }
 
-.events .section-title {
+.events .module-calendar .section-title {
     text-align: left;
+    font-size: var(--scale-3);
+    a { font-size: var(--scale-3); }
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
 }
 
 .event-item {
