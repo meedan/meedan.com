@@ -89,5 +89,6 @@
 .key-point.clickable:hover {
     background-color: var(--blackInk);
     color: #fff;
-    padding-left: var(--space-2);
+    padding-left: var(--space-1);
+    padding-right: 0;
 }
