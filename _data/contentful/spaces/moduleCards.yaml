@@ -248,11 +248,21 @@ moduleCards:
 - sys:
     id: 4CWa8UN1MMrhDX1XEoq5XT
     created_at: !ruby/object:DateTime 2020-03-21 00:17:29.632000000 Z
-    updated_at: !ruby/object:DateTime 2021-07-21 01:42:32.720000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-27 17:15:12.694000000 Z
     content_type_id: moduleCards
     revision: 8
   title: Recent Press
   cards:
+  - sys:
+      id: 1heYuQZ47hcXKHYGLpplYJ
+      created_at: !ruby/object:DateTime 2021-07-27 17:11:38.645000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-27 17:16:34.091000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: New Facebook partnership tackles health misinformation
+    slug: new-facebook-partnership-tackles-health-misinformation
+    tag: Axios
+    link: https://www.axios.com/facebook-partnership-fact-checkers-health-misinformation-22886cfe-6d39-4a5d-bbf8-5f30dd656407.html
   - sys:
       id: 3qou1RQpBLlsqO1qNhRaXL
       created_at: !ruby/object:DateTime 2021-07-21 01:38:38.487000000 Z
@@ -323,6 +333,48 @@ moduleCards:
     published_on: !ruby/object:DateTime 2021-04-08 00:00:00.000000000 Z
     tag: Economic Times India
     link: https://economictimes.indiatimes.com/news/india/facebooks-third-party-fact-checkers-form-new-fact-checking-consortium-for-2021-legislative-assembly-elections/articleshow/81969831.cms
+  - sys:
+      id: 4rlChIW8X9FiIasoz78Uez
+      created_at: !ruby/object:DateTime 2021-03-21 04:43:28.014000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-06 20:12:03.899000000 Z
+      content_type_id: moduleCard
+      revision: 4
+    title: Content Moderation Lead Kat Lo weighs in on Trump's Facebook deplatforming
+    slug: kat-lo-weighs-in-on-trumps-facebook-deplatforming
+    published_on: !ruby/object:DateTime 2021-01-08 00:00:00.000000000 Z
+    tag: LA Times
+    link: https://www.latimes.com/politics/story/2021-01-08/trump-twitter-account-permanently-supended
+  - sys:
+      id: 4HIQZHx18yFiMOMuGhqplx
+      created_at: !ruby/object:DateTime 2021-03-21 04:41:57.516000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-06 20:12:21.449000000 Z
+      content_type_id: moduleCard
+      revision: 2
+    title: An Xiao Mina and Isabella Barroso featured in Mozilla's 2021 Internet Health
+      Report
+    slug: an-xiao-mina-and-isabella-barroso-featured-in-mozillas-2021-internet-health
+    published_on: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
+    tag: Network
+    link: https://2020.internethealthreport.org/people/isabella-barroso/
+  - sys:
+      id: 1x3LjkfSfHL5MqqiRk0Eod
+      created_at: !ruby/object:DateTime 2020-12-03 00:24:16.311000000 Z
+      updated_at: !ruby/object:DateTime 2021-04-28 18:17:18.906000000 Z
+      content_type_id: moduleCard
+      revision: 3
+    title: Social science or computer science? Scott Hale argues for both in The Commons
+    slug: social-science-or-computer-science-scott-hale-argues-for-both-in-the-commons
+    published_on: !ruby/object:DateTime 2020-12-03 00:00:00.000000000 Z
+    image:
+      sys:
+        id: 7xZrky8USdtBkUTKwRZPB
+        created_at: !ruby/object:DateTime 2020-12-03 21:00:21.135000000 Z
+        updated_at: !ruby/object:DateTime 2020-12-03 21:02:13.664000000 Z
+      title: Scott Hale
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/7xZrky8USdtBkUTKwRZPB/fb6974d70ecb12989401ca6301bd011b/Scott.png"
+    tag: Press
+    link: https://wearecommons.us/2020/11/30/human-or-machine-social-science-or-computer-science-yes-we-need-them-all/
   - sys:
       id: 3Tm5qJpRh7mO4Xrp1fkZAX
       created_at: !ruby/object:DateTime 2021-05-06 17:16:54.065000000 Z
@@ -538,54 +590,12 @@ moduleCards:
       sys:
         id: 3AXXbUM85HLIXqbeHoOO4t
         created_at: !ruby/object:DateTime 2021-03-21 04:56:04.456000000 Z
-        updated_at: !ruby/object:DateTime 2021-03-21 04:56:15.760000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-27 00:44:59.509000000 Z
       title: Dima headshot
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3AXXbUM85HLIXqbeHoOO4t/035764645682ae08a525b3656f2f8ee5/Dima_circle.png"
+      url: ''
     tag: First Monday Journal
     link: https://firstmonday.org/ojs/index.php/fm/article/view/11370/10066
-  - sys:
-      id: 4HIQZHx18yFiMOMuGhqplx
-      created_at: !ruby/object:DateTime 2021-03-21 04:41:57.516000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-06 20:12:21.449000000 Z
-      content_type_id: moduleCard
-      revision: 2
-    title: An Xiao Mina and Isabella Barroso featured in Mozilla's 2021 Internet Health
-      Report
-    slug: an-xiao-mina-and-isabella-barroso-featured-in-mozillas-2021-internet-health
-    published_on: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
-    tag: Network
-    link: https://2020.internethealthreport.org/people/isabella-barroso/
-  - sys:
-      id: 4rlChIW8X9FiIasoz78Uez
-      created_at: !ruby/object:DateTime 2021-03-21 04:43:28.014000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-06 20:12:03.899000000 Z
-      content_type_id: moduleCard
-      revision: 4
-    title: Content Moderation Lead Kat Lo weighs in on Trump's Facebook deplatforming
-    slug: kat-lo-weighs-in-on-trumps-facebook-deplatforming
-    published_on: !ruby/object:DateTime 2021-01-08 00:00:00.000000000 Z
-    tag: LA Times
-    link: https://www.latimes.com/politics/story/2021-01-08/trump-twitter-account-permanently-supended
-  - sys:
-      id: 1x3LjkfSfHL5MqqiRk0Eod
-      created_at: !ruby/object:DateTime 2020-12-03 00:24:16.311000000 Z
-      updated_at: !ruby/object:DateTime 2021-04-28 18:17:18.906000000 Z
-      content_type_id: moduleCard
-      revision: 3
-    title: Social science or computer science? Scott Hale argues for both in The Commons
-    slug: social-science-or-computer-science-scott-hale-argues-for-both-in-the-commons
-    published_on: !ruby/object:DateTime 2020-12-03 00:00:00.000000000 Z
-    image:
-      sys:
-        id: 7xZrky8USdtBkUTKwRZPB
-        created_at: !ruby/object:DateTime 2020-12-03 21:00:21.135000000 Z
-        updated_at: !ruby/object:DateTime 2020-12-03 21:02:13.664000000 Z
-      title: Scott Hale
-      description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/7xZrky8USdtBkUTKwRZPB/fb6974d70ecb12989401ca6301bd011b/Scott.png"
-    tag: Press
-    link: https://wearecommons.us/2020/11/30/human-or-machine-social-science-or-computer-science-yes-we-need-them-all/
   - sys:
       id: 1WgpyJbJSV48IWEG2W44QH
       created_at: !ruby/object:DateTime 2020-11-30 22:24:21.198000000 Z
@@ -1615,10 +1625,10 @@ moduleCards:
       sys:
         id: 3AXXbUM85HLIXqbeHoOO4t
         created_at: !ruby/object:DateTime 2021-03-21 04:56:04.456000000 Z
-        updated_at: !ruby/object:DateTime 2021-03-21 04:56:15.760000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-27 00:44:59.509000000 Z
       title: Dima headshot
       description: 
-      url: "//images.ctfassets.net/g118h5yoccvd/3AXXbUM85HLIXqbeHoOO4t/035764645682ae08a525b3656f2f8ee5/Dima_circle.png"
+      url: ''
     tag: First Monday Journal
     link: https://firstmonday.org/ojs/index.php/fm/article/view/11370/10066
   - sys:

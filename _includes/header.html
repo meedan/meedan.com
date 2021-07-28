@@ -12,6 +12,8 @@
         <h1><a href="/programs">Programs</a></h1>
     {% elsif page.short_title == 'Projects' %}
         <h1><a href="/projects">Projects</a></h1>
+    {% elsif page.short_title_link %}
+        <h1><a href="{{ page.short_title_link }}">{{ page.short_title }}</a></h1>
     {% elsif page.short_title %}
         <h1>{{ page.short_title }}</h1>
     {% else %}

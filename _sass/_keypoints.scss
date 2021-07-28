@@ -37,6 +37,10 @@
     a {
         color: inherit;
     }
+    .image-container {
+        margin-bottom: var(--space-2);
+        img { display: block; }
+    }
     .graphic {
         display: flex;
         justify-content: center;
@@ -83,7 +87,7 @@
 .key-point.clickable {
     padding-right: var(--space-1);
     will-change: padding;
-    transition: padding 500ms  cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: padding 500ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .key-point.clickable:hover {
