@@ -13938,9 +13938,9 @@ story:
 - sys:
     id: 5pmY6VvLYpy2qecQPpXgrX
     created_at: !ruby/object:DateTime 2021-07-27 13:28:58.921000000 Z
-    updated_at: !ruby/object:DateTime 2021-07-27 13:31:58.976000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-28 20:41:33.735000000 Z
     content_type_id: story
-    revision: 1
+    revision: 2
     space:
       sys:
         id: g118h5yoccvd
@@ -13956,6 +13956,16 @@ story:
   title: 'Digital Health Lab scientists launch training program with Facebook’s fact-checking
     partners  '
   slug: digital-health-lab-scientists-launch-training-program-with-facebooks-fact
+  topic:
+    en-US:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+        created_at: !ruby/object:DateTime 2020-08-07 18:40:01.545000000 Z
+        updated_at: !ruby/object:DateTime 2020-08-07 18:40:08.898000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Training
   lead_image:
     en-US:
       sys:
@@ -14022,3 +14032,101 @@ story:
   title-en: 'Digital Health Lab scientists launch training program with Facebook’s
     fact-checking partners  '
   alt_date_string: '2021-07-27'
+- sys:
+    id: rmTNmVMjpq5fIsxAXJpBo
+    created_at: &61 !ruby/object:DateTime 2021-07-28 14:26:32.227000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-28 15:14:44.923000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Multi-language tiplines and media literacy: PesaCheck’s fact-check strategy
+    in Africa'
+  slug: multi-language-tiplines-and-media-literacy-pesachecks-fact-check-strategy-in
+  topic:
+    en-US:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+        created_at: !ruby/object:DateTime 2021-01-12 23:39:58.897000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-12 23:40:06.622000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Fact-checking
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 1VnfL49o8jN904iQnXZ6nH
+        created_at: !ruby/object:DateTime 2021-07-28 15:08:44.603000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-28 15:09:22.246000000 Z
+      title: Pesacheck
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1VnfL49o8jN904iQnXZ6nH/094c794561b908de67754f8af0799443/meedan_blog_pesa-check-4.jpg"
+    description: 
+    title: Pesacheck
+    url: "//images.ctfassets.net/g118h5yoccvd/1VnfL49o8jN904iQnXZ6nH/094c794561b908de67754f8af0799443/meedan_blog_pesa-check-4.jpg"
+  description:
+    en-US: |-
+      [PesaCheck](https://pesacheck.org/), an initiative of Code for Africa, spans across 12 countries and is Africa's largest indigenous fact-checking organisation. From running tiplines in multiple languages, conducting fact-check trainings for university students, supporting newsrooms and NGOs to set up their own fact-check teams to running a promise tracker, PesaCheck has had a multi-pronged approach to addressing misinformation in the region. Since December 2020 PesaCheck has been part of Meedan's global end-to-end fact-checking project using the WhatsApp Business API that is powered by Check, an open-source platform built by Meedan. For PesaCheck, Check is a tool to support their tipline and also to manage their editorial workflow.
+
+      In this blogpost, we speak to Enock Nyariki, Managing Editor of PesaCheck about the organization's strategies and experience of combating misinformation in Africa.
+  body: |-
+    ###[PesaCheck](https://pesacheck.org/), an initiative of Code for Africa, spans across 12 countries and is Africa's largest indigenous fact-checking organisation. From running tiplines in multiple languages, conducting fact-check trainings for university students, supporting newsrooms and NGOs to set up their own fact-check teams to running a promise tracker, PesaCheck has had a multi-pronged approach to addressing misinformation in the region. Since December 2020 PesaCheck has been part of Meedan's global end-to-end fact-checking project using the WhatsApp Business API that is powered by Check, an open-source platform built by Meedan. For PesaCheck, Check is a tool to support their tipline and also to manage their editorial workflow.
+
+    In this blogpost, we speak to Enock Nyariki, Managing Editor of PesaCheck about the organization's strategies and experience of combating misinformation in Africa.
+
+    __You work in over 10 countries of East and West Africa. What are the main sources of misinformation in the region and what are your strategies to address them?__
+
+    We find misinformation across social media platforms. Facebook is the most popular social platform in most of the countries that we operate in and we tend to find posts containing misinformation on it. We debunk the claims contained on these posts and publish articles on our site pesacheck.org. 
+
+    WhatsApp users also share posts they have seen going round on social media on our WhatsApp tipline number (+254707813834) for us to verify. 
+
+    __You run WhatsApp tiplines in multiple languages. How challenging has this been to set up?__
+
+    The tipline is currently set up for English, French, Kiswahili and most recently Amharic. We have menus in various languages and the prompt sent to the user allows them to choose the language of response. 
+
+    We already have a team working in different languages which allows us to respond to all the submissions that come to the tipline. We have been educating users on how the tipline operates to ensure they are sharing claims correctly and also the scope of claims we can look into. 
+
+    The tipline sometimes receives submissions that are incomplete or outside our verification scope. We share our methodology with the users, allowing them to know what can and what cannot be fact-checked.
+
+    __How have you been able to address COVID-19 related misinformation in the region over the past year? Has misinformation thwarted efforts to keep people safe?__
+
+    We have debunked hundreds of claims touching on COVID-19 and vaccines in the past year. Our approach has been to prioritize such misinformation, because of the danger it poses to members of the public. We are part of the founding members of the [Africa Infodemic Response Alliance](https://www.afro.who.int/aira) (AIRA), which has helped connect our fact-checkers with the WHO and CDC, helping us to debunk claims faster.
+
+    __You have been using Check to support your WhatsApp tipline and to manage your editorial workflow? Could you elaborate more on both the use cases? How have you been able to integrate Check into your work?__
+
+    The tipline is the main work process that is on Check. We use the system to share responses to user submissions. The system allows us to automate responses depending on the criteria we set. Check also allows automatic and manual matching of similar items which sends users reports if a similar claim has been debunked on the system. 
+
+    Since we operate in multiple languages and have also been using Check for managing translations from assigning a translator to editing and earmarking for publication. Through Check we can track the process and see who completed what stage of the copy flow process. The folders allow us to keep the languages separate which is essential as we have six languages in which we operate.
+
+    __What are your plans to promote the tipline in the country and to widen your audience in the region?__
+
+    We have planned to create awareness of the tipline in many of the 12 countries that we cover. At the moment, most claims come from Kenya and Uganda. We intend to promote the tipline in the other languages that we cover; these include French, Kiswahili, Amharic, Oromo and Tigrinya.
+
+    __You conduct media literacy and fact-checking training in universities of the region and support media and NGOs to establish their own standalone fact-check teams. How successful is this in combating misinformation in the region?__ 
+
+    It's super-important, because combating misinformation requires collaboration. No one fact-checking organization can succeed in fighting the information disorder alone. We have helped set up [CheckDesks](http://skyfm.co.ke/podcast/8591/) in tens of newsrooms, which has led to the [production](https://businesstoday.co.ke/bill-gates-neither-funded-nor-planned-covid-19-pandemic/) of hundreds of[ fact-checks](https://pigafirimbi.africauncensored.online/alleged-covid-19-deaths-vaccine-norway/). The training we do in universities, such as [Daystar University](https://www.daystar.ac.ke/) and [Aga Khan university](https://www.aku.edu/Pages/home.aspx), are helping nurture future journalists to incorporate fact-checking in their day-to-day reporting. Media lecturers are also starting to include fact-checking courses in their curriculum.
+  date: '2021-07-28'
+  image: https://images.ctfassets.net/g118h5yoccvd/1VnfL49o8jN904iQnXZ6nH/094c794561b908de67754f8af0799443/meedan_blog_pesa-check-4.jpg
+  title-en: 'Multi-language tiplines and media literacy: PesaCheck’s fact-check strategy
+    in Africa'
+  alt_date: *61
+  alt_date_string: '2021-07-28'
