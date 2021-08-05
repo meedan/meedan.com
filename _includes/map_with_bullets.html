@@ -56,6 +56,7 @@ homeButton.marginBottom = 10;
 homeButton.parent = chart.zoomControl;
 homeButton.insertBefore(chart.zoomControl.plusButton);
 
+
 // Center map
 chart.homeZoomLevel = 1.5;
 chart.minZoomLevel = 1.5;
@@ -339,7 +340,7 @@ chart.responsive.enabled = true;
 
 chart.responsive.rules.push({
   relevant: function(target) {
-    if (target.pixelWidth <= 400) {
+    if (target.pixelWidth <= 768) {
       return true;
     }
     
