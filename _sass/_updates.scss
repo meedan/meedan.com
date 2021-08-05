@@ -35,6 +35,11 @@
     font-size: var(--scale-0);
 }
 
+.update-grid-item:hover .title {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
 .update-grid-item .date {
     margin-top: 1rem;
     font-size: 0.85rem;
