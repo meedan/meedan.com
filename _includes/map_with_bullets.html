@@ -1,6 +1,7 @@
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/geodata/worldHigh.js"></script>
+<script src="https://www.amcharts.com/lib/4/plugins/bullets.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
 <div id="chartdiv" class="map"></div>
 <div class="callout-horizontal-wrapper">
@@ -20,18 +21,6 @@
     </div>
 </div>
 <script>
-    /**
- * ---------------------------------------
- * This demo was created using amCharts 4.
- * 
- * For more information visit:
- * https://www.amcharts.com/
- * 
- * Documentation is available at:
- * https://www.amcharts.com/docs/v4/
- * ---------------------------------------
- */
-
 // Themes begin
 am4core.useTheme(am4themes_animated);
 // Themes end
@@ -44,6 +33,9 @@ chart.geodata = am4geodata_worldHigh;
 
 // Set projection
 chart.projection = new am4maps.projections.Mercator();
+
+// Colors
+var color1 = chart.colors.getIndex(0);
 
 // Export
 // chart.exporting.menu = new am4core.ExportMenu();
@@ -234,7 +226,7 @@ groupData.forEach(function(group) {
   series.events.on("over", over);
   series.events.on("out", out);
   
-  series.mapPolygons.template.tooltipText = "{series.name}";
+  series.mapPolygons.template.tooltipText = "{series.name}: {title}";
   series.mapPolygons.template.fill = am4core.color(group.color);
 
   var hover = series.mapPolygons.template.states.create("highlight");
@@ -253,9 +245,9 @@ groupData.forEach(function(group) {
     }
   
   
-//   series.events.on("hit", function(event) {
-    
-//   })
+    chart.seriesContainer.events.on("hit", function(ev) {
+        console.log(chart.svgPointToGeo(ev.svgPoint));
+    }); 
 
   // Country shape properties & behaviors
   var mapPolygonTemplate = series.mapPolygons.template;
@@ -279,19 +271,89 @@ worldSeries.mapPolygons.template.stroke = am4core.color("#262626");
 worldSeries.hiddenInLegend = true;
 worldSeries.mapPolygons.template.nonScalingStroke = true;
 
-// This auto-generates a legend according to each series' name and fill
-chart.legend = new am4maps.Legend();
+// Pins
+var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+var imageTemplate = imageSeries.mapImages.template;
+imageTemplate.propertyFields.longitude = "longitude";
+imageTemplate.propertyFields.latitude = "latitude";
+imageTemplate.nonScaling = true;
 
-// Legend styles
-chart.legend.paddingLeft = 27;
-chart.legend.paddingRight = 27;
-chart.legend.marginBottom = 15;
-chart.legend.width = am4core.percent(90);
-chart.legend.valign = "bottom";
-chart.legend.contentAlign = "left";
-chart.legend.labels.template.fill = am4core.color("#FFF");
+// Pin data
+imageSeries.data = [{
+  "latitude": 40,
+  "longitude": -73,
+  "title": "Latin\nAmerica",
+  "url": "/check-global/regions/latin-america",
+  "color": "#88D3E5",
+  "height": 190,
+  "mheight": 40
+}, {
+  "latitude": 28,
+  "longitude": -10,
+  "title": "Sub-Saharan\nAfrica",
+  "url": "/check-global/regions/sub-saharan-africa",
+  "color": "#F3FC83",
+  "height": -310,
+  "mheight": -10
+}, {
+  "latitude": 54,
+  "longitude": 28,
+  "title": "North Africa\nWestern Asia",
+  "url": "/check-global/regions/north-africa-western-asia-nawa",
+  "color": "#83E4AC",
+  "height": 85,
+  "mheight": 10
+}, {
+  "latitude": 37,
+  "longitude": 88,
+  "title": "Asia\nPacific",
+  "url": "/check-global/regions/asia-pacific",
+  "color": "#FFB34D",
+  "height": -366,
+  "mheight": -10
+}];
+
+// Creating a pin bullet
+var pin = imageTemplate.createChild(am4plugins_bullets.FlagBullet);
+
+// Configuring pin appearance
+pin.isMeasured = true;
+pin.align = "center";
+pin.y = 150;
+pin.label.text = "{title}";
+pin.label.propertyFields.fill = "color";
+pin.label.x = 10;
+pin.background.fill = am4core.color("#262626");
+pin.background.fillOpacity = 0;
+pin.label.paddingRight = 20;
+pin.background.waveLength = 0;
+pin.background.strokeWidth = 0;
+pin.pole.strokeWidth = 2;
+pin.pole.propertyFields.stroke = "color";
+pin.propertyFields.poleHeight = "height";
+pin.propertyFields.url = "url";
+
+// Responsive
 chart.chartContainer.wheelable = false;
+chart.responsive.enabled = true;
 
-// Legend items
-chart.legend.itemContainers.template.interactionsEnabled = false;
+chart.responsive.rules.push({
+  relevant: function(target) {
+    if (target.pixelWidth <= 400) {
+      return true;
+    }
+    
+    return false;
+  },
+  state: function(target, stateId) {
+    if (target instanceof am4maps.MapImageSeries) {
+        var state = target.states.create(stateId);        
+        // Hide pins
+        state.properties.visible = false;
+        return state;
+    }
+    return null;
+  }
+});
+
 </script>
