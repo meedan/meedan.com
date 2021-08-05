@@ -168,7 +168,9 @@
 .color--sun-set {
     @include set-color(#{var(--sunSet)});
 }
-
+.color--yellow-green { 
+    @include set-color(#{var(--yellowGreen)});
+}
 
 .module-bg-color--coral {
     background-color: var(--coral);
@@ -264,6 +266,10 @@
         background-color: var(--blackInk);
         color: #fff;
     }
+}
+
+.dark .plain-list ul li a {
+    border-color: inherit;
 }
 
 .plain-list.with-border ul li {
