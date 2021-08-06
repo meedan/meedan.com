@@ -47,29 +47,6 @@ description: |
         </a>
     </div>
 </div>
-<div class="module module-featured-2-columns clickable section-margin">
-    <div class="module-wrapper module-bg-color--light-navy">
-        <div class="text">
-            <div class="header">
-                <div class="tag">Report</div>
-                <h4 class="title"><a href="https://assets.ctfassets.net/g118h5yoccvd/281H2rk3hMTIgQlwehDo8r/b1dce94ca693336b5b50945087ffade7/Check_Global_Y2_Report_Executive_Summary_04.pdf">Check Global Executive Sumary</a></h4>
-            </div>
-            <div class="description">
-                Birmingham City University is the main monitoring and evaluation partner for the Check Global project. Here you will find an executive summary of our extensive Check Global 2020 report.  
-                <div class="plain-list clickable with-icon">
-                    <ul>
-                        <li>
-                            <a href="https://assets.ctfassets.net/g118h5yoccvd/281H2rk3hMTIgQlwehDo8r/b1dce94ca693336b5b50945087ffade7/Check_Global_Y2_Report_Executive_Summary_04.pdf">Download the PDF<span>↓</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <a href="" title="Download the PDF" class="graphic">
-            <img class="display--block" src="https://images.ctfassets.net/g118h5yoccvd/4BazNtDGhD3AFBghsCt7YE/7845cf1ef28205f4aa31b258c00424d1/Check_Global_Y2_Report_Executive_Summary_03_1.png" alt="Check Global Executive Sumary" />
-        </a>
-    </div>
-</div>
 <div class="main-grid section-top-margin">
     <div class="main-grid__1-12">
         <div class="main-grid bleed">
@@ -78,7 +55,10 @@ description: |
         </div>
     </div>
 </div>
-{% include map_with_bullets.html %}
+{% include map_with_bullets.html 
+    scrolling_text = "Select and learn which regions we are working in" 
+    scrolling_text_pointer = "↓"
+%}
 <div class="module section-margin">
     <div class="main-grid">
         <div class="main-grid__1-6">
@@ -105,6 +85,31 @@ description: |
     </div>
 </div>
 
+<div class="module module-featured-2-columns clickable section-margin">
+    <div class="module-wrapper module-bg-color--light-navy">
+        <div class="text">
+            <div class="header">
+                <div class="tag">Report</div>
+                <h4 class="title"><a href="https://assets.ctfassets.net/g118h5yoccvd/281H2rk3hMTIgQlwehDo8r/b1dce94ca693336b5b50945087ffade7/Check_Global_Y2_Report_Executive_Summary_04.pdf">Check Global Executive Sumary</a></h4>
+            </div>
+            <div class="description">
+                Birmingham City University is the main monitoring and evaluation partner for the Check Global project. Here you will find an executive summary of our extensive Check Global 2020 report.  
+                <div class="plain-list clickable with-icon">
+                    <ul>
+                        <li>
+                            <a href="https://assets.ctfassets.net/g118h5yoccvd/281H2rk3hMTIgQlwehDo8r/b1dce94ca693336b5b50945087ffade7/Check_Global_Y2_Report_Executive_Summary_04.pdf">Download the PDF<span>↓</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="" title="Download the PDF" class="graphic">
+            <img class="display--block" src="https://images.ctfassets.net/g118h5yoccvd/4BazNtDGhD3AFBghsCt7YE/7845cf1ef28205f4aa31b258c00424d1/Check_Global_Y2_Report_Executive_Summary_03_1.png" alt="Check Global Executive Sumary" />
+        </a>
+    </div>
+</div>
+
+
 {% include module_updates.html 
     count="4" 
     title="● Updates" 
@@ -116,6 +121,23 @@ description: |
     link="/events"
     view="list"
     events_list_id="3621Wo9pdruFq9VS64AvnL" 
+%}
+
+<div class="main-grid section-top-margin small-hr">
+    <div class="main-grid__1-12">
+        <div class="main-grid bleed">
+            <h3 class="main-grid__1-4">Resources</h3>
+        </div>
+    </div>
+</div>
+<div class="main-grid">
+    <div class="main-grid__5-12">
+        Our team and community partners have collaborated on a number of outputs, articles, toolkits and other practical resources. These are all published under open-access licenses, and available for download.
+    </div>
+</div>
+
+{% include module_resources.html 
+    resources_list_id = "1YH231jxFmlilNtuf5Xrt5"
 %}
 
 <div class="module module-featured-2-columns section-bottom-margin bleed-right">

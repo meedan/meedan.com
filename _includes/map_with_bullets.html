@@ -3,22 +3,24 @@
 <script src="https://cdn.amcharts.com/lib/4/geodata/worldHigh.js"></script>
 <script src="https://www.amcharts.com/lib/4/plugins/bullets.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+{% if include.scrolling_text %}
 <div class="callout-horizontal-wrapper">
     <div class="callout-horizontal">
         <div class="callout-horizontal-content">
-            Select and learn which regions we are working in <span>↓</span>
+            {{ include.scrolling_text }} <span>{{ include.scrolling_text_pointer }}</span>
         </div>
         <div class="callout-horizontal-content">
-            Select and learn which regions we are working in <span>↓</span>
+            {{ include.scrolling_text }} <span>{{ include.scrolling_text_pointer }}</span>
         </div>
         <div class="callout-horizontal-content">
-            Select and learn which regions we are working in <span>↓</span>
+            {{ include.scrolling_text }} <span>{{ include.scrolling_text_pointer }}</span>
         </div>
         <div class="callout-horizontal-content">
-            Select and learn which regions we are working in <span>↓</span>
+            {{ include.scrolling_text }} <span>{{ include.scrolling_text_pointer }}</span>
         </div>
     </div>
 </div>
+{% endif %}
 <div id="chartdiv" class="map"></div>
 <script>
 // Themes begin
