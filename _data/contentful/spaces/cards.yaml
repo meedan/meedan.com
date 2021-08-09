@@ -2016,25 +2016,26 @@ moduleCard:
 - sys:
     id: 77TmJykqW5IkXKtTx1U1Vq
     created_at: !ruby/object:DateTime 2021-08-05 11:04:34.339000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-05 11:05:25.233000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 16:01:05.525000000 Z
     content_type_id: moduleCard
     revision: 0
-  title: 'The Check Newsroom was launched in 2017 with journalism students from the
-    Lebanese University. It currently includes students from Egypt, Syria, Yemen,
-    Palestine and Sudan. '
-  slug: the-check-newsroom-was-launched-in-2017-with-journalism-students-from-the
+  title: The Check Newsroom currently includes students from Egypt, Lebanon, Syria,
+    Yemen, Palestine and Sudan [en]
+  slug: the-check-newsroom-currently-includes-students-from-egypt-lebanon-syria
+  published_on: !ruby/object:DateTime 2021-08-02 00:00:00.000000000 Z
   tag: Training
   logo: true
   link: https://nawamedia.org/newsroom/about-the-nawa-media-newsroom/
 - sys:
     id: 3iv0JbWVE6zrjFdYD6I3Aa
     created_at: !ruby/object:DateTime 2021-08-05 11:08:39.629000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-05 11:09:21.544000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 16:08:27.156000000 Z
     content_type_id: moduleCard
     revision: 0
-  title: Microgrant recipient People’s Check trains young fact-checkers in Nigeria
-    to fight misinformation
-  slug: microgrant-recipient-peoples-check-trains-young-fact-checkers-in-nigeria-to
+  title: People’s Check train  young fact-checkers in Nigeria to fight misinformation
+    [en]
+  slug: peoples-check-train-young-fact-checkers-in-nigeria-to-fight-misinformation
+  published_on: !ruby/object:DateTime 2020-10-09 00:00:00.000000000 Z
   tag: Microgrant
   link: https://ijnet.org/en/story/student-led-outlet-fights-misinformation-trains-young-fact-checkers-nigeria
 - sys:
@@ -2049,13 +2050,12 @@ moduleCard:
 - sys:
     id: 3x39UkXYb1BsMQfsf4whyk
     created_at: !ruby/object:DateTime 2021-08-05 11:21:10.146000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-05 11:39:08.724000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 16:50:40.654000000 Z
     content_type_id: moduleCard
     revision: 0
-  title: 'The Latam community of micrograntees shared ancestral and decolonial healing
-    practices that supported them during the pandemic, the final product: a recipe
-    book.'
-  slug: the-latam-community-of-micrograntees-shared-ancestral-and-decolonial-healing
+  title: Latam microgrant recipients shared ancestral and decolonial healing practices
+    that supported them during the pandemic [es + pt]
+  slug: latam-microgrant-recipients-shared-ancestral-and-decolonial-healing
   published_on: !ruby/object:DateTime 2020-12-22 00:00:00.000000000 Z
   image:
     sys:
@@ -2114,3 +2114,277 @@ moduleCard:
   slug: meedan-worked-with-the-alan-turing-institute-uk-in-2020-analysing-twitter
   tag: Research
   link: https://arxiv.org/abs/2005.03909
+- sys:
+    id: 3QMjv548sNf9HUYfyAPQuI
+    created_at: !ruby/object:DateTime 2021-08-09 12:42:11.864000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 13:36:37.215000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: El Toque – Fact-checking alliance between two independent media outlets in
+    Cuba [es]
+  slug: el-toque-fact-checking-alliance-between-two-independent-media-outlets-in
+  published_on: !ruby/object:DateTime 2020-07-01 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 41hoqCmZNsm847r1ty6W5W
+      created_at: !ruby/object:DateTime 2021-08-09 13:36:31.429000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 13:43:18.358000000 Z
+    title: "#Falso"
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/41hoqCmZNsm847r1ty6W5W/0f04528377feeaf19cf3f8be363c2789/-Falso.jpg"
+  tag: Fact-checking
+  link: https://eltoque.com/proyectos/eltoque-defacto-verificacion-datos
+- sys:
+    id: 1R0pguUrG7ph3Xljymx6ls
+    created_at: !ruby/object:DateTime 2021-08-09 12:44:19.573000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 13:25:59.629000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Isabel Gonzales and Chicas Poderosas – A podcast on the effects of Covid-19
+    pandemic on the journalism community in Ecuador [pt]
+  slug: isabel-gonzales-and-chicas-poderosas-a-podcast-on-the-effects-of-covid-19
+  published_on: !ruby/object:DateTime 2020-09-02 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 6JEOczFo8erBfebOkhZpTK
+      created_at: !ruby/object:DateTime 2021-08-09 13:21:58.744000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 13:22:14.989000000 Z
+    title: Isabel Gonzales and Chicas Poderosas
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/6JEOczFo8erBfebOkhZpTK/6fcfcd1852f2f5694d880b14344b7038/Isabel_Gonzales_PODCAST.jpg"
+  tag: podcast
+  link: https://open.spotify.com/show/6QY20ndtXInvY3tuMgksRN?si=_w94YR-jQKKGHTisKjWL1g
+- sys:
+    id: lRAt5G7Af1BSKDFnHKwl4
+    created_at: !ruby/object:DateTime 2021-08-09 12:47:55.121000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 13:04:48.686000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Chicas Poderosas – Over 4,000 women took the Women, Power and Media MOOC
+    in 2020 [es]
+  slug: chicas-poderosas-over-4-000-women-took-the-women-power-and-media-mooc-in
+  published_on: !ruby/object:DateTime 2021-04-14 00:00:00.000000000 Z
+  image:
+    sys:
+      id: c3jmmhrCRK1LaQQh3ap7p
+      created_at: !ruby/object:DateTime 2021-08-09 13:01:39.521000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 13:10:38.454000000 Z
+    title: Chicas Poderosas MOOC
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/c3jmmhrCRK1LaQQh3ap7p/5926e8fa95ed3277b8558811fd340d0c/Chicas_MOOC.jpg"
+  tag: MOOC
+  link: https://chicaspoderosas.org/academy/curso-mujer-poder-y-medios/
+- sys:
+    id: 1kAqqHckBZ2UawMYxypvOY
+    created_at: !ruby/object:DateTime 2021-08-09 12:50:15.030000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 13:05:05.664000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Hermanas – a digital platform addressing essential issues regarding women's
+    health [es]
+  slug: hermanas-a-digital-platform-addressing-essential-issues-regarding-womens
+  published_on: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 4U40Cuup77crgLSZSwGA5H
+      created_at: !ruby/object:DateTime 2021-08-09 12:56:46.799000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 12:57:53.675000000 Z
+    title: Hermanas
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/4U40Cuup77crgLSZSwGA5H/507f731e7200d784d05c8563d442f5a5/Hermanas.jpg"
+  tag: Women's Health Initiative
+  link: https://yotengopapiloma.holahermanas.com/editorial2/
+- sys:
+    id: 5eidHN5VSe1U1eYuNMu16p
+    created_at: !ruby/object:DateTime 2021-08-09 14:15:01.032000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 18:09:06.912000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Yemeni Archive – An investigation and exhibition exploring UK weapons supply
+    in Yemen [en]
+  slug: yemeni-archive-an-investigation-and-exhibition-exploring-uk-weapons-supply
+  published_on: !ruby/object:DateTime 2020-03-07 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 6J8a3kIqJOguNV5hSqtnXP
+      created_at: !ruby/object:DateTime 2021-08-09 14:21:43.691000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 14:31:39.320000000 Z
+    title: Aden Then & Now
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/6J8a3kIqJOguNV5hSqtnXP/af7fd92dbb4ef3d1e6d72f4be5c8fbed/Aden_Then___Now.jpg"
+  tag: Exhibition
+  link: https://nawamedia.org/blog/2020/03/07/the-yemeni-archive-investigate-weapons-supply-in-yemen/
+- sys:
+    id: 1GnMHgBIJbEeFLlG4f9Jvv
+    created_at: !ruby/object:DateTime 2021-08-09 14:34:29.970000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 14:46:32.916000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: SOWT – A Massive Online Open Course (MOOC) produced by Sowt, on the subject
+    of podcasting [ar]
+  slug: sowt-a-massive-online-open-course-mooc-produced-by-sowt-on-the-subject-of
+  published_on: !ruby/object:DateTime 2020-08-12 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 379QNyDpacowr5IpUdLvBe
+      created_at: !ruby/object:DateTime 2021-08-09 14:36:32.771000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 14:36:51.816000000 Z
+    title: SOWT MOOC
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/379QNyDpacowr5IpUdLvBe/6eff26178803f0b4a58587cb4ffebf5f/SOWT_MOOC.jpg"
+  tag: MOOC
+  link: https://ar.nawamedia.org/courses/%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d9%88%d8%aa%d9%82%d8%af%d9%8a%d9%85-%d9%88%d8%a5%d9%86%d8%aa%d8%a7%d8%ac-%d9%88%d9%86%d8%b4%d8%b1-%d8%a7%d9%84%d8%a8%d9%88%d8%af%d9%83%d8%a7%d8%b3%d8%aa/
+- sys:
+    id: 5pEAGR5gXgizTem6fIDhWk
+    created_at: !ruby/object:DateTime 2021-08-09 14:38:52.239000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 14:47:52.788000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Botrus Al Dimashqi – A report from Northern Syria highlighting corruption
+    in the humanitarian field during COVID-19 [ar]
+  slug: botrus-al-dimashqi-a-report-from-northern-syria-highlighting-corruption-in
+  published_on: !ruby/object:DateTime 2020-12-07 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 1HBRK7iz2c8ei8bDKKebPS
+      created_at: !ruby/object:DateTime 2021-08-09 14:40:30.239000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 14:44:53.488000000 Z
+    title: Botrus Al Dimashqi
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/1HBRK7iz2c8ei8bDKKebPS/51390a685fd21004caf5b624186ea7f7/Botrus_Al_Dimashqi.jpg"
+  tag: microgrant
+  link: https://ar.nawamedia.org/blog/2020/12/07/%d8%aa%d9%88%d8%b2%d9%8a%d8%b9-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%b9%d8%af%d8%a7%d8%aa-%d8%b4%d9%85%d8%a7%d9%84-%d8%ba%d8%b1%d8%a8-%d8%b3%d9%88%d8%b1%d9%8a%d8%a7/
+- sys:
+    id: 5AOHXF0pyPxOI9rWOEE06k
+    created_at: !ruby/object:DateTime 2021-08-09 15:20:19.089000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 15:21:57.225000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: CITE – Fighting COVID-19 misinformation using local language podcasts in
+    Zimbabwe [Venda]
+  slug: cite-fighting-covid-19-misinformation-using-local-language-podcasts-in
+  published_on: !ruby/object:DateTime 2021-07-12 00:00:00.000000000 Z
+  tag: PODCAST
+  link: https://anchor.fm/citezw/episodes/Covid-19-podcast-series-in-Venda-The-dangers-and-fear-of-living-in-a-border-town--Asakhe-e14ao12
+- sys:
+    id: 1SEMGJ0tYpI1MjdjtlZDnR
+    created_at: !ruby/object:DateTime 2021-08-09 15:26:39.951000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 15:29:12.530000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: GhanaFact – Fact-checking election misinformation with a network of Ghanaian
+    journalists and newsrooms [en]
+  slug: ghanafact-fact-checking-election-misinformation-with-a-network-of-ghanaian
+  published_on: !ruby/object:DateTime 2020-12-16 00:00:00.000000000 Z
+  tag: Fact-Checking
+  link: https://ghanafact.com/2021/01/fact-checking-ghanas-social-media-elections/
+- sys:
+    id: 1TQLGeWwMNdi3Xffrj3r24
+    created_at: !ruby/object:DateTime 2021-08-09 15:27:49.736000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 15:28:47.330000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Debunk Media – An explainer on the impact of COVID-19 on human rights in
+    Kenya [en]
+  slug: debunk-media-an-explainer-on-the-impact-of-covid-19-on-human-rights-in-kenya
+  published_on: !ruby/object:DateTime 2021-07-12 00:00:00.000000000 Z
+  tag: investigation
+  link: https://debunk.media/human-rights-in-the-time-of-covid-19/
+- sys:
+    id: 4sz22JSR6nWe3ocvkyEy3K
+    created_at: !ruby/object:DateTime 2021-08-09 15:29:20.670000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 15:34:02.088000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: People’s Check – An explainer video on media manipulation [en]
+  slug: peoples-check-an-explainer-video-on-media-manipulation-en
+  published_on: !ruby/object:DateTime 2020-09-10 00:00:00.000000000 Z
+  tag: Microgrant
+  link: https://twitter.com/PeoplesCheck1/status/1303978247164776448?s=20
+- sys:
+    id: 5Z3VwxZ4F2pMIF6Ee2VSJA
+    created_at: !ruby/object:DateTime 2021-08-09 15:40:24.839000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 15:45:07.514000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: VERA Files – Debate over ivermectin and other touted COVID-19 cures, illustrates
+    a case of ‘midinformation’ [en]
+  slug: vera-files-debate-over-ivermectin-and-other-touted-covid-19-cures
+  published_on: !ruby/object:DateTime 2021-05-12 00:00:00.000000000 Z
+  tag: debate
+  link: https://verafiles.org/articles/debate-over-ivermectin-other-touted-covid-19-cures-illustrat
+- sys:
+    id: 14vIJJWspLjXax2d5HP82T
+    created_at: !ruby/object:DateTime 2021-08-09 15:43:06.776000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 17:27:51.804000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Chambal Media – The impact of COVID-19 and lockdown on women in North India
+    with no access to technology [hi]
+  slug: chambal-media-the-impact-of-covid-19-and-lockdown-on-women-in-north-india
+  published_on: !ruby/object:DateTime 2021-02-11 00:00:00.000000000 Z
+  tag: investigation
+  link: https://www.youtube.com/watch?v=59zpOlBlFRg&t=4s
+- sys:
+    id: 7JoIAOlPaBrRwgDdhB8vxh
+    created_at: !ruby/object:DateTime 2021-08-09 15:46:29.705000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 15:48:42.501000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: BASAbali – Webinar to understand the role of women in preventing misinformation
+    [ban]
+  slug: basabali-webinar-to-understand-the-role-of-women-in-preventing
+  published_on: !ruby/object:DateTime 2021-03-21 00:00:00.000000000 Z
+  tag: webinar
+  link: https://basabali.org/wadhu-wakya-peranan-perempuan-dalam-menangkal-disinformasi/
+- sys:
+    id: 5jV6jHCCzxLspbRMJu8Aek
+    created_at: !ruby/object:DateTime 2021-08-09 15:48:47.385000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 15:50:21.015000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Carol Dawonlayl – Facebook campaign for safety of women and girls in the
+    time of COVID-19 [fil + en]
+  slug: carol-dawonlayl-facebook-campaign-for-safety-of-women-and-girls-in-the-time
+  published_on: !ruby/object:DateTime 2021-03-22 00:00:00.000000000 Z
+  tag: Campaign
+  link: https://www.facebook.com/storiesofwomencampaign/?ref=page_internal
+- sys:
+    id: 6ZslXcNXMhDdl15azDDPOC
+    created_at: !ruby/object:DateTime 2021-08-09 16:21:37.449000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 16:30:54.558000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: Giuseppe Dezza – Photographs of El Salvador under COVID-19 conditions
+  slug: giuseppe-dezza-photographs-of-el-salvador-under-covid-19-conditions
+  published_on: !ruby/object:DateTime 2020-04-02 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 1UMceebpJodvvMUPvFk5BV
+      created_at: !ruby/object:DateTime 2021-08-09 16:22:45.842000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 16:23:12.013000000 Z
+    title: Giuseppe Dezza
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/1UMceebpJodvvMUPvFk5BV/60a098548802798e12ec31c130b8cee2/Giuseppe_Dezza.jpg"
+  tag: Microgrant
+  link: http://www.gdezza.net/portfolio/juayua-20-4-20-coronavirus-y-mas/
+- sys:
+    id: obeWhCLxzhtjMiumPIh6w
+    created_at: !ruby/object:DateTime 2021-08-09 16:38:52.071000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-09 16:44:00.027000000 Z
+    content_type_id: moduleCard
+    revision: 0
+  title: BASAbali – Three mini wikithons to document life under quarentine - [en +
+    ban + ind]
+  slug: basabali-three-mini-wikithons-to-document-life-under-quarentine-en-ban-ind
+  published_on: !ruby/object:DateTime 2020-07-09 00:00:00.000000000 Z
+  image:
+    sys:
+      id: 4NIuJ165TNj4WCuJaFagiu
+      created_at: !ruby/object:DateTime 2021-08-09 16:43:15.182000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-09 16:43:41.156000000 Z
+    title: BASAbali wikithons
+    description:
+    url: "//images.ctfassets.net/g118h5yoccvd/4NIuJ165TNj4WCuJaFagiu/4a622a96737cdb6481c7ac057e7cd84d/Niki_Sima.jpg"
+  tag: microgrant
+  link: https://dictionary.basabali.org/Covid_Niki_Sima_Dresta_Anyar
