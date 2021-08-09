@@ -1,5 +1,6 @@
 ---
 layout: annual_report
+custom_js: sticky
 ---
 <!DOCTYPE html>
 <html>
@@ -16,7 +17,7 @@ layout: annual_report
         </div>
         <section class="precontent">
             {% if page.sections %}
-        	<div class="nav-wrapper">
+        	<div id="pageNav" class="nav-wrapper">
 	        	<div class="nav">
                     <ul>
                         {% for section in page.sections %}
