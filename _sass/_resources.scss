@@ -34,7 +34,7 @@
         }
     }
     .tag {
-        font-size: 0.778rem;
+        font-size: 1rem;
         margin-bottom: var(--space-1);
     }
     .description {
@@ -43,6 +43,7 @@
     }
     .title {
         font-size: var(--scale-1);
+        margin-bottom: var(--space-2);
     }
     a {
         color: inherit;
