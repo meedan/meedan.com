@@ -2592,14 +2592,14 @@ module2ColumnContent:
       sys:
         id: 1YiPCpS37JB7zKEMk6veah
         created_at: !ruby/object:DateTime 2021-05-07 16:50:40.162000000 Z
-        updated_at: !ruby/object:DateTime 2021-05-07 16:54:33.732000000 Z
+        updated_at: !ruby/object:DateTime 2021-08-10 19:18:24.824000000 Z
       title: Revenue Pie Chart
       description:
-      url: "//images.ctfassets.net/g118h5yoccvd/1YiPCpS37JB7zKEMk6veah/d85039e4181d6f41c49032ffc1142521/Pie_chart_revenue.png"
+      url: "//images.ctfassets.net/g118h5yoccvd/1YiPCpS37JB7zKEMk6veah/d36a3029e5dd86359e9c4d617d2c4f5a/meedan_annual-report_2020_revenue.png"
   - sys:
       id: 1yX5lD585SsV3yhfoj1Fsn
       created_at: !ruby/object:DateTime 2021-05-04 17:08:59.556000000 Z
-      updated_at: !ruby/object:DateTime 2021-08-09 19:26:15.853000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-10 19:06:16.249000000 Z
       content_type_id: moduleStats
       revision: 0
     title: Revenues Stats
@@ -2609,26 +2609,55 @@ module2ColumnContent:
     - sys:
         id: 4TM6K2j2ji1ff8oq0gY0za
     - sys:
-        id: 5EF0sQb4B3N1DZBXesJhDR
+        id: 6g0OOM6JlpxEWtp0YzmOFy
     - sys:
         id: 2WYZAknVKXxlVt1BYhlxyl
   top_border: true
 - sys:
     id: 2LTYAjcJAGhR1PslQkB3Pd
     created_at: !ruby/object:DateTime 2021-05-04 17:10:23.813000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 17:10:47.225000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-10 19:18:59.984000000 Z
     content_type_id: module2ColumnContent
     revision: 0
   title: Expenditures
   content:
   - sys:
+      id: 78Yki54FWOK1JfrnDkwe0U
+      created_at: !ruby/object:DateTime 2021-08-10 19:18:38.503000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-10 19:19:04.516000000 Z
+      content_type_id: moduleGraphic
+      revision: 0
+    title: 2020 Expenditure Graph
+    graphic:
+      sys:
+        id: 4nej7BmxUbD1t13GVRZjrg
+        created_at: !ruby/object:DateTime 2021-08-10 19:18:58.768000000 Z
+        updated_at: !ruby/object:DateTime 2021-08-10 19:53:45.896000000 Z
+      title: Expenditures Pie Chart 2020
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/4nej7BmxUbD1t13GVRZjrg/2ecda69491e8c1ae9c2a347933a4c99e/meedan_annual-report_2020_expenditure.png"
+  - sys:
       id: 5QLeYfscXzL0V9Mr7o1Ivr
       created_at: !ruby/object:DateTime 2021-05-04 17:10:40.897000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 17:11:04.932000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-10 23:02:03.675000000 Z
       content_type_id: moduleStats
       revision: 0
     title: Expenditures Stats
     stats:
+    - sys:
+        id: 7GUK2pGXqbkRTdj2zBf5wN
+    - sys:
+        id: 18ZAfmLVJ66wgjC96jpWyD
+    - sys:
+        id: LTISdlpYoyM71nalVwU6f
+    - sys:
+        id: 4s7tA4WhHCJUUBM9cr6Thf
+    - sys:
+        id: 4C0bGjRLx6OZzrzmjiBeiL
+    - sys:
+        id: 62ryVsA7P2YlqKd13Mbe45
+    - sys:
+        id: 2nHmsNMt335yv36Wh8OS3K
     - sys:
         id: 4ysseyNaEuZ8EAlLx2a5Tm
   top_border: true
@@ -2652,3 +2681,30 @@ module2ColumnContent:
         id: LRnpLYyEhfExRjKliUdae
     - sys:
         id: 62ICdWCsBzvBh6WmQODFkp
+- sys:
+    id: 3h4RpBlrbbaqgtPQKyb5fY
+    created_at: !ruby/object:DateTime 2021-08-10 18:06:44.847000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-10 18:53:36.054000000 Z
+    content_type_id: module2ColumnContent
+    revision: 0
+  title: Program services expenditures
+  content:
+  - sys:
+      id: KLTT6YUACuR81xhVtxglj
+      created_at: !ruby/object:DateTime 2021-08-10 18:07:01.640000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-10 18:09:10.105000000 Z
+      content_type_id: moduleStats
+      revision: 0
+    title: Program Services Expenditures
+    stats:
+    - sys:
+        id: 7GUK2pGXqbkRTdj2zBf5wN
+    - sys:
+        id: 18ZAfmLVJ66wgjC96jpWyD
+    - sys:
+        id: LTISdlpYoyM71nalVwU6f
+    - sys:
+        id: 4s7tA4WhHCJUUBM9cr6Thf
+    - sys:
+        id: 4C0bGjRLx6OZzrzmjiBeiL
+  top_border: true
