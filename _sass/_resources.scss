@@ -37,9 +37,12 @@
         font-size: 0.778rem;
         margin-bottom: var(--space-1);
     }
-    .title {
+    .description {
         font-size: var(--scale-0);
         display: block;
+    }
+    .title {
+        font-size: var(--scale-1);
     }
     a {
         color: inherit;

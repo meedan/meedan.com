@@ -36,7 +36,10 @@
 }
 
 .list .date {
-	font-size: $number;
+	font-size: $number/2;
+	@include responsive('min-width: #{$width-tablet}') {
+		font-size: $number;
+	}
 	font-weight: normal;
 	line-height: 1;
 	color: $g1;
@@ -78,12 +81,6 @@
 	.sub-list .list-wrapper {
 		max-width: 100%;
 		flex-basis: 100%;
-	}
-}
-
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.list .date {
-		font-size: $x-large-text;
 	}
 }
 
