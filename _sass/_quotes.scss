@@ -1,7 +1,9 @@
 .module-user-quotes {
-    display: grid;
-    grid-gap: var(--space-2);
-    grid-template-columns: repeat(12, 1fr);
+    @include responsive('min-width: #{$width-tablet}') {
+        display: grid;
+        grid-gap: var(--space-2);
+        grid-template-columns: repeat(12, 1fr);
+    }
 }
 
 .module-user-quotes .quotes {
@@ -36,7 +38,10 @@
 }
 
 .quote-by {
-    font-size: var(--scale-0);
+    font-size: var(--scale-1);
+    @include responsive('min-width: #{$width-tablet}') {
+        font-size: var(--scale-0);
+    }
 }
 
 .quote-by-title,

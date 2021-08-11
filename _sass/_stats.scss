@@ -24,8 +24,8 @@
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.stat .number {
-		font-size: $x-large-text;
+	.stats .stat .number {
+		font-size: $number/2;
 	}
 }
 

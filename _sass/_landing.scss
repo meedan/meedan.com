@@ -220,7 +220,7 @@ section.content {
 	width: 100%;
   	margin: 0 auto;
 	max-width: $page-width;
-	padding: $space-small $space-small $space-medium;
+	padding: $space-small $space-small/2 $space-medium;
 }
 
 @include responsive('min-width: #{$width-tablet}') {
@@ -296,9 +296,7 @@ section.content h2 {
 	align-items: center;
   justify-content: center;
   margin-bottom: $space-small;
-  img {
-  	z-index: 2;
-  }
+  position: relative;
 }
 
 .illustration.full-width img {
