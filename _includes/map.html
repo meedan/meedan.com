@@ -20,17 +20,6 @@
     </div>
 </div>
 <script>
-    /**
- * ---------------------------------------
- * This demo was created using amCharts 4.
- * 
- * For more information visit:
- * https://www.amcharts.com/
- * 
- * Documentation is available at:
- * https://www.amcharts.com/docs/v4/
- * ---------------------------------------
- */
 
 // Themes begin
 am4core.useTheme(am4themes_animated);
@@ -43,7 +32,7 @@ var chart = am4core.create("chartdiv", am4maps.MapChart);
 chart.geodata = am4geodata_worldHigh;
 
 // Set projection
-chart.projection = new am4maps.projections.Mercator();
+chart.projection = new am4maps.projections.NaturalEarth1();
 
 // Export
 // chart.exporting.menu = new am4core.ExportMenu();
@@ -65,9 +54,9 @@ homeButton.parent = chart.zoomControl;
 homeButton.insertBefore(chart.zoomControl.plusButton);
 
 // Center map
-chart.homeZoomLevel = 1.5;
-chart.minZoomLevel = 1.5;
-chart.homeGeoPoint = { longitude: 9.21, latitude: -6.5 };
+chart.homeZoomLevel = 1.4;
+chart.minZoomLevel = 1.4;
+chart.homeGeoPoint = { longitude: 13.7, latitude: 1.46 };
 
 var groupData = [
   {
