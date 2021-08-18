@@ -55,12 +55,9 @@
 }
 
 html {
-    font-size: 3vmin;
+    font-size: 18px;
     line-height: 1.12;
     scroll-behavior: smooth;
-    @include responsive('min-width: #{$width-tablet}') {
-        font-size: 18px;
-    }
     color: var(--blackInk);
 }
 

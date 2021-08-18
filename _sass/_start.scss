@@ -37,12 +37,12 @@
     
     // type scale
     --int: 1.333;
-    --scale-0: 4vw;
-    @include responsive('min-width: #{$width-tablet}') {
-        --scale-0: 2.4vw;
-    }
+    --scale-0: 1rem;
+    // @include responsive('min-width: #{$width-tablet}') {
+    //     --scale-0: 2.4vw;
+    // }
     @include responsive('min-width: #{$width-desktop}') {
-        --scale-0: 1.8vw;
+        --scale-0: 1.2rem;
     }
     --scale--1: calc(var(--scale-0) / var(--int));
     --scale--2: calc(var(--scale-1) / var(--int));
