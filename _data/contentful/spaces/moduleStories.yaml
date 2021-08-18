@@ -3,6 +3,7 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
+<<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-06-29 19:59:22.135000000 Z
     content_type_id: moduleStories
     revision: 74
@@ -167,10 +168,131 @@ moduleStories:
     title: 'What Spreads on WhatsApp?: A Snapshot of Tipline Content from India and
       Brazil'
     slug: what-spreads-on-whatsapp-a-snapshot-of-tipline-content-from-india-and-brazil
+=======
+    updated_at: !ruby/object:DateTime 2021-08-13 00:17:05.794000000 Z
+    content_type_id: moduleStories
+    revision: 77
+  title: Blog
+  stories:
+  - sys:
+      id: rmTNmVMjpq5fIsxAXJpBo
+      created_at: !ruby/object:DateTime 2021-07-28 14:26:32.227000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-06 15:26:51.525000000 Z
+      content_type_id: story
+      revision: 7
+    title: 'Multi-language tiplines and media literacy: PesaCheck in Africa'
+    slug: multi-language-tiplines-and-media-literacy-pesachecks-fact-check-strategy-in
     topic:
     - sys:
         id: 7jQKmsQvOs6pjAjLth5gsA
     - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: 1VnfL49o8jN904iQnXZ6nH
+        created_at: !ruby/object:DateTime 2021-07-28 15:08:44.603000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-28 15:09:22.246000000 Z
+      title: Pesacheck
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/1VnfL49o8jN904iQnXZ6nH/094c794561b908de67754f8af0799443/meedan_blog_pesa-check-4.jpg"
+    description: "[PesaCheck](https://pesacheck.org/), an initiative of Code for Africa,
+      spans across 12 countries and is one of Africa’s largest indigenous fact-checking
+      organisation. From running tiplines in multiple languages, conducting fact-check
+      trainings for university students and supporting newsrooms and NGOs to set up
+      their own fact-check teams, PesaCheck has adopted a multi-pronged approach to
+      addressing misinformation in the regions that they work in. Since December 2020
+      PesaCheck has been part of Meedan’s global end-to-end fact-checking project
+      using the WhatsApp Business API and powered by Check, an open-source platform
+      built by Meedan. For PesaCheck, Check is essential in supporting fact-checking
+      through the tipline, as well as the management of their editorial workflow.
+      \n\nIn this blogpost, we speak to [Enock Nyariki](https://twitter.com/enocknyariki),
+      Managing Editor of PesaCheck about the organization's strategies and experience
+      of combating misinformation in Africa."
+    body: "[PesaCheck](https://pesacheck.org/), an initiative of Code for Africa,
+      spans across 12 countries and is one of Africa’s largest indigenous fact-checking
+      organisation. From running tiplines in multiple languages, conducting fact-check
+      trainings for university students and supporting newsrooms and NGOs to set up
+      their own fact-check teams, PesaCheck has adopted a multi-pronged approach to
+      addressing misinformation in the regions that they work in. Since December 2020
+      PesaCheck has been part of Meedan’s global end-to-end fact-checking project
+      using the WhatsApp Business API and powered by Check, an open-source platform
+      built by Meedan. For PesaCheck, Check is essential in supporting fact-checking
+      through the tipline, as well as the management of their editorial workflow.
+      \n\nIn this blogpost, we speak to [Enock Nyariki](https://twitter.com/enocknyariki),
+      Managing Editor of PesaCheck about the organization's strategies and experience
+      of combating misinformation in Africa.\n\n__1. You work in over 10 countries
+      of East and West Africa. What are the main sources of misinformation in the
+      region and what are your strategies to address them?__\n\nWe find misinformation
+      across social media platforms. Facebook is the most popular social platform
+      in most of the countries that we operate in and we tend to find posts containing
+      misinformation on it. We debunk the claims contained on these posts and publish
+      articles on our site pesacheck.org. \n\nWhatsApp users also share posts they
+      have seen going round on social media on our WhatsApp tipline number (+254707813834)
+      for us to verify. \n\n__2. You run WhatsApp tiplines in multiple languages.
+      How challenging has this been to set up?__\n\nThe tipline is currently set up
+      for English, French, Kiswahili and most recently Amharic. We have menus in various
+      languages, and the prompt sent to the user allows them to choose the language
+      of response. \n\nWe already have a team working in different languages which
+      allows us to respond to all the submissions that come to the tipline. We have
+      been educating users on how the tipline operates to ensure they are sharing
+      claims correctly and also the scope of claims we can look into. \n\nThe tipline
+      sometimes receives submissions that are incomplete or outside our verification
+      scope. We share our methodology with the users, allowing them to know what can
+      and what cannot be fact-checked.\n\n__3. How have you been able to address COVID-19
+      related misinformation in the region over the past year? Has misinformation
+      thwarted efforts to keep people safe?__\n\nWe have debunked hundreds of claims
+      touching on COVID-19 and vaccines in the past year. Our approach has been to
+      prioritize such misinformation, because of the danger it poses to members of
+      the public. We are part of the founding members of the [Africa Infodemic Response
+      Alliance](https://www.afro.who.int/aira) (AIRA), which has helped connect our
+      fact-checkers with the WHO and CDC, helping us to debunk claims faster.\n\n__4.
+      You have been using Check to support your WhatsApp tipline and to manage your
+      editorial workflow? Could you elaborate more on both the use cases? How have
+      you been able to integrate Check into your work?__\n\nWe use Check to manage
+      submissions that we receive through our tiplines, and the main function of this
+      is to automate responses to user submissions. The system allows us to match
+      claims submitted to fact-checks fast through automatic and manual matching of
+      similar items based on content that we have already checked. When a submission
+      is similar to a claim that we have already debunked, the system sends out an
+      automated response, removing the need for manual generation of user reports
+      every time we receive the same claim. \n\nSince we operate in multiple languages,
+      we are currently adapting our workflow on Check to manage the editorial processes.
+      For content that needs translation, we have created folders where translators
+      and  to editing and earmarking for publication. Through Check we can track the
+      process and see who completed what stage of the copy flow process. The folders
+      allow us to keep the languages separate which is essential as we have six languages
+      in which we operate.\n\n__5. What are your plans to promote the tipline in the
+      country and to widen your audience in the region?__\n\nWe plan to create awareness
+      around the tipline in the 12 countries that we cover, and in multiple languages.
+      At the moment, most claims are in English, and they come from Kenya and Uganda.
+      We intend to promote the tipline in French, Kiswahili, Amharic, Afaan Oromo
+      and Tigrinya.\n\n__6. You conduct media literacy and fact-checking training
+      in universities of the region and support media and NGOs to establish their
+      own standalone fact-check teams. How successful is this in combating misinformation
+      in the region?__ \n\nIt's super-important, because combating misinformation
+      requires collaboration. No one fact-checking organization can succeed in fighting
+      the information disorder alone. We have helped set up [CheckDesks](http://skyfm.co.ke/podcast/8591/)
+      in tens of newsrooms, which have [produced](https://businesstoday.co.ke/bill-gates-neither-funded-nor-planned-covid-19-pandemic/)
+      hundreds of[ fact-checks](https://pigafirimbi.africauncensored.online/alleged-covid-19-deaths-vaccine-norway/).
+      We also train journalism students at universities such as Daystar University
+      and Aga Khan University in Nairobi, and we do this in order to nurture future
+      journalists to incorporate fact-checking in their day-to-day reporting. We are
+      also working with media lecturers to include fact-checking courses in their
+      curricula."
+  - sys:
+      id: tFlqVRWqWaq34gxXYAm4u
+      created_at: !ruby/object:DateTime 2021-07-29 04:15:54.784000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-29 09:11:51.335000000 Z
+      content_type_id: story
+      revision: 3
+    title: 'Ekta consortium editors'' take on vaccine hesitancy in India '
+    slug: ekta-consortium-editors-take-on-vaccine-hesitancy-in-india
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
+    topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+    - sys:
+<<<<<<< HEAD
         id: 6TvSKHc0JwGsaZxHUrYc5M
     lead_image:
       sys:
@@ -303,11 +425,176 @@ moduleStories:
     title: We have a right to information. But in a pandemic, many of us can't read
       the information.
     slug: we-have-a-right-to-information-but-in-a-pandemic-many-of-us-cant-read-the
+=======
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: 12x6cDcZ5M90tVnoNLYlEo
+        created_at: !ruby/object:DateTime 2021-07-29 04:21:00.581000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-29 04:21:26.233000000 Z
+      title: Vaccine hesitancy
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/12x6cDcZ5M90tVnoNLYlEo/242fcb6e07e430a5d77ed7f12e5d2d4b/meedan_blog_vaccine-hesitancy.jpg"
+    description: 'This blogpost captures the views of editors of [Ekta consortium
+      ](https://ekta-facts.com/)about the reasons for vaccine hesitancy in India and
+      their response to the challenge. The Ekta consortium has been formed by six
+      independent fact-checking groups in India: [AFP Fact Check](https://factcheck.afp.com/),
+      [BOOM Live](https://www.boomlive.in/), [Factly](https://factly.in/), [India
+      Today Fact Check](https://www.indiatoday.in/fact-check), [Vishvas News](https://www.vishvasnews.com/)
+      and [WebQoof](https://www.thequint.com/news/webqoof). All the groups are part
+      of Facebook''s third-party fact-checking program, and Meedan has provided access
+      to its fact-checking platform Check and strategic support for this project.
+
+      '
+    body: |-
+      In India, vaccine hesitancy poses a risk to ending the COVID-19 pandemic. According to latest figures shared by the [Ministry of Health and Family Welfare](https://www.mohfw.gov.in/), 342 million people have received the first dose of the vaccine and 93 million have been fully vaccinated until July 26, 2021. That's about 25% and 6% of the population in India, respectively.  Wide variations in the vaccination strategy across states are keeping India from achieving a desirable vaccination rate.  [Supply shortages i](https://www.reuters.com/world/india/indias-daily-covid-19-infections-rise-by-38949-2021-07-16/)n many states have left millions of people vulnerable to the virus. In addition to vaccines running out, fears and rumours about the vaccine have resulted in delay in acceptance or refusal of vaccination. Misinformation on social media and messaging platforms about the vaccine causing infertility, serious side effects or even death has been circulating widely even before the vaccination programme rolled out in the country. Other reasons for refusal of vaccines include  disbeliefs among people that coronavirus is spreading  in their area and that they can be infected by the virus.
+
+       [The Covid Symptom Survey (CSS)](https://indianexpress.com/article/opinion/india-has-a-vaccine-hesitancy-challenge-7388907/) reveals that the proportion of the population hesitant to Covid vaccines is highest in Tamil Nadu (40 per cent), Punjab (33 per cent), Haryana (30 per cent), Gujarat (29 per cent), and Andhra Pradesh (29 per cent). The digital divide that exists in the country has also exacerbated the problem. The vaccine registration process involves the use of smartphones and the internet, and a lot of people across the country do not have access.
+
+      This blogpost captures the views of editors of [Ekta consortium ](https://ekta-facts.com/)about the reasons for vaccine hesitancy in India and their response to the challenge. The Ekta consortium has been formed by six independent fact-checking groups in India: [AFP Fact Check](https://factcheck.afp.com/), [BOOM Live](https://www.boomlive.in/), [Factly](https://factly.in/), [India Today Fact Check](https://www.indiatoday.in/fact-check), [Vishvas News](https://www.vishvasnews.com/) and [WebQoof](https://www.thequint.com/news/webqoof). All the groups are part of Facebook's third-party fact-checking program, and Meedan has provided access to its fact-checking platform Check and strategic support for this project.
+
+      __1.  Where are you seeing vaccine hesitancy and misinformation related to the COVID-19 vaccine?__
+
+      __Social media platforms and messaging apps contribute to the spread of misinformation but so do influencers and self-proclaimed doctors.__
+
+      __Rakesh Dubbudu, Editor, Factly:__ Social media content including unscientific/magical cures, conspiracy theories, rumours, fake news by so-called experts/cons have been circulating on closed groups like WhatsApp & shared on platforms like Facebook & YouTube. Misinformation in rural areas is spread through word-of-mouth or people's past experiences of vaccination. Some people also have a sense of invincibility and they believe that Covid won't affect them.
+
+      __Shachi Sutaria, Fact-checker, Journalist- Health, BOOM:__ This can be seen on social media channels such as WhatsApp, Telegram and Facebook. A section of medical practitioners and quacks are perpetuating their videos through Telegram.
+
+      __Kritika Goel, Associate Editor, WebQoof:__ Other than WhatsApp, Facebook, Twitter and Telegram, we have seen politicians, self-proclaimed doctors and quacks promoting conspiracy theories related to COVID-19 and vaccines. Some of the groups on these social media platforms use different words or short forms to escape the algorithm. We have seen politicians openly promoting "cures" which are not backed by science or evidence.
+
+      __2.  What kind of misinformation has been circulating around on the COVID-19 vaccine? Can you share some examples?__
+
+      __Serious side effects, death, misinformation related to the vaccine containing items that are prohibited in certain religions and other conspiracy theories have been doing the rounds online and off.__
+
+      __Shachi Sutaria:__  [Death due to vaccination](https://www.boomlive.in/coronavirus-outbreak/fact-check-luc-montagnier-nobel-covid-vaccine-die-in-two-years-13278) and post COVID-19 vaccination side effects are the biggest drivers of vaccine hesitancy. Reports of the body becoming magnetic post vaccination, or people developing different diseases, the vaccine containing cow serum, aborted fetal cells, aluminium are driving vaccine hesitancy. Misinformation such as the vaccines containing microchips and collecting personal data, vaccines altering human DNA, are also doing the rounds.
+
+      __Rakesh Dubbudu:__ The spectrum of misinformation ranges from questioning the vaccine ingredients such as [cow serum](https://factly.in/bharath-biotechs-covaxin-does-not-contain-newborn-calf-serum/), pig fat, aluminum, etc., vaccines affecting menstrual cycle/causing infertility, homemade concoctions to either cure or prevent Covid-19 instead of vaccinations, government implanting microchips through the vaccine, magnetic effects at the site of injection to death within 2 years after the vaccine.
+
+      __Kritika Goel:__ From vaccines containing chips to control people to vaccines causing death, all these unfounded theories have contributed to vaccine hesitancy in the country. A lot of people have been made to believe that the vaccines will make them "[magnetic](https://fit.thequint.com/fit-webqoof/covid-19-vaccine-magnetic)", will make them infertile, that the vaccine contains cow serum and pig fat. Some posts also claim that the vaccine is the reason behind the new variants and the subsequent waves.
+
+      __Uzair Rizvi, Fact checker, AFP Fact Check:__ Misinformation surrounding death, impotence, [menstrual issues in women,](https://factcheck.afp.com/false-posts-claim-womans-menstrual-cycle-affects-efficacy-covid-19-vaccination) and other health issues related to vaccines are floating widely on social media. There's also content like vaccines making the body magnetic, or containing microchips to track people's movements.
+
+      __Chayan Kundu, Senior Journalist, India Today Fact Check:__ The main misinformation is death due to vaccination, then comes misinformation about vaccines having microchips, magnets, [vaccines being a strategy for population control ](https://www.indiatoday.in/coronavirus-outbreak/story/no-scientific-evidence-of-covid-vaccination-causing-infertility-in-men-women-says-health-ministry-1817696-2021-06-21)and conspiracy theories like connection between the vaccine lobby and the Wuhan lab and misinformation related to pregnancy.
+
+      __3.  In your understanding, what are the main reasons for vaccine hesitancy among people?__
+
+      __Kritika Goel:__  The Quint conducted a survey in the rural areas of the states of Uttar Pradesh, Madhya Pradesh and Bihar and we found that misinformation was one of the reasons behind vaccine hesitancy. A lot of people are made to believe through WhatsApp forwards that vaccines will actually kill them and that is what is making them hesitant. As per our understanding, it is also because of lack of awareness, communication and information which is given to them. In a few cases, we have found that people in villages don't even know about the existence of Covid vaccines.
+
+      __Rakesh Dubbudu:__ Unverified sources actively spreading Covid-19 misinformation and a huge lack of procedural awareness in terms of registration & administration have been reasons for hesitancy. Given the timelines of vaccine research and how rushed the process was, there is low trust in the safety & efficacy of the vaccine. Finally some people also have choice anxiety in terms of waiting for a specific vaccine & concerns around safety of vaccination centers. 
+
+      __Chayan Kundu:__ The Covid vaccines have been made within a very short span of time, much less than the usual time it takes to create a vaccine with proper trials, there is hesitancy from the very beginning about its efficacy and its side effects in the long run.
+
+      __Shachi Sutaria:__ Health and science are topics which are continuously evolving and the latest updates have to be effectively communicated to the community at large. In reality, there is lack of access to updated health information, spread of misinformation through quacks, anecdotes of pain post vaccination and reports of  people still getting infected as well deaths post vaccination; all these are exacerbating the existing vaccine hesitancy. 
+
+      __Uzair Rizvi:__ Some of the misinformation is being floated by doctors themselves on their YouTube channels or on social media where they talk about unproven side-effects; this discourages people from taking vaccines. 
+
+      __4.  Given that there is a digital divide in our country, what steps can be taken to ensure the most marginalised can access information related to vaccines. What out of these is your group focusing on/ plans to focus on?__
+
+      __Chayan Kundu:__ Door to door campaign by the health workers. Political leaders, councilors, local panchayats should be part of this campaign. Rolling out information on social media particularly on WhatsApp, facebook to counter misinformation.
+
+      __Kritika Goel:__ We have been working with three local news organisations in UP, MP, Bihar and Assam to be able to reach out to the rural audience and ensure that they have access to fact-checked and verified information. We try to gather misinformation which is doing the rounds in their circles so that we can debunk it and bring forth the facts. We are also creating awareness videos to tell our audience about the importance of vaccines and debunk the myths around Covid-19. All this content is being produced in local languages to make it more accessible to the reader. We are writing text pieces, producing animated and stand up videos, creating cards (templates that can be shared over WhatsApp). We also aim to produce some jingles and do skits so that we are able to connect with the audience better. Some of this content that we are producing is also being published on local websites and being aired by local channels.
+
+      __Shachi Sutaria:__ Along with writing regular stories debunking misinformation as well as explaining different health and scientific terminologies and reports, BOOM has also been conducting workshops with senior citizens in multiple languages to help them discern their way through the information overload during Covid-19 times.
+
+      The team collaborated with several foundations and NGOs and provided them with resources to verify and tackle the spread of misinformation. We even trained office bearers of these foundations in ways of sharing correct information to reduce vaccine hesitancy.
+
+      While we have regularly been interacting with doctors and shooting videos with them wherein we are breaking down facts and debunking myths, we also initiated a social media campaign called "Sansani nahi sach". Television actor Aasif Sheikh was the face of this campaign.
+
+      __Rakesh Dubbudu:__ Local governments must curate and adopt local solutions (communication campaigns) through partnering with community mobilizers, religious leaders, doctors, ASHA workers, among others. Celebrity endorsements on TV also improve vaccine confidence.
+
+      There have been multiple success stories where media such as art forms (theatre or skits) and other incentives have improved the vaccine uptake.
+
+      __Uzair Rizvi:__ Celebrity endorsements will help in disseminating information. Door to door campaigning by health workers can also spread information about the efficacy and benefits of Covid vaccines.
+    words_by:
+    - sys:
+        id: 63aDI74CtzeFHW0hZ3xPH6
+  - sys:
+      id: 5pmY6VvLYpy2qecQPpXgrX
+      created_at: !ruby/object:DateTime 2021-07-27 13:28:58.921000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-28 20:41:33.735000000 Z
+      content_type_id: story
+      revision: 2
+    title: 'Digital Health Lab scientists launch training program with Facebook’s
+      fact-checking partners  '
+    slug: digital-health-lab-scientists-launch-training-program-with-facebooks-fact
+    topic:
+    - sys:
+        id: 4F5o79SqSBBaGKrc0IOhVe
+    lead_image:
+      sys:
+        id: 2fjZUCY4kctMG1scKuuWmz
+        created_at: !ruby/object:DateTime 2021-07-27 13:31:11.669000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-27 13:31:33.651000000 Z
+      title: meedan blog dhlxfjp-3
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/2fjZUCY4kctMG1scKuuWmz/ca9950e3b1fca6479cd1a97a40cbc9ab/meedan_blog_dhlxfjp-3.png"
+    body: "\nMeedan’s Digital Health Lab is pleased to announce a new training collaboration
+      with the [Facebook Journalism Project](https://www.facebook.com/journalismproject)
+      to support fact checkers in fighting health misinformation online. This is part
+      of a growing [set of resources](https://meedan.com/blog/global-covid-19-vaccine-hub-shares-science-backed-info-with-journalists-and/)
+      that the Digital Health Lab is offering to media partners, health institutions
+      and platforms as they work to verify and debunk critical health information.
+      \n\nMeedan’s Digital Health Lab will facilitate a series of virtual training
+      sessions between its team of doctors, scientists and health experts and Facebook’s
+      [third-party fact-checking partners](https://www.facebook.com/journalismproject/programs/third-party-fact-checking/partner-map).
+      In addition to using best practices from the field of public health communications,
+      the training will apply research that shows that strong, reliable partnerships
+      with experts plays a big role in effectively addressing misinformation. The
+      Lab’s team of scientists will work together with fact-checkers to design the
+      training sessions around the core information needs of fact-checkers. The two
+      fields (public health and journalism) will collaborate together on building
+      solutions for health misinformation issues.  \n\n“Our team of scientists are
+      thrilled to offer close support to the Facebook Journalism Project through this
+      collaboration,” notes Megan Marrelli, Health Desk Lead. “The series of workshops
+      we’re offering will foster dynamic collaboration between scientists and fact-checkers
+      around the world, who are fighting health misinformation every day. Cross-industry
+      collaboration is key to targeting harmful online health claims. We need information
+      leaders in science, journalism and technology to come together to forge innovative
+      paths forward, and that is what we hope this workshop can offer.” \n\n“We’re
+      excited to partner with Meedan to foster collaboration between our independent
+      fact-checking partners and Meedan’s team of health experts, with a shared goal
+      of addressing health misinformation more quickly and effectively,” said Keren
+      Goldshlager, News Integrity Partnerships Lead at Facebook.\n\nHealth Desk’s
+      content is written by a growing team of experts in infectious diseases, vaccination
+      policy, nutrition, and the environment. They include researchers from the [Harvard
+      T.H. Chan School of Public Health](https://www.hsph.harvard.edu/) and scientists
+      with experience working around the world and in multiple languages.\n\n“There
+      has never been a more important time for digital, global audiences to have reliable,
+      trusted, locally-relevant and accurate health information,” said Nat Gyenes,
+      Director of Meedan’s Digital Health Lab. “Increasingly, research has identified
+      the impact that online health misinformation has on offline health outcomes.
+      The public health community at large has a responsibility to support the incredible
+      work that fact-checking organizations are doing to address the very real and
+      consequential health misinformation affecting their communities. Meedan’s Health
+      Desk team is excited to be part of this effort, which we hope will make it easier
+      for fact checkers to answers to their health science questions, with greater
+      support for fact-checking topics relevant to the the complex and ever-changing
+      public health information ecosystem.” \n\nIn addition to the training opportunities,
+      Facebook’s fact-checking partners will also have access to Meedan’s Health Desk.
+      This will provide them with timely answers to key public health questions to
+      support their health-related fact-checking efforts. If fact-checkers can’t find
+      answers to what they’re looking for on Health Desk, they can submit questions
+      by email or an online form and Health Desk’s team of scientists will respond
+      quickly.\n\nFor more information about this program as well as other Digital
+      Health Lab projects, email press@meedan.com. \n"
+    alt_date: !ruby/object:DateTime 2021-07-27 00:00:00.000000000 Z
+  - sys:
+      id: 55vSdxf6Geh1aN0hyEAN62
+      created_at: !ruby/object:DateTime 2021-07-14 12:22:27.074000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-23 19:09:15.029000000 Z
+      content_type_id: story
+      revision: 1
+    title: Industries from energy to agriculture influence our health. Now it's time
+      to shine a light on how tech companies do the same.
+    slug: tech-companies-influence-on-health-infosphere
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
     topic:
     - sys:
         id: 13HcGYCQHm8vDRW3EAkw6j
     lead_image:
       sys:
+<<<<<<< HEAD
         id: 3UAQWNilLEpmrbOXR47hC3
         created_at: !ruby/object:DateTime 2021-05-25 22:38:50.301000000 Z
         updated_at: !ruby/object:DateTime 2021-06-10 12:33:13.158000000 Z
@@ -406,6 +693,83 @@ moduleStories:
     - sys:
         id: 4MK93CSrpmc3tFyE5MYEeh
     alt_date: !ruby/object:DateTime 2021-05-25 00:00:00.000000000 Z
+=======
+        id: 3HezWWLhga1zWZeLzbJjhH
+        created_at: !ruby/object:DateTime 2021-07-23 18:38:58.473000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-23 19:09:09.992000000 Z
+      title: meedan blog tech-infosphere
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/3HezWWLhga1zWZeLzbJjhH/de8b484816733bdf5fd3feb3305bc2a0/meedan_blog_tech-infosphere.jpg"
+    body: "Most of us go online every day to read the news, interact with others via
+      social media, gather information, and make household purchases. Global technology
+      giants like Google, Facebook, Apple, Amazon, Microsoft, and others influence
+      what we see online, the sites we visit, and how we interact with content. They
+      can also impact how we make decisions about our health. \n\nGlobal technology
+      and social media companies represent a gap in what public health experts call
+      the commercial determinants of health. Companies in agriculture, energy and
+      other fields market their products, lobby governments, make displays of social
+      responsibility, and maintain a massive global presence. Through these avenues,
+      they have the power to impact health-related decision-making at the individual,
+      household, community, national, and international levels. \n\nUnlike other organizations,
+      tech companies employ complex algorithms, cross-platform advertising, and hosted
+      content that shape what users’ [see online ](https://repository.kisti.re.kr/bitstream/10580/13511/1/Zimmer_Scheibe_Stock_Stock_v7n2_40-53.pdf)based
+      on their behavior and engagement patterns. Of course, not all of the information
+      online is factual;it may be true, partially true, or false. Tech tools create
+      [echo chambers](https://www.pnas.org/content/118/9/e2023301118) that reinforce
+      and bolster users’ existing beliefs and biases and foster continued online engagement.
+      \nTech companies profit by [holding users' attention](https://gwtoday.gwu.edu/social-media-companies-profiting-misinformation),
+      using ads to sponsor [websites](https://www.newsguardtech.com/special-report-advertising-on-covid-19-misinformation/)
+      that spread misinformation, which can involve, in some cases,  [hosting content](https://252f2edd-1c8b-49f5-9bb2-cb57bb47e4ba.filesusr.com/ugd/f4d9b9_6910f8ab94a241cfa088953dd5e60968.pdf)
+      from “anti-vaxx” and other conspiracy theory groups. \n\nOur health is affected
+      by where we live, the food we eat, how much money we have, access to health
+      services, and who is part of our social networks. However, these social determinants
+      of health fail to holistically include the online ‘infosphere’, as I shared
+      in a [blog post](https://meedan.com/blog/information-as-a-social-determinant-of-health/)
+      in April. \n\nResearch has shown that online content can influence [decision-making](https://www-sciencedirect-com.ezp-prod1.hul.harvard.edu/science/article/pii/S0747563217303357),
+      [local cultures](https://link.springer.com/chapter/10.1007/978-3-030-52249-0_33),
+      [body image](https://jandonline.org/article/S2212-2672(16)30110-1/fulltext),
+      lifestyle choices, and health habits, especially for individuals with low levels
+      of health literacy. And when we consider how the quality, accuracy, accessibility,
+      and availability of information can impact our health, we must also acknowledge
+      that commercial influencers shape the information we see and how we receive
+      it. Commercial entities wield a tremendous amount of power over how we make
+      health-related decisions. \n\nCommercial determinants of health are commonly
+      [defined as](https://onlinelibrary.wiley.com/doi/full/10.1111/add.12118) “factors
+      that influence health which stem from the profit motive.” Historically, public
+      health work and research in this space has [focused](http://globalizationandhealth.biomedcentral.com/articles/10.1186/s12992-017-0255-3)
+      on how companies sell products (including highly-processed foods, beverages,
+      alcohol, and tobacco) that contribute to early mortality and diseases including
+      obesity, cancer, and type-2 diabetes. \n\nAdditional studies have explored [commercial
+      interests](https://globalizationandhealth.biomedcentral.com/articles/10.1186/s12992-020-00607-x)
+      that negatively impact health through contributions to environmental pollution,
+      pesticide and chemical exposure, poor access to safe living conditions, and
+      unequal access to medications and health services. \n\nWhile there are efforts
+      to foster corporate accountability and engagement in health promotion activities,
+      there is a longstanding tension between the public health community and private
+      sector players. The commercial determinants of health present a considerable
+      challenge that requires cross-sectoral collaboration and innovative partnerships.
+      While companies often favor [personal responsibility](http://globalizationandhealth.biomedcentral.com/articles/10.1186/s12992-017-0255-3)
+      over regulatory or policy interventions, [multisectoral engagement](https://www.euro.who.int/__data/assets/pdf_file/0005/371435/multisectoral-report-h1720-eng.pdf)
+      across economics, finance, policy, research, healthcare, social sciences, public
+      health, and others is vital. \n\nIn the tech sector, broad, coordinated policy
+      actions have not been taken to improve the quality of health content, though
+      some companies are actively working to improve health content on their individual
+      platforms by implementing their own policies, strengthening content moderation
+      and fact-checking practices, and redeveloping algorithms. For example, in an
+      industry first, on July 1, 2021, [Pinterest banned ads](https://newsroom.pinterest.com/en/post/pinterest-embraces-body-acceptance-with-new-ad-policy)
+      containing weight loss-related products, images, or language in response to
+      a rise in disordered eating habits and conditions over the past year.\n\nUnfortunately,
+      there is not a singular response or “quick fix” solution to addressing the commercial
+      determinants of health across sectors, and [additional research](http://journals.sagepub.com/doi/10.1177/1757975920931249)
+      is needed to further define and understand how these factors impact health.
+      Furthermore, we must acknowledge tech companies as unique entities in commercial
+      determinants of health models since search engines, social media companies,
+      messaging platforms, and online advertising engines do and will continue to
+      influence the health infosphere."
+    words_by:
+    - sys:
+        id: 3xEo7vg2mb9Nd8sOw164ii
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
@@ -1473,24 +1837,26 @@ moduleStories:
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
     created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-29 20:00:48.180000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-18 18:30:48.386000000 Z
     content_type_id: moduleStories
-    revision: 6
+    revision: 7
   title: Featured Story
   stories:
   - sys:
-      id: 26UTRE8IT5sUBil9h7y32U
-      created_at: !ruby/object:DateTime 2021-01-14 01:12:45.176000000 Z
-      updated_at: !ruby/object:DateTime 2021-01-14 19:29:15.176000000 Z
+      id: 1Uxm3ZoC7FMzE0HivRS7zf
+      created_at: !ruby/object:DateTime 2021-05-25 16:42:56.472000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-10 12:33:16.668000000 Z
       content_type_id: story
       revision: 1
-    title: Inoculating against misinformation
-    slug: inoculating-against-misinformation
+    title: We have a right to information. But in a pandemic, many of us can't read
+      the information.
+    slug: we-have-a-right-to-information-but-in-a-pandemic-many-of-us-cant-read-the
     topic:
     - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
+        id: 13HcGYCQHm8vDRW3EAkw6j
     lead_image:
       sys:
+<<<<<<< HEAD
         id: 2TZr0rckkBE1F6qRNzwLZP
         created_at: !ruby/object:DateTime 2021-01-14 01:14:27.964000000 Z
         updated_at: !ruby/object:DateTime 2021-01-14 19:28:54.797000000 Z
@@ -1512,6 +1878,106 @@ moduleStories:
       height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless
       src=\"https://player.simplecast.com/46757cac-9c08-438f-9c5f-6ed889f5578b?dark=true\"></iframe></p>"
     alt_date: !ruby/object:DateTime 2021-01-14 00:00:00.000000000 Z
+=======
+        id: 3UAQWNilLEpmrbOXR47hC3
+        created_at: !ruby/object:DateTime 2021-05-25 22:38:50.301000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-10 12:33:13.158000000 Z
+      title: We have a right to information. But in a pandemic, many of us can't read
+        the information.
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/3UAQWNilLEpmrbOXR47hC3/8c4c8e55e98983fc229e161d29a7e252/meedan_blog_right-to-information.jpg"
+    body: "The pandemic has left us all trying to untangle new and complicated COVID-19
+      information. It’s been an overwhelming and continuous part of the pandemic,
+      and it’s not one that’s just in our heads. New research suggests that few websites
+      are publishing COVID-19 content at a reading level that works for the general
+      population. \n\nEveryone has the [right to information](https://hhi.harvard.edu/files/humanitarianinitiative/files/signalcode_final.pdf?m=1607469621)
+      during a crisis. Unavailable, unclear, or inaccessible communications can increase
+      anxiety, especially during times of uncertainty and ambiguity. Complex messages
+      are also prone to misunderstandings. Misinterpretation or misapplication of
+      complex topics like COVID-19 can result in the spread of misinformation and
+      midinformation.\n\nOver the past year, researchers have studied the “readability”
+      of COVID-19 information published online. What’s readability, you ask? Reading
+      level tools that give “readability scores” estimate the number of years of education
+      needed to understand a piece of content. In the U.S., many newspapers publish
+      content to accommodate people who read between an eighth- and tenth-grade level.
+      However, the average American reading level is around grade five or six. For
+      [low-literacy](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple)
+      readers, experts recommend creating materials at a reading level between third
+      and fifth grade. \n\nThe recent studies found that most COVID-19 information
+      websites aren’t meeting us where we’re at:\n\n- [Worrall and colleagues](https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-020-09710-5.pdf)
+      assessed the readability of COVID-19-related content for a total of 240 English
+      language webpage URLs from Ireland, the United Kingdom, Canada, and the United
+      States. Using four tools, the team found that only 17.2% (n=165) of all readability
+      scores analyzed were at a universally readable level. They also found that government
+      and public health organization websites scored better than academic or scientific
+      institutions, digital media, or others.\n\n- [Basch and colleagues](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/public-health-communication-in-time-of-crisis-readability-of-online-covid19-information/E1B32CF9E602F287902AD91F1D10DA7D)
+      conducted a similar study of COVID-19 online search results from 100 English
+      language websites. They also found that most websites were above a tenth-grade
+      reading level target. In their sample, only four websites had content at less
+      than a sixth-grade reading level.\n\n- [Mishra and Dexter](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2769382?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamanetworkopen.2020.18033)
+      compared COVID-19 information readability from official public health agencies
+      and governments of 15 countries. They found that all 18 websites scored above
+      a sixth to eighth-grade reading level. They also found that 95% (n=141) scored
+      above grade eight for all five readability metrics.\n\n- Additional COVID-19-related
+      readability studies by [Szmuda and colleagues](https://www.sciencedirect.com/science/article/abs/pii/S0033350620302031?via%3Dihub),
+      [Garcia and colleagues](http://link.springer.com/10.1007/s10900-021-00973-6),
+      and [Ferguson and colleagues](https://onlinelibrary.wiley.com/doi/10.1111/1753-6405.13066)
+      suggested that the reading ease of COVID-19-related health information online
+      is a major problem. \n\nIn a recent reflection on our Health-Desk work, we conducted
+      a series of semi-structured qualitative interviews (n=6) with partner journalists
+      and fact-checkers from six different countries. The partners we interviewed
+      endorsed the quality, readability, and applicability of our content in supporting
+      their fact-checking efforts. \n\nTo further our evaluation, we conducted a readability
+      audit. We chose 27 COVID-19-related Health Desk explainers written between June
+      and December 2020. All of the audited entries were ones submitted by our media
+      partners. The queries covered a variety of key topics, including nutrition,
+      vaccines, testing, masks, treatment, and statistics.\n\nLike many similar studies
+      from the past year, we used an [online readability tool](https://readable.com/)
+      to score our content. By our measurements, like so many COVID-19 communication
+      websites out there today, we also failed to meet the recommended targets for
+      readability at the sixth or tenth-grade targets. Our sample reading score was
+      around a grade 15 (95%CI: 14.61, 15.63), which is considered difficult to read
+      and appropriate for college students.\n\nThere’s some nuance to this. While
+      readability is important, using [reading ease alone](https://www.cms.gov/Outreach-and-Education/Outreach/WrittenMaterialsToolkit/ToolkitPart07)
+      to determine how well the public will understand health messaging is problematic.
+      [Health literacy](https://www.cdc.gov/healthliteracy/learn/index.html) efforts
+      focus on how well individuals can find, understand, and use information to make
+      health-related decisions. Readability scores should be considered together with
+      clear communications tools to promote accessibility, actionability, and health
+      literacy.\n\nThere are many tools available through the [U.S. Centers for Disease
+      Control and Prevention (CDC)](https://www.cdc.gov/healthliteracy/developmaterials/plainlanguage.html),
+      [U.S. National Institutes of Health](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple),
+      the [World Health Organization](https://www.who.int/about/communications), and
+      others to improve health communications. These leading health organizations
+      all suggest that plain language principles should be used in all general communications:
+      \n\n- Engage the reader by organizing content to answer their questions. Include
+      a main message (or messages) at the beginning of the piece.\n- Use short sentences.\n-
+      Keep the readability grade level as low as possible to ensure that more people
+      can understand the content.\n- Use an active voice so that readers understand
+      what to do with the information provided.\n- Use everyday, plain, or common
+      language.\n\nOur Health Desk editorial team and public health experts are continuing
+      to evaluate where and how to improve communications to support health literacy
+      and equity. We have used an adapted clear communications tool from the [CDC](https://www.cdc.gov/ccindex/index.html)
+      to assess our explainers further, and we will apply our learnings to improve
+      our Health Desk content. We will integrate more action statements, begin using
+      simpler text, and adjust formatting. In the coming weeks, we will also implement
+      new editorial standards. Our new standards employ principles from journalism,
+      crisis communications, education, and health literacy. These are actions that
+      we encourage all health communicators to adopt, because readability is an important
+      fixture of our health information ecosystems. \n\nThe COVID-19 pandemic has
+      highlighted the need for resource investment in preparedness planning. It has
+      also highlighted the need for improved communications. We must ensure that the
+      public has the information needed to make safe and informed health decisions
+      to protect their health and the health of their families, friends, and communities.
+      The findings from studies of government, academic, and public-health-focused
+      COVID-19-related websites should serve as a call to action. To prevent the spread
+      of misinformation, health communicators must take responsibility for creating
+      more understandable and accessible content.\n"
+    words_by:
+    - sys:
+        id: 4MK93CSrpmc3tFyE5MYEeh
+    alt_date: !ruby/object:DateTime 2021-05-25 00:00:00.000000000 Z
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
 - sys:
     id: 7vZmYZOfdCLUa1e3mQyNZw
     created_at: !ruby/object:DateTime 2021-02-18 07:48:18.360000000 Z

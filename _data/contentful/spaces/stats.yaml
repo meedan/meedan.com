@@ -750,26 +750,26 @@ stat:
 - sys:
     id: 3GKA9ZItewY2b9d0MDFj1O
     created_at: !ruby/object:DateTime 2021-05-04 15:08:18.737000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:08:27.618000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:21.352000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: DHL Instagram Live Series
   number: '13'
 - sys:
     id: 5Xpo4TjhBNbUeHsrroLqJb
     created_at: !ruby/object:DateTime 2021-05-04 15:08:32.152000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-27 20:56:53.834000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:18.224000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: NPS
   number: '71'
   note: "(NPS of https://learnaboutcovid19.org/ - now health-desk.org)"
 - sys:
     id: 1tIZRfDsw3P0sx9Tg8sOo1
     created_at: !ruby/object:DateTime 2021-05-04 15:08:50.904000000 Z
-    updated_at: !ruby/object:DateTime 2021-07-01 17:53:21.842000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:15.094000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Number of responses published
   number: '210'
 - sys:
@@ -791,9 +791,9 @@ stat:
 - sys:
     id: 7iIA2q0tCFrlMzkD0So7ch
     created_at: !ruby/object:DateTime 2021-05-04 15:18:00.246000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-24 00:07:20.386000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:16.446000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Conversations*
   number: '221,932'
   note: "*A conversation is defined as a unique interaction between an end user and
@@ -803,17 +803,17 @@ stat:
 - sys:
     id: XyTaUj6OEA6FuTRwg4iXi
     created_at: !ruby/object:DateTime 2021-05-04 15:18:29.073000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:18:44.628000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:19.212000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Claims matched
   number: '10,154'
 - sys:
     id: lMPIgl7UiOv33eTBKTsoY
     created_at: !ruby/object:DateTime 2021-05-04 15:18:52.745000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:25:05.341000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:21.789000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Unique end users
   number: '132,567'
   note: "(This doesn’t mean they all got what they wanted, just that they interacted
@@ -821,53 +821,57 @@ stat:
 - sys:
     id: 5Y69NUh1nnQXKypJ0LeNq7
     created_at: !ruby/object:DateTime 2021-05-04 15:19:27.611000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:25:59.858000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:24.683000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Uniques claims
   number: '30,904'
   note: "(Not in trash, not duplicate or similar)"
 - sys:
     id: 6nyFxf2u7HAJxKoootGsFD
     created_at: !ruby/object:DateTime 2021-05-04 15:20:05.845000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:26:14.691000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:32.101000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: 'Reports sent to users '
   number: '13,019'
   note: "(One user can receive more than one)"
 - sys:
     id: 3NFDn9PG6PdAfTaoj2iLrE
     created_at: !ruby/object:DateTime 2021-05-04 15:20:30.247000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:26:24.665000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:28.341000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Bot resources sent
   number: '14,602'
   note: "(One user can receive more than one)"
 - sys:
     id: 1ryzeSwnKc4edz2ATSFaBE
     created_at: !ruby/object:DateTime 2021-05-04 15:20:56.440000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:21:35.360000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:37.729000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Reports published
   number: '10,305'
 - sys:
     id: 6w3hxDvzgKIEbXJQxsUX0v
     created_at: !ruby/object:DateTime 2021-05-04 15:21:33.766000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:26:39.336000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:35.262000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Number of partners in 2020 (Tiplines)
   number: '12'
   note: "(2824 Trainees on open source investigation and misinformation monitoring)"
 - sys:
     id: 7k3VPPbw2K7r3ifaSZZzt0
     created_at: !ruby/object:DateTime 2021-05-04 15:27:42.777000000 Z
+<<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-06-13 22:20:28.098000000 Z
+=======
+    updated_at: !ruby/object:DateTime 2021-08-12 21:30:29.388000000 Z
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: People Trained
   number: '2824'
 - sys:
@@ -890,26 +894,30 @@ stat:
 - sys:
     id: 5jTwXRKPItuZ1XLuKbkbSh
     created_at: !ruby/object:DateTime 2021-05-04 15:29:31.746000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-25 01:08:11.042000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:40.512000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: New languages
   number: '6'
   note: Bengali, Filipino, Hindi, Malayalam, Swahili and Telugu
 - sys:
     id: 57KiKARPiuxzBqTX267KvS
     created_at: !ruby/object:DateTime 2021-05-04 15:29:49.555000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-25 01:08:32.438000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:46.935000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Check reports
   number: '290,319'
 - sys:
     id: 5CDaenzM4cjfkV9qd5RRXH
     created_at: !ruby/object:DateTime 2021-05-04 15:30:05.908000000 Z
+<<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-06-25 01:09:02.568000000 Z
+=======
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:49.370000000 Z
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Total number of countries where Check is used so far on projects
   number: '24'
   note: 'At least 24, 9 countries used Check during elections and democratic transition
@@ -918,18 +926,25 @@ stat:
 - sys:
     id: 24UHdy7nXl1ZVy1VJsAmOJ
     created_at: !ruby/object:DateTime 2021-05-04 15:33:07.846000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:33:27.135000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:30:12.629000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Commits pushed to 35 different code bases
   number: '3,449'
 - sys:
     id: 5vilaCzmpRWGfZfTJc3hUH
     created_at: !ruby/object:DateTime 2021-05-04 15:33:31.899000000 Z
+<<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-05-04 15:33:55.626000000 Z
     content_type_id: stat
     revision: 0
   label: 'Lines of code were written '
+=======
+    updated_at: !ruby/object:DateTime 2021-08-12 21:30:15.908000000 Z
+    content_type_id: stat
+    revision: 1
+  label: 'Lines of code written '
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
   number: '1,001,946 '
 - sys:
     id: IRki5MXecFJnBkXiwoP5c
@@ -950,14 +965,15 @@ stat:
 - sys:
     id: 2BNYQxrXDSHPik88Pvrmah
     created_at: !ruby/object:DateTime 2021-05-04 17:09:17.468000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 19:52:09.159000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:24:52.374000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: 'Contributions and Grants '
   number: "$2,374,837"
 - sys:
     id: 4TM6K2j2ji1ff8oq0gY0za
     created_at: !ruby/object:DateTime 2021-05-04 17:09:31.003000000 Z
+<<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-05-04 17:09:41.531000000 Z
     content_type_id: stat
     revision: 0
@@ -975,17 +991,35 @@ stat:
     id: 2WYZAknVKXxlVt1BYhlxyl
     created_at: !ruby/object:DateTime 2021-05-04 17:10:02.108000000 Z
     updated_at: !ruby/object:DateTime 2021-05-04 17:10:07.947000000 Z
+=======
+    updated_at: !ruby/object:DateTime 2021-08-12 21:24:57.881000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
+  label: Program service revenue
+  number: "$1,279,662"
+- sys:
+    id: 2WYZAknVKXxlVt1BYhlxyl
+    created_at: !ruby/object:DateTime 2021-05-04 17:10:02.108000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:25:05.472000000 Z
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
+    content_type_id: stat
+    revision: 1
   label: 'Total revenue   '
   number: "$3,665,426"
 - sys:
     id: 4ysseyNaEuZ8EAlLx2a5Tm
     created_at: !ruby/object:DateTime 2021-05-04 17:11:01.542000000 Z
+<<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-05-04 17:11:07.494000000 Z
     content_type_id: stat
     revision: 0
   label: 'Total expenditures '
+=======
+    updated_at: !ruby/object:DateTime 2021-08-12 21:25:50.341000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Total expenditures
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
   number: "$3,590,371"
 - sys:
     id: 57jJbsPOGqoXv8Jvl2pNxl
@@ -1142,51 +1176,130 @@ stat:
 - sys:
     id: LRnpLYyEhfExRjKliUdae
     created_at: !ruby/object:DateTime 2021-06-15 22:39:51.442000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-15 22:40:20.001000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:30:54.260000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Papers Published
   number: '8'
 - sys:
     id: 62ICdWCsBzvBh6WmQODFkp
     created_at: !ruby/object:DateTime 2021-06-15 22:40:20.513000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-15 22:40:33.918000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:30:51.884000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Papers under Review
   number: '5'
 - sys:
     id: 7iKw1S3uamp11nWnQYcQoa
     created_at: !ruby/object:DateTime 2021-06-25 01:09:37.134000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-25 01:09:57.848000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:53.128000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Open-source MOOCs created
   number: '3'
 - sys:
     id: 1siZNMDTKHZyPb66KCDXAI
     created_at: !ruby/object:DateTime 2021-06-25 01:10:03.005000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-25 01:10:29.848000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:33:01.539000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: People trained by Check Global partners
   number: '3,545'
 - sys:
     id: 4qvVOmrOkNqzkY8DYKvmdY
     created_at: !ruby/object:DateTime 2021-06-25 01:10:33.721000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-25 01:12:21.389000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:56.306000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Number of organisations supported through NAWA Investigative Fund
   number: '10'
   note: Total funding of $49,650
 - sys:
     id: 6MXxDlMB3ZRRo0hVjkTVaH
     created_at: !ruby/object:DateTime 2021-06-25 01:12:31.820000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-25 01:13:00.856000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:58.871000000 Z
     content_type_id: stat
-    revision: 0
+    revision: 1
   label: Number of grassroot projects awarded
   number: '24'
   note: Through the Check Global Covid-19 Fund in NAWA, Latin America, East and Western
     Africa and the APAC region
+<<<<<<< HEAD
+=======
+- sys:
+    id: qjPE6hTKgdBgUGA89yRbT
+    created_at: !ruby/object:DateTime 2021-07-13 21:37:25.155000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:12.461000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Number of responses shared by partners
+  number: '25'
+- sys:
+    id: 7GUK2pGXqbkRTdj2zBf5wN
+    created_at: !ruby/object:DateTime 2021-08-10 18:07:14.909000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-18 22:31:20.251000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Check Global
+  number: "$2,673,634"
+  nested: true
+- sys:
+    id: 18ZAfmLVJ66wgjC96jpWyD
+    created_at: !ruby/object:DateTime 2021-08-10 18:07:31.731000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-18 22:31:14.259000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Digital Health Lab
+  number: "$462,251"
+  nested: true
+- sys:
+    id: LTISdlpYoyM71nalVwU6f
+    created_at: !ruby/object:DateTime 2021-08-10 18:07:52.053000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-18 22:31:03.719000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Credibility Coalition
+  number: "$127,583"
+  nested: true
+- sys:
+    id: 4s7tA4WhHCJUUBM9cr6Thf
+    created_at: !ruby/object:DateTime 2021-08-10 18:08:15.725000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-18 22:31:08.292000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Other program
+  number: "$12,490"
+  nested: true
+- sys:
+    id: 4C0bGjRLx6OZzrzmjiBeiL
+    created_at: !ruby/object:DateTime 2021-08-10 18:09:03.660000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-18 22:31:27.410000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Program services
+  number: "$3,275,958"
+- sys:
+    id: 62ryVsA7P2YlqKd13Mbe45
+    created_at: !ruby/object:DateTime 2021-08-10 18:19:29.551000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:25:58.947000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Management and General
+  number: "$291,338"
+- sys:
+    id: 2nHmsNMt335yv36Wh8OS3K
+    created_at: !ruby/object:DateTime 2021-08-10 18:20:27.768000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:25:53.342000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Fundraising
+  number: "$23,075"
+- sys:
+    id: 6g0OOM6JlpxEWtp0YzmOFy
+    created_at: !ruby/object:DateTime 2021-08-10 19:05:13.291000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:25:02.056000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Other revenue
+  number: "$10,927"
+>>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
