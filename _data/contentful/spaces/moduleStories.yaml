@@ -3,11 +3,211 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2021-07-28 20:42:03.769000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-13 00:17:05.794000000 Z
     content_type_id: moduleStories
-    revision: 76
+    revision: 77
   title: Blog
   stories:
+  - sys:
+      id: rmTNmVMjpq5fIsxAXJpBo
+      created_at: !ruby/object:DateTime 2021-07-28 14:26:32.227000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-06 15:26:51.525000000 Z
+      content_type_id: story
+      revision: 7
+    title: 'Multi-language tiplines and media literacy: PesaCheck in Africa'
+    slug: multi-language-tiplines-and-media-literacy-pesachecks-fact-check-strategy-in
+    topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: 1VnfL49o8jN904iQnXZ6nH
+        created_at: !ruby/object:DateTime 2021-07-28 15:08:44.603000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-28 15:09:22.246000000 Z
+      title: Pesacheck
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/1VnfL49o8jN904iQnXZ6nH/094c794561b908de67754f8af0799443/meedan_blog_pesa-check-4.jpg"
+    description: "[PesaCheck](https://pesacheck.org/), an initiative of Code for Africa,
+      spans across 12 countries and is one of Africa’s largest indigenous fact-checking
+      organisation. From running tiplines in multiple languages, conducting fact-check
+      trainings for university students and supporting newsrooms and NGOs to set up
+      their own fact-check teams, PesaCheck has adopted a multi-pronged approach to
+      addressing misinformation in the regions that they work in. Since December 2020
+      PesaCheck has been part of Meedan’s global end-to-end fact-checking project
+      using the WhatsApp Business API and powered by Check, an open-source platform
+      built by Meedan. For PesaCheck, Check is essential in supporting fact-checking
+      through the tipline, as well as the management of their editorial workflow.
+      \n\nIn this blogpost, we speak to [Enock Nyariki](https://twitter.com/enocknyariki),
+      Managing Editor of PesaCheck about the organization's strategies and experience
+      of combating misinformation in Africa."
+    body: "[PesaCheck](https://pesacheck.org/), an initiative of Code for Africa,
+      spans across 12 countries and is one of Africa’s largest indigenous fact-checking
+      organisation. From running tiplines in multiple languages, conducting fact-check
+      trainings for university students and supporting newsrooms and NGOs to set up
+      their own fact-check teams, PesaCheck has adopted a multi-pronged approach to
+      addressing misinformation in the regions that they work in. Since December 2020
+      PesaCheck has been part of Meedan’s global end-to-end fact-checking project
+      using the WhatsApp Business API and powered by Check, an open-source platform
+      built by Meedan. For PesaCheck, Check is essential in supporting fact-checking
+      through the tipline, as well as the management of their editorial workflow.
+      \n\nIn this blogpost, we speak to [Enock Nyariki](https://twitter.com/enocknyariki),
+      Managing Editor of PesaCheck about the organization's strategies and experience
+      of combating misinformation in Africa.\n\n__1. You work in over 10 countries
+      of East and West Africa. What are the main sources of misinformation in the
+      region and what are your strategies to address them?__\n\nWe find misinformation
+      across social media platforms. Facebook is the most popular social platform
+      in most of the countries that we operate in and we tend to find posts containing
+      misinformation on it. We debunk the claims contained on these posts and publish
+      articles on our site pesacheck.org. \n\nWhatsApp users also share posts they
+      have seen going round on social media on our WhatsApp tipline number (+254707813834)
+      for us to verify. \n\n__2. You run WhatsApp tiplines in multiple languages.
+      How challenging has this been to set up?__\n\nThe tipline is currently set up
+      for English, French, Kiswahili and most recently Amharic. We have menus in various
+      languages, and the prompt sent to the user allows them to choose the language
+      of response. \n\nWe already have a team working in different languages which
+      allows us to respond to all the submissions that come to the tipline. We have
+      been educating users on how the tipline operates to ensure they are sharing
+      claims correctly and also the scope of claims we can look into. \n\nThe tipline
+      sometimes receives submissions that are incomplete or outside our verification
+      scope. We share our methodology with the users, allowing them to know what can
+      and what cannot be fact-checked.\n\n__3. How have you been able to address COVID-19
+      related misinformation in the region over the past year? Has misinformation
+      thwarted efforts to keep people safe?__\n\nWe have debunked hundreds of claims
+      touching on COVID-19 and vaccines in the past year. Our approach has been to
+      prioritize such misinformation, because of the danger it poses to members of
+      the public. We are part of the founding members of the [Africa Infodemic Response
+      Alliance](https://www.afro.who.int/aira) (AIRA), which has helped connect our
+      fact-checkers with the WHO and CDC, helping us to debunk claims faster.\n\n__4.
+      You have been using Check to support your WhatsApp tipline and to manage your
+      editorial workflow? Could you elaborate more on both the use cases? How have
+      you been able to integrate Check into your work?__\n\nWe use Check to manage
+      submissions that we receive through our tiplines, and the main function of this
+      is to automate responses to user submissions. The system allows us to match
+      claims submitted to fact-checks fast through automatic and manual matching of
+      similar items based on content that we have already checked. When a submission
+      is similar to a claim that we have already debunked, the system sends out an
+      automated response, removing the need for manual generation of user reports
+      every time we receive the same claim. \n\nSince we operate in multiple languages,
+      we are currently adapting our workflow on Check to manage the editorial processes.
+      For content that needs translation, we have created folders where translators
+      and  to editing and earmarking for publication. Through Check we can track the
+      process and see who completed what stage of the copy flow process. The folders
+      allow us to keep the languages separate which is essential as we have six languages
+      in which we operate.\n\n__5. What are your plans to promote the tipline in the
+      country and to widen your audience in the region?__\n\nWe plan to create awareness
+      around the tipline in the 12 countries that we cover, and in multiple languages.
+      At the moment, most claims are in English, and they come from Kenya and Uganda.
+      We intend to promote the tipline in French, Kiswahili, Amharic, Afaan Oromo
+      and Tigrinya.\n\n__6. You conduct media literacy and fact-checking training
+      in universities of the region and support media and NGOs to establish their
+      own standalone fact-check teams. How successful is this in combating misinformation
+      in the region?__ \n\nIt's super-important, because combating misinformation
+      requires collaboration. No one fact-checking organization can succeed in fighting
+      the information disorder alone. We have helped set up [CheckDesks](http://skyfm.co.ke/podcast/8591/)
+      in tens of newsrooms, which have [produced](https://businesstoday.co.ke/bill-gates-neither-funded-nor-planned-covid-19-pandemic/)
+      hundreds of[ fact-checks](https://pigafirimbi.africauncensored.online/alleged-covid-19-deaths-vaccine-norway/).
+      We also train journalism students at universities such as Daystar University
+      and Aga Khan University in Nairobi, and we do this in order to nurture future
+      journalists to incorporate fact-checking in their day-to-day reporting. We are
+      also working with media lecturers to include fact-checking courses in their
+      curricula."
+  - sys:
+      id: tFlqVRWqWaq34gxXYAm4u
+      created_at: !ruby/object:DateTime 2021-07-29 04:15:54.784000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-29 09:11:51.335000000 Z
+      content_type_id: story
+      revision: 3
+    title: 'Ekta consortium editors'' take on vaccine hesitancy in India '
+    slug: ekta-consortium-editors-take-on-vaccine-hesitancy-in-india
+    topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: 12x6cDcZ5M90tVnoNLYlEo
+        created_at: !ruby/object:DateTime 2021-07-29 04:21:00.581000000 Z
+        updated_at: !ruby/object:DateTime 2021-07-29 04:21:26.233000000 Z
+      title: Vaccine hesitancy
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/12x6cDcZ5M90tVnoNLYlEo/242fcb6e07e430a5d77ed7f12e5d2d4b/meedan_blog_vaccine-hesitancy.jpg"
+    description: 'This blogpost captures the views of editors of [Ekta consortium
+      ](https://ekta-facts.com/)about the reasons for vaccine hesitancy in India and
+      their response to the challenge. The Ekta consortium has been formed by six
+      independent fact-checking groups in India: [AFP Fact Check](https://factcheck.afp.com/),
+      [BOOM Live](https://www.boomlive.in/), [Factly](https://factly.in/), [India
+      Today Fact Check](https://www.indiatoday.in/fact-check), [Vishvas News](https://www.vishvasnews.com/)
+      and [WebQoof](https://www.thequint.com/news/webqoof). All the groups are part
+      of Facebook''s third-party fact-checking program, and Meedan has provided access
+      to its fact-checking platform Check and strategic support for this project.
+
+      '
+    body: |-
+      In India, vaccine hesitancy poses a risk to ending the COVID-19 pandemic. According to latest figures shared by the [Ministry of Health and Family Welfare](https://www.mohfw.gov.in/), 342 million people have received the first dose of the vaccine and 93 million have been fully vaccinated until July 26, 2021. That's about 25% and 6% of the population in India, respectively.  Wide variations in the vaccination strategy across states are keeping India from achieving a desirable vaccination rate.  [Supply shortages i](https://www.reuters.com/world/india/indias-daily-covid-19-infections-rise-by-38949-2021-07-16/)n many states have left millions of people vulnerable to the virus. In addition to vaccines running out, fears and rumours about the vaccine have resulted in delay in acceptance or refusal of vaccination. Misinformation on social media and messaging platforms about the vaccine causing infertility, serious side effects or even death has been circulating widely even before the vaccination programme rolled out in the country. Other reasons for refusal of vaccines include  disbeliefs among people that coronavirus is spreading  in their area and that they can be infected by the virus.
+
+       [The Covid Symptom Survey (CSS)](https://indianexpress.com/article/opinion/india-has-a-vaccine-hesitancy-challenge-7388907/) reveals that the proportion of the population hesitant to Covid vaccines is highest in Tamil Nadu (40 per cent), Punjab (33 per cent), Haryana (30 per cent), Gujarat (29 per cent), and Andhra Pradesh (29 per cent). The digital divide that exists in the country has also exacerbated the problem. The vaccine registration process involves the use of smartphones and the internet, and a lot of people across the country do not have access.
+
+      This blogpost captures the views of editors of [Ekta consortium ](https://ekta-facts.com/)about the reasons for vaccine hesitancy in India and their response to the challenge. The Ekta consortium has been formed by six independent fact-checking groups in India: [AFP Fact Check](https://factcheck.afp.com/), [BOOM Live](https://www.boomlive.in/), [Factly](https://factly.in/), [India Today Fact Check](https://www.indiatoday.in/fact-check), [Vishvas News](https://www.vishvasnews.com/) and [WebQoof](https://www.thequint.com/news/webqoof). All the groups are part of Facebook's third-party fact-checking program, and Meedan has provided access to its fact-checking platform Check and strategic support for this project.
+
+      __1.  Where are you seeing vaccine hesitancy and misinformation related to the COVID-19 vaccine?__
+
+      __Social media platforms and messaging apps contribute to the spread of misinformation but so do influencers and self-proclaimed doctors.__
+
+      __Rakesh Dubbudu, Editor, Factly:__ Social media content including unscientific/magical cures, conspiracy theories, rumours, fake news by so-called experts/cons have been circulating on closed groups like WhatsApp & shared on platforms like Facebook & YouTube. Misinformation in rural areas is spread through word-of-mouth or people's past experiences of vaccination. Some people also have a sense of invincibility and they believe that Covid won't affect them.
+
+      __Shachi Sutaria, Fact-checker, Journalist- Health, BOOM:__ This can be seen on social media channels such as WhatsApp, Telegram and Facebook. A section of medical practitioners and quacks are perpetuating their videos through Telegram.
+
+      __Kritika Goel, Associate Editor, WebQoof:__ Other than WhatsApp, Facebook, Twitter and Telegram, we have seen politicians, self-proclaimed doctors and quacks promoting conspiracy theories related to COVID-19 and vaccines. Some of the groups on these social media platforms use different words or short forms to escape the algorithm. We have seen politicians openly promoting "cures" which are not backed by science or evidence.
+
+      __2.  What kind of misinformation has been circulating around on the COVID-19 vaccine? Can you share some examples?__
+
+      __Serious side effects, death, misinformation related to the vaccine containing items that are prohibited in certain religions and other conspiracy theories have been doing the rounds online and off.__
+
+      __Shachi Sutaria:__  [Death due to vaccination](https://www.boomlive.in/coronavirus-outbreak/fact-check-luc-montagnier-nobel-covid-vaccine-die-in-two-years-13278) and post COVID-19 vaccination side effects are the biggest drivers of vaccine hesitancy. Reports of the body becoming magnetic post vaccination, or people developing different diseases, the vaccine containing cow serum, aborted fetal cells, aluminium are driving vaccine hesitancy. Misinformation such as the vaccines containing microchips and collecting personal data, vaccines altering human DNA, are also doing the rounds.
+
+      __Rakesh Dubbudu:__ The spectrum of misinformation ranges from questioning the vaccine ingredients such as [cow serum](https://factly.in/bharath-biotechs-covaxin-does-not-contain-newborn-calf-serum/), pig fat, aluminum, etc., vaccines affecting menstrual cycle/causing infertility, homemade concoctions to either cure or prevent Covid-19 instead of vaccinations, government implanting microchips through the vaccine, magnetic effects at the site of injection to death within 2 years after the vaccine.
+
+      __Kritika Goel:__ From vaccines containing chips to control people to vaccines causing death, all these unfounded theories have contributed to vaccine hesitancy in the country. A lot of people have been made to believe that the vaccines will make them "[magnetic](https://fit.thequint.com/fit-webqoof/covid-19-vaccine-magnetic)", will make them infertile, that the vaccine contains cow serum and pig fat. Some posts also claim that the vaccine is the reason behind the new variants and the subsequent waves.
+
+      __Uzair Rizvi, Fact checker, AFP Fact Check:__ Misinformation surrounding death, impotence, [menstrual issues in women,](https://factcheck.afp.com/false-posts-claim-womans-menstrual-cycle-affects-efficacy-covid-19-vaccination) and other health issues related to vaccines are floating widely on social media. There's also content like vaccines making the body magnetic, or containing microchips to track people's movements.
+
+      __Chayan Kundu, Senior Journalist, India Today Fact Check:__ The main misinformation is death due to vaccination, then comes misinformation about vaccines having microchips, magnets, [vaccines being a strategy for population control ](https://www.indiatoday.in/coronavirus-outbreak/story/no-scientific-evidence-of-covid-vaccination-causing-infertility-in-men-women-says-health-ministry-1817696-2021-06-21)and conspiracy theories like connection between the vaccine lobby and the Wuhan lab and misinformation related to pregnancy.
+
+      __3.  In your understanding, what are the main reasons for vaccine hesitancy among people?__
+
+      __Kritika Goel:__  The Quint conducted a survey in the rural areas of the states of Uttar Pradesh, Madhya Pradesh and Bihar and we found that misinformation was one of the reasons behind vaccine hesitancy. A lot of people are made to believe through WhatsApp forwards that vaccines will actually kill them and that is what is making them hesitant. As per our understanding, it is also because of lack of awareness, communication and information which is given to them. In a few cases, we have found that people in villages don't even know about the existence of Covid vaccines.
+
+      __Rakesh Dubbudu:__ Unverified sources actively spreading Covid-19 misinformation and a huge lack of procedural awareness in terms of registration & administration have been reasons for hesitancy. Given the timelines of vaccine research and how rushed the process was, there is low trust in the safety & efficacy of the vaccine. Finally some people also have choice anxiety in terms of waiting for a specific vaccine & concerns around safety of vaccination centers. 
+
+      __Chayan Kundu:__ The Covid vaccines have been made within a very short span of time, much less than the usual time it takes to create a vaccine with proper trials, there is hesitancy from the very beginning about its efficacy and its side effects in the long run.
+
+      __Shachi Sutaria:__ Health and science are topics which are continuously evolving and the latest updates have to be effectively communicated to the community at large. In reality, there is lack of access to updated health information, spread of misinformation through quacks, anecdotes of pain post vaccination and reports of  people still getting infected as well deaths post vaccination; all these are exacerbating the existing vaccine hesitancy. 
+
+      __Uzair Rizvi:__ Some of the misinformation is being floated by doctors themselves on their YouTube channels or on social media where they talk about unproven side-effects; this discourages people from taking vaccines. 
+
+      __4.  Given that there is a digital divide in our country, what steps can be taken to ensure the most marginalised can access information related to vaccines. What out of these is your group focusing on/ plans to focus on?__
+
+      __Chayan Kundu:__ Door to door campaign by the health workers. Political leaders, councilors, local panchayats should be part of this campaign. Rolling out information on social media particularly on WhatsApp, facebook to counter misinformation.
+
+      __Kritika Goel:__ We have been working with three local news organisations in UP, MP, Bihar and Assam to be able to reach out to the rural audience and ensure that they have access to fact-checked and verified information. We try to gather misinformation which is doing the rounds in their circles so that we can debunk it and bring forth the facts. We are also creating awareness videos to tell our audience about the importance of vaccines and debunk the myths around Covid-19. All this content is being produced in local languages to make it more accessible to the reader. We are writing text pieces, producing animated and stand up videos, creating cards (templates that can be shared over WhatsApp). We also aim to produce some jingles and do skits so that we are able to connect with the audience better. Some of this content that we are producing is also being published on local websites and being aired by local channels.
+
+      __Shachi Sutaria:__ Along with writing regular stories debunking misinformation as well as explaining different health and scientific terminologies and reports, BOOM has also been conducting workshops with senior citizens in multiple languages to help them discern their way through the information overload during Covid-19 times.
+
+      The team collaborated with several foundations and NGOs and provided them with resources to verify and tackle the spread of misinformation. We even trained office bearers of these foundations in ways of sharing correct information to reduce vaccine hesitancy.
+
+      While we have regularly been interacting with doctors and shooting videos with them wherein we are breaking down facts and debunking myths, we also initiated a social media campaign called "Sansani nahi sach". Television actor Aasif Sheikh was the face of this campaign.
+
+      __Rakesh Dubbudu:__ Local governments must curate and adopt local solutions (communication campaigns) through partnering with community mobilizers, religious leaders, doctors, ASHA workers, among others. Celebrity endorsements on TV also improve vaccine confidence.
+
+      There have been multiple success stories where media such as art forms (theatre or skits) and other incentives have improved the vaccine uptake.
+
+      __Uzair Rizvi:__ Celebrity endorsements will help in disseminating information. Door to door campaigning by health workers can also spread information about the efficacy and benefits of Covid vaccines.
+    words_by:
+    - sys:
+        id: 63aDI74CtzeFHW0hZ3xPH6
   - sys:
       id: 5pmY6VvLYpy2qecQPpXgrX
       created_at: !ruby/object:DateTime 2021-07-27 13:28:58.921000000 Z
@@ -167,156 +367,6 @@ moduleStories:
     words_by:
     - sys:
         id: 3xEo7vg2mb9Nd8sOw164ii
-  - sys:
-      id: 5e3fClpb9fAiRMTq1walWj
-      created_at: !ruby/object:DateTime 2021-06-25 15:16:37.059000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-29 05:09:59.684000000 Z
-      content_type_id: story
-      revision: 3
-    title: 'A network of community fact-checkers: the Mafindo strategy'
-    slug: a-network-of-community-fact-checkers-the-mafindo-strategy
-    topic:
-    - sys:
-        id: 7jQKmsQvOs6pjAjLth5gsA
-    lead_image:
-      sys:
-        id: 5LrhlF92Y82cSoUZNjxjJb
-        created_at: !ruby/object:DateTime 2021-06-29 04:50:59.525000000 Z
-        updated_at: !ruby/object:DateTime 2021-06-29 04:51:39.209000000 Z
-      title: Mafindo
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/5LrhlF92Y82cSoUZNjxjJb/178652b607dbd625466cedbb803efdbc/Mafindo.jpg"
-    description: From a grassroots Facebook community to one of Indonesia's largest
-      fact-checking outlets, [Mafindo](https://www.mafindo.or.id/) (Masyarakat Anti
-      Fitnah Indonesia / Indonesian Anti Hoax Community) is a growing network of community
-      fact-checkers including teachers, government employees, farmers, entrepreneurs
-      and a wide range of people. In June 2021, Mafindo joined Meedan's global fact-checking
-      project using the WhatsApp Business API that is powered by Check, an open-source
-      platform built by Meedan. In this blogpost, we speak to [Harry Sufehmi](https://twitter.com/hsuf),
-      founder of Mafindo, about misinformation in Indonesia and Mafindo's role in
-      addressing it.
-    body: |-
-      From a grassroots Facebook community to one of Indonesia's largest fact-checking outlets, [Mafindo](https://www.mafindo.or.id/) (Masyarakat Anti Fitnah Indonesia / Indonesian Anti Hoax Community) is a growing network of community fact-checkers including teachers, government employees, farmers, entrepreneurs and a wide range of people. In June 2021, Mafindo joined Meedan's global fact-checking project using the WhatsApp Business API that is powered by Check, an open-source platform built by Meedan. In this blogpost, we speak to [Harry Sufehmi](https://twitter.com/hsuf), founder of Mafindo, about misinformation in Indonesia and Mafindo's role in addressing it.
-
-      **1. Harry, could you give us a background of how Mafindo was formed and the work you have been doing in addressing misinformation in Indonesia?**
-
-      We began as a grassroots community on Facebook, <https://facebook.com/groups/fafhh>. I created the group in September 2015 just as a way to educate my children (they are the first members of the group) about online hoaxes and ways to fact-check them. Before I knew it, people were joining in droves. Now we have about 85,000  members and it keeps increasing everyday.\
-
-      By 2016 we registered Mafindo as an institution. And it just took off from there. Thanks to our huge community base, we were able to cover a lot of ground in addressing misinformation through public education, government advocacy, academic research, public speaking in various conferences, and of course, fact-checking; both with our professional fact-checker team and with the community. The community comprises around 500 members belonging to 17 Mafindo chapters in various cities, and 85,000 members in our online forum who engage in crowdsourced hoax busting. Crowdsourced hoax busting means we enable people to do the fact-checking, therefore increasing our fact-checking capacity significantly, not just relying on our professional fact-checkers. These fact-checking efforts are guided by the Mafindo's rules to ensure quality. 
-
-      **2. How is the fact-checking and misinformation space in Indonesia? What is the main source of misinformation in the country?**
-
-      The misinformation space is pretty serious, especially with the current low level of literacy in Indonesia, people are easily tricked by online hoaxes.\
-      These hoaxes spread via various social media platforms such as Facebook, Twitter, Instagram and TikTok. The hoax actors actually began spreading hoaxes on their own websites. But they quickly realized that it's faster to do it on social media platforms. So they began on Facebook, later on WhatsApp, and then also on Twitter. Most of the hoaxes are detected on Twitter, but this is also because it's the most open platform. We suspect that a lot are also on Facebook, especially on the private forums, and on Whatsapp.
-
-      But we think these actors' main aim is actually WhatsApp, because from then it's usually only one step away from mouth-to-mouth / grassroots level spread of misinformation. So we consider it very important to have a presence and useful hoax-busting facility on this platform (WhatsApp).
-
-      Hoax actors are usually motivated financially. An investigative TV show once managed to get confession from one of the actors, he claimed a profit of about USD 150.000 each month (from web ads) from each website that he manages, and he owns several websites. Now on social media, they are usually paid by their sponsors. Some operations are so big that they can occupy a whole office building.
-
-      **3. How has it been to address COVID-19 related misinformation in the country over the past year?**
-
-      It has been a lot of hard work. Now a lot of hoax actors are switching to Covid-related hoaxes. Some of the hoaxes are even "recycled" - old hoaxes resent and redistributed, and causing uproar again. Hence, we are working towards a centralized fact-check database.
-
-      But we're very surprised to [find people are revolting against hoaxes](https://memorandum.co.id/wakapolda-jatim-terbantu-netizen-melawan-hoax/). It's so cool!
-
-      At the beginning of the pandemic and when hoaxes started emerging, we felt so alone combating these hoaxes. Now in a lot of cases, the hoax actors are swarmed by people and debunked en masse. What a sight! We felt we have reached quite a successful milestone in our effort to educate the public. And the sight of this indeed reinvigorates our team & volunteers' morale.
-
-      **4. You recently partnered with Meedan in setting up a WhatsApp tipline powered by Check. In what ways do you think Check will support your fact-checking work?**
-
-      It will enable us to support communities on the WhatsApp platform to combat hoaxes in their circles.There are a lot of people, we call them the "silent majority", who are not happy with the current situation (a lot hoaxes circulating in their WhatsApp groups) - but they don't know what to do about it. By providing the tipline, we hope to empower them to tackle this problem and support them in the process.
-
-      **5. What are your plans to promote the tipline in the country and to widen your audience?**
-
-      We have a lot of activities all over Indonesia including training and workshops on fact-checking and media literacy. We'll promote the tipline in these events, and also later launch a press release. We also have a lot of friends in the journalist community, we'll reach out to them to help promote this. And of course we'll inform our own community and also our friends in other communities, so they'll in turn be able to help spread the information as well.
-  - sys:
-      id: JpJEFzIiJVUCodFNEKrs6
-      created_at: !ruby/object:DateTime 2021-06-25 13:48:25.739000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-01 04:07:26.234000000 Z
-      content_type_id: story
-      revision: 10
-    title: The case for collaborations of fact-checkers and grassroots newsrooms
-    slug: the-case-for-collaborations-of-fact-checkers-and-grassroots-newsrooms
-    topic:
-    - sys:
-        id: 7jQKmsQvOs6pjAjLth5gsA
-    lead_image:
-      sys:
-        id: 5TsmskWB68eddKCke3wt22
-        created_at: !ruby/object:DateTime 2021-06-29 04:46:20.206000000 Z
-        updated_at: !ruby/object:DateTime 2021-06-29 04:48:13.729000000 Z
-      title: Collaboration of fact-checkers and local newsrooms
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/5TsmskWB68eddKCke3wt22/5ba57a89d1aa87e49d419031fc4b1e71/Collaboration.jpg"
-    description: |
-      Through tiplines, crowdsourcing and monitoring social media, fact-checkers get hold of a wide range of misinformation circulating online and on private messaging platforms. Despite building corresponding fact-check reports for false and misleading claims, the biggest challenge is the reach of these fact-checks to counter the harm done by false claims. [Studies](https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308) show that false news travels faster and more broadly than facts.
-
-      In a recent effort to address this gap in reach of facts, [the Quint](https://www.thequint.com/) an English and Hindi language Indian general news and opinion website,  came up with a brilliant initiative. Their fact-check team [WebQoof](https://www.thequint.com/news/webqoof) resorted to offline collaborations with grassroots level newsrooms and media organizations in gathering misinformation circulating in rural areas and among underserved communities in India. We spoke to [Kritika Goel](https://meedan.com/blog/meet-kritika-goel-associate-editor-the-quint/), Associate Editor with the Quint for insights on how the collaboration works and the responses in the community. This blogpost shares highlights from the conversation with Kritika.
-    body: "Through tiplines, crowdsourcing and monitoring social media, fact-checkers
-      get hold of a wide range of misinformation circulating online and on private
-      messaging platforms. Despite building corresponding fact-check reports for false
-      and misleading claims, the biggest challenge is the reach of these fact-checks
-      to counter the harm done by false claims. [Studies](https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308)
-      show that false news travels faster and more broadly than facts.\n\nIn a recent
-      effort to address this gap in reach of facts, [the Quint](https://www.thequint.com/)
-      an English and Hindi language Indian general news and opinion website,  came
-      up with a brilliant initiative. Their fact-check team [WebQoof](https://www.thequint.com/news/webqoof)
-      resorted to offline collaborations with grassroots level newsrooms and media
-      organizations in gathering misinformation circulating in rural areas and among
-      underserved communities in India. We spoke to [Kritika Goel](https://meedan.com/blog/meet-kritika-goel-associate-editor-the-quint/),
-      Associate Editor with the Quint for insights on how the collaboration works
-      and the responses in the community. This blogpost shares highlights from the
-      conversation with Kritika.\n\n**1. Partnering with local newsrooms to reach
-      fact-checks to underserved communities**\n\nThe initiative involved urban based
-      fact-checkers to partner with local and grassroots level newsrooms such as the
-      women-led [Khabar Lahariya](https://khabarlahariya.org/), [Video Volunteers](https://www.videovolunteers.org/)
-      and [Center for North East Studies and Policy Research ](https://www.c-nes.org/),
-      who work in rural areas in the states of Uttar Pradesh, Madhya Pradesh, Bihar
-      and Assam.\n\n**2. A two-fold agenda of misinformation gathering and dissemination
-      of facts in the community**\n\nThe idea of the collaboration is to circulate
-      fact-checks and disseminate fact-checked, verified information though local
-      partners to  ensure that people in rural areas have access to the right information
-      related to COVID-19 and vaccines. The team is also trying to reach out to rural
-      women through this initiative and address issues such as vaccine hesitancy.
-      \n\n**3. Formats that the community can easily access and connect to are  important**\n\nThe
-      initiative is experimenting with creative formats in disseminating debunks and
-      facts in the community. In order to make content relatable, the campaign has
-      a character named Janaki as the face of it. Janaki's character represents other
-      women from  small towns. Janaki runs a tea stall next to one of the country's
-      most prestigious medical institutes in India, the All India Institute Of Medical
-      Science in Delhi. This gives her access to credible information around the pandemic
-      from doctors, nurses and even journalists who visit her stall. Janaki speaks
-      to the rural audience and debunks misinformation that she receives on WhatsApp
-      through [videos](https://www.youtube.com/watch?v=jIyPxy8K058) and [visual cards](https://thequint-vaccine-fact-check.com/wp-content/uploads/2021/06/4.-Aspidosperma-Q20.png). \n\n**4.
-      Content in local languages is key to addressing misinformation in local communities**\n\nVideos
-      and [visual cards](https://thequint-vaccine-fact-check.com/wp-content/uploads/2021/06/3.-Fertility.png)
-      with facts and debunks are disseminated by the local groups back to the community
-      through WhatsApp, the same  platform on which they crowdsource misinformation.
-      Content, which includes debunks and [video explainers](https://www.youtube.com/watch?v=BjXcPsjJziE)
-      of COVID-19 related issues and concepts is translated into the local languages
-      such as Hindi, Bhojpuri and Assamese. The Quint team is also exploring the dissemination
-      of content via [podcasts](https://fit.thequint.com/hindi/health-news-update/covid-19-vaccination-during-periods-yes-you-can-get-vaccinated-during-period#read-more)
-      which are narrowcasted by local radio stations. Some of the videos are also
-      being played up by the local channels to amplify the reach of fact-checks. \n\n**5.
-      Digital misinformation in urban areas finally reaches rural areas as well**\n\nThe
-      team observed that misinformation that circulates in urban areas ultimately
-      reaches rural areas. However, there is region-specific misinformation as well.
-      For instance, in the state of Assam where the central government is implementing
-      the [National Register of Citizens](https://scroll.in/article/930482/explainer-what-exactly-is-the-national-register-of-citizens#:~:text=The%20register%20is%20meant%20to,Indian%20citizens%20living%20in%20Assam.&text=One%20of%20the%20stated%20aims,the%20Bangladesh%20War%20of%201971.),
-      people hesitated to be taken for COVID treatment as they feared of being put
-      in detention centers. \n\n**6. Media literacy and awareness campaigns complement
-      fact-checking **\n\nOverall, the project aimed at catching hold of rumours and
-      misinformation circulating in areas where the reach of fact-checkers is less
-      and circling back with facts and credible information by partnering with local
-      newsrooms who have access to the community. The goal was to create awareness
-      and to educate people to exercise caution while consuming information shared
-      on closed groups and social media.\n\nRefer to the following for examples of
-      visual cards and videos used by the team.\n\n![Webqoof visual card 2](//images.ctfassets.net/g118h5yoccvd/15NlG6eKeE8s4wJcYHxuSO/53dca62eca78560490a9865b19d22c54/4.-Aspidosperma-Q20.png)\n\n<p
-      class=\"u-responsive-ratio\">\n<iframe class=\"youtube\" src=\"https://www.youtube.com/embed/BjXcPsjJziE?rel=0\"
-      title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay;
-      clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n"
-    words_by:
-    - sys:
-        id: 5i0ZluvBzz6h4ashdZJIkH
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
@@ -1386,45 +1436,123 @@ moduleStories:
 - sys:
     id: 1qf28GnmtMod6WpWlpr68x
     created_at: !ruby/object:DateTime 2020-09-03 04:21:02.750000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-29 20:00:48.180000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-18 18:30:48.386000000 Z
     content_type_id: moduleStories
-    revision: 6
+    revision: 7
   title: Featured Story
   stories:
   - sys:
-      id: 26UTRE8IT5sUBil9h7y32U
-      created_at: !ruby/object:DateTime 2021-01-14 01:12:45.176000000 Z
-      updated_at: !ruby/object:DateTime 2021-01-14 19:29:15.176000000 Z
+      id: 1Uxm3ZoC7FMzE0HivRS7zf
+      created_at: !ruby/object:DateTime 2021-05-25 16:42:56.472000000 Z
+      updated_at: !ruby/object:DateTime 2021-06-10 12:33:16.668000000 Z
       content_type_id: story
       revision: 1
-    title: Inoculating against misinformation
-    slug: inoculating-against-misinformation
+    title: We have a right to information. But in a pandemic, many of us can't read
+      the information.
+    slug: we-have-a-right-to-information-but-in-a-pandemic-many-of-us-cant-read-the
     topic:
     - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
+        id: 13HcGYCQHm8vDRW3EAkw6j
     lead_image:
       sys:
-        id: 2TZr0rckkBE1F6qRNzwLZP
-        created_at: !ruby/object:DateTime 2021-01-14 01:14:27.964000000 Z
-        updated_at: !ruby/object:DateTime 2021-01-14 19:28:54.797000000 Z
-      title: Melisa Basol
+        id: 3UAQWNilLEpmrbOXR47hC3
+        created_at: !ruby/object:DateTime 2021-05-25 22:38:50.301000000 Z
+        updated_at: !ruby/object:DateTime 2021-06-10 12:33:13.158000000 Z
+      title: We have a right to information. But in a pandemic, many of us can't read
+        the information.
       description:
-      url: "//images.ctfassets.net/g118h5yoccvd/2TZr0rckkBE1F6qRNzwLZP/56e4c41ade3eead86fd9ef3105761eff/meedan_misinfodemia_ep2_melisa-basol_b.png"
-    description: |-
-      Melisa is a Gates scholar and received an MPhil in Social and Developmental Psychology (Distinction) from Cambridge. We caught up with Melisa a few weeks ago to talk about a theory that suggests we might be able to inoculate people against misinformation the same way we inoculate them against disease.
-
-      Originally from Germany, Melisa has a Bachelor of Science (Hons) in Psychology from Aberystwyth University. With a focus on complex societal and political decisions, she's interested in the formation, polarisation, and ‘immunisation’ of attitudes where the spread of misinformation poses a threat to science & society.
-    body: "Melisa is a Gates scholar and received an MPhil in Social and Developmental
-      Psychology (Distinction) from Cambridge. We caught up with Melisa a few weeks
-      ago to talk about a theory that suggests we might be able to inoculate people
-      against misinformation the same way we inoculate them against disease.\n\nOriginally
-      from Germany, Melisa has a Bachelor of Science (Hons) in Psychology from Aberystwyth
-      University. With a focus on complex societal and political decisions, she's
-      interested in the formation, polarisation, and ‘immunisation’ of attitudes where
-      the spread of misinformation poses a threat to science & society. \n\n<p class=\"u-responsive-ratio\">\n<iframe
-      height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless
-      src=\"https://player.simplecast.com/46757cac-9c08-438f-9c5f-6ed889f5578b?dark=true\"></iframe></p>"
-    alt_date: !ruby/object:DateTime 2021-01-14 00:00:00.000000000 Z
+      url: "//images.ctfassets.net/g118h5yoccvd/3UAQWNilLEpmrbOXR47hC3/8c4c8e55e98983fc229e161d29a7e252/meedan_blog_right-to-information.jpg"
+    body: "The pandemic has left us all trying to untangle new and complicated COVID-19
+      information. It’s been an overwhelming and continuous part of the pandemic,
+      and it’s not one that’s just in our heads. New research suggests that few websites
+      are publishing COVID-19 content at a reading level that works for the general
+      population. \n\nEveryone has the [right to information](https://hhi.harvard.edu/files/humanitarianinitiative/files/signalcode_final.pdf?m=1607469621)
+      during a crisis. Unavailable, unclear, or inaccessible communications can increase
+      anxiety, especially during times of uncertainty and ambiguity. Complex messages
+      are also prone to misunderstandings. Misinterpretation or misapplication of
+      complex topics like COVID-19 can result in the spread of misinformation and
+      midinformation.\n\nOver the past year, researchers have studied the “readability”
+      of COVID-19 information published online. What’s readability, you ask? Reading
+      level tools that give “readability scores” estimate the number of years of education
+      needed to understand a piece of content. In the U.S., many newspapers publish
+      content to accommodate people who read between an eighth- and tenth-grade level.
+      However, the average American reading level is around grade five or six. For
+      [low-literacy](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple)
+      readers, experts recommend creating materials at a reading level between third
+      and fifth grade. \n\nThe recent studies found that most COVID-19 information
+      websites aren’t meeting us where we’re at:\n\n- [Worrall and colleagues](https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-020-09710-5.pdf)
+      assessed the readability of COVID-19-related content for a total of 240 English
+      language webpage URLs from Ireland, the United Kingdom, Canada, and the United
+      States. Using four tools, the team found that only 17.2% (n=165) of all readability
+      scores analyzed were at a universally readable level. They also found that government
+      and public health organization websites scored better than academic or scientific
+      institutions, digital media, or others.\n\n- [Basch and colleagues](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/public-health-communication-in-time-of-crisis-readability-of-online-covid19-information/E1B32CF9E602F287902AD91F1D10DA7D)
+      conducted a similar study of COVID-19 online search results from 100 English
+      language websites. They also found that most websites were above a tenth-grade
+      reading level target. In their sample, only four websites had content at less
+      than a sixth-grade reading level.\n\n- [Mishra and Dexter](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2769382?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamanetworkopen.2020.18033)
+      compared COVID-19 information readability from official public health agencies
+      and governments of 15 countries. They found that all 18 websites scored above
+      a sixth to eighth-grade reading level. They also found that 95% (n=141) scored
+      above grade eight for all five readability metrics.\n\n- Additional COVID-19-related
+      readability studies by [Szmuda and colleagues](https://www.sciencedirect.com/science/article/abs/pii/S0033350620302031?via%3Dihub),
+      [Garcia and colleagues](http://link.springer.com/10.1007/s10900-021-00973-6),
+      and [Ferguson and colleagues](https://onlinelibrary.wiley.com/doi/10.1111/1753-6405.13066)
+      suggested that the reading ease of COVID-19-related health information online
+      is a major problem. \n\nIn a recent reflection on our Health-Desk work, we conducted
+      a series of semi-structured qualitative interviews (n=6) with partner journalists
+      and fact-checkers from six different countries. The partners we interviewed
+      endorsed the quality, readability, and applicability of our content in supporting
+      their fact-checking efforts. \n\nTo further our evaluation, we conducted a readability
+      audit. We chose 27 COVID-19-related Health Desk explainers written between June
+      and December 2020. All of the audited entries were ones submitted by our media
+      partners. The queries covered a variety of key topics, including nutrition,
+      vaccines, testing, masks, treatment, and statistics.\n\nLike many similar studies
+      from the past year, we used an [online readability tool](https://readable.com/)
+      to score our content. By our measurements, like so many COVID-19 communication
+      websites out there today, we also failed to meet the recommended targets for
+      readability at the sixth or tenth-grade targets. Our sample reading score was
+      around a grade 15 (95%CI: 14.61, 15.63), which is considered difficult to read
+      and appropriate for college students.\n\nThere’s some nuance to this. While
+      readability is important, using [reading ease alone](https://www.cms.gov/Outreach-and-Education/Outreach/WrittenMaterialsToolkit/ToolkitPart07)
+      to determine how well the public will understand health messaging is problematic.
+      [Health literacy](https://www.cdc.gov/healthliteracy/learn/index.html) efforts
+      focus on how well individuals can find, understand, and use information to make
+      health-related decisions. Readability scores should be considered together with
+      clear communications tools to promote accessibility, actionability, and health
+      literacy.\n\nThere are many tools available through the [U.S. Centers for Disease
+      Control and Prevention (CDC)](https://www.cdc.gov/healthliteracy/developmaterials/plainlanguage.html),
+      [U.S. National Institutes of Health](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-simple),
+      the [World Health Organization](https://www.who.int/about/communications), and
+      others to improve health communications. These leading health organizations
+      all suggest that plain language principles should be used in all general communications:
+      \n\n- Engage the reader by organizing content to answer their questions. Include
+      a main message (or messages) at the beginning of the piece.\n- Use short sentences.\n-
+      Keep the readability grade level as low as possible to ensure that more people
+      can understand the content.\n- Use an active voice so that readers understand
+      what to do with the information provided.\n- Use everyday, plain, or common
+      language.\n\nOur Health Desk editorial team and public health experts are continuing
+      to evaluate where and how to improve communications to support health literacy
+      and equity. We have used an adapted clear communications tool from the [CDC](https://www.cdc.gov/ccindex/index.html)
+      to assess our explainers further, and we will apply our learnings to improve
+      our Health Desk content. We will integrate more action statements, begin using
+      simpler text, and adjust formatting. In the coming weeks, we will also implement
+      new editorial standards. Our new standards employ principles from journalism,
+      crisis communications, education, and health literacy. These are actions that
+      we encourage all health communicators to adopt, because readability is an important
+      fixture of our health information ecosystems. \n\nThe COVID-19 pandemic has
+      highlighted the need for resource investment in preparedness planning. It has
+      also highlighted the need for improved communications. We must ensure that the
+      public has the information needed to make safe and informed health decisions
+      to protect their health and the health of their families, friends, and communities.
+      The findings from studies of government, academic, and public-health-focused
+      COVID-19-related websites should serve as a call to action. To prevent the spread
+      of misinformation, health communicators must take responsibility for creating
+      more understandable and accessible content.\n"
+    words_by:
+    - sys:
+        id: 4MK93CSrpmc3tFyE5MYEeh
+    alt_date: !ruby/object:DateTime 2021-05-25 00:00:00.000000000 Z
 - sys:
     id: 7vZmYZOfdCLUa1e3mQyNZw
     created_at: !ruby/object:DateTime 2021-02-18 07:48:18.360000000 Z

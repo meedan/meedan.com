@@ -2100,16 +2100,16 @@ module2ColumnContent:
 - sys:
     id: rTKMxXzSbRTZA7YPG2DIk
     created_at: !ruby/object:DateTime 2021-05-04 13:20:03.591000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 14:13:00.527000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:34:48.411000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   content:
   - sys:
       id: 5wP67EdCcnAW0RGzQuIN1A
       created_at: !ruby/object:DateTime 2021-05-04 13:20:22.265000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-21 20:39:01.666000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:34:45.165000000 Z
       content_type_id: moduleTex
-      revision: 1
+      revision: 2
     content: "You see, what Nat came to SF to discuss was the creation of a Digital
       Health Lab at Meedan working on the issue of health misinformation fueling an
       epidemic, an idea that she and An would express in an August 2018 Atlantic piece
@@ -2147,23 +2147,23 @@ module2ColumnContent:
       in. \n\nIt is my job, generally, to end these annual letters on a hopeful note.
       But, this year, I write this as our teams in India and Brazil are suffering
       the very darkest days of their pandemic. So, I will only say that we must do
-      better. Our people and our planet and our internets need to heal. \n\nYours,
-      \nEd\n\nWoodacre, CA \nApril 22, 2021 \n"
+      better. Our people and our planet and our internets need to heal. \n\nYours,<br
+      /> \nEd\n\nWoodacre, CA \nApril 22, 2021 \n"
   top_border: false
 - sys:
     id: 1KUZvKrCFC1mXNPRWCD34R
     created_at: !ruby/object:DateTime 2021-05-04 14:15:24.067000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 14:59:02.327000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:34:03.054000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Program Names
   content:
   - sys:
       id: 4sZIYiFQeeo6W6phGrKvpV
       created_at: !ruby/object:DateTime 2021-05-04 14:16:07.376000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-27 20:12:15.811000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:34:00.408000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: |-
       - [Check Global](https://meedan.com/check-global "Check Global")
       - [Digital Health Lab](https://meedan.com/digital-health-lab "Digital Health Lab")
@@ -2172,17 +2172,17 @@ module2ColumnContent:
 - sys:
     id: 2n5XS3s7XYyqdeHECgZq2O
     created_at: !ruby/object:DateTime 2021-05-04 14:19:57.485000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 14:20:23.018000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:33:55.593000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Mission Statement
   content:
   - sys:
       id: uTKv0P2hzlEyEtcLkDv7V
       created_at: !ruby/object:DateTime 2021-05-04 14:20:16.680000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 14:20:27.587000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:33:53.263000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: Meedan is a technology not-for-profit that builds tools and develops
       programs to strengthen global journalism, digital literacy, and accessibility
       of information.
@@ -2190,17 +2190,17 @@ module2ColumnContent:
 - sys:
     id: 1Cpx66T91L5JGCbO1X7wch
     created_at: !ruby/object:DateTime 2021-05-04 14:24:30.229000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 15:32:00.897000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:33:07.887000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Check Global
   content:
   - sys:
       id: 2OHYdaQ1pBHPQbKLayxm7m
       created_at: !ruby/object:DateTime 2021-05-04 14:24:57.170000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-01 17:51:12.995000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:33:04.910000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: Check Global Stats
     stats:
     - sys:
@@ -2221,17 +2221,17 @@ module2ColumnContent:
 - sys:
     id: 2zBPM7BjjoLGlgP2YgNOLn
     created_at: !ruby/object:DateTime 2021-05-04 15:06:22.548000000 Z
-    updated_at: !ruby/object:DateTime 2021-07-01 17:51:40.070000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:32:26.421000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Digital Health Lab
   content:
   - sys:
       id: 5CQBx2Egyt1jTnonnbRedp
       created_at: !ruby/object:DateTime 2021-05-04 15:07:45.218000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-13 21:37:31.417000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:32:23.678000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: DHL Stats
     stats:
     - sys:
@@ -2245,53 +2245,53 @@ module2ColumnContent:
   - sys:
       id: 3rzckNqOFGnfZGGWwTQvr8
       created_at: !ruby/object:DateTime 2021-05-16 23:15:25.667000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-15 22:42:28.212000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:32:07.254000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: "## [Can someone be infected with COVID-19 more than once?](https://health-desk.org/articles/can-someone-be-infected-with-covid-19-more-than-once)\n"
   - sys:
       id: 3oeP9IRNmU66LTR569uiLu
       created_at: !ruby/object:DateTime 2021-05-04 15:12:29.153000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-15 22:44:56.605000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:32:03.827000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: "## [How does COVID-19 differ from malaria?](https://health-desk.org/articles/how-does-covid-19-differ-from-malaria)"
   - sys:
       id: 7vWUtClh3LjVUGjxuAs46Y
       created_at: !ruby/object:DateTime 2021-05-24 00:17:54.670000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-15 22:45:16.349000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:32:00.289000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: "## [Does wearing a mask reduce your oxygen level?](https://health-desk.org/articles/does-wearing-a-mask-reduce-your-oxygen-level)\n"
   - sys:
       id: BI2zEBQpNELmWWEugstRD
       created_at: !ruby/object:DateTime 2021-05-24 00:22:27.158000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-15 22:48:38.990000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:31:57.696000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: "## [Does wearing gloves protect against or stop the spread of COVID-19?](https://health-desk.org/articles/does-wearing-gloves-protect-against-or-stop-the-spread-of-covid-19)"
   - sys:
       id: 5GMOS57iqTyrAX671q1yZa
       created_at: !ruby/object:DateTime 2021-05-24 00:21:58.030000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-15 22:46:14.514000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:31:54.952000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: "## [How long is a person infected with COVID-19 contagious?](https://health-desk.org/articles/how-long-is-a-person-infected-with-covid-19-contagious)\n"
   top_border: true
 - sys:
     id: 3hIORs6TH6nAfMgpCpsbDn
     created_at: !ruby/object:DateTime 2021-05-04 15:17:12.478000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-27 20:18:03.524000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:43.228000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: WhatsApp Third-Party Fact-Checking Program
   content:
   - sys:
       id: 1dh3SDLjRDrVjUKvT5TMsf
       created_at: !ruby/object:DateTime 2021-05-04 15:17:36.959000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 15:21:35.684000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:31:40.278000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: Third-party Fact Checking Stats
     stats:
     - sys:
@@ -2314,17 +2314,17 @@ module2ColumnContent:
 - sys:
     id: 3in3leHfACtdcxFbz81hWH
     created_at: !ruby/object:DateTime 2021-05-04 15:27:18.445000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-27 20:12:32.798000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:30:34.966000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Training
   content:
   - sys:
       id: 6B57X2SR2XMSO4XarO2O4B
       created_at: !ruby/object:DateTime 2021-05-04 15:27:29.152000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-13 22:20:09.836000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:30:32.116000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: Training Stats
     stats:
     - sys:
@@ -2333,17 +2333,17 @@ module2ColumnContent:
 - sys:
     id: 56RCYEJNdM3p2xudbtJk7N
     created_at: !ruby/object:DateTime 2021-05-04 15:32:36.907000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-24 23:50:20.187000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:30:21.754000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Engineering
   content:
   - sys:
       id: u8Ez4o2M4YTlLSfPjscgm
       created_at: !ruby/object:DateTime 2021-05-04 15:32:49.463000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-03 21:53:39.633000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:30:18.723000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: Dev Analytics Stats
     stats:
     - sys:
@@ -2560,48 +2560,48 @@ module2ColumnContent:
 - sys:
     id: 71FFA8rTtq7RH2PBEDPSqb
     created_at: !ruby/object:DateTime 2021-05-04 16:17:44.798000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-04 16:18:09.327000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:29:27.727000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Press
   content:
   - sys:
       id: 3OZBGbOtl9CjabPLM3QaKy
       created_at: !ruby/object:DateTime 2021-05-04 16:18:02.942000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-04 16:18:16.811000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:29:25.398000000 Z
       content_type_id: moduleTex
-      revision: 0
+      revision: 1
     content: Stories covering Meedan's work in 2020.
   top_border: false
 - sys:
     id: 3hgpVazI8tjQ9raJhWZJ1u
     created_at: !ruby/object:DateTime 2021-05-04 17:08:11.803000000 Z
-    updated_at: !ruby/object:DateTime 2021-05-07 16:52:53.300000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:25:18.620000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Revenues
   content:
   - sys:
       id: 2xKlNS4MFFgyBX80RnmiVG
       created_at: !ruby/object:DateTime 2021-05-07 16:50:21.925000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-07 16:50:46.636000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:24:42.376000000 Z
       content_type_id: moduleGraphic
-      revision: 0
+      revision: 1
     title: Revenue Pie Chart
     graphic:
       sys:
         id: 1YiPCpS37JB7zKEMk6veah
         created_at: !ruby/object:DateTime 2021-05-07 16:50:40.162000000 Z
-        updated_at: !ruby/object:DateTime 2021-08-10 19:18:24.824000000 Z
+        updated_at: !ruby/object:DateTime 2021-08-12 21:24:39.137000000 Z
       title: Revenue Pie Chart
       description:
       url: "//images.ctfassets.net/g118h5yoccvd/1YiPCpS37JB7zKEMk6veah/d36a3029e5dd86359e9c4d617d2c4f5a/meedan_annual-report_2020_revenue.png"
   - sys:
       id: 1yX5lD585SsV3yhfoj1Fsn
       created_at: !ruby/object:DateTime 2021-05-04 17:08:59.556000000 Z
-      updated_at: !ruby/object:DateTime 2021-08-10 19:06:16.249000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:25:14.821000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: Revenues Stats
     stats:
     - sys:
@@ -2616,34 +2616,36 @@ module2ColumnContent:
 - sys:
     id: 2LTYAjcJAGhR1PslQkB3Pd
     created_at: !ruby/object:DateTime 2021-05-04 17:10:23.813000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-10 19:18:59.984000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:27:45.400000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Expenditures
   content:
   - sys:
       id: 78Yki54FWOK1JfrnDkwe0U
       created_at: !ruby/object:DateTime 2021-08-10 19:18:38.503000000 Z
-      updated_at: !ruby/object:DateTime 2021-08-10 19:19:04.516000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:25:30.293000000 Z
       content_type_id: moduleGraphic
-      revision: 0
+      revision: 1
     title: 2020 Expenditure Graph
     graphic:
       sys:
         id: 4nej7BmxUbD1t13GVRZjrg
         created_at: !ruby/object:DateTime 2021-08-10 19:18:58.768000000 Z
-        updated_at: !ruby/object:DateTime 2021-08-11 22:40:12.284000000 Z
+        updated_at: !ruby/object:DateTime 2021-08-12 21:25:25.889000000 Z
       title: Expenditures Pie Chart 2020
       description:
       url: "//images.ctfassets.net/g118h5yoccvd/4nej7BmxUbD1t13GVRZjrg/5c7197a9da818ef21b5ca597e8d6f881/meedan_annual-report_2020_expenditure.png"
   - sys:
       id: 5QLeYfscXzL0V9Mr7o1Ivr
       created_at: !ruby/object:DateTime 2021-05-04 17:10:40.897000000 Z
-      updated_at: !ruby/object:DateTime 2021-08-10 23:02:03.675000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-18 22:31:27.820000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: Expenditures Stats
     stats:
+    - sys:
+        id: 4C0bGjRLx6OZzrzmjiBeiL
     - sys:
         id: 7GUK2pGXqbkRTdj2zBf5wN
     - sys:
@@ -2652,8 +2654,6 @@ module2ColumnContent:
         id: LTISdlpYoyM71nalVwU6f
     - sys:
         id: 4s7tA4WhHCJUUBM9cr6Thf
-    - sys:
-        id: 4C0bGjRLx6OZzrzmjiBeiL
     - sys:
         id: 62ryVsA7P2YlqKd13Mbe45
     - sys:
@@ -2664,17 +2664,17 @@ module2ColumnContent:
 - sys:
     id: 6B1CamKxzzWNRCbVJa3xVO
     created_at: !ruby/object:DateTime 2021-06-15 22:38:41.465000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-15 22:38:56.148000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-12 21:31:00.094000000 Z
     content_type_id: module2ColumnContent
-    revision: 0
+    revision: 1
   title: Research
   content:
   - sys:
       id: 23gPXhx5NJ93u6pWDydkjn
       created_at: !ruby/object:DateTime 2021-06-15 22:38:50.245000000 Z
-      updated_at: !ruby/object:DateTime 2021-06-15 22:40:26.404000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-12 21:30:56.887000000 Z
       content_type_id: moduleStats
-      revision: 0
+      revision: 1
     title: Research Stats
     stats:
     - sys:

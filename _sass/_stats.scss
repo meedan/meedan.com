@@ -33,3 +33,19 @@
 	padding-bottom: $space-small/2;
 }
 
+.stat.nested {
+	margin-left: 10%;
+	@include responsive('min-width: #{$width-tablet}') {
+		margin-left: 50%;
+	}
+	.number {
+		font-size: 1em;
+		line-height: inherit;
+	}
+	.label {
+		width: 64%;
+	}
+	margin-top: 0;
+	padding-top: $space-small/4;
+	padding-bottom: $space-small/4;
+}
