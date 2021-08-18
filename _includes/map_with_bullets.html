@@ -62,7 +62,7 @@ homeButton.insertBefore(chart.zoomControl.plusButton);
 // Center map
 chart.homeZoomLevel = 1.4;
 chart.minZoomLevel = 1.4;
-chart.homeGeoPoint = { longitude: 13.7, latitude: 1.46 };
+chart.homeGeoPoint = { longitude: 14, latitude: 0.05 };
 
 var groupData = [
   {
@@ -248,9 +248,9 @@ groupData.forEach(function(group) {
     }
   
     //  Retrieving latitude/longitude of map click
-    chart.seriesContainer.events.on("hit", function(ev) {
-        console.log(chart.svgPointToGeo(ev.svgPoint));
-    }); 
+    // chart.seriesContainer.events.on("hit", function(ev) {
+    //     console.log(chart.svgPointToGeo(ev.svgPoint));
+    // }); 
 
   // Country shape properties & behaviors
   var mapPolygonTemplate = series.mapPolygons.template;
