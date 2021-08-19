@@ -1000,15 +1000,21 @@ stat:
 - sys:
     id: 2WYZAknVKXxlVt1BYhlxyl
     created_at: !ruby/object:DateTime 2021-05-04 17:10:02.108000000 Z
+<<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-08-12 21:25:05.472000000 Z
 >>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
+=======
+    updated_at: !ruby/object:DateTime 2021-08-19 01:19:07.685000000 Z
+>>>>>>> a12ad354 (Adding highlighted style for total stats.)
     content_type_id: stat
-    revision: 1
+    revision: 2
   label: 'Total revenue   '
   number: "$3,665,426"
+  highlighted: true
 - sys:
     id: 4ysseyNaEuZ8EAlLx2a5Tm
     created_at: !ruby/object:DateTime 2021-05-04 17:11:01.542000000 Z
+<<<<<<< HEAD
 <<<<<<< HEAD
     updated_at: !ruby/object:DateTime 2021-05-04 17:11:07.494000000 Z
     content_type_id: stat
@@ -1016,11 +1022,15 @@ stat:
   label: 'Total expenditures '
 =======
     updated_at: !ruby/object:DateTime 2021-08-12 21:25:50.341000000 Z
+=======
+    updated_at: !ruby/object:DateTime 2021-08-19 01:19:46.430000000 Z
+>>>>>>> a12ad354 (Adding highlighted style for total stats.)
     content_type_id: stat
-    revision: 1
+    revision: 2
   label: Total expenditures
 >>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
   number: "$3,590,371"
+  highlighted: true
 - sys:
     id: 57jJbsPOGqoXv8Jvl2pNxl
     created_at: !ruby/object:DateTime 2021-05-16 23:31:41.772000000 Z
@@ -1237,45 +1247,45 @@ stat:
 - sys:
     id: 7GUK2pGXqbkRTdj2zBf5wN
     created_at: !ruby/object:DateTime 2021-08-10 18:07:14.909000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-18 22:31:20.251000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-19 01:19:27.243000000 Z
     content_type_id: stat
-    revision: 1
+    revision: 2
   label: Check Global
   number: "$2,673,634"
   nested: true
 - sys:
     id: 18ZAfmLVJ66wgjC96jpWyD
     created_at: !ruby/object:DateTime 2021-08-10 18:07:31.731000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-18 22:31:14.259000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-19 01:19:30.883000000 Z
     content_type_id: stat
-    revision: 1
+    revision: 2
   label: Digital Health Lab
   number: "$462,251"
   nested: true
 - sys:
     id: LTISdlpYoyM71nalVwU6f
     created_at: !ruby/object:DateTime 2021-08-10 18:07:52.053000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-18 22:31:03.719000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-19 01:19:38.388000000 Z
     content_type_id: stat
-    revision: 1
+    revision: 2
   label: Credibility Coalition
   number: "$127,583"
   nested: true
 - sys:
     id: 4s7tA4WhHCJUUBM9cr6Thf
     created_at: !ruby/object:DateTime 2021-08-10 18:08:15.725000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-18 22:31:08.292000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-19 01:19:41.870000000 Z
     content_type_id: stat
-    revision: 1
+    revision: 2
   label: Other program
   number: "$12,490"
   nested: true
 - sys:
     id: 4C0bGjRLx6OZzrzmjiBeiL
     created_at: !ruby/object:DateTime 2021-08-10 18:09:03.660000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-18 22:31:27.410000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-19 01:19:24.072000000 Z
     content_type_id: stat
-    revision: 1
+    revision: 2
   label: Program services
   number: "$3,275,958"
 - sys:

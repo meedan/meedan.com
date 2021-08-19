@@ -2664,10 +2664,14 @@ module2ColumnContent:
   - sys:
       id: 5QLeYfscXzL0V9Mr7o1Ivr
       created_at: !ruby/object:DateTime 2021-05-04 17:10:40.897000000 Z
+<<<<<<< HEAD
       updated_at: !ruby/object:DateTime 2021-08-18 22:31:27.820000000 Z
 >>>>>>> 2166ad98 (Adding nested stat style for anual report pages.)
+=======
+      updated_at: !ruby/object:DateTime 2021-08-19 01:19:49.859000000 Z
+>>>>>>> a12ad354 (Adding highlighted style for total stats.)
       content_type_id: moduleStats
-      revision: 1
+      revision: 2
     title: Expenditures Stats
     stats:
     - sys:

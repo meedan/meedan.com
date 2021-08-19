@@ -49,3 +49,8 @@
 	padding-top: $space-small/4;
 	padding-bottom: $space-small/4;
 }
+
+.stat.highlighted {
+	color: $black;
+	border-top: 2px solid $black;
+}
