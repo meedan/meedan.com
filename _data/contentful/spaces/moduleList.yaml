@@ -3,9 +3,9 @@ moduleList:
 - sys:
     id: MJXbtCDpyQ0oRzW3rTabs
     created_at: !ruby/object:DateTime 2020-03-20 22:42:53.229000000 Z
-    updated_at: !ruby/object:DateTime 2020-04-09 20:21:28.386000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-13 00:36:41.811000000 Z
     content_type_id: moduleList
-    revision: 2
+    revision: 3
   title: Our supporters
   description: Since 2006, Meedan has worked with a network of extraordinary sponsors,
     clients, and partners.
@@ -406,6 +406,15 @@ moduleList:
     title: Animal Politico
     list_only: true
     link: https://www.animalpolitico.com/
+  - sys:
+      id: 6JlHNTSAbkOpIlyi8BIhAS
+      created_at: !ruby/object:DateTime 2021-07-13 00:13:20.069000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-13 00:13:59.225000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: National Science Foundation
+    list_only: true
+    link: https://www.nsf.gov/
 - sys:
     id: 4ytDksEIifiBOFrxcoIUll
     created_at: !ruby/object:DateTime 2020-03-21 00:47:51.866000000 Z
@@ -429,9 +438,9 @@ moduleList:
 - sys:
     id: 5nrulC97yc41kgWt557cSL
     created_at: !ruby/object:DateTime 2020-03-24 00:42:55.249000000 Z
-    updated_at: !ruby/object:DateTime 2021-06-15 20:19:22.298000000 Z
+    updated_at: !ruby/object:DateTime 2021-08-05 17:47:31.734000000 Z
     content_type_id: moduleList
-    revision: 11
+    revision: 12
   title: We are the Meedanis
   items:
   - sys:
@@ -598,16 +607,6 @@ moduleList:
     location: New York
     role: Program Manager
   - sys:
-      id: 26BnKkV6uNqzYWtFueaerv
-      created_at: !ruby/object:DateTime 2020-08-20 23:13:04.954000000 Z
-      updated_at: !ruby/object:DateTime 2021-05-06 03:02:31.150000000 Z
-      content_type_id: contributor
-      revision: 3
-    name: Azza El-Masri
-    staff: true
-    role: Pan-Arab Newsroom Coordinator
-    location: Beirut
-  - sys:
       id: 6Dl95BGU4mnP7XrSmhHPTN
       created_at: !ruby/object:DateTime 2021-01-21 05:03:15.243000000 Z
       updated_at: !ruby/object:DateTime 2021-01-21 05:03:37.016000000 Z
@@ -770,3 +769,9 @@ moduleList:
     pullquote: 'New York Times gets it wrong: South Africa doesn’t have fifth highest
       Covid-19 infection rate'
     link: https://africacheck.org/fact-checks/reports/new-york-times-gets-it-wrong-south-africa-doesnt-have-fifth-highest-covid-19
+- sys:
+    id: 3niTXvIfQqNL7LEyAVMkKw
+    created_at: !ruby/object:DateTime 2021-07-24 05:05:03.914000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-24 05:05:03.914000000 Z
+    content_type_id: moduleList
+    revision: 0
