@@ -35,8 +35,8 @@ social:
 livereload: true    # You no longer need to include --livereload
 reload_port: 5678    # If you don't want to use the default port
 
-# Include _redirects file
-include: [_redirects]
+# Include _redirects and _headers file
+include: [_redirects, _headers]
 
 # Get data from Contentful Develop Environment
 contentful:

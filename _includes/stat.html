@@ -1,7 +1,9 @@
 {% assign number = include.number %}
 {% assign label = include.label %}
 {% assign note = include.note %}
-<div class="stat{% if note %} with-note{% endif %}">
+{% assign nested = include.nested %}
+{% assign highlighted = include.highlighted %}
+<div class="stat{% if note %} with-note{% endif %}{% if nested %} nested{% endif %}{% if highlighted %} highlighted{% endif %}">
     <div class="label">{{ label }}</div>
     <div class="number">{{ number }}</div>
 </div>
