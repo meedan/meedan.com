@@ -14621,34 +14621,8 @@ story:
   alt_date: *64
   alt_date_string: '2021-09-01'
 - sys:
-    id: 19S4OoLymOnpwjlk6d7Zyd
-    created_at: &65 !ruby/object:DateTime 2021-09-01 07:28:31.550000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-01 07:28:45.203000000 Z
-    content_type_id: story
-    revision: 0
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: story
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-  title: 'Tipline promotion and a community of citizen fact-checkers: Insights from
-    BOOM'
-  slug: tipline-promotion-and-a-community-of-citizen-fact-checkers-insights-from
-  date: '2021-09-01'
-  title-en: 'Tipline promotion and a community of citizen fact-checkers: Insights
-    from BOOM'
-  alt_date: *65
-  alt_date_string: '2021-09-01'
-- sys:
     id: 4yKjia2BNTYX9l3IeVob3T
-    created_at: &66 !ruby/object:DateTime 2021-09-01 07:29:44.071000000 Z
+    created_at: &65 !ruby/object:DateTime 2021-09-01 07:29:44.071000000 Z
     updated_at: !ruby/object:DateTime 2021-09-01 10:32:20.955000000 Z
     content_type_id: story
     revision: 9
@@ -14735,14 +14709,14 @@ story:
   image: https://images.ctfassets.net/g118h5yoccvd/6AGkrQoNR0VstN6KVIbhyd/b8ab4f2c78707c8c215e7c83e8318ef2/meedan_blog_BOOM-1.jpg
   title-en: 'Tipline promotion and a community of citizen fact-checkers: insights
     from BOOM'
-  alt_date: *66
+  alt_date: *65
   alt_date_string: '2021-09-01'
 - sys:
     id: 6Xg0CIMP41yEiAgf5HDflI
     created_at: !ruby/object:DateTime 2021-09-07 08:58:30.518000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-08 19:08:02.068000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-17 15:06:52.653000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -14755,7 +14729,7 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Check Global Network Stands In Solidarity With Women Journalists In Afghanistan
+  title: Check Global Network stands in solidarity with women journalists in Afghanistan
   slug: check-global-network-stands-in-solidarity-with-women-journalists-in
   topic:
     en-US:
@@ -14845,11 +14819,11 @@ story:
   alt_date: !ruby/object:DateTime 2021-09-07 00:00:00.000000000 Z
   date: '2021-09-07'
   image: https://images.ctfassets.net/g118h5yoccvd/399FUNGeJJhd1wFzuy8grq/da703c537afaebcdc4f3cc9fb41bac92/meedan_blog_afghanistan.jpg
-  title-en: Check Global Network Stands In Solidarity With Women Journalists In Afghanistan
+  title-en: Check Global Network stands in solidarity with women journalists in Afghanistan
   alt_date_string: '2021-09-07'
 - sys:
     id: 7xbS5zAayB1e1ga3Iv30et
-    created_at: &67 !ruby/object:DateTime 2021-09-07 19:21:14.162000000 Z
+    created_at: &66 !ruby/object:DateTime 2021-09-07 19:21:14.162000000 Z
     updated_at: !ruby/object:DateTime 2021-09-07 19:21:32.006000000 Z
     content_type_id: story
     revision: 0
@@ -14869,14 +14843,14 @@ story:
   slug: context-and-its-discontents
   date: '2021-09-07'
   title-en: Context and its Discontents
-  alt_date: *67
+  alt_date: *66
   alt_date_string: '2021-09-07'
 - sys:
     id: cDcJeXqDqE78rVjKlxOiM
-    created_at: &68 !ruby/object:DateTime 2021-09-12 20:30:50.015000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-15 10:03:10.349000000 Z
+    created_at: &67 !ruby/object:DateTime 2021-09-12 20:30:50.015000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-21 20:04:15.173000000 Z
     content_type_id: story
-    revision: 0
+    revision: 5
     space:
       sys:
         id: g118h5yoccvd
@@ -14889,7 +14863,7 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'From ACL 2021 with Love: How I Learned to Stop Worrying and Love the BERT'
+  title: 'From ACL 2021 with love: How I learned to stop worrying and love the BERT'
   slug: acl-2021-how-i-learned-to-stop-worrying-and-love-the-bert
   topic:
     en-US:
@@ -14906,7 +14880,7 @@ story:
       sys:
         id: 5NkhiN7VjSTMZCIIe8fKuk
         created_at: !ruby/object:DateTime 2021-09-12 20:42:34.699000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-12 20:43:26.005000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-17 16:46:52.864000000 Z
       title: acl2021-reflections-lead-image
       description: ''
       url: "//images.ctfassets.net/g118h5yoccvd/5NkhiN7VjSTMZCIIe8fKuk/d21fd79adcf560826d00118c18befdaa/meedan_blog_BERT.jpg"
@@ -14914,21 +14888,25 @@ story:
     title: acl2021-reflections-lead-image
     url: "//images.ctfassets.net/g118h5yoccvd/5NkhiN7VjSTMZCIIe8fKuk/d21fd79adcf560826d00118c18befdaa/meedan_blog_BERT.jpg"
   body: |-
-    In a similar [blogpost last year](https://meedan.com/blog/misinformation-research-highlights-from-acl-2020/), I wrote about my experience at the 2020 Association of Computational Linguistics (ACL) conference: a top publication venue and event for research in natural language processing (NLP). Similar to last year, ACL 2021 happened virtually from August 1-6 and this time I was fortunate enough to present our own paper at the conference: "[Claim Matching Beyond English to Scale Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)." From the opening remarks, everyone knew that a major theme of the conference would be large language models and according to program committee co-chair Roberto Navigli, BERT-based models was the most prevalent topic in this year's proceedings. Despite that, the ACL 2021 conference I experienced came with a fresh and critical perspective, from the opening remarks to discussions around ethics, CO2 emissions and social good in natural language processing (NLP). The conference reminded me of "[Dr. Strangelove](https://en.wikipedia.org/wiki/Dr._Strangelove)", a cinematic masterpiece by Stanley Kubrick about the threat of nuclear war and how thoughtless actions from a small group of impactful people could endanger humanity. While in the past scientists only speculated about the threat of Artificial Intelligence to humanity, the [AI we feared already exists](https://www.washingtonpost.com/opinions/2021/07/21/ai-we-should-fear-is-already-here/). It was heartwarming and hopeful to see the computational linguistics community engage in these conversations before we hit the point of no-return on harmful AI and language technologies.
+    [The Association for Computational Linguistics conference](https://2021.aclweb.org/ "ACL 2021") (ACL) 2021, a top publication venue and event for research in [natural language processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing#:~:text=Natural%20language%20processing%20(NLP)%20refers,same%20way%20human%20beings%20can. "Natural language processing"), happened virtually from August 1-6, and I was fortunate to present our own paper at the conference: "[Claim Matching Beyond English to Scale Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)".
+
+    From the opening remarks, everyone knew that a major theme of the conference would be large language models and according to program committee co-chair Roberto Navigli, [BERT-based models](https://searchenterpriseai.techtarget.com/definition/BERT-language-model "BERT-based models for NLP") were the most prevalent topic in this year’s proceedings. The rest of the conference came with a fresh and critical perspective, from the opening remarks to discussions around ethics, CO2 emissions and social good in natural language processing (NLP). The conference reminded me of [Dr. Strangelove](https://en.wikipedia.org/wiki/Dr._Strangelove), a cinematic masterpiece by Stanley Kubrick about the threat of nuclear war and how thoughtless actions from a small group of impactful people could endanger humanity. While in the past scientists only speculated about the threat of Artificial Intelligence to humanity, the AI we feared already exists. It was heartwarming and hopeful to see the computational linguistics community engage in these conversations before we hit the point of no-return on harmful AI and language technologies.
 
     ## ACL Presidential Address
-    One of the opening talks of the conference was [Professor Rada Mihalcea's presidential address](https://www.youtube.com/watch?v=FXCSWvIsdEE) as the 2021 Association of Computational Linguistics president (coincidentally, she is also my PhD advisor). Dr. Mihalcea called on the NLP community to "stop chasing accuracy numbers" and expressed that "there is more to natural language processing than state of the art results." She rightfully pointed out that neural networks have taken over a large part of NLP even though they have major shortcomings such as lack of explainability, concerning biases and large environmental footprints that current NLP benchmarks overlook. The speech followed a year of heated discussions around the ethics and implications of large language models that peaked when [Timnit Gebru ](https://en.wikipedia.org/wiki/Timnit_Gebru)was [fired from and harassed by Google](https://www.theverge.com/22309962/timnit-gebru-google-harassment-campaign-jeff-dean) after publishing a [paper ](https://dl.acm.org/doi/10.1145/3442188.3445922)critical of large language models.
+    One of the opening talks of the conference was [Professor Rada Mihalcea's presidential address](https://www.youtube.com/watch?v=FXCSWvIsdEE) as the 2021 Association of Computational Linguistics president. Coincidentally, she is also my PhD advisor!
 
-    Large language models (LLMs) like [BERT](https://arxiv.org/abs/1810.04805) have transformed natural language processing and played a major role in recent advances in AI technology: powering personal assistants like Siri and Alexa, automating call center services and improving Google search. There are no silver bullets, however, when it comes to these models. A [2019 paper](https://aclanthology.org/P19-1355/) found that training a large Transformer-based language model emits 5x the CO2 emissions of a car in its lifetime. While a large number of ACL 2021 used pretrained LLMs, recently released LLMs like [OpenAI's GPT-3](https://openai.com/blog/gpt-3-apps/) or [Google's T5 ](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)cannot be trained on an academic budget, resulting in a monopoly over this impactful research trend by big tech companies. This is all made worse by the biases encoded in these models including stereotypes and negative attributions to specific groups that make their widespread adoption dangerous to society.
+    Dr. Mihalcea called on the NLP community to "stop chasing accuracy numbers" and expressed that "there is more to natural language processing than state of the art results." She rightfully pointed out that neural networks have taken over a large part of NLP even though they have major shortcomings such as lack of explainability, concerning biases and large environmental footprints that current NLP benchmarks overlook. The speech followed a year of heated discussions around the ethics and implications of large language models that peaked when [Timnit Gebru ](https://en.wikipedia.org/wiki/Timnit_Gebru) was [fired from and harassed by Google](https://www.theverge.com/22309962/timnit-gebru-google-harassment-campaign-jeff-dean) after submitting a [paper](https://dl.acm.org/doi/10.1145/3442188.3445922) critical of large language models to the [ACM FAccT conference](https://facctconference.org/).
+
+    Large language models (LLMs) like [BERT](https://arxiv.org/abs/1810.04805) have transformed natural language processing and played a major role in recent advances in AI technology: powering personal assistants like Siri and Alexa, automating call center services and improving Google search. There are no silver bullets, however, when it comes to these models. A [2019 paper](https://aclanthology.org/P19-1355/) found that training a large Transformer-based language model with neural architecture search emits 5x the CO2 emissions of a car in its lifetime. While a large number of ACL 2021 participants used pretrained LLMs, recently released LLMs like [OpenAI's GPT-3](https://openai.com/blog/gpt-3-apps/) or [Google's T5 ](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)cannot be trained on an academic budget, resulting in a monopoly over this impactful research trend by big tech companies. This is all made worse by the biases encoded in these models including stereotypes and negative attributions to specific groups that make their widespread adoption dangerous to society.
 
     Together with the major limitations of neural networks mentioned in Dr. Mihalcea's presidential address, we can see that amid the hype surrounding transformer-based language models, they are likely still long away from obtaining human-like intelligence and understanding of language. To quote an anonymous survey respondent from Dr. Mihalcea's research, "\[NLP\]'s major negative impact now is putting more money in less hands" and we should be changing our focus from improving accuracy numbers to factors such as interpretability, emissions and ethics to build language technology that benefits everyone, not just a handful of powerful companies.
 
     ## Green NLP Panel
-    Green NLP is a community initiative inside ACL that aims to address environmental impacts of NLP. A panel of academic and industry researchers moderated by [Dr. Iryna Gurevych](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp) discussed these impacts on the second day of the main conference. [Dr. Jesse Dodge](https://www.cs.cmu.edu/~jessed/) started the panel with a presentation on "Efficient Natural Language Processing", an effort to encourage more resource-efficient explorations in NLP and address some of the challenges creative and low budget research face when the publications venues are dominated by research around LLMs, without slowing down the impressive progress of NLP seen in recent years. Throughout the panel, many interesting points were brought up by the audience and the panelists.
+    Green NLP is a community initiative inside ACL that aims to address environmental impacts of NLP. A panel of academic and industry researchers moderated by [Dr. Iryna Gurevych](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp) discussed these impacts on the second day of the main conference. [Dr. Jesse Dodge](https://www.cs.cmu.edu/~jessed/) started the panel with a presentation on "Efficient Natural Language Processing", an effort to encourage more resource-efficient explorations in NLP and address some of the challenges creative and low budget research face when publication venues are dominated by research around LLMs, without slowing down the impressive progress of NLP seen in recent years. Throughout the panel, many interesting points were brought up by the audience and the panelists.
 
-    Time and again, panelists expressed their concern for lack of access to resources required to reproduce a lot of the papers presented at ACL conferences and some even called for interventions. [Dr. Mona Diab ](https://en.wikipedia.org/wiki/Mona_Diab)expressed how instead of the current "Black Box" approach to NLP through the use of LLMs, we should move towards "Green Box", efficient NLP that is easily reproducible and accessible to a broader and more diverse group of researchers, eventually resulting in democratization of NLP while in parallel reducing emissions of our research. Others pointed out that the current setup in NLP discourages competition from academia and moving towards a more green, efficient NLP could mitigate that and increase creativity in the community's research output.
+    Time and again, panelists expressed their concern for lack of access to resources required to reproduce a lot of the papers presented at ACL conferences and some even called for interventions. [Dr. Mona Diab](https://en.wikipedia.org/wiki/Mona_Diab) expressed how instead of the current "Black Box" approach to NLP through the use of LLMs, we should move towards "Green Box", efficient NLP that is easily reproducible and accessible to a broader and more diverse group of researchers, eventually resulting in democratization of NLP while in parallel reducing emissions of our research. Others pointed out that the current setup in NLP discourages competition from academia and moving towards a more green, efficient NLP could mitigate that and increase creativity in the community's research output.
 
-    The panel ended with a question from the audience, asking how energy use and emissions of NLP compare with cryptocurrencies and Bitcoin. One of the panelists [Dr. Emma Strubell](https://lti.cs.cmu.edu/people/222219405/emma-strubell) elaborated that we simply don't have an answer to this question yet. While [Bitcoin's energy consumption](https://digiconomist.net/bitcoin-energy-consumption/) currently can power up Czech Republic twice, there are [active efforts](https://finance.yahoo.com/news/ethereum-emissions-carbon-climate-bitcoin-proof-of-work-proof-of-stake-cryptocurrency-eth2-100420055.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAKDU3sVNjnFsciq-V05Rkr48fgEI408rOlXU9mG8qL_j69sBlq9q6jf406zvwaeM6mpCfzMa04iqfP_laI4XSV32YbKOl0kKk6o1YNvlwi_Cber_NDhXYPiv52akMh53Jp3_3j5uVP8j-TQfp87G33C7DcBT8DMU7AkDHwSD0sOm) in place to reduce emissions from cryptocurrencies that were simply made possible through measurement, something the NLP and AI community may be lacking behind. There is a lot to be done to ensure NLP is democratized and environmentally safe but community initiatives like Green NLP spark hope that these hopes could become a reality.
+    The panel ended with a question from the audience, asking how energy use and emissions of NLP compare with cryptocurrencies and Bitcoin. One of the panelists [Dr. Emma Strubell](https://lti.cs.cmu.edu/people/222219405/emma-strubell) elaborated that we simply don't have an answer to this question yet. While [Bitcoin's energy consumption](https://digiconomist.net/bitcoin-energy-consumption/) currently can power up Czech Republic twice, there are [active efforts](https://finance.yahoo.com/news/ethereum-emissions-carbon-climate-bitcoin-proof-of-work-proof-of-stake-cryptocurrency-eth2-100420055.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAKDU3sVNjnFsciq-V05Rkr48fgEI408rOlXU9mG8qL_j69sBlq9q6jf406zvwaeM6mpCfzMa04iqfP_laI4XSV32YbKOl0kKk6o1YNvlwi_Cber_NDhXYPiv52akMh53Jp3_3j5uVP8j-TQfp87G33C7DcBT8DMU7AkDHwSD0sOm) in place to reduce emissions from cryptocurrencies that were simply made possible through measurement, something the NLP and AI community may be lacking behind. There is a lot to be done to ensure NLP is democratized and environmentally safe, but community initiatives like Green NLP spark hope that these hopes could become a reality.
 
     ## NLP for Social Good
     The theme track for the conference, a workshop and a social event shared the same topic: NLP for social good: an effort from Association of Computational Linguistics to nurture discussions around the role of NLP in society. These discussions included efforts to define what "NLP for social good" means, to identify both positive and negative societal impacts of NLP and to find methods for better assessing these effects. [Dr. Chris Potts](https://web.stanford.edu/~cgpotts/)' last keynote of the conference "[Reliable characterizations of NLP systems as a social responsibility](https://www.youtube.com/watch?v=t_A36DDcG_0)" offered detailed and fresh directions for NLP systems that could decrease adverse social impacts of these systems and train and build models that promote performance towards our collective social values.
@@ -14943,6 +14921,7 @@ story:
     - [Structurizing Misinformation Stories via Rationalizing Fact-Checks](https://aclanthology.org/2021.acl-long.51/)
     - [Tackling Fake News Detection by Interactively Learning Representations using Graph Neural Networks
     ](https://aclanthology.org/2021.internlp-1.7/)
+    - Read more about [my experience at the 2020 ACL conference](https://meedan.com/blog/misinformation-research-highlights-from-acl-2020/ "Research highlights from ACL 2020")
   words_by:
     en-US:
     - sys:
@@ -14967,14 +14946,14 @@ story:
           Engineering.'
   date: '2021-09-12'
   image: https://images.ctfassets.net/g118h5yoccvd/5NkhiN7VjSTMZCIIe8fKuk/d21fd79adcf560826d00118c18befdaa/meedan_blog_BERT.jpg
-  title-en: 'From ACL 2021 with Love: How I Learned to Stop Worrying and Love the
+  title-en: 'From ACL 2021 with love: How I learned to stop worrying and love the
     BERT'
-  alt_date: *68
+  alt_date: *67
   alt_date_string: '2021-09-12'
 - sys:
     id: 1oXLBJBrDz6NzQFixhhN8r
-    created_at: &69 !ruby/object:DateTime 2021-09-13 10:30:35.187000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-15 09:59:25.579000000 Z
+    created_at: &68 !ruby/object:DateTime 2021-09-13 10:30:35.187000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-17 17:06:57.117000000 Z
     content_type_id: story
     revision: 0
     space:
@@ -14989,8 +14968,8 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Matching Claims at Meedan
-  slug: matching-claims-at-meedan
+  title: Claim matching global fact-checks at Meedan
+  slug: claim-matching-global-fact-checks-at-meedan
   topic:
     en-US:
     - sys:
@@ -15006,21 +14985,21 @@ story:
       sys:
         id: 1KP546nM75U1RrWjOnbiho
         created_at: !ruby/object:DateTime 2021-09-15 09:33:37.002000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-15 09:34:37.622000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-17 16:51:32.274000000 Z
       title: claim_matching_header
       description: ''
       url: "//images.ctfassets.net/g118h5yoccvd/1KP546nM75U1RrWjOnbiho/c3163328e8a240b1507150f9b7ceb6a0/meedan_blog_matching-claims.jpg"
     description: ''
     title: claim_matching_header
     url: "//images.ctfassets.net/g118h5yoccvd/1KP546nM75U1RrWjOnbiho/c3163328e8a240b1507150f9b7ceb6a0/meedan_blog_matching-claims.jpg"
-  body: "We are excited that our paper, \"[Claim Matching Beyond English to Scale
-    Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)\" was recently
-    published at the [ACL 2021 conference](https://2021.aclweb.org/). I (Ashkan Kazemi)
-    worked on the project with Kiran Garimella (MIT/Rutgers), Devin Gaffney (Meedan)
-    and Scott Hale (Meedan & Oxford) during my summer 2020 fellowship at Meedan. In
-    this blogpost I describe how we built equitable technology and a public dataset
-    of WhatsApp messages and fact-check headlines for the task of claim matching in
-    multiple languages.\n\n![Claim Matching Examples](//images.contentful.com/g118h5yoccvd/6kW07Iu7ug3eIDH6FhMYcG/0f3af8170fbd1f96ac013207e6c9bb64/claim_matching_examples_table1.png)\n\n##
+  body: "Meedan's Research team has recently published the paper \"[Claim Matching
+    Beyond English to Scale Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)\"
+    at the 2021 [Association for Computational Languages conference](https://2021.aclweb.org/).
+    This paper describes how we built equitable technology through a public dataset
+    of WhatsApp messages and fact-check headlines to claim match in multiple languages.
+    During my summer 2020 fellowship with Meedan, I worked on this project with Kiran
+    Garimella (MIT/Rutgers), Devin Gaffney (Meedan) and Scott Hale (Meedan & Oxford).\n\n![Claim
+    Matching Examples](//images.contentful.com/g118h5yoccvd/6kW07Iu7ug3eIDH6FhMYcG/0f3af8170fbd1f96ac013207e6c9bb64/claim_matching_examples_table1.png)\n\n##
     The Problem\nHuman fact-checking is high-quality but time-consuming. However,
     we can still scale it by finding all the content that a fact-check applies to.
     Simple approaches such as measuring overlap between texts often fall short when
@@ -15031,7 +15010,7 @@ story:
     with Uruguay\" and \"Trump negotiates border reopening with Canada\" are examples
     of this shortcoming.\n\nPrior natural language processing (NLP) [research by Shaden
     Shaar and colleagues](https://www.aclweb.org/anthology/2020.acl-main.332/) on
-    claim matching  focused on English, but what if we wanted to support fact-checking
+    claim matching focused on English, but what if we wanted to support fact-checking
     efforts in India or Brazil? The main obstacles for doing this are that data-hungry,
     state-of-the-art NLP algorithms are not available for lower-resourced languages,
     and creating new datasets in such languages is costly.\n\n## Our approach\nIn
@@ -15042,21 +15021,22 @@ story:
     English, we might be able to get it to perform well in other languages if the
     numeric representations of those languages were aligned with English. We did exactly
     that using a combination of [knowledge distillation](https://www.aclweb.org/anthology/2020.emnlp-main.365/),
-    [parallel datasets](https://opus.nlpl.eu/) and [Facebook’s XLM-Roberta model](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/).
-    The knowledge distillation technique created a new model where (i) the vectors
-    for English sentences were very close to the original SBERT model and (ii) sentences
+    [parallel datasets](https://opus.nlpl.eu/) and [Facebook’s XLM-Roberta model](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/).\n\nThe
+    knowledge distillation technique created a new model where (i) the vectors for
+    English sentences were very close to the original SBERT model and (ii) sentences
     in different languages also vectors very similar to their English translations.
     This technique essentially dragged all the vector representations for the other
     languages into alignment with the high-performing English-language model. The
     resulting model can generate contextual embeddings for a group of high-resource
     (English, Hindi) and low-resource (Bengali, Malayalam, Marathi, Tamil and Telugu)
     languages. We publicly released our model called \"Indian XLM-R\" (I-XLM-R) on
-    [huggingface](https://huggingface.co/meedan/indian-xlm-r). We describe our solution
-    architecture in detail in our paper.\n\n## Does it work?\nTo evaluate our solution
-    we created two multilingual, mainly Indian datasets: a claim detection set (\"does
-    this text contain check-worthy claims?\") and a claim matching set (\"can the
-    claims in these two posts be served with one fact-check?\"). This was made possible
-    through collaboration with fact-checking organizations running misinformation
+    [huggingface](https://huggingface.co/meedan/indian-xlm-r), an open-source online
+    community for sharing NLP models and technology. Our research paper describes
+    the solution architecture in greater detail.\n\n## Does it work?\nTo evaluate
+    our solution we created two multilingual, mainly Indian datasets: a claim detection
+    set (\"does this text contain check-worthy claims?\") and a claim matching set
+    (\"can the claims in these two posts be served with one fact-check?\"). This was
+    made possible through collaboration with fact-checking organizations running misinformation
     tiplines using Meedan’s software, [Check](https://meedan.com/check), and  messages
     from  public WhatsApp groups collected previously by Kiran Garimella. Details
     of our dataset curation process can be found in our paper, and [the data is available](https://zenodo.org/record/4890950).
@@ -15083,17 +15063,39 @@ story:
     and large public groups. Our research did not use any information about users.\n\nAll
     tipline data is owned by the organizations running the tiplines. Our research
     only includes data from partners who opted-in to this research project."
+  words_by:
+    en-US:
+    - sys:
+        id: 7CBpK5YT4WAGbnE7Eq3BAL
+        created_at: !ruby/object:DateTime 2020-07-23 19:31:28.190000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-23 20:08:16.839000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Ashkan Kazemi
+      staff:
+        en-US: true
+      role:
+        en-US: NLP Research Intern
+      location:
+        en-US: Ann Arbor, MI, USA
+      bio:
+        en-US: '[Ashkan](https://www.ashkankazemi.ir "Ashkan''s personal website")
+          is a natural language processing (NLP) intern at Meedan, contributing to
+          research efforts in building fact-checking technology. He is also a PhD
+          candidate at University of Michigan''s department of Computer Science and
+          Engineering.'
   date: '2021-09-13'
   image: https://images.ctfassets.net/g118h5yoccvd/1KP546nM75U1RrWjOnbiho/c3163328e8a240b1507150f9b7ceb6a0/meedan_blog_matching-claims.jpg
-  title-en: Matching Claims at Meedan
-  alt_date: *69
+  title-en: Claim matching global fact-checks at Meedan
+  alt_date: *68
   alt_date_string: '2021-09-13'
 - sys:
     id: 7JAO3Qk85WFZdJ0zPYH1pS
-    created_at: &70 !ruby/object:DateTime 2021-09-16 19:32:51.233000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-16 20:53:57.755000000 Z
+    created_at: &69 !ruby/object:DateTime 2021-09-16 19:32:51.233000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-17 15:00:36.898000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -15106,7 +15108,7 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Strategies for Triaging Responses to Health Misinformation Online
+  title: Strategies for triaging responses to health misinformation online
   slug: strategies-for-triaging-responses-to-health-misinformation-online
   topic:
     en-US:
@@ -15118,26 +15120,39 @@ story:
         revision: 1
       title:
         en-US: COVID-19
-  body: "Over the last 6 months, the Digital Health Lab has been analyzing how existing
-    misinformation risk frameworks apply in the public health context.\n\nThe practice
-    of risk management is inherently one of tradeoffs: a process of trying to find
-    the ideal balance of competing priorities. In public health, the risk frameworks
-    that are set in place are significant because the stakes of human health and wellbeing
-    are high. Though triaging risk in health contexts has been in place for millenia,
-    the concepts of “risk assessment” and “risk management” are relatively new, with
-    formal adoption having emerged in the last 4 to 5 decades as the complexity of
-    risk increased and scientific knowledge advanced and became more nuanced. \n\nToday,
-    public health risk frameworks are utilized for a wide range of applications: allocating
-    resources, triaging medical care, and setting policy on exposure levels to contaminants.
-    In hospital emergency departments, for example, triaging is a process in which
-    a patient enters the hospital, they are assessed for specific criteria that would
-    determine the severity of the condition, and that assessment is then used to prioritize
-    how quickly a patient is seen by a health care provider. The criteria for this
-    type of triaging can include a person’s overall diagnosis, their pulse, their
-    respiratory rate, and the presence of bleeding, among other factors. This information
-    is used to prioritize the urgency of responding to particular patients relative
-    to other patients also waiting for care. It is also important to note that, in
-    hospitals, this triaging process is dynamic, so as a patient’s situation or vulnerabilities
+  lead_image:
+    en-US:
+      sys:
+        id: 4vddyUr4lnpThwONIeuAcq
+        created_at: !ruby/object:DateTime 2021-09-16 21:10:32.942000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-17 17:32:36.869000000 Z
+      title: Strategies for triaging responses to health misinformation online
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/4vddyUr4lnpThwONIeuAcq/f64445bac1bbd77100eecbee49b87148/meedan_blog_triaging_health_misinformation_2.jpg"
+    description: ''
+    title: Strategies for triaging responses to health misinformation online
+    url: "//images.ctfassets.net/g118h5yoccvd/4vddyUr4lnpThwONIeuAcq/f64445bac1bbd77100eecbee49b87148/meedan_blog_triaging_health_misinformation_2.jpg"
+  body: "The [Digital Health Lab](https://meedan.com/digital-health-lab) has been
+    analyzing how existing misinformation risk frameworks apply in the public health
+    context.\n\nThe practice of risk management is inherently one of tradeoffs: a
+    process of trying to find the ideal balance of competing priorities. In public
+    health, the risk frameworks that are set in place are significant because the
+    stakes of human health and wellbeing are high. Though triaging risk in health
+    contexts has been in place for millenia, the concepts of “risk assessment” and
+    “risk management” are relatively new, with formal adoption having emerged in the
+    last 4 to 5 decades as the complexity of risk increased and scientific knowledge
+    advanced and became more nuanced. \n\nToday, public health risk frameworks are
+    utilized for a wide range of applications: allocating resources, triaging medical
+    care, and setting policy on exposure levels to contaminants. In hospital emergency
+    departments, for example, triaging is a process in which a patient enters the
+    hospital, they are assessed for specific criteria that would determine the severity
+    of the condition, and that assessment is then used to prioritize how quickly a
+    patient is seen by a health care provider. The criteria for this type of triaging
+    can include a person’s overall diagnosis, their pulse, their respiratory rate,
+    and the presence of bleeding, among other factors. This information is used to
+    prioritize the urgency of responding to particular patients relative to other
+    patients also waiting for care. It is also important to note that, in hospitals,
+    this triaging process is dynamic, so as a patient’s situation or vulnerabilities
     change, the prioritization of their care might change as well. \n\nThis is an
     example of a risk framework being used in the context of decision-making. Not
     all risk frameworks, however, are used for decision-making; some are used for
@@ -15177,84 +15192,85 @@ story:
     framework that is based on both potential harms and negative impacts for users
     exposed to health misinformation online. This framework accounts for some of the
     challenges of health misinformation response that we uncovered in a process evaluation
-    of our Health Desk project, which includes limited ability to access scientific
-    experts in timing that aligns with journalistic and fact-checking turnaround times,
-    and the challenge of knowing what kind of expertise is required for different
-    public health topic areas. This risk framework is based on standardized criteria
-    that account for: a) the type of query and b) the expertise needed to answer a
-    particular public health question. \n\nFact-checking organizations, journalists,
-    and social media companies have identified the challenge of finding the right
-    approach to triaging health misinformation content and determining if and how
-    experts should be integrated into fact-checks. Frameworks like this one can assist
-    in streamlining risk prioritization of health misinformation as well as lead to
-    more targeted and manageable expert outreach if and when needed. This framework
-    can be adapted to a range of public health contexts and topics, and we are always
-    excited to collaborate with other groups interested in expanding on the framework
-    or developing relevant case studies together. \n\nBelow is an example of the Query
-    Risk & Response Criteria framework, developed in collaboration with Health Desk
-    Public Health Research Lead Christin Gilmer, as applied to COVID-19 misinformation,
-    oriented towards our question-fielding process with Health Desk: \n\n| Response
-    Level of Risk  | Responder | Criteria | Comments |\n| --- | ----------- | -----------------------
-    | ----------------- | \n| High | Responded to by an infectious disease expert
-    |  Reference to severe symptoms (with and without shortness of breath) including
-    blood oxygen level of 95% or below; BP below 90/60; seizures; etc. (not necessarily
-    meeting all the COVID-19 testing requirements/high-risk groups)<br><br>Questions
-    about active traveling from a high-risk region to a non-high-risk region (differs
-    by day<br><br>Questions about autoimmune conditions and their risk profiles<br><br>Questions
-    about interpretation of study findings<br><br>Questions about pre-published studies
-    with links<br><br> Questions submitted by elected officials<br><br>Questions submitted
-    by international NGOs <br><br> Questions about clinical conditions, presentations,
-    or risk factors<br><br>Questions about biological responses to coronaviruses<br><br>Questions
-    about diagnostics for COVID-19 (RT-PCRs, CTs, chest x-rays, etc.) | Regarding
-    clinical knowledge and recommendations<br><br>Interprets latest study information
-    into understandable language<br><br>Establishes and conveys baseline recommendations
-    for major groups |\n\n| Response Level of Risk  | Responder | Criteria | Comments
-    |\n| --- | ----------- | ----------------------- | ----------------- | \n| High
-    | Requires validation from an infectious disease expert | Questions regarding
-    hygiene practices by groups or businesses<br><br> Presentation of severe symptoms<br><br>Questions
-    submitted by local NGO staff members<br><br>Questions about quarantine procedures
-    and timelines following potential and confirmed COVID-19 illnesses<br><br>Questions
-    about weather patterns, geography, and coronaviruses/upper and lower respiratory
-    diseases<br><br>Clinical questions following exposure to patient with presumptive
-    COVID-19 diagnosis<br><br>Questions about respirators, ARDS, oxygen treatments,
-    etc.<br><br>Questions about international health system comparison and treatment
-    protocols<br><br>Questions about food deliveries/pick-ups and infection potential
-    | Knowledge of clinical practices<br><br>Interpretation of latest CDC and state/national
-    guidelines<br><br>Ability to translate newest information into risk provisions
-    for populations |\n\n| Response Level of Risk  | Responder | Criteria | Comments
-    |\n| --- | ----------- | ----------------------- | ----------------- | \n| Medium
-    | Responded by someone with public health expertise | Questions regarding contact/exposure
-    with someone who has tested positive for COVID-19 (confirmed and unconfirmed cases)<br><br>
-    Questions regarding disinfectants related to COVID-19 (CDC guidelines updated
-    daily)<br><br>Questions related to plausible but disputed misinformation (i.e.
-    administration of vitamin C and its potential impacts; zoonotic transmission routes;
-    vaccine development, etc.)<br><br>Questions about statistical models<br><br>Questions
-    about infection modeling and projections<br><br>Questions about viral load<br><br>Questions
-    about supply chain and logistics<br><br>Questions about testing kit shortages
-    | General knowledge of national and international health systems and protocols<br><br>Ability
-    to navigate established scientific journals and Ministry/Department of Health
-    studies<br><br>Knowledge of regression analysis and public health terminology
-    |\n\n| Response Level of Risk  | Responder | Criteria | Comments |\n| --- | -----------
-    | ----------------------- | ----------------- | \n| Medium | Requires validation
-    from someone with public health expertise | Questions regarding state and regional
-    health restrictions and guidelines <br><br>Questions regarding infection prevention
-    on an individual basis<br><br>Questions about public health terminology (i.e.
-    case-fatality rate; R0; DALYs; etc.)<br><br>Questions regarding public transportation<br><br>Questions
-    about over-the-counter treatment recommendations <br><br> Questions about breaking
-    news stories related to COVID-19 <br><br>Questions about conflicting information
-    (i.e. self-isolating vs. testing; new study contradicts prior study’s findings;
-    etc.)<br><br>Questions about asymptomatic transmission<br><br>Questions about
-    viral shedding (general)<br><br>Questions about pediatric patterns and presentations
-    of COVID-19<br><br>Questions about needs to leave/end self-isolation/quarantine<br><br>Questions
-    about regional, national, and international travel | Knowledge of current at-home
-    treatment standards and recommendations<br><br>Ability to translate CDC guidelines
-    for infection prevention in professional environments<br><br>General understanding
-    of public health prevention theories |\n\n| Response Level of Risk  | Responder
+    of our [Health Desk](https://health-desk.org/) project, which includes limited
+    ability to access scientific experts in timing that aligns with journalistic and
+    fact-checking turnaround times, and the challenge of knowing what kind of expertise
+    is required for different public health topic areas. This risk framework is based
+    on standardized criteria that account for: a) the type of query and b) the expertise
+    needed to answer a particular public health question. \n\nFact-checking organizations,
+    journalists, and social media companies have identified the challenge of finding
+    the right approach to triaging health misinformation content and determining if
+    and how experts should be integrated into fact-checks. Frameworks like this one
+    can assist in streamlining risk prioritization of health misinformation as well
+    as lead to more targeted and manageable expert outreach if and when needed. This
+    framework can be adapted to a range of public health contexts and topics, and
+    we are always excited to collaborate with other groups interested in expanding
+    on the framework or developing relevant case studies together. \n\nBelow is an
+    example of the Query Risk & Response Criteria framework, developed in collaboration
+    with Health Desk Public Health Research Lead Christin Gilmer, as applied to COVID-19
+    misinformation, oriented towards our question-fielding process with Health Desk:
+    \n\n| Response Level of Risk  | Responder | Criteria | Comments |\n| --- | -----------
+    | ----------------------- | ----------------- | \n| High | Responded to by an
+    infectious disease expert |  Reference to severe symptoms (with and without shortness
+    of breath) including blood oxygen level of 95% or below; BP below 90/60; seizures;
+    etc. (not necessarily meeting all the COVID-19 testing requirements/high-risk
+    groups)<br><br>Questions about active traveling from a high-risk region to a non-high-risk
+    region (differs by day<br><br>Questions about autoimmune conditions and their
+    risk profiles<br><br>Questions about interpretation of study findings<br><br>Questions
+    about pre-published studies with links<br><br> Questions submitted by elected
+    officials<br><br>Questions submitted by international NGOs <br><br> Questions
+    about clinical conditions, presentations, or risk factors<br><br>Questions about
+    biological responses to coronaviruses<br><br>Questions about diagnostics for COVID-19
+    (RT-PCRs, CTs, chest x-rays, etc.) | Regarding clinical knowledge and recommendations<br><br>Interprets
+    latest study information into understandable language<br><br>Establishes and conveys
+    baseline recommendations for major groups |\n\n| Response Level of Risk  | Responder
     | Criteria | Comments |\n| --- | ----------- | ----------------------- | -----------------
-    | \n| Low | Responded to by an experience fact-checker | Questions regarding transmission
-    methods<br><br>Questions regarding high-risk groups (major categories of hypertension;
-    cancer; diabetes; cardiovascular disease; chronic respiratory disease)<br><br>Questions
-    regarding CDC testing protocols<br><br>Question about COVID-19’s origins and spread<br><br>Questions
+    | \n| High | Requires validation from an infectious disease expert | Questions
+    regarding hygiene practices by groups or businesses<br><br> Presentation of severe
+    symptoms<br><br>Questions submitted by local NGO staff members<br><br>Questions
+    about quarantine procedures and timelines following potential and confirmed COVID-19
+    illnesses<br><br>Questions about weather patterns, geography, and coronaviruses/upper
+    and lower respiratory diseases<br><br>Clinical questions following exposure to
+    patient with presumptive COVID-19 diagnosis<br><br>Questions about respirators,
+    ARDS, oxygen treatments, etc.<br><br>Questions about international health system
+    comparison and treatment protocols<br><br>Questions about food deliveries/pick-ups
+    and infection potential | Knowledge of clinical practices<br><br>Interpretation
+    of latest CDC and state/national guidelines<br><br>Ability to translate newest
+    information into risk provisions for populations |\n\n| Response Level of Risk
+    \ | Responder | Criteria | Comments |\n| --- | ----------- | -----------------------
+    | ----------------- | \n| Medium | Responded by someone with public health expertise
+    | Questions regarding contact/exposure with someone who has tested positive for
+    COVID-19 (confirmed and unconfirmed cases)<br><br> Questions regarding disinfectants
+    related to COVID-19 (CDC guidelines updated daily)<br><br>Questions related to
+    plausible but disputed misinformation (i.e. administration of vitamin C and its
+    potential impacts; zoonotic transmission routes; vaccine development, etc.)<br><br>Questions
+    about statistical models<br><br>Questions about infection modeling and projections<br><br>Questions
+    about viral load<br><br>Questions about supply chain and logistics<br><br>Questions
+    about testing kit shortages | General knowledge of national and international
+    health systems and protocols<br><br>Ability to navigate established scientific
+    journals and Ministry/Department of Health studies<br><br>Knowledge of regression
+    analysis and public health terminology |\n\n| Response Level of Risk  | Responder
+    | Criteria | Comments |\n| --- | ----------- | ----------------------- | -----------------
+    | \n| Medium | Requires validation from someone with public health expertise |
+    Questions regarding state and regional health restrictions and guidelines <br><br>Questions
+    regarding infection prevention on an individual basis<br><br>Questions about public
+    health terminology (i.e. case-fatality rate; R0; DALYs; etc.)<br><br>Questions
+    regarding public transportation<br><br>Questions about over-the-counter treatment
+    recommendations <br><br> Questions about breaking news stories related to COVID-19
+    <br><br>Questions about conflicting information (i.e. self-isolating vs. testing;
+    new study contradicts prior study’s findings; etc.)<br><br>Questions about asymptomatic
+    transmission<br><br>Questions about viral shedding (general)<br><br>Questions
+    about pediatric patterns and presentations of COVID-19<br><br>Questions about
+    needs to leave/end self-isolation/quarantine<br><br>Questions about regional,
+    national, and international travel | Knowledge of current at-home treatment standards
+    and recommendations<br><br>Ability to translate CDC guidelines for infection prevention
+    in professional environments<br><br>General understanding of public health prevention
+    theories |\n\n| Response Level of Risk  | Responder | Criteria | Comments |\n|
+    --- | ----------- | ----------------------- | ----------------- | \n| Low | Responded
+    to by an experience fact-checker | Questions regarding transmission methods<br><br>Questions
+    regarding high-risk groups (major categories of hypertension; cancer; diabetes;
+    cardiovascular disease; chronic respiratory disease)<br><br>Questions regarding
+    CDC testing protocols<br><br>Question about COVID-19’s origins and spread<br><br>Questions
     about testing locations and procedures (including requirements)<br><br>Questions
     regarding outbreak locations<br><br>Questions about school closures<br><br>Questions
     about incubation period (general)<br><br>Questions about social distancing/isolating/quarantining<br><br>Questions
@@ -15271,7 +15287,7 @@ story:
     to use popular terminology to complete research on pre-populated topics and guidance<br><br>Knowledge
     of national and international resources for schools, food, emergency services<br><br>Ability
     to quickly respond to popular, frequently asked topics with developing information
-    |\n\n\n\n"
+    |\n"
   words_by:
     en-US:
     - sys:
@@ -15317,6 +15333,7 @@ story:
       role:
         en-US: Program Manager
   date: '2021-09-16'
-  title-en: Strategies for Triaging Responses to Health Misinformation Online
-  alt_date: *70
+  image: https://images.ctfassets.net/g118h5yoccvd/4vddyUr4lnpThwONIeuAcq/f64445bac1bbd77100eecbee49b87148/meedan_blog_triaging_health_misinformation_2.jpg
+  title-en: Strategies for triaging responses to health misinformation online
+  alt_date: *69
   alt_date_string: '2021-09-16'
