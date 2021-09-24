@@ -4245,3 +4245,83 @@ event:
   slug: fighting-disinformation-on-social-networks-what-did-we-learn-portuguese
   event_date_string: '2021-07-06'
   event_end_date_string: '2021-07-06'
+- sys:
+    id: 7qH5FqGZa2U3LpZI4Cj6EY
+    created_at: !ruby/object:DateTime 2021-09-23 16:26:45.777000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-23 16:43:23.768000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Power to the people: Equipping citizens with tools to fight COVID-19 misinformation'
+  event_date: !ruby/object:DateTime 2021-09-22 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2021-09-22 00:00:00.000000000 Z
+  time: |-
+    - *London* 1:00 PM
+    - *Berlin* 2:00 PM
+    - *Nairobi* 3:00 PM
+  status: Past
+  location_human_friendly: Online on Airmeet
+  register_link: https://www.airmeet.com/e/c90641d0-0198-11ec-a770-e9a521a4bde8
+  long_description: |-
+    [Code for Africa](https://github.com/CodeForAfrica/ "Code for Africa") and [UNESCO](https://en.unesco.org/ "UNESCO") host this event to teach everyday technology users how to spot misinformation and educate their communities, and equip fact-checkers with the knowledge to stop misinformation from spreading before it starts.
+
+    Featuring speakers from the following organizations:
+
+    - Eric Mugendi, Meedan's Program Manager for East and Sub-Saharan Africa
+    - [Allan Cheboi](https://twitter.com/Allan_cheboi "Allan Cheboi Twitter account"), CfA’s Senior Investigations Manager at the iLAB & ANCIR, managing a team of forensic data scientists/ analysts and technologists in eight African countries
+    - [Doreen Wainainah](https://twitter.com/DoreenWainainah "Doreen Wainainah twitter account"), the News Editor at [PesaCheck](https://pesacheck.org/ "PesaCheck"), working with a team of over 20 fact-checkers and researchers across Africa in the fight against misinformation
+    - [Nelson Kwaje](https://twitter.com/nelsonkwaje "Nelson Kwaje twitter account"), a technologist and human rights campaigner working with [211 Check](https://211check.org/ "211 Check") to combat hate speech and COVID-19 misinformation in South Sudan
+  slug: power-to-the-people-equipping-citizens-with-tools-to-fight-covid-19
+  non_public: false
+  event_date_string: '2021-09-22'
+  event_end_date_string: '2021-09-22'
+- sys:
+    id: 1QJpVWVLa6MgdiFZ4oM1h1
+    created_at: !ruby/object:DateTime 2021-09-23 16:43:31.355000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-23 17:00:29.248000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Meedan Research at MISDOOM 2021
+  event_date: !ruby/object:DateTime 2021-09-21 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2021-09-22 00:00:00.000000000 Z
+  time: "- *London* 1:45pm"
+  status: Past
+  location_human_friendly: Online on Zoom
+  register_link: https://www.eventbrite.co.uk/e/misdoom-2021-tickets-167462281191#
+  long_description: |-
+    The 3rd Multidisciplinary International Symposium on Disinformation in Open Online Media (MISDOOM) 2021 is an annual conference held by the University of Oxford.
+
+    MISDOOM brings together researchers from multiple disciplines, including communication science, computer science, computational social science, political communication, journalism and media studies, as well as practitioners in journalism and online media.
+
+    Dr. Scott Hale, Meedan's Director of Research and Associate Professor and Senior Research Fellow at the [Oxford Internet Institute](https://www.oii.ox.ac.uk/people/scott-hale/ "Oxford Internet Institute"), will present the Research team's latest publication on [claim matching using similarity algorithms.](https://meedan.com/blog/claim-matching-global-fact-checks-at-meedan/ "Claim matching global fact-checks at Meedan")
+
+    Ashkan Kazemi, Meedan summer Research Fellow and PhD candidate at the University of Michigan, Ann Arbor, will present the Research team's latest publication on the effectiveness of our Whatsapp tiplines.
+  slug: meedan-research-at-misdoom-2021
+  non_public: true
+  event_date_string: '2021-09-21'
+  event_end_date_string: '2021-09-22'

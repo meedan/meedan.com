@@ -3,11 +3,105 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-17 15:08:19.336000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-22 20:26:06.626000000 Z
     content_type_id: moduleStories
-    revision: 81
+    revision: 82
   title: Blog
   stories:
+  - sys:
+      id: 1oXLBJBrDz6NzQFixhhN8r
+      created_at: !ruby/object:DateTime 2021-09-13 10:30:35.187000000 Z
+      updated_at: !ruby/object:DateTime 2021-09-22 20:25:40.252000000 Z
+      content_type_id: story
+      revision: 1
+    title: Claim matching global fact-checks at Meedan
+    slug: claim-matching-global-fact-checks-at-meedan
+    topic:
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+    lead_image:
+      sys:
+        id: 1KP546nM75U1RrWjOnbiho
+        created_at: !ruby/object:DateTime 2021-09-15 09:33:37.002000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-17 16:51:32.274000000 Z
+      title: claim_matching_header
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/1KP546nM75U1RrWjOnbiho/c3163328e8a240b1507150f9b7ceb6a0/meedan_blog_matching-claims.jpg"
+    body: "Meedan's Research team has recently published the paper \"[Claim Matching
+      Beyond English to Scale Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)\"
+      at the 2021 [Association for Computational Languages conference](https://2021.aclweb.org/).
+      This paper describes how we built equitable technology through a public dataset
+      of WhatsApp messages and fact-check headlines to claim match in multiple languages.
+      During my summer 2020 fellowship with Meedan, I worked on this project with
+      Kiran Garimella (MIT/Rutgers), Devin Gaffney (Meedan) and Scott Hale (Meedan
+      & Oxford).\n\n![Claim Matching Examples](//images.contentful.com/g118h5yoccvd/6kW07Iu7ug3eIDH6FhMYcG/0f3af8170fbd1f96ac013207e6c9bb64/claim_matching_examples_table1.png)\n\n##
+      The Problem\nHuman fact-checking is high-quality but time-consuming. However,
+      we can still scale it by finding all the content that a fact-check applies to.
+      Simple approaches such as measuring overlap between texts often fall short when
+      similar claims are expressed with different words, for example, \"the Earth
+      is warming more quickly than ever before\" and \"climate change has never happened
+      so fast.\" Similarly, there are times when high word overlap is irrelevant since
+      key information in the claims are different: \"Bolsonaro negotiates border reopening
+      with Uruguay\" and \"Trump negotiates border reopening with Canada\" are examples
+      of this shortcoming.\n\nPrior natural language processing (NLP) [research by
+      Shaden Shaar and colleagues](https://www.aclweb.org/anthology/2020.acl-main.332/)
+      on claim matching focused on English, but what if we wanted to support fact-checking
+      efforts in India or Brazil? The main obstacles for doing this are that data-hungry,
+      state-of-the-art NLP algorithms are not available for lower-resourced languages,
+      and creating new datasets in such languages is costly.\n\n## Our approach\nIn
+      English, we found we could build a solution with [Sentence-BERT (SBERT)](https://www.sbert.net/).
+      However, we could not train a similar model for other languages due to a lack
+      of data in those languages. SBERT (and most modern NLP methods) represent text
+      as a sequence of numbers (dense vectors). Since SBERT already performed well
+      in English, we might be able to get it to perform well in other languages if
+      the numeric representations of those languages were aligned with English. We
+      did exactly that using a combination of [knowledge distillation](https://www.aclweb.org/anthology/2020.emnlp-main.365/),
+      [parallel datasets](https://opus.nlpl.eu/) and [Facebook’s XLM-Roberta model](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/).\n\nThe
+      knowledge distillation technique created a new model where (i) the vectors for
+      English sentences were very close to the original SBERT model and (ii) sentences
+      in different languages also vectors very similar to their English translations.
+      This technique essentially dragged all the vector representations for the other
+      languages into alignment with the high-performing English-language model. The
+      resulting model can generate contextual embeddings for a group of high-resource
+      (English, Hindi) and low-resource (Bengali, Malayalam, Marathi, Tamil and Telugu)
+      languages. We publicly released our model called \"Indian XLM-R\" (I-XLM-R)
+      on [huggingface](https://huggingface.co/meedan/indian-xlm-r), an open-source
+      online community for sharing NLP models and technology. Our research paper describes
+      the solution architecture in greater detail.\n\n## Does it work?\nTo evaluate
+      our solution we created two multilingual, mainly Indian datasets: a claim detection
+      set (\"does this text contain check-worthy claims?\") and a claim matching set
+      (\"can the claims in these two posts be served with one fact-check?\"). This
+      was made possible through collaboration with fact-checking organizations running
+      misinformation tiplines using Meedan’s software, [Check](https://meedan.com/check),
+      and  messages from  public WhatsApp groups collected previously by Kiran Garimella.
+      Details of our dataset curation process can be found in our paper, and [the
+      data is available](https://zenodo.org/record/4890950). Using our novel constructed
+      benchmark, we found that our I-XLM-R model outperformed existing state-of-the-art
+      NLP models such as [Google’s LaBSE](https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html)
+      and [Facebook’s LASER](https://engineering.fb.com/2019/01/22/ai-research/laser-multilingual-sentence-embeddings/).\n\n##
+      Closing Remarks\nOur approach is not limited to Indian languages & works for
+      most languages. Although we mainly evaluated I-XLM-R on monolingual claim pairs
+      (both claims in the same language), we have also observed good cross-lingual
+      performance in practice, which demonstrates the ability of our model to find
+      similar claims across languages. \n\nMeedan is already using the I-XLM-R based
+      solution to support fact-checking partners. Claim matching allows WhatsApp users
+      to get an immediate response to a request they send to a tipline if there is
+      a close match. It also allows fact-checking partners to better understand the
+      prevalence of a claim by grouping all of its repeats and variants together.
+      Members of Meedan's program team recently used our approach to study [the top
+      items submitted to misinformation tiplines run by partners in Brazil and Indian](https://meedan.com/blog/what-spreads-on-whatsapp-a-snapshot-of-tipline-content-from-india-and-brazil/).\n\nLastly
+      I want to acknowledge the help of and thank my co-authors, my PhD advisor Professor
+      Rada Mihalcea at University of Michigan, the Meedan team and their fact-checking
+      partners, our annotators and the anonymous reviewers who provided us with thoughtful
+      feedback: a big thank you to you all!\n\n__Privacy and data governance__: The
+      privacy of WhatsApp users is our top priority. This analysis was done on anonymous,
+      aggregated data containing only the raw text of messages sent to the tiplines
+      and large public groups. Our research did not use any information about users.\n\nAll
+      tipline data is owned by the organizations running the tiplines. Our research
+      only includes data from partners who opted-in to this research project."
+    words_by:
+    - sys:
+        id: 7CBpK5YT4WAGbnE7Eq3BAL
   - sys:
       id: 7JAO3Qk85WFZdJ0zPYH1pS
       created_at: !ruby/object:DateTime 2021-09-16 19:32:51.233000000 Z
@@ -403,87 +497,6 @@ moduleStories:
       family (about 7 houses)\n- I have a cat named Dolly who I’m obsessed with\n-
       I used to sing opera\n- I love love love spicy food!\n\n![Dolly the cat](//images.ctfassets.net/g118h5yoccvd/6Og5DH2fbgdMdmxniFw2RQ/e01c89a57abd622a11fa66769b4546a7/meedan_blog_welcome_jenna.png)\n<p
       class=\"caption text-align--center\">Jenna's cat Dolly.</p>"
-  - sys:
-      id: XT5zBnWKNGHsYkYMfx8Vo
-      created_at: !ruby/object:DateTime 2021-09-01 07:19:44.954000000 Z
-      updated_at: !ruby/object:DateTime 2021-09-01 07:29:21.973000000 Z
-      content_type_id: story
-      revision: 2
-    title: 'Vicarious trauma: mitigating graphic content in newsrooms '
-    slug: vicarious-trauma-mitigating-graphic-content-in-newsrooms
-    topic:
-    - sys:
-        id: 7jQKmsQvOs6pjAjLth5gsA
-    - sys:
-        id: 2JV51Hja1BxcyGdNP5VID3
-    lead_image:
-      sys:
-        id: 7fxnpXpzVtgVmwsa2rfGE
-        created_at: !ruby/object:DateTime 2021-09-01 07:21:30.066000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-01 07:22:03.107000000 Z
-      title: 'Vicarious trauma: mitigating graphic content in newsrooms '
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/7fxnpXpzVtgVmwsa2rfGE/4e6c1adbc2204603883a4b5731fad3dd/meedan_blog_graphic-content-2.jpg"
-    description: In this article we speak to [Ekta](https://ekta-facts.com/) editors
-      to understand how they are dealing with the psychological effects of regular
-      exposure to graphic imagery. What is the aftermath of such exposure on fact-checkers?
-      Can newsrooms develop certain practices in dealing with graphic images? What
-      support and resources can be made available to fact-checkers experiencing vicarious
-      trauma? These are areas we explore with Ekta's editors who are on the frontlines
-      of handling graphic imagery.
-    body: |-
-      This month journalists and fact-checkers in India have encountered videos and images related to the Taliban taking over power in Afghanistan after 20 years of conflict. As newsrooms verify old, misleading and false images and videos showing [terror attacks](https://www.boomlive.in/fact-check/fact-check-fake-news-afghanistan-kabul-airport-taliban-isis-terror-attack-blast-photos-videos-viral-fake-tv-news-14448), [violence against women](https://www.thequint.com/news/webqoof/woman-pilot-stoned-to-death-in-afghanistan-no-this-image-is-old-fact-check) and [conflict in a politically unstable environment,](https://www.indiatoday.in/fact-check/story/fact-check-old-video-from-syria-shared-as-taliban-opening-fire-in-afghanistan-1843481-2021-08-20) this imagery has added to their recent experience of dealing with distressing [images and videos related to the second wave of COVID-19 in India](https://factly.in/a-10-month-old-video-is-shared-as-a-present-day-video-of-two-dead-bodies-dumped-in-the-open-at-gandhi-hospital-telangana/). Unfiltered feeds from social media and messaging apps and misleading content aired by mainstream media has exposed fact-checkers to graphic images on a daily basis. While audiences have more opportunities to turn off such news feeds, journalists and fact-checkers are required to work extensively with such traumatic imagery. This constant exposure can cause [vicarious trauma](https://www.pressgazette.co.uk/vicarious-trauma-how-dealing-with-graphic-videos-and-images-can-harm-journalists-mental-health/) and can impact journalists' mental health and wellbeing.
-
-      In this article we speak to [Ekta](https://ekta-facts.com/) editors to understand how they are dealing with the psychological effects of regular exposure to graphic imagery. What is the aftermath of such exposure on fact-checkers? Can newsrooms develop certain practices in dealing with graphic images? What support and resources can be made available to fact-checkers experiencing vicarious trauma? These are areas we explore with Ekta's editors who are on the frontlines of handling graphic imagery.
-
-      __Guidelines and practices to deal with traumatic content__
-
-      Organizations handling graphic content that depicts violence are beginning to take structured steps to support their teams. The [Dart Center for Journalism and Trauma ](https://dartcenter.org/resources/handling-traumatic-imagery-developing-standard-operating-procedure)recommends simple rituals, deliberative pauses, and other acts that build in a certain amount of distance from content. These can help cultivate a sense that one is in charge of the material, rather than the other way around. 
-
-      Editors at Ekta have put in place guidelines and practices in their newsrooms to deal with traumatic content. 
-
-      [Factly](https://factly.in/)'s practices include the following:
-      -   Sharing clear disclaimers before sharing any traumatic content with the larger team
-      -   Conducting regular reviews with the team to understand if they have had any traumatic experiences, and taking them off from such work if a need arises
-
-      [WebQoof](https://www.thequint.com/news/webqoof) takes the following steps on a daily basis:
-      -   Give yourself some time. Don't ignore it if your mind tells you that you can't do it. Take a break and come back to it later, if that helps. 
-      -   Switch off after work hours and do something that makes you feel better. Read, go for a walk, sleep, watch something that makes you happy. 
-      -   Talk to your friends, colleagues at work about it. Don't hesitate or think that you'd be misunderstood. 
-      -   Share graphic imagery with other colleagues with a trigger warning
-
-      [India Today Fact Check](https://www.indiatoday.in/fact-check) recognises that journalists and fact-checkers have been exposed to traumatic content online and on the ground. The following steps have been recommended to team members who have participated in an intensive training on mitigating traumatic content:
-      -   Turning off audio while watching content that is potentially traumatic 
-      -   Watching images in black and white by reducing colour vibrancy to reduce the impact of graphic images 
-      -   Adding warnings to alert audiences about traumatic content. This is a practice that is followed for all fact-checks where original claims include graphic imagery. 
-      -   Content that is extremely violent and disturbing is also not included in the fact-checking process. 
-      -   Deep breathing exercises to release tension and trauma 
-      -   Bracing oneself before watching such content during work 
-
-      [BOOM](https://www.boomlive.in/) recognises that exposure to traumatic imagery causes vicarious trauma and leads to long term adverse effects on individuals. The situation in Afghanistan and the recent spate of attacks on minorities in India has created a perfect storm of triggering videos and images. This is in addition to a prolonged anxiety-inducing news cycle over the pandemic and uncertainty about the future. The following steps are recommended by BOOM to mitigate the impact of working in such an environment:
-      -   Create a virtual separation for work. With work from home several teams are communicating online, especially using WhatsApp. If possible, move to Slack so that work messages don't blend into non-work conversations.
-      -   Give a disclaimer (such as Trigger Warning - photo shows blood/video of an execution/ mob thrashing a woman/ video shows child abuse) when sharing graphic and triggering imagery
-      -   Don't view triggering messages on your phone. Have a designated work space where you can view such content
-      -   Watch triggering videos without the sound on first viewing. If the audio is essential to the fact-check it can be heard later. Covering portions of the video with a book or a cut-out while working on the video also helps. We use blurred out screenshots and don't provide URLs to violent imagery.
-      -   Create filters on personal and work social media handles that disable auto-playing of any video. That way you are not blindsided if someone outside the organisation tweets a triggering video without giving a heads-up.
-      -   Not everyone on the team needs to view triggering content. If you're not working on the fact-check there's no reason to view such content
-      -   Don't carry around traumatic images and videos on your phone. Schedule time at least once a week to delete traumatic content from your phone.
-      -   Don't watch triggering content after work hours and especially don't watch it closer to bed time. 
-      -   If possible rotate team members so that the burden of watching triggering imagery is not shouldered by a few and everyone gets a break to recover. Tell team members it's healthy to speak up and ask for help if they are feeling stressed from watching traumatic imagery. 
-      -   Following a self-care routine is critical. Do something that soothes/that is social/that involves movement and something that gives you joy. If all of those things can be combined while being in nature, then even better. (Meditation, exercise are great stress busters).
-
-      __Recognising the need for self-care and reducing the stigma around mental health __
-
-      Fact-checking groups are also beginning to realise that mental health issues and concerns cannot be ignored as they affect people's mental health. Repeated exposure and interaction with visuals can be disturbing and distressing for fact-checkers. Institutional mechanisms have been designed by some Ekta groups to address the issue. [Vishvas News](https://www.vishvasnews.com/) conducts regular meetings to understand if team members are facing any work-related issue. Jagran News Media has also put in place specific policies for content creators covering traumatic and graphic content. Factly conducted an in-person wellness workshop for the team. India Today Fact Check recognises that being sensitive to such mental health issues is not a weakness and team members might feel disturbed and that it's important to acknowledge the issue. 
-
-      __Mitigating vicarious trauma__
-
-      Seeking out community and organisational support can help those who have been exposed to traumatic content. WebQoof recommends conversations about trauma awareness and trauma literacy. Hearing more from people who have been working in this space can potentially help individuals and can support them in enabling their teams to cope with the issue.
-    words_by:
-    - sys:
-        id: 63aDI74CtzeFHW0hZ3xPH6
-    - sys:
-        id: o2SUkfpjcZYozMKy01Wis
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
