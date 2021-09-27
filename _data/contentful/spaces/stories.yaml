@@ -14621,34 +14621,8 @@ story:
   alt_date: *64
   alt_date_string: '2021-09-01'
 - sys:
-    id: 19S4OoLymOnpwjlk6d7Zyd
-    created_at: &65 !ruby/object:DateTime 2021-09-01 07:28:31.550000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-01 07:28:45.203000000 Z
-    content_type_id: story
-    revision: 0
-    space:
-      sys:
-        id: g118h5yoccvd
-    type: Entry
-    content_type:
-      sys:
-        id: story
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-  title: 'Tipline promotion and a community of citizen fact-checkers: Insights from
-    BOOM'
-  slug: tipline-promotion-and-a-community-of-citizen-fact-checkers-insights-from
-  date: '2021-09-01'
-  title-en: 'Tipline promotion and a community of citizen fact-checkers: Insights
-    from BOOM'
-  alt_date: *65
-  alt_date_string: '2021-09-01'
-- sys:
     id: 4yKjia2BNTYX9l3IeVob3T
-    created_at: &66 !ruby/object:DateTime 2021-09-01 07:29:44.071000000 Z
+    created_at: &65 !ruby/object:DateTime 2021-09-01 07:29:44.071000000 Z
     updated_at: !ruby/object:DateTime 2021-09-01 10:32:20.955000000 Z
     content_type_id: story
     revision: 9
@@ -14735,14 +14709,14 @@ story:
   image: https://images.ctfassets.net/g118h5yoccvd/6AGkrQoNR0VstN6KVIbhyd/b8ab4f2c78707c8c215e7c83e8318ef2/meedan_blog_BOOM-1.jpg
   title-en: 'Tipline promotion and a community of citizen fact-checkers: insights
     from BOOM'
-  alt_date: *66
+  alt_date: *65
   alt_date_string: '2021-09-01'
 - sys:
     id: 6Xg0CIMP41yEiAgf5HDflI
     created_at: !ruby/object:DateTime 2021-09-07 08:58:30.518000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-08 19:08:02.068000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-17 15:06:52.653000000 Z
     content_type_id: story
-    revision: 2
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -14755,7 +14729,7 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Check Global Network Stands In Solidarity With Women Journalists In Afghanistan
+  title: Check Global Network stands in solidarity with women journalists in Afghanistan
   slug: check-global-network-stands-in-solidarity-with-women-journalists-in
   topic:
     en-US:
@@ -14845,11 +14819,11 @@ story:
   alt_date: !ruby/object:DateTime 2021-09-07 00:00:00.000000000 Z
   date: '2021-09-07'
   image: https://images.ctfassets.net/g118h5yoccvd/399FUNGeJJhd1wFzuy8grq/da703c537afaebcdc4f3cc9fb41bac92/meedan_blog_afghanistan.jpg
-  title-en: Check Global Network Stands In Solidarity With Women Journalists In Afghanistan
+  title-en: Check Global Network stands in solidarity with women journalists in Afghanistan
   alt_date_string: '2021-09-07'
 - sys:
     id: 7xbS5zAayB1e1ga3Iv30et
-    created_at: &67 !ruby/object:DateTime 2021-09-07 19:21:14.162000000 Z
+    created_at: &66 !ruby/object:DateTime 2021-09-07 19:21:14.162000000 Z
     updated_at: !ruby/object:DateTime 2021-09-07 19:21:32.006000000 Z
     content_type_id: story
     revision: 0
@@ -14869,14 +14843,14 @@ story:
   slug: context-and-its-discontents
   date: '2021-09-07'
   title-en: Context and its Discontents
-  alt_date: *67
+  alt_date: *66
   alt_date_string: '2021-09-07'
 - sys:
     id: cDcJeXqDqE78rVjKlxOiM
-    created_at: &68 !ruby/object:DateTime 2021-09-12 20:30:50.015000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-15 10:03:10.349000000 Z
+    created_at: &67 !ruby/object:DateTime 2021-09-12 20:30:50.015000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-21 20:04:15.173000000 Z
     content_type_id: story
-    revision: 0
+    revision: 5
     space:
       sys:
         id: g118h5yoccvd
@@ -14889,7 +14863,7 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'From ACL 2021 with Love: How I Learned to Stop Worrying and Love the BERT'
+  title: 'From ACL 2021 with love: How I learned to stop worrying and love the BERT'
   slug: acl-2021-how-i-learned-to-stop-worrying-and-love-the-bert
   topic:
     en-US:
@@ -14906,7 +14880,7 @@ story:
       sys:
         id: 5NkhiN7VjSTMZCIIe8fKuk
         created_at: !ruby/object:DateTime 2021-09-12 20:42:34.699000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-12 20:43:26.005000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-17 16:46:52.864000000 Z
       title: acl2021-reflections-lead-image
       description: ''
       url: "//images.ctfassets.net/g118h5yoccvd/5NkhiN7VjSTMZCIIe8fKuk/d21fd79adcf560826d00118c18befdaa/meedan_blog_BERT.jpg"
@@ -14914,21 +14888,25 @@ story:
     title: acl2021-reflections-lead-image
     url: "//images.ctfassets.net/g118h5yoccvd/5NkhiN7VjSTMZCIIe8fKuk/d21fd79adcf560826d00118c18befdaa/meedan_blog_BERT.jpg"
   body: |-
-    In a similar [blogpost last year](https://meedan.com/blog/misinformation-research-highlights-from-acl-2020/), I wrote about my experience at the 2020 Association of Computational Linguistics (ACL) conference: a top publication venue and event for research in natural language processing (NLP). Similar to last year, ACL 2021 happened virtually from August 1-6 and this time I was fortunate enough to present our own paper at the conference: "[Claim Matching Beyond English to Scale Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)." From the opening remarks, everyone knew that a major theme of the conference would be large language models and according to program committee co-chair Roberto Navigli, BERT-based models was the most prevalent topic in this year's proceedings. Despite that, the ACL 2021 conference I experienced came with a fresh and critical perspective, from the opening remarks to discussions around ethics, CO2 emissions and social good in natural language processing (NLP). The conference reminded me of "[Dr. Strangelove](https://en.wikipedia.org/wiki/Dr._Strangelove)", a cinematic masterpiece by Stanley Kubrick about the threat of nuclear war and how thoughtless actions from a small group of impactful people could endanger humanity. While in the past scientists only speculated about the threat of Artificial Intelligence to humanity, the [AI we feared already exists](https://www.washingtonpost.com/opinions/2021/07/21/ai-we-should-fear-is-already-here/). It was heartwarming and hopeful to see the computational linguistics community engage in these conversations before we hit the point of no-return on harmful AI and language technologies.
+    [The Association for Computational Linguistics conference](https://2021.aclweb.org/ "ACL 2021") (ACL) 2021, a top publication venue and event for research in [natural language processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing#:~:text=Natural%20language%20processing%20(NLP)%20refers,same%20way%20human%20beings%20can. "Natural language processing"), happened virtually from August 1-6, and I was fortunate to present our own paper at the conference: "[Claim Matching Beyond English to Scale Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)".
+
+    From the opening remarks, everyone knew that a major theme of the conference would be large language models and according to program committee co-chair Roberto Navigli, [BERT-based models](https://searchenterpriseai.techtarget.com/definition/BERT-language-model "BERT-based models for NLP") were the most prevalent topic in this year’s proceedings. The rest of the conference came with a fresh and critical perspective, from the opening remarks to discussions around ethics, CO2 emissions and social good in natural language processing (NLP). The conference reminded me of [Dr. Strangelove](https://en.wikipedia.org/wiki/Dr._Strangelove), a cinematic masterpiece by Stanley Kubrick about the threat of nuclear war and how thoughtless actions from a small group of impactful people could endanger humanity. While in the past scientists only speculated about the threat of Artificial Intelligence to humanity, the AI we feared already exists. It was heartwarming and hopeful to see the computational linguistics community engage in these conversations before we hit the point of no-return on harmful AI and language technologies.
 
     ## ACL Presidential Address
-    One of the opening talks of the conference was [Professor Rada Mihalcea's presidential address](https://www.youtube.com/watch?v=FXCSWvIsdEE) as the 2021 Association of Computational Linguistics president (coincidentally, she is also my PhD advisor). Dr. Mihalcea called on the NLP community to "stop chasing accuracy numbers" and expressed that "there is more to natural language processing than state of the art results." She rightfully pointed out that neural networks have taken over a large part of NLP even though they have major shortcomings such as lack of explainability, concerning biases and large environmental footprints that current NLP benchmarks overlook. The speech followed a year of heated discussions around the ethics and implications of large language models that peaked when [Timnit Gebru ](https://en.wikipedia.org/wiki/Timnit_Gebru)was [fired from and harassed by Google](https://www.theverge.com/22309962/timnit-gebru-google-harassment-campaign-jeff-dean) after publishing a [paper ](https://dl.acm.org/doi/10.1145/3442188.3445922)critical of large language models.
+    One of the opening talks of the conference was [Professor Rada Mihalcea's presidential address](https://www.youtube.com/watch?v=FXCSWvIsdEE) as the 2021 Association of Computational Linguistics president. Coincidentally, she is also my PhD advisor!
 
-    Large language models (LLMs) like [BERT](https://arxiv.org/abs/1810.04805) have transformed natural language processing and played a major role in recent advances in AI technology: powering personal assistants like Siri and Alexa, automating call center services and improving Google search. There are no silver bullets, however, when it comes to these models. A [2019 paper](https://aclanthology.org/P19-1355/) found that training a large Transformer-based language model emits 5x the CO2 emissions of a car in its lifetime. While a large number of ACL 2021 used pretrained LLMs, recently released LLMs like [OpenAI's GPT-3](https://openai.com/blog/gpt-3-apps/) or [Google's T5 ](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)cannot be trained on an academic budget, resulting in a monopoly over this impactful research trend by big tech companies. This is all made worse by the biases encoded in these models including stereotypes and negative attributions to specific groups that make their widespread adoption dangerous to society.
+    Dr. Mihalcea called on the NLP community to "stop chasing accuracy numbers" and expressed that "there is more to natural language processing than state of the art results." She rightfully pointed out that neural networks have taken over a large part of NLP even though they have major shortcomings such as lack of explainability, concerning biases and large environmental footprints that current NLP benchmarks overlook. The speech followed a year of heated discussions around the ethics and implications of large language models that peaked when [Timnit Gebru ](https://en.wikipedia.org/wiki/Timnit_Gebru) was [fired from and harassed by Google](https://www.theverge.com/22309962/timnit-gebru-google-harassment-campaign-jeff-dean) after submitting a [paper](https://dl.acm.org/doi/10.1145/3442188.3445922) critical of large language models to the [ACM FAccT conference](https://facctconference.org/).
+
+    Large language models (LLMs) like [BERT](https://arxiv.org/abs/1810.04805) have transformed natural language processing and played a major role in recent advances in AI technology: powering personal assistants like Siri and Alexa, automating call center services and improving Google search. There are no silver bullets, however, when it comes to these models. A [2019 paper](https://aclanthology.org/P19-1355/) found that training a large Transformer-based language model with neural architecture search emits 5x the CO2 emissions of a car in its lifetime. While a large number of ACL 2021 participants used pretrained LLMs, recently released LLMs like [OpenAI's GPT-3](https://openai.com/blog/gpt-3-apps/) or [Google's T5 ](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)cannot be trained on an academic budget, resulting in a monopoly over this impactful research trend by big tech companies. This is all made worse by the biases encoded in these models including stereotypes and negative attributions to specific groups that make their widespread adoption dangerous to society.
 
     Together with the major limitations of neural networks mentioned in Dr. Mihalcea's presidential address, we can see that amid the hype surrounding transformer-based language models, they are likely still long away from obtaining human-like intelligence and understanding of language. To quote an anonymous survey respondent from Dr. Mihalcea's research, "\[NLP\]'s major negative impact now is putting more money in less hands" and we should be changing our focus from improving accuracy numbers to factors such as interpretability, emissions and ethics to build language technology that benefits everyone, not just a handful of powerful companies.
 
     ## Green NLP Panel
-    Green NLP is a community initiative inside ACL that aims to address environmental impacts of NLP. A panel of academic and industry researchers moderated by [Dr. Iryna Gurevych](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp) discussed these impacts on the second day of the main conference. [Dr. Jesse Dodge](https://www.cs.cmu.edu/~jessed/) started the panel with a presentation on "Efficient Natural Language Processing", an effort to encourage more resource-efficient explorations in NLP and address some of the challenges creative and low budget research face when the publications venues are dominated by research around LLMs, without slowing down the impressive progress of NLP seen in recent years. Throughout the panel, many interesting points were brought up by the audience and the panelists.
+    Green NLP is a community initiative inside ACL that aims to address environmental impacts of NLP. A panel of academic and industry researchers moderated by [Dr. Iryna Gurevych](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp) discussed these impacts on the second day of the main conference. [Dr. Jesse Dodge](https://www.cs.cmu.edu/~jessed/) started the panel with a presentation on "Efficient Natural Language Processing", an effort to encourage more resource-efficient explorations in NLP and address some of the challenges creative and low budget research face when publication venues are dominated by research around LLMs, without slowing down the impressive progress of NLP seen in recent years. Throughout the panel, many interesting points were brought up by the audience and the panelists.
 
-    Time and again, panelists expressed their concern for lack of access to resources required to reproduce a lot of the papers presented at ACL conferences and some even called for interventions. [Dr. Mona Diab ](https://en.wikipedia.org/wiki/Mona_Diab)expressed how instead of the current "Black Box" approach to NLP through the use of LLMs, we should move towards "Green Box", efficient NLP that is easily reproducible and accessible to a broader and more diverse group of researchers, eventually resulting in democratization of NLP while in parallel reducing emissions of our research. Others pointed out that the current setup in NLP discourages competition from academia and moving towards a more green, efficient NLP could mitigate that and increase creativity in the community's research output.
+    Time and again, panelists expressed their concern for lack of access to resources required to reproduce a lot of the papers presented at ACL conferences and some even called for interventions. [Dr. Mona Diab](https://en.wikipedia.org/wiki/Mona_Diab) expressed how instead of the current "Black Box" approach to NLP through the use of LLMs, we should move towards "Green Box", efficient NLP that is easily reproducible and accessible to a broader and more diverse group of researchers, eventually resulting in democratization of NLP while in parallel reducing emissions of our research. Others pointed out that the current setup in NLP discourages competition from academia and moving towards a more green, efficient NLP could mitigate that and increase creativity in the community's research output.
 
-    The panel ended with a question from the audience, asking how energy use and emissions of NLP compare with cryptocurrencies and Bitcoin. One of the panelists [Dr. Emma Strubell](https://lti.cs.cmu.edu/people/222219405/emma-strubell) elaborated that we simply don't have an answer to this question yet. While [Bitcoin's energy consumption](https://digiconomist.net/bitcoin-energy-consumption/) currently can power up Czech Republic twice, there are [active efforts](https://finance.yahoo.com/news/ethereum-emissions-carbon-climate-bitcoin-proof-of-work-proof-of-stake-cryptocurrency-eth2-100420055.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAKDU3sVNjnFsciq-V05Rkr48fgEI408rOlXU9mG8qL_j69sBlq9q6jf406zvwaeM6mpCfzMa04iqfP_laI4XSV32YbKOl0kKk6o1YNvlwi_Cber_NDhXYPiv52akMh53Jp3_3j5uVP8j-TQfp87G33C7DcBT8DMU7AkDHwSD0sOm) in place to reduce emissions from cryptocurrencies that were simply made possible through measurement, something the NLP and AI community may be lacking behind. There is a lot to be done to ensure NLP is democratized and environmentally safe but community initiatives like Green NLP spark hope that these hopes could become a reality.
+    The panel ended with a question from the audience, asking how energy use and emissions of NLP compare with cryptocurrencies and Bitcoin. One of the panelists [Dr. Emma Strubell](https://lti.cs.cmu.edu/people/222219405/emma-strubell) elaborated that we simply don't have an answer to this question yet. While [Bitcoin's energy consumption](https://digiconomist.net/bitcoin-energy-consumption/) currently can power up Czech Republic twice, there are [active efforts](https://finance.yahoo.com/news/ethereum-emissions-carbon-climate-bitcoin-proof-of-work-proof-of-stake-cryptocurrency-eth2-100420055.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAKDU3sVNjnFsciq-V05Rkr48fgEI408rOlXU9mG8qL_j69sBlq9q6jf406zvwaeM6mpCfzMa04iqfP_laI4XSV32YbKOl0kKk6o1YNvlwi_Cber_NDhXYPiv52akMh53Jp3_3j5uVP8j-TQfp87G33C7DcBT8DMU7AkDHwSD0sOm) in place to reduce emissions from cryptocurrencies that were simply made possible through measurement, something the NLP and AI community may be lacking behind. There is a lot to be done to ensure NLP is democratized and environmentally safe, but community initiatives like Green NLP spark hope that these hopes could become a reality.
 
     ## NLP for Social Good
     The theme track for the conference, a workshop and a social event shared the same topic: NLP for social good: an effort from Association of Computational Linguistics to nurture discussions around the role of NLP in society. These discussions included efforts to define what "NLP for social good" means, to identify both positive and negative societal impacts of NLP and to find methods for better assessing these effects. [Dr. Chris Potts](https://web.stanford.edu/~cgpotts/)' last keynote of the conference "[Reliable characterizations of NLP systems as a social responsibility](https://www.youtube.com/watch?v=t_A36DDcG_0)" offered detailed and fresh directions for NLP systems that could decrease adverse social impacts of these systems and train and build models that promote performance towards our collective social values.
@@ -14943,6 +14921,7 @@ story:
     - [Structurizing Misinformation Stories via Rationalizing Fact-Checks](https://aclanthology.org/2021.acl-long.51/)
     - [Tackling Fake News Detection by Interactively Learning Representations using Graph Neural Networks
     ](https://aclanthology.org/2021.internlp-1.7/)
+    - Read more about [my experience at the 2020 ACL conference](https://meedan.com/blog/misinformation-research-highlights-from-acl-2020/ "Research highlights from ACL 2020")
   words_by:
     en-US:
     - sys:
@@ -14967,16 +14946,16 @@ story:
           Engineering.'
   date: '2021-09-12'
   image: https://images.ctfassets.net/g118h5yoccvd/5NkhiN7VjSTMZCIIe8fKuk/d21fd79adcf560826d00118c18befdaa/meedan_blog_BERT.jpg
-  title-en: 'From ACL 2021 with Love: How I Learned to Stop Worrying and Love the
+  title-en: 'From ACL 2021 with love: How I learned to stop worrying and love the
     BERT'
-  alt_date: *68
+  alt_date: *67
   alt_date_string: '2021-09-12'
 - sys:
     id: 1oXLBJBrDz6NzQFixhhN8r
-    created_at: &69 !ruby/object:DateTime 2021-09-13 10:30:35.187000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-15 09:59:25.579000000 Z
+    created_at: &68 !ruby/object:DateTime 2021-09-13 10:30:35.187000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-22 20:25:40.252000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -14989,8 +14968,8 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Matching Claims at Meedan
-  slug: matching-claims-at-meedan
+  title: Claim matching global fact-checks at Meedan
+  slug: claim-matching-global-fact-checks-at-meedan
   topic:
     en-US:
     - sys:
@@ -15006,21 +14985,21 @@ story:
       sys:
         id: 1KP546nM75U1RrWjOnbiho
         created_at: !ruby/object:DateTime 2021-09-15 09:33:37.002000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-15 09:34:37.622000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-17 16:51:32.274000000 Z
       title: claim_matching_header
       description: ''
       url: "//images.ctfassets.net/g118h5yoccvd/1KP546nM75U1RrWjOnbiho/c3163328e8a240b1507150f9b7ceb6a0/meedan_blog_matching-claims.jpg"
     description: ''
     title: claim_matching_header
     url: "//images.ctfassets.net/g118h5yoccvd/1KP546nM75U1RrWjOnbiho/c3163328e8a240b1507150f9b7ceb6a0/meedan_blog_matching-claims.jpg"
-  body: "We are excited that our paper, \"[Claim Matching Beyond English to Scale
-    Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)\" was recently
-    published at the [ACL 2021 conference](https://2021.aclweb.org/). I (Ashkan Kazemi)
-    worked on the project with Kiran Garimella (MIT/Rutgers), Devin Gaffney (Meedan)
-    and Scott Hale (Meedan & Oxford) during my summer 2020 fellowship at Meedan. In
-    this blogpost I describe how we built equitable technology and a public dataset
-    of WhatsApp messages and fact-check headlines for the task of claim matching in
-    multiple languages.\n\n![Claim Matching Examples](//images.contentful.com/g118h5yoccvd/6kW07Iu7ug3eIDH6FhMYcG/0f3af8170fbd1f96ac013207e6c9bb64/claim_matching_examples_table1.png)\n\n##
+  body: "Meedan's Research team has recently published the paper \"[Claim Matching
+    Beyond English to Scale Global Fact-Checking](https://aclanthology.org/2021.acl-long.347/)\"
+    at the 2021 [Association for Computational Languages conference](https://2021.aclweb.org/).
+    This paper describes how we built equitable technology through a public dataset
+    of WhatsApp messages and fact-check headlines to claim match in multiple languages.
+    During my summer 2020 fellowship with Meedan, I worked on this project with Kiran
+    Garimella (MIT/Rutgers), Devin Gaffney (Meedan) and Scott Hale (Meedan & Oxford).\n\n![Claim
+    Matching Examples](//images.contentful.com/g118h5yoccvd/6kW07Iu7ug3eIDH6FhMYcG/0f3af8170fbd1f96ac013207e6c9bb64/claim_matching_examples_table1.png)\n\n##
     The Problem\nHuman fact-checking is high-quality but time-consuming. However,
     we can still scale it by finding all the content that a fact-check applies to.
     Simple approaches such as measuring overlap between texts often fall short when
@@ -15031,7 +15010,7 @@ story:
     with Uruguay\" and \"Trump negotiates border reopening with Canada\" are examples
     of this shortcoming.\n\nPrior natural language processing (NLP) [research by Shaden
     Shaar and colleagues](https://www.aclweb.org/anthology/2020.acl-main.332/) on
-    claim matching  focused on English, but what if we wanted to support fact-checking
+    claim matching focused on English, but what if we wanted to support fact-checking
     efforts in India or Brazil? The main obstacles for doing this are that data-hungry,
     state-of-the-art NLP algorithms are not available for lower-resourced languages,
     and creating new datasets in such languages is costly.\n\n## Our approach\nIn
@@ -15042,21 +15021,22 @@ story:
     English, we might be able to get it to perform well in other languages if the
     numeric representations of those languages were aligned with English. We did exactly
     that using a combination of [knowledge distillation](https://www.aclweb.org/anthology/2020.emnlp-main.365/),
-    [parallel datasets](https://opus.nlpl.eu/) and [Facebook’s XLM-Roberta model](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/).
-    The knowledge distillation technique created a new model where (i) the vectors
-    for English sentences were very close to the original SBERT model and (ii) sentences
+    [parallel datasets](https://opus.nlpl.eu/) and [Facebook’s XLM-Roberta model](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/).\n\nThe
+    knowledge distillation technique created a new model where (i) the vectors for
+    English sentences were very close to the original SBERT model and (ii) sentences
     in different languages also vectors very similar to their English translations.
     This technique essentially dragged all the vector representations for the other
     languages into alignment with the high-performing English-language model. The
     resulting model can generate contextual embeddings for a group of high-resource
     (English, Hindi) and low-resource (Bengali, Malayalam, Marathi, Tamil and Telugu)
     languages. We publicly released our model called \"Indian XLM-R\" (I-XLM-R) on
-    [huggingface](https://huggingface.co/meedan/indian-xlm-r). We describe our solution
-    architecture in detail in our paper.\n\n## Does it work?\nTo evaluate our solution
-    we created two multilingual, mainly Indian datasets: a claim detection set (\"does
-    this text contain check-worthy claims?\") and a claim matching set (\"can the
-    claims in these two posts be served with one fact-check?\"). This was made possible
-    through collaboration with fact-checking organizations running misinformation
+    [huggingface](https://huggingface.co/meedan/indian-xlm-r), an open-source online
+    community for sharing NLP models and technology. Our research paper describes
+    the solution architecture in greater detail.\n\n## Does it work?\nTo evaluate
+    our solution we created two multilingual, mainly Indian datasets: a claim detection
+    set (\"does this text contain check-worthy claims?\") and a claim matching set
+    (\"can the claims in these two posts be served with one fact-check?\"). This was
+    made possible through collaboration with fact-checking organizations running misinformation
     tiplines using Meedan’s software, [Check](https://meedan.com/check), and  messages
     from  public WhatsApp groups collected previously by Kiran Garimella. Details
     of our dataset curation process can be found in our paper, and [the data is available](https://zenodo.org/record/4890950).
@@ -15083,17 +15063,39 @@ story:
     and large public groups. Our research did not use any information about users.\n\nAll
     tipline data is owned by the organizations running the tiplines. Our research
     only includes data from partners who opted-in to this research project."
+  words_by:
+    en-US:
+    - sys:
+        id: 7CBpK5YT4WAGbnE7Eq3BAL
+        created_at: !ruby/object:DateTime 2020-07-23 19:31:28.190000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-23 20:08:16.839000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Ashkan Kazemi
+      staff:
+        en-US: true
+      role:
+        en-US: NLP Research Intern
+      location:
+        en-US: Ann Arbor, MI, USA
+      bio:
+        en-US: '[Ashkan](https://www.ashkankazemi.ir "Ashkan''s personal website")
+          is a natural language processing (NLP) intern at Meedan, contributing to
+          research efforts in building fact-checking technology. He is also a PhD
+          candidate at University of Michigan''s department of Computer Science and
+          Engineering.'
   date: '2021-09-13'
   image: https://images.ctfassets.net/g118h5yoccvd/1KP546nM75U1RrWjOnbiho/c3163328e8a240b1507150f9b7ceb6a0/meedan_blog_matching-claims.jpg
-  title-en: Matching Claims at Meedan
-  alt_date: *69
+  title-en: Claim matching global fact-checks at Meedan
+  alt_date: *68
   alt_date_string: '2021-09-13'
 - sys:
     id: 7JAO3Qk85WFZdJ0zPYH1pS
-    created_at: &70 !ruby/object:DateTime 2021-09-16 19:32:51.233000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-16 20:53:57.755000000 Z
+    created_at: &69 !ruby/object:DateTime 2021-09-16 19:32:51.233000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-17 15:00:36.898000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -15106,7 +15108,7 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: Strategies for Triaging Responses to Health Misinformation Online
+  title: Strategies for triaging responses to health misinformation online
   slug: strategies-for-triaging-responses-to-health-misinformation-online
   topic:
     en-US:
@@ -15118,26 +15120,39 @@ story:
         revision: 1
       title:
         en-US: COVID-19
-  body: "Over the last 6 months, the Digital Health Lab has been analyzing how existing
-    misinformation risk frameworks apply in the public health context.\n\nThe practice
-    of risk management is inherently one of tradeoffs: a process of trying to find
-    the ideal balance of competing priorities. In public health, the risk frameworks
-    that are set in place are significant because the stakes of human health and wellbeing
-    are high. Though triaging risk in health contexts has been in place for millenia,
-    the concepts of “risk assessment” and “risk management” are relatively new, with
-    formal adoption having emerged in the last 4 to 5 decades as the complexity of
-    risk increased and scientific knowledge advanced and became more nuanced. \n\nToday,
-    public health risk frameworks are utilized for a wide range of applications: allocating
-    resources, triaging medical care, and setting policy on exposure levels to contaminants.
-    In hospital emergency departments, for example, triaging is a process in which
-    a patient enters the hospital, they are assessed for specific criteria that would
-    determine the severity of the condition, and that assessment is then used to prioritize
-    how quickly a patient is seen by a health care provider. The criteria for this
-    type of triaging can include a person’s overall diagnosis, their pulse, their
-    respiratory rate, and the presence of bleeding, among other factors. This information
-    is used to prioritize the urgency of responding to particular patients relative
-    to other patients also waiting for care. It is also important to note that, in
-    hospitals, this triaging process is dynamic, so as a patient’s situation or vulnerabilities
+  lead_image:
+    en-US:
+      sys:
+        id: 4vddyUr4lnpThwONIeuAcq
+        created_at: !ruby/object:DateTime 2021-09-16 21:10:32.942000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-17 17:32:36.869000000 Z
+      title: Strategies for triaging responses to health misinformation online
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/4vddyUr4lnpThwONIeuAcq/f64445bac1bbd77100eecbee49b87148/meedan_blog_triaging_health_misinformation_2.jpg"
+    description: ''
+    title: Strategies for triaging responses to health misinformation online
+    url: "//images.ctfassets.net/g118h5yoccvd/4vddyUr4lnpThwONIeuAcq/f64445bac1bbd77100eecbee49b87148/meedan_blog_triaging_health_misinformation_2.jpg"
+  body: "The [Digital Health Lab](https://meedan.com/digital-health-lab) has been
+    analyzing how existing misinformation risk frameworks apply in the public health
+    context.\n\nThe practice of risk management is inherently one of tradeoffs: a
+    process of trying to find the ideal balance of competing priorities. In public
+    health, the risk frameworks that are set in place are significant because the
+    stakes of human health and wellbeing are high. Though triaging risk in health
+    contexts has been in place for millenia, the concepts of “risk assessment” and
+    “risk management” are relatively new, with formal adoption having emerged in the
+    last 4 to 5 decades as the complexity of risk increased and scientific knowledge
+    advanced and became more nuanced. \n\nToday, public health risk frameworks are
+    utilized for a wide range of applications: allocating resources, triaging medical
+    care, and setting policy on exposure levels to contaminants. In hospital emergency
+    departments, for example, triaging is a process in which a patient enters the
+    hospital, they are assessed for specific criteria that would determine the severity
+    of the condition, and that assessment is then used to prioritize how quickly a
+    patient is seen by a health care provider. The criteria for this type of triaging
+    can include a person’s overall diagnosis, their pulse, their respiratory rate,
+    and the presence of bleeding, among other factors. This information is used to
+    prioritize the urgency of responding to particular patients relative to other
+    patients also waiting for care. It is also important to note that, in hospitals,
+    this triaging process is dynamic, so as a patient’s situation or vulnerabilities
     change, the prioritization of their care might change as well. \n\nThis is an
     example of a risk framework being used in the context of decision-making. Not
     all risk frameworks, however, are used for decision-making; some are used for
@@ -15177,84 +15192,85 @@ story:
     framework that is based on both potential harms and negative impacts for users
     exposed to health misinformation online. This framework accounts for some of the
     challenges of health misinformation response that we uncovered in a process evaluation
-    of our Health Desk project, which includes limited ability to access scientific
-    experts in timing that aligns with journalistic and fact-checking turnaround times,
-    and the challenge of knowing what kind of expertise is required for different
-    public health topic areas. This risk framework is based on standardized criteria
-    that account for: a) the type of query and b) the expertise needed to answer a
-    particular public health question. \n\nFact-checking organizations, journalists,
-    and social media companies have identified the challenge of finding the right
-    approach to triaging health misinformation content and determining if and how
-    experts should be integrated into fact-checks. Frameworks like this one can assist
-    in streamlining risk prioritization of health misinformation as well as lead to
-    more targeted and manageable expert outreach if and when needed. This framework
-    can be adapted to a range of public health contexts and topics, and we are always
-    excited to collaborate with other groups interested in expanding on the framework
-    or developing relevant case studies together. \n\nBelow is an example of the Query
-    Risk & Response Criteria framework, developed in collaboration with Health Desk
-    Public Health Research Lead Christin Gilmer, as applied to COVID-19 misinformation,
-    oriented towards our question-fielding process with Health Desk: \n\n| Response
-    Level of Risk  | Responder | Criteria | Comments |\n| --- | ----------- | -----------------------
-    | ----------------- | \n| High | Responded to by an infectious disease expert
-    |  Reference to severe symptoms (with and without shortness of breath) including
-    blood oxygen level of 95% or below; BP below 90/60; seizures; etc. (not necessarily
-    meeting all the COVID-19 testing requirements/high-risk groups)<br><br>Questions
-    about active traveling from a high-risk region to a non-high-risk region (differs
-    by day<br><br>Questions about autoimmune conditions and their risk profiles<br><br>Questions
-    about interpretation of study findings<br><br>Questions about pre-published studies
-    with links<br><br> Questions submitted by elected officials<br><br>Questions submitted
-    by international NGOs <br><br> Questions about clinical conditions, presentations,
-    or risk factors<br><br>Questions about biological responses to coronaviruses<br><br>Questions
-    about diagnostics for COVID-19 (RT-PCRs, CTs, chest x-rays, etc.) | Regarding
-    clinical knowledge and recommendations<br><br>Interprets latest study information
-    into understandable language<br><br>Establishes and conveys baseline recommendations
-    for major groups |\n\n| Response Level of Risk  | Responder | Criteria | Comments
-    |\n| --- | ----------- | ----------------------- | ----------------- | \n| High
-    | Requires validation from an infectious disease expert | Questions regarding
-    hygiene practices by groups or businesses<br><br> Presentation of severe symptoms<br><br>Questions
-    submitted by local NGO staff members<br><br>Questions about quarantine procedures
-    and timelines following potential and confirmed COVID-19 illnesses<br><br>Questions
-    about weather patterns, geography, and coronaviruses/upper and lower respiratory
-    diseases<br><br>Clinical questions following exposure to patient with presumptive
-    COVID-19 diagnosis<br><br>Questions about respirators, ARDS, oxygen treatments,
-    etc.<br><br>Questions about international health system comparison and treatment
-    protocols<br><br>Questions about food deliveries/pick-ups and infection potential
-    | Knowledge of clinical practices<br><br>Interpretation of latest CDC and state/national
-    guidelines<br><br>Ability to translate newest information into risk provisions
-    for populations |\n\n| Response Level of Risk  | Responder | Criteria | Comments
-    |\n| --- | ----------- | ----------------------- | ----------------- | \n| Medium
-    | Responded by someone with public health expertise | Questions regarding contact/exposure
-    with someone who has tested positive for COVID-19 (confirmed and unconfirmed cases)<br><br>
-    Questions regarding disinfectants related to COVID-19 (CDC guidelines updated
-    daily)<br><br>Questions related to plausible but disputed misinformation (i.e.
-    administration of vitamin C and its potential impacts; zoonotic transmission routes;
-    vaccine development, etc.)<br><br>Questions about statistical models<br><br>Questions
-    about infection modeling and projections<br><br>Questions about viral load<br><br>Questions
-    about supply chain and logistics<br><br>Questions about testing kit shortages
-    | General knowledge of national and international health systems and protocols<br><br>Ability
-    to navigate established scientific journals and Ministry/Department of Health
-    studies<br><br>Knowledge of regression analysis and public health terminology
-    |\n\n| Response Level of Risk  | Responder | Criteria | Comments |\n| --- | -----------
-    | ----------------------- | ----------------- | \n| Medium | Requires validation
-    from someone with public health expertise | Questions regarding state and regional
-    health restrictions and guidelines <br><br>Questions regarding infection prevention
-    on an individual basis<br><br>Questions about public health terminology (i.e.
-    case-fatality rate; R0; DALYs; etc.)<br><br>Questions regarding public transportation<br><br>Questions
-    about over-the-counter treatment recommendations <br><br> Questions about breaking
-    news stories related to COVID-19 <br><br>Questions about conflicting information
-    (i.e. self-isolating vs. testing; new study contradicts prior study’s findings;
-    etc.)<br><br>Questions about asymptomatic transmission<br><br>Questions about
-    viral shedding (general)<br><br>Questions about pediatric patterns and presentations
-    of COVID-19<br><br>Questions about needs to leave/end self-isolation/quarantine<br><br>Questions
-    about regional, national, and international travel | Knowledge of current at-home
-    treatment standards and recommendations<br><br>Ability to translate CDC guidelines
-    for infection prevention in professional environments<br><br>General understanding
-    of public health prevention theories |\n\n| Response Level of Risk  | Responder
+    of our [Health Desk](https://health-desk.org/) project, which includes limited
+    ability to access scientific experts in timing that aligns with journalistic and
+    fact-checking turnaround times, and the challenge of knowing what kind of expertise
+    is required for different public health topic areas. This risk framework is based
+    on standardized criteria that account for: a) the type of query and b) the expertise
+    needed to answer a particular public health question. \n\nFact-checking organizations,
+    journalists, and social media companies have identified the challenge of finding
+    the right approach to triaging health misinformation content and determining if
+    and how experts should be integrated into fact-checks. Frameworks like this one
+    can assist in streamlining risk prioritization of health misinformation as well
+    as lead to more targeted and manageable expert outreach if and when needed. This
+    framework can be adapted to a range of public health contexts and topics, and
+    we are always excited to collaborate with other groups interested in expanding
+    on the framework or developing relevant case studies together. \n\nBelow is an
+    example of the Query Risk & Response Criteria framework, developed in collaboration
+    with Health Desk Public Health Research Lead Christin Gilmer, as applied to COVID-19
+    misinformation, oriented towards our question-fielding process with Health Desk:
+    \n\n| Response Level of Risk  | Responder | Criteria | Comments |\n| --- | -----------
+    | ----------------------- | ----------------- | \n| High | Responded to by an
+    infectious disease expert |  Reference to severe symptoms (with and without shortness
+    of breath) including blood oxygen level of 95% or below; BP below 90/60; seizures;
+    etc. (not necessarily meeting all the COVID-19 testing requirements/high-risk
+    groups)<br><br>Questions about active traveling from a high-risk region to a non-high-risk
+    region (differs by day<br><br>Questions about autoimmune conditions and their
+    risk profiles<br><br>Questions about interpretation of study findings<br><br>Questions
+    about pre-published studies with links<br><br> Questions submitted by elected
+    officials<br><br>Questions submitted by international NGOs <br><br> Questions
+    about clinical conditions, presentations, or risk factors<br><br>Questions about
+    biological responses to coronaviruses<br><br>Questions about diagnostics for COVID-19
+    (RT-PCRs, CTs, chest x-rays, etc.) | Regarding clinical knowledge and recommendations<br><br>Interprets
+    latest study information into understandable language<br><br>Establishes and conveys
+    baseline recommendations for major groups |\n\n| Response Level of Risk  | Responder
     | Criteria | Comments |\n| --- | ----------- | ----------------------- | -----------------
-    | \n| Low | Responded to by an experience fact-checker | Questions regarding transmission
-    methods<br><br>Questions regarding high-risk groups (major categories of hypertension;
-    cancer; diabetes; cardiovascular disease; chronic respiratory disease)<br><br>Questions
-    regarding CDC testing protocols<br><br>Question about COVID-19’s origins and spread<br><br>Questions
+    | \n| High | Requires validation from an infectious disease expert | Questions
+    regarding hygiene practices by groups or businesses<br><br> Presentation of severe
+    symptoms<br><br>Questions submitted by local NGO staff members<br><br>Questions
+    about quarantine procedures and timelines following potential and confirmed COVID-19
+    illnesses<br><br>Questions about weather patterns, geography, and coronaviruses/upper
+    and lower respiratory diseases<br><br>Clinical questions following exposure to
+    patient with presumptive COVID-19 diagnosis<br><br>Questions about respirators,
+    ARDS, oxygen treatments, etc.<br><br>Questions about international health system
+    comparison and treatment protocols<br><br>Questions about food deliveries/pick-ups
+    and infection potential | Knowledge of clinical practices<br><br>Interpretation
+    of latest CDC and state/national guidelines<br><br>Ability to translate newest
+    information into risk provisions for populations |\n\n| Response Level of Risk
+    \ | Responder | Criteria | Comments |\n| --- | ----------- | -----------------------
+    | ----------------- | \n| Medium | Responded by someone with public health expertise
+    | Questions regarding contact/exposure with someone who has tested positive for
+    COVID-19 (confirmed and unconfirmed cases)<br><br> Questions regarding disinfectants
+    related to COVID-19 (CDC guidelines updated daily)<br><br>Questions related to
+    plausible but disputed misinformation (i.e. administration of vitamin C and its
+    potential impacts; zoonotic transmission routes; vaccine development, etc.)<br><br>Questions
+    about statistical models<br><br>Questions about infection modeling and projections<br><br>Questions
+    about viral load<br><br>Questions about supply chain and logistics<br><br>Questions
+    about testing kit shortages | General knowledge of national and international
+    health systems and protocols<br><br>Ability to navigate established scientific
+    journals and Ministry/Department of Health studies<br><br>Knowledge of regression
+    analysis and public health terminology |\n\n| Response Level of Risk  | Responder
+    | Criteria | Comments |\n| --- | ----------- | ----------------------- | -----------------
+    | \n| Medium | Requires validation from someone with public health expertise |
+    Questions regarding state and regional health restrictions and guidelines <br><br>Questions
+    regarding infection prevention on an individual basis<br><br>Questions about public
+    health terminology (i.e. case-fatality rate; R0; DALYs; etc.)<br><br>Questions
+    regarding public transportation<br><br>Questions about over-the-counter treatment
+    recommendations <br><br> Questions about breaking news stories related to COVID-19
+    <br><br>Questions about conflicting information (i.e. self-isolating vs. testing;
+    new study contradicts prior study’s findings; etc.)<br><br>Questions about asymptomatic
+    transmission<br><br>Questions about viral shedding (general)<br><br>Questions
+    about pediatric patterns and presentations of COVID-19<br><br>Questions about
+    needs to leave/end self-isolation/quarantine<br><br>Questions about regional,
+    national, and international travel | Knowledge of current at-home treatment standards
+    and recommendations<br><br>Ability to translate CDC guidelines for infection prevention
+    in professional environments<br><br>General understanding of public health prevention
+    theories |\n\n| Response Level of Risk  | Responder | Criteria | Comments |\n|
+    --- | ----------- | ----------------------- | ----------------- | \n| Low | Responded
+    to by an experience fact-checker | Questions regarding transmission methods<br><br>Questions
+    regarding high-risk groups (major categories of hypertension; cancer; diabetes;
+    cardiovascular disease; chronic respiratory disease)<br><br>Questions regarding
+    CDC testing protocols<br><br>Question about COVID-19’s origins and spread<br><br>Questions
     about testing locations and procedures (including requirements)<br><br>Questions
     regarding outbreak locations<br><br>Questions about school closures<br><br>Questions
     about incubation period (general)<br><br>Questions about social distancing/isolating/quarantining<br><br>Questions
@@ -15271,7 +15287,7 @@ story:
     to use popular terminology to complete research on pre-populated topics and guidance<br><br>Knowledge
     of national and international resources for schools, food, emergency services<br><br>Ability
     to quickly respond to popular, frequently asked topics with developing information
-    |\n\n\n\n"
+    |\n"
   words_by:
     en-US:
     - sys:
@@ -15317,6 +15333,424 @@ story:
       role:
         en-US: Program Manager
   date: '2021-09-16'
-  title-en: Strategies for Triaging Responses to Health Misinformation Online
-  alt_date: *70
+  image: https://images.ctfassets.net/g118h5yoccvd/4vddyUr4lnpThwONIeuAcq/f64445bac1bbd77100eecbee49b87148/meedan_blog_triaging_health_misinformation_2.jpg
+  title-en: Strategies for triaging responses to health misinformation online
+  alt_date: *69
   alt_date_string: '2021-09-16'
+- sys:
+    id: 20seJZJ9P2zf30YycG7i3j
+    created_at: !ruby/object:DateTime 2021-09-23 11:38:15.264000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-27 13:55:52.253000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'FACT CHAMP: New project to increase collaboration between fact-checkers,
+    academics, and community leaders to counter misinformation online'
+  slug: fact-champ-launch
+  topic:
+    en-US:
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Research
+  lead_image:
+    en-US:
+      sys:
+        id: 1OEpoBLFFoxu4rL7xNNODV
+        created_at: !ruby/object:DateTime 2021-09-25 19:05:28.947000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-27 13:55:47.409000000 Z
+      title: FACT CHAMP will create new collaboration infrastructure for academics,
+        fact-checking organizations, and community leaders to advance research and
+        practice for responding to misinformation and hateful content online.
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/1OEpoBLFFoxu4rL7xNNODV/0039b82664e6ddc83389c0ba81aaf262/fact_champ_launch.jpg"
+    description:
+    title: FACT CHAMP will create new collaboration infrastructure for academics,
+      fact-checking organizations, and community leaders to advance research and practice
+      for responding to misinformation and hateful content online.
+    url: "//images.ctfassets.net/g118h5yoccvd/1OEpoBLFFoxu4rL7xNNODV/0039b82664e6ddc83389c0ba81aaf262/fact_champ_launch.jpg"
+  body: "Misinformation is proliferating across the globe, but research into its nature
+    and origins is often disconnected from the tools and techniques used to combat
+    it. \n\nNow, a team of nonprofit, academic, industry, and fact-checking organizations
+    has received a 12-month, $750k grant from the National Science Foundation's [Convergence
+    Accelerator](https://www.nsf.gov/od/oia/convergence-accelerator/) to create a
+    new platform to narrow the gap between research into misinformation and responses
+    designed to curb it. The project's initial focus will address misinformation in
+    partnership with Asian American and Pacific Islander (AAPI) communities.\n\nPartners
+    in this project, called FACT CHAMP, include Meedan, a technology nonprofit focused
+    on fact-checking tools; the Annenberg Public Policy Center of the University of
+    Pennsylvania and its FactCheck.org project; the University of Massachusetts Amherst,
+    University of Connecticut, and Rutgers University; and AuCoDe, a start-up that
+    uses artificial intelligence to detect and analyze disinformation. \n\nFACT CHAMP
+    stands for *Fact-checker, Academic, and Community Collaboration Tools: Combating
+    Hate, Abuse, and Misinformation with Minority-led Partnerships*. The project is
+    designed to advance scientific understanding of how trust, misinformation, abuse,
+    and hateful content affect underrepresented groups. The project is one of the
+    [2021 cohort of Phase I projects](https://www.nsf.gov/news/special_reports/announcements/092221.jsp)
+    on Trust & Authenticity in Communications Systems (Track F) within the NSF Convergence
+    Accelerator.\n\n\"Problems faced day-to-day by fact-checkers are inspiring new
+    research challenges and can open up new datasets for research,\" said Scott Hale,
+    the project's principal investigator and Meedan's director of research. \"At the
+    same time, developments in computer science and social science can create new
+    tools, approaches, and understandings to better counter misinformation in practice.\"\n\nCo-PI
+    Kathleen Hall Jamieson, director of the Annenberg Public Policy Center and a cofounder
+    of FactCheck.org, said, \"Identifying the misinformation and patterns of deception
+    to which different societal groups are exposed is a prerequisite of effective
+    fact-checking.\"\n\nThe first phase of this project, conducted over the next year,
+    will involve working closely with leaders in AAPI communities to prototype and
+    design a platform using tiplines, claim-matching, and state-of-the-art controversy
+    detection models to help identify and triage potential misinformation within and
+    about their communities.\n\n\"This project feels urgent, as it is really an intervention
+    that engages with the tragedies that have spurred the #StopAAPIHate movement,\"
+    said Jonathan Corpus Ong, a co-PI and associate professor in global digital media
+    at UMass Amherst. \"It's essential we conduct more multidisciplinary research
+    into how AAPI community members navigate the diverse threats of the contemporary
+    digital environment, from racist conspiracy theories to an extremist right-wing
+    ideology, that prey on the AAPI community's current state of fear and anxiety.\"\n\nSubsequent
+    work in this project will include development of smartphone-based self-help resources
+    for AAPI community leaders and building an infrastructure to securely share data
+    and challenges with researchers who are investigating and addressing the ways
+    misinformation propagates. The infrastructure will also allow academic solutions
+    to be more easily used in practice. \n\nKiran Garimella, a co-PI and assistant
+    professor at Rutgers University, said, \"Working with fact-checking organizations
+    and communities is an exciting opportunity but entails significant coordination
+    costs. I am confident our team can reduce these burdens, making such collaborations
+    easier and paving the way for amazing interdisciplinary projects in this space.\"\n\nTo
+    ensure the project's success, the multidisciplinary team will conduct three proof-of-concept
+    activities over the next nine months to determine the best approaches for enabling
+    meaningful collaboration between researchers, fact-checkers, and community leaders
+    to combat hate, abuse, and misinformation. Through these activities, the team
+    will advance research on detection of controversial and hateful content, improve
+    their understanding of hate speech and misinformation, and develop new tools and
+    adapt existing ones to create collaboration infrastructure aligned with the needs
+    of researchers, practitioners, and communities. At the end of Phase I, the team
+    will participate in a formal Phase II proposal and pitch evaluation to proceed
+    to Phase II. If selected into Phase II, the team may receive up to $5 million
+    to further the solution toward real-world application.\n\n\"The scope and scale
+    of information ecosystem threats online, including disinformation, weaponized
+    controversy, and hate speech, are growing rapidly and now far beyond the capacity
+    of any individual organization to make a dent in,\" said Shiri Dori-Hacohen, co-PI
+    and director of the Reducing Information Ecosystem Threats (RIET) Lab at the University
+    of Connecticut. \n\nKeen Sung, co-PI and vice president of research and development
+    at AuCoDe, added, \"We are excited and honored to confront the pernicious issue
+    of rising misinformation and controversy in social communities, both online and
+    off. The strong, complementary skill sets of the FACT CHAMP team allow us to work
+    closely with leaders within these communities. That familiarity will help us to
+    reduce the harm that misinformation causes to specific communities and simultaneously
+    promote empathy.\"\n\n## About the FACT CHAMP team\n\n__[Meedan](https://meedan.com)__
+    is a technology not-for-profit that builds software and initiatives to strengthen
+    journalism, digital literacy, and accessibility of information for global communities.
+    The mission of Meedan's research team is to increase and deepen our understanding
+    of how information divides affect people differently and to develop the tools
+    and methods to widen access. We envision a world in which all people regardless
+    of their languages, locations, or other factors have the ability to effectively
+    locate the most pertinent information, evaluate the quality and credibility of
+    that information, and make the decisions they want. \n\nThe __[Annenberg Public
+    Policy Center](https://www.annenbergpublicpolicycenter.org/)__ (APPC) of the University
+    of Pennsylvania is a nonpartisan, nonprofit communication policy center focusing
+    on research into political, science, and health communication. Its project __[FactCheck.org](https://www.factcheck.org/)__
+    was founded in 2003 by APPC Director Kathleen Hall Jamieson and Brooks Jackson,
+    a veteran investigative reporter who pioneered on-air fact-checking at CNN.\n\nThe
+    __[University of Massachusetts at Amherst](https://www.umass.edu/)__ team includes
+    scholars from Communication and Computer Science with expertise in global disinformation
+    cultures, race and racism, and community engaged research. Prof. Jonathan Corpus
+    Ong has published ethnographic and policy-relevant research about the intersections
+    of disinformation and hate speech in the wake of Covid-19, with a record of public
+    engagement work with Asian and Asian-American community leaders. Prof. Ethan Zuckerman
+    is director of the UMass Institute for the Digital Public Infrastructure and a
+    leader in global conversations about reimagining the Internet toward being more
+    responsive to communities' needs, values and interests. The bottom-up research
+    approach they lead will inform the development of digital tools to be developed
+    by computational social science researchers Prof. Brendan O'Connor (CS) and Prof.
+    Weiai (Wayne) Xu (Communication).\n\nThe newly launched [Reducing Information
+    Ecosystem Threats (RIET) Lab](https://infothreats.cse.uconn.edu/) will be leading
+    the efforts from the Computer Science and Engineering (CSE) Department at the
+    __University of Connecticut__ team. Prof. Shiri Dori-Hacohen, director of the
+    RIET Lab, is an expert in information ecosystem threats online, including controversy
+    and its impact on mis- and disinformation; her research integrates insights from
+    social science into novel computational models. She is joined by Prof. Amir Herzberg,
+    the Comcast Endowed Professor for Security Innovation, whose research includes
+    novel community detection approaches to detect malicious actors, as well as works
+    on privacy, anonymity and cryptography protocols.\n\nThe [School of Communication
+    and Information](https://comminfo.rutgers.edu/) at __Rutgers University-New Brunswick__
+    has expertise in data science, library science, and communication that is uniquely
+    situated to work on key interdisciplinary problems and come up with innovative
+    solutions. Assistant Professor of Library and Information Science Kiran Garimella,
+    a computer scientist working in the area of computational social science, is an
+    expert on studying encrypted platforms at scale. His work deals with building
+    interdisciplinary approaches to bridge computer science and the social sciences,
+    creating solutions for various societal level issues like political polarization,
+    misinformation, and migrant assimilation. Garimella's research studying misinformation
+    and hate speech on WhatsApp is one of the few that studies encrypted platforms
+    at scale.\n\n__[AuCoDe](https://www.aucode.io/)__ is an AI-based startup that
+    detects controversies and misinformation online and turns them into actionable
+    intelligence. AuCoDe is the recipient of the NSF I-Corps and NSF SBIR Phase I
+    and II grants on the topic of controversy detection online. Dr. Keen Sung is the
+    Vice President of Research and Development and is an expert in privacy, cybersecurity,
+    and disinformation.\n\n## About the NSF Convergence Accelerator\nResearch is often
+    driven by a compelling societal or scientific challenge; however, it may take
+    the researcher community years to develop a solution. To deliver tangible solutions
+    that have a nation-wide societal impact and at a faster pace, the National Science
+    Foundation (NSF) launched the [Convergence Accelerator](https://www.nsf.gov/od/oia/convergence-accelerator/)
+    program in 2019. Designed to leverage a convergence approach to transition basic
+    research and discovery into practice, the Convergence Accelerator uses innovation
+    processes like human-centered design, user discovery, and team science; and integration
+    of multidisciplinary research and partnerships; the Convergence Accelerator is
+    making timely investments to solve high-risk societal challenges through use-inspired
+    convergence research."
+  alt_date: !ruby/object:DateTime 2021-09-27 00:00:00.000000000 Z
+  date: '2021-09-23'
+  image: https://images.ctfassets.net/g118h5yoccvd/1OEpoBLFFoxu4rL7xNNODV/0039b82664e6ddc83389c0ba81aaf262/fact_champ_launch.jpg
+  title-en: 'FACT CHAMP: New project to increase collaboration between fact-checkers,
+    academics, and community leaders to counter misinformation online'
+  alt_date_string: '2021-09-27'
+- sys:
+    id: 7yZDQBkwETnvWpoQztb6ID
+    created_at: &70 !ruby/object:DateTime 2021-09-24 00:24:32.205000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-24 19:10:15.488000000 Z
+    content_type_id: story
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Fact-checking requires more than facts—it also requires trust at a human
+    scale. '
+  slug: fact-checking-requires-more-than-facts-it-also-requires-trust-at-a-human
+  body: "*This is a guest post to Meedan Ideas from Dr. Gillian \"Gus\" Andrews, a
+    public educator, writer, and researcher who is known on the cybersecurity speaking
+    circuit for posing thought-provoking questions about the human side of digital
+    life.\n\nMeedan's Ideas blog encourages ideas and perspectives from friends in
+    our broader network to spark conversation and ideas and encourage dialogue on
+    core issues around our work. While Meedan edits posts in our Ideas section, the
+    views in these blog posts do not necessarily reflect the views of Meedan. If you
+    are interested in submitting a Meedan Ideas piece, please get in touch!*\n\nAs
+    disinformation rises around the world, many funders and civil society organizations
+    have invested in fact-checking as a solution. Traditionally a part of the everyday
+    work of journalism, fact-checking has spun off into other spaces. Independent
+    fact-checking organizations broadcast certain information on social media as “facts”
+    and therefore trustworthy, and other information as falsehoods. “Trust” is a word
+    we hear often in this effort. Media and digital literacy educators ask the public
+    to stick to “trusted” news sources to get their facts. \n\nBut fact-checking efforts
+    must reckon with what “facts” and “trust” actually are. Without that missing piece,
+    they are likely to fail. To mend a shockingly divided public discourse with our
+    disinformation-fighting efforts, we need an evidence-based understanding of how
+    human beings come to accept, trust, and act on facts. \n\nWe shouldn’t take it
+    as a given that facts, and the institutions that produce them, are worthy of everyone’s
+    trust by default. In this article, I will articulate how information becomes accepted
+    as fact, and how people come to trust (or mistrust) those facts. I’ll then lay
+    out some directions that anti-disinformation work will need to take in order to
+    succeed.\n\n__The social life of information must be reckoned with\n__\n\nFacts
+    are never \"just facts.\" Not even scientific facts. Especially not scientific
+    facts. Scientists include hypotheses, prior research, and data in their papers.
+    Papers go through peer review, and only after they have been through that publication
+    process are they supposed to be cited by others. Scientists don't expect that
+    the evidence they present is permanently factual; they know new evidence may prove
+    their \"facts\" wrong. Journalism, also, has rules for collecting and triangulating
+    evidence. That evidence, once again, is not \"just facts.\"\n\nSo \"fact-checking\"
+    projects have never actually been about facts. What we are concerned with when
+    we fight disinformation is people spreading information that doesn't meet the
+    criteria  of science, \"good\" journalism, academic work, and so on. Information
+    that doesn't rely on what we accept as \"trustworthy\" professional methods or
+    standards for evidence. Because that is what news sources and science ask us to
+    trust: that they are using professional methods and evidence to build their case.*
+    We can build on this basis to strengthen public trust---and, in fact, many well-established
+    news sources are, by opening up their newsrooms to show communities how they do
+    their work.\n\nScientific and journalistic \"facts\" are not the only information
+    built on criteria for evidence. While science has come to accept evidence of evolution
+    as a basis for fact, certain religions have rejected it. Some Christians will
+    tell you that evolution is a lie, and creation is a fact. And it is important
+    to recognize they aren't just dismissing evolution with no criteria for evidence.
+    They accept different evidence. They do trust Biblical texts as evidence. Creationist
+    theologians have arranged Biblical texts into their own \"fact networks\" and
+    connected them with evidence in nature, flaws they see in scientific assumptions,
+    and so on. And those who follow this line of thinking [also use Biblical texts
+    to interpret other messages they encounter on the internet.](https://datasociety.net/wp-content/uploads/2018/05/Data_Society_Searching-for-Alternative-Facts.pdf)\n\nThe
+    same goes for anti-vaxxers and conspiracy theorists. [It would be a mistake to
+    assume these people won't present you with some kind of evidence if you challenge
+    their facts.](https://coloradosun.com/2018/11/20/flat-earth-convention-denver-post-truth/)
+    Many of them talk about the online research they have done to come to their conclusions.
+    They are relying on different evidence, from different experts, making different
+    claims to truth. Leaders within conspiracy theory, creationist, and anti-vaccine
+    communities become experts in whose evidence followers\n\n place their trust.\n\nIf
+    fact-checking interventions do not work to change the minds of community leaders
+    and address the social networks surrounding these other \"facts,\" history tells
+    us they will not succeed. Decades of sociological research on public health and
+    engineering interventions are littered with failed projects that did not address
+    community norms and beliefs when trying to change behavior. Everett Rogers's book
+    [Diffusion of Innovations](https://www.amazon.com/Diffusion-Innovations-5th-Everett-Rogers/dp/0743222091)
+    serves as a review of what they do wrong. For example, a health intervention in
+    South America that focused on boiling water to kill bacteria collided with a local
+    belief that certain illnesses should be treated with cold, not heat. While a few
+    locals adopted the public health advice, they were not influential in their community.
+    Ultimately, this advice failed to gain traction in the community.\n\nDisinformation
+    is increasingly tied into whole networks of worldviews (like fears about [5G wireless
+    harnessed to COVID](https://www.wired.co.uk/article/5g-coronavirus-conspiracy-theory)
+    or [New Age remedies embraced by those who think the world is run by a secret
+    cabal](https://conspirituality.net/wp-content/uploads/2021/03/Ward-Voas-Conspirituality.pdf)).
+    It thrives on conflicts and social divides that people identify with, while facts
+    may go against these identities. If our fact-checking approaches don't account
+    for these norms and existing beliefs of communities, we're just about guaranteeing
+    that our facts will be rejected out of hand.\n\nRogers describes how change involves
+    this kind of cognitive dissonance: the uncomfortable feeling that a new recommendation
+    does not jive with a person's beliefs or community norms. There is no guarantee
+    that when reading a checked fact, the reader will change to align with that fact.
+    In fact, it's just as possible that dissonance will lead them to misunderstand
+    what they're being told, adapt the new information into their belief system in
+    a way that isn't scientifically accurate, or just plain reject the new information.\n\nSo
+    again: there is no guarantee people will trust fact-checking projects. Brand new
+    organizations which have formed for the sole purpose of fact checking will be
+    at a particular disadvantage: not only do they lack the social networks to get
+    their messages out, but their lack of visible history is likely to translate into
+    a lack of the trust needed to get people to rely on their facts.\n\nBut the problem
+    goes beyond people's lack of trust in institutions and evidence. Part of the problem
+    is that trust is deeply personal and individual. To fight disinformation, we need
+    to reckon with the roots of trust, too.\n\nWhere does trust come from?\n\nWe need
+    to start with what trust actually is. Thanks to developmental neuropsychology
+    and sociology, we know that:\n\n-   [Trust begins as a human quality.](https://www.google.com/books/edition/The_Social_Construction_of_Trust/tBMQPSZyPpMC?hl=en&gbpv=1&dq=Linda+Weber+and+Allison+I.+Carter,+The+Social+Construction+of+Trust) \n\n-
+    \  [Trust is an attitude that grows within individuals (or doesn't).](https://www.amazon.com/Boy-Who-Raised-Psychiatrists-Notebook-What/dp/0465094457)\n\n-
+    \  Trust grows between individuals (or doesn't). \n\n-   Ultimately, trust is
+    based on an expectation that someone or something will continue to behave as we
+    have seen them behave before.\n\n-   Trust is social: it is a quality of human
+    interactions. \n\n-   Trust has a historical aspect: individuals' trust relies
+    on interactions they have had in the past.\n\nAs children grow, their feelings
+    of trust or distrust grow with them. A baby's trust of adults begins with whether
+    those adults meet the baby's needs for food, shelter, cleanliness, social interaction,
+    and love. [Bruce D. Perry's research](https://www.bdperry.com/recent-academic-articles),
+    for example, demonstrates how traumatic disruption of these needs can result in
+    children whose stress levels are constantly so high that basic daily functioning,
+    not to mention trust in other people, can be catastrophically disrupted.\n\nChildren
+    transfer their trust from their parents to others as they see those people behave
+    consistently, and as their parents tell them \"that person there is trustworthy;
+    that person over there is not.\" Our trust in different information sources is
+    rooted in our sense of who we are as members of our communities and families.**\n\nSchool
+    plays a large part in shaping this trust, but conflicting messages from families
+    and religious institutions about how \"people like us\" are supposed to relate
+    to different information sources can encourage students to reject facts they are
+    taught in school. This can make the difference between citizens thoughtfully reading
+    and acting on public health guidelines, or refusing to vaccinate their own kids
+    and accepting conspiracy theories about public health organizations.\n\nI'm a
+    prime example of trust in science: I grew up on the campus of Caltech. My grandfather,
+    parents, sisters and I all worked there at some point. As kids, my sisters and
+    I did our homework in empty engineering classrooms, under sliding chalkboards
+    scrawled with incomprehensible equations. When there was an earthquake, we would
+    head to campus, knowing the buildings had been checked by seismologists and engineers.
+    Our trust in science was literally built into the walls. In writing this article
+    I'm following the footsteps of my stepmother, whose job was helping Caltech scientists
+    communicate with the public.\n\nThe path to trusting science is harder when your
+    community has no exposure to scientists---or has been actively damaged by science.
+    This is explicitly why public health professionals have pointed to the importance
+    of [building](https://www.cdc.gov/vaccines/covid-19/downloads/guide-awardees-community-driven-strategies.pdf)
+    \ [relationships](https://www.apa.org/topics/covid-19/equity-resources/building-vaccine-confidence.pdf)
+    with Black and Latino community leaders as they roll out COVID vaccines. Science
+    has a frightening history of engaging in [eugenics](https://www.pbs.org/wgbh/americanexperience/films/eugenics-crusade/),
+    experiments on people of color without their consent (see, for example, the [Tuskeegee
+    Study](https://www.cdc.gov/tuskegee/timeline.htm) or the [forced sterilization](https://bpr.berkeley.edu/2020/11/04/americas-forgotten-history-of-forced-sterilization/)
+    and [testing of birth control hormones on women of color](https://www.panoramas.pitt.edu/health-and-society/dark-history-forced-sterilization-latina-women/)),
+    [ignoring their health concerns](https://www.heart.org/en/news/2019/02/20/why-are-black-women-at-such-high-risk-of-dying-from-pregnancy-complications),
+    and failing to give them paths to train as scientists. Many members of those communities
+    have had experiences with science and medicine that not only engendered mistrust,
+    but left a legacy of trauma. The very language scientists use to present findings
+    can be alienating. Small wonder many met public health advice about COVID with
+    their defenses up.\n\nAnyone who has tried to change someone else's mind on \"the
+    facts\" in a face-to-face conversation already has a gut feeling for how distressing
+    it can be to build trust and a mutual worldview. When someone tries to change
+    your mind, it can feel like an existential threat---like it's threatening your
+    sense of self or your community.\n\nAnd our information environment does nothing
+    to lower this distressing sense of threat. The tone of both social and traditional
+    media is one of ongoing panic and outrage. Internet users face [harassment by
+    humans](https://www.stalkingriskprofile.com/victim-support/cyberstalking) and
+    [bots](https://www.iwmf.org/wp-content/uploads/2018/09/Attacks-and-Harassment.pdf),
+    as well as messages from [headlines](https://www.wired.com/2015/12/psychology-of-clickbait/),
+    [ads, memes](https://www.buzzfeednews.com/article/craigsilverman/partisan-fb-pages-analysis),
+    and [phishing schemes](https://www.technologyreview.com/2019/08/08/238739/how-phishing-attacks-trick-our-brains/)
+    that provoke strong emotions. [Algorithms lead users to ever more extreme content](https://www.cjr.org/the_new_gatekeepers/sociologist-zeynep-tufekci-says-youtube-is-an-engine-for-radicalization.php).
+    And that's before we even think about the distressing content of the news in the
+    past few years.\n\nTo successfully fight disinformation, our approaches will need
+    to manage the stress levels of individuals as we encourage them to trust people
+    and facts they previously distrusted. Without this work, people simply will not
+    have the cognitive capacity or emotional reserves to process the new facts we're
+    asking them to incorporate.\n\nHow we need to adapt the fact-checking approach\n\nFollowing
+    these lines of research, it is clear simply presenting facts is not enough.\n\nTo
+    really make an impact on disinformation, we have to address these social networks
+    and individual histories of trust. We need to join forces with practitioners in
+    psychology and social work, with communities and their leaders and influencers.
+    Technologists, journalists, and scientists are generally not trained or experienced
+    in the kind of work that needs to be done to build trust; it's time for us to
+    listen, learn, and let other experts take the lead.\n\nThe work of rebuilding
+    trust will be challenging to scale. This is not what funders who are keen on automated
+    solutions want to hear, but because building trust is human-scale, and is about
+    building relationships, this will take a lot of deliberate, careful, interpersonal
+    legwork. It will take measurement that is qualitative, not just quantitative.
+    Scaling might look like working with online platforms to change recommendation
+    algorithms, identifying and targeting stages of the \"consumer life cycle\" of
+    those who get pulled into disinformation networks, or working with online influencers.
+    (Disinformation producers are [already using influencers' tactics](https://datasociety.net/library/alternative-influence/);
+    this is our arms race to lose if we don't do the same.)\n\nBut scaling must be
+    built on the initial groundwork of an evidence-based plan to build trust. What
+    I am proposing is a little like the summit that led to the development of Sesame
+    Street: design research sessions that produce a curriculum for this mass public
+    education project, with the help of developmental psychologists, educators, and
+    community leaders.\n\nThere is no guarantee science and journalism will win, here.
+    If we want people to trust our version of the facts, we need to work with and
+    listen to practitioners who do trust-building interpersonal work.\n\nWhere can
+    we go with these observations? Perhaps we need an applied design research project,
+    working with practitioners who already know how to build trust: for starters,
+    those who have worked on peace and reconciliation efforts, de-radicalization,
+    and gang interruption. Also clergy, trauma-informed psychologists, adult educators,
+    ethnographers, and social workers. Fact-checking projects could work with these
+    professionals to identify their best practices in how to change minds in specific
+    cultural contexts. Once we have that knowledge, we should re-design anti-disinformation
+    efforts around those findings, incorporating these approaches into fact-checking
+    and other anti-disinformation interventions.\n\nIf you are a practitioner of this
+    sort, would you would engage with an effort like this? If you are on the ground
+    in a community where disinformation is spread, do you see improvements to this
+    proposal?\n\n* When people say that science is \"socially constructed,\" a phrase
+    that raises hackles in some circles, this is what they mean. Bruno Latour, the
+    foundational philosopher in the field of science and technology studies, details
+    in many of his books how scientific facts are developed and spread, and why and
+    where some come to be more accepted than others.\n\n** The work of the New Literacies
+    scholars (see e.g. [Gee, 2004](http://www.anatomecha.net/resources/vrgbl/edlt543_play_and_learning/james-paul-gee-situated-language-and-learning-a-critique-of-traditional-schooling-2004.pdf))
+    has done a great deal to identify how the reading, writing, and information practices
+    of students in their homes, religious institutions, and digital lives differ from
+    what they are taught in school, and how these differences often lead to students
+    discarding or failing to engage with school lessons.\n\n*Dr. Gillian \"Gus\" Andrews
+    is a public educator, writer, and researcher who is known on the cybersecurity
+    speaking circuit for posing thought-provoking questions about the human side of
+    digital life. Dr. Andrews has worked in the international digital rights space
+    for eight years, contributing to usability efforts for secure tools like Psiphon
+    and Thunderbird's encryption suite and organizing events at the Internet Freedom
+    Festival. Her policy research has informed work at Internews, the US State Department,
+    and the Electronic Frontier Foundation. Dr. Andrews's book, [Keep Calm and Log
+    On](http://keepcalmlogon.com/) (MIT Press 2020), is an everyday citizen's guide
+    to surviving the digital revolution, focusing on privacy, security, and fighting
+    disinformation. Previously, she was the producer of [The Media Show](https://www.youtube.com/themediashow),
+    an award-winning YouTube series about media and digital literacy.*"
+  date: '2021-09-24'
+  title-en: 'Fact-checking requires more than facts—it also requires trust at a human
+    scale. '
+  alt_date: *70
+  alt_date_string: '2021-09-24'

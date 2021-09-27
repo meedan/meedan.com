@@ -45,9 +45,9 @@ lang: en-US
                     <span>Published on</span> {{ published_on | date: "%-d %B %Y" }}
                 </div>
             </div>
-            {% include module_checklist.html %}
-            {% include footer_small.html theme="dark" %}
         </section>
+        {% include module_checklist.html %}
+        {% include footer_small.html theme="dark" %}
     </div>
     <!-- {% include footer_nav.html %} -->
     {% include js.html %}

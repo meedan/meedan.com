@@ -261,9 +261,9 @@
     .slide img {
         background-size: cover;
         // width: 80%;
-        height: 62vw;
+        height: 12rem;
         @include responsive('min-width: #{$width-tablet}') {
-            height: 42vw;
+            height: 30rem;
         }
         object-fit:scale-down;
     }

@@ -7,8 +7,8 @@ lang: en-US
 
 <body class="site story">
     <a id="top"></a>
+    {% include post_header.html %}
     <div class="page-wrapper">
-        {% include post_header.html %}
         <section>
             {% if page.lead_video.en-US %}
                 <div class="main-grid lead_video">
@@ -52,9 +52,9 @@ lang: en-US
                 </div>
             </div>
             {% include module_stories.html %}
-            {% include module_checklist.html %}
-            {% include footer_small.html theme="dark" %}
         </section>
+        {% include module_checklist.html %}
+        {% include footer_small.html theme="dark" %}
     </div>
     <!-- {% include footer_nav.html %} -->
     {% include js.html %}

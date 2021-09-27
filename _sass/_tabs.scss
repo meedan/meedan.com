@@ -36,12 +36,12 @@ $non-active-tab-color: var(--blackInk);
     .tab-image img {
         width: 100%;
         object-fit: cover;
-        height: 60vw;
+        height: 12rem;
         @include responsive('min-width: #{$width-tablet}') {
-            height: 60vw;
+            height: 12rem;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            height: 42vw;
+            height: 30rem;
         }
     }
 
@@ -51,10 +51,10 @@ $non-active-tab-color: var(--blackInk);
         padding: var(--space-2);
         height: 80vw;
         @include responsive('min-width: #{$width-tablet}') {
-            height: 60vw;
+            height: 12rem;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            height: 42vw;
+            height: 30rem;
         }
         h4 {
             margin-bottom: var(--space-2);
