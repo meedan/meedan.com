@@ -61,20 +61,20 @@
         padding-left: 0;
         padding-bottom: 0;
         @include responsive('min-width: #{$width-tablet}') {
-            height: 60vw;
+            height: 18rem;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            height: 45vw;
+            height: 28rem;
         }
     }
 
     .tab-image img {
-        height: 60vw;
+        height: 18rem;
         @include responsive('min-width: #{$width-tablet}') {
-            height: 60vw;
+            height: 18rem;
         }
         @include responsive('min-width: #{$width-desktop}') {
-            height: 45vw;
+            height: 28rem;
         }
     }
 
@@ -164,7 +164,8 @@
 
 body.annual {
     color: var(--vividBlue);
-    background: linear-gradient(180deg, #ADD9F7 0%, #ADD9F7 15.03%, #E2DFC4 25.94%, #E7E2B2 38.28%, #A2A7FF 48.13%, #A3A8FF 79.71%, #EE82F3 86.87%);
+    // background: linear-gradient(180deg, #ADD9F7 0%, #ADD9F7 15.03%, #E2DFC4 25.94%, #E7E2B2 38.28%, #A2A7FF 48.13%, #A3A8FF 79.71%, #EE82F3 86.87%);
+    // background-repeat: no-repeat;
     height: 100vh;
 
     .callout text {
@@ -173,7 +174,7 @@ body.annual {
 
     h2 {
         font-family: $font-stack-d;
-        font-size: var(--scale-3);
+        // font-size: var(--scale-3);
         letter-spacing: -0.1rem;
         line-height: 0.95;
         color: var(--vividBlue);
