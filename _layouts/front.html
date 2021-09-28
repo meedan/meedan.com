@@ -4,14 +4,12 @@
 
 <body class="site {{ page.class }}">
     <a id="top"></a>
-    {% include header.html theme="dark" %}
-    <figure class="graphic bleed">
-        <img class="justify-self--center" src="/images/home-porto-session.png" alt="Meedan team in Porto" />
-    </figure>
     <div class="front-wrapper">
-        <section>
-            {{ content }}
-        </section>
+        {% include header.html theme="dark" %}
+        <figure class="graphic bleed full-bleed">
+            <img class="justify-self--center" src="/images/home-porto-session.png" alt="Meedan team in Porto" />
+        </figure>
+        {{ content }}
         {% include module_checklist.html %}
         {% include footer_small.html theme="dark" %}    
     </div>

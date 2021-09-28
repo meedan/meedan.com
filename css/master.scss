@@ -115,7 +115,7 @@ footer {
 @include responsive('min-width: #{$width-tablet}') {
     figure.graphic,
     .main-grid,
-    header,
+    .header-wrapper,
     footer {
         display: grid;
         grid-gap: var(--space-2);
@@ -135,7 +135,7 @@ footer {
 @include responsive('min-width: #{$width-desktop}') {
     figure.graphic,
     .main-grid,
-    header,
+    .header-wrapper,
     footer {
         display: grid;
         grid-gap: var(--space-2);
@@ -160,6 +160,9 @@ header {
 
 .front header {
     padding-bottom: var(--space-3);
+    /* full-bleed */
+    width: 100%;
+    grid-column: 1/-1;
 }
 
 // When menu is not open
@@ -270,7 +273,12 @@ header .menu-icon svg {
     }
 }
 
+.front-wrapper {
+    font-size: var(--scale-1);
+}
+
 .max-width-wrapper {
+    width: 100%;
     max-width: 65ch;
     margin-left: auto;
     margin-right: auto;
