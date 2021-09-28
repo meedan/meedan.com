@@ -35,6 +35,16 @@ lang: en-US
             {% endif %}
             <div class="story-wrapper section-margin">
                 {{ page.body | markdownify }}
+                {% if page.footnotes.en-US %}
+                    <div class="story-footnotes">
+                        <div class="story-footnotes-title">Footnotes</div>
+                        <ol>
+                            {% for footnote in page.footnotes.en-US %}
+                                <li id="fn{{ forloop.index }}">{{ footnote.body.en-US | markdownify }} <a class="footnote-backref" href="#fnref{{ forloop.index }}">↩︎</a></li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                {% endif %}
             </div>
             <div class="story-footer small-hr section-margin">
                 {% if page.words_by %}

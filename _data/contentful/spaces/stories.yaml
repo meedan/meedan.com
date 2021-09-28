@@ -15339,10 +15339,10 @@ story:
   alt_date_string: '2021-09-16'
 - sys:
     id: 20seJZJ9P2zf30YycG7i3j
-    created_at: &70 !ruby/object:DateTime 2021-09-23 11:38:15.264000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-23 21:23:14.465000000 Z
+    created_at: !ruby/object:DateTime 2021-09-23 11:38:15.264000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-27 13:55:52.253000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -15355,151 +15355,174 @@ story:
         id: master
         type: Link
         linkType: Environment
-  title: 'Fact Champ: New project to increase collaboration between fact-checkers,
+  title: 'FACT CHAMP: New project to increase collaboration between fact-checkers,
     academics, and community leaders to counter misinformation online'
   slug: fact-champ-launch
+  topic:
+    en-US:
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+        created_at: !ruby/object:DateTime 2020-02-24 21:58:07.553000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:48:15.575000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Research
+  lead_image:
+    en-US:
+      sys:
+        id: 1OEpoBLFFoxu4rL7xNNODV
+        created_at: !ruby/object:DateTime 2021-09-25 19:05:28.947000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-27 13:55:47.409000000 Z
+      title: FACT CHAMP will create new collaboration infrastructure for academics,
+        fact-checking organizations, and community leaders to advance research and
+        practice for responding to misinformation and hateful content online.
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/1OEpoBLFFoxu4rL7xNNODV/0039b82664e6ddc83389c0ba81aaf262/fact_champ_launch.jpg"
+    description:
+    title: FACT CHAMP will create new collaboration infrastructure for academics,
+      fact-checking organizations, and community leaders to advance research and practice
+      for responding to misinformation and hateful content online.
+    url: "//images.ctfassets.net/g118h5yoccvd/1OEpoBLFFoxu4rL7xNNODV/0039b82664e6ddc83389c0ba81aaf262/fact_champ_launch.jpg"
   body: "Misinformation is proliferating across the globe, but research into its nature
     and origins is often disconnected from the tools and techniques used to combat
     it. \n\nNow, a team of nonprofit, academic, industry, and fact-checking organizations
-    has received a 12-month, $750k grant from the National Science Foundation’s NSF
-    Convergence Accelerator to create a new platform to narrow the gap between research
-    into misinformation and responses designed to curb it. \n\nPartners in this project,
-    called FACT CHAMP, include Meedan, a technology nonprofit focused on fact-checking
-    tools; the Annenberg Public Policy Center of the University of Pennsylvania and
-    its FactCheck.org project; the University of Massachusetts Amherst, University
-    of Connecticut, and Rutgers University; and AuCoDe, a start-up that uses artificial
-    intelligence to detect and analyze disinformation. \n\nFACT CHAMP stands for Fact-checker,
-    Academic, and Community Collaboration Tools: Combating Hate, Abuse, and Misinformation
-    with Minority-led Partnerships. The project is designed to advance scientific
-    understanding of how trust, misinformation, abuse, and hateful content affect
-    underrepresented groups. The project is one of the 2021 cohort of Phase I projects
+    has received a 12-month, $750k grant from the National Science Foundation's [Convergence
+    Accelerator](https://www.nsf.gov/od/oia/convergence-accelerator/) to create a
+    new platform to narrow the gap between research into misinformation and responses
+    designed to curb it. The project's initial focus will address misinformation in
+    partnership with Asian American and Pacific Islander (AAPI) communities.\n\nPartners
+    in this project, called FACT CHAMP, include Meedan, a technology nonprofit focused
+    on fact-checking tools; the Annenberg Public Policy Center of the University of
+    Pennsylvania and its FactCheck.org project; the University of Massachusetts Amherst,
+    University of Connecticut, and Rutgers University; and AuCoDe, a start-up that
+    uses artificial intelligence to detect and analyze disinformation. \n\nFACT CHAMP
+    stands for *Fact-checker, Academic, and Community Collaboration Tools: Combating
+    Hate, Abuse, and Misinformation with Minority-led Partnerships*. The project is
+    designed to advance scientific understanding of how trust, misinformation, abuse,
+    and hateful content affect underrepresented groups. The project is one of the
+    [2021 cohort of Phase I projects](https://www.nsf.gov/news/special_reports/announcements/092221.jsp)
     on Trust & Authenticity in Communications Systems (Track F) within the NSF Convergence
-    Accelerator.\n\n> “Problems faced day-to-day by fact-checkers are inspiring new
-    research challenges and can open up new datasets for research,” said Dr. Scott
-    Hale, the project’s Principal Investigator and Meedan’s Director of Research.
-    “At the same time, developments in computer science and social science can create
-    new tools, approaches, and understandings to better counter misinformation in
-    practice.”\n\nStrong connections between citizens and fact-checkers are also incredibly
-    important. Co-PI Professor Kathleen Hall Jamieson, the director of the Annenberg
-    Public Policy Center (APPC) and a cofounder of FactCheck.org, explained, “...”\n\nThe
-    first phase of this project, conducted over the next year, will involve working
-    closely with leaders in Asian American and Pacific Islander (AAPI) communities
-    to prototype and design a platform using state-of-the-art controversy detection
-    models to help identify and triage potential misinformation within and about their
-    communities.\n\n“This project feels urgent, as it is really an intervention that
-    engages with the tragedies that have spurred the #StopAAPIHate movement,” said
-    Dr. Jonathan Corpus, a co-PI and associate professor in global digital media at
-    UMass Amherst. “It’s essential we conduct more multidisciplinary research into
-    how AAPI community members navigate the diverse threats of the contemporary digital
-    environment, from racist conspiracy theories to an extremist right-wing ideology
-    that preys on the AAPI community’s current state of fear and anxiety.”\n\nSubsequent
+    Accelerator.\n\n\"Problems faced day-to-day by fact-checkers are inspiring new
+    research challenges and can open up new datasets for research,\" said Scott Hale,
+    the project's principal investigator and Meedan's director of research. \"At the
+    same time, developments in computer science and social science can create new
+    tools, approaches, and understandings to better counter misinformation in practice.\"\n\nCo-PI
+    Kathleen Hall Jamieson, director of the Annenberg Public Policy Center and a cofounder
+    of FactCheck.org, said, \"Identifying the misinformation and patterns of deception
+    to which different societal groups are exposed is a prerequisite of effective
+    fact-checking.\"\n\nThe first phase of this project, conducted over the next year,
+    will involve working closely with leaders in AAPI communities to prototype and
+    design a platform using tiplines, claim-matching, and state-of-the-art controversy
+    detection models to help identify and triage potential misinformation within and
+    about their communities.\n\n\"This project feels urgent, as it is really an intervention
+    that engages with the tragedies that have spurred the #StopAAPIHate movement,\"
+    said Jonathan Corpus Ong, a co-PI and associate professor in global digital media
+    at UMass Amherst. \"It's essential we conduct more multidisciplinary research
+    into how AAPI community members navigate the diverse threats of the contemporary
+    digital environment, from racist conspiracy theories to an extremist right-wing
+    ideology, that prey on the AAPI community's current state of fear and anxiety.\"\n\nSubsequent
     work in this project will include development of smartphone-based self-help resources
     for AAPI community leaders and building an infrastructure to securely share data
     and challenges with researchers who are investigating and addressing the ways
     misinformation propagates. The infrastructure will also allow academic solutions
-    to be more easily used in practice. \n\nDr. Kiran Garimella, Co-PI and Assistant
-    Professor at Rutgers University said, “Working with fact-checking organizations
+    to be more easily used in practice. \n\nKiran Garimella, a co-PI and assistant
+    professor at Rutgers University, said, \"Working with fact-checking organizations
     and communities is an exciting opportunity but entails significant coordination
     costs. I am confident our team can reduce these burdens, making such collaborations
-    easier and paving the way for amazing interdisciplinary projects in this space.”\n\nTo
-    ensure the project’s success, the multidisciplinary team will conduct three proof-of-concept
+    easier and paving the way for amazing interdisciplinary projects in this space.\"\n\nTo
+    ensure the project's success, the multidisciplinary team will conduct three proof-of-concept
     activities over the next nine months to determine the best approaches for enabling
-    deep and meaningful collaboration between researchers, fact-checkers, and community
-    leaders to combat hate, abuse, and misinformation. Through these activities, the
-    team will advance research on detection of controversy and hateful content, improve
-    their understanding of hate speech and misinformation, and, most importantly,
-    develop new tools and adapt existing ones to create collaboration infrastructure
-    aligned with end-user’sthe needs of practitioners, communities, and researchers.
-    At the end of Pphase I1, the team will participate in a formal Pphase II2 proposal
-    and pitch evaluation to proceed to Pphase II2. If selected into Pphase II2, the
-    team can receive up to $5 million in funding to further the solution toward real-world
-    application Our first year is a Phase I pilot, and we aim to further expand the
-    project in a subsequent Phase II grant.\n\nDr. Shiri Dori-Hacohen, Co-PI and Director
-    of the Reducing Information Ecosystem Threats (RIET) Lab at the University of
-    Connecticut explained the importance of multisectoral collaboration, “The scope
-    and scale of information ecosystem threats online, including disinformation, weaponized
+    meaningful collaboration between researchers, fact-checkers, and community leaders
+    to combat hate, abuse, and misinformation. Through these activities, the team
+    will advance research on detection of controversial and hateful content, improve
+    their understanding of hate speech and misinformation, and develop new tools and
+    adapt existing ones to create collaboration infrastructure aligned with the needs
+    of researchers, practitioners, and communities. At the end of Phase I, the team
+    will participate in a formal Phase II proposal and pitch evaluation to proceed
+    to Phase II. If selected into Phase II, the team may receive up to $5 million
+    to further the solution toward real-world application.\n\n\"The scope and scale
+    of information ecosystem threats online, including disinformation, weaponized
     controversy, and hate speech, are growing rapidly and now far beyond the capacity
-    of any individual organization to make a dent in.”\n\nCo-PI Professor Kathleen
-    Hall Jamieson, the director of the Annenberg Public Policy Center (APPC) and a
-    cofounder of FactCheck.org, added, “The Annenberg Public Policy Center is proud
-    to be part of the sort of cross-disciplinary, cross-institution, cross- sector
-    partnership needed to address this complex, consequential challenge.” \n\nDr.
-    Keen Sung, Co-PI and Vice President of Research and Development at AuCoDe, added:
-    “We are excited and honored to confront the pernicious issue of rising misinformation
-    and controversy in social communities, both on-line and off. The strong, complementary
-    skill sets of the FACT CHAMP team allows us to work closely with leaders within
-    these communities. That familiarity allows us to reduce the harm that misinformation
-    causes to specific communities and simultaneously promote empathy.”\n\n#### About
-    the FACT CHAMP team\nMeedan is a technology not-for-profit that builds software
-    and initiatives to strengthen journalism, digital literacy, and accessibility
-    of information for global communities. The mission of Meedan’s research team is
-    to increase and deepen our understanding of how information divides affect people
-    differently and to develop the tools and methods to widen access. We envision
-    a world in which all people regardless of their languages, locations, or other
-    factors have the ability to effectively locate the most pertinent information,
-    evaluate the quality and credibility of that information, and make the decisions
-    they want. \n\nThe Annenberg Public Policy Center (APPC) of the University of
-    Pennsylvania runs FactCheck.org, a verified signatory of the International Fact-Checking
-    Network’s code of principles. The IFCN assessor described FactCheck.org as “a
-    well-trusted source” whose “evaluations are data-driven and fair.” Nicholas D.
-    Kristof, a liberal New York Times columnist, called FactCheck.org “the indispensable
-    truth squad Website” while conservative commentator Charlie Sykes called it “probably
-    the best of all the fact-checks.” Kathleen Hall Jamieson, Director of APPC, co-founded
-    FactCheck.org in 2003 with Brooks Jackson, a veteran investigative reporter who
-    pioneered on-air fact-checking at CNN.\n\nUniversity of Massachusetts at Amherst
-    team includes scholars from Communication and Computer Science with expertise
-    in global disinformation cultures, race and racism, and community engaged research.
-    Prof. Jonathan Corpus Ong has published ethnographic and policy-relevant research
-    about the intersections of disinformation and hate speech in the wake of Covid-19,
-    with a record of public engagement work with Asian and Asian-American community
-    leaders. Prof. Ethan Zuckerman is director of the UMass Institute for the Digital
-    Public Infrastructure and a leader in global conversations about reimagining the
-    Internet toward being more responsive to communities' needs, values and interests.
-    The bottom-up research approach they lead will inform the development of digital
-    tools to be developed by computational social science researchers Prof. Brendan
-    O’Connor (CS) and Prof. Weiai (Wayne) Xu (Communication).\n\nThe newly launched
-    Reducing Information Ecosystem Threats (RIET) Lab will be leading the efforts
-    from the Computer Science and Engineering (CSE) Department at the University of
-    Connecticut team. Prof. Shiri Dori-Hacohen, director of the RIET Lab, is an expert
-    in information ecosystem threats online, including controversy and its impact
-    on mis- and disinformation; her research integrates insights from social science
-    into novel computational models. She is joined by Prof. Amir Herzberg, the Comcast
-    Endowed Professor for Security Innovation, whose research includes novel community
-    detection approaches to detect malicious actors, as well as works on privacy,
-    anonymity and cryptography protocols.\n\nThe School of Communication and Information
-    at Rutgers University-New Brunswick has expertise in data science, library science,
-    and communication that is uniquely situated to work on key interdisciplinary problems
-    and come up with innovative solutions. Assistant Professor of Library and Information
-    Science Kiran Garimella, a computer scientist working in the area of computational
-    social science, is an expert on studying encrypted platforms at scale. His work
-    deals with building interdisciplinary approaches to bridge computer science and
-    the social sciences, creating solutions for various societal level issues like
-    political polarization, misinformation, and migrant assimilation. Garimella's
-    research studying misinformation and hate speech on WhatsApp is one of the few
-    that studies encrypted platforms at scale.\n\nAuCoDe is an AI-based startup that
+    of any individual organization to make a dent in,\" said Shiri Dori-Hacohen, co-PI
+    and director of the Reducing Information Ecosystem Threats (RIET) Lab at the University
+    of Connecticut. \n\nKeen Sung, co-PI and vice president of research and development
+    at AuCoDe, added, \"We are excited and honored to confront the pernicious issue
+    of rising misinformation and controversy in social communities, both online and
+    off. The strong, complementary skill sets of the FACT CHAMP team allow us to work
+    closely with leaders within these communities. That familiarity will help us to
+    reduce the harm that misinformation causes to specific communities and simultaneously
+    promote empathy.\"\n\n## About the FACT CHAMP team\n\n__[Meedan](https://meedan.com)__
+    is a technology not-for-profit that builds software and initiatives to strengthen
+    journalism, digital literacy, and accessibility of information for global communities.
+    The mission of Meedan's research team is to increase and deepen our understanding
+    of how information divides affect people differently and to develop the tools
+    and methods to widen access. We envision a world in which all people regardless
+    of their languages, locations, or other factors have the ability to effectively
+    locate the most pertinent information, evaluate the quality and credibility of
+    that information, and make the decisions they want. \n\nThe __[Annenberg Public
+    Policy Center](https://www.annenbergpublicpolicycenter.org/)__ (APPC) of the University
+    of Pennsylvania is a nonpartisan, nonprofit communication policy center focusing
+    on research into political, science, and health communication. Its project __[FactCheck.org](https://www.factcheck.org/)__
+    was founded in 2003 by APPC Director Kathleen Hall Jamieson and Brooks Jackson,
+    a veteran investigative reporter who pioneered on-air fact-checking at CNN.\n\nThe
+    __[University of Massachusetts at Amherst](https://www.umass.edu/)__ team includes
+    scholars from Communication and Computer Science with expertise in global disinformation
+    cultures, race and racism, and community engaged research. Prof. Jonathan Corpus
+    Ong has published ethnographic and policy-relevant research about the intersections
+    of disinformation and hate speech in the wake of Covid-19, with a record of public
+    engagement work with Asian and Asian-American community leaders. Prof. Ethan Zuckerman
+    is director of the UMass Institute for the Digital Public Infrastructure and a
+    leader in global conversations about reimagining the Internet toward being more
+    responsive to communities' needs, values and interests. The bottom-up research
+    approach they lead will inform the development of digital tools to be developed
+    by computational social science researchers Prof. Brendan O'Connor (CS) and Prof.
+    Weiai (Wayne) Xu (Communication).\n\nThe newly launched [Reducing Information
+    Ecosystem Threats (RIET) Lab](https://infothreats.cse.uconn.edu/) will be leading
+    the efforts from the Computer Science and Engineering (CSE) Department at the
+    __University of Connecticut__ team. Prof. Shiri Dori-Hacohen, director of the
+    RIET Lab, is an expert in information ecosystem threats online, including controversy
+    and its impact on mis- and disinformation; her research integrates insights from
+    social science into novel computational models. She is joined by Prof. Amir Herzberg,
+    the Comcast Endowed Professor for Security Innovation, whose research includes
+    novel community detection approaches to detect malicious actors, as well as works
+    on privacy, anonymity and cryptography protocols.\n\nThe [School of Communication
+    and Information](https://comminfo.rutgers.edu/) at __Rutgers University-New Brunswick__
+    has expertise in data science, library science, and communication that is uniquely
+    situated to work on key interdisciplinary problems and come up with innovative
+    solutions. Assistant Professor of Library and Information Science Kiran Garimella,
+    a computer scientist working in the area of computational social science, is an
+    expert on studying encrypted platforms at scale. His work deals with building
+    interdisciplinary approaches to bridge computer science and the social sciences,
+    creating solutions for various societal level issues like political polarization,
+    misinformation, and migrant assimilation. Garimella's research studying misinformation
+    and hate speech on WhatsApp is one of the few that studies encrypted platforms
+    at scale.\n\n__[AuCoDe](https://www.aucode.io/)__ is an AI-based startup that
     detects controversies and misinformation online and turns them into actionable
     intelligence. AuCoDe is the recipient of the NSF I-Corps and NSF SBIR Phase I
     and II grants on the topic of controversy detection online. Dr. Keen Sung is the
     Vice President of Research and Development and is an expert in privacy, cybersecurity,
-    and disinformation.\n\n#### About the NSF Convergence Accelerator\nResearch is
-    often driven by a compelling societal or scientific challenge; however, it may
-    take the researcher community years to develop a solution. To deliver tangible
-    solutions that have a nation-wide societal impact and at a faster pace, the National
-    Science Foundation (NSF) launched the Convergence Accelerator program in 2019.
-    Designed to leverage a convergence approach to transition basic research and discovery
-    into practice, the Convergence Accelerator uses innovation processes like human-centered
-    design, user discovery, and team science; and integration of multidisciplinary
-    research and partnerships; the Convergence Accelerator is making timely investments
-    to solve high-risk societal challenges through use-inspired convergence research.\n"
+    and disinformation.\n\n## About the NSF Convergence Accelerator\nResearch is often
+    driven by a compelling societal or scientific challenge; however, it may take
+    the researcher community years to develop a solution. To deliver tangible solutions
+    that have a nation-wide societal impact and at a faster pace, the National Science
+    Foundation (NSF) launched the [Convergence Accelerator](https://www.nsf.gov/od/oia/convergence-accelerator/)
+    program in 2019. Designed to leverage a convergence approach to transition basic
+    research and discovery into practice, the Convergence Accelerator uses innovation
+    processes like human-centered design, user discovery, and team science; and integration
+    of multidisciplinary research and partnerships; the Convergence Accelerator is
+    making timely investments to solve high-risk societal challenges through use-inspired
+    convergence research."
+  alt_date: !ruby/object:DateTime 2021-09-27 00:00:00.000000000 Z
   date: '2021-09-23'
-  title-en: 'Fact Champ: New project to increase collaboration between fact-checkers,
+  image: https://images.ctfassets.net/g118h5yoccvd/1OEpoBLFFoxu4rL7xNNODV/0039b82664e6ddc83389c0ba81aaf262/fact_champ_launch.jpg
+  title-en: 'FACT CHAMP: New project to increase collaboration between fact-checkers,
     academics, and community leaders to counter misinformation online'
-  alt_date: *70
-  alt_date_string: '2021-09-23'
+  alt_date_string: '2021-09-27'
 - sys:
     id: 7yZDQBkwETnvWpoQztb6ID
-    created_at: &71 !ruby/object:DateTime 2021-09-24 00:24:32.205000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-24 19:10:15.488000000 Z
+    created_at: &70 !ruby/object:DateTime 2021-09-24 00:24:32.205000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-28 23:08:24.236000000 Z
     content_type_id: story
     revision: 0
     space:
@@ -15517,14 +15540,19 @@ story:
   title: 'Fact-checking requires more than facts—it also requires trust at a human
     scale. '
   slug: fact-checking-requires-more-than-facts-it-also-requires-trust-at-a-human
-  body: "*This is a guest post to Meedan Ideas from Dr. Gillian \"Gus\" Andrews, a
-    public educator, writer, and researcher who is known on the cybersecurity speaking
-    circuit for posing thought-provoking questions about the human side of digital
-    life.\n\nMeedan's Ideas blog encourages ideas and perspectives from friends in
-    our broader network to spark conversation and ideas and encourage dialogue on
-    core issues around our work. While Meedan edits posts in our Ideas section, the
-    views in these blog posts do not necessarily reflect the views of Meedan. If you
-    are interested in submitting a Meedan Ideas piece, please get in touch!*\n\nAs
+  lead_image:
+    en-US:
+      sys:
+        id: zyXfbLiXunHJnujNdnamB
+        created_at: !ruby/object:DateTime 2021-09-28 21:50:07.592000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-28 21:50:28.088000000 Z
+      title: meedan_blog_trust-at-human-scale_05.jpg
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg"
+    description: ''
+    title: meedan_blog_trust-at-human-scale_05.jpg
+    url: "//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg"
+  body: "![meedan_blog_trust-at-human-scale_05.jpg](//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg)\n\nAs
     disinformation rises around the world, many funders and civil society organizations
     have invested in fact-checking as a solution. Traditionally a part of the everyday
     work of journalism, fact-checking has spun off into other spaces. Independent
@@ -15540,8 +15568,8 @@ story:
     trust by default. In this article, I will articulate how information becomes accepted
     as fact, and how people come to trust (or mistrust) those facts. I’ll then lay
     out some directions that anti-disinformation work will need to take in order to
-    succeed.\n\n__The social life of information must be reckoned with\n__\n\nFacts
-    are never \"just facts.\" Not even scientific facts. Especially not scientific
+    succeed.\n\n#### The social life of information must be reckoned with\n\nFacts
+    are never \"just facts.\" Not even scientific facts. *Especially* not scientific
     facts. Scientists include hypotheses, prior research, and data in their papers.
     Papers go through peer review, and only after they have been through that publication
     process are they supposed to be cited by others. Scientists don't expect that
@@ -15549,30 +15577,31 @@ story:
     their \"facts\" wrong. Journalism, also, has rules for collecting and triangulating
     evidence. That evidence, once again, is not \"just facts.\"\n\nSo \"fact-checking\"
     projects have never actually been about facts. What we are concerned with when
-    we fight disinformation is people spreading information that doesn't meet the
-    criteria  of science, \"good\" journalism, academic work, and so on. Information
+    we fight disinformation is *people spreading information that doesn't meet the
+    criteria  of science, \"good\" journalism, academic work*, and so on. Information
     that doesn't rely on what we accept as \"trustworthy\" professional methods or
     standards for evidence. Because that is what news sources and science ask us to
-    trust: that they are using professional methods and evidence to build their case.*
-    We can build on this basis to strengthen public trust---and, in fact, many well-established
-    news sources are, by opening up their newsrooms to show communities how they do
-    their work.\n\nScientific and journalistic \"facts\" are not the only information
-    built on criteria for evidence. While science has come to accept evidence of evolution
-    as a basis for fact, certain religions have rejected it. Some Christians will
-    tell you that evolution is a lie, and creation is a fact. And it is important
-    to recognize they aren't just dismissing evolution with no criteria for evidence.
-    They accept different evidence. They do trust Biblical texts as evidence. Creationist
-    theologians have arranged Biblical texts into their own \"fact networks\" and
-    connected them with evidence in nature, flaws they see in scientific assumptions,
-    and so on. And those who follow this line of thinking [also use Biblical texts
-    to interpret other messages they encounter on the internet.](https://datasociety.net/wp-content/uploads/2018/05/Data_Society_Searching-for-Alternative-Facts.pdf)\n\nThe
+    trust: that they are using professional methods and evidence to build their case.<sup><a
+    id=\"fnref1\" href=\"#fn1\">[1]</a></sup> We can build on this basis to strengthen
+    public trust---and, in fact, many well-established news sources are, by opening
+    up their newsrooms to show communities how they do their work.\n\nScientific and
+    journalistic \"facts\" are not the only information built on criteria for evidence.
+    While science has come to accept evidence of evolution as a basis for fact, certain
+    religions have rejected it. Some Christians will tell you that evolution is a
+    lie, and creation is a fact. And it is important to recognize they aren't just
+    dismissing evolution with no criteria for evidence. They accept *different* evidence.
+    They *do* trust Biblical texts as evidence. Creationist theologians have arranged
+    Biblical texts into their own \"fact networks\" and connected them with evidence
+    in nature, flaws they see in scientific assumptions, and so on. And those who
+    follow this line of thinking [also use Biblical texts to interpret other messages
+    they encounter on the internet.](https://datasociety.net/wp-content/uploads/2018/05/Data_Society_Searching-for-Alternative-Facts.pdf)\n\nThe
     same goes for anti-vaxxers and conspiracy theorists. [It would be a mistake to
     assume these people won't present you with some kind of evidence if you challenge
     their facts.](https://coloradosun.com/2018/11/20/flat-earth-convention-denver-post-truth/)
     Many of them talk about the online research they have done to come to their conclusions.
     They are relying on different evidence, from different experts, making different
     claims to truth. Leaders within conspiracy theory, creationist, and anti-vaccine
-    communities become experts in whose evidence followers\n\n place their trust.\n\nIf
+    communities become experts in whose evidence followers place their trust.\n\nIf
     fact-checking interventions do not work to change the minds of community leaders
     and address the social networks surrounding these other \"facts,\" history tells
     us they will not succeed. Decades of sociological research on public health and
@@ -15592,7 +15621,7 @@ story:
     may go against these identities. If our fact-checking approaches don't account
     for these norms and existing beliefs of communities, we're just about guaranteeing
     that our facts will be rejected out of hand.\n\nRogers describes how change involves
-    this kind of cognitive dissonance: the uncomfortable feeling that a new recommendation
+    this kind of *cognitive dissonance*: the uncomfortable feeling that a new recommendation
     does not jive with a person's beliefs or community norms. There is no guarantee
     that when reading a checked fact, the reader will change to align with that fact.
     In fact, it's just as possible that dissonance will lead them to misunderstand
@@ -15605,8 +15634,8 @@ story:
     a lack of the trust needed to get people to rely on their facts.\n\nBut the problem
     goes beyond people's lack of trust in institutions and evidence. Part of the problem
     is that trust is deeply personal and individual. To fight disinformation, we need
-    to reckon with the roots of trust, too.\n\nWhere does trust come from?\n\nWe need
-    to start with what trust actually is. Thanks to developmental neuropsychology
+    to reckon with the roots of trust, too.\n\n#### Where does trust come from?\n\nWe
+    need to start with what trust actually is. Thanks to developmental neuropsychology
     and sociology, we know that:\n\n-   [Trust begins as a human quality.](https://www.google.com/books/edition/The_Social_Construction_of_Trust/tBMQPSZyPpMC?hl=en&gbpv=1&dq=Linda+Weber+and+Allison+I.+Carter,+The+Social+Construction+of+Trust) \n\n-
     \  [Trust is an attitude that grows within individuals (or doesn't).](https://www.amazon.com/Boy-Who-Raised-Psychiatrists-Notebook-What/dp/0465094457)\n\n-
     \  Trust grows between individuals (or doesn't). \n\n-   Ultimately, trust is
@@ -15623,24 +15652,25 @@ story:
     transfer their trust from their parents to others as they see those people behave
     consistently, and as their parents tell them \"that person there is trustworthy;
     that person over there is not.\" Our trust in different information sources is
-    rooted in our sense of who we are as members of our communities and families.**\n\nSchool
-    plays a large part in shaping this trust, but conflicting messages from families
-    and religious institutions about how \"people like us\" are supposed to relate
-    to different information sources can encourage students to reject facts they are
-    taught in school. This can make the difference between citizens thoughtfully reading
-    and acting on public health guidelines, or refusing to vaccinate their own kids
-    and accepting conspiracy theories about public health organizations.\n\nI'm a
-    prime example of trust in science: I grew up on the campus of Caltech. My grandfather,
-    parents, sisters and I all worked there at some point. As kids, my sisters and
-    I did our homework in empty engineering classrooms, under sliding chalkboards
-    scrawled with incomprehensible equations. When there was an earthquake, we would
-    head to campus, knowing the buildings had been checked by seismologists and engineers.
-    Our trust in science was literally built into the walls. In writing this article
-    I'm following the footsteps of my stepmother, whose job was helping Caltech scientists
-    communicate with the public.\n\nThe path to trusting science is harder when your
-    community has no exposure to scientists---or has been actively damaged by science.
-    This is explicitly why public health professionals have pointed to the importance
-    of [building](https://www.cdc.gov/vaccines/covid-19/downloads/guide-awardees-community-driven-strategies.pdf)
+    rooted in our sense of who we are as members of our communities and families.<sup><a
+    id=\"fnref2\" href=\"#fn2\">[2]</a></sup>\n\nSchool plays a large part in shaping
+    this trust, but conflicting messages from families and religious institutions
+    about how \"people like us\" are supposed to relate to different information sources
+    can encourage students to reject facts they are taught in school. This can make
+    the difference between citizens thoughtfully reading and acting on public health
+    guidelines, or refusing to vaccinate their own kids and accepting conspiracy theories
+    about public health organizations.\n\nI'm a prime example of trust in science:
+    I grew up on the campus of Caltech. My grandfather, parents, sisters and I all
+    worked there at some point. As kids, my sisters and I did our homework in empty
+    engineering classrooms, under sliding chalkboards scrawled with incomprehensible
+    equations. When there was an earthquake, we would head to campus, knowing the
+    buildings had been checked by seismologists and engineers. Our trust in science
+    was literally built into the walls. In writing this article I'm following the
+    footsteps of my stepmother, whose job was helping Caltech scientists communicate
+    with the public.\n\nThe path to trusting science is harder when your community
+    has no exposure to scientists---or has been actively damaged by science. This
+    is explicitly why public health professionals have pointed to the importance of
+    [building](https://www.cdc.gov/vaccines/covid-19/downloads/guide-awardees-community-driven-strategies.pdf)
     \ [relationships](https://www.apa.org/topics/covid-19/equity-resources/building-vaccine-confidence.pdf)
     with Black and Latino community leaders as they roll out COVID vaccines. Science
     has a frightening history of engaging in [eugenics](https://www.pbs.org/wgbh/americanexperience/films/eugenics-crusade/),
@@ -15670,7 +15700,7 @@ story:
     to manage the stress levels of individuals as we encourage them to trust people
     and facts they previously distrusted. Without this work, people simply will not
     have the cognitive capacity or emotional reserves to process the new facts we're
-    asking them to incorporate.\n\nHow we need to adapt the fact-checking approach\n\nFollowing
+    asking them to incorporate.\n\n#### How we need to adapt the fact-checking approach\n\nFollowing
     these lines of research, it is clear simply presenting facts is not enough.\n\nTo
     really make an impact on disinformation, we have to address these social networks
     and individual histories of trust. We need to join forces with practitioners in
@@ -15705,29 +15735,52 @@ story:
     and other anti-disinformation interventions.\n\nIf you are a practitioner of this
     sort, would you would engage with an effort like this? If you are on the ground
     in a community where disinformation is spread, do you see improvements to this
-    proposal?\n\n* When people say that science is \"socially constructed,\" a phrase
-    that raises hackles in some circles, this is what they mean. Bruno Latour, the
-    foundational philosopher in the field of science and technology studies, details
-    in many of his books how scientific facts are developed and spread, and why and
-    where some come to be more accepted than others.\n\n** The work of the New Literacies
-    scholars (see e.g. [Gee, 2004](http://www.anatomecha.net/resources/vrgbl/edlt543_play_and_learning/james-paul-gee-situated-language-and-learning-a-critique-of-traditional-schooling-2004.pdf))
-    has done a great deal to identify how the reading, writing, and information practices
-    of students in their homes, religious institutions, and digital lives differ from
-    what they are taught in school, and how these differences often lead to students
-    discarding or failing to engage with school lessons.\n\n*Dr. Gillian \"Gus\" Andrews
-    is a public educator, writer, and researcher who is known on the cybersecurity
-    speaking circuit for posing thought-provoking questions about the human side of
-    digital life. Dr. Andrews has worked in the international digital rights space
-    for eight years, contributing to usability efforts for secure tools like Psiphon
-    and Thunderbird's encryption suite and organizing events at the Internet Freedom
-    Festival. Her policy research has informed work at Internews, the US State Department,
-    and the Electronic Frontier Foundation. Dr. Andrews's book, [Keep Calm and Log
-    On](http://keepcalmlogon.com/) (MIT Press 2020), is an everyday citizen's guide
-    to surviving the digital revolution, focusing on privacy, security, and fighting
-    disinformation. Previously, she was the producer of [The Media Show](https://www.youtube.com/themediashow),
-    an award-winning YouTube series about media and digital literacy.*"
+    proposal?\n\n*Dr. Gillian \"Gus\" Andrews is a public educator, writer, and researcher
+    who is known on the cybersecurity speaking circuit for posing thought-provoking
+    questions about the human side of digital life. Dr. Andrews has worked in the
+    international digital rights space for eight years, contributing to usability
+    efforts for secure tools like Psiphon and Thunderbird's encryption suite and organizing
+    events at the Internet Freedom Festival. Her policy research has informed work
+    at Internews, the US State Department, and the Electronic Frontier Foundation.
+    Dr. Andrews's book, [Keep Calm and Log On](http://keepcalmlogon.com/) (MIT Press
+    2020), is an everyday citizen's guide to surviving the digital revolution, focusing
+    on privacy, security, and fighting disinformation. Previously, she was the producer
+    of [The Media Show](https://www.youtube.com/themediashow), an award-winning YouTube
+    series about media and digital literacy.*"
+  updates:
+    en-US: |-
+      This is a guest post to Meedan Ideas from Dr. Gillian "Gus" Andrews, a public educator, writer, and researcher who is known on the cybersecurity speaking circuit for posing thought-provoking questions about the human side of digital life.
+
+      Meedan's Ideas blog encourages ideas and perspectives from friends in our broader network to spark conversation and ideas and encourage dialogue on core issues around our work. While Meedan edits posts in our Ideas section, the views in these blog posts do not necessarily reflect the views of Meedan. If you are interested in submitting a Meedan Ideas piece, please get in touch!
+  footnotes:
+    en-US:
+    - sys:
+        id: 6Ud3xxvyVnTSqk31mhPdbt
+        created_at: !ruby/object:DateTime 2021-09-28 23:05:07.608000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-28 23:06:01.518000000 Z
+        content_type_id: footnote
+        revision: 0
+      body:
+        en-US: When people say that science is "socially constructed," a phrase that
+          raises hackles in some circles, this is what they mean. Bruno Latour, the
+          foundational philosopher in the field of science and technology studies,
+          details in many of his books how scientific facts are developed and spread,
+          and why and where some come to be more accepted than others.
+    - sys:
+        id: 4hh00EU3Jwxzb9UP4hAhoZ
+        created_at: !ruby/object:DateTime 2021-09-28 23:06:04.212000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-28 23:06:25.352000000 Z
+        content_type_id: footnote
+        revision: 0
+      body:
+        en-US: The work of the New Literacies scholars (see e.g. [Gee, 2004](http://www.anatomecha.net/resources/vrgbl/edlt543_play_and_learning/james-paul-gee-situated-language-and-learning-a-critique-of-traditional-schooling-2004.pdf))
+          has done a great deal to identify how the reading, writing, and information
+          practices of students in their homes, religious institutions, and digital
+          lives differ from what they are taught in school, and how these differences
+          often lead to students discarding or failing to engage with school lessons.
   date: '2021-09-24'
+  image: https://images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg
   title-en: 'Fact-checking requires more than facts—it also requires trust at a human
     scale. '
-  alt_date: *71
+  alt_date: *70
   alt_date_string: '2021-09-24'

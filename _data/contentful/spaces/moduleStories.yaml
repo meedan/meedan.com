@@ -3,11 +3,167 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-22 20:26:06.626000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-27 15:58:40.039000000 Z
     content_type_id: moduleStories
-    revision: 82
+    revision: 83
   title: Blog
   stories:
+  - sys:
+      id: 20seJZJ9P2zf30YycG7i3j
+      created_at: !ruby/object:DateTime 2021-09-23 11:38:15.264000000 Z
+      updated_at: !ruby/object:DateTime 2021-09-27 13:55:52.253000000 Z
+      content_type_id: story
+      revision: 1
+    title: 'FACT CHAMP: New project to increase collaboration between fact-checkers,
+      academics, and community leaders to counter misinformation online'
+    slug: fact-champ-launch
+    topic:
+    - sys:
+        id: 6TvSKHc0JwGsaZxHUrYc5M
+    lead_image:
+      sys:
+        id: 1OEpoBLFFoxu4rL7xNNODV
+        created_at: !ruby/object:DateTime 2021-09-25 19:05:28.947000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-27 13:55:47.409000000 Z
+      title: FACT CHAMP will create new collaboration infrastructure for academics,
+        fact-checking organizations, and community leaders to advance research and
+        practice for responding to misinformation and hateful content online.
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/1OEpoBLFFoxu4rL7xNNODV/0039b82664e6ddc83389c0ba81aaf262/fact_champ_launch.jpg"
+    body: "Misinformation is proliferating across the globe, but research into its
+      nature and origins is often disconnected from the tools and techniques used
+      to combat it. \n\nNow, a team of nonprofit, academic, industry, and fact-checking
+      organizations has received a 12-month, $750k grant from the National Science
+      Foundation's [Convergence Accelerator](https://www.nsf.gov/od/oia/convergence-accelerator/)
+      to create a new platform to narrow the gap between research into misinformation
+      and responses designed to curb it. The project's initial focus will address
+      misinformation in partnership with Asian American and Pacific Islander (AAPI)
+      communities.\n\nPartners in this project, called FACT CHAMP, include Meedan,
+      a technology nonprofit focused on fact-checking tools; the Annenberg Public
+      Policy Center of the University of Pennsylvania and its FactCheck.org project;
+      the University of Massachusetts Amherst, University of Connecticut, and Rutgers
+      University; and AuCoDe, a start-up that uses artificial intelligence to detect
+      and analyze disinformation. \n\nFACT CHAMP stands for *Fact-checker, Academic,
+      and Community Collaboration Tools: Combating Hate, Abuse, and Misinformation
+      with Minority-led Partnerships*. The project is designed to advance scientific
+      understanding of how trust, misinformation, abuse, and hateful content affect
+      underrepresented groups. The project is one of the [2021 cohort of Phase I projects](https://www.nsf.gov/news/special_reports/announcements/092221.jsp)
+      on Trust & Authenticity in Communications Systems (Track F) within the NSF Convergence
+      Accelerator.\n\n\"Problems faced day-to-day by fact-checkers are inspiring new
+      research challenges and can open up new datasets for research,\" said Scott
+      Hale, the project's principal investigator and Meedan's director of research.
+      \"At the same time, developments in computer science and social science can
+      create new tools, approaches, and understandings to better counter misinformation
+      in practice.\"\n\nCo-PI Kathleen Hall Jamieson, director of the Annenberg Public
+      Policy Center and a cofounder of FactCheck.org, said, \"Identifying the misinformation
+      and patterns of deception to which different societal groups are exposed is
+      a prerequisite of effective fact-checking.\"\n\nThe first phase of this project,
+      conducted over the next year, will involve working closely with leaders in AAPI
+      communities to prototype and design a platform using tiplines, claim-matching,
+      and state-of-the-art controversy detection models to help identify and triage
+      potential misinformation within and about their communities.\n\n\"This project
+      feels urgent, as it is really an intervention that engages with the tragedies
+      that have spurred the #StopAAPIHate movement,\" said Jonathan Corpus Ong, a
+      co-PI and associate professor in global digital media at UMass Amherst. \"It's
+      essential we conduct more multidisciplinary research into how AAPI community
+      members navigate the diverse threats of the contemporary digital environment,
+      from racist conspiracy theories to an extremist right-wing ideology, that prey
+      on the AAPI community's current state of fear and anxiety.\"\n\nSubsequent work
+      in this project will include development of smartphone-based self-help resources
+      for AAPI community leaders and building an infrastructure to securely share
+      data and challenges with researchers who are investigating and addressing the
+      ways misinformation propagates. The infrastructure will also allow academic
+      solutions to be more easily used in practice. \n\nKiran Garimella, a co-PI and
+      assistant professor at Rutgers University, said, \"Working with fact-checking
+      organizations and communities is an exciting opportunity but entails significant
+      coordination costs. I am confident our team can reduce these burdens, making
+      such collaborations easier and paving the way for amazing interdisciplinary
+      projects in this space.\"\n\nTo ensure the project's success, the multidisciplinary
+      team will conduct three proof-of-concept activities over the next nine months
+      to determine the best approaches for enabling meaningful collaboration between
+      researchers, fact-checkers, and community leaders to combat hate, abuse, and
+      misinformation. Through these activities, the team will advance research on
+      detection of controversial and hateful content, improve their understanding
+      of hate speech and misinformation, and develop new tools and adapt existing
+      ones to create collaboration infrastructure aligned with the needs of researchers,
+      practitioners, and communities. At the end of Phase I, the team will participate
+      in a formal Phase II proposal and pitch evaluation to proceed to Phase II. If
+      selected into Phase II, the team may receive up to $5 million to further the
+      solution toward real-world application.\n\n\"The scope and scale of information
+      ecosystem threats online, including disinformation, weaponized controversy,
+      and hate speech, are growing rapidly and now far beyond the capacity of any
+      individual organization to make a dent in,\" said Shiri Dori-Hacohen, co-PI
+      and director of the Reducing Information Ecosystem Threats (RIET) Lab at the
+      University of Connecticut. \n\nKeen Sung, co-PI and vice president of research
+      and development at AuCoDe, added, \"We are excited and honored to confront the
+      pernicious issue of rising misinformation and controversy in social communities,
+      both online and off. The strong, complementary skill sets of the FACT CHAMP
+      team allow us to work closely with leaders within these communities. That familiarity
+      will help us to reduce the harm that misinformation causes to specific communities
+      and simultaneously promote empathy.\"\n\n## About the FACT CHAMP team\n\n__[Meedan](https://meedan.com)__
+      is a technology not-for-profit that builds software and initiatives to strengthen
+      journalism, digital literacy, and accessibility of information for global communities.
+      The mission of Meedan's research team is to increase and deepen our understanding
+      of how information divides affect people differently and to develop the tools
+      and methods to widen access. We envision a world in which all people regardless
+      of their languages, locations, or other factors have the ability to effectively
+      locate the most pertinent information, evaluate the quality and credibility
+      of that information, and make the decisions they want. \n\nThe __[Annenberg
+      Public Policy Center](https://www.annenbergpublicpolicycenter.org/)__ (APPC)
+      of the University of Pennsylvania is a nonpartisan, nonprofit communication
+      policy center focusing on research into political, science, and health communication.
+      Its project __[FactCheck.org](https://www.factcheck.org/)__ was founded in 2003
+      by APPC Director Kathleen Hall Jamieson and Brooks Jackson, a veteran investigative
+      reporter who pioneered on-air fact-checking at CNN.\n\nThe __[University of
+      Massachusetts at Amherst](https://www.umass.edu/)__ team includes scholars from
+      Communication and Computer Science with expertise in global disinformation cultures,
+      race and racism, and community engaged research. Prof. Jonathan Corpus Ong has
+      published ethnographic and policy-relevant research about the intersections
+      of disinformation and hate speech in the wake of Covid-19, with a record of
+      public engagement work with Asian and Asian-American community leaders. Prof.
+      Ethan Zuckerman is director of the UMass Institute for the Digital Public Infrastructure
+      and a leader in global conversations about reimagining the Internet toward being
+      more responsive to communities' needs, values and interests. The bottom-up research
+      approach they lead will inform the development of digital tools to be developed
+      by computational social science researchers Prof. Brendan O'Connor (CS) and
+      Prof. Weiai (Wayne) Xu (Communication).\n\nThe newly launched [Reducing Information
+      Ecosystem Threats (RIET) Lab](https://infothreats.cse.uconn.edu/) will be leading
+      the efforts from the Computer Science and Engineering (CSE) Department at the
+      __University of Connecticut__ team. Prof. Shiri Dori-Hacohen, director of the
+      RIET Lab, is an expert in information ecosystem threats online, including controversy
+      and its impact on mis- and disinformation; her research integrates insights
+      from social science into novel computational models. She is joined by Prof.
+      Amir Herzberg, the Comcast Endowed Professor for Security Innovation, whose
+      research includes novel community detection approaches to detect malicious actors,
+      as well as works on privacy, anonymity and cryptography protocols.\n\nThe [School
+      of Communication and Information](https://comminfo.rutgers.edu/) at __Rutgers
+      University-New Brunswick__ has expertise in data science, library science, and
+      communication that is uniquely situated to work on key interdisciplinary problems
+      and come up with innovative solutions. Assistant Professor of Library and Information
+      Science Kiran Garimella, a computer scientist working in the area of computational
+      social science, is an expert on studying encrypted platforms at scale. His work
+      deals with building interdisciplinary approaches to bridge computer science
+      and the social sciences, creating solutions for various societal level issues
+      like political polarization, misinformation, and migrant assimilation. Garimella's
+      research studying misinformation and hate speech on WhatsApp is one of the few
+      that studies encrypted platforms at scale.\n\n__[AuCoDe](https://www.aucode.io/)__
+      is an AI-based startup that detects controversies and misinformation online
+      and turns them into actionable intelligence. AuCoDe is the recipient of the
+      NSF I-Corps and NSF SBIR Phase I and II grants on the topic of controversy detection
+      online. Dr. Keen Sung is the Vice President of Research and Development and
+      is an expert in privacy, cybersecurity, and disinformation.\n\n## About the
+      NSF Convergence Accelerator\nResearch is often driven by a compelling societal
+      or scientific challenge; however, it may take the researcher community years
+      to develop a solution. To deliver tangible solutions that have a nation-wide
+      societal impact and at a faster pace, the National Science Foundation (NSF)
+      launched the [Convergence Accelerator](https://www.nsf.gov/od/oia/convergence-accelerator/)
+      program in 2019. Designed to leverage a convergence approach to transition basic
+      research and discovery into practice, the Convergence Accelerator uses innovation
+      processes like human-centered design, user discovery, and team science; and
+      integration of multidisciplinary research and partnerships; the Convergence
+      Accelerator is making timely investments to solve high-risk societal challenges
+      through use-inspired convergence research."
+    alt_date: !ruby/object:DateTime 2021-09-27 00:00:00.000000000 Z
   - sys:
       id: 1oXLBJBrDz6NzQFixhhN8r
       created_at: !ruby/object:DateTime 2021-09-13 10:30:35.187000000 Z
@@ -362,141 +518,6 @@ moduleStories:
     - sys:
         id: 5JPnt4ntMh5KUxw5YYyO6K
     alt_date: !ruby/object:DateTime 2021-09-07 00:00:00.000000000 Z
-  - sys:
-      id: 2aVAAwjYSJ58WMPz2L6NCn
-      created_at: !ruby/object:DateTime 2021-08-26 02:10:27.266000000 Z
-      updated_at: !ruby/object:DateTime 2021-09-08 23:12:51.603000000 Z
-      content_type_id: story
-      revision: 2
-    title: Welcome Jenna Sherman, our Digital Health Lab Program Manager
-    slug: welcome-jenna-sherman-our-digital-health-lab-program-manager
-    topic:
-    - sys:
-        id: 32ogZlDIXFakgZXiZ8l3MT
-    lead_image:
-      sys:
-        id: 7DueezJKligeeq07zN6gKi
-        created_at: !ruby/object:DateTime 2021-08-26 02:29:51.889000000 Z
-        updated_at: !ruby/object:DateTime 2021-08-26 02:37:20.291000000 Z
-      title: Jenna Sherman autumn
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/7DueezJKligeeq07zN6gKi/002397a17bae9ed7092a76361f0139a8/jenna_fall_leaves.jpeg"
-    body: "Meedan is excited to have Jenna Sherman on board as our Digital Health
-      Lab Program Manager! Learn more about her in the short Q&A below.\n\n### 1.
-      What has been your experience before you joined Meedan? \n\nBefore arriving
-      at Meedan, I completed my Masters of Public Health at the [Harvard T.H. School
-      of Public Health](https://www.hsph.harvard.edu/ \"Harvard T.H. School of Public
-      Health\") where I [concentrated in Maternal and Child Health](https://www.hsph.harvard.edu/mch-center-excellence/maternal-and-child-health-concentration/
-      \"Maternal and Child Health Concentration at Harvard\"). While completing my
-      masters, I worked both as a science writer on the [Health Desk](https://health-desk.org/
-      \"Health Desk by Meedan's Digital Health Lab\") team at Meedan and as a researcher
-      on a project studying the health outcomes of [infants born to incarcerated women](https://journalofethics.ama-assn.org/article/shackling-and-separation-motherhood-prison/2013-09
-      \"Childbirth and incarcerated women\"). In addition, during my Masters I co-founded
-      a student group called [Students Against COVID-19](https://www.studentsagainstcovid-19.com/
-      \"Students Against COVID-19\"), focused on providing accessible, visual content
-      on the latest COVID-19 information online, and also wrote on the side about
-      [media misinformation](https://harvardpublichealthreview.org/28-article-kahane/
-      \"Media misinformation article by Jenna Sherman\") and [making medicines more
-      accessible amidst the pandemic](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8141331/
-      \"Increasing medicine accessibility during pandemic article by Jenna Sherman\").
-      Before my Masters, I worked on [developing accessible drug pricing policies](http://www.globalaccessinaction.org/our-projects/
-      \"Global Access in Action accessible drug pricing policy work\") for a project
-      at the [Berkman Klein Center for Internet & Society](https://cyber.harvard.edu/
-      \"Berkman Klein Center for Internet & Society\") at Harvard Law School, [advised
-      governments globally](https://medium.com/berkman-klein-center/embracing-ai-for-the-social-good-a83521ddae76
-      \"Ethical AI advising with Berkman Klein Center\") on ethical policy frameworks
-      for AI, and [researched access to quality information and health resources](https://digitalcollections.sit.edu/isp_collection/2297/
-      \"Brazilian women's access to quality resources during Zika epidemic\") of Brazilian
-      women during the Zika epidemic. In college, I studied community health and peace
-      and justice studies.\n\n### 2. Tell us about an exciting and insightful experience
-      that has shaped your perspective and work.\n\nFor two years, I worked as a rape
-      crisis counselor at the [Boston Area Rape Crisis Center](https://barcc.org/
-      \"Boston Area Rape Crisis Center\"). In my first role, I served as a medical
-      advocate in which I would go in person to hospitals to meet with survivors reporting
-      sexual assault in order to advocate for them and provide them with referrals
-      and relevant health and services information. In my second role, I worked as
-      a hotline responder for the Center’s [Incarcerated Survivors Support Program](https://barcc.org/help/incarceratedsurvivor
-      \"Incarcerated Survivors Support Program of Boston Area Rape Crisis Center\"),
-      where I took calls for survivors who were currently incarcerated in order to
-      provide them immediate crisis support and resources for ongoing healing. \n\nThese
-      roles significantly shaped my views, my work, and my overall life. While I was
-      immersed in movements against sexual violence and trauma healing prior to these
-      roles, working one-on-one with individuals really shed a light on how important
-      both individual and systemic work is when it comes to sexual violence and other
-      public health challenges, and how to make systemic work more realistic and pragmatic.
-      It also made me more aware of the necessity of good quality and highly accessible
-      health information, particularly in acute times. I’m grateful to be involved
-      in such high-level, high-impact work at Meedan and other public health positions,
-      but my work at the Boston Area Rape Crisis Center helped me realize how important
-      it is to me to always be engaged in some way in individual-level work as well.\n\n###
-      3. What is the global public health community thinking about healthcare accessibility?
-      What are the strengths and what gaps do you see?\n\nThe global public health
-      community has so many thoughts about this! As has become evident, the COVID-19
-      pandemic has exposed the stark inequities that exist within healthcare across
-      the world. Since the start of the pandemic, who has been most likely to get
-      sick and die has been significantly determined based on [income](https://www.frontiersin.org/articles/10.3389/fsoc.2020.00047/full
-      \"COVID-19 and Poverty\"), [race](https://www.npr.org/sections/health-shots/2020/09/23/914427907/as-pandemic-deaths-add-up-racial-disparities-persist-and-in-some-cases-worsen
-      \"COVID-19 Data by Race\"), [geographic location](https://rsaiconnect.onlinelibrary.wiley.com/doi/10.1111/rsp3.12340
-      \"COVID-19 spatially uneven spread\"), and other demographic factors. Originally
-      touted as “[the great equalizer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7750712/
-      \"COVID-19 is Not the Great Equalizer\"),” it couldnt be clearer that the pandemic
-      is [anything but](https://www.nytimes.com/interactive/2021/03/11/opinion/covid-inequality-race-gender.html
-      \"COVID-19 and Inequality across all fronts\"). This tagline is especially ironic
-      as the pandemic operates in many ways as [climate change](https://www.theguardian.com/environment/2020/sep/21/worlds-richest-1-cause-double-co2-emissions-of-poorest-50-says-oxfam
-      \"Worlds richest cause double the CO2 emissions\") and other challenges on earth
-      do: the [whiter and wealthier](https://www.scientificamerican.com/article/the-unbearable-whiteness-of-climate-anxiety/)
-      are most likely to perpetuate the problem, while the rest of the world is more
-      likely to suffer from it. \n\nThese same inequalities have extended (as many
-      saw coming) to [vaccine access](https://www.kff.org/policy-watch/global-covid-19-vaccine-access-snapshot-of-inequality/
-      \"Global COVID-19 inequitable vaccine access\"), creating a situation in which
-      wealthy countries are already [planning to roll out boosters](https://www.theguardian.com/world/2021/aug/18/who-condemns-rush-by-wealth-nations-to-give-covid-vaccine-booster
-      \"WHO condemns wealthy nations giving out boosters instead of sharing with less
-      resourced nations\") while many countries, particularly in the Global South,
-      are barely far along in their initial vaccine distribution. All of this is indicative
-      of the need for radical change in our healthcare system, which the global health
-      community has been pushing for, but has fallen short of both due to internal
-      reasons (eg. not prioritizing health equity enough in our work) and external
-      ones (eg. lack of trust in health professionals and science). \n\nThe pandemic
-      has brought the urgency of healthcare accessibility to the forefront -- particularly
-      as other areas of health like reproductive, mental, and chronic health suffer
-      as the pandemic wages on -- but in order for it to stay an urgent priority our
-      thinking needs to shift to it as a long-term plan rather than a short term fix.
-      We should be using the pandemic as a model for [how we can approach healthcare
-      accessibility long-term](https://www.nytimes.com/2021/02/08/well/live/medical-system-improvements.html
-      \"Longterm needed improvements to American medical system\"). I think strengths
-      and potential solutions lie in distributing resources more equitably, localizing
-      solutions, and improving health information quality.\n\n### 4. What brought
-      you to Meedan?\n\nQuite literally, the Digital Health Lab Director, Nat Gyenes!
-      Nat was my mentor when I was an intern just out of college at the Berkman Klein
-      Center for Internet and Society, and we’ve stayed in touch ever since. When
-      the Health Desk project started last year, Nat and I spoke and I was privileged
-      to be brought on board as a science writer. Given that the Health Lab work was
-      the perfect intersection between my passions for public health, digital rights,
-      and information accessibility, I was highly enthusiastic about the possibility
-      of staying on and jumped on the possibility to do so! The Health Desk team is
-      one of the most brilliant, kind, and welcoming group of individuals I’ve worked
-      with, and it’s such a gift to be able to continue to work with them in this
-      new role.\n\n### 5. What's a project you're excited about right now?\n\nI’m
-      really thrilled about the work that we’re currently engaged in with [social
-      media companies to help them better address health misinformation online](https://www.facebook.com/journalismproject/facebook-partners-with-meedan-digital-health-lab-to-help-fact-checkers-debunk-health-misinformation
-      \"Meedan Digital Health Lab partners with Facebook Journalism Project on health
-      fact-checking\"). Health misinformation has been a significant challenge during
-      the pandemic and has been evidenced to worsen morbidity and mortality overall
-      as well as spread at high rates -- [rates faster than truths](https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308
-      \"Misinformation spreads faster than the truth\"). As a result, it’s crucial
-      to carefully monitor and moderate online platforms to ensure that health information
-      is as high quality and low risk as possible. However, in reaching this goal,
-      we also want to help platforms 1) avoid over moderation, and 2) work on creating
-      platform environments that are higher quality in content from the onset, thereby
-      proactively creating healthier online ecosystems and ideally mitigating the
-      need for stringent moderation. Engaging in this work from a public health perspective
-      is really exciting to me, and I’m thrilled that platforms are eager to be working
-      towards this end as well.\n\n### 6. Tell us some fun facts about Jenna.\n\n-
-      I was once in a viral meme (original video [here](https://www.youtube.com/watch?v=PtTrETtkL7I&ab_channel=YDHTL
-      \"Viral meme Jenna was in\"))!\n- I grew up on a street that was entirely my
-      family (about 7 houses)\n- I have a cat named Dolly who I’m obsessed with\n-
-      I used to sing opera\n- I love love love spicy food!\n\n![Dolly the cat](//images.ctfassets.net/g118h5yoccvd/6Og5DH2fbgdMdmxniFw2RQ/e01c89a57abd622a11fa66769b4546a7/meedan_blog_welcome_jenna.png)\n<p
-      class=\"caption text-align--center\">Jenna's cat Dolly.</p>"
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
