@@ -36,17 +36,14 @@
 
     
     // type scale
-    --int: 1.333;
+    --int: 1.222;
     --scale-0: 1rem;
-    // @include responsive('min-width: #{$width-tablet}') {
-    //     --scale-0: 2.4vw;
-    // }
+    @include responsive('min-width: #{$width-tablet}') {
+        --int: 1.333;
+    }
     @include responsive('min-width: #{$width-desktop}') {
         --scale-0: 1.2rem;
     }
-    --scale--1: calc(var(--scale-0) / var(--int));
-    --scale--2: calc(var(--scale-1) / var(--int));
-    // testing vw based scale
     --scale-1: calc(var(--scale-0) * var(--int));
     --scale-2: calc(var(--scale-1) * var(--int));
     --scale-2-5: calc(var(--scale-1) * 1.18 * var(--int));

@@ -10,8 +10,13 @@
     @include responsive('min-width: #{$width-tablet}') {
         font-size: 5.556rem;
     }
+    @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+        padding-left: var(--space-1);
+        padding-right: var(--space-1);
+        margin-top: 0.5rem;
+    }
     letter-spacing: -0.04rem;
-    line-height: 0.95;
+    // line-height: 0.95;
     padding-top: 0;
     hyphens: unset;
 }
@@ -37,8 +42,8 @@
     margin-top: 0;
     @media (min-width: 1px) and (max-width: #{$width-tablet}) {
         margin-top: var(--space-1);
-        padding-left: var(--space-3);
-        padding-right: var(--space-3);
+        padding-left: var(--space-2);
+        padding-right: var(--space-2);
     }
     span {
         display: block;
@@ -139,10 +144,18 @@
         margin-bottom: var(--space-2);
     }
     .report-list-item-row {
-        display: grid;
-        grid-template-columns: 0.1fr 0.9fr 2fr 0.5fr 0.5fr;
-        grid-gap: var(--space-2);
-        grid-auto-flow: column;
+        color: var(--silver);
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            & > * {
+                display: block;
+            }
+        }
+        @include responsive('min-width: #{$width-tablet}') {
+            display: grid;
+            grid-template-columns: 0.1fr 0.9fr 2fr 0.5fr 0.5fr;
+            grid-gap: var(--space-2);
+            grid-auto-flow: column;
+        }
     }
     .report-list-item-row-header {
         padding-bottom: var(--space-1);
@@ -150,14 +163,31 @@
             grid-column: span 2;
         }
     }
+    @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+        .report-list-item-row-header {
+            display: none;
+        }
+    }
     .report-link {
+        @include responsive('min-width: #{$width-tablet}') {
         border-top: 1px solid var(--accent);
+        }
         padding-top: var(--space-2);
     }
     span {
         text-align: left;
     }
+    .image-wrapper {
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            margin-top: 0.5rem;
+        }
+    }
     .report-title {
+        @media (min-width: 1px) and (max-width: #{$width-tablet}) {
+            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
+            color: #fff;
+        }
         font-size: var(--scale-1);
     }
 }

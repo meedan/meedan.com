@@ -19,18 +19,10 @@
 .contact-form label {
 	display: block;
 	text-transform: uppercase;
-	font-size: 1vw;
+	font-size: 0.8rem;
 	font-weight: 500;
-	line-height: 4vw;
-	height: 4vw;
-}
-
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.contact-form label {
-		font-size: 3vw;
-		line-height: 8vw;
-		height: 8vw;
-	}
+	line-height: 2rem;
+	height: 2rem;
 }
 
 .contact-form input, 
@@ -39,13 +31,16 @@
 	border: 0;
 	margin: 0;
 	padding: 0;
-	line-height: 5vw;
-	height: 5vw;
+	line-height: 4rem;
+	height: 4rem;
 	outline: 0;
 	width: 100%;
     background-color: transparent;
 	font-weight: 400;
-	font-size: 2vw;
+	font-size: 1.2rem;
+	@include responsive('min-width: #{$width-tablet}') {
+		font-size: 1.6rem;
+	}
 	color: var(--blackInk);
 	&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	    color: var(--blackInk);
@@ -62,23 +57,8 @@
 }
 
 .contact-form textarea {
-	padding-top: 1vw;
+	padding-top: 1rem;
 	line-height: 1;
-}
-
-
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.contact-form input,
-	.contact-form textarea {
-		font-size: 4vw;
-		line-height: 16vw;
-		height: 16vw;
-	}
-
-
-	.contact-form textarea {
-		line-height: 1;
-	}
 }
 
 .contact-form button {
@@ -88,22 +68,17 @@
 	border: 0;
 	margin: var(--space-1) 0 var(--space-2) 0;
 	padding: 0;
-	line-height: 5vw;
-	height: 5vw;
+	line-height: 4rem;
+	height: 4rem;
 	outline: 0;
 	width: 100%;
-	font-size: 2vw;
+	font-size: 1.2rem;
+	@include responsive('min-width: #{$width-tablet}') {
+		font-size: 1.6rem;
+	}
 	cursor: pointer;
 	&:hover {
         color: var(--blackInk);
 		background-color: var(--sunDown);
-	}
-}
-
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.contact-form button {
-		font-size: 6vw;
-		line-height: 12vw;
-		height: 12vw;
 	}
 }

@@ -80,3 +80,13 @@
         padding-top: var(--space-1);
     }
 }
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .module-image-grid img {
+        height: max-content;
+    }
+    .module-image-grid img:not(:nth-of-type(1)),
+    .module-image-grid span.credit {
+        display: none;
+    }
+}

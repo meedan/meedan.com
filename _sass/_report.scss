@@ -1,3 +1,8 @@
+.report header {
+    width: 100%;
+    grid-column: 1/-1;
+}
+
 @include responsive('min-width: #{$width-tablet}') {
     .report .page-wrapper header h1 {
         grid-column: 6 / -1;
@@ -132,7 +137,7 @@
             }
             @include responsive('min-width: #{$width-desktop}') {
                 .lead_image {
-                    height: 40vw;
+                    height: 30rem;
                 }
             }
         }
@@ -148,8 +153,11 @@
 
 .report .story-wrapper {
     font-family: $font-stack-e;
-    font-size: 1.111rem;
-    line-height: 1.275;
+    font-size: 0.9rem;
+    @include responsive('min-width: #{$width-tablet}') {
+        font-size: 1.111rem;
+        line-height: 1.275;
+    }
     em, strong {
         font-family: $font-stack-e;
     }
