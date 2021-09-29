@@ -15522,7 +15522,7 @@ story:
 - sys:
     id: 7yZDQBkwETnvWpoQztb6ID
     created_at: &70 !ruby/object:DateTime 2021-09-24 00:24:32.205000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-24 19:10:15.488000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-28 23:55:23.969000000 Z
     content_type_id: story
     revision: 0
     space:
@@ -15540,43 +15540,58 @@ story:
   title: 'Fact-checking requires more than facts—it also requires trust at a human
     scale. '
   slug: fact-checking-requires-more-than-facts-it-also-requires-trust-at-a-human
-  body: "*This is a guest post to Meedan Ideas from Dr. Gillian \"Gus\" Andrews, a
-    public educator, writer, and researcher who is known on the cybersecurity speaking
-    circuit for posing thought-provoking questions about the human side of digital
-    life.\n\nMeedan's Ideas blog encourages ideas and perspectives from friends in
-    our broader network to spark conversation and ideas and encourage dialogue on
-    core issues around our work. While Meedan edits posts in our Ideas section, the
-    views in these blog posts do not necessarily reflect the views of Meedan. If you
-    are interested in submitting a Meedan Ideas piece, please get in touch!*\n\nAs
-    disinformation rises around the world, many funders and civil society organizations
-    have invested in fact-checking as a solution. Traditionally a part of the everyday
-    work of journalism, fact-checking has spun off into other spaces. Independent
-    fact-checking organizations broadcast certain information on social media as “facts”
-    and therefore trustworthy, and other information as falsehoods. “Trust” is a word
-    we hear often in this effort. Media and digital literacy educators ask the public
-    to stick to “trusted” news sources to get their facts. \n\nBut fact-checking efforts
-    must reckon with what “facts” and “trust” actually are. Without that missing piece,
-    they are likely to fail. To mend a shockingly divided public discourse with our
-    disinformation-fighting efforts, we need an evidence-based understanding of how
-    human beings come to accept, trust, and act on facts. \n\nWe shouldn’t take it
-    as a given that facts, and the institutions that produce them, are worthy of everyone’s
-    trust by default. In this article, I will articulate how information becomes accepted
-    as fact, and how people come to trust (or mistrust) those facts. I’ll then lay
-    out some directions that anti-disinformation work will need to take in order to
-    succeed.\n\n__The social life of information must be reckoned with\n__\n\nFacts
-    are never \"just facts.\" Not even scientific facts. Especially not scientific
-    facts. Scientists include hypotheses, prior research, and data in their papers.
-    Papers go through peer review, and only after they have been through that publication
-    process are they supposed to be cited by others. Scientists don't expect that
-    the evidence they present is permanently factual; they know new evidence may prove
-    their \"facts\" wrong. Journalism, also, has rules for collecting and triangulating
-    evidence. That evidence, once again, is not \"just facts.\"\n\nSo \"fact-checking\"
-    projects have never actually been about facts. What we are concerned with when
-    we fight disinformation is people spreading information that doesn't meet the
-    criteria  of science, \"good\" journalism, academic work, and so on. Information
-    that doesn't rely on what we accept as \"trustworthy\" professional methods or
-    standards for evidence. Because that is what news sources and science ask us to
-    trust: that they are using professional methods and evidence to build their case.*
+  topic:
+    en-US:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
+  lead_image:
+    en-US:
+      sys:
+        id: zyXfbLiXunHJnujNdnamB
+        created_at: !ruby/object:DateTime 2021-09-28 21:50:07.592000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-28 21:50:28.088000000 Z
+      title: meedan_blog_trust-at-human-scale_05.jpg
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg"
+    description: ''
+    title: meedan_blog_trust-at-human-scale_05.jpg
+    url: "//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg"
+  body: "As disinformation rises around the world, many funders and civil society
+    organizations have invested in fact-checking as a solution. Traditionally a part
+    of the everyday work of journalism, fact-checking has spun off into other spaces.
+    Independent fact-checking organizations broadcast certain information on social
+    media as “facts” and therefore trustworthy, and other information as falsehoods.
+    “Trust” is a word we hear often in this effort. Media and digital literacy educators
+    ask the public to stick to “trusted” news sources to get their facts. \n\nBut
+    fact-checking efforts must reckon with what “facts” and “trust” actually are.
+    Without that missing piece, they are likely to fail. To mend a shockingly divided
+    public discourse with our disinformation-fighting efforts, we need an evidence-based
+    understanding of how human beings come to accept, trust, and act on facts. \n\nWe
+    shouldn’t take it as a given that facts, and the institutions that produce them,
+    are worthy of everyone’s trust by default. In this article, I will articulate
+    how information becomes accepted as fact, and how people come to trust (or mistrust)
+    those facts. I’ll then lay out some directions that anti-disinformation work will
+    need to take in order to succeed.\n\n#### The social life of information must
+    be reckoned with\n\nFacts are never \"just facts.\" Not even scientific facts.
+    *Especially* not scientific facts. Scientists include hypotheses, prior research,
+    and data in their papers. Papers go through peer review, and only after they have
+    been through that publication process are they supposed to be cited by others.
+    Scientists don't expect that the evidence they present is permanently factual;
+    they know new evidence may prove their \"facts\" wrong. Journalism, also, has
+    rules for collecting and triangulating evidence. That evidence, once again, is
+    not \"just facts.\"\n\nSo \"fact-checking\" projects have never actually been
+    about facts. What we are concerned with when we fight disinformation is *people
+    spreading information that doesn't meet the criteria  of science, \"good\" journalism,
+    academic work*, and so on. Information that doesn't rely on what we accept as
+    \"trustworthy\" professional methods or standards for evidence. Because that is
+    what news sources and science ask us to trust: that they are using professional
+    methods and evidence to build their case.<sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>
     We can build on this basis to strengthen public trust---and, in fact, many well-established
     news sources are, by opening up their newsrooms to show communities how they do
     their work.\n\nScientific and journalistic \"facts\" are not the only information
@@ -15584,9 +15599,9 @@ story:
     as a basis for fact, certain religions have rejected it. Some Christians will
     tell you that evolution is a lie, and creation is a fact. And it is important
     to recognize they aren't just dismissing evolution with no criteria for evidence.
-    They accept different evidence. They do trust Biblical texts as evidence. Creationist
-    theologians have arranged Biblical texts into their own \"fact networks\" and
-    connected them with evidence in nature, flaws they see in scientific assumptions,
+    They accept *different* evidence. They *do* trust Biblical texts as evidence.
+    Creationist theologians have arranged Biblical texts into their own \"fact networks\"
+    and connected them with evidence in nature, flaws they see in scientific assumptions,
     and so on. And those who follow this line of thinking [also use Biblical texts
     to interpret other messages they encounter on the internet.](https://datasociety.net/wp-content/uploads/2018/05/Data_Society_Searching-for-Alternative-Facts.pdf)\n\nThe
     same goes for anti-vaxxers and conspiracy theorists. [It would be a mistake to
@@ -15595,7 +15610,7 @@ story:
     Many of them talk about the online research they have done to come to their conclusions.
     They are relying on different evidence, from different experts, making different
     claims to truth. Leaders within conspiracy theory, creationist, and anti-vaccine
-    communities become experts in whose evidence followers\n\n place their trust.\n\nIf
+    communities become experts in whose evidence followers place their trust.\n\nIf
     fact-checking interventions do not work to change the minds of community leaders
     and address the social networks surrounding these other \"facts,\" history tells
     us they will not succeed. Decades of sociological research on public health and
@@ -15615,7 +15630,7 @@ story:
     may go against these identities. If our fact-checking approaches don't account
     for these norms and existing beliefs of communities, we're just about guaranteeing
     that our facts will be rejected out of hand.\n\nRogers describes how change involves
-    this kind of cognitive dissonance: the uncomfortable feeling that a new recommendation
+    this kind of *cognitive dissonance*: the uncomfortable feeling that a new recommendation
     does not jive with a person's beliefs or community norms. There is no guarantee
     that when reading a checked fact, the reader will change to align with that fact.
     In fact, it's just as possible that dissonance will lead them to misunderstand
@@ -15628,8 +15643,8 @@ story:
     a lack of the trust needed to get people to rely on their facts.\n\nBut the problem
     goes beyond people's lack of trust in institutions and evidence. Part of the problem
     is that trust is deeply personal and individual. To fight disinformation, we need
-    to reckon with the roots of trust, too.\n\nWhere does trust come from?\n\nWe need
-    to start with what trust actually is. Thanks to developmental neuropsychology
+    to reckon with the roots of trust, too.\n\n#### Where does trust come from?\n\nWe
+    need to start with what trust actually is. Thanks to developmental neuropsychology
     and sociology, we know that:\n\n-   [Trust begins as a human quality.](https://www.google.com/books/edition/The_Social_Construction_of_Trust/tBMQPSZyPpMC?hl=en&gbpv=1&dq=Linda+Weber+and+Allison+I.+Carter,+The+Social+Construction+of+Trust) \n\n-
     \  [Trust is an attitude that grows within individuals (or doesn't).](https://www.amazon.com/Boy-Who-Raised-Psychiatrists-Notebook-What/dp/0465094457)\n\n-
     \  Trust grows between individuals (or doesn't). \n\n-   Ultimately, trust is
@@ -15646,24 +15661,25 @@ story:
     transfer their trust from their parents to others as they see those people behave
     consistently, and as their parents tell them \"that person there is trustworthy;
     that person over there is not.\" Our trust in different information sources is
-    rooted in our sense of who we are as members of our communities and families.**\n\nSchool
-    plays a large part in shaping this trust, but conflicting messages from families
-    and religious institutions about how \"people like us\" are supposed to relate
-    to different information sources can encourage students to reject facts they are
-    taught in school. This can make the difference between citizens thoughtfully reading
-    and acting on public health guidelines, or refusing to vaccinate their own kids
-    and accepting conspiracy theories about public health organizations.\n\nI'm a
-    prime example of trust in science: I grew up on the campus of Caltech. My grandfather,
-    parents, sisters and I all worked there at some point. As kids, my sisters and
-    I did our homework in empty engineering classrooms, under sliding chalkboards
-    scrawled with incomprehensible equations. When there was an earthquake, we would
-    head to campus, knowing the buildings had been checked by seismologists and engineers.
-    Our trust in science was literally built into the walls. In writing this article
-    I'm following the footsteps of my stepmother, whose job was helping Caltech scientists
-    communicate with the public.\n\nThe path to trusting science is harder when your
-    community has no exposure to scientists---or has been actively damaged by science.
-    This is explicitly why public health professionals have pointed to the importance
-    of [building](https://www.cdc.gov/vaccines/covid-19/downloads/guide-awardees-community-driven-strategies.pdf)
+    rooted in our sense of who we are as members of our communities and families.<sup><a
+    id=\"fnref2\" href=\"#fn2\">[2]</a></sup>\n\nSchool plays a large part in shaping
+    this trust, but conflicting messages from families and religious institutions
+    about how \"people like us\" are supposed to relate to different information sources
+    can encourage students to reject facts they are taught in school. This can make
+    the difference between citizens thoughtfully reading and acting on public health
+    guidelines, or refusing to vaccinate their own kids and accepting conspiracy theories
+    about public health organizations.\n\nI'm a prime example of trust in science:
+    I grew up on the campus of Caltech. My grandfather, parents, sisters and I all
+    worked there at some point. As kids, my sisters and I did our homework in empty
+    engineering classrooms, under sliding chalkboards scrawled with incomprehensible
+    equations. When there was an earthquake, we would head to campus, knowing the
+    buildings had been checked by seismologists and engineers. Our trust in science
+    was literally built into the walls. In writing this article I'm following the
+    footsteps of my stepmother, whose job was helping Caltech scientists communicate
+    with the public.\n\nThe path to trusting science is harder when your community
+    has no exposure to scientists---or has been actively damaged by science. This
+    is explicitly why public health professionals have pointed to the importance of
+    [building](https://www.cdc.gov/vaccines/covid-19/downloads/guide-awardees-community-driven-strategies.pdf)
     \ [relationships](https://www.apa.org/topics/covid-19/equity-resources/building-vaccine-confidence.pdf)
     with Black and Latino community leaders as they roll out COVID vaccines. Science
     has a frightening history of engaging in [eugenics](https://www.pbs.org/wgbh/americanexperience/films/eugenics-crusade/),
@@ -15693,7 +15709,7 @@ story:
     to manage the stress levels of individuals as we encourage them to trust people
     and facts they previously distrusted. Without this work, people simply will not
     have the cognitive capacity or emotional reserves to process the new facts we're
-    asking them to incorporate.\n\nHow we need to adapt the fact-checking approach\n\nFollowing
+    asking them to incorporate.\n\n#### How we need to adapt the fact-checking approach\n\nFollowing
     these lines of research, it is clear simply presenting facts is not enough.\n\nTo
     really make an impact on disinformation, we have to address these social networks
     and individual histories of trust. We need to join forces with practitioners in
@@ -15728,28 +15744,51 @@ story:
     and other anti-disinformation interventions.\n\nIf you are a practitioner of this
     sort, would you would engage with an effort like this? If you are on the ground
     in a community where disinformation is spread, do you see improvements to this
-    proposal?\n\n* When people say that science is \"socially constructed,\" a phrase
-    that raises hackles in some circles, this is what they mean. Bruno Latour, the
-    foundational philosopher in the field of science and technology studies, details
-    in many of his books how scientific facts are developed and spread, and why and
-    where some come to be more accepted than others.\n\n** The work of the New Literacies
-    scholars (see e.g. [Gee, 2004](http://www.anatomecha.net/resources/vrgbl/edlt543_play_and_learning/james-paul-gee-situated-language-and-learning-a-critique-of-traditional-schooling-2004.pdf))
-    has done a great deal to identify how the reading, writing, and information practices
-    of students in their homes, religious institutions, and digital lives differ from
-    what they are taught in school, and how these differences often lead to students
-    discarding or failing to engage with school lessons.\n\n*Dr. Gillian \"Gus\" Andrews
-    is a public educator, writer, and researcher who is known on the cybersecurity
-    speaking circuit for posing thought-provoking questions about the human side of
-    digital life. Dr. Andrews has worked in the international digital rights space
-    for eight years, contributing to usability efforts for secure tools like Psiphon
-    and Thunderbird's encryption suite and organizing events at the Internet Freedom
-    Festival. Her policy research has informed work at Internews, the US State Department,
-    and the Electronic Frontier Foundation. Dr. Andrews's book, [Keep Calm and Log
-    On](http://keepcalmlogon.com/) (MIT Press 2020), is an everyday citizen's guide
-    to surviving the digital revolution, focusing on privacy, security, and fighting
-    disinformation. Previously, she was the producer of [The Media Show](https://www.youtube.com/themediashow),
-    an award-winning YouTube series about media and digital literacy.*"
+    proposal?\n\n*Dr. Gillian \"Gus\" Andrews is a public educator, writer, and researcher
+    who is known on the cybersecurity speaking circuit for posing thought-provoking
+    questions about the human side of digital life. Dr. Andrews has worked in the
+    international digital rights space for eight years, contributing to usability
+    efforts for secure tools like Psiphon and Thunderbird's encryption suite and organizing
+    events at the Internet Freedom Festival. Her policy research has informed work
+    at Internews, the US State Department, and the Electronic Frontier Foundation.
+    Dr. Andrews's book, [Keep Calm and Log On](http://keepcalmlogon.com/) (MIT Press
+    2020), is an everyday citizen's guide to surviving the digital revolution, focusing
+    on privacy, security, and fighting disinformation. Previously, she was the producer
+    of [The Media Show](https://www.youtube.com/themediashow), an award-winning YouTube
+    series about media and digital literacy.*"
+  updates:
+    en-US: |-
+      This is a guest post to Meedan Ideas from Dr. Gillian "Gus" Andrews, a public educator, writer, and researcher who is known on the cybersecurity speaking circuit for posing thought-provoking questions about the human side of digital life.
+
+      Meedan's Ideas blog encourages ideas and perspectives from friends in our broader network to spark conversation and ideas and encourage dialogue on core issues around our work. While Meedan edits posts in our Ideas section, the views in these blog posts do not necessarily reflect the views of Meedan. If you are interested in submitting a Meedan Ideas piece, please get in touch!
+  footnotes:
+    en-US:
+    - sys:
+        id: 6Ud3xxvyVnTSqk31mhPdbt
+        created_at: !ruby/object:DateTime 2021-09-28 23:05:07.608000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-28 23:06:01.518000000 Z
+        content_type_id: footnote
+        revision: 0
+      body:
+        en-US: When people say that science is "socially constructed," a phrase that
+          raises hackles in some circles, this is what they mean. Bruno Latour, the
+          foundational philosopher in the field of science and technology studies,
+          details in many of his books how scientific facts are developed and spread,
+          and why and where some come to be more accepted than others.
+    - sys:
+        id: 4hh00EU3Jwxzb9UP4hAhoZ
+        created_at: !ruby/object:DateTime 2021-09-28 23:06:04.212000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-28 23:06:25.352000000 Z
+        content_type_id: footnote
+        revision: 0
+      body:
+        en-US: The work of the New Literacies scholars (see e.g. [Gee, 2004](http://www.anatomecha.net/resources/vrgbl/edlt543_play_and_learning/james-paul-gee-situated-language-and-learning-a-critique-of-traditional-schooling-2004.pdf))
+          has done a great deal to identify how the reading, writing, and information
+          practices of students in their homes, religious institutions, and digital
+          lives differ from what they are taught in school, and how these differences
+          often lead to students discarding or failing to engage with school lessons.
   date: '2021-09-24'
+  image: https://images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg
   title-en: 'Fact-checking requires more than facts—it also requires trust at a human
     scale. '
   alt_date: *70

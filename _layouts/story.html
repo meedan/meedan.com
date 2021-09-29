@@ -7,8 +7,8 @@ lang: en-US
 
 <body class="site story">
     <a id="top"></a>
-    {% include post_header.html %}
     <div class="page-wrapper">
+        {% include post_header.html %}
         <section>
             {% if page.lead_video.en-US %}
                 <div class="main-grid lead_video">
@@ -35,6 +35,16 @@ lang: en-US
             {% endif %}
             <div class="story-wrapper section-margin">
                 {{ page.body | markdownify }}
+                {% if page.footnotes.en-US %}
+                    <div class="story-footnotes">
+                        <div class="story-footnotes-title">Footnotes</div>
+                        <ol>
+                            {% for footnote in page.footnotes.en-US %}
+                                <li id="fn{{ forloop.index }}">{{ footnote.body.en-US | markdownify }} <a class="footnote-backref" href="#fnref{{ forloop.index }}">↩︎</a></li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                {% endif %}
             </div>
             <div class="story-footer small-hr section-margin">
                 {% if page.words_by %}
