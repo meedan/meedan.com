@@ -15522,7 +15522,7 @@ story:
 - sys:
     id: 7yZDQBkwETnvWpoQztb6ID
     created_at: &70 !ruby/object:DateTime 2021-09-24 00:24:32.205000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-28 23:08:24.236000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-28 23:55:23.969000000 Z
     content_type_id: story
     revision: 0
     space:
@@ -15540,6 +15540,16 @@ story:
   title: 'Fact-checking requires more than facts—it also requires trust at a human
     scale. '
   slug: fact-checking-requires-more-than-facts-it-also-requires-trust-at-a-human
+  topic:
+    en-US:
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+        created_at: !ruby/object:DateTime 2020-05-11 20:11:18.617000000 Z
+        updated_at: !ruby/object:DateTime 2020-05-11 20:11:23.466000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Ideas
   lead_image:
     en-US:
       sys:
@@ -15552,49 +15562,48 @@ story:
     description: ''
     title: meedan_blog_trust-at-human-scale_05.jpg
     url: "//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg"
-  body: "![meedan_blog_trust-at-human-scale_05.jpg](//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg)\n\nAs
-    disinformation rises around the world, many funders and civil society organizations
-    have invested in fact-checking as a solution. Traditionally a part of the everyday
-    work of journalism, fact-checking has spun off into other spaces. Independent
-    fact-checking organizations broadcast certain information on social media as “facts”
-    and therefore trustworthy, and other information as falsehoods. “Trust” is a word
-    we hear often in this effort. Media and digital literacy educators ask the public
-    to stick to “trusted” news sources to get their facts. \n\nBut fact-checking efforts
-    must reckon with what “facts” and “trust” actually are. Without that missing piece,
-    they are likely to fail. To mend a shockingly divided public discourse with our
-    disinformation-fighting efforts, we need an evidence-based understanding of how
-    human beings come to accept, trust, and act on facts. \n\nWe shouldn’t take it
-    as a given that facts, and the institutions that produce them, are worthy of everyone’s
-    trust by default. In this article, I will articulate how information becomes accepted
-    as fact, and how people come to trust (or mistrust) those facts. I’ll then lay
-    out some directions that anti-disinformation work will need to take in order to
-    succeed.\n\n#### The social life of information must be reckoned with\n\nFacts
-    are never \"just facts.\" Not even scientific facts. *Especially* not scientific
-    facts. Scientists include hypotheses, prior research, and data in their papers.
-    Papers go through peer review, and only after they have been through that publication
-    process are they supposed to be cited by others. Scientists don't expect that
-    the evidence they present is permanently factual; they know new evidence may prove
-    their \"facts\" wrong. Journalism, also, has rules for collecting and triangulating
-    evidence. That evidence, once again, is not \"just facts.\"\n\nSo \"fact-checking\"
-    projects have never actually been about facts. What we are concerned with when
-    we fight disinformation is *people spreading information that doesn't meet the
-    criteria  of science, \"good\" journalism, academic work*, and so on. Information
-    that doesn't rely on what we accept as \"trustworthy\" professional methods or
-    standards for evidence. Because that is what news sources and science ask us to
-    trust: that they are using professional methods and evidence to build their case.<sup><a
-    id=\"fnref1\" href=\"#fn1\">[1]</a></sup> We can build on this basis to strengthen
-    public trust---and, in fact, many well-established news sources are, by opening
-    up their newsrooms to show communities how they do their work.\n\nScientific and
-    journalistic \"facts\" are not the only information built on criteria for evidence.
-    While science has come to accept evidence of evolution as a basis for fact, certain
-    religions have rejected it. Some Christians will tell you that evolution is a
-    lie, and creation is a fact. And it is important to recognize they aren't just
-    dismissing evolution with no criteria for evidence. They accept *different* evidence.
-    They *do* trust Biblical texts as evidence. Creationist theologians have arranged
-    Biblical texts into their own \"fact networks\" and connected them with evidence
-    in nature, flaws they see in scientific assumptions, and so on. And those who
-    follow this line of thinking [also use Biblical texts to interpret other messages
-    they encounter on the internet.](https://datasociety.net/wp-content/uploads/2018/05/Data_Society_Searching-for-Alternative-Facts.pdf)\n\nThe
+  body: "As disinformation rises around the world, many funders and civil society
+    organizations have invested in fact-checking as a solution. Traditionally a part
+    of the everyday work of journalism, fact-checking has spun off into other spaces.
+    Independent fact-checking organizations broadcast certain information on social
+    media as “facts” and therefore trustworthy, and other information as falsehoods.
+    “Trust” is a word we hear often in this effort. Media and digital literacy educators
+    ask the public to stick to “trusted” news sources to get their facts. \n\nBut
+    fact-checking efforts must reckon with what “facts” and “trust” actually are.
+    Without that missing piece, they are likely to fail. To mend a shockingly divided
+    public discourse with our disinformation-fighting efforts, we need an evidence-based
+    understanding of how human beings come to accept, trust, and act on facts. \n\nWe
+    shouldn’t take it as a given that facts, and the institutions that produce them,
+    are worthy of everyone’s trust by default. In this article, I will articulate
+    how information becomes accepted as fact, and how people come to trust (or mistrust)
+    those facts. I’ll then lay out some directions that anti-disinformation work will
+    need to take in order to succeed.\n\n#### The social life of information must
+    be reckoned with\n\nFacts are never \"just facts.\" Not even scientific facts.
+    *Especially* not scientific facts. Scientists include hypotheses, prior research,
+    and data in their papers. Papers go through peer review, and only after they have
+    been through that publication process are they supposed to be cited by others.
+    Scientists don't expect that the evidence they present is permanently factual;
+    they know new evidence may prove their \"facts\" wrong. Journalism, also, has
+    rules for collecting and triangulating evidence. That evidence, once again, is
+    not \"just facts.\"\n\nSo \"fact-checking\" projects have never actually been
+    about facts. What we are concerned with when we fight disinformation is *people
+    spreading information that doesn't meet the criteria  of science, \"good\" journalism,
+    academic work*, and so on. Information that doesn't rely on what we accept as
+    \"trustworthy\" professional methods or standards for evidence. Because that is
+    what news sources and science ask us to trust: that they are using professional
+    methods and evidence to build their case.<sup><a id=\"fnref1\" href=\"#fn1\">[1]</a></sup>
+    We can build on this basis to strengthen public trust---and, in fact, many well-established
+    news sources are, by opening up their newsrooms to show communities how they do
+    their work.\n\nScientific and journalistic \"facts\" are not the only information
+    built on criteria for evidence. While science has come to accept evidence of evolution
+    as a basis for fact, certain religions have rejected it. Some Christians will
+    tell you that evolution is a lie, and creation is a fact. And it is important
+    to recognize they aren't just dismissing evolution with no criteria for evidence.
+    They accept *different* evidence. They *do* trust Biblical texts as evidence.
+    Creationist theologians have arranged Biblical texts into their own \"fact networks\"
+    and connected them with evidence in nature, flaws they see in scientific assumptions,
+    and so on. And those who follow this line of thinking [also use Biblical texts
+    to interpret other messages they encounter on the internet.](https://datasociety.net/wp-content/uploads/2018/05/Data_Society_Searching-for-Alternative-Facts.pdf)\n\nThe
     same goes for anti-vaxxers and conspiracy theorists. [It would be a mistake to
     assume these people won't present you with some kind of evidence if you challenge
     their facts.](https://coloradosun.com/2018/11/20/flat-earth-convention-denver-post-truth/)
