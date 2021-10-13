@@ -580,3 +580,33 @@ contributor:
     content_type_id: contributor
     revision: 1
   name: Check Global Network
+- sys:
+    id: 1nUGmMrDzvL1C15VgPchvk
+    created_at: !ruby/object:DateTime 2021-10-08 16:42:50.281000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-08 16:53:00.407000000 Z
+    content_type_id: contributor
+    revision: 2
+  name: Julissa Ayala
+  staff: true
+  role: UX Designer
+  location: On the Road
+- sys:
+    id: 4ehcYZrSWZ7ZaLJCiheb53
+    created_at: !ruby/object:DateTime 2021-10-08 16:43:58.983000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-08 16:44:14.658000000 Z
+    content_type_id: contributor
+    revision: 1
+  name: Cat Ho
+  staff: true
+  role: Director of Business Strategy and Operations
+  location: San Francisco
+- sys:
+    id: 2Lb2kQd6jTcVInvP2RVIMj
+    created_at: !ruby/object:DateTime 2021-10-08 16:44:37.102000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-08 16:52:00.281000000 Z
+    content_type_id: contributor
+    revision: 2
+  name: Ahmed Mostafa
+  staff: true
+  role: Machine Learning Engineer
+  location: Rome
