@@ -1,3 +1,5 @@
 # Dont index dev site
 /*
-  X-robots-tag: noindex
+  X-Robots-Tag: noindex
+  X-Robots-Tag: googlebot: nofollow
+  X-Robots-Tag: otherbot: noindex, nofollow

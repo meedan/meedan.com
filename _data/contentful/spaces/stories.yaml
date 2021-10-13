@@ -15522,9 +15522,9 @@ story:
 - sys:
     id: 7yZDQBkwETnvWpoQztb6ID
     created_at: &70 !ruby/object:DateTime 2021-09-24 00:24:32.205000000 Z
-    updated_at: !ruby/object:DateTime 2021-09-28 23:55:23.969000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-01 18:50:02.033000000 Z
     content_type_id: story
-    revision: 0
+    revision: 1
     space:
       sys:
         id: g118h5yoccvd
@@ -15555,7 +15555,7 @@ story:
       sys:
         id: zyXfbLiXunHJnujNdnamB
         created_at: !ruby/object:DateTime 2021-09-28 21:50:07.592000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-28 21:50:28.088000000 Z
+        updated_at: !ruby/object:DateTime 2021-10-01 18:49:37.557000000 Z
       title: meedan_blog_trust-at-human-scale_05.jpg
       description: ''
       url: "//images.ctfassets.net/g118h5yoccvd/zyXfbLiXunHJnujNdnamB/94c602908ed912730c3efe1e75a3ed50/meedan_blog_trust-at-human-scale_05.jpg"
@@ -15766,9 +15766,9 @@ story:
     - sys:
         id: 6Ud3xxvyVnTSqk31mhPdbt
         created_at: !ruby/object:DateTime 2021-09-28 23:05:07.608000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-28 23:06:01.518000000 Z
+        updated_at: !ruby/object:DateTime 2021-10-01 18:49:42.169000000 Z
         content_type_id: footnote
-        revision: 0
+        revision: 1
       body:
         en-US: When people say that science is "socially constructed," a phrase that
           raises hackles in some circles, this is what they mean. Bruno Latour, the
@@ -15778,9 +15778,9 @@ story:
     - sys:
         id: 4hh00EU3Jwxzb9UP4hAhoZ
         created_at: !ruby/object:DateTime 2021-09-28 23:06:04.212000000 Z
-        updated_at: !ruby/object:DateTime 2021-09-28 23:06:25.352000000 Z
+        updated_at: !ruby/object:DateTime 2021-10-01 18:49:41.705000000 Z
         content_type_id: footnote
-        revision: 0
+        revision: 1
       body:
         en-US: The work of the New Literacies scholars (see e.g. [Gee, 2004](http://www.anatomecha.net/resources/vrgbl/edlt543_play_and_learning/james-paul-gee-situated-language-and-learning-a-critique-of-traditional-schooling-2004.pdf))
           has done a great deal to identify how the reading, writing, and information
@@ -15793,3 +15793,333 @@ story:
     scale. '
   alt_date: *70
   alt_date_string: '2021-09-24'
+- sys:
+    id: xnDzhFcTkFoUmrOyLZWtH
+    created_at: &71 !ruby/object:DateTime 2021-10-01 12:27:00.336000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-01 12:53:49.094000000 Z
+    content_type_id: story
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Estadão Verifica’s strategy to address misinformation in Brazil
+  slug: estadao-verificas-strategy-to-address-misinformation-in-brazil
+  topic:
+    en-US:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+        created_at: !ruby/object:DateTime 2021-01-12 23:39:58.897000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-12 23:40:06.622000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Fact-checking
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 4IQmspBzyJpG2Q66jy1zjY
+        created_at: !ruby/object:DateTime 2021-10-01 12:28:41.037000000 Z
+        updated_at: !ruby/object:DateTime 2021-10-01 12:29:15.225000000 Z
+      title: Estadão Verifica’s strategy to address misinformation in Brazil
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/4IQmspBzyJpG2Q66jy1zjY/dc5931fb8c7a7adda8d4d0c9f0c2780d/meedan_blog_Estad__o_01.jpg"
+    description: ''
+    title: Estadão Verifica’s strategy to address misinformation in Brazil
+    url: "//images.ctfassets.net/g118h5yoccvd/4IQmspBzyJpG2Q66jy1zjY/dc5931fb8c7a7adda8d4d0c9f0c2780d/meedan_blog_Estad__o_01.jpg"
+  description:
+    en-US: "[Estadão Verifica](https://twitter.com/EstadaoVerifica) is the fact-checking
+      arm of O Estado de S. Paulo, one of Brazil's largest newspapers. Established
+      in 2018, Estadão Verifica became International Fact Checking Network (IFCN)
+      certified in 2019. In this blogpost, [Alessandra Monnerat](https://twitter.com/alessmonn?lang=en),
+      Assistant Editor of Estadão Verifica, speaks about the misinformation problem
+      in Brazil, Estadão Verifica's strategies for promoting combat misinformation
+      and expectations about the presidential election in 2022."
+  body: |-
+    [Estadão Verifica](https://twitter.com/EstadaoVerifica) is the fact-checking arm of O Estado de S. Paulo, one of Brazil's largest newspapers. Established in 2018, Estadão Verifica became International Fact Checking Network (IFCN) certified in 2019. In this blogpost, [Alessandra Monnerat](https://twitter.com/alessmonn?lang=en), Assistant Editor of Estadão Verifica, speaks about the misinformation problem in Brazil, Estadão Verifica's strategies to combat misinformation and their expectations about the presidential election in 2022.
+
+    __1.  When and how did Estadão Verifica come about? __
+
+    Estadão is a centennial newspaper, founded in 1875. Estadão Verifica was created in 2018, as one of the newspaper's projects for the general elections. It was a crucial moment to start our work, because in that electoral period the issue of disinformation was very decisive.Our editor, [Daniel Bramatti](https://twitter.com/bramatti), also coordinated Estadão Dados (our data journalism sector). As president of the [Brazilian Association of Investigative Journalism ](https://gijn.org/member/brazilian-association-of-investigative-journalism-abraji/#:~:text=The%20Brazilian%20Association%20of%20Investigative,and%20protect%20journalists%20in%20Brazil.)(Abraji) at the time, he was also involved with the creation of [Projeto Comprova](https://projetocomprova.com.br/), a coalition of press outlets across the country to combat misinformation on social media. Already in our first year of existence we learned a lot in the rush of the elections, and we learned many lessons from the collaborative work with Comprova. Estadão Verifica started with three people on the team and today we are eight.
+
+    __2.  How big of a problem is misinformation in the Brazilian context? What are the major sources and platforms of misinformation in the country? __
+
+    It is definitely a huge problem. I think that our challenge became even more evident during the pandemic, when misinformation about COVID-19 spread very quickly, especially by members of the government, the Minister of Health, and the President of the Republic. It has been very dramatic for us, fact checkers and journalists, because we have the feeling that false information can cost people their lives. Recently, President Bolsonaro has been trying to pass legislation to make moderating disinformation on social networks more difficult. He argues that he defends freedom of expression on these platforms. So we are facing an enormous challenge as disinformation is institutionalized in the figure of the highest office in the country.
+
+    __3.  Please explain Estadão's approach to address misinformation in Brazil and the challenges you face in your work. __
+
+    Our main motto is to prioritize content that could harm individuals or groups. So during the pandemic we have put a lot of emphasis on combating misinformation about health, COVID-19, and vaccines. One of the challenges of doing this is that information about COVID-19 changes rapidly. We always search for the most up-to-date information, but this can be difficult, especially considering that the Ministry of Health under the Bolsonaro government has not been our primary source of information. We have to rely on experts and other alternative sources. But if I have to define the main challenge for us, it would be simply the sheer volume of content we have to fact check. Unfortunately, we can't respond to all the false information circulating online.
+
+    __4.  You run a WhatsApp tipline for users to send verification requests. How important is it to your fact-check work?. How have you been promoting the tiplines to reach more people? __
+
+    It is very important! As I said in the previous answer, the volume of misinformation circulating online is staggering. That's why it's very valuable to know what topics our readers have been questioning themselves about. Often, it is through WhatsApp that we find content to fact check that we had not noticed in our social media monitoring. We receive many messages from readers -- Estadão is a well-established press outlet in Brazil, and our WhatsApp number is promoted on the newspaper's networks. We do a weekly action on Instagram stories, a quiz with the main hoaxes of the week, made by our reporter Pedro Prata. All this makes people engage with us a lot. Unfortunately, we can't answer all the messages, but they are all very important to us.
+
+    __5.  How have you been using [Check ](https://meedan.com/check)in managing your fact-checking work and workflow? What more do you expect Check to do?__
+
+    When we started in 2018, we had a tipline which we handled in a very manual way. We kept a spreadsheet to control what came in and a document with our most frequent replies. We were answering the readers little by little. By the end of the elections, we had received [107,000 messages](https://politica.estadao.com.br/blogs/estadao-verifica/estadao-verifica-chega-ao-fim-das-eleicoes-com-107-mil-mensagens-no-whatsapp/). It was always quite complicated to do this work, not only because of the volume of messages, but also because we were often exposed to sensitive, explicit, and violent content. With Check it is much easier to organize the messages we receive, to check what arrives more frequently, to filter by type of content or keyword, to answer multiple people at once. We are always talking to the Meedan team to see how we can better serve our readers, better answer the questions they send us and make the experience with our tipline more fruitful.
+
+    __6.  What are your expectations about the presidential election in 2022? How are you preparing for it? Could you share misinformation trends that are already developing or ones you can foresee?  __
+
+    We are getting ready for another troubled year in a string of troubled years. Unfortunately, the political climate in our country is quite tumultuous. The president has been spreading a lot of false information about our voting system. He even made a[ live broadcast ](https://politica.estadao.com.br/blogs/estadao-verifica/provas-de-bolsonaro-sobre-fraude-em-urnas-sao-videos-antigos-com-alegacoes-falsas/)showing "proof" of fraud in the voting machines -- echoing old hoaxes that circulated on social networks. So our expectation is that content that casts doubt on the integrity of the electoral process will continue to be viral. The Superior Electoral Court (TSE), the body that oversees Brazil's elections, has been reaching out more to the checkers for cooperation, which is positive. But our expectation is that it is going to be a very challenging election.
+  date: '2021-10-01'
+  image: https://images.ctfassets.net/g118h5yoccvd/4IQmspBzyJpG2Q66jy1zjY/dc5931fb8c7a7adda8d4d0c9f0c2780d/meedan_blog_Estad__o_01.jpg
+  title-en: Estadão Verifica’s strategy to address misinformation in Brazil
+  alt_date: *71
+  alt_date_string: '2021-10-01'
+- sys:
+    id: 5DCcwQ4nvgYmTWaV3DXCMD
+    created_at: &72 !ruby/object:DateTime 2021-10-08 16:56:35.552000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-08 17:37:35.796000000 Z
+    content_type_id: story
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meedan congratulates Maria Ressa on being awarded the 2021 Nobel Peace Prize
+  slug: meedan-congratulates-maria-ressa-on-being-awarded-the-2021-nobel-peace-prize
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 541MHQymeR4ztvh95QY4Z3
+        created_at: !ruby/object:DateTime 2020-06-05 20:07:58.803000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-05 21:57:57.191000000 Z
+      title: Maria Ressa
+      description:
+      url: "//images.ctfassets.net/g118h5yoccvd/541MHQymeR4ztvh95QY4Z3/51b8de5cda86e0b1c77874a4bdd3df3c/meedan_event_maria-ressa.jpg"
+    description:
+    title: Maria Ressa
+    url: "//images.ctfassets.net/g118h5yoccvd/541MHQymeR4ztvh95QY4Z3/51b8de5cda86e0b1c77874a4bdd3df3c/meedan_event_maria-ressa.jpg"
+  body: "Meedan is extremely pleased to congratulate our board of directors member
+    Maria Ressa for receiving the [2021 Nobel Peace Prize](https://www.nobelprize.org/prizes/peace/2021/press-release/).\n\nFor
+    those of us who have watched Maria and her amazing team work for most of the past
+    decade to build [Rappler](https://www.rappler.com/) into a thriving symbol of
+    press freedom and journalistic excellence, amidst legal persecution and personal
+    harassment, the Nobel Prize seems appropriate to the accomplishment. Maria made
+    clear in her initial remarks that this award reflects on the work of the amazing
+    team that has built Rappler. It is also fitting that the Nobel Committee has recognized
+    the particular role that journalists play in this era of social media driven media.
+    As Maria says, “a world without facts means a world without truth and trust.”
+    As an organization we are honored to work with Maria and the Rappler team on programs
+    that model the potential for committed and creative journalism to defend truth
+    and build trust.  \n\nThe [Check Global Network](https://meedan.com/blog/join-the-check-global-network-for-media-and-tech-in-emerging-economies/)
+    hosted Maria Ressa in May 2020 when we launched our webinar series on ‘[Women,
+    Media and the Pandemic](https://www.youtube.com/watch?v=qAogQrF7NFs)’. As part
+    of the event, Maria said, “when journalists are under attack, democracy is under
+    attack.” Maria has constantly talked about the need to use the freedom of expression
+    to highlight corruption, expose the abuse of power and to strengthen democratic
+    institutions. As part of the webinar, Maria said, “I am often asked if I am a
+    journalist or an activist. For me, when facts are debatable, when it is a war
+    for truth, journalists are activists. And this is our battle.” \n\nMeedan is proud
+    of its association with Maria Ressa and Rappler. The 2021 Nobel Peace Prize is
+    a validation of Maria’s fight for social justice and her style of journalism that
+    speaks truth to power. We extend our warmest congratulations to Maria Ressa.\n"
+  date: '2021-10-08'
+  image: https://images.ctfassets.net/g118h5yoccvd/541MHQymeR4ztvh95QY4Z3/51b8de5cda86e0b1c77874a4bdd3df3c/meedan_event_maria-ressa.jpg
+  title-en: Meedan congratulates Maria Ressa on being awarded the 2021 Nobel Peace
+    Prize
+  alt_date: *72
+  alt_date_string: '2021-10-08'
+- sys:
+    id: 6cNAHMq1H7ldRLPIlcjmSM
+    created_at: !ruby/object:DateTime 2021-10-12 10:51:10.669000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-12 19:02:02.946000000 Z
+    content_type_id: story
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: What Maria Ressa’s Nobel Peace Prize win means to Meedan
+  slug: what-maria-ressas-nobel-peace-prize-win-means-to-meedan
+  topic:
+    en-US:
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 2ZYSPMUN79hD3MAkWHrdud
+        created_at: !ruby/object:DateTime 2021-10-12 18:47:36.257000000 Z
+        updated_at: !ruby/object:DateTime 2021-10-12 19:01:58.429000000 Z
+      title: Nobel Peace Prize 2021
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/2ZYSPMUN79hD3MAkWHrdud/70a9baf0bb490393ebcc7d1ca038a209/meedan_blog_maria-ressa-noble-prize_08.jpg"
+    description: ''
+    title: Nobel Peace Prize 2021
+    url: "//images.ctfassets.net/g118h5yoccvd/2ZYSPMUN79hD3MAkWHrdud/70a9baf0bb490393ebcc7d1ca038a209/meedan_blog_maria-ressa-noble-prize_08.jpg"
+  description:
+    en-US: "The news that Maria Ressa has been awarded the [Nobel Peace Prize 2021
+      ](https://www.nobelprize.org/prizes/peace/2021/press-release/)was greeted with
+      joy and excitement by Meedan. Maria is a member of Meedan’s board of directors
+      and Rappler, the organization that Maria cofounded, is a partner in our [Check
+      Global](https://meedan.com/check-global) program. We are honoured and proud
+      of our association with Maria Ressa and Rappler. The announcement of the Nobel
+      Peace Prize comes at a crucial time as the Philippines gears up for the 2022
+      national and local elections. Maria and Rappler have consistently exposed the
+      abuse of power by president Rodrigo Duterte. The award is a recognition and
+      affirmation of Maria and Rappler’s work and is an inspiration for all of us.
+      \n\nMaria Ressa’s Nobel prize is also an accomplishment for women leading the
+      fights for equality, social justice and freedom of speech across different areas
+      and regions. As Meedan celebrates Maria Ressa’s Nobel award, women team members
+      at Meedan, share reflections and perspectives on what this prize means to us.
+      \n"
+  body: "The news that Maria Ressa has been awarded the [Nobel Peace Prize 2021 ](https://www.nobelprize.org/prizes/peace/2021/press-release/)was
+    greeted with joy and excitement by Meedan. Maria is a member of Meedan’s board
+    of directors and Rappler, the organization that Maria cofounded, is a partner
+    in our [Check Global](https://meedan.com/check-global) program. We are honoured
+    and proud of our association with Maria Ressa and Rappler. The announcement of
+    the Nobel Peace Prize comes at a crucial time as the Philippines gears up for
+    the 2022 national and local elections. Maria and Rappler have consistently exposed
+    the abuse of power by president Rodrigo Duterte. The award is a recognition and
+    affirmation of Maria and Rappler’s work and is an inspiration for all of us. \n\nMaria
+    Ressa’s Nobel prize is also an accomplishment for women leading the fights for
+    equality, social justice and freedom of speech across different areas and regions.
+    As Meedan celebrates Maria Ressa’s Nobel award, women team members at Meedan,
+    share reflections and perspectives on what this prize means to us. \n\n__Dima
+    Saber, Check Global Program Director__\n\nThere are a few women who I turn to
+    - in my own little mind - for inspiration and a confidence boost when things get
+    bad in the many countries where we work as part of the Check Global project; Maria
+    Ressa is at the top of that list. You know how you tend to over-idealise people
+    whose work you respect so deeply, that it seems almost impossible for you to imagine
+    a situation where you are actually face-to-face (well, at least virtually) with
+    them, asking them questions, and enjoying every bit of their responses? Well,
+    this is exactly how it felt when I was given the opportunity to [interview](https://meedan.com/blog/watch-reporting-barriers-during-covid-19-with-maria-ressa/)
+    Maria Ressa for a Check Global network event back in May 2020, for a whole 52
+    minutes and 22 seconds! I found myself in front of a kind, inspiring, humble,
+    generous, and extremely sharp woman who is today leading the way to #HoldTheLine
+    against oppression, despotism, propaganda and disinformation in the Philippines,
+    and beyond it, across our emerging economies. The news of Maria Ressa winning
+    the Nobel Peace Prize felt personal; as if someone very close to me has accomplished
+    something great. It also made me realise that the struggles of all the journalists,
+    activists, archivists and human rights defenders - the imprisoned, the disappeared
+    and those still fighting for the same ideas and ideals as Ressa - are seen, legitimised
+    and recognised, and this realisation is probably one of the best and most comforting
+    things that's happened in 2021! \n\n__Isabella Barroso, Program Manager - Latin
+    America__\n\nAbout 10 years ago when I left my career in journalism to work in
+    technology, a lot of the reasoning at the time was based in fear. The type of
+    investigative practice I admired and dreamed of working with was dangerous, and
+    in some cases even deadly in Latin America. Fear stopped not only me but also
+    a dozen of other colleagues from pursuing our objectives. At the time I had a
+    teacher that used to say that good journalism cannot be based only on awards,
+    she was, in her own way, saying that  are more journalists creating astounding
+    and essential political work everyday, than awards to give them. In that sense,
+    the award to Maria Ressa is also a way to recognize the work of many others fighting
+    to uphold truth in a polarized world. This award will be a beacon of hope, and
+    of inspiration to women journalists everywhere. It whispers: if you stay true,
+    even though it won’t be safe for a while yet, your work can be a light for others.
+    I forwarded the news of this award to a few of my old classmates, and we all shared
+    a moment of pure happiness,  not only for her, but also for the future of women
+    journalists and activists everywhere; may they follow Maria Ressa’s light, and
+    never give up. \n\n__Jenna Sherman, Program Manager, Digital Health Lab__\n\nMaria
+    Ressa’s Nobel Prize signifies to me the criticality of fighting for truth and
+    just how high the stakes are of doing so. We strive to integrate Maria’s fervent
+    commitment to objectivity and human rights into our every day work at Meedan,
+    using that spirit to guide work that is often difficult and during circumstances
+    that are often dark. As a public health practitioner working with journalists
+    and fact-checkers to provide high quality health information to the public — particularly
+    those who need it most — it can sometimes feel daunting and exhausting to keep
+    up the work amidst significant misinformation, disinformation, and harassment.
+    I’m so deeply grateful to have joined a team where from the very top, our managers
+    are unwavering in their beliefs in information quality and equity being cornerstones
+    of a better, more peaceful world, and am able to tap into that belief any time
+    I start to feel weary.\n\n__Nat Gyenes, Program Director, Digital Health Lab__\n\nMaria
+    Ressa is a role model for what it means to be courageous, to be determined, to
+    dedicate the time needed to create a meaningful change in a challenging, broken
+    system. So much of the work that our team has developed is inspired by Maria’s
+    dedication, commitment to truth and the fight towards a better future: where power
+    comes with accountability, especially in our information ecosystem. Our team of
+    public health researchers has been working tirelessly over the last year and a
+    half to support challenges in information equity related to both the COVID-19
+    pandemic, and all of the public health issue areas disproportionately affected
+    or left under-resourced as a result of the pandemic. Working with journalists
+    to ensure that the latest evidence is reflected in accurate reporting is an ongoing
+    challenge as the evidence itself continues to evolve, but it is an essential component
+    of sustaining trust in reliable and relevant health information. Of course, this
+    is just one part of the broader challenge, where political and other power incentives
+    and disinformation further exacerbate the challenges of information inequity.
+    Maria serves as a leader and inspiration for Meedan’s theory of change, and for
+    the values that inform our work and our mission, where we prioritize our responsibility
+    to supporting truth. This award is so, so well deserved, and is an important milestone
+    in the global recognition that an obstruction of truth is an obstruction of peace.
+    \n\n__Shalini Joshi, Program Director - Asia Pacific__\n\nAs a woman journalist
+    in India, I've always looked up to Maria Ressa as a torchbearer for freedom of
+    expression and rights of other women journalists in the region. While women journalists
+    are attacked, harassed, abused and maligned across Asia Pacific and in other regions,
+    Maria shows us how to take on injustice and call out oppressors with courage and
+    defiance. Maria Ressa being awarded the 2021 Nobel Peace Prize gives us hope that
+    the fight for truth, facts and democracy is being recognised, upheld and validated.
+    \ \n\nAs a Check Global team member, I've had the honour and privilege of interacting
+    with Maria on a few occasions; her energy, humility and wittiness in all conversations
+    make the darkest of days seem brighter. These are grim times for journalists across
+    Asia, however, meetings with Maria fill me with hope and optimism. I consider
+    her to be a mentor, leading the way with her charismatic presence, dynamism and
+    her brilliant tools of investigative journalism. I am incredibly proud of our
+    partnership with Rappler and Maria Ressa. There can be no one more deserving of
+    the 2021 Nobel Peace Prize.\n\n__Sneha Alexander, Program Associate - Asia Pacific__\n\nAs
+    a Meedani, I have heard a lot about Maria Ressa, but have met her only once, in
+    a virtual meeting. That left a lasting impression. The passion with which she
+    spoke about the upcoming project that Rappler will lead in the Philippines was
+    absolutely inspiring. It puts into perspective the importance of the work we are
+    doing as part of the Check Global program along with a global network of journalists
+    and fact-checkers. \n\nWhile speaking truth to power can be a solitary journey,
+    Ressa highlights the importance of supporting and collaborating with each other
+    across our respective networks   to deliver the hard hitting truth. If one falls,
+    there should always be others to carry forward the task of speaking to power.
+    It was the work of brave and committed journalists in India that drove me towards
+    journalism in the early phase of my career. Listening to her, I was convinced
+    that every young journalist should know about Maria Ressa and her work, and have
+    the  chance to interact with her.  \n"
+  alt_date: !ruby/object:DateTime 2021-10-12 00:00:00.000000000 Z
+  date: '2021-10-12'
+  image: https://images.ctfassets.net/g118h5yoccvd/2ZYSPMUN79hD3MAkWHrdud/70a9baf0bb490393ebcc7d1ca038a209/meedan_blog_maria-ressa-noble-prize_08.jpg
+  title-en: What Maria Ressa’s Nobel Peace Prize win means to Meedan
+  alt_date_string: '2021-10-12'
