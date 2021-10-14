@@ -2232,9 +2232,9 @@ event:
 - sys:
     id: 273uOSO21tgmTB2FBNgCPl
     created_at: !ruby/object:DateTime 2020-10-01 09:47:17.052000000 Z
-    updated_at: !ruby/object:DateTime 2020-10-02 22:44:54.945000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-13 23:43:17.223000000 Z
     content_type_id: event
-    revision: 2
+    revision: 6
     space:
       sys:
         id: g118h5yoccvd
@@ -2248,12 +2248,13 @@ event:
         type: Link
         linkType: Environment
     locale: en-US
-  title: 'Trusted Media Summit: Tiplines and Chatbots '
+  title: 'Meedan at Trusted Media Summit 2020 '
   event_date: !ruby/object:DateTime 2020-10-02 00:00:00.000000000 Z
   event_end_date: !ruby/object:DateTime 2020-10-02 00:00:00.000000000 Z
-  time: 12.45PM - 1.30PM SGT
-  status: Upcoming
+  time: "- *Singapore* 12:45PM"
+  status: Past
   location_human_friendly: Online
+  video_link: https://www.youtube.com/watch?v=gbDWA64QbCo
   description: 'Learn about new tech to tackle misinformation on messaging apps. '
   long_description: "The third annual APAC Trusted Media Summit organised by First
     Draft, the International Fact-Checking Network at Poynter and the Google News
@@ -2263,8 +2264,10 @@ event:
     verification, media literacy and otherwise fighting misinformation. \n\nBreakout
     session on __Tipline and Chatbots__\n\nSpeakers:\n- 1) Pamposh Raina (Fathm)\n-
     2) Supinya Klangnarong (Cofacts Thailand)\n- 3) Summer Chen (Taiwan FactCheck
-    Center)\n- 4) Shalini Joshi (Meedan)"
-  slug: trusted-media-summit-tiplines-and-chatbots
+    Center)\n- 4) Shalini Joshi (Meedan's Program Director for APAC)\n\nDr Scott Hale,
+    Meedan's Director of Research, will lead a short presentation on claim matching
+    via social media."
+  slug: meedan-at-trusted-media-summit-2020
   non_public: true
   event_date_string: '2020-10-02'
   event_end_date_string: '2020-10-02'
@@ -4127,9 +4130,9 @@ event:
 - sys:
     id: zT4RueEB2XdfqpWtdqz5s
     created_at: !ruby/object:DateTime 2021-07-21 01:46:12.395000000 Z
-    updated_at: !ruby/object:DateTime 2021-07-21 02:04:27.291000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-13 23:31:30.895000000 Z
     content_type_id: event
-    revision: 1
+    revision: 3
     space:
       sys:
         id: g118h5yoccvd
@@ -4146,7 +4149,7 @@ event:
   title: Meedan at RightsCon 2021
   event_date: !ruby/object:DateTime 2021-06-07 00:00:00.000000000 Z
   event_end_date: !ruby/object:DateTime 2021-06-11 00:00:00.000000000 Z
-  time: "*London* 7:45PM"
+  time: "- *London* 7:45PM"
   status: Past
   social_card_image:
     sys:
@@ -4158,6 +4161,7 @@ event:
     url: "//images.ctfassets.net/g118h5yoccvd/105ZYIV19tPmCGOfGBU5x9/c35babcce6b7abe1fdea8bff92a1cc5b/-RightsCon2021_all_meedan_sessions.png"
   location_human_friendly: Online
   register_link: https://www.rightscon.org/program/
+  video_link: https://youtu.be/_vvjMc1znV8
   long_description: |-
     Meedanis are coming out strong for #RightsCon2021! Review the list of events featuring our team members below.
 
@@ -4325,3 +4329,76 @@ event:
   non_public: true
   event_date_string: '2021-09-21'
   event_end_date_string: '2021-09-22'
+- sys:
+    id: 3CecK2iw0MeR3SFES9lTc7
+    created_at: !ruby/object:DateTime 2021-10-13 23:02:38.927000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-13 23:13:10.443000000 Z
+    content_type_id: event
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Claim matching, tiplines, & collaboration for effective misinformation response
+    at the University of Exeter
+  event_date: !ruby/object:DateTime 2021-10-08 00:00:00.000000000 Z
+  event_end_date: !ruby/object:DateTime 2021-10-08 00:00:00.000000000 Z
+  time: |-
+    - *London* 2:00pm
+    - *Berlin* 3:00pm
+  status: Past
+  location_human_friendly: Online on Zoom
+  video_link: https://www.youtube.com/watch?v=GsNt3YZsnCY
+  long_description: "Misinformation is often edited and repeated across multiple platforms,
+    websites, languages, and formats (audio, video, image, text). In this talk, Dr
+    Scott A. Hale will detail initiatives to crowdsource misleading content through
+    \"tiplines\" on messaging platforms like WhatsApp and Telegram as well as state-of-the-art
+    natural language processing approaches to group messages making the same claims.
+    \n\nWhile much effort focuses on large, high-resource languages and unencrypted
+    platforms. [Tiplines](https://arxiv.org/abs/2106.04726 \"Tiplines to Combat Misinformation
+    on Encrypted Platforms: A Case Study of the 2019 Indian Election on WhatsApp\")
+    offer the opportunity for users of end-to-end encrypted platforms to share potentially
+    \ misleading content with fact-checking organizations and check whether that content
+    has been fact-checked. This talk will show how knowledge distillation can be used
+    to create machine learning models for [claim matching](https://aclanthology.org/2021.acl-long.347/
+    \"Claim Matching Beyond English to Scale Global Fact-Checking\") that perform
+    well on low-resource as well as high-resource languages.\n\nThe research detailed
+    in this talk has been integrated into our product Check and is used by over a
+    dozen fact-checking organizations across the globe.  We are currently working
+    to [create better infrastructure](https://meedan.com/blog/fact-champ-launch/ \"FACT
+    CHAMP launch\") to allow academics, practitioners, and community leaders to collaborate
+    more easily on misinformation response."
+  slug: claim-matching-tiplines-and-collaboration-for-effective-misinformation
+  non_public: false
+  event_date_string: '2021-10-08'
+  event_end_date_string: '2021-10-08'
+- sys:
+    id: 1VZYOTiqDOO2cdMXF3ggUH
+    created_at: !ruby/object:DateTime 2021-10-13 23:16:30.868000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-13 23:16:42.215000000 Z
+    content_type_id: event
+    revision: 0
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: event
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Meedan at Truth and Trust Online 2021
+  slug: meedan-at-truth-and-trust-online-2021
