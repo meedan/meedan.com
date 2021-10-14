@@ -132,6 +132,9 @@ var groupData = [
       }, {
         "title": "Sudan",
         "id": "SD",
+      }, {
+        "title": "Ghana",
+        "id": "GH",
       }
     ]
   },
@@ -223,7 +226,7 @@ groupData.forEach(function(group) {
   series.events.on("over", over);
   series.events.on("out", out);
   
-  series.mapPolygons.template.tooltipText = "{series.name}";
+  series.mapPolygons.template.tooltipText = "{series.name}: {title}";
   series.mapPolygons.template.fill = am4core.color(group.color);
 
   var hover = series.mapPolygons.template.states.create("highlight");
