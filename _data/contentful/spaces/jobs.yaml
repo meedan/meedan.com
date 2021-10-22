@@ -1,0 +1,1064 @@
+---
+job:
+- sys:
+    id: 6AgtUn149xr01IT56AqDbV
+    created_at: !ruby/object:DateTime 2020-03-09 22:36:44.593000000 Z
+    updated_at: !ruby/object:DateTime 2020-05-14 22:46:03.243000000 Z
+    content_type_id: job
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: SysOps Engineer
+  slug: sysops-engineer
+  body: "- __Location:__ Anywhere within the timezones GMT+2 to GMT-8. Other locations
+    possible for the right candidate.\n- __Reports to:__ Senior Systems Manager\n-
+    __Availability:__ Immediate\n\nWe are looking for a SysOps (aka DevOps) specialist
+    to help us enhance the reliability, performance and security of our software,
+    within a small team of competent technologists and designers.\n\nMeedan is a 501(c)(3)
+    non-profit that builds digital tools for global journalism. We are a team of designers,
+    technologists, academics, and journalists who focus on open source investigation
+    of digital media and crowdsourced translation of social media. With commercial,
+    media and university partners, we support research, curriculum development, and
+    new forms of digital storytelling. We have supported major fact-checking initiatives
+    around elections in Mexico (Verificado), France (CrossCheck), the US (Electionland),
+    and India (Checkpoint) as well as general day-to-day fact-checking efforts in
+    the Philippines (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for
+    world changing human rights investigations with partners like Bellingcat, Syrian
+    Archives, Watching Western Sahara, and the Berkeley Human Rights Center.\n\nOur
+    product suite includes Check, an open-source media annotation web application
+    integrated with major social media platforms that allows journalists, human-rights
+    defenders, and civil society organizations to annotate, verify, fact-check, and
+    contextualize web content in a collaborative manner mixing human and machine intelligence.\n\nThis
+    is a full-time position.\n\n### Responsibilities\n\n- Participate in building
+    new versions of our software products\n- Participate in managing infrastructure\n-
+    Participate in troubleshooting and incident management\n- Maintain and enhance
+    our continuous deployment system\n- Maintain and enhance our Docker-based container
+    services on the AWS platform\n- Participate in performance and security reviews,
+    including fixes where needed\n- Maintain and enhance our automated testing infrastructure\n-
+    Support developers in maintaining and enhancing their development environment\n\n###
+    Qualifications\n\n- Experience with AWS scripting.\n- Experience with Ruby, NodeJS,
+    and other mainstream programming platforms\n- Experience with Docker\n- Knowledge
+    of automation tools such as Terraform, Ansible, or CloudFormation\n- Experience
+    with managing and optimizing PostgreSQL and Elasticsearch\n- Experience with open
+    source software development\n- Experience with automated testing\n- Ability to
+    quickly learn and use new technologies\n- Strong communications and interpersonal
+    skills\n- Experience working in cross-cultural contexts\n- Experience working
+    remotely\n\n\nMeedan is a fast-paced, small, software development startup that
+    relies heavily on the unique skills of each team member. Our team members are
+    able to work flexibly and respond to challenges across a range of project areas.
+    We are headquartered in San Francisco’s SOMA district with team members distributed
+    through multiple cities and time zones. We encourage individuals from historically
+    underrepresented communities in technology and journalism to apply, including
+    women, people of color, people with disabilities and those who identify as LGBTQ.\n\nSalary
+    and benefits commensurate with qualifications and experience. \n\nPlease send
+    CV, Github repo and statement of interest to <a href=\"mailto:jobs@meedan.com?subject=SysOps
+    Engineer\">jobs@meedan.com</a>."
+  date: '2020-03-09'
+- sys:
+    id: 4SJXXyNQWl2YY5WawH8Z8f
+    created_at: !ruby/object:DateTime 2020-03-09 22:38:56.806000000 Z
+    updated_at: !ruby/object:DateTime 2020-04-30 10:53:56.855000000 Z
+    content_type_id: job
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Research Fellow
+  slug: research-fellow
+  body: "- __Location:__ San Francisco, USA, or Oxford, UK, preferred; remote possible
+    for the right candidate\n- __Availability:__ Immediate; 12-month 1.0 FTE contract,
+    with possibility of renewal subject to funding\n- __Reports to:__ Director of
+    Research\n- __Deadline:__ Please apply before 27 March 2020 for full consideration.\n\n###
+    Overview of the role\n\nMeedan is seeking a Research Fellow to join its research
+    team for a 12-month fellowship. The successful fellow will work primarily on the
+    CryptoChat project led by Dr Scott Hale at Meedan and Dr Kiran Garimella at MIT’s
+    Institute for Data, Systems, and Society. The Fellow will also contribute to other
+    research projects at Meedan under guidance from Director of Research, Dr Hale.
+    The Fellow’s research will include analysis of large, real-world social media
+    datasets created and annotated by Meedan partners. This opportunity is available
+    to suitable candidates located anywhere in the world to work remotely with in-person
+    opportunities in Oxford, UK, or San Francisco, USA.\n\nMeedan is a 501(c)(3) non-profit
+    that builds digital tools for global journalism. We are a team of designers, technologists,
+    academics, and journalists who focus on open source investigation of digital media
+    and crowdsourced translation of social media. With commercial, media and university
+    partners, we support research, curriculum development, and new forms of digital
+    storytelling. We have supported major fact-checking initiatives around elections
+    in Mexico (Verificado), France (CrossCheck), the US (Electionland), and India
+    (Checkpoint) as well as general day-to-day fact-checking efforts in the Philippines
+    (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for world changing
+    human rights investigations with partners like Bellingcat, Syrian Archives, Watching
+    Western Sahara, and the Berkeley Human Rights Center.\n\nOur product suite includes
+    Check, an open-source media annotation web application integrated with major social
+    media platforms that allows journalists, human-rights defenders, and civil society
+    organizations to annotate, verify, fact-check, and contextualize web content in
+    a collaborative manner mixing human and machine intelligence.\n\n\n### Responsibilities\n\n####
+    Original Research\n\n- Develop and undertake state-of-the-art research in social
+    data science, computational social science, or computer science.\n- Lead quantitative
+    analysis of large social-media datasets, including messaging app data already
+    collected for the project from tip lines operated by media partners and webscraping.\n-
+    Survey existing literature, tools, and techniques in regard to messaging platforms
+    and online communication.\n- Writing, publication, and dissemination of results
+    in articles, blog posts, and project reports aimed at both academic and non-academic
+    audiences.\n\n#### Project Administration\n\n- General day-to-day administration
+    of the project and coordination with all project partners.\n- Research design
+    in collaboration with the lead investigators.\n- Maintaining the project’s online
+    presence.\n- Support legal partners working to develop and evaluate new data governance
+    approaches.\n\n#### Research Support\n\n- Participate actively in the intellectual
+    life of Meedan sharing findings and developing research questions with Meedan’s
+    program, product, design, and software development teams.\n- Such other project-related
+    duties as may be required by Dr Scott Hale.\n\n### Qualifications\n\n#### Required\n\n-
+    Hold a relevant Ph.D in computational social science, computer science, communication
+    or another programme with social science theory and computational/data science
+    methods. Those without a Ph.D. but with exceptional academic research experience
+    will also be considered.\n- Demonstrated experience in empirical data analysis
+    using a suitable scripting language (e.g., Python)\n- Ability to effectively disseminate
+    results to a range of stakeholders\n- Ability to work flexibly, prioritizing tasks
+    to meet given deadlines and maintaining a high standard of accuracy and attention
+    to detail\n- Interpersonal skills relevant to working with colleagues as part
+    of a global, cross-cultural team at Meedan and communicating across disciplines
+    and industry-academia boundaries\n- The ability to write reports and publications
+    in fluent English\n\n#### Optional, but a plus\n\n- Machine learning, natural
+    language processing, crowdsourcing, image/video processing (e.g., image hashing),
+    or computer vision experience \n- Strong experience in Computer-Supported Collaborative
+    Work, Computer Mediated Communication, and other disciplines focused on analysing
+    online communication. \n- Demonstrated commitment to Open Science and public or
+    policy engagement\n\n\n### About the CryptoChat project\n\nThe CryptoChat project
+    is a 12-month quantitative research project analysing communication dynamics in
+    large datasets from encrypted messaging platforms. It leverages existing datasets
+    in a comparative analysis to understand how encrypted messaging differs from the
+    open web and other social media platforms. The intended contributions of this
+    research are multifold. \n\n1. Provide insights into the nature of encrypted messaging
+    platforms through descriptive statistics about their use (e.g., number of users,
+    number of unique messages, number of images versus textual messages, temporal
+    trends). \n2. Provide exploratory analysis of the data through unsupervised methods
+    such as clustering images based on similarity metrics and topic modeling text
+    to generate hypotheses for further research.\n3. Investigate instances of dangerous
+    and harmful content within the datasets with a specific focus on hate speech and
+    incitement to violence.\n4. Provide methodological insights into how to best study
+    mis/disinformation on encrypted platforms, with considerations for both ethics
+    and efficacy. Specifically, we compare datasets created through misinformation
+    tiplines with datasets created by crawling the web for join links to large, pseudo-public
+    groups.\n5. Compare content in our closed messaging datasets to open web and traditional
+    media data to understand the extent to which content overlaps and the temporal
+    ordering of content appearance. Does content appear first on closed messaging
+    platforms and later on the open web or vice versa?\n6. Build the technical capacity
+    to generate descriptive statistics and exploratory analysis quickly. We will build
+    interfaces for live statistics with the goal of allowing policymakers, journalists,
+    and the public to understand the content submitted in near real-time. We will
+    further build a robust pipeline for exploratory data analysis (e.g., content clustering)
+    so that reports with these results can be published within one month of any tip
+    line deployment.\n7. Build and test a legal and ethical framework that provides
+    clear guidelines for data collection and data usage in a global context.\n\nMeedan
+    is a fast-paced, small, software development startup that relies heavily on the
+    unique skills of each team member. Our team members are able to work flexibly
+    and respond to challenges across a range of project areas. We are headquartered
+    in San Francisco’s SOMA district with team members distributed through multiple
+    cities and time zones. We encourage individuals from historically underrepresented
+    communities in technology and journalism to apply, including women, people of
+    color, people with disabilities and those who identify as LGBTQ.\n\nSalary and
+    benefits commensurate with qualifications and experience. \n\nPlease send CV and
+    statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Research Fellow\">jobs@meedan.com</a>
+    \n"
+  date: '2020-03-09'
+- sys:
+    id: 6pyAqz4QzbYvWi64mswCGr
+    created_at: !ruby/object:DateTime 2020-05-14 22:40:53.487000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-10 03:24:51.543000000 Z
+    content_type_id: job
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Program Associate, APAC
+  slug: program-associate-apac
+  body: "- __Location:__ India, Philippines; remote possible for the right candidate,
+    with GMT +3 to +8 strongly preferred \n- __Reports to:__ Program Director, APAC\n-
+    __Availability:__ June 1\n\nMeedan is looking for a Program Associate to join
+    its team that works closely with partners in the Asia Pacific region. The Associate
+    will support Meedan’s partners engaged in fact-checking initiatives, open source
+    investigations, media literacy projects, research institutions, human rights groups
+    and independent media newsrooms. The Associate will also contribute to other projects
+    at Meedan. \n\nThis is an ideal and exciting position for someone comfortable
+    with web and mobile technologies  eager to engage with the media and misinformation
+    space. We encourage diverse applicants from underrepresented communities in journalism
+    and technology fields.\n\nMeedan is a 501(c)(3) non-profit that builds digital
+    tools for global journalism. We are a team of designers, technologists, academics,
+    and journalists who focus on open source investigation of digital media and crowdsourced
+    translation of social media. With commercial, media and university partners, we
+    support research, curriculum development, and new forms of digital storytelling.
+    We have supported major fact-checking initiatives around elections in Mexico (Verificado),
+    France (CrossCheck), the US (Electionland), and India (Checkpoint) as well as
+    general day-to-day fact-checking efforts in the Philippines (Rappler, Vera Files),
+    Africa (AfricaCheck, PesaCheck) and for world changing human rights investigations
+    with partners like Bellingcat, Syrian Archives, Watching Western Sahara, and the
+    Berkeley Human Rights Center.\n\nOur product suite includes Check, an open-source
+    media annotation web application integrated with major social media platforms
+    that allows journalists, human-rights defenders, and civil society organizations
+    to annotate, verify, fact-check, and contextualize web content in a collaborative
+    manner mixing human and machine intelligence.\n\nThis is a full-time position.\n\n###
+    Responsibilities\n\n__Program Management__\n- Develop precise knowledge of how
+    APAC partners use the Check platform, seek product usage insights and communicate
+    short reports and insights to the Director of Product and development team on
+    an as-needed basis.     \n- Follow trends related to media and technology in the
+    APAC region and support the development of projects with new ideas and trends
+    \n- Work with Program Lead to scope new partnerships for Meedan in the APAC region\n-
+    Acquire excellent knowledge of Check’s product feature roadmap, deployment schedule,
+    known bugs and user documentation.    \n- Provide product support to APAC partners
+    in their use of Check via virtual meetings coordinated with APAC Program Lead
+    or through Intercom.   \n- Support the program team at Meedan in orienting, onboarding
+    and training partners on fact-checking, verification, open source investigations,
+    other areas of journalism and use of open source platforms \n- Follow-up with
+    partners on a regular basis \n\n__Administration__\n- General day-to-day administration
+    of the project and coordination with all partners \n- Testing and checking Check
+    workspaces being used by partners and providing prompt support when required \n-
+    Writing blog posts about new insights from the work being done with partners \n-
+    Evaluating other competition in the region \n- Supporting the Program Lead in
+    coordination and follow-ups with partners in the APAC region\n\n\n\n### Qualifications\n\n-
+    Demonstrated experience in product or program management . At least three years
+    work experience is desirable.\n- Strong experience in using tech platforms, CRM
+    softwares and open source tools\n- Ability to work flexibly, prioritizing tasks
+    to meet given deadlines and maintaining a high standard of accuracy and attention
+    to detail\n- The ability to write reports and publications in English and at least
+    one other language commonly used in the APAC region. \n- Excellent communication
+    skills \n\n\n\nMeedan is a fast-paced, small, software development startup that
+    relies heavily on the unique skills of each team member. Our team members are
+    able to work flexibly and respond to challenges across a range of project areas.
+    We are headquartered in San Francisco’s SOMA district with team members distributed
+    through multiple cities and time zones. We encourage individuals from historically
+    underrepresented communities in technology and journalism to apply, including
+    women, people of color, people with disabilities and those who identify as LGBTQ.\n\nSalary
+    and benefits commensurate with qualifications and experience. \n\nPlease send
+    CV and statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Program
+    Associate, APAC\">jobs@meedan.com</a>."
+  date: '2020-05-14'
+- sys:
+    id: OR656AY4CZ9IV5g6JS7sT
+    created_at: !ruby/object:DateTime 2020-07-09 15:59:52.822000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-03 20:56:10.326000000 Z
+    content_type_id: job
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Program Manager, East Africa
+  slug: program-manager-east-africa
+  body: "- __Location:__ Flexible; EAT (GMT +3), strongly preferred\n- __Reports to:__
+    Check Global Program Director\n- __Availability:__ September 1, 2020\n- __Salary:__
+    Commensurate with qualifications and experience\n\nWith generous support from
+    the Swedish International Development Agency (Sida), Meedan has launched in January
+    2019 the Check Global project to develop a verification and anti-disinformation
+    network of partners in the Middle East and North Africa Region, in East Africa,
+    Latin America and Asia. This program, which runs till December 2021, significantly
+    expands Meedan’s programmatic and engineering capacity, enabling the organization
+    to develop world-class open-access tools and training resources for the greater
+    challenges of misinformation and disinformation in our contemporary internet environment.\n\nWe
+    seek a talented program associate to help expand our presence and partnerships
+    in Africa (the focus is currently on East Africa, but we would welcome the opportunity
+    to expand beyond EA). The program associate will work with both Meedan and Birmingham
+    City University, its lead academic and Monitoring & Evaluation partner, to expand
+    their programmatic activities. This broader network shares a common goal: they
+    want to collaborate around the significant challenge of sense-making in a new
+    media ecosystem which is decentralized, global, open and real-time.\n\nWith a
+    focus on collaboration, Check Global will augment Meedan’s existing suite of open
+    source tools and open licensed online and offline training to support emerging
+    practices in digital media literacy skills, fact-checking, disinformation monitoring
+    and evaluation, and media literacy skills building for social impact. Our recent
+    partners have included some of the world’s most innovative digital news, media
+    training and tech initiatives, like AJ+, ProPublica, First Draft, Bellingcat,
+    the Syrian and Yemeni Archives, Rappler, CITE, PesaCheck and Africa Check, among
+    others. \n\nThis is a full-time position.\n\n### Responsibilities:\n\n\n__Program
+    Management__\n- Manage relationships with regional media, civil society, academic
+    and human rights and training partners engaged in the Check Global network. Also
+    help expand Check Global’s regional partners network through building new partnerships
+    and models for collaboration in East Africa and beyond. \n- Support partners in
+    use of Check for ongoing and limited-scope projects and events, including training
+    workshops, conferences and public events.\n- Provide verification training support
+    for and collaboration with Check Global network and training partners. \n- Attend
+    regional events and conferences to represent Check Global (whenever in person
+    travel and public events become possible again). \n- Ensure regional partners
+    meet agreed milestones and reporting targets. Work in close collaboration with
+    Check Global M&E Leads to make sure all targets are achieved ahead of reporting
+    dates. \n\n__Operational Support__\n- Build and maintain organizational CRM and
+    serve as first point of contact on email and ticketing systems.\n- Research and
+    prepare briefs for outreach.\n- Follow up on conferences and initiate partner
+    communications. \n- Produce blog posts and other publications to help publicise
+    Meedan and Check Global’s work in East Africa. \n- Contribute to Meedan’s weekly
+    newsletter The Checklist. \n- Support Meedan management team in developing documents
+    for internal review (with board of directors) and external review (at conferences
+    and meetings).\n- Accurately record meeting minutes for key meetings and events.\n\n###
+    Qualifications\n*Required*\n- 1-2 years experience in journalism or related field,
+    with interest and expertise in verification, fact checking and anti-misinformation
+    research, technology and training\n- 1-2 years experience working in East Africa\n-
+    Fluency in English, and experience working in multilingual environments \n- Experience
+    as a trainer and workshop leader\n- Familiarity with online tools for journalism\n-
+    Experience with project management\n- Attention to detail and organization\n-
+    Ability and willingness to travel internationally\n- Experience working remotely
+    in multicultural environments\n\n*Optional, but a plus\n- Interest in software
+    development processes\n- Fluency or working capacity in Swahili, French and other
+    languages commonly spoken in East Africa \n\nMeedan is a fast-paced, small, software
+    development startup that relies heavily on the unique skills of each team member.
+    Our team members are able to work flexibly and respond to challenges across a
+    range of project areas. We are headquartered in San Francisco’s SOMA district.
+    We encourage individuals from historically underrepresented communities in technology
+    and journalism to apply, including women, people of color, people with disabilities
+    and those who identify as LGBTQ.\n\nPlease send CV, portfolio (or a website equivalent)
+    and statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Program
+    Associate, East Africa\">jobs@meedan.com</a> by July 31, 2020."
+  date: '2020-07-09'
+- sys:
+    id: 56rk6EIfGewB4WYMyuhEDM
+    created_at: !ruby/object:DateTime 2020-07-16 19:03:08.286000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 04:51:07.468000000 Z
+    content_type_id: job
+    revision: 5
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Senior Frontend Engineer
+  slug: software-engineer-frontend
+  body: "- __Location:__ Remote\n- __Reports to:__ Director of Engineering\n- __Availability:__
+    Immediate; 12-month 1.0 FTE contract subject to 3-month probation period, with
+    intention to renew\n- __Salary:__ Commensurate with qualifications and experience\n\nMeedan
+    is seeking a senior frontend developer to a play key role in our 10-member global
+    software team. We build [Check](https://github.com/meedan/check), a web platform
+    for collaborative media annotation and claim-checking used by some of the world's
+    leading fact-checking and media organizations, such as India Today, Rappler, BOOM,
+    Africa Check, Agencia Lupa and others. This includes handling up thousands of
+    fact-check submissions every month in multiple languages from a variety of countries.\n\nOur
+    frontends include a React web app, a cross-browser Web Extension and a sophisticated
+    Slack bot, all accessing our backend services via GraphQL and REST APIs.  The
+    successful candidate will participate in building and maintaining these frontends,
+    bringing their experience and knowledge to produce high-quality code contributions
+    and enrich the team’s collective assets and expertise. Their problem-solving skills,
+    attention to detail, ability to learn fast, sense of initiative and positive attitude
+    will ensure a long and rewarding tenure in a similarly-minded group with the ability
+    to develop innovative software during a critical time in media development history.\n\n###
+    Responsibilities\n- Maintain and enhance existing frontends, implementing beautiful
+    and intuitive experiences for a global user base of fact-checking organizations
+    \n- Lead architectural planning, especially related to frontend-backend communication,
+    in close coordination with the team and Director of Engineering\n- Evaluate performance
+    and other quality-oriented activities, as we scale up to support hundreds of thousands
+    of submissions monthly in dozens of languages\n- Review product specifications
+    and designs to assess feasibility and simplicity, in close coordination with the
+    product and development teams\n- Follow development practices, including ticketing
+    workflows, coding and testing guidelines\n- Maintain a multilingual frontend,
+    working with external translation partners\n\n### Qualifications\n*Required*\n\n-
+    Solid experience with Web technologies: HTML, CSS, JavaScript, HTTP\n- Solid experience
+    of React, Relay and GraphQL and their core principles\n- Familiarity with newer
+    specifications of ECMAScript / JavaScript\n- Experience handling technical debt
+    and refactoring large code bases\n- Solid experience with version control, preferably
+    Git and GitHub\n- Working knowledge of unit testing and integration testing\n-
+    Familiarity with Docker or other containerization technologies\n- Demonstrated
+    experience delivering production-grade Web applications\n- Strong command of English
+    language\n- Strong communication skills, especially with remote, multicultural
+    teams\n\n*Preferred*\n- Working knowledge of UX principles and their relevance
+    to Web applications\n- Working knowledge of AWS Lambda or other serverless environments\n-
+    Familiarity with prototyping and design tools such as Figma, Invision\n- Ability
+    to travel for 1-2 months per year for in-person team meetings (when it is safe
+    to do so from a public health perspective)\n- Community involvement such as event
+    organization, talks and presentations\n\n### About Meedan\nMeedan is a 501(c)(3)
+    non-profit that builds digital tools for global journalism. We are a team of designers,
+    technologists, academics, and journalists who focus on open source investigation
+    of digital media and crowdsourced translation of social media. With commercial,
+    media and university partners, we support research, curriculum development, and
+    new forms of digital storytelling. We have supported major fact-checking initiatives
+    around elections in Mexico (Verificado), France (CrossCheck), the US (Electionland),
+    and India (Checkpoint) as well as general day-to-day fact-checking efforts in
+    the Philippines (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for
+    world changing human rights investigations with partners like Bellingcat, Syrian
+    Archives, Watching Western Sahara, and the Berkeley Human Rights Center.\nOur
+    team members are able to work flexibly and respond to challenges across a range
+    of project areas. We are headquartered in San Francisco’s SOMA district with team
+    members distributed through multiple cities and time zones. We encourage individuals
+    from historically underrepresented communities in technology and journalism to
+    apply, including women, people of color, people with disabilities and those who
+    identify as LGBTQ.\n\nPlease send CV, portfolio (or a website equivalent) and
+    statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Software Engineer,
+    Frontend\">jobs@meedan.com</a>\n"
+  date: '2020-07-16'
+- sys:
+    id: 3kom2EhyaYjZU8mdPavYgm
+    created_at: !ruby/object:DateTime 2020-08-04 21:08:44.247000000 Z
+    updated_at: !ruby/object:DateTime 2020-10-09 18:50:15.954000000 Z
+    content_type_id: job
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Manager, Customer Success
+  slug: customer-success-manager
+  body: "- __Location:__ Flexible; Nairobi or Cairo strongly preferred; Central European
+    timezone (GMT+2) and EAT (GMT +3) possible\n- __Reports to:__ Director of Product\n-
+    __Availability:__ Immediate\n- __Salary:__ Commensurate with qualifications and
+    experience\n\nMeedan is seeking to add a Customer Success & Quality Assurance
+    Manager to our product team. This is an ideal and exciting position for someone
+    wanting to grow with a dynamic and diverse technology non-profit working on information
+    equity and journalism. We encourage diverse applicants from underrepresented communities
+    in journalism and technology fields.\n\nMeedan is a 501(c)(3) non-profit that
+    builds digital tools for global journalism. We are a team of designers, technologists,
+    academics, and journalists who focus on open source investigation of digital media
+    and crowdsourced translation of social media. With commercial, media and university
+    partners, we support research, curriculum development, and new forms of digital
+    storytelling. We have supported major fact-checking initiatives around elections
+    in Mexico (Verificado), France (CrossCheck), the US (Electionland), and India
+    (Checkpoint) as well as general day-to-day fact-checking efforts in the Philippines
+    (Rappler, Vera Files), Africa (AfricaCheck, PesaCheck) and for world changing
+    human rights investigations with partners like Bellingcat, Syrian Archives, Watching
+    Western Sahara, and the Berkeley Human Rights Center.\n\nOur product Check is
+    an open-source web application mixing human and machine intelligence. It allows
+    journalists, human-rights activists, and civil society organizations to collect
+    mis-information circulating on close messaging networks, annotate, contextualize
+    and fact-check it, and distribute fact checks reports to audiences.\n\nThis is
+    a full-time position. Please note that, in order to meet the needs of the documentation,
+    this role must include Sunday as a working day in order to ensure coverage with
+    partners working on Sundays. The specific schedule can be discussed with the Director
+    of Product.\n\n### Responsibilities:  \n\n__Customer Success:__ \n- Represent
+    the Meedan brand with product partners, with a special focus on our EMEA and APAC
+    regions\n- Provide high-level technical and product support via Intercom with
+    prompt and efficient turnarounds\n- Route inbound support queries (bugs and requests)
+    to technical and product team members \n- Maintain product knowledge base \n\n__Quality
+    Assurance:__\n- Identify QA/testing needs, and coordinate QA tasks and priorities\n-
+    Generate test scenarios from user stories and acceptance criteria.\n- Ensure that
+    defects/change in requirements identified during testing are verified before moving
+    the application to production\n\n### Key Qualifications:\n- 1-2 years experience
+    working on web application products (design, production or support) \n- Customer
+    service orientation\n- Strong analytical, troubleshooting, and problem solving
+    skills.\n- Proficient with bug tracking software. \n- Excellent communication
+    skills, including the ability to effectively communicate at all levels with technical
+    teams as well as business or product teams.\n- Ability to manage multiple project
+    schedules, highly organized and able to prioritize.\n- Experience providing user
+    support or conducting user research.\n- Ability to plan and carry out complex
+    tasks with minimal supervision.\n- Knowledge in data analytics and reporting a
+    big plus.\n- Enjoys working in an entrepreneurial, collaborative environment and
+    is a team player\n\n \nMeedan is a fast-paced, small, software development startup
+    that relies heavily on the unique skills of each team member. Our team members
+    are able to work flexibly and respond to challenges across a range of project
+    areas. We are headquartered in San Francisco’s SOMA district with team members
+    distributed through multiple cities and time zones. We encourage individuals from
+    historically underrepresented communities in technology and journalism to apply,
+    including women, people of color, people with disabilities and those who identify
+    as LGBTQ.\n\n__Please send CV and statement of interest to jobs@meedan.com.__\n"
+  date: '2020-08-04'
+- sys:
+    id: 5xuZ0h0k4mUsR30JwyilCY
+    created_at: !ruby/object:DateTime 2021-02-19 21:03:02.525000000 Z
+    updated_at: !ruby/object:DateTime 2021-02-20 01:06:44.901000000 Z
+    content_type_id: job
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Blank
+  slug: blank
+  date: '2021-02-19'
+- sys:
+    id: C5ARL5HJ7CmofjI3wLa1G
+    created_at: !ruby/object:DateTime 2021-02-25 19:09:19.787000000 Z
+    updated_at: !ruby/object:DateTime 2021-04-28 23:57:05.187000000 Z
+    content_type_id: job
+    revision: 4
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: 'Digital Health Lab Program Manager  '
+  slug: digital-health-lab-program-manager
+  body: "- __Location:__ Flexible\n- __Reports to:__ Digital Health Lab Program Director\n-
+    __Availability:__ April 2021\n- __Salary:__ Commensurate with qualifications and
+    experience\n\nMeedan’s Digital Health Lab seeks a talented program manager with
+    an interest in innovating in the field of public health journalism and communications,
+    and applying technologies that can support access to quality health information
+    at scale.\n\nThe Digital Health Lab program is centered around four pathways for
+    impact: \n- Collaboration with independent media, fact-checking organizations
+    and journalists around the world to provide relevant and localized resources for
+    health topics they are covering\n- Developing data standardization models for
+    health information so content can be more easily and widely accessible for integration
+    and use\n- Conducting mixed-methods and machine learning research to understand
+    health information gaps across languages and contexts\n- Developing documentation,
+    training and knowledge-exchanges focused on evidence-based best practices for
+    responding to health misinformation online and increasing access to quality health
+    information. \n\nBroadly, the program manager will: \n- Manage program relationships
+    with research partners, newsrooms, and communications organizations\n- Support
+    editorial operations for health science content that our team develops for newsrooms
+    and fact-checking organizations \n- Contribute to research and thought leadership
+    relevant to digital health information equity\n- Collaborate with other Meedan
+    team members to strengthen our cross program and product responses to health misinformation\n\n###
+    Qualifications\n*Required*\n- Fluency in English, and experience working in multilingual
+    environments \n- Experience in the media literacy, digital communications or access
+    to information fields\n- Experience with project management\n- Attention to detail
+    and organization\n- Ability to work in fast-paced communications environments
+    \n- Ability and willingness to travel internationally, when this becomes possible\n-
+    Experience working remotely in multicultural environments\n\n*Optional, but a
+    plus\n- Experience as an editor, ideally in distilling complex topics for various
+    audiences \n- Background or experience in public health or journalism\n- Experience
+    as an editor within multi-stakeholder projects \n- Experience in grant writing
+    and proposal development \n- Experience in public health policy or advocacy \n-
+    Fluency or working capacity in a second language \n\nThis is a full-time position.\n\n###
+    Responsibilities:\n\n__Program Management__\n-  Work with editorial team as senior
+    editor for public health content created as part of our misinformation response
+    initiatives \n- Coordinates global editorial outputs, including collaborations
+    with localization and translation partners to ensure content is available and
+    accessible to all of our partners\n- Contributes to funder outreach, grant proposal
+    development and grant reporting  \n\n__Communications and Thought Leadership__\n-
+    Design and execute empirical research surrounding health information access in
+    collaboration with Meedan’s research team for both academic and popular press
+    outlets \n- Produce blog posts and other publications to share findings from Meedan
+    and the Digital Health Lab’s work \n- Research and prepare briefs for outreach\n-
+    Contribute to trainings, courses, workshops and other public events relevant to
+    Digital Health Lab thought leadership and activities.\n- Attend regional events
+    and conferences to represent the Digital Health Lab, both virtually and in person
+    (whenever in person travel and public events become possible again). \n- Follow
+    up on conferences and initiate partner communications. \n- Develop and execute
+    relevant outreach plans to accompany Digital Health Lab research or thought leadership
+    outputs. \n\n__Partner Management__\n- Manage relationships with media, civil
+    society, academic and human rights and training partners engaged in the Digital
+    Health Lab’s work. Also help expand the network of partners, including media and
+    fact-checking organizations, that the Digital Health Lab supports through building
+    new partnerships and models for collaboration.\n- Develop relationships with public
+    health stakeholders \n\n__Operational Support__\n- Work closely with other program
+    and product team members in developing new ideas and contributing to existing
+    projects\n- Contribute to organizational CRM and serve as the first point of contact
+    on email and ticketing systems.\n- Support Meedan management team in developing
+    documents for internal review (with board of directors) and external review (at
+    conferences and meetings).\n- Accurately record meeting minutes for key meetings
+    and events.\n\n### Background:\n\nWith generous support from the Google News Initiative,
+    the Robert Wood Johnson Foundation, and the Omidyar Network, Meedan built the
+    Digital Health Lab, an applied research unit to tackle challenges including access
+    to quality health information, developing evidence-based responses to health misinformation,
+    and supporting communicators in their efforts to disseminate quality, relevant
+    and localized health information to their audiences. The Lab has worked with public
+    health communications leaders including Nigeria Health Watch, Stay Safe Africa,
+    SUNO India, and the World Health Organization, and runs www.health-desk.org, which
+    is a multi-language public health rapid response resource to questions shared
+    with us by journalists and fact-checkers from around the world. \n\nWith a focus
+    on evidence-based responses to health information quality challenges online, Digital
+    Health Lab contributes to and is strengthened by collaboration with Meedan’s product
+    and development teams, who continue to build a suite of open source tools and
+    open licensed online and offline training to support emerging practices in digital
+    media literacy skills, information access, fact-checking, misinformation monitoring
+    and evaluation, and media literacy skills building for social impact. Meedan’s
+    recent partners and collaborators have included some of the world’s most innovative
+    digital news, media training and tech initiatives, including AJ+, ProPublica,
+    First Draft, Bellingcat, the Syrian and Yemeni Archives, Rappler, VERA Files,
+    Teyit, BOOM Live, Reuters, CITE, PesaCheck and Africa Check, among others. \n\nMeedan
+    is a fast-paced, small, software development startup that relies heavily on the
+    unique skills of each team member. Our team members are able to work flexibly
+    and respond to challenges across a range of project areas. We are headquartered
+    in San Francisco’s SOMA district. We encourage individuals from historically underrepresented
+    communities in technology and journalism to apply, including women, people of
+    color, people with disabilities and those who identify as LGBTQ.\n\nPlease send
+    CV, portfolio (or a website equivalent) and statement of interest to <a href=\"mailto:jobs@meedan.com?subject=Program
+    Manager, Digital Health Lab\">jobs@meedan.com</a> by March 19, 2020.\n"
+  date: '2021-02-25'
+- sys:
+    id: 3T9tE5jubsR5q5exBsN1pa
+    created_at: !ruby/object:DateTime 2021-04-26 19:57:49.722000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-07 17:27:37.821000000 Z
+    content_type_id: job
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Deputy Editor, Health Desk
+  slug: deputy-editor-health-desk
+  body: "- __Location:__ Flexible\n- __Job type:__ 3 month position with opportunity
+    for extension\n- __Reports to:__ News Lead, Health Desk\n- __Availability:__ May
+    2021\n- __Salary:__ Commensurate with qualifications and experience\n\nHealth
+    Desk is an emerging news product that sends health content and context to a growing
+    list of 25 newsrooms and fact-checking organizations around the world. We regularly
+    give content to Reuters Fact Check and other IFCN-certified groups, and have also
+    produced content for big newsrooms like the New York Times. \n\nWe seek a detail-oriented
+    innovative thinker to take on a deputy editor position within our team. The Deputy
+    Editor will work closely with the News Lead as well as our team of scientists
+    and public health experts, who produce the content and context on-demand for our
+    partner newsrooms.\n\nThis is a 3-month, full-time position for an emergent product,
+    with an opportunity for extension pending successful funding.\n\n### Responsibilities\n-
+    Develop and enforce editorial standards\n- Help drive editorial strategy\n- Work
+    with editors, writers and product managers to deliver and integrate editorial
+    content through RSS feeds, closed messaging networks and other means of content
+    distribution\n\n### Education/Experience\n- A journalism degree or the equivalent
+    work experience \n- A proven track record of editing complex health content for
+    global audiences\n- Experience organizing a daily workload by priorities and meeting
+    deadlines in a fast-paced, quickly changing environment\n- Proactive approach
+    to problem-solving with strong decision-making skills\n- Comfortable working in
+    a remote/virtual environment and with geographically dispersed, diverse teams\n\n###
+    Skills\n- Copy-editing\n- Responding to breaking news \n- Fact-checking\n- AP
+    Style\n- Working on a small but dynamic team\n\nHealth Desk is a project by Meedan’s
+    Digital Health Lab. \n\n### About Meedan\n\nMeedan is a global technology not-for-profit
+    that builds software and programmatic initiatives to strengthen journalism, digital
+    literacy, and accessibility of information online and off. We develop open-source
+    tools for creating and sharing context on digital media through annotation, verification,
+    archival, and translation. We work with technologists, newsrooms, fact-checkers,
+    public health professionals, NGOs and academic institutions on award-winning projects
+    from election monitoring to pandemic response to human rights documentation. This
+    work supports our vision of a more equitable internet.\n\n__About the Digital
+    Health Lab at Meedan__\n\nWith generous support from the Google News Initiative,
+    the Robert Wood Johnson Foundation, and the Omidyar Network, Meedan built the
+    Digital Health Lab, an applied research unit to tackle challenges including access
+    to quality health information, developing evidence-based responses to health misinformation,
+    and supporting communicators in their efforts to disseminate quality, relevant
+    and localized health information to their audiences. The Lab has worked with public
+    health communications leaders including Nigeria Health Watch, Stay Safe Africa,
+    SUNO India, and the World Health Organization, and runs www.health-desk.org, which
+    is a multi-language public health rapid response resource to questions shared
+    with us by journalists and fact-checkers from around the world.\n\n__Equity, Diversity,
+    and Inclusion Statement__\n\nWe are headquartered in San Francisco’s SOMA district
+    with team members distributed through multiple cities and time zones. Our team
+    members are able to work flexibly and respond to challenges across a range of
+    project areas.  This includes the following:\n\n- Flexible work from home\n- Flexible
+    schedule \n- Support for home office\n- Health benefits for U.S. employees and
+    health care stipends for non-US staff\n- Internal EDI training and affinity groups\n-
+    Paid parental, sick and bereavement leave\n- Code of Conduct \n\nWe encourage
+    individuals from historically underrepresented communities in technology and journalism
+    to apply, including women, people of color, veterans, people with disabilities
+    and those who identify as LGBTQ. \n\nPlease send CV, portfolio (or a website equivalent)
+    and statement of interest to jobs@meedan.com by May 10, 2020."
+  date: '2021-04-26'
+- sys:
+    id: 35p1fPqjSRaYGUZC3np2iS
+    created_at: !ruby/object:DateTime 2021-05-04 22:25:45.506000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-02 22:16:49.215000000 Z
+    content_type_id: job
+    revision: 8
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: User Experience Designer
+  slug: user-experience-designer
+  body: "- __Location:__ Remote; Brazil and Americas time zones preferred, but flexible
+    for the right candidate\n- __Job type:__ Full-time\n- __Reports to:__ Director
+    of Product\n- __Availability:__ Immediate\n- __Salary:__ Commensurate with qualifications
+    and experience\n\nMeedan is seeking a User Experience Designer to a play key role
+    in our global product team. We build [Check](https://github.com/meedan/check),
+    a web platform for collaborative media annotation and claim-checking used by some
+    of the world's leading fact-checking and media organizations, such as India Today,
+    Rappler, BOOM, Africa Check, Agencia Lupa and others. This includes handling up
+    thousands of fact-check submissions every month in multiple languages from a variety
+    of countries.\n\nAs a User Experience Designer, you will create high quality visual
+    experiences that help journalists and academics bring critical information to
+    communities around the world. Your ability to summarize product needs into functional,
+    beautiful solutions will be paramount for achieving success. \n\nWe are looking
+    for an energetic , curious, and creative designer.  Our product team is small
+    and multidisciplinary; you will be involved in development from feature and project
+    conception all the way through execution and iteration. You will have the opportunity
+    to do hands-on research and collaborate closely with engineers. If you are a champion
+    for designing for humans and caring for your customers, you will flourish on this
+    team.\n\nAs part of Meedan you will have the opportunity to help fix the global
+    misinformation ecosystem for global and local audiences. This is an ideal position
+    for someone wanting to grow with a dynamic and diverse technology non-profit focused
+    on solving hard information distribution problems. We encourage diverse applicants
+    from underrepresented communities.\n\n### Responsibilities\n- Generate production-ready
+    design mockups and specifications for implementation  \n- Turn conceptual ideas
+    into product designs that address strategic and tactical goals\n- Create polished
+    design deliverables to help explore concepts and drive product discussions\n-
+    Use data to surface insights that help solve user problems.\n- Lead and collaborate
+    with team members on user research to evaluate existing features and conduct usability
+    tests of design prototypes\n- Create ad-hoc project websites and prototypes to
+    support Meedan programs \n- Work closely with cross-functional teams to define
+    and measure success\n- Share your work with and provide feedback to other team
+    members to ensure a cohesive design language across products and experiences\n\n###
+    Education/Experience:\n*Required*\n- Portfolio that demonstrates a keen sense
+    of visual design, the ability to solve user problems and create design deliverables
+    for product development\n- At least 2 to 4 years of experience in product development,
+    UI/UX design, across desktop and mobile form factors\n- Proficient in CSS and
+    HTML in order to polish designs on production and maintain stylesheets.\n- Professional
+    working proficiency in English\n\n*Preferred*\n- Proven experience in designing
+    for and with Black, Indigenous, and underrepresented communities, especially in
+    the Global South\n- Experience with journalism workflows and news products a plus,
+    but not required\n\nIf you don’t meet 100% of the qualifications above we still
+    encourage you to apply!\n\n### Skills\n- Advocate for products that are accessible,
+    inclusive, and reflective of the needs of diverse audiences\n- Demonstrate how
+    your designs address business goals and user needs\n- Collaborate with people
+    on other teams -- program managers, and engineers  -- to develop products that
+    help them reach their goal. \n- Manage competing priorities and act on decisions
+    in the face of ambiguity.\n\n__About Meedan__\n\nMeedan is a global technology
+    not-for-profit that builds software and programmatic initiatives to strengthen
+    journalism, digital literacy, and accessibility of information online and off.
+    We develop open-source tools for creating and sharing context on digital media
+    through annotation, verification, archival, and translation. We work with technologists,
+    newsrooms, fact-checkers, public health professionals, NGOs and academic institutions
+    on award-winning projects from election monitoring to pandemic response to human
+    rights documentation. This work supports our vision of a more equitable internet.\n\n__Equity,
+    Diversity and Inclusion Statement__\n\nWe are headquartered in San Francisco’s
+    SOMA district with team members distributed through multiple cities and time zones.
+    Our team members are able to work flexibly and respond to challenges across a
+    range of project areas.  This includes the following:\n\n- Flexible work from
+    home\n- Flexible schedule \n- Support for home office\n- Health benefits for U.S.
+    employees and health care stipends for non-U.S. team members\n- Internal EDI training
+    and affinity groups\n- Paid parental, sick and bereavement leave\n- Code of Conduct
+    \n\nWe encourage individuals from historically underrepresented communities in
+    technology and journalism to apply, including women, people of color, veterans,
+    people with disabilities and those who identify as LGBTQ. \n\nPlease send CV,
+    portfolio (or a website equivalent) and statement of interest to jobs@meedan.com
+    by June 28, 2021."
+  date: '2021-05-04'
+- sys:
+    id: cHKZxt6FIX6iztk64OsaQ
+    created_at: !ruby/object:DateTime 2021-07-01 09:41:30.957000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-22 20:26:37.574000000 Z
+    content_type_id: job
+    revision: 5
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: " [External Job Posting] Evaluation Consultant"
+  slug: external-job-posting-evaluation-consultant
+  body: "__Note: This is an external position with Meedan partner Birmingham City
+    University but will work closely with Meedan's Check Global team. Please see the
+    [original listing here to apply.](https://bcmcr.org/check-global-invitation-to-quote-for-evaluation-consultancy-and-partner-management-work/)__\n\n-
+    __Location:__ Remote, United Kingdom or other similar time zones preferable. \n-
+    __Job Type:__ Consultancy \n- __Reports To:__ M&E/Impact Assessment Lead and Check
+    Global Program Director\n- __Availability:__ Immediate, July 2021\n- __Salary:__
+    £14,000.00 including VAT, for this period of work August 1st to Dec 31st 2021.\n\nBirmingham
+    City University, Meedan’s Check Global project partner, is seeking an Evaluation
+    Consultant to play a key role in the project’s evaluation and reporting for 2021.
+    [Check Global](https://meedan.com/check-global) is a program run by Meedan in
+    partnership with Birmingham City University, with funding from Swedish International
+    Development Agency (Sida). The project aims to improve digital literacy, community-building
+    and political engagement skills for citizen journalists, activists, journalism
+    students, civil society organisations and human rights defenders, thus strengthening
+    their role as investigators and contributors to the public sphere. We provide
+    training, develop software, run programming, and conduct research with a global
+    network of independent media and human rights organizations, fact-checking initiatives
+    and journalism schools in Latin America, East Africa, Asia-Pacific (APAC) and
+    the North Africa/West Asia (NAWA) region.\n\nThere may be potential for this work
+    to be extended beyond, into 2022 and possibly on a permanent basis, but that would
+    be covered separately, and is not guaranteed.\n\n### Responsibilities \n#### Engaging
+    with existing BCU and wider project team, and project materials to date. \n\nThis
+    is essential to understand the project and the evaluation needs, especially as
+    the final project report will wrap up the three years of the project, as well
+    as communicating the new activity of 2021. This also involves familiarisation
+    with evaluation processes to date and ensuring use of these in gathering data
+    for the final report. You will identify how our reports to date have been delivered
+    and liaise with the team to develop a plan for our final year report. You will
+    attend weekly project update meetings with BCU team, and weekly meetings with
+    the Check Global Program Managers.  \n\n#### Contribute to the development of
+    a new format for the 2021 report.\n\nThis will be based on input / liaison with
+    BCU team. As the 2021 report wraps up the current three year project cycle (2019-2021),
+    we are revisiting the current format of our narrative reports and you will be
+    playing an active role in this process.    \n\n#### Liaising with Meedan/Check
+    Global project managers, partners, and beneficiaries.\n\nYou will carry out and/or
+    analyse interviews (mid-year reviews) and follow up completion of narrative reports
+    and other evaluation documents from partners. You will liaise with partners and
+    contacts with regards to their expected outputs for 2021 and completion of the
+    three-year project. You will also liaise with project team at all levels to keep
+    abreast of any changes in 2021, so they can be reflected in the report. \n\n####
+    Gathering and analysing existing and new data for 2021.\n\nYou will gather and
+    analyse data and materials from a variety of sources, in order to complete the
+    evaluation report as per the plan. \n\n#### Preparation and writing of evaluation
+    report. \n\nYou will lead on the writing of the report, in collaboration with
+    BCU and wider project team members. This will involve use of an online collaborative
+    platform, Google Drive. \n\n#### Managing, in collaboration with Check Global
+    Director, the North Africa Western Asia partners.\n\nMany of our partners and
+    their beneficiaries are based in the North Africa Western Asia region. You will
+    work closely with the Check Global Program Director to manage the relations with
+    these partners, and make sure they have delivered on their 2021 milestones. You
+    should be able to communicate with such partners in Arabic when necessary, as
+    well as using and translating their materials for inclusion in the report. For
+    more details on the Check Global NAWA partners see https://nawamedia.org/ \n\n###
+    Main Deliverables: \n- Create a report template to indicate the report’s structure
+    by Sep 1st 2021.  \n- Complete written report by Dec 31st 2021, sourcing imagery
+    and/or indicating graphics to be created by our designer. \n\n### Personal Specifications\n-
+    Digital literacy, regarding digital communication, and collaborative online working
+    e.g. Google Drive, Slack, email. \n- Some experience or knowledge of the key areas
+    of the Check Global project (journalism, verification and/or citizen media) and
+    of appropriate research methods and techniques involved in evaluation and reporting.
+    \n- Good written and verbal communication skills (in English).\n- Able to communicate
+    material of a specialist or highly technical nature.\n- Able to manage evaluation
+    and administrative activities and to balance competing pressures of evaluation
+    and administrative demands and deadlines.\n- Good interpersonal skills with the
+    ability to liaise with colleagues, external partners and project beneficiaries.\n-
+    A working knowledge of written and oral Arabic is essential. \n\nIf you would
+    like to be considered for this contract please submit a written response including
+    a cover letter and CV to dima@meedan.com and jerome.turner@bcu.ac.uk by July 21,
+    2021\n\nYou should include: \n- Details of your knowledge and experience of project
+    impact evaluation processes, including report writing. \n- Details of your ability
+    to work with Arabic speaking partners, and to translate documents in Arabic, as
+    this applies to much of the materials and project partners. \n- Details of your
+    ability to work remotely. You do not need to be based at BCU for this consultancy,
+    and all communications will be online, but you should indicate your experience
+    of working with large projects involving multiple global partners and contacts.
+    \n\n__Note: This is an external position with Meedan partner Birmingham City University
+    but will work closely with Meedan's Check Global team. Please see the [original
+    listing here to apply.](https://bcmcr.org/check-global-invitation-to-quote-for-evaluation-consultancy-and-partner-management-work/)__"
+  link_to_external_job_posting: https://bcmcr.org/check-global-invitation-to-quote-for-evaluation-consultancy-and-partner-management-work/
+  date: '2021-07-01'
+- sys:
+    id: 7qgHf9GdNCWoQTZz8K3cRW
+    created_at: !ruby/object:DateTime 2021-07-13 22:15:07.056000000 Z
+    updated_at: !ruby/object:DateTime 2021-09-02 22:16:35.293000000 Z
+    content_type_id: job
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Machine Learning Engineer
+  slug: machine-learning-engineer
+  body: "- __Location:__ Remote; Brazil and Americas time zones preferred, but flexible
+    for the right candidate\n- __Job type:__ Full-time\n- __Reports to:__ Director
+    of Engineering\n- __Availability:__ Immediate\n\nMeedan is seeking a Machine Learning
+    Engineer to play a key role in our global engineering team.  We build [Check](https://github.com/meedan/check),
+    a web platform for collaborative media annotation and claim-checking used by some
+    of the world’s leading fact-checking and media organizations, such as India Today,
+    Rappler, BOOM, Africa Check, Agencia Lupa and others. This includes handling thousands
+    of fact-check submissions every month in multiple languages from a variety of
+    countries. The architecture is composed of microservices which talk to each other
+    through their APIs. One of those APIs exposes machine learning features related
+    to image and text analysis used by the Check product. These include text similarity,
+    image similarity, and classification.\n\nThe machine learning engineer participates
+    in building and maintaining these services, connecting research, implementation
+    and product, and bringing their experience and knowledge to produce high-quality,
+    production-level code contributions and enrich the team’s collective assets and
+    expertise. Their problem-solving skills, attention to detail, ability to learn
+    fast, sense of initiative and positive attitude ensures a long and rewarding tenure
+    in a similarly-minded group. The engineer will be supported by Meedan’s research
+    team and the DevOps team.\n\nAs part of Meedan you will have the opportunity to
+    help fix the global misinformation ecosystem for global and local audiences. This
+    is an ideal position for someone wanting to grow with a dynamic and diverse technology
+    organization focused on solving hard information distribution problems. We encourage
+    diverse applicants from underrepresented communities.\n\n### Responsibilities\n-
+    Maintain and enhance existing services, implementing readable, automated-tested
+    and documented code\n- Participate in architectural planning, especially related
+    to data model and frontend-backend communication, in close coordination with the
+    team and Director of Engineering\n- Develop and undertake state-of-the-art research
+    in social data science, computational social science, or computer science in coordination
+    with the Director of Research.  Research may include: (1) surveying existing literature,
+    tools, and techniques in regard to algorithms to support human fact-checking,
+    messaging platforms, agenda setting, and online communication and (2) leading
+    quantitative analysis of large social-media datasets, including WhatsApp 3PFC
+    data, WhatsApp public groups, traditional media, open data and other similar datasets\n-
+    Writing, publication, and dissemination of results in articles, blog posts, and
+    project reports aimed at both academic and non-academic audiences, including:
+    (1) contributing to product feature design based on research findings and (2)
+    supporting open scholarship by sharing code, datasets, and findings with good
+    documentation and providing ad-hoc support to queries and/or potential partners,
+    (3) participating actively in the intellectual life of Meedan sharing findings
+    and developing research questions with Meedan’s program, product, design, and
+    software development teams\n- Follow development practices, including ticketing
+    workflows, coding and testing guidelines\n- Communicate requirements to make you
+    the most effective member of the team possible\n\n### Qualifications\n*Required*\n\n-
+    Experience building API-related web technologies: HTTP, REST, etc.\n- More than
+    5 years experience building production software on open-source platforms\n- Experience
+    with Python\n- Experience with ElasticSearch\n- Experience with automated testing\n-
+    Solid experience with version control, preferably Git and GitHub\n- Familiarity
+    with Docker or other containerization technologies\n- Demonstrated experience
+    delivering production-grade machine learning applications\n- Demonstrated experience
+    in empirical data analysis using a suitable scripting language\n- Strong command
+    of English language\n- Strong communication skills, especially with remote, multicultural
+    teams\n\n*Preferred*\n\n- Working knowledge of AWS services or other cloud environments\n-
+    Ability to travel for 1-2 months per year for in-person team meetings (when it
+    is safe to do so from a public health perspective)\n- Natural language processing
+    (especially experience fine-tuning and using BERT-based models)\n- Image, video
+    and/or audio processing (e.g., perceptual hashes, audio fingerprints)\n- Computer
+    vision experience and/or multimodal applications involving text and image data\n-
+    Academic research experience and/or publications are a plus but not required\n\n__About
+    Meedan__\n\nMeedan is a global technology not-for-profit that builds software
+    and programmatic initiatives to strengthen journalism, digital literacy, and accessibility
+    of information online and off.  We have an affiliated for-profit, Meedan Labs,
+    which works with our for-profit clients. We develop open-source tools for creating
+    and sharing context on digital media through annotation, verification, archival,
+    and translation. We work with technologists, newsrooms, fact-checkers, public
+    health professionals, NGOs and academic institutions on award-winning projects
+    from election monitoring to pandemic response to human rights documentation. This
+    work supports our vision of a more equitable internet.\n\n__Equity, Diversity
+    and Inclusion Statement__\n\nWe are headquartered in San Francisco’s SOMA district
+    with team members distributed through multiple cities and time zones. Our team
+    members are able to work flexibly and respond to challenges across a range of
+    project areas.  This includes the following:\n\n- Flexible work from home\n- Flexible
+    schedule \n- Support for home office\n- Health benefits for U.S. employees and
+    health care stipends for non-U.S. team members\n- Internal EDI training and affinity
+    groups\n- Code of Conduct \n\nWe encourage individuals from historically underrepresented
+    communities in technology and journalism to apply, including women, people of
+    color, veterans, people with disabilities and those who identify as LGBTQ. \n\nPlease
+    send CV, cover letter, and either a research paper or link to a GitHub repository
+    demonstrating some of your work to jobs@meedan.com by August 31, 2021."
+  date: '2021-07-13'
+- sys:
+    id: krxc6SvjkAwsbxXyauoLG
+    created_at: !ruby/object:DateTime 2021-09-02 22:11:52.334000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-06 22:39:44.182000000 Z
+    content_type_id: job
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Editor, Health Desk (Part-time)
+  slug: editor-health-desk-part-time
+  body: "- __Location:__ Remote; candidate must keep working hours within 3 hours
+    of Eastern Time\n- __Job type:__ Part-time\n- __Reports to:__ Program Manager,
+    Digital Health Lab\n- __Availability:__ Immediate\n- __Pay:__ Commensurate with
+    qualifications and experience\n\n[Health Desk](https://health-desk.org/) is an
+    emerging news product that sends health content and context to a growing list
+    of 25 newsrooms and fact-checking organizations around the world. We regularly
+    give content to Reuters Fact Check and other IFCN-certified groups, and have also
+    produced content for big newsrooms like the New York Times.\n\nWe seek a detail-oriented
+    innovative thinker to take on a deputy editor position within our team. The Deputy
+    Editor will work closely with the News Lead as well as our team of scientists
+    and public health experts, who produce the content and context on-demand for our
+    partner newsrooms. The Deputy Editor will help develop and enforce editorial standards,
+    help drive editorial strategy and work with editors, writers and product managers
+    to deliver and integrate editorial content through RSS feeds, closed messaging
+    networks and other means of content distribution. \n\nWe require someone with: \n\n-
+    Journalism degree or equivalent work experience\n- Proven track record of editing
+    complex health content\n- Copy-editing experience\n- Experience responding to
+    breaking news\n- Fact-checking and verification skills\n- AP Style\n- Experience
+    working on a small but dynamic team\n\nThis is a part-time, six month contract
+    position. Health Desk is a project by Meedan’s Digital Health Lab. \n\n### About
+    Meedan\nMeedan is a global technology not-for-profit that builds software and
+    programmatic initiatives to strengthen journalism, digital literacy, and accessibility
+    of information online and off. We develop open-source tools for creating and sharing
+    context on digital media through annotation, verification, archival, and translation.\n\n###
+    About the Digital Health Lab at Meedan\nWith generous support from the Google
+    News Initiative, the Robert Wood Johnson Foundation, and the Omidyar Network,
+    Meedan built the [Digital Health Lab](https://meedan.com/digital-health-lab),
+    an applied research unit to tackle challenges including access to quality health
+    information, developing evidence-based responses to health misinformation, and
+    supporting communicators in their efforts to disseminate quality, relevant and
+    localized health information to their audiences. The Lab has worked with public
+    health communications leaders including Nigeria Health Watch, Stay Safe Africa,
+    SUNO India, and the World Health Organization, and runs [www.health-desk.org](https://health-desk.org/),
+    which is a multi-language public health rapid response resource to questions shared
+    with us by journalists and fact-checkers from around the world.\n\n### Equity,
+    Diversity, and Inclusion Statement\nWe are headquartered in San Francisco’s SOMA
+    district with team members distributed through multiple cities and time zones.
+    Our team members are able to work flexibly and respond to challenges across a
+    range of project areas.  This includes the following:\n\n- Flexible work from
+    home\n- Flexible schedule \n- Support for home office\n- Health benefits for U.S.
+    employees and health care stipends for non-US staff\n- Internal EDI training and
+    affinity groups\n- Paid parental, sick and bereavement leave\n- Code of Conduct
+    \n\nWe encourage individuals from historically underrepresented communities in
+    technology and journalism to apply, including women, people of color, veterans,
+    people with disabilities and those who identify as LGBTQ. \n\nPlease send CV,
+    portfolio (or a website equivalent) and statement of interest to <a href=\"jobs@meedan.com?subject=Editor,
+    Health Desk (Part-time)\">jobs@meedan.com</a> by October 14, 2021."
+  date: '2021-09-02'
