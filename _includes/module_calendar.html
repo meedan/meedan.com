@@ -1,20 +1,34 @@
 {% capture current_date %}{{ site.time | convert_to_date }}{% endcapture %}
-{% assign events = site.data.contentful.spaces.events.event 
-    | where_exp: "item","item.event_end_date_string >= current_date"
-    | sort: 'event_date_string' 
-%}
+{% if include.events_list_id %}
+    <!-- Get list of handpicked events -->
+    {% assign list = site.data.contentful.spaces.moduleEvents.moduleEvents 
+        | where_exp: "item","item.sys.id == include.events_list_id"
+    %}
+    {% assign events = list[0].events 
+        | where_exp: "item","item.event_end_date_string >= current_date"
+    %}
+{% else %}
+    {% assign events = site.data.contentful.spaces.events.event 
+        | where_exp: "item","item.event_end_date_string >= current_date"
+        | sort: 'event_date_string' 
+    %}
+{% endif %}
+
 {% if events.size != 0 %}
 <section class="module module-calendar section-margin">
     {% if include.title %}
-    <h3 class="section-title" id="calendar">
-        <a href="/events">
-            {{ include.title }}
-        </a>
-    </h3>
+    <div class="section-header">
+        <h3 class="section-title">{{ include.title }}</h3>
+        {% if include.link %}
+            <div class="section-more-link">
+                <a href="{{ include.link }}">View all →</a>
+            </div>
+        {% endif %}
+    </div>
     {% endif %}
     <div class="module-wrapper">
         {% for event in events %}
-            <a href="/events/{{ event.slug }}" class="event-item event-item-wide event-item-{{ forloop.index }}">
+            <a href="/events/{{ event.slug }}" class="event-item event-item-wide{% if include.view == 'first-item-with-images' %} event-item-{{ forloop.index }}{% endif %}{% if include.view == 'list' %} event-list-item {% endif %}">
                 {% if event.status == 'Live' %}
                     <h3 class="section-title-live"><span>●</span> Live</h3>
                     <div class="video-container u-responsive-ratio media-16by9">
@@ -25,7 +39,7 @@
                         <span class="month">{{ event.event_date | date: '%B' }}</span>
                         <span class="day">{{ event.event_date | date: '%d' }}</span>
                     </div>
-                    {% if forloop.first %}
+                    {% if forloop.first and include.view == 'first-item-with-images' %}
                         {% for image in event.images %}
                             <picture class="image-container">
                                 <img src="{{ image.url }}" alt="{{ image.title }}"/>

@@ -1,16 +1,23 @@
-{% 
-    assign updates = site.data.contentful.spaces.moduleCards.moduleCards
-    | where_exp: "item","item.sys.id == '3Cutb2MWVxvltk9SkgWy9s'"
-%}
+{% if include.updates_list_id %}
+    {% 
+        assign updates = site.data.contentful.spaces.moduleCards.moduleCards
+        | where_exp: "item","item.sys.id == include.updates_list_id"
+    %}
+{% else %}
+    {% 
+        assign updates = site.data.contentful.spaces.moduleCards.moduleCards
+        | where_exp: "item","item.sys.id == '3Cutb2MWVxvltk9SkgWy9s'"
+    %}
+{% endif %}
 <section class="module module-updates section-margin">
     <div class="section-header">
-        <h3 class="section-title">● {{ updates[0].title }}</h3>
+        <h3 class="section-title">{{ include.title }}</h3>
         <div class="section-more-link">
-            <a href="/blog/updates">View all updates →</a>
+            <a href="/blog/updates">View all →</a>
         </div>
     </div>
-    <div class="module-wrapper">
-        {% for update in updates[0].cards | limit: 4 %}
+    <div class="module-wrapper {% if include.count %} grid-template-columns--{{ include.count }}{% endif %}">
+        {% for update in updates[0].cards | limit: include.count %}
         <div class="update-grid-item">
             <a href="{{ update.link }}" title="{{ update.title }}">
                 <picture class="image-container display--block">

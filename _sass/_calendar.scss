@@ -1,18 +1,18 @@
-.module-calendar {
+.module-calendar .module-wrapper {
     padding-left: var(--space-3);
     padding-right: var(--space-3);
 }
 
 .module-calendar .section-title {
-    a { font-size: var(--scale-3); }
-    padding-bottom: var(--space-2);
+    a { font-size: var(--scale-1); }
     margin-bottom: var(--space-2);
-    border-bottom: 1px solid var(--blackInk);
-    text-align: center;
+    font-size: var(--scale-1);
 }
 
-.events .section-title {
+.events .module-calendar .section-title {
     text-align: left;
+    font-size: var(--scale-3);
+    a { font-size: var(--scale-3); }
 }
 
 .event-item {
@@ -26,7 +26,23 @@
         font-size: var(--scale-4);
         font-weight: 300;
     }
-    
+    padding-right: var(--space-1);
+    will-change: padding;
+    transition: padding 500ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+a.event-item:hover {
+    background-color: var(--blackInk);
+    color: #fff;
+    padding-left: var(--space-1);
+    padding-right: 0;
+}
+
+.event-list-item {
+    &:first-child {
+        border-top: 1px solid var(--blackInk);
+        padding-top: var(--space-1);
+    }
 }
 
 .event-item-wide {

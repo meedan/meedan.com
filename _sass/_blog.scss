@@ -8,15 +8,15 @@
 }
 
 @include responsive('min-width: #{$width-tablet}') {
-    .grid-template-columns--2 .module-wrapper {
+    .module-story-grid.grid-template-columns--2 .module-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .grid-template-columns--3 .module-wrapper {
+    .module-story-grid.grid-template-columns--3 .module-wrapper {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .grid-template-columns--4 .module-wrapper {
+    .module-story-grid.grid-template-columns--4 .module-wrapper {
         grid-template-columns: repeat(4, 1fr);
     }
 }
@@ -26,6 +26,7 @@
     padding-left: var(--space-3);
     padding-right: var(--space-3);
     font-size: var(--scale-1);
+    a { font-size: var(--scale-1); }
 }
 
 .story-grid-item {
@@ -52,7 +53,7 @@
     }
 }
 
-.grid-template-columns--3 {
+.module-story-grid.grid-template-columns--3 {
     .tag {
         font-size: var(--scale-0);
     }
@@ -76,7 +77,7 @@
     }
 }
 
-.grid-template-columns--4 {
+.module-story-grid.grid-template-columns--4 {
     .title-container {
         margin-bottom: var(--space-2);
         line-height: 26px;
@@ -355,6 +356,38 @@
     &:hover {
         background-color: var(--blackInk);
         color: var(--accent);
+    }
+}
+
+.story-footnotes {
+    color: var(--blackInk);
+    font-size: 1rem;
+    line-height: 1.4;
+    @include responsive('min-width: #{$width-tablet}') {
+        grid-column: 2/12;
+    }
+    @include responsive('min-width: #{$width-desktop}') {
+        grid-column: 3/11;
+    }
+    .story-footnotes-title {
+        border-top: 1px solid var(--blackInk);
+        margin-top: var(--space-2);
+        margin-bottom: var(--space-2);
+        padding-top: var(--space-2);
+        font-size: 1.2rem;
+    }
+    ol {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    ol li { 
+        margin-bottom: 1rem; 
+        // padding-left: var(--space-3);
+    }
+    ol li p { display: inline; }
+    ol li a { display: inline; }
+    .footnote-backref {
+        text-decoration: none;
     }
 }
 
@@ -697,21 +730,6 @@
         font-size: var(--scale-3);
     }
     text-align: center;
-}
-
-// Section with header
-
-.module .section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: var(--space-3);
-    padding-right: var(--space-3);
-    margin-bottom: var(--space-2);
-    .section-title {
-        padding-left: 0;
-        margin-bottom: 0;
-    }
 }
 
 

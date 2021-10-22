@@ -1,0 +1,21 @@
+{% if include.resources_list_id %}
+    {% 
+        assign resources = site.data.contentful.spaces.moduleCards.moduleCards
+        | where_exp: "item","item.sys.id == include.resources_list_id"
+    %}
+{% endif %}
+{% if resources.size != 0 %}
+<div class="module module-resources-grid section-bottom-margin">
+    <div class="module-wrapper">
+        <div class="main-grid resources">
+            {% for resource in resources[0].cards %}
+                <a class="resource" href="{{ resource.link }}">
+                    <div class="tag">{{ resource.tag }}</div>
+                    <div class="title">{{ resource.title }}</div>
+                    <div class="description">{{ resource.description }}</div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}

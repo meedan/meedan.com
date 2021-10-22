@@ -8,11 +8,13 @@
 {% if events.size != 0 %}
 <section class="module module-calendar module-past-events section-margin">
     {% if include.title %}
-    <h3 class="section-title" id="calendar">
-        <a href="/events">
-            {{ include.title }}
-        </a>
-    </h3>
+    <div class="section-header">
+        <h3 class="section-title" id="calendar">
+            <a href="/events">
+                {{ include.title }}
+            </a>
+        </h3>
+    </div>
     {% endif %}
     <div class="module-wrapper">
         {% for event in events %}

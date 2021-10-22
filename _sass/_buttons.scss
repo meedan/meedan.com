@@ -10,8 +10,10 @@ a.button {
     border: 1px solid var(--blackInk);
     &:hover {
         background-color: var(--blackInk);
-        color: var(--sunDown);
+        border-color: var(--blackInk);
+        color: #fff;
     }
+    will-change: transform;
 }
 
 a.button:not(.no-margin) {
@@ -109,5 +111,17 @@ a.cta-button {
     border-color: var(--sunDown);
     &:hover {
         border-color: #fff;
+    }
+}
+
+.circle.button {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    .icon {
+        display: flex;
+        align-items: center;
     }
 }

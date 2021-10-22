@@ -5,6 +5,13 @@
         | sort: 'alt_date_string' 
         | reverse  
     %}
+{% elsif include.words_by %}
+    {% 
+        assign stories = site.data.contentful.spaces.stories.story 
+        | where_exp: "item","item.words_by.en-US[0].sys.id == include.words_by"
+        | sort: 'alt_date_string' 
+        | reverse  
+    %}
 {% else %}
     {% 
         assign stories = site.data.contentful.spaces.stories.story 
@@ -12,6 +19,7 @@
         | reverse  
     %}
 {% endif %}
+
 
 
 {% assign count = include.count %}

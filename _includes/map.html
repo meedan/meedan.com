@@ -1,0 +1,301 @@
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/geodata/worldHigh.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+<div id="chartdiv" class="map"></div>
+<div class="callout-horizontal-wrapper">
+    <div class="callout-horizontal">
+        <div class="callout-horizontal-content">
+            Select and learn which regions we are working in <span>↑</span>
+        </div>
+        <div class="callout-horizontal-content">
+            Select and learn which regions we are working in <span>↑</span>
+        </div>
+        <div class="callout-horizontal-content">
+            Select and learn which regions we are working in <span>↑</span>
+        </div>
+        <div class="callout-horizontal-content">
+            Select and learn which regions we are working in <span>↑</span>
+        </div>
+    </div>
+</div>
+<script>
+
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+// Create map instance
+var chart = am4core.create("chartdiv", am4maps.MapChart);
+
+// Set map definition
+chart.geodata = am4geodata_worldHigh;
+
+// Set projection
+chart.projection = new am4maps.projections.NaturalEarth1();
+
+// Export
+// chart.exporting.menu = new am4core.ExportMenu();
+
+// Zoom control
+chart.zoomControl = new am4maps.ZoomControl();
+
+var homeButton = new am4core.Button();
+homeButton.events.on("hit", function() {
+  chart.goHome();
+});
+
+homeButton.icon = new am4core.Sprite();
+homeButton.padding(7, 5, 7, 5);
+homeButton.width = 30;
+homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+homeButton.marginBottom = 10;
+homeButton.parent = chart.zoomControl;
+homeButton.insertBefore(chart.zoomControl.plusButton);
+
+// Center map
+chart.homeZoomLevel = 1.4;
+chart.minZoomLevel = 1.4;
+chart.homeGeoPoint = { longitude: 14, latitude: 0.05 };
+
+var groupData = [
+  {
+    "name": "Latin America",
+    "url": "/check-global/regions/latin-america",
+    "color": "#88D3E5",
+    "data": [
+      {
+        "title": "Mexico",
+        "id": "MX",
+      }, {
+        "title": "Cuba",
+        "id": "CU",
+      }, {
+        "title": "El Salvador",
+        "id": "SV",
+      }, {
+        "title": "Costa Rica",
+        "id": "CR",
+      }, {
+        "title": "Colombia",
+        "id": "CO",
+      }, {
+        "title": "Ecuador",
+        "id": "EC",
+      }, {
+        "title": "Peru",
+        "id": "PE",
+      }, {
+        "title": "Brazil",
+        "id": "BR", 
+      }, {
+        "title": "Bolivia",
+        "id": "BO",
+      }, {
+        "title": "Chile",
+        "id": "CL",
+      }, {
+        "title": "Argentina",
+        "id": "AR",
+      }
+    ]
+  },
+  {
+    "name": "Sub-Saharan Africa",
+    "url": "/check-global/regions/sub-saharan-africa",
+    "color": "#F3FC83",
+    "data": [
+      {
+        "title": "Guinea",
+        "id": "GN",
+      }, {
+        "title": "Nigeria",
+        "id": "NG",
+      }, {
+        "title": "Zimbabwe",
+        "id": "ZW",
+      }, {
+        "title": "Tanzania",
+        "id": "TZ",
+      }, {
+        "title": "Kenya",
+        "id": "KE",
+      }, {
+        "title": "Somalia",
+        "id": "SO",
+      }, {
+        "title": "South Sudan",
+        "id": "SS",
+      }, {
+        "title": "Uganda",
+        "id": "UG",
+      }, {
+        "title": "Sudan",
+        "id": "SD",
+      }, {
+        "title": "Ghana",
+        "id": "GH",
+      }
+    ]
+  },
+  {
+    "name": "North Africa Western Asia",
+    "url": "/check-global/regions/north-africa-western-asia-nawa",
+    "color": "#83E4AC",
+    "data": [
+      {
+        "title": "Morocco",
+        "id": "MA",
+      }, {
+        "title": "Lebanon",
+        "id": "LB",
+      }, {
+        "title": "Palestine",
+        "id": "PS",
+      }, {
+        "title": "Western Sahara",
+        "id": "EH",
+      }, {
+        "title": "Tunisia",
+        "id": "TN",
+      }, {
+        "title": "Egypt",
+        "id": "EG",
+      }, {
+        "title": "Jordan",
+        "id": "JO",
+      }, {
+        "title": "Syria",
+        "id": "SY",
+      }, {
+        "title": "Iraq",
+        "id": "IQ",
+      }, {
+        "title": "Yemen",
+        "id": "YE",
+      }
+    ]
+  },
+  {
+    "name": "Asia Pacific",
+    "url": "/check-global/regions/asia-pacific",
+    "color": "#FFB34D",
+    "data": [
+      {
+        "title": "Philippines",
+        "id": "PH",
+      }, {
+        "title": "Indonesia",
+        "id": "ID",
+      }, {
+        "title": "India",
+        "id": "IN",
+      }, {
+        "title": "Cambodia",
+        "id": "KH",
+      }, {
+        "title": "Nepal",
+        "id": "NP",
+      }, {
+        "title": "Taiwan",
+        "id": "TW",
+      }, {
+        "title": "Sri Lanka",
+        "id": "LK",
+      }, {
+        "title": "Pakistan",
+        "id": "PK",
+      }
+    ]
+  }
+];
+
+// This array will be populated with country IDs to exclude from the world series
+var excludedCountries = ["AQ"];
+
+// Create a series for each group, and populate the above array
+groupData.forEach(function(group) {
+  var series = chart.series.push(new am4maps.MapPolygonSeries());
+  series.name = group.name;
+  series.url = group.url;
+  series.useGeodata = true;
+  var includedCountries = [];
+  group.data.forEach(function(country) {
+    includedCountries.push(country.id);
+    excludedCountries.push(country.id);
+  });
+  series.include = includedCountries;
+
+  series.fill = am4core.color(group.color);
+
+  // By creating a hover state and setting setStateOnChildren to true, when we
+  // hover over the series itself, it will trigger the hover SpriteState of all
+  // its countries (provided those countries have a hover SpriteState, too!).
+  series.setStateOnChildren = true;
+  series.calculateVisualCenter = true;
+
+  // Tooltip and behavior on series
+  series.events.on("over", over);
+  series.events.on("out", out);
+  
+  series.mapPolygons.template.tooltipText = "{series.name}: {title}";
+  series.mapPolygons.template.fill = am4core.color(group.color);
+
+  var hover = series.mapPolygons.template.states.create("highlight");
+  hover.properties.fill = am4core.color(group.color);
+
+  function over(ev) {
+    ev.target.mapPolygons.each(function(polygon) {
+        polygon.setState("highlight");
+    });
+    }
+
+    function out(ev) {
+    ev.target.mapPolygons.each(function(polygon) {
+        polygon.setState("default");
+    });
+    }
+  
+  
+//   series.events.on("hit", function(event) {
+    
+//   })
+
+  // Country shape properties & behaviors
+  var mapPolygonTemplate = series.mapPolygons.template;
+  // Instead of our custom title, we could also use {name} which comes from geodata  
+  mapPolygonTemplate.fill = am4core.color(group.color);
+  mapPolygonTemplate.stroke = am4core.color("#4B4B4A");
+  mapPolygonTemplate.fillOpacity = 1;
+  mapPolygonTemplate.nonScalingStroke = true;
+
+  series.data = JSON.parse(JSON.stringify(group.data));
+});
+
+// The rest of the world.
+var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
+var worldSeriesName = "world";
+worldSeries.name = worldSeriesName;
+worldSeries.useGeodata = true;
+worldSeries.exclude = excludedCountries;
+worldSeries.mapPolygons.template.fill = am4core.color("#3D3D3D");
+worldSeries.mapPolygons.template.stroke = am4core.color("#262626");
+worldSeries.hiddenInLegend = true;
+worldSeries.mapPolygons.template.nonScalingStroke = true;
+
+// This auto-generates a legend according to each series' name and fill
+chart.legend = new am4maps.Legend();
+
+// Legend styles
+chart.legend.paddingLeft = 27;
+chart.legend.paddingRight = 27;
+chart.legend.marginBottom = 15;
+chart.legend.width = am4core.percent(90);
+chart.legend.valign = "bottom";
+chart.legend.contentAlign = "left";
+chart.legend.labels.template.fill = am4core.color("#FFF");
+chart.chartContainer.wheelable = false;
+
+// Legend items
+chart.legend.itemContainers.template.interactionsEnabled = false;
+</script>
