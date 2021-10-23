@@ -17,14 +17,15 @@ custom_js: topic
             <div class="section-title">
                 {% if page.path == 'pages/all_updates.html' %}
                     Recent 
-                {% if page.path == 'pages/check_global_updates.html' %}
-                    Recent
+                {% elsif page.path == 'pages/check_global_updates.html' %}
+                    Higlights from
                 {% else %}
                     Stories about 
                 {% endif %}
                 <select id="select-topic" class="select-topic">
                     <option value="topic-all" data-url="/blog/all" {% if page.slug == 'blog/all' %}selected{% endif %}>everything</option>
                     <option value="topic-updates" data-url="/blog/updates" {% if page.slug == 'blog/updates' %}{% endif %}>updates</option>
+                    <option value="topic-check-global-highlights" data-url="/blog/check-global-highlights" {% if page.slug == 'blog/check-global-highlights' %}{% endif %}>Check Global</option>
                     {% for topic in topics %}
                         {% if topic.topic == current_topic %}
                             <option value="topic-{{topic.topic | slugify }}" data-url="/blog/{{topic.topic | slugify }}" selected>{{ topic.topic | downcase }}</option>

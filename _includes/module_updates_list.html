@@ -1,4 +1,4 @@
-{% if include.program == 'check_global' %}
+{% if include.program == 'check-global' %}
     {% 
         assign updates = site.data.contentful.spaces.moduleCards.moduleCards
         | where_exp: "item","item.sys.id == 'S2xNgkZMp1sQP6worc7US'"
