@@ -15,7 +15,13 @@ custom_js: topic
             {% capture topic_id %}{{ page.sys.id }}{% endcapture %}
             {% assign topics = site.data.contentful.spaces.topics.topic %}
             <div class="section-title">
-                Stories about 
+                {% if page.path == 'pages/all_updates.html' %}
+                    Recent 
+                {% if page.path == 'pages/check_global_updates.html' %}
+                    Recent
+                {% else %}
+                    Stories about 
+                {% endif %}
                 <select id="select-topic" class="select-topic">
                     <option value="topic-all" data-url="/blog/all" {% if page.slug == 'blog/all' %}selected{% endif %}>everything</option>
                     <option value="topic-updates" data-url="/blog/updates" {% if page.slug == 'blog/updates' %}{% endif %}>updates</option>
@@ -32,6 +38,8 @@ custom_js: topic
                 {% include module_story_list.html columns="3" %}
             {% elsif page.path == 'pages/all_updates.html' %}
                 {% include module_updates_list.html columns="3" %}
+            {% elsif page.path == 'pages/check_global_updates.html' %}
+                {% include module_updates_list.html program="check-global" columns="3" %}
             {% else %}
                 {% include module_story_list.html columns="3" topic=topic_id %}
             {% endif %}

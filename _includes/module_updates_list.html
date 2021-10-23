@@ -1,9 +1,14 @@
-{% 
-    assign updates = site.data.contentful.spaces.moduleCards.moduleCards
-    | where_exp: "item","item.sys.id == '3Cutb2MWVxvltk9SkgWy9s'"
-
-%}
-
+{% if include.program == 'check_global' %}
+    {% 
+        assign updates = site.data.contentful.spaces.moduleCards.moduleCards
+        | where_exp: "item","item.sys.id == 'S2xNgkZMp1sQP6worc7US'"
+    %}
+{% else %}
+    {% 
+        assign updates = site.data.contentful.spaces.moduleCards.moduleCards
+        | where_exp: "item","item.sys.id == '3Cutb2MWVxvltk9SkgWy9s'"
+    %}
+{% endif %}
 {% assign count = include.count | default: '1000'%}
 {% assign columns = include.columns | default: '2' %}
 {% assign offset = include.offset | default: '0' %}
