@@ -15,10 +15,17 @@ custom_js: topic
             {% capture topic_id %}{{ page.sys.id }}{% endcapture %}
             {% assign topics = site.data.contentful.spaces.topics.topic %}
             <div class="section-title">
-                Stories about 
+                {% if page.path == 'pages/all_updates.html' %}
+                    Recent 
+                {% elsif page.path == 'pages/check_global_updates.html' %}
+                    Higlights from
+                {% else %}
+                    Stories about 
+                {% endif %}
                 <select id="select-topic" class="select-topic">
                     <option value="topic-all" data-url="/blog/all" {% if page.slug == 'blog/all' %}selected{% endif %}>everything</option>
                     <option value="topic-updates" data-url="/blog/updates" {% if page.slug == 'blog/updates' %}{% endif %}>updates</option>
+                    <option value="topic-check-global-highlights" data-url="/blog/check-global-highlights" {% if page.slug == 'blog/check-global-highlights' %}{% endif %}>Check Global</option>
                     {% for topic in topics %}
                         {% if topic.topic == current_topic %}
                             <option value="topic-{{topic.topic | slugify }}" data-url="/blog/{{topic.topic | slugify }}" selected>{{ topic.topic | downcase }}</option>
@@ -32,6 +39,8 @@ custom_js: topic
                 {% include module_story_list.html columns="3" %}
             {% elsif page.path == 'pages/all_updates.html' %}
                 {% include module_updates_list.html columns="3" %}
+            {% elsif page.path == 'pages/check_global_updates.html' %}
+                {% include module_updates_list.html program="check-global" columns="3" %}
             {% else %}
                 {% include module_story_list.html columns="3" topic=topic_id %}
             {% endif %}
