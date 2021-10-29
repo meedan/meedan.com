@@ -44,14 +44,14 @@ moduleEvents:
         created_at: !ruby/object:DateTime 2021-01-28 03:06:31.795000000 Z
         updated_at: !ruby/object:DateTime 2021-01-28 04:22:06.461000000 Z
       title: Coded Bias poster
-      description:
+      description: 
       url: "//images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png"
     - sys:
         id: 7fRKxSoaMtlZHxocdgMwxl
         created_at: !ruby/object:DateTime 2021-01-28 04:22:10.057000000 Z
         updated_at: !ruby/object:DateTime 2021-01-28 04:45:10.034000000 Z
       title: Isa and Azza
-      description:
+      description: 
       url: "//images.ctfassets.net/g118h5yoccvd/7fRKxSoaMtlZHxocdgMwxl/77a41f84a1f25c9b096a25000d2e58cb/updated_meedan_azza_isa.png"
     location_human_friendly: Online on Twitter
     description: Check Global Program Associate Azza El-Masri and Program Manager
@@ -74,75 +74,11 @@ moduleEvents:
 - sys:
     id: 3621Wo9pdruFq9VS64AvnL
     created_at: !ruby/object:DateTime 2021-07-24 05:09:24.735000000 Z
-    updated_at: !ruby/object:DateTime 2021-08-03 22:40:38.399000000 Z
+    updated_at: !ruby/object:DateTime 2021-10-22 21:07:23.447000000 Z
     content_type_id: moduleEvents
-    revision: 0
+    revision: 2
   title: Check Global Events
   events:
-  - sys:
-      id: 1oV79mgpeyZAwAyKO3yBxM
-      created_at: !ruby/object:DateTime 2020-04-27 21:58:37.565000000 Z
-      updated_at: !ruby/object:DateTime 2021-08-03 22:34:02.741000000 Z
-      content_type_id: event
-      revision: 0
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: 'SPACE10 Session: Cooking Kimchi for the Immune System with Kala'
-    event_date: !ruby/object:DateTime 2021-09-29 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2021-09-29 00:00:00.000000000 Z
-    time: "- *Manila* 7:45-9:15pm \n- *New Delhi* 05:15-6:45pm \n- *Berlin* 1:45-3:15pm
-      \n- *London* 11:45am-1:15pm \n- *Brasilia* 8:45-10:15am \n- *Mexico City* 6:45-8:15am
-      \n- *San Francisco* 4:45-6:15am"
-    images:
-    - sys:
-        id: fxzzu0XQ9FrB50ljSTuIi
-        created_at: !ruby/object:DateTime 2020-02-25 06:59:38.326000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-05 18:47:44.598000000 Z
-      title: Caio Almeida
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg"
-    - sys:
-        id: HnDwj9g3I8UctmCmCFIcM
-        created_at: !ruby/object:DateTime 2020-04-27 21:50:36.016000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-27 21:52:10.874000000 Z
-      title: test
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/HnDwj9g3I8UctmCmCFIcM/c6d7090e81428fa257da92a9fc7cade7/image.png"
-    location_human_friendly: Online on Zoom
-    register_link: https://space10.zoom.us/meeting/register/tJwkcO2oqzstGNX6gTmIaPfBiVzcv87YUADu
-    description: On April 28, Kala Sung from Kala's Kimchi teaches us about the health
-      benefits of fermented foods and shares a recipe to make tasty, immune-boosting
-      kimchi at home.
-    long_description: |+
-      In this SPACE10 Session, Kala Sung from Kala’s Kimchi teaches us about the health benefits of fermented foods and shares a recipe to make tasty, immune-boosting kimchi at home.
-
-      ### This Week
-      Korean kimchi is a lacto-fermented food, usually made from napa cabbage, Korean radish or other vegetables. There is growing evidence that fermented foods such as kimchi may improve intestinal health and as a result support the immune system and anti-inflammatory responses (Kok & Hutkins, 2018). Chef Kala Sung will show us how to make kimchi at home, while delving further into science behind the health benefits of fermented foods and kimchi in particular.
-
-      ### About the Guest
-      Kala ‘Kimchi Kueen’ Sung is a Korean New Yorker, an experienced and renowned chef and MA of Food Studies from NYU. Kala travels the world with her creative and culinary workshop, Kala’s Kimchi. She adapts traditional fermenting techniques to local produce and is continually introducing modern twists while retaining kimchi’s distinctive qualities.
-
-      ### How to Attend
-      This SPACE10 Session is hosted on Zoom. You can sign up by clicking the ‘Attend’ button below and submitting your name, email address, and location. From then on, just download Zoom so you’re ready to go — it should all take two minutes in total.
-
-      On the day, be ready and logged in by 5pm so we can welcome all participants at once. But if you’re late, don’t worry — you can sneak in, we won’t tell anyone. When you enter the event, you will be muted to make the sonic experience as smooth as possible for all of us — but we hope you’ll drop an emoji or a greeting in the chat. And you may want to bring some questions for our guest!
-
-    slug: space10-session-cooking-kimchi-for-the-immune-system-with-kala
-    non_public: true
-    event_date_string: '2021-09-29'
-    event_end_date_string: '2021-09-29'
-    image: https://images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg
   - sys:
       id: 3n2tDeviYHpBuotFVdrx3F
       created_at: !ruby/object:DateTime 2020-04-27 23:14:49.246000000 Z
@@ -185,7 +121,7 @@ moduleEvents:
         created_at: !ruby/object:DateTime 2020-02-29 00:54:31.129000000 Z
         updated_at: !ruby/object:DateTime 2020-02-29 01:25:13.022000000 Z
       title: edit_DSCF0702-2
-      description:
+      description: 
       url: "//images.ctfassets.net/g118h5yoccvd/44x6V3hvJrSHedngXop6YR/e1b5bd20a29499f7cdf6abf4d85a25f0/edit_DSCF0702-2.jpg"
     location_human_friendly: Online on Zoom
     long_description: "How should we navigate a period of rapid change and uncertainty?
@@ -196,11 +132,11 @@ moduleEvents:
     event_end_date_string: '2021-10-15'
     image: https://images.ctfassets.net/g118h5yoccvd/4B2OKx6sL10bVZHj87I38t/8d09acce21eec3d68322d26242b64dd7/Tech___Check_2019.jpg
   - sys:
-      id: 6TAxOEDonpJOFHA2WTlQFk
-      created_at: !ruby/object:DateTime 2021-01-28 03:02:03.096000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-20 19:20:24.914000000 Z
+      id: 1oV79mgpeyZAwAyKO3yBxM
+      created_at: !ruby/object:DateTime 2020-04-27 21:58:37.565000000 Z
+      updated_at: !ruby/object:DateTime 2021-08-03 22:34:02.741000000 Z
       content_type_id: event
-      revision: 3
+      revision: 0
       space:
         sys:
           id: g118h5yoccvd
@@ -214,378 +150,48 @@ moduleEvents:
           type: Link
           linkType: Environment
       locale: en-US
-    title: 'Algorithmic inequity and big tech: Check Global chats with "Coded Bias"'
-    event_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2021-01-28 00:00:00.000000000 Z
-    time: |-
-      - *Los Angeles* 7:00am
-      - *New York* 10:00am
-      - *Salvador* 12:00pm
-      - *London* 3:00pm
-      - *Cairo* 4:00pm
-      - *Delhi* 7:30pm
-    status: Upcoming
-    images:
-    - sys:
-        id: wicy40JnxsZPUz9cqxnDg
-        created_at: !ruby/object:DateTime 2021-01-28 03:06:31.795000000 Z
-        updated_at: !ruby/object:DateTime 2021-01-28 04:22:06.461000000 Z
-      title: Coded Bias poster
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png"
-    - sys:
-        id: 7fRKxSoaMtlZHxocdgMwxl
-        created_at: !ruby/object:DateTime 2021-01-28 04:22:10.057000000 Z
-        updated_at: !ruby/object:DateTime 2021-01-28 04:45:10.034000000 Z
-      title: Isa and Azza
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/7fRKxSoaMtlZHxocdgMwxl/77a41f84a1f25c9b096a25000d2e58cb/updated_meedan_azza_isa.png"
-    location_human_friendly: Online on Twitter
-    description: Check Global Program Associate Azza El-Masri and Program Manager
-      Isabella B. Oliveira speak with the team behind the film "Coded Bias" about
-      tech inequities around the world.
-    long_description: |-
-      With the implementation of big tech's algorithms worldwide, who gets equitable access to information and who doesn't?
-
-      <p class="u-responsive-ratio">
-      <iframe class="youtube" src="https://www.youtube.com/embed/jZl55PsfZJQ?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-
-      Join Azza El-Masri and Isabella Barrosso Oliveira as they speak with the team behind the film *Coded Bias* via live Twitter chat about the intersection of automated systems and access to information. They share their work supporting journalists, media workers and technologists within the NAWA region and throughout Latin America, and how big tech both helps and harms communities.
-
-      Go to Meedan's [Twitter profile](https://twitter.com/meedan) to attend the chat, and learn more about Coded Bias [on their website](https://www.codedbias.com/).
-    slug: algorithmic-inequity-and-big-tech-check-global-twitter-chat-with-coded-bias
-    non_public: false
-    event_date_string: '2021-01-28'
-    event_end_date_string: '2021-01-28'
-    image: https://images.ctfassets.net/g118h5yoccvd/wicy40JnxsZPUz9cqxnDg/ac5bbc73bcf162c35a6fef5e394ae06c/meedan_coded-bias.png
-  - sys:
-      id: 6X3Flh8pYxjuyZkkm7Sedn
-      created_at: !ruby/object:DateTime 2020-11-03 07:47:56.812000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-17 07:46:30.195000000 Z
-      content_type_id: event
-      revision: 5
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: Check Global COVID-19 Microgrant Closing Ceremony and Networking Event
-      - Asia-Pacific
-    event_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-11-20 00:00:00.000000000 Z
-    time: |-
-      - *New Delhi* 3:00pm
-      - *Sri Jayawardenepura Kotte/Colombo* 3:00pm
-      - *Kathmandu* 3:15pm
-      - *Phnom Penh* 4:30pm
-      - *Jakarta* 4:30pm
-    status: Upcoming
-    images:
-    - sys:
-        id: 2O80ER32L22S8aFaV3jkOa
-        created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
-      title: meedan check-global-micro-grants
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
-    location_human_friendly: Online
-    description: This is the closing event for seven local and regional organizations
-      in the Asia-Pacific region which received grants to cover the impact of the
-      COVID-19 pandemic in their communities.
-    long_description: "Seven grass-root media organizations from Cambodia, the Philippines,
-      Indonesia, Nepal, India and Sri Lanka were awarded Check Global's COVID-19 microgrants
-      in the Asia-Pacific region. \n\nDuring the pandemic, vulnerable groups faced
-      the risk of being cut off from vital information, especially crucial health
-      information. The projects we supported in the region aimed at addressing this
-      issue, and focusing on removing barriers to accessing media and technology.\n\nThese
-      projects ranged from a [website to provide fact-checked content for the differently
-      abled](https://www.facebook.com/DisabiltyEmp/),[ powerful imagery in social
-      media](https://www.facebook.com/storiesofwomencampaign/) to highlight violence
-      against women, [a digitial literacy campaign](https://basabali.org/) and [blogs
-      capturing the stories of frontline workers](https://iyapsl.org/).\n\nOn November
-      20, 2020, we are hosting an event bringing together the COVID-19 microgrant
-      recipients and other [Check Global partners](https://meedan.com/projects/check-global/)
-      from the region to share their experiences and challenges of working amid a
-      devastating pandemic and yet make a lasting impact in communities they work
-      for. All participants will get the opportunity to speak about their work using
-      different formats and this will be followed by an informal meet and greet session.
-      Since this is a diverse group with varying projects, languages and time zones,
-      the presentation formats are flexible. The aim is to have more voices, including
-      team members and people from the community level, and enable collaborations
-      across the region.\n\nIf you would like to know more about our APAC event, please
-      contact Sneha Alexander at <sneha@meedan.com>"
-    slug: check-global-covid-19-microgrant-closing-ceremony-asia-pacific
-    non_public: true
-    event_date_string: '2020-11-20'
-    event_end_date_string: '2020-11-20'
-    image: https://images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png
-  - sys:
-      id: 2AE00O5hN6PdH2jQ40Mr6G
-      created_at: !ruby/object:DateTime 2020-11-03 07:07:40.457000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-08 04:04:01.676000000 Z
-      content_type_id: event
-      revision: 6
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: Check Global COVID-19 Microgrant Closing Ceremony - Latin America & the
-      Caribbean
-    event_date: !ruby/object:DateTime 2020-11-23 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-11-23 00:00:00.000000000 Z
-    time: |-
-      - *Santiago* 13:00
-      - *Quito* 11:00
-      - *Havana* 11:00
-      - *Santiago* 13:00
-      - *Belo Horizonte* 13:00
-      - *New York* 11:00
-      - *San Salvador* 10:00
-    status: Upcoming
-    location_human_friendly: Online on Zoom
-    description: This is the closing event for seven local and regional organizations
-      in Latin America and the Caribbean which received grants to cover the impact
-      of the COVID-19 pandemic in their communities.
-    long_description: "Seven local and regional organizations received grants to cover
-      the impact of the COVID-19 pandemic in their regions, and majority of these
-      organizations are led by women. \n\n[Coletivo Cirandeiras](https://www.instagram.com/cirandeiras/)
-      produced podcast [episodes](https://open.spotify.com/show/4THKpW9TIBdxRWe7amFSd5?si=nPX632NEQW2Lk3BPklou-w)
-      on the stories of women leaders in underrepresented and marginalized communities
-      in Brazil. Leading the fact-checking work in Cuba is the alliance of two independent
-      media outlets ([Periodismo de Barrio](https://www.periodismodebarrio.org/) and
-      [elTOQUE](https://eltoque.com/)) creating a tipline on WA and Telegram that
-      increased regional awareness related to the pandemic and desinformation. \n\nAnother
-      fact checking initiative, [Eté Checagem](https://www.etechecagem.com/), produced
-      pieces focused on the favelas communities, indeginous population and LGBTQIA
-      population in Brazil. [Ruda Coletiva](https://rudacolectiva.com/) a group of
-      Latin America women photographers, built their[ website](https://rudacolectiva.com/NO-ES-UNA-CADENA-PT)
-      to showcase their National Geographic supported visual investigation of the
-      impact that the pandemic has had in the food chain throughout the region.\n\nIn
-      Ecuador, [Isabel Gonzales and Chicas Poderosas ](https://www.instagram.com/chicaspoderosasec/)created
-      the[ \"Así Hacemos Periodismo\"](https://open.spotify.com/show/6QY20ndtXInvY3tuMgksRN?si=_w94YR-jQKKGHTisKjWL1g)
-      (\"This is how we do journalism\") podcast interviewing journalists in the community
-      who suffered the consequences of COVID-19 in their work. And in El Salvador
-      we supported the work of photographer [Giuzeppe Dezza](http://www.gdezza.net/)
-      on documenting the impacts of the pandemic in the country.\n\nOn November 24,
-      we invited our COVID-19 grantees to a conversation facilitated by Lu Ortiz,
-      from [Victa Activa, an initiative](http://vita-activa.org) which provides online
-      support for women and LGBTIQ+ journalists, activists and gender, land and labor
-      rights, and freedom of expression defenders. The event will be a closed virtual
-      space for grantees to share their projects and challenges faced during the pandemic
-      and its effects on their wellbeing. The idea is to strengthen the community
-      by listening and sharing healing practices that are ancestral and decolonial.\\\n\nIf
-      you would like to know more about our Latam event, please contact Isabella Barroso
-      at <isabella@meedan.com>"
-    slug: check-global-covid-19-microgrant-closing-ceremony-latin-america
-    non_public: true
-    event_date_string: '2020-11-23'
-    event_end_date_string: '2020-11-23'
-  - sys:
-      id: 5AnjBs1aA8DuJMZ950nxH0
-      created_at: !ruby/object:DateTime 2020-11-03 07:56:58.140000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-11 12:42:01.428000000 Z
-      content_type_id: event
-      revision: 6
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: Check Global COVID-19 Microgrant Closing Ceremony - NAWA
-    event_date: !ruby/object:DateTime 2020-11-21 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-11-21 00:00:00.000000000 Z
-    time: |-
-      - *Tunis* 3:00pm
-      - *Cairo* 4:00pm
-      - *Damascus* 4:00pm
-      - *Beirut* 5:00pm
-      - *Amman* 4:00pm
-    status: Upcoming
-    images:
-    - sys:
-        id: 2O80ER32L22S8aFaV3jkOa
-        created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
-      title: meedan check-global-micro-grants
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
-    location_human_friendly: Online on Zoom
-    description: This is the closing event for four independent media pratcitioners
-      and organizations in the NAWA region which received grants to cover the impact
-      of the COVID-19 pandemic in their communities.
-    long_description: "Four independent media workers and organizations operating
-      in the NAWA region received funding to produce and sustain creative, necessary
-      local journalistic work. \n\nThese initiatives have worked in  particularly
-      challenging conditions, and the work they did ranged from the production of
-      a digital health program through [a popular community radio station](https://www.facebook.com/watch/?v=3175873192467573),
-      to a [trilingual health fact-checking campaign](https://nawaat.org/) in Tunisia,
-      an essential and important investigation on [the plight of African refugees
-      in Tangier](https://www.lejournaldetanger.com/reportage-a-tanger-le-calvaire-pour-la-survie-des-migrants-subsahariens/)
-      amidst the pandemic, and a painstaking three-part investigation documenting
-      the [Syrian regime's inadequate health response to the pandemic](https://syriauntold.com/2020/08/04/%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A7%D9%86%D8%B6%D8%A8-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA%D9%83-%D9%8A%D8%A7/).\n\nOur
-      grantees' experiences, therefore, provide a much needed teaching opportunity
-      for aspiring and budding journalists in NAWA. We've opted, in that sense, to
-      convene a closed panel on November 14th that would bring together the COVID-19
-      microgrant NAWA grantees with our 25 journalism students participating in the
-      [Check NAWA Newsroom](https://nawamedia.org/newsroom/). Our students, who have
-      been receiving [training and mentorship](https://nawamedia.org/blog/2020/05/08/open-democracy-training-for-nawa-newsroom-students/)
-      on investigative journalism and open-source skills, have also done the grueling
-      job of creating active remote newsrooms in Yemen, Syria, Lebanon and Egypt.
-      \n\nDespite their dedication, our students have been forced to reckon with the
-      challenges brought by remote journalistic work such as lacking internet access,
-      debilitating local events, and a pandemic. Through our event, students will
-      get the opportunity to ask questions to the COVID-19 microgrant NAWA grantees
-      while also learning about their diverse projects. \n\nIf you would like to know
-      more about our NAWA event, please contact Azza el Masri at <azza@meedan.com>"
-    slug: check-global-covid-19-microgrant-closing-ceremony-nawa
-    non_public: true
-    event_date_string: '2020-11-21'
-    event_end_date_string: '2020-11-21'
-    image: https://images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png
-  - sys:
-      id: 6iRF9eVv2Ro0WW2SjYrv1H
-      created_at: !ruby/object:DateTime 2020-05-04 23:23:02.275000000 Z
-      updated_at: !ruby/object:DateTime 2020-05-06 15:38:18.729000000 Z
-      content_type_id: event
-      revision: 3
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: Check Global Network Launch
-    event_date: !ruby/object:DateTime 2020-05-05 11:45:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-05-05 13:15:00.000000000 Z
+    title: 'SPACE10 Session: Cooking Kimchi for the Immune System with Kala'
+    event_date: !ruby/object:DateTime 2021-09-29 00:00:00.000000000 Z
+    event_end_date: !ruby/object:DateTime 2021-09-29 00:00:00.000000000 Z
     time: "- *Manila* 7:45-9:15pm \n- *New Delhi* 05:15-6:45pm \n- *Berlin* 1:45-3:15pm
       \n- *London* 11:45am-1:15pm \n- *Brasilia* 8:45-10:15am \n- *Mexico City* 6:45-8:15am
       \n- *San Francisco* 4:45-6:15am"
     images:
     - sys:
-        id: 6QAQjHOU88GlkH8iSL2oz8
-        created_at: !ruby/object:DateTime 2020-04-15 19:12:37.736000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-15 19:19:26.219000000 Z
-      title: Meedan check global network
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/6QAQjHOU88GlkH8iSL2oz8/275ac507daa7c3f5ceaeb1b299416ae5/Meedan_check_global_network.png"
+        id: fxzzu0XQ9FrB50ljSTuIi
+        created_at: !ruby/object:DateTime 2020-02-25 06:59:38.326000000 Z
+        updated_at: !ruby/object:DateTime 2020-03-05 18:47:44.598000000 Z
+      title: Caio Almeida
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg"
     - sys:
-        id: 5wf4TwfopjoyjLrhDvkNdn
-        created_at: !ruby/object:DateTime 2020-05-05 00:40:21.596000000 Z
-        updated_at: !ruby/object:DateTime 2020-05-05 01:14:53.512000000 Z
-      title: Meedan network event
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/5wf4TwfopjoyjLrhDvkNdn/ebbe81feea0a35171c9c45da0d752687/Meedan_network_event.png"
+        id: HnDwj9g3I8UctmCmCFIcM
+        created_at: !ruby/object:DateTime 2020-04-27 21:50:36.016000000 Z
+        updated_at: !ruby/object:DateTime 2020-04-27 21:52:10.874000000 Z
+      title: test
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/HnDwj9g3I8UctmCmCFIcM/c6d7090e81428fa257da92a9fc7cade7/image.png"
     location_human_friendly: Online on Zoom
-    description: On May 5, we are launching the Check Global Network, Meedan’s community
-      that brings together collectives working in the area of media and technology
-      in emerging economies.
-    long_description: |-
-      We are excited to launch the Check Global Network, Meedan’s community that brings together collectives working in the area of media and technology in emerging economies.
+    register_link: https://space10.zoom.us/meeting/register/tJwkcO2oqzstGNX6gTmIaPfBiVzcv87YUADu
+    description: On April 28, Kala Sung from Kala's Kimchi teaches us about the health
+      benefits of fermented foods and shares a recipe to make tasty, immune-boosting
+      kimchi at home.
+    long_description: |+
+      In this SPACE10 Session, Kala Sung from Kala’s Kimchi teaches us about the health benefits of fermented foods and shares a recipe to make tasty, immune-boosting kimchi at home.
 
-      Our current partners and new members from different regions will participate in the launch of the Check Global Network.
-    slug: check-global-network-launch
+      ### This Week
+      Korean kimchi is a lacto-fermented food, usually made from napa cabbage, Korean radish or other vegetables. There is growing evidence that fermented foods such as kimchi may improve intestinal health and as a result support the immune system and anti-inflammatory responses (Kok & Hutkins, 2018). Chef Kala Sung will show us how to make kimchi at home, while delving further into science behind the health benefits of fermented foods and kimchi in particular.
+
+      ### About the Guest
+      Kala ‘Kimchi Kueen’ Sung is a Korean New Yorker, an experienced and renowned chef and MA of Food Studies from NYU. Kala travels the world with her creative and culinary workshop, Kala’s Kimchi. She adapts traditional fermenting techniques to local produce and is continually introducing modern twists while retaining kimchi’s distinctive qualities.
+
+      ### How to Attend
+      This SPACE10 Session is hosted on Zoom. You can sign up by clicking the ‘Attend’ button below and submitting your name, email address, and location. From then on, just download Zoom so you’re ready to go — it should all take two minutes in total.
+
+      On the day, be ready and logged in by 5pm so we can welcome all participants at once. But if you’re late, don’t worry — you can sneak in, we won’t tell anyone. When you enter the event, you will be muted to make the sonic experience as smooth as possible for all of us — but we hope you’ll drop an emoji or a greeting in the chat. And you may want to bring some questions for our guest!
+
+    slug: space10-session-cooking-kimchi-for-the-immune-system-with-kala
     non_public: true
-    event_date_string: '2020-05-05'
-    event_end_date_string: '2020-05-05'
-    image: https://images.ctfassets.net/g118h5yoccvd/6QAQjHOU88GlkH8iSL2oz8/275ac507daa7c3f5ceaeb1b299416ae5/Meedan_check_global_network.png
-  - sys:
-      id: 3RizYpDobPLKnpxW4GGha1
-      created_at: !ruby/object:DateTime 2020-11-03 07:28:33.430000000 Z
-      updated_at: !ruby/object:DateTime 2020-11-18 16:39:23.812000000 Z
-      content_type_id: event
-      revision: 6
-      space:
-        sys:
-          id: g118h5yoccvd
-      type: Entry
-      content_type:
-        sys:
-          id: event
-      environment:
-        sys:
-          id: master
-          type: Link
-          linkType: Environment
-      locale: en-US
-    title: Check Global COVID-19 Microgrant Closing Ceremony - Africa
-    event_date: !ruby/object:DateTime 2020-11-17 00:00:00.000000000 Z
-    event_end_date: !ruby/object:DateTime 2020-11-17 00:00:00.000000000 Z
-    time: |-
-      - *Conakry* 9:00am
-      - *Lagos* 9:00am
-      - *Lusaka* 10:00am
-      - *Nairobi* 11:00am
-      - *Mogadishu* 11:00am
-      - *Dar es Salaam* 11:00am
-    status: Past
-    images:
-    - sys:
-        id: 2O80ER32L22S8aFaV3jkOa
-        created_at: !ruby/object:DateTime 2020-04-08 00:31:06.656000000 Z
-        updated_at: !ruby/object:DateTime 2020-04-09 17:23:53.129000000 Z
-      title: meedan check-global-micro-grants
-      description:
-      url: "//images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png"
-    location_human_friendly: Online on Zoom
-    description: This is the closing event for six grassroot African organizations
-      from Guinea, Kenya, Nigeria, Somalia, Tanzania and Zambia, which received funding
-      to support their work around the COVID-19 pandemic.
-    long_description: "Six grassroot African organizations from Guinea, Kenya, Nigeria,
-      Somalia, Tanzania and Zambia received grants to support their work to highlight
-      and respond to the COVID-19 pandemic on the continent. \n\nThese initiatives
-      included [a student-founded project in Nigeria](http://www.peoplescheck.org/)
-      to fact-check and verify viral health misinformation and disinformation that
-      has affected people's health and lives, a [Somali language radio station](https://www.daljir.com/)
-      that ran media literacy campaigns and radio reporting in Puntland and Galmudug
-      regions to bring health facts to the public and [a Guinean network of volunteers](http://www.zeropauvreafrique.org)
-      that tracked and deconstructed false information around the COVID-19 crisis.\n\nOther
-      awards included a [Tanzanian campaign](https://www.instagram.com/constructiveactivism/)
-      to document and share information around injustices, human rights abuse and
-      repressions associated to COVID-19 interventions in the country in collaboration
-      with human rights defenders, activists and local artists, a Kenyan social media
-      campaign to highlight violence against women related to the pandemic, and a
-      [youth-led fact checking news bulletin](https://mciug.org/) to debunk fake stories
-      trending on social media in Uganda.\n\nThe grantees will share their experiences
-      at a knowledge-sharing forum where they can discuss their experiences and challenges
-      related to the COVID-19 pandemic during an event on 17 November. Also invited
-      to the panel are the [Check Global partners](https://meedan.com/projects/check-global/)
-      from Sub-Saharan Africa, [PesaCheck](https://pesacheck.org/) and [CITE](https://cite.org.zw/).\n\nIf
-      you would like to know more about our Sub-Saharan Africa event, please contact
-      Eric Mugendi at <mugendi@meedan.com>."
-    slug: check-global-covid-19-microgrant-closing-ceremony-africa
-    non_public: true
-    event_date_string: '2020-11-17'
-    event_end_date_string: '2020-11-17'
-    image: https://images.ctfassets.net/g118h5yoccvd/2O80ER32L22S8aFaV3jkOa/e7b0af514bf6e1e59982d1800000559b/meedan_check-global-micro-grants.png
+    event_date_string: '2021-09-29'
+    event_end_date_string: '2021-09-29'
+    image: https://images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg
