@@ -1,3 +1,4 @@
+{% assign view_all_link = include.link | default: '/blog/updates' %}
 {% if include.updates_list_id %}
     {% 
         assign updates = site.data.contentful.spaces.moduleCards.moduleCards
@@ -13,7 +14,7 @@
     <div class="section-header">
         <h3 class="section-title">{{ include.title }}</h3>
         <div class="section-more-link">
-            <a href="/blog/updates">View all →</a>
+            <a href="{{ view_all_link }}">View all →</a>
         </div>
     </div>
     <div class="module-wrapper {% if include.count %} grid-template-columns--{{ include.count }}{% endif %}">

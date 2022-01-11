@@ -287,17 +287,17 @@ story:
     - sys:
         id: 1LO43iZQgk754PxET3q581
         created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+        updated_at: !ruby/object:DateTime 2022-01-05 16:30:51.938000000 Z
         content_type_id: contributor
-        revision: 2
+        revision: 3
       name:
         en-US: Caio Almeida
       staff:
         en-US: true
+      role:
+        en-US: Chief Technology Officer
       location:
         en-US: Salvador
-      role:
-        en-US: Director of Engineering
   alt_date: !ruby/object:DateTime 2019-12-12 00:00:00.000000000 Z
   date: '2020-02-25'
   image: https://images.ctfassets.net/g118h5yoccvd/fxzzu0XQ9FrB50ljSTuIi/01a9cf02ac1fc1dc6a31b0ea6f0ea7f0/caio.jpg
@@ -2057,17 +2057,17 @@ story:
     - sys:
         id: 1LO43iZQgk754PxET3q581
         created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
-        updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+        updated_at: !ruby/object:DateTime 2022-01-05 16:30:51.938000000 Z
         content_type_id: contributor
-        revision: 2
+        revision: 3
       name:
         en-US: Caio Almeida
       staff:
         en-US: true
+      role:
+        en-US: Chief Technology Officer
       location:
         en-US: Salvador
-      role:
-        en-US: Director of Engineering
     - sys:
         id: 2DcM4qE9xRzIVHYT6noOsA
         created_at: !ruby/object:DateTime 2020-03-24 00:41:57.837000000 Z
@@ -16249,3 +16249,824 @@ story:
   image: https://images.ctfassets.net/g118h5yoccvd/2ZYSPMUN79hD3MAkWHrdud/70a9baf0bb490393ebcc7d1ca038a209/meedan_blog_maria-ressa-noble-prize_08.jpg
   title-en: What Maria Ressa’s Nobel Peace Prize win means to Meedan
   alt_date_string: '2021-10-12'
+- sys:
+    id: 2koI27YJrtvsGjHyujm7T6
+    created_at: &73 !ruby/object:DateTime 2021-11-01 08:17:11.469000000 Z
+    updated_at: !ruby/object:DateTime 2021-11-01 12:33:11.027000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Catching viral misinformation early: Factly’s tipline use in India '
+  slug: catching-viral-misinformation-early-factlys-tipline-use-in-india
+  topic:
+    en-US:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+        created_at: !ruby/object:DateTime 2021-01-12 23:39:58.897000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-12 23:40:06.622000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Fact-checking
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 5HCbDcYBW2oHnKgOQsTfn7
+        created_at: !ruby/object:DateTime 2021-11-01 10:47:51.753000000 Z
+        updated_at: !ruby/object:DateTime 2021-11-01 10:48:16.937000000 Z
+      title: 'Catching viral misinformation early: Factly’s tipline use in India '
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/5HCbDcYBW2oHnKgOQsTfn7/6951009062533e39c0aeffe094cdb2c2/meedan_blog_factly_01.jpg"
+    description: ''
+    title: 'Catching viral misinformation early: Factly’s tipline use in India '
+    url: "//images.ctfassets.net/g118h5yoccvd/5HCbDcYBW2oHnKgOQsTfn7/6951009062533e39c0aeffe094cdb2c2/meedan_blog_factly_01.jpg"
+  description:
+    en-US: "Factly, a verified signatory of the International Fact-Checking Network’s
+      (IFCN) Code of Principles is a leading fact-checking group in India and in the
+      Telugu speaking states of the country. Since 2013, the organization has been
+      involved in transforming the public information landscape in India by improving
+      access & understanding of the common public about important government data/information.
+      In this interview, we speak to Rakesh Dubbudu, founder and Editorial Lead of
+      Factly, about how Factly came about, ventured into fact-checking and the use
+      of their WhatsApp tipline to address misinformation. \n"
+  body: |-
+    [Factly](https://factly.in/), a verified signatory of the [International Fact-Checking Network's (IFCN)](https://www.poynter.org/ifcn/) Code of Principles is a leading fact-checking group in India and in the Telugu speaking states of the country. Since 2013, the organization has been involved in transforming the public information landscape in India by improving access & understanding of the common public about important government data/information. In this interview, we speak to Rakesh Dubbudu, founder and Editorial Lead of Factly, about how Factly came about, ventured into fact-checking and the use of their WhatsApp tipline to address misinformation.
+
+    __1. What is the story behind Factly and how did you venture into fact-checking?__
+
+    I have been part of the larger movement for transparency & accountability in government using tools such as the [Right to Information (RTI)](https://rti.gov.in/) in India for the last 16 years. As a result, I came across a lot of government data/information with the use of RTI. It was an individual effort to collate important information/data and make people aware of what was happening. Sometime in 2013 or so, I felt the need to institutionalise these efforts. In other words, I strongly felt the need to inculcate the habit of checking facts/data and making them part of any societal discourse. That's how Factly was born. We began doing serious work on data journalism in 2015 and did on and off fact-checking to begin with. We then realized that fact-checking is a natural extension of the work that we were doing and thus started doing fact-checking consistently and seriously in mid 2018.
+
+    __2.  You address misinformation in the Telugu speaking states of India. Do you see a stark difference in regional / local misinformation and that of a national level? Are different strategies required in these cases?__
+
+    Yes, there are differences to the extent that politics is different in these states as both have regional parties at the helm of affairs and not national parties. While misinformation at the national level is also seen, there is a  different kind of misinformation specific to the politics, culture, and the situation in the two Telugu speaking states of Telangana and Andhra Pradesh. Strategies have to be different, especially in the case of hyperlocal misinformation where it is difficult to find relevant information on the internet. We have to get in touch with local authorities, look up relevant vernacular media and track hyperlocal media to fact-check such claims.
+
+    __3.  Misinformation is a problem across platforms and in offline spaces as well. What strategies do you adopt to address misinformation in a holistic manner?__
+
+    Even in this age of hyperconnectivity & internet penetration, we do come across some age-old methods of spreading misinformation which have to be dealt with differently. For instance, we have come across at least five cases in which physical letters were sent to Sarpanches (village heads) in villages across the country asking them to nominate five youngsters from the village for a job under a government scheme. They were also asked to send a demand draft (DD) with a certain amount in each of the cases. We know that this happened in at least five states in different parts of the country. There was no digital trace of any of these organizations. Hence, while fact-checking these was fairly simple, the dissemination of information and strategy had to be different. We got in touch with law enforcement authorities in different states asking them to track down these people. So, it must be a comprehensive strategy to address misinformation across spaces.
+
+    __4.  You run a WhatsApp tipline for users to send verification requests. How important is it to your fact-check work?__
+
+    We have been running the WhatsApp tipline (+91 92470 52470)  for quite some time now. Over time, it has become an important source to understand what is going viral in encrypted platforms like WhatsApp, especially in Telugu. There are many users who make it a point to send any claim they receive to the tipline. In that sense, the tipline gives us a first-hand view of what is going viral and has become a major source for tracking viral claims.
+
+    __5. How have you been promoting the tipline to reach more people?__
+
+    We have shared the tipline number across platforms like on every story on the website and on Facebook, Instagram, Telegram etc. We also ask those who share claims through various means like email or other social media, to send it on our tipline so that they make it a habit to use the tipline more often.
+
+    __6. How have you been using [Meedan's](https://meedan.com/)  [Check](https://meedan.com/check) in managing your fact-checking work and workflow? What more do you expect Check to do?__
+
+    Like I said before, it has now become an integral part of our daily workflow in terms of tracking claims, prioritizing which ones to fact-check based on the submissions to the tipline etc. As we go ahead, we expect Check to use technology to improve matching of content in regional languages so that the speed of fact-checking improves.
+
+    __7.  Any announcements or new initiatives that you'd like to share with us?__
+
+    We are in the final stages of developing an online course for fact-checking in Telugu. We have divided the entire course into three modules. The course is designed in such a way that the basic module is relevant to anyone who is 14 years or older and people would not need any prior knowledge or expertise. The basic module is good enough to address a large part of the misinformation people come across. We are working on partnering with universities and education boards to take it to a large section of the population.
+  date: '2021-11-01'
+  image: https://images.ctfassets.net/g118h5yoccvd/5HCbDcYBW2oHnKgOQsTfn7/6951009062533e39c0aeffe094cdb2c2/meedan_blog_factly_01.jpg
+  title-en: 'Catching viral misinformation early: Factly’s tipline use in India '
+  alt_date: *73
+  alt_date_string: '2021-11-01'
+- sys:
+    id: 642igVGXg2wlUw3GvGI5pH
+    created_at: &74 !ruby/object:DateTime 2021-11-11 22:56:33.678000000 Z
+    updated_at: !ruby/object:DateTime 2021-11-22 20:11:17.296000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Welcome Julissa Ayala, our UX Designer
+  slug: welcome-julissa-ayala-our-ux-designer
+  topic:
+    en-US:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+        created_at: !ruby/object:DateTime 2020-09-23 18:41:44.956000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 22:53:41.322000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Organization
+  lead_image:
+    en-US:
+      sys:
+        id: 1GX025d9K8DNMrLO615Ej4
+        created_at: !ruby/object:DateTime 2021-11-20 01:39:43.031000000 Z
+        updated_at: !ruby/object:DateTime 2021-11-20 01:40:07.579000000 Z
+      title: juli photo
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/1GX025d9K8DNMrLO615Ej4/3c708530363683364f41524945544e63/juli_photo.jpeg"
+    description: ''
+    title: juli photo
+    url: "//images.ctfassets.net/g118h5yoccvd/1GX025d9K8DNMrLO615Ej4/3c708530363683364f41524945544e63/juli_photo.jpeg"
+  body: "Meedan is excited to have Julissa Ayala, who goes by Juli, on board as our
+    UX Designer! Learn more about Juli in the short Q&A below.\n\n### 1. What has
+    been your experience before you joined Meedan?\n\nBefore Meedan, I had a diverse
+    background that began with studying Psychology for undergrad in Florida, and upon
+    graduating landing my first role as a [lead research assistant at Northeastern
+    University](https://bouve.northeastern.edu/ap/research/ \"Department Of Applied
+    Psychology Research Teams at Northeastern University\"). I conducted user interviews,
+    synthesized data, and helped write grant proposals. I was interested in combining
+    this experience with tech, so I transitioned to working on a Product team at [TripAdvisor](https://www.tripadvisor.com/
+    \"TripAdvisor\") conducting content QA, then later as a UX Designer for a health
+    insurance exchange website operated by the US government, [Healthcare.gov](https://www.healthcare.gov/
+    \"US Healthcare.gov\").\n\n### 2. Tell us about an exciting and insightful experience
+    that has shaped your perspective and work.\n\nDesigning for [healthcare.gov](https://www.healthcare.gov/
+    \"US Healthcare.gov\"), whose users are of all ages, backgrounds, and varied needs,
+    allowed me to develop an even deeper sense of empathy for the users I serve. I
+    approached my work with the perspective to design for all users, keeping neurodiversity
+    and accessibility top of mind. Products that are designed with this perspective
+    make better products overall, because they’re more usable for everyone. \n\n###
+    3. What does the UX community think about designing for users across cultural
+    contexts ? What are the strengths and what gaps do you see?\n\nAlthough in recent
+    years it seems awareness is growing in designing for users across cultural contexts,
+    on most fronts, we still have a long way to go. It seems that only very recently
+    accessibility for users with special needs has been prioritized across the web,
+    and as we learn more about this, it raises more questions about if we’re doing
+    a good job designing for users of varied cultures, because one size does not fit
+    all. When most of us think about designing across cultural contexts, what usually
+    comes to mind is localization. This is an important piece, but we need to go deeper
+    and think about things like imagery, icons, and communication styles. During my
+    time at [healthcare.gov](https://www.healthcare.gov/ \"US Healthcare.gov\"), I
+    led several improvements to the Spanish version of the website that combined content
+    strategy and UX. [In the US, Spanish is the most common non-English language spoken.](https://www.pewresearch.org/fact-tank/2013/09/05/what-is-the-future-of-spanish-in-the-united-states/
+    \"Pew Research Center on Spanish being second most spoken language in US\") Now
+    at Meedan, I’m thinking about the implications of designing on a more global scale,
+    and how we can be more inclusive to all of our users.\n\n### 4. What brought you
+    to Meedan?\n\nI was hoping to eventually shift gears to working in a smaller organization
+    I could grow with and make a bigger impact. At the top of my list was also somewhere
+    with a base of social good and great benefits. All of those boxes were checked
+    when I came across a post on [Techqueria](https://techqueria.org/ \"Techqueria\"),
+    a Slack community for [Latinx](https://www.oprahdaily.com/life/a28056593/latinx-meaning/
+    \"Latinx explained\") in tech, by Meedan’s Executive Associate, Gisela Zuniga.
+    It was for an opening on Meedan’s product team, and I was immediately drawn in
+    by Meedan’s ever so important mission of fighting global misinformation, particularly
+    in the context of current events in 2021.\n\n### 5. What's a project you're excited
+    about right now?\n\n[Check](https://meedan.com/check \"Check by Meedan\"), Meedan’s
+    fact checking platform has been my primary focus since I started at Meedan, and
+    we’re making some really great improvements based on feedback from our newest
+    users. It’s exciting to be able to contribute to the growth of such an important
+    product on a global scale, being used by some of the world’s most well known companies
+    and groundbreaking grassroots partners alike. My favorite part of making these
+    improvements happen has been the discovery, where I get to talk to our users often
+    and show them prototypes of what we’re working on. \n\n### 6. Tell us some fun
+    facts about Juli.\n\n- I was born in the Dominican Republic, and although I grew
+    up between Boston and Florida, I am privileged to be able to go back to my home
+    country often and feel close ties to my family there and my roots.\n- I am the
+    biggest [Tom Brady](https://en.wikipedia.org/wiki/Tom_Brady \"Tom Brady\") fan\n-
+    I love listening to and dancing [bachata](https://www.youtube.com/watch?v=iCVQmEeBfbU
+    \"bachata dancing\"), [merengue](https://www.masterclass.com/articles/what-is-merengue-music-and-dance
+    \"merengue dancing\") and [salsa](https://en.wikipedia.org/wiki/Salsa_(dance)
+    \"salsa dancing\")\n- I have an adorable Schnoodle named Melo who is very mellow\n\n![Juli’s
+    dog Melo](//images.ctfassets.net/g118h5yoccvd/57ztk3dXBvHQqobKvo9AtR/3a2c55098b2a750b73f052e6a2bdf89c/Juli___s_dog_Melo.png)\n\n<p
+    class=\"caption text-align--center\">Juli’s dog Melo.</p>\n"
+  date: '2021-11-11'
+  image: https://images.ctfassets.net/g118h5yoccvd/1GX025d9K8DNMrLO615Ej4/3c708530363683364f41524945544e63/juli_photo.jpeg
+  title-en: Welcome Julissa Ayala, our UX Designer
+  alt_date: *74
+  alt_date_string: '2021-11-11'
+- sys:
+    id: 6VAk1jyHDXK61OAbbcLm29
+    created_at: &75 !ruby/object:DateTime 2021-11-15 16:49:05.593000000 Z
+    updated_at: !ruby/object:DateTime 2021-11-15 21:41:06.378000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Check Global is live!
+  slug: check-global-is-live
+  topic:
+    en-US:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+        created_at: !ruby/object:DateTime 2020-09-23 18:41:44.956000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 22:53:41.322000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Organization
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 4ESfiHTnKr0oFGrEpnqDeu
+        created_at: !ruby/object:DateTime 2021-11-15 17:02:12.676000000 Z
+        updated_at: !ruby/object:DateTime 2021-11-24 11:30:48.701000000 Z
+      title: Check Global Website launch blogpost
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/4ESfiHTnKr0oFGrEpnqDeu/9c09fa0f8f299dd2889f03f2d93f6689/Check_Global_-_Website_launch_blogpost_-_15.png"
+    description: ''
+    title: Check Global Website launch blogpost
+    url: "//images.ctfassets.net/g118h5yoccvd/4ESfiHTnKr0oFGrEpnqDeu/9c09fa0f8f299dd2889f03f2d93f6689/Check_Global_-_Website_launch_blogpost_-_15.png"
+  body: "Meedan would like to proudly reintroduce the [Check Global section](https://meedan.com/check-global
+    \"check global section of meedan website\") of our website. This section is a
+    labour of love that reflects our work, resonates with our values and those of
+    our partner organisations.\n\nOver the last few months our program team members
+    have assembled a timeline and database of the Check Global program's ten years
+    of work with newsrooms, civil society groups and advocacy communities. The section
+    is also updated to reflect our current work and collaborations with partners in
+    the emerging economies of Asia Pacific, North Africa Western Asia, Sub- Saharan
+    Africa and Latin America. You’ll find highlights from our team and groups that
+    we work with and an introduction to people who make Check Global - our partner
+    organisations as well as the program team members. \n\n![Check Global Map](//images.ctfassets.net/g118h5yoccvd/3GxfE4iqCDEBGPdXiqahNu/5369a2a4777086d1285f65557ac8214a/CG_Screen_Grab_2.png)\n<p
+    class=\"caption\">Screen grab from the Check Global page showing the regions we
+    are working in. </p>\n\nAs we complete ten years of Check Global’s work in 2021,
+    we’ve taken an opportunity to develop our theory of change for this decade and
+    make plans for the next. The website section houses our theory of change and also
+    shares resources in the form of toolkits, articles and research insights. \n\nAll
+    the work shared on the website is published under open access licenses and is
+    available for download. Our designers have ensured that the design is simple and
+    there is ease of navigation. \n\nAs the Check Global section goes live, here are
+    some reflections from the team members who contributed to this section. \n\n###
+    Dima Saber, Program and Impact Director \nWhen we launched the current phase of
+    the Check Global project in 2019, we started to discuss ways we could capture
+    all the amazing work our program managers and partners have been doing across
+    the North Africa Western Asia, Sub-Saharan Africa, Latin America and the Asia
+    Pacific regions. We spent a substantial amount of time working through many design
+    iterations, templates, infographics, maps and posts; we found it tricky to capture
+    over ten years of work in a responsive web page which would be easy and straightforward
+    to navigate. We are today very proud of what we have been able to create, this
+    section is indeed a labour of love! We hope you like it, and we hope it will get
+    you excited about our work and our great network of partners. Please do get in
+    touch and tell us what you think of what you see!  \n\n### Eric Mugendi, Program
+    Manager, Sub-Saharan Africa \nHaving a dedicated Check Global section is a great
+    opportunity to highlight not just the work that we do, but also the regions we
+    have a presence in and what our respective partners are working on. This is a
+    great opportunity not only to give them an additional platform to share their
+    work with the world, but also to find potential partners in other parts of the
+    world for potential collaborations and joint projects.\n\n![Check Global highlights
+    from Latin American partners](//images.ctfassets.net/g118h5yoccvd/5gAwXH9pP4DGst9wXQiSFl/f05d030198da1dcb8258d10722d29433/CG_Screen_Grab_4.png)\n<p
+    class=\"caption\">Screen grab showing highlights from our team and partners in
+    Latin America.</p>\n\n### Isabella Barroso, Program Manager, Latin America  \nIt's
+    an amazing design effort to be able to capture the ten years of collaborations
+    between our team and regional partners. The Check Global website was carefully
+    created to communicate this work to our communities globally, and it showcases
+    all of it in such a beautiful and informative way. It was a collective design
+    in many ways, but its final form is a testimony to our design team's ability to
+    organize multiple needs. Looking forward to seeing the next iterations of Check
+    Global work and how it will be shaped here.\n\n### Shalini Joshi, Program Director,
+    Asia Pacific \nThe Check Global website is our effort to share the program’s story
+    from 2011 onwards. It’s a story that has been created by our partners and team
+    members; a story presented by our design team. A story that we hope you’ll find
+    interesting and inspiring. \n\n### Sneha Alexander, Program Associate, Asia Pacific
+    \nThe Check Global website is a testimony to the amazing work the program team
+    members and partner organizations have been doing in different regions over the
+    last ten years. While thinking of how to best present the story of Check Global,
+    we reflected upon our contribution in the years gone and the time ahead of us.
+    And, the story is about inspiring each other, finding solutions to complex problems
+    and working together to make a difference.\n\n### Kipp Jones, Designer\nPresenting
+    a narrative that communicates to such a wide range of audiences, geographically
+    and culturally, will always be a challenge. It has however been a real pleasure
+    to collaborate on this new section of the website with the Check Global team.
+    There was so much brilliant content for us to organise and visualise, reflecting
+    the programs activities over the last decade.\n\n### Gisela Zuniga, Executive
+    Associate\nWith our designer and Creative Director, I work informally as a Design
+    Liaison for the rest of the Meedan team to project manage our internal creative
+    work. Working collaboratively with the Check Global team to showcase their hard
+    work over the years was so much fun to work on, as well as to integrate the collaborative
+    nature of Check Global into the design through giving all of the amazing partnerships
+    a big platform to shine.\n\nWe hope you will find the [Check Global section](https://meedan.com/check-global)
+    on our website useful and will enjoy reading it as much as we enjoyed working
+    on it.\n"
+  date: '2021-11-15'
+  image: https://images.ctfassets.net/g118h5yoccvd/4ESfiHTnKr0oFGrEpnqDeu/9c09fa0f8f299dd2889f03f2d93f6689/Check_Global_-_Website_launch_blogpost_-_15.png
+  title-en: Check Global is live!
+  alt_date: *75
+  alt_date_string: '2021-11-15'
+- sys:
+    id: 67fDArYqOJks7OvMKBTlXq
+    created_at: &76 !ruby/object:DateTime 2021-11-29 17:54:16.732000000 Z
+    updated_at: !ruby/object:DateTime 2021-12-01 16:46:32.487000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Health Desk Reaches 1.5 Million Users
+  slug: health-desk-reaches-1-5-million-users
+  topic:
+    en-US:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+        created_at: !ruby/object:DateTime 2020-09-23 18:41:44.956000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 22:53:41.322000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Organization
+  lead_image:
+    en-US:
+      sys:
+        id: 28nfWKP1xqFgxrGLZjilI3
+        created_at: !ruby/object:DateTime 2021-12-01 16:20:38.468000000 Z
+        updated_at: !ruby/object:DateTime 2021-12-01 16:20:51.023000000 Z
+      title: Health Desk 1.5 Million Users
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/28nfWKP1xqFgxrGLZjilI3/865adb66f95ce58fb2a1c096d183df0f/Health_Desk_1.5_Million_Users.png"
+    description: ''
+    title: Health Desk 1.5 Million Users
+    url: "//images.ctfassets.net/g118h5yoccvd/28nfWKP1xqFgxrGLZjilI3/865adb66f95ce58fb2a1c096d183df0f/Health_Desk_1.5_Million_Users.png"
+  body: "At the start of the COVID-19 pandemic, [Meedan’s Digital Health Lab](https://meedan.com/digital-health-lab
+    \"Meedan’s Digital Health Lab\") brought together a team of scientists to form
+    [Health Desk](https://health-desk.org/ \"Health Desk by Meedan's Digital Health
+    Lab\"), a team tasked with supporting fact-checking organizations and journalists
+    reporting on health misinformation about COVID-19. \n\nThe team launched what
+    was then called learnaboutcovid19.org, a database of COVID-19 explainers, written
+    by scientific experts on-demand. A couple of months later, we migrated to a new
+    website and branded ourselves as “Health Desk” covering a wider range of questions
+    about COVID-19 and other scientific topics related to public health.\n\n[Health
+    Desk](https://health-desk.org/ \"Health Desk\") launched on April 15, 2021,and
+    as of October 12 of this year more than 1.5 million people have visited health-desk.org.
+    Over the last year and a half, the Health Desk team has been receiving health
+    and science-related questions from journalism partners including [Africa Check](https://africacheck.org/
+    \"Africa Check\"), [CITE](https://cite.org.zw/ \"CITE\"), [AFP Fact Check](https://factcheck.afp.com/
+    \"AFP Fact Check\"), [Full Fact](https://fullfact.org/ \"Full Fact\"), [The Africa
+    Women Journalism Project](https://theawjp.org/ \"The Africa Women Journalism Project\"),
+    [VERA Files](https://verafiles.org/ \"VERA Files\"), and [Tayo, a virtual help
+    desk serving the Filipino community during COVID-19](https://www.tayohelp.com/hc/en-us
+    \"Tayo, a virtual help desk serving the Filipino community during COVID-19\").\n\nIn
+    December 2020, in collaboration with the [Australian Science and Media Centre](https://www.smc.org.au/
+    \"Australian Science and Media Centre\") and a network of science media centres
+    around the world, the [Vaccine Media Hub](https://health-desk.org/collection-projects/covid-vaccine-media-hub
+    \"Vaccine Media Hub\") was launched, with the goal of specifically addressing
+    questions related to COVID-19 vaccines. We launched this with the vision of scaling
+    our support, providing direct access to quotes from scientists around the world
+    about emerging COVID-19 vaccine-related research. These quotes, media briefings,
+    and other important COVID-19 vaccine information are generated by scientists from
+    the [Australian Science and Media Centre](https://www.smc.org.au/ \"Australian
+    Science and Media Centre\"), [Science Media Center Germany](https://www.sciencemediacenter.de/en
+    \"Science Media Center Germany\"), [Science Media Centre New Zealand](https://www.sciencemediacentre.co.nz/
+    \"Science Media Centre New Zealand\"), [Science Media Center Taiwan](https://smctw.tw/en/
+    \"Science Media Center Taiwan\"), [UK Science Media Centre](https://www.sciencemediacentre.org/
+    \"UK Science Media Centre\"), and [SINC](https://www.agenciasinc.es/en \"SINC\").\n\nHealth
+    Desk and global science media centre teams continue to provide explainers, expert
+    reactions and resources about globally circulating health misinformation during
+    the pandemic. \n\nWhen Health Desk started these partnerships, we had a strong
+    belief in the importance and the value of the content provided; however, we did
+    not imagine how wide and diverse the audience would be. Our most frequently viewed
+    explainers include: \n\n- [How do we know graphene oxide isn't used in COVID-19
+    mRNA vaccines?](https://health-desk.org/articles/how-do-we-know-graphene-oxide-isn-t-used-in-covid-19-mrna-vaccines
+    \"Explainer: How do we know graphene oxide isn't used in COVID-19 mRNA vaccines?\")\n-
+    [What do we know about the Pfizer vaccine and magnets?](https://health-desk.org/articles/what-do-we-know-about-the-pfizer-vaccine-and-magnets
+    \"Explainer: What do we know about the Pfizer vaccine and magnets?\")\n- [What
+    do we know about the toxicity of spike proteins made from COVID-19 vaccines?](https://health-desk.org/articles/what-do-we-know-about-the-toxicity-of-spike-proteins-made-from-covid-19-vaccines
+    \"Explainer: What do we know about the toxicity of spike proteins made from COVID-19
+    vaccines?\")\n- [How long is a person infected with COVID-19 contagious?](https://health-desk.org/articles/how-long-is-a-person-infected-with-covid-19-contagious
+    \"Explainer: How long is a person infected with COVID-19 contagious?\")\n- [Are
+    COVID-19 vaccines causing antibody-dependent enhancement?](https://health-desk.org/articles/are-covid-19-vaccines-causing-antibody-dependent-enhancement
+    \"Explainer: Are COVID-19 vaccines causing antibody-dependent enhancement?\")\n-
+    [Is it dangerous to take anesthetics after getting a COVID-19 vaccination?](https://health-desk.org/articles/is-it-dangerous-to-take-anesthetics-after-getting-a-covid-19-vaccination
+    \"Explainer: Is it dangerous to take anesthetics after getting a COVID-19 vaccination?\")\n\nSearches
+    for fact-checks and explainers on Health Desk and the Vaccine Media Hub come from
+    around the world, including the US, Australia, UK, Canada, India, the Philippines,
+    Taiwan, Malaysia, South Africa and New Zealand. \n\nAs much as the  search feature
+    helps site visitors find what they are looking for, our most popular content covers
+    vaccine ingredients and types of vaccines available, as well as questions about
+    alternative COVID-19 treatments not validated by scientific evidence.\n\nThanks
+    to our amazing users who have been sharing fact-checking requests with our team
+    since day one! We commit to continue publishing and distributing quality, fact-checked
+    and localized health information to all our audiences."
+  words_by:
+    en-US:
+    - sys:
+        id: 1eGIv2NsVXniKkSafX3yLu
+        created_at: !ruby/object:DateTime 2021-12-01 16:22:28.578000000 Z
+        updated_at: !ruby/object:DateTime 2021-12-01 16:22:35.466000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Health Desk Team
+      staff:
+        en-US: true
+  date: '2021-11-29'
+  image: https://images.ctfassets.net/g118h5yoccvd/28nfWKP1xqFgxrGLZjilI3/865adb66f95ce58fb2a1c096d183df0f/Health_Desk_1.5_Million_Users.png
+  title-en: Health Desk Reaches 1.5 Million Users
+  alt_date: *76
+  alt_date_string: '2021-11-29'
+- sys:
+    id: toYMim9pDW3Q3039AcBcq
+    created_at: &77 !ruby/object:DateTime 2021-12-02 11:24:11.784000000 Z
+    updated_at: !ruby/object:DateTime 2021-12-02 16:25:39.377000000 Z
+    content_type_id: story
+    revision: 5
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: 'Fact-checking in India: the AFP strategy'
+  slug: fact-checking-in-india-the-afp-strategy
+  topic:
+    en-US:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+        created_at: !ruby/object:DateTime 2021-01-12 23:39:58.897000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-12 23:40:06.622000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Fact-checking
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+        created_at: !ruby/object:DateTime 2020-02-24 21:57:35.997000000 Z
+        updated_at: !ruby/object:DateTime 2020-02-24 21:57:57.100000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Network
+  lead_image:
+    en-US:
+      sys:
+        id: 44Vr0h7apBaQD7IkapArFv
+        created_at: !ruby/object:DateTime 2021-12-02 12:08:24.444000000 Z
+        updated_at: !ruby/object:DateTime 2021-12-02 12:11:39.671000000 Z
+      title: 'Fact-checking in India: the AFP strategy'
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/44Vr0h7apBaQD7IkapArFv/f080e4168f4b2be798b588b1c697d87b/meedan_blog_AFP_02.png"
+    description: ''
+    title: 'Fact-checking in India: the AFP strategy'
+    url: "//images.ctfassets.net/g118h5yoccvd/44Vr0h7apBaQD7IkapArFv/f080e4168f4b2be798b588b1c697d87b/meedan_blog_AFP_02.png"
+  description:
+    en-US: "[Agence France-Presse (AFP) Fact Check ](https://factcheck.afp.com/afp-india)has
+      partnered with Meedan on the [end-to-end fact-checking](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact)
+      pilot project since 2019. The international news agency launched its digital
+      verification service in France in 2017 and has fact-check units across the world
+      monitoring online content in local languages, from Amharic to Hindi, Polish
+      to Portuguese. Meedan has worked closely with AFP Fact Check's India team in
+      setting up their WhatsApp tipline (+91 9599973984). In this interview we speak
+      to Soma Basu, India Editor with AFP Fact Check about the agency's experience
+      of fact-checking in India, their use of [Check ](https://meedan.com/check)in
+      running the tipline and new initiatives that they have launched in the country."
+  body: |-
+    [Agence France-Presse (AFP) Fact Check ](https://factcheck.afp.com/afp-india)has partnered with Meedan on the [end-to-end fact-checking](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact) pilot project since 2019. The international news agency launched its digital verification service in France in 2017 and has fact-check units across the world monitoring online content in local languages, from Amharic to Hindi, Polish to Portuguese. Meedan has worked closely with AFP Fact Check's India team in setting up their WhatsApp tipline (+91 9599973984). In this interview we speak to Soma Basu, India Editor with AFP Fact Check about the agency's experience of fact-checking in India, their use of [Check ](https://meedan.com/check)in running the tipline and new initiatives that they have launched in the country.
+
+    __1.  When did AFP venture into fact-checking in India? What was the reason for setting up the fact-check unit?__
+
+    AFP Fact Check in India started in 2018. It was the same time we launched fact-checking in three other countries -- Pakistan, Indonesia, and the Philippines. We have an extensive network of global reporters dedicated to debunking online misinformation in 99 countries across the world. We are expanding to include more languages and regions. We set up a fact-check unit because our reach, access and expertise strengthen the global effort in combating misinformation.
+
+    __2.  According to you, what are the main sources of misinformation in the country / region and what are your strategies to address them?__
+
+    In India, we publish debunks in English and two Indian languages -- Hindi and Bengali. Bengali fact-checking is overseen by our team in Bangladesh. Misinformation related to health, politics and religion is the most widespread in India. In South Asian cultures, we give primacy to the concept of "darshan (witness)", so naturally, misinformation alongside visual elements like images and videos are the most viral. We believe in quality more than quantity, and our team focuses more on analytical, in-depth fact-checks. We believe we can burst the echo chambers and filter bubbles in polarised societies only when our debunks are robust, using multiple pieces of evidence. All our fact-checks employ digital forensics along with rigorous investigative journalism to tackle viral claims.    
+
+    __3.  AFP has fact-check units across the world. How is fact-checking in India different or similar from that in other countries?__
+
+    Apart from the scale, fact-checking in India is not much different from other countries. There is very close coordination between the Indian and the global fact-check team in AFP and the nature, tone, visual elements, "call for action" are similar in almost every false claim across the world. Every false post, be it a text or a visual social media message, wants readers to act in a certain way, they intend to extract any kind of strong emotion so readers are compelled to do something, even if it is just forwarding the message to their own circles of family and friends. The messages achieve virality by encouraging the habit of uncritical sharing. The pattern is the same in every country. There is enough academic scholarship to prove that anybody, irrespective of educational background or social stature, can fall prey to misinformation. Our experience from the various countries we have fact-check operations is no different.      
+
+    __4.  In what ways has Check supported your fact-checking work?__
+
+    Check helps us immensely in spotting, monitoring, fact checking misinformation on the private messaging app WhatsApp and also in streamlining our work. Because of ease of usage, WhatsApp is still the most widely used messaging app in India and a potent distribution channel for false claims and misinformation. The tipline is a great initiative that bridges the gap between social media users and fact- checkers. The best part is that we can now reach out to people in various regional languages.   
+
+    __5.  What are your plans for expanding your tipline audience and engagement in the future?__
+
+    We are constantly working on expanding our fact-check operations. We are also thinking of ways to introduce easily shareable visual fact-checks and using the tipline to engage audiences to make the process of fact-check more participatory. We will start a Hindi newsletter soon.
+
+    __6.  Any announcements or new initiatives that you'd like to share with us?__
+
+    AFP Factcheck has recently launched a Hindi blog - <https://factcheckhindi.afp.com/list>. We also have a Facebook page dedicated to Hindi fact checks - <https://www.facebook.com/AFPFactCheckHindi/>. With Hindi, AFP now publishes fact-checks in more than 15 languages in 99 countries.
+  date: '2021-12-02'
+  image: https://images.ctfassets.net/g118h5yoccvd/44Vr0h7apBaQD7IkapArFv/f080e4168f4b2be798b588b1c697d87b/meedan_blog_AFP_02.png
+  title-en: 'Fact-checking in India: the AFP strategy'
+  alt_date: *77
+  alt_date_string: '2021-12-02'
+- sys:
+    id: 5LHnM7jBFIRN4jAzcZow69
+    created_at: &78 !ruby/object:DateTime 2022-01-04 20:42:20.978000000 Z
+    updated_at: !ruby/object:DateTime 2022-01-06 22:08:28.168000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Welcome Cat Ho, our Director for Business Development and Operations
+  slug: welcome-cat-ho-our-director-for-business-development-and-operations
+  topic:
+    en-US:
+    - sys:
+        id: 32ogZlDIXFakgZXiZ8l3MT
+        created_at: !ruby/object:DateTime 2020-09-23 18:41:44.956000000 Z
+        updated_at: !ruby/object:DateTime 2020-09-23 22:53:41.322000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Organization
+  lead_image:
+    en-US:
+      sys:
+        id: 6tYVxc4NApkynbVdFD9qy0
+        created_at: !ruby/object:DateTime 2022-01-04 20:47:51.466000000 Z
+        updated_at: !ruby/object:DateTime 2022-01-04 20:48:05.434000000 Z
+      title: Cat Ho headshot
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/6tYVxc4NApkynbVdFD9qy0/0fb944e2bfa736fb60661d201750eeb4/cat_ho_headshot.png"
+    description: ''
+    title: Cat Ho headshot
+    url: "//images.ctfassets.net/g118h5yoccvd/6tYVxc4NApkynbVdFD9qy0/0fb944e2bfa736fb60661d201750eeb4/cat_ho_headshot.png"
+  body: "Meedan is pleased to welcome Cat Ho on board as our first Director of Business
+    Development and Operations! Cat joins us after consulting with Meedan on business
+    planning. The team appreciated her insights, rigor and conviviality during her
+    time as a consultant, and we're thrilled to welcome her in a full-time role.\n\nAs
+    Meedan grows and develops as an organization, we have recognized the increasing
+    need for business development and business operations as a key function for our
+    continued sustainability in addition to grants, program service fees and other
+    sources of revenue.\n\nWe'll be hearing more about Meedan's business efforts in
+    the near future. For now, learn more about Cat below:\n\n### 1. What brought you
+    to Meedan?\n\n2019 was my first year an independent business consultant, and I
+    met a ton of people along the way. One day, I ran into my friend [Aviv Ovadya](https://twitter.com/metaviv
+    \"Aviv Ovadya's twitter\") at a coworking space in San Francisco. Aviv insisted
+    that I meet Meedan because he thought the international mindset and global impact
+    at the organization would be compelling for me – and he was right. (Thank you,
+    Aviv!)\n\nIn addition, something about the people at Meedan – Tom, Ed, An – left
+    a positive impression on me, and I decided intuitively that I should try to stay
+    in touch. Several months later, I got to consult with the team on business planning,
+    and this year, there was an opportunity for me to join full time. \n\nSpecifically,
+    I’m excited about figuring out how our [Check product and technology](https://meedan.com/check
+    \"Check product and technology\") gets further market adoption in a way that’s
+    in line with Meedan’s mission and values. It’s going to require a lot of creativity
+    and cross-functional collaboration. Recently, our participation in the [National
+    Science Foundation’s Small Business Innovation Research (SBIR) program](https://seedfund.nsf.gov/
+    \"National Science Foundation’s Small Business Innovation Research (SBIR) program\")
+    has led me to conduct dozens of research interviews to better understand our current
+    and potential users, customers, and partners. I’m mostly accustomed to doing secondary
+    market business analysis, so this primary research approach has been really fascinating,
+    and I intend to continue incorporating it into the work I’m going to do to steer
+    our ship through new waters.\n\n### 2. What has been your experience before you
+    joined Meedan?\n\nMy business career has been driven largely by my love for languages
+    and cultures, which has taken me to Hong Kong, Taiwan, Colombia, Mexico, Brazil,
+    and the US. My functions and industries have varied, but I really like people
+    and processes: I’ve been a salesperson, a procurement consultant, a sales strategist,
+    an operations manager, a freelance business strategy consultant, and an MBA admissions
+    consultant. I’ve worked in the investment banking industry at [Lehman Brothers](https://en.wikipedia.org/wiki/Lehman_Brothers
+    \"Lehman Brothers company history\"), management consulting at [Kearney](https://www.kearney.com/
+    \"Kearney\"), and in big tech at Facebook.\n\nIn terms of formal education, I
+    have an MBA from [The Wharton School at University of Pennsylvania (UPenn)](https://www.wharton.upenn.edu/
+    \"The Wharton School at University of Pennsylvania (UPenn)\"), an MA in International
+    Studies from [The Lauder Institute at UPenn](https://lauder.wharton.upenn.edu/
+    \"The Lauder Institute at UPenn\"), and a dual BS/BA in Business Administration/Linguistics
+    from [University of California, Berkeley. ](https://www.berkeley.edu/ \"University
+    of California, Berkeley. \")\n\nOne notable shift is that Meedan is my first time
+    joining a nonprofit since I did a college internship at [The Long Now Foundation](https://longnow.org/
+    \"The Long Now Foundation\") as a linguist, and I’m thrilled to be part of a team
+    that thinks deeply about its impact on the world. \n\n### 3. Tell us about an
+    exciting and insightful experience that has shaped your perspective and work.\n\nDuring
+    my MBA, I did a summer internship in Bogotá, Colombia that really tested my high
+    school and college Spanish language skills. I had so much fun being properly immersed
+    in Spanish for the first time that I decided to pivot from my original plan to
+    move to mainland China after graduation, and I moved to Latin America instead.
+    \n\nIn my concurrent masters program in international studies, I was focused on
+    East Asia and Chinese language. It ended up being fairly straightforward to walk
+    away from my plan to move to China, because I realized that when I was in China,
+    I would struggle to meet cultural expectations at work because I looked local,
+    spoke like a local, but wasn’t really a local. \n\nEight years later, including
+    three and a half years in Mexico and 11 visits to Brazil, I now like to say that
+    I identify as Taiwanese American with a Latin soul. I think my own multicultural
+    identity helps me see that people I work with can show up with very different
+    cultural perspectives. As a people-loving person that actually enjoys work meetings
+    a lot of the time, I like to think that my international experiences have given
+    me additional tools for empathy that I can use to connect with and work better
+    with people from all kinds of backgrounds. \n\n### 4. What opportunities do you
+    see for business development across the range of disciplines that Meedan works
+    in, such as technology, journalism and human rights work?\n\nFor me, business
+    development is about growth through relationship building, whether that’s a sales
+    relationship or a strategic partnership. I think Meedan already thoughtfully bridges
+    organizations across these realms through large projects like Check Global and
+    the 3PFC program on WhatsApp, but there’s room to do even more and cultivate our
+    network of relationships so that we are poised to bring people together for exciting,
+    cross-industry projects…but we won’t get there if we don’t first build trust with
+    everyone that could be involved. So that brings me back to relationship building
+    and finding exciting ways to collaborate, and I see a ton of opportunity to do
+    so in every realm - technology, journalism, and human rights. \n\n### 5. Tell
+    us some fun facts about Cat.\n\n- I have always hated pickles, but I’m trying
+    to change this because I want to learn to enjoy all foods. I got over my distaste
+    for mushrooms a few years ago, so I’m feeling optimistic.\n- Years ago while visiting
+    the Canary Islands, I swing danced all over the island of Tenerife with my friend
+    Oliver, and we made a [promotional swing dance video for the local dance scene.](https://www.youtube.com/watch?v=Yixyk8pN618
+    \"promotional swing dance video for the local dance scene.\")\n- These days I’m
+    an [aerialist and aspiring circus performer](https://www.instagram.com/avocircus/
+    \"aerialist and aspiring circus performer\"), with a focus on aerial silks, aerial
+    hoop, and juggling!"
+  date: '2022-01-04'
+  image: https://images.ctfassets.net/g118h5yoccvd/6tYVxc4NApkynbVdFD9qy0/0fb944e2bfa736fb60661d201750eeb4/cat_ho_headshot.png
+  title-en: Welcome Cat Ho, our Director for Business Development and Operations
+  alt_date: *78
+  alt_date_string: '2022-01-04'
+- sys:
+    id: 4jl7otVALXxIZp0TkyD5bg
+    created_at: !ruby/object:DateTime 2022-01-06 17:13:46.764000000 Z
+    updated_at: !ruby/object:DateTime 2022-01-07 08:19:34.073000000 Z
+    content_type_id: story
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: Meet VERA, the truth bot!
+  slug: meet-vera-the-truth-bot
+  topic:
+    en-US:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+        created_at: !ruby/object:DateTime 2021-01-12 23:39:58.897000000 Z
+        updated_at: !ruby/object:DateTime 2021-01-12 23:40:06.622000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Fact-checking
+  lead_image:
+    en-US:
+      sys:
+        id: 3yoeLkBWnojMOvYWHoh9Wl
+        created_at: !ruby/object:DateTime 2022-01-06 17:15:27.995000000 Z
+        updated_at: !ruby/object:DateTime 2022-01-06 17:16:18.726000000 Z
+      title: VERA, the truth bot
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/3yoeLkBWnojMOvYWHoh9Wl/9bde00549a78d9ed601d2d33fe7c6288/step1-search-VERA-bot.jpeg"
+    description: ''
+    title: VERA, the truth bot
+    url: "//images.ctfassets.net/g118h5yoccvd/3yoeLkBWnojMOvYWHoh9Wl/9bde00549a78d9ed601d2d33fe7c6288/step1-search-VERA-bot.jpeg"
+  description:
+    en-US: In November 2021, VERA Files, our Check Global partner in the Philippines
+      launched VERA, the first public misinformation tipline on Viber in the Asia
+      Pacific region. Integrated with Check, Meedan's platform for verification and
+      annotation, VERA, the truth bot, guides users through the tipline. As the May
+      2022 presidential election nears in the  Philippines, there is more false and
+      misleading information on popular messaging platforms like Viber. This is why
+      VERA Files Fact Check introduced VERA, a bot that can be Viber users'friend
+      and ally in fighting disinformation and misinformation. The Check Global team
+      interviewed team VERA Files to learn more about the tipline and the response
+      from Viber users.
+  body: "In November 2021, [VERA Files](https://verafiles.org/), our Check Global
+    partner in the Philippines launched [VERA](https://chats.viber.com/verafiles),
+    the first public misinformation tipline on Viber in the Asia Pacific region. Integrated
+    with [Check](https://meedan.com/check), Meedan's platform for verification and
+    annotation, VERA, the truth bot, guides users through the tipline. As the May
+    2022 presidential election nears in the  Philippines, there is more false and
+    misleading information on popular messaging platforms like Viber. This is why
+    VERA Files Fact Check introduced VERA, a bot that can be Viber users'friend and
+    ally in fighting disinformation and misinformation. The [Check Global](https://meedan.com/check-global)
+    team interviewed the VERA Files team to learn more about the tipline and the response
+    from Viber users.\n\n__Why and when did you choose to launch a tipline on Viber?__
+    \n\nWe launched our misinformation tipline on Viber in November 2021, which is
+    six months before the Philippines’ upcoming presidential elections in May 2022.\n\nIn
+    2020, VERA Files did a social media analysis and found an opportunity to enter
+    the dark social space. Dark social refers to private channels such as instant
+    messaging apps and email where people interact in twos or in groups.\n\nDuring
+    the pandemic we saw an increase in the use of these private channels, such as
+    governments and health agencies utilizing the space to reach the public. At the
+    same time, disinformation and misinformation increasingly thrived in communities
+    on dark social. This then became a space for fact checkers to also be in.\n\nWe
+    thought that VERA Files going into dark social could help fight the lies by bringing
+    facts to light, while also involving our subscribers in the process. We crowdsource
+    leads for content that need fact checking, and if the tip is verifiable, VERA
+    Files sends the requesters a bite-sized fact check that they can also share or
+    forward to their communities.\n\n__What was the process of setting-up the tipline
+    like? What steps did you take?__\n\nOne of our editors Charmaine Deogracias, who
+    also wears the hat of being our social media management expert, calls our process
+    a three-pronged approach: it involved the strategy, decision and will to actually
+    set up the tipline.\n\nAfter identifying the opportunity to go into dark social,
+    we set up a Viber community. It was launched in July 2021 by publishing in this
+    space our live fact checks on President Rodrigo Duterte’s state of the nation
+    address at the time. We earned a lot of subscribers during this event.\n\nThe
+    first step to this was getting a verifiable business phone number registered under
+    the VERA Files name with a telecommunications provider that best fit our needs.
+    The process took about two weeks. This was the same amount of time it took for
+    us to coordinate with Viber and get our Community a verified status.\n\nWe then
+    got in touch with Meedan to help set up our misinformation tipline. They provided
+    us with the infrastructure to set up a user-friendly interface on Viber, as well
+    as an online workspace that receives all the requests. The messaging was personalized
+    by VERA Files and tweaked to fit the features we wanted the tipline to have.\n\nAt
+    the moment, our tipline subscribers can choose to do the following: 1) send a
+    tip for fact checking, 2) subscribe to VERA Files’ weekly Viber newsletter, and
+    3) learn how to fact check.\n\nOur belief is that everybody can and should be
+    a fact checker. By setting up a tipline with these features, we’re working toward
+    our goal of encouraging readers to practice the habit of verification and empowering
+    them to fact-check.\n\nWe also discovered a special talent of one of our reporters,
+    Klaire Ting, in illustration. It was she who gave the face to VERA the truth bot,
+    which guides our subscribers through the tipline.\n\nWith a little more coordination
+    with Viber, we were able to integrate VERA the truth bot into our Viber community
+    which made it easier for subscribers to access the tipline through a nifty little
+    bot button in the community’s menu. The setting up of the tipline from start to
+    launch, including two testing phases, took about two months total.\n\n__What has
+    been the response to the Viber tipline?__\n\nThe response to the tipline has been
+    very warm since its launch and we currently have over 170 subscribers. \n\nOur
+    misinformation tip line is the first of its kind on Viber in the Asia Pacific
+    region, and we are very glad to put some eyes and ears on this space to encourage
+    a more fact-based online environment.\n\n__Currently what kind of messages are
+    users sending to the tipline?__\n\nOur tipline subscribers send a variety of fact
+    check requests covering politics to vaccines to COVID-19 and social aid. It has
+    been interesting to see the types of content that users send for fact checking
+    as it paints a picture of the kind of misinformation and disinformation circulating
+    in dark social. They send photos and text-based requests, but there are also a
+    lot of submissions involving links to Facebook posts, YouTube videos and website
+    articles.\n\n__What is the format of responses being sent to users, for example,
+    are they mostly visual responses or text-based responses?__\n\nWe send out both
+    a text-based and visual response to eligible fact check requests. \n\nIt’s useful
+    to send out both to serve different purposes. The text-based responses have a
+    little more information and it also carries the link to the relevant fact check
+    article. But we find value in publishing a visual format as well because we’ve
+    noticed in our other social media channels that people interact more with posts
+    that carry a visual asset. \n\nThe art card may be something that readers would
+    be more enticed to forward to their family and peers, there is also that element
+    of recognition because the art card carries a screenshot of the post we are fact
+    checking.\n\n__What are your plans for the tipline for 2022?  __\n\nCurrently
+    in the pipeline for 2022 is to promote the use of the tipline in Filipino communities
+    overseas, such as workers and students who often keep in touch with their families
+    at home through dark social. For context, there are an estimated 2.2 million overseas
+    Filipino workers.\n\nThis journey begins with our partnership with [Taiwan FactCheck
+    Center](https://tfc-taiwan.org.tw/) to encourage the use of the tipline among
+    the Filipino communities in Taiwan.\n\nThis is a critical time for us to cultivate
+    the habit of fact-checking: apart from the COVID-19 pandemic and infodemic, there
+    is also much online disinformation concerning the 2022 Philippine elections.\n\nWe
+    also plan to improve our response times to the fact-check requests that we receive.
+    Having limited manpower, one of our pain points is responding promptly to user
+    submissions.\n"
+  words_by:
+    en-US:
+    - sys:
+        id: 5JPnt4ntMh5KUxw5YYyO6K
+        created_at: !ruby/object:DateTime 2021-09-07 09:00:42.875000000 Z
+        updated_at: !ruby/object:DateTime 2021-09-07 09:01:04.732000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Check Global Network
+  alt_date: !ruby/object:DateTime 2022-01-06 00:00:00.000000000 Z
+  date: '2022-01-06'
+  image: https://images.ctfassets.net/g118h5yoccvd/3yoeLkBWnojMOvYWHoh9Wl/9bde00549a78d9ed601d2d33fe7c6288/step1-search-VERA-bot.jpeg
+  title-en: Meet VERA, the truth bot!
+  alt_date_string: '2022-01-06'

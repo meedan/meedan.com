@@ -7,9 +7,15 @@
             {% for job in jobs | date_sort %}
                 {% if job.sys.id != '5xuZ0h0k4mUsR30JwyilCY' %}
                     <li>
-                        <a href="/jobs/{{ job.slug }}">
-                            {{ job.title }}
-                        </a>
+                        {% if job.link_to_external_job_posting %}
+                            <a href="{{ job.link_to_external_job_posting }}">
+                                {{ job.title }} ↗ <span class="tag">External</span>
+                            </a>
+                        {% else %}
+                            <a href="/jobs/{{ job.slug }}">
+                                {{ job.title }}
+                            </a>
+                        {% endif %}
                     </li>
                 {% endif %}
             {% endfor %}
