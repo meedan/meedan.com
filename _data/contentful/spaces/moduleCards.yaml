@@ -248,21 +248,46 @@ moduleCards:
 - sys:
     id: 4CWa8UN1MMrhDX1XEoq5XT
     created_at: !ruby/object:DateTime 2020-03-21 00:17:29.632000000 Z
-    updated_at: !ruby/object:DateTime 2021-07-27 17:15:12.694000000 Z
+    updated_at: !ruby/object:DateTime 2022-01-05 00:17:33.701000000 Z
     content_type_id: moduleCards
-    revision: 8
+    revision: 10
   title: Recent Press
   cards:
   - sys:
-      id: 1heYuQZ47hcXKHYGLpplYJ
-      created_at: !ruby/object:DateTime 2021-07-27 17:11:38.645000000 Z
-      updated_at: !ruby/object:DateTime 2021-07-27 17:16:34.091000000 Z
+      id: mGNgeobqAx6jk49ccNIYB
+      created_at: !ruby/object:DateTime 2022-01-05 00:15:49.398000000 Z
+      updated_at: !ruby/object:DateTime 2022-01-05 00:16:19.296000000 Z
       content_type_id: moduleCard
       revision: 1
-    title: New Facebook partnership tackles health misinformation
-    slug: new-facebook-partnership-tackles-health-misinformation
-    tag: Axios
-    link: https://www.axios.com/facebook-partnership-fact-checkers-health-misinformation-22886cfe-6d39-4a5d-bbf8-5f30dd656407.html
+    title: Towards a common definition of claim matching
+    slug: towards-a-common-definition-of-claim-matching
+    published_on: !ruby/object:DateTime 2021-10-05 00:00:00.000000000 Z
+    tag: Full Fact
+    link: https://fullfact.org/blog/2021/oct/towards-common-definition-claim-matching/
+  - sys:
+      id: 2NQsAVU6fBMWb9kMQTNgXT
+      created_at: !ruby/object:DateTime 2022-01-05 00:16:36.213000000 Z
+      updated_at: !ruby/object:DateTime 2022-01-05 00:17:19.788000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Meedan, UPenn, and more awarded $750,000 grant to identify origins of misinformation
+      about AAPI community
+    slug: meedan-upenn-and-more-awarded-usd750-000-grant-to-identify-origins-of
+    published_on: !ruby/object:DateTime 2021-10-04 00:00:00.000000000 Z
+    tag: The Daily Pennsylvanian
+    link: https://www.thedp.com/article/2021/10/annenberg-grant-fact-champ-aapi-misinformation
+  - sys:
+      id: 6eo5dUOdXN1q9IYXItkYvS
+      created_at: !ruby/object:DateTime 2022-01-05 00:08:44.639000000 Z
+      updated_at: !ruby/object:DateTime 2022-01-05 00:12:02.431000000 Z
+      content_type_id: moduleCard
+      revision: 2
+    title: NSF grants nearly $7.5 million to universities developing anti-'misinformation'
+      tools
+    slug: nsf-grants-nearly-usd7-5-million-to-universities-developing-anti
+    published_on: !ruby/object:DateTime 2021-09-27 00:00:00.000000000 Z
+    tag: Campus Reform
+    link: https://campusreform.org/article?id=18223
   - sys:
       id: 3qou1RQpBLlsqO1qNhRaXL
       created_at: !ruby/object:DateTime 2021-07-21 01:38:38.487000000 Z
@@ -275,6 +300,16 @@ moduleCards:
     published_on: !ruby/object:DateTime 2021-06-10 00:00:00.000000000 Z
     tag: Harvard Public Health Review
     link: https://harvardpublichealthreview.org/edition-33-larose/
+  - sys:
+      id: 1heYuQZ47hcXKHYGLpplYJ
+      created_at: !ruby/object:DateTime 2021-07-27 17:11:38.645000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-27 17:16:34.091000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: New Facebook partnership tackles health misinformation
+    slug: new-facebook-partnership-tackles-health-misinformation
+    tag: Axios
+    link: https://www.axios.com/facebook-partnership-fact-checkers-health-misinformation-22886cfe-6d39-4a5d-bbf8-5f30dd656407.html
   - sys:
       id: XmlOoo3oR5ow2nHhfqVYF
       created_at: !ruby/object:DateTime 2021-07-21 01:38:03.496000000 Z

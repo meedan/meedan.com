@@ -438,9 +438,9 @@ moduleList:
 - sys:
     id: 5nrulC97yc41kgWt557cSL
     created_at: !ruby/object:DateTime 2020-03-24 00:42:55.249000000 Z
-    updated_at: !ruby/object:DateTime 2021-10-12 15:46:44.044000000 Z
+    updated_at: !ruby/object:DateTime 2021-11-29 17:16:54.503000000 Z
     content_type_id: moduleList
-    revision: 15
+    revision: 16
   title: We are the Meedanis
   items:
   - sys:
@@ -466,13 +466,13 @@ moduleList:
   - sys:
       id: 1LO43iZQgk754PxET3q581
       created_at: !ruby/object:DateTime 2020-02-25 07:08:56.672000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.075000000 Z
+      updated_at: !ruby/object:DateTime 2022-01-05 16:30:51.938000000 Z
       content_type_id: contributor
-      revision: 2
+      revision: 3
     name: Caio Almeida
     staff: true
+    role: Chief Technology Officer
     location: Salvador
-    role: Director of Engineering
   - sys:
       id: 1nUGmMrDzvL1C15VgPchvk
       created_at: !ruby/object:DateTime 2021-10-08 16:42:50.281000000 Z
@@ -513,16 +513,6 @@ moduleList:
     staff: true
     role: Director of Product
     location: Los Angeles
-  - sys:
-      id: 6l5fy3yE4I2Y380PLobxla
-      created_at: !ruby/object:DateTime 2020-03-24 00:45:28.030000000 Z
-      updated_at: !ruby/object:DateTime 2020-03-24 00:56:35.465000000 Z
-      content_type_id: contributor
-      revision: 1
-    name: Daniela Feitosa
-    staff: true
-    role: Software Engineer
-    location: Salvador
   - sys:
       id: 62w633wnvhWUG8fbdKBGHC
       created_at: !ruby/object:DateTime 2021-05-07 21:16:41.400000000 Z
