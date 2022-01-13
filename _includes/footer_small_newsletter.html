@@ -1,11 +1,7 @@
 {% assign theme_class = include.theme | default: '' %}
 <section class="footer-small{% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}">
         <div class="footer-newsletter">
-            <form name="meedan-checklist" id="meedan-checklist" class="checklist-signup{% if theme_class %}{{ theme_class | prepend: ' ' }}{% endif %}" netlify-honeypot="bot" netlify>
-                <label style="display: none;">Don’t fill this out: <input name="bot"></label>
-                <label for="email"><span>Email</span> <input type="email" name="email" placeholder="Sign up for our newsletter" required></label>
-                <button type="submit">→</button>
-            </form>
+            <a href="https://checklist.substack.com/?showWelcome=true">Sign up for our newsletter ↗</a></p>
         </div>
         <div class="footer-wrapper">
             <div class="social">
