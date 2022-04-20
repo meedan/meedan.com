@@ -36,3 +36,24 @@ module Jekyll
   
   end
   Liquid::Template.register_filter(Jekyll::ConvertToDate)
+
+  module Jekyll
+    module CSVEscape
+      require 'cgi'
+      def csv_escape(input)
+        return CGI.unescapeHTML(input)
+      end
+    end
+  
+  end
+  Liquid::Template.register_filter(Jekyll::CSVEscape)
+
+  module Jekyll
+    module CSVEscape2
+      def csv_escape_2(input)
+        return input.to_s.gsub('"', '""').gsub('”','""').gsub('“','""')
+      end
+    end
+  
+  end
+  Liquid::Template.register_filter(Jekyll::CSVEscape2)

@@ -1065,9 +1065,9 @@ job:
 - sys:
     id: 7xqEAbC8DgRrAni63VCqT2
     created_at: !ruby/object:DateTime 2021-12-01 03:10:07.809000000 Z
-    updated_at: !ruby/object:DateTime 2022-01-06 15:23:44.250000000 Z
+    updated_at: !ruby/object:DateTime 2022-01-18 16:18:07.851000000 Z
     content_type_id: job
-    revision: 6
+    revision: 7
     space:
       sys:
         id: g118h5yoccvd
@@ -1083,7 +1083,7 @@ job:
     locale: en-US
   title: Program Manager, NAWA
   slug: program-manager-nawa
-  body: "- __Location:__ Flexible; (GMT -3), strongly preferred\n- __Job type:__ Full-time\n-
+  body: "- __Location:__ Flexible; (GMT +3), strongly preferred\n- __Job type:__ Full-time\n-
     __Reports to:__ Check Global Program Director\n- __Availability:__ February 1,
     2022 \n- __Pay:__ Commensurate with qualifications and experience\n\nWith generous
     support from the [Swedish International Development Agency](https://www.sida.se/en
@@ -1178,9 +1178,9 @@ job:
 - sys:
     id: 3A8Mg8eqAPE0WU7XIxP19j
     created_at: !ruby/object:DateTime 2021-12-21 19:13:25.436000000 Z
-    updated_at: !ruby/object:DateTime 2022-01-11 15:08:15.242000000 Z
+    updated_at: !ruby/object:DateTime 2022-01-11 15:27:43.305000000 Z
     content_type_id: job
-    revision: 15
+    revision: 16
     space:
       sys:
         id: g118h5yoccvd
@@ -1197,7 +1197,11 @@ job:
   title: Associate, Customer Success and Quality Assurance, Brazil (Remote position)
   slug: associate-customer-success-and-quality-assurance-brazil
   body: |-
-    Meedan is seeking to add a Portuguese-speaking Customer Success & Quality Assurance Associate to our product team. __This position is remote, for applicants in Latin America.__
+    - __Location:__ This position is remote, for applicants in Latin America.
+    - __Job type:__ Full-time
+    - __Reports to:__ Customer Success Manager
+
+    Meedan is seeking to add a Portuguese-speaking Customer Success & Quality Assurance Associate to our product team.
 
     We build [Check](https://meedan.com/check), a web platform for collaborative media annotation and fact-checking used by some of the world’s leading fact-checking and media organizations, such as Univision, Rappler, Telemundo, AFP, Reuters, Estadao, AP, Agencia Lupa, India Today, and others.
 
@@ -1257,7 +1261,7 @@ job:
 - sys:
     id: 2aXd4h3fLQCj070ZFLeWhH
     created_at: !ruby/object:DateTime 2022-01-06 12:52:46.109000000 Z
-    updated_at: !ruby/object:DateTime 2022-01-06 15:31:18.189000000 Z
+    updated_at: !ruby/object:DateTime 2022-02-22 15:56:25.380000000 Z
     content_type_id: job
     revision: 2
     space:
@@ -1333,3 +1337,335 @@ job:
     20, 2022.\n"
   link_to_external_job_posting: https://meedan.bamboohr.com/jobs/view.php?id=28
   date: '2022-01-06'
+- sys:
+    id: 3UAPUzBMRcNbNbam49QLGJ
+    created_at: !ruby/object:DateTime 2022-01-25 01:55:28.892000000 Z
+    updated_at: !ruby/object:DateTime 2022-04-07 01:40:18.112000000 Z
+    content_type_id: job
+    revision: 3
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Backend Engineer (Remote Position)
+  slug: backend-engineer-remote-position
+  body: "__Location:__ Anywhere within the timezones GMT-3 to GMT-8. Other locations
+    possible for the right candidate.\n\n__Availability:__ Immediate\n\n### About
+    the position\n\nMeedan builds digital tools for global journalism and translation.
+    We are a team of designers, technologists and journalists who focus on open source
+    investigation of digital media and crowdsourced translation of social media. With
+    commercial, media and university partners, we support research, curriculum development,
+    and new forms of digital storytelling.\n\nWe build Check, a web platform for collaborative
+    media annotation and claim-checking. The architecture is composed of microservices
+    which talk to each other through their APIs. Those services are written in a variety
+    of languages (Ruby on Rails, Ruby, Python, Node.JS, etc.) but the core services
+    are written in Ruby on Rails and the core service also exposes a GraphQL API.
+    On the database layer, we work with PostgreSQL, ElasticSearch and Redis.\n\nThe
+    backend engineer participates in building and maintaining these services, bringing
+    their experience and knowledge to produce high-quality code contributions and
+    enrich the team’s collective assets and expertise. Their problem-solving skills,
+    attention to detail, ability to learn fast, sense of initiative and positive attitude
+    ensures a long and rewarding tenure in a similarly-minded group. \n\n### Responsibilities\n\nMaintain
+    and enhance existing services, implementing readable, automated-tested and documented
+    code\nParticipate in architectural planning, especially related to data model
+    and frontend-backend communication, in close coordination with the team and CTO\nCoordinate
+    with frontend developers to ensure API compatibility and participate in frontend
+    development when possible\nEvaluate performance and other quality-oriented activities,
+    as we scale up to support hundreds of thousands of submissions monthly in dozens
+    of languages\nReview product specifications and designs to assess feasibility
+    and simplicity, in close coordination with the product and development teams\nFollow
+    development practices, including ticketing workflows, coding and testing guidelines\nCommunicate
+    requirements to make you the most effective member of the team possible\n\n###
+    Qualifications\n\n__Required__\n\n- Experience with Web technologies: HTML, CSS,
+    JavaScript, HTTP\n- More than 5 years experience building production software
+    on open source web platforms (JS/HTML/CSS + backend technology)\n- Experience
+    with Ruby and Rails\n- Experience with PostgreSQL\n- Experience with ElasticSearch\n-
+    Experience with automated testing\n- Solid experience with version control, preferably
+    Git and GitHub\n- Familiarity with Docker or other containerization technologies\n-
+    Demonstrated experience delivering production-grade Web applications\n- Strong
+    command of English language\n- Strong communication skills, especially with remote,
+    multicultural teams\n\n__Preferred__\n\n- Working knowledge of AWS services or
+    other cloud environments\n- Working knowledge of AWS Lambda or other serverless
+    environments\n- Ability to travel for 1-2 months per year for in-person team meetings
+    (when it is safe to do so from a public health perspective)\n\n### About Meedan\n\nMeedan
+    is a global technology not-for-profit that builds software and programmatic initiatives
+    to strengthen journalism, digital literacy, and accessibility of information online
+    and off. We have an affiliated for-profit, Meedan Labs, which works with our for-profit
+    clients. We develop open-source tools for creating and sharing context on digital
+    media through annotation, verification, archival, and translation. We work with
+    technologists, newsrooms, fact-checkers, public health professionals, NGOs and
+    academic institutions on award-winning projects from election monitoring to pandemic
+    response to human rights documentation. This work supports our vision of a more
+    equitable internet.\n\n### Equity, Diversity and Inclusion Statement\n\nWe are
+    headquartered in San Francisco’s SOMA district with team members distributed through
+    multiple cities and time zones. Our team members are able to work flexibly and
+    respond to challenges across a range of project areas. This includes the following:\n\n-
+    Flexible work from home\n- Flexible schedule\n- Support for home office\n- Internal
+    EDI training and affinity groups\n- Code of Conduct\n\nWe encourage individuals
+    from historically underrepresented communities in technology and journalism to
+    apply, including women, people of color, veterans, people with disabilities and
+    those who identify as LGBTQ."
+  link_to_external_job_posting: https://meedan.bamboohr.com/jobs/view.php?id=30
+  date: '2022-01-25'
+- sys:
+    id: 2mun7vgWigEhulJ8dmisUb
+    created_at: !ruby/object:DateTime 2022-01-27 01:05:58.219000000 Z
+    updated_at: !ruby/object:DateTime 2022-04-04 22:42:03.988000000 Z
+    content_type_id: job
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Senior Accountant (Remote Position)
+  slug: senior-accountant-remote-position
+  body: "- Location: California preferred; Remote possible (must keep working hours
+    ±3 hours from GMT-8/Pacific Time)\n- Reports to: Director of Operations\n- Start
+    Date: Immediate\n\n### About the position\n\nMeedan is a global technology non-profit
+    with an affiliated for-profit. We develop open-source tools for creating and sharing
+    context on digital media through annotation, verification, archival, and translation.
+    We co-create programmatic initiatives with technologists, newsrooms, fact-checkers,
+    public health professionals, NGOs and academic institutions on award-winning projects
+    from election monitoring to pandemic response to human rights documentation.\n\nWe
+    seek a talented Senior Accountant on a full time basis to serve on Meedan’s Operations
+    team. This person will receive significant support and training from Cohen Anderson
+    CPAs (CACPA), an accounting firm with 30 years of experience specializing in the
+    nonprofit sector. CACPA works closely with Meedan to prepare monthly or quarterly
+    financial statements, helps set-up customized accounting systems, consults regarding
+    internal controls, staffing, and financial matters, as well as preparing IRS,
+    Franchise Tax Board and regulatory annual returns. \n\nThis presents a number
+    of professional growth and development opportunities for the right individual
+    to grow their skills in nonprofit accounting and financial management while making
+    an impact on the operations of a rapidly growing organization. Meedan's finance
+    operations span a variety of government, foundation and private revenue sources,
+    with an operating budget upwards of $7 million.  The Senior Accountant will be
+    an essential member of the finance team and will work directly with our CPAs as
+    well as key stakeholders including our CEO, Director of Operations, and Board
+    of Directors. \n\nWe seek a talented Senior Accountant on a full time basis to
+    serve on Meedan’s Operations team:\n\n### Responsibilities\n\n__Finance and Accounting__\n\n-
+    Direct involvement in bookkeeping, including accounts payable, receivable, and
+    payroll\n- Consult with and incorporate guidance from Meedan’s CPA firm who does
+    the high-level accounting, maintains the general ledger, prepares monthly financial
+    statements, and advises on accounting and related issues\n- Working with our CPA
+    firm, advise the CEO and other key leaders on financial planning, budgeting, cash
+    flow, investment priorities, grant compliance, and related matters.\n- Prepare
+    the monthly financial packet of information necessary for CPA firm to prepare
+    financials, which includes coding expenses to appropriate accounts and cost centers\n-
+    Prepare periodic billings to funding sources\n- Act as the point person to provide
+    documentation to auditors performing annual funding source and organizational
+    audits\n- Provide necessary supporting info to CPA’s to prepare annual returns
+    to IRS, FTB, and Calif. Attorney General\n- Support CEO in interfacing with audit
+    committee and finance committee on Board of Directors\n- Lead the production of
+    reports for developing the annual budget, monthly projections and other key finance
+    operations tasks, coordinating contributions from the leadership team\n\n__Grants__\n\n-
+    Analyze incoming contracts and grants; prepare abstracts of them to assure that
+    managing staff is aware of salient compliance requirements\n- Coordinate and ensure
+    compliance with grant requirements, including stringent requirements for federal
+    US and Swedish grants\n- Work with fundraising subcommittee and accounting team
+    and determine strategic alignment with theory of change and core values\n\n__Operations__\n\n-
+    Manage Annual Report collation and publication, working closely with leadership
+    team \n- Establish and maintain proper reporting and tracking mechanisms to ensure
+    compliance with all federal, state and local statutes for a global team, coordinating
+    contributions from other team members as needed.\n- Commit to diversity, equity,
+    and inclusion, both in interactions internally and in approaches to processes,
+    such as vendor selection\n\n### Education/Experience\n\n__Required__\n\n- A minimum
+    of 3-5 years of bookkeeping/accounting, working in the non-profit sector is a
+    plus but not necessary\n- Bachelors degree in business administration or other
+    relevant field, or equivalent experience\n- Hands-on experience with transactional
+    accounting:  accounts payable, accounts receivable, payroll, providing support
+    in the monthly and annual closing process\n- Experience with generally accepted
+    accounting principles in the U.S.\n- Proficiency in Excel, as well as accounting
+    software\n- Experience developing and managing budgets \n- Familiarity with reading/analyzing
+    contracts and ability to extract essential salient points\n- Attention to detail
+    and compliance requirements\n- Experience organizing a daily workload by priorities
+    and meeting deadlines in a fast-paced, quickly changing environment\n- Proactive
+    approach to problem-solving with strong decision-making skills.\n- Experience
+    working in a remote/virtual environment and with geographically dispersed, diverse
+    teams\n- Experience with processing and handling sensitive/confidential organizational
+    data\n- Professional working proficiency in verbal and written English\n\n__Preferred__\n\nFamiliarity
+    in working with an IRS section 501(c)(3) nonprofit organization\nExperience managing
+    contractors and small teams \nProfessional working proficiency in other languages
+    a plus, especially Brazilian Portuguese, Spanish or Arabic\\\n\n### About Meedan\n\nMeedan
+    is a global technology not-for-profit that builds software and programmatic initiatives
+    to strengthen journalism, digital literacy, and accessibility of information online
+    and off. We have an affiliated for-profit, Meedan Labs, which works with our for-profit
+    clients. We develop open-source tools for creating and sharing context on digital
+    media through annotation, verification, archival, and translation. We work with
+    technologists, newsrooms, fact-checkers, public health professionals, NGOs and
+    academic institutions on award-winning projects from election monitoring to pandemic
+    response to human rights documentation. This work supports our vision of a more
+    equitable internet.\n\n### Equity, Diversity and Inclusion Statement\n\nWe are
+    headquartered in San Francisco’s SOMA district with team members distributed through
+    multiple cities and time zones. Our team members are able to work flexibly and
+    respond to challenges across a range of project areas. This includes the following:\n\n-
+    Flexible work from home\n- Flexible schedule\n- Support for home office\n- Internal
+    EDI training and affinity groups\n- Code of Conduct\n\nWe encourage individuals
+    from historically underrepresented communities in technology and journalism to
+    apply, including women, people of color, veterans, people with disabilities and
+    those who identify as LGBTQ."
+  link_to_external_job_posting: https://meedan.bamboohr.com/jobs/view.php?id=29
+  date: '2022-01-27'
+- sys:
+    id: 7sddhaHkhehfYWAxzx4ZXW
+    created_at: !ruby/object:DateTime 2022-03-03 21:39:16.755000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-03 22:03:55.023000000 Z
+    content_type_id: job
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: People and Culture Manager (Remote Position)
+  slug: people-and-culture-manager-remote-position
+  body: "__Location:__ Remote\n\n__Reports to:__ Director of Operations\n\n__Availability:__
+    Immediate\n\n### About the position\n\nMeedan is a global technology non-profit
+    with an affiliated for-profit. We develop open-source tools for creating and sharing
+    context on digital media through annotation, verification, archival, and translation.
+    We co-create programmatic initiatives with technologists, newsrooms, fact-checkers,
+    public health professionals, NGOs and academic institutions on award-winning projects
+    from election monitoring to pandemic response to human rights documentation.\n\nWe
+    are seeking a people and culture manager to lead the day-to-day functioning of
+    our HR/people and culture efforts. The people and culture manager will work closely
+    with the director of operations to plan and execute Meedan’s people strategy.
+    She or he will provide guidance and direction to management and staff on key employee
+    life-cycle junctures, including recruitment, onboarding, professional development,
+    and succession planning. She or he will ensure that our processes and procedures
+    are user-friendly, efficient, and that our employees have the support and tools
+    to do their best work. This position requires discretion and a high degree of
+    confidentiality, as well as a strong commitment to continuous improvement and
+    the principles of equity, diversity and inclusion.\n\n### Responsibilities\n\n__Compliance
+    and reporting__\n\n- Oversee equity of employment practices and policies.\n- Maintain
+    knowledge of federal, state, and local employment legislation and ensure multi-state
+    compliance.\n- Maintain knowledge of global contractor and employment laws, with
+    support from external legal counsel\n- Ensure that HRIS and other digital personnel
+    and HR files and records are maintained in accordance with all legal requirements.\n-
+    Review employment contracts and update policies & documenting procedures.\n- Support
+    annual financial and 401(k) audit.\n\n__Payroll and benefits__\n\n- Work with
+    senior accountant to oversee and approve semimonthly payroll changes; run payroll
+    and ad hoc reporting for accounting.\n- Coordinate with the operations team to
+    manage the full suite of benefits (health, 401(k), FSA, etc.) provided to staff.\n\n__Performance
+    management, professional development, and training__\n\n- Oversee annual performance
+    management and professional development procedures and provide training and guidance
+    to management and staff.\n- Coach managers and staff on performance improvement
+    plans as necessary.\n- Propose and implement plans to meet org-wide and employee-specific
+    training needs and provide professional development opportunities.\n- Conduct
+    training on key policies, procedures, and competency areas.\n\n__Recruitment and
+    onboarding__\n\n- Support the organization's recruitment strategy and process,
+    ensuring that our approaches incorporate principles of equity, diversity and inclusion
+    (EDI).\n- Refine recruitment processes to ensure that we offer a top-notch candidate
+    experience.\n- Evaluate recruitment tools and platforms to improve recruitment
+    activity efficiency and measurability.\n- Oversee onboarding process.\n\n__Employee
+    relations__\n\n- Conduct annual employee engagement survey.\n- Conduct exit interviews
+    and analyze trends.\n- Coach managers and staff on performance and workplace issues
+    with empathy.\n\n__Equity, diversity and inclusion (EDI)__\n\n- Ensure our employment
+    practices and policies are equitable and inclusive.\n- Help develop policies that
+    support the organization's internal EDI priorities.\n\n__Communications__\n\n-
+    Ensure that HR policies and procedures are effectively communicated to staff and
+    management, anticipate questions, and respond proactively and knowledgeably.\n-
+    Draft offer letters, review employment contracts, and update policies and documentation
+    of procedures as needed.\n\n__Analysis__\n\n- Conduct and analyze HR surveys (e.g.
+    exit, onboarding, engagement, etc.) to inform and drive decision-making and workforce
+    planning strategy.\n\n### Education/Experience\n\n- Minimum 5 years of progressively
+    higher-level HR experience\n- SHRM-SCP, SPHR, or equivalent certification preferred\n-
+    Experience with BambooHR, Paychex, and Jira are all a major plus\n- Strong computer
+    and tech skills: G-Suite required and MS Office helpful\n- Excellent communication
+    skills, written and verbal\n- Ability to be creative, innovative, and flexible
+    in bringing solutions to problems\n- Proven track record of providing superior
+    customer service in previous roles\n- An eye for improving HR processes and building
+    systems to support future projects\n- Experience working in a fast-paced environment
+    requiring great time-management skills and the ability to prioritize and re-prioritize
+    assignments\n- Empathy and a high degree of emotional intelligence\n- Fluency
+    in another language is a plus\n\n### About Meedan\n\nMeedan is a global technology
+    not-for-profit that builds software and programmatic initiatives to strengthen
+    journalism, digital literacy, and accessibility of information online and off.
+    We have an affiliated for-profit, Meedan Labs, which works with our for-profit
+    clients. We develop open-source tools for creating and sharing context on digital
+    media through annotation, verification, archival, and translation. We work with
+    technologists, newsrooms, fact-checkers, public health professionals, NGOs and
+    academic institutions on award-winning projects from election monitoring to pandemic
+    response to human rights documentation. This work supports our vision of a more
+    equitable internet.\n\nOur team members are distributed through multiple cities
+    and time zones. Our team members are able to work flexibly and respond to challenges
+    across a range of project areas. This includes the following:\n\n- Flexible work
+    from home\n- Flexible schedule\n- Support for home office\n- Internal EDI training
+    and regular EDI impact and policy reviews \n- Code of Conduct\n\n__Benefits__\n\nAt
+    Meedan, we believe that the work we do is only as strong as the wellbeing of the
+    people who make it happen. We’re committed to providing a broad range of employee
+    benefits that uplift the engagement and growth of our people, and to truly embody
+    awesome in our Meedan culture.\n\nFor candidates from the US, we have the following
+    benefits available:\n\n- Ten working days paid vacation in first two years of
+    employment, and up to twenty working days paid vacation after four years of employment
+    \n- Twelve floating holidays to be used at employee’s discretion\n- Flexible leave
+    for bereavement, major illness, parental responsibilities, pregnancy, military
+    duties, civic responsibility, severe weather conditions\n- Generous health and
+    dental benefits, including 100% employee premium coverage and 50% coverage of
+    dependents \n- 401k plan with a 50% employer match and flexible spending account\n-
+    Up to 30 working days of paid sick leave with expansive coverage, including for
+    menstrual pain, caretaking responsibilities, and mental health needs\n- A one
+    calendar month paid sabbatical after five years of employment\n\nFor candidates
+    outside of the US, we negotiate a generous monthly service fee to allow you to
+    manage your retirement and other costs.\n\n__Professional Development and Social
+    Support__\n\nAll candidates around the world have the following resources available:\n\n-
+    Professional development support\n- Mentorship program plus regular learning sessions/seminars\n-
+    Regular optional team social activities online and offline, including games, yoga,
+    meditation and meals\n- Generous travel support for in-person meetings and retreats
+    with colleagues, where public health guidelines allow\n- Paid subscription to
+    meditation apps and other mental health resources\n- Complimentary access to publications
+    like New York Times and others\n- Digital security training and support\n\n__Equity,
+    Diversity and Inclusion Statement__\n\nWe actively recruit and encourage applications
+    from individuals from historically underrepresented communities in technology
+    and journalism to apply, including women, people of color and/or from underrepresented
+    cultural communities, veterans, people with disabilities and those who identify
+    as LGBTQ+."
+  link_to_external_job_posting: https://meedan.bamboohr.com/jobs/view.php?id=31
+  date: '2022-03-03'
+- sys:
+    id: 4hnQYDOJjxcBrx2Ek2iNzu
+    created_at: !ruby/object:DateTime 2022-04-07 17:46:50.515000000 Z
+    updated_at: !ruby/object:DateTime 2022-04-07 17:50:55.267000000 Z
+    content_type_id: job
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: job
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Associate, Customer Success and Quality Assurance, APAC
+  slug: associate-customer-success-and-quality-assurance-apac
+  link_to_external_job_posting: https://meedan.bamboohr.com/hiring/jobs/32
+  date: '2022-04-07'

@@ -220,3 +220,47 @@ topic:
   title: Case Study
   slug: case study
   topic: Case Study
+- sys:
+    id: 2RSe9rNkwMwjxNTRWi2XJq
+    created_at: !ruby/object:DateTime 2022-02-25 14:18:17.313000000 Z
+    updated_at: !ruby/object:DateTime 2022-02-25 14:46:11.279000000 Z
+    content_type_id: topic
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: topic
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Health misinformation
+  slug: health misinformation
+  topic: Health misinformation
+- sys:
+    id: 6guddUxXT17w3joKaoHj9K
+    created_at: !ruby/object:DateTime 2022-02-25 14:46:43.920000000 Z
+    updated_at: !ruby/object:DateTime 2022-02-25 14:46:50.080000000 Z
+    content_type_id: topic
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: topic
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Training
+  slug: training
+  topic: Training
