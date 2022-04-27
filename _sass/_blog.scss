@@ -173,7 +173,8 @@
     h3,
     h4,
     hr,
-    .u-responsive-ratio {
+    .u-responsive-ratio,
+    pre {
         color: var(--blackInk);
         @include responsive('min-width: #{$width-tablet}') {
             grid-column: 2/12;
@@ -315,6 +316,12 @@
     width: var(--scale-2);
     border-top: 1px solid var(--blackInk);
     padding-bottom: var(--space-1);
+}
+
+.story-wrapper pre {
+    margin: 0 0 var(--space-3) 0 !important;
+    font-size: 1rem !important;
+    line-height: 1 !important;
 }
 
 .story-actions {
