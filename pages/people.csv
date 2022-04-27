@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: /people.csv
+---
+{% assign contributors = site.data.contentful.spaces.contributors.contributor %}
+name,location,job_title,bio,staff
+{% for contributor in contributors %}"{{ contributor.name }}","{{ contributor.location }}","{{ contributor.role | xml_escape }}","{{ contributor.bio | markdownify | xml_escape }}","{{ contributor.staff }}"
+{% endfor %}

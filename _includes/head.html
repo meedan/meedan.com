@@ -30,6 +30,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
   {% endif %}
 
+
+  {% if page.sys.content_type_id == 'story' %}
+    <!-- Syntax highlight -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" media="screen" type="text/css">
+    <script src='//cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js'></script>
+  {% endif %}
+
   {% if page.path contains 'donate/' %}
     <!-- Load Stripe.js for donation page -->
     <script src="https://js.stripe.com/v3/"></script>

@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: /events.csv
+---
+{% assign events = site.data.contentful.spaces.events.event %}
+title,slug,Start Date/Time,End Date/Time,Time,Location Human Friendly,RSVP Link,Short Description,Description,Non-public,Social Card Image,Images,
+{% for event in events %}"{{ event.title | xml_escape | csv_escape | csv_escape_2 }}",{{ event.slug }},{{ event.event_date }},{{ event.event_end_date }},"{{ event.time | markdownify | xml_escape | csv_escape | csv_escape_2 }}","{{ event.location_human_friendly | xml_escape }}","{% if event.register_link %}{{ event.register_link }}{% else %}https://meedan.com{% endif %}","{{ event.description | markdownify | xml_escape | csv_escape | csv_escape_2 | strip_html }}","{{ event.long_description | markdownify | xml_escape | csv_escape | csv_escape_2 }}",{{ event.non_public }},{% if event.social_card_image.url %}{{ event.social_card_image.url | strip | prepend: "https:" }}{% endif %},{% if event.images %}{% for i in event.images %}{{ i.url | append: ";" | prepend: "https:" }}{% endfor %}{% endif %}
+{% endfor %}
