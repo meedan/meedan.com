@@ -3,11 +3,458 @@ moduleStories:
 - sys:
     id: 7s8B9FgTZA4NcTCAz2F5DX
     created_at: !ruby/object:DateTime 2020-03-10 00:51:48.166000000 Z
-    updated_at: !ruby/object:DateTime 2022-03-07 19:17:55.952000000 Z
+    updated_at: !ruby/object:DateTime 2022-04-29 19:18:00.724000000 Z
     content_type_id: moduleStories
-    revision: 93
+    revision: 94
   title: Blog
   stories:
+  - sys:
+      id: 1OhnIBvTIcLXnpRaZMit44
+      created_at: !ruby/object:DateTime 2022-04-26 19:46:20.150000000 Z
+      updated_at: !ruby/object:DateTime 2022-05-02 19:50:34.324000000 Z
+      content_type_id: story
+      revision: 5
+    title: How to write longform Git commits for better software development
+    slug: how-to-write-longform-git-commits-for-better-software-development
+    topic:
+    - sys:
+        id: 3YteOu0dCPeNZKQlFMQNwF
+    lead_image:
+      sys:
+        id: 3PBD4oU1rm36687rfhWhdv
+        created_at: !ruby/object:DateTime 2022-04-27 11:52:46.430000000 Z
+        updated_at: !ruby/object:DateTime 2022-04-29 19:16:09.658000000 Z
+      title: meedan blog longform git commit
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/3PBD4oU1rm36687rfhWhdv/8a34b14017daeab3d36ed968cbb15c5b/meedan_blog_longform_git_commit.png"
+    body: "On the Meedan engineering team we are trying to clean up the way we write
+      Git commits in order to help our engineers communicate more clearly with one
+      another and to make our jobs that much easier in the future when we’re looking
+      back at old code. One strategy we are attempting is to write longform Git commits.\n\n>
+      Meedan is hiring for our engineering team! Join us and enjoy the benefits of
+      verbose git commits. Positions are open for a [Backend Engineer (Remote)](https://meedan.bamboohr.com/jobs/view.php?id=30)
+      and a [Machine Learning Engineer](https://meedan.bamboohr.com/jobs/view.php?id=33).\n\n###
+      What is a longform Git commit?\nWhen most engineers are taught how to commit
+      a change to Git, we learn to do something like:\n\n<pre><code class=\"language-git\">\ngit
+      commit -m \"This is my commit message\"\n</code></pre>\n\nThis certainly works,
+      but writing a commit message this way is very limiting. The command line is
+      not a great place to write long human-readable text, so this encourages short
+      commit messages that are not descriptive. Plus, it's difficult to include special
+      punctuation this way. For example, ```!``` and newlines need to be escaped inside
+      the message string.\n\nA good rule of thumb: ```git commit -m``` should not
+      be your default! You should be doing `git commit` or `git commit -a`. Even better
+      is ```git commit -v -a```, which will pull up [your editor of choice](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git
+      \"Associating text editors of your choice with git\") and let you easily write
+      a commit. The -v means \"verbose\" and will add a diff of all your changes.
+      Let's change some code and try:\n\n<pre><code class=\"language-git\">\n$ git
+      commit -av\n</code></pre>\n\nYou probably already know that `-a` means \"add\",
+      which basically runs `git add .` before running the commit. But not a lot of
+      people know about `-v`. This switch provides a diff inside the text file you
+      are going to edit in whatever git's default text editor is set to. It will look
+      something like this:\n\n<pre><code class=\"language-git\">\n# Please enter the
+      commit message for your changes. Lines starting\n# with '#' will be ignored,
+      and an empty message aborts the commit.\n#\n# On branch working\n# Changes to
+      be committed:\n#       modified:   foo.js\n#\n# ------------------------ >8
+      ------------------------\n# Do not modify or remove the line above.\n# Everything
+      below it will be ignored.\ndiff --git foo.js foo.js\nindex d575e27..6afb236
+      100644\n--- foo.js\n+++ foo.js\n@@ -6,6 +6,6 @@ \n function multiply(a, b) {\n-
+      \ return a / b;\n+  return a * b;\n }\n </code></pre>\n\n Note the diff on the
+      end, telling us that we corrected the math in our multiply function.\n\nI find
+      including the diff helpful for writing the commit because I can simply refer
+      to the changes I've made right there. It also means that I can use autocomplete
+      to complete variable names because any code I wrote is down there. The diff
+      won't be included in the commit, just all the stuff above the comment lines.\n\nSo,
+      what do we type here now that we are in this document? I like to think of commits
+      as emails, with a subject, a body, and a footer.\n\nThe subject portion is the
+      first line of the text, before a line break. This briefly describes the changes
+      we made in this commit. In our case we might want it to be something like \"Fix
+      our multiply function\". This should be short, and written in the imperative
+      voice (\"command\" words like \"fix\" instead of \"fixed\" or \"fixes\"). Most
+      guides out there say to keep it to 50 characters or less. Popular text editors
+      will even include helpful syntax highlighting for your commit message. For example,
+      if you have syntax on set in Vim, it will highlight the first line in red if
+      it goes over 50 characters in length.\n\nThe body should explain what changed
+      and why. The \"what\" describes the techniques and solutions you applied. You
+      might even link to blog posts that helped you get a handle on the problem. I
+      like to write the body of the message in markdown, since it's pretty readable
+      on its own and can easily be cut and pasted into a pull request form on Github
+      or Gitlab. The \"why\" doesn't mean from a project management standpoint --
+      so no need to say \"I'm doing this because our client asked for it\". What I
+      mean by \"why\" here is relevant contextual information. For example, why did
+      you implement your change the way you did versus the other possible ways you
+      could have done it?\n\nAnd the footer is any extra information, metadata-like
+      stuff. This is usually where I put the issue number that the commit is related
+      to.\n\nUltimately we might write something like the following:\n\n<pre><code
+      class=\"language-git\">\nFix our multiply function\n​\nSwapped `/` for `*`.
+      Apparently multiplication and division are two different\nthings! We want to
+      do\n[multiplication](https://en.wikipedia.org/wiki/Multiplication) because\notherwise
+      everything breaks. I did some research and found out that `*`\nmeans \"multiply\"
+      in most popular programming languages.\n​\nIn the future we could also consider
+      dividing by the inverse of an operand,\nin case we move to a programming langauge
+      that doesn't support multiplication.\n​\nFixes #1234.\n​\n# Please enter the
+      commit message for your changes. Lines starting\n# with '#' will be ignored,
+      and an empty message aborts the commit.\n#\n# On branch working\n# Changes to
+      be committed:\n#       modified:   foo.js\n#\n# ------------------------ >8
+      ------------------------\n# Do not modify or remove the line above.\n# Everything
+      below it will be ignored.\ndiff --git foo.js foo.js\nindex d575e27..6afb236
+      100644\n--- foo.js\n+++ foo.js\n@@ -6,6 +6,6 @@ \n function multiply(a, b) {\n-
+      \ return a / b;\n+  return a * b;\n }\n</code></pre>\n\nFor a real example of
+      this in action, you can look at [this commit on Check](https://github.com/meedan/check-web/commit/452acb9519b65fbe5e0bb48f4bec7ce120debdd2).\n\n###
+      How does this actually help developers?\n\nOkay, so we have made a bunch of
+      commits in the format I've described above. How does this make day-to-day development
+      easier? It all comes down to organizing information about the software you're
+      developing, and centralizing developer-facing data in Git instead of somewhere
+      else.\n\nShort subject lines are beneficial in at least two places: git log
+      output and the \"commits\" page on your Git host of choice.\n\nWhen it comes
+      to logs, I like to use the `--oneline` command line switch to see an abbreviated
+      version of recent changes. This gives us just the short subject lines. Check
+      out these actual git log outputs for commits that do __not__ use the above formatting
+      recommendations:\n\n<pre><code class=\"language-git\">\n$ git log --oneline
+      --no-decorate\n\n3340a1653 CHECK-1254 Updating check-ui version\na6e92ddc7 CHECK-1252:
+      remove none options from folder filter (#992)\nb596e5e03 CHECK-1249: allow user
+      to add maxNumber then validate the inputs (#991)\n56308243d Feature/1071 time
+      annotation (#990)\n227de4ecf Upgrade @material-ui/icons to v5 (#989)\n6437fb41f
+      Ticket CHECK-1239: Filter item log only by event types\n0f72a9ee1 Ticket CHECK-1099:
+      Auto-publish (or not) Fetch imports\na2ee9b639 CHECK:824: add clear for date
+      range filter and disable search in annotations field\ne40871c51 Feature/check
+      824 filter date range number range for annotation (#986)\n0bb05a56b CHECK-109:
+      Localization fix: Trim spaces. ¯\\_(ツ)_/¯\n4e60cc109 CHECK-109: Updating l10n\nc67e74427
+      CHECK-1142: propose folders as destination for rejecting suggested and make
+      default folder on the top of list (#987)\nd84b757e2 Feature/check 1150 add default
+      folder per workspace (#983)\n6e91692aa Ticket CHECK-1195: Gray-out the previous
+      and next links if there are not search results to be displayed\n</code></pre>\n\nNow
+      compare it to a version of the same log that I've edited to reflect the above
+      formatting suggestions:\n\n<pre><code class=\"language-git\">\n$ git log --oneline
+      --no-decorate\n\n3340a1653 Update check-ui version\na6e92ddc7 Remove \"none\"
+      options from folder filter\nb596e5e03 Allow user to add maxNumber then validate
+      the inputs\n56308243d Add advanced time annotation feature\n227de4ecf Upgrade
+      @material-ui/icons to v5\n6437fb41f Filter item log only by event types\n0f72a9ee1
+      Auto-publish (or not) Fetch imports\na2ee9b639 Add clear for date range filter,
+      disable search in annotations field\ne40871c51 Filter date range number range
+      for annotation\n0bb05a56b Fix localization: trim spaces ¯\\_(ツ)_/¯\n4e60cc109
+      Update l10n\nc67e74427 Change logic for folder organization\nd84b757e2 Add default
+      folder per workspace\n6e91692aa Update previous/next link behavior in search\n</code></pre>\n\nYou'll
+      notice that I removed otherwise-critical context information from several commits.
+      For example, \"propose folders as destination for rejecting suggested and make
+      default folder on the top of list\" has become \"Change logic for folder organization\".
+      That's based on the assumption that the details of what changed would move from
+      the subject of the commit down to the body. The subject really just needs to
+      let someone scanning commits understand that the code in this commit touches
+      the folder organization systems, and then the reader can `git show [hash]` if
+      they need to know more. I also removed Jira ticket numbers and Github pull request
+      numbers. Those can also go in the body text.\n\nUltimately, good subject lines
+      make the timeline of development legible.\n\nIn contrast to subject lines, body
+      text is not about brevity. It's about including as much context as makes sense
+      for a commit, ideally in plaintext language. I think of the body text of Git
+      commits like a textual database of knowledge about the code.\n\nFor example,
+      I can use the `--grep` switch for `git log` to search this database (along with
+      `-i` to make the search case-insensitive). Let's say I am working on a bug related
+      to a modal dialog, and I have the sneaking suspicion that I might have introduced
+      it as a regression in the last six months. Here I am searching the code for
+      all commits I have made that are related to the concept of a [modal](https://material.io/components/dialogs):\n\n<pre><code
+      class=\"language-git\">\n$ git log --author=\"Darius\" --grep=\"modal\" -i\n\ncommit
+      5166bb2388c6058351aaa4b05bc9729a015e9914\nAuthor: Darius Kazemi <darius@meedan.com>\nDate:
+      \  Thu Mar 17 13:10:02 2022 -0700\n\n    Add option to disable title hyperlinks
+      to MediaItem\n\n    Calling this `modalOnly` because moreso than disabling the
+      title it means\n that clicking anywhere on the card pops up the modal and only
+      the modal.\n\n    Fixes CHECK-1573\n\ncommit 8d0d9e50f4563b48447fc9ef23590eb150b1e538\nAuthor:
+      Darius Kazemi <darius@meedan.com>\nDate:   Mon Nov 15 15:26:53 2021 -0800\n\n
+      \   Add modal prompt when navigating away during edit\n\n    This commit attaches
+      a `useEffect` to the task editor that loads/unloads\n a browser confirmation
+      EventListener depending on if the annotation widget\n is in the editing state.\n\n
+      \   Fixes CHECK-1093\n</code></pre>\n\nNot only does this pull up my previous
+      modal work, but looking at these results I can quickly understand the context
+      of what I was doing at the time and why I made some of the decisions that I
+      did. When I do `git show [hash]` to view the code changes, I'll have a much
+      better understanding of why the diff is the way it is!\n\nAnother advantage
+      of verbose body text is that writing pull requests becomes extremely easy. Have
+      you ever made a bunch of commits and then written a pull request the next day?
+      Sometimes it's hard to remember the context of the work you were doing, and
+      that makes it hard to write a good pull request. Using longform commits, I will
+      often just copy and paste the body text of my commits into a pull request composition
+      form and it's already ~80% written for me. Since I write my body text in Markdown
+      it's even nicely pre-formatted!\n\nIf you use Github, a neat little trick is
+      that if your branch contains a single commit, Github will automatically populate
+      the subject line as the title of the pull request and the body text as the body
+      of the pull request. Remember [the commit that I linked earlier](https://github.com/meedan/check-web/commit/452acb9519b65fbe5e0bb48f4bec7ce120debdd2)?
+      The [associated pull request](https://github.com/meedan/check-web/pull/1078)
+      was automatically created using this method. The only thing I added was the
+      screenshot for extra context.\n\n### Conclusion\nGood commit messages turn our
+      Git repositories into a database of knowledge about our code and why it's implemented
+      the way it is. This is distinct from something like Jira, which is a database
+      for product management decisions. We could put technical implementation details
+      in Jira, but in my opinion Git is the place where it makes sense for all this
+      stuff to live. Our product managers don't need to know why we implemented something
+      the way we did. They need to know that we implemented it, and when it happened,
+      and when it's going live. Jira and similar project management tools are great
+      for tracking that information. But information like you see in the body text
+      of commits that I recommend above is basically noise as far as anyone outside
+      of engineering is concerned, so let's keep that stuff to a place where only
+      engineers are going to see it!"
+    words_by:
+    - sys:
+        id: 6ClRwJjnpBqHxxj2OSXHfc
+    alt_date: !ruby/object:DateTime 2022-04-29 00:00:00.000000000 Z
+  - sys:
+      id: 4lfanrjNVzMuBpkjnBflIO
+      created_at: !ruby/object:DateTime 2022-04-02 09:33:58.122000000 Z
+      updated_at: !ruby/object:DateTime 2022-04-02 10:16:16.454000000 Z
+      content_type_id: story
+      revision: 5
+    title: 'Strengthening fact-checking with media literacy, technology & collaboration:
+      Taiwan FactCheck Center'
+    slug: strengthening-fact-checking-with-media-literacy-technology-and-collaboration
+    topic:
+    - sys:
+        id: 7jQKmsQvOs6pjAjLth5gsA
+    - sys:
+        id: 2JV51Hja1BxcyGdNP5VID3
+    lead_image:
+      sys:
+        id: DYE4DISi87x6wKkZDUIZK
+        created_at: !ruby/object:DateTime 2022-04-02 09:40:29.893000000 Z
+        updated_at: !ruby/object:DateTime 2022-04-05 21:56:34.434000000 Z
+      title: Media literacy training - Taiwan FactCheck Center
+      description: 'TFC’s senior citizen project powered by Check Global: students
+        used Google Lens finding our information about flowers, buildings, and imported
+        snacks'
+      url: "//images.ctfassets.net/g118h5yoccvd/DYE4DISi87x6wKkZDUIZK/e7090a3800c7161e8aa9d01081fa4c87/meedan_blog_Taiwan_FactCheck_Center-4.jpg"
+    description: 'Taiwan FactCheck Center is a leading fact-checking organization
+      in Taiwan. Founded by Taiwan Media Watch and the Association for Quality Journalism,
+      the Center does fact-checking with the objective of improving the information
+      ecology and news quality of Taiwan. Meedan’s Check Global program is honored
+      to have Taiwan FactCheck Center as a partner. We have worked with the organization
+      on different projects over the past two years, which includes a media literacy
+      program for senior citizens, college students and TFC’s collaboration with the
+      VeraFiles, an independent fact-checking group in the Philippines, in promoting
+      VeraFiles’ fact-checking ChatBot to the Filipino community in Taiwan. '
+    body: |-
+      [Taiwan FactCheck Center](https://tfc-taiwan.org.tw/) is a leading fact-checking organization in Taiwan. Founded by Taiwan Media Watch and the Association for Quality Journalism, the Center does fact-checking with the objective of improving the information ecology and news quality of Taiwan. Meedan's Check Global program is honored to have Taiwan FactCheck Center as a partner. We have worked with the organization on different projects over the past two years, which includes a media literacy program for senior citizens, college students and TFC's collaboration with the VeraFiles, an independent fact-checking group in the Philippines, in promoting [VeraFiles' fact-checking ChatBot](https://meedan.com/blog/meet-vera-the-truth-bot/) to the Filipino community in Taiwan.
+
+      In this blogpost we bring insights from Summer Chen, Editor in Chief at Taiwan FactCheck Center on the team's various efforts to combat mis-disinformation in the country. Summer in a message to fellow fact-checkers and TFC's readers drives a point that the international fact-checking day is not just of fact-checkers, but is a day to celebrate facts and truth and honor everyone who is part of the battle against misinformation.
+
+      __Summer Chen, Editor in Chief at Taiwan FactCheck Center:__
+
+      Since its launch in 2018, Taiwan FactCheck Center (TFC) has been committed to producing high-quality fact-checks in the fight against misinformation, as well as to spreading media literacy.
+
+      To do that, we share the concept of fact-checking, our methodology, and verification skills and tools with media practitioners who are behind one of the most critical news sources in society. Every year we conduct media literacy training for journalists and we also train students, teachers, and passionate people from different communities.
+
+      __Defending democracy and extending media literacy to more vulnerable sections of society__
+
+      It is noteworthy that we take multiple approaches to broaden our reach. We constantly have workshops in universities across Taiwan to sow seeds of fact-checking among the youth. We also aim at senior citizens who are relatively more vulnerable to online misinformation by [partnering with digital instructors who specialize in training elderl](https://tfc-taiwan.org.tw/articles/7049)y population. With the feedback from these experienced instructors, we are able to make our teaching materials and methods more fun and digestible.
+
+      At TFC we build a front line along with the civil society to combat mis- and disinformation. By empowering the public to fact-check information, we are able to defend the integrity of the democracy and protect it from harm caused by disinformation. Whenever we have a debate or discussion over public policy or agenda, we often see disinformation spread with the intent to mislead the discussion or distract people's attention. We can only have meaningful discussions and rational decisions when we have access to factual information. That is the core of democracy.
+
+      __Scaling up fact-checking using technology, AI and collaboration__
+
+      We have [teamed ](https://tfc-taiwan.org.tw/articles/6574)up with Taiwan Institute for Information Industry (III) who supports us to develop an AI filter tool, [Rumor catcher](https://tfc-taiwan.org.tw/articles/6076). This tool allows us to collect and identify viral claims circulating online in real-time, speeding up as well as scaling our debunking work.
+
+      This year, we are working with [VeraFiles](https://verafiles.org/), a fact-checking organization in the Philippines to introduce VeraFiles' fact-checking ChatBot to the Filipino communities in Taiwan. At the moment we have had around 100 Filipinos in Taiwan who have joined VERA ChatBot on Viber. Through this collaboration, the Filipino communities in Taiwan who might be at a disadvantage in terms of access to reliable information can have better means to protect themselves from misinformation. We want to support the Filipino diaspora to receive reliable information on the latest in their homeland so they can make evidence-based decisions for the best of their country.
+
+      We have recently published this article (<https://tfc-taiwan.org.tw/articles/7050>) on one of the campaign events this February.
+
+      __Message to fellow fact-checkers and TFC's readers on International fact-checking day__
+
+      On the international fact-checking day, my team from Taiwan FactCheck Center wants to share some words with our audience.
+
+      Fact-checking in Taiwan is contributed by groups of passionate people who are enthusiastic about the facts and truth. They actively flag claims to fact-checkers and share factual information with their family and friends; they learn about fact-checking with all their hearts. This tremendous amount of power and energy is the most valuable foundation against disinformation. So we think that fact-checking day doesn't just belong to fact-checkers- it is also a day in honor of facts and a celebration for everyone.
+  - sys:
+      id: 5E8G8k7vFRL950VeJ0Hg2m
+      created_at: !ruby/object:DateTime 2022-03-07 18:59:51.819000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-09 08:15:54.407000000 Z
+      content_type_id: story
+      revision: 3
+    title: What is gendered health misinformation and why is it an equity problem
+      worth fighting?
+    slug: what-is-gendered-health-misinformation-and-why-is-it-an-equity-problem-worth
+    topic:
+    - sys:
+        id: 2RSe9rNkwMwjxNTRWi2XJq
+    - sys:
+        id: 7ccIqYyl4GXxNC2agZbh8a
+    lead_image:
+      sys:
+        id: 2ZiX9kJyrBiqOJY58nTVoV
+        created_at: !ruby/object:DateTime 2022-03-09 08:15:11.851000000 Z
+        updated_at: !ruby/object:DateTime 2022-03-09 08:45:42.485000000 Z
+      title: What is gendered health misinformation and why is it an equity problem
+        worth fighting?
+      description: ''
+      url: "//images.ctfassets.net/g118h5yoccvd/2ZiX9kJyrBiqOJY58nTVoV/c349b4f3dd1a26130c94a5a7b762d6ae/meedan_blog_gendered-health-misinformation.jpg"
+    body: "International Women's Day (IWD) (today, March 8, 2022) is an opportunity
+      to celebrate the achievements of women. Importantly, however, it’s also a day
+      for reconciling all insidious forms of misogyny and sexism that not only affect
+      women, but everyone.\n\nTo do so requires acknowledging the resilient contributions
+      of women globally, but also the fact that we are far from living in an equal
+      world where all genders are respected, and we each have a unique role to play
+      in getting there. \n\nThis International Women’s Day, we reflect on just that:
+      what our role in reaching true gender parity and equity is as an organization
+      steeped in the world of fact-checking and fighting misinformation. \n\nThe IWD
+      campaign theme for 2022 is [#BreakTheBias](https://www.internationalwomensday.com/theme
+      \"#BreakTheBias campaign\") – which asks people globally to imagine and fight
+      for a world that is free of bias, stereotypes, and discrimination, and where
+      differences are celebrated and valued. In accordance with this theme, and as
+      part of our reflections on our own role in fighting a patriarchal and sexist
+      society, we are bringing awareness in this post to gendered misinformation –
+      a subset of health misinformation that is under-researched and under-prioritized
+      – with a focus on gendered health misinformation.\n\nIn this article, we differentiate
+      between gendered disinformation and gendered misinformation, analyze the ways
+      in which it presents online with a special focus on gendered misinformation
+      in healthcare, and explain why it is an issue of concern to everyone.\n\nGendered
+      disinformation is a subset of online or gendered abuse that uses heavily stereotyped
+      narratives, fake stories, threats, and sometimes even sexually charged, distorted
+      images to defame women and push them out of the public sphere. Gendered disinformation
+      typically involves tailored harassment aimed to delegitimize and harm the target.
+      Gendered disinformation in how it’s been researched also typically centers on
+      the harassment, defamation, and sexualization of women specifically (though,
+      to be clear, gendered disinformation also severely impacts trans and nonbinary
+      people). \n\nWe define gendered misinformation, on the other hand, as the unintentional
+      spread of false or substandard information that either stems from gendered biases,
+      or is specifically about gender. While gendered misinformation can impact anyone
+      of any gender, we see it disproportionately impact women, trans, and nonbinary
+      people. Important note: gendered misinformation can be about sex, and not gender
+      (eg. menstruation), but still be a gendered claim in nature.\n\nResearch (albeit
+      limited) is clear that women are routinely targeted by [gendered disinformation](https://www.disinfo.eu/publications/gender-based-disinformation-advancing-our-understanding-and-response/
+      \"Understanding gender based disinformation\"), typically in the form of intentional
+      and coordinated sexist information campaigns and harassment. The [Wilson Center’s
+      report](https://www.wilsoncenter.org/publication/malign-creativity-how-gender-sex-and-lies-are-weaponized-against-women-online
+      \"Wilson Center’s report on gendered disinformation\") “Malign Creativity: How
+      Gender, Sex, and Lies are Weaponized Against Women Online” identifies the three
+      defining characteristics of online disinformation as 1) falsity, 2) malign intent,
+      and 3) coordination. \n\nMultiple reports have illuminated the real-world impacts
+      of gendered disinformation. One [analysis](https://www.brookings.edu/techstream/gendered-disinformation-is-a-national-security-problem/
+      \"Gendered disinformation is a national security problem\") of the 2020 U.S
+      primaries focused on specifically women in politics shows that women candidates
+      were intentionally and falsely attacked more often than male candidates. The
+      [Wilson Center report mentioned above](https://www.wilsoncenter.org/publication/malign-creativity-how-gender-sex-and-lies-are-weaponized-against-women-online
+      \"Wilson Center’s report on gendered misinformation\") found that 9 of 13 female
+      politicians surveyed across three countries and six social media platforms had
+      been targets of gendered disinformation narratives. Across the world, women
+      from politicians to journalists to public health officials have been threatened,
+      [harassed](https://www.medicalbag.com/home/features/female-doctors-are-especially-vulnerable-to-online-harassment/
+      \"Women doctors especially vulnerable to online harassment\"), [sent to prison](https://www.mediasupport.org/blogpost/digital-misogyny-why-gendered-disinformation-undermines-democracy/
+      \"Digital misogyny\"), and [killed](https://www.nytimes.com/2021/03/05/world/asia/afghanistan-women-journalists.html
+      \"Women journalists in Afghanistan\") as a result of gendered disinformation.\n\nUnlike
+      gendered disinformation, which is intentional and coordinated sexist information
+      campaigns, gendered misinformation may stem from a combination of external factors
+      and internal factors, such as the lack of access to information and existing
+      stereotyped beliefs. And though it is a concept that is less widely researched
+      and more insidious, we at Meedan witness its spread and impacts every day in
+      our work, and believe that its impacts are pervasive and harmful – in many ways
+      exactly because of its insidious nature.\n\nGendered misinformation spans topics
+      including politics, economics, health, societal roles, and culture. This post
+      narrows in on gendered health misinformation, given our ongoing digital health
+      work including [Health Desk](https://health-desk.org/ \"Health Desk\"), through
+      which we have observed gendered health misinformation trends since the project’s
+      launch; for example, false claims about [vaccines and menstrual cycles](https://health-desk.org/articles/what-do-we-know-so-far-about-covid-19-vaccines-and-their-impact-on-menstruation
+      \"vaccines and menstrual cycles fact-checks on Health Desk\") and false claims
+      that [pregnant people shouldn’t get the vaccine](https://health-desk.org/articles/what-do-we-know-so-far-about-the-covid-19-vaccines-during-or-before-pregnancy-and-breastfeeding
+      \"fact-check on pregnancy and COVID-19 vaccine on Health Desk\") to keep their
+      baby safe. \n\nBoth of these are examples of gendered health misinformation,
+      which, again is the unintentional spread of false or substandard information
+      that either stems from gendered biases, or is specifically gendered. The first
+      claim is specifically about people who can menstruate and is a gendered claim.
+      The second claim is both about people who can get pregnant and is rooted in
+      stereotypes about pregnant people needing to sacrifice (unnecessarily) for their
+      baby. \n\nThe number of people online increases by the day, and more people
+      have [access to the internet](https://www.statista.com/statistics/617136/digital-population-worldwide/
+      \"Who has internet access worldwide\") than they do [essential healthcare services](https://www.who.int/news/item/13-12-2017-world-bank-and-who-half-the-world-lacks-access-to-essential-health-services-100-million-still-pushed-into-extreme-poverty-because-of-health-expenses
+      \"Poverty worldwide and access to healthcare\"). This ubiquity of the internet
+      combined with rampant sexism and stigma surrounding the healthcare of women,
+      trans, and nonbinary people who already have [lower](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221583
+      \"In the US, Comparing the health of non-binary and binary transgender adults
+      in a statewide non-probability sample\") [access](https://physicians.dukehealth.org/articles/recognizing-addressing-unintended-gender-bias-patient-care#:~:text=Despite%20good%20intentions%2C%20gender%20bias,care%20is%20a%20serious%20problem.
+      \"Recognizing, Addressing Unintended Gender Bias in Patient Care\") to quality
+      healthcare than cis men results in a misleading and often harmful ecosystem
+      of gendered health information online. \n\nEvery day, people around the world
+      – especially women, trans, and nonbinary people – are bombarded with stereotypes
+      and misleading facts about their bodies and their health. One [report](https://womensagenda.com.au/latest/plan-international-australia-launch-a-bold-new-campaign-to-stop-women-feeling-unsafe-after-dark/
+      \"Plan International Australia report on online health misinformation\"), published
+      by Plan International Australia, found that 1 in 5 girls interviewed felt unsafe
+      as a result of online health information, and that, due to misinformation, 1
+      in 4 questioned whether to get vaccinated against the coronavirus. The study
+      reported that many participants “said they had concerns about fake events advertised
+      on social media placing them at physical risk, or unreliable medical advice
+      that could harm their health or impact their confidence in legitimate medical
+      advice.”\n\nIn a different [study](https://dl.acm.org/doi/abs/10.1145/3411764.3445091
+      \"Barriers to accurate online health misinformation for transgender and nonbinary
+      patients\") on transgender health misinformation, transgender participants reported
+      getting inaccurate and misleading information online about topics such as hormones,
+      binding (the action of making one’s chest look flatter using clothing, binders,
+      etc.), mental health, surgery, and coexisting conditions. One participant described
+      the following about their experience seeking out health information online:
+      “I was told – rather incorrectly – that my gender struggle (rather, my difficulty
+      to understand what was feelings of dysphoria) was a dissociative symptom and
+      meant I was bipolar and a danger to myself, but not nonbinary.” This misinformation
+      led this person to delay seeking care and exacerbated existing mental health
+      challenges – serving as just one example of how gendered health misinformation
+      can actively cause harm.\n\nThis pervasiveness of gendered health misinformation
+      is also what we’ve witnessed at Meedan in our digital health work, and has only
+      amplified during the COVID-19 pandemic. This amplification is due to three main
+      factors: 1) [an increase in online activity overall](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7280123/
+      \"Impact of digital surge during Covid-19 pandemic\"); 2) an increase in health
+      concerns both related to COVID-19 and unrelated, as COVID-19 has dominated healthcare
+      for two years and [worsened](https://www.nytimes.com/2022/01/26/world/europe/coronavirus-uk-nhs-backlog.html
+      \"Backlog of healthcare issues due to Covid-19 pandemic\") [healthcare](https://www.vox.com/policy-and-politics/22555949/us-health-care-system-ranking-covid-19-pandemic
+      \"US healthcare worse because of pandemic\") and [health outcomes](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(21)00079-6/fulltext
+      \"Effects of the COVID-19 pandemic on maternal and perinatal outcomes\") as
+      a result; and 3) a [decrease in opportunities](https://www.unwomen.org/en/news/stories/2020/9/feature-covid-19-economic-impacts-on-women
+      \"Economic impacts of Covid-19 on women worldwide\") and [quality of life](https://www.columbiapsychiatry.org/news/impact-covid-19-pandemic-transgender-and-non-binary-community
+      \"Impact of Covid-19 on transgender and nonbinary community\") for women, trans,
+      and nonbinary folks since the onset of the pandemic. \n\nCommon gendered health
+      misinformation topics include vaccines, hormones, hormone replacement therapy
+      (HRT), menstruation, fertility and pregnancy, birth effects, abortion, sexually
+      transmitted infections, diet, gender-affirming care, and intimate partner violence
+      – among many others. This type of misinformation can be especially misleading
+      and harmful because these topics are stigmatized – meaning that people may be
+      more likely to look for answers online than elsewhere.\n\nOne stark example
+      of gendered health misinformation is the wide range of rumors about the COVID-19
+      vaccines and their supposed effect on fertility, menstruation, and pregnancy.
+      We have received requests on Health Desk to address misinformation claims including
+      “COVID-19 vaccines cause the placenta to not develop and lower fertility,” “COVID-19
+      vaccines causing birth defects,” and “COVID-19 vaccines alter menstrual cycles
+      for life.” These claims are [widespread](https://jamanetwork.com/journals/jama/fullarticle/2789477
+      \"Widespread Misinformation About Infertility Continues to Create COVID-19 Vaccine
+      Hesitancy\") and erode trust in vaccines on aggregate, not just for people who
+      can menstruate or bear children, showing how gendered health misinformation
+      isn’t just a problem for the group being targeted, it’s a problem for everyone
+      in that it reinforces gender stereotypes and promotes invalid science.\n\nAs
+      evidence of this, one U.S-based [survey by KFF](https://www.kff.org/coronavirus-covid-19/poll-finding/kff-covid-19-vaccine-monitor-media-and-misinformation/
+      \"KFF COVID-19 Vaccine Monitor\") found that out of about 1,500 nationally representative
+      study participants, one third reported that they heard that COVID-19 vaccines
+      caused infertility and either believed the myth was true or weren’t sure. Infamous
+      vaccine scientist turned vaccine skeptic Robert Malone has also [erroneously
+      claimed](https://firstdraftnews.org/articles/baseless-claims-about-mrna-vaccines-and-miscarriages/
+      \"mRNA vaccine misinformation\") that mRNA COVID-19 vaccines cause significant
+      disruptions in periods and miscarriages, citing that as one of the reasons that
+      mRNA COVID-19 vaccines are dangerous.\n\nFor context, [data shows](https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-linked-small-increase-menstrual-cycle-length#:~:text=The%20team%20found%20that%20women,with%20a%200.91%2Dday%20increase.
+      \"Small increase in menstrual cycle length from Covid-19 vaccine dose scientific
+      research\") that COVID-19 vaccines may cause a small increase in period cycle
+      length by about less than a day after each dose, with any effects not lasting
+      past that single cycle. There is no current evidence that the COVID-19 vaccines
+      cause miscarriage, but that claim is being used as a significant selling point
+      for why the vaccines are dangerous. This example is just one of many in which
+      gendered health misinformation not only targets women and people who menstruate,
+      but is used to push broader health misinformation narratives.  \n\nExamples
+      of gendered health misinformation claims unrelated to COVID-19 include “partners
+      will be able to tell if you’ve had an abortion,” “feeding your baby formula
+      as opposed to breastfeeding is wrong and harmful,” “transgender children are
+      undergoing irreversible medical changes by transitionin,” “polycystic ovary
+      syndrome (PCOS) is caused by the person who has it,” “using tampons causes cancer,”
+      “if you got the HPV vaccine, you can skip your pap smear,” and “intimate partner
+      violence doesn’t cause serious health problems.” \n\nGendered misinformation,
+      and particularly gendered health misinformation, is an emerging concept that
+      requires more research and refinement centered on those most impacted. We’re
+      looking forward to diving into these claims further in future research, and
+      shedding light on the ways that gendered health misinformation both harms and
+      serves to uphold patriarchal values. Doing so is one small part of our own commitment
+      to break the bias not only on International Women’s Day, but every day."
+    words_by:
+    - sys:
+        id: 5ae0P5OHR0m1xEjrlXd4ef
+    - sys:
+        id: Rf4YBEXpwAKhBawrZXO1q
+    alt_date: !ruby/object:DateTime 2022-03-08 00:00:00.000000000 Z
   - sys:
       id: R8iU8W14wUlE6IcoPp9oj
       created_at: !ruby/object:DateTime 2022-03-07 18:43:01.486000000 Z
@@ -131,366 +578,6 @@ moduleStories:
     words_by:
     - sys:
         id: 5ae0P5OHR0m1xEjrlXd4ef
-  - sys:
-      id: 3PDW5Ef4WhQa47hvr2hEsO
-      created_at: !ruby/object:DateTime 2022-03-03 22:43:16.637000000 Z
-      updated_at: !ruby/object:DateTime 2022-03-07 18:41:15.346000000 Z
-      content_type_id: story
-      revision: 2
-    title: Welcome Smriti Singh, our Research Intern
-    slug: welcome-smriti-singh-our-research-intern
-    topic:
-    - sys:
-        id: 32ogZlDIXFakgZXiZ8l3MT
-    lead_image:
-      sys:
-        id: 6eRniZ30FiZgCWU6kUuu5C
-        created_at: !ruby/object:DateTime 2022-03-03 22:58:59.504000000 Z
-        updated_at: !ruby/object:DateTime 2022-03-03 22:59:38.304000000 Z
-      title: Smriti Singh headshot
-      description: ''
-      url: "//images.ctfassets.net/g118h5yoccvd/6eRniZ30FiZgCWU6kUuu5C/234d03d3f4bddf307fd03114f7d38822/smriti_headshot.jpeg"
-    body: "Meedan is pleased to welcome Smriti Singh to our dedicated research team!
-      We're excited to support her deeper dive into work with Natural Language Processing
-      and look forward to her projects.\n\nLearn more about Smriti below:\n\n### 1.
-      What has been your experience before you joined Meedan?\n\nI’m currently wrapping
-      up my undergraduate degree at [Manipal Institute of Technology, India](https://manipal.edu/mit.html
-      \"Manipal Institute of Technology, India\"). My major is Information Technology,
-      and I’ve taken up a minor in Big Data. During my undergraduate, I have focused
-      on taking small, dedicated steps to establishing a career in natural language
-      processing (NLP) research. I spent a lot of time working on various projects
-      and learning about different technologies. I also spent a significant amount
-      of time developing my leadership skills and working on initiatives that promote
-      women empowerment within my college community. \n\nOn the technical side of
-      things, I’ve worked on various use cases of applied NLP research, such as [sexism
-      detection in popular sitcoms](https://aclanthology.org/2021.acl-srw.19 \"sexism
-      detection in popular sitcoms\"), anxiety detection across social media platforms,
-      sexist threat detection on Twitter, [analyzing factors that affect domestic
-      violence victims during the COVID-19 pandemic](http://www.winlp.org/winlp2021_37_paper/
-      \"analyzing factors that affect domestic violence victims during the COVID-19
-      pandemic\"), and [identifying child predators in chat rooms](http://www.winlp.org/winlp2021_29_paper/
-      \"identifying child predators in chat rooms\"). I’m highly motivated to produce
-      research that can contribute to solving social challenges and improve the quality
-      of our lives, which is why I feel extremely lucky to be working at a company
-      that is deeply committed to making a positive impact on the world. \n\nFrom
-      a holistic perspective, I’ve been an active member of communities like ACM-W
-      Manipal, where I’ve developed mentorship systems and research study groups for
-      young women, so that they can gain confidence and grow both personally and professionally.
-      I used to contribute to a couple of my University’s [college blogs too](https://manipalblog.com/author/smritisingh26/
-      \"Manipal Institute of Technology blogs\"). I’ve written about a variety of
-      topics, ranging from the Avengers to environmental awareness. I’ve also written
-      articles about many conventionally taboo topics, such as sex education and rape
-      culture. \n\nAt Meedan, I hope to use a combination of my research and leadership
-      skills to add value to the team and their global impact. So far, I’ve had a
-      great time working with everyone and getting to know the different problem statements
-      that the company is working on. \n\n### 2. Tell us about one exciting and insightful
-      experience that has shaped your perspective and work.\n\nEver since I can remember,
-      I have been ardent about the potential of technology and curious to explore
-      how we can leverage it to improve the quality of our lives. My interest in technology
-      most likely stems from having seen my father work in the technology industry
-      over many years. Eighteen years ago, I remember sitting next to him with a toy
-      laptop and pretending to work beside him. These days, I often sit next to him
-      with a real laptop and I no longer have to pretend to be working :) \n\nThat
-      aside, I believe that my interest in using technology to solve social challenges
-      stems from having seen how discrimination limits people from achieving their
-      true potential. Though I come from a privileged family and have been provided
-      with unconditional support to build a career, I recognise that not everyone
-      has been this lucky. As an advocate for diversity and inclusion in technology,
-      I firmly believe that technology can help make the world a better place. That’s
-      another reason why I consider myself lucky to be a part of this organization,
-      where their mission statement closely aligns with my personal long term career
-      goals. \n\n### 3. What's a research project you're excited about right now?\n\nMy
-      first research project as a part of Meedan aims to identify questions on social
-      media and analyze the geographic, temporal and demographic variation in questions
-      asked during the onset of the COVID-19 pandemic. Another important question
-      this research aims to answer is whether globally diverse informational needs
-      are being met by official healthcare authorities. I think it’s not only exciting,
-      but also essential to capture the variance of the nature of these questions
-      and how they compare to the information provided by leading healthcare authorities.
-      This will help us better understand diverse informational needs and thus, better
-      prepare for future healthcare crises.\n\n### 4. What brought you to Meedan?\n\nI
-      like to believe that it was a little bit of luck that brought me to Meedan.
-      I’ve been working with Scott Hale, our Director of Research, on a side project
-      for a long time now. I met Scott through a colleague who needed help on this
-      project. When I expressed my interest in joining Meedan for a research internship,
-      Scott was extremely supportive… and here I am! I’m very thankful for this opportunity
-      (Thank you Scott, Ed and others!) and I’m sure that we can do some great things
-      together while I’m here. \n\nThe team culture here is possibly one of the best
-      parts about Meedan. Diversity is not just accepted here, it is embraced. I like
-      how everyone’s opinions are valued here and I find it really admirable that
-      despite being a globally remote company, we have found ways to connect and bond
-      with each other.\n\nI’m excited to work on challenging research problems at
-      the intersection of healthcare, misinformation and gender bias. I’d really love
-      to contribute to these research problems in such a way that the solutions can
-      be deployed to make a real-world impact. Further, I’m hoping that over time,
-      my leadership skills will also be of use in the team! \n\n### 5. Tell us some
-      fun facts about Smriti.\n\n- I maintain a fairly active lifestyle. I try to
-      workout for anywhere between an hour to two hours for at least 5-6 days a week.
-      I love dance workouts, aerobics and HIIT!\n- I love binging on shows and watching
-      movies. Three of my favorite genres are romance, crime and thrillers. \n- I’m
-      a foodie with a huge sweet tooth. I’m crazy for basically anything with cheese
-      or sugar. (Or both… cheesecake for the win)"
-  - sys:
-      id: 7G70ZKNowNRwac7nZ1vDpW
-      created_at: !ruby/object:DateTime 2022-02-25 13:57:46.397000000 Z
-      updated_at: !ruby/object:DateTime 2022-02-25 15:42:08.053000000 Z
-      content_type_id: story
-      revision: 3
-    title: Lessons from Meedan and Article 19's work fighting COVID-19 misinformation
-      in Sub-Saharan Africa
-    slug: fighting-covid-19-misinformation-lessons-from-meedan-and-article-19s-work
-    topic:
-    - sys:
-        id: 2RSe9rNkwMwjxNTRWi2XJq
-    - sys:
-        id: 6guddUxXT17w3joKaoHj9K
-    lead_image:
-      sys:
-        id: 2GTBic1sAuSWcZjy78HWux
-        created_at: !ruby/object:DateTime 2022-02-25 14:22:12.624000000 Z
-        updated_at: !ruby/object:DateTime 2022-02-25 14:41:05.175000000 Z
-      title: Article 19 workshop wrapup
-      description: Banner image
-      url: "//images.ctfassets.net/g118h5yoccvd/2GTBic1sAuSWcZjy78HWux/b26da28aea109363b9c0b5ddc3df17f6/meedan_blog_article19_wrapup_feb2022_1.png"
-    description: Meedan held a series of workshops organized in partnership with Article
-      19, bringing together 55 journalists from six newsrooms and media organizations
-      in four African countries to collaborate and learn more about health misinformation.
-    body: "As in other parts of the world, media practitioners, especially independent
-      media organizations in Sub-Saharan Africa, have been adversely affected by the
-      COVID-19 pandemic, losing revenues and struggling to remain relevant as misinformation
-      led to a decline in trust. Journalists had to find ways not just to communicate
-      the right information to their audiences in response to the misinformation in
-      circulation, but also to stay informed about the subjects they were covering.
-      \n\n![Article 19 EU Commission poster](//images.ctfassets.net/g118h5yoccvd/3E3YCp1HNxh3OP2tRDEsRc/f89f925b3c68e4674debb2dfed24a1c5/TFRI-Africa-M.jpg)\n\nIt
-      is with this context in mind that Meedan and Article 19 came together to support
-      independent media and journalists working in four African countries to respond
-      to health misinformation through essential, timely support and materials. The
-      program, which ran from February 2021 to January 2022, included a series of
-      health misinformation trainings, as well as the establishment of a collaborative
-      response network of regional fact-checking organizations and newsrooms with
-      the overall goal of boosting the production and sharing of high-quality, reliable
-      information during the COVID-19 misinformation crisis. \n\n![Article 19 + Meedan
-      training in February 2021](//images.ctfassets.net/g118h5yoccvd/2kFcYDeq9zto4e9djQ4XRq/60a7f0d1b8bd7a8ab8bcbdec48cead6a/Screenshot_2021-02-05_at_16.09.44.png)\n<p
-      class=\"caption\">Article 19 + Meedan training in February 2021</p>\n\nTo set
-      this up, we started with a collaborative and experimental approach, using a
-      variety of platforms and formats that the participants had not previously tried.
-      This, in my opinion, greatly contributed to the success of the program, allowing
-      for some great content to be produced from Meedan's Health Desk, for example,
-      which was then translated into local languages for audio, video and text in
-      a variety of contexts, and creating pathways for future collaboration between
-      journalists and newsrooms in the region. \n\nOverall, this program was built
-      around the need to adapt interventions to local contexts while maintaining a
-      global focus. The aim was for participants to focus on their own local contexts
-      and how the pandemic was progressing in their countries, and Meedan's role was
-      to provide them with a higher level view based on the best available scientific
-      information through Health Desk. Navigating this showed us that it was possible
-      to combine these two perspectives - bringing in public health expertise and
-      amplifying essential voices while making sure that context is respected.\n\nWe
-      worked with six newsrooms and news organizations spread across the continent,
-      including the Africa Women Journalism Project, which has fellows in Nigeria,
-      Ghana, Kenya, Tanzania and Uganda, the Center for Innovation and Technology
-      (CITE) located in Zimbabwe, Debunk Media in Kenya, Defy Hate Now in South Sudan,
-      FactSpace West Africa in Ghana, and Pamoja FM in Kenya. Three of the organizations
-      - CITE, Defy Hate Now and GhanaFact - either operate as fact-checking organizations
-      or have dedicated fact-checking teams, while AWJP, Debunk Media and Pamoja FM
-      have a more traditional newsroom structure.  \n\n![Screenshot of some of the
-      stories produced by the participating newsrooms](//images.ctfassets.net/g118h5yoccvd/5IO2nPHAZRlFCwpNVzTJgg/664913bdfc8951ef32ea4f1ef92dfafc/Screenshot_2022-02-25_at_17.13.59.png)\n<p
-      class=\"caption\">Some of the stories produced by the participating newsrooms</p>\n\nThe
-      overall goals of the project were to work with the participants to develop and
-      deliver quality health fact-checking content to their audiences, to experiment
-      with new platforms and types of content, to amplify credible and relatable local
-      sources of information, and to connect audiences with relevant experts, facilitating
-      meaningful conversations and a sharing of knowledge in impactful ways.\n\nWe
-      started off by holding co-design conversations with newsroom leaders to develop
-      workshops based on actual need and editorial priorities from participating organization.
-      We also surveyed participants on their skills and experience, as well as desired
-      workshop outcomes to figure out how we could best work together to achieve the
-      goals we had in mind. \n\nIn total, we had four workshops: Key methods and best
-      practices for Health Fact-Checking, Creating a Standard of Care for Health Misinformation,
-      Fact-checking and Mental Health, and Making Facts Go Viral. The first three
-      were conducted by Meedan, while the fourth, on designing content to ensure maximum
-      reach, was jointly organized by Meedan and the Africa Women Journalism Project.
-      \ \n\nThe Meedan team facilitated individual newsroom sessions on editorial
-      milestones for each group to pursue during the training project, and offered
-      regular access to timely, expert-vetted health content on Health Desk. \n\nOverall,
-      the participants indicated that they hoped to gain a better understanding of
-      health fact-checking in order to effectively respond to the health-related misinformation
-      that their audiences had experienced as a result of the COVID-19 pandemic. They
-      had also stated that they wanted to set up and strengthen their fact-checking
-      teams, as well as to update their internal processes, editorial standards and
-      workflows to include best practices for responding to health misinformation.
-      \n\nWe also maintained a clear focus on what the desired goals were, adapting
-      them as and when needed. We started this off by co-designing clear deliverables
-      driven largely by the needs of the participants, and these were formatted as
-      editorial milestones that they would work on through this workshop series in
-      order to ensure that the project deliverables would not be seen as 'external'
-      to the work that they were already doing in response to the COVID-19 pandemic.
-      This worked to also inform the session design and selection of focus areas for
-      the program. As a result, the newsrooms were free to either continue what they
-      were doing already or to start new initiatives with this program's support in
-      order to meet their and their audiences' needs.\n\nGoing forward, the participating
-      organisations have expressed interest in collaborating with each other in the
-      future, and this program has contributed a great deal to the start and continuation
-      of these conversations, and we look forward to collaborating with them in future."
-    words_by:
-    - sys:
-        id: 1li37dxrL8EvCi4fodABgR
-  - sys:
-      id: gV1aFmzuqtwBFrHbUu3CY
-      created_at: !ruby/object:DateTime 2022-02-15 18:44:46.387000000 Z
-      updated_at: !ruby/object:DateTime 2022-02-22 17:12:18.900000000 Z
-      content_type_id: story
-      revision: 2
-    title: Welcome back Dwight Knell, our Director of Operations
-    slug: welcome-dwight-knell-our-director-of-operations
-    topic:
-    - sys:
-        id: 32ogZlDIXFakgZXiZ8l3MT
-    lead_image:
-      sys:
-        id: 6ZE63Wh5ZAnXIM8dO8uR88
-        created_at: !ruby/object:DateTime 2022-02-15 19:02:42.618000000 Z
-        updated_at: !ruby/object:DateTime 2022-02-15 19:02:59.933000000 Z
-      title: Dwight Knell headshot
-      description: ''
-      url: "//images.ctfassets.net/g118h5yoccvd/6ZE63Wh5ZAnXIM8dO8uR88/da16052528743aeac53adcc5c1a14c46/dwight_headshot.jpeg"
-    body: "As our organization grows, Meedan seeks to rigorously and regularly improve
-      and scale our overall organizational operations. We are thrilled to welcome
-      back Dwight Knell to the organization. Dwight previously served as Program Lead
-      for the Credibility Coalition in 2018 and 2019 before he left to pursue his
-      Master of Public Policy from the [Harvard Kennedy School of Government](https://www.hks.harvard.edu/
-      \"Harvard Kennedy School of Government\"), where he most recently served as
-      a research fellow at the [Shorenstein Center](https://shorensteincenter.org/
-      \"Shorenstein Center\") on Media, Politics and Public Policy, where he studied
-      media manipulation and disinformation. \n\nDwight brings considerable operational
-      experience from his previous roles at [Hacks/Hackers](https://www.hackshackers.com/
-      \"Hacks/Hackers\") and [Common Sense Media](https://www.commonsensemedia.org/
-      \"Common Sense Media\"), and we are excited about the perspective he will bring
-      to our regular operations at the organization as we grow and expand our efforts.
-      Over the next few weeks, Meedan’s Operations team will be making further announcements
-      about our ongoing work.\n\nWe invite you to get to know Dwight in this brief
-      Q&A:\n\n### 1. What originally brought you to Meedan, and why were you interested
-      in coming back to the organization?\n\nI became familiar with Meedan when I
-      was producing [MisinfoCon](https://misinfocon.com/ \"MisinfoCon\") events in
-      2017-18. (Fun fact: I ended up producing three of them, in London, Kyiv and
-      DC, and Nat Gyenes, who is now Meedan’s Digital Health Lab Director, took over
-      my duties in London in 2018!). Meedan’s Director of Product at the time, An
-      Xiao Mina, was on one of our London panels, and she and I naturally clicked.
-      One thing led to another, and in 2018, I was brought on to Meedan for a year
-      to serve as Program Lead for the [Credibility Coalition](https://credibilitycoalition.org/
-      \"Credibility Coalition\") (aka CredCo), an initiative co-founded and managed
-      by Meedan and Hacks/Hackers. My job was to help scale the effort before I went
-      to grad school. In that role, I worked closely with a ton of Meedanis and felt
-      like part of the core team — it was such a great experience. \n\nFast forward
-      two and a half years, when An and I meet up for drinks in Brooklyn to catch
-      up in the brief respite between the Delta and Omicron variants in fall 2021.
-      I mention that I’m looking for a new opportunity, she mentions that Meedan needs
-      operational leadership during a period of rapid growth, and a return just seemed
-      like a natural fit. I only worked at CredCo for less than a year, so the prospect
-      of rejoining the awesomely talented team in a different capacity was extremely
-      appealing. \n\nAs I experienced firsthand, Meedan is an amazing organization
-      on so many levels: the people, the culture, the diversity, and of course, our
-      work. I’ve officially been in the misinformation space since 2017, and during
-      that time, I haven’t come across an organization quite like Meedan. It truly
-      is one of a kind and being given the opportunity to help ramp up our global
-      efforts in a major way is so exciting. \n\n### 2. What opportunities do you
-      see for operational growth at the organization? \n\nAny rapidly growing organization
-      can have growing pains. Luckily, An and the rest of the leadership team have
-      done a tremendous job establishing an effective and efficient operations infrastructure.
-      There are so many processes in place that just didn’t exist when I was at CredCo
-      a few years ago. \n\nAs a former chief of staff, I really enjoy setting up and
-      optimizing systems that make everyone’s lives easier. And that’s really how
-      I think of my role here: ensuring that Meedanis have the tools and resources
-      they need to be able to succeed and do their jobs effectively (and that they
-      love working here, of course!). As we grow, more and more needs will arise,
-      and it’s the operations team’s job to address those needs and implement solutions.
-      For example, we’re already engaging in discussions with companies to improve
-      our billing and invoicing systems as we move from one-off grants and contracts
-      to more SaaS and data sales. \n\n### 3. Tell us about your time at the Kennedy
-      School. What did you study during your time there and during your work as a
-      Shorenstein Center fellow?\n\nGoing back to school to earn my master’s degree
-      was overall a great experience. Due to COVID-19 restrictions, the entirety of
-      my second year was online, which was a bummer, but it also allowed us to work
-      on pandemic-specific policy projects (like [this one](https://www.hks.harvard.edu/faculty-research/policy-topics/health/designing-real-time-public-policy-during-pandemic
-      \"Designing real-time public policy during a pandemic in India\") on designing
-      real-time public policy during a pandemic in India), which was very interesting.
-      In general, HKS’s public policy program exposes students to a wide variety of
-      disciplines, and I had the opportunity to study with some of the world’s most
-      brilliant thinkers —  Wendy Sherman (who’s now Deputy Secretary of State), Cornel
-      West, David Gergen, Nancy Gibbs, Steve Krupin (President Obama’s former speechwriter),
-      Khalil Muhammad and Cornell Brooks, among others. The first year was mostly
-      core classes (including statistics and economics), but the second year was all
-      electives, which was fun. And of course, the students I met there are incredibly
-      motivated, amazing people who want to do good in the world. My thesis centered
-      on commercial evictions in Boston during the COVID-19 pandemic and what policies
-      could help small business owners - I wanted to focus on something topical that
-      policymakers in a major city could use to enact change. \n\nIn 2020, [Dr. Joan
-      Donovan](https://www.hks.harvard.edu/faculty/joan-donovan \"https://www.hks.harvard.edu/faculty/joan-donovan\"),
-      whom Meedan CEO Ed Bice actually first introduced me to at [RightsCon Toronto](https://www.rightscon.org/past-events/toronto-2018/
-      \"RightsCon Toronto\"), recruited me to be her research assistant and course
-      assistant, and that’s how I got involved in the Shorenstein Center again (after
-      an intitial stint in 2017 there as a political advisor). After graduation, I
-      joined the Center as a research fellow, alongside Jonathan Ong, whom Meedan
-      collaborates with as part of our [FACT CHAMP project](https://meedan.com/blog/fact-champ-launch/
-      \"FACT CHAMP project\"); [Maria Ressa(!)](https://meedan.com/blog/meedan-congratulates-maria-ressa-on-being-awarded-the-2021-nobel-peace-prize/
-      \"https://meedan.com/blog/meedan-congratulates-maria-ressa-on-being-awarded-the-2021-nobel-peace-prize/\");
-      Jane Lytvynenko and Brandy Zadrozny, among others. Her research team there,
-      the [Technology and Social Change Project](https://shorensteincenter.org/programs/technology-social-change/
-      \"Technology and Social Change Project\"), produces incredible work on mis and
-      disinformation. Some of the projects I worked on included the [Media Manipulation
-      Casebook](https://mediamanipulation.org/ \"https://mediamanipulation.org/\"),
-      which distributes a variety of case studies that fit within Dr. Donovan’s media
-      manipulation [lifecycle](https://mediamanipulation.org/methods \"Media manipulation
-      methods lifecycle\"), and more recently, the [Shorenstein Center News Leaders
-      program](https://newsleaders.shorensteincenter.org/ \"Shorenstein Center News
-      Leaders program\"), where I helped lead a series of meetings in which media
-      executives came together to discuss how to combat misinformation. \n\n### 4.
-      What role do you think Meedan can play in addressing questions around information
-      disorder, mis- and disinformation, and the larger media ecosystem?\n\nMeedan’s
-      global footprint makes us an integral player in the space. A lot of organizations
-      only focus on domestic issues, but our work reaches every continent, with partners
-      in Brazil, Egypt, Lebanon, Mexico, India, the Philippines and others. And we’re
-      not just playing at a high level in these countries — we’re getting deep into
-      the weeds to help combat mis and disinformation at a granular level as well.
-      This makes us a very appealing partner to like-minded folks around the world.
-      \n\nAnd our core products/projects are simply stellar: [Check Global](https://meedan.com/check-global
-      \"Check Global\"), the [Check platform](https://meedan.com/check \"Check platform\"),
-      our third-party fact-checking [efforts](https://meedan.com/files/Meedan-WhatsApp-Case-Study-End-to-End-Fact-Checking.pdf?utm_source=website&utm_medium=press-release&utm_campaign=global-fact
-      \"third party fact checking efforts\"), [Digital Health Lab](https://meedan.com/digital-health-lab
-      \"Digital Health Lab\"), [content moderation](https://meedan.com/reports/content-moderation-toolkit/
-      \"Content Moderation Toolkit\") (to name just a few)  are all essential tools
-      in the larger fight against mis and disinformation, to promote free and fair
-      elections, to protect the free press, and to ensure equitable access to information
-      worldwide. I should mention that I’m also going to be helping us significantly
-      grow our communications efforts so we can message all this effectively. People
-      need to know about our crucial work!\n\n### 5. Last you worked at Meedan, there
-      was no pandemic, and the pandemic shaped your own graduate studies experience.
-      Can you talk about the potential impact Meedan can have on public health discourse?\n\nWhat’s
-      crazy is that I have this specific memory of being at dinner with the Meedan
-      team in Perugia in April 2019 - and that’s when Nat found out that her initial
-      RWJF public health grant proposal had been accepted. We all celebrated, but
-      of course had no idea that the world would be in total lockdown less than a
-      year later. Needless to say, the pandemic has spawned an inordinate amount of
-      mis and disinformation that is literally costing us lives - so our work has
-      never been more important or timely. And this relates not only in the context
-      of the Digital Health Lab but also with our work more broadly. There has arguably
-      never been a time in Meedan’s existence in which our efforts have so much potential
-      to literally change lives; we’re helping people discern what’s true and what’s
-      not in a complex and convoluted digital world. The possibilites for us are endless.\n\n###
-      6. Tell us some fun facts about Dwight.\n- I’m a pretty active person: I’ve
-      summitted Mount Kilimanjaro and reached Mount Everest Base Camp, and I typically
-      go on an annual weeklong charity bike ride with a great organization called
-      Climate Ride. This past September, we rode some 300 miles through Maine. \n-
-      On the side, I love playing music (piano and bass) and acting. I’m actually
-      taking an acting class starting in the spring in NYC to get back into it. \n-
-      I love movies. If there’s interest, I’m actually thinking about starting a Meedan
-      film club \U0001F3A5\n- I grew up about a mile away from where I live now in
-      Brooklyn! Definitely feels like home, and the official Meedan NYC office will
-      be opening up soon :)\n- I have a 9-month-old puppy named Wally (picture below;
-      I send out way too many pics of him — sorry in advance). He’s cute but a LOT.\n\n<p
-      class=\"text-align--center\"><img src=\"//images.ctfassets.net/g118h5yoccvd/2hKqEYpNNmt1CnCgAxrXKM/cd6bee58c692eab764db28d779c29e9c/wally_dwights_puppy.jpeg?w=260\"
-      alt=\"Wally the Dog!\" /></p>\n<p class=\"caption text-align--center\">Dwight's
-      dog Wally.</p>"
 - sys:
     id: 4hDOrsmcTmB60zhqrzF6Xp
     created_at: !ruby/object:DateTime 2020-07-30 20:31:01.387000000 Z
