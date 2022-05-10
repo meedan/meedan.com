@@ -264,3 +264,25 @@ topic:
   title: Training
   slug: training
   topic: Training
+- sys:
+    id: 3EM4fCUKdWkSxS5WmdtLcQ
+    created_at: !ruby/object:DateTime 2022-05-03 18:58:35.994000000 Z
+    updated_at: !ruby/object:DateTime 2022-05-03 19:19:43.725000000 Z
+    content_type_id: topic
+    revision: 1
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: topic
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+    locale: en-US
+  title: Election Monitoring
+  slug: election monitoring
+  topic: Election Monitoring

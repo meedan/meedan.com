@@ -18538,10 +18538,10 @@ story:
   alt_date_string: '2022-04-08'
 - sys:
     id: 1OhnIBvTIcLXnpRaZMit44
-    created_at: &85 !ruby/object:DateTime 2022-04-26 19:46:20.150000000 Z
-    updated_at: !ruby/object:DateTime 2022-04-27 11:52:47.050000000 Z
+    created_at: !ruby/object:DateTime 2022-04-26 19:46:20.150000000 Z
+    updated_at: !ruby/object:DateTime 2022-05-02 19:50:34.324000000 Z
     content_type_id: story
-    revision: 0
+    revision: 5
     space:
       sys:
         id: g118h5yoccvd
@@ -18571,7 +18571,7 @@ story:
       sys:
         id: 3PBD4oU1rm36687rfhWhdv
         created_at: !ruby/object:DateTime 2022-04-27 11:52:46.430000000 Z
-        updated_at: !ruby/object:DateTime 2022-04-27 11:53:11.524000000 Z
+        updated_at: !ruby/object:DateTime 2022-04-29 19:16:09.658000000 Z
       title: meedan blog longform git commit
       description: ''
       url: "//images.ctfassets.net/g118h5yoccvd/3PBD4oU1rm36687rfhWhdv/8a34b14017daeab3d36ed968cbb15c5b/meedan_blog_longform_git_commit.png"
@@ -18581,7 +18581,10 @@ story:
   body: "On the Meedan engineering team we are trying to clean up the way we write
     Git commits in order to help our engineers communicate more clearly with one another
     and to make our jobs that much easier in the future when we’re looking back at
-    old code. One strategy we are attempting is to write longform Git commits.\n\n###
+    old code. One strategy we are attempting is to write longform Git commits.\n\n>
+    Meedan is hiring for our engineering team! Join us and enjoy the benefits of verbose
+    git commits. Positions are open for a [Backend Engineer (Remote)](https://meedan.bamboohr.com/jobs/view.php?id=30)
+    and a [Machine Learning Engineer](https://meedan.bamboohr.com/jobs/view.php?id=33).\n\n###
     What is a longform Git commit?\nWhen most engineers are taught how to commit a
     change to Git, we learn to do something like:\n\n<pre><code class=\"language-git\">\ngit
     commit -m \"This is my commit message\"\n</code></pre>\n\nThis certainly works,
@@ -18591,42 +18594,43 @@ story:
     this way. For example, ```!``` and newlines need to be escaped inside the message
     string.\n\nA good rule of thumb: ```git commit -m``` should not be your default!
     You should be doing `git commit` or `git commit -a`. Even better is ```git commit
-    -v -a```, which will pull up your editor of choice and let you easily write a
-    commit. The -v means \"verbose\" and will add a diff of all your changes, which\n\nWhat
-    should we use instead? Let's change some code and try:\n\n<pre><code class=\"language-git\">\n$
-    git commit -av\n</code></pre>\n\nYou probably already know that `-a` means \"add\",
-    which basically runs `git add .` before running the commit. But not a lot of people
-    know about `-v`, which stands for \"verbose\". This switch provides a diff inside
-    the text file you are going to edit in whatever git's default text editor is set
-    to. It will look something like this:\n\n<pre><code class=\"language-git\">\n#
-    Please enter the commit message for your changes. Lines starting\n# with '#' will
-    be ignored, and an empty message aborts the commit.\n#\n# On branch working\n#
-    Changes to be committed:\n#       modified:   foo.js\n#\n# ------------------------
-    >8 ------------------------\n# Do not modify or remove the line above.\n# Everything
-    below it will be ignored.\ndiff --git foo.js foo.js\nindex d575e27..6afb236 100644\n---
-    foo.js\n+++ foo.js\n@@ -6,6 +6,6 @@ \n function multiply(a, b) {\n-  return a
-    / b;\n+  return a * b;\n }\n </code></pre>\n\n Note the diff on the end, telling
-    us that we corrected the math in our multiply function.\n\nI find including the
-    diff helpful for writing the commit because I can simply refer to the changes
-    I've made right there. It also means that I can use autocomplete to complete variable
-    names because any code I wrote is down there. The diff won't be included in the
-    commit, just all the stuff above the comment lines.\n\nSo, what do we type here
-    now that we are in this document? I like to think of commits as emails, with a
-    subject, a body, and a footer.\n\nThe subject portion is the first line of the
-    text, before a line break. This briefly describes the changes we made in this
-    commit. In our case we might want it to be something like \"Fix our multiply function\".
-    This should be short, and written in the imperative voice (\"command\" words like
-    \"fix\" instead of \"fixed\" or \"fixes\"). Most guides out there say to keep
-    it to 50 characters or less. Popular text editors will even include helpful syntax
-    highlighting for your commit message. For example, if you have syntax on set in
-    Vim, it will highlight the first line in red if it goes over 50 characters in
-    length.\n\nThe body should explain what changed and why. The \"what\" describes
-    the techniques and solutions you applied. You might even link to blog posts that
-    helped you get a handle on the problem. I like to write the body of the message
-    in markdown, since it's pretty readable on its own and can easily be cut and pasted
-    into a pull request form on Github or Gitlab. The \"why\" doesn't mean from a
-    project management standpoint -- so no need to say \"I'm doing this because our
-    client asked for it\". What I mean by \"why\" here is relevant contextual information.
+    -v -a```, which will pull up [your editor of choice](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git
+    \"Associating text editors of your choice with git\") and let you easily write
+    a commit. The -v means \"verbose\" and will add a diff of all your changes. Let's
+    change some code and try:\n\n<pre><code class=\"language-git\">\n$ git commit
+    -av\n</code></pre>\n\nYou probably already know that `-a` means \"add\", which
+    basically runs `git add .` before running the commit. But not a lot of people
+    know about `-v`. This switch provides a diff inside the text file you are going
+    to edit in whatever git's default text editor is set to. It will look something
+    like this:\n\n<pre><code class=\"language-git\">\n# Please enter the commit message
+    for your changes. Lines starting\n# with '#' will be ignored, and an empty message
+    aborts the commit.\n#\n# On branch working\n# Changes to be committed:\n#       modified:
+    \  foo.js\n#\n# ------------------------ >8 ------------------------\n# Do not
+    modify or remove the line above.\n# Everything below it will be ignored.\ndiff
+    --git foo.js foo.js\nindex d575e27..6afb236 100644\n--- foo.js\n+++ foo.js\n@@
+    -6,6 +6,6 @@ \n function multiply(a, b) {\n-  return a / b;\n+  return a * b;\n
+    }\n </code></pre>\n\n Note the diff on the end, telling us that we corrected the
+    math in our multiply function.\n\nI find including the diff helpful for writing
+    the commit because I can simply refer to the changes I've made right there. It
+    also means that I can use autocomplete to complete variable names because any
+    code I wrote is down there. The diff won't be included in the commit, just all
+    the stuff above the comment lines.\n\nSo, what do we type here now that we are
+    in this document? I like to think of commits as emails, with a subject, a body,
+    and a footer.\n\nThe subject portion is the first line of the text, before a line
+    break. This briefly describes the changes we made in this commit. In our case
+    we might want it to be something like \"Fix our multiply function\". This should
+    be short, and written in the imperative voice (\"command\" words like \"fix\"
+    instead of \"fixed\" or \"fixes\"). Most guides out there say to keep it to 50
+    characters or less. Popular text editors will even include helpful syntax highlighting
+    for your commit message. For example, if you have syntax on set in Vim, it will
+    highlight the first line in red if it goes over 50 characters in length.\n\nThe
+    body should explain what changed and why. The \"what\" describes the techniques
+    and solutions you applied. You might even link to blog posts that helped you get
+    a handle on the problem. I like to write the body of the message in markdown,
+    since it's pretty readable on its own and can easily be cut and pasted into a
+    pull request form on Github or Gitlab. The \"why\" doesn't mean from a project
+    management standpoint -- so no need to say \"I'm doing this because our client
+    asked for it\". What I mean by \"why\" here is relevant contextual information.
     For example, why did you implement your change the way you did versus the other
     possible ways you could have done it?\n\nAnd the footer is any extra information,
     metadata-like stuff. This is usually where I put the issue number that the commit
@@ -18751,8 +18755,111 @@ story:
         en-US: Senior Frontend Engineer
       location:
         en-US: Portland
+  alt_date: !ruby/object:DateTime 2022-04-29 00:00:00.000000000 Z
   date: '2022-04-26'
   image: https://images.ctfassets.net/g118h5yoccvd/3PBD4oU1rm36687rfhWhdv/8a34b14017daeab3d36ed968cbb15c5b/meedan_blog_longform_git_commit.png
   title-en: How to write longform Git commits for better software development
-  alt_date: *85
-  alt_date_string: '2022-04-26'
+  alt_date_string: '2022-04-29'
+- sys:
+    id: 5VpsrpAXvls6pL7AsFzHBG
+    created_at: !ruby/object:DateTime 2022-05-03 18:56:30.158000000 Z
+    updated_at: !ruby/object:DateTime 2022-05-03 19:27:12.344000000 Z
+    content_type_id: story
+    revision: 2
+    space:
+      sys:
+        id: g118h5yoccvd
+    type: Entry
+    content_type:
+      sys:
+        id: story
+    environment:
+      sys:
+        id: master
+        type: Link
+        linkType: Environment
+  title: '2022 French Elections: Meedan software supported Agence-France Presse'
+  slug: 2022-french-elections-meedan-software-supported-agence-france-presse
+  topic:
+    en-US:
+    - sys:
+        id: 3EM4fCUKdWkSxS5WmdtLcQ
+        created_at: !ruby/object:DateTime 2022-05-03 18:58:35.994000000 Z
+        updated_at: !ruby/object:DateTime 2022-05-03 19:19:43.725000000 Z
+        content_type_id: topic
+        revision: 1
+      title:
+        en-US: Election Monitoring
+  lead_image:
+    en-US:
+      sys:
+        id: 1iCWZKGTqaFk31Q4FC8wV5
+        created_at: !ruby/object:DateTime 2022-05-03 19:14:30.354000000 Z
+        updated_at: !ruby/object:DateTime 2022-05-03 19:19:53.876000000 Z
+      title: Meedan software supported Agence-France Presse
+      description: 'Meedan software supported Agence-France Presse
+
+'
+      url: "//images.ctfassets.net/g118h5yoccvd/1iCWZKGTqaFk31Q4FC8wV5/091c2fa93750d73cadcf92530612e7cf/meedan_blog_AFP_Elections_Write_Up.png"
+    description: 'Meedan software supported Agence-France Presse
+
+'
+    title: Meedan software supported Agence-France Presse
+    url: "//images.ctfassets.net/g118h5yoccvd/1iCWZKGTqaFk31Q4FC8wV5/091c2fa93750d73cadcf92530612e7cf/meedan_blog_AFP_Elections_Write_Up.png"
+  social_card_image:
+    en-US:
+      sys:
+        id: 1iCWZKGTqaFk31Q4FC8wV5
+        created_at: !ruby/object:DateTime 2022-05-03 19:14:30.354000000 Z
+        updated_at: !ruby/object:DateTime 2022-05-03 19:19:53.876000000 Z
+      title: Meedan software supported Agence-France Presse
+      description: 'Meedan software supported Agence-France Presse
+
+'
+      url: "//images.ctfassets.net/g118h5yoccvd/1iCWZKGTqaFk31Q4FC8wV5/091c2fa93750d73cadcf92530612e7cf/meedan_blog_AFP_Elections_Write_Up.png"
+  description:
+    en-US: In the closely watched French presidential election that saw Prime Minister
+      Emmanuel Macron re-elected in a high stakes battle against far-right candidate
+      Marine LePen, Meedan software supported French news distributor Agence France
+      Presse (AFP) on fact-checking initiatives in the country.
+  body: "Misinformation about the election targeted the candidates, as well as the
+    country’s broader voting system and hot button issues like migration and the war
+    in Ukraine, according to [news reports](https://www.bbc.co.uk/news/61179620 \"News
+    Reports\"). Meedan worked with AFP’s fact-checking unit to build infrastructure
+    across multiple social media platforms to monitor and debunk false and misleading
+    claims surrounding the race. \n\nThe global news service used Meedan’s Check software
+    to bring in claims from Facebook Messenger, Twitter and WhatsApp, debunk them,
+    and then send them back out to social media users. In total, the project brought
+    in more than 2,000 conversations between social media users and AFP journalists,
+    and led to more than 900 fact-checks published to audiences. \n\n> “Check enabled
+    us to detect viral posts and emerging controversies around the French presidential
+    election and the candidates' campaigns, while improving our relations with our
+    readers. In particular, some followers have been questioning the legality of the
+    electoral process, for instance around the vote counting,” said AFP journalist
+    Julien Nguyen-Dang. \n\nMeedan works with AFP on elections in five markets: Brazil,
+    India, France, Germany and Mexico. \n\nThis model is part of a broader 2022 election
+    monitoring vertical within Meedan. Our team is collaborating with leading newsrooms,
+    fact-checkers, civil society organizations, and governmental organizations to
+    build supportive infrastructure and programming to improve the integrity of elections
+    around the world. In the Philippines, we’re currently working with award-winning
+    news outlet Rappler to organize more than 120 partners in the #FactsFirstPH consortium
+    ahead of the May 2022 elections. \n\nIf you’re a newsroom and you want to talk
+    about election monitoring software, email us at [hello@meedan.com](mailto:hello@meedan.com
+    \"Hello Meedan\") for more information. "
+  words_by:
+    en-US:
+    - sys:
+        id: 3OGTfk2daYTS1m4UWyhsdv
+        created_at: !ruby/object:DateTime 2022-05-03 19:03:54.668000000 Z
+        updated_at: !ruby/object:DateTime 2022-05-03 19:20:09.287000000 Z
+        content_type_id: contributor
+        revision: 1
+      name:
+        en-US: Megan Marrelli
+      staff:
+        en-US: true
+  alt_date: !ruby/object:DateTime 2022-05-03 00:00:00.000000000 Z
+  date: '2022-05-03'
+  image: https://images.ctfassets.net/g118h5yoccvd/1iCWZKGTqaFk31Q4FC8wV5/091c2fa93750d73cadcf92530612e7cf/meedan_blog_AFP_Elections_Write_Up.png
+  title-en: '2022 French Elections: Meedan software supported Agence-France Presse'
+  alt_date_string: '2022-05-03'
