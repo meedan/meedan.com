@@ -24,7 +24,6 @@
 /.well-known/*                           /well-known/:splat                 200
 
 # Domain Redirects
-https://about.meedan.com/                 https://meedan.com/     301!
 https://next.meedan.com/*                 https://meedan.com/:splat     301!
 https://health.meedan.com/*               https://meedan.com/digital-health-lab:splat     301!
 https://health.meedan.com/primer.pdf*     https://meedan.com/files/Meedan_Health-Equity-through-health-fact-checking:splat     301!

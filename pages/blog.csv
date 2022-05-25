@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: /blog.csv
+---
+{% assign stories = site.data.contentful.spaces.stories.story %}
+title,slug,Post Body,Lead Image,type,Words by,Custom Published On,tags
+{% for story in stories %}"{{ story.title | strip | xml_escape }}",{{ story.slug }},"{{ story.body | markdownify | xml_escape | csv_escape | csv_escape_2 }}",{% if story.lead_image.en-US.url %}{{ story.lead_image.en-US.url | strip | prepend: "https:" }}{% else %}https://unsplash.com/photos/8oB43mw658c/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTZ8fHdvbWVufGVufDB8fHx8MTY1MDI2ODYzOQ{% endif %},"Blog Post",{% if story.words_by.en-US %}{% for a in story.words_by.en-US %}{{ a.name.en-US | append: ";" }}{% endfor %}{% endif %},{% if story.alt_date %}{{ story.alt_date }}{% else %}{{ story.sys.created_at }}{% endif %},{% if story.topic.en-US %}{% for t in story.topic.en-US %}{{ t.title.en-US | append: ";" }}{% endfor %}{% endif %}
+{% endfor %}

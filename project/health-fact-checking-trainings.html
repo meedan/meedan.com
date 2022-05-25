@@ -1,0 +1,38 @@
+---
+title: Health Fact-Checking Trainings
+short_title: Projects
+layout: landing_page
+class: campaign project bg-color--pale-purple
+permalink: /project/health-fact-checking-trainings
+h2: <span class="">Health Fact-Checking Trainings</span>
+description: | 
+    We are training fact-checkers at all levels on how to responsibly handle health misinformation. 
+---
+{%
+    assign project = site.data.contentful.spaces.projects.project 
+    | where_exp: "item","item.sys.id == '6wYzTb5q9VfeVAfgCbyc61'" 
+%}
+<div class="main-grid">
+    {% if project[0].tags %}
+        <div class="tags">
+            {% for tag in project[0].tags %}
+                <span class="tag ">{{ tag.title }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+<div class="module section-margin">
+    <div class="main-grid">
+        <div class="grid-column--span-6">
+            <p class="font-size--scale-2">We are training fact-checkers at all levels on how to responsibly handle health misinformation.</p>
+            <p>From India to Indonesia to Colombia to Nigeria, our training programs are co-designed with participants, tackling health topics and fact-checking challenges that are defined by the journalists and communicators we work with.</p>
+        </div>
+        <div class="grid-column--span-6">
+            <img class="display--block" src="//images.ctfassets.net/g118h5yoccvd/5Wfz0Q8Zhm2FdacxIsQLuC/dbd6f458cb27611277c8a6b910182c0e/meedan_project_health-fact-checking-trainings.png" alt="Health Fact-checking Trainings" />
+        </div>
+    </div>
+</div>
+{% include module_project_story_list.html story_list="7vZmYZOfdCLUa1e3mQyNZw" title="In 2020, we trained emerging fact-checkers from eight countries on topics including:" %}
+<div class="main-grid section-margin">
+</div>
+{% include footer_small.html %}
