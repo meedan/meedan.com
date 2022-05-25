@@ -35,9 +35,6 @@ social:
 livereload: true    # You no longer need to include --livereload
 reload_port: 5678    # If you don't want to use the default port
 
-# Include _redirects and _headers file
-include: [_redirects, _headers]
-
 # Get data from Contentful Develop Environment
 contentful:
   output: true
@@ -87,85 +84,6 @@ contentful:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
-    - userGuides: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'userGuide'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        destination: 'contentful/spaces/'
-    - programs: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'program'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        destination: 'contentful/spaces/'
-    - projects: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'project'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        destination: 'contentful/spaces/'
-    - topics: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'topic'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        content_types:
-          topic: TopicMapper
-        destination: 'contentful/spaces/'
-    - stories: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          locale: '*'
-          content_type: 'story'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        content_types:
-          story: StoryMapper
-        destination: 'contentful/spaces/'
-    - jobs: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'job'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        content_types:
-          job: JobsMapper
-        destination: 'contentful/spaces/'
-    - pages: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'page'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        destination: 'contentful/spaces/'
-    - moduleStories: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'moduleStories'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        destination: 'contentful/spaces/'
     - moduleList: 
         space: ENV_CONTENTFUL_M_SPACE_ID
         access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
@@ -184,68 +102,6 @@ contentful:
           api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
-    - pages: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'page'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        destination: 'contentful/spaces/'
-    - events: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'event'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        content_types:
-          event: EventsMapper
-        destination: 'contentful/spaces/'
-    - moduleEvents: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'moduleEvents'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        content_types:
-          event: EventsMapper
-        destination: 'contentful/spaces/'
-    - publications: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'publication'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        content_types:
-          publication: PublicationMapper
-        destination: 'contentful/spaces/'
-    - reports: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'report'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        content_types:
-          report: ReportMapper
-        destination: 'contentful/spaces/'
-    - contributors: 
-        space: ENV_CONTENTFUL_M_SPACE_ID
-        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
-        cda_query:
-          content_type: 'contributor'
-        client_options:
-          api_url: ENV_CONTENTFUL_API_URL
-        all_entries: true
-        destination: 'contentful/spaces/'
 
 
 # Generate pages from Contentful data files
@@ -255,46 +111,3 @@ page_gen:
     template: 'annual_report'
     name: 'slug'
     dir: '/'
-  - data: 'contentful.spaces.userGuides.userGuide'
-    template: 'user_guide'
-    name: 'slug'
-    dir: '/user-guides/'
-  - data: 'contentful.spaces.stories.story'
-    template: 'story'
-    name: 'slug'
-    dir: '/blog/'
-  - data: 'contentful.spaces.pages.page'
-    template: 'page'
-    name: 'slug'
-    dir: '/'
-  - data: 'contentful.spaces.stories.story'
-    template: 'story-es'
-    name: 'slug'
-    dir: '/blog/es/'
-    filter: 'body-es'
-  - data: 'contentful.spaces.stories.story'
-    template: 'story-pt'
-    name: 'slug'
-    dir: '/blog/pt/'
-    filter: 'body-pt'
-  - data: 'contentful.spaces.stories.story'
-    template: 'story-ar'
-    name: 'slug'
-    dir: '/blog/ar/'
-    filter: 'body-ar'
-  - data: 'contentful.spaces.events.event'
-    template: 'event'
-    name: 'slug'
-    dir: '/events/'
-  - data: 'contentful.spaces.publications.publication'
-    template: 'publication'
-    name: 'slug'
-    dir: '/reports/'
-  - data: 'contentful.spaces.reports.report'
-    template: 'report'
-    name: 'slug'
-    dir: '/reports/'
-  - data: 'contentful.spaces.topics.topic'
-    template: 'topic'
-    name: 'slug'
-    dir: '/blog/'
